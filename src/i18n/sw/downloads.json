@@ -1,0 +1,92 @@
+{
+  "dl_1": {
+    "id": "dl_1",
+    "title": "Orodha ya Ukaguzi wa Ukarabati Mkubwa wa Turbine",
+    "desc": "Orodha ya ukaguzi hatua kwa hatua kwa ukarabati mkubwa na mdogo wa turbine. Inajumuisha nafasi za kiufundi (clearances), uwiano wa mzunguko, uthibitisho wa msokoto (torque), na ukaguzi kabla ya kuanzisha.",
+    "category": "Matengenezo",
+    "tags": [
+      "Turbine",
+      "Ukarabati",
+      "Orodha ya Ukaguzi"
+    ],
+    "fileSize": "420 KB",
+    "fileType": "PDF",
+    "file": "turbine-overhaul-checklist.pdf",
+    "featured": true
+  },
+  "dl_2": {
+    "id": "dl_2",
+    "title": "Karatasi ya Data ya Kichujio — Mafuta ya Kulainisha",
+    "desc": "Viwango vya kiufundi, michoro ya tofauti ya shinikizo, na jedwali la uendanifu kwa vichujio vyote vya mafuta ya kulainisha vinavyotolewa na Keshav Enterprises.",
+    "category": "Karatasi za Data",
+    "tags": [
+      "Uchujaji",
+      "Mafuta ya Kulainisha",
+      "Karatasi ya Data"
+    ],
+    "fileSize": "1.2 MB",
+    "fileType": "PDF",
+    "file": "filter-element-datasheet-lube-oil.pdf",
+    "featured": false
+  },
+  "dl_3": {
+    "id": "dl_3",
+    "title": "Orodha ya Ukaguzi wa Usafishaji wa Mafuta ya Kulainisha",
+    "desc": "Orodha ya ukaguzi ya utaratibu wa usafishaji unaokidhi ISO. Inajumuisha uwekaji wa mfumo wa sentrifiuji unaotembea, taratibu za sampuli za mafuta, uthibitisho wa usafi, na uidhinishaji.",
+    "category": "Matengenezo",
+    "tags": [
+      "Mafuta ya Kulainisha",
+      "Usafishaji",
+      "ISO"
+    ],
+    "fileSize": "310 KB",
+    "fileType": "PDF",
+    "file": "lube-oil-flushing-checklist.pdf",
+    "featured": false
+  },
+  "dl_4": {
+    "id": "dl_4",
+    "title": "Rejea ya Uchaguzi wa Bearing na Nafasi za Kiufundi",
+    "desc": "Mwongozo wa haraka wa rejea kwa uchaguzi wa bearing, nafasi za journal, na mipaka ya radial/axial katika chapa za kawaida za turbine za mvuke.",
+    "category": "Miongozo ya Kiufundi",
+    "tags": [
+      "Bearing",
+      "Nafasi za Kiufundi",
+      "Rejea"
+    ],
+    "fileSize": "680 KB",
+    "fileType": "PDF",
+    "file": "bearing-selection-clearance-reference.pdf",
+    "featured": false
+  },
+  "dl_5": {
+    "id": "dl_5",
+    "title": "Fomu ya Ombi la Bei ya Turbine",
+    "desc": "Fomu tupu ya vipimo vya turbine kwa ajili ya kuomba bei ya ukarabati au ukarabati mkubwa. Jaza chapa, mfano, nguvu, na historia ya huduma yako.",
+    "category": "Ombi la Bei / Fomu",
+    "tags": [
+      "Ombi la Bei",
+      "Fomu",
+      "Bei"
+    ],
+    "fileSize": "185 KB",
+    "fileType": "XLSX",
+    "file": "turbine-rfq-template.xlsx",
+    "featured": true
+  },
+  "dl_6": {
+    "id": "dl_6",
+    "title": "Wasifu wa Kampuni ya Keshav Enterprises",
+    "desc": "Uwasilishaji wa uwezo kwa timu za ununuzi na wasimamizi wa viwanda. Inajumuisha huduma, chapa za OEM zinazoshughulikiwa, vifaa vya karakhana, na miradi ya rejea.",
+    "category": "Kampuni",
+    "tags": [
+      "Wasifu",
+      "Uwezo",
+      "Kijitabu"
+    ],
+    "fileSize": "3.4 MB",
+    "fileType": "PDF",
+    "file": "keshav-enterprises-company-profile.pdf",
+    "featured": false
+  }
+}

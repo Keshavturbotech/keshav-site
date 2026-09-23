@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "titleTemplate": "Keshav Enterprises Hakkında — {years}+ Yıllık Türbin Mühendisliği",
+    "descriptionTemplate": "Keshav Enterprises — Shamli, UP, Hindistan'dan {years}+ yıllık endüstriyel türbin mühendisliği, tersine mühendislik ve OEM uyumlu yedek parçalar. Triveni, Siemens, BHEL'den OEM kökenli mühendisler.",
+    "schemaName": "Keshav Enterprises Hakkında",
+    "schemaDescriptionTemplate": "Keshav Enterprises — Shamli, UP, Hindistan'dan {years}+ yıllık endüstriyel türbin mühendisliği, tersine mühendislik ve OEM uyumlu yedek parça imalatı."
+  },
+  "hero": {
+    "eyebrow": "Hikayemiz",
+    "h1Line1": "İki On Yıllık",
+    "h1Span": "Hassas Mühendislik",
+    "quote": "“Tesis duruşuna sıfır tolerans — bu bir slogan değil. Her müşterinin bizden beklediği mühendislik standardı.”",
+    "intro": "Shamli, Uttar Pradesh'te uzman bir türbin bakım kuruluşundan — enerji santralleri, şeker fabrikaları, rafineriler ve proses endüstrileri için güvenilir Hindistan genelinde bir mühendislik ortağına dönüştük. Triveni, Siemens, BHEL, Man Turbo, KKK ve ABB'den OEM kökenli uzmanlık üzerine kurulu. Tek bir görevle yönlendirildik: maksimum kullanılabilirlik.",
+    "tags": [
+      "OEM Kökenli Mühendisler",
+      "3D Lazer Tarama",
+      "CMM Hassasiyeti",
+      "7/24 Yanıt",
+      "IEC Kayıtlı",
+      "İhracata Hazır",
+      "IndiaMART TrustSeal",
+      "Make In India",
+      "MSME Kayıtlı"
+    ],
+    "ctaServices": "Hizmetlerimiz",
+    "ctaContact": "Mühendislik Ekibiyle İletişime Geçin",
+    "statCards": [
+      {
+        "label": "Faaliyet Yılı",
+        "subTemplate": "{founded}'den beri"
+      },
+      {
+        "label": "OEM Markaları",
+        "sub": "Triveni · Siemens · BHEL"
+      },
+      {
+        "label": "Maksimum Türbin",
+        "sub": "60 M.W.'a kadar"
+      },
+      {
+        "label": "Acil Destek",
+        "sub": "Çok lokasyonlu mühendisler"
+      }
+    ],
+    "trustBadges": {
+      "indiamartTitle": "IndiaMART TrustSeal Doğrulandı",
+      "indiamartSub": "50+ alıcı yorumu · 4,3/5 puan",
+      "msmeTitle": "MSME Kayıtlı",
+      "msmeSub": "Udyam Sertifikalı İşletme · Hindistan Hükümeti"
+    }
+  },
+  "statsBar": [
+    {
+      "label": "Faaliyet Yılı",
+      "subTemplate": "{founded}'den beri"
+    },
+    {
+      "label": "Kapsanan OEM Markaları",
+      "sub": "Triveni · Siemens · BHEL"
+    },
+    {
+      "label": "İşlenen Maksimum Türbin",
+      "sub": "60 M.W.'a kadar"
+    },
+    {
+      "label": "Acil Müdahale",
+      "sub": "Çok lokasyonlu mühendisler"
+    }
+  ],
+  "overview": {
+    "eyebrow": "Biz Kimiz",
+    "heading": "Hindistan'ın Endüstriyel Omurgası için Mühendislik Ortakları",
+    "paragraphs": [
+      "Keshav Enterprises, Shamli, Uttar Pradesh merkezli hassas bir endüstriyel mühendislik şirketidir. İki on yılı aşkın süredir, Hindistan'ın en zorlu endüstriyel sektörlerine uzman türbin bakımı, tersine mühendislik ve OEM uyumlu yedek parçalar sağlıyoruz.",
+      "Mühendislik ekibimiz Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK ve ABB'den OEM kökenli uzmanları içerir — müşterilere orijinal ekipman üreticileriyle aynı düzeyde teknik uzmanlığı, teslim süresi ve maliyetin çok küçük bir kısmıyla sunar.",
+      "5 kW'dan 60 MW'a kadar buhar türbinlerini kapsıyoruz — karşı basınçlı ve kondansasyonlu, yatay ve dikey, tek ve çok kademeli. Atölyemiz 3D lazer tarayıcılar, CMM koordinat ölçüm makineleri, dinamik balans makineleri (50–2.000 kg) ve hassas CNC tornalarla donatılmıştır."
+    ],
+    "coreCapabilitiesHeading": "Temel Yetkinlikler",
+    "coreCapabilitiesList": [
+      "Türbin montajı, devreye alma ve anahtar teslim revizyon",
+      "3D lazer tarama ve CMM kullanarak hassas tersine mühendislik",
+      "ISO 1940 / API 670'e göre dinamik balans (50–2.000 kg)",
+      "ISO 4406:99 temizlik sınıflandırmasına göre yağlama yağı yıkama",
+      "En son lazer hizalama teknolojisini kullanarak makine hizalama",
+      "İmalat: filtre elemanları, HVAC hava filtreleri, genleşme contaları, süzgeçler",
+      "Türbin yedek parçaları: yataklar, contalar, rotorlar, gövernörler, valfler",
+      "7/24 acil arıza müdahalesi, çok lokasyonlu mühendisler"
+    ],
+    "locationHeading": "Konumumuz",
+    "gstLabel": "GST"
+  },
+  "gallery": {
+    "eyebrow": "Endüstriyel Kullanılabilirlik için İnşa Edildi",
+    "headingLine1": "Türbininiz İhtiyaç Duyuyorsa,",
+    "headingLine2": "Biz Üretiriz.",
+    "subheadingTemplate": "9 kategoride {productCount}+ hassas mühendislikli bileşen — OEM uyumlu filtre elemanlarından ve HVAC hava filtrelerinden, tesisiniz aradığı hafta gönderilen türbin yedek parçalarına kadar.",
+    "cards": {
+      "workshopFloor": {
+        "caption": "Atölye Zemini",
+        "desc": "Rotor mil işleme, parlatma ve labirent bölümü işleri için hassas CNC tornalar, kopya tornalar ve taşlama makineleri."
+      },
+      "ourServices": {
+        "caption": "Hizmetlerimiz",
+        "desc": "8 uzman hizmet — türbin montajı ve devreye alma, anahtar teslim revizyon, tersine mühendislik, dinamik balans, yağlama yağı yıkama, makine hizalama, kumlama ve 7/24 arıza giderme.",
+        "linkLabel": "Hizmetlere Göz At"
+      },
+      "productRange": {
+        "caption": "Ürün Yelpazesi",
+        "descTemplate": "9 kategoride {productCount} mühendislik ürünü — filtrasyon, HVAC hava filtreleri, süzgeçler, genleşme contaları, türbin yedek parçaları, kauçuk ürünler, esnek hortumlar, elektronik ekipman ve hidrolik bileşenler.",
+        "linkLabel": "Ürünlere Göz At"
+      },
+      "rotorInspection": {
+        "caption": "Rotor İncelemesi",
+        "desc": "OEM kökenli mühendisler, inceleme sırasında her boşluğu, aralığı ve boyutu ölçer ve kaydeder — her işle birlikte tam durum raporu."
+      }
+    },
+    "browseFullCatalog": "Tüm Ürün Kataloğuna Göz At"
+  },
+  "values": {
+    "eyebrow": "Bizi Yönlendiren",
+    "heading": "Temel Değerlerimiz",
+    "items": [
+      {
+        "label": "Mühendislik Bütünlüğü",
+        "text": "Her bileşen, her boşluk, her boyut belgelenir ve doğrulanır. Güvenlik açısından kritik döner ekipmanlarda kısayol yoktur."
+      },
+      {
+        "label": "OEM Kalitesinde Standartlar",
+        "text": "Triveni, Siemens, BHEL ve ABB'den OEM kökenli mühendisler, orijinal üreticiyle aynı standartta bakım sağlar."
+      },
+      {
+        "label": "Tersine Mühendislikte İnovasyon",
+        "text": "3D tarama ve PMI testi, müşterilere 12-18 aylık OEM teslim süreleri olmadan üretimi durdurulmuş yedek parçalara erişim sağlar."
+      },
+      {
+        "label": "Müşteri Kullanılabilirliği Önce Gelir",
+        "text": "Başarıyı tesis kullanılabilirliğiyle ölçüyoruz. Duruşlar mesai saatlerine uymadığı için 7/24 acil müdahale."
+      }
+    ]
+  },
+  "milestones": {
+    "eyebrow": "Yolculuğumuz",
+    "heading": "Şirket Kilometre Taşları",
+    "items": [
+      {
+        "year": "2000'ler",
+        "title": "Kuruluş",
+        "desc": "Shamli, UP'de yerel şeker fabrikalarına uygulamalı revizyon uzmanlığıyla hizmet veren uzman bir türbin bakım kuruluşu olarak kuruldu."
+      },
+      {
+        "year": "2005",
+        "title": "OEM Uzmanlığı",
+        "desc": "Triveni, BHEL ve Belliss & Morcom'dan OEM kökenli mühendislerden oluşan özel bir ekip kurduk — gerçek birebir OEM bakım standartlarını mümkün kıldı."
+      },
+      {
+        "year": "2010",
+        "title": "Tersine Mühendislik",
+        "desc": "Üretimi durdurulmuş türbin bileşenleri için sıfır OEM bağımlılığıyla iç bünyede tersine mühendislik sunmak üzere 3D lazer tarama ve CMM ekipmanına yatırım yaptık."
+      },
+      {
+        "year": "2015",
+        "title": "Ürün Yelpazesi Genişlemesi",
+        "desc": "Filtrasyon, HVAC hava filtreleri, genleşme contaları, süzgeçler, kauçuk ürünler ve esnek hortum gruplarını kapsayan kapsamlı bir endüstriyel ürün hattı başlattık."
+      },
+      {
+        "year": "2020",
+        "title": "ISO/API Balans",
+        "desc": "ISO 1940 / API 670 standartlarına göre dinamik balans makinelerini devreye aldık — 50 ila 2.000 kg arası rotorları işleyerek."
+      },
+      {
+        "year": "Bugün",
+        "title": "İhracata Hazır",
+        "desc": "DGFT ile IEC kayıtlı — türbin bileşenleri, filtrasyon ürünleri ve endüstriyel yedek parçalar ISO/API/ASME standartlarına göre imal edilir ve ihracat için HSN sınıflandırılır, yurt dışı alıcılar için belge desteğiyle. 7/24 acil mühendislik desteğiyle Hindistan genelindeki yurt içi erişim devam ediyor."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "İşin Arkasındaki İnsanlar",
+    "heading": "OEM Kökenli Mühendislik Uzmanlığı",
+    "subheading": "Mühendislerimiz OEM fabrikaları ve saha servis ekipleri içinde eğitildi ve görevlendirildi — sadece OEM ekipmanı üzerinde eğitilmediler. Bu fark, kaydedilen her boşluğun kalitesinde kendini gösteriyor.",
+    "expSuffix": "deneyim",
+    "namesWithheldNote": "Mühendislerimizi rakip teklif tekliflerinden korumak için isimler gizli tutulmuştur. Ciddi talepler için doğrulanabilir istihdam geçmişi mevcuttur.",
+    "members": {
+      "sk": {
+        "name": "Kıdemli Mühendis — Triveni & BHEL",
+        "spec": "Türbin revizyonu · Montaj ve devreye alma · Titreşim analizi"
+      },
+      "rk": {
+        "name": "Kıdemli Mühendis — Siemens & KKK",
+        "spec": "Tersine mühendislik · CMM ve PMI testi · Rotor işleme"
+      },
+      "as": {
+        "name": "Saha Mühendisi — Belliss & Man Turbo",
+        "spec": "Acil arıza · Hizalama · Yağlama yağı sistemleri"
+      },
+      "vp": {
+        "name": "Balans Uzmanı",
+        "spec": "Dinamik balans ISO 1940 / API 670 · 50–2.000 kg rotorlar"
+      },
+      "mt": {
+        "name": "Atölye Lideri — İşleme",
+        "spec": "Mil taşlama · Labirent işleme · Karbon halka imalatı"
+      },
+      "pd": {
+        "name": "Ürünler ve Filtrasyon Lideri",
+        "spec": "Filtre elemanı tedariki · HVAC hava filtreleri · Genleşme contaları · Süzgeçler"
+      }
+    }
+  },
+  "oemSection": {
+    "eyebrow": "OEM Uzmanlığı",
+    "headingLine1": "10+ OEM Markası.",
+    "headingLine2": "Tek Mühendislik Ortağı.",
+    "sub": "OEM kökenli mühendislerimiz tüm büyük türbin markalarıyla uygulamalı deneyime sahiptir. Öğrenme eğrisi yok. İlk günden itibaren yetkin teknik uzmanlık."
+  },
+  "exportSection": {
+    "eyebrow": "İhracata Hazır",
+    "headingLine1": "İhracat Alıcılarının",
+    "headingSpan": "Kolayca İnceleyebilmesi İçin İnşa Edildi",
+    "paragraphs": [
+      "Keshav Enterprises, türbin mühendisliği yedek parçalarını, endüstriyel filtrasyon ürünlerini ve OEM uyumlu bileşenleri Hindistan dışına sevk etmek için gerekli yasal kimlik bilgisi olan, DGFT tarafından verilen aktif bir İthalatçı-İhracatçı Kodu (IEC) tutmaktadır.",
+      "Hassas imal edilmiş ürünlerimiz ISO 16889, API 614 ve ASME Sec. VIII dahil uluslararası standartlara göre üretilmekte ve standart HSN ihracat kodları altında sınıflandırılmaktadır, böylece yurt dışı alıcılar sipariş vermeden önce uyumluluğu doğrulayabilir."
+    ],
+    "standards": [
+      {
+        "stat": "ISO 16889",
+        "label": "Filtrasyon Standardı"
+      },
+      {
+        "stat": "API 614",
+        "label": "Yağlama Yağı Sistemi Std."
+      },
+      {
+        "stat": "ASME VIII",
+        "label": "Basınçlı Kap Std."
+      },
+      {
+        "stat": "HSN 8421",
+        "label": "İhracat Sınıflandırması"
+      }
+    ],
+    "iecCardTitle": "IEC Kayıtlı İhracatçı",
+    "iecCardDescTemplate": "DGFT İthalatçı-İhracatçı Kodu {iec} — aktif ve doğrulanabilir",
+    "checklistTitle": "İhracata Hazırlık Kontrol Listesi",
+    "checklistItems": [
+      "DGFT tarafından verilen aktif IEC — yasal olarak ihracata uygun",
+      "Ürünler standart HSN ihracat kodları altında sınıflandırılmıştır",
+      "ISO, API ve ASME uluslararası standartlarına göre imal edilmiştir",
+      "İngilizce veri sayfaları, test sertifikaları ve KK dokümantasyonu",
+      "Tam ihracat faturalama uyumluluğuyla GST kayıtlı",
+      "Shamli, Uttar Pradesh'te MSME kayıtlı üretim tesisi"
+    ],
+    "credentialLabels": {
+      "gst": "GST",
+      "msme": "MSME/Udyam",
+      "iec": "IEC"
+    }
+  },
+  "finalCta": {
+    "heading": "Bizimle çalışmaya hazır mısınız?",
+    "subheading": "Bize türbin markanızı, kapasitenizi ve ihtiyacınızı söyleyin — satış konuşması değil, mühendislik ile yanıt veriyoruz.",
+    "ctaQuote": "Teknik Teklif Alın",
+    "ctaServices": "Tüm Hizmetleri Görüntüle"
+  }
+}

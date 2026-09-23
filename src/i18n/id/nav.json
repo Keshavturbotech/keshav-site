@@ -1,0 +1,29 @@
+{
+  "/": {
+    "label": "Beranda"
+  },
+  "/about": {
+    "label": "Tentang"
+  },
+  "/services": {
+    "label": "Layanan"
+  },
+  "/products": {
+    "label": "Produk"
+  },
+  "/industries": {
+    "label": "Industri"
+  },
+  "/contact": {
+    "label": "Kontak"
+  },
+  "/projects": {
+    "label": "Proyek"
+  },
+  "/blog": {
+    "label": "Blog"
+  },
+  "/downloads": {
+    "label": "Unduhan"
+  }
+}

@@ -1,0 +1,527 @@
+---
+// src/pages/projects/[id].astro
+// Ported from ProjectDetailPage in App.jsx (line ~25816).
+import Layout from "../../layouts/Layout.astro";
+import { localizedPath } from "../../lib/localeMeta";
+import type { CaseStudy } from "../../data/case-studies";
+import { CASE_STUDIES as CASE_STUDIES_EN } from "../../data/case-studies";
+import type { Service } from "../../data/services";
+import { CONTACT_INFO } from "../../data/site-config";
+import { getLocalizedList } from "../../lib/i18n";
+
+export function getStaticPaths() {
+  // Route generation stays keyed off the English (build-time, locale-
+  // agnostic) case study list — per-locale static path generation is
+  // Phase 3/4 scope, same pattern as products/[slug].astro and
+  // services/[slug].astro.
+  return CASE_STUDIES_EN.map((cs, idx) => ({
+    params: { id: cs.id },
+    props: {
+      csId: cs.id,
+      prevId: idx > 0 ? CASE_STUDIES_EN[idx - 1].id : null,
+      nextId: idx < CASE_STUDIES_EN.length - 1 ? CASE_STUDIES_EN[idx + 1].id : null,
+    },
+  }));
+}
+
+const locale = Astro.currentLocale ?? "en";
+const { csId, prevId, nextId } = Astro.props;
+const CASE_STUDIES = getLocalizedList<CaseStudy>("case-studies", locale);
+const SERVICES = getLocalizedList<Service>("services", locale);
+const cs = CASE_STUDIES.find((c) => c.id === csId)!;
+const prevCs = prevId ? CASE_STUDIES.find((c) => c.id === prevId) ?? null : null;
+const nextCs = nextId ? CASE_STUDIES.find((c) => c.id === nextId) ?? null : null;
+
+// Map case-study category → primary service ID (ported from CS_SVC_MAP).
+const CS_SVC_MAP: Record<string, string> = {
+  Overhauling: "srv_2",
+  "Reverse Engineering": "srv_3",
+  "Erection & Commissioning": "srv_1",
+  "Lube Oil Flushing": "srv_5",
+  "Machine Alignment": "srv_6",
+  "Dynamic Balancing": "srv_4",
+  Troubleshooting: "srv_7",
+  "Emergency Breakdown": "srv_7",
+};
+const matchedId = CS_SVC_MAP[cs.category] ?? null;
+const relatedServices = [
+  ...SERVICES.filter((s) => s.id === matchedId),
+  ...SERVICES.filter((s) => s.id !== matchedId),
+].slice(0, 4);
+
+const SITE_URL = "https://www.keshavturbotech.com";
+const projectSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      headline: `${cs.title} — Case Study`,
+      description: cs.scope,
+      datePublished: cs.year ? `${cs.year}-01-01` : undefined,
+      author: { "@type": "Organization", name: "Keshav Enterprises" },
+      publisher: {
+        "@type": "Organization",
+        name: "Keshav Enterprises",
+        url: SITE_URL,
+        logo: { "@type": "ImageObject", url: `${SITE_URL}/keshav-logo-icon.png` },
+      },
+      mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/projects/${cs.id}` },
+      image: cs.image ? `${SITE_URL}/${cs.image}` : `${SITE_URL}/og-image.webp`,
+      articleSection: cs.category || "Industrial Engineering",
+      keywords: (cs.tags || []).join(", "),
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Projects", item: `${SITE_URL}/projects` },
+        { "@type": "ListItem", position: 2, name: cs.title, item: `${SITE_URL}/projects/${cs.id}` },
+      ],
+    },
+  ],
+};
+
+const waHref = (text: string) =>
+  `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent(text)}`;
+const similarReqMsg = `Hello KESHAV ENTERPRISES, I read your case study "${cs.title}" and have a similar requirement. Please contact me.`;
+---
+
+<Layout
+  title={`${cs.title} — Case Study`}
+  description={cs.scope}
+  canonicalPath={`/projects/${cs.id}`}
+  ogImage={cs.image ? `/${cs.image}` : undefined}
+  keywords={[cs.category, cs.title, "turbine case study India", "Keshav Enterprises"]
+    .filter(Boolean)
+    .join(", ")}
+  jsonLd={projectSchema}
+>
+  <!-- ══ HERO ══ -->
+  <div
+    class="bg-[#0A192F] text-white pt-24 pb-16 relative overflow-hidden border-b-8 border-blue-600"
+  >
+    <div
+      class="absolute inset-0 opacity-10"
+      style="background-image:linear-gradient(to right,#4f4f4f2e 1px,transparent 1px),linear-gradient(to bottom,#4f4f4f2e 1px,transparent 1px);background-size:4rem 4rem;"
+      aria-hidden="true"
+    >
+    </div>
+    {
+      cs.image && (
+        <img
+          src={`/${cs.image}`}
+          alt=""
+          aria-hidden="true"
+          width="800"
+          height="500"
+          loading="eager"
+          decoding="async"
+          class="absolute inset-0 w-full h-full object-cover opacity-55"
+          onerror="this.style.display='none'"
+        />
+      )
+    }
+    <div class="absolute inset-0 bg-linear-to-r from-[#0A192F]/90 via-[#0A192F]/70 to-[#0A192F]/40">
+    </div>
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav
+        aria-label="Breadcrumb"
+        class="flex items-center gap-2 text-xs font-black text-slate-300 uppercase tracking-widest mb-10"
+      >
+        <a
+          href={localizedPath(locale, "/projects")}
+          class="hover:text-blue-400 transition-colors flex items-center gap-2 bg-white/10 hover:bg-white/20 px-4 py-2 rounded-lg focus:outline-none focus-visible:underline"
+        >
+          <svg
+            class="w-3.5 h-3.5"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            aria-hidden="true"
+            ><path stroke-linecap="round" stroke-linejoin="round" d="M19 12H5m0 0l7 7m-7-7l7-7"
+            ></path></svg
+          >
+          All Projects
+        </a>
+        <svg
+          class="w-3.5 h-3.5 opacity-40"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          aria-hidden="true"
+          ><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg
+        >
+        <span class="text-blue-400 truncate max-w-xs">{cs.category}</span>
+      </nav>
+      <div class="flex flex-wrap gap-2 mb-4">
+        <span
+          class="bg-blue-600 text-white text-[10px] font-black px-3 py-1.5 rounded-md uppercase tracking-wider"
+          >{cs.category}</span
+        >
+        <span
+          class="bg-white/10 text-white text-[10px] font-black px-3 py-1.5 rounded-md uppercase tracking-wider border border-white/20"
+          >{cs.industry}</span
+        >
+      </div>
+      <h1 class="text-3xl md:text-4xl font-black tracking-tight mb-4 max-w-3xl">{cs.title}</h1>
+      <div class="flex flex-wrap gap-3 text-xs font-black text-slate-300 mt-6">
+        <span
+          class="inline-flex items-center gap-1.5 bg-white/8 border border-white/15 px-3 py-1.5 rounded-full"
+        >
+          <svg
+            class="w-3.5 h-3.5 text-blue-400"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"
+            ><rect x="3" y="4" width="18" height="18" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"
+            ></path></svg
+          >
+          {cs.year}
+        </span>
+        <span
+          class="inline-flex items-center gap-1.5 bg-white/8 border border-white/15 px-3 py-1.5 rounded-full"
+        >
+          <svg
+            class="w-3.5 h-3.5 text-blue-400"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"
+            ><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg
+          >
+          {cs.duration}
+        </span>
+        <span
+          class="inline-flex items-center gap-1.5 bg-white/8 border border-white/15 px-3 py-1.5 rounded-full"
+        >
+          <svg
+            class="w-3.5 h-3.5 text-blue-400"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"><path d="M6 22V4a1 1 0 011-1h10a1 1 0 011 1v18Z"></path></svg
+          >
+          {cs.client}
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ BODY ══ -->
+  <div class="bg-slate-50 min-h-screen">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <!-- Main column -->
+        <div class="lg:col-span-2 space-y-8">
+          <section
+            aria-labelledby="scope-heading"
+            class="bg-white border border-slate-200 rounded-2xl p-6 md:p-8 shadow-sm"
+          >
+            <h2
+              id="scope-heading"
+              class="text-xs font-black text-blue-600 uppercase tracking-widest mb-3"
+            >
+              Scope of Work
+            </h2>
+            <p class="text-slate-700 font-medium leading-relaxed">{cs.scope}</p>
+          </section>
+
+          <section
+            aria-labelledby="challenge-heading"
+            class="bg-white border border-slate-200 rounded-2xl p-6 md:p-8 shadow-sm"
+          >
+            <h2
+              id="challenge-heading"
+              class="text-xs font-black text-amber-600 uppercase tracking-widest mb-3"
+            >
+              The Challenge
+            </h2>
+            <p class="text-slate-700 font-medium leading-relaxed">{cs.challenge}</p>
+          </section>
+
+          <section
+            aria-labelledby="solution-heading"
+            class="bg-white border border-slate-200 rounded-2xl p-6 md:p-8 shadow-sm"
+          >
+            <h2
+              id="solution-heading"
+              class="text-xs font-black text-blue-600 uppercase tracking-widest mb-3"
+            >
+              Our Solution
+            </h2>
+            <p class="text-slate-700 font-medium leading-relaxed">{cs.solution}</p>
+          </section>
+
+          <section
+            aria-labelledby="outcomes-heading"
+            class="bg-emerald-50 border border-emerald-200 rounded-2xl p-6 md:p-8 shadow-sm"
+          >
+            <h2
+              id="outcomes-heading"
+              class="text-xs font-black text-emerald-700 uppercase tracking-widest mb-4"
+            >
+              Measured Outcomes
+            </h2>
+            <ul class="space-y-3">
+              {
+                cs.outcomes.map((o) => (
+                  <li class="flex items-start gap-3">
+                    <svg
+                      class="w-5 h-5 text-emerald-600 shrink-0 mt-0.5"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      aria-hidden="true"
+                    >
+                      <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <span class="text-emerald-900 font-semibold text-sm leading-relaxed">{o}</span>
+                  </li>
+                ))
+              }
+            </ul>
+          </section>
+
+          <!-- Similar work CTA -->
+          <div class="bg-[#0A192F] rounded-2xl overflow-hidden border border-slate-700">
+            <div class="border-t-4 border-blue-600"></div>
+            <div class="p-6 flex flex-col gap-5">
+              <div>
+                <p class="text-xs font-black text-blue-400 uppercase tracking-widest mb-1">
+                  Have a Similar Requirement?
+                </p>
+                <p class="text-white font-black text-base leading-snug">
+                  We handle {cs.category} jobs across all major OEM brands and industries.
+                </p>
+                <p class="text-slate-300 text-xs mt-1">
+                  Tell us your turbine make, capacity, and symptoms — we respond with a technical
+                  answer, not a brochure.
+                </p>
+              </div>
+              <div class="flex flex-col gap-2 shrink-0 w-full sm:w-auto">
+                <a
+                  href={`/contact?service=${encodeURIComponent("General Inquiry")}&details=${encodeURIComponent(`Hi, I read your case study "${cs.title}" and have a similar requirement. Please contact me.`)}`}
+                  class="bg-blue-600 text-white px-6 py-3 rounded-xl font-black text-sm hover:bg-blue-700 transition-all flex items-center justify-center gap-2 shadow-md"
+                >
+                  Send a Detailed RFQ
+                  <svg
+                    class="w-4 h-4 shrink-0"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    aria-hidden="true"
+                    ><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7"
+                    ></path></svg
+                  >
+                </a>
+                <a
+                  href={waHref(similarReqMsg)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="border border-whatsapp text-whatsapp px-6 py-3 rounded-xl font-black text-sm hover:bg-whatsapp hover:text-white transition-all flex items-center justify-center gap-2"
+                >
+                  <svg
+                    class="w-4 h-4 shrink-0"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                    ><path
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                    ></path></svg
+                  >
+                  Or WhatsApp Us
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Prev/Next -->
+          {
+            (prevCs || nextCs) && (
+              <nav
+                aria-label="Adjacent case study navigation"
+                class="pt-2 grid grid-cols-1 sm:grid-cols-2 gap-4"
+              >
+                {prevCs ? (
+                  <a
+                    href={localizedPath(locale, `/projects/${prevCs.id}`)}
+                    class="flex items-center gap-4 p-5 rounded-2xl border border-slate-200 hover:border-blue-300 hover:shadow-md hover:-translate-y-0.5 transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                  >
+                    <div class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center group-hover:bg-blue-600 transition-colors shrink-0">
+                      <svg
+                        class="w-5 h-5 text-slate-500 group-hover:text-white transition-colors"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        aria-hidden="true"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M19 12H5m0 0l7 7m-7-7l7-7"
+                        />
+                      </svg>
+                    </div>
+                    <div class="min-w-0">
+                      <p class="text-xs font-black text-slate-500 uppercase tracking-widest mb-0.5">
+                        Previous
+                      </p>
+                      <p class="font-black text-slate-900 group-hover:text-blue-600 transition-colors text-sm truncate">
+                        {prevCs.title}
+                      </p>
+                    </div>
+                  </a>
+                ) : (
+                  <div />
+                )}
+                {nextCs && (
+                  <a
+                    href={localizedPath(locale, `/projects/${nextCs.id}`)}
+                    class="flex items-center gap-4 p-5 rounded-2xl border border-slate-200 hover:border-blue-300 hover:shadow-md hover:-translate-y-0.5 transition-all group text-right justify-end sm:col-start-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                  >
+                    <div class="min-w-0 text-right">
+                      <p class="text-xs font-black text-slate-500 uppercase tracking-widest mb-0.5">
+                        Next
+                      </p>
+                      <p class="font-black text-slate-900 group-hover:text-blue-600 transition-colors text-sm truncate">
+                        {nextCs.title}
+                      </p>
+                    </div>
+                    <div class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center group-hover:bg-blue-600 transition-colors shrink-0">
+                      <svg
+                        class="w-5 h-5 text-slate-500 group-hover:text-white transition-colors"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        aria-hidden="true"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M5 12h14m-7-7l7 7-7 7"
+                        />
+                      </svg>
+                    </div>
+                  </a>
+                )}
+              </nav>
+            )
+          }
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="space-y-6 lg:sticky lg:top-28 lg:self-start">
+          <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+            <div class="bg-[#0A192F] px-5 py-4">
+              <h3 class="font-black text-white text-sm uppercase tracking-widest">
+                Technologies &amp; Tags
+              </h3>
+            </div>
+            <div class="p-5 flex flex-wrap gap-2">
+              {
+                cs.tags.map((tag) => (
+                  <span class="bg-blue-50 text-blue-700 border border-blue-100 text-xs font-bold px-3 py-1 rounded-lg uppercase tracking-wider">
+                    {tag}
+                  </span>
+                ))
+              }
+            </div>
+          </div>
+
+          <a
+            href={`/contact?service=${encodeURIComponent("General Inquiry")}&details=${encodeURIComponent(`Hi, I read your case study "${cs.title}" and have a similar requirement. Please contact me.`)}`}
+            class="w-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-4 rounded-xl font-black text-sm transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 flex items-center justify-center gap-2"
+          >
+            Get a Free Quote
+            <svg
+              class="w-4 h-4 shrink-0"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              aria-hidden="true"
+              ><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7"
+              ></path></svg
+            >
+          </a>
+
+          <a
+            href={waHref(similarReqMsg)}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center justify-center gap-2 w-full bg-white border-2 border-whatsapp text-whatsapp px-6 py-3 font-black text-sm hover:bg-green-50 transition-colors rounded-xl"
+          >
+            <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
+              ><path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+              ></path></svg
+            >
+            Or Discuss on WhatsApp
+          </a>
+
+          <a
+            href={localizedPath(locale, "/projects")}
+            class="w-full flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 px-6 py-3.5 rounded-xl font-bold text-sm transition-colors"
+          >
+            <svg
+              class="w-4 h-4 shrink-0"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              aria-hidden="true"
+              ><path stroke-linecap="round" stroke-linejoin="round" d="M19 12H5m0 0l7 7m-7-7l7-7"
+              ></path></svg
+            >
+            All Projects
+          </a>
+
+          {
+            relatedServices.length > 0 && (
+              <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+                <div class="bg-[#0A192F] px-5 py-4">
+                  <h3 class="font-black text-white text-sm uppercase tracking-widest">
+                    Related Services
+                  </h3>
+                </div>
+                <ul class="divide-y divide-slate-100">
+                  {relatedServices.map((s) => (
+                    <li>
+                      <a
+                        href={localizedPath(locale, `/services/${s.slug}`)}
+                        class="flex items-center justify-between px-5 py-3.5 hover:bg-blue-50/50 transition-colors group"
+                      >
+                        <span class="font-bold text-slate-700 text-sm group-hover:text-blue-600 transition-colors">
+                          {s.title}
+                        </span>
+                        <svg
+                          class="w-4 h-4 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all shrink-0"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2.5"
+                          aria-hidden="true"
+                        >
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                        </svg>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )
+          }
+        </aside>
+      </div>
+    </div>
+  </div>
+</Layout>

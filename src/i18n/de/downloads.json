@@ -1,0 +1,92 @@
+{
+  "dl_1": {
+    "id": "dl_1",
+    "title": "Checkliste für Turbinenüberholung",
+    "desc": "Schritt-für-Schritt-Checkliste für große und kleine Turbinenüberholungen. Umfasst Spielmaße, Auswuchten, Drehmoment-Freigabe und Prüfungen vor der Inbetriebnahme.",
+    "category": "Wartung",
+    "tags": [
+      "Turbine",
+      "Überholung",
+      "Checkliste"
+    ],
+    "fileSize": "420 KB",
+    "fileType": "PDF",
+    "file": "turbine-overhaul-checklist.pdf",
+    "featured": true
+  },
+  "dl_2": {
+    "id": "dl_2",
+    "title": "Datenblatt Filterelemente — Schmieröl",
+    "desc": "Technische Kennwerte, Differenzdruckkurven und Kompatibilitätstabelle für alle von Keshav Enterprises gelieferten Schmierölfilterelemente.",
+    "category": "Datenblätter",
+    "tags": [
+      "Filtration",
+      "Schmieröl",
+      "Datenblatt"
+    ],
+    "fileSize": "1.2 MB",
+    "fileType": "PDF",
+    "file": "filter-element-datasheet-lube-oil.pdf",
+    "featured": false
+  },
+  "dl_3": {
+    "id": "dl_3",
+    "title": "Checkliste Schmierölspülung",
+    "desc": "ISO-konforme Checkliste für das Spülverfahren. Umfasst Aufbau der mobilen Zentrifuge, Ölprobenprotokoll, Sauberkeitsnachweis und Freigabe.",
+    "category": "Wartung",
+    "tags": [
+      "Schmieröl",
+      "Spülung",
+      "ISO"
+    ],
+    "fileSize": "310 KB",
+    "fileType": "PDF",
+    "file": "lube-oil-flushing-checklist.pdf",
+    "featured": false
+  },
+  "dl_4": {
+    "id": "dl_4",
+    "title": "Referenz für Lagerauswahl & Spielmaße",
+    "desc": "Schnellreferenz für Lagerauswahl, Wellenzapfen-Spielmaße und radiale/axiale Toleranzen gängiger Dampfturbinenfabrikate.",
+    "category": "Technische Leitfäden",
+    "tags": [
+      "Lager",
+      "Spielmaße",
+      "Referenz"
+    ],
+    "fileSize": "680 KB",
+    "fileType": "PDF",
+    "file": "bearing-selection-clearance-reference.pdf",
+    "featured": false
+  },
+  "dl_5": {
+    "id": "dl_5",
+    "title": "Turbinen-Anfragevorlage",
+    "desc": "Leeres Turbinen-Datenblatt zur Anfrage eines Reparatur- oder Überholungsangebots. Fabrikat, Modell, Leistung und Wartungshistorie eintragen.",
+    "category": "Anfrage / Formulare",
+    "tags": [
+      "Anfrage",
+      "Vorlage",
+      "Angebot"
+    ],
+    "fileSize": "185 KB",
+    "fileType": "XLSX",
+    "file": "turbine-rfq-template.xlsx",
+    "featured": true
+  },
+  "dl_6": {
+    "id": "dl_6",
+    "title": "Unternehmensprofil Keshav Enterprises",
+    "desc": "Leistungsübersicht für Einkaufsteams und Werksleiter. Umfasst Leistungen, OEM-Markenabdeckung, Werkstattausrüstung und Referenzprojekte.",
+    "category": "Unternehmen",
+    "tags": [
+      "Profil",
+      "Leistungsfähigkeit",
+      "Broschüre"
+    ],
+    "fileSize": "3.4 MB",
+    "fileType": "PDF",
+    "file": "keshav-enterprises-company-profile.pdf",
+    "featured": false
+  }
+}

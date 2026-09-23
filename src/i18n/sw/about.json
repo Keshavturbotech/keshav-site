@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "titleTemplate": "Kuhusu Keshav Enterprises — Miaka {years}+ ya Uhandisi wa Turbine",
+    "descriptionTemplate": "Keshav Enterprises — miaka {years}+ ya uhandisi wa turbine za viwandani, uhandisi wa kinyume, na vipuri vinavyoendana na OEM kutoka Shamli, UP, India. Wahandisi wenye uzoefu wa OEM kutoka Triveni, Siemens, BHEL.",
+    "schemaName": "Kuhusu Keshav Enterprises",
+    "schemaDescriptionTemplate": "Keshav Enterprises — miaka {years}+ ya uhandisi wa turbine za viwandani, uhandisi wa kinyume, na utengenezaji wa vipuri vinavyoendana na OEM kutoka Shamli, UP, India."
+  },
+  "hero": {
+    "eyebrow": "Hadithi Yetu",
+    "h1Line1": "Miongo Miwili ya",
+    "h1Span": "Uhandisi Sahihi",
+    "quote": "“Hakuna uvumilivu kwa kusimama kwa kiwanda — hii si kauli mbiu. Ni kiwango cha uhandisi ambacho kila mteja anatutegemea nacho.”",
+    "intro": "Kutoka kwa shirika maalum la matengenezo ya turbine huko Shamli, Uttar Pradesh — hadi mshirika wa uhandisi anayeaminika kote India kwa vituo vya umeme, viwanda vya sukari, visafishaji, na viwanda vya uchakataji. Umejengwa juu ya utaalamu wa zamani wa OEM kutoka Triveni, Siemens, BHEL, Man Turbo, KKK na ABB. Ukiendeshwa na agizo moja: muda wa juu wa uendeshaji.",
+    "tags": [
+      "Wahandisi Wenye Uzoefu wa OEM",
+      "Usomaji wa Leza wa 3D",
+      "Usahihi wa CMM",
+      "Mwitikio wa 24×7",
+      "Imesajiliwa IEC",
+      "Tayari Kusafirisha",
+      "IndiaMART TrustSeal",
+      "Make In India",
+      "Imesajiliwa MSME"
+    ],
+    "ctaServices": "Huduma Zetu",
+    "ctaContact": "Wasiliana na Timu ya Uhandisi",
+    "statCards": [
+      {
+        "label": "Miaka ya Biashara",
+        "subTemplate": "Tangu {founded}"
+      },
+      {
+        "label": "Chapa za OEM",
+        "sub": "Triveni · Siemens · BHEL"
+      },
+      {
+        "label": "Turbine ya Juu Zaidi",
+        "sub": "Hadi 60 M.W."
+      },
+      {
+        "label": "Msaada wa Dharura",
+        "sub": "Wahandisi wa maeneo mengi"
+      }
+    ],
+    "trustBadges": {
+      "indiamartTitle": "Imethibitishwa na IndiaMART TrustSeal",
+      "indiamartSub": "Maoni ya wanunuzi 50+ · kiwango cha 4.3/5",
+      "msmeTitle": "Imesajiliwa MSME",
+      "msmeSub": "Kampuni Iliyoidhinishwa na Udyam · Serikali ya India"
+    }
+  },
+  "statsBar": [
+    {
+      "label": "Miaka ya Biashara",
+      "subTemplate": "Tangu {founded}"
+    },
+    {
+      "label": "Chapa za OEM Zinazoshughulikiwa",
+      "sub": "Triveni · Siemens · BHEL"
+    },
+    {
+      "label": "Turbine ya Juu Zaidi Iliyoshughulikiwa",
+      "sub": "Hadi 60 M.W."
+    },
+    {
+      "label": "Mwitikio wa Dharura",
+      "sub": "Wahandisi wa maeneo mengi"
+    }
+  ],
+  "overview": {
+    "eyebrow": "Sisi ni Nani",
+    "heading": "Washirika wa Uhandisi kwa Uti wa Mgongo wa Viwanda vya India",
+    "paragraphs": [
+      "Keshav Enterprises ni kampuni ya uhandisi wa viwandani wenye usahihi yenye makao makuu Shamli, Uttar Pradesh. Kwa zaidi ya miongo miwili, tumekuwa tukitoa matengenezo maalum ya turbine, uhandisi wa kinyume, na vipuri vinavyoendana na OEM kwa sekta za viwandani zinazodai zaidi za India.",
+      "Timu yetu ya uhandisi inajumuisha wataalamu wenye uzoefu wa zamani wa OEM kutoka Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, na ABB — wakitoa wateja kiwango sawa cha utaalamu wa kiufundi kama watengenezaji wa vifaa asili, kwa sehemu ndogo ya muda na gharama.",
+      "Tunashughulikia turbine za mvuke kutoka 5 kW hadi 60 MW — shinikizo la nyuma na condensing, mlalo na wima, hatua moja na nyingi. Karakhana yetu imewekwa vifaa vya kisomaji cha leza cha 3D, mashine za kupima kuratibu za CMM, mashine za uwiano wa mzunguko (kilo 50–2,000), na mashine za kunoa za CNC sahihi."
+    ],
+    "coreCapabilitiesHeading": "Uwezo wa Msingi",
+    "coreCapabilitiesList": [
+      "Uwekaji wa turbine, uanzishaji, na ukarabati wa huduma kamili",
+      "Uhandisi wa kinyume sahihi ukitumia usomaji wa leza wa 3D na CMM",
+      "Uwiano wa mzunguko kulingana na ISO 1940 / API 670 (kilo 50–2,000)",
+      "Usafishaji wa mafuta ya kulainisha kulingana na uainishaji wa usafi wa ISO 4406:99",
+      "Upatanishi wa mitambo ukitumia teknolojia ya kisasa zaidi ya upatanishi wa leza",
+      "Utengenezaji: vichujio, vichujio vya hewa vya HVAC, viungo vya upanuzi, vichujio",
+      "Vipuri vya turbine: bearing, seal, rota, governor, valvu",
+      "Mwitikio wa dharura wa kusimama wa saa 24×7, wahandisi wa maeneo mengi"
+    ],
+    "locationHeading": "Eneo Letu",
+    "gstLabel": "GST"
+  },
+  "gallery": {
+    "eyebrow": "Imejengwa kwa Muda wa Uendeshaji wa Viwandani",
+    "headingLine1": "Ikiwa Turbine Yako Inahitaji,",
+    "headingLine2": "Tunaitengeneza.",
+    "subheadingTemplate": "Vipengele zaidi ya {productCount}+ vilivyotengenezwa kwa usahihi katika kategoria 9 — kutoka vichujio vinavyolingana na OEM na vichujio vya hewa vya HVAC hadi vipuri vya turbine vinavyosafirishwa wiki hiyo hiyo kiwanda chako kinapopiga simu.",
+    "cards": {
+      "workshopFloor": {
+        "caption": "Sakafu ya Karakhana",
+        "desc": "Mashine za kunoa za CNC sahihi, mashine za kunakili, na mashine za kusaga kwa ukataji wa journal ya rota, kung'arisha, na kazi ya sehemu ya labyrinth."
+      },
+      "ourServices": {
+        "caption": "Huduma Zetu",
+        "desc": "Huduma maalum 8 — uwekaji na uanzishaji wa turbine, ukarabati wa huduma kamili, uhandisi wa kinyume, uwiano wa mzunguko, usafishaji wa mafuta ya kulainisha, upatanishi wa mitambo, sandblasting, na utatuzi wa matatizo wa 24×7.",
+        "linkLabel": "Vinjari Huduma"
+      },
+      "productRange": {
+        "caption": "Wigo wa Bidhaa",
+        "descTemplate": "Bidhaa {productCount} zilizotengenezwa kwa uhandisi katika kategoria 9 — uchujaji, vichujio vya hewa vya HVAC, vichujio, viungo vya upanuzi, vipuri vya turbine, bidhaa za mpira, mabomba yanayopinda, vifaa vya elektroniki, na vipengele vya hydraulic.",
+        "linkLabel": "Vinjari Bidhaa"
+      },
+      "rotorInspection": {
+        "caption": "Ukaguzi wa Rota",
+        "desc": "Wahandisi wenye uzoefu wa OEM hupima na kurekodi kila nafasi ya kiufundi, pengo, na kipimo wakati wa ukaguzi — ripoti kamili ya hali kwa kila kazi."
+      }
+    },
+    "browseFullCatalog": "Vinjari Katalogi Kamili ya Bidhaa"
+  },
+  "values": {
+    "eyebrow": "Kinachotusukuma",
+    "heading": "Maadili Yetu ya Msingi",
+    "items": [
+      {
+        "label": "Uadilifu wa Uhandisi",
+        "text": "Kila kipengele, kila nafasi ya kiufundi, kila kipimo kimeandikwa na kuthibitishwa. Hakuna njia za mkato kwenye vifaa vinavyozunguka muhimu kwa usalama."
+      },
+      {
+        "label": "Viwango vya Daraja la OEM",
+        "text": "Wahandisi wenye uzoefu wa OEM kutoka Triveni, Siemens, BHEL, na ABB wanatoa matengenezo kwa kiwango sawa na mtengenezaji asili."
+      },
+      {
+        "label": "Uvumbuzi katika Uhandisi wa Kinyume",
+        "text": "Usomaji wa 3D na upimaji wa PMI hutoa wateja ufikiaji wa vipuri visivyozalishwa tena bila muda wa miezi 12-18 wa OEM."
+      },
+      {
+        "label": "Muda wa Uendeshaji wa Mteja Kwanza",
+        "text": "Tunapima mafanikio kwa upatikanaji wa kiwanda. Mwitikio wa dharura wa 24×7 kwa sababu kusimama hakufuati saa za kazi."
+      }
+    ]
+  },
+  "milestones": {
+    "eyebrow": "Safari Yetu",
+    "heading": "Hatua Muhimu za Kampuni",
+    "items": [
+      {
+        "year": "Miaka ya 2000",
+        "title": "Kuanzishwa",
+        "desc": "Ilianzishwa Shamli, UP kama shirika maalum la matengenezo ya turbine linalohudumia viwanda vya sukari vya ndani na utaalamu wa ukarabati wa vitendo."
+      },
+      {
+        "year": "2005",
+        "title": "Utaalamu wa OEM",
+        "desc": "Ilijenga timu maalum ya wahandisi wenye uzoefu wa OEM kutoka Triveni, BHEL, na Belliss & Morcom — kuwezesha viwango halisi vya matengenezo sawa na OEM."
+      },
+      {
+        "year": "2010",
+        "title": "Uhandisi wa Kinyume",
+        "desc": "Iliwekeza katika usomaji wa leza wa 3D na vifaa vya CMM kutoa uhandisi wa kinyume wa ndani kwa vipengele vya turbine visivyozalishwa tena bila utegemezi wa OEM."
+      },
+      {
+        "year": "2015",
+        "title": "Upanuzi wa Wigo wa Bidhaa",
+        "desc": "Ilizindua mstari kamili wa bidhaa za viwandani unaojumuisha uchujaji, vichujio vya hewa vya HVAC, viungo vya upanuzi, vichujio, bidhaa za mpira, na vifaa vya mabomba yanayopinda."
+      },
+      {
+        "year": "2020",
+        "title": "Uwiano wa ISO/API",
+        "desc": "Iliagiza mashine za uwiano wa mzunguko kulingana na viwango vya ISO 1940 / API 670 — zikishughulikia rota kutoka kilo 50 hadi 2,000."
+      },
+      {
+        "year": "Leo",
+        "title": "Tayari Kusafirisha",
+        "desc": "Imesajiliwa IEC na DGFT — vipengele vya turbine, bidhaa za uchujaji, na vipuri vya viwandani vinatengenezwa kulingana na viwango vya ISO/API/ASME na kuainishwa HSN kwa usafirishaji, na msaada wa nyaraka kwa wanunuzi wa nje ya nchi. Ufikiaji wa ndani kote India unaendelea na msaada wa uhandisi wa dharura wa 24×7."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Watu Nyuma ya Kazi",
+    "heading": "Utaalamu wa Uhandisi wa Zamani wa OEM",
+    "subheading": "Wahandisi wetu walifunzwa na kupelekwa ndani ya viwanda vya OEM na timu za huduma za uwanjani — si tu kufunzwa kwenye vifaa vya OEM. Tofauti hiyo ndiyo inayoonekana katika ubora wa kila nafasi ya kiufundi iliyorekodiwa.",
+    "expSuffix": "uzoefu",
+    "namesWithheldNote": "Majina yamefichwa ili kulinda wahandisi wetu kutoka kwa ushawishi wa washindani. Historia ya ajira inayoweza kuthibitishwa inapatikana kwa maswali ya kina.",
+    "members": {
+      "sk": {
+        "name": "Mhandisi Mkuu — Triveni & BHEL",
+        "spec": "Ukarabati wa turbine · Uwekaji na uanzishaji · Uchambuzi wa mtetemo"
+      },
+      "rk": {
+        "name": "Mhandisi Mkuu — Siemens & KKK",
+        "spec": "Uhandisi wa kinyume · Upimaji wa CMM na PMI · Ukataji wa rota"
+      },
+      "as": {
+        "name": "Mhandisi wa Uwanjani — Belliss & Man Turbo",
+        "spec": "Dharura ya kusimama · Upatanishi · Mifumo ya mafuta ya kulainisha"
+      },
+      "vp": {
+        "name": "Mtaalamu wa Uwiano",
+        "spec": "Uwiano wa mzunguko ISO 1940 / API 670 · Rota za kilo 50–2,000"
+      },
+      "mt": {
+        "name": "Kiongozi wa Karakhana — Ukataji",
+        "spec": "Kusaga journal · Ukataji wa labyrinth · Utengenezaji wa pete za kaboni"
+      },
+      "pd": {
+        "name": "Kiongozi wa Bidhaa na Uchujaji",
+        "spec": "Utoaji wa vichujio · Vichujio vya hewa vya HVAC · Viungo vya upanuzi · Vichujio"
+      }
+    }
+  },
+  "oemSection": {
+    "eyebrow": "Utaalamu wa OEM",
+    "headingLine1": "Chapa za OEM 10+.",
+    "headingLine2": "Mshirika Mmoja wa Uhandisi.",
+    "sub": "Wahandisi wetu wenye uzoefu wa OEM wana uzoefu wa vitendo na chapa zote kuu za turbine. Hakuna kipindi cha kujifunza. Utaalamu wa kiufundi wenye mamlaka tangu siku ya kwanza."
+  },
+  "exportSection": {
+    "eyebrow": "Tayari Kusafirisha",
+    "headingLine1": "Imejengwa kwa Ajili ya",
+    "headingSpan": "Wanunuzi wa Kusafirisha Kuthibitisha kwa Urahisi",
+    "paragraphs": [
+      "Keshav Enterprises inashikilia Msimbo wa Muagizaji-Muuzaji Nje (IEC) unaotumika uliotolewa na DGFT, kitambulisho cha kisheria kinachohitajika kusafirisha vipuri vya uhandisi wa turbine, bidhaa za uchujaji wa viwandani, na vipengele vinavyoendana na OEM nje ya India.",
+      "Bidhaa zetu zilizotengenezwa kwa usahihi zinazalishwa kulingana na viwango vya kimataifa ikiwa ni pamoja na ISO 16889, API 614, na ASME Sec. VIII, na kuainishwa chini ya misimbo ya kawaida ya usafirishaji ya HSN, ili wanunuzi wa nje ya nchi waweze kuthibitisha uzingatiaji kabla ya kuweka agizo."
+    ],
+    "standards": [
+      {
+        "stat": "ISO 16889",
+        "label": "Kiwango cha Uchujaji"
+      },
+      {
+        "stat": "API 614",
+        "label": "Kiwango cha Mfumo wa Mafuta ya Kulainisha"
+      },
+      {
+        "stat": "ASME VIII",
+        "label": "Kiwango cha Chombo cha Shinikizo"
+      },
+      {
+        "stat": "HSN 8421",
+        "label": "Uainishaji wa Usafirishaji"
+      }
+    ],
+    "iecCardTitle": "Msafirishaji Aliyesajiliwa IEC",
+    "iecCardDescTemplate": "Msimbo wa Muagizaji-Muuzaji Nje wa DGFT {iec} — unatumika na unaoweza kuthibitishwa",
+    "checklistTitle": "Orodha ya Ukaguzi wa Utayari wa Kusafirisha",
+    "checklistItems": [
+      "IEC inayotumika iliyotolewa na DGFT — imeruhusiwa kisheria kusafirisha",
+      "Bidhaa zimeainishwa chini ya misimbo ya kawaida ya usafirishaji ya HSN",
+      "Zimetengenezwa kulingana na viwango vya kimataifa vya ISO, API na ASME",
+      "Karatasi za data za Kiingereza, vyeti vya upimaji na nyaraka za QC",
+      "Imesajiliwa GST na uzingatiaji kamili wa ankara za usafirishaji",
+      "Msingi wa utengenezaji uliosajiliwa MSME huko Shamli, Uttar Pradesh"
+    ],
+    "credentialLabels": {
+      "gst": "GST",
+      "msme": "MSME/Udyam",
+      "iec": "IEC"
+    }
+  },
+  "finalCta": {
+    "heading": "Uko tayari kufanya kazi nasi?",
+    "subheading": "Tuambie chapa yako ya turbine, uwezo, na mahitaji — tunajibu na uhandisi, si mazungumzo ya mauzo.",
+    "ctaQuote": "Pata Bei ya Kiufundi",
+    "ctaServices": "Tazama Huduma Zote"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Keshav Enterprises — Buhar Türbini Revizyonu ve Yedek Parçaları, Shamli UP Hindistan",
+    "description": "Triveni, Siemens, BHEL'den OEM kökenli buhar türbini mühendisleri. 5 kW–60 MW türbinler için revizyon, tersine mühendislik, dinamik balans, yağlama yağı yıkama ve OEM uyumlu yedek parçalar. Shamli, UP merkezli. 7/24 acil destek.",
+    "keywords": "Hindistan türbin bakımı, buhar türbini revizyonu, türbin tersine mühendisliği, endüstriyel türbin yedek parçaları, yağlama yağı filtre elemanları, Hindistan genleşme contaları, Triveni türbin servisi, BHEL türbin yedek parçaları, Uttar Pradesh türbin montajı, Shamli mühendislik"
+  },
+  "hero": {
+    "badgeMakeInIndia": "Make In India",
+    "badgeVocalForLocal": "Vocal For Local",
+    "badgeIndiaMartLabel": "IndiaMART Doğrulanmış",
+    "badgeIndiaMartRatingSuffix": "PUAN",
+    "h1Line1": "Maksimum Kullanılabilirlik için",
+    "h1Line2": "Hassas Mühendislik.",
+    "capabilityLine": "5 kW'tan 60 MW'a kadar buhar türbinleri — karşı basınçlı ve yoğuşmalı, yatay ve dikey, tek ve çok kademeli. Hindistan genelinde ve dünya çapında müşterilere hizmet veriyoruz.",
+    "introText": "Triveni, Siemens, BHEL ve 7 marka daha için OEM kökenli mühendisler. Türbininizi OEM'den tedarik etmekten daha hızlı tekrar çalışır hale getiriyoruz — tam PMI sertifikaları, ISO balans raporları ve {founded}'den bu yana sıfır ceza geçmişiyle.",
+    "ctaPrimary": "İhtiyaçlarınızı Gönderin",
+    "ctaEmergency": "Acil Arıza",
+    "trustYearsOverhauls": "{years}+ yıl · 500+ revizyon",
+    "trustPmi": "PMI sertifikalı yedek parçalar",
+    "trustResponse": "Ortalama yanıt süresi: 2 saat",
+    "proofCards": [
+      {
+        "label": "Öğrenme Eğrisi Yok",
+        "title": "OEM Kökenli Mühendisler",
+        "sub": "Ekibimiz Triveni, Siemens, BHEL ve Belliss içinde çalıştı — aynı uzmanlık, tesisinize ulaştırıldı."
+      },
+      {
+        "label": "Her İş Belgelenir",
+        "title": "Teslimde Rapor",
+        "sub": "PMI sertifikaları, balans raporları, hizalama kayıtları, durum raporları — iş tamamlandığında teslim edilir."
+      },
+      {
+        "label": "Her Dakika Önemliyken",
+        "title": "7/24 Acil",
+        "sub": "Hindistan genelinde birden fazla lokasyonda mühendisler. Bizi gece 2'de arayın — biri yanıtlar."
+      }
+    ]
+  },
+  "oemMarquee": {
+    "heading": "OEM Uyumlu ve Sektör Liderlerinin Güvendiği"
+  },
+  "stats": {
+    "overhauls": {
+      "label": "Tamamlanan Revizyonlar",
+      "sub": "Hindistan genelinde şeker, enerji, kağıt ve çimento tesisleri"
+    },
+    "years": {
+      "label": "Hizmet Yılı",
+      "sub": "{founded}'den bu yana kesintisiz faaliyet — sahiplik değişikliği yok"
+    },
+    "penaltyClaims": {
+      "label": "Ceza Talepleri",
+      "sub": "{years} yılda sıfır — talep üzerine müşteri referansları mevcut"
+    },
+    "emergency": {
+      "label": "Acil Müdahale",
+      "sub": "Birden fazla lokasyonda mühendisler — ortalama 4 saatin altında sevkiyat"
+    }
+  },
+  "featuredProducts": {
+    "heading": "Öne Çıkan Mühendislik Ürünleri",
+    "scrollLeftLabel": "Sola kaydır",
+    "scrollRightLabel": "Sağa kaydır",
+    "dragToExplore": "keşfetmek için sürükleyin",
+    "viewCompleteCatalog": "Tüm Kataloğu Görüntüle",
+    "viewDetails": "Detayları Görüntüle",
+    "swipeToBrowse": "Göz atmak için kaydırın"
+  },
+  "servicesPreview": {
+    "eyebrow": "Uçtan Uca Türbin Yaşam Döngüsü",
+    "heading": "Teknik Hizmetler",
+    "subheading": "Aynı OEM kökenli mühendisler revizyonunuzu, yedek parçalarınızı ve gece 2'deki acil durumunuzu ele alır — taşeronluk yok, devir teslim yok.",
+    "painLines": {
+      "srv_2": "Yetersiz donanımla gelip iş raporu vermeyen tedarikçilerden bıktınız mı?",
+      "srv_3": "OEM artık üretimde olmayan bir yedek parça için aylarca teslim süresi mi verdi?",
+      "srv_4": "Hizalama ve yatak değişiminden sonra tekrarlayan titreşim — kök neden çözülmedi mi?"
+    },
+    "viewFullDetails": "Tüm Detayları Görüntüle",
+    "viewAllServices": "8 Hizmetin Tümünü Görüntüle"
+  },
+  "testimonials": {
+    "eyebrow": "Müşteri Geri Bildirimi",
+    "heading": "Hindistan Genelinde Tesis Müdürlerinin Güvendiği",
+    "googleRatingLabel": "+ Google'da doğrulanmış yorum",
+    "disclaimer": "Alıntılar tamamlanmış proje kayıtlarından alınmıştır ve tam atıf için yazılı onay bekleyene kadar baş harflerle kısaltılmıştır. Bağımsız olarak doğrulanmış puanlar için yukarıdaki Google yorumlarımıza bakın.",
+    "footerCtaPrefix": "Bizimle çalıştınız mı?",
+    "footerCtaLink": "Bir Google yorumu bırakın — diğer tesis müdürlerinin bizi bulmasına yardımcı olur →",
+    "googleReviewBadge": "Google Yorumu",
+    "items": [
+      {
+        "quote": "Eski Triveni mühendisleri, yıllık duruşumuz sırasında 12 MW Triveni türbinimizin revizyonunu üstlendi — tüm boşluklar belgelendi, rotor ISO G1.0'a balanslandı ve programın önünde tekrar çalışır hale geldi. Altı yıldır ilk kez ilk çalıştırmada hiç sorun yaşamadık.",
+        "name": "R. Kumar",
+        "role": "Tesis Müdürü",
+        "company": "Şeker ve Kojenerasyon Tesisi",
+        "location": "Uttar Pradesh",
+        "service": "Türbin Revizyonu",
+        "detail": "12 MW Triveni · Planlı Duruş"
+      },
+      {
+        "quote": "Hasat sezonunun zirvesinde gece 2'de Belliss & Morcom türbinimizde kritik bir babbitt yatak arızası yaşadık. Keshav Enterprises sabaha kadar sahada hazır yedek yatakla bir mühendis bulundurdu. Duruş süresi 14 saatin altındaydı — bu bize şeker kamışı kayıplarında crore'larca tasarruf sağladı.",
+        "name": "A. Singh",
+        "role": "Bakım Müdürü",
+        "company": "Şeker Fabrikası",
+        "location": "Haryana",
+        "service": "Acil Arıza Müdahalesi",
+        "detail": "Belliss & Morcom · Yatak Arızası"
+      },
+      {
+        "quote": "28 yaşındaki Belliss & Morcom türbinimiz için OEM yedek parçalarının 18 aylık teslim süresi vardı. Keshav, rotor milini ve labirent halkalarını tam PMI sertifikalarıyla 6 haftada tersine mühendislikle üretti. Kalite OEM'den ayırt edilemezdi.",
+        "name": "V. Sharma",
+        "role": "Baş Mühendis",
+        "company": "Kağıt Fabrikası ve Enerji Santrali",
+        "location": "Pencap",
+        "service": "Tersine Mühendislik",
+        "detail": "Belliss & Morcom · Üretimi Durdurulmuş Yedek Parçalar"
+      },
+      {
+        "quote": "Keshav, 3 MW BHEL türbin rotorumuzu dinamik olarak balansladıktan sonra, kalan titreşim 9,2 mm/s'den 0,8 mm/s'ye düştü — ISO G1.0'ın oldukça içinde. Bu rotor her 8 ayda bir yatak aşınmasına neden oluyordu. Şimdi 26 aydır hiç yatak değişimi olmadı. Balans raporu sigorta denetçilerimizi tatmin etti.",
+        "name": "P. Reddy",
+        "role": "Enstrümantasyon ve Bakım Mühendisi",
+        "company": "Kendi Tüketimi İçin Enerji Santrali",
+        "location": "Telangana",
+        "service": "Dinamik Balans",
+        "detail": "3 MW BHEL · ISO G1.0 Uyumluluğu"
+      }
+    ]
+  },
+  "capabilities": {
+    "heading": "Üretim ve Teknik Yetkinlikler",
+    "items": [
+      {
+        "iconName": "Zap",
+        "text": "OEM tedarikinden daha hızlı teslim süreleri — Triveni, Siemens, BHEL"
+      },
+      {
+        "iconName": "Layers",
+        "text": "Malzeme yükseltmeleri: Duplex, Incoloy, Inconel, Titanyum, Hastelloy"
+      },
+      {
+        "iconName": "Activity",
+        "text": "50–2.000 kg kapasiteli ISO/API dinamik balans"
+      },
+      {
+        "iconName": "Wind",
+        "text": "Özel genleşme körükleri DN 15–12.000, 150 barg'a kadar"
+      },
+      {
+        "iconName": "Droplets",
+        "text": "ISO 16889, API 614, ASME ve EN standartlarında filtre elemanları"
+      },
+      {
+        "iconName": "Cpu",
+        "text": "ISO 4406:99 temizlik sınıflandırmasına göre yağlama yağı sistemleri"
+      }
+    ]
+  },
+  "projectsTeaser": {
+    "eyebrow": "Belgelenmiş Saha Sonuçları",
+    "heading": "Projeler ve Vaka Çalışmaları",
+    "viewAllProjects": "Tüm Projeleri Görüntüle",
+    "readCaseStudy": "Vaka Çalışmasını Oku",
+    "seeAllProjectsPrefix": "Tümünü gör",
+    "seeAllProjectsSuffix": "proje"
+  },
+  "resourceBar": {
+    "blogText": "Mühendislik ekibimizden teknik makaleler",
+    "downloadsText": "Ücretsiz revizyon kontrol listeleri, teklif talebi şablonları ve veri sayfaları"
+  },
+  "finalCta": {
+    "heading": "Teknik Teklif Alın. Her Çevrimdışı Saatin Bir Maliyeti Vardır.",
+    "subheading": "Mühendislerimiz planlı işler için 24 saat içinde ve arızalar için bir saat içinde teknik bir yanıtla geri döner — çünkü tesisinizin kullanılabilirliği sizin kârınızdır.",
+    "plannedTitle": "Planlı Revizyon veya Teklif Talebi",
+    "plannedDesc": "Planlı bakım, yedek parça tedariki, genleşme contası tedariki veya filtre elemanı siparişleri. İhtiyaçlarınızı paylaşın ve detaylı bir teknik teklif alın.",
+    "plannedSendBtn": "İhtiyaçlarınızı Gönderin",
+    "plannedEmailBtn": "Mühendislik Ekibimize E-posta Gönderin",
+    "emergencyTitle": "Acil Arıza — Hemen Şimdi",
+    "emergencyDesc": "Türbin trip mi yaptı? Yüksek titreşim mi var? Beklenmedik duruş mu? Mühendislerimize 7/24 ulaşılabilir. Hemen arayın veya WhatsApp'tan yazın — her çevrimdışı saatin bir maliyeti vardır.",
+    "emergencyCallPrefix": "Hemen Arayın —",
+    "emergencyWhatsappBtn": "WhatsApp Acil Durum",
+    "riskReversal": [
+      "Yükümlülük yok — teknik bir yanıt gönderiyoruz, sonraki adıma siz karar verirsiniz",
+      "Gizli teklif talebi — tesis detaylarınız asla OEM temsilcilerine ulaşmaz",
+      "Bir çağrı merkezi değil, mühendis yanıt verir",
+      "24 saat planlı · 1 saat acil yanıt"
+    ]
+  },
+  "whatsappEmergencyMessage": "Merhaba KESHAV ENTERPRISES, acil bir arızamız var. Lütfen hemen yardım edin."
+}

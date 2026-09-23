@@ -1,0 +1,157 @@
+{
+  "srv_1": {
+    "id": "srv_1",
+    "image": "service-turbine-erection.webp",
+    "title": "Pemasangan & Komisioning Turbin",
+    "desc": "Pemasangan dan komisioning ahli untuk turbin uap, pompa, kompresor, kipas, kondensor, crane EOT, dan pekerjaan pipa uap/air/udara. Termasuk koordinasi OEM lengkap dan dokumentasi.",
+    "details": [
+      "Turbin uap, pompa, kompresor, kipas, kondensor",
+      "Crane EOT, struktur baja & pekerjaan pipa",
+      "Pengawasan konstruksi sesuai spesifikasi OEM & standar berlaku",
+      "Koordinasi dengan OEM di semua tahap",
+      "Dokumentasi lengkap untuk serah terima ke operasi",
+      "Pengembangan & pelaksanaan prosedur pra-komisioning",
+      "Membantu start-up dan penyetelan sesuai kebutuhan operasional"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "Belliss India",
+      "Maxwatt"
+    ],
+    "slug": "turbine-erection-and-commissioning"
+  },
+  "srv_2": {
+    "id": "srv_2",
+    "image": "service-overhauling.webp",
+    "title": "Overhaul & Perawatan Turnkey",
+    "desc": "Dikerjakan oleh insinyur eks-OEM dari Triveni, Siemens, BHEL, Belliss, dan lainnya. Termasuk perencanaan pra-shutdown, pelaporan kondisi di lokasi, manajemen suku cadang komprehensif, dan penanganan darurat 24x7.",
+    "details": [
+      "Perencanaan pra-shutdown dengan lingkup detail peralatan berputar",
+      "Inspeksi di lokasi terhadap stok suku cadang dengan laporan kekurangan",
+      "Insinyur eks-OEM: Triveni, Belliss, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
+      "Semua celah, jarak dan ukuran diukur dan dicatat",
+      "Laporan kondisi dengan rekomendasi untuk setiap komponen",
+      "Basis turnkey: alat, perkakas, consumable & tenaga kerja disediakan",
+      "Respons darurat 24x7 dengan insinyur di berbagai lokasi"
+    ],
+    "oems": [
+      "Triveni",
+      "Belliss India",
+      "Maxwatt",
+      "Man Turbo",
+      "BHEL",
+      "Siemens",
+      "KKK",
+      "ABB"
+    ],
+    "slug": "turnkey-overhauling-and-maintenance"
+  },
+  "srv_3": {
+    "id": "srv_3",
+    "image": "service-reverse-engineering.webp",
+    "title": "Rekayasa Balik Presisi",
+    "desc": "Rekayasa balik terverifikasi PMI menggunakan pemindai laser 3D, CMM, dan mesin bubut penyalin untuk turbin dari 5 kW hingga 60 MW. Menghasilkan gambar manufaktur lengkap dengan toleransi, konsentrisitas, spesifikasi perlakuan panas pra/pasca.",
+    "details": [
+      "Pemindai Laser 3D, CMM & Mesin Pengukur Koordinat di lokasi/bengkel",
+      "Pengujian PMI untuk identifikasi tepat komposisi material",
+      "Mesin bubut penyalin untuk replikasi dimensi presisi",
+      "Gambar rekayasa dengan toleransi, finishing, paralelitas, konsentrisitas",
+      "Spesifikasi perlakuan panas pra/pasca disertakan",
+      "Gambar pemesinan kasar, pra-final dan final",
+      "Mencakup turbin dari 5 kW hingga 60 MW (Back Pressure atau Condensing)",
+      "Satu/multi tahap, Drive atau Power, Horizontal atau Vertikal"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "All Makes"
+    ],
+    "slug": "precision-reverse-engineering"
+  },
+  "srv_4": {
+    "id": "srv_4",
+    "image": "service-dynamic-balancing.webp",
+    "title": "Penyeimbangan Dinamis & Pemesinan Rotor",
+    "desc": "Pemesinan rotor presisi (grinding, polishing, undersizing journal) di mesin bubut bengkel kami, plus penyeimbangan dinamis standar ISO/API dari 50 hingga 2000 kg dengan pelaporan kepatuhan lengkap.",
+    "details": [
+      "Grinding & polishing journal dengan teknik undersizing minimum",
+      "Pemesinan bagian labirin pada mesin bubut presisi",
+      "Rotor dijaga konsentris di semua bagian sebelum pemesinan",
+      "Penyeimbangan dinamis 50-2000 kg sesuai standar ISO/API",
+      "Mesin penyeimbang dengan sistem pemantauan getaran terbaru",
+      "Identifikasi run-out mekanis dan elektrikal sebelum pemasangan",
+      "Laporan penyeimbangan komprehensif yang mendokumentasikan kepatuhan ISO/API"
+    ],
+    "oems": [
+      "All Turbine Makes"
+    ],
+    "slug": "dynamic-balancing-and-rotor-machining"
+  },
+  "srv_5": {
+    "id": "srv_5",
+    "image": "service-lube-oil-flushing.webp",
+    "title": "Pembersihan Oli Pelumas",
+    "desc": "Pembersihan sesuai ISO menggunakan sistem filter sentrifugal mobile khusus. Mencapai kebersihan maksimal dan de-watering setelah konstruksi atau selama perawatan terjadwal.",
+    "details": [
+      "Sistem filter sentrifugal mobile khusus",
+      "Menargetkan kebersihan sistem sesuai standar ISO 4406:99",
+      "Pengambilan sampel dan pelaporan oli dilakukan sesuai standar ISO",
+      "Efektif untuk pasca-konstruksi dan perawatan terjadwal",
+      "De-watering superior dan penghilangan kontaminasi",
+      "Penghilangan partikel padat dari 4 hingga 25 mikron",
+      "Laju aliran sistem ditangani hingga 6.000 l/menit"
+    ],
+    "oems": [
+      "All Systems"
+    ],
+    "slug": "lube-oil-flushing"
+  },
+  "srv_6": {
+    "id": "srv_6",
+    "image": "service-machine-alignment.webp",
+    "title": "Penyelarasan Mesin",
+    "desc": "Penyelarasan mesin ahli menggunakan teknologi terbaru untuk menghilangkan ketidaksejajaran, salah satu penyebab utama kegagalan peralatan. Mencakup turbin, gearbox, pompa, kipas, alternator, dan generator induksi.",
+    "details": [
+      "Penyelarasan turbin ke gearbox & gearbox ke gearbox mill",
+      "Penyelarasan kipas, pompa, alternator, generator induksi",
+      "Pengukuran leveling mesin & regangan pipa pada ukuran frame apa pun",
+      "Penyelarasan fiberizor, shredder",
+      "Teknologi penyelarasan terbaru untuk standar tertinggi",
+      "Pelaporan penyelarasan rinci dengan hasil yang tepat",
+      "Mencakup mesin ukuran berapa pun di lokasi mana pun"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "machine-alignment"
+  },
+  "srv_7": {
+    "id": "srv_7",
+    "image": "service-troubleshooting.webp",
+    "title": "Layanan Troubleshooting",
+    "desc": "Diagnosis kesalahan di lokasi yang cepat untuk turbin uap yang mengalami getaran, kegagalan bearing, ketidakstabilan governor, kebocoran uap, kontaminasi oli, atau trip tak terduga. Insinyur eks-OEM turun dengan instrumentasi diagnostik lengkap untuk identifikasi akar masalah dan tindakan korektif.",
+    "details": [
+      "Getaran tinggi — diagnosis ketidakseimbangan, ketidaksejajaran, keausan bearing, gesekan",
+      "Investigasi governor hunting, ketidakstabilan kecepatan & trip overspeed",
+      "Kontaminasi oli bearing — analisis seal cincin karbon & sistem pelumasan",
+      "Kebocoran gland uap — masalah seal labirin, packing & tekanan uap gland",
+      "Analisis fouling bilah, erosi & hilangnya efisiensi jalur uap",
+      "Investigasi trip tak terduga — kesalahan tekanan oli, suhu & sistem kontrol",
+      "Penempatan darurat 24x7 di seluruh India dengan semua peralatan diagnostik"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "Belliss India",
+      "Maxwatt",
+      "Man Turbo",
+      "KKK",
+      "ABB"
+    ],
+    "slug": "troubleshooting-service"
+  }
+}

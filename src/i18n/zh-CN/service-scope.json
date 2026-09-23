@@ -1,0 +1,30 @@
+{
+  "srv_1": {
+    "scope": "交钥匙工程",
+    "turnaround": "按项目制定周期"
+  },
+  "srv_2": {
+    "scope": "现场交钥匙服务",
+    "turnaround": "通常3–21天"
+  },
+  "srv_3": {
+    "scope": "车间及现场",
+    "turnaround": "7–30天"
+  },
+  "srv_4": {
+    "scope": "车间",
+    "turnaround": "标准48–72小时"
+  },
+  "srv_5": {
+    "scope": "现场冲洗",
+    "turnaround": "2–7天"
+  },
+  "srv_6": {
+    "scope": "现场精密作业",
+    "turnaround": "1–3天"
+  },
+  "srv_7": {
+    "scope": "现场诊断",
+    "turnaround": "当日出具报告"
+  }
+}

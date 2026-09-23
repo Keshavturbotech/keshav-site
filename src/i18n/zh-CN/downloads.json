@@ -1,0 +1,92 @@
+{
+  "dl_1": {
+    "id": "dl_1",
+    "title": "汽轮机大修检查清单",
+    "desc": "汽轮机大修与小修的分步检查清单，涵盖间隙测量、动平衡、力矩确认签字及试车前检查。",
+    "category": "维护保养",
+    "tags": [
+      "汽轮机",
+      "大修",
+      "检查清单"
+    ],
+    "fileSize": "420 KB",
+    "fileType": "PDF",
+    "file": "turbine-overhaul-checklist.pdf",
+    "featured": true
+  },
+  "dl_2": {
+    "id": "dl_2",
+    "title": "滤芯技术资料表——润滑油",
+    "desc": "Keshav Enterprises供应的全部润滑油滤芯的技术参数、压差曲线及兼容性对照表。",
+    "category": "技术资料表",
+    "tags": [
+      "过滤",
+      "润滑油",
+      "技术资料表"
+    ],
+    "fileSize": "1.2 MB",
+    "fileType": "PDF",
+    "file": "filter-element-datasheet-lube-oil.pdf",
+    "featured": false
+  },
+  "dl_3": {
+    "id": "dl_3",
+    "title": "润滑油冲洗检查清单",
+    "desc": "符合ISO标准的冲洗流程检查清单，涵盖移动式离心过滤机组装、油样采集流程、洁净度验证及签字确认。",
+    "category": "维护保养",
+    "tags": [
+      "润滑油",
+      "冲洗",
+      "ISO"
+    ],
+    "fileSize": "310 KB",
+    "fileType": "PDF",
+    "file": "lube-oil-flushing-checklist.pdf",
+    "featured": false
+  },
+  "dl_4": {
+    "id": "dl_4",
+    "title": "轴承选型与间隙参考手册",
+    "desc": "常见汽轮机品牌的轴承选型、轴颈间隙及径向/轴向公差快速参考指南。",
+    "category": "技术指南",
+    "tags": [
+      "轴承",
+      "间隙",
+      "参考手册"
+    ],
+    "fileSize": "680 KB",
+    "fileType": "PDF",
+    "file": "bearing-selection-clearance-reference.pdf",
+    "featured": false
+  },
+  "dl_5": {
+    "id": "dl_5",
+    "title": "汽轮机询价单模板",
+    "desc": "用于申请维修或大修报价的空白汽轮机规格表，请填写品牌、型号、功率及维护历史。",
+    "category": "询价单/表格",
+    "tags": [
+      "询价单",
+      "模板",
+      "报价"
+    ],
+    "fileSize": "185 KB",
+    "fileType": "XLSX",
+    "file": "turbine-rfq-template.xlsx",
+    "featured": true
+  },
+  "dl_6": {
+    "id": "dl_6",
+    "title": "Keshav Enterprises 公司简介",
+    "desc": "面向采购团队和工厂经理的能力介绍，涵盖服务范围、OEM品牌覆盖、车间设备及参考项目。",
+    "category": "公司资料",
+    "tags": [
+      "简介",
+      "能力",
+      "宣传册"
+    ],
+    "fileSize": "3.4 MB",
+    "fileType": "PDF",
+    "file": "keshav-enterprises-company-profile.pdf",
+    "featured": false
+  }
+}

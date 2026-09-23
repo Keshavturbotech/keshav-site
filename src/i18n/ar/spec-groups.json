@@ -1,0 +1,14 @@
+{
+  "dimensions": {
+    "label": "الأبعاد"
+  },
+  "performance": {
+    "label": "الأداء"
+  },
+  "materials": {
+    "label": "المواد"
+  },
+  "standards": {
+    "label": "المعايير"
+  }
+}

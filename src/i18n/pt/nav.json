@@ -1,0 +1,29 @@
+{
+  "/": {
+    "label": "Início"
+  },
+  "/about": {
+    "label": "Sobre"
+  },
+  "/services": {
+    "label": "Serviços"
+  },
+  "/products": {
+    "label": "Produtos"
+  },
+  "/industries": {
+    "label": "Indústrias"
+  },
+  "/contact": {
+    "label": "Contato"
+  },
+  "/projects": {
+    "label": "Projetos"
+  },
+  "/blog": {
+    "label": "Blog"
+  },
+  "/downloads": {
+    "label": "Downloads"
+  }
+}

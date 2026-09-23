@@ -1,0 +1,11 @@
+{
+  "/": { "label": "હોમ" },
+  "/about": { "label": "અમારા વિશે" },
+  "/services": { "label": "સેવાઓ" },
+  "/products": { "label": "ઉત્પાદનો" },
+  "/industries": { "label": "ઉદ્યોગો" },
+  "/contact": { "label": "સંપર્ક કરો" },
+  "/projects": { "label": "પ્રોજેક્ટ્સ" },
+  "/blog": { "label": "બ્લોગ" },
+  "/downloads": { "label": "ડાઉનલોડ્સ" }
+}

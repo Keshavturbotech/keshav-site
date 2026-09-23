@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Keshav Enterprises — Đại tu & Phụ tùng Tua-bin Hơi nước, Shamli UP Ấn Độ",
+    "description": "Kỹ sư tua-bin hơi nước từng làm việc tại OEM Triveni, Siemens, BHEL. Đại tu, kỹ thuật đảo ngược, cân bằng động, súc rửa dầu bôi trơn & phụ tùng tương thích OEM cho tua-bin 5 kW–60 MW. Đặt tại Shamli, UP. Hỗ trợ khẩn cấp 24×7.",
+    "keywords": "bảo trì tua-bin Ấn Độ, đại tu tua-bin hơi nước, kỹ thuật đảo ngược tua-bin, phụ tùng tua-bin công nghiệp, lõi lọc dầu bôi trơn, khớp nối giãn nở Ấn Độ, dịch vụ tua-bin Triveni, phụ tùng tua-bin BHEL, lắp đặt tua-bin Uttar Pradesh, kỹ thuật Shamli"
+  },
+  "hero": {
+    "badgeMakeInIndia": "Make In India",
+    "badgeVocalForLocal": "Vocal For Local",
+    "badgeIndiaMartLabel": "Đã xác minh trên IndiaMART",
+    "badgeIndiaMartRatingSuffix": "ĐÁNH GIÁ",
+    "h1Line1": "Kỹ thuật Chính xác cho",
+    "h1Line2": "Thời gian Hoạt động Tối đa.",
+    "capabilityLine": "Tua-bin hơi nước từ 5 kW đến 60 MW — đối áp và ngưng hơi, nằm ngang và thẳng đứng, đơn cấp và đa cấp. Phục vụ khách hàng trên khắp Ấn Độ và toàn thế giới.",
+    "introText": "Kỹ sư từng làm việc tại OEM Triveni, Siemens, BHEL & 7 thương hiệu khác. Chúng tôi đưa tua-bin của bạn hoạt động trở lại nhanh hơn so với việc mua từ OEM — với đầy đủ chứng chỉ PMI, báo cáo cân bằng ISO và lịch sử không phạt kể từ {founded}.",
+    "ctaPrimary": "Gửi Yêu cầu Của Bạn",
+    "ctaEmergency": "Sự cố Khẩn cấp",
+    "trustYearsOverhauls": "{years}+ năm · 500+ lần đại tu",
+    "trustPmi": "Phụ tùng chứng nhận PMI",
+    "trustResponse": "Phản hồi trung bình: 2 giờ",
+    "proofCards": [
+      {
+        "label": "Không có Đường cong Học tập",
+        "title": "Kỹ sư Từng làm việc tại OEM",
+        "sub": "Đội ngũ của chúng tôi từng làm việc trong Triveni, Siemens, BHEL & Belliss — cùng chuyên môn, mang đến nhà máy của bạn."
+      },
+      {
+        "label": "Mọi Công việc đều có Tài liệu",
+        "title": "Báo cáo khi Bàn giao",
+        "sub": "Chứng chỉ PMI, báo cáo cân bằng, hồ sơ căn chỉnh, báo cáo tình trạng — được bàn giao khi hoàn thành công việc."
+      },
+      {
+        "label": "Khi Từng Phút đều Quan trọng",
+        "title": "Khẩn cấp 24×7",
+        "sub": "Kỹ sư tại nhiều địa điểm trên khắp Ấn Độ. Gọi cho chúng tôi lúc 2 giờ sáng — sẽ có người trả lời."
+      }
+    ]
+  },
+  "oemMarquee": {
+    "heading": "Tương thích OEM & Được các Doanh nghiệp Hàng đầu Tin tưởng"
+  },
+  "stats": {
+    "overhauls": {
+      "label": "Đại tu Hoàn thành",
+      "sub": "Nhà máy đường, điện, giấy & xi măng trên khắp Ấn Độ"
+    },
+    "years": {
+      "label": "Năm Hoạt động",
+      "sub": "Hoạt động liên tục kể từ {founded} — không thay đổi chủ sở hữu"
+    },
+    "penaltyClaims": {
+      "label": "Yêu cầu Bồi thường Phạt",
+      "sub": "Không có trong {years} năm — có sẵn tài liệu tham khảo khách hàng theo yêu cầu"
+    },
+    "emergency": {
+      "label": "Phản ứng Khẩn cấp",
+      "sub": "Kỹ sư tại nhiều địa điểm — thời gian điều động trung bình dưới 4 giờ"
+    }
+  },
+  "featuredProducts": {
+    "heading": "Sản phẩm Kỹ thuật Nổi bật",
+    "scrollLeftLabel": "Cuộn trái",
+    "scrollRightLabel": "Cuộn phải",
+    "dragToExplore": "kéo để khám phá",
+    "viewCompleteCatalog": "Xem Toàn bộ Danh mục",
+    "viewDetails": "Xem Chi tiết",
+    "swipeToBrowse": "Vuốt để duyệt"
+  },
+  "servicesPreview": {
+    "eyebrow": "Vòng đời Tua-bin Toàn diện",
+    "heading": "Dịch vụ Kỹ thuật",
+    "subheading": "Cùng đội ngũ kỹ sư từng làm việc tại OEM xử lý việc đại tu, phụ tùng và sự cố khẩn cấp lúc 2 giờ sáng của bạn — không thầu phụ, không bàn giao trung gian.",
+    "painLines": {
+      "srv_2": "Mệt mỏi với các nhà thầu đến hiện trường thiếu trang bị và không đưa ra báo cáo công việc?",
+      "srv_3": "OEM báo giá thời gian chờ nhiều tháng cho phụ tùng đã ngừng sản xuất?",
+      "srv_4": "Rung động tái diễn sau khi căn chỉnh và thay ổ trục — nguyên nhân gốc chưa được khắc phục?"
+    },
+    "viewFullDetails": "Xem Chi tiết Đầy đủ",
+    "viewAllServices": "Xem Tất cả 8 Dịch vụ"
+  },
+  "testimonials": {
+    "eyebrow": "Phản hồi Khách hàng",
+    "heading": "Được Quản lý Nhà máy Trên khắp Ấn Độ Tin tưởng",
+    "googleRatingLabel": "+ đánh giá đã xác minh trên Google",
+    "disclaimer": "Các trích dẫn được lấy từ hồ sơ dự án đã hoàn thành và viết tắt thành chữ cái đầu cho đến khi có sự đồng ý bằng văn bản để ghi đầy đủ danh tính. Để biết các đánh giá được xác minh độc lập, xem đánh giá Google của chúng tôi ở trên.",
+    "footerCtaPrefix": "Đã từng làm việc với chúng tôi?",
+    "footerCtaLink": "Để lại đánh giá Google — giúp các quản lý nhà máy khác tìm thấy chúng tôi →",
+    "googleReviewBadge": "Đánh giá Google",
+    "items": [
+      {
+        "quote": "Các kỹ sư từng làm việc tại Triveni của họ đã thực hiện đại tu tua-bin Triveni 12 MW của chúng tôi trong đợt dừng máy hàng năm — tất cả khe hở được ghi lại, rotor cân bằng đến ISO G1.0, và hoạt động trở lại trước tiến độ. Lần đầu tiên trong sáu năm chúng tôi không gặp vấn đề nào khi khởi động lần đầu.",
+        "name": "R. Kumar",
+        "role": "Quản lý Nhà máy",
+        "company": "Nhà máy Đường & Đồng phát",
+        "location": "Uttar Pradesh",
+        "service": "Đại tu Tua-bin",
+        "detail": "Triveni 12 MW · Dừng máy Theo Kế hoạch"
+      },
+      {
+        "quote": "Chúng tôi gặp sự cố hỏng ổ trục babbitt nghiêm trọng trên tua-bin Belliss & Morcom lúc 2 giờ sáng trong đỉnh điểm mùa ép mía. Keshav Enterprises đã có kỹ sư tại hiện trường vào buổi sáng với ổ trục thay thế sẵn sàng. Thời gian ngừng máy dưới 14 giờ — điều đó tiết kiệm cho chúng tôi hàng chục triệu rupee tổn thất mía.",
+        "name": "A. Singh",
+        "role": "Trưởng phòng Bảo trì",
+        "company": "Nhà máy Đường",
+        "location": "Haryana",
+        "service": "Ứng phó Sự cố Khẩn cấp",
+        "detail": "Belliss & Morcom · Hỏng Ổ trục"
+      },
+      {
+        "quote": "Phụ tùng OEM cho tua-bin Belliss & Morcom 28 năm tuổi của chúng tôi có thời gian chờ 18 tháng. Keshav đã thực hiện kỹ thuật đảo ngược trục rotor và vòng mê cung trong 6 tuần với đầy đủ chứng chỉ PMI. Chất lượng không khác gì OEM.",
+        "name": "V. Sharma",
+        "role": "Kỹ sư trưởng",
+        "company": "Nhà máy Giấy & Điện",
+        "location": "Punjab",
+        "service": "Kỹ thuật Đảo ngược",
+        "detail": "Belliss & Morcom · Phụ tùng Ngừng sản xuất"
+      },
+      {
+        "quote": "Sau khi Keshav cân bằng động rotor tua-bin BHEL 3 MW của chúng tôi, độ rung dư giảm từ 9,2 mm/s xuống 0,8 mm/s — nằm sâu trong ISO G1.0. Rotor này từng gây mòn ổ trục mỗi 8 tháng. Giờ chúng tôi đã đạt 26 tháng mà không cần thay ổ trục. Báo cáo cân bằng đã làm hài lòng các kiểm toán viên bảo hiểm của chúng tôi.",
+        "name": "P. Reddy",
+        "role": "Kỹ sư Đo lường & Bảo trì",
+        "company": "Nhà máy Điện Tự dùng",
+        "location": "Telangana",
+        "service": "Cân bằng Động",
+        "detail": "BHEL 3 MW · Tuân thủ ISO G1.0"
+      }
+    ]
+  },
+  "capabilities": {
+    "heading": "Năng lực Sản xuất & Kỹ thuật",
+    "items": [
+      {
+        "iconName": "Zap",
+        "text": "Thời gian giao hàng nhanh hơn mua từ OEM — Triveni, Siemens, BHEL"
+      },
+      {
+        "iconName": "Layers",
+        "text": "Nâng cấp vật liệu: Duplex, Incoloy, Inconel, Titanium, Hastelloy"
+      },
+      {
+        "iconName": "Activity",
+        "text": "Cân bằng động theo ISO/API công suất 50–2.000 kg"
+      },
+      {
+        "iconName": "Wind",
+        "text": "Ống xếp giãn nở tùy chỉnh DN 15–12.000, đến 150 barg"
+      },
+      {
+        "iconName": "Droplets",
+        "text": "Lõi lọc theo tiêu chuẩn ISO 16889, API 614, ASME & EN"
+      },
+      {
+        "iconName": "Cpu",
+        "text": "Hệ thống dầu bôi trơn theo phân loại độ sạch ISO 4406:99"
+      }
+    ]
+  },
+  "projectsTeaser": {
+    "eyebrow": "Kết quả Thực địa được Ghi nhận",
+    "heading": "Dự án & Nghiên cứu Điển hình",
+    "viewAllProjects": "Xem Tất cả Dự án",
+    "readCaseStudy": "Đọc Nghiên cứu Điển hình",
+    "seeAllProjectsPrefix": "Xem tất cả",
+    "seeAllProjectsSuffix": "dự án"
+  },
+  "resourceBar": {
+    "blogText": "Bài viết kỹ thuật từ đội ngũ kỹ sư của chúng tôi",
+    "downloadsText": "Danh mục kiểm tra đại tu, mẫu RFQ & bảng thông số miễn phí"
+  },
+  "finalCta": {
+    "heading": "Nhận Báo giá Kỹ thuật. Mỗi Giờ Ngừng hoạt động Đều Tốn Kém.",
+    "subheading": "Kỹ sư của chúng tôi phản hồi bằng câu trả lời kỹ thuật trong vòng 24 giờ đối với công việc theo kế hoạch — và trong vòng một giờ đối với sự cố — vì tính sẵn sàng của nhà máy bạn chính là lợi nhuận của bạn.",
+    "plannedTitle": "Đại tu Theo Kế hoạch hoặc Yêu cầu Báo giá",
+    "plannedDesc": "Bảo trì theo lịch trình, mua sắm phụ tùng, cung cấp khớp nối giãn nở, hoặc đặt hàng lõi lọc. Chia sẻ yêu cầu của bạn và nhận báo giá kỹ thuật chi tiết.",
+    "plannedSendBtn": "Gửi Yêu cầu Của Bạn",
+    "plannedEmailBtn": "Email Đội ngũ Kỹ thuật của Chúng tôi",
+    "emergencyTitle": "Sự cố Khẩn cấp — Ngay Bây giờ",
+    "emergencyDesc": "Tua-bin bị trip? Rung động cao? Dừng máy bất ngờ? Kỹ sư của chúng tôi có thể liên hệ 24×7. Gọi hoặc WhatsApp ngay — mỗi giờ ngừng hoạt động đều tốn kém.",
+    "emergencyCallPrefix": "Gọi Ngay —",
+    "emergencyWhatsappBtn": "WhatsApp Khẩn cấp",
+    "riskReversal": [
+      "Không ràng buộc — chúng tôi gửi câu trả lời kỹ thuật, bạn quyết định bước tiếp theo",
+      "RFQ bảo mật — thông tin nhà máy của bạn không bao giờ đến tay đại diện OEM",
+      "Kỹ sư phản hồi, không phải trung tâm cuộc gọi",
+      "Phản hồi 24 giờ theo kế hoạch · 1 giờ khẩn cấp"
+    ]
+  },
+  "whatsappEmergencyMessage": "Xin chào KESHAV ENTERPRISES, chúng tôi gặp sự cố khẩn cấp. Vui lòng hỗ trợ ngay lập tức."
+}

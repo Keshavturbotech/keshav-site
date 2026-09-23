@@ -1,0 +1,658 @@
+{
+  "ind_1": {
+    "heroSub": "Turbines à vapeur de 5 MW à 60 MW — thermique, cogénération et énergie captive",
+    "overview": "Le secteur thermique et de l'énergie captive en Inde dépend de la performance ininterrompue de turbines à vapeur fonctionnant en charge continue. Keshav Enterprises possède une expertise approfondie datant de l'ère des constructeurs d'origine — nos ingénieurs ont été formés par des fabricants de turbines avant même la création de l'entreprise — ce qui nous permet de faire de la rétro-ingénierie, de fabriquer et de réviser chaque sous-système majeur des turbines à vapeur de centrales électriques selon les tolérances du fabricant d'origine.",
+    "challenges": [
+      {
+        "title": "Fonctionnement continu à charge élevée",
+        "desc": "Les turbines à vapeur des centrales électriques fonctionnent à 3000–3600 tr/min en conditions de pleine charge continue, imposant une contrainte extrême sur les paliers, joints et ensembles rotatifs."
+      },
+      {
+        "title": "Contamination de l'huile de lubrification",
+        "desc": "L'entrée de particules et d'eau dans le système d'huile de lubrification peut dégrader rapidement les surfaces de paliers. Les objectifs de propreté ISO 4406:99 doivent être maintenus en permanence."
+      },
+      {
+        "title": "Dilatation thermique des lignes de vapeur",
+        "desc": "La tuyauterie de vapeur à haute température subit un cyclage thermique important. Sans joints de dilatation correctement conçus, la contrainte de tuyauterie entraîne des fuites de brides et des dommages aux tuyères de turbine."
+      },
+      {
+        "title": "Vibrations du rotor et dérive d'équilibrage",
+        "desc": "Le dépôt et l'érosion provoquent des changements d'équilibre progressifs du rotor, augmentant les vibrations et accélérant l'usure des paliers si non détecté tôt."
+      }
+    ],
+    "products": [
+      {
+        "name": "Élément filtrant d'huile de lubrification (180 GPM)",
+        "purpose": "Maintient la propreté ISO 4406:99 dans le système d'huile de lubrification de la turbine, protège les paliers de tourillon et de butée contre l'usure abrasive.",
+        "features": [
+          "Média VG fibre de verre, finesse 6–25 µm",
+          "Spécification antistatique IS27 pour huiles synthétiques",
+          "Compatible OEM Triveni, Siemens, BHEL"
+        ]
+      },
+      {
+        "name": "Soufflet de croisement vapeur",
+        "purpose": "Absorbe la dilatation thermique entre les sections HP/LP de la turbine et le tuyau de croisement, éliminant le transfert de contrainte vers la bride de tuyère de turbine.",
+        "features": [
+          "Soufflet inox haute-cyclabilité, norme EJMA",
+          "Température de service jusqu'à 550 °C",
+          "Extrémités à brides sur mesure selon dimensions OEM"
+        ]
+      },
+      {
+        "name": "Paliers de tourillon et de butée en régule (babbitt)",
+        "purpose": "Paliers doublés de métal blanc usinés avec précision selon le profil OEM pour les rotors de turbine — essentiels à la stabilité de l'arbre à haute vitesse.",
+        "features": [
+          "Métal blanc (régule) coulé et usiné avec précision",
+          "Toutes marques de turbines : Triveni, Siemens, BHEL, KKK",
+          "Ajustement serré vérifié sur MMT"
+        ]
+      },
+      {
+        "name": "Vanne d'arrêt d'urgence",
+        "purpose": "Vanne critique pour la sécurité qui déclenche la turbine en cas de survitesse ou de basse pression d'huile de lubrification — fabriquée selon les réglages de pression de déclenchement OEM.",
+        "features": [
+          "Corps usiné CNC à partir de forgeage EN8/EN19",
+          "Mécanisme de déclenchement à ressort",
+          "Testé à 1,5× la pression de service avant expédition"
+        ]
+      },
+      {
+        "name": "Sonde de surveillance vibratoire (compatible Shinkawa)",
+        "purpose": "Sonde de proximité pour la surveillance continue des vibrations du rotor selon API 670, permettant la maintenance prédictive avant la défaillance des paliers.",
+        "features": [
+          "Compatible Shinkawa, Bently Nevada",
+          "Détection sans contact par courants de Foucault",
+          "Seuils d'alerte et de danger selon API 670"
+        ]
+      },
+      {
+        "name": "Pompe à huile de turbine (principale et auxiliaire)",
+        "purpose": "Fournit l'huile de lubrification pressurisée à tous les paliers. La pompe auxiliaire prend le relais pendant les phases de démarrage et d'arrêt lorsque le débit de la pompe principale entraînée par l'arbre est insuffisant.",
+        "features": [
+          "Conception à pompe à engrenages, montée sur le socle de la turbine",
+          "Dimensions disponibles pour tous les principaux OEM",
+          "Soupape de décharge réglée selon la spécification de pression OEM"
+        ]
+      },
+      {
+        "name": "Filtre à air plissé sur panneau (HVAC salle de contrôle et hall des turbines)",
+        "purpose": "Filtre HVAC de remplacement pour les centrales de traitement d'air (CTA) de la salle de contrôle, les unités de ventilation du hall des turbines et les refroidisseurs d'air des salles électriques — maintient l'air de refroidissement propre et protège les équipements sensibles de la poussière de charbon et des cendres volantes.",
+        "features": [
+          "Efficacité F7 pour capter les cendres volantes fines et la poussière de charbon",
+          "Cadre en acier galvanisé avec média synthétique",
+          "Tailles standard de CTA en stock ; dimensions sur mesure sur demande",
+          "Préfiltre à maille métallique également disponible pour le premier étage"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Capacité de turbine maximale traitée : 60 MW",
+      "Plus de 26 ans d'expérience d'ingénierie formée par les OEM",
+      "Produits conformes API 614 et ISO 4406:99",
+      "Fourniture de filtres HVAC pour salles de contrôle et halls de turbines",
+      "Assistance d'urgence 24h/24 et 7j/7"
+    ]
+  },
+  "ind_2": {
+    "heroSub": "Turbines à contre-pression et à soutirage-condensation en cogénération sucrière et distillerie",
+    "overview": "L'industrie sucrière indienne fonctionne sur des campagnes de broyage intensives de 150 à 180 jours où la disponibilité des turbines est directement liée au débit de broyage de la canne à sucre. Keshav Enterprises est spécialisée dans la révision inter-campagne des turbines à contre-pression — le cheval de bataille de la cogénération sucrière — et fournit une assistance d'urgence 24h/24 et 7j/7 pour les pièces détachées pendant la campagne de broyage, lorsque l'arrêt est le plus coûteux.",
+    "challenges": [
+      {
+        "title": "Fenêtre de révision inter-campagne courte",
+        "desc": "Les turbines doivent être entièrement révisées, les pièces remplacées et remises en service avant le début de la campagne de broyage suivante — souvent dans une fenêtre de seulement 90 à 120 jours."
+      },
+      {
+        "title": "Usure du carbone et des joints de presse-étoupe",
+        "desc": "Les turbines à contre-pression utilisent des bagues de presse-étoupe en carbone pour empêcher les fuites de vapeur. Celles-ci s'usent continuellement et nécessitent un remplacement précis à chaque révision."
+      },
+      {
+        "title": "Contamination par la mélasse et le jus",
+        "desc": "Les zones de traitement génèrent des particules aéroportées collantes. Les filtres reniflards et crépines sur le système d'huile de lubrification doivent être entretenus pour éviter la contamination."
+      },
+      {
+        "title": "Pannes d'urgence en pleine campagne",
+        "desc": "Un déclenchement de turbine en pleine campagne de broyage entraîne une accumulation immédiate de canne à sucre. Des pièces d'urgence et une réponse rapide peuvent faire la différence entre un arrêt de 4 heures et un arrêt de 4 jours."
+      }
+    ],
+    "products": [
+      {
+        "name": "Bagues d'étanchéité de presse-étoupe en carbone et graphite",
+        "purpose": "Empêche la fuite de vapeur le long de l'arbre de turbine au niveau des zones de presse-étoupe. Usinées avec précision selon les dimensions d'arbre et de logement OEM.",
+        "features": [
+          "Grades carbone/graphite de haute pureté",
+          "Toutes marques de turbines : Triveni, Belliss & Morcom, Maxwatt",
+          "Usinage interne avec tolérance jusqu'à ±0,01 mm"
+        ]
+      },
+      {
+        "name": "Garniture d'étanchéité labyrinthe",
+        "purpose": "Joints labyrinthes inter-étages et d'extrémité d'arbre qui réduisent la fuite de vapeur entre les étages de turbine, améliorant directement le rendement thermique.",
+        "features": [
+          "Options de matériau : inox, laiton ou monel",
+          "Profil de dents OEM maintenu",
+          "Bandes neuves ou réparées ajustées dans les logements existants"
+        ]
+      },
+      {
+        "name": "Élément filtrant d'huile de lubrification (compatible Triveni)",
+        "purpose": "Assure un approvisionnement propre en huile de lubrification pour les paliers de turbine tout au long de la campagne de broyage, prévenant les défaillances de paliers pendant les périodes de production critiques.",
+        "features": [
+          "Débit nominal de 180 GPM",
+          "Spécification antistatique IS27",
+          "Remplacement recommandé entre les campagnes"
+        ]
+      },
+      {
+        "name": "Filtre reniflard d'air",
+        "purpose": "Protège le réservoir d'huile de lubrification de la poussière aéroportée et des particules de sucre — important dans l'environnement de la sucrerie où la charge de poussière ambiante est extrêmement élevée.",
+        "features": [
+          "Conception de reniflard à maille fine et dessiccant",
+          "Empêche l'entrée d'humidité et de poussière",
+          "Indicateur visuel de saturation"
+        ]
+      },
+      {
+        "name": "Crépines à panier simplex et duplex",
+        "purpose": "Installées dans les circuits d'huile de lubrification et d'eau de refroidissement, capturent les débris avant qu'ils n'atteignent les paliers et échangeurs de chaleur.",
+        "features": [
+          "Paniers en maille inox, nettoyables et réutilisables",
+          "Extrémités à brides ANSI ou filetées",
+          "Duplex pour un nettoyage de crépine sans arrêt de production"
+        ]
+      },
+      {
+        "name": "Service d'équilibrage de rotor",
+        "purpose": "Équilibrage dynamique des rotors de turbine après le regarnissage des aubes ou le remplacement des paliers, restaurant un fonctionnement fluide selon la spécification ISO 1940 G1.0.",
+        "features": [
+          "Équilibrage dynamique jusqu'à ISO 1940/1 G1.0",
+          "Équilibrage à deux plans sur tous types de rotors",
+          "Certificat d'équilibrage délivré avec rapport de travail"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Services spécialisés pour turbines Triveni et Belliss",
+      "Assistance d'urgence saisonnière 24h/24 et 7j/7",
+      "Tous grades carbone/graphite usinés en interne",
+      "Révision inter-campagne réalisée dans les délais impartis"
+    ]
+  },
+  "ind_3": {
+    "heroSub": "Turbines en fonctionnement continu, joints de dilatation et filtration de procédé pour papeteries",
+    "overview": "Les papeteries et usines de pâte à papier font fonctionner les turbines à vapeur toute l'année, plus de 350 jours, ce qui rend les fenêtres de maintenance planifiée extrêmement limitées. Le procédé implique également de l'eau de javel corrosive, de l'eau chaude et de la vapeur haute pression — tout cela exigeant des produits de filtration et d'étanchéité adaptés aux milieux agressifs. Keshav Enterprises fournit la gamme complète de produits nécessaires pour maintenir en fonctionnement les systèmes de vapeur et de procédé des papeteries.",
+    "challenges": [
+      {
+        "title": "Fenêtre d'arrêt minimale",
+        "desc": "Les arrêts de machine à papier coûtent des millions de roupies par heure. La révision des turbines doit être planifiée des mois à l'avance et exécutée sans aucune reprise — chaque composant doit être correct du premier coup."
+      },
+      {
+        "title": "Milieux de procédé corrosifs",
+        "desc": "L'eau de javel, les composés chlorés et les fluides de procédé caustiques attaquent les matériaux standard. Les produits de filtration et de flexibles doivent utiliser des médias et joints compatibles."
+      },
+      {
+        "title": "Tuyauterie de vapeur à haute température",
+        "desc": "Les chaudières de papeterie génèrent de la vapeur haute pression à 250–400 °C. Les joints de dilatation de tuyauterie de vapeur doivent supporter à la fois une température élevée et une fatigue de cyclage."
+      },
+      {
+        "title": "Vibrations issues des machines à papier",
+        "desc": "Les machines à papier à grande vitesse génèrent des vibrations continues à large bande. Des supports anti-vibratoires et des raccords de flexibles sont nécessaires pour isoler les équipements."
+      }
+    ],
+    "products": [
+      {
+        "name": "Crépines à panier duplex",
+        "purpose": "Installées sur les lignes d'eau de procédé, d'eau blanche et d'eau de refroidissement. La conception duplex permet le nettoyage du panier sans interrompre le flux — essentiel dans une usine en fonctionnement continu.",
+        "features": [
+          "Paniers en inox 316 pour milieux corrosifs",
+          "Vanne de dérivation à bouchon inclus",
+          "Classes de brides ANSI 150 à 600 disponibles"
+        ]
+      },
+      {
+        "name": "Joint de dilatation à soufflet métallique inox",
+        "purpose": "Absorbe la dilatation thermique dans la tuyauterie de vapeur haute pression, les lignes de procédé de pâte et la tuyauterie d'usine de blanchiment sans transférer de contrainte aux tuyères des équipements.",
+        "features": [
+          "Soufflet inox 316L pour résistance à la corrosion",
+          "Plage DN15 à DN1200",
+          "Norme de conception EJMA, testé sous pression"
+        ]
+      },
+      {
+        "name": "Joint de dilatation en caoutchouc (double arche)",
+        "purpose": "Fournit une connexion flexible à l'aspiration et au refoulement des pompes dans les systèmes de traitement d'eau, d'eau blanche et d'effluents — isole les vibrations de pompe de la tuyauterie.",
+        "features": [
+          "Options de tube en caoutchouc naturel ou EPDM",
+          "Extrémités à brides PN10/16",
+          "Température de service jusqu'à 150 °C"
+        ]
+      },
+      {
+        "name": "Ensemble de flexible doublé PTFE",
+        "purpose": "Flexibles de transfert chimique pour les lignes d'eau de javel, de soude caustique et d'acide dans l'usine de blanchiment — le doublage PTFE offre une résistance totale aux produits chimiques de procédé agressifs.",
+        "features": [
+          "Âme intérieure PTFE, renforcement par tresse inox",
+          "Homologué pour vide total",
+          "Ensembles conformes EN14420 disponibles"
+        ]
+      },
+      {
+        "name": "Profilés et joints en caoutchouc extrudé sur mesure",
+        "purpose": "Bandes d'amortissement en caoutchouc extrudé sur mesure, installées sous les entraînements, pompes et socles de turbine de la machine à papier pour isoler et amortir les vibrations transmises à la structure du bâtiment.",
+        "features": [
+          "Composé EPDM, néoprène, nitrile ou caoutchouc naturel",
+          "Section personnalisée extrudée selon plan ou échantillon",
+          "Plage de dureté 40-80 Shore A selon l'application"
+        ]
+      },
+      {
+        "name": "Pièces détachées de turbine (Siemens, BHEL, Triveni)",
+        "purpose": "Pièces détachées de turbine équivalentes OEM fabriquées à partir de matériaux certifiés pour les kits de révision planifiée — tuyères, diaphragmes, bagues de presse-étoupe et logements de paliers.",
+        "features": [
+          "Rétro-ingénierie à partir de plans OEM",
+          "Certificats matériaux fournis",
+          "Rapport d'inspection dimensionnelle MMT"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Plus de 350 jours d'assistance en fonctionnement continu par an",
+      "Produits en inox 316L pour milieux corrosifs",
+      "Solutions de crépines duplex sans arrêt de production",
+      "Kits de révision complets planifiés et fournis"
+    ]
+  },
+  "ind_4": {
+    "heroSub": "Filtration conforme API 614, paliers en régule et flexibles de précision pour installations pétrolières et gazières",
+    "overview": "Les installations pétrolières et gazières amont, intermédiaires et aval exploitent des compresseurs et pompes entraînés par turbine dans les conditions les plus exigeantes de l'industrie. Chaque composant des systèmes d'huile de lubrification et de commande doit répondre aux normes API. Keshav Enterprises fournit des éléments filtrants conformes API 614 qualifiés pour une utilisation dans des équipements en zone à risque, des paliers en régule et des ensembles de flexibles conçus avec précision.",
+    "challenges": [
+      {
+        "title": "Conformité du système d'huile de lubrification API 614",
+        "desc": "Tous les composants de systèmes d'huile de lubrification pour les équipements entraînés par turbine dans le pétrole et le gaz doivent respecter la norme API 614, qui spécifie les matériaux, la propreté et les classes de pression."
+      },
+      {
+        "title": "Filtration en zone à risque",
+        "desc": "Les huiles de commande synthétiques dans les systèmes de commande de turbine ont une faible conductivité. Les éléments filtrants doivent respecter la spécification antistatique IS27 pour prévenir les décharges électrostatiques."
+      },
+      {
+        "title": "Intégrité des flexibles haute pression",
+        "desc": "Les ensembles de flexibles hydrauliques et d'instrumentation dans le pétrole et le gaz supportent des pressions allant jusqu'à 420 bars. Une défaillance signifie fuite et risque d'incendie — aucun compromis sur la qualité ou la certification."
+      },
+      {
+        "title": "Approvisionnement rapide sur sites éloignés",
+        "desc": "Les plateformes offshore et installations amont éloignées nécessitent un approvisionnement rapide en pièces détachées. Les pièces critiques sont stockées et expédiées le jour même sur commande d'urgence."
+      }
+    ],
+    "products": [
+      {
+        "name": "Élément filtrant d'huile de commande (antistatique IS27)",
+        "purpose": "Pour les systèmes de commande électro-hydraulique (EHC) de turbine utilisant une huile de commande synthétique à base de phosphate-ester ou d'ester avec une conductivité inférieure à 300 pS/m.",
+        "features": [
+          "Certification antistatique IS27",
+          "Média VG microglass, 3–25 µm",
+          "Compatible Siemens, Man Turbo, KKK"
+        ]
+      },
+      {
+        "name": "Fabrication de paliers en régule",
+        "purpose": "Paliers de tourillon et de butée pour compresseurs et pompes entraînés par turbine, doublés de métal blanc avec un profil précis correspondant à la géométrie de palier OEM d'origine.",
+        "features": [
+          "Composition métal blanc selon ASTM B23",
+          "Alésage de précision jusqu'à <0,01 mm de tolérance",
+          "Toutes marques : Man Turbo, KKK, Siemens, ABB"
+        ]
+      },
+      {
+        "name": "Ensemble de flexible doublé PTFE",
+        "purpose": "Flexibles chimiques et d'instrumentation pour le transfert de fluides agressifs dans le traitement pétrolier et gazier — résistant au pétrole brut, H2S, méthanol et inhibiteurs.",
+        "features": [
+          "Âme PTFE, tresse inox 316 ou surtresse inox",
+          "Homologué jusqu'à 420 bars (ensembles sélectionnés)",
+          "Ensembles conformes BS EN ISO 10380 disponibles"
+        ]
+      },
+      {
+        "name": "Ensemble de flexible hydraulique en caoutchouc",
+        "purpose": "Flexibles hydrauliques haute pression pour actionneurs de commande, systèmes BOP et unités de puissance hydraulique sur équipements de forage et de traitement.",
+        "features": [
+          "Construction spiralée à 4 et 6 fils",
+          "Pression de service jusqu'à 400 bars",
+          "Raccords compatibles Parker, Gates, Manuli"
+        ]
+      },
+      {
+        "name": "Logement de filtre fabriqué duplex",
+        "purpose": "Cuve de filtre duplex fabriquée sur mesure pour les systèmes d'huile de lubrification et de commande, homologuée code ASME pour respecter les exigences de cuves API 614.",
+        "features": [
+          "Homologué code ASME Sec. VIII Div. 1",
+          "Matériau : acier au carbone, inox 304, inox 316 selon service",
+          "Certifié PED/CE pour projets d'exportation"
+        ]
+      },
+      {
+        "name": "Sonde de surveillance vibratoire",
+        "purpose": "Sondes de proximité et systèmes de surveillance compatibles avec les systèmes de protection de machines tournantes API 670 pour lignes de compresseurs et de turbines.",
+        "features": [
+          "Compatible Bently Nevada, Shinkawa",
+          "Boîtier de sonde homologué IP67",
+          "Sorties relais d'alerte et de danger"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Produits conformes API 614 et IS27",
+      "Paliers en régule pour tous les principaux OEM",
+      "Expédition d'urgence le jour même disponible",
+      "Cuves sous pression homologuées code ASME"
+    ]
+  },
+  "ind_5": {
+    "heroSub": "Joints de dilatation métalliques, crépines haute température et pièces de précision pour raffineries et usines pétrochimiques",
+    "overview": "Les complexes de raffinage et pétrochimiques manipulent des hydrocarbures, acides et produits chimiques agressifs à des températures et pressions extrêmes. Les joints de dilatation métalliques, crépines de procédé et pièces de turbine de précision doivent supporter le cyclage thermique, les milieux corrosifs et la fatigue à haut cyclage. Keshav Enterprises fabrique ces produits selon les normes EJMA, ASME et API pour les applications de raffinage les plus exigeantes.",
+    "challenges": [
+      {
+        "title": "Cyclage thermique extrême",
+        "desc": "Les unités de craquage à la vapeur et colonnes de distillation en raffinerie cyclent entre la température ambiante et des températures de service supérieures à 600 °C. Les joints de dilatation doivent supporter des millions de cycles de flexion sans défaillance par fatigue."
+      },
+      {
+        "title": "Milieux corrosifs et riches en hydrogène",
+        "desc": "Le service H2S, HF, solvants aminés et hydrogène nécessite des soufflets en inconel, hastelloy ou inox duplex — l'inox standard 304/316 ne suffit pas."
+      },
+      {
+        "title": "Conformité aux codes ASME et API",
+        "desc": "Les cuves sous pression, tuyauteries et soufflets en raffinerie doivent respecter le code ASME Sec. VIII et les codes API. L'inspection par un tiers et la traçabilité des matériaux sont obligatoires."
+      },
+      {
+        "title": "Érosion du catalyseur dans l'unité FCC",
+        "desc": "L'unité de craquage catalytique fluide transporte des particules de catalyseur entraînées à plus de 700 °C. Les joints de dilatation dans les lignes de régénérateur et de réacteur doivent résister à une érosion extrême et à un choc thermique."
+      }
+    ],
+    "products": [
+      {
+        "name": "Joint de dilatation robuste à paroi épaisse",
+        "purpose": "Soufflet renforcé à paroi épaisse pour les conditions de service extrêmes des lignes de transfert régénérateur-réacteur : haute température, haute pression et forte contrainte mécanique/thermique.",
+        "features": [
+          "Construction à paroi renforcée pour une résistance maximale à la pression et aux contraintes",
+          "Déformation minimale sous cycles extrêmes de pression et de température",
+          "Matériaux : options SS 316/321, Duplex, Inconel, Hastelloy"
+        ]
+      },
+      {
+        "name": "Joint de dilatation métallique axial et universel",
+        "purpose": "Soufflets de ligne de procédé standard pour absorber la dilatation thermique dans la tuyauterie de pétrole brut, de produits et de vapeur dans l'ensemble du complexe de raffinerie.",
+        "features": [
+          "Plage de fabrication DN15 à DN12 000",
+          "Grades inox 316L, inconel, hastelloy, inox duplex",
+          "Code de conception ASME Sec. VIII Div. 1"
+        ]
+      },
+      {
+        "name": "Crépines simplex et duplex haute pression",
+        "purpose": "Crépines en ligne sur les lignes de charge de pétrole brut, lignes de transfert de produits et tuyauterie d'aspiration de compresseur pour protéger les équipements du tartre et des débris.",
+        "features": [
+          "Conception selon code de cuves sous pression ASME",
+          "Construction en plaque perforée + panier grillagé",
+          "Classes de pression PN40 à PN160 disponibles"
+        ]
+      },
+      {
+        "name": "Joint de dilatation cryogénique GNL / GPL",
+        "purpose": "Joint de dilatation métallique cryogénique pour tuyauteries de gaz liquéfié à très basse température : lignes de transfert GNL/GPL, terminaux de stockage cryogénique et collecteurs de chargement de navires.",
+        "features": [
+          "Conçu pour un usage cryogénique jusqu'aux plages de température de service du GNL",
+          "Sélection de matériaux basse température pour la ténacité et la résistance à la fatigue",
+          "Options en acier inoxydable austénitique et alliage cryogénique, traçabilité complète des matériaux"
+        ]
+      },
+      {
+        "name": "Composants de veine de vapeur de turbine",
+        "purpose": "Blocs de tuyères, diaphragmes et porte-aubes pour les entraînements de compresseurs par turbine — fabriqués en acier allié selon le profil OEM.",
+        "features": [
+          "Usinage CNC à partir de forgeages certifiés",
+          "Matériau : acier allié Cr-Mo, inox 17-4PH",
+          "Profil vérifié par mesure MMT 3D"
+        ]
+      },
+      {
+        "name": "Joint de dilatation à pression équilibrée",
+        "purpose": "Élimine les forces de poussée de pression sur les tuyères d'équipements sensibles en service raffinerie haute pression — protège les brides de compresseurs et pompes.",
+        "features": [
+          "Conception de poussée de pression annulée par tirants",
+          "Réduit la charge de tuyère à quasi zéro",
+          "Disponible en configurations liées et non liées"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Soufflets en inconel, hastelloy et inox duplex",
+      "Norme de conception EJMA 10e édition",
+      "Cuves sous pression et soufflets homologués code ASME",
+      "Spécialistes FCC et service extrême"
+    ]
+  },
+  "ind_6": {
+    "heroSub": "Cogénération à turbine à vapeur, filtration et produits en caoutchouc pour installations agroalimentaires",
+    "overview": "La transformation agroalimentaire — de la rizerie et l'extraction par solvant à la production laitière et alimentaire — utilise de plus en plus la cogénération à vapeur captive pour réduire les coûts énergétiques. Ces installations ont besoin d'une maintenance fiable des turbines, de flexibles et filtres de qualité alimentaire, et de solutions d'isolation vibratoire pour les machines de traitement sensibles. Keshav Enterprises fournit la gamme complète de produits et services nécessaires dans le secteur agro-industriel.",
+    "challenges": [
+      {
+        "title": "Exigences de matériaux de qualité alimentaire",
+        "desc": "Les flexibles, joints et filtration dans les zones de contact alimentaire doivent utiliser des matériaux approuvés FDA — PTFE, EPDM de qualité alimentaire et acier inoxydable à surface polie."
+      },
+      {
+        "title": "Variations de charge saisonnières",
+        "desc": "Les turbines de cogénération agroalimentaire connaissent de larges variations de charge selon les saisons de récolte. Cela entraîne une érosion des aubes plus rapide et une fatigue de cyclage thermique par rapport aux centrales électriques à charge constante."
+      },
+      {
+        "title": "Contamination par respiration de cuve",
+        "desc": "Les cuves de stockage d'huile alimentaire doivent être protégées de la poussière aéroportée et de l'humidité par le circuit de respiration — la contamination affecte la qualité et la durée de conservation du produit."
+      },
+      {
+        "title": "Vibrations de machinerie dans les usines alimentaires",
+        "desc": "Les broyeurs à marteaux, centrifugeuses et machines de conditionnement transmettent des vibrations au sol et aux équipements adjacents. L'isolation est nécessaire pour maintenir des connexions hygiéniques."
+      }
+    ],
+    "products": [
+      {
+        "name": "Ensemble de flexible PTFE grade FDA",
+        "purpose": "Flexibles flexibles pour le transfert de fluides de qualité alimentaire — circulation chimique CIP/SIP, lignes de produits et injection de vapeur dans des environnements de qualité alimentaire.",
+        "features": [
+          "Âme intérieure PTFE, conforme FDA 21 CFR 177.1550",
+          "Raccords d'extrémité inox 316 électropolis",
+          "Connexions d'extrémité tri-clamp (sanitaires) disponibles"
+        ]
+      },
+      {
+        "name": "Filtre reniflard d'air et de cuve",
+        "purpose": "Protège les cuves de stockage d'huile alimentaire de l'entrée de poussière et d'humidité via le circuit d'évent — prévient la contamination du produit stocké.",
+        "features": [
+          "Gel de silice dessiccant + média particulaire fin",
+          "Indicateur de couleur de saturation visuel",
+          "Conception de cartouche remplaçable pour un entretien facile"
+        ]
+      },
+      {
+        "name": "Crépines en Y et coniques",
+        "purpose": "Crépines en ligne sur les lignes de fluides de procédé, aspiration de pompe et systèmes d'eau d'alimentation de chaudière — protègent les équipements du tartre et des débris de procédé.",
+        "features": [
+          "Panier en maille inox, taille de maille 40 à 400 µm",
+          "Connexions filetées ou à brides",
+          "Nettoyage en ligne simple sans casser la ligne"
+        ]
+      },
+      {
+        "name": "Profilés et joints en caoutchouc extrudé sur mesure",
+        "purpose": "Les bandes d'amortissement en caoutchouc extrudé sur mesure isolent les vibrations des broyeurs à marteaux, centrifugeuses, compresseurs et machines d'emballage, protégeant à la fois la machine et les zones de transformation alimentaire adjacentes.",
+        "features": [
+          "Options de composé EPDM, néoprène, nitrile ou caoutchouc naturel",
+          "Section personnalisée extrudée selon plan ou échantillon",
+          "Disponible avec dos adhésif sensible à la pression"
+        ]
+      },
+      {
+        "name": "Joint de dilatation en caoutchouc (arche simple)",
+        "purpose": "Raccord de pompe flexible sur les circuits d'eau de refroidissement, d'eau réfrigérée et d'eau de procédé — absorbe les vibrations de pompe et le mouvement thermique.",
+        "features": [
+          "Tube EPDM ou caoutchouc naturel",
+          "Extrémités à brides PN10/16, également filetées",
+          "Température de service de -20 °C à +130 °C"
+        ]
+      },
+      {
+        "name": "Maintenance de turbine à vapeur (Triveni, Maxwatt)",
+        "purpose": "Révision planifiée des turbines à vapeur à contre-pression de cogénération agroalimentaire — remplacement des bagues de presse-étoupe, inspection des paliers et vérification de l'équilibrage du rotor.",
+        "features": [
+          "Planification de révision inter-campagne",
+          "Bagues de presse-étoupe en carbone usinées en interne",
+          "Essai de fonctionnement et validation de vibration inclus"
+        ]
+      },
+      {
+        "name": "Filtre à poches HVAC (traitement d'air en usine alimentaire)",
+        "purpose": "Filtres à poches multiples pour les CTA d'installations de transformation alimentaire — élimine la farine, la poussière d'amidon et les spores de moisissure aéroportées de l'air d'alimentation vers les zones de production, chambres froides et lignes de conditionnement.",
+        "features": [
+          "Efficacité F7 / F8 pour capter allergènes et spores de moisissure",
+          "Média polyester synthétique — résistant à l'humidité pour environnements alimentaires humides",
+          "Tailles de cadre CTA standard ; dimensions sur mesure sur demande",
+          "Répond aux exigences de qualité d'air GMP pour zones de qualité alimentaire"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Produits de flexibles conformes FDA 21 CFR",
+      "Spécialistes des turbines de cogénération agroalimentaire",
+      "Filtres reniflards de cuve pour stockage d'huile alimentaire",
+      "Filtres à poches HVAC F7/F8 pour qualité d'air de production alimentaire GMP",
+      "Solutions complètes d'isolation vibratoire de pompes"
+    ]
+  },
+  "ind_7": {
+    "heroSub": "Filtration d'huile de lubrification, sacs de dépoussiéreur à jet pulsé, filtres à air HVAC, joints de dilatation et isolation vibratoire pour machinerie de cimenterie",
+    "overview": "La fabrication de ciment est l'un des environnements industriels les plus abrasifs et poussiéreux sur Terre. Les fours rotatifs fonctionnant à des températures de virole de 200 à 400 °C, les broyeurs à boulets en fonctionnement continu pendant des mois, et les lignes de concasseurs générant d'épais nuages de poussière imposent tous des exigences extrêmes à chaque composant de lubrification, d'étanchéité et de tuyauterie. Keshav Enterprises fournit une filtration de précision, des sacs filtrants de dépoussiéreur à jet pulsé, des filtres à air HVAC, des joints de dilatation et des solutions anti-vibratoires qui maintiennent les cimenteries en fonctionnement plus de 330 jours par an.",
+    "challenges": [
+      {
+        "title": "Contamination extrême par poussière et abrasifs",
+        "desc": "Les cimenteries génèrent 1 à 3 tonnes de poussière par jour et par four. Ces abrasifs aéroportés pénètrent les systèmes d'huile de lubrification, les évents de reniflard et les logements de filtre — s'ils ne sont pas gérés correctement, ils accélèrent l'usure et provoquent le contournement des filtres."
+      },
+      {
+        "title": "Contamination d'huile de l'engrenage de four",
+        "desc": "Les engrenages de fours rotatifs fonctionnent sur des systèmes de lubrification en circulation à ISO VG 220–460. La poussière de clinker et la contamination thermique dégradent rapidement l'huile — une filtration haute efficacité est essentielle pour prolonger les intervalles de vidange et protéger les trains d'engrenages coûteux."
+      },
+      {
+        "title": "Dilatation thermique dans les conduits d'échappement de four",
+        "desc": "Les conduits de gaz d'échappement de four fonctionnent à 250–450 °C et subissent une dilatation thermique importante. Sans joints de dilatation métalliques ou textiles correctement conçus, les sections de conduit se fissurent, fuient et laissent échapper du gaz chaud — un risque de sécurité et d'efficacité."
+      },
+      {
+        "title": "Vibrations des concasseurs et broyeurs",
+        "desc": "Les broyeurs à boulets, broyeurs verticaux à rouleaux et concasseurs à mâchoires génèrent des vibrations intenses à large bande qui se propagent par les fondations vers les équipements et instruments adjacents, provoquant des défaillances par fatigue et des erreurs de mesure."
+      }
+    ],
+    "products": [
+      {
+        "name": "Élément filtrant d'huile de lubrification (engrenages de four et de broyeur)",
+        "purpose": "Éléments filtrants haute efficacité pour les systèmes de circulation d'huile d'engrenage de four — élimine les particules abrasives de clinker et les débris d'usure avant qu'ils n'endommagent les dents d'engrenage et les paliers de rouleau.",
+        "features": [
+          "Média en fibre de verre, finesse 6–25 µm",
+          "Capacité de rétention de saleté élevée pour environnements poussiéreux",
+          "Compatible huiles synthétiques et minérales ISO VG 220–460",
+          "Efficacité bêta ≥200 selon ISO 16889"
+        ]
+      },
+      {
+        "name": "Crépines à panier duplex (eau de refroidissement et lignes de procédé)",
+        "purpose": "Installées sur les systèmes d'eau de refroidissement de four, le refroidissement à eau de compresseur et les canalisations de bouillie de farine crue, protège les pompes, échangeurs de chaleur et instruments du tartre et des débris.",
+        "features": [
+          "Panier en maille inox, options de maille 100–1000 µm",
+          "Conception duplex : nettoyage de panier sans arrêt de production",
+          "Classes de brides ANSI 150 à ANSI 600",
+          "Inox 316 pour service d'eau de refroidissement corrosive"
+        ]
+      },
+      {
+        "name": "Joint de dilatation métallique axial (conduit d'échappement de four)",
+        "purpose": "Compense la dilatation thermique dans le conduit de gaz chaud entre le four, les tours de préchauffage à cyclone et la chaudière de récupération de chaleur — élimine la fissuration par contrainte thermique dans les sections de conduit.",
+        "features": [
+          "Soufflet inox 321 pour service haute température",
+          "Configurations simples et universelles (double soufflet)",
+          "Bridé pour correspondre aux dimensions de conduit existantes",
+          "Déflecteur de flux inclus pour protéger le soufflet de l'érosion des gaz"
+        ]
+      },
+      {
+        "name": "Joint de dilatation non métallique (textile) rectangulaire",
+        "purpose": "Utilisé dans les évents de refroidisseur de clinker, les connexions de ventilateur de broyeur cru et les conduits d'électrofiltre (ESP) pour les grands conduits rectangulaires — gère le désalignement et le mouvement thermique dans les sections non circulaires.",
+        "features": [
+          "Tissu de verre enduit PTFE ou composite Nomex",
+          "Capacité de température continue jusqu'à 450 °C",
+          "Fabriqué sur mesure selon les dimensions du conduit rectangulaire",
+          "Ensemble de cadre boulonné pour installation sur site"
+        ]
+      },
+      {
+        "name": "Profilés et joints en caoutchouc extrudé sur mesure",
+        "purpose": "Coussinets d'amortissement en caoutchouc extrudé sur mesure, installés sous les unités d'entraînement de broyeurs à boulets, les réducteurs de broyeurs verticaux à rouleaux et les logements de roulements de concasseurs, pour isoler et atténuer les vibrations transmises aux structures de l'usine.",
+        "features": [
+          "Composé caoutchouc naturel, EPDM ou néoprène",
+          "Section personnalisée extrudée selon plan ou échantillon",
+          "Température de service -40 à +150°C (qualité EPDM)"
+        ]
+      },
+      {
+        "name": "Filtre reniflard d'air et de cuve (réservoir d'huile de lubrification)",
+        "purpose": "Empêche la poussière de ciment aéroportée et l'humidité de pénétrer dans le réservoir d'huile de lubrification via le circuit d'évent — cause majeure de défaillance prématurée d'huile et de paliers en cimenterie.",
+        "features": [
+          "Média particulaire haute efficacité + dessiccant gel de silice",
+          "Homologué selon les exigences de propreté ISO",
+          "Indicateur de saturation à changement de couleur",
+          "Configurations de montage direct et déporté"
+        ]
+      },
+      {
+        "name": "Ensemble de flexible ondulé flexible en inox",
+        "purpose": "Connexion flexible haute pression sur l'entrée d'eau de refroidissement de four, les actionneurs de vanne à guillotine hydraulique et les lignes d'air comprimé — résiste à la chaleur, à la pression et aux vibrations là où la tuyauterie rigide échoue.",
+        "features": [
+          "Flexible intérieur ondulé inox 316L, renforcement par tresse inox",
+          "Pression de service jusqu'à 200 bars (ensembles sélectionnés)",
+          "Raccords d'extrémité : bridés ANSI, filetés BSP/NPT ou hydrauliques",
+          "Plage de température de -196 °C à +600 °C"
+        ]
+      },
+      {
+        "name": "Crépines coniques et en Y (broyeur cru et pompes de convoyeur)",
+        "purpose": "Crépines temporaires et permanentes sur les pompes de bouillie de matière première, les systèmes de pulvérisation d'eau de four et les lignes d'alimentation en air comprimé — protègent les vannes et instruments en aval.",
+        "features": [
+          "Panier perforé, doublage grillagé disponible",
+          "Bouchon de purge à ailettes ou fileté pour le nettoyage",
+          "Matériaux de corps : acier au carbone, inox 304, inox 316",
+          "En stock pour expédition rapide"
+        ]
+      },
+      {
+        "name": "Sacs et cartouches filtrantes de dépoussiéreur à jet pulsé",
+        "purpose": "Sacs filtrants de remplacement et éléments de cartouche plissée pour les dépoussiéreurs à filtre à manches de cimenterie sur les systèmes d'échappement de four, évent de broyeur cru, refroidisseur de clinker, broyeur à charbon, atelier d'ensachage et systèmes d'évent de silo — retient la poussière de ciment fine et respecte les normes d'émission.",
+        "features": [
+          "Feutre aiguilleté polyester (standard) et membrane PTFE (haute efficacité, faibles émissions)",
+          "Grade antistatique (ATEX) pour applications de broyeur à charbon",
+          "Dimensions compatibles cage selon le logement de filtre à manches existant",
+          "Homologué pour nettoyage à jet pulsé à 4–7 bars d'air comprimé"
+        ]
+      },
+      {
+        "name": "Filtre à air plissé sur panneau (salle de contrôle et HVAC de panneau électrique)",
+        "purpose": "Filtres pour les CTA de salle de contrôle de cimenterie et unités de refroidissement de panneaux électriques — empêche la poussière de ciment abrasive de pénétrer dans les instruments sensibles, les armoires PLC et DCS.",
+        "features": [
+          "Efficacité F7 / F8 pour la poussière de ciment fine",
+          "Cadre en acier galvanisé pour environnements humides de cimenterie",
+          "Tailles de cadre CTA standard ou découpe sur mesure selon les dimensions du panneau",
+          "Fourniture de remplacement selon calendrier d'entretien"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Plus de 330 jours d'assistance en fonctionnement continu par an",
+      "Produits de filtration résistants à la poussière en stock",
+      "Joints de dilatation haute température jusqu'à 450 °C",
+      "Sacs de filtre à manches à jet pulsé pour tous les points d'évent de cimenterie",
+      "Solutions complètes d'isolation vibratoire"
+    ]
+  }
+}

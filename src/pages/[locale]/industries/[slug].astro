@@ -1,0 +1,28 @@
+---
+// src/pages/[locale]/industries/[slug].astro
+// Unlike products/services, the underlying industries/[slug].astro reads
+// `slug` from Astro.params directly (not from getStaticPaths props) — see
+// that file. Since this wrapper's own route already carries a `slug` param
+// matching the same shape, no props need to be threaded through at all;
+// just generate the locale × slug params and let the imported page read
+// Astro.params itself, same as it does today for the English route.
+import IndustryDetailPage from "../../industries/[slug].astro";
+import type { Industry } from "../../../data/industries";
+import { LOCALES, DEFAULT_LOCALE, getLocalizedList } from "../../../lib/i18n";
+import { getPathByLocale } from "astro:i18n";
+
+export function getStaticPaths() {
+  // Slugs are stable/English-derived regardless of locale (see
+  // data/industries.ts) — same reasoning the underlying page's own
+  // getStaticPaths already uses.
+  const industriesEn = getLocalizedList<Industry>("industries", "en");
+  const locales = LOCALES.filter((locale) => locale !== DEFAULT_LOCALE);
+  return locales.flatMap((locale) =>
+    industriesEn.map((ind) => ({
+      params: { locale: getPathByLocale(locale), slug: ind.slug },
+    })),
+  );
+}
+---
+
+<IndustryDetailPage />

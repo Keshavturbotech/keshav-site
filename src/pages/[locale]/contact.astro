@@ -1,0 +1,34 @@
+---
+// src/pages/[locale]/contact.astro
+// Locale-prefixed contact page for every NON-default locale. English stays
+// served from the root-level src/pages/contact.astro (prefixDefaultLocale:
+// false), so "en" is deliberately excluded from getStaticPaths below.
+//
+// This file was missing, which is why the LanguageSwitcher didn't work on
+// the contact page: Layout.astro computes equivalentLocalePaths for every
+// LOCALES entry via getRelativeLocaleUrl(loc, "/contact") regardless of
+// whether that route actually exists, so the switcher rendered links like
+// /ru/contact and /hi/contact — but Astro's static build never produced
+// those pages, so clicking any language 404'd. Same pattern as
+// [locale]/about.astro and [locale]/index.astro: reuse the existing
+// root-level contact.astro as a plain component instead of duplicating the
+// template. Its Astro.currentLocale reads (getLocalizedData("contact", ...)
+// calls, the ContactForm content prop, the <Layout> hreflang block, etc.)
+// resolve against the CURRENT request's URL — i.e. this file's route,
+// "/{locale}/contact" — not against the imported file's own location.
+import ContactPage from "../contact.astro";
+import { LOCALES, DEFAULT_LOCALE } from "../../lib/i18n";
+import { getPathByLocale } from "astro:i18n";
+
+export function getStaticPaths() {
+  // params.locale is a URL PATH segment, not necessarily the locale code
+  // itself — for zh-CN specifically these differ (see astro.config.mjs).
+  // getPathByLocale() is astro:i18n's own code->path mapping, so this stays
+  // correct automatically for any locale, not just today's one exception.
+  return LOCALES.filter((locale) => locale !== DEFAULT_LOCALE).map((locale) => ({
+    params: { locale: getPathByLocale(locale) },
+  }));
+}
+---
+
+<ContactPage />

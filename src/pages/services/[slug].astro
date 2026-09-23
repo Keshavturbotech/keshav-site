@@ -1,0 +1,496 @@
+---
+// src/pages/services/[slug].astro
+// Ported from ServiceDetailPage in App.jsx (line ~20608).
+// getStaticPaths generates one real URL per service (SEO fix — was a hash route).
+// Renamed from [id].astro → [slug].astro: URLs are now /services/<readable-name>
+// instead of /services/srv_1, using the `slug` field added to each Service
+// in data/services.ts (derived from title, `id` stays the internal key).
+import Layout from "../../layouts/Layout.astro";
+import { localizedPath } from "../../lib/localeMeta";
+import Icon from "../../components/Icon.astro";
+import ScrollReveal from "../../components/islands/ScrollReveal.jsx";
+import type { Service } from "../../data/services";
+import { SERVICES as SERVICES_EN, SERVICE_ICON_NAMES } from "../../data/services";
+import type { ServiceDetail } from "../../data/service-details";
+import { SVC_CATEGORY_MAP } from "../../data/service-details";
+import type { CaseStudy } from "../../data/case-studies";
+import { CONTACT_INFO } from "../../data/site-config";
+import { getLocalizedData, getLocalizedList } from "../../lib/i18n";
+import { hasLocalImage } from "../../lib/productImages";
+
+export function getStaticPaths() {
+  // Route generation stays keyed off the English (build-time, locale-
+  // agnostic) service list — per-locale static path generation is Phase 3/4
+  // scope (Astro i18n routing), not this data-layer migration.
+  return SERVICES_EN.map((service) => ({
+    params: { slug: service.slug },
+    props: { service },
+  }));
+}
+
+const locale = Astro.currentLocale ?? "en";
+const { service: serviceEn } = Astro.props;
+const SERVICES = getLocalizedList<Service>("services", locale);
+const service = SERVICES.find((s) => s.id === serviceEn.id) ?? serviceEn;
+const SERVICE_DETAIL_DATA = getLocalizedData<Record<string, ServiceDetail>>(
+  "service-details",
+  locale,
+);
+const SVC_SCOPE_MAP = getLocalizedData<Record<string, { scope: string; turnaround: string }>>(
+  "service-scope",
+  locale,
+);
+const CASE_STUDIES = getLocalizedList<CaseStudy>("case-studies", locale);
+
+// Maps each service to its matching entry in ContactForm's INQUIRY_TYPES —
+// several service titles ("Turnkey Overhauling & Maintenance", "Precision
+// Reverse Engineering", etc.) don't match the contact form's dropdown
+// values verbatim, so this can't just be service.title directly. Same
+// mapping as services/index.astro.
+const SVC_INQUIRY_MAP: Record<string, string> = {
+  srv_1: "Turbine Erection & Commissioning",
+  srv_2: "Turbine Overhauling Service",
+  srv_3: "Reverse Engineering",
+  srv_4: "Dynamic Balancing",
+  srv_5: "Lube Oil Flushing",
+  srv_6: "Machine Alignment",
+  srv_7: "Troubleshooting",
+  srv_8: "Sand Blasting",
+};
+const inquiryType = SVC_INQUIRY_MAP[service.id] ?? service.title;
+const detail = SERVICE_DETAIL_DATA[service.id];
+const scopeInfo = SVC_SCOPE_MAP[service.id];
+const sidebarMatchCat = SVC_CATEGORY_MAP[service.id];
+const relatedCaseStudies = sidebarMatchCat
+  ? CASE_STUDIES.filter((c) => c.categorySlug === sidebarMatchCat).slice(0, 2)
+  : CASE_STUDIES.slice(0, 2);
+const serviceIndex = SERVICES.findIndex((s) => s.id === service.id);
+const prevService = serviceIndex > 0 ? SERVICES[serviceIndex - 1] : null;
+const nextService = serviceIndex < SERVICES.length - 1 ? SERVICES[serviceIndex + 1] : null;
+
+const SITE_URL = "https://www.keshavturbotech.com";
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      name: service.title,
+      description: service.desc,
+      provider: { "@type": "LocalBusiness", name: "Keshav Enterprises", url: SITE_URL },
+      areaServed: { "@type": "Country", name: "India" },
+      serviceType: service.title,
+      url: `${SITE_URL}/services/${service.slug}`,
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+        { "@type": "ListItem", position: 2, name: "Services", item: `${SITE_URL}/services` },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: service.title,
+          item: `${SITE_URL}/services/${service.slug}`,
+        },
+      ],
+    },
+  ],
+};
+
+const waHref = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent(`Hi, I'd like a quote for ${service.title}.`)}`;
+---
+
+<Layout
+  title={`${service.title} — Keshav Enterprises`}
+  description={service.desc}
+  canonicalPath={`/services/${service.slug}`}
+  ogImage={service.image && hasLocalImage(service.image) ? `/${service.image}` : undefined}
+  jsonLd={serviceSchema}
+>
+  <!-- ══ HERO ══ -->
+  <div
+    class="relative bg-[#0A192F] text-white pt-24 pb-16 md:pt-32 md:pb-20 overflow-hidden border-b-4"
+    style={`border-color:${detail.accentColor}`}
+  >
+    {
+      service.image && (
+        <div class="absolute inset-0 z-0" aria-hidden="true">
+          <!--
+            FIX: previously gated on hasLocalImage(service.image), a
+            server-side existsSync() check evaluated at build/render time.
+            If that ran before the real photo file existed on disk, this
+            branch never showed it even after the file was added, until a
+            full rebuild — while the services-listing card (a plain <img>
+            with onerror) picked it up immediately, since that check
+            happens live in the browser. That's exactly the asymmetry
+            reported: card showing the photo, hero not.
+            Now both the real <img> and the texture fallback are always
+            rendered, stacked by z-index — the image covers the fallback
+            when it loads, and onerror hides the <img> so the fallback
+            shows through when it 404s. Same always-live behavior as the
+            card, no rebuild dependency either way.
+          -->
+          <img
+            src={`/${service.image}`}
+            alt=""
+            width="1920"
+            height="900"
+            loading="eager"
+            decoding="async"
+            class="absolute inset-0 w-full h-full object-cover opacity-55 z-10"
+            onerror="this.style.display='none'"
+          />
+          <div class="absolute inset-0 hero-blueprint-overlay" />
+          <div
+            class="absolute inset-0"
+            style={`background:radial-gradient(ellipse at 30% 40%,${detail.accentColor}26 0%,transparent 60%)`}
+          />
+          <div class="absolute inset-0 bg-linear-to-t from-[#0A192F]/95 via-[#0A192F]/60 to-[#0A192F]/20 z-20" />
+        </div>
+      )
+    }
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <nav aria-label="Breadcrumb" class="mb-6">
+        <ol class="flex items-center gap-2 text-xs font-bold text-slate-400 flex-wrap">
+          <li><a href={localizedPath(locale, "/")} class="hover:text-white transition-colors">Home</a></li>
+          <li aria-hidden="true">/</li>
+          <li><a href={localizedPath(locale, "/services")} class="hover:text-white transition-colors">Services</a></li>
+          <li aria-hidden="true">/</li>
+          <li class="text-white" aria-current="page">{service.title}</li>
+        </ol>
+      </nav>
+
+      <div class="flex items-center gap-3 mb-5">
+        <div
+          class="w-14 h-14 rounded-2xl flex items-center justify-center border shrink-0"
+          style={`background:${detail.accentColor}22;border-color:${detail.accentColor}55`}
+        >
+          <Icon name={SERVICE_ICON_NAMES[service.id]} class="w-7 h-7" />
+        </div>
+        {
+          scopeInfo && (
+            <div class="flex gap-2">
+              <span class="text-[11px] font-black uppercase tracking-widest bg-white/10 border border-white/20 px-3 py-1.5 rounded-full">
+                {scopeInfo.scope}
+              </span>
+              <span class="text-[11px] font-black uppercase tracking-widest bg-white/10 border border-white/20 px-3 py-1.5 rounded-full">
+                {scopeInfo.turnaround}
+              </span>
+            </div>
+          )
+        }
+      </div>
+
+      <h1 class="text-4xl md:text-5xl font-black tracking-tight leading-tight mb-4">
+        {service.title}
+      </h1>
+      <p class="text-slate-300 text-lg md:text-xl font-medium leading-relaxed max-w-3xl mb-8">
+        {detail.tagline}
+      </p>
+
+      <div class="flex flex-wrap gap-3">
+        <a
+          href={`/contact?service=${encodeURIComponent(inquiryType)}`}
+          class="bg-blue-600 text-white px-7 py-3.5 rounded-xl font-black text-sm hover:bg-blue-700 transition-all flex items-center gap-2 shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
+        >
+          Get a Quote
+          <svg
+            class="w-4 h-4"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            aria-hidden="true"
+            ><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7"
+            ></path></svg
+          >
+        </a>
+        <a
+          href={waHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-white/10 text-white border border-white/20 px-7 py-3.5 rounded-xl font-black text-sm hover:bg-white/15 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+        >
+          WhatsApp Us
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ KEY STATS ══ -->
+  <div class="bg-white border-b border-slate-100 py-10">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        {
+          detail.keyStats.map((stat) => (
+            <div class="text-center">
+              <p
+                class="text-3xl font-black tracking-tight mb-1"
+                style={`color:${detail.accentColor}`}
+              >
+                {stat.value}
+              </p>
+              <p class="text-slate-500 text-xs font-bold uppercase tracking-wide">{stat.label}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- Why Us -->
+    <ScrollReveal client:visible className="mb-14">
+      <div class="bg-blue-50 border-l-4 border-blue-600 rounded-r-2xl p-7">
+        <p class="text-blue-700 font-black text-xs uppercase tracking-widest mb-3">
+          Why Our Engineers
+        </p>
+        <p class="text-slate-700 font-medium text-lg leading-relaxed">{detail.whyUs}</p>
+      </div>
+    </ScrollReveal>
+
+    <!-- Overview -->
+    <ScrollReveal client:visible className="mb-16">
+      <h2 class="text-2xl font-black text-slate-900 tracking-tight mb-4">Overview</h2>
+      <p class="text-slate-600 text-base leading-relaxed">{detail.overview}</p>
+    </ScrollReveal>
+
+    <!-- Procedures timeline -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-black text-slate-900 tracking-tight mb-8">Our Process</h2>
+      <div class="space-y-6">
+        {
+          detail.procedures.map((proc, i) => (
+            <ScrollReveal client:visible className="flex gap-5">
+              <div class="flex flex-col items-center shrink-0">
+                <div
+                  class="w-11 h-11 rounded-xl flex items-center justify-center font-black text-white text-sm shadow-md"
+                  style={`background:${detail.accentColor}`}
+                >
+                  {proc.step}
+                </div>
+                {i < detail.procedures.length - 1 && (
+                  <div
+                    class="w-0.5 flex-1 mt-2"
+                    style={`background:${detail.accentColor}33`}
+                    aria-hidden="true"
+                  />
+                )}
+              </div>
+              <div class="pb-6">
+                <h3 class="font-black text-slate-900 text-base mb-1.5 flex items-center gap-2">
+                  {proc.iconName && <Icon name={proc.iconName} class="w-4 h-4 text-blue-500" />}
+                  {proc.title}
+                </h3>
+                <p class="text-slate-600 text-sm leading-relaxed">{proc.desc}</p>
+              </div>
+            </ScrollReveal>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Photo gallery — a plain set of images for this service page,
+         independent of the process steps above.
+         FIX: previously filtered by hasLocalImage(img.file) — the same
+         build-time existsSync() staleness risk just fixed on the hero.
+         Section visibility now depends only on detail.images having
+         entries (a static data check, never stale), and each photo hides
+         itself (whole figure, not just the broken <img>) via onerror if
+         its file isn't there yet — so adding a file just works on the
+         next page load, no rebuild needed either way. -->
+    {
+      detail.images && detail.images.length > 0 && (
+        <div class="mb-16">
+          <h2 class="text-2xl font-black text-slate-900 tracking-tight mb-8">Gallery</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {detail.images.map((img) => (
+              <figure class="group rounded-2xl overflow-hidden border border-slate-200 shadow-sm bg-slate-100">
+                <div class="aspect-video overflow-hidden">
+                  <img
+                    src={`/${img.file}`}
+                    alt={img.caption ?? service.title}
+                    loading="lazy"
+                    decoding="async"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    onerror="this.closest('figure').style.display='none'"
+                  />
+                </div>
+                {img.caption && (
+                  <figcaption class="px-4 py-3 bg-white text-sm font-bold text-slate-900 leading-snug">
+                    {img.caption}
+                  </figcaption>
+                )}
+              </figure>
+            ))}
+          </div>
+        </div>
+      )
+    }
+
+    <!-- Service list quick reference -->
+    <div class="bg-slate-50 border border-slate-200 rounded-2xl p-7 mb-16">
+      <h2 class="text-lg font-black text-slate-900 tracking-tight mb-4">What's Included</h2>
+      <ul class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        {
+          service.details.map((d) => (
+            <li class="flex items-start gap-2.5 text-sm text-slate-700 font-medium">
+              <Icon name="CheckCircle2" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+              {d}
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    {
+      service.oems && (
+        <div class="mb-16">
+          <p class="text-xs font-black text-slate-500 uppercase tracking-widest mb-3">
+            OEM Expertise
+          </p>
+          <div class="flex flex-wrap gap-2">
+            {service.oems.map((oem) => (
+              <span class="text-xs font-black text-slate-700 bg-white border border-slate-200 px-3 py-1.5 rounded-full uppercase tracking-wide">
+                {oem}
+              </span>
+            ))}
+          </div>
+        </div>
+      )
+    }
+
+    {
+      relatedCaseStudies.length > 0 && (
+        <div class="mb-16">
+          <h2 class="text-lg font-black text-slate-900 tracking-tight mb-4">
+            Related Case Studies
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            {relatedCaseStudies.map((cs) => (
+              <a
+                href={localizedPath(locale, `/projects/${cs.id}`)}
+                class="group bg-white border border-slate-200 rounded-2xl overflow-hidden hover:border-blue-300 hover:shadow-lg transition-all block"
+              >
+                <div class="h-32 bg-[#0A192F] relative overflow-hidden">
+                  {cs.image && (
+                    <img
+                      src={`/${cs.image}`}
+                      alt=""
+                      aria-hidden="true"
+                      width="600"
+                      height="300"
+                      loading="lazy"
+                      decoding="async"
+                      class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-75 transition-opacity"
+                      onerror="this.style.display='none'"
+                    />
+                  )}
+                  <div class="absolute inset-0 bg-linear-to-t from-[#0A192F]/90 via-[#0A192F]/10 to-transparent" />
+                  <p class="absolute bottom-3 left-4 right-4 text-white font-black text-sm leading-snug line-clamp-2">
+                    {cs.title}
+                  </p>
+                </div>
+                <div class="p-4">
+                  {cs.outcomes[0] && (
+                    <p class="text-emerald-700 text-xs font-semibold leading-snug mb-2">
+                      {cs.outcomes[0]}
+                    </p>
+                  )}
+                  <span class="text-blue-600 font-black text-xs flex items-center gap-1 group-hover:gap-2 transition-all">
+                    Read Case Study
+                    <Icon name="CheckCircle2" class="w-3.5 h-3.5" />
+                  </span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )
+    }
+
+    <!-- CTA -->
+    <div class="bg-[#0A192F] rounded-3xl p-10 text-center">
+      <h2 class="text-2xl md:text-3xl font-black text-white tracking-tight mb-3">
+        Ready to discuss {service.title.toLowerCase()}?
+      </h2>
+      <p class="text-slate-300 font-medium mb-7 max-w-xl mx-auto">
+        Tell us your turbine make and requirement — we respond with a technical scope.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a
+          href={`/contact?service=${encodeURIComponent(inquiryType)}`}
+          class="bg-blue-600 text-white px-7 py-3.5 rounded-xl font-black text-sm hover:bg-blue-700 transition-all shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
+          >Get a Technical Quote</a
+        >
+        <a
+          href={waHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-white/10 text-white border border-white/20 px-7 py-3.5 rounded-xl font-black text-sm hover:bg-white/15 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+          >WhatsApp Us</a
+        >
+      </div>
+    </div>
+  </div>
+
+  <!-- Prev/Next nav -->
+  <nav aria-label="Other services" class="border-t border-slate-200 bg-white">
+    <div
+      class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row gap-4 justify-between"
+    >
+      {
+        prevService ? (
+          <a
+            href={localizedPath(locale, `/services/${prevService.slug}`)}
+            class="flex-1 group flex items-center gap-3 p-4 rounded-xl border border-slate-200 hover:border-blue-300 hover:bg-blue-50/50 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+          >
+            <svg
+              class="w-4 h-4 text-slate-400 group-hover:text-blue-600 group-hover:-translate-x-1 transition-all shrink-0"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              aria-hidden="true"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 12H5m0 0l7 7m-7-7l7-7" />
+            </svg>
+            <div>
+              <p class="text-[10px] font-black text-slate-600 uppercase tracking-widest">
+                Previous
+              </p>
+              <p class="font-bold text-slate-900 text-sm">{prevService.title}</p>
+            </div>
+          </a>
+        ) : (
+          <div class="flex-1" />
+        )
+      }
+      {
+        nextService ? (
+          <a
+            href={localizedPath(locale, `/services/${nextService.slug}`)}
+            class="flex-1 group flex items-center justify-end text-right gap-3 p-4 rounded-xl border border-slate-200 hover:border-blue-300 hover:bg-blue-50/50 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+          >
+            <div>
+              <p class="text-[10px] font-black text-slate-600 uppercase tracking-widest">Next</p>
+              <p class="font-bold text-slate-900 text-sm">{nextService.title}</p>
+            </div>
+            <svg
+              class="w-4 h-4 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-1 transition-all shrink-0"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              aria-hidden="true"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7" />
+            </svg>
+          </a>
+        ) : (
+          <div class="flex-1" />
+        )
+      }
+    </div>
+  </nav>
+</Layout>

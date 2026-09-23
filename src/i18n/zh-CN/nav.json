@@ -1,0 +1,29 @@
+{
+  "/": {
+    "label": "首页"
+  },
+  "/about": {
+    "label": "关于我们"
+  },
+  "/services": {
+    "label": "服务"
+  },
+  "/products": {
+    "label": "产品"
+  },
+  "/industries": {
+    "label": "行业"
+  },
+  "/contact": {
+    "label": "联系我们"
+  },
+  "/projects": {
+    "label": "项目案例"
+  },
+  "/blog": {
+    "label": "博客"
+  },
+  "/downloads": {
+    "label": "资料下载"
+  }
+}

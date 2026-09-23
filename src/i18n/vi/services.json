@@ -1,0 +1,157 @@
+{
+  "srv_1": {
+    "id": "srv_1",
+    "image": "service-turbine-erection.webp",
+    "title": "Lắp đặt & Chạy thử Tua-bin",
+    "desc": "Lắp đặt và chạy thử chuyên nghiệp cho tua-bin hơi nước, bơm, máy nén, quạt, bình ngưng, cẩu EOT và công việc đường ống hơi/nước/khí. Bao gồm phối hợp OEM đầy đủ và tài liệu.",
+    "details": [
+      "Tua-bin hơi nước, bơm, máy nén, quạt, bình ngưng",
+      "Cẩu EOT, kết cấu thép & công việc đường ống",
+      "Giám sát thi công theo thông số OEM & tiêu chuẩn áp dụng",
+      "Phối hợp với OEM trong suốt các giai đoạn",
+      "Tài liệu đầy đủ để bàn giao cho vận hành",
+      "Xây dựng & thực hiện quy trình trước chạy thử",
+      "Hỗ trợ khởi động và tinh chỉnh theo nhu cầu vận hành"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "Belliss India",
+      "Maxwatt"
+    ],
+    "slug": "turbine-erection-and-commissioning"
+  },
+  "srv_2": {
+    "id": "srv_2",
+    "image": "service-overhauling.webp",
+    "title": "Đại tu & Bảo trì Trọn gói",
+    "desc": "Thực hiện bởi các kỹ sư từng làm việc tại OEM Triveni, Siemens, BHEL, Belliss và nhiều hãng khác. Bao gồm lập kế hoạch trước dừng máy, báo cáo tình trạng tại hiện trường, quản lý phụ tùng toàn diện và xử lý sự cố khẩn cấp 24/7.",
+    "details": [
+      "Lập kế hoạch trước dừng máy với phạm vi chi tiết thiết bị quay",
+      "Kiểm tra tại hiện trường phụ tùng tồn kho kèm báo cáo thiếu hụt",
+      "Kỹ sư từng làm việc tại OEM: Triveni, Belliss, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
+      "Tất cả khe hở, khoảng cách và kích thước được đo và ghi lại",
+      "Báo cáo tình trạng kèm khuyến nghị cho từng bộ phận",
+      "Cơ sở trọn gói: cung cấp dụng cụ, thiết bị, vật tư tiêu hao & nhân lực",
+      "Ứng phó khẩn cấp 24/7 với kỹ sư tại nhiều địa điểm"
+    ],
+    "oems": [
+      "Triveni",
+      "Belliss India",
+      "Maxwatt",
+      "Man Turbo",
+      "BHEL",
+      "Siemens",
+      "KKK",
+      "ABB"
+    ],
+    "slug": "turnkey-overhauling-and-maintenance"
+  },
+  "srv_3": {
+    "id": "srv_3",
+    "image": "service-reverse-engineering.webp",
+    "title": "Kỹ thuật Đảo ngược Chính xác",
+    "desc": "Kỹ thuật đảo ngược được xác minh PMI sử dụng máy quét laser 3D, CMM và máy tiện chép hình cho tua-bin từ 5 kW đến 60 MW. Tạo bộ bản vẽ chế tạo đầy đủ với dung sai, độ đồng tâm, thông số xử lý nhiệt trước/sau.",
+    "details": [
+      "Máy quét Laser 3D, CMM & Máy đo tọa độ tại hiện trường/xưởng",
+      "Kiểm tra PMI để xác định chính xác thành phần vật liệu",
+      "Máy tiện chép hình để tái tạo kích thước chính xác",
+      "Bản vẽ kỹ thuật với dung sai, độ hoàn thiện, độ song song, độ đồng tâm",
+      "Bao gồm thông số xử lý nhiệt trước/sau",
+      "Bản vẽ gia công thô, gần hoàn thiện và hoàn thiện",
+      "Bao gồm tua-bin từ 5 kW đến 60 MW (Đối áp hoặc Ngưng hơi)",
+      "Đơn/đa cấp, Dẫn động hoặc Phát điện, Nằm ngang hoặc Thẳng đứng"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "All Makes"
+    ],
+    "slug": "precision-reverse-engineering"
+  },
+  "srv_4": {
+    "id": "srv_4",
+    "image": "service-dynamic-balancing.webp",
+    "title": "Cân bằng Động & Gia công Rotor",
+    "desc": "Gia công rotor chính xác (mài, đánh bóng, giảm kích thước ngõng trục) tại máy tiện xưởng của chúng tôi, cùng với cân bằng động theo tiêu chuẩn ISO/API từ 50 đến 2000 kg với báo cáo tuân thủ đầy đủ.",
+    "details": [
+      "Mài và đánh bóng ngõng trục với kỹ thuật giảm kích thước tối thiểu",
+      "Gia công phần mê cung trên máy tiện chính xác",
+      "Rotor được giữ đồng tâm ở mọi phần trước khi gia công",
+      "Cân bằng động 50-2000 kg theo tiêu chuẩn ISO/API",
+      "Máy cân bằng với hệ thống giám sát độ rung mới nhất",
+      "Xác định độ đảo cơ và điện trước khi lắp đặt",
+      "Báo cáo cân bằng toàn diện ghi nhận tuân thủ ISO/API"
+    ],
+    "oems": [
+      "All Turbine Makes"
+    ],
+    "slug": "dynamic-balancing-and-rotor-machining"
+  },
+  "srv_5": {
+    "id": "srv_5",
+    "image": "service-lube-oil-flushing.webp",
+    "title": "Súc rửa Dầu Bôi trơn",
+    "desc": "Súc rửa theo tiêu chuẩn ISO sử dụng hệ thống lọc ly tâm di động chuyên dụng. Đạt độ sạch tối đa và khử nước sau thi công hoặc trong bảo trì định kỳ.",
+    "details": [
+      "Hệ thống lọc ly tâm di động chuyên dụng",
+      "Nhắm đến độ sạch hệ thống theo tiêu chuẩn ISO 4406:99",
+      "Lấy mẫu và báo cáo dầu thực hiện theo tiêu chuẩn ISO",
+      "Hiệu quả cho sau thi công và bảo trì định kỳ",
+      "Khử nước và loại bỏ nhiễm bẩn vượt trội",
+      "Loại bỏ hạt rắn từ 4 đến 25 micron",
+      "Lưu lượng hệ thống xử lý lên đến 6.000 l/phút"
+    ],
+    "oems": [
+      "All Systems"
+    ],
+    "slug": "lube-oil-flushing"
+  },
+  "srv_6": {
+    "id": "srv_6",
+    "image": "service-machine-alignment.webp",
+    "title": "Căn chỉnh Máy móc",
+    "desc": "Căn chỉnh máy móc chuyên nghiệp sử dụng công nghệ mới nhất để loại bỏ lệch trục, một trong những nguyên nhân chính gây hỏng thiết bị. Bao gồm tua-bin, hộp số, bơm, quạt, máy phát điện xoay chiều và máy phát cảm ứng.",
+    "details": [
+      "Căn chỉnh tua-bin với hộp số & hộp số với hộp số nhà máy",
+      "Căn chỉnh quạt, bơm, máy phát điện xoay chiều, máy phát cảm ứng",
+      "Đo cân bằng máy & ứng suất đường ống trên mọi kích cỡ khung",
+      "Căn chỉnh máy tách sợi, máy nghiền",
+      "Công nghệ căn chỉnh mới nhất cho tiêu chuẩn cao nhất",
+      "Báo cáo căn chỉnh chi tiết với kết quả chính xác",
+      "Bao gồm máy mọi kích cỡ khung tại mọi địa điểm"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "machine-alignment"
+  },
+  "srv_7": {
+    "id": "srv_7",
+    "image": "service-troubleshooting.webp",
+    "title": "Dịch vụ Xử lý Sự cố",
+    "desc": "Chẩn đoán lỗi tại hiện trường nhanh chóng cho tua-bin hơi nước gặp rung động, hỏng ổ trục, mất ổn định bộ điều tốc, rò rỉ hơi, nhiễm bẩn dầu hoặc trip không mong muốn. Kỹ sư từng làm việc tại OEM triển khai với đầy đủ thiết bị chẩn đoán để xác định nguyên nhân gốc và hành động khắc phục.",
+    "details": [
+      "Rung động cao — chẩn đoán mất cân bằng, lệch trục, mòn ổ trục, cọ xát",
+      "Điều tra dao động bộ điều tốc, mất ổn định tốc độ & trip vượt tốc",
+      "Nhiễm bẩn dầu ổ trục — phân tích phớt vòng carbon & hệ thống bôi trơn",
+      "Rò rỉ gland hơi — vấn đề phớt mê cung, đệm & áp suất hơi gland",
+      "Phân tích bám bẩn cánh, ăn mòn & mất hiệu suất đường hơi",
+      "Điều tra trip không mong muốn — lỗi áp suất dầu, nhiệt độ & hệ thống điều khiển",
+      "Triển khai khẩn cấp 24/7 trên khắp Ấn Độ với đầy đủ thiết bị chẩn đoán"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "Belliss India",
+      "Maxwatt",
+      "Man Turbo",
+      "KKK",
+      "ABB"
+    ],
+    "slug": "troubleshooting-service"
+  }
+}

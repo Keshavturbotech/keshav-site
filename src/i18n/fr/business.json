@@ -1,0 +1,17 @@
+{
+  "schema": {
+    "description": "Ingénieurs en turbines à vapeur, anciens d'équipementiers d'origine (OEM), proposant la révision générale, la rétro-ingénierie, l'équilibrage dynamique, le rinçage d'huile de lubrification, l'alignement des machines et des pièces de rechange compatibles OEM pour turbines de 5 kW à 60 MW.",
+    "knowsAbout": [
+      "Révision générale de turbines à vapeur",
+      "Rétro-ingénierie de turbines",
+      "Équilibrage dynamique",
+      "Rinçage d'huile de lubrification",
+      "Montage et mise en service de turbines",
+      "Alignement de machines",
+      "Filtration industrielle",
+      "Turbines Triveni",
+      "Turbines Siemens",
+      "Turbines BHEL"
+    ]
+  }
+}

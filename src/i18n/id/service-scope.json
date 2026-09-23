@@ -1,0 +1,30 @@
+{
+  "srv_1": {
+    "scope": "Serah terima penuh (turnkey)",
+    "turnaround": "Sesuai jadwal proyek"
+  },
+  "srv_2": {
+    "scope": "Turnkey di lokasi",
+    "turnaround": "Biasanya 3–21 hari"
+  },
+  "srv_3": {
+    "scope": "Bengkel & di lokasi",
+    "turnaround": "7–30 hari"
+  },
+  "srv_4": {
+    "scope": "Bengkel",
+    "turnaround": "Standar 48–72 jam"
+  },
+  "srv_5": {
+    "scope": "Pembersihan di lokasi",
+    "turnaround": "2–7 hari"
+  },
+  "srv_6": {
+    "scope": "Presisi di lokasi",
+    "turnaround": "1–3 hari"
+  },
+  "srv_7": {
+    "scope": "Diagnostik di lokasi",
+    "turnaround": "Laporan hari yang sama"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "titleTemplate": "About Keshav Enterprises — {years}+ Years of Turbine Engineering",
+    "descriptionTemplate": "Keshav Enterprises — {years}+ years of industrial turbine engineering, reverse engineering, and OEM-compatible spare parts from Shamli, UP — serving pan-India and clients worldwide. Ex-OEM engineers from Triveni, Siemens, BHEL.",
+    "schemaName": "About Keshav Enterprises",
+    "schemaDescriptionTemplate": "Keshav Enterprises — {years}+ years of industrial turbine engineering, reverse engineering, and OEM-compatible spare parts manufacturing from Shamli, UP, serving pan-India and international clients worldwide."
+  },
+  "hero": {
+    "eyebrow": "Our Story",
+    "h1Line1": "{years}+ Years of",
+    "h1Span": "Precision Engineering",
+    "quote": "\u201cZero tolerance for plant downtime — that's not a slogan. It's the engineering standard every client holds us to.\u201d",
+    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
+    "tags": [
+      "Ex-OEM Engineers",
+      "3D Laser Scanning",
+      "CMM Precision",
+      "24×7 Response",
+      "IEC Registered",
+      "Export Ready",
+      "IndiaMART TrustSeal",
+      "Make In India",
+      "MSME Registered"
+    ],
+    "ctaServices": "Our Services",
+    "ctaContact": "Contact Engineering Team",
+    "statCards": [
+      { "label": "Engineering Experience", "subTemplate": "Since {founded}" },
+      { "label": "OEM Brands", "sub": "Triveni · Siemens · BHEL" },
+      { "label": "Max Turbine", "sub": "Upto 60 M.W." },
+      { "label": "Company Established", "sub": "June 2020" }
+    ],
+    "trustBadges": {
+      "indiamartTitle": "IndiaMART TrustSeal Verified",
+      "indiamartSub": "50+ buyer reviews · 4.3/5 rating",
+      "msmeTitle": "MSME Registered",
+      "msmeSub": "Udyam Certified Enterprise · Govt. of India"
+    }
+  },
+  "statsBar": [
+    { "label": "Engineering Experience", "subTemplate": "Since {founded}" },
+    { "label": "OEM Brands Covered", "sub": "Triveni · Siemens · BHEL" },
+    { "label": "Max Turbine Handled", "sub": "Upto 60 M.W." },
+    { "label": "Company Established", "sub": "June 2020" }
+  ],
+  "overview": {
+    "eyebrow": "Who We Are",
+    "heading": "Engineering Partners for India's Industrial Backbone",
+    "paragraphs": [
+      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
+      "Our engineering team includes ex-OEM specialists from Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, and ABB, giving clients the same level of technical expertise as the original equipment manufacturers, at a fraction of the lead time and cost.",
+      "We cover steam turbines from 5 kW to 60 MW: back-pressure and condensing, horizontal and vertical, single and multi-stage. Our workshop is equipped with 3D laser scanners, CMM coordinate measuring machines, dynamic balancing machines (50–2,000 kg), and precision CNC lathes."
+    ],
+    "coreCapabilitiesHeading": "Core Capabilities",
+    "coreCapabilitiesList": [
+      "Turbine erection, commissioning, and turnkey overhauling",
+      "Precision reverse engineering using 3D laser scanning & CMM",
+      "Dynamic balancing to ISO 1940 / API 670 (50–2,000 kg)",
+      "Lube oil flushing per ISO 4406:99 cleanliness classification",
+      "Machine alignment using latest laser alignment technology",
+      "Manufacturing: filter elements, HVAC air filters, expansion joints, strainers",
+      "Turbine spares: bearings, seals, rotors, governors, valves",
+      "24×7 emergency breakdown response, multi-location engineers"
+    ],
+    "locationHeading": "Our Location",
+    "gstLabel": "GST"
+  },
+  "gallery": {
+    "eyebrow": "Built for Industrial Uptime",
+    "headingLine1": "If Your Turbine Needs It,",
+    "headingLine2": "We Make It.",
+    "subheadingTemplate": "{productCount}+ precision-engineered components across 9 categories, from OEM-matched filter elements and HVAC air filters to turbine spares that ship the same week your plant calls.",
+    "cards": {
+      "workshopFloor": {
+        "caption": "Workshop Floor",
+        "desc": "Precision CNC lathes, copying lathes, and grinding machines for rotor journal machining, polishing, and labyrinth portion work."
+      },
+      "ourServices": {
+        "caption": "Our Services",
+        "desc": "8 specialist services: turbine erection & commissioning, turnkey overhauling, reverse engineering, dynamic balancing, lube oil flushing, machine alignment, sand blasting, and 24×7 troubleshooting.",
+        "linkLabel": "Browse Services"
+      },
+      "productRange": {
+        "caption": "Product Range",
+        "descTemplate": "{productCount} engineered products across 9 categories: filtration, HVAC air filters, strainers, expansion joints, turbine spares, rubber products, flexible hoses, electronic equipment, and hydraulic components.",
+        "linkLabel": "Browse Products"
+      },
+      "rotorInspection": {
+        "caption": "Rotor Inspection",
+        "desc": "Ex-OEM engineers measure and record every clearance, gap, and dimension during inspection, with a full condition report on each job."
+      }
+    },
+    "browseFullCatalog": "Browse Full Product Catalogue"
+  },
+  "values": {
+    "eyebrow": "What Drives Us",
+    "heading": "Our Core Values",
+    "items": [
+      {
+        "label": "Engineering Integrity",
+        "text": "Every component, every clearance, every dimension documented and verified. No shortcuts on safety-critical rotating equipment."
+      },
+      {
+        "label": "OEM-Grade Standards",
+        "text": "Ex-OEM engineers from Triveni, Siemens, BHEL, and ABB delivering maintenance at the same standard as the original manufacturer."
+      },
+      {
+        "label": "Innovation in Reverse Engineering",
+        "text": "3D scanning and PMI testing give clients access to obsolete spares without 12–18 month OEM lead times."
+      },
+      {
+        "label": "Customer Uptime First",
+        "text": "We measure success in plant availability. 24×7 emergency response because shutdowns do not follow business hours."
+      }
+    ]
+  },
+  "milestones": {
+    "eyebrow": "Our Journey",
+    "heading": "Company Milestones",
+    "items": [
+      {
+        "year": "1988",
+        "title": "Engineering Roots",
+        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
+      },
+      {
+        "year": "2016",
+        "title": "Partnership Formed",
+        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
+      },
+      {
+        "year": "June 2020",
+        "title": "Keshav Enterprises Founded",
+        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
+      },
+      {
+        "year": "2021",
+        "title": "Capability & Product Line Expansion",
+        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
+      },
+      {
+        "year": "Today",
+        "title": "Export Ready",
+        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "The People Behind The Work",
+    "heading": "Ex-OEM Engineering Expertise",
+    "subheading": "Our engineers trained and worked inside the OEM factories and field service teams themselves. That's what shows up in the quality of every clearance recorded.",
+    "expSuffix": "experience",
+    "namesWithheldNote": "Names withheld to protect our engineers from competitor solicitation. Verifiable employment history available to serious enquiries.",
+    "members": {
+      "sk": { "name": "Senior Engineer — Triveni & BHEL", "spec": "Turbine overhauling · Erection & commissioning · Vibration analysis" },
+      "rk": { "name": "Senior Engineer — Siemens & KKK", "spec": "Reverse engineering · CMM & PMI testing · Rotor machining" },
+      "as": { "name": "Field Engineer — Belliss & Man Turbo", "spec": "Emergency breakdown · Alignment · Lube oil systems" },
+      "vp": { "name": "Balancing Specialist", "spec": "Dynamic balancing ISO 1940 / API 670 · 50–2,000 kg rotors" },
+      "mt": { "name": "Workshop Lead — Machining", "spec": "Journal grinding · Labyrinth machining · Carbon ring manufacture" },
+      "pd": { "name": "Products & Filtration Lead", "spec": "Filter element supply · HVAC air filters · Expansion joints · Strainers" }
+    }
+  },
+  "oemSection": {
+    "eyebrow": "OEM Expertise",
+    "headingLine1": "10+ OEM Brands.",
+    "headingLine2": "One Engineering Partner.",
+    "sub": "Our ex-OEM engineers have hands-on experience with all major turbine makes. No learning curve. Authoritative technical expertise from day one."
+  },
+  "exportSection": {
+    "eyebrow": "Export Ready",
+    "headingLine1": "Built For Export",
+    "headingSpan": "Buyers To Vet Easily",
+    "paragraphs": [
+      "Keshav Enterprises holds an active Importer-Exporter Code (IEC) issued by the DGFT, the legal credential required to ship turbine engineering spares, industrial filtration products, and OEM-compatible components outside India. We have already exported basket strainers to Nepal and lube oil filters and shear pins to Uganda.",
+      "Our precision-manufactured products are produced to international standards including ISO 16889, API 614, and ASME Sec. VIII, and classified under standard HSN export codes, so overseas buyers can verify compliance before placing an order."
+    ],
+    "standards": [
+      { "stat": "ISO 16889", "label": "Filtration Standard" },
+      { "stat": "API 614", "label": "Lube Oil System Std" },
+      { "stat": "ASME VIII", "label": "Pressure Vessel Std" },
+      { "stat": "HSN 8421", "label": "Export Classification" }
+    ],
+    "iecCardTitle": "IEC Registered Exporter",
+    "iecCardDescTemplate": "DGFT Importer-Exporter Code {iec}, active and verifiable",
+    "checklistTitle": "Export Readiness Checklist",
+    "checklistItems": [
+      "Active IEC issued by DGFT, legally cleared to export",
+      "Products already shipped to Nepal and Uganda",
+      "Products classified under standard HSN export codes",
+      "Manufactured to ISO, API & ASME international standards",
+      "English-language datasheets, test certs & QC documentation",
+      "GST-registered with full export invoicing compliance",
+      "MSME-registered manufacturing base in Shamli, Uttar Pradesh"
+    ],
+    "credentialLabels": {
+      "gst": "GST",
+      "msme": "MSME/Udyam",
+      "iec": "IEC"
+    },
+    "tradeTerms": {
+      "heading": "Export Trade Terms",
+      "subheading": "What overseas buyers can expect when ordering from Keshav Enterprises",
+      "items": [
+        { "label": "Incoterms", "value": "FOB Nhava Sheva / Delhi ICD, CIF available on request" },
+        { "label": "Payment Terms", "value": "30% advance (T/T) with order, 70% against copy of B/L; Letter of Credit (L/C at sight) accepted for orders above USD 2,000" },
+        { "label": "Typical Lead Time", "value": "4–6 weeks ex-works from order confirmation, depending on scope" },
+        { "label": "Packaging", "value": "Export-grade seaworthy/airworthy packaging for turbine spares and filtration products" },
+        { "label": "Documentation Provided", "value": "Commercial invoice, packing list, certificate of origin, test/inspection certificates, MSDS where applicable" }
+      ],
+      "note": "Exact terms are confirmed per order based on product, quantity, and destination country."
+    },
+    "trackRecord": {
+      "heading": "Export Track Record",
+      "subheading": "Products already shipped outside India",
+      "shipments": [
+        { "product": "Basket Strainers", "country": "Nepal" },
+        { "product": "Lube Oil Filters", "country": "Uganda" },
+        { "product": "Shear Pins", "country": "Uganda" }
+      ]
+    }
+  },
+  "finalCta": {
+    "heading": "Ready to work with us?",
+    "subheading": "Tell us your turbine make, capacity, and requirement — we respond with engineering, not a sales pitch.",
+    "ctaQuote": "Get a Technical Quote",
+    "ctaServices": "View All Services"
+  }
+}

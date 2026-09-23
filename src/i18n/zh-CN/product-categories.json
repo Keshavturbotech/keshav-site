@@ -1,0 +1,35 @@
+{
+  "all": {
+    "label": "全部"
+  },
+  "industrial-filtration": {
+    "label": "工业过滤"
+  },
+  "industrial-strainers": {
+    "label": "工业滤网"
+  },
+  "expansion-joints": {
+    "label": "膨胀节"
+  },
+  "turbine-spares": {
+    "label": "汽轮机备件"
+  },
+  "industrial-rubber-products": {
+    "label": "工业橡胶制品"
+  },
+  "flexible-hoses-and-assemblies": {
+    "label": "软管及总成"
+  },
+  "electronic-equipments": {
+    "label": "电子设备"
+  },
+  "hydraulic-components": {
+    "label": "液压元件"
+  },
+  "hvac-ducting-and-air-filtration": {
+    "label": "暖通空调、风管及空气过滤"
+  },
+  "valves-gaskets-and-steam-system-products": {
+    "label": "阀门、垫片及蒸汽系统产品"
+  }
+}

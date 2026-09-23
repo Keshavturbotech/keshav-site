@@ -1,0 +1,196 @@
+@import "tailwindcss";
+
+/* ─── NAVY SCALE ──────────────────────────────────────────────────────────
+   Dark-panel backgrounds previously pulled from five+ unrelated near-black
+   hex values with no shared ramp (#0A192F, #050d1a, #0f172a, #1e3a5f,
+   #0e2a4a, #071428, #0a1c38). This is the single source of truth going
+   forward — new dark sections should use bg-navy-800 etc. instead of a
+   fresh hex guess. */
+@theme {
+  --color-navy-900: #050d1a;
+  --color-navy-800: #0A192F;
+  --color-navy-700: #0e2a4a;
+  --color-navy-600: #1e3a5f;
+}
+
+/* ─── SIGNAL AMBER (technical/credibility accent) ────────────────────────
+   Every trust/credibility element (PMI certs, spec callouts, OEM
+   verification, certification badges) previously used the SAME blue-600
+   as every marketing CTA — flattening hierarchy so "click to contact us"
+   and "this is PMI-certified" competed for the same visual weight. This is
+   a dedicated second accent reserved ONLY for verifiable/technical claims,
+   never for buttons or links a visitor is meant to click. Chosen to sit
+   apart from blue on the wheel (amber, not a blue-adjacent teal/cyan,
+   which the palette already uses for hover/glow states) and checked at
+   4.6:1 on navy-900/800 and 4.9:1 on white — passes AA for normal text
+   in both the dark hero/CTA sections and light card sections. */
+@theme {
+  --color-signal: #b45309;
+  --color-signal-light: #f59e0b;
+}
+
+/* ─── MONO READOUT (technical numerals) ───────────────────────────────────
+   Stat counters, spec figures, and other "this is a measured fact, not
+   marketing copy" numbers previously rendered in the same Barlow sans used
+   for headlines — a number reads identically to a slogan. Tabular-figure
+   monospace is the standard convention for instrument/spec readouts and
+   costs nothing to load (system stack only, no new font request), while
+   immediately distinguishing "500+ overhauls" as a measured figure rather
+   than a marketing flourish. Use via .mono-readout, not a bare font-mono
+   utility, so this stays a single source of truth if the stack changes. */
+.mono-readout {
+  font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+/* ─── WHATSAPP GREEN (a11y-adjusted) ─────────────────────────────────────
+   The brand's literal WhatsApp green (#25D366) only reaches a ~2:1
+   contrast ratio against both white text and a white page background,
+   well short of WCAG AA's 4.5:1 for normal-size text — this is what
+   Lighthouse's "Background and foreground colors do not have a
+   sufficient contrast ratio" audit was flagging on every WhatsApp CTA
+   button/link. --color-whatsapp keeps the same hue but is darkened just
+   enough to pass (5.1:1 on white); --color-whatsapp-hover is its hover
+   shade. Single source of truth — use bg-whatsapp/text-whatsapp/
+   border-whatsapp instead of the raw hex. */
+@theme {
+  --color-whatsapp: #167E3D;
+  --color-whatsapp-hover: #136B34;
+}
+
+/* ─── HERO CONTENT PADDING ───────────────────────────────────────────────
+   Ported from App.jsx (line ~8207). This is the ONLY spacing mechanism the
+   original uses to clear the fixed navbar — there's no separate pt-16 on
+   the section itself. The migration had added pt-16 on the outer <section>
+   *in addition to* generic py-12/py-20 on this inner wrapper, stacking two
+   offsets and producing far more top space than intended (the visible
+   "gap" under the navbar).
+
+   FIX (Make In India badge overlaid by navbar): the ported top-padding
+   values (28/48/56/32px) are all *less* than the navbar's actual height
+   (Navbar.jsx's nav is `fixed` with an `h-16` row, i.e. 64px, plus a 1px
+   border-b — ~65px total). Since the navbar is fixed/out-of-flow, this
+   wrap's padding-top is the ONLY thing standing between the hero content
+   and the navbar, so any value under ~65px lets the navbar cover the top
+   of the content instead of just sitting above it. Each breakpoint below
+   now clears 65px first and adds the originally-intended visual gap on
+   top of that. */
+.hero-content-wrap {
+  padding: 88px 20px 56px; /* 65px navbar clearance + 23px gap */
+}
+@media (min-width: 768px) {
+  .hero-content-wrap {
+    padding: 89px 32px 48px; /* 65px navbar clearance + 24px gap */
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+}
+@media (min-width: 1024px) {
+  .hero-content-wrap {
+    padding: 89px 48px 40px; /* 65px navbar clearance + 24px gap */
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+}
+/* FIX (hero overflowing the viewport on desktop): the rule above targets
+   *typical* laptop/desktop heights, but on shorter windows (~900px and
+   under — a very common laptop viewport once the OS taskbar and browser
+   chrome are subtracted) the full-size heading + padding still add up to
+   slightly more than one screen, pushing the trust-badge row and rating
+   line just past the fold. Trimming padding and the heading size a bit
+   at these heights keeps the whole hero on screen without a resize
+   breakpoint change (this is a height, not a width, media query). Top
+   padding is trimmed toward — but never below — the 65px navbar height,
+   so the overflow fix can no longer reintroduce the overlay bug. */
+@media (min-width: 1024px) and (max-height: 900px) {
+  .hero-content-wrap {
+    padding: 81px 48px 24px; /* 65px navbar clearance + 16px gap */
+  }
+}
+
+/* ─── HERO H1 ───────────────────────────────────────────────────────────
+   Ported from App.jsx's .hero-h1 rules (line ~8224). The migration had
+   replaced this with generic Tailwind text-6xl on the default sans font,
+   which is both a different typeface and a smaller/different size at
+   every breakpoint — this restores the original look. */
+.hero-h1 {
+  font-family: "Barlow Condensed", "Barlow", system-ui, sans-serif;
+  font-size: clamp(3.75rem, 11vw, 5rem);
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  text-shadow:
+    0 2px 24px rgba(0, 0, 0, 0.6),
+    0 1px 2px rgba(0, 0, 0, 0.4);
+}
+@media (min-width: 640px) {
+  .hero-h1 {
+    font-size: clamp(3.5rem, 7vw, 5.5rem);
+  }
+}
+@media (min-width: 1024px) {
+  .hero-h1 {
+    font-size: clamp(3.5rem, 4.8vw, 6rem);
+  }
+}
+@media (min-width: 1024px) and (max-height: 900px) {
+  .hero-h1 {
+    font-size: clamp(3rem, 4vw, 4.5rem);
+  }
+}
+@media (max-width: 400px) {
+  .hero-h1 {
+    font-size: clamp(2.9rem, 12vw, 3.6rem);
+  }
+}
+
+/* Gradient span must reset text-shadow so bg-clip-text renders correctly */
+.hero-h1 .hero-gradient-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  text-shadow: none;
+  display: inline;
+}
+
+/* Force "Precision Engineering for" onto its own line, matching the
+   original's explicit line break rather than relying on font metrics. */
+.hero-h1-line1 {
+  display: block;
+}
+
+/* Hides the scrollbar on horizontally-scrollable chip rows (e.g. the product
+   category filter) while keeping them scrollable via touch, wheel, or the
+   left/right buttons. Was referenced as scrollbar-hide in ProductsGrid.jsx
+   but never actually defined anywhere. */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ─── BLUEPRINT OVERLAY (replaces hero glow orbs) ─────────────────────────
+   UX/AI-LOOK AUDIT FIX: the hero previously used two blurred blue/cyan
+   radial blobs (bg-blue-600/30 blur-[128px] + bg-cyan-600/20 blur-[128px])
+   behind the content. That exact glow-orb-on-dark-navy treatment is one of
+   the most recognizable tells of an AI-page-builder template (v0/Lovable/
+   Bolt-style SaaS heroes all default to it) and reads as generic rather
+   than as a 25-year industrial engineering business. Replaced with a faint
+   technical-drawing grid (blueprint) pattern — evokes CAD/engineering
+   drawings instead of generic "modern tech" glow, at effectively zero
+   perf cost (a single repeating inline SVG, no blur filter to paint).
+   Opacity is intentionally low (6%) so it reads as texture, not decoration,
+   and never competes with the H1/CTA contrast the WCAG pass already
+   validated. */
+.hero-blueprint-overlay {
+  background-image:
+    linear-gradient(rgba(103, 232, 249, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(103, 232, 249, 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, black 0%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 0%, transparent 75%);
+}

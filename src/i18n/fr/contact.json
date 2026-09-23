@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "Contactez l'équipe d'ingénierie — Demandez un devis technique",
+    "description": "Contactez Keshav Enterprises pour vos demandes de devis en ingénierie de turbines, vos devis de rétro-ingénierie, et un support d'urgence 24h/24 et 7j/7. Téléphone : +91 9149229448.",
+    "schemaName": "Contacter Keshav Enterprises"
+  },
+  "hero": {
+    "title": "Parlez à un ingénieur — pas à un commercial",
+    "subtitle": "Partagez vos besoins et notre équipe d'ingénieurs — anciens de constructeurs OEM, pas un centre d'appels — vous répondra avec une réponse technique sous 24 heures, parce que vous avez besoin de réponses, pas d'une brochure.",
+    "trustSignals": [
+      "Demande de devis confidentielle — jamais partagée avec les représentants OEM",
+      "Aucune obligation — vous décidez de la suite",
+      "24 heures pour le planifié · 1 heure pour les urgences"
+    ]
+  },
+  "cards": {
+    "directLines": {
+      "title": "Lignes directes",
+      "salesLabel": "Ventes et devis",
+      "emergencyLabel": "Urgence 24h/24 et 7j/7",
+      "whatsappCta": "Contacter cette ligne sur WhatsApp",
+      "whatsappPrefillMessage": "Bonjour, j'ai besoin d'une assistance d'urgence pour une panne sur ma turbine."
+    },
+    "email": {
+      "title": "Email (demandes de devis)"
+    },
+    "facilityAddress": {
+      "title": "Adresse de l'usine"
+    },
+    "officeHours": {
+      "title": "Horaires d'ouverture",
+      "mondaySaturdayLabel": "Lundi – Samedi",
+      "mondaySaturdayValue": "9h00 – 18h00 IST",
+      "sundayLabel": "Dimanche",
+      "sundayValue": "Fermé (urgences uniquement)",
+      "emergencyLineLabel": "Ligne d'urgence",
+      "emergencyLineValue": "Active 24h/24 et 7j/7"
+    },
+    "indiamart": {
+      "ariaLabel": "Voir Keshav Enterprises sur IndiaMART",
+      "title": "Vérifié sur IndiaMART",
+      "ratingSrOnly": "4,3 étoiles sur 5",
+      "ratingText": "Note de 4,3/5",
+      "trustSeal": "Fournisseur TrustSeal"
+    },
+    "connect": {
+      "label": "Suivez-nous"
+    }
+  },
+  "formSection": {
+    "heading": "Obtenez votre devis technique gratuit",
+    "subheading": "Votre demande est transmise directement à notre ingénieur principal — pas à un centre d'appels. Nous envoyons une réponse technique, car c'est ce dont les responsables d'usine ont réellement besoin. Comprend un examen gratuit du dernier rapport d'analyse d'huile de votre turbine."
+  },
+  "googleBusiness": {
+    "title": "Retrouvez-nous sur Google Business",
+    "descriptionPrefix": "Recherchez",
+    "descriptionQuoted": "Keshav Enterprises Shamli",
+    "descriptionSuffix": "sur Google Maps — consultez notre profil, obtenez un itinéraire, ou laissez un avis pour aider d'autres acheteurs à nous trouver.",
+    "cta": "Voir sur Google"
+  },
+  "facilityPhoto": {
+    "caption": "Notre site de production, Shamli, Uttar Pradesh",
+    "alt": "Site de production Keshav Enterprises — Shamli, Uttar Pradesh"
+  },
+  "map": {
+    "heading": "Notre site de production — Shamli, Uttar Pradesh",
+    "iframeTitle": "Carte de localisation de Keshav Enterprises",
+    "googleBusinessCta": "Google Business",
+    "directionsCta": "Obtenir l'itinéraire"
+  },
+  "form": {
+    "riskReversal": [
+      {
+        "title": "Aucune obligation, quelle qu'elle soit",
+        "sub": "Nous répondons avec une réponse technique. Vous décidez de la suite — aucune pression de relance."
+      },
+      {
+        "title": "Votre demande de devis reste confidentielle",
+        "sub": "Nous ne partageons jamais les informations de votre usine avec des tiers — pas même avec les représentants des constructeurs OEM."
+      },
+      {
+        "title": "Un ingénieur vous répond, pas un commercial",
+        "sub": "Quelqu'un ayant travaillé sur votre type de turbine vous donne une véritable réponse technique."
+      },
+      {
+        "title": "Pas la bonne solution ? Nous vous le dirons d'abord",
+        "sub": "Si votre besoin dépasse notre champ de compétence, nous vous le disons dès le départ — sans détour, sans perte de temps."
+      }
+    ],
+    "inquiryTypes": [
+      "Révision générale de turbine",
+      "Assistance dépannage d'urgence",
+      "Montage et mise en service de turbine",
+      "Rétro-ingénierie",
+      "Équilibrage dynamique",
+      "Rinçage d'huile de lubrification",
+      "Alignement de machines",
+      "Dépannage",
+      "Sablage",
+      "Devis élément filtrant",
+      "Devis CVC, conduits et filtration d'air",
+      "Devis pièces détachées de turbine",
+      "Devis vannes, joints et système vapeur",
+      "Devis joint de dilatation",
+      "Devis crépine",
+      "Demande générale"
+    ],
+    "officeStatus": {
+      "online": "Ingénieurs en ligne actuellement — réponse sous 2 h",
+      "offline": "Ligne d'urgence active 24h/24 et 7j/7 — demandes planifiées traitées avant 9h IST"
+    },
+    "labels": {
+      "yourName": "Votre nom",
+      "companyName": "Nom de l'entreprise",
+      "email": "Email",
+      "phone": "Téléphone",
+      "inquiryType": "Type de demande",
+      "turbineMakeModel": "Marque / modèle de turbine",
+      "details": "Détails",
+      "attachments": "Joindre des plans techniques / fiche technique (facultatif)"
+    },
+    "placeholders": {
+      "yourName": "Nom complet",
+      "companyName": "Votre entreprise",
+      "email": "vous@entreprise.com",
+      "phone": "+91 98000 00000",
+      "inquiryTypeSelect": "Sélectionnez un type de demande…",
+      "turbineMakeModel": "ex. Triveni 5 MW, contre-pression",
+      "details": "Décrivez votre besoin, les symptômes, le délai, ou les spécifications…"
+    },
+    "attachmentsHelp": "PDF, DWG, DXF, JPG, PNG — 10 Mo maximum par fichier. Nous aide à répondre plus vite avec un devis plus précis.",
+    "charCounter": {
+      "minRequired": "Minimum 20 caractères requis",
+      "moreNeededOne": "{n} caractère supplémentaire requis",
+      "moreNeededMany": "{n} caractères supplémentaires requis",
+      "looksGood": "✓ Parfait !"
+    },
+    "errors": {
+      "yourName": "Votre nom est requis",
+      "companyName": "Le nom de l'entreprise est requis",
+      "email": "Une adresse email valide est requise",
+      "phone": "Un numéro de téléphone valide est requis (10 chiffres ou plus)",
+      "inquiryType": "Veuillez sélectionner un type de demande",
+      "details": "Veuillez fournir des détails (20 caractères minimum)",
+      "attachmentTooLarge": "« {filename} » dépasse la limite de 10 Mo — veuillez joindre un fichier plus petit",
+      "rateLimited": "Trop d'envois. Veuillez patienter une heure avant de réessayer.",
+      "securityCheck": "Veuillez compléter le contrôle de sécurité.",
+      "notConfigured": "Formulaire non configuré — veuillez nous contacter directement par WhatsApp ou par téléphone.",
+      "submissionFailedGeneric": "Échec de l'envoi. Veuillez réessayer.",
+      "submissionFailedBanner": "Échec de l'envoi — veuillez réessayer ou nous contacter directement :",
+      "whatsappFallback": "WhatsApp",
+      "whatsappFallbackPrefillMessage": "Bonjour, j'ai essayé d'envoyer le formulaire de contact mais cela a échoué. Pouvez-vous m'aider ?"
+    },
+    "buttons": {
+      "sendingToEngineer": "Envoi à l'équipe d'ingénierie...",
+      "sendToEngineer": "Envoyer à notre ingénieur principal",
+      "sendToEngineerSub": "Obtenez une réponse technique, pas une brochure",
+      "sendingShort": "Envoi en cours…",
+      "submitWithDrawings": "Envoyer la demande avec plans techniques",
+      "submitWithDrawingsSub": "Parce que tout le monde n'utilise pas WhatsApp"
+    },
+    "footerNote": {
+      "text": "Nous répondons sous 1 jour ouvré · Pas de spam ·",
+      "privacyPolicyLink": "Politique de confidentialité"
+    },
+    "success": {
+      "heading": "Demande envoyée à nos ingénieurs.",
+      "bodyPrefix": "Attendez une réponse technique sous",
+      "bodyMid": "pour les demandes planifiées, ou",
+      "bodySuffix": "pour les pannes d'urgence — de la part d'un ingénieur, pas d'un centre d'appels.",
+      "hours24": "24 heures",
+      "hour1": "1 heure",
+      "resendCta": "Envoyer une autre demande",
+      "whileYouWaitLabel": "En attendant —",
+      "whileYouWaitText": "consultez nos études de cas documentées et nos résultats sur le terrain.",
+      "viewCaseStudiesCta": "Voir les études de cas"
+    }
+  }
+}

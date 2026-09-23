@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "titleTemplate": "Giới thiệu Keshav Enterprises — {years}+ Năm Kỹ thuật Tua-bin",
+    "descriptionTemplate": "Keshav Enterprises — {years}+ năm kỹ thuật tua-bin công nghiệp, kỹ thuật đảo ngược, và phụ tùng tương thích OEM từ Shamli, UP, Ấn Độ. Kỹ sư từng làm việc tại OEM Triveni, Siemens, BHEL.",
+    "schemaName": "Giới thiệu Keshav Enterprises",
+    "schemaDescriptionTemplate": "Keshav Enterprises — {years}+ năm kỹ thuật tua-bin công nghiệp, kỹ thuật đảo ngược, và chế tạo phụ tùng tương thích OEM từ Shamli, UP, Ấn Độ."
+  },
+  "hero": {
+    "eyebrow": "Câu chuyện của Chúng tôi",
+    "h1Line1": "Hai Thập kỷ",
+    "h1Span": "Kỹ thuật Chính xác",
+    "quote": "“Không dung sai cho việc ngừng hoạt động nhà máy — đó không phải là khẩu hiệu. Đó là tiêu chuẩn kỹ thuật mà mọi khách hàng đều yêu cầu ở chúng tôi.”",
+    "intro": "Từ một xưởng bảo trì tua-bin chuyên biệt tại Shamli, Uttar Pradesh — trở thành đối tác kỹ thuật đáng tin cậy trên toàn Ấn Độ cho các nhà máy điện, nhà máy đường, nhà máy lọc dầu và ngành công nghiệp quy trình. Được xây dựng trên nền tảng chuyên môn từng làm việc tại OEM Triveni, Siemens, BHEL, Man Turbo, KKK và ABB. Được thúc đẩy bởi một mệnh lệnh duy nhất: thời gian hoạt động tối đa.",
+    "tags": [
+      "Kỹ sư Từng làm việc tại OEM",
+      "Quét Laser 3D",
+      "Độ chính xác CMM",
+      "Phản hồi 24×7",
+      "Đăng ký IEC",
+      "Sẵn sàng Xuất khẩu",
+      "IndiaMART TrustSeal",
+      "Make In India",
+      "Đăng ký MSME"
+    ],
+    "ctaServices": "Dịch vụ của Chúng tôi",
+    "ctaContact": "Liên hệ Đội ngũ Kỹ thuật",
+    "statCards": [
+      {
+        "label": "Năm Hoạt động",
+        "subTemplate": "Từ {founded}"
+      },
+      {
+        "label": "Thương hiệu OEM",
+        "sub": "Triveni · Siemens · BHEL"
+      },
+      {
+        "label": "Tua-bin Tối đa",
+        "sub": "Đến 60 M.W."
+      },
+      {
+        "label": "Hỗ trợ Khẩn cấp",
+        "sub": "Kỹ sư đa địa điểm"
+      }
+    ],
+    "trustBadges": {
+      "indiamartTitle": "Xác minh IndiaMART TrustSeal",
+      "indiamartSub": "50+ đánh giá người mua · xếp hạng 4,3/5",
+      "msmeTitle": "Đăng ký MSME",
+      "msmeSub": "Doanh nghiệp Chứng nhận Udyam · Chính phủ Ấn Độ"
+    }
+  },
+  "statsBar": [
+    {
+      "label": "Năm Hoạt động",
+      "subTemplate": "Từ {founded}"
+    },
+    {
+      "label": "Thương hiệu OEM Bao phủ",
+      "sub": "Triveni · Siemens · BHEL"
+    },
+    {
+      "label": "Tua-bin Tối đa Xử lý",
+      "sub": "Đến 60 M.W."
+    },
+    {
+      "label": "Phản ứng Khẩn cấp",
+      "sub": "Kỹ sư đa địa điểm"
+    }
+  ],
+  "overview": {
+    "eyebrow": "Chúng tôi là Ai",
+    "heading": "Đối tác Kỹ thuật cho Trụ cột Công nghiệp Ấn Độ",
+    "paragraphs": [
+      "Keshav Enterprises là công ty kỹ thuật công nghiệp chính xác có trụ sở tại Shamli, Uttar Pradesh. Trong hơn hai thập kỷ, chúng tôi đã cung cấp dịch vụ bảo trì tua-bin chuyên biệt, kỹ thuật đảo ngược, và phụ tùng tương thích OEM cho các ngành công nghiệp khắt khe nhất Ấn Độ.",
+      "Đội ngũ kỹ thuật của chúng tôi bao gồm các chuyên gia từng làm việc tại OEM Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, và ABB — mang đến cho khách hàng cùng mức độ chuyên môn kỹ thuật như các nhà sản xuất thiết bị gốc, với chi phí và thời gian chờ chỉ bằng một phần nhỏ.",
+      "Chúng tôi bao phủ tua-bin hơi nước từ 5 kW đến 60 MW — đối áp và ngưng hơi, nằm ngang và thẳng đứng, đơn và đa cấp. Xưởng của chúng tôi được trang bị máy quét laser 3D, máy đo tọa độ CMM, máy cân bằng động (50–2.000 kg), và máy tiện CNC chính xác."
+    ],
+    "coreCapabilitiesHeading": "Năng lực Cốt lõi",
+    "coreCapabilitiesList": [
+      "Lắp đặt tua-bin, chạy thử, và đại tu trọn gói",
+      "Kỹ thuật đảo ngược chính xác sử dụng quét laser 3D & CMM",
+      "Cân bằng động theo ISO 1940 / API 670 (50–2.000 kg)",
+      "Súc rửa dầu bôi trơn theo phân loại độ sạch ISO 4406:99",
+      "Căn chỉnh máy móc sử dụng công nghệ căn chỉnh laser mới nhất",
+      "Chế tạo: lõi lọc, bộ lọc khí HVAC, khớp nối giãn nở, bộ lọc rác",
+      "Phụ tùng tua-bin: ổ trục, phớt, rotor, bộ điều tốc, van",
+      "Ứng phó sự cố khẩn cấp 24×7, kỹ sư đa địa điểm"
+    ],
+    "locationHeading": "Vị trí của Chúng tôi",
+    "gstLabel": "GST"
+  },
+  "gallery": {
+    "eyebrow": "Được Xây dựng cho Thời gian Hoạt động Công nghiệp",
+    "headingLine1": "Nếu Tua-bin của Bạn Cần,",
+    "headingLine2": "Chúng tôi Chế tạo.",
+    "subheadingTemplate": "{productCount}+ linh kiện được kỹ thuật chính xác trên 9 danh mục — từ lõi lọc khớp OEM và bộ lọc khí HVAC đến phụ tùng tua-bin giao trong cùng tuần khi nhà máy bạn gọi.",
+    "cards": {
+      "workshopFloor": {
+        "caption": "Sàn Xưởng",
+        "desc": "Máy tiện CNC chính xác, máy tiện chép hình, và máy mài cho gia công ngõng trục rotor, đánh bóng, và công việc phần mê cung."
+      },
+      "ourServices": {
+        "caption": "Dịch vụ của Chúng tôi",
+        "desc": "8 dịch vụ chuyên biệt — lắp đặt & chạy thử tua-bin, đại tu trọn gói, kỹ thuật đảo ngược, cân bằng động, súc rửa dầu bôi trơn, căn chỉnh máy móc, phun cát, và xử lý sự cố 24×7.",
+        "linkLabel": "Xem Dịch vụ"
+      },
+      "productRange": {
+        "caption": "Danh mục Sản phẩm",
+        "descTemplate": "{productCount} sản phẩm kỹ thuật trên 9 danh mục — lọc, bộ lọc khí HVAC, bộ lọc rác, khớp nối giãn nở, phụ tùng tua-bin, sản phẩm cao su, ống mềm, thiết bị điện tử, và linh kiện thủy lực.",
+        "linkLabel": "Xem Sản phẩm"
+      },
+      "rotorInspection": {
+        "caption": "Kiểm tra Rotor",
+        "desc": "Kỹ sư từng làm việc tại OEM đo và ghi lại mọi khe hở, khoảng cách, và kích thước trong quá trình kiểm tra — báo cáo tình trạng đầy đủ cho mỗi công việc."
+      }
+    },
+    "browseFullCatalog": "Xem Toàn bộ Danh mục Sản phẩm"
+  },
+  "values": {
+    "eyebrow": "Điều Thúc đẩy Chúng tôi",
+    "heading": "Giá trị Cốt lõi của Chúng tôi",
+    "items": [
+      {
+        "label": "Liêm chính Kỹ thuật",
+        "text": "Mọi linh kiện, mọi khe hở, mọi kích thước đều được ghi lại và xác minh. Không có đường tắt trên thiết bị quay quan trọng về an toàn."
+      },
+      {
+        "label": "Tiêu chuẩn Cấp độ OEM",
+        "text": "Kỹ sư từng làm việc tại OEM Triveni, Siemens, BHEL, và ABB cung cấp bảo trì theo cùng tiêu chuẩn với nhà sản xuất gốc."
+      },
+      {
+        "label": "Đổi mới trong Kỹ thuật Đảo ngược",
+        "text": "Quét 3D và kiểm tra PMI mang lại cho khách hàng quyền truy cập vào phụ tùng đã ngừng sản xuất mà không cần thời gian chờ OEM 12–18 tháng."
+      },
+      {
+        "label": "Thời gian Hoạt động của Khách hàng là Trên hết",
+        "text": "Chúng tôi đo lường thành công bằng tính sẵn sàng của nhà máy. Ứng phó khẩn cấp 24×7 vì việc ngừng hoạt động không tuân theo giờ làm việc."
+      }
+    ]
+  },
+  "milestones": {
+    "eyebrow": "Hành trình của Chúng tôi",
+    "heading": "Các Cột mốc Công ty",
+    "items": [
+      {
+        "year": "Thập niên 2000",
+        "title": "Thành lập",
+        "desc": "Thành lập tại Shamli, UP như một xưởng bảo trì tua-bin chuyên biệt phục vụ các nhà máy đường địa phương với chuyên môn đại tu thực tế."
+      },
+      {
+        "year": "2005",
+        "title": "Chuyên môn OEM",
+        "desc": "Xây dựng đội ngũ chuyên biệt các kỹ sư từng làm việc tại OEM từ Triveni, BHEL, và Belliss & Morcom — cho phép các tiêu chuẩn bảo trì tương đương OEM thực sự."
+      },
+      {
+        "year": "2010",
+        "title": "Kỹ thuật Đảo ngược",
+        "desc": "Đầu tư vào thiết bị quét laser 3D và CMM để cung cấp dịch vụ kỹ thuật đảo ngược nội bộ cho các linh kiện tua-bin đã ngừng sản xuất mà không phụ thuộc OEM."
+      },
+      {
+        "year": "2015",
+        "title": "Mở rộng Danh mục Sản phẩm",
+        "desc": "Ra mắt dòng sản phẩm công nghiệp toàn diện bao gồm lọc, bộ lọc khí HVAC, khớp nối giãn nở, bộ lọc rác, sản phẩm cao su, và bộ lắp ráp ống mềm."
+      },
+      {
+        "year": "2020",
+        "title": "Cân bằng ISO/API",
+        "desc": "Đưa vào vận hành máy cân bằng động theo tiêu chuẩn ISO 1940 / API 670 — xử lý rotor từ 50 đến 2.000 kg."
+      },
+      {
+        "year": "Hôm nay",
+        "title": "Sẵn sàng Xuất khẩu",
+        "desc": "Đăng ký IEC với DGFT — linh kiện tua-bin, sản phẩm lọc, và phụ tùng công nghiệp được chế tạo theo tiêu chuẩn ISO/API/ASME và phân loại HSN để xuất khẩu, với hỗ trợ tài liệu cho người mua nước ngoài. Phạm vi tiếp cận trong nước trên toàn Ấn Độ tiếp tục với hỗ trợ kỹ thuật khẩn cấp 24×7."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Con người Đằng sau Công việc",
+    "heading": "Chuyên môn Kỹ thuật Từng làm việc tại OEM",
+    "subheading": "Kỹ sư của chúng tôi được đào tạo và triển khai bên trong các nhà máy OEM và đội ngũ dịch vụ hiện trường — không chỉ đơn thuần được đào tạo trên thiết bị OEM. Sự khác biệt đó thể hiện trong chất lượng của mọi khe hở được ghi lại.",
+    "expSuffix": "kinh nghiệm",
+    "namesWithheldNote": "Tên được giữ kín để bảo vệ kỹ sư của chúng tôi khỏi sự chèo kéo của đối thủ cạnh tranh. Lịch sử làm việc có thể xác minh có sẵn cho các yêu cầu nghiêm túc.",
+    "members": {
+      "sk": {
+        "name": "Kỹ sư Cấp cao — Triveni & BHEL",
+        "spec": "Đại tu tua-bin · Lắp đặt & chạy thử · Phân tích độ rung"
+      },
+      "rk": {
+        "name": "Kỹ sư Cấp cao — Siemens & KKK",
+        "spec": "Kỹ thuật đảo ngược · Kiểm tra CMM & PMI · Gia công rotor"
+      },
+      "as": {
+        "name": "Kỹ sư Hiện trường — Belliss & Man Turbo",
+        "spec": "Sự cố khẩn cấp · Căn chỉnh · Hệ thống dầu bôi trơn"
+      },
+      "vp": {
+        "name": "Chuyên gia Cân bằng",
+        "spec": "Cân bằng động ISO 1940 / API 670 · Rotor 50–2.000 kg"
+      },
+      "mt": {
+        "name": "Trưởng nhóm Xưởng — Gia công",
+        "spec": "Mài ngõng trục · Gia công mê cung · Chế tạo vòng carbon"
+      },
+      "pd": {
+        "name": "Trưởng nhóm Sản phẩm & Lọc",
+        "spec": "Cung cấp lõi lọc · Bộ lọc khí HVAC · Khớp nối giãn nở · Bộ lọc rác"
+      }
+    }
+  },
+  "oemSection": {
+    "eyebrow": "Chuyên môn OEM",
+    "headingLine1": "10+ Thương hiệu OEM.",
+    "headingLine2": "Một Đối tác Kỹ thuật.",
+    "sub": "Kỹ sư từng làm việc tại OEM của chúng tôi có kinh nghiệm thực tế với tất cả các dòng tua-bin chính. Không có đường cong học tập. Chuyên môn kỹ thuật đáng tin cậy ngay từ ngày đầu."
+  },
+  "exportSection": {
+    "eyebrow": "Sẵn sàng Xuất khẩu",
+    "headingLine1": "Được Xây dựng Để",
+    "headingSpan": "Người mua Xuất khẩu Dễ dàng Xác minh",
+    "paragraphs": [
+      "Keshav Enterprises giữ Mã số Xuất Nhập khẩu (IEC) đang hoạt động do DGFT cấp, chứng thư pháp lý cần thiết để vận chuyển phụ tùng kỹ thuật tua-bin, sản phẩm lọc công nghiệp, và linh kiện tương thích OEM ra khỏi Ấn Độ.",
+      "Các sản phẩm được chế tạo chính xác của chúng tôi được sản xuất theo tiêu chuẩn quốc tế bao gồm ISO 16889, API 614, và ASME Sec. VIII, và được phân loại theo mã xuất khẩu HSN tiêu chuẩn, để người mua nước ngoài có thể xác minh sự tuân thủ trước khi đặt hàng."
+    ],
+    "standards": [
+      {
+        "stat": "ISO 16889",
+        "label": "Tiêu chuẩn Lọc"
+      },
+      {
+        "stat": "API 614",
+        "label": "Tiêu chuẩn Hệ thống Dầu Bôi trơn"
+      },
+      {
+        "stat": "ASME VIII",
+        "label": "Tiêu chuẩn Bình áp lực"
+      },
+      {
+        "stat": "HSN 8421",
+        "label": "Phân loại Xuất khẩu"
+      }
+    ],
+    "iecCardTitle": "Nhà Xuất khẩu Đăng ký IEC",
+    "iecCardDescTemplate": "Mã số Xuất Nhập khẩu DGFT {iec} — đang hoạt động và có thể xác minh",
+    "checklistTitle": "Danh mục Sẵn sàng Xuất khẩu",
+    "checklistItems": [
+      "IEC đang hoạt động do DGFT cấp — được phép xuất khẩu hợp pháp",
+      "Sản phẩm được phân loại theo mã xuất khẩu HSN tiêu chuẩn",
+      "Được chế tạo theo tiêu chuẩn quốc tế ISO, API & ASME",
+      "Bảng thông số tiếng Anh, chứng chỉ thử nghiệm & tài liệu QC",
+      "Đăng ký GST với tuân thủ hóa đơn xuất khẩu đầy đủ",
+      "Cơ sở sản xuất đăng ký MSME tại Shamli, Uttar Pradesh"
+    ],
+    "credentialLabels": {
+      "gst": "GST",
+      "msme": "MSME/Udyam",
+      "iec": "IEC"
+    }
+  },
+  "finalCta": {
+    "heading": "Sẵn sàng làm việc với chúng tôi?",
+    "subheading": "Cho chúng tôi biết hãng tua-bin, công suất, và yêu cầu của bạn — chúng tôi phản hồi bằng kỹ thuật, không phải lời chào hàng.",
+    "ctaQuote": "Nhận Báo giá Kỹ thuật",
+    "ctaServices": "Xem Tất cả Dịch vụ"
+  }
+}

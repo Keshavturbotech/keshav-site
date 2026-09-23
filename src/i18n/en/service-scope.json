@@ -1,0 +1,34 @@
+{
+  "srv_1": {
+    "scope": "Turnkey",
+    "turnaround": "Project-based timeline"
+  },
+  "srv_2": {
+    "scope": "Turnkey on-site",
+    "turnaround": "3–21 days typical"
+  },
+  "srv_3": {
+    "scope": "Workshop & on-site",
+    "turnaround": "7–30 days"
+  },
+  "srv_4": {
+    "scope": "Workshop",
+    "turnaround": "48–72 hrs standard"
+  },
+  "srv_5": {
+    "scope": "On-site flushing",
+    "turnaround": "2–7 days"
+  },
+  "srv_6": {
+    "scope": "On-site precision",
+    "turnaround": "1–3 days"
+  },
+  "srv_7": {
+    "scope": "On-site diagnostic",
+    "turnaround": "Same day report"
+  },
+  "srv_8": {
+    "scope": "Workshop & on-site",
+    "turnaround": "1–3 days"
+  }
+}

@@ -1,0 +1,120 @@
+---
+// src/components/DigitalProfilesStrip.astro
+// FIXED: this component was entirely missing — caught via screenshot
+// comparison of a product detail page. Full port from App.jsx (line ~12368).
+// CRITICAL FINDING: this renders SITE-WIDE, right before the Footer on
+// EVERY page (App.jsx line ~27678), not just product pages — a much bigger
+// miss than it first appeared. Added to Layout.astro accordingly.
+import { CONTACT_INFO } from "../data/site-config";
+
+const DIGITAL_PROFILES = [
+  {
+    name: "Google Business",
+    href: CONTACT_INFO.googleBusiness,
+    badge: "Google Verified",
+    badgeColor: "#1a56db",
+    badgeBg: "#e8f0fe",
+    imgSrc: "google-business.webp",
+  },
+  {
+    name: "IndiaMART",
+    href: CONTACT_INFO.indiamart,
+    badge: "4.3★ TrustSeal",
+    badgeColor: "#b45309",
+    badgeBg: "#fef3c7",
+    imgSrc: "indiamart.webp",
+  },
+  {
+    name: "TradeIndia",
+    href: CONTACT_INFO.tradeindia,
+    badge: "Verified Supplier",
+    badgeColor: "#1e40af",
+    badgeBg: "#dbeafe",
+    imgSrc: "tradeindia.webp",
+  },
+  {
+    name: "ExporterIndia",
+    href: CONTACT_INFO.exportersindia,
+    badge: "Export Ready",
+    badgeColor: "#166534",
+    badgeBg: "#dcfce7",
+    imgSrc: "exportersindia.webp",
+  },
+  {
+    name: "JustDial",
+    href: CONTACT_INFO.justdial,
+    badge: "Local Verified",
+    badgeColor: "#9a3412",
+    badgeBg: "#ffedd5",
+    imgSrc: "justdial.webp",
+  },
+];
+---
+
+<section
+  class="bg-slate-50 border-t border-slate-100 py-16"
+  aria-labelledby="digital-profiles-heading"
+>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <p class="text-xs font-black text-blue-600 uppercase tracking-[0.25em] mb-3">
+      Find Us Everywhere
+    </p>
+    <h2
+      id="digital-profiles-heading"
+      class="text-2xl md:text-3xl font-black text-slate-900 tracking-tight mb-4"
+    >
+      Verified Across India's Top Business Directories
+    </h2>
+    <p class="text-slate-500 font-medium text-sm max-w-xl mx-auto mb-10">
+      Our business profile is verified and active on every major B2B and local search platform in
+      India.
+    </p>
+    <div class="flex flex-wrap justify-center gap-4">
+      {
+        DIGITAL_PROFILES.map((p) => (
+          <a
+            href={p.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-3 bg-white border border-slate-200 rounded-xl px-5 py-3.5 hover:border-blue-300 hover:shadow-md transition-all group"
+          >
+            <div class="w-9 h-9 rounded-lg bg-slate-100 border border-slate-200 flex items-center justify-center shrink-0 overflow-hidden">
+              <img
+                src={`/${p.imgSrc}`}
+                alt=""
+                width="24"
+                height="24"
+                loading="lazy"
+                decoding="async"
+                class="w-6 h-6 object-contain"
+                onerror="this.style.display='none'"
+              />
+            </div>
+            <div class="text-left">
+              <p class="font-black text-slate-900 text-sm group-hover:text-blue-600 transition-colors flex items-center gap-1">
+                {p.name}
+                <svg
+                  class="w-3 h-3 opacity-50"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"
+                  />
+                </svg>
+              </p>
+              <p class="text-[11px] font-bold" style={`color:${p.badgeColor}`}>
+                {p.badge}
+              </p>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</section>

@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Keshav Enterprises — Révision générale et pièces détachées de turbines à vapeur, Shamli UP Inde",
+    "description": "Ingénieurs en turbines à vapeur, anciens des équipementiers Triveni, Siemens, BHEL. Révision générale, ingénierie inverse, équilibrage dynamique, rinçage d'huile de lubrification et pièces compatibles OEM pour turbines de 5 kW à 60 MW. Basés à Shamli, Uttar Pradesh. Assistance d'urgence 24×7.",
+    "keywords": "turbine maintenance India, steam turbine overhauling, turbine reverse engineering, industrial turbine spares, lube oil filter elements, expansion joints India, Triveni turbine service, BHEL turbine spares, turbine erection Uttar Pradesh, Shamli engineering"
+  },
+  "hero": {
+    "badgeMakeInIndia": "Make In India",
+    "badgeVocalForLocal": "Vocal For Local",
+    "badgeIndiaMartLabel": "Vérifié sur IndiaMART",
+    "badgeIndiaMartRatingSuffix": "NOTE",
+    "h1Line1": "Ingénierie de précision pour",
+    "h1Line2": "une disponibilité maximale.",
+    "capabilityLine": "Turbines à vapeur de 5 kW à 60 MW — à contre-pression et à condensation, horizontales et verticales, à un ou plusieurs étages. Au service de clients dans toute l'Inde et dans le monde entier.",
+    "introText": "Anciens ingénieurs OEM de Triveni, Siemens, BHEL et 7 autres marques. Nous remettons votre turbine en service plus vite qu'un approvisionnement OEM — avec certificats PMI complets, rapports d'équilibrage ISO, et un historique sans pénalité depuis {founded}.",
+    "ctaPrimary": "Envoyez-nous vos besoins",
+    "ctaEmergency": "Panne d'urgence",
+    "trustYearsOverhauls": "{years}+ ans · 500+ révisions générales",
+    "trustPmi": "Pièces certifiées PMI",
+    "trustResponse": "Réponse moyenne : 2 h",
+    "proofCards": [
+      {
+        "label": "Aucune courbe d'apprentissage",
+        "title": "Anciens ingénieurs OEM",
+        "sub": "Notre équipe a travaillé chez Triveni, Siemens, BHEL et Belliss — la même expertise, désormais au service de votre usine."
+      },
+      {
+        "label": "Chaque intervention documentée",
+        "title": "Rapport à la livraison",
+        "sub": "Certificats PMI, rapports d'équilibrage, relevés d'alignement, rapports d'état — remis à la fin de chaque intervention."
+      },
+      {
+        "label": "Quand chaque minute compte",
+        "title": "Urgences 24×7",
+        "sub": "Des ingénieurs répartis dans plusieurs sites à travers l'Inde. Appelez-nous à 2 h du matin — quelqu'un répond."
+      }
+    ]
+  },
+  "oemMarquee": {
+    "heading": "Compatible OEM et approuvé par les leaders de l'industrie"
+  },
+  "stats": {
+    "overhauls": {
+      "label": "Révisions générales réalisées",
+      "sub": "Usines de sucre, d'énergie, de papier et de ciment à travers l'Inde"
+    },
+    "years": {
+      "label": "Années de service",
+      "sub": "Activité continue depuis {founded} — aucun changement de propriétaire"
+    },
+    "penaltyClaims": {
+      "label": "Réclamations de pénalité",
+      "sub": "Zéro en {years} ans — références clients disponibles sur demande"
+    },
+    "emergency": {
+      "label": "Réponse d'urgence",
+      "sub": "Ingénieurs sur plusieurs sites — délai moyen d'intervention inférieur à 4 h"
+    }
+  },
+  "featuredProducts": {
+    "heading": "Produits d'ingénierie phares",
+    "scrollLeftLabel": "Défiler à gauche",
+    "scrollRightLabel": "Défiler à droite",
+    "dragToExplore": "glisser pour explorer",
+    "viewCompleteCatalog": "Voir le catalogue complet",
+    "viewDetails": "Voir les détails",
+    "swipeToBrowse": "Glisser pour parcourir"
+  },
+  "servicesPreview": {
+    "eyebrow": "Cycle de vie complet de la turbine",
+    "heading": "Services techniques",
+    "subheading": "Les mêmes ingénieurs, anciens des équipementiers, gèrent votre révision générale, vos pièces détachées et vos urgences à 2 h du matin — sans sous-traitance, sans transfert de dossier.",
+    "painLines": {
+      "srv_2": "Fatigué de fournisseurs mal équipés qui ne remettent aucun rapport d'intervention ?",
+      "srv_3": "L'équipementier a annoncé des mois de délai pour une pièce qui n'est plus fabriquée ?",
+      "srv_4": "Vibrations récurrentes après un alignement et un remplacement de palier — sans que la cause profonde ne soit corrigée ?"
+    },
+    "viewFullDetails": "Voir tous les détails",
+    "viewAllServices": "Voir les 8 services"
+  },
+  "testimonials": {
+    "eyebrow": "Avis clients",
+    "heading": "La confiance des responsables d'usine à travers l'Inde",
+    "googleRatingLabel": "+ avis vérifiés sur Google",
+    "disclaimer": "Les citations proviennent de dossiers de projets réalisés et sont abrégées en initiales en attendant un consentement écrit pour une attribution complète. Pour des notes vérifiées de façon indépendante, consultez nos avis Google ci-dessus.",
+    "footerCtaPrefix": "Vous avez travaillé avec nous ?",
+    "footerCtaLink": "Laissez un avis Google — cela aide d'autres responsables d'usine à nous trouver →",
+    "googleReviewBadge": "Avis Google",
+    "items": [
+      {
+        "quote": "Leurs ingénieurs, anciens de Triveni, ont pris en charge la révision générale de notre turbine Triveni de 12 MW pendant l'arrêt annuel — tous les jeux documentés, rotor équilibré selon ISO G1.0, et remise en service avant l'échéance prévue. Pour la première fois en six ans, aucun problème au premier démarrage.",
+        "name": "R. Kumar",
+        "role": "Responsable d'usine",
+        "company": "Sucrerie et centrale de cogénération",
+        "location": "Uttar Pradesh",
+        "service": "Révision générale de turbine",
+        "detail": "Triveni 12 MW · Arrêt planifié"
+      },
+      {
+        "quote": "Nous avons subi une défaillance critique d'un palier en régule sur notre turbine Belliss & Morcom à 2 h du matin, en pleine saison de broyage. Keshav Enterprises avait un ingénieur sur site dès le matin avec le palier de remplacement prêt. Le temps d'arrêt a été inférieur à 14 heures — cela nous a fait économiser des crores en pertes de canne.",
+        "name": "A. Singh",
+        "role": "Responsable maintenance",
+        "company": "Sucrerie",
+        "location": "Haryana",
+        "service": "Réponse aux pannes d'urgence",
+        "detail": "Belliss & Morcom · Défaillance de palier"
+      },
+      {
+        "quote": "Les pièces OEM pour notre turbine Belliss & Morcom de 28 ans avaient des délais de 18 mois. Keshav a fait la rétro-ingénierie de l'arbre du rotor et des bagues labyrinthes en 6 semaines, avec certificats PMI complets. La qualité était indiscernable de l'original.",
+        "name": "V. Sharma",
+        "role": "Ingénieur en chef",
+        "company": "Papeterie et centrale électrique",
+        "location": "Pendjab",
+        "service": "Ingénierie inverse",
+        "detail": "Belliss & Morcom · Pièces obsolètes"
+      },
+      {
+        "quote": "Après l'équilibrage dynamique par Keshav du rotor de notre turbine BHEL de 3 MW, les vibrations résiduelles sont passées de 9,2 mm/s à 0,8 mm/s — bien en deçà de la limite ISO G1.0. Le rotor causait une usure des paliers tous les 8 mois. Nous en sommes maintenant à 26 mois sans changement de palier. Le rapport d'équilibrage a également satisfait nos auditeurs d'assurance.",
+        "name": "P. Reddy",
+        "role": "Ingénieur instrumentation et maintenance",
+        "company": "Centrale électrique captive",
+        "location": "Telangana",
+        "service": "Équilibrage dynamique",
+        "detail": "BHEL 3 MW · Conformité ISO G1.0"
+      }
+    ]
+  },
+  "capabilities": {
+    "heading": "Capacités de fabrication et techniques",
+    "items": [
+      {
+        "iconName": "Zap",
+        "text": "Délais plus courts que l'approvisionnement OEM — Triveni, Siemens, BHEL"
+      },
+      {
+        "iconName": "Layers",
+        "text": "Mises à niveau de matériaux : Duplex, Incoloy, Inconel, Titane, Hastelloy"
+      },
+      {
+        "iconName": "Activity",
+        "text": "Équilibrage dynamique ISO/API, capacité 50–2 000 kg"
+      },
+      {
+        "iconName": "Wind",
+        "text": "Soufflets d'expansion sur mesure DN 15–12 000, jusqu'à 150 barg"
+      },
+      {
+        "iconName": "Droplets",
+        "text": "Éléments filtrants selon les normes ISO 16889, API 614, ASME et EN"
+      },
+      {
+        "iconName": "Cpu",
+        "text": "Systèmes d'huile de lubrification selon la classification de propreté ISO 4406:99"
+      }
+    ]
+  },
+  "projectsTeaser": {
+    "eyebrow": "Résultats de terrain documentés",
+    "heading": "Projets et études de cas",
+    "viewAllProjects": "Voir tous les projets",
+    "readCaseStudy": "Lire l'étude de cas",
+    "seeAllProjectsPrefix": "Voir les",
+    "seeAllProjectsSuffix": "projets"
+  },
+  "resourceBar": {
+    "blogText": "Articles techniques rédigés par notre équipe d'ingénieurs",
+    "downloadsText": "Listes de contrôle de révision, modèles de RFQ et fiches techniques gratuits"
+  },
+  "finalCta": {
+    "heading": "Obtenez un devis technique. Chaque heure d'arrêt a un coût.",
+    "subheading": "Nos ingénieurs vous fournissent une réponse technique sous 24 heures pour les travaux planifiés — et sous une heure pour les pannes — parce que la disponibilité de votre usine, c'est votre rentabilité.",
+    "plannedTitle": "Révision planifiée ou demande de devis",
+    "plannedDesc": "Maintenance programmée, approvisionnement en pièces détachées, fourniture de joints de dilatation, ou commandes d'éléments filtrants. Partagez vos besoins et obtenez un devis technique détaillé.",
+    "plannedSendBtn": "Envoyez-nous vos besoins",
+    "plannedEmailBtn": "Écrivez à notre équipe d'ingénieurs",
+    "emergencyTitle": "Panne d'urgence — maintenant",
+    "emergencyDesc": "Turbine déclenchée ? Vibrations élevées ? Arrêt inattendu ? Nos ingénieurs sont joignables 24 h/24, 7 j/7. Appelez ou contactez-nous immédiatement sur WhatsApp — chaque heure d'arrêt a un coût.",
+    "emergencyCallPrefix": "Appelez maintenant —",
+    "emergencyWhatsappBtn": "WhatsApp Urgence",
+    "riskReversal": [
+      "Aucun engagement — nous vous envoyons une réponse technique, à vous de décider la suite",
+      "Demande de devis confidentielle — les détails de votre usine ne parviennent jamais aux représentants OEM",
+      "Un ingénieur vous répond, pas un centre d'appels",
+      "Réponse en 24 h pour le planifié · 1 h pour les urgences"
+    ]
+  },
+  "whatsappEmergencyMessage": "Bonjour KESHAV ENTERPRISES, nous avons une panne d'urgence. Merci de nous assister immédiatement."
+}

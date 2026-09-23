@@ -1,0 +1,1074 @@
+{
+  "srv_1": {
+    "tagline": "Erection Terkoordinasi OEM dari Baut Fondasi Pertama hingga Uap Pertama",
+    "accentColor": "#2563eb",
+    "keyStats": [
+      {
+        "value": "10+",
+        "label": "Merek OEM Dikomisioning"
+      },
+      {
+        "value": "5kW–60MW",
+        "label": "Rentang Daya Ditangani"
+      },
+      {
+        "value": "100%",
+        "label": "Dokumentasi Sesuai Spek OEM"
+      },
+      {
+        "value": "24×7",
+        "label": "Dukungan Lokasi Tersedia"
+      }
+    ],
+    "whyUs": "Satu set celah yang salah selama erection dapat merusak bearing dalam hitungan jam sejak uap pertama. Insinyur lapangan eks-OEM kami telah mengomisioning sendiri jenis mesin yang sama yang sedang Anda pasang — mereka tahu persis arti spesifikasi OEM dalam praktik, bukan hanya di atas kertas.",
+    "overview": "Erection dan komisioning turbin adalah fase paling kritis dari proyek pembangkit listrik atau industri mana pun. Kesalahan selama erection — penyelarasan yang salah, celah yang tidak tepat, torsi yang salah — berakumulasi menjadi kegagalan mahal dalam tahun pertama operasi. Keshav Enterprises menghadirkan insinyur lapangan eks-OEM yang telah mengomisioning turbin Triveni, Siemens, BHEL, Belliss, dan Maxwatt di pembangkit listrik, pabrik gula, pabrik kertas, dan industri proses. Setiap hold point disaksikan, setiap celah dicatat, dan setiap sistem keselamatan diuji sebelum uap dimasukkan. Paket dokumentasi kami memenuhi persyaratan serah terima klien, asuransi, dan OEM.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Tinjauan Rekayasa Pra-Erection",
+        "iconName": "BookOpen",
+        "desc": "Tinjauan rinci manual erection OEM, gambar GA, P&ID, dan gambar fondasi sipil. Identifikasi semua hold point, witness point, dan persyaratan dokumentasi sebelum pengangkatan peralatan pertama. Urutan erection dan jalur kritis disepakati dengan tim proyek klien."
+      },
+      {
+        "step": "02",
+        "title": "Persiapan Fondasi & Baseplate",
+        "iconName": "Layers",
+        "desc": "Perataan presisi dan grouting baseplate turbin hingga dalam 0,05 mm/m. Pemesinan dan pemasangan chock. Penegangan baut fondasi ke torsi yang ditentukan OEM menggunakan kunci hidraulik terkalibrasi. Persiapan epoxy grout, penuangan, dan pemantauan curing dengan pencatatan suhu."
+      },
+      {
+        "step": "03",
+        "title": "Penyetelan Peralatan & Penyelarasan Kasar",
+        "iconName": "Target",
+        "desc": "Pemosisian presisi casing turbin, gearbox, dan peralatan yang digerakkan pada baseplate. Penyelarasan poros kasar menggunakan dial gauge dan peralatan laser hingga dalam 0,1 mm sebelum pemasangan kopling. Pemeriksaan dan koreksi soft foot pada semua kaki mesin sebelum penyelarasan akhir."
+      },
+      {
+        "step": "04",
+        "title": "Perakitan Internal & Penyetelan Celah",
+        "iconName": "Cog",
+        "desc": "Pengukuran rotor drop, penyetelan celah gland (radial dan aksial), pemasangan seal labirin, pemasangan thrust bearing, dan penyetelan celah journal bearing. Semua celah dicatat sesuai spesifikasi OEM dalam register celah lokasi. Rotor end float diukur dan dikonfirmasi dalam batas OEM."
+      },
+      {
+        "step": "05",
+        "title": "Sambungan Perpipaan & Sistem Bantu",
+        "iconName": "Activity",
+        "desc": "Sambungan perpipaan inlet uap, exhaust, ekstraksi, dan drain dengan penyangga pipa dan spring hanger yang tepat. Beban nozzle diverifikasi dalam batas OEM — regangan pipa dihilangkan sebelum sambungan akhir. Perpipaan oli pelumas, oli kontrol, uap gland, dan instrumentasi diselesaikan dan diuji kebocoran."
+      },
+      {
+        "step": "06",
+        "title": "Pemeriksaan Pra-Komisioning & Pembersihan",
+        "iconName": "Droplets",
+        "desc": "Pembersihan sistem oli pelumas hingga standar kebersihan ISO 4406, dikonfirmasi dengan hitungan partikel. Pemeriksaan fungsional sistem kontrol dan trip. Uji coba sistem keselamatan dilakukan dan didokumentasikan: trip overspeed, trip tekanan oli rendah, trip suhu bearing tinggi, operasi katup penghenti darurat."
+      },
+      {
+        "step": "07",
+        "title": "Penyalaan Pertama, Run-Up & Komisioning",
+        "iconName": "Zap",
+        "desc": "Start pertama terkendali dengan uji dengar pada putaran lambat. Run-up kecepatan dalam tahapan yang ditentukan dengan pemantauan getaran dan suhu bearing kontinu. Pengujian respons governor dan dead-band. Uji trip overspeed pada 110% kecepatan rating. Pengujian penerimaan beban dan serah terima operasional beban penuh dengan laporan komisioning."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Penyelarasan Poros Laser",
+        "detail": "Pruftechnik Rotalign Pro / seri SKF TKSA",
+        "iconName": "Target"
+      },
+      {
+        "name": "Analyzer Getaran",
+        "detail": "FFT real-time, akuisisi data 8-kanal",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Dial Gauge Presisi",
+        "detail": "Resolusi 0,001 mm, kelas CMM",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Kunci Torsi Hidraulik",
+        "detail": "Pengganda torsi terkalibrasi untuk baut fondasi",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Borescope",
+        "detail": "Kaku & fleksibel untuk inspeksi internal",
+        "iconName": "Search"
+      },
+      {
+        "name": "Logger Thermocouple",
+        "detail": "Survei termal multi-titik selama running pertama",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Flow Meter Ultrasonik",
+        "detail": "Verifikasi aliran komisioning pipa",
+        "iconName": "Droplets"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ASME PTC 6",
+        "desc": "Kode Uji Kinerja Turbin Uap",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 10816 / 20816",
+        "desc": "Batas getaran mekanis untuk mesin berputar",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Perlindungan mesin: trip overspeed dan getaran",
+        "body": "API"
+      },
+      {
+        "code": "API 686",
+        "desc": "Praktik yang direkomendasikan untuk instalasi mesin",
+        "body": "API"
+      },
+      {
+        "code": "IS 3639",
+        "desc": "Standar baut fondasi dan angkur",
+        "body": "BIS"
+      },
+      {
+        "code": "Manual OEM",
+        "desc": "Prosedur erection Triveni, Siemens, BHEL, Belliss, Maxwatt",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_2": {
+    "tagline": "Perencanaan Shutdown Turnkey hingga Restart Nol-Cacat",
+    "accentColor": "#0891b2",
+    "keyStats": [
+      {
+        "value": "8+",
+        "label": "Merek OEM Dioverhaul"
+      },
+      {
+        "value": "26+",
+        "label": "Tahun Pengalaman Lapangan"
+      },
+      {
+        "value": "0.001mm",
+        "label": "Resolusi Celah"
+      },
+      {
+        "value": "24×7",
+        "label": "Respons Darurat"
+      }
+    ],
+    "whyUs": "Overhaul yang dikerjakan buruk lebih parah daripada tidak dioverhaul sama sekali — memperkenalkan kesalahan celah baru, kontaminasi, dan cacat perakitan ulang. Insinyur kami dilatih oleh OEM. Mereka tahu apa arti toleransi sesungguhnya pada suhu dan kecepatan operasi, bukan hanya yang tertulis di manual.",
+    "overview": "Overhaul turbin bukanlah aktivitas perawatan biasa — ini adalah intervensi rekayasa presisi. Keshav Enterprises menerjunkan insinyur eks-OEM dari Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK, dan ABB untuk melaksanakan overhaul turnkey dengan disiplin dan standar dokumentasi yang sama seperti produsen asli. Setiap overhaul dimulai 4–6 minggu sebelum shutdown dengan finalisasi lingkup, pra-inspeksi suku cadang, dan perencanaan mobilisasi tenaga kerja. Setiap komponen diukur sebelum pembongkaran, selama strip-down, dan setelah perakitan ulang. Laporan kondisi tertulis, register celah, dan catatan fotografis dibuat untuk setiap overhaul — menciptakan baseline untuk shutdown berikutnya.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Perencanaan Pra-Shutdown & Finalisasi Lingkup",
+        "iconName": "BookOpen",
+        "desc": "Tinjauan catatan overhaul sebelumnya, data operasional, riwayat getaran, dan tren kinerja 4–6 minggu sebelum shutdown. Definisi lingkup, daftar suku cadang kritis, daftar consumable, dan rencana mobilisasi tenaga kerja. Inspeksi pra-shutdown suku cadang yang disimpan dengan laporan kekurangan diterbitkan ke klien."
+      },
+      {
+        "step": "02",
+        "title": "Mobilisasi Lokasi & Penyiapan Peralatan",
+        "iconName": "Wrench",
+        "desc": "Kit alat overhaul lengkap diterjunkan: dongkrak hidraulik, chain block presisi, sling penanganan rotor, instrumen pengukuran khusus, alat lapping, dan paket dokumentasi overhaul lengkap. Pemeriksaan kondisi alat dan verifikasi kalibrasi instrumen sebelum pekerjaan dimulai."
+      },
+      {
+        "step": "03",
+        "title": "Pembongkaran & Inspeksi Awal",
+        "iconName": "Search",
+        "desc": "Pembongkaran terkendali dengan semua pengukuran pra-pembongkaran dicatat: celah bearing, runout poros, celah gland, penyelarasan kopling, dan rotor end float. Setiap komponen difoto. Kondisi dicatat terhadap spesifikasi OEM sebelum pembersihan."
+      },
+      {
+        "step": "04",
+        "title": "Inspeksi Komponen & Pelaporan Kondisi",
+        "iconName": "Activity",
+        "desc": "Inspeksi visual, dimensional, dan NDT pada rotor, bilah, bearing, gland, casing, semua katup, dan kopling. Deteksi retak menggunakan metode dye penetrant atau magnetic particle pada komponen kritis. Laporan kondisi tertulis dengan rekomendasi spesifik untuk setiap komponen: ganti, perbaiki, atau gunakan kembali dengan justifikasi."
+      },
+      {
+        "step": "05",
+        "title": "Perbaikan Komponen & Pemasangan Suku Cadang",
+        "iconName": "Cog",
+        "desc": "Pengecoran ulang babbitt dan pemesinan presisi bearing journal, penggantian seal labirin, inspeksi bilah dan penggantian selektif, polishing journal (Ra 0,4 μm), lapping permukaan sambungan casing, penggantian packing gland, dan lapping dudukan katup ke standar blue-match."
+      },
+      {
+        "step": "06",
+        "title": "Perakitan Ulang & Penyetelan Celah",
+        "iconName": "Target",
+        "desc": "Perakitan ulang presisi dengan semua celah disetel dan dicatat terhadap spesifikasi OEM: celah bearing journal (diametral dan aksial), celah radial dan aksial seal labirin, celah gland, penyelarasan kopling, dan rotor end float. Semua pembacaan dimasukkan ke register celah dan dibandingkan terhadap baseline overhaul sebelumnya."
+      },
+      {
+        "step": "07",
+        "title": "Rekomisioning & Serah Terima",
+        "iconName": "Zap",
+        "desc": "Pembersihan rekomisioning sistem oli pelumas pasca-overhaul hingga ISO 4406. Uji coba sistem keselamatan: trip overspeed, trip tekanan oli rendah, katup penghenti darurat. Start-up terpantau dengan tren getaran dan suhu bearing. Izin tertulis untuk beban penuh dengan paket dokumentasi overhaul lengkap diserahkan ke klien."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Dial Gauge & Bore Gauge Presisi",
+        "detail": "Pengukuran celah resolusi 0,001 mm",
+        "iconName": "Target"
+      },
+      {
+        "name": "Penyelarasan Poros Laser",
+        "detail": "Verifikasi penyelarasan kopling akhir",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Mesin Penyeimbang Portabel",
+        "detail": "Penyeimbangan trim rotor in-situ",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Peralatan Pengecoran Babbitt",
+        "detail": "Pengecoran sentrifugal untuk pengecoran ulang bearing",
+        "iconName": "Factory"
+      },
+      {
+        "name": "Pelat Lapping Permukaan",
+        "detail": "Semua grade untuk dudukan katup dan permukaan casing",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Gauge Ketebalan Ultrasonik",
+        "detail": "Pengukuran erosi dinding casing",
+        "iconName": "Search"
+      },
+      {
+        "name": "Analyzer Getaran 8-Kanal",
+        "detail": "FFT real-time selama restart terpantau",
+        "iconName": "TrendingUp"
+      }
+    ],
+    "standards": [
+      {
+        "code": "API 614",
+        "desc": "Sistem pelumasan, penyegelan poros, dan kontrol oli",
+        "body": "API"
+      },
+      {
+        "code": "API 670",
+        "desc": "Sistem perlindungan getaran dan overspeed",
+        "body": "API"
+      },
+      {
+        "code": "ISO 1940",
+        "desc": "Kelas kualitas penyeimbangan dinamis untuk komponen berputar",
+        "body": "ISO"
+      },
+      {
+        "code": "ASME B31.1",
+        "desc": "Perpipaan tenaga untuk sambungan uap",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 9001",
+        "desc": "Sistem manajemen mutu untuk dokumentasi overhaul",
+        "body": "ISO"
+      },
+      {
+        "code": "Manual OEM",
+        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_3": {
+    "tagline": "Pemindaian 3D hingga Gambar Produksi — Menghilangkan Ketergantungan OEM",
+    "accentColor": "#7c3aed",
+    "keyStats": [
+      {
+        "value": "5kW–60MW",
+        "label": "Rentang Turbin Tercakup"
+      },
+      {
+        "value": "0.001mm",
+        "label": "Resolusi Pengukuran CMM"
+      },
+      {
+        "value": "100%",
+        "label": "Material Terverifikasi PMI"
+      },
+      {
+        "value": "GD&T",
+        "label": "Gambar Toleransi Lengkap"
+      }
+    ],
+    "whyUs": "Ketika OEM berhenti mendukung sebuah mesin, rotor aus sederhana atau diafragma pecah dapat memaksa pabrik shutdown selama berbulan-bulan. Proses rekayasa balik kami merekonstruksi material, geometri, dan spesifikasi perlakuan panas yang persis — dengan gambar manufaktur lengkap — sehingga bengkel mesin yang kompeten mana pun dapat memproduksi komponen tersebut.",
+    "overview": "Ketika gambar OEM tidak tersedia, OEM sudah tidak aktif, atau waktu tunggu diukur dalam tahun, Keshav Enterprises dapat merekayasa balik komponen turbin apa pun dari 5 kW hingga 60 MW menjadi set gambar siap produksi lengkap. Proses kami menggunakan pemindai laser 3D, mesin pengukur koordinat CMM, dan identifikasi material PMI XRF — alat yang sama yang digunakan tim rekayasa OEM besar — untuk menghasilkan gambar manufaktur lengkap dengan semua toleransi, finishing permukaan, urutan perlakuan panas, dan spesifikasi material. Kami telah berhasil merekayasa balik rotor, diafragma, blok nozzle, seal labirin, bearing, governor, dan komponen jalur uap untuk turbin Triveni, Siemens, BHEL, DLF-Skoda, Belliss, dan Maxwatt.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Penerimaan Komponen & Penilaian Awal",
+        "iconName": "Search",
+        "desc": "Penerimaan aman komponen aus atau referensi asli. Inspeksi visual awal, pembersihan, dan fotografi komprehensif. Penilaian kerusakan, zona keausan, dan permukaan pengukuran kritis untuk menentukan strategi pengukuran dan skema datum optimal sebelum pengukuran dimulai."
+      },
+      {
+        "step": "02",
+        "title": "Identifikasi Material PMI",
+        "iconName": "Shield",
+        "desc": "Positive Material Identification menggunakan analyzer XRF (fluoresensi sinar-X) di beberapa lokasi untuk mengidentifikasi komposisi paduan yang tepat. Uji kekerasan (Rockwell, Brinell, Vickers) untuk menentukan kondisi perlakuan panas. Grade material dikonfirmasi dan dicocokkan dengan standar terkini terdekat sebelum pengukuran dimulai — tanpa menebak paduan."
+      },
+      {
+        "step": "03",
+        "title": "Pemindaian Laser 3D & Pengukuran CMM",
+        "iconName": "Hexagon",
+        "desc": "Pemindaian 3D lengkap bagian luar komponen menggunakan pemindai laser portabel — akurasi point cloud hingga 0,05 mm. Dimensi internal dan toleransi kritis (bore, keyway, spline, bentuk ulir, pitch, dan lead) diukur pada CMM dengan resolusi 0,001 mm. Skema datum ditetapkan dari permukaan bearing fungsional."
+      },
+      {
+        "step": "04",
+        "title": "Pembuatan Gambar Rekayasa",
+        "iconName": "BookOpen",
+        "desc": "Model CAD dikembangkan dari data pemindaian dan pengukuran CMM. Gambar manufaktur 2D lengkap dihasilkan dengan: semua dimensi linear dan angular, toleransi GD&T (konsentrisitas, silindrisitas, paralelitas, kebulatan, runout), penandaan finishing permukaan (nilai Ra dalam μm), standar bentuk dan kelas ulir, dan kerangka referensi datum lengkap."
+      },
+      {
+        "step": "05",
+        "title": "Spesifikasi Perlakuan Panas & Perlakuan Permukaan",
+        "iconName": "Zap",
+        "desc": "Urutan pemesinan lengkap ditentukan: pelepasan tegangan pra-pemesinan, pemesinan kasar, normalisasi atau pengerasan, tahap pemesinan pra-final dan final. Kondisi perlakuan panas ditentukan dengan suhu (°C), waktu soak, media quench, dan target kekerasan. Spesifikasi perlakuan permukaan: kedalaman nitriding, kekerasan case, karburisasi, atau pelapisan hard chrome sesuai kebutuhan."
+      },
+      {
+        "step": "06",
+        "title": "Pengadaan Material & Manufaktur",
+        "iconName": "Factory",
+        "desc": "Material diadakan sesuai spesifikasi hasil identifikasi PMI dengan sertifikat mill EN 10204 Type 3.1. Pemesinan CNC dilaksanakan melalui setiap tahap yang ditentukan dengan inspeksi dimensional in-process di setiap tahap. Semua data inspeksi dicatat dalam paket data manufaktur."
+      },
+      {
+        "step": "07",
+        "title": "Inspeksi Akhir & Pengiriman",
+        "iconName": "CheckCircle2",
+        "desc": "Laporan inspeksi dimensional lengkap terhadap gambar rekayasa. Verifikasi ulang PMI pada komponen jadi mengonfirmasi paduan yang benar digunakan sepanjang proses. Pengukuran finishing permukaan. Uji kekerasan pada permukaan kritis. Paket dokumentasi ketertelusuran lengkap disediakan dengan setiap komponen."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Pemindai Laser 3D",
+        "detail": "Faro Focus / Creaform HandySCAN — akurasi 0,05 mm",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "CMM — Mesin Pengukur Koordinat",
+        "detail": "Tipe bridge & lengan portabel, resolusi 0,001 mm",
+        "iconName": "Target"
+      },
+      {
+        "name": "Analyzer PMI XRF",
+        "detail": "Olympus Vanta — identifikasi paduan di lokasi",
+        "iconName": "Search"
+      },
+      {
+        "name": "Penguji Kekerasan",
+        "detail": "Rockwell, Brinell, Vickers — verifikasi perlakuan panas",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Profilometer",
+        "detail": "Penguji kekasaran permukaan — resolusi Ra 0,001 μm",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Mesin Bubut Penyalin",
+        "detail": "Digital readout untuk replikasi komponen rotasi",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Perangkat Lunak CAD",
+        "detail": "SolidWorks / AutoCAD — pembuatan gambar GD&T",
+        "iconName": "BookOpen"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 1101",
+        "desc": "Toleransi geometris (GD&T) untuk gambar",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 286",
+        "desc": "Sistem limit dan suaian untuk poros dan bore",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 1302",
+        "desc": "Indikasi tekstur permukaan pada gambar rekayasa",
+        "body": "ISO"
+      },
+      {
+        "code": "EN 10204",
+        "desc": "Sertifikat ketertelusuran material (Type 3.1)",
+        "body": "EN"
+      },
+      {
+        "code": "ASTM E1417",
+        "desc": "Standar pengujian PMI dan NDT",
+        "body": "ASTM"
+      },
+      {
+        "code": "Spesifikasi OEM",
+        "desc": "Dicocokkan dengan material dan maksud toleransi OEM asli",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_4": {
+    "tagline": "Penyeimbangan Kelas ISO — Karena Gaya Rotor Bertumbuh dengan Kuadrat Kecepatan",
+    "accentColor": "#d97706",
+    "keyStats": [
+      {
+        "value": "50–2000kg",
+        "label": "Kapasitas Rotor"
+      },
+      {
+        "value": "G1.0",
+        "label": "Grade Keseimbangan Dapat Dicapai"
+      },
+      {
+        "value": "0.001mm",
+        "label": "Resolusi Dial Gauge"
+      },
+      {
+        "value": "ISO/API",
+        "label": "Standar Bersertifikat"
+      }
+    ],
+    "whyUs": "Rotor pada 3.000 RPM menghasilkan gaya ketidakseimbangan 100× lebih besar dibanding pada 300 RPM. Ketidakseimbangan sisa yang sama yang tak terlihat pada kecepatan lambat akan merusak bearing pada kecepatan penuh. Kami menyeimbangkan hingga ISO 1940 Grade G1.0 bila diperlukan — bukan sekadar 'cukup baik'.",
+    "overview": "Ketidakseimbangan rotor adalah salah satu penyebab paling umum dan paling dapat dicegah dari kegagalan bearing turbin, kerusakan seal, dan pemendekan umur rotor. Keshav Enterprises melakukan pemesinan journal presisi dan penyeimbangan dinamis ISO 1940 / API 670 untuk rotor dari 50 kg hingga 2.000 kg di fasilitas bengkel khusus kami. Rotor pertama-tama dikerjakan untuk memulihkan integritas geometris — journal bulat, labirin konsentris, finishing permukaan yang benar — sebelum penyeimbangan. Urutan ini penting: menyeimbangkan rotor yang secara geometris terdistorsi hanya menutupi masalah. Laporan penyeimbangan kami mendokumentasikan ketidakseimbangan awal, bidang koreksi, koreksi massa, ketidakseimbangan sisa, dan grade keseimbangan ISO yang dicapai, memberikan ketertelusuran penuh untuk catatan perawatan Anda.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Penerimaan Rotor & Pengukuran Awal",
+        "iconName": "Search",
+        "desc": "Rotor diterima dan dibersihkan. Runout mekanis awal diukur menggunakan dial gauge presisi pada semua journal, dudukan kopling, dan labirin pada stand statis presisi. Runout elektrikal diperiksa. Semua diameter diukur dan dicatat terhadap spesifikasi OEM — out-of-round, taper, dan undersizing journal didokumentasikan."
+      },
+      {
+        "step": "02",
+        "title": "Penilaian Kondisi Journal",
+        "iconName": "Activity",
+        "desc": "Finishing permukaan diukur menggunakan profilometer pada 3 posisi di sekeliling setiap keliling journal. Inspeksi visual untuk scoring, transfer babbitt, pitting korosi, dan pola keausan. Kekerasan diperiksa. Pelepasan material minimum dihitung untuk memulihkan geometri dan finishing dalam batas OEM."
+      },
+      {
+        "step": "03",
+        "title": "Grinding & Polishing Journal",
+        "iconName": "Cog",
+        "desc": "Grinding silindris presisi journal pada mesin grinding CNC: kebulatan dipulihkan hingga maks 0,005 mm, taper hingga maks 0,005 mm per 100 mm. Permukaan hasil grinding dipoles hingga Ra 0,4 μm (spesifikasi permukaan bearing OEM) menggunakan mesin bubut polishing presisi. Pelepasan material absolut minimum untuk menjaga umur poros."
+      },
+      {
+        "step": "04",
+        "title": "Pemesinan Bagian Labirin & Gland",
+        "iconName": "Hexagon",
+        "desc": "Pemesinan ulang labirin, area gland, permukaan disk keseimbangan, dan dudukan kopling pada mesin bubut CNC presisi. Semua permukaan diset konsentris terhadap datum journal sebelum pemesinan menggunakan chuck 4-rahang dan zeroing dial gauge — penting untuk menjaga integritas geometris rotor dan menghindari munculnya runout baru."
+      },
+      {
+        "step": "05",
+        "title": "Penyeimbangan Dinamis — Koreksi Dua Bidang",
+        "iconName": "Target",
+        "desc": "Rotor dipasang pada mesin penyeimbang dinamis hard-bearing. Ketidakseimbangan awal diukur secara simultan pada dua bidang koreksi (ujung kopling dan ujung governor/impeller). Massa uji coba diterapkan dan dilepas. Iterasi penyeimbangan diulang hingga ketidakseimbangan sisa pada setiap bidang memenuhi grade ISO 1940 / API 670 yang ditentukan untuk layanan rotor ini."
+      },
+      {
+        "step": "06",
+        "title": "Pemeriksaan Runout Pasca-Keseimbangan",
+        "iconName": "TrendingUp",
+        "desc": "Runout mekanis dan elektrikal diukur ulang pasca-penyeimbangan pada semua posisi journal. Perbandingan terhadap baseline pra-keseimbangan mengonfirmasi peningkatan dari pemesinan dan penyeimbangan. Setiap runout sisa yang melebihi batas OEM diselidiki — jika disebabkan poros bengkok, straightening atau penggantian direkomendasikan."
+      },
+      {
+        "step": "07",
+        "title": "Dokumentasi & Pengiriman",
+        "iconName": "BookOpen",
+        "desc": "Laporan penyeimbangan lengkap diterbitkan: ketidakseimbangan awal (g·mm), lokasi bidang koreksi, massa koreksi yang diterapkan, ketidakseimbangan sisa akhir di setiap bidang, grade keseimbangan yang dicapai (G1.0, G2.5, G6.3), dan semua pengukuran runout. Sertifikat PMI dan hasil uji kekerasan dilampirkan. Rotor dikemas dan dikirim dengan dokumentasi."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Mesin Penyeimbang Hard-Bearing",
+        "detail": "Kapasitas 50–2.000 kg, 100–10.000 RPM",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Mesin Grinding Silindris CNC",
+        "detail": "Sistem dressing presisi, kontrol 0,001 mm",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Mesin Bubut Polishing Presisi",
+        "detail": "Microfinish hingga Ra 0,4 μm permukaan journal",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "Profilometer",
+        "detail": "Kekasaran permukaan — resolusi Ra 0,001 μm",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Dial Gauge Presisi",
+        "detail": "0,001 mm — pengukuran runout dan diameter",
+        "iconName": "Target"
+      },
+      {
+        "name": "Analyzer Penyeimbang Portabel",
+        "detail": "Kapabilitas penyeimbangan lapangan in-situ",
+        "iconName": "Search"
+      },
+      {
+        "name": "Stroboscope Digital",
+        "detail": "Pengukuran sudut fase untuk koreksi penyeimbangan",
+        "iconName": "Zap"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 1940-1",
+        "desc": "Persyaratan kualitas keseimbangan untuk rotor kaku",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 21940",
+        "desc": "Getaran mekanis: kosakata dan prosedur penyeimbangan rotor",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Pemantauan getaran, posisi aksial, dan suhu bearing",
+        "body": "API"
+      },
+      {
+        "code": "API 612",
+        "desc": "Turbin uap tujuan khusus — persyaratan penyeimbangan",
+        "body": "API"
+      },
+      {
+        "code": "ISO 1101",
+        "desc": "Toleransi geometris diterapkan pada gambar pemesinan",
+        "body": "ISO"
+      },
+      {
+        "code": "Spesifikasi OEM",
+        "desc": "Grade keseimbangan Triveni, Siemens, BHEL, Man Turbo, KKK",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_5": {
+    "tagline": "Kelas Kebersihan ISO 4406 16/14/11 — Bersertifikat Sebelum Oli Dimasukkan",
+    "accentColor": "#0284c7",
+    "keyStats": [
+      {
+        "value": "16/14/11",
+        "label": "Kelas Target ISO 4406"
+      },
+      {
+        "value": "6.000 L/min",
+        "label": "Laju Aliran Sistem Maks"
+      },
+      {
+        "value": "3μm",
+        "label": "Rating Filtrasi Akhir"
+      },
+      {
+        "value": "100%",
+        "label": "Hitungan Partikel Bersertifikat Lab"
+      }
+    ],
+    "whyUs": "Turbin baru dan yang baru dioverhaul dirusak oleh debris konstruksi — terak las, kerak pipa, pasir, dan serpihan logam — dalam hitungan jam sejak start-up pertama. Pembersihan oli bukan opsional: ini adalah asuransi paling hemat biaya terhadap kegagalan bearing katastrofik pada overhaul baru.",
+    "overview": "Kontaminasi sistem oli pelumas adalah penyebab utama kegagalan bearing pada turbin baru dan yang baru dioverhaul. Debris konstruksi yang masuk ke sistem oli pelumas selama instalasi atau overhaul dapat merusak bearing dan permukaan journal dalam hitungan jam sejak start-up. Keshav Enterprises melakukan pembersihan oli pelumas profesional menggunakan sistem filter sentrifugal mobile khusus untuk mencapai kelas kebersihan ISO 4406:99 16/14/11 — standar minimum untuk pelumasan bearing turbin uap. Proses kami terdokumentasi lengkap: hasil sampel oli di setiap tahap, catatan peningkatan filter progresif, dan sertifikat hitungan partikel bersertifikat laboratorium akhir disediakan sebelum sistem diserahkan kembali untuk pengisian oli.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Survei Sistem & Rencana Pembersihan",
+        "iconName": "Search",
+        "desc": "Tinjauan P&ID sistem, volume oli, ukuran bore pipa, konfigurasi heat exchanger, dan tata letak rumah bearing. Pengembangan jalur aliran pembersihan menggunakan perhitungan hidraulik untuk mencapai aliran turbulen (bilangan Reynolds di atas 4.000) di setiap bagian pipa. Spool bypass sementara dan flensa buta diidentifikasi dan dirancang sesuai kebutuhan."
+      },
+      {
+        "step": "02",
+        "title": "Instalasi Sirkuit Pembersihan Sementara",
+        "iconName": "Wrench",
+        "desc": "Instalasi perpipaan bypass sementara di sekitar bearing, katup kontrol, instrumentasi, dan peralatan sensitif lainnya yang tidak boleh terkena debris pembersihan. Sambungan unit pembersihan mobile. Instalasi saringan target jaring kawat sementara pada titik kembali pembersihan untuk pemantauan debris."
+      },
+      {
+        "step": "03",
+        "title": "Pembersihan Awal — Laju Aliran Tinggi",
+        "iconName": "Droplets",
+        "desc": "Sistem diisi dengan oli pembersih (atau oli proses jika kompatibel). Pompa pembersihan dioperasikan pada laju aliran maksimum yang dapat dicapai untuk turbulensi maksimum. Suhu oli disiklus termal antara 30°C dan 70°C pada interval 30 menit — siklus termal memberikan tekanan pada dinding pipa dan melepaskan kerak dan debris yang menempel. Saringan target diperiksa dan dibersihkan pada setiap interval."
+      },
+      {
+        "step": "04",
+        "title": "Pemantauan Kontaminasi & Hitungan Partikel",
+        "iconName": "Activity",
+        "desc": "Sampel oli diambil sesuai prosedur ekstraksi sampel bersih ISO 4021 di setiap tahap. Hitungan partikel diukur menggunakan penghitung partikel otomatis sesuai ISO 11500 — melaporkan hitungan pada ≥4μm, ≥6μm, ≥14μm, dan ≥21μm. Hasil diplot pada bagan kemajuan kebersihan terhadap kelas target ISO 4406."
+      },
+      {
+        "step": "05",
+        "title": "Peningkatan Filter Progresif",
+        "iconName": "Layers",
+        "desc": "Seiring kontaminasi kasar dihilangkan, rating mikron elemen filter dikurangi secara progresif melalui tahapan: 25μm → 10μm → 6μm → 3μm absolut. Unit de-watering sentrifugal dioperasikan terus-menerus sepanjang pembersihan untuk menghilangkan air bebas dan teremulsi. Kandungan air Karl Fischer diuji untuk mengonfirmasi efektivitas de-watering."
+      },
+      {
+        "step": "06",
+        "title": "Hitungan Partikel Penerimaan Akhir",
+        "iconName": "CheckCircle2",
+        "desc": "Minimum tiga sampel oli bersih berturut-turut yang diambil pada interval harus semuanya mencapai kelas target ISO 4406 16/14/11. Sampel akhir diserahkan ke laboratorium terakreditasi untuk verifikasi independen. Sertifikat tertulis kebersihan oli — ditandatangani, distempel, dan dapat ditelusuri ke laboratorium — diterbitkan ke klien."
+      },
+      {
+        "step": "07",
+        "title": "Restorasi Sistem & Pengisian Oli",
+        "iconName": "Zap",
+        "desc": "Semua spool bypass sementara dan flensa buta dilepas. Semua bearing, instrumen sensitif, dan peralatan kritis disambungkan kembali. Sistem diisi ulang dengan oli proses baru yang disaring melalui filter 3μm absolut selama pengisian. Hitungan partikel akhir pada oli sistem setelah pengisian mengonfirmasi target dipertahankan. Sistem diserahkan untuk start-up."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Unit Filter Sentrifugal Mobile",
+        "detail": "Hingga laju aliran sistem 6.000 L/min",
+        "iconName": "Droplets"
+      },
+      {
+        "name": "Penghitung Partikel Otomatis",
+        "detail": "Sesuai ISO 11500 — pemantauan real-time online",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Titrator Karl Fischer",
+        "detail": "Pengukuran kandungan air bebas dalam oli pelumas",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Kit Pengambilan Sampel Oli",
+        "detail": "Ekstraksi bersih ISO 4021 dari jalur bertekanan",
+        "iconName": "Search"
+      },
+      {
+        "name": "Pemanas Oli",
+        "detail": "Siklus termal: 30°C hingga 70°C untuk melepas debris",
+        "iconName": "Zap"
+      },
+      {
+        "name": "Set Saringan Target",
+        "detail": "Jaring 25, 10, 3μm untuk pemantauan debris tahap",
+        "iconName": "Filter"
+      },
+      {
+        "name": "Set Spool Bypass",
+        "detail": "Spool bypass dan flensa buta fabrikasi custom",
+        "iconName": "Wrench"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 4406:99",
+        "desc": "Klasifikasi kebersihan fluida hidraulik — target 16/14/11",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 11500",
+        "desc": "Penentuan hitungan partikel menggunakan metode otomatis",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 4021",
+        "desc": "Analisis dan pengambilan sampel kontaminasi fluida hidraulik",
+        "body": "ISO"
+      },
+      {
+        "code": "API 614",
+        "desc": "Sistem pelumasan, penyegelan poros, dan kontrol oli",
+        "body": "API"
+      },
+      {
+        "code": "ASTM D6304",
+        "desc": "Pengukuran kandungan air Karl Fischer dalam oli pelumas",
+        "body": "ASTM"
+      },
+      {
+        "code": "Spesifikasi OEM",
+        "desc": "Persyaratan kebersihan oli pelumas Triveni, Siemens, BHEL, Man Turbo",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_6": {
+    "tagline": "Penyelarasan Presisi Laser — Menghilangkan Penyebab #1 Kegagalan Bearing",
+    "accentColor": "#059669",
+    "keyStats": [
+      {
+        "value": "0.05mm",
+        "label": "Toleransi Penyelarasan Dicapai"
+      },
+      {
+        "value": "50%",
+        "label": "Kegagalan Bearing dari Ketidaksejajaran"
+      },
+      {
+        "value": "80%",
+        "label": "Umur Bearing Hilang pada Offset 0,05mm"
+      },
+      {
+        "value": "Semua Ukuran",
+        "label": "Frame Mesin Tercakup"
+      }
+    ],
+    "whyUs": "Ketidaksejajaran sekecil 0,05 mm pada kopling dapat mengurangi umur bearing hingga 80% dan menghasilkan gaya yang merambat melalui seal, kopling, dan seluruh drivetrain. Penyelarasan laser hanya butuh beberapa jam — kegagalan bearing butuh berminggu-minggu dan biaya jauh lebih besar. Kami menyelaraskan dalam kondisi panas, bukan hanya dingin.",
+    "overview": "Ketidaksejajaran poros bertanggung jawab atas hingga 50% dari semua kegagalan bearing peralatan berputar di industri India. Bahkan ketidaksejajaran yang tak terlihat mata telanjang menghasilkan gaya siklik besar pada bearing, seal, dan kopling pada kecepatan operasi. Keshav Enterprises melakukan penyelarasan poros laser presisi menggunakan sistem Pruftechnik dan SKF untuk turbin, gearbox, pompa, kipas, alternator, dan generator induksi dari ukuran frame apa pun. Yang krusial, kami menghitung dan menerapkan offset penyelarasan panas — penyelarasan dingin sengaja diset untuk memperhitungkan pertumbuhan termal, sehingga mesin berjalan lurus pada suhu operasi. Laporan penyelarasan kami menampilkan pembacaan sebelum/sesudah, riwayat shim, dan nilai akhir terhadap toleransi OEM.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Pemeriksaan Pra-Penyelarasan",
+        "iconName": "Search",
+        "desc": "Verifikasi kondisi soft foot (distorsi frame mesin saat baut dikencangkan) menggunakan dial gauge presisi pada semua kaki — 0,05 mm atau kurang diperlukan sebelum penyelarasan dilanjutkan. Pengukuran regangan pipa untuk mengidentifikasi gaya yang dibebankan pada nozzle mesin oleh perpipaan yang terhubung. Pemeriksaan celah bearing dan perhitungan pertumbuhan termal dari data OEM atau pengukuran lokasi."
+      },
+      {
+        "step": "02",
+        "title": "Penyetelan Sistem Penyelarasan Laser",
+        "iconName": "Target",
+        "desc": "Pemasangan kepala transmitter dan receiver laser pada poros menggunakan bracket magnetik presisi. Sistem di-zero dan toleransi rotasi poros diverifikasi. Semua dimensi relevan dimasukkan ke perangkat lunak penyelarasan: diameter kopling, jarak poros hub-ke-hub, dan jarak pengukuran. Kompensasi lendutan bracket diverifikasi dan diterapkan."
+      },
+      {
+        "step": "03",
+        "title": "Pengukuran Ketidaksejajaran Awal",
+        "iconName": "Activity",
+        "desc": "Poros diputar melalui busur pengukuran (tiga posisi: 12, 3, dan 9 jam). Perangkat lunak menghitung ketidaksejajaran aktual: ketidaksejajaran angular (mrad) dan offset (mm) pada permukaan kopling, dan koreksi yang diperlukan pada setiap kaki mesin dalam bidang vertikal dan horizontal secara simultan."
+      },
+      {
+        "step": "04",
+        "title": "Koreksi Shim & Jackscrew",
+        "iconName": "Layers",
+        "desc": "Koreksi shim yang dihitung diterapkan pada kaki mesin stasioner. Shim presisi baja tahan karat dipasang atau dilepas dalam konfigurasi yang benar untuk mengoreksi ketidaksejajaran vertikal. Koreksi horizontal dilakukan menggunakan jackscrew penyelarasan pada kaki mesin dengan laser tetap aktif untuk umpan balik real-time selama koreksi."
+      },
+      {
+        "step": "05",
+        "title": "Kompensasi Penyelarasan Panas",
+        "iconName": "Zap",
+        "desc": "Pertumbuhan termal casing mesin dari suhu dingin ke operasi dihitung dari data pertumbuhan termal OEM atau diukur menggunakan pemantauan DBSE (jarak antara ujung poros) dan pencitraan termal. Target penyelarasan dingin sengaja di-offset sehingga mesin mencapai penyelarasan running panas yang benar pada beban dan suhu penuh."
+      },
+      {
+        "step": "06",
+        "title": "Pengukuran Akhir & Verifikasi Toleransi",
+        "iconName": "CheckCircle2",
+        "desc": "Pengukuran laser akhir mengonfirmasi penyelarasan dalam toleransi OEM — biasanya: ketidaksejajaran angular maks 0,05 mrad, offset maks 0,05 mm pada kopling. Semua empat kaki diperiksa ulang untuk soft foot 0,05 mm atau kurang. Baut kopling ditorsi sesuai spesifikasi OEM menggunakan kunci torsi digital terkalibrasi."
+      },
+      {
+        "step": "07",
+        "title": "Laporan Penyelarasan & Torsi Baut",
+        "iconName": "BookOpen",
+        "desc": "Laporan penyelarasan rinci dihasilkan oleh perangkat lunak sistem laser: pembacaan pra-penyelarasan, perubahan shim di setiap kaki, vektor koreksi yang diterapkan, dan nilai akhir yang dicapai terhadap toleransi OEM. Torsi baut fondasi dicatat. Laporan ditandatangani dan diterbitkan — menjadi bagian dari baseline catatan perawatan untuk penyelarasan masa depan."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Pruftechnik Rotalign Pro",
+        "detail": "Seri OPTALIGN — penyelarasan laser nirkabel",
+        "iconName": "Target"
+      },
+      {
+        "name": "SKF TKSA 71",
+        "detail": "Penyelarasan laser nirkabel dengan pelaporan berbasis aplikasi",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Dial Gauge Presisi",
+        "detail": "Pengukuran soft foot — resolusi 0,001 mm",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Set Shim Presisi SS",
+        "detail": "0,025 hingga 3,0 mm dengan kelipatan 0,025 mm",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Kunci Torsi Digital",
+        "detail": "Penorsian baut kopling dan fondasi",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Analyzer Getaran",
+        "detail": "Perbandingan getaran pra dan pasca penyelarasan",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Kamera Pencitraan Termal",
+        "detail": "Survei suhu bearing dan kopling panas",
+        "iconName": "Zap"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 10816-3 / 20816-3",
+        "desc": "Evaluasi keparahan getaran untuk mesin >15 kW",
+        "body": "ISO"
+      },
+      {
+        "code": "API 686",
+        "desc": "Praktik yang direkomendasikan untuk instalasi dan penyelarasan mesin",
+        "body": "API"
+      },
+      {
+        "code": "ASME B31.3",
+        "desc": "Batas beban nozzle perpipaan proses pada sambungan mesin",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 1940",
+        "desc": "Batas ketidakseimbangan sisa pasca koreksi penyelarasan",
+        "body": "ISO"
+      },
+      {
+        "code": "API 612",
+        "desc": "Turbin uap tujuan khusus — persyaratan penyelarasan",
+        "body": "API"
+      },
+      {
+        "code": "Toleransi OEM",
+        "desc": "Spesifikasi penyelarasan Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_7": {
+    "tagline": "Akar Masalah Ditemukan. Tindakan Korektif Diterapkan. Turbin Kembali Online.",
+    "accentColor": "#dc2626",
+    "keyStats": [
+      {
+        "value": "24×7",
+        "label": "Penempatan Darurat"
+      },
+      {
+        "value": "10+",
+        "label": "Merek OEM Didiagnosis"
+      },
+      {
+        "value": "FFT+Termal",
+        "label": "Metode Diagnostik Ganda"
+      },
+      {
+        "value": "48jam",
+        "label": "Pemantauan Tren Pasca-Perbaikan"
+      }
+    ],
+    "whyUs": "Kesalahan yang salah didiagnosis dan diperbaiki tanpa menemukan akar masalahnya akan gagal lagi — sering kali lebih cepat dari yang pertama. Kami tidak menebak. Kami mengukur, menganalisis spektrum, membongkar hanya apa yang diminta data, mengonfirmasi akar masalah secara fisik, dan memperbaikinya dengan tim yang sama yang menemukannya.",
+    "overview": "Trip turbin tak terencana dan degradasi kinerja yang tak terjelaskan menelan biaya jutaan bagi pabrik industri dalam produksi yang hilang setiap tahun. Keshav Enterprises menerjunkan insinyur troubleshooting eks-OEM dengan instrumentasi diagnostik lengkap untuk mengidentifikasi, mendokumentasikan, dan memperbaiki akar masalah tepat dari kesalahan turbin uap apa pun — dari getaran tinggi dan kegagalan bearing hingga ketidakstabilan governor, kontaminasi oli, dan kebocoran uap. Kami mencakup semua merek turbin dari 5 kW hingga 60 MW di seluruh spektrum industri proses dan tenaga India. Metodologi kami sistematis: pengukuran online terlebih dahulu, inspeksi fisik yang ditargetkan oleh data, akar masalah dikonfirmasi secara tertulis, dan tindakan korektif dilaksanakan oleh tim yang sama yang mendiagnosis kesalahan.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Mobilisasi Darurat & Pengumpulan Data Lokasi",
+        "iconName": "Zap",
+        "desc": "Penempatan respons 24×7 ke lokasi dengan kit diagnostik lengkap. Pengumpulan semua data operasional yang tersedia: riwayat getaran, log trip DCS, laporan analisis oli, tren suhu bearing, log kondisi uap, dan catatan perawatan. Wawancara personel operasi dan perawatan yang menyaksikan peristiwa kesalahan."
+      },
+      {
+        "step": "02",
+        "title": "Pengukuran Getaran & Kinerja Baseline",
+        "iconName": "Activity",
+        "desc": "Pengukuran getaran online pada semua rumah bearing: level getaran keseluruhan (mm/s RMS), analisis spektrum FFT real-time, amplitudo dan sudut fase 1X dan 2X, komponen sub-sinkron dan frekuensi tinggi. Tekanan, suhu, dan aliran inlet/exhaust uap dibandingkan dengan duty desain. Suhu bearing dipetakan menggunakan kamera pencitraan termal."
+      },
+      {
+        "step": "03",
+        "title": "Identifikasi Signature Kesalahan & Hipotesis",
+        "iconName": "Search",
+        "desc": "Analisis spektrum getaran, data fase, peta suhu bearing, dan hasil sampel oli untuk membangun signature kesalahan. Setiap kemungkinan akar masalah dipetakan secara sistematis terhadap bukti terukur: ketidakseimbangan (1X dominan), ketidaksejajaran (2X dominan), keausan bearing (frekuensi sub-sinkron atau cacat bearing), rub (sub-harmonik, 1X tinggi), kelonggaran (harmonik ganda), atau fouling jalur uap (thermal bow)."
+      },
+      {
+        "step": "04",
+        "title": "Strip-Down Terarah & Inspeksi Fisik",
+        "iconName": "Wrench",
+        "desc": "Pembongkaran minim-invasif yang menargetkan hanya zona kesalahan yang dicurigai — bukan strip penuh kecuali data mengharuskan. Pengukuran fisik celah bearing, runout poros, penyelarasan kopling, celah seal gland, dan dudukan seal labirin dibandingkan terhadap spesifikasi OEM. Semua temuan difoto dan didokumentasikan secara dimensional."
+      },
+      {
+        "step": "05",
+        "title": "Konfirmasi Akar Masalah & Laporan RCA Tertulis",
+        "iconName": "BookOpen",
+        "desc": "Laporan analisis akar masalah (RCA) formal yang menggabungkan data on-machine, pengukuran strip-down, dan perbandingan spesifikasi OEM. Akar masalah diklasifikasikan dan dikonfirmasi secara tertulis. Faktor kontribusi diidentifikasi. Rencana tindakan korektif dengan peringkat prioritas, suku cadang yang diperlukan, estimasi downtime, dan tindakan pencegahan yang direkomendasikan diterbitkan ke klien sebelum pekerjaan dimulai."
+      },
+      {
+        "step": "06",
+        "title": "Pelaksanaan Tindakan Korektif",
+        "iconName": "Cog",
+        "desc": "Pelaksanaan langsung tindakan korektif oleh tim troubleshooting yang sama: penyeimbangan ulang rotor, penggantian bearing dan penyetelan celah, koreksi penyelarasan laser, penggantian seal gland dan packing labirin, pembersihan sistem oli pelumas hingga ISO 4406, overhaul dan kalibrasi governor, atau kalibrasi sistem kontrol. Semua pekerjaan korektif didokumentasikan terhadap spesifikasi OEM."
+      },
+      {
+        "step": "07",
+        "title": "Komisioning Pasca-Perbaikan & Pemantauan Tren 48 Jam",
+        "iconName": "TrendingUp",
+        "desc": "Restart terpantau dengan pencatatan data getaran dan suhu bearing kontinu selama run-up kecepatan. Level getaran pasca-perbaikan dibandingkan terhadap baseline pra-kesalahan dan batas penerimaan OEM (ISO 10816-3). Pemantauan tren kontinu 48 jam pada beban penuh sebelum laporan izin tertulis diterbitkan dan turbin dikembalikan ke operasi tanpa pengawasan."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Analyzer Getaran Multi-Kanal",
+        "detail": "FFT real-time — kelas CSI 2140 / SKF Microlog",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Probe Proximity",
+        "detail": "Getaran poros eddy current — standar API 670",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Kamera Pencitraan Termal",
+        "detail": "FLIR / Testo — survei termal bearing dan jalur uap",
+        "iconName": "Zap"
+      },
+      {
+        "name": "Stroboscope + Referensi Fase",
+        "detail": "Pengukuran amplitudo dan sudut fase 1X",
+        "iconName": "Search"
+      },
+      {
+        "name": "Penghitung Partikel Oli Portabel",
+        "detail": "ISO 11500 — kontaminasi oli pelumas di lokasi",
+        "iconName": "Droplets"
+      },
+      {
+        "name": "Borescope",
+        "detail": "Kaku & fleksibel — inspeksi bilah tanpa strip penuh",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "Analyzer PMI XRF",
+        "detail": "Identifikasi paduan komponen yang gagal",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Sistem Penyelarasan Poros Laser",
+        "detail": "Konfirmasi penyelarasan kopling dan bearing",
+        "iconName": "Target"
+      },
+      {
+        "name": "Titrator Karl Fischer",
+        "detail": "Kandungan air bebas dalam oli pelumas — pemeriksaan kontaminasi",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Peralatan Kalibrasi Governor",
+        "detail": "Instrumen referensi kecepatan dan sistem kontrol",
+        "iconName": "Cog"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 10816-3 / 20816-3",
+        "desc": "Batas keparahan getaran untuk mesin industri >15 kW",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Perlindungan mesin: getaran, posisi aksial, suhu",
+        "body": "API"
+      },
+      {
+        "code": "API 612",
+        "desc": "Turbin uap tujuan khusus untuk layanan minyak bumi dan kimia",
+        "body": "API"
+      },
+      {
+        "code": "ISO 4406:99",
+        "desc": "Klasifikasi kebersihan oli pelumas",
+        "body": "ISO"
+      },
+      {
+        "code": "ASME PTC 6",
+        "desc": "Kode uji kinerja turbin uap untuk benchmark efisiensi",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 14224",
+        "desc": "Pengumpulan data keandalan dan perawatan untuk peralatan",
+        "body": "ISO"
+      },
+      {
+        "code": "Manual OEM",
+        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB",
+        "body": "OEM"
+      }
+    ],
+    "faultMatrix": [
+      {
+        "symptom": "Getaran tinggi — 1X dominan",
+        "causes": [
+          "Ketidakseimbangan rotor (sisa atau akibat deposit)",
+          "Rotor bow (termal atau mekanis)",
+          "Celah bearing berlebihan"
+        ],
+        "action": "Penyeimbangan dinamis, inspeksi rotor, penggantian bearing"
+      },
+      {
+        "symptom": "Getaran tinggi — 2X dominan",
+        "causes": [
+          "Ketidaksejajaran poros (angular atau offset)",
+          "Kesalahan kopling",
+          "Distorsi casing / regangan pipa"
+        ],
+        "action": "Penyelarasan laser, inspeksi kopling, pengukuran regangan pipa"
+      },
+      {
+        "symptom": "Getaran sub-sinkron",
+        "causes": [
+          "Oil whirl / oil whip pada bearing journal",
+          "Ketidakstabilan akibat rub",
+          "Pemasangan bearing longgar"
+        ],
+        "action": "Reset celah bearing, pemeriksaan tekanan/viskositas oli pelumas, inspeksi celah rub"
+      },
+      {
+        "symptom": "Getaran frekuensi tinggi (>3X)",
+        "causes": [
+          "Fouling atau erosi bilah",
+          "Kelonggaran pada fondasi atau tutup bearing",
+          "Kesalahan gear mesh (gearbox)"
+        ],
+        "action": "Inspeksi bilah (borescope), pemeriksaan torsi tutup bearing, inspeksi gearbox"
+      },
+      {
+        "symptom": "Kontaminasi oli bearing / air dalam oli",
+        "causes": [
+          "Keausan seal gland cincin karbon",
+          "Tekanan uap gland terlalu tinggi",
+          "Masuknya kondensat melalui exhaust"
+        ],
+        "action": "Penggantian cincin karbon, reset tekanan uap gland, pembersihan sistem oli pelumas"
+      },
+      {
+        "symptom": "Kebocoran gland uap",
+        "causes": [
+          "Keausan seal labirin (celah berlebihan)",
+          "Packing gland aus atau rusak",
+          "Tekanan uap gland disetel salah"
+        ],
+        "action": "Penggantian seal labirin, penggantian packing gland, kalibrasi kontroler uap gland"
+      },
+      {
+        "symptom": "Governor hunting / ketidakstabilan kecepatan",
+        "causes": [
+          "Keausan atau sticktion linkage governor",
+          "Oli kotor / sludge dalam governor PG-PL",
+          "Kesalahan setelan needle valve kompensasi"
+        ],
+        "action": "Overhaul linkage governor, pembersihan dan pengisian ulang oli governor, kalibrasi ulang needle valve"
+      },
+      {
+        "symptom": "Trip tekanan oli pelumas rendah",
+        "causes": [
+          "Keausan pompa oli",
+          "Fouling oil cooler / suhu oli tinggi",
+          "Katup relief tekanan macet terbuka",
+          "Level oli rendah atau kavitasi"
+        ],
+        "action": "Inspeksi pompa oli, pembersihan cooler, inspeksi PRV, pemeriksaan level oli dan sistem"
+      },
+      {
+        "symptom": "Trip overspeed — palsu atau aktual",
+        "causes": [
+          "Keausan trip pin atau setelan salah",
+          "Katup governor melewatkan uap",
+          "Kesalahan aktuator atau oli kontrol"
+        ],
+        "action": "Inspeksi dan penyetelan ulang trip pin, inspeksi dudukan katup governor, pemeriksaan sistem kontrol"
+      },
+      {
+        "symptom": "Kehilangan output daya / efisiensi",
+        "causes": [
+          "Fouling bilah (kemurnian uap / kontaminasi air attemperating)",
+          "Keausan strip seal (peningkatan bypass uap)",
+          "Erosi atau penyumbatan nozzle"
+        ],
+        "action": "Inspeksi borescope, penggantian strip seal, inspeksi dan pembersihan nozzle"
+      }
+    ]
+  }
+}

@@ -1,0 +1,581 @@
+{
+  "post_1": {
+    "id": "post_1",
+    "slug": "steam-turbine-overhauling-checklist",
+    "title": "Die vollständige Checkliste zur Dampfturbinenüberholung für Anlagentechniker",
+    "excerpt": "Eine praktische, schrittweise Checkliste für Planung vor dem Stillstand, Inspektionsprotokolle, Spielmaß-Dokumentation und Inbetriebnahme nach der Überholung für Dampfturbinen bis 60 MW.",
+    "date": "2026-03-15",
+    "author": "Engineering-Team von Keshav Enterprises",
+    "readTime": "8 Min. Lesezeit",
+    "tags": [
+      "Überholung",
+      "Dampfturbinen",
+      "Wartung"
+    ],
+    "coverImage": "blog-turbine-overhaul.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Warum eine strukturierte Checkliste wichtig ist"
+      },
+      {
+        "type": "p",
+        "text": "Ungeplante Turbinenstillstände kosten indische Kraft- und Zuckerwerke Lakhs von Rupien pro Stunde. Eine strukturierte Überholungs-Checkliste stellt sicher, dass während geplanter Wartungsfenster nichts übersehen wird — sie senkt das Risiko eines frühen Ausfalls nach der Wiederinbetriebnahme und vermeidet kostspielige wiederholte Stillstände."
+      },
+      {
+        "type": "h2",
+        "text": "1. Planung vor dem Stillstand (4–6 Wochen vorher)"
+      },
+      {
+        "type": "p",
+        "text": "Beginnen Sie mit einem detaillierten Arbeitsumfang für alle rotierenden Anlagen des Stranges. Prüfen Sie alle Lagerersatzteile und erstellen Sie einen Fehlmengenbericht. Bestellen Sie kritische Teile — Lager, Dichtungen, Labyrinthpackungen, Kohleringe — mit ausreichender Vorlaufzeit. Beschaffen Sie Spezialwerkzeuge: Ausrichtungslaser, Schwingungsanalysator, Messuhren und Fühlerlehren."
+      },
+      {
+        "type": "list",
+        "items": [
+          "OEM-Spielmaßdaten für alle Turbinenstufen bestätigen",
+          "Schmierölspülgerät bereitstellen (mobile Zentrifugen-Filtereinheit)",
+          "Bei Bedarf für größere Überholung Ex-OEM-Ingenieure buchen",
+          "Basiswerte für Zustandsüberwachung vorbereiten (Vibration, Temperatur, Druck)"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "2. Stillstand & Isolierung"
+      },
+      {
+        "type": "p",
+        "text": "Befolgen Sie das vom OEM vorgegebene Abschaltverfahren. Lassen Sie ausreichend Abkühlzeit vor dem Öffnen von Flanschen. Sperren und kennzeichnen Sie alle Energiequellen einschließlich Dampf, Schmieröl, Kondensat und Steuerluft. Entleeren Sie das Schmierölsystem vollständig vor der Demontage."
+      },
+      {
+        "type": "h2",
+        "text": "3. Demontage & Inspektion"
+      },
+      {
+        "type": "p",
+        "text": "Dokumentieren Sie alle Spielmaße, Spalte und Passungen vor dem Ausbau von Komponenten — sie sind für den Vergleich mit der OEM-Spezifikation und zur Erkennung von Verschleißtrends unerlässlich. Fotografieren Sie jede Stufe. Messen Sie den Rotor-Rundlauf an Wellenzapfen, Druckkragen und Kupplungsflächen."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Lagerspiele (radial und axial)",
+          "Diametrale Spielmaße der Labyrinthdichtung",
+          "Versatz und Winkeligkeit der Kupplungsausrichtung",
+          "Zustand der Kohleringfläche und Federspannung",
+          "Zustand von Düse und Leitrad sowie Halsabmessungen",
+          "Zustand von Sitz und Scheibe des Schnellschlussventils"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "4. Werkstattreparaturen & Austausch"
+      },
+      {
+        "type": "p",
+        "text": "Senden Sie den Rotor zum Wellenzapfenschleifen und dynamischen Auswuchten, falls Rundlauf- oder Vibrationswerte außerhalb der Toleranz lagen. Ersetzen Sie Kohle- und Graphit-Stopfbuchsringe, Labyrinthpackungen und Weißmetalllager gemäß Zustandsbericht. Jedes Rotorauswuchten sollte nach ISO-1940- oder API-670-Normen erfolgen."
+      },
+      {
+        "type": "h2",
+        "text": "5. Zusammenbau & Ausrichtung"
+      },
+      {
+        "type": "p",
+        "text": "Bauen Sie in umgekehrter Reihenfolge mit neuen Dichtungen und Anzugsmomenten nach OEM-Vorgaben wieder zusammen. Führen Sie die abschließende Rotorausrichtung mit Laserausrichtungsgerät durch — Turbine zu Getriebe und Getriebe zu Generator. Dokumentieren Sie alle Spielmaße nach dem Zusammenbau und bestätigen Sie, dass sie innerhalb der OEM-Toleranz liegen."
+      },
+      {
+        "type": "h2",
+        "text": "6. Schmierölspülung"
+      },
+      {
+        "type": "p",
+        "text": "Spülen Sie vor der Inbetriebnahme das Schmierölsystem mit einem mobilen Zentrifugen-Filtersystem auf ISO-4406:99-Sauberkeitsklasse 16/14/11 oder besser. Entnehmen Sie Ölproben vor und nach der Spülung und bewahren Sie die Berichte auf. Nehmen Sie eine Turbine nie ohne abgeschlossene Ölspülung in Betrieb — Lagerausfälle durch verunreinigtes Öl machen einen erheblichen Teil der Ausfälle nach der Überholung aus."
+      },
+      {
+        "type": "h2",
+        "text": "7. Inbetriebnahme & Erstlauf"
+      },
+      {
+        "type": "p",
+        "text": "Befolgen Sie das OEM-Verfahren vor der Inbetriebnahme Schritt für Schritt. Überwachen Sie während des ersten Hochlaufs kontinuierlich Vibration, Lagertemperaturen und Schmieröldruck. Bestätigen Sie die Funktion von Schnellschlussventil und Regler. Feinjustieren Sie die Ausrichtung bei erhöhten Vibrationswerten. Dokumentieren Sie alle Inbetriebnahmewerte für die Wartungsakte der Anlage."
+      },
+      {
+        "type": "cta",
+        "text": "Benötigen Sie erfahrene Überholungsingenieure für Ihren nächsten geplanten Stillstand? Unser Ex-OEM-Team deckt Triveni, Siemens, BHEL, Belliss & Morcom und mehr ab."
+      }
+    ]
+  },
+  "post_2": {
+    "id": "post_2",
+    "slug": "lube-oil-contamination-turbine-bearings",
+    "title": "Wie Schmierölverunreinigung Turbinenlager zerstört — und wie man es verhindert",
+    "excerpt": "Wassereintritt, Feststoffpartikel und Oxidation sind die drei Hauptursachen für vorzeitigen Ausfall von Turbinenlagern. So erkennen Sie jede Verunreinigungsart und welche Filtrationsprodukte Schäden verhindern.",
+    "date": "2026-02-28",
+    "author": "Engineering-Team von Keshav Enterprises",
+    "readTime": "6 Min. Lesezeit",
+    "tags": [
+      "Schmieröl",
+      "Lager",
+      "Filtration",
+      "Vorbeugende Wartung"
+    ],
+    "coverImage": "blog-lube-oil.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Der verborgene Lagerkiller"
+      },
+      {
+        "type": "p",
+        "text": "Turbinen-Weißmetalllager sind Präzisionsbauteile, die auf einem hydrodynamischen Ölfilm von nur wenigen Mikron Dicke arbeiten. Jede Verunreinigung des Schmierölsystems — Feststoffpartikel, Wasser oder abgebautes Öl — zerstört diesen Film und führt zu direktem Metallkontakt und beschleunigtem Verschleiß. Studien zeigen, dass über 70 % der Turbinenlagerausfälle schmierungsbedingt sind."
+      },
+      {
+        "type": "h2",
+        "text": "Verunreinigungsart 1: Feststoffpartikel"
+      },
+      {
+        "type": "p",
+        "text": "Partikel über 10 Mikron können Lageroberflächen zerkratzen. Partikel im Bereich von 1–10 Mikron sind am schädlichsten — sie gelangen in den Ölfilmspalt und verursachen Drei-Körper-Abrieb. Quellen sind Rückstände nach dem Bau, Verschleißpartikel von Zahnrädern und über Tankentlüfter eindringender Schmutz."
+      },
+      {
+        "type": "p",
+        "text": "Lösung: Installieren Sie hocheffiziente Schmierölfilterelemente (ISO 16889, Beta-Verhältnis ≥200 bei 10 Mikron) im Hauptfiltergehäuse. Verwenden Sie Tankentlüfter-Filterelemente (3-VL-Glasfaser), um das Eindringen von Luftpartikeln zu verhindern. Sauberkeitsziel des Systems: ISO 4406:99 Klasse 16/14/11 oder besser für Turbinenlager."
+      },
+      {
+        "type": "h2",
+        "text": "Verunreinigungsart 2: Wassereintritt"
+      },
+      {
+        "type": "p",
+        "text": "Wasser im Schmieröl verursacht Wasserstoffversprödung des Weißmetalls, fördert Oxidation und unterstützt bakterielles Wachstum. Bereits 200 ppm freies Wasser verringern die Ölfilmfestigkeit erheblich. Quellen sind Dampfstopfbuchsleckagen, Kondensation im Tank und Kühlerrohrausfälle."
+      },
+      {
+        "type": "p",
+        "text": "Lösung: Installieren Sie WaterSorp-Offline-Filterelemente in der Nebenstrom-Rücklaufleitung. Diese Doppelfunktionselemente entfernen gleichzeitig Feststoffpartikel und absorbieren freies und emulgiertes Wasser. Regelmäßige Ölprobenahme (monatlich) nach ISO-Normen erkennt Wasser frühzeitig."
+      },
+      {
+        "type": "h2",
+        "text": "Verunreinigungsart 3: Öloxidation & -abbau"
+      },
+      {
+        "type": "p",
+        "text": "Hohe Betriebstemperaturen und das Vorhandensein von Metallkatalysatoren führen zur Oxidation des Turbinenöls, wobei sich Lackablagerungen und säurehaltige Nebenprodukte bilden. Diese Ablagerungen verstopfen Filterelemente, haften an Lageroberflächen und beschleunigen den Verschleiß."
+      },
+      {
+        "type": "p",
+        "text": "Lösung: Überwachen Sie Säurezahl (AN) und Viskositätstrends. Die WaterSorp-Offline-Filtration verlängert die Öllebensdauer, indem sie Wasser und Partikel entfernt, die Oxidation katalysieren. Planen Sie Ölwechsel, bevor die Säurezahl die OEM-Grenzwerte überschreitet."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Filterdifferenzdruck wöchentlich prüfen — Element bei 3,5–4 bar ΔP wechseln",
+          "Tankentlüfterfilter monatlich inspizieren",
+          "Ölprobenahme alle 30 Tage durchführen und Ergebnisse verfolgen",
+          "Bei festgestellter Wasserverunreinigung WaterSorp-Elemente installieren",
+          "System nach größeren Reparaturen mit mobilem Zentrifugenfilter spülen"
+        ]
+      },
+      {
+        "type": "cta",
+        "text": "Wir liefern ISO-16889-konforme Schmierölfilterelemente, kompatibel mit Triveni, Siemens, BHEL und allen wichtigen Turbinenfabrikaten. Fordern Sie ein Angebot per WhatsApp an."
+      }
+    ]
+  },
+  "post_3": {
+    "id": "post_3",
+    "slug": "reverse-engineering-turbine-spares-india",
+    "title": "Reverse Engineering von Turbinenersatzteilen: Wie wir ausgelaufene Komponenten in Indien nachbilden",
+    "excerpt": "Wenn OEM-Ersatzteile nicht verfügbar sind, 18 Monate Lieferzeit haben oder unerschwinglich teuer sind, bietet Reverse Engineering eine zuverlässige Alternative. Hier ist der schrittweise Prozess, den wir bei Keshav Enterprises anwenden.",
+    "date": "2026-01-20",
+    "author": "Engineering-Team von Keshav Enterprises",
+    "readTime": "7 Min. Lesezeit",
+    "tags": [
+      "Reverse Engineering",
+      "Turbinenersatzteile",
+      "Fertigung",
+      "3D-Scanning"
+    ],
+    "coverImage": "blog-reverse-engineering.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Warum Turbinenteile per Reverse Engineering nachbilden?"
+      },
+      {
+        "type": "p",
+        "text": "Viele indische Industrieanlagen betreiben 20–40 Jahre alte Turbinen. Originalgerätehersteller haben bestimmte Modelle eingestellt, sich mit anderen Unternehmen zusammengeschlossen oder einfach aufgehört, Ersatzteile für ältere Maschinen vorzuhalten. Lieferzeiten für bearbeitete Komponenten von ausländischen OEMs überschreiten routinemäßig 12–18 Monate — inakzeptabel, wenn eine Zuckerfabrik eine feste Erntesaison hat oder ein Kraftwerk eine Vertragsstrafe für jeden Tag Stillstand zahlt."
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 1: Bauteilbeschaffung & Erstbewertung"
+      },
+      {
+        "type": "p",
+        "text": "Wir beginnen mit dem verschlissenen oder defekten Bauteil selbst — oder dem Gegenstück, falls das Original nicht mehr messbar ist. Das Bauteil wird gereinigt und visuell beurteilt, um festzustellen, welche Flächen noch messbar sind und welche durch Verschleiß oder Beschädigung degradiert wurden."
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 2: 3D-Laserscanning & KMG-Messung"
+      },
+      {
+        "type": "p",
+        "text": "Für komplexe Profile — Rotorschaufeln, Düsenblöcke, Leitbleche, Reglerkomponenten — verwenden wir einen 3D-Laserscanner, um die vollständige Geometrie als Punktwolke zu erfassen. Für einfachere, rotationssymmetrische Teile — Wellenzapfen-Lagergehäuse, Labyrinthringnuten, Dichtringe — erfasst eine Koordinatenmessmaschine (KMG) kritische Abmessungen mit Mikron-Genauigkeit."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Alle kritischen Abmessungen mit Toleranzen erfasst",
+          "Rundlauf und Parallelität der Passflächen geprüft",
+          "Gewindeformen, Passfedernuttiefen und Presspassungen gemessen",
+          "Oberflächengütevorgaben notiert, soweit messbar"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 3: PMI-Materialprüfung"
+      },
+      {
+        "type": "p",
+        "text": "Die Positive Materialidentifikation (PMI) mittels tragbarer Röntgenfluoreszenzanalyse (RFA) oder optischer Emissionsspektrometrie bestimmt die genaue Legierungszusammensetzung des Originalbauteils. Dies ist entscheidend — eine Rotorwelle aus 12%-Cr-Stahl verhält sich völlig anders als eine 1%-Cr-Mo-Welle. Ein falsch bestimmtes Material führt dazu, dass das per Reverse Engineering hergestellte Teil vorzeitig versagt."
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 4: Erstellung der Konstruktionszeichnung"
+      },
+      {
+        "type": "p",
+        "text": "Aus den Scandaten, KMG-Messungen und Materialprüfergebnissen erstellen unsere Ingenieure eine vollständige Fertigungszeichnung. Diese umfasst alle Abmessungen mit Toleranzen, Oberflächengütevorgaben, Vor- und Nachwärmebehandlungsverfahren, Werkstoffspezifikation und Prüfanforderungen."
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 5: Bearbeitung & Qualitätskontrolle"
+      },
+      {
+        "type": "p",
+        "text": "Die Bearbeitung erfolgt in drei Stufen: Schruppbearbeitung nahe an die Endabmessungen, bei Bedarf Wärmebehandlung (Spannungsarmglühen, Vergüten, Nitrieren) sowie abschließende Präzisionsbearbeitung. Jede Stufe wird gegen die Konstruktionszeichnung geprüft. Rotoren werden vor dem Versand nach ISO-1940- / API-670-Normen dynamisch ausgewuchtet."
+      },
+      {
+        "type": "h2",
+        "text": "Turbinen, die wir abdecken"
+      },
+      {
+        "type": "p",
+        "text": "Wir haben Komponenten für Dampfturbinen von 5 kW bis 60 MW aller wichtigen Fabrikate per Reverse Engineering nachgebildet: Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, Chola Turbo, DLF-Skoda, KKK und ABB. Sowohl Gegendruck- als auch Kondensationsturbinen, horizontal und vertikal, ein- und mehrstufig."
+      },
+      {
+        "type": "cta",
+        "text": "Haben Sie ein ausgelaufenes Ersatzteil, das per Reverse Engineering nachgebildet werden muss? Senden Sie uns ein Foto und Ihre Turbinendaten per WhatsApp — wir prüfen die Machbarkeit innerhalb von 24 Stunden."
+      }
+    ]
+  },
+  "post_4": {
+    "id": "post_4",
+    "slug": "belliss-morcom-turbine-common-faults-india",
+    "title": "Häufige Störungen bei Belliss & Morcom-Turbinen — Praxisleitfaden für indische Anlagen",
+    "excerpt": "Belliss-&-Morcom-Dampfturbinen sind in indischen Zuckerfabriken und Kraft-Wärme-Kopplungsanlagen weit verbreitet. Hier sind die häufigsten Störungen, auf die unsere Ex-OEM-Ingenieure stoßen, sowie deren Diagnose und Behebung.",
+    "date": "2026-03-18",
+    "author": "Engineering-Team von Keshav Enterprises",
+    "readTime": "8 Min. Lesezeit",
+    "tags": [
+      "Belliss & Morcom",
+      "Störungsbehebung",
+      "Dampfturbine",
+      "Zuckerfabrik"
+    ],
+    "coverImage": "blog-belliss-morcom.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Belliss-&-Morcom-Turbinen (heute Howden) finden sich in Hunderten indischer Zuckerfabriken, Kraft-Wärme-Kopplungsanlagen und Industriebetriebe. Unsere Ingenieure arbeiten seit über 20 Jahren an Belliss-Einheiten in Uttar Pradesh, Punjab, Maharashtra und Karnataka. Hier sind die Störungen, denen wir am häufigsten begegnen — und die richtige Vorgehensweise zur Diagnose und Behebung."
+      },
+      {
+        "type": "h2",
+        "text": "Störung 1: Hohe Vibration bei Betriebsdrehzahl"
+      },
+      {
+        "type": "p",
+        "text": "Die häufigste Beschwerde bei Belliss-Turbinen ist erhöhte Vibration, die Betreiber typischerweise durch erhöhten Lärm bemerken und durch tragbare Schwingungsanalyse bestätigen. Die Hauptursachen in Häufigkeitsreihenfolge sind: (1) Rotorunwucht durch Ablagerungen auf den Schaufeln, (2) Wellenzapfenlagerverschleiß — besonders nach langen Laufzeiten zwischen Überholungen, und (3) Fluchtungsfehler zwischen Turbine und Getriebe durch Rohrspannung oder Fundamentsetzung."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Prüfen Sie zuerst die Lagertemperaturen — erhöhte Temperatur zusammen mit hoher Vibration deutet fast immer auf Lagerzustandsprobleme hin",
+          "Nehmen Sie an allen vier Lagergehäusen eine tragbare Schwingungsmessung vor und vergleichen Sie mit dem Ausgangswert (1× und 2× Betriebsdrehzahl)",
+          "Bei dominanter 1×-Komponente: Unwucht oder Fluchtungsfehler. Bei dominanter 2×-Komponente: Lagerspiel oder Fluchtungsfehler. Subsynchron: Ölwirbel",
+          "Prüfen Sie die Kupplung auf Verschleiß und korrekten Zusammenbau, bevor Sie einen Fluchtungsfehler als Turbinenproblem einstufen"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Störung 2: Reglerpendeln / Drehzahlinstabilität"
+      },
+      {
+        "type": "p",
+        "text": "Belliss-Turbinen verwenden je nach Modell und Baujahr einen Fliehkraft-Fliehgewichtsregler oder einen hydraulischen Regler. Drehzahlpendeln — zyklisches Über- und Unterschwingen des Sollwerts — wird typischerweise verursacht durch: verschlissene Drehzapfen und Fliehgewichte bei Fliehkraftreglern, falsche Statikeinstellung, Hysterese des Stellventilaktuators oder Dampfdruckschwankungen des Kessels, die die Reglerautorität überschreiten."
+      },
+      {
+        "type": "p",
+        "text": "Bevor Sie den Regler zerlegen, bestätigen Sie, dass der Dampfversorgungsdruck stabil ist. Schwankt der Versorgungsdruck um mehr als ±0,5 bar, liegt das Hauptproblem im Kesselregelkreis — der Regler kann große Versorgungsschwankungen nicht ausgleichen. Nach Bestätigung der Kesselstabilität sollten die Drehzapfen und Fliehgewichte des Reglers auf Verschleiß geprüft und bei übermäßigem Spiel ersetzt werden."
+      },
+      {
+        "type": "h2",
+        "text": "Störung 3: Dampfstopfbuchsleckage"
+      },
+      {
+        "type": "p",
+        "text": "Belliss-Turbinen verwenden Labyrinth-Stopfbuchsdichtungen und Sperrdampfsysteme, um Leckagen an den Wellenenden zu kontrollieren. Sichtbare Dampfleckage im Stopfbuchsbereich bei Normalbetrieb weist hin auf: verschlissene oder beschädigte Labyrinthstreifen, falsche Sperrdampfdruckeinstellung oder Wellenexzentrizität, die ungleichmäßiges Spiel um das Labyrinth verursacht."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Messen Sie die Wellenexzentrizität im Stopfbuchsbereich mit einer Messuhr — bei über 0,05 mm Rundlauf muss der Rotorzustand bewertet werden",
+          "Prüfen Sie den Sperrdampfdruck gegenüber den Sättigungsbedingungen — kondensierendes Wasser in der Sperrdampf-Versorgungsleitung verursacht starke Labyrintherosion",
+          "Der Austausch von Labyrinthstreifen ist eine geplante Stillstandsmaßnahme — versuchen Sie nicht, Spielmaße durch Unterlegen der Streifen vor Ort zu verringern"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Störung 4: Hohe Schmieröltemperatur oder niedriger Öldruck"
+      },
+      {
+        "type": "p",
+        "text": "Störungen im Schmierölsystem sind bei Belliss-Turbinen für mehr ungeplante Abschaltungen verantwortlich als jede andere Ursache. Hohe Öltemperatur (über 55 °C am Lagereintritt) bedeutet meist, dass der Schmierölkühler verschmutzt ist — reinigen Sie Kühlermantel und Rohrbündel. Abschaltungen durch niedrigen Öldruck treten auf, wenn das Überdruckventil falsch eingestellt ist, der Filterdifferenzdruck hoch ist (Element muss ausgetauscht werden) oder die Ölpumpe verschlissen ist und an volumetrischem Wirkungsgrad verliert."
+      },
+      {
+        "type": "cta",
+        "text": "Benötigen Sie unsere Ex-Belliss-&-Morcom-Ingenieure für eine Überholung, Schwingungsanalyse oder Notfall-Störungsdiagnose? Kontaktieren Sie uns per WhatsApp für eine Antwort am selben Tag."
+      }
+    ]
+  },
+  "post_5": {
+    "id": "post_5",
+    "slug": "iso-4406-lube-oil-cleanliness-guide",
+    "title": "Wie man einen ISO-4406-Schmierölsauberkeitsbericht liest — ein Leitfaden für Wartungsingenieure",
+    "excerpt": "ISO-4406-Partikelzählberichte von Öllaboren werden oft missverstanden. Dieser Leitfaden erklärt genau, was die Zahlen bedeuten, wie man Sauberkeitsziele für Turbinenlagersysteme festlegt und wann zu handeln ist.",
+    "date": "2026-04-05",
+    "author": "Engineering-Team von Keshav Enterprises",
+    "readTime": "6 Min. Lesezeit",
+    "tags": [
+      "Schmieröl",
+      "ISO 4406",
+      "Filtration",
+      "Vorausschauende Wartung"
+    ],
+    "coverImage": "blog-iso-4406.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Jeden Monat gehen Tausende Ölanalyseberichte in Wartungsbüros indischer Anlagen ein — und die meisten werden abgelegt, ohne verstanden zu werden. ISO-4406-Sauberkeitscodes sind die aussagekräftigste Zahl in diesem Bericht. Sie falsch zu interpretieren kostet Lager. Sie richtig zu interpretieren verlängert die Turbinenlebensdauer."
+      },
+      {
+        "type": "h2",
+        "text": "Was bedeutet ein ISO-4406-Code?"
+      },
+      {
+        "type": "p",
+        "text": "Ein ISO-4406:99-Sauberkeitscode besteht aus drei Zahlen, zum Beispiel 18/16/13. Jede Zahl ist ein „Bereichscode“, der eine Partikelanzahl pro Milliliter Öl bei drei verschiedenen Partikelgrößen darstellt: 4 µm(c), 6 µm(c) und 14 µm(c). Das Suffix „(c)“ bedeutet, dass die Zählung die Kalibrierung des optischen Partikelzählers nach ISO 11171 verwendet — vergleichen Sie nicht mit älteren Berichten, die die unkalibrierte Methode verwendeten."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Bereichscode 14 = 80–160 Partikel/mL",
+          "Bereichscode 16 = 320–640 Partikel/mL",
+          "Bereichscode 18 = 1.280–2.560 Partikel/mL",
+          "Bereichscode 20 = 5.120–10.240 Partikel/mL",
+          "Jede Stufe nach oben = Verdopplung des Verunreinigungsgrads"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Welches Sauberkeitsziel benötigen Sie?"
+      },
+      {
+        "type": "p",
+        "text": "Für Dampfturbinen-Wellenzapfenlager und Schmierölsysteme liegt das Ziel typischerweise bei ISO 4406:99 Klasse 16/14/11 — dies ist die Mindestanforderung nach API 614. Viele OEMs, darunter Triveni und Siemens, schreiben für Turbinen mit hydraulischen Regelsystemen 15/13/10 vor. Nach einer größeren Überholung oder Schmierölspülung sollte das System vor dem Öleinfüllen 16/14/11 erreichen, um Lagerschäden durch Verunreinigung während des Hochlaufs zu vermeiden."
+      },
+      {
+        "type": "h2",
+        "text": "Wann sollten Sie handeln?"
+      },
+      {
+        "type": "p",
+        "text": "Wenn Ihr routinemäßiger Ölanalysebericht den 6-µm(c)-Bereichscode (mittlere Zahl) bei 17 oder höher zeigt — eine Stufe über dem Ziel —, untersuchen Sie sofort. Prüfen Sie den Filterdifferenzdruck (austauschen bei Annäherung an 3,5–4 bar), inspizieren Sie den Zustand des Tankentlüfters und nehmen Sie getrennte Proben am Ein- und Auslass des Filtergehäuses, um zu lokalisieren, wo die Verunreinigung eindringt. Zeigt der Wassergehaltsbericht mehr als 0,1 % Wasser — tauschen Sie die Filterelemente aus und planen Sie einen WaterSorp-Offline-Filtrationslauf ein."
+      },
+      {
+        "type": "h2",
+        "text": "Die Kosten des Ignorierens eines sich verschlechternden Codes"
+      },
+      {
+        "type": "p",
+        "text": "Partikel im Bereich von 4–10 µm sind am schädlichsten — sie haben genau die richtige Größe, um in den hydrodynamischen Ölfilm zwischen einem rotierenden Wellenzapfen und einer Weißmetall-Lageroberfläche einzudringen und Drei-Körper-Abrieb zu verursachen. Eine Turbine, die mit ISO-Sauberkeitscode 20/18/15 statt 16/14/11 läuft, hat etwa 100-mal mehr schädigende Partikel als das Ziel. Lageroberflächen degradieren fortschreitend, und der Ausfall verläuft schrittweise — bis er es nicht mehr tut. Dann ist es ein 48-Stunden-Notfall und ein erneuter Weißmetallguss."
+      },
+      {
+        "type": "cta",
+        "text": "Wir liefern ISO-16889-konforme Filterelemente für alle wichtigen Turbinenfabrikate und beraten zur Schmierölspülung, um vor Ihrem nächsten Anfahren die richtige Sauberkeitsklasse zu erreichen. Kontaktieren Sie uns per WhatsApp."
+      }
+    ]
+  },
+  "post_6": {
+    "id": "post_6",
+    "slug": "hvac-air-filter-selection-guide-industrial",
+    "title": "Leitfaden zur Auswahl von HVAC-Luftfiltern für Industrieanlagen — F5 bis F9 und alles dazwischen",
+    "excerpt": "Taschenfilter, Faltenpanels, metallische Vorfilter, Aktivkohle — die falsche Klasse zu wählen kostet Geld und riskiert Anlagenschäden. Dieser Leitfaden erklärt, welchen HVAC-Filter man wo und warum einsetzt.",
+    "date": "2026-04-20",
+    "author": "Engineering-Team von Keshav Enterprises",
+    "readTime": "7 Min. Lesezeit",
+    "tags": [
+      "HVAC",
+      "Luftfiltration",
+      "AHU-Filter",
+      "Wartung"
+    ],
+    "coverImage": "blog-hvac-filter-selection.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Betreten Sie eine beliebige Industrieanlage in Indien — eine Zuckerfabrik, eine Pharmafabrik, einen Zementleitstand — und Sie finden HVAC-Lüftungsgeräte (RLT-Geräte), die still und leise Menschen und empfindliche Anlagen am Leben erhalten. Gehen Sie ein Stück weiter, und Sie finden diese RLT-Geräte oft mit der falschen Filterklasse, einer zugesetzten Tasche, die zuletzt vor zwei Jahren ausgetauscht wurde, oder gar keinem Vorfilter. Die Folgen sind vorhersehbar: DCS-Schränke voller Staub, mit grauem Filz überzogene Kühlregister und Stromrechnungen, die 15–20 % höher sind als nötig."
+      },
+      {
+        "type": "h2",
+        "text": "Wirkungsgradklassen verstehen — EN 779 und ISO 16890"
+      },
+      {
+        "type": "p",
+        "text": "Zwei Normen regeln die HVAC-Filtereffizienz. Die ältere EN 779 verwendet die Klassen G1 bis F9 — G-Klassen (grob) erfassen große Partikel, M-Klassen (mittel) und F-Klassen (fein) erfassen zunehmend kleinere. Die neuere ISO 16890 verwendet partikelgrößenbasierte Klassifizierungen: ePM10, ePM2.5 und ePM1, mit einem prozentualen Abscheidegrad. Wenn Ihr Filterlieferant nur eine EN-779-Klasse angibt, fragen Sie nach dem ISO-16890-ePM1-Wirkungsgrad — er ist die aussagekräftigere Zahl für die Luftqualität."
+      },
+      {
+        "type": "list",
+        "items": [
+          "G1–G4 (ISO Coarse): erfasst Fusseln, Fasern, Insekten, groben Staub — als Vorfilter und in waschbaren metallischen Netzpanels verwendet",
+          "M5–M6 (ISO ePM10 ≥50 %): Pollen, groben Staub, Sand — geeignet für unkritische Industrielüftung",
+          "F7 (ISO ePM1 ≥50 %): allgemeiner HVAC-Standard — Minimum für belegte Büros, Leitstände und RLT-Geräte, die empfindliche Anlagen versorgen",
+          "F8 (ISO ePM1 ≥70 %): Zuluft für Krankenstationen, pharmazeutische Reinraumklasse-D-Bereiche",
+          "F9 (ISO ePM1 ≥85 %): Vorfilter vor HEPA für Reinräume und kritische pharmazeutische Bereiche"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 1 — Beginnen Sie mit einem metallischen Netz-Vorfilter (G1–G3)"
+      },
+      {
+        "type": "p",
+        "text": "Jedes RLT-Gerät in einer schweren Industrieumgebung — Zementwerk, Kraftwerk, Stahlwerk — sollte in der ersten Stufe einen waschbaren Aluminium- oder Edelstahl-Netzvorfilter haben. Kosten: einige hundert Rupien. Nutzen: Der nachgeschaltete Taschen- oder Faltenfilter hält 2- bis 3-mal länger, da er nie die grobe Last bewältigen muss. Aluminiumnetz hält Temperaturen bis 150 °C aus; Edelstahlnetz bis 350 °C. Reinigen Sie alle 4–6 Wochen mit Druckluft-Rückspülung oder warmem Wasser."
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 2 — Wählen Sie Ihren Hauptfilter: Taschenfilter oder Faltenpanel?"
+      },
+      {
+        "type": "p",
+        "text": "Sowohl Taschenfilter als auch Faltenpanels sind von G4 bis F9 erhältlich, eignen sich aber für unterschiedliche RLT-Konfigurationen. Taschenfilter (mehrtaschig) haben eine größere Filtermedienfläche und eine längere Standzeit in staubreichen Umgebungen — die Taschen erstrecken sich in den Luftstrom und maximieren die Kontaktfläche. Sie sind die Standardwahl für große Industrie-RLT-Geräte, Gewerbegebäude und Krankenhäuser. Faltenpanels sind kompakter (25–96 mm Tiefe gegenüber 600 mm Taschenlänge) und starr, was sie zur bevorzugten Wahl für Klimakonvektoren (FCUs), Split-Klimaanlagen und RLT-Geräte mit vertikalem Luftstrom macht, wo der Platz begrenzt ist."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Taschenfilter: hohe Staublast, großes RLT-Gerät, F5–F9, 3.000–5.000 m³/h+ pro Sektion",
+          "Faltenpanel (25 mm): FCU-/Split-Klimaanlagen-Ersatz, G4–F7, kompakter vertikaler Luftstrom",
+          "Faltenpanel (96 mm): mittelgroßes RLT-Gerät, F7–F8, starre Bauweise — kein Risiko des Taschenkollapses",
+          "Faltenpanel (292 mm erweitert): hocheffiziente Endstufe in pharmazeutischer HVAC, F8–F9"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 3 — Aktivkohle für Geruchskontrolle hinzufügen"
+      },
+      {
+        "type": "p",
+        "text": "Wenn Ihre Anlage Geruchsprobleme hat — Küchen, Chemikalienlagerung, Lackierereien, Druckereien oder jeder Bereich mit VOC-Emissionen — löst ein reiner Partikelfilter das Problem nicht. Aktivkohle (GAC) adsorbiert Kochgerüche, Lösungsmittel, Schwefelwasserstoff, Formaldehyd und die meisten gängigen industriellen VOCs. In HVAC-Anwendungen wird Aktivkohle typischerweise als Panelfilter mit einer 25–50 mm dicken Granulatkohleschicht geliefert oder als Kombifilter mit einem G4-Partikel-Vorfilter, der mit der Kohleschicht verbunden ist. Das Kohlepanel sitzt im Luftstrom nach dem Partikelfilter — es zuerst zu platzieren verschwendet teure Kohlekapazität für Staublast."
+      },
+      {
+        "type": "h2",
+        "text": "Wie man Filterwechselintervalle bemisst"
+      },
+      {
+        "type": "p",
+        "text": "Die einzige beste Praxis ist die Installation eines Differenzdruckmessers (DP) über jeder Filterstufe und der Austausch bei einem Enddruckverlust von 250 Pa — nicht nach Kalenderplan. Kalenderaustausch verschwendet noch brauchbare Filter; Betrieb bis zum Ausfall führt dazu, dass der Filter kollabiert oder umgangen wird und das RLT-Register mit allem verunreinigt, was er eigentlich auffangen sollte. Sind DP-Messer nicht praktikabel, tauschen Sie alle 3 Monate in schweren Industrieumgebungen (Zement, Energie, Stahl), alle 6 Monate in der Leichtindustrie und jährlich in sauberen Gewerbeumgebungen aus — angepasst anhand einer Sichtprüfung."
+      },
+      {
+        "type": "cta",
+        "text": "Wir liefern HVAC-Taschenfilter, Faltenpanel-Filter, metallische Netz-Vorfilter und Aktivkohle-Entlüftungsfilter für industrielle und gewerbliche RLT-Geräte in ganz Indien. Kontaktieren Sie uns per WhatsApp mit Fabrikat, Modell und Rahmenabmessungen Ihres RLT-Geräts für ein passendes Ersatzangebot."
+      }
+    ]
+  },
+  "post_7": {
+    "id": "post_7",
+    "slug": "pulse-jet-dust-collector-filter-bag-selection",
+    "title": "Wie man den richtigen Filterschlauch für Pulse-Jet-Entstauber auswählt — Leitfaden zu Medium, Oberflächenbehandlung und Antistatik für indische Anlagen",
+    "excerpt": "Die Wahl des falschen Filterschlauchmediums für Ihr Schlauchfilter — falsche Temperaturklasse, falsche Oberflächenbehandlung oder fehlende Antistatik — kostet Anlageningenieure Wochen an Stillstand und teure Notfallaustausche. Hier ist der vollständige Auswahlleitfaden.",
+    "date": "2026-05-01",
+    "author": "Engineering-Team von Keshav Enterprises",
+    "readTime": "8 Min. Lesezeit",
+    "tags": [
+      "Entstauber",
+      "Filterschläuche",
+      "Schlauchfilter",
+      "Industriefiltration",
+      "Zement",
+      "HVAC"
+    ],
+    "coverImage": "blog-dust-collector-filter-bag.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Pulse-Jet-Schlauchfilter sind die Arbeitspferde der industriellen Staubkontrolle in ganz Indien — Zementwerke, Kohleumschlagsysteme, Getreidemühlen, pharmazeutische Pulververarbeitung und Chemieanlagen verlassen sich auf sie, um Emissionsnormen einzuhalten und Arbeiter zu schützen. Dennoch erfolgt die Auswahl von Ersatzfilterschläuchen oft immer noch aus Gewohnheit („wie vorher“) statt aus technischer Überlegung. War der „wie vorher“-Schlauch für die Anwendung falsch, versagt der neue Satz genauso schnell wie der letzte."
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 1 — kennen Sie Ihre Rauchgastemperatur"
+      },
+      {
+        "type": "p",
+        "text": "Temperatur ist der kritischste Auswahlparameter und die häufigste Ursache für vorzeitiges Schlauchversagen. Jeder Medientyp hat eine Dauerbetriebstemperaturgrenze und eine Spitzentemperaturgrenze (Stoßbelastung). Eine Überschreitung der Dauergrenze um nur 10–15 °C verkürzt die Filterlebensdauer durch Hydrolyse (in feuchtem Rauchgas) oder Oxidation (in trockenem, sauerstoffhaltigem Gas) um 50 % oder mehr."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Polyester-Nadelfilz: Dauerbetrieb 130 °C, Spitze 150 °C — allgemeiner Industriestaub, Anwendungen von Umgebungstemperatur bis niedriger Temperatur",
+          "Polypropylenfilz: Dauerbetrieb 90 °C, Spitze 110 °C — Säuregasumgebungen, Chemieanlagen (bessere Säurebeständigkeit als Polyester, niedrigere Temperatur)",
+          "Aramid / Nomex: Dauerbetrieb 200 °C, Spitze 220 °C — Ofenabgas, Asphaltwerke, Glasschmelzofen, Trocknerauslass",
+          "PPS (Ryton): Dauerbetrieb 190 °C, Spitze 210 °C — Säure-Hitze-Kombination (schwefelhaltiges Rauchgas aus Kohleverbrennung)",
+          "Gewebtes Glasfaser: Dauerbetrieb 260 °C, Spitze 280 °C — Zementofen-Rohmehl, Abfallverbrennung, Hochtemperatur-Prozessgas",
+          "PTFE-Membran auf beliebiger Basis: gleiche Temperaturklasse wie das Basismedium + nahezu null Restfilterkuchen — höchste Reinigungseffizienz"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 2 — glatter Schlauch oder gefaltete Kartusche?"
+      },
+      {
+        "type": "p",
+        "text": "Standard-Pulse-Jet-Schlauchfilter verwenden zylindrische Filterschläuche — glatte Außenfläche — die auf einem Metallkorb abgestützt sind. Dies ist die richtige Wahl für Anwendungen mit hoher Staubbelastung: Zement, Flugasche, Kohle, Mineralverarbeitung. Die glatte Außenfläche ermöglicht es dem Druckluftstoß des Pulse-Jets, den Filterkuchen effizient abzuwerfen. Gefaltete Kartuschenelemente — akkordeongefaltetes Medium um einen perforierten Kern — bieten bis zur 5-fachen Filterfläche im gleichen Gehäuseraum, eignen sich aber besser für leichtere Staubbelastungen in pharmazeutischen, Lebensmittel- und leichten Chemieanwendungen, wo die größere Medienfläche eine niedrigere Anströmgeschwindigkeit und einen sehr niedrigen Restdruckverlust ermöglicht."
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 3 — Oberflächenbehandlung: glatt, versengt, kalandriert oder PTFE-Membran?"
+      },
+      {
+        "type": "p",
+        "text": "Die Oberflächenbehandlung eines Nadelfilzschlauchs bestimmt, wie gut sich der Filterkuchen während der Pulse-Jet-Reinigung löst und wie lange der Schlauch dem Verblenden (dauerhaftem Zusetzen) widersteht. Glatter Filz hat eine raue Faseroberfläche — geeignet für groben, trockenen, nicht klebrigen Staub. Versengter Filz hat thermisch entfernte Oberflächenfasern, was eine glattere Oberfläche ergibt — verbesserte Kuchenablösung für die meisten Industriestäube. Kalandrierter (glasierter) Filz wird heißgepresst, um die Oberfläche weiter zu glätten und zu verdichten — am besten für feinen, kohäsiven oder leicht klebrigen Staub wie pharmazeutische Pulver oder feinen Zement. Eine auf die Außenfläche laminierte PTFE-Membran — die Premiumoption — bietet Oberflächenfiltration. Der Staub bildet einen dünnen Kuchen auf dem glatten PTFE und löst sich bei jedem Impuls vollständig ab, wodurch über die gesamte Schlauchlebensdauer ein nahezu anfänglicher Druckverlust erhalten bleibt. Auch die Emissionsleistung ist überlegen und erreicht oft Austrittsstaubkonzentrationen von 2–5 mg/Nm³ gegenüber 20–50 mg/Nm³ bei glattem Filz."
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 4 — antistatische und leitfähige Schläuche für explosionsfähigen Staub"
+      },
+      {
+        "type": "p",
+        "text": "Für Entstauberanwendungen mit elektrisch widerstandsfähigem Staub, der statische Ladung ansammeln kann — Kohle, Getreide, Mehl, pharmazeutische Pulver, Polymerpulver — sind Standard-Polyesterschläuche eine Brand- und Explosionsgefahr. Der Staubkuchen auf einem glatten Polyesterschlauch kann eine statische Entladung (Funken) entwickeln, die energiereich genug ist, um eine Staubwolke im Auslasskanal zu entzünden. Antistatische Schläuche verwenden einen von zwei Ansätzen: (1) in das Polyestermedium eingemischte Kohlefaser — die leitfähigen Fasern leiten die Ladung kontinuierlich ab; (2) in den Nadelfilz eingewebte Edelstahlfaser mit 1–3 Gewichtsprozent — bietet sowohl statische Ableitung als auch verbesserte Festigkeit. Schreiben Sie für Kohlestaub, Getreidestaub, Mehl und jedes Pulver mit einem Kst-Wert über null stets antistatische (leitfähige) Schläuche vor."
+      },
+      {
+        "type": "h2",
+        "text": "Schlauchabmessungen an Ihren Käfig anpassen"
+      },
+      {
+        "type": "p",
+        "text": "Ersatzfilterschläuche müssen exakt zu Durchmesser und Länge des vorhandenen Käfigs passen — schon ein Durchmesserunterschied von 5 mm verhindert die korrekte Abdichtung am oberen Schnappring. Messen Sie vor der Bestellung: Außendurchmesser der Schlauchöffnung (Schnappband-AD), Schlauchlänge von der Schnappringfläche bis zum geschlossenen Boden, und den Endkappentyp (Schnappring, Schnappband oder Flansch). Ist das Original-OEM-Etikett noch lesbar, notieren Sie die Teilenummer — sie identifiziert die genaue Käfiggeometrie. Sind die Etiketten verschwunden, ziehen Sie einen Käfig aus dem Gehäuse, vermessen Sie ihn und liefern Sie diese Maße mit Ihrer Bestellung."
+      },
+      {
+        "type": "cta",
+        "text": "Wir liefern Pulse-Jet-Filterschläuche in Polyester-, Aramid-, PPS-, Glasfaser- und PTFE-Membranqualitäten sowie gefaltete Kartuschenelemente für Zement-, Energie-, Pharma- und Getreideumschlag-Schlauchfilter in ganz Indien. Senden Sie uns Ihre Schlauchabmessungen und Anwendungsdetails per WhatsApp für ein Angebot am selben Tag."
+      }
+    ]
+  }
+}

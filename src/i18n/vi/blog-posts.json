@@ -1,0 +1,581 @@
+{
+  "post_1": {
+    "id": "post_1",
+    "slug": "steam-turbine-overhauling-checklist",
+    "title": "Danh mục Kiểm tra Đại tu Tua-bin Hơi nước Hoàn chỉnh cho Kỹ sư Nhà máy",
+    "excerpt": "Danh mục kiểm tra thực tế, từng bước bao gồm lập kế hoạch trước dừng máy, quy trình kiểm tra, ghi nhận khe hở, và chạy thử sau đại tu cho tua-bin hơi nước đến 60 MW.",
+    "date": "2026-03-15",
+    "author": "Đội ngũ Kỹ thuật Keshav Enterprises",
+    "readTime": "Đọc 8 phút",
+    "tags": [
+      "Đại tu",
+      "Tua-bin Hơi nước",
+      "Bảo trì"
+    ],
+    "coverImage": "blog-turbine-overhaul.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Tại sao Danh mục Kiểm tra Có cấu trúc Quan trọng"
+      },
+      {
+        "type": "p",
+        "text": "Việc dừng tua-bin ngoài kế hoạch khiến các nhà máy điện và đường Ấn Độ tốn hàng lakh rupee mỗi giờ. Danh mục kiểm tra đại tu có cấu trúc đảm bảo không bỏ sót gì trong các khung thời gian bảo trì theo kế hoạch — giảm nguy cơ hỏng sớm sau khi khôi phục vận hành và tránh việc dừng máy lặp lại tốn kém."
+      },
+      {
+        "type": "h2",
+        "text": "1. Lập kế hoạch Trước Dừng máy (4–6 Tuần Trước)"
+      },
+      {
+        "type": "p",
+        "text": "Bắt đầu với phạm vi công việc chi tiết bao gồm tất cả thiết bị quay trong tổ hợp. Kiểm tra tất cả phụ tùng tồn kho và tạo báo cáo thiếu hụt. Đặt hàng các mặt hàng quan trọng — ổ trục, phớt, đệm mê cung, vòng carbon — với thời gian chờ đủ. Sắp xếp dụng cụ chuyên dụng: laser căn chỉnh, máy phân tích rung động, đồng hồ so, và feeler gauge."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Xác nhận dữ liệu khe hở OEM cho tất cả các tầng tua-bin",
+          "Sắp xếp thiết bị súc rửa dầu bôi trơn (thiết bị lọc ly tâm di động)",
+          "Đặt kỹ sư từng làm việc tại OEM nếu cần cho đại tu lớn",
+          "Chuẩn bị số đọc cơ sở giám sát tình trạng (rung động, nhiệt độ, áp suất)"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "2. Dừng máy & Cô lập"
+      },
+      {
+        "type": "p",
+        "text": "Tuân theo quy trình dừng máy do OEM chỉ định. Cho phép thời gian làm mát đủ trước khi mở bất kỳ mặt bích nào. Khóa/gắn thẻ tất cả các nguồn năng lượng bao gồm hơi, dầu bôi trơn, nước ngưng, và khí điều khiển. Xả hoàn toàn hệ thống dầu bôi trơn trước khi tháo dỡ."
+      },
+      {
+        "type": "h2",
+        "text": "3. Tháo dỡ & Kiểm tra"
+      },
+      {
+        "type": "p",
+        "text": "Ghi lại tất cả khe hở, khoảng cách, và độ khít trước khi tháo linh kiện — điều này cần thiết để so sánh với thông số OEM và phát hiện xu hướng mòn. Chụp ảnh mỗi giai đoạn. Đo độ đảo rotor tại ngõng trục, vòng chặn, và mặt khớp nối."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Khe hở ổ trục (hướng kính và dọc trục)",
+          "Khe hở đường kính phớt mê cung",
+          "Độ lệch và độ nghiêng căn chỉnh khớp nối",
+          "Tình trạng mặt vòng carbon và lực căng lò xo",
+          "Tình trạng vòi phun và màng ngăn cùng kích thước họng",
+          "Tình trạng đế và đĩa ESV"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "4. Sửa chữa & Thay thế tại Xưởng"
+      },
+      {
+        "type": "p",
+        "text": "Gửi rotor để mài ngõng trục và cân bằng động nếu số đọc độ đảo hoặc rung động nằm ngoài dung sai. Thay vòng gland carbon và graphite, đệm mê cung, và ổ trục babbitt theo báo cáo tình trạng. Tất cả việc cân bằng rotor nên được thực hiện theo tiêu chuẩn ISO 1940 hoặc API 670."
+      },
+      {
+        "type": "h2",
+        "text": "5. Lắp ráp lại & Căn chỉnh"
+      },
+      {
+        "type": "p",
+        "text": "Lắp ráp lại theo thứ tự ngược lại với gioăng mới và mô-men xiết bu-lông theo thông số OEM. Thực hiện căn chỉnh rotor cuối cùng bằng thiết bị căn chỉnh laser — tua-bin với hộp số và hộp số với máy phát điện. Ghi lại tất cả khe hở sau lắp ráp và xác nhận chúng trong dung sai OEM."
+      },
+      {
+        "type": "h2",
+        "text": "6. Súc rửa Dầu Bôi trơn"
+      },
+      {
+        "type": "p",
+        "text": "Trước khi chạy thử, súc rửa hệ thống dầu bôi trơn bằng hệ thống lọc ly tâm di động nhắm đến cấp độ sạch ISO 4406:99 16/14/11 hoặc tốt hơn. Lấy mẫu dầu trước và sau khi súc rửa và lưu giữ báo cáo. Không bao giờ chạy thử tua-bin mà không hoàn thành việc súc rửa dầu — hỏng ổ trục do dầu nhiễm bẩn chiếm một phần đáng kể trong các hỏng hóc sau đại tu."
+      },
+      {
+        "type": "h2",
+        "text": "7. Chạy thử & Lần Chạy Đầu tiên"
+      },
+      {
+        "type": "p",
+        "text": "Tuân theo quy trình trước chạy thử của OEM từng bước. Giám sát liên tục rung động, nhiệt độ ổ trục, và áp suất dầu bôi trơn trong quá trình tăng tốc lần đầu. Xác nhận hoạt động của ESV và bộ điều tốc. Tinh chỉnh căn chỉnh nếu mức rung động tăng cao. Ghi lại tất cả số đọc chạy thử cho hồ sơ bảo trì nhà máy."
+      },
+      {
+        "type": "cta",
+        "text": "Cần kỹ sư đại tu chuyên nghiệp cho lần dừng máy theo kế hoạch tiếp theo của bạn? Đội ngũ từng làm việc tại OEM của chúng tôi bao phủ Triveni, Siemens, BHEL, Belliss & Morcom, và nhiều hơn nữa."
+      }
+    ]
+  },
+  "post_2": {
+    "id": "post_2",
+    "slug": "lube-oil-contamination-turbine-bearings",
+    "title": "Nhiễm bẩn Dầu Bôi trơn Phá hủy Ổ trục Tua-bin Như thế nào — Và Cách Phòng ngừa",
+    "excerpt": "Nước xâm nhập, hạt rắn, và oxy hóa là ba nguyên nhân hàng đầu gây hỏng ổ trục tua-bin sớm. Đây là cách xác định từng loại nhiễm bẩn và sản phẩm lọc nào nên dùng để ngăn ngừa hư hỏng.",
+    "date": "2026-02-28",
+    "author": "Đội ngũ Kỹ thuật Keshav Enterprises",
+    "readTime": "Đọc 6 phút",
+    "tags": [
+      "Dầu Bôi trơn",
+      "Ổ trục",
+      "Lọc",
+      "Bảo trì Phòng ngừa"
+    ],
+    "coverImage": "blog-lube-oil.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Kẻ Giết Ổ trục Ẩn giấu"
+      },
+      {
+        "type": "p",
+        "text": "Ổ trục babbitt của tua-bin là linh kiện chính xác hoạt động trên màng dầu thủy động lực học chỉ dày vài micron. Bất kỳ nhiễm bẩn nào của hệ thống dầu bôi trơn — hạt rắn, nước, hoặc dầu suy giảm — phá hủy màng này, dẫn đến tiếp xúc kim loại trực tiếp và mòn tăng tốc. Các nghiên cứu cho thấy hơn 70% hỏng ổ trục tua-bin liên quan đến bôi trơn."
+      },
+      {
+        "type": "h2",
+        "text": "Loại Nhiễm bẩn 1: Hạt Rắn"
+      },
+      {
+        "type": "p",
+        "text": "Hạt trên 10 micron có thể làm xước bề mặt ổ trục. Hạt trong phạm vi 1–10 micron gây hại nhiều nhất — chúng xâm nhập vào khe hở màng dầu và gây mài mòn ba vật thể. Nguồn bao gồm mảnh vụn sau xây dựng, hạt mòn từ bánh răng, và bụi bẩn xâm nhập qua bộ thở bể chứa."
+      },
+      {
+        "type": "p",
+        "text": "Giải pháp: Lắp lõi lọc dầu bôi trơn hiệu suất cao (ISO 16889, tỷ số beta ≥200 tại 10 micron) trong vỏ lọc chính. Sử dụng lõi lọc thở bể chứa (sợi thủy tinh 3 VL) để ngăn hít vào các hạt trong không khí. Mục tiêu độ sạch hệ thống: ISO 4406:99 Cấp 16/14/11 hoặc tốt hơn cho ổ trục tua-bin."
+      },
+      {
+        "type": "h2",
+        "text": "Loại Nhiễm bẩn 2: Nước Xâm nhập"
+      },
+      {
+        "type": "p",
+        "text": "Nước trong dầu bôi trơn gây giòn hydro cho babbitt, thúc đẩy oxy hóa, và hỗ trợ vi khuẩn phát triển. Ngay cả 200 ppm nước tự do cũng làm giảm đáng kể sức bền màng dầu. Nguồn bao gồm rò rỉ gland hơi, ngưng tụ trong bể chứa, và hỏng ống làm mát."
+      },
+      {
+        "type": "p",
+        "text": "Giải pháp: Lắp lõi lọc ngoại tuyến WaterSorp trong đường hồi lưu bên. Các lõi lọc chức năng kép này đồng thời loại bỏ hạt rắn và hấp thụ nước tự do và nhũ hóa. Lấy mẫu dầu định kỳ (hàng tháng) theo tiêu chuẩn ISO sẽ phát hiện nước sớm."
+      },
+      {
+        "type": "h2",
+        "text": "Loại Nhiễm bẩn 3: Oxy hóa & Suy giảm Dầu"
+      },
+      {
+        "type": "p",
+        "text": "Nhiệt độ vận hành cao và sự hiện diện của chất xúc tác kim loại khiến dầu tua-bin oxy hóa, tạo thành cặn véc-ni và sản phẩm phụ axit. Những cặn này làm tắc lõi lọc, bám vào bề mặt ổ trục, và tăng tốc độ mòn."
+      },
+      {
+        "type": "p",
+        "text": "Giải pháp: Giám sát xu hướng số axit (AN) và độ nhớt. Lọc ngoại tuyến WaterSorp kéo dài tuổi thọ dầu bằng cách loại bỏ nước và hạt xúc tác oxy hóa. Lên kế hoạch thay dầu trước khi số axit vượt quá giới hạn OEM."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Kiểm tra chênh áp lọc hàng tuần — thay lõi ở ΔP 3,5–4 bar",
+          "Kiểm tra lọc thở bể chứa hàng tháng",
+          "Tiến hành lấy mẫu dầu mỗi 30 ngày và theo dõi xu hướng kết quả",
+          "Lắp lõi WaterSorp nếu phát hiện nhiễm bẩn nước",
+          "Súc rửa hệ thống bằng bộ lọc ly tâm di động sau bất kỳ sửa chữa lớn nào"
+        ]
+      },
+      {
+        "type": "cta",
+        "text": "Chúng tôi cung cấp lõi lọc dầu bôi trơn tuân thủ ISO 16889 tương thích với Triveni, Siemens, BHEL, và tất cả các hãng tua-bin lớn. Yêu cầu báo giá qua WhatsApp."
+      }
+    ]
+  },
+  "post_3": {
+    "id": "post_3",
+    "slug": "reverse-engineering-turbine-spares-india",
+    "title": "Kỹ thuật Đảo ngược Phụ tùng Tua-bin: Cách Chúng tôi Tái tạo Linh kiện Ngừng sản xuất tại Ấn Độ",
+    "excerpt": "Khi phụ tùng OEM không có sẵn, có thời gian chờ 18 tháng, hoặc giá quá cao, kỹ thuật đảo ngược cung cấp một giải pháp thay thế đáng tin cậy. Đây là quy trình từng bước chúng tôi sử dụng tại Keshav Enterprises.",
+    "date": "2026-01-20",
+    "author": "Đội ngũ Kỹ thuật Keshav Enterprises",
+    "readTime": "Đọc 7 phút",
+    "tags": [
+      "Kỹ thuật Đảo ngược",
+      "Phụ tùng Tua-bin",
+      "Sản xuất",
+      "Quét 3D"
+    ],
+    "coverImage": "blog-reverse-engineering.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Tại sao Kỹ thuật Đảo ngược Linh kiện Tua-bin?"
+      },
+      {
+        "type": "p",
+        "text": "Nhiều nhà máy công nghiệp Ấn Độ vận hành tua-bin đã 20–40 năm tuổi. Các nhà sản xuất thiết bị gốc đã ngừng sản xuất một số model, sáp nhập với các công ty khác, hoặc đơn giản là ngừng lưu kho phụ tùng cho máy móc cũ. Thời gian chờ từ các OEM nước ngoài cho linh kiện gia công thường vượt quá 12–18 tháng — không thể chấp nhận được khi nhà máy đường có mùa ép mía cố định hoặc nhà máy điện có phạt hợp đồng cho mỗi ngày ngừng hoạt động."
+      },
+      {
+        "type": "h2",
+        "text": "Bước 1: Tiếp nhận Linh kiện & Đánh giá Ban đầu"
+      },
+      {
+        "type": "p",
+        "text": "Chúng tôi bắt đầu với chính linh kiện đã mòn hoặc hỏng — hoặc bộ phận ghép nối nếu bản gốc không thể đo được nữa. Linh kiện được làm sạch và đánh giá trực quan để xác định bề mặt nào vẫn có thể đo được và bề mặt nào đã bị suy giảm do mòn hoặc hư hỏng."
+      },
+      {
+        "type": "h2",
+        "text": "Bước 2: Quét Laser 3D & Đo CMM"
+      },
+      {
+        "type": "p",
+        "text": "Đối với các biên dạng phức tạp — cánh rotor, khối vòi phun, màng ngăn, linh kiện bộ điều tốc — chúng tôi sử dụng máy quét laser 3D để nắm bắt toàn bộ hình học dưới dạng point cloud. Đối với các bộ phận đơn giản hơn có tính đối xứng quay — vỏ ổ trục ngõng, rãnh vòng mê cung, vòng phớt — máy đo tọa độ (CMM) nắm bắt các kích thước quan trọng với độ chính xác cấp micron."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Tất cả kích thước quan trọng được ghi lại kèm dung sai",
+          "Kiểm tra độ đồng tâm và độ song song của các mặt ghép",
+          "Đo hình dạng ren, độ sâu rãnh then, và độ khít lắp ghép",
+          "Ghi chú thông số hoàn thiện bề mặt nơi có thể đo được"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Bước 3: Thử nghiệm Vật liệu PMI"
+      },
+      {
+        "type": "p",
+        "text": "Nhận dạng Vật liệu Chính xác (PMI) sử dụng huỳnh quang tia X (XRF) di động hoặc quang phổ phát xạ quang học xác định chính xác thành phần hợp kim của linh kiện gốc. Điều này rất quan trọng — một trục rotor bằng thép Cr 12% hoạt động rất khác với trục Cr-Mo 1%. Sai vật liệu có nghĩa là bộ phận được kỹ thuật đảo ngược sẽ hỏng sớm."
+      },
+      {
+        "type": "h2",
+        "text": "Bước 4: Tạo Bản vẽ Kỹ thuật"
+      },
+      {
+        "type": "p",
+        "text": "Từ dữ liệu quét, đo CMM, và kết quả thử nghiệm vật liệu, kỹ sư của chúng tôi tạo ra bản vẽ chế tạo hoàn chỉnh. Điều này bao gồm tất cả kích thước kèm dung sai, thông số hoàn thiện bề mặt, quy trình xử lý nhiệt trước và sau, thông số vật liệu, và yêu cầu kiểm tra."
+      },
+      {
+        "type": "h2",
+        "text": "Bước 5: Gia công & Kiểm soát Chất lượng"
+      },
+      {
+        "type": "p",
+        "text": "Gia công được thực hiện trong ba giai đoạn: gia công thô đến gần kích thước cuối cùng, xử lý nhiệt nếu cần (giảm ứng suất, tôi và ram, thấm nitơ), và gia công chính xác cuối cùng. Mỗi giai đoạn được kiểm tra theo bản vẽ kỹ thuật. Rotor được cân bằng động theo tiêu chuẩn ISO 1940 / API 670 trước khi vận chuyển."
+      },
+      {
+        "type": "h2",
+        "text": "Các Tua-bin Chúng tôi Bao phủ"
+      },
+      {
+        "type": "p",
+        "text": "Chúng tôi đã kỹ thuật đảo ngược linh kiện cho tua-bin hơi nước từ 5 kW đến 60 MW trên tất cả các hãng lớn: Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, Chola Turbo, DLF-Skoda, KKK, và ABB. Cả tua-bin đối áp và ngưng hơi, nằm ngang và thẳng đứng, đơn và đa cấp."
+      },
+      {
+        "type": "cta",
+        "text": "Có phụ tùng ngừng sản xuất cần kỹ thuật đảo ngược? Gửi cho chúng tôi ảnh và chi tiết tua-bin của bạn qua WhatsApp — chúng tôi sẽ đánh giá tính khả thi trong vòng 24 giờ."
+      }
+    ]
+  },
+  "post_4": {
+    "id": "post_4",
+    "slug": "belliss-morcom-turbine-common-faults-india",
+    "title": "Các Lỗi Thường gặp của Tua-bin Belliss & Morcom — Hướng dẫn Thực địa cho Nhà máy Ấn Độ",
+    "excerpt": "Tua-bin hơi nước Belliss & Morcom được sử dụng rộng rãi trong các nhà máy đường và nhà máy đồng phát Ấn Độ. Đây là những lỗi phổ biến nhất mà kỹ sư từng làm việc tại OEM của chúng tôi gặp phải và cách chẩn đoán, sửa chữa chúng.",
+    "date": "2026-03-18",
+    "author": "Đội ngũ Kỹ thuật Keshav Enterprises",
+    "readTime": "Đọc 8 phút",
+    "tags": [
+      "Belliss & Morcom",
+      "Xử lý Sự cố",
+      "Tua-bin Hơi nước",
+      "Nhà máy Đường"
+    ],
+    "coverImage": "blog-belliss-morcom.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Tua-bin Belliss & Morcom (nay là Howden) được tìm thấy trong hàng trăm nhà máy đường, nhà máy đồng phát, và cơ sở công nghiệp Ấn Độ. Kỹ sư của chúng tôi đã làm việc trên các đơn vị Belliss hơn 20 năm khắp UP, Punjab, Maharashtra, và Karnataka. Đây là những lỗi chúng tôi gặp thường xuyên nhất — và cách đúng để chẩn đoán và giải quyết từng lỗi."
+      },
+      {
+        "type": "h2",
+        "text": "Lỗi 1: Rung động Cao ở Tốc độ Vận hành"
+      },
+      {
+        "type": "p",
+        "text": "Khiếu nại phổ biến nhất trên tua-bin Belliss là rung động tăng cao, thường được người vận hành phát hiện qua tiếng ồn tăng và được xác nhận bằng phân tích rung động di động. Các nguyên nhân gốc hàng đầu, theo thứ tự tần suất, là: (1) mất cân bằng rotor do tích tụ cặn trên cánh, (2) mòn ổ trục ngõng — đặc biệt sau các đợt chạy dài giữa các lần đại tu, và (3) lệch trục giữa tua-bin và hộp số do ứng suất đường ống hoặc lún móng."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Kiểm tra nhiệt độ ổ trục trước — nhiệt độ tăng cùng với rung động cao hầu như luôn cho thấy vấn đề về tình trạng ổ trục",
+          "Lấy số đọc rung động di động tại cả bốn vỏ ổ trục và so sánh với đường cơ sở (1× và 2× tốc độ vận hành)",
+          "Nếu 1X chi phối: mất cân bằng hoặc lệch trục. Nếu 2X chi phối: lỏng lẻo ổ trục hoặc lệch trục. Dưới đồng bộ: xoáy dầu",
+          "Kiểm tra khớp nối để tìm mòn và lắp ráp đúng trước khi kết luận lệch trục là vấn đề của tua-bin"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Lỗi 2: Bộ điều tốc Dao động / Mất ổn định Tốc độ"
+      },
+      {
+        "type": "p",
+        "text": "Tua-bin Belliss sử dụng bộ điều tốc quả văng ly tâm hoặc bộ điều tốc thủy lực tùy thuộc vào model và niên đại. Dao động tốc độ — vượt quá theo chu kỳ trên và dưới điểm đặt — thường do: chốt xoay và quả văng mòn trong bộ điều tốc ly tâm, cài đặt độ sụt sai, độ trễ cơ cấu chấp hành van điều khiển, hoặc dao động áp suất hơi từ nồi hơi vượt quá thẩm quyền của bộ điều tốc."
+      },
+      {
+        "type": "p",
+        "text": "Trước khi tháo bộ điều tốc, xác nhận áp suất cấp hơi ổn định. Nếu áp suất cấp dao động hơn ±0,5 bar, vòng điều khiển nồi hơi là vấn đề chính — bộ điều tốc không thể bù cho các dao động cấp lớn. Sau khi xác nhận độ ổn định của nồi hơi, chốt xoay bộ điều tốc và trọng lượng quả văng nên được kiểm tra mòn và thay thế nếu khe hở quá mức."
+      },
+      {
+        "type": "h2",
+        "text": "Lỗi 3: Rò rỉ Gland Hơi"
+      },
+      {
+        "type": "p",
+        "text": "Tua-bin Belliss sử dụng phớt gland mê cung và hệ thống hơi gland để kiểm soát rò rỉ ở đầu trục. Rò rỉ hơi có thể nhìn thấy tại khu vực gland trong vận hành bình thường cho thấy: dải mê cung mòn hoặc hỏng, cài đặt áp suất hơi gland sai, hoặc trục lệch tâm gây khe hở không đều quanh mê cung."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Đo độ lệch tâm trục tại khu vực gland bằng đồng hồ so — nếu độ đảo vượt quá 0,05 mm, phải đánh giá tình trạng rotor",
+          "Kiểm tra áp suất hơi gland so với điều kiện bão hòa — nước ngưng tụ trong đường cấp hơi gland gây ăn mòn mê cung nghiêm trọng",
+          "Thay dải mê cung là mục dừng máy theo kế hoạch — không cố gắng giảm khe hở bằng cách chêm dải tại chỗ"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Lỗi 4: Nhiệt độ Dầu Bôi trơn Cao hoặc Áp suất Thấp"
+      },
+      {
+        "type": "p",
+        "text": "Lỗi hệ thống dầu bôi trơn trên tua-bin Belliss chiếm nhiều trip ngoài kế hoạch hơn bất kỳ nguyên nhân nào khác. Nhiệt độ dầu cao (trên 55°C tại đầu vào ổ trục) thường có nghĩa là bộ làm mát dầu bôi trơn bị bám bẩn — làm sạch vỏ bộ làm mát và cụm ống. Trip áp suất dầu thấp xảy ra khi van xả áp cài đặt sai, chênh áp lọc cao (cần thay lõi), hoặc bơm dầu mòn và mất hiệu suất thể tích."
+      },
+      {
+        "type": "cta",
+        "text": "Cần kỹ sư từng làm việc tại Belliss & Morcom của chúng tôi cho đại tu, phân tích rung động, hoặc chẩn đoán lỗi khẩn cấp? Liên hệ chúng tôi qua WhatsApp để được phản hồi trong ngày."
+      }
+    ]
+  },
+  "post_5": {
+    "id": "post_5",
+    "slug": "iso-4406-lube-oil-cleanliness-guide",
+    "title": "Cách Đọc Báo cáo Độ sạch Dầu Bôi trơn ISO 4406 — Hướng dẫn cho Kỹ sư Bảo trì",
+    "excerpt": "Báo cáo đếm hạt ISO 4406 từ phòng thí nghiệm dầu thường bị hiểu sai. Hướng dẫn này giải thích chính xác ý nghĩa của các con số, cách đặt mục tiêu độ sạch cho hệ thống ổ trục tua-bin, và khi nào cần hành động.",
+    "date": "2026-04-05",
+    "author": "Đội ngũ Kỹ thuật Keshav Enterprises",
+    "readTime": "Đọc 6 phút",
+    "tags": [
+      "Dầu Bôi trơn",
+      "ISO 4406",
+      "Lọc",
+      "Bảo trì Dự đoán"
+    ],
+    "coverImage": "blog-iso-4406.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Mỗi tháng, hàng nghìn báo cáo phân tích dầu đến các văn phòng bảo trì nhà máy trên khắp Ấn Độ — và hầu hết chúng được lưu trữ mà không được hiểu. Mã độ sạch ISO 4406 là con số hữu ích nhất trong báo cáo đó. Hiểu sai gây tốn kém ổ trục. Hiểu đúng kéo dài tuổi thọ tua-bin."
+      },
+      {
+        "type": "h2",
+        "text": "Mã ISO 4406 Có Nghĩa là Gì?"
+      },
+      {
+        "type": "p",
+        "text": "Mã độ sạch ISO 4406:99 có ba con số, ví dụ 18/16/13. Mỗi con số là một \"mã dải\" đại diện cho số lượng hạt trên mỗi mililit dầu ở ba kích thước hạt khác nhau: 4 µm(c), 6 µm(c), và 14 µm(c). Hậu tố \"(c)\" có nghĩa là số đếm sử dụng hiệu chuẩn máy đếm hạt quang học theo ISO 11171 — không so sánh với các báo cáo cũ hơn sử dụng phương pháp chưa hiệu chuẩn."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Mã dải 14 = 80–160 hạt/mL",
+          "Mã dải 16 = 320–640 hạt/mL",
+          "Mã dải 18 = 1.280–2.560 hạt/mL",
+          "Mã dải 20 = 5.120–10.240 hạt/mL",
+          "Mỗi bước tăng = gấp đôi mức nhiễm bẩn"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Bạn Cần Mục tiêu Độ sạch Nào?"
+      },
+      {
+        "type": "p",
+        "text": "Đối với hệ thống ổ trục ngõng và dầu bôi trơn tua-bin hơi nước, mục tiêu thường là ISO 4406:99 Cấp 16/14/11 — đây là yêu cầu tối thiểu trong API 614. Nhiều OEM bao gồm Triveni và Siemens quy định 15/13/10 cho tua-bin có hệ thống điều khiển thủy lực. Sau đại tu lớn hoặc súc rửa dầu bôi trơn, hệ thống nên đạt 16/14/11 trước khi đổ dầu để ngăn ngừa hư hỏng nhiễm bẩn ổ trục trong quá trình tăng tốc."
+      },
+      {
+        "type": "h2",
+        "text": "Khi Nào Bạn Nên Hành động?"
+      },
+      {
+        "type": "p",
+        "text": "Nếu báo cáo phân tích dầu định kỳ của bạn hiển thị mã dải 6 µm(c) (số ở giữa) ở mức 17 hoặc cao hơn — cao hơn mục tiêu một bước — điều tra ngay lập tức. Kiểm tra chênh áp lọc (thay nếu gần 3,5–4 bar), kiểm tra tình trạng thở bể chứa, và lấy mẫu đầu vào và đầu ra của vỏ lọc riêng biệt để xác định nơi nhiễm bẩn đang xâm nhập. Nếu báo cáo hàm lượng nước cho thấy nhiều hơn 0,1% nước — thay lõi lọc và lên lịch chạy lọc ngoại tuyến WaterSorp."
+      },
+      {
+        "type": "h2",
+        "text": "Chi phí của Việc Bỏ qua Mã Đang Suy giảm"
+      },
+      {
+        "type": "p",
+        "text": "Hạt trong phạm vi 4–10 micron gây hại nhiều nhất — chúng có kích thước chính xác để xâm nhập vào màng dầu thủy động lực học giữa ngõng trục quay và bề mặt ổ trục Babbitt và gây mài mòn ba vật thể. Một tua-bin vận hành với mã độ sạch ISO 20/18/15 thay vì 16/14/11 có khoảng 100 lần nhiều hạt gây hại hơn mục tiêu. Bề mặt ổ trục suy giảm dần dần và hỏng hóc diễn ra từ từ cho đến khi không còn như vậy nữa — sau đó nó trở thành tình huống khẩn cấp 48 giờ và việc đổ lại Babbitt."
+      },
+      {
+        "type": "cta",
+        "text": "Chúng tôi cung cấp lõi lọc tuân thủ ISO 16889 cho tất cả các hãng tua-bin lớn và có thể tư vấn về súc rửa dầu bôi trơn để đạt cấp độ sạch chính xác trước lần khởi động tiếp theo của bạn. Liên hệ chúng tôi qua WhatsApp."
+      }
+    ]
+  },
+  "post_6": {
+    "id": "post_6",
+    "slug": "hvac-air-filter-selection-guide-industrial",
+    "title": "Hướng dẫn Chọn Bộ lọc Khí HVAC cho Cơ sở Công nghiệp — Từ F5 đến F9 và Mọi thứ ở Giữa",
+    "excerpt": "Bộ lọc túi, tấm xếp nếp, bộ lọc sơ bộ lưới kim loại, than hoạt tính — chọn sai cấp độ tốn tiền và gây rủi ro hư hỏng thiết bị. Hướng dẫn này giải thích bộ lọc HVAC nào nên dùng, ở đâu, và tại sao.",
+    "date": "2026-04-20",
+    "author": "Đội ngũ Kỹ thuật Keshav Enterprises",
+    "readTime": "Đọc 7 phút",
+    "tags": [
+      "HVAC",
+      "Lọc Không khí",
+      "Bộ lọc AHU",
+      "Bảo trì"
+    ],
+    "coverImage": "blog-hvac-filter-selection.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Bước vào bất kỳ nhà máy công nghiệp nào ở Ấn Độ — nhà máy đường, nhà máy dược phẩm, phòng điều khiển xi măng — và bạn sẽ tìm thấy các bộ xử lý không khí HVAC (AHU) âm thầm giữ cho con người và thiết bị nhạy cảm được an toàn. Đi xa hơn một chút và bạn sẽ thường thấy những AHU đó đang chạy với cấp bộ lọc sai, một túi bị tắc nghẽn được thay lần cuối cách đây hai năm, hoặc không có bộ lọc sơ bộ nào cả. Kết quả có thể đoán trước: tủ DCS đầy bụi, cuộn làm mát phủ nỉ xám, và hóa đơn tiền điện cao hơn 15–20% so với mức cần thiết."
+      },
+      {
+        "type": "h2",
+        "text": "Hiểu về Cấp Hiệu suất — EN 779 và ISO 16890"
+      },
+      {
+        "type": "p",
+        "text": "Hai tiêu chuẩn chi phối hiệu suất bộ lọc HVAC. EN 779 cũ hơn sử dụng cấp G1 đến F9 — cấp G (thô) bắt các hạt lớn, cấp M (trung bình) và F (mịn) bắt các hạt ngày càng nhỏ hơn. ISO 16890 mới hơn sử dụng phân loại dựa trên kích thước hạt: ePM10, ePM2.5, và ePM1, với hiệu suất bắt theo phần trăm. Nếu nhà cung cấp bộ lọc của bạn chỉ báo giá cấp EN 779, hãy hỏi hiệu suất ePM1 của ISO 16890 — đó là con số có ý nghĩa hơn cho chất lượng không khí."
+      },
+      {
+        "type": "list",
+        "items": [
+          "G1–G4 (ISO Coarse): Bắt xơ vải, sợi, côn trùng, bụi lớn — dùng làm bộ lọc sơ bộ và trong tấm lưới kim loại có thể rửa được",
+          "M5–M6 (ISO ePM10 ≥50%): Phấn hoa, bụi thô, cát — phù hợp cho thông gió công nghiệp không quan trọng",
+          "F7 (ISO ePM1 ≥50%): Tiêu chuẩn HVAC chung — mức tối thiểu cho văn phòng có người, phòng điều khiển, và AHU cấp cho thiết bị nhạy cảm",
+          "F8 (ISO ePM1 ≥70%): Cấp khu bệnh viện, khu chuẩn bị Cấp D dược phẩm",
+          "F9 (ISO ePM1 ≥85%): Bộ lọc sơ bộ trước HEPA cho phòng sạch và khu vực dược phẩm quan trọng"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Bước 1 — Bắt đầu với Bộ lọc Sơ bộ Lưới Kim loại (G1–G3)"
+      },
+      {
+        "type": "p",
+        "text": "Mọi AHU trong môi trường công nghiệp nặng — nhà máy xi măng, nhà máy điện, nhà máy thép — nên có bộ lọc sơ bộ lưới nhôm hoặc SS có thể rửa được ở giai đoạn đầu tiên. Chi phí: vài trăm rupee. Lợi ích: bộ lọc túi hoặc xếp nếp phía sau kéo dài tuổi thọ 2–3 lần vì nó không bao giờ phải xử lý tải thô. Lưới nhôm chịu nhiệt độ đến 150°C; lưới SS đến 350°C. Làm sạch bằng khí nén thổi ngược hoặc nước ấm mỗi 4–6 tuần."
+      },
+      {
+        "type": "h2",
+        "text": "Bước 2 — Chọn Bộ lọc Chính của Bạn: Túi hay Tấm Xếp nếp?"
+      },
+      {
+        "type": "p",
+        "text": "Cả bộ lọc túi và bộ lọc tấm xếp nếp đều có sẵn từ G4 đến F9, nhưng chúng phù hợp với các cấu hình AHU khác nhau. Bộ lọc túi (đa túi) có diện tích vật liệu lớn hơn và tuổi thọ dài hơn trong môi trường bụi cao — các túi kéo dài vào luồng không khí, tối đa hóa diện tích tiếp xúc. Chúng là lựa chọn tiêu chuẩn cho AHU công nghiệp lớn, tòa nhà thương mại, và bệnh viện. Bộ lọc tấm xếp nếp nhỏ gọn hơn (sâu 25–96 mm so với chiều dài túi 600 mm) và cứng, khiến chúng trở thành lựa chọn ưu tiên cho quạt dàn lạnh (FCU), điều hòa split, và AHU luồng khí thẳng đứng nơi không gian hạn chế."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Bộ lọc túi: tải bụi cao, AHU lớn, F5–F9, 3.000–5.000 m³/h+ mỗi phần",
+          "Tấm xếp nếp (25 mm): thay thế FCU/điều hòa split, G4–F7, luồng khí thẳng đứng gọn nhẹ",
+          "Tấm xếp nếp (96 mm): AHU cỡ vừa, F7–F8, kết cấu cứng — không có rủi ro sụp túi",
+          "Tấm xếp nếp (292 mm mở rộng): Hiệu suất cao giai đoạn cuối trong HVAC dược phẩm, F8–F9"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Bước 3 — Thêm Than Hoạt tính để Kiểm soát Mùi"
+      },
+      {
+        "type": "p",
+        "text": "Nếu cơ sở của bạn có vấn đề về mùi — nhà bếp, kho hóa chất, xưởng sơn, nhà in, hoặc bất kỳ khu vực nào có phát thải VOC — bộ lọc hạt đơn thuần sẽ không giải quyết được vấn đề. Than hoạt tính (GAC) hấp phụ mùi nấu ăn, dung môi, hydro sulfua, formaldehyde, và hầu hết các VOC công nghiệp thông thường. Trong ứng dụng HVAC, than hoạt tính thường được cung cấp dưới dạng bộ lọc tấm với lớp than hạt 25–50 mm, hoặc dưới dạng bộ lọc kết hợp với bộ lọc sơ bộ hạt G4 gắn với lớp than. Tấm than được đặt sau bộ lọc hạt trong luồng không khí — đặt nó trước sẽ lãng phí công suất than đắt tiền vào tải bụi."
+      },
+      {
+        "type": "h2",
+        "text": "Cách Xác định Khoảng thời gian Thay thế Bộ lọc"
+      },
+      {
+        "type": "p",
+        "text": "Thực hành tốt nhất duy nhất là lắp đồng hồ chênh áp (DP) trên mỗi giai đoạn lọc và thay thế ở độ sụt áp cuối cùng 250 Pa — không theo lịch trình theo lịch. Thay thế theo lịch lãng phí bộ lọc còn sử dụng được; chạy đến khi hỏng khiến bộ lọc sụp hoặc bypass, làm nhiễm bẩn cuộn AHU với mọi thứ mà nó lẽ ra phải bắt được. Nếu đồng hồ DP không khả thi, thay thế mỗi 3 tháng trong môi trường công nghiệp nặng (xi măng, điện, thép), mỗi 6 tháng trong công nghiệp nhẹ, và hàng năm trong môi trường thương mại sạch — điều chỉnh dựa trên kiểm tra trực quan."
+      },
+      {
+        "type": "cta",
+        "text": "Chúng tôi cung cấp bộ lọc túi HVAC, bộ lọc tấm xếp nếp, bộ lọc sơ bộ lưới kim loại, và bộ lọc thông gió than hoạt tính cho AHU công nghiệp và thương mại trên khắp Ấn Độ. Liên hệ chúng tôi qua WhatsApp với hãng, model, và kích thước khung AHU của bạn để được báo giá thay thế phù hợp."
+      }
+    ]
+  },
+  "post_7": {
+    "id": "post_7",
+    "slug": "pulse-jet-dust-collector-filter-bag-selection",
+    "title": "Cách Chọn Túi Lọc Bụi Kiểu Pulse-Jet Phù hợp — Hướng dẫn Vật liệu, Hoàn thiện & Chống Tĩnh điện cho Nhà máy Ấn Độ",
+    "excerpt": "Chọn sai vật liệu túi lọc cho baghouse của bạn — sai định mức nhiệt độ, sai xử lý bề mặt, hoặc thiếu chống tĩnh điện — khiến kỹ sư nhà máy tốn hàng tuần ngừng hoạt động và thay thế khẩn cấp tốn kém. Đây là hướng dẫn chọn lựa đầy đủ.",
+    "date": "2026-05-01",
+    "author": "Đội ngũ Kỹ thuật Keshav Enterprises",
+    "readTime": "Đọc 8 phút",
+    "tags": [
+      "Máy Lọc Bụi",
+      "Túi Lọc",
+      "Baghouse",
+      "Lọc Công nghiệp",
+      "Xi măng",
+      "HVAC"
+    ],
+    "coverImage": "blog-dust-collector-filter-bag.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Baghouse pulse-jet là những cỗ máy chủ lực của kiểm soát bụi công nghiệp trên khắp Ấn Độ — nhà máy xi măng, hệ thống xử lý than, nhà máy xay xát ngũ cốc, chế biến bột dược phẩm, và nhà máy hóa chất đều phụ thuộc vào chúng để đáp ứng tiêu chuẩn phát thải và bảo vệ công nhân. Tuy nhiên việc chọn túi lọc thay thế vẫn thường được thực hiện theo thói quen (\"giống như trước\") thay vì kỹ thuật. Khi túi \"giống như trước\" sai cho ứng dụng, bộ mới sẽ hỏng nhanh như bộ cuối cùng."
+      },
+      {
+        "type": "h2",
+        "text": "Bước 1 — Biết Nhiệt độ Khí thải của Bạn"
+      },
+      {
+        "type": "p",
+        "text": "Nhiệt độ là thông số chọn lựa quan trọng nhất và là nguyên nhân phổ biến nhất gây hỏng túi sớm. Mỗi loại vật liệu có giới hạn nhiệt độ dịch vụ liên tục và giới hạn nhiệt độ đỉnh (tăng vọt). Vượt quá giới hạn liên tục dù chỉ 10–15°C cắt giảm tuổi thọ lọc 50% hoặc hơn thông qua thủy phân (trong khí thải ẩm) hoặc oxy hóa (trong khí khô có chứa oxy)."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Nỉ kim polyester: liên tục 130°C, đỉnh 150°C — bụi công nghiệp chung, ứng dụng nhiệt độ môi trường đến thấp",
+          "Nỉ polypropylene: liên tục 90°C, đỉnh 110°C — môi trường khí axit, nhà máy hóa chất (chống axit tốt hơn polyester, nhiệt độ thấp hơn)",
+          "Aramid / Nomex: liên tục 200°C, đỉnh 220°C — khí thải lò nung, nhà máy nhựa đường, lò nung thủy tinh, đầu ra máy sấy",
+          "PPS (Ryton): liên tục 190°C, đỉnh 210°C — kết hợp axit + nhiệt (khí thải chứa lưu huỳnh từ đốt than)",
+          "Sợi thủy tinh dệt: liên tục 260°C, đỉnh 280°C — nguyên liệu thô lò nung xi măng, đốt rác thải, khí quy trình nhiệt độ cao",
+          "Màng PTFE trên bất kỳ vật liệu nền nào: định mức nhiệt độ giống vật liệu nền + bánh bụi dư gần như bằng không — hiệu suất làm sạch cao nhất"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Bước 2 — Túi Trơn hay Hộp Xếp nếp?"
+      },
+      {
+        "type": "p",
+        "text": "Baghouse pulse-jet tiêu chuẩn sử dụng túi lọc hình trụ — bề mặt ngoài trơn — được đỡ trên lồng kim loại. Đây là lựa chọn đúng cho các ứng dụng tải bụi cao: xi măng, tro bay, than, chế biến khoáng sản. Bề mặt ngoài trơn cho phép cú sốc khí nén pulse-jet đẩy bánh bụi ra hiệu quả. Các phần tử hộp xếp nếp — vật liệu xếp nếp accordion quanh lõi đục lỗ — cung cấp diện tích lọc gấp đến 5 lần trong cùng diện tích vỏ, nhưng phù hợp hơn với tải bụi nhẹ hơn trong các ứng dụng dược phẩm, thực phẩm, và hóa chất nhẹ nơi diện tích vật liệu lớn hơn cho phép tốc độ bề mặt thấp hơn và độ sụt áp dư rất thấp."
+      },
+      {
+        "type": "h2",
+        "text": "Bước 3 — Xử lý Bề mặt: Trơn, Đốt xém, Cán bóng, hay Màng PTFE?"
+      },
+      {
+        "type": "p",
+        "text": "Xử lý bề mặt ngoài của túi nỉ kim quyết định bánh bụi giải phóng tốt như thế nào trong quá trình làm sạch pulse-jet và túi chống lại tình trạng bịt kín (tắc nghẽn vĩnh viễn) trong bao lâu. Nỉ trơn có bề mặt sợi thô — đủ cho bụi thô, khô, không dính. Nỉ đốt xém có các sợi bề mặt được loại bỏ bằng nhiệt, tạo ra bề mặt mịn hơn — cải thiện việc giải phóng bánh cho hầu hết bụi công nghiệp. Nỉ cán bóng được ép nóng để làm mịn và làm đặc thêm bề mặt — tốt nhất cho bụi mịn, kết dính, hoặc hơi dính như bột dược phẩm hoặc xi măng mịn. Màng PTFE dán vào bề mặt ngoài — tùy chọn cao cấp — cung cấp lọc bề mặt. Bụi tạo thành một lớp bánh mỏng trên PTFE trơn và giải phóng hoàn toàn với mỗi xung, duy trì độ sụt áp gần như ban đầu trong suốt tuổi thọ túi. Hiệu suất phát thải cũng vượt trội, thường đạt nồng độ bụi đầu ra 2–5 mg/Nm³ so với 20–50 mg/Nm³ cho nỉ trơn."
+      },
+      {
+        "type": "h2",
+        "text": "Bước 4 — Túi Chống Tĩnh điện và Dẫn điện cho Bụi Dễ nổ"
+      },
+      {
+        "type": "p",
+        "text": "Đối với các ứng dụng máy lọc bụi xử lý bụi có điện trở cao có thể tích tụ điện tích tĩnh — than, ngũ cốc, bột mì, bột dược phẩm, bột polymer — túi polyester tiêu chuẩn là nguy cơ cháy nổ. Bánh bụi trên túi polyester trơn có thể phát triển phóng điện tĩnh (tia lửa) đủ năng lượng để đốt cháy đám mây bụi trong buồng đầu ra. Túi chống tĩnh điện sử dụng một trong hai phương pháp: (1) sợi carbon trộn vào vật liệu polyester — sợi dẫn điện liên tục tiêu tán điện tích; (2) sợi thép không gỉ dệt vào nỉ kim ở mức 1–3% trọng lượng — cung cấp cả khả năng tiêu tán tĩnh điện và độ bền được cải thiện. Luôn chỉ định túi chống tĩnh điện (dẫn điện) cho bụi than, bụi ngũ cốc, bột mì, và bất kỳ bột nào có giá trị Kst trên không."
+      },
+      {
+        "type": "h2",
+        "text": "Khớp Kích thước Túi với Lồng của Bạn"
+      },
+      {
+        "type": "p",
+        "text": "Túi lọc thay thế phải khớp chính xác với đường kính và chiều dài lồng hiện có — ngay cả chênh lệch đường kính 5 mm cũng ngăn cản việc bịt kín đúng tại vòng chốt trên cùng. Trước khi đặt hàng, hãy đo: đường kính ngoài của miệng túi (OD dải chốt), chiều dài túi từ mặt vòng chốt đến đáy đóng, và loại nắp đầu (vòng chốt, dải chốt, hoặc mặt bích). Nếu nhãn túi OEM gốc vẫn còn đọc được, ghi lại số bộ phận — điều này xác định chính xác hình học lồng. Nếu nhãn đã mất, kéo một lồng ra khỏi vỏ, đo nó, và cung cấp các kích thước này với đơn đặt hàng của bạn."
+      },
+      {
+        "type": "cta",
+        "text": "Chúng tôi cung cấp túi lọc pulse-jet bằng polyester, aramid, PPS, sợi thủy tinh, và cấp màng PTFE, cùng với các phần tử hộp xếp nếp, cho baghouse xi măng, điện, dược phẩm, và xử lý ngũ cốc trên khắp Ấn Độ. Gửi cho chúng tôi kích thước túi và chi tiết ứng dụng của bạn qua WhatsApp để được báo giá trong ngày."
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+---
+// src/pages/[locale]/services/[slug].astro — same shape as
+// [locale]/products/[slug].astro: the underlying page reads `service` from
+// its own getStaticPaths props, so this wrapper must replicate the props.
+// 16 non-default locales × 7 services = 112 pages.
+import ServiceDetailPage from "../../services/[slug].astro";
+import type { Service } from "../../../data/services";
+import { SERVICES as SERVICES_EN } from "../../../data/services";
+import { LOCALES, DEFAULT_LOCALE } from "../../../lib/i18n";
+import { getPathByLocale } from "astro:i18n";
+
+export function getStaticPaths() {
+  const locales = LOCALES.filter((locale) => locale !== DEFAULT_LOCALE);
+  return locales.flatMap((locale) =>
+    SERVICES_EN.map((service) => ({
+      params: { locale: getPathByLocale(locale), slug: service.slug },
+      props: { service },
+    })),
+  );
+}
+
+const { service } = Astro.props as { service: Service };
+---
+
+<ServiceDetailPage service={service} />

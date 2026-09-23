@@ -1,0 +1,87 @@
+---
+// src/components/EnglishOnlyNotice.astro
+// Part 1, step 5: terms-of-service.astro and privacy-policy.astro are
+// deliberately staying English-only across every locale (existing Phase 4
+// decision — legal text doesn't get machine/AI-assisted translation without
+// a human legal review pass, which is out of scope here). Rather than
+// silently serving English with zero explanation to a visitor who arrived
+// from e.g. /hi/, this shows a small notice — but only when there's actual
+// evidence the visitor was just on a Tier-1 locale page.
+//
+// Both host pages are unprefixed routes (no [locale] wrapper — see Part 1,
+// step 5 "OUT of scope" note), so Astro.currentLocale is always "en" here;
+// there's no server-side signal for what locale the visitor was just
+// looking at. document.referrer is the only signal available, so this is a
+// client-side check, hidden by default, revealed only on a same-origin
+// referrer whose first path segment matches a real locale path segment —
+// not a guess based on Accept-Language or geo, which would false-positive
+// for plenty of English-preferring visitors.
+import { LOCALES, DEFAULT_LOCALE } from "../lib/i18n";
+import { getPathByLocale } from "astro:i18n";
+
+// Path segments, not locale codes — for zh-CN specifically these differ
+// (see astro.config.mjs), and it's the URL segment that shows up in
+// document.referrer.
+const localePaths = LOCALES.filter((locale) => locale !== DEFAULT_LOCALE).map((locale) =>
+  getPathByLocale(locale),
+);
+---
+
+<div
+  id="english-only-notice"
+  class="hidden mb-8 items-start gap-3 rounded-xl border border-amber-300 bg-amber-50 px-5 py-4 text-sm text-amber-900"
+  role="status"
+>
+  <svg
+    class="w-5 h-5 text-amber-500 shrink-0 mt-0.5"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    aria-hidden="true"
+  >
+    <circle cx="12" cy="12" r="10"></circle>
+    <path d="M12 16v-4M12 8h.01"></path>
+  </svg>
+  <p class="leading-relaxed">
+    This page is available in English only.
+    <a
+      id="english-only-notice-back"
+      href="/"
+      class="font-bold underline hover:no-underline focus:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 rounded"
+      >Return to the rest of the site in your language</a
+    >.
+  </p>
+</div>
+
+<script is:inline define:vars={{ localePaths }}>
+  (function () {
+    try {
+      const ref = document.referrer;
+      if (!ref) return;
+      const refUrl = new URL(ref);
+      if (refUrl.origin !== window.location.origin) return;
+      const firstSegment = refUrl.pathname.split("/").filter(Boolean)[0];
+      if (!firstSegment) return;
+      let matchedPath = null;
+      for (let i = 0; i < localePaths.length; i++) {
+        if (localePaths[i].toLowerCase() === firstSegment.toLowerCase()) {
+          matchedPath = localePaths[i];
+          break;
+        }
+      }
+      if (!matchedPath) return;
+      const notice = document.getElementById("english-only-notice");
+      const backLink = document.getElementById("english-only-notice-back");
+      if (backLink) backLink.setAttribute("href", "/" + matchedPath + "/");
+      if (notice) {
+        notice.classList.remove("hidden");
+        notice.classList.add("flex");
+      }
+    } catch {
+      // document.referrer / new URL() can throw or be unavailable (private
+      // browsing, some extensions, direct navigation) — fail silently, the
+      // English content itself is unaffected either way.
+    }
+  })();
+</script>

@@ -1,0 +1,90 @@
+---
+// src/pages/projects/index.astro
+// Ported from ProjectGalleryPage in App.jsx (line ~25391).
+import Layout from "../../layouts/Layout.astro";
+import ProjectsFilter from "../../components/islands/ProjectsFilter.jsx";
+import type { CaseStudy } from "../../data/case-studies";
+import { YEARS_IN_BUSINESS } from "../../data/site-config";
+import { getLocalizedList } from "../../lib/i18n";
+
+const locale = Astro.currentLocale ?? "en";
+const CASE_STUDIES = getLocalizedList<CaseStudy>("case-studies", locale);
+
+const SITE_URL = "https://www.keshavturbotech.com";
+const PROJECTS_LIST_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": `${SITE_URL}/projects`,
+  name: "Projects & Case Studies",
+  url: `${SITE_URL}/projects`,
+  hasPart: CASE_STUDIES.map((cs) => ({
+    "@type": "Article",
+    headline: cs.title,
+    url: `${SITE_URL}/projects/${cs.id}`,
+  })),
+};
+---
+
+<Layout
+  title="Projects & Case Studies — Field-Proven Turbine Solutions"
+  description="Real-world case studies: turbine overhauls, reverse engineering, erection & commissioning, lube oil flushing, and precision alignment by Keshav Enterprises."
+  keywords="turbine overhaul case study India, turbine engineering project, steam turbine commissioning, reverse engineering case study, lube oil flushing project, Keshav Enterprises projects"
+  canonicalPath="/projects"
+  jsonLd={PROJECTS_LIST_SCHEMA}
+>
+  <div class="bg-[#0A192F] text-white pt-24 pb-16 relative border-b-8 border-blue-600">
+    <div
+      class="absolute inset-0 opacity-10 pointer-events-none"
+      style="background-image:linear-gradient(to right,#4f4f4f2e 1px,transparent 1px),linear-gradient(to bottom,#4f4f4f2e 1px,transparent 1px);background-size:4rem 4rem;"
+      aria-hidden="true"
+    >
+    </div>
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center gap-4 mb-6">
+        <div
+          class="w-16 h-16 rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center"
+        >
+          <svg
+            class="w-8 h-8 text-blue-400"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"
+            ><rect x="2" y="7" width="20" height="14" rx="2"></rect><path
+              d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"></path></svg
+          >
+        </div>
+        <div>
+          <p class="text-blue-400 font-black text-xs uppercase tracking-widest mb-1">
+            Field-Proven Work
+          </p>
+          <h1 class="text-4xl md:text-5xl font-black tracking-tight">
+            Projects &amp; Case Studies
+          </h1>
+        </div>
+      </div>
+      <p class="text-slate-300 font-medium text-lg max-w-2xl leading-relaxed">
+        Documented outcomes from turbine overhauls, precision reverse engineering, greenfield
+        commissioning, and diagnostic jobs — across sugar mills, power plants, paper mills, steel
+        plants, and cement factories.
+      </p>
+      <div class="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-4">
+        {
+          [
+            { val: `${CASE_STUDIES.length}`, label: "Documented Case Studies" },
+            { val: "500+", label: "Turbines Serviced" },
+            { val: `${YEARS_IN_BUSINESS}+`, label: "Years Experience" },
+            { val: "24/7", label: "Emergency Response" },
+          ].map(({ val, label }) => (
+            <div class="bg-white/[0.07] border border-white/[0.14] rounded-xl px-5 py-4">
+              <p class="text-2xl font-black text-blue-400">{val}</p>
+              <p class="text-white/80 font-semibold text-sm mt-0.5">{label}</p>
+            </div>
+          ))
+        }
+      </div>
+      <ProjectsFilter client:load caseStudies={CASE_STUDIES} locale={locale} />
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "Contact Engineering Team — Request a Technical Quote",
+    "description": "Contact Keshav Enterprises for turbine engineering RFQs, reverse engineering quotes, and 24x7 emergency breakdown support — serving pan-India and clients worldwide. Phone: +91 9149229448.",
+    "schemaName": "Contact Keshav Enterprises"
+  },
+  "hero": {
+    "title": "Talk to an Engineer",
+    "subtitle": "Share your requirements and our ex-OEM engineering team will respond with a technical answer within 24 hours.",
+    "trustSignals": [
+      "Confidential RFQ — never shared with OEM reps",
+      "No obligation — you decide what's next",
+      "24-hour planned · 1-hour emergency"
+    ]
+  },
+  "cards": {
+    "directLines": {
+      "title": "Direct Lines",
+      "salesLabel": "Sales & RFQ",
+      "emergencyLabel": "24×7 Emergency Breakdown",
+      "whatsappCta": "WhatsApp this line",
+      "whatsappPrefillMessage": "Hi, I need emergency breakdown support for my turbine."
+    },
+    "email": {
+      "title": "Email (RFQs)"
+    },
+    "facilityAddress": {
+      "title": "Facility Address"
+    },
+    "officeHours": {
+      "title": "Office Hours",
+      "mondaySaturdayLabel": "Monday – Saturday",
+      "mondaySaturdayValue": "9:00 AM – 6:00 PM IST",
+      "sundayLabel": "Sunday",
+      "sundayValue": "Closed (emergency only)",
+      "emergencyLineLabel": "Emergency Line",
+      "emergencyLineValue": "24 × 7 Active"
+    },
+    "indiamart": {
+      "ariaLabel": "View Keshav Enterprises on IndiaMART",
+      "title": "IndiaMART Verified",
+      "ratingSrOnly": "4.3 out of 5 stars",
+      "ratingText": "4.3/5 Rating",
+      "trustSeal": "TrustSeal Supplier"
+    },
+    "connect": {
+      "label": "Connect With Us"
+    }
+  },
+  "formSection": {
+    "heading": "Get Your Free Technical Quote",
+    "subheading": "Your enquiry goes directly to our lead engineer, who sends a technical response instead of a sales script. Includes a free review of your turbine's last oil analysis report."
+  },
+  "googleBusiness": {
+    "title": "Find Us on Google Business",
+    "descriptionPrefix": "Search",
+    "descriptionQuoted": "Keshav Enterprises Shamli",
+    "descriptionSuffix": "on Google Maps — view our profile, get directions, or leave a review to help other buyers find us.",
+    "cta": "View on Google"
+  },
+  "facilityPhoto": {
+    "caption": "Our Manufacturing Facility, Shamli, U.P.",
+    "alt": "Keshav Enterprises manufacturing facility — Shamli, Uttar Pradesh"
+  },
+  "map": {
+    "heading": "Our Manufacturing Facility — Shamli, U.P.",
+    "iframeTitle": "Keshav Enterprises location map",
+    "googleBusinessCta": "Google Business",
+    "directionsCta": "Get Directions"
+  },
+  "form": {
+    "riskReversal": [
+      {
+        "title": "No obligation whatsoever",
+        "sub": "We respond with a technical answer. You decide what happens next — no follow-up pressure."
+      },
+      {
+        "title": "Your RFQ stays confidential",
+        "sub": "We never share your plant details with third parties — not even with OEM representatives."
+      },
+      {
+        "title": "An engineer responds, not a salesperson",
+        "sub": "Someone who has worked on your turbine type gives you a real technical answer."
+      },
+      {
+        "title": "Not the right fit? We'll say so first",
+        "sub": "If your job is outside our scope, we tell you upfront — no runaround, no wasted time."
+      }
+    ],
+    "inquiryTypes": [
+      "Turbine Overhauling Service",
+      "Emergency Breakdown Support",
+      "Turbine Erection & Commissioning",
+      "Reverse Engineering",
+      "Dynamic Balancing",
+      "Lube Oil Flushing",
+      "Machine Alignment",
+      "Troubleshooting",
+      "Sand Blasting",
+      "Filter Element RFQ",
+      "HVAC, Ducting & Air Filtration RFQ",
+      "Turbine Spares RFQ",
+      "Valves, Gaskets & Steam System RFQ",
+      "Expansion Joint RFQ",
+      "Strainer RFQ",
+      "General Inquiry"
+    ],
+    "officeStatus": {
+      "online": "Engineers online now — reply within 2 hrs",
+      "offline": "Emergency line active 24×7 — planned RFQs answered by 9 AM IST"
+    },
+    "labels": {
+      "yourName": "Your Name",
+      "companyName": "Company Name",
+      "email": "Email",
+      "phone": "Phone",
+      "inquiryType": "Inquiry Type",
+      "turbineMakeModel": "Turbine Make / Model",
+      "details": "Details",
+      "attachments": "Attach Technical Drawings / Datasheet (optional)"
+    },
+    "placeholders": {
+      "yourName": "Full name",
+      "companyName": "Your company",
+      "email": "you@company.com",
+      "phone": "98000 00000",
+      "inquiryTypeSelect": "Select an inquiry type…",
+      "turbineMakeModel": "e.g. Triveni 5 MW, back-pressure",
+      "details": "Describe your requirement, symptoms, timeline, or specifications…"
+    },
+    "attachmentsHelp": "PDF, DWG, DXF, JPG, PNG — max 10 MB per file. Helps us respond faster with a more accurate quote.",
+    "charCounter": {
+      "minRequired": "Minimum 20 characters required",
+      "moreNeededOne": "{n} more character needed",
+      "moreNeededMany": "{n} more characters needed",
+      "looksGood": "✓ Looks good!"
+    },
+    "errors": {
+      "yourName": "Your name is required",
+      "companyName": "Company name is required",
+      "email": "Valid email is required",
+      "phone": "Valid phone number required (10+ digits)",
+      "inquiryType": "Please select an inquiry type",
+      "details": "Please provide details (min 20 characters)",
+      "attachmentTooLarge": "\"{filename}\" is over the 10 MB limit — please attach a smaller file",
+      "rateLimited": "Too many submissions. Please wait an hour before trying again.",
+      "securityCheck": "Please complete the security check.",
+      "notConfigured": "Form not configured — please contact us directly via WhatsApp or phone.",
+      "submissionFailedGeneric": "Submission failed. Please try again.",
+      "submissionFailedBanner": "Submission failed — please try again or reach us directly:",
+      "whatsappFallback": "WhatsApp",
+      "whatsappFallbackPrefillMessage": "Hi, I tried submitting the contact form but it failed. Can you help?"
+    },
+    "buttons": {
+      "sendingToEngineer": "Sending to Engineering Team...",
+      "sendToEngineer": "Send to Our Lead Engineer",
+      "sendToEngineerSub": "Get a technical answer, not a brochure",
+      "sendingShort": "Sending…",
+      "submitWithDrawings": "Submit RFQ with Technical Drawings",
+      "submitWithDrawingsSub": "Because not everyone uses WhatsApp"
+    },
+    "footerNote": {
+      "text": "We respond within 1 business day · No spam ·",
+      "privacyPolicyLink": "Privacy Policy"
+    },
+    "success": {
+      "heading": "Inquiry sent to our engineers.",
+      "bodyPrefix": "Expect a technical response within",
+      "bodyMid": "for planned inquiries, or",
+      "bodySuffix": "for emergency breakdowns — from an engineer, not a call centre.",
+      "hours24": "24 hours",
+      "hour1": "1 hour",
+      "resendCta": "Send another inquiry",
+      "whileYouWaitLabel": "While you wait —",
+      "whileYouWaitText": "browse our documented case studies and field results.",
+      "viewCaseStudiesCta": "View Case Studies"
+    }
+  }
+}

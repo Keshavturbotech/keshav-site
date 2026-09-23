@@ -1,0 +1,29 @@
+{
+  "/": {
+    "label": "หน้าแรก"
+  },
+  "/about": {
+    "label": "เกี่ยวกับเรา"
+  },
+  "/services": {
+    "label": "บริการ"
+  },
+  "/products": {
+    "label": "สินค้า"
+  },
+  "/industries": {
+    "label": "อุตสาหกรรม"
+  },
+  "/contact": {
+    "label": "ติดต่อ"
+  },
+  "/projects": {
+    "label": "โครงการ"
+  },
+  "/blog": {
+    "label": "บทความ"
+  },
+  "/downloads": {
+    "label": "ดาวน์โหลด"
+  }
+}

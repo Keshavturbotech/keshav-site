@@ -1,0 +1,15 @@
+---
+// src/pages/[locale]/services/index.astro — reads Astro.currentLocale
+// directly, no props to thread. Same pattern as [locale]/products/index.astro.
+import ServicesPage from "../../services/index.astro";
+import { LOCALES, DEFAULT_LOCALE } from "../../../lib/i18n";
+import { getPathByLocale } from "astro:i18n";
+
+export function getStaticPaths() {
+  return LOCALES.filter((locale) => locale !== DEFAULT_LOCALE).map((locale) => ({
+    params: { locale: getPathByLocale(locale) },
+  }));
+}
+---
+
+<ServicesPage />

@@ -1,0 +1,11 @@
+{
+  "/": { "label": "गृहपृष्ठ" },
+  "/about": { "label": "हाम्रोबारे" },
+  "/services": { "label": "सेवाहरू" },
+  "/products": { "label": "उत्पादनहरू" },
+  "/industries": { "label": "उद्योगहरू" },
+  "/contact": { "label": "सम्पर्क गर्नुहोस्" },
+  "/projects": { "label": "परियोजनाहरू" },
+  "/blog": { "label": "ब्लग" },
+  "/downloads": { "label": "डाउनलोडहरू" }
+}

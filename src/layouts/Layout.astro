@@ -1,0 +1,502 @@
+---
+// src/layouts/Layout.astro
+// Ported from index_updated.html. Per-page values are now PROPS instead of
+// hardcoded — every route passes its own title/description/canonical/JSON-LD,
+// which is the core SEO fix this migration delivers (every page individually
+// indexable with correct metadata, instead of one static <head> for all hash routes).
+
+import Navbar from "../components/islands/Navbar.jsx";
+import Footer from "../components/Footer.astro";
+import DigitalProfilesStrip from "../components/DigitalProfilesStrip.astro";
+import CookieConsentBanner from "../components/islands/CookieConsentBanner.jsx";
+import WhatsAppBubble from "../components/islands/WhatsAppBubble.jsx";
+import MobileStickyCTA from "../components/islands/MobileStickyCTA.jsx";
+import BackToTopButton from "../components/islands/BackToTopButton.jsx";
+import ExitIntentReviewPopup from "../components/islands/ExitIntentReviewPopup.jsx";
+import AnalyticsLoader from "../components/islands/AnalyticsLoader.jsx";
+import { getLocalizedData, getLocalizedList, LOCALES, DEFAULT_LOCALE } from "../lib/i18n";
+import { buildSeoTitle, buildSeoDescription } from "../lib/seo";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import type { Service } from "../data/services";
+import type { Product } from "../data/products";
+import "../styles/global.css";
+
+// RTL locales among the 17 Tier-1 codes. Only Arabic today, but kept as a
+// list (not a single check) since future Tier-1 additions (e.g. Urdu, Farsi)
+// would also be RTL.
+const RTL_LOCALES = new Set(["ar"]);
+
+// ── SECURITY: Content-Security-Policy ──────────────────────────────────────
+// Ported from App.jsx's runtime-injected CSP (line ~8869). CHANGE FROM
+// ORIGINAL: that version injected this <meta> tag via JavaScript after the
+// component mounted — meaning the very first paint of every page had zero
+// CSP protection while the JS bundle loaded. Here it's server-rendered
+// directly into the HTML response, so it's active before a single script
+// runs. The matching HTTP-header version lives in /public/_headers for
+// defense-in-depth (a meta tag can't cover early-loading network requests
+// the way a real response header can).
+const CSP_DIRECTIVES = [
+  "default-src 'self'",
+  "script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com https://www.googletagmanager.com https://www.clarity.ms https://scripts.clarity.ms https://cdn.clarity.ms https://translate.googleapis.com https://translate.google.com https://translate-pa.googleapis.com https://www.gstatic.com",
+  "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://translate.googleapis.com https://www.gstatic.com",
+  "font-src 'self' https://fonts.gstatic.com https://www.gstatic.com",
+  "img-src 'self' data: https: blob:",
+  "frame-src https://challenges.cloudflare.com https://maps.google.com https://www.google.com https://translate.google.com",
+  "connect-src 'self' https://api.web3forms.com https://open.er-api.com https://www.google-analytics.com https://region1.google-analytics.com https://www.clarity.ms https://scripts.clarity.ms https://translate.googleapis.com https://translate-pa.googleapis.com https://www.gstatic.com",
+  "upgrade-insecure-requests",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'self' https://api.web3forms.com",
+].join("; ");
+
+interface Props {
+  title: string;
+  description: string;
+  keywords?: string;
+  ogImage?: string;
+  canonicalPath?: string; // e.g. "/about" — defaults to current URL
+  jsonLd?: object | object[]; // page-specific structured data (Service, Product, FAQPage, etc.)
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description,
+  keywords,
+  ogImage = "/og-image.webp",
+  canonicalPath,
+  jsonLd,
+  noindex = false,
+} = Astro.props;
+
+const SITE_URL = "https://www.keshavturbotech.com";
+
+// `canonicalPath` is always passed by pages as the locale-agnostic path
+// (e.g. "/about", "/products/foo-bar") — never a locale-prefixed one. This
+// is what makes it possible to build correct hreflang + self-canonical for
+// every locale from a single prop. Astro.url.pathname is only a fallback
+// for pages that don't pass canonicalPath at all; it may already contain a
+// locale prefix (which is fine as a fallback, just not used for hreflang).
+const localeAgnosticPath = canonicalPath ?? Astro.url.pathname;
+const currentLocale = Astro.currentLocale ?? DEFAULT_LOCALE;
+const isRTL = RTL_LOCALES.has(currentLocale);
+
+// Self-referential canonical: each locale canonicals to ITS OWN URL, never
+// back to English (Phase 3, item 3).
+const canonicalURL = canonicalPath
+  ? new URL(getRelativeLocaleUrl(currentLocale, canonicalPath), SITE_URL).toString()
+  : new URL(Astro.url.pathname, SITE_URL).toString();
+
+// hreflang alternates: every Tier-1 locale (including x-default -> English)
+// gets an entry, generated programmatically via getRelativeLocaleUrl rather
+// than hardcoded paths (Phase 3, item 1). Only pages that pass a real
+// canonicalPath get these — pages that don't (utility/error pages) are
+// implicitly untranslated and skip hreflang entirely.
+const hreflangAlternates: { hreflang: string; href: string }[] = canonicalPath
+  ? [
+      ...LOCALES.map((loc) => ({
+        hreflang: loc as string,
+        href: new URL(getRelativeLocaleUrl(loc, canonicalPath), SITE_URL).toString(),
+      })),
+      {
+        hreflang: "x-default",
+        href: new URL(getRelativeLocaleUrl(DEFAULT_LOCALE, canonicalPath), SITE_URL).toString(),
+      },
+    ]
+  : [];
+
+// SERP-safe <title> / <meta name="description"> (and their Open Graph /
+// Twitter Card equivalents below) — see src/lib/seo.ts for why and how.
+// `title`/`description` themselves are left untouched: pages may reuse
+// those same prop values as visible on-page copy or in JSON-LD, where the
+// full, untruncated text is exactly what should render.
+const titleAlreadyBranded = title.includes("Keshav Enterprises");
+const fullTitle = buildSeoTitle(title, titleAlreadyBranded ? [] : ["Keshav Enterprises"], currentLocale);
+const metaDescription = buildSeoDescription(description, currentLocale);
+
+// Ported from App.jsx POPUP_EXCLUDED_PATHS — suppress exit-intent on pages
+// where a form/review flow is already present or the popup would feel intrusive.
+const POPUP_EXCLUDED_PREFIXES = ["/contact", "/products/", "/services/", "/downloads", "/review"];
+const showExitPopup = !POPUP_EXCLUDED_PREFIXES.some((p) => Astro.url.pathname.startsWith(p));
+
+// ── Navbar data props (locale-aware) ────────────────────────────────────────
+// Resolved here, server-side, and passed down as plain props — Navbar.jsx is
+// a client island and must never import src/lib/i18n.ts itself (that would
+// glob and ship every locale's JSON into the browser bundle). `nav.json` and
+// `product-categories.json` are keyed objects (path/slug → {label}); reshape
+// them into the ordered arrays Navbar expects while preserving those keys,
+// since neither getLocalizedList() would keep them.
+const navLocale = Astro.currentLocale ?? "en";
+const navLinksData = getLocalizedData<Record<string, { label: string }>>("nav", navLocale);
+const navLinks = Object.entries(navLinksData).map(([path, { label }]) => ({
+  name: label,
+  path,
+}));
+const productCategoriesData = getLocalizedData<Record<string, { label: string }>>(
+  "product-categories",
+  navLocale,
+);
+const navProductCategories = Object.entries(productCategoriesData).map(([slug, { label }]) => ({
+  slug,
+  label,
+}));
+const navServicesFull = getLocalizedList<Service>("services", navLocale);
+const navProductsFull = getLocalizedList<Product>("products", navLocale);
+const navIndustries = getLocalizedList("industries", navLocale);
+
+// Navbar.jsx's search only reads title/desc/category/features/slug/first-
+// image/priceRange (confirmed by reading its filter/map logic) but was
+// receiving the full localized list — every product's usage/specs/full-
+// image-gallery/availability included, none of it ever read. That's ~493KB
+// serialized into EVERY page's hydration payload (this component sits in
+// Layout.astro, so it's on all ~2,878 pages, not just product pages) — the
+// single largest contributor to the 3.7GB build-output size flagged in
+// Part 3. Trimming to only what's read cuts it to a few KB per page.
+const navServices = navServicesFull.map((s) => ({
+  id: s.id,
+  title: s.title,
+  desc: s.desc,
+  slug: s.slug,
+  image: s.image,
+}));
+const navProducts = navProductsFull.map((p) => ({
+  id: p.id,
+  title: p.title,
+  desc: p.desc,
+  category: p.category,
+  categorySlug: p.categorySlug,
+  features: p.features,
+  slug: p.slug,
+  images: p.images?.[0] ? [p.images[0]] : [],
+  priceRange: p.priceRange,
+}));
+
+// ── Part 2: equivalent-page URLs per locale, for LanguageSwitcher ──────────
+// LanguageSwitcher.jsx is a client island and cannot import astro:i18n
+// directly, so the code->path mapping for THIS page is resolved here,
+// server-side, using the exact same getRelativeLocaleUrl() call already
+// used for hreflang/canonical above — guarantees the switcher always
+// agrees with Astro's own routing (including the zh-CN casing rule) rather
+// than re-implementing path-prefix logic client-side. Uses
+// localeAgnosticPath (falls back to Astro.url.pathname on pages that don't
+// pass canonicalPath), same fallback already used for canonicalURL.
+const equivalentLocalePaths: Record<string, string> = Object.fromEntries(
+  LOCALES.map((loc) => [loc, getRelativeLocaleUrl(loc, localeAgnosticPath)]),
+);
+
+// LocalBusiness JSON-LD — Phase 3, item 5: description/knowsAbout now render
+// in the page's own language for Tier-1 locales (via business.json), while
+// the GST/MSME `identifier` values below stay untranslated (legal
+// identifiers, not copy). Falls back to English automatically for any
+// locale missing business.json, via getLocalizedData's deep-merge.
+const businessSchemaText = getLocalizedData<{
+  schema: { description: string; knowsAbout: string[] };
+}>("business", currentLocale).schema;
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": `${SITE_URL}/#business`,
+  name: "Keshav Enterprises",
+  alternateName: "Keshav Turbo Services",
+  description: businessSchemaText.description,
+  url: `${SITE_URL}/`,
+  logo: `${SITE_URL}/keshav-logo-icon.png`,
+  image: `${SITE_URL}/og-image.webp`,
+  telephone: ["+919149229448", "+916397363268"],
+  email: "ksengg007@gmail.com",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Dayanand Nagar Gali No.2, Near Subash Ki Chakki",
+    addressLocality: "Shamli",
+    addressRegion: "Uttar Pradesh",
+    postalCode: "247776",
+    addressCountry: "IN",
+  },
+  geo: { "@type": "GeoCoordinates", latitude: 29.4476, longitude: 77.3003 },
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      opens: "09:00",
+      closes: "19:00",
+    },
+  ],
+  hasMap: "https://share.google/uLc4GwsGec5eM62Ep",
+  sameAs: [
+    "https://www.indiamart.com/keshav-enterprises-shamli/",
+    "https://www.linkedin.com/in/keshav-enterprises-825a473b8",
+    "https://www.instagram.com/ksengg007",
+    "https://x.com/ksengg007",
+    "https://www.facebook.com/ksengg007",
+    "https://www.youtube.com/@ksengg007",
+  ],
+  identifier: [
+    { "@type": "PropertyValue", name: "GST", value: "09BOSPS3115K1ZC" },
+    { "@type": "PropertyValue", name: "MSME / Udyam", value: "UDYAM-UP-47-0071234" },
+  ],
+  areaServed: { "@type": "Country", name: "India" },
+  knowsAbout: businessSchemaText.knowsAbout,
+};
+
+const jsonLdBlocks = [
+  localBusinessSchema,
+  ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []),
+];
+---
+
+<!doctype html>
+<html lang={currentLocale} dir={isRTL ? "rtl" : "ltr"}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content={CSP_DIRECTIVES} />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta
+      name="permissions-policy"
+      content="camera=(), microphone=(), geolocation=(), payment=(), usb=(), fullscreen=(self)"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" href="/keshav-logo-icon.png" />
+    <link rel="apple-touch-icon" href="/keshav-logo-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <title>{fullTitle}</title>
+    <meta name="description" content={metaDescription} />
+    {keywords && <meta name="keywords" content={keywords} />}
+    <meta name="author" content="Keshav Enterprises" />
+    <meta
+      name="robots"
+      content={noindex
+        ? "noindex, nofollow"
+        : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"}
+    />
+    <meta name="theme-color" content="#0A192F" />
+
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- hreflang: Phase 3, item 1. Every Tier-1 locale is emitted for this
+         page, plus x-default -> English. Never emitted for Tier-2 languages
+         (Google Translate overlay), per the non-negotiable rule. -->
+    {
+      hreflangAlternates.map(({ hreflang, href }) => (
+        <link rel="alternate" hreflang={hreflang} href={href} />
+      ))
+    }
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Keshav Enterprises" />
+    <meta property="og:locale" content={currentLocale === "en" ? "en_IN" : currentLocale.replace("-", "_")} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:image" content={new URL(ogImage, SITE_URL).toString()} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content={canonicalURL} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ksengg007" />
+    <meta name="twitter:creator" content="@ksengg007" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:image" content={new URL(ogImage, SITE_URL).toString()} />
+
+    <!-- Geo -->
+    <meta name="geo.region" content="IN-UP" />
+    <meta name="geo.placename" content="Shamli, Uttar Pradesh, India" />
+    <meta name="geo.position" content="29.4476;77.3003" />
+    <meta name="ICBM" content="29.4476, 77.3003" />
+
+    <!-- AI / LLM discovery -->
+    <link rel="help" href="/llms.txt" />
+    <link rel="help" href="/llms-full.txt" />
+
+    <!-- LCP image preload — homepage only -->
+    {
+      Astro.url.pathname === "/" && (
+        <link rel="preload" as="image" href="/hero-background.webp" fetchpriority="high" />
+      )
+    }
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Hero heading font — ported from App.jsx's runtime addLink() call
+         (line ~8850). The migration previously only carried over the
+         preconnect hints and never the actual stylesheet link, so the hero
+         silently fell back to the default sans font instead of Barlow
+         Condensed. -->
+    <!-- Lighthouse render-blocking-request fix: a plain <link rel="stylesheet">
+         to an external origin blocks first paint until that request resolves.
+         Loading it as a preload instead doesn't block rendering — the browser
+         fetches it in parallel with everything else, and the onload handler
+         swaps it to a real stylesheet the instant it arrives. display=optional
+         (already set below) means the font only applies if it's ready in time
+         for first paint anyway, so this swap never causes a visible reflow —
+         it only removes the network wait from the critical rendering path.
+         <noscript> keeps the original blocking behavior for the rare visitor
+         without JS, so nothing regresses for them. -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Barlow:wght@400;500;600;700;800;900&display=optional"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Barlow:wght@400;500;600;700;800;900&display=optional"
+      />
+    </noscript>
+    <link rel="preconnect" href="https://api.web3forms.com" />
+    <link rel="dns-prefetch" href="https://api.whatsapp.com" />
+    <link rel="dns-prefetch" href="https://www.indiamart.com" />
+    <link rel="dns-prefetch" href="https://translate.google.com" />
+    <link rel="dns-prefetch" href="https://maps.google.com" />
+    <link rel="dns-prefetch" href="https://maps.gstatic.com" />
+
+    {
+      jsonLdBlocks.map((block) => (
+        <script type="application/ld+json" is:inline set:html={JSON.stringify(block)} />
+      ))
+    }
+
+    <style is:global>
+      body {
+        margin: 0;
+      }
+      .skiptranslate iframe,
+      .goog-te-banner-frame {
+        display: none !important;
+      }
+      #google_translate_element {
+        display: none !important;
+      }
+      .goog-tooltip,
+      .goog-tooltip:hover {
+        display: none !important;
+      }
+      .goog-text-highlight {
+        background-color: transparent !important;
+        box-shadow: none !important;
+      }
+    </style>
+    <!-- Phase 5, item 4 (critical fix): the widget's pageLanguage is hardcoded
+         "en" — it only makes sense as a source-language translator on the
+         English build. Every Tier-1 locale (hi, mr, gu, ...) is already a
+         real, pre-rendered translation with its own URL; layering the
+         English->X Google Translate widget on top of an already-Hindi page
+         would be nonsensical at best. Only mounting the script/init on the
+         default-locale page, rather than sitewide, removes the unmitigated
+         risk flagged in Phase 5 item 4 by construction — there is no globally
+         mounted instance left to accidentally re-translate a Tier-1 page. -->
+    <!-- Lighthouse Best Practices fix: the element.js widget script used to
+         load unconditionally on every default-locale page view, setting
+         third-party cookies for visitors who never touch the Tier-2
+         translate feature. This is a static build (no per-request server),
+         so the gate has to run client-side: only fetch element.js if a
+         googtrans cookie is already present (an active Tier-2 selection
+         from a previous visit) OR the user is on this page and actually
+         opens the Tier-2 picker. Either path ends in the exact same
+         TranslateElement init and the exact same reload-driven translation
+         behavior as before — this only skips the network request/cookies
+         for the large majority of visits that never use it. -->
+    {
+      currentLocale === DEFAULT_LOCALE && (
+        <script is:inline>
+          window.googleTranslateElementInit = function () {
+            try {
+              new window.google.translate.TranslateElement(
+                {
+                  pageLanguage: "en",
+                  // Tier-2 catalog expanded from Japanese-only to the full
+                  // classic Google Website Translator language set, minus
+                  // all 17 Tier-1 locales. Keep this string in sync with
+                  // TIER2_LANGUAGES in LanguageSwitcher.jsx — same code
+                  // set, both places, every time either changes.
+                  includedLanguages:
+                    "af,sq,am,hy,az,eu,be,bn,bs,bg,ca,ceb,ny,zh-TW,co,hr,cs,da,nl,eo,et,tl,fi,fy,gl,ka,el,ht,ha,haw,iw,hmn,hu,is,ig,ga,it,ja,jw,kn,kk,km,rw,ko,ku,ky,lo,la,lv,ln,lt,lg,lb,mk,mai,mg,ms,ml,mt,mi,mn,my,no,or,ps,fa,pl,pa,ro,sm,gd,sr,st,sn,sd,si,sk,sl,so,su,sv,tg,ta,tt,te,ug,uk,ur,uz,cy,xh,yi,yo,zu",
+                  autoDisplay: false,
+                },
+                "google_translate_element",
+              );
+            } catch (e) {
+              console.warn("Google Translate failed to init", e);
+            }
+          };
+
+          // Load element.js only when needed:
+          // 1. immediately, if a googtrans cookie already marks an active
+          //    Tier-2 translation (so it re-applies on this fresh load), or
+          // 2. lazily, the first time the user opens the language picker
+          //    (data-language-switcher-trigger, set by LanguageSwitcher.jsx)
+          //    — covers a brand-new Tier-2 selection without ever loading
+          //    the script for visitors who never open the picker.
+          (function () {
+            let loaded = false;
+            function loadGoogleTranslate() {
+              if (loaded) return;
+              loaded = true;
+              const s = document.createElement("script");
+              s.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+              s.async = true;
+              document.head.appendChild(s);
+            }
+            if (document.cookie.indexOf("googtrans=") !== -1) {
+              loadGoogleTranslate();
+              return;
+            }
+            document.addEventListener(
+              "click",
+              function (e) {
+                if (e.target.closest("[data-language-switcher-trigger]")) {
+                  loadGoogleTranslate();
+                }
+              },
+              { once: true, passive: true },
+            );
+          })();
+        </script>
+      )
+    }
+  </head>
+  <body class="bg-white text-slate-900 antialiased">
+    <noscript>
+      <div style="font-family:sans-serif;padding:2rem;text-align:center">
+        <strong>Keshav Enterprises</strong> requires JavaScript to run. Please enable JavaScript in your
+        browser settings.
+      </div>
+    </noscript>
+
+    <!-- a11y route landmark — replaces the old SPA aria-live announcer; real
+         navigation means screen readers announce the new page title natively. -->
+    <Navbar
+      client:load
+      currentPath={Astro.url.pathname}
+      navLinks={navLinks}
+      services={navServices}
+      products={navProducts}
+      productCategories={navProductCategories}
+      industries={navIndustries}
+      currentLocale={currentLocale}
+      equivalentLocalePaths={equivalentLocalePaths}
+    />
+
+    <main id="main-content" tabindex="-1">
+      <slot />
+    </main>
+
+    <DigitalProfilesStrip />
+    <Footer />
+
+    <CookieConsentBanner client:idle />
+    <AnalyticsLoader client:idle />
+    <WhatsAppBubble client:idle />
+    <MobileStickyCTA client:load />
+    <BackToTopButton client:idle />
+    {showExitPopup && <ExitIntentReviewPopup client:idle />}
+
+    <div id="google_translate_element" aria-hidden="true"></div>
+  </body>
+</html>

@@ -1,0 +1,581 @@
+{
+  "post_1": {
+    "id": "post_1",
+    "slug": "steam-turbine-overhauling-checklist",
+    "title": "Tesis Mühendisleri için Eksiksiz Buhar Türbini Revizyon Kontrol Listesi",
+    "excerpt": "60 MW'a kadar buhar türbinleri için duruş öncesi planlama, inceleme protokolleri, boşluk kaydı ve revizyon sonrası devreye almayı kapsayan pratik, adım adım kontrol listesi.",
+    "date": "2026-03-15",
+    "author": "Keshav Enterprises Mühendislik Ekibi",
+    "readTime": "8 dakika okuma",
+    "tags": [
+      "Revizyon",
+      "Buhar Türbini",
+      "Bakım"
+    ],
+    "coverImage": "blog-turbine-overhaul.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Yapılandırılmış Kontrol Listesi Neden Önemli"
+      },
+      {
+        "type": "p",
+        "text": "Planlanmamış türbin duruşları Hindistan'ın enerji ve şeker tesislerine saatte lakh'larca rupeye mal olur. Yapılandırılmış bir revizyon kontrol listesi, planlı bakım pencerelerinde hiçbir şeyin gözden kaçmamasını sağlar — yeniden devreye almadan sonra erken arıza riskini azaltır ve maliyetli tekrarlanan duruşları önler."
+      },
+      {
+        "type": "h2",
+        "text": "1. Duruş Öncesi Planlama (4–6 Hafta Önceden)"
+      },
+      {
+        "type": "p",
+        "text": "Trendeki tüm döner ekipmanı kapsayan detaylı bir iş kapsamıyla başlayın. Tüm stoklu yedek parçaları kontrol edin ve bir eksiklik raporu oluşturun. Kritik kalemleri — yataklar, contalar, labirent dolgular, karbon halkalar — yeterli teslim süresiyle sipariş edin. Özel ekipmanları düzenleyin: hizalama lazerleri, titreşim analizörleri, komparatörler ve feeler gauge'lar."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Tüm türbin kademeleri için OEM boşluk verilerini onaylayın",
+          "Yağlama yağı yıkama ekipmanını düzenleyin (mobil santrifüj filtre ünitesi)",
+          "Büyük revizyonlar için gerekirse OEM kökenli mühendisleri ayırtın",
+          "Durum izleme temel okumalarını hazırlayın (titreşim, sıcaklık, basınç)"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "2. Duruş ve İzolasyon"
+      },
+      {
+        "type": "p",
+        "text": "OEM tarafından belirtilen duruş prosedürünü izleyin. Herhangi bir flanş açmadan önce yeterli soğuma süresi tanıyın. Buhar, yağlama yağı, yoğuşma ve kontrol havası dahil tüm enerji kaynaklarını kilitleyin/etiketleyin. Sökümden önce yağlama yağı sistemini tamamen boşaltın."
+      },
+      {
+        "type": "h2",
+        "text": "3. Söküm ve İnceleme"
+      },
+      {
+        "type": "p",
+        "text": "Bileşenleri çıkarmadan önce tüm boşlukları, aralıkları ve geçmeleri kaydedin — bunlar OEM spesifikasyonlarıyla karşılaştırma ve aşınma eğilimlerini tespit etmek için gereklidir. Her aşamayı fotoğraflayın. Mil, itme bileziği ve kaplin yüzeylerinde rotor salgısını ölçün."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Yatak boşlukları (radyal ve eksenel)",
+          "Labirent conta çap boşluğu",
+          "Kaplin hizalama ofseti ve açısallığı",
+          "Karbon halka yüz durumu ve yay gerginliği",
+          "Nozul ve diyafram durumu ile boğaz boyutları",
+          "ESV oturma yeri ve disk durumu"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "4. Atölyede Onarım ve Değişim"
+      },
+      {
+        "type": "p",
+        "text": "Salgı veya titreşim okumaları tolerans dışındaysa rotoru mil taşlama ve dinamik balans için gönderin. Durum raporuna göre karbon ve grafit gland halkalarını, labirent dolguları ve babbitt yatakları değiştirin. Tüm rotor balansı ISO 1940 veya API 670 standartlarına göre yapılmalıdır."
+      },
+      {
+        "type": "h2",
+        "text": "5. Yeniden Montaj ve Hizalama"
+      },
+      {
+        "type": "p",
+        "text": "Yeni contalarla ve OEM spesifikasyonlarına göre bağlantı torkuyla ters sırada yeniden monte edin. Lazer hizalama ekipmanı kullanarak son rotor hizalamasını gerçekleştirin — türbinden dişli kutusuna ve dişli kutusundan jeneratöre. Tüm montaj sonrası boşlukları kaydedin ve OEM toleransları içinde olduğunu onaylayın."
+      },
+      {
+        "type": "h2",
+        "text": "6. Yağlama Yağı Yıkama"
+      },
+      {
+        "type": "p",
+        "text": "Devreye almadan önce, yağlama yağı sistemini ISO 4406:99 16/14/11 veya daha iyi temizlik sınıfını hedefleyen mobil santrifüj filtre sistemiyle yıkayın. Yıkama öncesi ve sonrası yağ numunesi alın ve raporları saklayın. Yağ yıkamasını tamamlamadan asla türbini devreye almayın — kontamine yağdan kaynaklanan yatak arızası, revizyon sonrası arızaların önemli bir bölümünü oluşturur."
+      },
+      {
+        "type": "h2",
+        "text": "7. Devreye Alma ve İlk Çalıştırma"
+      },
+      {
+        "type": "p",
+        "text": "OEM devreye alma öncesi prosedürünü adım adım izleyin. İlk hız artırma sırasında titreşimi, yatak sıcaklığını ve yağlama yağı basıncını sürekli izleyin. ESV ve gövernör çalışmasını onaylayın. Titreşim seviyeleri artarsa hizalamayı ince ayarlayın. Tesis bakım kayıtları için tüm devreye alma okumalarını belgeleyin."
+      },
+      {
+        "type": "cta",
+        "text": "Bir sonraki planlı duruşunuz için uzman revizyon mühendislerine mi ihtiyacınız var? OEM kökenli ekibimiz Triveni, Siemens, BHEL, Belliss & Morcom ve daha fazlasını kapsıyor."
+      }
+    ]
+  },
+  "post_2": {
+    "id": "post_2",
+    "slug": "lube-oil-contamination-turbine-bearings",
+    "title": "Yağlama Yağı Kontaminasyonu Türbin Yataklarını Nasıl Mahveder — Ve Nasıl Önlenir",
+    "excerpt": "Su girişi, katı parçacıklar ve oksidasyon, erken türbin yatağı arızasının üç önde gelen nedenidir. İşte her kontaminasyon türünü nasıl tanımlayacağınız ve hasarı önlemek için hangi filtrasyon ürünlerini kullanacağınız.",
+    "date": "2026-02-28",
+    "author": "Keshav Enterprises Mühendislik Ekibi",
+    "readTime": "6 dakika okuma",
+    "tags": [
+      "Yağlama Yağı",
+      "Yataklar",
+      "Filtrasyon",
+      "Önleyici Bakım"
+    ],
+    "coverImage": "blog-lube-oil.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Sessiz Yatak Katili"
+      },
+      {
+        "type": "p",
+        "text": "Türbin babbitt yatakları, yalnızca birkaç mikron kalınlığında hidrodinamik bir yağ filmi üzerinde çalışan hassas bileşenlerdir. Yağlama yağı sisteminin herhangi bir kontaminasyonu — katı parçacıklar, su veya bozulmuş yağ — bu filmi bozar, doğrudan metal temasına ve hızlanmış aşınmaya yol açar. Çalışmalar, türbin yatağı arızalarının %70'inden fazlasının yağlamayla ilgili olduğunu göstermektedir."
+      },
+      {
+        "type": "h2",
+        "text": "Kontaminasyon Türü 1: Katı Parçacıklar"
+      },
+      {
+        "type": "p",
+        "text": "10 mikronun üzerindeki parçacıklar yatak yüzeylerini çizebilir. 1–10 mikron aralığındaki parçacıklar en zararlısıdır — yağ film boşluğuna girerler ve üç cisim aşındırmasına neden olurlar. Kaynaklar arasında inşaat sonrası döküntüler, dişlilerden gelen aşınma parçacıkları ve tank nefes alma yoluyla giren kir bulunur."
+      },
+      {
+        "type": "p",
+        "text": "Çözüm: Ana filtre muhafazasına yüksek verimli yağlama yağı filtre elemanları (ISO 16889, 10 mikronda ≥200 beta oranı) takın. Havadaki parçacıkların girişini önlemek için tank nefes alma filtre elemanları (3 VL cam elyaf) kullanın. Sistem temizlik hedefi: türbin yatakları için ISO 4406:99 Sınıf 16/14/11 veya daha iyi."
+      },
+      {
+        "type": "h2",
+        "text": "Kontaminasyon Türü 2: Su Girişi"
+      },
+      {
+        "type": "p",
+        "text": "Yağlama yağındaki su, babbitt'te hidrojen kırılganlığına neden olur, oksidasyonu teşvik eder ve bakteri büyümesini destekler. 200 ppm serbest su bile yağ film mukavemetini önemli ölçüde azaltır. Kaynaklar arasında buhar gland sızıntısı, tanklarda yoğuşma ve soğutucu boru arızası bulunur."
+      },
+      {
+        "type": "p",
+        "text": "Çözüm: Yan akış dönüş hattına çevrimdışı WaterSorp filtre elemanları takın. Bu çift fonksiyonlu elemanlar aynı anda katı parçacıkları uzaklaştırır ve serbest ve emülsiyonlu suyu emer. ISO standartlarına göre düzenli (aylık) yağ numunesi alma, suyu erken tespit eder."
+      },
+      {
+        "type": "h2",
+        "text": "Kontaminasyon Türü 3: Oksidasyon ve Yağ Bozulması"
+      },
+      {
+        "type": "p",
+        "text": "Yüksek işletme sıcaklıkları ve metal katalizörlerin varlığı, türbin yağının oksitlenmesine neden olur, vernik birikintileri ve asidik yan ürünler oluşturur. Bu birikintiler filtre elemanlarını tıkar, yatak yüzeylerine yapışır ve aşınmayı hızlandırır."
+      },
+      {
+        "type": "p",
+        "text": "Çözüm: Asit sayısı (AN) ve viskozite trendlerini izleyin. Çevrimdışı WaterSorp filtrasyonu, oksidasyonu katalize eden su ve parçacıkları uzaklaştırarak yağ ömrünü uzatır. Asit sayısı OEM sınırlarını aşmadan önce yağ değişimini planlayın."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Filtre diferansiyel basıncını haftalık kontrol edin — ΔP 3,5–4 bar'da elemanı değiştirin",
+          "Tank nefes alma filtrelerini aylık kontrol edin",
+          "Her 30 günde bir yağ numunesi alın ve sonuçları takip edin",
+          "Su kontaminasyonu tespit edilirse WaterSorp elemanları takın",
+          "Herhangi bir büyük onarımdan sonra sistemi mobil santrifüj filtreyle yıkayın"
+        ]
+      },
+      {
+        "type": "cta",
+        "text": "Triveni, Siemens, BHEL ve tüm büyük türbin markalarıyla uyumlu ISO 16889 uyumlu yağlama yağı filtre elemanları tedarik ediyoruz. WhatsApp üzerinden teklif isteyin."
+      }
+    ]
+  },
+  "post_3": {
+    "id": "post_3",
+    "slug": "reverse-engineering-turbine-spares-india",
+    "title": "Türbin Yedek Parçalarının Tersine Mühendisliği: Hindistan'da Üretimi Durdurulmuş Bileşenleri Nasıl Yeniden Oluşturuyoruz",
+    "excerpt": "OEM yedek parçaları mevcut olmadığında, 18 aylık teslim süresi olduğunda veya fiyatı fahiş olduğunda, tersine mühendislik güvenilir bir alternatif sunar. Keshav Enterprises'ta kullandığımız adım adım süreç işte burada.",
+    "date": "2026-01-20",
+    "author": "Keshav Enterprises Mühendislik Ekibi",
+    "readTime": "7 dakika okuma",
+    "tags": [
+      "Tersine Mühendislik",
+      "Türbin Yedek Parçaları",
+      "İmalat",
+      "3D Tarama"
+    ],
+    "coverImage": "blog-reverse-engineering.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Türbin Parçaları Neden Tersine Mühendislikle Üretilir?"
+      },
+      {
+        "type": "p",
+        "text": "Birçok Hint endüstriyel tesisi 20–40 yaşındaki türbinleri işletir. Orijinal ekipman üreticileri belirli modelleri durdurmuş, başka şirketlerle birleşmiş veya eski makineler için yedek parça stoklamayı bırakmıştır. Rutin olarak işlenen bileşenler için yurt dışı OEM'lerden teslim süresi genellikle 12–18 ayı aşar — bir şeker fabrikasının sabit bir hasat sezonu olduğunda veya bir enerji santralinin her çevrimdışı gün için sözleşme cezası olduğunda kabul edilemez."
+      },
+      {
+        "type": "h2",
+        "text": "Adım 1: Bileşen Kabulü ve İlk Değerlendirme"
+      },
+      {
+        "type": "p",
+        "text": "Aşınmış veya hasarlı bileşenin kendisiyle — veya orijinal artık ölçülemiyorsa eş parçasıyla başlarız. Bileşen temizlenir ve hangi yüzeylerin hala ölçülebilir olduğunu ve hangilerinin aşınma veya hasar nedeniyle bozulduğunu belirlemek için görsel olarak değerlendirilir."
+      },
+      {
+        "type": "h2",
+        "text": "Adım 2: 3D Lazer Tarama ve CMM Ölçümü"
+      },
+      {
+        "type": "p",
+        "text": "Karmaşık profiller için — rotor kanatları, nozul blokları, diyaframlar, gövernör bileşenleri — tam geometriyi bir nokta bulutu olarak yakalamak için 3D lazer tarayıcılar kullanırız. Daha basit, dönel simetrik parçalar için — mil yatağı gövdeleri, labirent halka olukları, conta halkaları — koordinat ölçüm makinesi (CMM) kritik boyutları mikron düzeyinde doğrulukla yakalar."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Tüm kritik boyutlar toleranslarla kaydedilir",
+          "Eşleşen yüzeylerin konsentrikliği ve paralelliği kontrol edilir",
+          "Diş formu, kama yuvası derinliği ve geçme boyutları ölçülür",
+          "Ölçülebilir olduğu yerlerde yüzey işleme spesifikasyonu not edilir"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Adım 3: PMI Malzeme Testi"
+      },
+      {
+        "type": "p",
+        "text": "Taşınabilir X-ışını floresansı (XRF) veya optik emisyon spektrometrisi kullanan Positive Material Identification (PMI), orijinal bileşenin tam alaşım bileşimini tanımlar. Bu kritiktir — %12 Cr çelikteki bir rotor mili, %1 Cr-Mo milinden çok farklı davranır. Malzeme hatası, tersine mühendislikle üretilen parçanın erken arızalanacağı anlamına gelir."
+      },
+      {
+        "type": "h2",
+        "text": "Adım 4: Mühendislik Çizimi Üretimi"
+      },
+      {
+        "type": "p",
+        "text": "Tarama verilerinden, CMM ölçümlerinden ve malzeme test sonuçlarından, mühendislerimiz eksiksiz imalat çizimleri üretir. Bu, toleranslarla tüm boyutları, yüzey işleme spesifikasyonlarını, ısıl işlem öncesi ve sonrası prosedürleri, malzeme spesifikasyonlarını ve inceleme gereksinimlerini içerir."
+      },
+      {
+        "type": "h2",
+        "text": "Adım 5: İşleme ve Kalite Kontrolü"
+      },
+      {
+        "type": "p",
+        "text": "İşleme üç aşamada gerçekleştirilir: nihai boyutlara yakın kaba işleme, gerekiyorsa ısıl işlem (gerilim giderme, su verme ve temperleme, nitrürleme) ve son hassas işleme. Her aşama mühendislik çizimine göre denetlenir. Rotorlar sevkiyattan önce ISO 1940 / API 670 standartlarına göre dinamik olarak balanslanır."
+      },
+      {
+        "type": "h2",
+        "text": "Kapsadığımız Türbinler"
+      },
+      {
+        "type": "p",
+        "text": "5 kW'dan 60 MW'a kadar buhar türbinleri için tüm büyük markalarda bileşenleri tersine mühendislikle ürettik: Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, Chola Turbo, DLF-Skoda, KKK ve ABB. Hem karşı basınçlı hem de kondansasyonlu, yatay ve dikey, tek ve çok kademeli."
+      },
+      {
+        "type": "cta",
+        "text": "Tersine mühendislik gerektiren üretimi durdurulmuş bir parçanız mı var? Türbininizin fotoğraflarını ve detaylarını WhatsApp üzerinden gönderin — 24 saat içinde fizibiliteyi değerlendireceğiz."
+      }
+    ]
+  },
+  "post_4": {
+    "id": "post_4",
+    "slug": "belliss-morcom-turbine-common-faults-india",
+    "title": "Belliss & Morcom Türbin Yaygın Arızaları — Hint Tesisleri için Saha Kılavuzu",
+    "excerpt": "Belliss & Morcom buhar türbinleri, Hint şeker fabrikaları ve kojenerasyon tesislerinde yaygın olarak kullanılmaktadır. OEM kökenli mühendislerimizin karşılaştığı en yaygın arızalar ve bunları nasıl teşhis edip düzelteceğiniz burada.",
+    "date": "2026-03-18",
+    "author": "Keshav Enterprises Mühendislik Ekibi",
+    "readTime": "8 dakika okuma",
+    "tags": [
+      "Belliss & Morcom",
+      "Arıza Giderme",
+      "Buhar Türbini",
+      "Şeker Fabrikası"
+    ],
+    "coverImage": "blog-belliss-morcom.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Belliss & Morcom türbinleri (şimdi Howden) yüzlerce Hint şeker fabrikasında, kojenerasyon tesisinde ve endüstriyel tesiste bulunur. Mühendislerimiz UP, Pencap, Maharashtra ve Karnataka genelinde 20 yılı aşkın süredir Belliss üniteleriyle çalışmaktadır. İşte en sık karşılaştığımız arızalar — ve her birini teşhis edip çözmenin doğru yolu."
+      },
+      {
+        "type": "h2",
+        "text": "Arıza 1: İşletme Hızında Yüksek Titreşim"
+      },
+      {
+        "type": "p",
+        "text": "Belliss türbinlerinde en yaygın şikayet, genellikle operatörler tarafından artan gürültü olarak tespit edilen ve taşınabilir titreşim analiziyle onaylanan artan titreşimdir. En üst kök nedenler, sıklık sırasına göre: (1) kanatlarda birikinti oluşumundan kaynaklanan rotor dengesizliği, (2) özellikle revizyonlar arası uzun çalışma sürelerinden sonra mil yatağı aşınması ve (3) boru gerilimi veya temel oturmasından kaynaklanan türbin ile dişli kutusu arasında hizasızlık."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Önce yatak sıcaklığını kontrol edin — yüksek titreşimle birlikte yükselen sıcaklık neredeyse her zaman yatak durumu sorununu gösterir",
+          "Dört yatak gövdesinde de taşınabilir titreşim okumaları alın ve bir temelle karşılaştırın (işletme hızının 1× ve 2×'i)",
+          "1X baskınsa: dengesizlik veya hizasızlık. 2X baskınsa: yatak gevşekliği veya hizasızlık. Senkron altı: yağ girdabı",
+          "Hizasızlığın bir türbin sorunu olduğu sonucuna varmadan önce kaplini aşınma ve doğru montaj açısından inceleyin"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Arıza 2: Gövernör Salınımı / Hız Kararsızlığı"
+      },
+      {
+        "type": "p",
+        "text": "Belliss türbinleri modele ve üretim yılına bağlı olarak santrifüj fly-ball gövernörü veya hidrolik gövernör kullanır. Hız salınımı — set noktasının üzerinde ve altında döngüsel aşırı geçiş — genellikle şunlardan kaynaklanır: santrifüj gövernörde aşınmış pivot pimi ve fly-ball, yanlış droop ayarı, kontrol valfi aktüatör histerezi veya kazandan gövernör yetkisini aşan buhar basıncı dalgalanmaları."
+      },
+      {
+        "type": "p",
+        "text": "Gövernörü sökmeden önce buhar besleme basıncının kararlı olduğunu onaylayın. Besleme basıncı ±0,5 bar'dan fazla dalgalanıyorsa, kazan kontrol döngüsü ana sorundur — gövernör büyük besleme salınımlarını telafi edemez. Kazan kararlılığı onaylandıktan sonra, gövernör pivot pimi ve fly-ball ağırlıkları aşınma açısından kontrol edilmeli ve boşluk aşırıysa değiştirilmelidir."
+      },
+      {
+        "type": "h2",
+        "text": "Arıza 3: Buhar Gland Sızıntısı"
+      },
+      {
+        "type": "p",
+        "text": "Belliss türbinleri, mil ucundaki sızıntıyı kontrol etmek için labirent gland contası ve buhar gland sistemi kullanır. Normal işletim sırasında gland alanında görünür buhar sızıntısı şunları gösterir: aşınmış veya hasarlı labirent şeritleri, yanlış gland buhar basıncı ayarı veya labirent etrafında eşit olmayan boşluğa neden olan mil eksantrikliği."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Gland alanındaki mil eksantrikliğini komparatör kullanarak ölçün — salgı 0,05 mm'yi aşıyorsa rotor durumu değerlendirilmelidir",
+          "Gland buhar basıncını doygunluk koşullarına göre kontrol edin — gland buhar besleme hattında su yoğuşması ciddi labirent erozyonuna neden olur",
+          "Labirent şerit değişimi planlı duruş kalemidir — şeritleri yerinde şimleyerek boşluğu azaltmaya çalışmayın"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Arıza 4: Yüksek Yağlama Yağı Sıcaklığı veya Düşük Basınç"
+      },
+      {
+        "type": "p",
+        "text": "Belliss türbinlerinde yağlama yağı sistemi arızaları, diğer herhangi bir nedenden daha fazla planlanmamış trip'e yol açar. Yüksek yağ sıcaklığı (yatak girişinde 55°C'nin üzerinde) genellikle yağlama yağı soğutucusunun kirli olduğu anlamına gelir — soğutucu kabuğunu ve tüp demetini temizleyin. Düşük yağ basıncı trip'i, tahliye valfi yanlış ayarlandığında, filtre diferansiyel basıncı yüksek olduğunda (eleman değişimi gerekli) veya yağ pompası aşındığında ve hacimsel verimliliğini kaybettiğinde meydana gelir."
+      },
+      {
+        "type": "cta",
+        "text": "Revizyon, titreşim analizi veya acil arıza teşhisi için eski Belliss & Morcom mühendislerimize mi ihtiyacınız var? Aynı gün yanıt için WhatsApp üzerinden bize ulaşın."
+      }
+    ]
+  },
+  "post_5": {
+    "id": "post_5",
+    "slug": "iso-4406-lube-oil-cleanliness-guide",
+    "title": "ISO 4406 Yağlama Yağı Temizlik Raporu Nasıl Okunur — Bakım Mühendisleri için Kılavuz",
+    "excerpt": "Yağ laboratuvarlarından gelen ISO 4406 parçacık sayım raporları sıklıkla yanlış anlaşılır. Bu kılavuz, sayıların tam olarak ne anlama geldiğini, türbin yatak sistemleri için temizlik hedeflerinin nasıl belirleneceğini ve ne zaman harekete geçilmesi gerektiğini açıklar.",
+    "date": "2026-04-05",
+    "author": "Keshav Enterprises Mühendislik Ekibi",
+    "readTime": "6 dakika okuma",
+    "tags": [
+      "Yağlama Yağı",
+      "ISO 4406",
+      "Filtrasyon",
+      "Kestirimci Bakım"
+    ],
+    "coverImage": "blog-iso-4406.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Her ay, Hindistan genelindeki tesis bakım ofislerine binlerce yağ analiz raporu ulaşır — ve çoğu anlaşılmadan dosyalanır. ISO 4406 temizlik kodu, o raporda en uygulanabilir sayıdır. Yanlış anlamak yataklara mal olur. Doğru anlamak türbin ömrünü uzatır."
+      },
+      {
+        "type": "h2",
+        "text": "ISO 4406 Kodu Ne Anlama Gelir?"
+      },
+      {
+        "type": "p",
+        "text": "ISO 4406:99 temizlik kodunun üç sayısı vardır, örneğin 18/16/13. Her sayı, üç farklı parçacık boyutunda mililitre yağ başına parçacık sayısını temsil eden bir \"aralık kodu\"dur: 4 µm(c), 6 µm(c) ve 14 µm(c). \"(c)\" son eki, sayımın ISO 11171'e göre optik parçacık sayacı kalibrasyonu kullandığı anlamına gelir — kalibre edilmemiş yöntemler kullanan eski raporlarla karşılaştırmayın."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Aralık kodu 14 = 80–160 parçacık/mL",
+          "Aralık kodu 16 = 320–640 parçacık/mL",
+          "Aralık kodu 18 = 1.280–2.560 parçacık/mL",
+          "Aralık kodu 20 = 5.120–10.240 parçacık/mL",
+          "Her artan adım = kontaminasyon seviyesinin iki katına çıkması"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Hangi Temizlik Hedefine İhtiyacınız Var?"
+      },
+      {
+        "type": "p",
+        "text": "Buhar türbini mil yatağı ve yağlama yağı sistemleri için, hedef genellikle ISO 4406:99 Sınıf 16/14/11'dir — bu API 614'teki minimum gerekliliktir. Triveni ve Siemens dahil birçok OEM, hidrolik kontrol sistemli türbinler için 15/13/10 belirtir. Büyük revizyon veya yağlama yağı yıkamasından sonra, hız artırma sırasında yatak kontaminasyon hasarını önlemek için yağ doldurulmadan önce sistem 16/14/11'e ulaşmalıdır."
+      },
+      {
+        "type": "h2",
+        "text": "Ne Zaman Harekete Geçmelisiniz?"
+      },
+      {
+        "type": "p",
+        "text": "Rutin yağ analiz raporunuz 17 veya daha yüksek 6 µm(c) aralık kodu (orta sayı) gösteriyorsa — hedefin bir adım üzerinde — hemen araştırın. Filtre diferansiyel basıncını kontrol edin (3,5–4 bar'a yaklaşıyorsa değiştirin), tank nefes alma durumunu inceleyin ve kontaminasyonun nereden girdiğini bulmak için filtre muhafazası giriş ve çıkışından ayrı ayrı numune alın. Su içeriği raporu %0,1'den fazla su gösteriyorsa — filtre elemanını değiştirin ve çevrimdışı WaterSorp filtrasyon çalışması planlayın."
+      },
+      {
+        "type": "h2",
+        "text": "Kötüleşen Kodu Görmezden Gelmenin Maliyeti"
+      },
+      {
+        "type": "p",
+        "text": "4–10 mikron aralığındaki parçacıklar en zararlısıdır — dönen mil ile Babbitt yatak yüzeyi arasındaki hidrodinamik yağ filmine girmek için tam doğru boyuttadır ve üç cisim aşındırmasına neden olurlar. 16/14/11 yerine ISO 20/18/15 temizlik koduyla çalışan bir türbin, hedeften yaklaşık 100 kat daha fazla zararlı parçacığa sahiptir. Yatak yüzeyleri kademeli olarak bozulur ve arıza yavaş yavaş gerçekleşir, ta ki gerçekleşmeyene kadar — sonra 48 saatlik bir acil durum ve Babbitt yeniden dökümü haline gelir."
+      },
+      {
+        "type": "cta",
+        "text": "Tüm büyük türbin markaları için ISO 16889 uyumlu filtre elemanları tedarik ediyoruz ve bir sonraki başlatmanızdan önce doğru temizlik sınıfına ulaşmak için yağlama yağı yıkaması konusunda tavsiye verebiliriz. WhatsApp üzerinden bize ulaşın."
+      }
+    ]
+  },
+  "post_6": {
+    "id": "post_6",
+    "slug": "hvac-air-filter-selection-guide-industrial",
+    "title": "Endüstriyel Tesisler için HVAC Hava Filtresi Seçim Kılavuzu — F5'ten F9'a ve Arasındaki Her Şey",
+    "excerpt": "Torba filtreler, kıvrımlı paneller, metalik ağ ön filtreler, aktif karbon — yanlış sınıfı seçmek para ve ekipman hasarı riskine mal olur. Bu kılavuz hangi HVAC filtresinin nerede ve neden kullanılacağını açıklar.",
+    "date": "2026-04-20",
+    "author": "Keshav Enterprises Mühendislik Ekibi",
+    "readTime": "7 dakika okuma",
+    "tags": [
+      "HVAC",
+      "Hava Filtrasyonu",
+      "AHU Filtreleri",
+      "Bakım"
+    ],
+    "coverImage": "blog-hvac-filter-selection.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Hindistan'daki herhangi bir endüstriyel tesise girin — şeker fabrikası, ilaç fabrikası, çimento kontrol odası — ve insanları ve hassas ekipmanı sessizce hayatta tutan HVAC hava işleme ünitelerini (AHU) bulacaksınız. Biraz daha yürüyün ve genellikle bu AHU'ların yanlış filtre sınıfıyla, iki yıl önce son değiştirilen tıkalı torbalarla veya hiç ön filtresiz çalıştığını göreceksiniz. Sonuç öngörülebilir: toz kaplı DCS dolapları, gri keçeyle kaplı soğutma bobinleri ve olması gerekenden %15–20 daha yüksek elektrik faturaları."
+      },
+      {
+        "type": "h2",
+        "text": "Verimlilik Sınıflarını Anlamak — EN 779 ve ISO 16890"
+      },
+      {
+        "type": "p",
+        "text": "HVAC filtre verimliliğini iki standart yönetir. Eski EN 779, G1 ile F9 arası sınıfları kullanır — G sınıfı (kaba) büyük parçacıkları yakalar, M (orta) ve F (ince) sınıfları giderek daha küçük parçacıkları yakalar. Daha yeni ISO 16890, parçacık boyutuna dayalı sınıflandırma kullanır: ePM10, ePM2.5 ve ePM1, yüzde yakalama verimliliğiyle. Filtre tedarikçiniz yalnızca EN 779 sınıfı veriyorsa, ISO 16890 ePM1 verimliliğini isteyin — hava kalitesi için daha anlamlı bir sayıdır."
+      },
+      {
+        "type": "list",
+        "items": [
+          "G1–G4 (ISO Coarse): Elyaf, tüy, böcek, büyük tozu yakalar — ön filtre ve yıkanabilir metalik ağ panellerde kullanılır",
+          "M5–M6 (ISO ePM10 ≥%50): Polen, kaba toz, kum — kritik olmayan endüstriyel havalandırma için uygun",
+          "F7 (ISO ePM1 ≥%50): Genel HVAC standardı — dolu ofisler, kontrol odaları ve hassas ekipman besleyen AHU'lar için minimum",
+          "F8 (ISO ePM1 ≥%70): Hastane koğuş beslemesi, farmasötik Sınıf D hazırlık alanları",
+          "F9 (ISO ePM1 ≥%85): Temiz odalar ve kritik farmasötik alanlar için HEPA öncesi ön filtre"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Adım 1 — Metalik Ağ Ön Filtreyle Başlayın (G1–G3)"
+      },
+      {
+        "type": "p",
+        "text": "Ağır endüstriyel ortamlardaki her AHU — çimento fabrikaları, enerji santralleri, çelik fabrikaları — ilk aşamada yıkanabilir alüminyum veya SS ağ ön filtreye sahip olmalıdır. Maliyet: birkaç yüz rupi. Fayda: aşağı akıştaki torba veya kıvrımlı filtreler, hiçbir zaman kaba yükü işlemek zorunda kalmadığından 2–3 kat daha uzun sürer. Alüminyum ağ 150°C'ye kadar sıcaklığa dayanır; SS ağ 350°C'ye kadar. Her 4–6 haftada bir basınçlı hava geri üflemesi veya ılık suyla temizleyin."
+      },
+      {
+        "type": "h2",
+        "text": "Adım 2 — Ana Filtrenizi Seçin: Torba veya Kıvrımlı Panel?"
+      },
+      {
+        "type": "p",
+        "text": "Hem torba filtreler hem de kıvrımlı panel filtreler G4'ten F9'a kadar mevcuttur, ancak farklı AHU konfigürasyonlarına uyar. Torba filtreler (çok cepli) daha büyük ortam alanına ve yüksek toz ortamlarında daha uzun servis ömrüne sahiptir — torbalar hava akışına doğru uzanarak temas alanını maksimize eder. Büyük endüstriyel AHU'lar, ticari binalar ve hastaneler için standart seçimdir. Kıvrımlı panel filtreler daha kompakttır (600 mm torba uzunluğuna karşı 25–96 mm derinlik) ve rijittir, bu da onları alanın sınırlı olduğu fan coil üniteleri (FCU), split-AC üniteleri ve dikey hava akışlı AHU'lar için tercih edilen seçim yapar."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Torba filtreler: yüksek toz yükü, büyük AHU'lar, F5–F9, bölüm başına 3.000–5.000 m³/sa+",
+          "Kıvrımlı panel (25 mm): FCU/split AC değişimi, G4–F7, kompakt dikey hava akışı",
+          "Kıvrımlı panel (96 mm): orta boy AHU, F7–F8, rijit yapı — torba çökme riski yok",
+          "Kıvrımlı panel (292 mm genişletilmiş): farmasötik HVAC'ta son aşama yüksek verimlilik, F8–F9"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Adım 3 — Koku Kontrolü için Aktif Karbon Ekleyin"
+      },
+      {
+        "type": "p",
+        "text": "Tesisinizde koku sorunu varsa — mutfaklar, kimyasal depolama, boya atölyeleri, matbaalar veya VOC emisyonu olan herhangi bir alan — yalnızca partikül filtreleri sorunu çözmeyecektir. Aktif karbon (GAC), pişirme kokularını, çözücüleri, hidrojen sülfürü, formaldehiti ve çoğu yaygın endüstriyel VOC'yi adsorbe eder. HVAC uygulamalarında, aktif karbon genellikle 25–50 mm granüler karbon tabakalı panel filtre olarak veya karbon tabakasına yapıştırılmış G4 partikül ön filtreli kombine filtre olarak tedarik edilir. Karbon panelleri, hava akışında partikül filtresinden sonra yerleştirilir — önce yerleştirmek pahalı karbon kapasitesini toz yüküne harcar."
+      },
+      {
+        "type": "h2",
+        "text": "Filtre Değişim Aralıkları Nasıl Belirlenir"
+      },
+      {
+        "type": "p",
+        "text": "Tek en iyi uygulama, her filtre aşamasına diferansiyel basınç (DP) göstergesi takmak ve 250 Pa nihai basınç düşüşünde değiştirmektir — takvim programına göre değil. Takvime dayalı değişim, hala kullanılabilir filtreleri israf eder; arızaya kadar çalıştırmak, filtrelerin çökmesine veya baypas olmasına neden olur, AHU bobinini yakalaması gereken her şeyle kontamine eder. DP göstergesi pratik değilse, ağır endüstriyel ortamlarda (çimento, enerji, çelik) her 3 ayda, hafif endüstride her 6 ayda ve temiz ticari ortamlarda yıllık değiştirin — görsel incelemeye göre ayarlayın."
+      },
+      {
+        "type": "cta",
+        "text": "Hindistan genelindeki endüstriyel ve ticari AHU'lar için HVAC torba filtreleri, kıvrımlı panel filtreler, metalik ağ ön filtreler ve aktif karbon havalandırma filtreleri tedarik ediyoruz. Uygun bir değişim teklifi için marka, model ve AHU çerçeve boyutlarınızla WhatsApp üzerinden bize ulaşın."
+      }
+    ]
+  },
+  "post_7": {
+    "id": "post_7",
+    "slug": "pulse-jet-dust-collector-filter-bag-selection",
+    "title": "Doğru Pulse-Jet Toz Toplayıcı Filtre Torbası Nasıl Seçilir — Hint Tesisleri için Medya, Yüzey İşleme ve Anti-Statik Kılavuzu",
+    "excerpt": "Baghouse'unuz için yanlış filtre torbası medyasını seçmek — yanlış sıcaklık derecesi, yanlış yüzey işleme veya anti-statik olmaması — tesis mühendislerine haftalarca duruş süresi ve maliyetli acil değişimlere mal olur. İşte eksiksiz seçim kılavuzu.",
+    "date": "2026-05-01",
+    "author": "Keshav Enterprises Mühendislik Ekibi",
+    "readTime": "8 dakika okuma",
+    "tags": [
+      "Toz Toplayıcı",
+      "Filtre Torbaları",
+      "Baghouse",
+      "Endüstriyel Filtrasyon",
+      "Çimento",
+      "HVAC"
+    ],
+    "coverImage": "blog-dust-collector-filter-bag.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Pulse-jet baghouse'lar, Hindistan genelinde endüstriyel toz kontrolünün iş atlarıdır — çimento fabrikaları, kömür işleme sistemleri, tahıl değirmenleri, farmasötik toz işleme ve kimya fabrikaları, emisyon normlarını karşılamak ve işçileri korumak için bunlara güvenir. Ancak değişim filtre torbası seçimi hala genellikle mühendislik yerine alışkanlığa göre yapılır (\"öncekiyle aynı\"). O \"öncekiyle aynı\" torba uygulama için yanlış olduğunda, yeni set öncekiyle aynı hızda arızalanır."
+      },
+      {
+        "type": "h2",
+        "text": "Adım 1 — Egzoz Gazı Sıcaklığınızı Bilin"
+      },
+      {
+        "type": "p",
+        "text": "Sıcaklık en kritik seçim parametresi ve erken torba arızasının en yaygın nedenidir. Her medya türünün sürekli servis sıcaklığı sınırı ve tepe (dalgalanma) sıcaklık sınırı vardır. Sürekli sınırı sadece 10–15°C aşmak bile, hidroliz (nemli egzoz gazında) veya oksidasyon (oksijen içeren kuru gazda) yoluyla filtre ömrünü %50 veya daha fazla azaltır."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Polyester iğne keçesi: sürekli 130°C, tepe 150°C — genel endüstriyel toz, ortam-düşük sıcaklık uygulamaları",
+          "Polipropilen keçe: sürekli 90°C, tepe 110°C — asit gaz ortamları, kimya fabrikaları (polyesterden daha iyi asit direnci, daha düşük sıcaklık)",
+          "Aramid / Nomex: sürekli 200°C, tepe 220°C — fırın egzozları, asfalt tesisleri, cam fırınları, kurutucu çıkışları",
+          "PPS (Ryton): sürekli 190°C, tepe 210°C — asit + ısı kombinasyonu (kömür yanmasından kükürt içeren egzoz gazı)",
+          "Dokuma cam elyaf: sürekli 260°C, tepe 280°C — çimento fırını ham un, atık yakma, yüksek sıcaklık proses gazı",
+          "Herhangi bir taban medyada PTFE membran: taban medyayla aynı sıcaklık derecesi + neredeyse sıfır kalıntı toz kekesi — en yüksek temizlik verimliliği"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Adım 2 — Düz Torba mı Kıvrımlı Kartuş mu?"
+      },
+      {
+        "type": "p",
+        "text": "Standart pulse-jet baghouse'lar, metal kafeste desteklenen silindirik filtre torbaları — pürüzsüz dış yüzey — kullanır. Bu, yüksek toz yükü uygulamaları için doğru seçimdir: çimento, uçucu kül, kömür, mineral işleme. Pürüzsüz dış yüzey, pulse-jet basınçlı hava şokunun toz kekesini verimli bir şekilde atmasına olanak tanır. Kıvrımlı kartuş elemanları — delikli bir çekirdek etrafında akordeon şeklinde kıvrımlı medya — aynı muhafaza alanında 5 kat'a kadar filtrasyon alanı sağlar, ancak daha büyük medya alanının daha düşük yüzey hızlarına ve çok düşük kalıntı basınç düşüşüne izin verdiği farmasötik, gıda ve hafif kimyasal uygulamalarda daha hafif toz yüklerine daha uygundur."
+      },
+      {
+        "type": "h2",
+        "text": "Adım 3 — Yüzey İşleme: Düz, Yakılmış, Kalenderlenmiş mi PTFE Membran mı?"
+      },
+      {
+        "type": "p",
+        "text": "İğne keçeli torbanın dış yüzey işlemesi, toz kekesinin pulse-jet temizleme sırasında ne kadar iyi salındığını ve torbanın körlenmeye (kalıcı tıkanma) ne kadar dayandığını belirler. Düz keçenin kaba lif yüzeyi vardır — kuru, yapışkan olmayan kaba toz için yeterlidir. Yakılmış keçenin termal olarak giderilmiş yüzey lifleri vardır, daha pürüzsüz bir yüzey sağlar — çoğu endüstriyel toz için daha iyi keke salınımı. Kalenderlenmiş (parlatılmış) keçe, yüzeyi daha da pürüzsüzleştirmek ve yoğunlaştırmak için sıcak preslenir — farmasötik toz veya ince çimento gibi ince, kohezif veya hafif yapışkan toz için en iyisidir. Dış yüzeye laminatlanmış PTFE membran — premium seçenek — yüzey yükleme filtrasyonu sağlar. Toz, pürüzsüz PTFE üzerinde ince bir kek oluşturur ve her darbede tamamen serbest kalarak torba ömrü boyunca neredeyse başlangıç basınç düşüşünü korur. Emisyon performansı da üstündür, genellikle düz keçe için 20–50 mg/Nm³'ye karşı 2–5 mg/Nm³ çıkış toz konsantrasyonuna ulaşır."
+      },
+      {
+        "type": "h2",
+        "text": "Adım 4 — Patlayıcı Toz için Anti-Statik ve İletken Torbalar"
+      },
+      {
+        "type": "p",
+        "text": "Statik yük biriktirebilen elektriksel dirençli toz işleyen toz toplayıcı uygulamaları için — kömür, tahıl, un, farmasötik toz, polimer tozu — standart polyester torbalar yangın ve patlama tehlikesidir. Düz polyester torba üzerindeki toz kekesi, çıkış plenumundaki bir toz bulutunu tutuşturacak kadar enerjik statik boşalma (kıvılcım) geliştirebilir. Anti-statik torbalar iki yaklaşımdan birini kullanır: (1) polyester medyaya karıştırılmış karbon lifler — iletken lifler yükü sürekli olarak dağıtır; (2) ağırlıkça %1–3 oranında iğne keçesine dokunmuş paslanmaz çelik teller — hem statik dağılım hem de gelişmiş mukavemet sağlar. Kömür tozu, tahıl tozu, un ve sıfırın üzerinde Kst değerine sahip herhangi bir toz için her zaman anti-statik (iletken) torba belirtin."
+      },
+      {
+        "type": "h2",
+        "text": "Torba Boyutlarını Kafesinizle Eşleştirme"
+      },
+      {
+        "type": "p",
+        "text": "Değişim filtre torbaları, mevcut kafes çapı ve uzunluğuyla tam olarak eşleşmelidir — 5 mm'lik bir çap farkı bile üst snap ringde uygun sızdırmazlığı önler. Sipariş vermeden önce ölçün: torba ağzının dış çapı (snap band OD), snap ring yüzünden kapalı alta torba uzunluğu ve uç kapak türü (snap ring, snap band veya flanş). Orijinal OEM torba etiketi hala okunabiliyorsa, parça numarasını not edin — bu tam kafes geometrisini tanımlar. Etiket kayıpsa, muhafazadan bir kafes çekin, ölçün ve bu boyutları siparişinizle birlikte sağlayın."
+      },
+      {
+        "type": "cta",
+        "text": "Hindistan genelindeki çimento, enerji, farmasötik ve tahıl işleme baghouse'ları için polyester, aramid, PPS, cam elyaf ve PTFE membran sınıflarında pulse-jet filtre torbaları, kıvrımlı kartuş elemanlarıyla birlikte tedarik ediyoruz. Aynı gün teklif için torba boyutlarınızı ve uygulama detaylarınızı WhatsApp üzerinden bize gönderin."
+      }
+    ]
+  }
+}

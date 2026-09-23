@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Keshav Enterprises — Revisão Geral e Peças de Turbinas a Vapor, Shamli UP Índia",
+    "description": "Engenheiros ex-OEM de turbinas a vapor da Triveni, Siemens, BHEL. Revisão geral, engenharia reversa, balanceamento dinâmico, lavagem de óleo lubrificante e peças compatíveis com OEM para turbinas de 5 kW–60 MW. Sediada em Shamli, UP. Suporte de emergência 24×7.",
+    "keywords": "manutenção de turbinas Índia, revisão geral de turbinas a vapor, engenharia reversa de turbinas, peças industriais para turbinas, elementos filtrantes de óleo lubrificante, juntas de expansão Índia, serviço de turbinas Triveni, peças de turbinas BHEL, montagem de turbinas Uttar Pradesh, engenharia Shamli"
+  },
+  "hero": {
+    "badgeMakeInIndia": "Make In India",
+    "badgeVocalForLocal": "Vocal For Local",
+    "badgeIndiaMartLabel": "Verificado pelo IndiaMART",
+    "badgeIndiaMartRatingSuffix": "AVALIAÇÃO",
+    "h1Line1": "Engenharia de Precisão para",
+    "h1Line2": "Máxima Disponibilidade.",
+    "capabilityLine": "Turbinas a vapor de 5 kW a 60 MW — de contrapressão e de condensação, horizontais e verticais, de estágio único e múltiplo. Atendendo clientes em toda a Índia e no mundo.",
+    "introText": "Engenheiros ex-OEM da Triveni, Siemens, BHEL e mais 7 marcas. Colocamos sua turbina de volta em operação mais rápido do que o abastecimento OEM — com certificados PMI completos, relatórios de balanceamento ISO e histórico zero-penalidade desde {founded}.",
+    "ctaPrimary": "Envie Seus Requisitos",
+    "ctaEmergency": "Emergência de Parada",
+    "trustYearsOverhauls": "{years}+ anos · 500+ revisões gerais",
+    "trustPmi": "Peças certificadas PMI",
+    "trustResponse": "Resposta média: 2 h",
+    "proofCards": [
+      {
+        "label": "Sem Curva de Aprendizado",
+        "title": "Engenheiros Ex-OEM",
+        "sub": "Nossa equipe trabalhou dentro da Triveni, Siemens, BHEL e Belliss — a mesma experiência, entregue na sua planta."
+      },
+      {
+        "label": "Todo Trabalho Documentado",
+        "title": "Relatório na Entrega",
+        "sub": "Certificados PMI, relatórios de balanceamento, registros de alinhamento, relatórios de condição — entregues na conclusão do trabalho."
+      },
+      {
+        "label": "Quando Cada Minuto Importa",
+        "title": "Emergência 24×7",
+        "sub": "Engenheiros em vários locais pela Índia. Ligue às 2h da manhã — alguém atende."
+      }
+    ]
+  },
+  "oemMarquee": {
+    "heading": "Compatível com OEM e Confiado por Líderes do Setor"
+  },
+  "stats": {
+    "overhauls": {
+      "label": "Revisões Gerais Concluídas",
+      "sub": "Usinas de açúcar, energia, papel e cimento em toda a Índia"
+    },
+    "years": {
+      "label": "Anos de Serviço",
+      "sub": "Operação contínua desde {founded} — sem mudança de propriedade"
+    },
+    "penaltyClaims": {
+      "label": "Reclamações de Penalidade",
+      "sub": "Zero em {years} anos — referências de clientes disponíveis mediante solicitação"
+    },
+    "emergency": {
+      "label": "Resposta de Emergência",
+      "sub": "Engenheiros em vários locais — despacho médio em menos de 4 h"
+    }
+  },
+  "featuredProducts": {
+    "heading": "Produtos de Engenharia em Destaque",
+    "scrollLeftLabel": "Rolar para a esquerda",
+    "scrollRightLabel": "Rolar para a direita",
+    "dragToExplore": "arraste para explorar",
+    "viewCompleteCatalog": "Ver Catálogo Completo",
+    "viewDetails": "Ver Detalhes",
+    "swipeToBrowse": "Deslize para navegar"
+  },
+  "servicesPreview": {
+    "eyebrow": "Ciclo de Vida Completo da Turbina",
+    "heading": "Serviços Técnicos",
+    "subheading": "Os mesmos engenheiros ex-OEM cuidam da sua revisão geral, das suas peças e da sua emergência às 2h da manhã — sem subcontratação, sem transferências.",
+    "painLines": {
+      "srv_2": "Cansado de fornecedores que aparecem mal equipados e não entregam nenhum relatório de serviço?",
+      "srv_3": "O OEM cotou meses para uma peça que não está mais em produção?",
+      "srv_4": "Vibração recorrente após alinhamento e troca de mancal — a causa raiz não foi resolvida?"
+    },
+    "viewFullDetails": "Ver Detalhes Completos",
+    "viewAllServices": "Ver os 8 Serviços"
+  },
+  "testimonials": {
+    "eyebrow": "Feedback de Clientes",
+    "heading": "Confiado por Gerentes de Planta em Toda a Índia",
+    "googleRatingLabel": "+ avaliações verificadas no Google",
+    "disclaimer": "As citações são extraídas de registros de projetos concluídos e abreviadas para iniciais até obtenção de consentimento por escrito para atribuição completa. Para avaliações verificadas de forma independente, veja nossas avaliações no Google acima.",
+    "footerCtaPrefix": "Trabalhou conosco?",
+    "footerCtaLink": "Deixe uma avaliação no Google — ajuda outros gerentes de planta a nos encontrar →",
+    "googleReviewBadge": "Avaliação Google",
+    "items": [
+      {
+        "quote": "Seus engenheiros ex-Triveni cuidaram da revisão geral da nossa turbina Triveni de 12 MW durante a parada anual — todas as folgas documentadas, rotor balanceado conforme ISO G1.0 e de volta à operação antes do prazo. Primeira vez em seis anos sem problemas na primeira partida.",
+        "name": "R. Kumar",
+        "role": "Gerente de Planta",
+        "company": "Usina de Açúcar e Cogeração",
+        "location": "Uttar Pradesh",
+        "service": "Revisão Geral de Turbinas",
+        "detail": "12 MW Triveni · Parada Programada"
+      },
+      {
+        "quote": "Tivemos uma falha crítica de mancal babbitt na nossa turbina Belliss & Morcom às 2h da manhã, no pico da safra de moagem. A Keshav Enterprises teve um engenheiro no local pela manhã com o mancal de reposição pronto. O tempo de parada foi inferior a 14 horas — isso nos poupou milhões em perdas de cana.",
+        "name": "A. Singh",
+        "role": "Chefe de Manutenção",
+        "company": "Usina de Açúcar",
+        "location": "Haryana",
+        "service": "Resposta a Emergência de Parada",
+        "detail": "Belliss & Morcom · Falha de Mancal"
+      },
+      {
+        "quote": "Peças OEM para nossa turbina Belliss & Morcom de 28 anos tinham prazos de 18 meses. A Keshav fez a engenharia reversa do eixo do rotor e dos anéis labirinto em 6 semanas, com certificados PMI completos. A qualidade era indistinguível da OEM.",
+        "name": "V. Sharma",
+        "role": "Engenheiro-Chefe",
+        "company": "Fábrica de Papel e Usina de Energia",
+        "location": "Punjab",
+        "service": "Engenharia Reversa",
+        "detail": "Belliss & Morcom · Peças Obsoletas"
+      },
+      {
+        "quote": "Depois que a Keshav balanceou dinamicamente o rotor da nossa turbina BHEL de 3 MW, a vibração residual caiu de 9,2 mm/s para 0,8 mm/s — bem dentro de ISO G1.0. O rotor vinha causando desgaste de mancal a cada 8 meses. Agora estamos com 26 meses sem troca de mancal. O relatório de balanceamento satisfez nossos auditores de seguro.",
+        "name": "P. Reddy",
+        "role": "Engenheiro de Instrumentação e Manutenção",
+        "company": "Usina de Energia Cativa",
+        "location": "Telangana",
+        "service": "Balanceamento Dinâmico",
+        "detail": "3 MW BHEL · Conformidade ISO G1.0"
+      }
+    ]
+  },
+  "capabilities": {
+    "heading": "Capacidades de Fabricação e Técnicas",
+    "items": [
+      {
+        "iconName": "Zap",
+        "text": "Prazos mais rápidos que o abastecimento OEM — Triveni, Siemens, BHEL"
+      },
+      {
+        "iconName": "Layers",
+        "text": "Upgrades de material: Duplex, Incoloy, Inconel, Titânio, Hastelloy"
+      },
+      {
+        "iconName": "Activity",
+        "text": "Balanceamento dinâmico ISO/API com capacidade de 50–2.000 kg"
+      },
+      {
+        "iconName": "Wind",
+        "text": "Foles de expansão sob medida DN 15–12.000, até 150 barg"
+      },
+      {
+        "iconName": "Droplets",
+        "text": "Elementos filtrantes conforme normas ISO 16889, API 614, ASME e EN"
+      },
+      {
+        "iconName": "Cpu",
+        "text": "Sistemas de óleo lubrificante conforme classificação de limpeza ISO 4406:99"
+      }
+    ]
+  },
+  "projectsTeaser": {
+    "eyebrow": "Resultados de Campo Documentados",
+    "heading": "Projetos e Estudos de Caso",
+    "viewAllProjects": "Ver Todos os Projetos",
+    "readCaseStudy": "Ler Estudo de Caso",
+    "seeAllProjectsPrefix": "Ver todos os",
+    "seeAllProjectsSuffix": "projetos"
+  },
+  "resourceBar": {
+    "blogText": "Artigos técnicos da nossa equipe de engenharia",
+    "downloadsText": "Checklists de revisão gratuitos, modelos de RFQ e fichas técnicas"
+  },
+  "finalCta": {
+    "heading": "Obtenha uma Cotação Técnica. Cada Hora Parado Tem um Custo.",
+    "subheading": "Nossos engenheiros respondem com uma resposta técnica em 24 horas para trabalhos programados — e em até uma hora para emergências — porque a disponibilidade da sua planta é o seu resultado final.",
+    "plannedTitle": "Revisão Programada ou RFQ",
+    "plannedDesc": "Manutenção programada, aquisição de peças, fornecimento de juntas de expansão ou pedidos de elementos filtrantes. Compartilhe seus requisitos e receba uma cotação técnica detalhada.",
+    "plannedSendBtn": "Envie Seus Requisitos",
+    "plannedEmailBtn": "Envie um E-mail à Nossa Equipe de Engenharia",
+    "emergencyTitle": "Emergência de Parada — Agora Mesmo",
+    "emergencyDesc": "Turbina disparou? Vibração alta? Parada inesperada? Nossos engenheiros estão disponíveis 24×7. Ligue ou envie WhatsApp imediatamente — cada hora parado tem um custo.",
+    "emergencyCallPrefix": "Ligue Agora —",
+    "emergencyWhatsappBtn": "WhatsApp de Emergência",
+    "riskReversal": [
+      "Sem compromisso — enviamos uma resposta técnica, você decide o que vem a seguir",
+      "RFQ confidencial — os detalhes da sua planta nunca chegam a representantes OEM",
+      "Quem responde é um engenheiro, não uma central de atendimento",
+      "Resposta programada em 24 horas · emergência em 1 hora"
+    ]
+  },
+  "whatsappEmergencyMessage": "Olá KESHAV ENTERPRISES, temos uma emergência de parada. Por favor, ajudem imediatamente."
+}

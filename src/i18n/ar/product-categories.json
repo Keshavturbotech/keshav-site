@@ -1,0 +1,35 @@
+{
+  "all": {
+    "label": "الكل"
+  },
+  "industrial-filtration": {
+    "label": "الترشيح الصناعي"
+  },
+  "industrial-strainers": {
+    "label": "المصافي الصناعية"
+  },
+  "expansion-joints": {
+    "label": "وصلات التمدد"
+  },
+  "turbine-spares": {
+    "label": "قطع غيار التوربينات"
+  },
+  "industrial-rubber-products": {
+    "label": "منتجات المطاط الصناعية"
+  },
+  "flexible-hoses-and-assemblies": {
+    "label": "الخراطيم والتجميعات المرنة"
+  },
+  "electronic-equipments": {
+    "label": "المعدات الإلكترونية"
+  },
+  "hydraulic-components": {
+    "label": "المكونات الهيدروليكية"
+  },
+  "hvac-ducting-and-air-filtration": {
+    "label": "التكييف، مجاري الهواء وترشيح الهواء"
+  },
+  "valves-gaskets-and-steam-system-products": {
+    "label": "الصمامات، الحشيات ومنتجات نظام البخار"
+  }
+}

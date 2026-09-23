@@ -1,0 +1,32 @@
+{
+  "products": {
+    "metaTitle": "Catalogue produits — Pièces de turbines, filtres, joints de dilatation, filtres à air CVC",
+    "metaDescription": "",
+    "h1": "Produits industriels",
+    "subheading": "{count} produits conçus avec précision répartis en {categories} catégories. Conformes ISO/API/ASME avec spécifications techniques complètes."
+  },
+  "services": {
+    "metaTitle": "Services de turbines — Révision, montage et rétro-ingénierie",
+    "metaDescription": "Révision complète, rétro-ingénierie, montage et mise en service, équilibrage dynamique, rinçage d'huile de lubrification et alignement de machines pour turbines à vapeur de 5 kW à 60 MW.",
+    "h1": "Services techniques",
+    "subheading": "Solutions mécaniques spécialisées pour équipements industriels rotatifs de 5 kW à 60 MW, garantissant une fiabilité optimale dans les centrales électriques, sucreries, papeteries, raffineries et industries pétrochimiques."
+  },
+  "industries": {
+    "metaTitle": "Secteurs desservis — Énergie, sucre, pétrole et gaz, pétrochimie, ciment",
+    "metaDescription": "Keshav Enterprises dessert les centrales électriques, sucreries, papeteries, industries pétrolières et gazières, pétrochimiques, agricoles et cimentières avec une ingénierie de turbines et des produits industriels spécialisés.",
+    "h1": "Secteurs que nous desservons",
+    "subheading": "Solutions spécialisées d'ingénierie de turbines et de produits industriels dans sept secteurs industriels majeurs."
+  },
+  "blog": {
+    "metaTitle": "Blog technique — Maintenance des turbines, filtration industrielle et CVC",
+    "metaDescription": "Articles techniques sur la révision des turbines à vapeur, la filtration d'huile de lubrification, la sélection de filtres à air CVC, les dépoussiéreurs à jet pulsé, la rétro-ingénierie et les meilleures pratiques de maintenance industrielle, par l'équipe d'ingénierie de Keshav Enterprises.",
+    "h1": "Blog technique",
+    "subheading": "Analyses techniques sur la maintenance des turbines, les systèmes d'huile de lubrification, la filtration d'air CVC, la collecte de poussière, la rétro-ingénierie et les meilleures pratiques industrielles — par notre équipe d'ingénierie."
+  },
+  "downloads": {
+    "metaTitle": "Téléchargements techniques gratuits — Listes de contrôle, fiches techniques et modèles de RFQ",
+    "metaDescription": "Téléchargez gratuitement des listes de contrôle de révision de turbines à vapeur, des fiches techniques de filtres à huile de lubrification, des guides de jeu de roulements et des modèles de RFQ auprès de Keshav Enterprises — spécialistes indiens des turbines à vapeur.",
+    "h1": "Téléchargements gratuits",
+    "subheading": "Listes de contrôle techniques, fiches techniques, références de roulements et modèles de RFQ gratuits pour les ingénieurs d'usine et les équipes d'achat."
+  }
+}

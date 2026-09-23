@@ -1,0 +1,30 @@
+{
+  "srv_1": {
+    "scope": "Huduma kamili (turnkey)",
+    "turnaround": "Ratiba kulingana na mradi"
+  },
+  "srv_2": {
+    "scope": "Huduma kamili eneo la kazi",
+    "turnaround": "Kawaida siku 3–21"
+  },
+  "srv_3": {
+    "scope": "Karakhana na eneo la kazi",
+    "turnaround": "Siku 7–30"
+  },
+  "srv_4": {
+    "scope": "Karakhana",
+    "turnaround": "Kawaida saa 48–72"
+  },
+  "srv_5": {
+    "scope": "Usafishaji eneo la kazi",
+    "turnaround": "Siku 2–7"
+  },
+  "srv_6": {
+    "scope": "Kazi sahihi eneo la kazi",
+    "turnaround": "Siku 1–3"
+  },
+  "srv_7": {
+    "scope": "Uchunguzi eneo la kazi",
+    "turnaround": "Ripoti siku hiyo hiyo"
+  }
+}

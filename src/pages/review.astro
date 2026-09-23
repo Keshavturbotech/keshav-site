@@ -1,0 +1,33 @@
+---
+// src/pages/review.astro
+// Wraps the standalone ReviewForm component (provided directly as a
+// ready-built React component — ported with minimal changes, see
+// ExitIntentReviewPopup.jsx / ReviewForm.jsx comments for what was adjusted).
+import Layout from "../layouts/Layout.astro";
+import ReviewForm from "../components/islands/ReviewForm.jsx";
+import { getLocalizedList } from "../lib/i18n";
+import type { Product } from "../data/products";
+
+const locale = Astro.currentLocale ?? "en";
+const products = getLocalizedList<Product>("products", locale);
+
+const SITE_URL = "https://www.keshavturbotech.com";
+const reviewSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": `${SITE_URL}/review`,
+  name: "Leave a Review — Keshav Enterprises",
+  url: `${SITE_URL}/review`,
+};
+---
+
+<Layout
+  title="Leave a Review — Tell Us About Your Experience"
+  description="Share your experience with Keshav Enterprises — rate our products and services, or send us a product inquiry. Takes 2 minutes."
+  canonicalPath="/review"
+  jsonLd={reviewSchema}
+>
+  <div class="pt-16 bg-slate-50 min-h-screen">
+    <ReviewForm client:load products={products} />
+  </div>
+</Layout>

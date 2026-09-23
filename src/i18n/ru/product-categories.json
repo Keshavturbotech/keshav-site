@@ -1,0 +1,35 @@
+{
+  "all": {
+    "label": "Все"
+  },
+  "industrial-filtration": {
+    "label": "Промышленная фильтрация"
+  },
+  "industrial-strainers": {
+    "label": "Промышленные сетчатые фильтры"
+  },
+  "expansion-joints": {
+    "label": "Компенсаторы"
+  },
+  "turbine-spares": {
+    "label": "Запчасти для турбин"
+  },
+  "industrial-rubber-products": {
+    "label": "Промышленные резинотехнические изделия"
+  },
+  "flexible-hoses-and-assemblies": {
+    "label": "Гибкие рукава и сборки"
+  },
+  "electronic-equipments": {
+    "label": "Электронное оборудование"
+  },
+  "hydraulic-components": {
+    "label": "Гидравлические компоненты"
+  },
+  "hvac-ducting-and-air-filtration": {
+    "label": "ОВК, воздуховоды и очистка воздуха"
+  },
+  "valves-gaskets-and-steam-system-products": {
+    "label": "Клапаны, прокладки и продукция для паровых систем"
+  }
+}

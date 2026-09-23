@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "Mühendislik Ekibiyle İletişime Geçin — Teknik Teklif Talep Edin",
+    "description": "Türbin mühendisliği teklif talepleri (RFQ), tersine mühendislik fiyat teklifleri ve 24x7 acil arıza desteği için Keshav Enterprises ile iletişime geçin. Telefon: +91 9149229448.",
+    "schemaName": "Keshav Enterprises ile İletişime Geçin"
+  },
+  "hero": {
+    "title": "Satış Ekibiyle Değil, Bir Mühendisle Konuşun",
+    "subtitle": "İhtiyaçlarınızı bizimle paylaşın; çağrı merkezi değil, eski OEM mühendislerinden oluşan ekibimiz 24 saat içinde teknik bir yanıt versin — çünkü ihtiyacınız olan broşür değil, cevaptır.",
+    "trustSignals": [
+      "Gizli RFQ — asla OEM temsilcileriyle paylaşılmaz",
+      "Hiçbir yükümlülük yok — bir sonraki adıma siz karar verirsiniz",
+      "Planlı talepler için 24 saat · acil durumlar için 1 saat"
+    ]
+  },
+  "cards": {
+    "directLines": {
+      "title": "Doğrudan Hatlar",
+      "salesLabel": "Satış & RFQ",
+      "emergencyLabel": "7/24 Acil Arıza Desteği",
+      "whatsappCta": "Bu numaraya WhatsApp'tan yazın",
+      "whatsappPrefillMessage": "Merhaba, türbinim için acil arıza desteğine ihtiyacım var."
+    },
+    "email": {
+      "title": "E-posta (RFQ için)"
+    },
+    "facilityAddress": {
+      "title": "Tesis Adresi"
+    },
+    "officeHours": {
+      "title": "Çalışma Saatleri",
+      "mondaySaturdayLabel": "Pazartesi – Cumartesi",
+      "mondaySaturdayValue": "09:00 – 18:00 (Hindistan saatiyle, IST)",
+      "sundayLabel": "Pazar",
+      "sundayValue": "Kapalı (yalnızca acil durumlar)",
+      "emergencyLineLabel": "Acil Durum Hattı",
+      "emergencyLineValue": "7/24 Aktif"
+    },
+    "indiamart": {
+      "ariaLabel": "Keshav Enterprises'ı IndiaMART'ta görüntüleyin",
+      "title": "IndiaMART Onaylı",
+      "ratingSrOnly": "5 üzerinden 4,3 yıldız",
+      "ratingText": "4,3/5 Puan",
+      "trustSeal": "TrustSeal Tedarikçisi"
+    },
+    "connect": {
+      "label": "Bizimle İletişime Geçin"
+    }
+  },
+  "formSection": {
+    "heading": "Ücretsiz Teknik Teklifinizi Alın",
+    "subheading": "Talebiniz doğrudan baş mühendisimize ulaşır — çağrı merkezine değil. Tesis müdürlerinin gerçekten ihtiyaç duyduğu şey bu olduğu için teknik bir yanıt gönderiyoruz. Türbininizin son yağ analizi raporunun ücretsiz incelemesini de içerir."
+  },
+  "googleBusiness": {
+    "title": "Bizi Google İşletme'de Bulun",
+    "descriptionPrefix": "Google Haritalar'da",
+    "descriptionQuoted": "Keshav Enterprises Shamli",
+    "descriptionSuffix": "araması yapın — profilimizi görüntüleyin, yol tarifi alın veya diğer alıcıların bizi bulmasına yardımcı olmak için bir değerlendirme bırakın.",
+    "cta": "Google'da Görüntüle"
+  },
+  "facilityPhoto": {
+    "caption": "Üretim Tesisimiz, Shamli, Uttar Pradesh",
+    "alt": "Keshav Enterprises üretim tesisi — Shamli, Uttar Pradesh"
+  },
+  "map": {
+    "heading": "Üretim Tesisimiz — Shamli, Uttar Pradesh",
+    "iframeTitle": "Keshav Enterprises konum haritası",
+    "googleBusinessCta": "Google İşletme",
+    "directionsCta": "Yol Tarifi Alın"
+  },
+  "form": {
+    "riskReversal": [
+      {
+        "title": "Hiçbir yükümlülük söz konusu değil",
+        "sub": "Size teknik bir yanıt veririz. Sonrasında ne olacağına siz karar verirsiniz — takip baskısı yok."
+      },
+      {
+        "title": "RFQ'nuz gizli kalır",
+        "sub": "Tesis bilgilerinizi hiçbir zaman üçüncü taraflarla — hatta OEM temsilcileriyle bile — paylaşmayız."
+      },
+      {
+        "title": "Size satış temsilcisi değil, bir mühendis yanıt verir",
+        "sub": "Türbin tipinizle daha önce çalışmış biri size gerçek bir teknik yanıt verir."
+      },
+      {
+        "title": "Uygun değilse, bunu size önce biz söyleriz",
+        "sub": "İşiniz kapsamımızın dışındaysa bunu baştan söyleriz — oyalama yok, zaman kaybı yok."
+      }
+    ],
+    "inquiryTypes": [
+      "Türbin Revizyon Hizmeti",
+      "Acil Arıza Desteği",
+      "Türbin Montajı ve Devreye Alma",
+      "Tersine Mühendislik",
+      "Dinamik Balans",
+      "Yağlama Yağı Yıkama (Lube Oil Flushing)",
+      "Makine Hizalama",
+      "Arıza Tespiti",
+      "Kumlama",
+      "Filtre Elemanı RFQ",
+      "HVAC, Kanal Sistemleri & Hava Filtrasyonu RFQ",
+      "Türbin Yedek Parça RFQ",
+      "Valfler, Contalar & Buhar Sistemi RFQ",
+      "Genleşme Contası (Expansion Joint) RFQ",
+      "Süzgeç (Strainer) RFQ",
+      "Genel Bilgi Talebi"
+    ],
+    "officeStatus": {
+      "online": "Mühendisler şu anda çevrimiçi — 2 saat içinde yanıt verilir",
+      "offline": "Acil durum hattı 7/24 aktif — planlı RFQ'lar saat 09:00 IST'ten itibaren yanıtlanır"
+    },
+    "labels": {
+      "yourName": "Adınız",
+      "companyName": "Şirket Adı",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "inquiryType": "Talep Türü",
+      "turbineMakeModel": "Türbin Markası / Modeli",
+      "details": "Detaylar",
+      "attachments": "Teknik Çizim / Veri Föyü Ekleyin (isteğe bağlı)"
+    },
+    "placeholders": {
+      "yourName": "Ad soyad",
+      "companyName": "Şirketinizin adı",
+      "email": "you@company.com",
+      "phone": "+91 98000 00000",
+      "inquiryTypeSelect": "Bir talep türü seçin…",
+      "turbineMakeModel": "örn. Triveni 5 MW, geri basınçlı (back-pressure)",
+      "details": "İhtiyacınızı, arıza belirtilerini, zaman planını veya teknik özellikleri açıklayın…"
+    },
+    "attachmentsHelp": "PDF, DWG, DXF, JPG, PNG — dosya başına maks. 10 MB. Daha hızlı ve daha doğru bir teklif vermemize yardımcı olur.",
+    "charCounter": {
+      "minRequired": "En az 20 karakter gerekli",
+      "moreNeededOne": "{n} karakter daha gerekli",
+      "moreNeededMany": "{n} karakter daha gerekli",
+      "looksGood": "✓ Uygun görünüyor!"
+    },
+    "errors": {
+      "yourName": "Adınız gereklidir",
+      "companyName": "Şirket adı gereklidir",
+      "email": "Geçerli bir e-posta adresi gereklidir",
+      "phone": "Geçerli bir telefon numarası gereklidir (10 veya daha fazla rakam)",
+      "inquiryType": "Lütfen bir talep türü seçin",
+      "details": "Lütfen detay belirtin (en az 20 karakter)",
+      "attachmentTooLarge": "\"{filename}\" 10 MB sınırını aşıyor — lütfen daha küçük bir dosya ekleyin",
+      "rateLimited": "Çok fazla gönderim yapıldı. Lütfen tekrar denemeden önce bir saat bekleyin.",
+      "securityCheck": "Lütfen güvenlik kontrolünü tamamlayın.",
+      "notConfigured": "Form yapılandırılmamış — lütfen bizimle doğrudan WhatsApp veya telefon üzerinden iletişime geçin.",
+      "submissionFailedGeneric": "Gönderim başarısız oldu. Lütfen tekrar deneyin.",
+      "submissionFailedBanner": "Gönderim başarısız oldu — lütfen tekrar deneyin veya doğrudan bize ulaşın:",
+      "whatsappFallback": "WhatsApp",
+      "whatsappFallbackPrefillMessage": "Merhaba, iletişim formunu göndermeye çalıştım ancak başarısız oldu. Yardımcı olabilir misiniz?"
+    },
+    "buttons": {
+      "sendingToEngineer": "Mühendislik Ekibine Gönderiliyor...",
+      "sendToEngineer": "Baş Mühendisimize Gönderin",
+      "sendToEngineerSub": "Broşür değil, teknik bir yanıt alın",
+      "sendingShort": "Gönderiliyor…",
+      "submitWithDrawings": "Teknik Çizimlerle RFQ Gönderin",
+      "submitWithDrawingsSub": "Çünkü herkes WhatsApp kullanmıyor"
+    },
+    "footerNote": {
+      "text": "1 iş günü içinde yanıt veriyoruz · Spam yok ·",
+      "privacyPolicyLink": "Gizlilik Politikası"
+    },
+    "success": {
+      "heading": "Talebiniz mühendislerimize iletildi.",
+      "bodyPrefix": "Planlı talepler için",
+      "bodyMid": "içinde, acil arızalar için ise",
+      "bodySuffix": "içinde teknik bir yanıt bekleyebilirsiniz — çağrı merkezinden değil, bir mühendisten.",
+      "hours24": "24 saat",
+      "hour1": "1 saat",
+      "resendCta": "Başka bir talep gönderin",
+      "whileYouWaitLabel": "Beklerken —",
+      "whileYouWaitText": "belgelenmiş vaka çalışmalarımıza ve saha sonuçlarımıza göz atın.",
+      "viewCaseStudiesCta": "Vaka Çalışmalarını Görüntüle"
+    }
+  }
+}

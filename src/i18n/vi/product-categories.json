@@ -1,0 +1,35 @@
+{
+  "all": {
+    "label": "Tất cả"
+  },
+  "industrial-filtration": {
+    "label": "Lọc công nghiệp"
+  },
+  "industrial-strainers": {
+    "label": "Bộ lọc rác công nghiệp"
+  },
+  "expansion-joints": {
+    "label": "Khớp nối giãn nở"
+  },
+  "turbine-spares": {
+    "label": "Phụ tùng tua-bin"
+  },
+  "industrial-rubber-products": {
+    "label": "Sản phẩm cao su công nghiệp"
+  },
+  "flexible-hoses-and-assemblies": {
+    "label": "Ống mềm & bộ lắp ráp"
+  },
+  "electronic-equipments": {
+    "label": "Thiết bị điện tử"
+  },
+  "hydraulic-components": {
+    "label": "Linh kiện thủy lực"
+  },
+  "hvac-ducting-and-air-filtration": {
+    "label": "HVAC, Hệ thống Ống gió & Lọc không khí"
+  },
+  "valves-gaskets-and-steam-system-products": {
+    "label": "Van, Gioăng & Sản phẩm Hệ thống Hơi nước"
+  }
+}

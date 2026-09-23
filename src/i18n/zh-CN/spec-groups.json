@@ -1,0 +1,14 @@
+{
+  "dimensions": {
+    "label": "尺寸"
+  },
+  "performance": {
+    "label": "性能"
+  },
+  "materials": {
+    "label": "材料"
+  },
+  "standards": {
+    "label": "标准"
+  }
+}

@@ -1,0 +1,488 @@
+// src/data/blog-posts.ts
+// Ported verbatim from BLOG_POSTS in App.jsx (line ~17590).
+
+export interface BlogContentBlock {
+  type: "h2" | "h3" | "p" | "list" | "quote" | "image" | string;
+  text?: string;
+  items?: string[];
+  [key: string]: unknown;
+}
+
+export interface BlogPost {
+  id: string;
+  slug: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  author: string;
+  readTime: string;
+  tags: string[];
+  coverImage: string;
+  content: BlogContentBlock[];
+}
+
+export const BLOG_POSTS: BlogPost[] = [
+  {
+    id: "post_1",
+    slug: "steam-turbine-overhauling-checklist",
+    title: "The Complete Steam Turbine Overhauling Checklist for Plant Engineers",
+    excerpt:
+      "A practical, step-by-step checklist covering pre-shutdown planning, inspection protocols, clearance recording, and post-overhaul commissioning for steam turbines up to 60 MW.",
+    date: "2026-03-15",
+    author: "Keshav Enterprises Engineering Team",
+    readTime: "8 min read",
+    tags: ["Overhauling", "Steam Turbines", "Maintenance"],
+    coverImage: "blog-turbine-overhaul.webp",
+    content: [
+      { type: "h2", text: "Why a Structured Checklist Matters" },
+      {
+        type: "p",
+        text: "Unplanned turbine shutdowns cost Indian power and sugar plants lakhs of rupees per hour. A structured overhauling checklist ensures nothing is missed during planned maintenance windows, reducing the risk of early failure after recommissioning and avoiding costly repeat shutdowns.",
+      },
+      { type: "h2", text: "1. Pre-Shutdown Planning (4–6 Weeks Before)" },
+      {
+        type: "p",
+        text: "Begin with a detailed scope of work covering all rotating equipment in the train. Inspect all stocked spare parts and generate a shortfall report. Order critical items (bearings, seals, labyrinth packings, carbon rings) with adequate lead time. Arrange for specialized tools: alignment laser, vibration analyser, dial indicators, and feeler gauges.",
+      },
+      {
+        type: "list",
+        items: [
+          "Confirm OEM clearance data for all turbine stages",
+          "Arrange lube oil flushing equipment (mobile centrifuge filter unit)",
+          "Book ex-OEM engineers if required for major overhaul",
+          "Prepare condition monitoring baseline readings (vibration, temperature, pressure)",
+        ],
+      },
+      { type: "h2", text: "2. Shutdown & Isolation" },
+      {
+        type: "p",
+        text: "Follow the OEM-specified shutdown procedure. Allow adequate cool-down time before breaking any flanges. Lock out / tag out all energy sources including steam, lube oil, condensate, and control air. Drain the lube oil system completely before disassembly.",
+      },
+      { type: "h2", text: "3. Disassembly & Inspection" },
+      {
+        type: "p",
+        text: "Record all clearances, gaps, and fits before removing components: these are essential for comparison with OEM specification and for detecting wear trends. Photograph every stage. Measure rotor run-out at journal, thrust collar, and coupling faces.",
+      },
+      {
+        type: "list",
+        items: [
+          "Bearing clearances (radial and axial)",
+          "Labyrinth seal diametral clearances",
+          "Coupling alignment offset and angularity",
+          "Carbon ring face condition and spring tension",
+          "Nozzle and diaphragm condition and throat dimensions",
+          "ESV seat and disc condition",
+        ],
+      },
+      { type: "h2", text: "4. Workshop Repairs & Replacements" },
+      {
+        type: "p",
+        text: "Send the rotor for journal grinding and dynamic balancing if run-out or vibration readings were outside tolerance. Replace carbon and graphite gland rings, labyrinth packings, and babbitt bearings as per condition report. All rotor balancing should be performed to ISO 1940 or API 670 standards.",
+      },
+      { type: "h2", text: "5. Reassembly & Alignment" },
+      {
+        type: "p",
+        text: "Reassemble in reverse order with new gaskets and fastener torque per OEM specifications. Perform final rotor alignment using laser alignment equipment: turbine to gearbox and gearbox to generator. Record all clearances post-assembly and confirm they are within OEM tolerance.",
+      },
+      { type: "h2", text: "6. Lube Oil Flushing" },
+      {
+        type: "p",
+        text: "Before commissioning, flush the lube oil system with a mobile centrifuge filter system targeting ISO 4406:99 cleanliness class 16/14/11 or better. Take oil samples before and after flushing and retain reports. Never commission a turbine without completing an oil flush: bearing failures from contaminated oil account for a significant portion of post-overhaul failures.",
+      },
+      { type: "h2", text: "7. Commissioning & First Run" },
+      {
+        type: "p",
+        text: "Follow the OEM pre-commissioning procedure step by step. Monitor vibration, bearing temperatures, and lube oil pressure continuously during the first run-up. Confirm ESV and governor operation. Fine-tune alignment if vibration levels are elevated. Document all commissioning readings for the plant maintenance record.",
+      },
+      {
+        type: "cta",
+        text: "Need expert overhauling engineers for your next planned shutdown? Our ex-OEM team covers Triveni, Siemens, BHEL, Belliss & Morcom, and more.",
+      },
+    ],
+  },
+  {
+    id: "post_2",
+    slug: "lube-oil-contamination-turbine-bearings",
+    title: "How Lube Oil Contamination Destroys Turbine Bearings: And How to Prevent It",
+    excerpt:
+      "Water ingress, solid particles, and oxidation are the three leading causes of premature turbine bearing failure. Here is how to identify each contamination type and what filtration products to use to prevent damage.",
+    date: "2026-02-28",
+    author: "Keshav Enterprises Engineering Team",
+    readTime: "6 min read",
+    tags: ["Lube Oil", "Bearings", "Filtration", "Preventive Maintenance"],
+    coverImage: "blog-lube-oil.webp",
+    content: [
+      { type: "h2", text: "The Hidden Bearing Killer" },
+      {
+        type: "p",
+        text: "Turbine babbitt bearings are precision components operating on a hydrodynamic oil film just a few microns thick. Any contamination of the lube oil system (solid particles, water, or degraded oil) destroys this film, leading to direct metal contact and accelerated wear. Studies show that over 70% of turbine bearing failures are lubrication-related.",
+      },
+      { type: "h2", text: "Contamination Type 1: Solid Particles" },
+      {
+        type: "p",
+        text: "Particles above 10 microns can scratch bearing surfaces. Particles in the 1–10 micron range are most damaging: they enter the oil film clearance and cause three-body abrasion. Sources include post-construction debris, wear particles from gears, and dirt entering through tank breathers.",
+      },
+      {
+        type: "p",
+        text: "Solution: Install high-efficiency lube oil filter elements (ISO 16889, beta-ratio ≥200 at 10 microns) in the main filter housing. Use tank breather filter elements (3 VL glass fibre) to prevent ingestion of airborne particulates. Target system cleanliness: ISO 4406:99 Class 16/14/11 or better for turbine bearings.",
+      },
+      { type: "h2", text: "Contamination Type 2: Water Ingress" },
+      {
+        type: "p",
+        text: "Water in lube oil causes hydrogen embrittlement of babbitt, promotes oxidation, and supports bacterial growth. Even 200 ppm of free water significantly reduces oil film strength. Sources include steam gland leaks, condensation in the tank, and cooler tube failures.",
+      },
+      {
+        type: "p",
+        text: "Solution: Install WaterSorp offline filter elements in the side-stream return line. These dual-function elements simultaneously remove solid particles and absorb free and emulsified water. Regular oil sampling (monthly) per ISO standards will detect water early.",
+      },
+      { type: "h2", text: "Contamination Type 3: Oil Oxidation & Degradation" },
+      {
+        type: "p",
+        text: "High operating temperatures and the presence of metal catalysts cause turbine oil to oxidise, forming varnish deposits and acidic by-products. These deposits clog filter elements, stick to bearing surfaces, and accelerate wear.",
+      },
+      {
+        type: "p",
+        text: "Solution: Monitor acid number (AN) and viscosity trends. WaterSorp offline filtration extends oil life by removing the water and particles that catalyse oxidation. Plan oil changes before the acid number exceeds OEM limits.",
+      },
+      {
+        type: "list",
+        items: [
+          "Check filter differential pressure weekly: replace element at 3.5–4 bar ΔP",
+          "Inspect tank breather filter monthly",
+          "Conduct oil sampling every 30 days and trend results",
+          "Install WaterSorp elements if water contamination is detected",
+          "Flush the system with mobile centrifuge filter after any major repair",
+        ],
+      },
+      {
+        type: "cta",
+        text: "We supply ISO 16889-compliant lube oil filter elements compatible with Triveni, Siemens, BHEL, and all major turbine makes. Request a quote via WhatsApp.",
+      },
+    ],
+  },
+  {
+    id: "post_3",
+    slug: "reverse-engineering-turbine-spares-india",
+    title: "Reverse Engineering Turbine Spares: How We Recreate Obsolete Components in India",
+    excerpt:
+      "When OEM spare parts are unavailable, have 18-month lead times, or are priced prohibitively, reverse engineering offers a reliable alternative. Here is the step-by-step process we use at Keshav Enterprises.",
+    date: "2026-01-20",
+    author: "Keshav Enterprises Engineering Team",
+    readTime: "7 min read",
+    tags: ["Reverse Engineering", "Turbine Spares", "Manufacturing", "3D Scanning"],
+    coverImage: "blog-reverse-engineering.webp",
+    content: [
+      { type: "h2", text: "Why Reverse Engineer Turbine Parts?" },
+      {
+        type: "p",
+        text: "Many Indian industrial plants operate turbines that are 20–40 years old. Original equipment manufacturers have discontinued certain models, merged with other companies, or simply stopped stocking spares for older machines. Lead times from overseas OEMs for machined components routinely exceed 12–18 months, unacceptable when a sugar mill has a fixed crushing season or a power plant has a contract penalty for each day offline.",
+      },
+      {
+        type: "h2",
+        text: "Step 1: Component Acquisition & Initial Assessment",
+      },
+      {
+        type: "p",
+        text: "We start with the worn or broken component itself, or the mating part if the original is beyond measurement. The component is cleaned and visually assessed to determine which surfaces are still measurable and which have been degraded by wear or damage.",
+      },
+      { type: "h2", text: "Step 2: 3D Laser Scanning & CMM Measurement" },
+      {
+        type: "p",
+        text: "For complex profiles (rotor blades, nozzle blocks, diaphragms, governor components), we use a 3D laser scanner to capture the complete geometry as a point cloud. For simpler rotationally-symmetric parts (journal bearing housings, labyrinth ring grooves, seal rings), a coordinate measuring machine (CMM) captures critical dimensions with micron-level accuracy.",
+      },
+      {
+        type: "list",
+        items: [
+          "All critical dimensions recorded with tolerances",
+          "Concentricity and parallelism of mating faces checked",
+          "Thread forms, keyway depths, and interference fits measured",
+          "Surface finish specifications noted where measurable",
+        ],
+      },
+      { type: "h2", text: "Step 3: PMI Material Testing" },
+      {
+        type: "p",
+        text: "Positive Material Identification (PMI) using portable X-ray fluorescence (XRF) or optical emission spectrometry identifies the exact alloy composition of the original component. This is critical: a rotor shaft in 12% Cr steel behaves very differently from a 1% Cr-Mo shaft. Getting the material wrong means the reverse-engineered part will fail prematurely.",
+      },
+      { type: "h2", text: "Step 4: Engineering Drawing Generation" },
+      {
+        type: "p",
+        text: "From the scan data, CMM measurements, and material test results, our engineers generate a complete manufacturing drawing. This includes all dimensions with tolerances, surface finish specifications, pre- and post-heat treatment procedures, material specification, and inspection requirements.",
+      },
+      { type: "h2", text: "Step 5: Machining & Quality Control" },
+      {
+        type: "p",
+        text: "Machining is performed in three stages: rough machining to near-final dimensions, heat treatment if required (stress relieving, quench and temper, nitriding), and final precision machining. Each stage is inspected against the engineering drawing. Rotors are dynamically balanced to ISO 1940 / API 670 standards before dispatch.",
+      },
+      { type: "h2", text: "Turbines We Cover" },
+      {
+        type: "p",
+        text: "We have reverse-engineered components for steam turbines from 5 kW to 60 MW across all major makes: Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, Chola Turbo, DLF-Skoda, KKK, and ABB. Both back-pressure and condensing turbines, horizontal and vertical, single and multi-stage.",
+      },
+      {
+        type: "cta",
+        text: "Have an obsolete spare you need reverse-engineered? Send us a photo and your turbine details on WhatsApp, and we will assess feasibility within 24 hours.",
+      },
+    ],
+  },
+  {
+    id: "post_4",
+    slug: "belliss-morcom-turbine-common-faults-india",
+    title: "Belliss & Morcom Turbine Common Faults: Field Guide for Indian Plants",
+    excerpt:
+      "Belliss & Morcom steam turbines are widely used in Indian sugar mills and co-gen plants. Here are the most common faults our ex-OEM engineers encounter and how to diagnose and fix them.",
+    date: "2026-03-18",
+    author: "Keshav Enterprises Engineering Team",
+    readTime: "8 min read",
+    tags: ["Belliss & Morcom", "Troubleshooting", "Steam Turbine", "Sugar Mill"],
+    coverImage: "blog-belliss-morcom.webp",
+    content: [
+      {
+        type: "p",
+        text: "Belliss & Morcom (now Howden) turbines are found in hundreds of Indian sugar mills, co-generation plants, and industrial facilities. Our engineers have worked on Belliss units for over 20 years across UP, Punjab, Maharashtra, and Karnataka. Here are the faults we encounter most frequently, and the correct way to diagnose and resolve each one.",
+      },
+      { type: "h2", text: "Fault 1: High Vibration at Operating Speed" },
+      {
+        type: "p",
+        text: "The most common complaint on Belliss turbines is elevated vibration, typically detected by operators as increased noise and confirmed by portable vibration analysis. The leading root causes, in order of frequency, are: (1) rotor imbalance from deposit build-up on blades, (2) journal bearing wear, especially after long runs between overhauls, and (3) misalignment between the turbine and gearbox due to pipe strain or foundation settling.",
+      },
+      {
+        type: "list",
+        items: [
+          "Check bearing temperatures first: elevated temperature alongside high vibration almost always indicates bearing condition issues",
+          "Take a portable vibration reading at all four bearing housings and compare to baseline (1× and 2× running speed)",
+          "If 1× dominant: imbalance or misalignment. If 2× dominant: bearing looseness or misalignment. Sub-synchronous: oil whirl",
+          "Inspect the coupling for wear and correct assembly before concluding misalignment is a turbine problem",
+        ],
+      },
+      { type: "h2", text: "Fault 2: Governor Hunting / Speed Instability" },
+      {
+        type: "p",
+        text: "Belliss turbines use a centrifugal fly-ball governor or hydraulic governor depending on the model and vintage. Speed hunting (cyclic overshoot above and below setpoint) is typically caused by: worn pivot pins and fly-balls in centrifugal governors, incorrect droop setting, control valve actuator hysteresis, or steam pressure fluctuations from the boiler exceeding the governor authority.",
+      },
+      {
+        type: "p",
+        text: "Before dismantling the governor, confirm the steam supply pressure is stable. If supply pressure is fluctuating more than ±0.5 bar, the boiler control loop is the primary problem: the governor cannot compensate for large supply swings. Once boiler stability is confirmed, the governor pivot pins and fly-ball weights should be inspected for wear and replaced if clearances are excessive.",
+      },
+      { type: "h2", text: "Fault 3: Steam Gland Leakage" },
+      {
+        type: "p",
+        text: "Belliss turbines use labyrinth gland seals and gland steam systems to control leakage at the shaft ends. Visible steam leakage at the gland area in normal operation indicates: worn or damaged labyrinth strips, incorrect gland steam pressure setting, or shaft eccentricity causing uneven clearance around the labyrinth.",
+      },
+      {
+        type: "list",
+        items: [
+          "Measure shaft eccentricity at the gland area using a dial gauge: if runout exceeds 0.05 mm, the rotor condition must be assessed",
+          "Check gland steam pressure versus saturation conditions: condensing water in the gland steam supply line causes severe labyrinth erosion",
+          "Labyrinth strip replacement is a planned outage item: do not attempt to reduce clearances by shimming strips in situ",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Fault 4: Lube Oil High Temperature or Low Pressure",
+      },
+      {
+        type: "p",
+        text: "Lube oil system faults on Belliss turbines account for more unplanned trips than any other cause. High oil temperature (above 55°C at bearing inlet) typically means the lube oil cooler is fouled: clean the cooler shell and tube bundle. Low oil pressure trips occur when the relief valve is set incorrectly, filter differential pressure is high (element needs replacement), or the oil pump is worn and losing volumetric efficiency.",
+      },
+      {
+        type: "cta",
+        text: "Need our ex-Belliss & Morcom engineers for an overhaul, vibration analysis, or emergency fault diagnosis? Contact us on WhatsApp for a same-day response.",
+      },
+    ],
+  },
+  {
+    id: "post_5",
+    slug: "iso-4406-lube-oil-cleanliness-guide",
+    title:
+      "How to Read an ISO 4406 Lube Oil Cleanliness Report: A Guide for Maintenance Engineers",
+    excerpt:
+      "ISO 4406 particle count reports from oil labs are often misunderstood. This guide explains exactly what the numbers mean, how to set cleanliness targets for turbine bearing systems, and when to act.",
+    date: "2026-04-05",
+    author: "Keshav Enterprises Engineering Team",
+    readTime: "6 min read",
+    tags: ["Lube Oil", "ISO 4406", "Filtration", "Predictive Maintenance"],
+    coverImage: "blog-iso-4406.webp",
+    content: [
+      {
+        type: "p",
+        text: "Every month, thousands of oil analysis reports land in plant maintenance offices across India, and most of them are filed without being understood. ISO 4406 cleanliness codes are the single most actionable number in that report. Getting them wrong costs bearings. Getting them right extends turbine life.",
+      },
+      { type: "h2", text: "What Does an ISO 4406 Code Mean?" },
+      {
+        type: "p",
+        text: 'An ISO 4406:99 cleanliness code has three numbers, for example 18/16/13. Each number is a "range code" representing a particle count per millilitre of oil at three different particle sizes: 4 µm(c), 6 µm(c), and 14 µm(c). The "(c)" suffix means the count uses the optical particle counter calibration per ISO 11171: do not compare with older reports that used the uncalibrated method.',
+      },
+      {
+        type: "list",
+        items: [
+          "Range code 14 = 80–160 particles/mL",
+          "Range code 16 = 320–640 particles/mL",
+          "Range code 18 = 1,280–2,560 particles/mL",
+          "Range code 20 = 5,120–10,240 particles/mL",
+          "Each step up = doubling of contamination level",
+        ],
+      },
+      { type: "h2", text: "What Cleanliness Target Do You Need?" },
+      {
+        type: "p",
+        text: "For steam turbine journal bearing and lube oil systems, the target is typically ISO 4406:99 Class 16/14/11: this is the minimum requirement in API 614. Many OEMs including Triveni and Siemens specify 15/13/10 for turbines with hydraulic control systems. After a major overhaul or lube oil flush, the system should achieve 16/14/11 before oil-in to prevent bearing contamination damage during run-up.",
+      },
+      { type: "h2", text: "When Should You Act?" },
+      {
+        type: "p",
+        text: "If your routine oil analysis report shows the 6 µm(c) range code (middle number) at 17 or higher (one step above target), investigate immediately. Check filter differential pressure (replace if approaching 3.5–4 bar), inspect tank breather condition, and sample the inlet and outlet of the filter housing separately to locate where contamination is entering. If the water content report shows more than 0.1% water, replace the filter elements and schedule an offline WaterSorp filtration run.",
+      },
+      { type: "h2", text: "The Cost of Ignoring a Deteriorating Code" },
+      {
+        type: "p",
+        text: "Particles in the 4–10 µm range are the most damaging: they are exactly the right size to enter the hydrodynamic oil film between a rotating journal and Babbitt bearing surface and cause three-body abrasion. A turbine running with ISO cleanliness code 20/18/15 instead of 16/14/11 has approximately 100× more damaging particles than target. Bearing surfaces degrade progressively and the failure is gradual until it is not, then it is a 48-hour emergency and a Babbitt re-pour.",
+      },
+      {
+        type: "cta",
+        text: "We supply ISO 16889-compliant filter elements for all major turbine makes and can advise on lube oil flushing to achieve the correct cleanliness class before your next startup. Contact us on WhatsApp.",
+      },
+    ],
+  },
+  {
+    id: "post_6",
+    slug: "hvac-air-filter-selection-guide-industrial",
+    title:
+      "HVAC Air Filter Selection Guide for Industrial Facilities: F5 to F9 and Everything In Between",
+    excerpt:
+      "Pocket bag filters, pleated panels, metallic mesh pre-filters, activated carbon: choosing the wrong grade costs money and risks equipment damage. This guide explains which HVAC filter to use, where, and why.",
+    date: "2026-04-20",
+    author: "Keshav Enterprises Engineering Team",
+    readTime: "7 min read",
+    tags: ["HVAC", "Air Filtration", "AHU Filters", "Maintenance"],
+    coverImage: "blog-hvac-filter-selection.webp",
+    content: [
+      {
+        type: "p",
+        text: "Walk into any industrial plant in India (a sugar mill, a pharmaceutical factory, a cement control room) and you will find HVAC air handling units (AHUs) quietly keeping people and sensitive equipment alive. Walk a little further and you will often find those AHUs running with the wrong filter grade, a clogged-out bag that was last replaced two years ago, or no pre-filter at all. The results are predictable: DCS cabinets full of dust, cooling coils coated in grey felt, and electricity bills 15–20% higher than they need to be.",
+      },
+      {
+        type: "h2",
+        text: "Understanding Efficiency Classes: EN 779 and ISO 16890",
+      },
+      {
+        type: "p",
+        text: "Two standards govern HVAC filter efficiency. The older EN 779 uses grades G1 through F9: G (coarse) grades capture large particles, M (medium) and F (fine) grades capture progressively smaller ones. The newer ISO 16890 uses particle size-based classifications: ePM10, ePM2.5, and ePM1, with a percentage capture efficiency. If your filter supplier quotes only an EN 779 grade, ask for the ISO 16890 ePM1 efficiency, since it is the more meaningful number for air quality.",
+      },
+      {
+        type: "list",
+        items: [
+          "G1–G4 (ISO Coarse): Captures lint, fibres, insects, large dust, used as pre-filters and in metallic mesh washable panels",
+          "M5–M6 (ISO ePM10 ≥50%): Pollen, coarse dust, sand, suitable for non-critical industrial ventilation",
+          "F7 (ISO ePM1 ≥50%): General HVAC standard, the minimum for occupied offices, control rooms, and AHUs feeding sensitive equipment",
+          "F8 (ISO ePM1 ≥70%): Hospital ward supply, pharmaceutical Grade D preparation areas",
+          "F9 (ISO ePM1 ≥85%): Pre-filter upstream of HEPA for cleanrooms and critical pharmaceutical areas",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Step 1: Start with a Metallic Mesh Pre-Filter (G1–G3)",
+      },
+      {
+        type: "p",
+        text: "Every AHU in a heavy industrial environment (cement plant, power station, steel mill) should have a washable aluminium or SS mesh pre-filter at the first stage. Cost: a few hundred rupees. Benefit: the downstream bag or pleated filter lasts 2–3× longer because it never has to handle the coarse load. Aluminium mesh handles temperatures up to 150°C; SS mesh up to 350°C. Clean with compressed air blowback or warm water every 4–6 weeks.",
+      },
+      {
+        type: "h2",
+        text: "Step 2: Choose Your Main Filter: Pocket Bag or Pleated Panel?",
+      },
+      {
+        type: "p",
+        text: "Both pocket bag filters and pleated panel filters are available from G4 to F9, but they suit different AHU configurations. Pocket bag filters (multi-pocket) have a larger media area and longer service life in high-dust environments: the pockets extend into the airstream, maximising contact area. They are the standard choice for large industrial AHUs, commercial buildings, and hospitals. Pleated panel filters are more compact (25–96 mm deep vs 600 mm pocket length) and rigid, making them the preferred choice for fan coil units (FCUs), split-AC units, and vertical-airflow AHUs where space is limited.",
+      },
+      {
+        type: "list",
+        items: [
+          "Pocket bag filter: high dust load, large AHU, F5–F9, 3,000–5,000 m³/h+ per section",
+          "Pleated panel (25 mm): FCU/split AC replacement, G4–F7, compact vertical airflow",
+          "Pleated panel (96 mm): Mid-size AHU, F7–F8, rigid construction, no pocket collapse risk",
+          "Pleated panel (292 mm extended): Final-stage high-efficiency in pharmaceutical HVAC, F8–F9",
+        ],
+      },
+      { type: "h2", text: "Step 3: Add Activated Carbon for Odour Control" },
+      {
+        type: "p",
+        text: "If your facility has odour problems (kitchens, chemical storage, painting shops, printing presses, or any area with VOC emissions), a particulate filter alone will not solve the problem. Activated carbon (GAC) adsorbs cooking odours, solvents, hydrogen sulphide, formaldehyde, and most common industrial VOCs. In HVAC applications, activated carbon is typically supplied as a panel filter with a 25–50 mm granular carbon bed, or as a combination filter with a G4 particulate pre-filter bonded to the carbon layer. The carbon panel goes after the particulate filter in the air stream: putting it first wastes expensive carbon capacity on dust loading.",
+      },
+      { type: "h2", text: "How to Size Filter Replacement Intervals" },
+      {
+        type: "p",
+        text: "The single best practice is to install a differential pressure (DP) gauge across each filter stage and replace at 250 Pa final pressure drop, not on a calendar schedule. Calendar replacement wastes serviceable filters; run-to-failure causes the filter to collapse or bypass, contaminating the AHU coil with everything it was supposed to capture. If DP gauges are not practical, replace every 3 months in heavy industrial environments (cement, power, steel), every 6 months in light industrial, and annually in clean commercial environments, adjusting based on visual inspection.",
+      },
+      {
+        type: "cta",
+        text: "We supply HVAC pocket bag filters, pleated panel filters, metallic mesh pre-filters, and activated carbon vent filters for industrial and commercial AHUs across India. Contact us on WhatsApp with your AHU make, model, and frame dimensions for a matched replacement quotation.",
+      },
+    ],
+  },
+  {
+    id: "post_7",
+    slug: "pulse-jet-dust-collector-filter-bag-selection",
+    title:
+      "How to Select the Right Pulse-Jet Dust Collector Filter Bag: Media, Finish & Anti-Static Guide for Indian Plants",
+    excerpt:
+      "Choosing the wrong filter bag media for your baghouse (wrong temperature rating, wrong surface treatment, or missing anti-static) costs plant engineers weeks of downtime and expensive emergency replacements. Here is the complete selection guide.",
+    date: "2026-05-01",
+    author: "Keshav Enterprises Engineering Team",
+    readTime: "8 min read",
+    tags: ["Dust Collector", "Filter Bags", "Baghouse", "Industrial Filtration", "Cement", "HVAC"],
+    coverImage: "blog-dust-collector-filter-bag.webp",
+    content: [
+      {
+        type: "p",
+        text: 'Pulse-jet baghouses are the workhorses of industrial dust control across India: cement plants, coal handling systems, grain mills, pharmaceutical powder processing, and chemical plants all depend on them to meet emission norms and protect workers. Yet replacement filter bag selection is still often done by habit ("same as before") rather than engineering. When the "same as before" bag was wrong for the application, the new set fails just as fast as the last one.',
+      },
+      { type: "h2", text: "Step 1: Know Your Flue Gas Temperature" },
+      {
+        type: "p",
+        text: "Temperature is the most critical selection parameter and the most common cause of premature bag failure. Every media type has a continuous service temperature limit and a peak (surge) temperature limit. Exceeding the continuous limit by even 10–15°C cuts filter life by 50% or more through hydrolysis (in humid flue gas) or oxidation (in dry, oxygen-containing gas).",
+      },
+      {
+        type: "list",
+        items: [
+          "Polyester needle felt: continuous 130°C, peak 150°C, general industrial dust, ambient to low-temperature applications",
+          "Polypropylene felt: continuous 90°C, peak 110°C, acid gas environments, chemical plants (better acid resistance than polyester, lower temperature)",
+          "Aramid / Nomex: continuous 200°C, peak 220°C, kiln exhaust, asphalt plants, glass furnace, dryer outlet",
+          "PPS (Ryton): continuous 190°C, peak 210°C, acid + heat combination (sulphur-bearing flue gas from coal combustion)",
+          "Glass fibre woven: continuous 260°C, peak 280°C, cement kiln raw meal, waste incineration, high-temperature process gas",
+          "PTFE membrane on any base: same temp rating as base media + near-zero residual dust cake, highest cleaning efficiency",
+        ],
+      },
+      { type: "h2", text: "Step 2: Smooth Bag or Pleated Cartridge?" },
+      {
+        type: "p",
+        text: "Standard pulse-jet baghouses use cylindrical filter bags (smooth outer surface) supported on a metal cage. This is the correct choice for high dust-loading applications: cement, fly ash, coal, mineral processing. The smooth outer surface allows the pulse-jet compressed air shock to eject the dust cake efficiently. Pleated cartridge elements (accordion-pleated media around a perforated core) provide up to 5× the filtration area in the same housing footprint, but are better suited to lighter dust loads in pharmaceutical, food, and light chemical applications where the higher media area enables lower face velocity and very low residual pressure drop.",
+      },
+      {
+        type: "h2",
+        text: "Step 3: Surface Treatment: Plain, Singed, Glazed, or PTFE Membrane?",
+      },
+      {
+        type: "p",
+        text: "The outer surface treatment of a needle-felt bag determines how well the dust cake releases during pulse-jet cleaning and how long the bag resists blinding (permanent clogging). Plain felt has a rough fibre surface: adequate for coarse, dry, non-sticky dust. Singed felt has the surface fibres thermally removed, producing a smoother surface: improved cake release for most industrial dust. Calendered (glazed) felt is hot-pressed to further smooth and densify the surface: best for fine, cohesive, or slightly sticky dust such as pharmaceutical powders or fine cement. PTFE membrane laminated to the outer surface (the premium option) provides surface-loading filtration. Dust forms a thin cake on the smooth PTFE and releases completely with each pulse, maintaining near-initial pressure drop throughout the bag life. Emission performance is also superior, often achieving outlet dust concentrations of 2–5 mg/Nm³ vs 20–50 mg/Nm³ for plain felt.",
+      },
+      {
+        type: "h2",
+        text: "Step 4: Anti-Static and Conductive Bags for Explosive Dust",
+      },
+      {
+        type: "p",
+        text: "For dust collector applications handling electrically resistive dust that can accumulate static charge (coal, grain, flour, pharmaceutical powders, polymer powder), standard polyester bags are a fire and explosion hazard. The dust cake on a plain polyester bag can develop a static discharge (spark) energetic enough to ignite a dust cloud in the outlet plenum. Anti-static bags use one of two approaches: (1) carbon fibre blended into the polyester media, with the conductive fibres dissipating charge continuously; (2) stainless steel fibre woven into the needlefelt at 1–3% by weight, providing both static dissipation and improved strength. Always specify anti-static (conductive) bags for coal dust, grain dust, flour, and any powder with a Kst value above zero.",
+      },
+      { type: "h2", text: "Matching Bag Dimensions to Your Cage" },
+      {
+        type: "p",
+        text: "Replacement filter bags must match the existing cage diameter and length exactly: even a 5 mm diameter difference prevents proper sealing at the top snap ring. Before ordering, measure: outer diameter of the bag mouth (snap band OD), bag length from snap ring face to closed bottom, and the end cap type (snap ring, snap band, or flange). If the original OEM bag label is still readable, note the part number, which identifies the exact cage geometry. If labels are gone, pull one cage from the housing, measure it, and supply these dimensions with your order.",
+      },
+      {
+        type: "cta",
+        text: "We supply pulse-jet filter bags in polyester, aramid, PPS, glass fibre, and PTFE membrane grades, along with pleated cartridge elements, for cement, power, pharmaceutical, and grain handling baghouses across India. Send us your bag dimensions and application details on WhatsApp for a same-day quotation.",
+      },
+    ],
+  },
+];

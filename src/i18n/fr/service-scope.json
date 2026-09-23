@@ -1,0 +1,9 @@
+{
+  "srv_1": { "scope": "Clé en main", "turnaround": "Calendrier selon le projet" },
+  "srv_2": { "scope": "Clé en main sur site", "turnaround": "Généralement 3 à 21 jours" },
+  "srv_3": { "scope": "Atelier et sur site", "turnaround": "7 à 30 jours" },
+  "srv_4": { "scope": "Atelier", "turnaround": "48 à 72 h standard" },
+  "srv_5": { "scope": "Rinçage sur site", "turnaround": "2 à 7 jours" },
+  "srv_6": { "scope": "Travaux de précision sur site", "turnaround": "1 à 3 jours" },
+  "srv_7": { "scope": "Diagnostic sur site", "turnaround": "Rapport le jour même" }
+}

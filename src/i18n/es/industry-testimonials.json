@@ -1,0 +1,37 @@
+{
+  "ind_1": {
+    "quote": "La vibración del rotor de un BHEL de 3 MW bajó de 9,2 a 0,8 mm/s tras el equilibrado dinámico. 26 meses sin cambiar un solo cojinete.",
+    "credit": "Planta de energía cautiva, Telangana",
+    "link": null
+  },
+  "ind_2": {
+    "quote": "Fallo de un cojinete babbitt a las 2 de la madrugada en plena temporada de molienda. El ingeniero estaba en planta por la mañana. Parada: 14 horas.",
+    "credit": "Ingenio azucarero, Haryana",
+    "link": null
+  },
+  "ind_3": {
+    "quote": "Ingeniería inversa del eje del rotor y los anillos laberínticos de un Belliss & Morcom en 6 semanas. Calidad indistinguible de la del fabricante original.",
+    "credit": "Fábrica de papel y planta de energía, Punjab",
+    "link": null
+  },
+  "ind_4": {
+    "quote": "Filtros de aceite lubricante conformes a API 614 suministrados con certificados de materiales completos, dimensiones idénticas a las originales de HYDAC.",
+    "credit": "Refinería de petróleo, Gujarat",
+    "link": null
+  },
+  "ind_5": {
+    "quote": "Juntas espirometálicas según ASME B16.20 — todas las bridas ANSI 600# reemplazadas en una parada de 5 días, sin fugas al arrancar.",
+    "credit": "Planta petroquímica, Rajastán",
+    "link": null
+  },
+  "ind_6": {
+    "quote": "Filtros de bolsa HVAC para sala de control de grado alimentario — grado F7, entregados en 3 días. Sin problemas de contaminación cruzada.",
+    "credit": "Planta de procesamiento agroindustrial, UP",
+    "link": null
+  },
+  "ind_7": {
+    "quote": "Mangas filtrantes para colector de polvo de una planta de cemento — membrana de PTFE. La caída de presión se mantuvo estable durante 18 meses frente a un ciclo previo de 6 meses.",
+    "credit": "Planta de cemento, MP",
+    "link": null
+  }
+}

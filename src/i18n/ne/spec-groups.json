@@ -1,0 +1,14 @@
+{
+  "dimensions": {
+    "label": "आयामहरू"
+  },
+  "performance": {
+    "label": "प्रदर्शन"
+  },
+  "materials": {
+    "label": "सामग्री"
+  },
+  "standards": {
+    "label": "मापदण्डहरू"
+  }
+}

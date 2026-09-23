@@ -1,0 +1,35 @@
+{
+  "all": {
+    "label": "Vyote"
+  },
+  "industrial-filtration": {
+    "label": "Uchujaji wa Viwandani"
+  },
+  "industrial-strainers": {
+    "label": "Vichujio vya Viwandani"
+  },
+  "expansion-joints": {
+    "label": "Viungo vya Upanuzi"
+  },
+  "turbine-spares": {
+    "label": "Vipuri vya Turbine"
+  },
+  "industrial-rubber-products": {
+    "label": "Bidhaa za Mpira wa Viwandani"
+  },
+  "flexible-hoses-and-assemblies": {
+    "label": "Mabomba Yanayopinda na Vifaa Vyake"
+  },
+  "electronic-equipments": {
+    "label": "Vifaa vya Elektroniki"
+  },
+  "hydraulic-components": {
+    "label": "Vipengele vya Hydraulic"
+  },
+  "hvac-ducting-and-air-filtration": {
+    "label": "HVAC, Mifereji ya Hewa na Uchujaji wa Hewa"
+  },
+  "valves-gaskets-and-steam-system-products": {
+    "label": "Vali, Gasketi na Bidhaa za Mfumo wa Mvuke"
+  }
+}

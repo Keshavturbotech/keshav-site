@@ -1,0 +1,32 @@
+{
+  "products": {
+    "metaTitle": "Danh mục sản phẩm — Phụ tùng tua-bin, bộ lọc, khớp nối giãn nở, bộ lọc khí HVAC",
+    "metaDescription": "",
+    "h1": "Sản phẩm công nghiệp",
+    "subheading": "{count} sản phẩm được chế tạo chính xác trong {categories} danh mục. Tuân thủ ISO/API/ASME với đầy đủ thông số kỹ thuật."
+  },
+  "services": {
+    "metaTitle": "Dịch vụ tua-bin — Đại tu, lắp dựng và kỹ thuật đảo ngược",
+    "metaDescription": "Đại tu toàn diện, kỹ thuật đảo ngược, lắp dựng và chạy thử, cân bằng động, súc rửa dầu bôi trơn và căn chỉnh máy cho tua-bin hơi từ 5 kW đến 60 MW.",
+    "h1": "Dịch vụ kỹ thuật",
+    "subheading": "Giải pháp cơ khí chuyên biệt cho thiết bị quay công nghiệp từ 5 kW đến 60 MW, đảm bảo độ tin cậy cao nhất tại các nhà máy điện, nhà máy đường, nhà máy giấy, nhà máy lọc dầu và ngành hóa dầu."
+  },
+  "industries": {
+    "metaTitle": "Ngành phục vụ — Năng lượng, đường, dầu khí, hóa dầu, xi măng",
+    "metaDescription": "Keshav Enterprises phục vụ các nhà máy điện, nhà máy đường, nhà máy giấy, ngành dầu khí, hóa dầu, nông nghiệp và xi măng với dịch vụ kỹ thuật tua-bin và sản phẩm công nghiệp chuyên biệt.",
+    "h1": "Các ngành chúng tôi phục vụ",
+    "subheading": "Giải pháp kỹ thuật tua-bin và sản phẩm công nghiệp chuyên biệt trên bảy lĩnh vực công nghiệp chính."
+  },
+  "blog": {
+    "metaTitle": "Blog kỹ thuật — Bảo trì tua-bin, lọc công nghiệp và thông tin HVAC",
+    "metaDescription": "Các bài viết kỹ thuật về đại tu tua-bin hơi, lọc dầu bôi trơn, lựa chọn bộ lọc khí HVAC, thiết bị thu bụi phun xung, kỹ thuật đảo ngược và các phương pháp bảo trì công nghiệp tốt nhất từ đội ngũ kỹ thuật của Keshav Enterprises.",
+    "h1": "Blog kỹ thuật",
+    "subheading": "Thông tin kỹ thuật chuyên sâu về bảo trì tua-bin, hệ thống dầu bôi trơn, lọc khí HVAC, thu gom bụi, kỹ thuật đảo ngược và các phương pháp thực hành công nghiệp tốt nhất — từ đội ngũ kỹ thuật của chúng tôi."
+  },
+  "downloads": {
+    "metaTitle": "Tài liệu kỹ thuật miễn phí — Checklist tua-bin, bảng dữ liệu và mẫu RFQ",
+    "metaDescription": "Tải miễn phí checklist đại tu tua-bin hơi, bảng dữ liệu bộ lọc dầu bôi trơn, hướng dẫn khe hở vòng bi và mẫu RFQ từ Keshav Enterprises — chuyên gia tua-bin hơi của Ấn Độ.",
+    "h1": "Tài liệu tải xuống miễn phí",
+    "subheading": "Checklist kỹ thuật, bảng dữ liệu, tài liệu tham khảo vòng bi và mẫu RFQ miễn phí cho kỹ sư nhà máy và đội ngũ mua hàng."
+  }
+}

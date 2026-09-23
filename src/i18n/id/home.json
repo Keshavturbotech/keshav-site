@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Keshav Enterprises — Overhaul & Suku Cadang Turbin Uap, Shamli UP India",
+    "description": "Insinyur turbin uap eks-OEM dari Triveni, Siemens, BHEL. Overhaul, rekayasa balik, penyeimbangan dinamis, pembersihan oli pelumas & suku cadang kompatibel OEM untuk turbin 5 kW–60 MW. Berbasis di Shamli, UP. Dukungan darurat 24×7.",
+    "keywords": "perawatan turbin India, overhaul turbin uap, rekayasa balik turbin, suku cadang turbin industri, elemen filter oli pelumas, sambungan ekspansi India, layanan turbin Triveni, suku cadang turbin BHEL, pemasangan turbin Uttar Pradesh, teknik Shamli"
+  },
+  "hero": {
+    "badgeMakeInIndia": "Make In India",
+    "badgeVocalForLocal": "Vocal For Local",
+    "badgeIndiaMartLabel": "IndiaMART Terverifikasi",
+    "badgeIndiaMartRatingSuffix": "RATING",
+    "h1Line1": "Rekayasa Presisi untuk",
+    "h1Line2": "Uptime Maksimal.",
+    "capabilityLine": "Turbin uap dari 5 kW hingga 60 MW — back-pressure dan condensing, horizontal dan vertikal, single dan multi-stage. Melayani pelanggan di seluruh India dan dunia.",
+    "introText": "Insinyur eks-OEM untuk Triveni, Siemens, BHEL & 7 merek lainnya. Kami mengembalikan turbin Anda beroperasi lebih cepat daripada pengadaan OEM — dengan sertifikat PMI lengkap, laporan penyeimbangan ISO, dan rekam jejak tanpa penalti sejak {founded}.",
+    "ctaPrimary": "Kirim Kebutuhan Anda",
+    "ctaEmergency": "Gangguan Darurat",
+    "trustYearsOverhauls": "{years}+ tahun · 500+ overhaul",
+    "trustPmi": "Suku cadang bersertifikat PMI",
+    "trustResponse": "Respons rata-rata: 2 jam",
+    "proofCards": [
+      {
+        "label": "Tanpa Kurva Belajar",
+        "title": "Insinyur Eks-OEM",
+        "sub": "Tim kami pernah bekerja di dalam Triveni, Siemens, BHEL & Belliss — keahlian yang sama, disampaikan ke pabrik Anda."
+      },
+      {
+        "label": "Setiap Pekerjaan Terdokumentasi",
+        "title": "Laporan Saat Pengiriman",
+        "sub": "Sertifikat PMI, laporan penyeimbangan, catatan penyelarasan, laporan kondisi — diserahkan saat pekerjaan selesai."
+      },
+      {
+        "label": "Saat Setiap Menit Berarti",
+        "title": "Darurat 24×7",
+        "sub": "Insinyur di berbagai lokasi di seluruh India. Hubungi kami jam 2 pagi — seseorang akan menjawab."
+      }
+    ]
+  },
+  "oemMarquee": {
+    "heading": "Kompatibel OEM & Dipercaya oleh Pemimpin Industri"
+  },
+  "stats": {
+    "overhauls": {
+      "label": "Overhaul Selesai",
+      "sub": "Pabrik gula, listrik, kertas & semen di seluruh India"
+    },
+    "years": {
+      "label": "Tahun Beroperasi",
+      "sub": "Operasi berkelanjutan sejak {founded} — tanpa perubahan kepemilikan"
+    },
+    "penaltyClaims": {
+      "label": "Klaim Penalti",
+      "sub": "Nol dalam {years} tahun — referensi klien tersedia atas permintaan"
+    },
+    "emergency": {
+      "label": "Respons Darurat",
+      "sub": "Insinyur di berbagai lokasi — rata-rata pengiriman di bawah 4 jam"
+    }
+  },
+  "featuredProducts": {
+    "heading": "Produk Rekayasa Unggulan",
+    "scrollLeftLabel": "Gulir kiri",
+    "scrollRightLabel": "Gulir kanan",
+    "dragToExplore": "seret untuk menjelajahi",
+    "viewCompleteCatalog": "Lihat Katalog Lengkap",
+    "viewDetails": "Lihat Detail",
+    "swipeToBrowse": "Geser untuk menjelajahi"
+  },
+  "servicesPreview": {
+    "eyebrow": "Siklus Hidup Turbin End-to-End",
+    "heading": "Layanan Teknis",
+    "subheading": "Insinyur eks-OEM yang sama menangani overhaul Anda, suku cadang Anda, dan keadaan darurat jam 2 pagi Anda — tanpa sub-kontrak, tanpa serah terima.",
+    "painLines": {
+      "srv_2": "Lelah dengan vendor yang datang tanpa peralatan memadai dan tidak memberikan laporan pekerjaan?",
+      "srv_3": "OEM menawarkan waktu tunggu berbulan-bulan untuk suku cadang yang sudah tidak diproduksi lagi?",
+      "srv_4": "Getaran berulang setelah penyelarasan dan penggantian bearing — akar masalah belum teratasi?"
+    },
+    "viewFullDetails": "Lihat Detail Lengkap",
+    "viewAllServices": "Lihat Semua 8 Layanan"
+  },
+  "testimonials": {
+    "eyebrow": "Umpan Balik Klien",
+    "heading": "Dipercaya oleh Manajer Pabrik di Seluruh India",
+    "googleRatingLabel": "+ ulasan terverifikasi di Google",
+    "disclaimer": "Kutipan diambil dari catatan proyek yang telah selesai dan disingkat menjadi inisial hingga ada persetujuan tertulis untuk atribusi lengkap. Untuk rating yang diverifikasi secara independen, lihat ulasan Google kami di atas.",
+    "footerCtaPrefix": "Pernah bekerja sama dengan kami?",
+    "footerCtaLink": "Tinggalkan ulasan Google — ini membantu manajer pabrik lain menemukan kami →",
+    "googleReviewBadge": "Ulasan Google",
+    "items": [
+      {
+        "quote": "Insinyur eks-Triveni mereka menangani overhaul turbin Triveni 12 MW kami selama shutdown tahunan — semua celah terdokumentasi, rotor diseimbangkan ke ISO G1.0, dan kembali beroperasi lebih cepat dari jadwal. Pertama kalinya dalam enam tahun kami tanpa masalah saat start-up pertama.",
+        "name": "R. Kumar",
+        "role": "Manajer Pabrik",
+        "company": "Pabrik Gula & Co-Gen",
+        "location": "Uttar Pradesh",
+        "service": "Overhaul Turbin",
+        "detail": "12 MW Triveni · Shutdown Terencana"
+      },
+      {
+        "quote": "Kami mengalami kegagalan bearing babbitt kritis pada turbin Belliss & Morcom kami jam 2 pagi saat puncak musim giling. Keshav Enterprises mengirim insinyur ke lokasi keesokan paginya dengan bearing pengganti siap pasang. Downtime kurang dari 14 jam — itu menghemat crore bagi kami dalam kerugian tebu.",
+        "name": "A. Singh",
+        "role": "Kepala Perawatan",
+        "company": "Pabrik Gula",
+        "location": "Haryana",
+        "service": "Respons Gangguan Darurat",
+        "detail": "Belliss & Morcom · Kegagalan Bearing"
+      },
+      {
+        "quote": "Suku cadang OEM untuk turbin Belliss & Morcom kami yang berusia 28 tahun memiliki waktu tunggu 18 bulan. Keshav merekayasa balik poros rotor dan cincin labirin dalam 6 minggu dengan sertifikat PMI lengkap. Kualitasnya setara dengan OEM.",
+        "name": "V. Sharma",
+        "role": "Chief Engineer",
+        "company": "Pabrik Kertas & Pembangkit Listrik",
+        "location": "Punjab",
+        "service": "Rekayasa Balik",
+        "detail": "Belliss & Morcom · Suku Cadang Usang"
+      },
+      {
+        "quote": "Setelah Keshav menyeimbangkan secara dinamis rotor turbin BHEL 3 MW kami, getaran sisa turun dari 9,2 mm/s menjadi 0,8 mm/s — jauh di dalam ISO G1.0. Rotor tersebut menyebabkan keausan bearing setiap 8 bulan. Kini kami sudah 26 bulan tanpa penggantian bearing. Laporan penyeimbangan memuaskan auditor asuransi kami.",
+        "name": "P. Reddy",
+        "role": "Insinyur Instrumentasi & Perawatan",
+        "company": "Pembangkit Listrik Captive",
+        "location": "Telangana",
+        "service": "Penyeimbangan Dinamis",
+        "detail": "3 MW BHEL · Kepatuhan ISO G1.0"
+      }
+    ]
+  },
+  "capabilities": {
+    "heading": "Kapabilitas Manufaktur & Teknis",
+    "items": [
+      {
+        "iconName": "Zap",
+        "text": "Waktu tunggu lebih cepat daripada pengadaan OEM — Triveni, Siemens, BHEL"
+      },
+      {
+        "iconName": "Layers",
+        "text": "Peningkatan material: Duplex, Incoloy, Inconel, Titanium, Hastelloy"
+      },
+      {
+        "iconName": "Activity",
+        "text": "Penyeimbangan dinamis ISO/API kapasitas 50–2.000 kg"
+      },
+      {
+        "iconName": "Wind",
+        "text": "Bellow ekspansi custom DN 15–12.000, hingga 150 barg"
+      },
+      {
+        "iconName": "Droplets",
+        "text": "Elemen filter sesuai standar ISO 16889, API 614, ASME & EN"
+      },
+      {
+        "iconName": "Cpu",
+        "text": "Sistem oli pelumas sesuai klasifikasi kebersihan ISO 4406:99"
+      }
+    ]
+  },
+  "projectsTeaser": {
+    "eyebrow": "Hasil Lapangan Terdokumentasi",
+    "heading": "Proyek & Studi Kasus",
+    "viewAllProjects": "Lihat Semua Proyek",
+    "readCaseStudy": "Baca Studi Kasus",
+    "seeAllProjectsPrefix": "Lihat semua",
+    "seeAllProjectsSuffix": "proyek"
+  },
+  "resourceBar": {
+    "blogText": "Artikel teknis dari tim rekayasa kami",
+    "downloadsText": "Daftar periksa overhaul, template RFQ & lembar data gratis"
+  },
+  "finalCta": {
+    "heading": "Dapatkan Penawaran Teknis. Setiap Jam Offline Ada Biayanya.",
+    "subheading": "Insinyur kami merespons dengan jawaban teknis dalam 24 jam untuk pekerjaan terencana — dan dalam satu jam untuk gangguan — karena ketersediaan pabrik Anda adalah keuntungan Anda.",
+    "plannedTitle": "Overhaul Terencana atau RFQ",
+    "plannedDesc": "Perawatan terjadwal, pengadaan suku cadang, pasokan sambungan ekspansi, atau pesanan elemen filter. Bagikan kebutuhan Anda dan dapatkan penawaran teknis rinci.",
+    "plannedSendBtn": "Kirim Kebutuhan Anda",
+    "plannedEmailBtn": "Email Tim Rekayasa Kami",
+    "emergencyTitle": "Gangguan Darurat — Sekarang Juga",
+    "emergencyDesc": "Turbin trip? Getaran tinggi? Shutdown tak terduga? Insinyur kami dapat dihubungi 24×7. Telepon atau WhatsApp segera — setiap jam offline ada biayanya.",
+    "emergencyCallPrefix": "Hubungi Sekarang —",
+    "emergencyWhatsappBtn": "WhatsApp Darurat",
+    "riskReversal": [
+      "Tanpa kewajiban — kami kirim jawaban teknis, Anda putuskan langkah selanjutnya",
+      "RFQ rahasia — detail pabrik Anda tidak pernah sampai ke perwakilan OEM",
+      "Insinyur yang merespons, bukan call center",
+      "Respons 24 jam terencana · 1 jam darurat"
+    ]
+  },
+  "whatsappEmergencyMessage": "Hai KESHAV ENTERPRISES, kami mengalami gangguan darurat. Mohon bantuan segera."
+}

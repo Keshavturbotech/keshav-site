@@ -1,0 +1,37 @@
+{
+  "ind_1": {
+    "quote": "3 MW BHEL rotor titreşimi dinamik balanstan sonra 9,2'den 0,8 mm/s'ye düştü. 26 ay boyunca hiç yatak değişmedi.",
+    "credit": "Kendi Tüketimi İçin Enerji Santrali, Telangana",
+    "link": null
+  },
+  "ind_2": {
+    "quote": "Hasat sezonunda gece 2'de babbitt yatak arızası. Mühendis sabaha kadar sahaya ulaştı. Duruş süresi: 14 saat.",
+    "credit": "Şeker Fabrikası, Haryana",
+    "link": null
+  },
+  "ind_3": {
+    "quote": "Belliss & Morcom rotor milini ve labirent halkalarını 6 haftada tersine mühendislikle ürettik. Kalite OEM'den ayırt edilemiyor.",
+    "credit": "Kağıt Fabrikası ve Enerji Santrali, Pencap",
+    "link": null
+  },
+  "ind_4": {
+    "quote": "API 614 uyumlu yağlama yağı filtreleri tam malzeme sertifikalarıyla tedarik edildi — HYDAC OEM ölçüleriyle birebir eşleşti.",
+    "credit": "Petrol Rafinerisi, Gujarat",
+    "link": null
+  },
+  "ind_5": {
+    "quote": "ASME B16.20'ye uygun spiral sarımlı contalar — 5 günlük duruşta tüm ANSI 600# flanşlar değiştirildi, ilk çalıştırmada sızıntı yok.",
+    "credit": "Petrokimya Tesisi, Rajasthan",
+    "link": null
+  },
+  "ind_6": {
+    "quote": "Gıda sınıfı kontrol odası için HVAC torba filtreler — F7 sınıfı, 3 günde teslim edildi. Çapraz bulaşma sorunu yaşanmadı.",
+    "credit": "Tarım İşleme Tesisi, UP",
+    "link": null
+  },
+  "ind_7": {
+    "quote": "Çimento değirmeni için toz toplayıcı filtre torbaları — PTFE membran sınıfı. Basınç düşüşü, önceki 6 aylık döngüye kıyasla 18 ay boyunca sabit kaldı.",
+    "credit": "Çimento Fabrikası, MP",
+    "link": null
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "all": {
+    "label": "Alle"
+  },
+  "industrial-filtration": {
+    "label": "Industriefiltration"
+  },
+  "industrial-strainers": {
+    "label": "Industrie-Schmutzfänger"
+  },
+  "expansion-joints": {
+    "label": "Kompensatoren"
+  },
+  "turbine-spares": {
+    "label": "Turbinenersatzteile"
+  },
+  "industrial-rubber-products": {
+    "label": "Industrielle Gummiprodukte"
+  },
+  "flexible-hoses-and-assemblies": {
+    "label": "Flexible Schläuche und Baugruppen"
+  },
+  "electronic-equipments": {
+    "label": "Elektronische Geräte"
+  },
+  "hydraulic-components": {
+    "label": "Hydraulikkomponenten"
+  },
+  "hvac-ducting-and-air-filtration": {
+    "label": "HLK, Luftkanäle & Luftfiltration"
+  },
+  "valves-gaskets-and-steam-system-products": {
+    "label": "Ventile, Dichtungen & Dampfsystem-Produkte"
+  }
+}

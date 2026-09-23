@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "Kontakt zum Engineering-Team — Technisches Angebot anfordern",
+    "description": "Kontaktieren Sie Keshav Enterprises für RFQs im Turbinen-Engineering, Reverse-Engineering-Angebote und 24x7-Notfall-Support bei Ausfällen. Telefon: +91 9149229448.",
+    "schemaName": "Kontakt zu Keshav Enterprises"
+  },
+  "hero": {
+    "title": "Sprechen Sie mit einem Ingenieur — nicht mit dem Vertrieb",
+    "subtitle": "Teilen Sie uns Ihre Anforderungen mit, und unser Engineering-Team — ehemalige OEM-Mitarbeiter, kein Callcenter — antwortet innerhalb von 24 Stunden technisch fundiert, denn Sie brauchen Antworten, keine Broschüre.",
+    "trustSignals": [
+      "Vertrauliches RFQ — wird nie an OEM-Vertreter weitergegeben",
+      "Unverbindlich — Sie entscheiden über die nächsten Schritte",
+      "24 Stunden geplant · 1 Stunde im Notfall"
+    ]
+  },
+  "cards": {
+    "directLines": {
+      "title": "Direktleitungen",
+      "salesLabel": "Vertrieb & RFQ",
+      "emergencyLabel": "24×7-Notfallsupport",
+      "whatsappCta": "Diese Nummer per WhatsApp kontaktieren",
+      "whatsappPrefillMessage": "Hallo, ich benötige Notfallsupport für meine Turbine."
+    },
+    "email": {
+      "title": "E-Mail (für RFQs)"
+    },
+    "facilityAddress": {
+      "title": "Anschrift des Werks"
+    },
+    "officeHours": {
+      "title": "Geschäftszeiten",
+      "mondaySaturdayLabel": "Montag – Samstag",
+      "mondaySaturdayValue": "9:00 – 18:00 Uhr IST",
+      "sundayLabel": "Sonntag",
+      "sundayValue": "Geschlossen (nur Notfälle)",
+      "emergencyLineLabel": "Notfallleitung",
+      "emergencyLineValue": "24 × 7 aktiv"
+    },
+    "indiamart": {
+      "ariaLabel": "Keshav Enterprises auf IndiaMART ansehen",
+      "title": "IndiaMART-verifiziert",
+      "ratingSrOnly": "4,3 von 5 Sternen",
+      "ratingText": "4,3/5 Bewertung",
+      "trustSeal": "TrustSeal-Lieferant"
+    },
+    "connect": {
+      "label": "Mit uns in Kontakt treten"
+    }
+  },
+  "formSection": {
+    "heading": "Kostenloses technisches Angebot erhalten",
+    "subheading": "Ihre Anfrage geht direkt an unseren leitenden Ingenieur — nicht an ein Callcenter. Wir liefern eine technische Antwort, denn genau das brauchen Betriebsleiter. Inklusive kostenloser Auswertung des letzten Ölanalyseberichts Ihrer Turbine."
+  },
+  "googleBusiness": {
+    "title": "Finden Sie uns bei Google Business",
+    "descriptionPrefix": "Suchen Sie nach",
+    "descriptionQuoted": "Keshav Enterprises Shamli",
+    "descriptionSuffix": "auf Google Maps — sehen Sie unser Profil, lassen Sie sich den Weg anzeigen oder hinterlassen Sie eine Bewertung, um anderen Käufern zu helfen, uns zu finden.",
+    "cta": "Bei Google ansehen"
+  },
+  "facilityPhoto": {
+    "caption": "Unser Werk in Shamli, Uttar Pradesh",
+    "alt": "Produktionswerk von Keshav Enterprises — Shamli, Uttar Pradesh"
+  },
+  "map": {
+    "heading": "Unser Werk — Shamli, Uttar Pradesh",
+    "iframeTitle": "Standortkarte von Keshav Enterprises",
+    "googleBusinessCta": "Google Business",
+    "directionsCta": "Route anzeigen"
+  },
+  "form": {
+    "riskReversal": [
+      {
+        "title": "Vollkommen unverbindlich",
+        "sub": "Wir antworten technisch fundiert. Sie entscheiden, wie es weitergeht — ohne Nachfassdruck."
+      },
+      {
+        "title": "Ihr RFQ bleibt vertraulich",
+        "sub": "Wir geben Ihre Anlagendaten niemals an Dritte weiter — auch nicht an OEM-Vertreter."
+      },
+      {
+        "title": "Ein Ingenieur antwortet, kein Verkäufer",
+        "sub": "Jemand, der bereits an Ihrem Turbinentyp gearbeitet hat, gibt Ihnen eine echte technische Antwort."
+      },
+      {
+        "title": "Nicht der richtige Ansprechpartner? Wir sagen es Ihnen sofort",
+        "sub": "Liegt Ihr Anliegen außerhalb unseres Leistungsspektrums, sagen wir es Ihnen von Anfang an — ohne Umwege, ohne Zeitverlust."
+      }
+    ],
+    "inquiryTypes": [
+      "Turbinenüberholung",
+      "Notfallsupport bei Ausfällen",
+      "Turbinenmontage & Inbetriebnahme",
+      "Reverse Engineering",
+      "Dynamisches Auswuchten",
+      "Schmierölspülung",
+      "Maschinenausrichtung",
+      "Fehlersuche",
+      "Sandstrahlen",
+      "RFQ Filterelemente",
+      "RFQ HLK, Luftkanäle & Luftfiltration",
+      "RFQ Turbinenersatzteile",
+      "RFQ Ventile, Dichtungen & Dampfsystem",
+      "RFQ Kompensatoren",
+      "RFQ Siebe/Filter",
+      "Allgemeine Anfrage"
+    ],
+    "officeStatus": {
+      "online": "Ingenieure jetzt online — Antwort innerhalb von 2 Std.",
+      "offline": "Notfallleitung rund um die Uhr aktiv — geplante RFQs werden ab 9:00 Uhr IST beantwortet"
+    },
+    "labels": {
+      "yourName": "Ihr Name",
+      "companyName": "Firmenname",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "inquiryType": "Anfrageart",
+      "turbineMakeModel": "Turbinenhersteller / -modell",
+      "details": "Details",
+      "attachments": "Technische Zeichnungen / Datenblatt anhängen (optional)"
+    },
+    "placeholders": {
+      "yourName": "Vollständiger Name",
+      "companyName": "Ihr Unternehmen",
+      "email": "sie@unternehmen.de",
+      "phone": "+91 98000 00000",
+      "inquiryTypeSelect": "Anfrageart auswählen…",
+      "turbineMakeModel": "z. B. Triveni 5 MW, Gegendruck",
+      "details": "Beschreiben Sie Ihre Anforderung, Symptome, Zeitrahmen oder Spezifikationen…"
+    },
+    "attachmentsHelp": "PDF, DWG, DXF, JPG, PNG — max. 10 MB pro Datei. Hilft uns, schneller mit einem präziseren Angebot zu antworten.",
+    "charCounter": {
+      "minRequired": "Mindestens 20 Zeichen erforderlich",
+      "moreNeededOne": "noch {n} Zeichen erforderlich",
+      "moreNeededMany": "noch {n} Zeichen erforderlich",
+      "looksGood": "✓ Sieht gut aus!"
+    },
+    "errors": {
+      "yourName": "Bitte geben Sie Ihren Namen an",
+      "companyName": "Bitte geben Sie den Firmennamen an",
+      "email": "Bitte geben Sie eine gültige E-Mail-Adresse an",
+      "phone": "Bitte geben Sie eine gültige Telefonnummer an (mind. 10 Ziffern)",
+      "inquiryType": "Bitte wählen Sie eine Anfrageart aus",
+      "details": "Bitte geben Sie Details an (mind. 20 Zeichen)",
+      "attachmentTooLarge": "„{filename}“ überschreitet das 10-MB-Limit — bitte eine kleinere Datei anhängen",
+      "rateLimited": "Zu viele Übermittlungen. Bitte warten Sie eine Stunde, bevor Sie es erneut versuchen.",
+      "securityCheck": "Bitte schließen Sie die Sicherheitsprüfung ab.",
+      "notConfigured": "Formular nicht konfiguriert — bitte kontaktieren Sie uns direkt per WhatsApp oder Telefon.",
+      "submissionFailedGeneric": "Übermittlung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "submissionFailedBanner": "Übermittlung fehlgeschlagen — bitte erneut versuchen oder direkt Kontakt aufnehmen:",
+      "whatsappFallback": "WhatsApp",
+      "whatsappFallbackPrefillMessage": "Hallo, ich habe versucht, das Kontaktformular zu senden, aber es ist fehlgeschlagen. Können Sie mir helfen?"
+    },
+    "buttons": {
+      "sendingToEngineer": "Wird an das Engineering-Team gesendet...",
+      "sendToEngineer": "An unseren leitenden Ingenieur senden",
+      "sendToEngineerSub": "Erhalten Sie eine technische Antwort, keine Broschüre",
+      "sendingShort": "Wird gesendet…",
+      "submitWithDrawings": "RFQ mit technischen Zeichnungen einreichen",
+      "submitWithDrawingsSub": "Denn nicht jeder nutzt WhatsApp"
+    },
+    "footerNote": {
+      "text": "Wir antworten innerhalb von 1 Werktag · Kein Spam ·",
+      "privacyPolicyLink": "Datenschutzerklärung"
+    },
+    "success": {
+      "heading": "Anfrage an unsere Ingenieure gesendet.",
+      "bodyPrefix": "Erwarten Sie eine technische Antwort innerhalb von",
+      "bodyMid": "bei geplanten Anfragen, oder",
+      "bodySuffix": "bei Notfällen — von einem Ingenieur, nicht von einem Callcenter.",
+      "hours24": "24 Stunden",
+      "hour1": "1 Stunde",
+      "resendCta": "Weitere Anfrage senden",
+      "whileYouWaitLabel": "Während Sie warten —",
+      "whileYouWaitText": "stöbern Sie in unseren dokumentierten Fallstudien und Praxisergebnissen.",
+      "viewCaseStudiesCta": "Fallstudien ansehen"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "products": {
+    "metaTitle": "Katalogi ya Bidhaa — Vipuri vya Turbine, Vichujio, Viungo vya Upanuzi, Vichujio vya Hewa vya HVAC",
+    "metaDescription": "",
+    "h1": "Bidhaa za Viwandani",
+    "subheading": "Bidhaa {count} zilizoundwa kwa usahihi katika kategoria {categories}. Zinazolingana na ISO/API/ASME zenye maelezo kamili ya kiufundi."
+  },
+  "services": {
+    "metaTitle": "Huduma za Turbine — Ukarabati Mkubwa, Usimikaji na Uhandisi wa Kinyume",
+    "metaDescription": "Ukarabati mkubwa kamili, uhandisi wa kinyume, usimikaji na uwekaji sawa, uwiano wa mienendo, usafishaji wa mafuta ya kulainisha, na upangaji wa mashine kwa turbine za mvuke kutoka 5 kW hadi 60 MW.",
+    "h1": "Huduma za Kiufundi",
+    "subheading": "Suluhisho maalum za kimitambo kwa vifaa vinavyozunguka viwandani kutoka 5 kW hadi 60 MW, kuhakikisha uaminifu wa hali ya juu katika mitambo ya kuzalisha umeme, viwanda vya sukari, viwanda vya karatasi, mafuta ya kusafisha, na viwanda vya petrokemikali."
+  },
+  "industries": {
+    "metaTitle": "Viwanda Tunavyohudumia — Nishati, Sukari, Mafuta na Gesi, Petrokemikali, Saruji",
+    "metaDescription": "Keshav Enterprises inahudumia mitambo ya kuzalisha umeme, viwanda vya sukari, viwanda vya karatasi, mafuta na gesi, petrokemikali, kilimo, na viwanda vya saruji kwa uhandisi maalum wa turbine na bidhaa za viwandani.",
+    "h1": "Viwanda Tunavyohudumia",
+    "subheading": "Suluhisho maalum za uhandisi wa turbine na bidhaa za viwandani katika sekta saba kuu za viwanda."
+  },
+  "blog": {
+    "metaTitle": "Blogu ya Uhandisi — Matengenezo ya Turbine, Uchujaji wa Viwandani na Maarifa ya HVAC",
+    "metaDescription": "Makala za kiufundi kuhusu ukarabati mkubwa wa turbine za mvuke, uchujaji wa mafuta ya kulainisha, uchaguzi wa vichujio vya hewa vya HVAC, vikusanya vumbi vya pulse-jet, uhandisi wa kinyume, na mazoea bora ya matengenezo ya viwandani kutoka kwa timu ya uhandisi ya Keshav Enterprises.",
+    "h1": "Blogu ya Uhandisi",
+    "subheading": "Maarifa ya kiufundi kuhusu matengenezo ya turbine, mifumo ya mafuta ya kulainisha, uchujaji wa hewa wa HVAC, ukusanyaji wa vumbi, uhandisi wa kinyume, na mazoea bora ya viwandani — kutoka kwa timu yetu ya uhandisi."
+  },
+  "downloads": {
+    "metaTitle": "Upakuaji Bure wa Kiufundi — Orodha za Ukaguzi wa Turbine, Karatasi za Data na Violezo vya RFQ",
+    "metaDescription": "Pakua bure orodha za ukaguzi wa ukarabati mkubwa wa turbine za mvuke, karatasi za data za vichujio vya mafuta ya kulainisha, miongozo ya nafasi ya bearing, na violezo vya RFQ kutoka Keshav Enterprises — wataalamu wa turbine za mvuke wa India.",
+    "h1": "Upakuaji Bure",
+    "subheading": "Orodha za ukaguzi za kiufundi bure, karatasi za data, marejeleo ya bearing, na violezo vya RFQ kwa wahandisi wa mitambo na timu za ununuzi."
+  }
+}

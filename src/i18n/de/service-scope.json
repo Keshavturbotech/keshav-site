@@ -1,0 +1,30 @@
+{
+  "srv_1": {
+    "scope": "Schlüsselfertig",
+    "turnaround": "Projektbezogener Zeitplan"
+  },
+  "srv_2": {
+    "scope": "Schlüsselfertig vor Ort",
+    "turnaround": "Üblich 3–21 Tage"
+  },
+  "srv_3": {
+    "scope": "Werkstatt & vor Ort",
+    "turnaround": "7–30 Tage"
+  },
+  "srv_4": {
+    "scope": "Werkstatt",
+    "turnaround": "Standard 48–72 Std."
+  },
+  "srv_5": {
+    "scope": "Spülung vor Ort",
+    "turnaround": "2–7 Tage"
+  },
+  "srv_6": {
+    "scope": "Präzisionsarbeit vor Ort",
+    "turnaround": "1–3 Tage"
+  },
+  "srv_7": {
+    "scope": "Diagnose vor Ort",
+    "turnaround": "Bericht am selben Tag"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "srv_1": {
+    "tagline": "Du premier boulon de fondation à la première admission de vapeur — montage coordonné selon les normes OEM",
+    "accentColor": "#2563eb",
+    "keyStats": [
+      { "value": "10+", "label": "Marques OEM mises en service" },
+      { "value": "5kW–60MW", "label": "Plage de puissance couverte" },
+      { "value": "100%", "label": "Documentation conforme OEM" },
+      { "value": "24×7", "label": "Assistance sur site disponible" }
+    ],
+    "whyUs": "Un seul jeu incorrect pendant le montage peut détruire un palier en quelques heures après la première admission de vapeur. Nos ingénieurs de terrain, anciens de chez les constructeurs, ont personnellement mis en service les mêmes types de machines que vous installez — ils savent ce que les spécifications OEM signifient réellement en pratique, pas seulement sur le papier.",
+    "overview": "Le montage et la mise en service des turbines constituent la phase la plus critique de tout projet de centrale électrique ou industriel. Les erreurs commises pendant le montage — mauvais alignement, jeu inadéquat, couple incorrect — se transforment en pannes coûteuses dès la première année d'exploitation. Keshav Enterprises fait appel à des ingénieurs de terrain anciens des constructeurs qui ont mis en service des turbines Triveni, Siemens, BHEL, Belliss et Maxwatt dans des centrales électriques, sucreries, papeteries et industries de process. Chaque point d'arrêt est constaté, chaque jeu est enregistré, et chaque système de sécurité fait l'objet d'un essai de validation avant l'admission de vapeur. Notre dossier documentaire répond aux exigences du client, de l'assureur et de remise OEM.",
+    "procedures": [
+      { "step": "01", "title": "Revue d'ingénierie avant montage", "iconName": "BookOpen", "desc": "Examen détaillé du manuel de montage OEM, des plans GA, des P&ID et des plans de fondation génie civil. Identification de tous les points d'arrêt, points de contrôle et exigences documentaires avant le premier levage d'équipement. Accord avec l'équipe projet du client sur la séquence de montage et le chemin critique." },
+      { "step": "02", "title": "Préparation des fondations et de la plaque de base", "iconName": "Layers", "desc": "Nivellement de précision et scellement de la plaque de base de la turbine à moins de 0,05 mm/m. Usinage et pose des cales. Tension des boulons de fondation au couple spécifié par l'OEM à l'aide de clés hydrauliques calibrées. Préparation et coulée du mortier époxy, avec suivi de la cure et enregistrement de température." },
+      { "step": "03", "title": "Mise en place de l'équipement et alignement grossier", "iconName": "Target", "desc": "Positionnement de précision du carter de la turbine, du réducteur et de l'équipement entraîné sur la plaque de base. Alignement grossier de l'arbre à moins de 0,1 mm à l'aide de comparateurs et d'outils laser avant l'ajustement de l'accouplement. Vérification et correction du pied bancal sur tous les pieds de la machine avant l'alignement final." },
+      { "step": "04", "title": "Assemblage interne et réglage des jeux", "iconName": "Cog", "desc": "Mesure de la chute du rotor, réglage du jeu de presse-étoupe (radial et axial), ajustement des joints labyrinthe, montage du palier de butée, et réglage du jeu du palier lisse. Tous les jeux enregistrés dans le registre de jeu du site par rapport aux spécifications OEM. Flottement d'extrémité du rotor mesuré et confirmé dans les limites OEM." },
+      { "step": "05", "title": "Raccordement de la tuyauterie et des systèmes auxiliaires", "iconName": "Activity", "desc": "Raccordement des tuyauteries d'admission vapeur, d'échappement, d'extraction et de purge avec supports de tuyauterie et suspentes à ressort corrects. Charges sur tubulures vérifiées dans les limites OEM — contraintes de tuyauterie éliminées avant le raccordement final. Tuyauterie d'huile de lubrification, d'huile de contrôle, de vapeur de presse-étoupe et d'instrumentation achevée et testée à l'étanchéité." },
+      { "step": "06", "title": "Contrôles préalables à la mise en service et rinçage", "iconName": "Droplets", "desc": "Rinçage du système d'huile de lubrification jusqu'à la norme de propreté ISO 4406 confirmée par comptage de particules. Contrôle fonctionnel des systèmes de contrôle et de déclenchement. Systèmes de sécurité testés et documentés : déclenchement survitesse, déclenchement basse pression d'huile, déclenchement haute température de palier, fonctionnement de la vanne d'arrêt d'urgence." },
+      { "step": "07", "title": "Premier allumage, montée en régime et mise en service", "iconName": "Zap", "desc": "Premier démarrage contrôlé avec test d'écoute en rotation lente. Montée en vitesse par paliers définis avec surveillance continue des vibrations et de la température des paliers. Essai de réponse du régulateur et de bande morte. Essai de déclenchement survitesse à 110 % de la vitesse nominale. Remise en exploitation à pleine charge avec essai d'acceptation de charge et rapport de mise en service." }
+    ],
+    "tools": [
+      { "name": "Alignement laser d'arbre", "detail": "Pruftechnik Rotalign Pro / série SKF TKSA", "iconName": "Target" },
+      { "name": "Analyseur de vibrations", "detail": "FFT en temps réel, acquisition de données 8 voies", "iconName": "Activity" },
+      { "name": "Comparateurs de précision", "detail": "Résolution 0,001 mm, qualité MMT", "iconName": "Cog" },
+      { "name": "Clés dynamométriques hydrauliques", "detail": "Multiplicateurs de couple calibrés pour boulons de fondation", "iconName": "Wrench" },
+      { "name": "Endoscope", "detail": "Rigide et flexible pour inspection interne", "iconName": "Search" },
+      { "name": "Enregistreurs de thermocouples", "detail": "Relevé thermique multipoint pendant le premier démarrage", "iconName": "TrendingUp" },
+      { "name": "Débitmètres à ultrasons", "detail": "Vérification du débit de mise en service de canalisation", "iconName": "Droplets" }
+    ],
+    "standards": [
+      { "code": "ASME PTC 6", "desc": "Code d'essai de performance des turbines à vapeur", "body": "ASME" },
+      { "code": "ISO 10816 / 20816", "desc": "Limites de vibration mécanique pour machines tournantes", "body": "ISO" },
+      { "code": "API 670", "desc": "Protection des machines : déclenchements survitesse et vibration", "body": "API" },
+      { "code": "API 686", "desc": "Pratique recommandée pour le montage des machines", "body": "API" },
+      { "code": "IS 3639", "desc": "Normes de boulons de fondation et d'ancrage", "body": "BIS" },
+      { "code": "OEM Manuals", "desc": "Procédures de montage Triveni, Siemens, BHEL, Belliss, Maxwatt", "body": "OEM" }
+    ]
+  },
+  "srv_2": {
+    "tagline": "De la planification complète de l'arrêt au redémarrage sans défaut",
+    "accentColor": "#0891b2",
+    "keyStats": [
+      { "value": "8+", "label": "Marques OEM révisées" },
+      { "value": "26+", "label": "Années d'expérience terrain" },
+      { "value": "0.001mm", "label": "Résolution de jeu" },
+      { "value": "24×7", "label": "Intervention d'urgence" }
+    ],
+    "whyUs": "Une révision mal réalisée est pire que pas de révision du tout — elle génère de nouvelles erreurs de jeu, des contaminations et des défauts de remontage. Nos ingénieurs sont formés par les OEM. Ils savent ce que les tolérances signifient réellement à la température et à la vitesse de fonctionnement, pas seulement ce qui est écrit dans le manuel.",
+    "overview": "La révision de turbines n'est pas une activité de maintenance — c'est une intervention d'ingénierie de précision. Keshav Enterprises déploie des ingénieurs anciens de chez Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK et ABB pour effectuer des révisions complètes avec la même rigueur et les mêmes normes documentaires que le constructeur d'origine. Chaque révision commence 4 à 6 semaines avant l'arrêt par la finalisation du périmètre, la préinspection des pièces de rechange et la planification de la mobilisation de main-d'œuvre. Chaque composant est mesuré avant démontage, pendant le démontage et après remontage. Un rapport d'état écrit, un registre de jeu et un dossier photographique sont établis pour chaque révision — constituant une référence pour le prochain arrêt.",
+    "procedures": [
+      { "step": "01", "title": "Planification avant arrêt et finalisation du périmètre", "iconName": "BookOpen", "desc": "Examen des rapports de révision précédents, des données d'exploitation, de l'historique des vibrations et des tendances de performance 4 à 6 semaines avant l'arrêt. Définition du périmètre, de la liste des pièces critiques, de la liste des consommables et du plan de mobilisation de main-d'œuvre. Inspection préalable des pièces de rechange stockées avec rapport de manque émis au client." },
+      { "step": "02", "title": "Mobilisation du site et installation de l'outillage", "iconName": "Wrench", "desc": "Déploiement du kit d'outillage de révision complet : vérins hydrauliques, palans à chaîne de précision, élingues de manutention de rotor, instruments de mesure dédiés, outils de rodage, et dossier documentaire complet de révision. Vérification de l'état des outils et de l'étalonnage des instruments avant le début des travaux." },
+      { "step": "03", "title": "Démontage et inspection initiale", "iconName": "Search", "desc": "Démontage contrôlé avec enregistrement de toutes les mesures avant démontage : jeu de palier, faux-rond d'arbre, jeu de presse-étoupe, alignement d'accouplement et flottement d'extrémité de rotor. Photographie de chaque composant. État noté par rapport aux spécifications OEM avant nettoyage." },
+      { "step": "04", "title": "Inspection des composants et rapport d'état", "iconName": "Activity", "desc": "Inspection visuelle, dimensionnelle et par contrôle non destructif du rotor, des aubes, des paliers, des presse-étoupes, du carter, de toutes les vannes et accouplements. Détection de fissures par ressuage ou magnétoscopie sur les composants critiques. Rapport d'état écrit avec recommandation spécifique par composant : remplacer, réparer, ou réutiliser avec justification." },
+      { "step": "05", "title": "Réparation de composants et pose de pièces de rechange", "iconName": "Cog", "desc": "Regarnissage au babbitt et usinage de précision des paliers lisses, remplacement des joints labyrinthe, inspection des aubes et remplacement sélectif, polissage des tourillons (Ra 0,4 μm), rodage des faces de joint de carter, remplacement du garnissage de presse-étoupe, et rodage des sièges de vanne à la norme du bleu de contrôle." },
+      { "step": "06", "title": "Remontage et réglage des jeux", "iconName": "Target", "desc": "Remontage précis avec tous les jeux réglés et enregistrés par rapport aux spécifications OEM : jeu de palier lisse (diamétral et axial), jeu radial et axial du joint labyrinthe, jeu de presse-étoupe, alignement d'accouplement et flottement d'extrémité de rotor. Toutes les mesures enregistrées dans le registre de jeu et comparées à la référence de la révision précédente." },
+      { "step": "07", "title": "Remise en service et remise au client", "iconName": "Zap", "desc": "Rinçage de remise en service du système d'huile de lubrification après révision jusqu'à ISO 4406. Essai de validation du système de sécurité : déclenchement survitesse, déclenchement basse pression d'huile, vanne d'arrêt d'urgence. Démarrage surveillé avec suivi des tendances de vibration et de température des paliers. Jeu écrit remis au client pour pleine charge avec dossier documentaire complet de révision." }
+    ],
+    "tools": [
+      { "name": "Comparateurs et jauges d'alésage de précision", "detail": "Mesure de jeu résolution 0,001 mm", "iconName": "Target" },
+      { "name": "Alignement laser d'arbre", "detail": "Vérification finale de l'alignement d'accouplement", "iconName": "Activity" },
+      { "name": "Machine d'équilibrage portable", "detail": "Équilibrage de rotor in situ", "iconName": "Cog" },
+      { "name": "Équipement de coulée de babbitt", "detail": "Coulée centrifuge pour regarnissage de palier", "iconName": "Factory" },
+      { "name": "Plateaux de rodage de surface", "detail": "Tous grades pour sièges de vanne et faces de carter", "iconName": "Layers" },
+      { "name": "Jauge d'épaisseur à ultrasons", "detail": "Mesure de l'érosion de paroi du carter", "iconName": "Search" },
+      { "name": "Analyseur de vibrations 8 voies", "detail": "FFT temps réel pendant le redémarrage surveillé", "iconName": "TrendingUp" }
+    ],
+    "standards": [
+      { "code": "API 614", "desc": "Systèmes de lubrification, d'étanchéité d'arbre et de contrôle d'huile", "body": "API" },
+      { "code": "API 670", "desc": "Systèmes de protection contre la vibration et la survitesse", "body": "API" },
+      { "code": "ISO 1940", "desc": "Grades de qualité d'équilibrage dynamique pour composants tournants", "body": "ISO" },
+      { "code": "ASME B31.1", "desc": "Tuyauterie de puissance pour raccordements vapeur", "body": "ASME" },
+      { "code": "ISO 9001", "desc": "Système de management de la qualité pour la documentation de révision", "body": "ISO" },
+      { "code": "OEM Manuals", "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB", "body": "OEM" }
+    ]
+  },
+  "srv_3": {
+    "tagline": "Du scan 3D au plan de production — éliminer la dépendance OEM",
+    "accentColor": "#7c3aed",
+    "keyStats": [
+      { "value": "5kW–60MW", "label": "Plage de turbines couverte" },
+      { "value": "0.001mm", "label": "Résolution de mesure MMT" },
+      { "value": "100%", "label": "Matériau vérifié par PMI" },
+      { "value": "GD&T", "label": "Plans de tolérance complets" }
+    ],
+    "whyUs": "Lorsqu'un OEM cesse de prendre en charge une machine, un simple rotor usé ou un diaphragme cassé peut immobiliser une usine pendant des mois. Notre processus d'ingénierie inverse recrée les spécifications exactes de matériau, de géométrie et de traitement thermique avec des plans de fabrication complets — afin que tout atelier d'usinage compétent puisse produire cette pièce.",
+    "overview": "Lorsque les plans OEM ne sont pas disponibles, que l'OEM n'est plus actif, ou que les délais se comptent en années, Keshav Enterprises peut effectuer l'ingénierie inverse de tout composant de turbine de 5 kW à 60 MW pour obtenir un jeu de plans complet prêt pour la production. Notre processus utilise des scanners laser 3D, des machines de mesure tridimensionnelle (MMT) et l'identification de matériau PMI par fluorescence X — les mêmes équipements utilisés par les principales équipes d'ingénierie des OEM — pour produire des plans de fabrication complets avec toutes les tolérances, l'état de surface, la séquence de traitement thermique et les spécifications de matériau. Nous avons réalisé avec succès l'ingénierie inverse de rotors, diaphragmes, blocs de tuyères, joints labyrinthe, paliers, régulateurs et composants du circuit vapeur pour des turbines Triveni, Siemens, BHEL, DLF-Skoda, Belliss et Maxwatt.",
+    "procedures": [
+      { "step": "01", "title": "Réception du composant et évaluation initiale", "iconName": "Search", "desc": "Réception sécurisée du composant usé ou de référence originale. Inspection visuelle initiale, nettoyage et photographie complète. Évaluation des dommages, zones d'usure et surfaces de mesure critiques pour déterminer la stratégie de mesure optimale et le schéma de référence avant toute mesure." },
+      { "step": "02", "title": "Identification du matériau PMI", "iconName": "Shield", "desc": "Identification positive du matériau par analyseur XRF (fluorescence X) en plusieurs points pour identifier la composition exacte de l'alliage. Essais de dureté (Rockwell, Brinell, Vickers) pour déterminer l'état de traitement thermique. Confirmation du grade de matériau et correspondance avec la norme actuelle la plus proche avant le début des mesures — aucune supposition sur l'alliage." },
+      { "step": "03", "title": "Scan laser 3D et mesure MMT", "iconName": "Hexagon", "desc": "Scan 3D complet de l'extérieur du composant à l'aide d'un scanner laser portable — précision du nuage de points jusqu'à 0,05 mm. Dimensions et tolérances internes critiques (alésage, rainure de clavette, cannelures, forme de filetage, pas et hélice) mesurées sur MMT avec résolution de 0,001 mm. Schéma de référence établi à partir des surfaces de palier fonctionnelles." },
+      { "step": "04", "title": "Génération de plans d'ingénierie", "iconName": "BookOpen", "desc": "Modèle CAO développé à partir des données de scan et des mesures MMT. Plan de fabrication 2D complet préparé : toutes les dimensions linéaires et angulaires, tolérances GD&T (concentricité, cylindricité, parallélisme, circularité, faux-rond), indications d'état de surface (valeurs Ra en μm), forme de filetage et normes de classe, et un cadre de référence complet." },
+      { "step": "05", "title": "Spécification de traitement thermique et de surface", "iconName": "Zap", "desc": "Séquence d'usinage complète définie : détensionnement avant usinage, usinage grossier, normalisation ou trempe, phases d'usinage préfinal et final. Conditions de traitement thermique spécifiées avec température (°C), temps de maintien, milieu de trempe et dureté cible. Spécifications de traitement de surface : profondeur de nitruration, dureté de surface, cémentation ou chromage dur selon les besoins." },
+      { "step": "06", "title": "Approvisionnement en matériau et fabrication", "iconName": "Factory", "desc": "Matériau approvisionné selon les spécifications identifiées par PMI avec certificat matière de type EN 10204 3.1. Usinage CNC exécuté à travers chaque phase définie avec inspection dimensionnelle en cours de production à chaque étape. Toutes les données d'inspection enregistrées dans le dossier de données de fabrication." },
+      { "step": "07", "title": "Inspection finale et livraison", "iconName": "CheckCircle2", "desc": "Rapport d'inspection dimensionnelle complet par rapport au plan d'ingénierie. Nouvelle vérification PMI sur le composant fini confirmant l'utilisation du bon alliage tout au long du processus. Mesure de l'état de surface. Essais de dureté sur les surfaces critiques. Dossier documentaire de traçabilité complet fourni avec chaque composant." }
+    ],
+    "tools": [
+      { "name": "Scanner laser 3D", "detail": "Faro Focus / Creaform HandySCAN — précision 0,05 mm", "iconName": "Hexagon" },
+      { "name": "MMT — machine de mesure tridimensionnelle", "detail": "Type pont et bras portable, résolution 0,001 mm", "iconName": "Target" },
+      { "name": "Analyseur PMI XRF", "detail": "Olympus Vanta — identification d'alliage sur site", "iconName": "Search" },
+      { "name": "Duromètre", "detail": "Rockwell, Brinell, Vickers — vérification du traitement thermique", "iconName": "Shield" },
+      { "name": "Profilomètre", "detail": "Testeur de rugosité de surface — résolution Ra 0,001 μm", "iconName": "Activity" },
+      { "name": "Tour à copier", "detail": "Lecture numérique pour reproduction de composants tournants", "iconName": "Cog" },
+      { "name": "Logiciel CAO", "detail": "SolidWorks / AutoCAD — génération de plans GD&T", "iconName": "BookOpen" }
+    ],
+    "standards": [
+      { "code": "ISO 1101", "desc": "Tolérancement géométrique (GD&T) pour plans", "body": "ISO" },
+      { "code": "ISO 286", "desc": "Système de limites et ajustements pour arbres et alésages", "body": "ISO" },
+      { "code": "ISO 1302", "desc": "Indication de l'état de surface sur les plans d'ingénierie", "body": "ISO" },
+      { "code": "EN 10204", "desc": "Certificats de traçabilité matière (Type 3.1)", "body": "EN" },
+      { "code": "ASTM E1417", "desc": "Normes d'essais PMI et de contrôle non destructif", "body": "ASTM" },
+      { "code": "OEM Specification", "desc": "Correspondance avec le matériau OEM d'origine et l'intention de tolérance", "body": "OEM" }
+    ]
+  },
+  "srv_4": {
+    "tagline": "Équilibrage de qualité ISO — car les forces du rotor augmentent avec le carré de la vitesse",
+    "accentColor": "#d97706",
+    "keyStats": [
+      { "value": "50–2000kg", "label": "Capacité de rotor" },
+      { "value": "G1.0", "label": "Grade d'équilibrage atteignable" },
+      { "value": "0.001mm", "label": "Résolution de comparateur" },
+      { "value": "ISO/API", "label": "Normes certifiées" }
+    ],
+    "whyUs": "À 3 000 tr/min, un rotor génère une force de balourd 100 fois supérieure à celle à 300 tr/min. Le même balourd résiduel, invisible à basse vitesse, détruira le palier à pleine vitesse. Là où nécessaire, nous équilibrons jusqu'au grade ISO 1940 G1.0 — pas seulement « suffisamment bon ».",
+    "overview": "Le balourd du rotor est la cause la plus courante et la plus évitable de défaillance de palier de turbine, de dommage de joint et de réduction de la durée de vie du rotor. Keshav Enterprises effectue l'usinage de précision de tourillons et l'équilibrage dynamique ISO 1940 / API 670 pour des rotors de 50 kg à 2 000 kg dans notre atelier dédié. Avant l'équilibrage, le rotor est d'abord usiné pour restaurer l'intégrité géométrique — tourillons ronds, portées de labyrinthe concentriques, état de surface correct. Cette séquence est importante : équilibrer un rotor géométriquement déformé ne fait que masquer le problème. Nos rapports d'équilibrage documentent le balourd initial, les plans de correction, la correction de masse, le balourd résiduel et le grade d'équilibrage ISO atteint, offrant une traçabilité complète pour vos registres de maintenance.",
+    "procedures": [
+      { "step": "01", "title": "Réception du rotor et mesures initiales", "iconName": "Search", "desc": "Rotor reçu et nettoyé. Faux-rond mécanique initial mesuré sur tous les tourillons, ajustements d'accouplement et portées de labyrinthe à l'aide de comparateurs de précision sur un support statique de précision. Faux-rond électrique vérifié. Tous les diamètres mesurés et enregistrés par rapport aux spécifications OEM — ovalisation, conicité et sous-dimensionnement de tourillon documentés." },
+      { "step": "02", "title": "Évaluation de l'état des tourillons", "iconName": "Activity", "desc": "État de surface mesuré au profilomètre en 3 positions autour de la circonférence de chaque tourillon. Inspection visuelle pour rayures, transfert de babbitt, piqûres de corrosion et motifs d'usure. Dureté vérifiée. Calcul de l'enlèvement de matière minimal pour restaurer la géométrie et l'état de surface dans les limites OEM." },
+      { "step": "03", "title": "Rectification et polissage des tourillons", "iconName": "Cog", "desc": "Rectification cylindrique de précision des tourillons sur rectifieuse CNC : circularité restaurée à un maximum de 0,005 mm, conicité à un maximum de 0,005 mm par 100 mm. Surface rectifiée polie jusqu'à Ra 0,4 μm (spécification de surface de palier OEM) à l'aide d'un tour de polissage de précision. Enlèvement de matière minimal pour préserver la durée de vie de l'arbre." },
+      { "step": "04", "title": "Usinage des portions labyrinthe et presse-étoupe", "iconName": "Hexagon", "desc": "Réusinage des portées de joint labyrinthe, des zones de presse-étoupe, des faces de disque d'équilibrage et des ajustements d'accouplement sur tour CNC de précision. Toutes les surfaces réglées concentriques par rapport à la référence de tourillon à l'aide d'un mandrin à 4 mors et d'une mise à zéro au comparateur avant usinage — essentiel pour préserver l'intégrité géométrique du rotor et éviter d'introduire un nouveau faux-rond." },
+      { "step": "05", "title": "Équilibrage dynamique — correction à deux plans", "iconName": "Target", "desc": "Rotor monté dans une équilibreuse dynamique à paliers durs. Balourd initial mesuré simultanément dans deux plans de correction (côté accouplement et côté régulateur/roue). Masses d'essai appliquées et retirées. Équilibrage répété jusqu'à ce que le balourd résiduel dans chaque plan satisfasse le grade ISO 1940 / API 670 spécifié pour cette application de rotor." },
+      { "step": "06", "title": "Vérification du faux-rond après équilibrage", "iconName": "TrendingUp", "desc": "Faux-rond mécanique et électrique remesuré à toutes les positions de tourillon après équilibrage. Comparaison avec la référence avant équilibrage confirmant l'amélioration due à l'usinage et à l'équilibrage. Tout faux-rond résiduel excédant les limites OEM est examiné — un redressage ou un remplacement est recommandé s'il est dû à un arbre courbé." },
+      { "step": "07", "title": "Documentation et expédition", "iconName": "BookOpen", "desc": "Rapport d'équilibrage complet émis : balourd initial (g·mm), emplacements des plans de correction, masses correctives appliquées, balourd résiduel final dans chaque plan, grade d'équilibrage atteint (G1.0, G2.5, G6.3), et toutes les mesures de faux-rond. Certificat PMI et résultats d'essai de dureté joints. Expédition avec emballage du rotor et documentation." }
+    ],
+    "tools": [
+      { "name": "Équilibreuse à paliers durs", "detail": "Capacité 50–2 000 kg, 100–10 000 tr/min", "iconName": "Activity" },
+      { "name": "Rectifieuse cylindrique CNC", "detail": "Système de dressage de précision, contrôle 0,001 mm", "iconName": "Cog" },
+      { "name": "Tour de polissage de précision", "detail": "Micro-finition jusqu'à Ra 0,4 μm sur surface de tourillon", "iconName": "Hexagon" },
+      { "name": "Profilomètre", "detail": "Rugosité de surface — résolution Ra 0,001 μm", "iconName": "TrendingUp" },
+      { "name": "Comparateurs de précision", "detail": "0,001 mm — mesure de faux-rond et de diamètre", "iconName": "Target" },
+      { "name": "Analyseur d'équilibrage portable", "detail": "Capacité d'équilibrage sur site in situ", "iconName": "Search" },
+      { "name": "Stroboscope numérique", "detail": "Mesure d'angle de phase pour corrections d'équilibrage", "iconName": "Zap" }
+    ],
+    "standards": [
+      { "code": "ISO 1940-1", "desc": "Exigences de qualité d'équilibrage pour rotors rigides", "body": "ISO" },
+      { "code": "ISO 21940", "desc": "Vibrations mécaniques : terminologie et procédures d'équilibrage de rotor", "body": "ISO" },
+      { "code": "API 670", "desc": "Surveillance de vibration, position axiale et température de palier", "body": "API" },
+      { "code": "API 612", "desc": "Turbines à vapeur à usage spécial — exigences d'équilibrage", "body": "API" },
+      { "code": "ISO 1101", "desc": "Tolérancement géométrique appliqué aux plans d'usinage", "body": "ISO" },
+      { "code": "OEM Specification", "desc": "Grades d'équilibrage Triveni, Siemens, BHEL, Man Turbo, KKK", "body": "OEM" }
+    ]
+  },
+  "srv_5": {
+    "tagline": "Classe de propreté ISO 4406 16/14/11 — certifiée avant remise en huile",
+    "accentColor": "#0284c7",
+    "keyStats": [
+      { "value": "16/14/11", "label": "Classe ISO 4406 visée" },
+      { "value": "6 000 L/min", "label": "Débit système maximal" },
+      { "value": "3μm", "label": "Filtration finale" },
+      { "value": "100%", "label": "Comptage de particules certifié laboratoire" }
+    ],
+    "whyUs": "Les turbines neuves et récemment révisées sont détruites par des débris de construction — laitier de soudure, calamine, sable et copeaux métalliques — en quelques heures après le premier démarrage. Le rinçage à l'huile n'est pas optionnel : c'est l'assurance la plus rentable contre une défaillance catastrophique de palier sur une révision neuve.",
+    "overview": "La contamination du système d'huile de lubrification est la cause première des défaillances de palier sur les turbines neuves et récemment révisées. Les débris de construction entrant dans le système d'huile de lubrification pendant le montage ou la révision peuvent détruire les surfaces de palier et de tourillon en quelques heures de fonctionnement. Keshav Enterprises effectue un rinçage professionnel d'huile de lubrification à l'aide de systèmes de filtration centrifuge mobiles spécialement conçus pour atteindre la classe de propreté ISO 4406:99 16/14/11 — norme minimale pour la lubrification des paliers de turbine à vapeur. Notre processus est entièrement documenté : résultats d'échantillons d'huile à chaque étape, registre de mise à niveau progressive des filtres, et un certificat final de comptage de particules certifié laboratoire fourni avant remise du système en état de remise en huile.",
+    "procedures": [
+      { "step": "01", "title": "Étude du système et plan de rinçage", "iconName": "Search", "desc": "Examen du P&ID du système, du volume d'huile, des diamètres de tuyauterie, de la configuration des échangeurs thermiques et de la disposition des logements de palier. Développement du circuit de rinçage à l'aide de calculs hydrauliques pour atteindre un écoulement turbulent (nombre de Reynolds supérieur à 4 000) dans chaque tronçon de tuyauterie. Identification et conception des tronçons de dérivation temporaires et des brides pleines si nécessaire." },
+      { "step": "02", "title": "Installation du circuit de rinçage temporaire", "iconName": "Wrench", "desc": "Installation de tuyauteries de dérivation temporaires autour des paliers, vannes de contrôle, instrumentation et autres équipements sensibles ne devant pas voir de débris de rinçage. Raccordement de l'unité de rinçage mobile. Installation de crépines cibles temporaires en toile métallique aux points de retour de rinçage pour surveiller les débris." },
+      { "step": "03", "title": "Rinçage initial — débit élevé", "iconName": "Droplets", "desc": "Système chargé avec de l'huile de rinçage (ou de l'huile de process si compatible). Pompe de rinçage exploitée au débit maximal atteignable pour une turbulence maximale. Température de l'huile cyclée thermiquement entre 30 °C et 70 °C à intervalles de 30 minutes — le cycle thermique contraint les parois de tuyauterie et détache la calamine et les débris adhérents. Inspection et nettoyage des crépines cibles à chaque intervalle." },
+      { "step": "04", "title": "Surveillance de contamination et comptage de particules", "iconName": "Activity", "desc": "Échantillons d'huile prélevés selon la procédure d'extraction propre ISO 4021 à chaque étape. Comptage de particules mesuré à l'aide d'un compteur automatique conforme ISO 11500 — comptages rapportés à ≥4μm, ≥6μm, ≥14μm et ≥21μm. Résultats tracés sur un graphique de progression de propreté par rapport à la classe ISO 4406 visée." },
+      { "step": "05", "title": "Mise à niveau progressive des filtres", "iconName": "Layers", "desc": "À mesure que la contamination grossière est éliminée, le niveau de filtration en microns réduit par étapes : 25μm → 10μm → 6μm → 3μm absolu. Unité de déshydratation centrifuge exploitée en continu pendant le rinçage pour éliminer l'eau libre et émulsionnée. Teneur en eau vérifiée par méthode Karl Fischer pour confirmer l'efficacité de la déshydratation." },
+      { "step": "06", "title": "Comptage de particules d'acceptation finale", "iconName": "CheckCircle2", "desc": "Un minimum de trois échantillons d'huile propre consécutifs prélevés à intervalles doivent tous atteindre la classe ISO 4406 visée 16/14/11. Échantillons finaux soumis à un laboratoire accrédité pour vérification indépendante. Certificat écrit de propreté d'huile — signé, tamponné et traçable au laboratoire — émis au client." },
+      { "step": "07", "title": "Restauration du système et remplissage d'huile", "iconName": "Zap", "desc": "Tous les tronçons de dérivation temporaires et brides pleines retirés. Tous les paliers, instruments sensibles et équipements critiques reconnectés. Système filtré, rempli d'huile de process neuve ayant traversé un filtre absolu de 3μm pendant le remplissage. Comptage de particules final sur l'huile du système après remplissage confirmant le maintien de l'objectif. Système remis pour démarrage." }
+    ],
+    "tools": [
+      { "name": "Unité de filtration centrifuge mobile", "detail": "Débits système jusqu'à 6 000 L/min", "iconName": "Droplets" },
+      { "name": "Compteur de particules automatique", "detail": "Conforme ISO 11500 — surveillance en temps réel en ligne", "iconName": "Activity" },
+      { "name": "Titrateur Karl Fischer", "detail": "Mesure de la teneur en eau libre dans l'huile de lubrification", "iconName": "Layers" },
+      { "name": "Kit d'échantillonnage d'huile", "detail": "Extraction propre ISO 4021 depuis lignes sous pression", "iconName": "Search" },
+      { "name": "Réchauffeur d'huile", "detail": "Cycle thermique : 30 °C à 70 °C pour détacher les débris", "iconName": "Zap" },
+      { "name": "Jeu de crépines cibles", "detail": "Maille 25, 10, 3μm pour surveillance de débris par étapes", "iconName": "Filter" },
+      { "name": "Jeu de tronçons de dérivation", "detail": "Tronçons de dérivation et brides pleines fabriqués sur mesure", "iconName": "Wrench" }
+    ],
+    "standards": [
+      { "code": "ISO 4406:99", "desc": "Classification de propreté des fluides hydrauliques — cible 16/14/11", "body": "ISO" },
+      { "code": "ISO 11500", "desc": "Détermination du comptage de particules par méthodes automatiques", "body": "ISO" },
+      { "code": "ISO 4021", "desc": "Analyse de contamination et échantillonnage des fluides hydrauliques", "body": "ISO" },
+      { "code": "API 614", "desc": "Systèmes de lubrification, d'étanchéité d'arbre et de contrôle d'huile", "body": "API" },
+      { "code": "ASTM D6304", "desc": "Mesure de la teneur en eau par Karl Fischer dans les huiles de lubrification", "body": "ASTM" },
+      { "code": "OEM Specification", "desc": "Exigences de propreté d'huile de lubrification Triveni, Siemens, BHEL, Man Turbo", "body": "OEM" }
+    ]
+  },
+  "srv_6": {
+    "tagline": "Alignement laser de précision — éliminer la cause n°1 de défaillance de palier",
+    "accentColor": "#059669",
+    "keyStats": [
+      { "value": "0,05mm", "label": "Tolérance d'alignement atteinte" },
+      { "value": "50%", "label": "Défaillances de palier dues au désalignement" },
+      { "value": "80%", "label": "Durée de vie de palier perdue à un décalage de 0,05mm" },
+      { "value": "Any Size", "label": "Toutes tailles de bâti couvertes" }
+    ],
+    "whyUs": "Un désalignement aussi faible que 0,05 mm sur un accouplement peut réduire la durée de vie du palier de 80 % et génère des forces qui se propagent dans les joints, les accouplements et toute la chaîne de transmission. L'alignement laser prend des heures — une défaillance de palier prend des semaines et coûte bien plus cher. Nous alignons à chaud, pas seulement à froid.",
+    "overview": "Le désalignement d'arbre est responsable de jusqu'à 50 % de toutes les défaillances de palier d'équipements tournants dans l'industrie indienne. Même un désalignement invisible à l'œil nu génère d'énormes forces cycliques sur les paliers, joints et accouplements à la vitesse de fonctionnement. Keshav Enterprises effectue l'alignement laser de précision d'arbres pour turbines, réducteurs, pompes, ventilateurs, alternateurs et générateurs à induction de toute taille de bâti à l'aide de systèmes Pruftechnik et SKF. Fait important, nous calculons et appliquons les décalages d'alignement à chaud — l'alignement à froid est délibérément réglé pour tenir compte de la dilatation thermique, afin que la machine tourne droit à la température de fonctionnement. Nos rapports d'alignement montrent les relevés avant/après, l'historique des cales et les valeurs finales par rapport à la tolérance OEM.",
+    "procedures": [
+      { "step": "01", "title": "Vérification préalable à l'alignement", "iconName": "Search", "desc": "Vérification de la condition de pied bancal (déformation du bâti à la mise en couple des boulons) à l'aide de comparateurs de précision sur tous les pieds — 0,05 mm ou moins requis avant de poursuivre l'alignement. Mesure de contrainte de tuyauterie pour identifier les forces imposées sur les tubulures de la machine par la tuyauterie raccordée. Vérification du jeu de palier et calcul de dilatation thermique à partir des données OEM ou de mesures sur site." },
+      { "step": "02", "title": "Configuration du système d'alignement laser", "iconName": "Target", "desc": "Montage des têtes émettrice et réceptrice laser sur l'arbre à l'aide de supports magnétiques de précision. Zéro du système et tolérance de rotation d'arbre vérifiés. Toutes les dimensions pertinentes saisies dans le logiciel d'alignement : diamètre d'accouplement, distance moyeu à moyeu, distance de mesure. Compensation de flèche de support vérifiée et appliquée." },
+      { "step": "03", "title": "Mesure du désalignement initial", "iconName": "Activity", "desc": "Arbres tournés sur l'arc de mesure (trois positions : 12h, 3h et 9h). Le logiciel calcule le désalignement réel : désalignement angulaire (mrad) et décalage à la face d'accouplement (mm), et correction requise à chaque pied de machine simultanément dans les plans vertical et horizontal." },
+      { "step": "04", "title": "Correction par cales et vis de calage", "iconName": "Layers", "desc": "Corrections de cales calculées appliquées aux pieds de machine stationnaires. Cales de précision en acier inoxydable installées ou retirées dans la configuration correcte pour corriger le désalignement vertical. Correction horizontale effectuée à l'aide des vis de calage d'alignement sur les pieds de machine, laser actif pour retour en temps réel pendant la correction." },
+      { "step": "05", "title": "Compensation d'alignement à chaud", "iconName": "Zap", "desc": "Dilatation thermique du bâti de machine du froid à la température de fonctionnement calculée à partir des données OEM de dilatation thermique ou mesurée par surveillance DBSE (distance entre extrémités d'arbre) et thermographie. Cible d'alignement à froid délibérément décalée afin que la machine atteigne un alignement de fonctionnement à chaud correct à pleine charge et température." },
+      { "step": "06", "title": "Mesure finale et vérification de tolérance", "iconName": "CheckCircle2", "desc": "Mesure laser finale confirmant l'alignement dans la tolérance OEM — typiquement : désalignement angulaire maximum 0,05 mrad, décalage à l'accouplement maximum 0,05 mm. Nouvelle vérification des quatre pieds pour un pied bancal de 0,05 mm ou moins. Boulons d'accouplement serrés à la spécification OEM à l'aide d'une clé dynamométrique numérique calibrée." },
+      { "step": "07", "title": "Rapport d'alignement et couple des boulons", "iconName": "BookOpen", "desc": "Rapport d'alignement détaillé généré par le logiciel du système laser : relevés avant alignement, changements de cales à chaque pied, vecteurs de correction appliqués, et valeurs finales atteintes par rapport à la tolérance OEM. Couple des boulons de fondation enregistré. Rapport signé et émis — partie de la référence de registre de maintenance pour l'alignement futur." }
+    ],
+    "tools": [
+      { "name": "Pruftechnik Rotalign Pro", "detail": "Série OPTALIGN — alignement laser sans fil", "iconName": "Target" },
+      { "name": "SKF TKSA 71", "detail": "Alignement laser sans fil avec rapport via application", "iconName": "Activity" },
+      { "name": "Comparateurs de précision", "detail": "Mesure de pied bancal — résolution 0,001 mm", "iconName": "Cog" },
+      { "name": "Jeux de cales de précision inox", "detail": "0,025 à 3,0 mm, par incréments de 0,025 mm", "iconName": "Layers" },
+      { "name": "Clés dynamométriques numériques", "detail": "Serrage des boulons d'accouplement et de fondation", "iconName": "Wrench" },
+      { "name": "Analyseur de vibrations", "detail": "Comparaison des vibrations avant et après alignement", "iconName": "TrendingUp" },
+      { "name": "Caméra thermographique", "detail": "Relevé thermique de paliers et accouplements chauds", "iconName": "Zap" }
+    ],
+    "standards": [
+      { "code": "ISO 10816-3 / 20816-3", "desc": "Évaluation de la sévérité vibratoire pour machines >15 kW", "body": "ISO" },
+      { "code": "API 686", "desc": "Pratique recommandée pour le montage et l'alignement des machines", "body": "API" },
+      { "code": "ASME B31.3", "desc": "Limites de charge de tubulure de tuyauterie de process sur raccordement machine", "body": "ASME" },
+      { "code": "ISO 1940", "desc": "Limites de balourd résiduel après correction d'alignement", "body": "ISO" },
+      { "code": "API 612", "desc": "Turbines à vapeur à usage spécial — exigences d'alignement", "body": "API" },
+      { "code": "OEM Tolerance", "desc": "Spécifications d'alignement Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK", "body": "OEM" }
+    ]
+  },
+  "srv_7": {
+    "tagline": "Cause racine trouvée. Action corrective déployée. Turbine de nouveau en ligne.",
+    "accentColor": "#dc2626",
+    "keyStats": [
+      { "value": "24×7", "label": "Déploiement d'urgence" },
+      { "value": "10+", "label": "Marques OEM diagnostiquées" },
+      { "value": "FFT+Thermal", "label": "Méthode de diagnostic double" },
+      { "value": "48hr", "label": "Suivi de tendance post-réparation" }
+    ],
+    "whyUs": "Un défaut mal diagnostiqué et réparé sans trouver la cause racine échouera à nouveau — souvent plus vite que la première fois. Nous ne devinons pas. Nous mesurons, nous analysons le spectre, nous ne démontons que ce que les données indiquent, nous confirmons physiquement la cause racine, et nous la réparons avec la même équipe qui l'a trouvée.",
+    "overview": "Les déclenchements de turbine non planifiés et la dégradation de performance inexpliquée coûtent chaque année des millions aux usines industrielles en production perdue. Keshav Enterprises déploie des ingénieurs de dépannage anciens des OEM avec une instrumentation de diagnostic complète pour identifier, documenter et corriger la cause racine exacte de toute défaillance de turbine à vapeur — des vibrations élevées et défaillances de palier à l'instabilité de régulateur, la contamination d'huile et les fuites de vapeur. Nous couvrons toutes les marques de turbines de 5 kW à 60 MW dans l'ensemble du spectre des industries de process et de puissance en Inde. Notre méthodologie est systématique : mesures en ligne d'abord, inspection physique ciblée par les données, cause racine confirmée par écrit, et action corrective exécutée par la même équipe qui a diagnostiqué le défaut.",
+    "procedures": [
+      { "step": "01", "title": "Déploiement d'urgence et collecte de données site", "iconName": "Zap", "desc": "Déploiement d'intervention 24h/24 et 7j/7 sur site avec kit de diagnostic complet. Collecte de toutes les données d'exploitation disponibles : historique des vibrations, journaux de déclenchement DCS, rapports d'analyse d'huile, tendances de température des paliers, journaux de conditions vapeur et registres de maintenance. Entretien avec le personnel d'exploitation et de maintenance ayant observé l'événement de défaillance." },
+      { "step": "02", "title": "Mesures de vibration et de performance de référence", "iconName": "Activity", "desc": "Mesure de vibration en ligne sur tous les logements de palier : niveaux de vibration globaux (mm/s RMS), analyse spectrale FFT en temps réel, amplitude et angle de phase 1X et 2X, composantes sous-synchrones et haute fréquence. Pression, température et débit d'admission/échappement vapeur évalués par rapport à la charge de conception. Température des paliers cartographiée à l'aide d'une caméra thermographique." },
+      { "step": "03", "title": "Identification de signature de défaut et hypothèse", "iconName": "Search", "desc": "Analyse du spectre vibratoire, des données de phase, de la carte de température des paliers et des résultats d'échantillons d'huile pour établir une signature de défaut. Chaque cause racine potentielle systématiquement mise en correspondance avec les preuves mesurées : balourd (1X dominant), désalignement (2X dominant), usure de palier (fréquence sous-synchrone ou de défaut de palier), frottement (sous-harmoniques, 1X élevé), jeu excessif (harmoniques multiples), ou encrassement du circuit vapeur (arc thermique)." },
+      { "step": "04", "title": "Démontage ciblé et inspection physique", "iconName": "Wrench", "desc": "Démontage minimalement invasif ciblant uniquement la zone de défaut suspectée — pas de démontage complet sauf si les données l'exigent. Mesure physique du jeu de palier, du faux-rond d'arbre, de l'alignement d'accouplement, du jeu de joint de presse-étoupe et de l'ajustement de joint labyrinthe comparée aux spécifications OEM. Toutes les constatations documentées par photographie et dimensionnellement." },
+      { "step": "05", "title": "Confirmation de cause racine et rapport ACR écrit", "iconName": "BookOpen", "desc": "Rapport formel d'analyse de cause racine (ACR) reliant les données de la machine, les mesures de démontage et les comparaisons aux spécifications OEM. Cause racine classifiée et confirmée par écrit. Facteurs contributifs identifiés. Plan d'action corrective émis au client avec classement des priorités, pièces nécessaires, temps d'arrêt estimé et mesures préventives recommandées avant le début des travaux." },
+      { "step": "06", "title": "Exécution de l'action corrective", "iconName": "Cog", "desc": "Exécution directe de l'action corrective par la même équipe de dépannage : rééquilibrage de rotor, remplacement de palier et réglage de jeu, correction d'alignement laser, remplacement de joint de presse-étoupe et de garniture labyrinthe, rinçage du système d'huile de lubrification jusqu'à ISO 4406, révision et étalonnage du régulateur, ou étalonnage du système de contrôle. Tous les travaux correctifs documentés par rapport aux spécifications OEM." },
+      { "step": "07", "title": "Mise en service post-réparation et suivi de tendance 48 heures", "iconName": "TrendingUp", "desc": "Redémarrage surveillé avec enregistrement continu des données de vibration et de température des paliers pendant la montée en vitesse. Niveaux de vibration post-réparation comparés à la référence pré-défaut et aux limites d'acceptation OEM (ISO 10816-3). Suivi de tendance continu de 48 heures à pleine charge avant émission du rapport de jeu écrit et retour de la turbine en exploitation sans surveillance." }
+    ],
+    "tools": [
+      { "name": "Analyseur de vibrations multivoies", "detail": "FFT temps réel — classe CSI 2140 / SKF Microlog", "iconName": "Activity" },
+      { "name": "Capteurs de proximité", "detail": "Vibration d'arbre à courants de Foucault — norme API 670", "iconName": "TrendingUp" },
+      { "name": "Caméra thermographique", "detail": "FLIR / Testo — relevé thermique de paliers et circuit vapeur", "iconName": "Zap" },
+      { "name": "Stroboscope + référence de phase", "detail": "Mesure d'amplitude 1X et d'angle de phase", "iconName": "Search" },
+      { "name": "Compteur portable de particules d'huile", "detail": "ISO 11500 — contamination d'huile de lubrification sur site", "iconName": "Droplets" },
+      { "name": "Endoscope", "detail": "Rigide et flexible — inspection d'aubes sans démontage complet", "iconName": "Hexagon" },
+      { "name": "Analyseur PMI XRF", "detail": "Identification d'alliage des composants défaillants", "iconName": "Shield" },
+      { "name": "Système d'alignement laser d'arbre", "detail": "Confirmation d'alignement accouplement et palier", "iconName": "Target" },
+      { "name": "Titrateur Karl Fischer", "detail": "Teneur en eau libre dans l'huile de lubrification — contrôle de contamination", "iconName": "Layers" },
+      { "name": "Équipement d'étalonnage de régulateur", "detail": "Référence de vitesse et instruments de système de contrôle", "iconName": "Cog" }
+    ],
+    "standards": [
+      { "code": "ISO 10816-3 / 20816-3", "desc": "Limites de sévérité vibratoire pour machines industrielles >15 kW", "body": "ISO" },
+      { "code": "API 670", "desc": "Protection des machines : vibration, position axiale, température", "body": "API" },
+      { "code": "API 612", "desc": "Turbines à vapeur à usage spécial pour service pétrolier et chimique", "body": "API" },
+      { "code": "ISO 4406:99", "desc": "Classification de propreté de l'huile de lubrification", "body": "ISO" },
+      { "code": "ASME PTC 6", "desc": "Code d'essai de performance de turbine à vapeur pour évaluation d'efficacité", "body": "ASME" },
+      { "code": "ISO 14224", "desc": "Collecte de données de fiabilité et de maintenance pour équipements", "body": "ISO" },
+      { "code": "OEM Manuals", "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB", "body": "OEM" }
+    ],
+    "faultMatrix": [
+      { "symptom": "Vibration élevée — 1X dominant", "causes": ["Balourd de rotor (résiduel ou induit par dépôt)", "Flèche de rotor (thermique ou mécanique)", "Jeu de palier excessif"], "action": "Équilibrage dynamique, inspection du rotor, remplacement du palier" },
+      { "symptom": "Vibration élevée — 2X dominant", "causes": ["Désalignement d'arbre (angulaire ou décalage)", "Défaut d'accouplement", "Déformation du carter / contrainte de tuyauterie"], "action": "Alignement laser, inspection d'accouplement, mesure de contrainte de tuyauterie" },
+      { "symptom": "Vibration sous-synchrone", "causes": ["Tourbillon d'huile / fouettement d'huile dans les paliers lisses", "Instabilité induite par frottement", "Ajustement de palier lâche"], "action": "Réinitialisation du jeu de palier, vérification pression/viscosité d'huile de lubrification, inspection du jeu de frottement" },
+      { "symptom": "Vibration haute fréquence (>3X)", "causes": ["Encrassement ou érosion des aubes", "Jeu dans les fondations ou chapeaux de palier", "Défaut d'engrenage (réducteur)"], "action": "Inspection des aubes (endoscope), vérification du couple des chapeaux de palier, inspection du réducteur" },
+      { "symptom": "Contamination d'huile de palier / eau dans l'huile", "causes": ["Usure du joint de presse-étoupe à bague carbone", "Pression de vapeur de presse-étoupe trop élevée", "Entrée de condensat par l'échappement"], "action": "Remplacement de la bague carbone, réinitialisation de la pression de vapeur de presse-étoupe, rinçage du système d'huile de lubrification" },
+      { "symptom": "Fuite de presse-étoupe vapeur", "causes": ["Usure du joint labyrinthe (jeu excessif)", "Garniture de presse-étoupe usée ou endommagée", "Pression de vapeur de presse-étoupe mal réglée"], "action": "Remplacement du joint labyrinthe, remplacement de la garniture de presse-étoupe, étalonnage du régulateur de vapeur de presse-étoupe" },
+      { "symptom": "Battement du régulateur / instabilité de vitesse", "causes": ["Usure ou grippage de la timonerie du régulateur", "Huile sale / boue dans le régulateur PG-PL", "Mauvais réglage de la vanne pointeau de compensation"], "action": "Révision de la timonerie du régulateur, rinçage et remplissage de l'huile du régulateur, réétalonnage de la vanne pointeau" },
+      { "symptom": "Déclenchement basse pression d'huile de lubrification", "causes": ["Usure de la pompe à huile", "Encrassement du refroidisseur d'huile / température d'huile élevée", "Soupape de décharge bloquée ouverte", "Niveau d'huile bas ou cavitation"], "action": "Inspection de la pompe à huile, nettoyage du refroidisseur, inspection de la soupape de décharge, vérification du niveau d'huile et du système" },
+      { "symptom": "Déclenchement survitesse — faux ou réel", "causes": ["Usure ou mauvais réglage de la goupille de déclenchement", "Passage de vapeur par la vanne de régulateur", "Défaut d'actionneur ou d'huile de contrôle"], "action": "Inspection et nouveau réglage de la goupille de déclenchement, inspection du siège de vanne de régulateur, vérification du système de contrôle" },
+      { "symptom": "Perte de puissance de sortie / d'efficacité", "causes": ["Encrassement des aubes (pureté de vapeur / contamination d'eau d'atempérage)", "Usure des bandes d'étanchéité (dérivation de vapeur accrue)", "Érosion ou obstruction de tuyère"], "action": "Inspection à l'endoscope, remplacement des bandes d'étanchéité, inspection et nettoyage de tuyère" }
+    ]
+  }
+}

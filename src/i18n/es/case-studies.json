@@ -1,0 +1,210 @@
+{
+  "cs_01": {
+    "id": "cs_01",
+    "image": "project-triveni-overhaul.webp",
+    "category": "Revisión General",
+    "industry": "Ingenio Azucarero",
+    "title": "Turbina de Contrapresión Triveni 5 MW — Revisión General Completa y Equilibrado de Rotor",
+    "client": "Confidencial — Ingenio Azucarero, UP Occidental",
+    "year": "2023",
+    "duration": "12 días",
+    "scope": "Revisión general llave en mano completa: extracción del rotor, sustitución de cojinetes, mecanizado de sellos laberínticos, equilibrado dinámico del rotor (ISO 1940 G2.5), lavado de aceite lubricante y puesta en marcha.",
+    "challenge": "La turbina había estado funcionando con vibración elevada (>6 mm/s) durante dos temporadas. Las carcasas de los cojinetes mostraban desgaste por fricción y el rotor tenía una excentricidad persistente de 1× que el mantenimiento anterior no había resuelto.",
+    "solution": "Ingenieros ex-OEM de Triveni desmontaron la unidad y encontraron un muñón agrietado en el extremo motriz. El muñón se mecanizó rebajado, se vertió y rascó nuevo babbitt, los laberintos se mecanizaron en nuestro taller y el rotor se equilibró dinámicamente hasta un desequilibrio residual de <0,5 g·mm. Vibración tras la puesta en marcha: 1,8 mm/s.",
+    "outcomes": [
+      "Vibración reducida de 6,4 mm/s a 1,8 mm/s",
+      "Temperatura del metal del cojinete redujo 14 °C",
+      "Turbina reincorporada al servicio dentro de la ventana planificada de 12 días",
+      "Sin disparos no planificados en la siguiente temporada de operación de 12 meses"
+    ],
+    "tags": [
+      "Triveni",
+      "Equilibrado de Rotor",
+      "Cojinetes Babbitt",
+      "Revisión General"
+    ],
+    "categorySlug": "overhauling"
+  },
+  "cs_02": {
+    "id": "cs_02",
+    "image": "project-reverse-engineering.webp",
+    "category": "Ingeniería Inversa",
+    "industry": "Fábrica de Papel",
+    "title": "Disco de Etapa de Impulso Siemens SST-200 — Ingeniería Inversa y Fabricación",
+    "client": "Confidencial — Fábrica de Papel, Uttarakhand",
+    "year": "2023",
+    "duration": "21 días",
+    "scope": "Escaneo láser 3D del disco de impulso dañado, verificación de material PMI, juego completo de planos de fabricación y suministro del disco de reemplazo mecanizado según plano.",
+    "challenge": "El OEM cotizó un plazo de entrega de 14 semanas y 18.000 € por un disco de impulso de reemplazo. La fábrica no podía permitirse una parada de 14 semanas con la temporada acercándose.",
+    "solution": "Nuestro equipo escaneó en 3D el disco dañado in situ, realizó PMI para confirmar la aleación (acero inoxidable AISI 422), generó planos de fabricación completos con todas las tolerancias y especificaciones de tratamiento térmico, y logró que el disco fuera desbastado, tratado térmicamente, mecanizado de acabado y equilibrado dinámicamente en 19 días laborables.",
+    "outcomes": [
+      "Plazo de entrega reducido de 14 semanas (OEM) a 21 días",
+      "Ahorro de costes de aproximadamente ₹12 lakh frente al precio OEM",
+      "Disco instalado sin problemas dimensionales; turbina volvió a la potencia nominal",
+      "Juego completo de planos conservado para futuros pedidos"
+    ],
+    "tags": [
+      "Siemens",
+      "Ingeniería Inversa",
+      "Escaneo 3D",
+      "PMI"
+    ],
+    "categorySlug": "reverse-engineering"
+  },
+  "cs_03": {
+    "id": "cs_03",
+    "image": "project-erection-commissioning.webp",
+    "category": "Montaje y Puesta en Marcha",
+    "industry": "Destilería",
+    "title": "Turbina de Cogeneración Maxwatt 3,5 MW — Montaje e Instalación en Terreno Baldío",
+    "client": "Confidencial — Destilería, UP Central",
+    "year": "2022",
+    "duration": "28 días",
+    "scope": "Montaje completo de turbina de vapor, caja de engranajes, alternador, condensador, sistema de aceite lubricante y todas las tuberías y cableado asociados. Puesta en marcha con testigo del OEM.",
+    "challenge": "La turbina llegó al sitio con planos de anclaje de la bancada incorrectos. La obra civil tuvo que ser reevaluada y corregida antes de poder iniciar el montaje, comprimiendo la ventana de puesta en marcha disponible.",
+    "solution": "Nuestros ingenieros de campo coordinaron con el contratista civil para corregir los bolsillos de anclaje en 48 horas. La turbina, la caja de engranajes y el alternador fueron montados, alineados (alineación del eje a <0,02 mm TIR) y se completaron todas las verificaciones previas a la puesta en marcha. La sincronización se logró en el primer intento durante la prueba con testigo del OEM.",
+    "outcomes": [
+      "Primera sincronización lograda el día de la puesta en marcha — sin retrasos en la lista de pendientes",
+      "Alineación de eje lograda a 0,016 mm TIR — dentro de la tolerancia OEM",
+      "Aceite lubricante lavado a limpieza ISO 4406 16/14/11 antes de la primera marcha",
+      "La planta aceptó la turbina con cero incidencias en la lista OEM"
+    ],
+    "tags": [
+      "Maxwatt",
+      "Montaje",
+      "Puesta en Marcha",
+      "Alineación"
+    ],
+    "categorySlug": "erection-and-commissioning"
+  },
+  "cs_04": {
+    "id": "cs_04",
+    "image": "project-lube-oil-flushing.webp",
+    "category": "Lavado de Aceite Lubricante",
+    "industry": "Generación de Energía",
+    "title": "Turbina de Extracción-Condensación BHEL 15 MW — Lavado de Aceite Lubricante Post-Revisión",
+    "client": "Confidencial — Productor Independiente de Energía, Rajastán",
+    "year": "2024",
+    "duration": "5 días",
+    "scope": "Lavado del sistema de aceite lubricante post-revisión general mediante unidad de filtro de centrífuga móvil. Limpieza objetivo: ISO 4406 ≤16/14/11 para el circuito principal de aceite lubricante y ≤15/13/10 para el circuito de aceite de control.",
+    "challenge": "El sistema de aceite lubricante tenía una contaminación metálica significativa procedente de la revisión general. Tres intentos previos de lavado de otro contratista no lograron alcanzar la limpieza objetivo en el circuito de aceite de control.",
+    "solution": "Desplegamos nuestra unidad de lavado por centrífuga móvil diseñada a medida con un subcircuito dedicado de bajo volumen y alta velocidad para el anillo de aceite de control. Al día 3 el circuito principal estaba en 15/13/10 y al día 5 ambos circuitos alcanzaron sus objetivos de limpieza, confirmados por informes de conteo de partículas de terceros.",
+    "outcomes": [
+      "Circuito principal de aceite lubricante: ISO 4406 15/13/10 ✓",
+      "Circuito de aceite de control: ISO 4406 14/12/9 ✓ (mejor que el objetivo)",
+      "Ambos circuitos completados en 5 días frente a la ventana de contingencia de 10 días",
+      "Turbina autorizada para el primer encendido sin más demoras"
+    ],
+    "tags": [
+      "BHEL",
+      "Lavado de Aceite Lubricante",
+      "ISO 4406",
+      "Generación de Energía"
+    ],
+    "categorySlug": "lube-oil-flushing"
+  },
+  "cs_05": {
+    "id": "cs_05",
+    "image": "project-alignment.webp",
+    "category": "Alineación de Máquinas",
+    "industry": "Planta Siderúrgica",
+    "title": "Tren Compresor-Caja de Engranajes-Motor KKK — Alineación Láser de Precisión",
+    "client": "Confidencial — Planta Siderúrgica, Jharkhand",
+    "year": "2024",
+    "duration": "2 días",
+    "scope": "Alineación láser de precisión de un tren de compresor de tres elementos (motor–caja de engranajes–compresor) tras la sustitución de la caja de engranajes. Medición y corrección de tensión de tuberías.",
+    "challenge": "El motor era un motor de inducción de velocidad fija con acceso limitado para calzos. La tensión de tuberías en la descarga del compresor estaba tirando de la carcasa 0,04 mm — suficiente para invalidar la alineación una vez conectada.",
+    "solution": "Realizamos una alineación en frío desacoplada, luego medimos y documentamos la tensión de tuberías con la línea de descarga conectada. El contratista de tuberías volvió a soportar el carrete de descarga y la tensión de tuberías bajó a <0,005 mm. Alineación final acoplada: angular 0,008 mm/100 mm, desplazamiento 0,012 mm — dentro de las tolerancias OEM.",
+    "outcomes": [
+      "Desalineación angular: 0,008 mm/100 mm (límite OEM 0,02 mm/100 mm)",
+      "Desplazamiento paralelo: 0,012 mm (límite OEM 0,025 mm)",
+      "Tensión de tuberías corregida — sin carga residual en la boquilla del compresor",
+      "Vibración en el primer arranque: 1,2 mm/s — muy por debajo del nivel de alarma"
+    ],
+    "tags": [
+      "KKK",
+      "Alineación Láser",
+      "Compresor",
+      "Planta Siderúrgica"
+    ],
+    "categorySlug": "machine-alignment"
+  },
+  "cs_06": {
+    "id": "cs_06",
+    "image": "project-dynamic-balancing.webp",
+    "category": "Equilibrado Dinámico",
+    "industry": "Planta de Cemento",
+    "title": "Rotor de Ventilador de Molino de Cemento — Equilibrado Dinámico y Mecanizado de Muñones",
+    "client": "Confidencial — Planta de Cemento, Rajastán",
+    "year": "2023",
+    "duration": "4 días",
+    "scope": "Equilibrado dinámico en taller de un rotor de ventilador ID de 680 kg al grado de calidad ISO 21940-11 G2.5, más rectificado y pulido de muñones en los extremos motriz y no motriz.",
+    "challenge": "El rotor llegó con una acumulación severa de cemento, rayado de muñones por cojinete colapsado y un desequilibrio residual de ~420 g·mm de campo — muy fuera de los límites ISO G2.5 para la velocidad de operación.",
+    "solution": "Los depósitos de cemento se limpiaron mediante chorreado de arena. Ambos muñones se rectificaron rebajados 0,10 mm y se pulieron a Ra 0,4 µm. El rotor se equilibró luego en nuestra máquina de equilibrado dinámico de dos planos (capacidad de 2000 kg, velocidad hasta 1500 RPM). Desequilibrio residual final: 6 g·mm por plano (ISO G1.0 alcanzado).",
+    "outcomes": [
+      "Desequilibrio residual: 6 g·mm/plano — mejor que G1.0",
+      "Acabado superficial de muñones: Ra 0,38 µm en ambos extremos",
+      "Vibración a velocidad plena (980 RPM) tras la instalación: 0,9 mm/s",
+      "Temperaturas de cojinete normalizadas en 2 horas tras la primera marcha"
+    ],
+    "tags": [
+      "Equilibrado Dinámico",
+      "Rotor de Ventilador",
+      "Mecanizado de Muñones",
+      "Cemento"
+    ],
+    "categorySlug": "dynamic-balancing"
+  },
+  "cs_07": {
+    "id": "cs_07",
+    "image": "project-emergency-breakdown.webp",
+    "category": "Avería de Emergencia",
+    "industry": "Ingenio Azucarero",
+    "title": "Turbina Belliss & Morcom — Fallo de Emergencia de Cojinete Babbitt Durante la Temporada de Molienda",
+    "client": "Confidencial — Ingenio Azucarero, Haryana",
+    "year": "2024",
+    "duration": "14 horas de parada",
+    "scope": "Respuesta de emergencia en sitio, diagnóstico de causa raíz, fabricación y ajuste de cojinete babbitt de reemplazo, inspección de rotor y reincorporación al servicio en una ventana de 14 horas.",
+    "challenge": "La turbina se disparó a las 02:00 en plena temporada de molienda debido al colapso de un cojinete babbitt en el extremo no motriz. El ingenio procesaba 8.000 TCD — cada hora fuera de línea costaba aproximadamente ₹4 lakh en pérdidas de caña.",
+    "solution": "Nuestro ingeniero fue despachado en 90 minutos desde la llamada y llegó al sitio a las 05:30. Causa raíz identificada: falta de aceite por un conducto de aceite obstruido. El cojinete de reemplazo se obtuvo del stock de taller, se re-babbitizó y raspó a mano para ajustarlo in situ. Muñón del rotor inspeccionado — sin daños. Turbina de nuevo en línea a las 16:00.",
+    "outcomes": [
+      "Tiempo total de parada: 14 horas desde el disparo hasta el primer vapor",
+      "Causa raíz identificada y conducto de aceite limpiado — sin repetición del disparo",
+      "Valor estimado de pérdida de caña evitada: aproximadamente ₹56 lakh",
+      "Sin daños en los muñones del rotor — se ahorró el coste de reemplazo del eje"
+    ],
+    "tags": [
+      "Belliss & Morcom",
+      "Emergencia",
+      "Cojinete Babbitt",
+      "Ingenio Azucarero"
+    ],
+    "categorySlug": "emergency-breakdown"
+  },
+  "cs_08": {
+    "id": "cs_08",
+    "image": "project-troubleshooting.webp",
+    "category": "Resolución de Averías",
+    "industry": "Fábrica de Papel",
+    "title": "Turbina BHEL 3 MW — Investigación y Corrección de Causa Raíz de Vibración Alta",
+    "client": "Confidencial — Fábrica de Papel, Punjab",
+    "year": "2024",
+    "duration": "3 días de investigación + 8 días de corrección",
+    "scope": "Análisis de vibración in situ, evaluación rotordinámica, identificación de causa raíz, equilibrado de rotor en taller, sustitución de cojinetes y reincorporación al servicio.",
+    "challenge": "La turbina de 3 MW había experimentado vibración creciente durante 6 meses — con un pico de 9,2 mm/s en el cojinete del extremo no motriz. Tres equipos de mantenimiento distintos habían sustituido cojinetes sin resolver el problema subyacente.",
+    "solution": "Desplegamos equipos de análisis de vibración y capturamos espectros de frecuencia en todas las velocidades de operación. Un componente dominante 1× persistió en todas las velocidades, confirmando desequilibrio de masa del rotor en lugar de problemas de cojinetes o alineación. El rotor se extrajo, se inspeccionaron los muñones (se corrigió ovalización ligera) y se equilibró a ISO G1.0 en nuestro taller. Residual final: 4,8 g·mm por plano.",
+    "outcomes": [
+      "Vibración reducida de 9,2 mm/s a 0,8 mm/s a velocidad de operación",
+      "Causa raíz confirmada: excentricidad de masa del rotor por una reparación de muñón mal hecha anteriormente",
+      "24+ meses de operación desde la reincorporación al servicio — sin cambios de cojinetes",
+      "Informe completo de equilibrado y espectros de vibración proporcionados para el archivo del seguro"
+    ],
+    "tags": [
+      "BHEL",
+      "Análisis de Vibración",
+      "Equilibrado Dinámico",
+      "Resolución de Averías"
+    ],
+    "categorySlug": "troubleshooting"
+  }
+}

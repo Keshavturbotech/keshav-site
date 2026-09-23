@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "Wasiliana na Timu ya Uhandisi — Omba Nukuu ya Kiufundi",
+    "description": "Wasiliana na Keshav Enterprises kwa maombi ya nukuu (RFQ) ya uhandisi wa turbine, nukuu za uhandisi wa kinyume (reverse engineering), na msaada wa dharura wa kuvunjika wa saa 24 kila siku. Simu: +91 9149229448.",
+    "schemaName": "Wasiliana na Keshav Enterprises"
+  },
+  "hero": {
+    "title": "Zungumza na Mhandisi — Sio Idara ya Mauzo",
+    "subtitle": "Tueleze mahitaji yako, na timu yetu ya uhandisi — wataalamu wa zamani wa OEM, si kituo cha simu — watajibu kwa jibu la kiufundi ndani ya saa 24, kwa sababu unahitaji majibu, sio broshua.",
+    "trustSignals": [
+      "RFQ ya siri — haitawahi kushirikiwa na wawakilishi wa OEM",
+      "Hakuna wajibu wowote — wewe ndiye unayeamua hatua inayofuata",
+      "Saa 24 kwa maombi yaliyopangwa · saa 1 kwa dharura"
+    ]
+  },
+  "cards": {
+    "directLines": {
+      "title": "Mistari ya Moja kwa Moja",
+      "salesLabel": "Mauzo na RFQ",
+      "emergencyLabel": "Msaada wa Dharura wa Saa 24",
+      "whatsappCta": "Tuma WhatsApp kwenye nambari hii",
+      "whatsappPrefillMessage": "Habari, ninahitaji msaada wa dharura kwa turbine yangu iliyovunjika."
+    },
+    "email": {
+      "title": "Barua pepe (kwa RFQ)"
+    },
+    "facilityAddress": {
+      "title": "Anwani ya Kiwanda"
+    },
+    "officeHours": {
+      "title": "Saa za Kazi",
+      "mondaySaturdayLabel": "Jumatatu – Jumamosi",
+      "mondaySaturdayValue": "Saa 9:00 Asubuhi – 6:00 Jioni (Muda wa India, IST)",
+      "sundayLabel": "Jumapili",
+      "sundayValue": "Imefungwa (dharura pekee)",
+      "emergencyLineLabel": "Mstari wa Dharura",
+      "emergencyLineValue": "Unafanya kazi Saa 24 kila siku"
+    },
+    "indiamart": {
+      "ariaLabel": "Tazama Keshav Enterprises kwenye IndiaMART",
+      "title": "Imethibitishwa na IndiaMART",
+      "ratingSrOnly": "Nyota 4.3 kati ya 5",
+      "ratingText": "Ukadiriaji wa 4.3/5",
+      "trustSeal": "Msambazaji wa TrustSeal"
+    },
+    "connect": {
+      "label": "Wasiliana Nasi"
+    }
+  },
+  "formSection": {
+    "heading": "Pata Nukuu Yako ya Kiufundi Bila Malipo",
+    "subheading": "Ombi lako linakwenda moja kwa moja kwa mhandisi wetu mkuu — si kwa kituo cha simu. Tunatuma jibu la kiufundi, kwa sababu hilo ndilo wasimamizi wa viwanda wanahitaji kwa kweli. Inajumuisha ukaguzi wa bure wa ripoti ya hivi karibuni ya uchambuzi wa mafuta ya turbine yako."
+  },
+  "googleBusiness": {
+    "title": "Tupate kwenye Google Business",
+    "descriptionPrefix": "Tafuta",
+    "descriptionQuoted": "Keshav Enterprises Shamli",
+    "descriptionSuffix": "kwenye Google Maps — angalia wasifu wetu, pata maelekezo, au acha maoni kusaidia wanunuzi wengine kutupata.",
+    "cta": "Angalia kwenye Google"
+  },
+  "facilityPhoto": {
+    "caption": "Kiwanda Chetu cha Uzalishaji, Shamli, Uttar Pradesh",
+    "alt": "Kiwanda cha uzalishaji cha Keshav Enterprises — Shamli, Uttar Pradesh"
+  },
+  "map": {
+    "heading": "Kiwanda Chetu cha Uzalishaji — Shamli, Uttar Pradesh",
+    "iframeTitle": "Ramani ya eneo la Keshav Enterprises",
+    "googleBusinessCta": "Google Business",
+    "directionsCta": "Pata Maelekezo"
+  },
+  "form": {
+    "riskReversal": [
+      {
+        "title": "Hakuna wajibu wowote",
+        "sub": "Tunajibu kwa jibu la kiufundi. Wewe ndiye unayeamua hatua inayofuata — hakuna shinikizo la kufuatilia."
+      },
+      {
+        "title": "RFQ yako inabaki siri",
+        "sub": "Hatuwahi kushiriki taarifa za kiwanda chako na wahusika wengine — hata wawakilishi wa OEM."
+      },
+      {
+        "title": "Mhandisi ndiye anayejibu, si muuzaji",
+        "sub": "Mtu aliyewahi kufanya kazi na aina ya turbine yako anakupa jibu halisi la kiufundi."
+      },
+      {
+        "title": "Kama si eneo letu, tutakuambia mapema",
+        "sub": "Ikiwa kazi yako iko nje ya uwezo wetu, tutakuambia mapema — hakuna kuzungusha, hakuna kupoteza muda."
+      }
+    ],
+    "inquiryTypes": [
+      "Huduma ya Ukarabati Mkubwa wa Turbine",
+      "Msaada wa Dharura wa Kuvunjika",
+      "Ufungaji na Uwekaji wa Turbine",
+      "Uhandisi wa Kinyume (Reverse Engineering)",
+      "Uwiano wa Kinetiki (Dynamic Balancing)",
+      "Usafishaji wa Mafuta ya Kulainisha",
+      "Uwiano wa Mashine (Alignment)",
+      "Utatuzi wa Matatizo",
+      "Kupiga Mchanga (Sandblasting)",
+      "RFQ ya Kiungo cha Kichujio",
+      "RFQ ya HVAC, Mifereji ya Hewa na Uchujaji wa Hewa",
+      "RFQ ya Vipuri vya Turbine",
+      "RFQ ya Vali, Gasketi na Mfumo wa Mvuke",
+      "RFQ ya Kiungo cha Upanuzi",
+      "RFQ ya Kichujio (Strainer)",
+      "Swali la Jumla"
+    ],
+    "officeStatus": {
+      "online": "Wahandisi wapo mtandaoni sasa — jibu ndani ya saa 2",
+      "offline": "Mstari wa dharura unafanya kazi saa 24 kila siku — RFQ zilizopangwa zitajibiwa kuanzia saa 9:00 asubuhi IST"
+    },
+    "labels": {
+      "yourName": "Jina Lako",
+      "companyName": "Jina la Kampuni",
+      "email": "Barua pepe",
+      "phone": "Simu",
+      "inquiryType": "Aina ya Ombi",
+      "turbineMakeModel": "Chapa / Muundo wa Turbine",
+      "details": "Maelezo",
+      "attachments": "Ambatisha Michoro ya Kiufundi / Karatasi ya Data (si lazima)"
+    },
+    "placeholders": {
+      "yourName": "Jina kamili",
+      "companyName": "Kampuni yako",
+      "email": "you@company.com",
+      "phone": "+91 98000 00000",
+      "inquiryTypeSelect": "Chagua aina ya ombi…",
+      "turbineMakeModel": "mfano, Triveni 5 MW, aina ya back-pressure",
+      "details": "Eleza mahitaji yako, dalili za tatizo, muda uliopangwa, au vipimo vya kiufundi…"
+    },
+    "attachmentsHelp": "PDF, DWG, DXF, JPG, PNG — kiwango cha juu MB 10 kwa kila faili. Inatusaidia kujibu haraka zaidi kwa nukuu sahihi zaidi.",
+    "charCounter": {
+      "minRequired": "Angalau herufi 20 zinahitajika",
+      "moreNeededOne": "herufi {n} zaidi inahitajika",
+      "moreNeededMany": "herufi {n} zaidi zinahitajika",
+      "looksGood": "✓ Inaonekana vizuri!"
+    },
+    "errors": {
+      "yourName": "Jina lako linahitajika",
+      "companyName": "Jina la kampuni linahitajika",
+      "email": "Barua pepe halali inahitajika",
+      "phone": "Nambari halali ya simu inahitajika (tarakimu 10 au zaidi)",
+      "inquiryType": "Tafadhali chagua aina ya ombi",
+      "details": "Tafadhali toa maelezo (angalau herufi 20)",
+      "attachmentTooLarge": "\"{filename}\" imezidi kikomo cha MB 10 — tafadhali ambatisha faili ndogo zaidi",
+      "rateLimited": "Umetuma mara nyingi mno. Tafadhali subiri saa moja kabla ya kujaribu tena.",
+      "securityCheck": "Tafadhali kamilisha ukaguzi wa usalama.",
+      "notConfigured": "Fomu haijasanidiwa — tafadhali wasiliana nasi moja kwa moja kupitia WhatsApp au simu.",
+      "submissionFailedGeneric": "Uwasilishaji umeshindwa. Tafadhali jaribu tena.",
+      "submissionFailedBanner": "Uwasilishaji umeshindwa — tafadhali jaribu tena au wasiliana nasi moja kwa moja:",
+      "whatsappFallback": "WhatsApp",
+      "whatsappFallbackPrefillMessage": "Habari, nilijaribu kutuma fomu ya mawasiliano lakini haikufanikiwa. Je, unaweza kunisaidia?"
+    },
+    "buttons": {
+      "sendingToEngineer": "Inatuma kwa Timu ya Uhandisi...",
+      "sendToEngineer": "Tuma kwa Mhandisi Wetu Mkuu",
+      "sendToEngineerSub": "Pata jibu la kiufundi, sio broshua",
+      "sendingShort": "Inatuma…",
+      "submitWithDrawings": "Wasilisha RFQ pamoja na Michoro ya Kiufundi",
+      "submitWithDrawingsSub": "Kwa sababu si kila mtu anatumia WhatsApp"
+    },
+    "footerNote": {
+      "text": "Tunajibu ndani ya siku 1 ya kazi · Hakuna spam ·",
+      "privacyPolicyLink": "Sera ya Faragha"
+    },
+    "success": {
+      "heading": "Ombi limetumwa kwa wahandisi wetu.",
+      "bodyPrefix": "Tarajia jibu la kiufundi ndani ya",
+      "bodyMid": "kwa maombi yaliyopangwa, au",
+      "bodySuffix": "kwa hitilafu za dharura — kutoka kwa mhandisi, si kituo cha simu.",
+      "hours24": "saa 24",
+      "hour1": "saa 1",
+      "resendCta": "Tuma ombi lingine",
+      "whileYouWaitLabel": "Wakati unasubiri —",
+      "whileYouWaitText": "vinjari tafiti zetu za kesi zilizoandikwa na matokeo ya kazi za mashambani.",
+      "viewCaseStudiesCta": "Tazama Tafiti za Kesi"
+    }
+  }
+}

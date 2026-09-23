@@ -1,0 +1,11 @@
+{
+  "/": { "label": "الرئيسية" },
+  "/about": { "label": "من نحن" },
+  "/services": { "label": "الخدمات" },
+  "/products": { "label": "المنتجات" },
+  "/industries": { "label": "الصناعات" },
+  "/contact": { "label": "اتصل بنا" },
+  "/projects": { "label": "المشاريع" },
+  "/blog": { "label": "المدونة" },
+  "/downloads": { "label": "التنزيلات" }
+}

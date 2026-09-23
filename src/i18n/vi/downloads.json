@@ -1,0 +1,92 @@
+{
+  "dl_1": {
+    "id": "dl_1",
+    "title": "Danh mục kiểm tra đại tu tua-bin",
+    "desc": "Danh mục kiểm tra từng bước cho đại tu lớn và nhỏ của tua-bin. Bao gồm khe hở, cân bằng, xác nhận mô-men xoắn và kiểm tra trước chạy thử.",
+    "category": "Bảo trì",
+    "tags": [
+      "Tua-bin",
+      "Đại tu",
+      "Danh mục kiểm tra"
+    ],
+    "fileSize": "420 KB",
+    "fileType": "PDF",
+    "file": "turbine-overhaul-checklist.pdf",
+    "featured": true
+  },
+  "dl_2": {
+    "id": "dl_2",
+    "title": "Bảng thông số lõi lọc — Dầu bôi trơn",
+    "desc": "Thông số kỹ thuật, đường cong chênh áp và bảng tương thích cho tất cả lõi lọc dầu bôi trơn do Keshav Enterprises cung cấp.",
+    "category": "Bảng thông số",
+    "tags": [
+      "Lọc dầu",
+      "Dầu bôi trơn",
+      "Bảng thông số"
+    ],
+    "fileSize": "1.2 MB",
+    "fileType": "PDF",
+    "file": "filter-element-datasheet-lube-oil.pdf",
+    "featured": false
+  },
+  "dl_3": {
+    "id": "dl_3",
+    "title": "Danh mục kiểm tra súc rửa dầu bôi trơn",
+    "desc": "Danh mục quy trình súc rửa theo tiêu chuẩn ISO. Bao gồm lắp đặt máy ly tâm di động, quy trình lấy mẫu dầu, xác minh độ sạch và xác nhận.",
+    "category": "Bảo trì",
+    "tags": [
+      "Dầu bôi trơn",
+      "Súc rửa",
+      "ISO"
+    ],
+    "fileSize": "310 KB",
+    "fileType": "PDF",
+    "file": "lube-oil-flushing-checklist.pdf",
+    "featured": false
+  },
+  "dl_4": {
+    "id": "dl_4",
+    "title": "Tài liệu tham khảo chọn ổ trục & khe hở",
+    "desc": "Hướng dẫn tham khảo nhanh để chọn ổ trục, khe hở ngõng trục và dung sai hướng kính/dọc trục cho các dòng tua-bin hơi nước phổ biến.",
+    "category": "Hướng dẫn kỹ thuật",
+    "tags": [
+      "Ổ trục",
+      "Khe hở",
+      "Tham khảo"
+    ],
+    "fileSize": "680 KB",
+    "fileType": "PDF",
+    "file": "bearing-selection-clearance-reference.pdf",
+    "featured": false
+  },
+  "dl_5": {
+    "id": "dl_5",
+    "title": "Mẫu yêu cầu báo giá tua-bin",
+    "desc": "Bảng thông số kỹ thuật tua-bin trống để yêu cầu báo giá sửa chữa hoặc đại tu. Điền hãng sản xuất, model, công suất và lịch sử bảo trì.",
+    "category": "RFQ / Biểu mẫu",
+    "tags": [
+      "RFQ",
+      "Mẫu biểu",
+      "Báo giá"
+    ],
+    "fileSize": "185 KB",
+    "fileType": "XLSX",
+    "file": "turbine-rfq-template.xlsx",
+    "featured": true
+  },
+  "dl_6": {
+    "id": "dl_6",
+    "title": "Hồ sơ năng lực Keshav Enterprises",
+    "desc": "Tài liệu năng lực cho đội mua hàng và quản lý nhà máy. Bao gồm dịch vụ, phạm vi OEM, thiết bị xưởng và các dự án tham khảo.",
+    "category": "Công ty",
+    "tags": [
+      "Hồ sơ",
+      "Năng lực",
+      "Brochure"
+    ],
+    "fileSize": "3.4 MB",
+    "fileType": "PDF",
+    "file": "keshav-enterprises-company-profile.pdf",
+    "featured": false
+  }
+}

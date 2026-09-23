@@ -1,0 +1,35 @@
+{
+  "all": {
+    "label": "Todos"
+  },
+  "industrial-filtration": {
+    "label": "Filtración Industrial"
+  },
+  "industrial-strainers": {
+    "label": "Coladores Industriales"
+  },
+  "expansion-joints": {
+    "label": "Juntas de Expansión"
+  },
+  "turbine-spares": {
+    "label": "Repuestos para Turbinas"
+  },
+  "industrial-rubber-products": {
+    "label": "Productos de Caucho Industrial"
+  },
+  "flexible-hoses-and-assemblies": {
+    "label": "Mangueras Flexibles y Conjuntos"
+  },
+  "electronic-equipments": {
+    "label": "Equipos Electrónicos"
+  },
+  "hydraulic-components": {
+    "label": "Componentes Hidráulicos"
+  },
+  "hvac-ducting-and-air-filtration": {
+    "label": "HVAC, Conductos y Filtración de Aire"
+  },
+  "valves-gaskets-and-steam-system-products": {
+    "label": "Válvulas, Juntas y Productos del Sistema de Vapor"
+  }
+}

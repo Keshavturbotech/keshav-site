@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "Contacte al equipo de ingeniería — Solicite una cotización técnica",
+    "description": "Contacte a Keshav Enterprises para cotizaciones de ingeniería de turbinas, cotizaciones de ingeniería inversa y soporte de emergencia 24x7. Teléfono: +91 9149229448.",
+    "schemaName": "Contactar a Keshav Enterprises"
+  },
+  "hero": {
+    "title": "Hable con un ingeniero — no con un vendedor",
+    "subtitle": "Comparta sus requisitos y nuestro equipo de ingeniería — ex-OEM, no un call center — le responderá con una respuesta técnica dentro de 24 horas, porque usted necesita respuestas, no un folleto.",
+    "trustSignals": [
+      "Solicitud confidencial — nunca compartida con representantes de OEM",
+      "Sin obligación — usted decide qué sigue",
+      "24 horas para lo planificado · 1 hora para emergencias"
+    ]
+  },
+  "cards": {
+    "directLines": {
+      "title": "Líneas directas",
+      "salesLabel": "Ventas y cotizaciones",
+      "emergencyLabel": "Emergencia 24×7",
+      "whatsappCta": "Escríbanos por WhatsApp a esta línea",
+      "whatsappPrefillMessage": "Hola, necesito soporte de emergencia para una avería en mi turbina."
+    },
+    "email": {
+      "title": "Correo (cotizaciones)"
+    },
+    "facilityAddress": {
+      "title": "Dirección de la planta"
+    },
+    "officeHours": {
+      "title": "Horario de oficina",
+      "mondaySaturdayLabel": "Lunes – Sábado",
+      "mondaySaturdayValue": "9:00 – 18:00 IST",
+      "sundayLabel": "Domingo",
+      "sundayValue": "Cerrado (solo emergencias)",
+      "emergencyLineLabel": "Línea de emergencia",
+      "emergencyLineValue": "Activa 24 × 7"
+    },
+    "indiamart": {
+      "ariaLabel": "Ver Keshav Enterprises en IndiaMART",
+      "title": "Verificado en IndiaMART",
+      "ratingSrOnly": "4.3 de 5 estrellas",
+      "ratingText": "Calificación 4.3/5",
+      "trustSeal": "Proveedor TrustSeal"
+    },
+    "connect": {
+      "label": "Síganos"
+    }
+  },
+  "formSection": {
+    "heading": "Obtenga su cotización técnica gratuita",
+    "subheading": "Su consulta llega directamente a nuestro ingeniero principal — no a un call center. Enviamos una respuesta técnica, porque eso es lo que realmente necesitan los gerentes de planta. Incluye una revisión gratuita del último informe de análisis de aceite de su turbina."
+  },
+  "googleBusiness": {
+    "title": "Encuéntrenos en Google Business",
+    "descriptionPrefix": "Busque",
+    "descriptionQuoted": "Keshav Enterprises Shamli",
+    "descriptionSuffix": "en Google Maps — vea nuestro perfil, obtenga direcciones, o deje una reseña para ayudar a otros compradores a encontrarnos.",
+    "cta": "Ver en Google"
+  },
+  "facilityPhoto": {
+    "caption": "Nuestra planta de fabricación, Shamli, Uttar Pradesh",
+    "alt": "Planta de fabricación de Keshav Enterprises — Shamli, Uttar Pradesh"
+  },
+  "map": {
+    "heading": "Nuestra planta de fabricación — Shamli, Uttar Pradesh",
+    "iframeTitle": "Mapa de ubicación de Keshav Enterprises",
+    "googleBusinessCta": "Google Business",
+    "directionsCta": "Obtener direcciones"
+  },
+  "form": {
+    "riskReversal": [
+      {
+        "title": "Sin ninguna obligación",
+        "sub": "Respondemos con una respuesta técnica. Usted decide qué sucede después — sin presión de seguimiento."
+      },
+      {
+        "title": "Su solicitud se mantiene confidencial",
+        "sub": "Nunca compartimos los datos de su planta con terceros — ni siquiera con representantes de OEM."
+      },
+      {
+        "title": "Le responde un ingeniero, no un vendedor",
+        "sub": "Alguien que ha trabajado con su tipo de turbina le da una respuesta técnica real."
+      },
+      {
+        "title": "¿No encajamos? Se lo diremos primero",
+        "sub": "Si su trabajo está fuera de nuestro alcance, se lo decimos de entrada — sin rodeos, sin perder tiempo."
+      }
+    ],
+    "inquiryTypes": [
+      "Servicio de revisión general de turbinas",
+      "Soporte de avería de emergencia",
+      "Montaje y puesta en marcha de turbinas",
+      "Ingeniería inversa",
+      "Balanceo dinámico",
+      "Lavado de aceite de lubricación",
+      "Alineación de máquinas",
+      "Diagnóstico de fallas",
+      "Arenado",
+      "Cotización de elemento filtrante",
+      "Cotización de HVAC, conductos y filtración de aire",
+      "Cotización de repuestos de turbina",
+      "Cotización de válvulas, juntas y sistema de vapor",
+      "Cotización de junta de dilatación",
+      "Cotización de colador",
+      "Consulta general"
+    ],
+    "officeStatus": {
+      "online": "Ingenieros conectados ahora — respuesta en 2 h",
+      "offline": "Línea de emergencia activa 24×7 — consultas planificadas respondidas antes de las 9 a. m. IST"
+    },
+    "labels": {
+      "yourName": "Su nombre",
+      "companyName": "Nombre de la empresa",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "inquiryType": "Tipo de consulta",
+      "turbineMakeModel": "Marca / modelo de turbina",
+      "details": "Detalles",
+      "attachments": "Adjuntar planos técnicos / ficha técnica (opcional)"
+    },
+    "placeholders": {
+      "yourName": "Nombre completo",
+      "companyName": "Su empresa",
+      "email": "usted@empresa.com",
+      "phone": "+91 98000 00000",
+      "inquiryTypeSelect": "Seleccione un tipo de consulta…",
+      "turbineMakeModel": "ej. Triveni 5 MW, contrapresión",
+      "details": "Describa su requisito, síntomas, plazo, o especificaciones…"
+    },
+    "attachmentsHelp": "PDF, DWG, DXF, JPG, PNG — máx. 10 MB por archivo. Nos ayuda a responder más rápido con una cotización más precisa.",
+    "charCounter": {
+      "minRequired": "Se requiere un mínimo de 20 caracteres",
+      "moreNeededOne": "Falta {n} carácter",
+      "moreNeededMany": "Faltan {n} caracteres",
+      "looksGood": "✓ ¡Se ve bien!"
+    },
+    "errors": {
+      "yourName": "Su nombre es obligatorio",
+      "companyName": "El nombre de la empresa es obligatorio",
+      "email": "Se requiere un correo electrónico válido",
+      "phone": "Se requiere un número de teléfono válido (10 dígitos o más)",
+      "inquiryType": "Seleccione un tipo de consulta",
+      "details": "Proporcione detalles (mínimo 20 caracteres)",
+      "attachmentTooLarge": "\"{filename}\" supera el límite de 10 MB — adjunte un archivo más pequeño",
+      "rateLimited": "Demasiados envíos. Espere una hora antes de volver a intentarlo.",
+      "securityCheck": "Complete la verificación de seguridad.",
+      "notConfigured": "Formulario no configurado — contáctenos directamente por WhatsApp o teléfono.",
+      "submissionFailedGeneric": "Error al enviar. Inténtelo de nuevo.",
+      "submissionFailedBanner": "Error al enviar — inténtelo de nuevo o contáctenos directamente:",
+      "whatsappFallback": "WhatsApp",
+      "whatsappFallbackPrefillMessage": "Hola, intenté enviar el formulario de contacto pero falló. ¿Pueden ayudarme?"
+    },
+    "buttons": {
+      "sendingToEngineer": "Enviando al equipo de ingeniería...",
+      "sendToEngineer": "Enviar a nuestro ingeniero principal",
+      "sendToEngineerSub": "Obtenga una respuesta técnica, no un folleto",
+      "sendingShort": "Enviando…",
+      "submitWithDrawings": "Enviar solicitud con planos técnicos",
+      "submitWithDrawingsSub": "Porque no todos usan WhatsApp"
+    },
+    "footerNote": {
+      "text": "Respondemos en 1 día hábil · Sin spam ·",
+      "privacyPolicyLink": "Política de privacidad"
+    },
+    "success": {
+      "heading": "Consulta enviada a nuestros ingenieros.",
+      "bodyPrefix": "Espere una respuesta técnica dentro de",
+      "bodyMid": "para consultas planificadas, o",
+      "bodySuffix": "para averías de emergencia — de un ingeniero, no de un call center.",
+      "hours24": "24 horas",
+      "hour1": "1 hora",
+      "resendCta": "Enviar otra consulta",
+      "whileYouWaitLabel": "Mientras espera —",
+      "whileYouWaitText": "explore nuestros casos de estudio documentados y resultados de campo.",
+      "viewCaseStudiesCta": "Ver casos de estudio"
+    }
+  }
+}

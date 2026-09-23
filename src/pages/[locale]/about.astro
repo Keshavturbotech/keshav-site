@@ -1,0 +1,19 @@
+---
+// src/pages/[locale]/about.astro
+// Part 1, step 2 (validation slice) — same pattern as [locale]/index.astro.
+import AboutPage from "../about.astro";
+import { LOCALES, DEFAULT_LOCALE } from "../../lib/i18n";
+import { getPathByLocale } from "astro:i18n";
+
+export function getStaticPaths() {
+  // params.locale is a URL PATH segment, not necessarily the locale code
+  // itself — for zh-CN specifically these differ (see astro.config.mjs).
+  // getPathByLocale() is astro:i18n's own code->path mapping, so this stays
+  // correct automatically for any locale, not just today's one exception.
+  return LOCALES.filter((locale) => locale !== DEFAULT_LOCALE).map((locale) => ({
+    params: { locale: getPathByLocale(locale) },
+  }));
+}
+---
+
+<AboutPage />

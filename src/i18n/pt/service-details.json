@@ -1,0 +1,1074 @@
+{
+  "srv_1": {
+    "tagline": "Montagem Coordenada com o OEM, do Primeiro Parafuso de Fundação ao Primeiro Vapor",
+    "accentColor": "#2563eb",
+    "keyStats": [
+      {
+        "value": "10+",
+        "label": "Marcas OEM Comissionadas"
+      },
+      {
+        "value": "5kW–60MW",
+        "label": "Faixa de Potência Atendida"
+      },
+      {
+        "value": "100%",
+        "label": "Documentação Conforme Especificação OEM"
+      },
+      {
+        "value": "24×7",
+        "label": "Suporte no Local Disponível"
+      }
+    ],
+    "whyUs": "Uma única folga ajustada incorretamente durante a montagem pode destruir um mancal em horas após o primeiro vapor. Nossos engenheiros de campo ex-OEM comissionaram pessoalmente os mesmos tipos de máquina que você está instalando — eles sabem exatamente o que a especificação OEM significa na prática, não apenas no papel.",
+    "overview": "A montagem e comissionamento de turbinas é a fase mais crítica de qualquer projeto de usina de energia ou industrial. Erros durante a montagem — alinhamento incorreto, folgas inadequadas, torques errados — se agravam em falhas custosas dentro do primeiro ano de operação. A Keshav Enterprises traz engenheiros de campo ex-OEM que comissionaram turbinas Triveni, Siemens, BHEL, Belliss e Maxwatt em usinas de energia, usinas de açúcar, fábricas de papel e indústrias de processo. Cada ponto de espera é testemunhado, cada folga é registrada e cada sistema de segurança é testado antes da admissão de vapor. Nosso pacote de documentação atende aos requisitos de entrega do cliente, seguradora e OEM.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Revisão de Engenharia Pré-Montagem",
+        "iconName": "BookOpen",
+        "desc": "Revisão detalhada do manual de montagem OEM, desenhos gerais, P&IDs e desenhos de fundação civil. Identificação de todos os pontos de espera, pontos de testemunho e requisitos de documentação antes do primeiro içamento de equipamento. Sequência de montagem e caminho crítico acordados com a equipe de projeto do cliente."
+      },
+      {
+        "step": "02",
+        "title": "Preparação de Fundação e Placa de Base",
+        "iconName": "Layers",
+        "desc": "Nivelamento de precisão e grauteamento da placa de base da turbina com precisão de até 0,05 mm/m. Usinagem e instalação de calços. Tensionamento dos parafusos de fundação nos torques especificados pelo OEM usando chaves hidráulicas calibradas. Preparação, vazamento e monitoramento de cura do grauteamento epóxi com registro de temperatura."
+      },
+      {
+        "step": "03",
+        "title": "Posicionamento do Equipamento e Alinhamento Grosseiro",
+        "iconName": "Target",
+        "desc": "Posicionamento de precisão da carcaça da turbina, caixa de engrenagens e equipamento acionado nas placas de base. Alinhamento grosseiro do eixo usando relógios comparadores e equipamento a laser até 0,1 mm antes do ajuste do acoplamento. Verificação e correção de pé bambo em todos os pés da máquina antes do alinhamento final."
+      },
+      {
+        "step": "04",
+        "title": "Montagem Interna e Ajuste de Folgas",
+        "iconName": "Cog",
+        "desc": "Medição de queda do rotor, ajuste de folga da gaxeta (radial e axial), ajuste do selo labirinto, instalação do mancal de escora e ajuste de folga do mancal de munhão. Todas as folgas registradas conforme especificação OEM no registro de folgas do local. Folga axial do rotor medida e confirmada dentro dos limites OEM."
+      },
+      {
+        "step": "05",
+        "title": "Conexão de Tubulação e Sistemas Auxiliares",
+        "iconName": "Activity",
+        "desc": "Conexões de tubulação de entrada de vapor, exaustão, extração e drenagem com suporte de tubo e suspensores de mola corretos. Cargas de bocal verificadas dentro dos limites OEM — tensão de tubulação eliminada antes da conexão final. Tubulação de óleo lubrificante, óleo de controle, vapor de vedação e instrumentação concluída e testada quanto a vazamentos."
+      },
+      {
+        "step": "06",
+        "title": "Verificações Pré-Comissionamento e Lavagem",
+        "iconName": "Droplets",
+        "desc": "Lavagem do sistema de óleo lubrificante até o padrão de limpeza ISO 4406, confirmado por contagem de partículas. Verificações funcionais do sistema de controle e disparo. Testes de conformidade do sistema de segurança realizados e documentados: disparo por sobrevelocidade, disparo por baixa pressão de óleo, disparo por alta temperatura de mancal, operação da válvula de parada de emergência."
+      },
+      {
+        "step": "07",
+        "title": "Primeira Ignição, Partida e Comissionamento",
+        "iconName": "Zap",
+        "desc": "Primeira partida controlada com teste de escuta em giro lento. Aumento de velocidade em estágios definidos com monitoramento contínuo de vibração e temperatura de mancais. Teste de resposta do regulador e de banda morta. Teste de disparo por sobrevelocidade a 110% da velocidade nominal. Teste de aceitação de carga e entrega operacional em carga plena com relatório de comissionamento."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Alinhamento a Laser de Eixo",
+        "detail": "Série Pruftechnik Rotalign Pro / SKF TKSA",
+        "iconName": "Target"
+      },
+      {
+        "name": "Analisador de Vibração",
+        "detail": "FFT em tempo real, aquisição de dados de 8 canais",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Relógios Comparadores de Precisão",
+        "detail": "Resolução de 0,001 mm, grau MMC",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Chaves de Torque Hidráulicas",
+        "detail": "Multiplicadores de torque calibrados para parafusos de fundação",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Boroscópio",
+        "detail": "Rígido e flexível para inspeção interna",
+        "iconName": "Search"
+      },
+      {
+        "name": "Registradores de Termopar",
+        "detail": "Levantamento térmico multiponto durante a primeira operação",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Medidores de Vazão Ultrassônicos",
+        "detail": "Verificação de vazão de comissionamento de tubulação",
+        "iconName": "Droplets"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ASME PTC 6",
+        "desc": "Código de Teste de Desempenho de Turbinas a Vapor",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 10816 / 20816",
+        "desc": "Limites de vibração mecânica para máquinas rotativas",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Proteção de máquinas: disparos por sobrevelocidade e vibração",
+        "body": "API"
+      },
+      {
+        "code": "API 686",
+        "desc": "Prática recomendada para instalação de máquinas",
+        "body": "API"
+      },
+      {
+        "code": "IS 3639",
+        "desc": "Normas de parafusos de fundação e ancoragens",
+        "body": "BIS"
+      },
+      {
+        "code": "Manuais OEM",
+        "desc": "Procedimentos de montagem da Triveni, Siemens, BHEL, Belliss, Maxwatt",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_2": {
+    "tagline": "Planejamento de Parada Chave na Mão até Reinício Sem Defeitos",
+    "accentColor": "#0891b2",
+    "keyStats": [
+      {
+        "value": "8+",
+        "label": "Marcas OEM Revisadas"
+      },
+      {
+        "value": "26+",
+        "label": "Anos de Experiência de Campo"
+      },
+      {
+        "value": "0,001mm",
+        "label": "Resolução de Folga"
+      },
+      {
+        "value": "24×7",
+        "label": "Resposta de Emergência"
+      }
+    ],
+    "whyUs": "Uma revisão geral mal executada é pior do que nenhuma revisão — introduz novos erros de folga, contaminação e falhas de remontagem. Nossos engenheiros foram treinados pelos OEMs. Eles sabem o que as tolerâncias realmente significam na temperatura e velocidade de operação, não apenas o que dizem no manual.",
+    "overview": "A revisão geral de turbinas não é uma atividade de manutenção — é uma intervenção de engenharia de precisão. A Keshav Enterprises implanta engenheiros ex-OEM da Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK e ABB para executar revisões gerais chave na mão com a mesma disciplina e padrões de documentação do fabricante original. Toda revisão geral começa de 4 a 6 semanas antes da parada com finalização do escopo, pré-inspeção de peças e planejamento de mobilização de mão de obra. Cada componente é medido antes da desmontagem, durante o desmonte e após a remontagem. Um relatório de condição escrito, registro de folgas e registro fotográfico são produzidos para cada revisão geral — criando uma linha de base para a próxima parada.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Planejamento Pré-Parada e Finalização do Escopo",
+        "iconName": "BookOpen",
+        "desc": "Revisão de registros de revisões gerais anteriores, dados operacionais, histórico de vibração e tendências de desempenho de 4 a 6 semanas antes da parada. Definição do escopo, lista de peças críticas, lista de consumíveis e plano de mobilização de mão de obra. Inspeção pré-parada de peças em estoque com relatório de faltas emitido ao cliente."
+      },
+      {
+        "step": "02",
+        "title": "Mobilização no Local e Preparação de Ferramentas",
+        "iconName": "Wrench",
+        "desc": "Implantação do kit completo de ferramentas de revisão geral: macacos hidráulicos, talhas de corrente de precisão, cintas de manuseio de rotor, instrumentos de medição dedicados, ferramentas de lapidação e o pacote completo de documentação de revisão geral. Verificações de condição das ferramentas e verificação de calibração de instrumentos antes do início do trabalho."
+      },
+      {
+        "step": "03",
+        "title": "Desmontagem e Inspeção Inicial",
+        "iconName": "Search",
+        "desc": "Desmontagem controlada com todas as medições pré-desmontagem registradas: folgas de mancais, desvio do eixo, folgas de gaxeta, alinhamento de acoplamento e folga axial do rotor. Cada componente fotografado. Condição anotada conforme especificação OEM antes da limpeza."
+      },
+      {
+        "step": "04",
+        "title": "Inspeção de Componentes e Relatório de Condição",
+        "iconName": "Activity",
+        "desc": "Inspeção visual, dimensional e por END do rotor, pás, mancais, gaxetas, carcaça, todas as válvulas e acoplamento. Detecção de trincas usando líquido penetrante ou partículas magnéticas em componentes críticos. Relatório de condição escrito com recomendação específica para cada componente: substituir, reparar ou reutilizar com justificativa."
+      },
+      {
+        "step": "05",
+        "title": "Reparo de Componentes e Instalação de Peças",
+        "iconName": "Cog",
+        "desc": "Rebabbitagem e usinagem de precisão de mancais de munhão, substituição de selo labirinto, inspeção e substituição seletiva de pás, polimento de munhão (Ra 0,4 μm), lapidação da face de junção da carcaça, substituição de gaxeta e lapidação de sede de válvula ao padrão de contato azul."
+      },
+      {
+        "step": "06",
+        "title": "Remontagem e Ajuste de Folgas",
+        "iconName": "Target",
+        "desc": "Remontagem precisa com todas as folgas ajustadas e registradas conforme especificação OEM: folgas de mancal de munhão (diametral e axial), folgas radiais e axiais do selo labirinto, folgas de gaxeta, alinhamento de acoplamento e folga axial do rotor. Todas as leituras inseridas no registro de folgas e comparadas com a linha de base da revisão geral anterior."
+      },
+      {
+        "step": "07",
+        "title": "Recomissionamento e Entrega",
+        "iconName": "Zap",
+        "desc": "Lavagem de recomissionamento do sistema de óleo lubrificante pós-revisão geral até ISO 4406. Teste de conformidade do sistema de segurança: disparo por sobrevelocidade, disparo por baixa pressão de óleo, válvula de parada de emergência. Partida monitorada com acompanhamento de tendência de vibração e temperatura de mancais. Liberação escrita para carga plena com pacote completo de documentação de revisão geral entregue ao cliente."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Relógios e Calibradores de Furo de Precisão",
+        "detail": "Medição de folga com resolução de 0,001 mm",
+        "iconName": "Target"
+      },
+      {
+        "name": "Alinhamento a Laser de Eixo",
+        "detail": "Verificação final de alinhamento de acoplamento",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Máquina de Balanceamento Portátil",
+        "detail": "Balanceamento de ajuste de rotor in situ",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Equipamento de Fundição de Babbitt",
+        "detail": "Fundição centrífuga para rebabbitagem de mancais",
+        "iconName": "Factory"
+      },
+      {
+        "name": "Placas de Lapidação de Superfície",
+        "detail": "Todos os graus para sedes de válvula e faces de carcaça",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Medidor de Espessura Ultrassônico",
+        "detail": "Medição de erosão de parede de carcaça",
+        "iconName": "Search"
+      },
+      {
+        "name": "Analisador de Vibração de 8 Canais",
+        "detail": "FFT em tempo real durante o reinício monitorado",
+        "iconName": "TrendingUp"
+      }
+    ],
+    "standards": [
+      {
+        "code": "API 614",
+        "desc": "Lubrificação, vedação de eixo e sistemas de controle de óleo",
+        "body": "API"
+      },
+      {
+        "code": "API 670",
+        "desc": "Sistemas de proteção de vibração e sobrevelocidade",
+        "body": "API"
+      },
+      {
+        "code": "ISO 1940",
+        "desc": "Graus de qualidade de balanceamento dinâmico para componentes rotativos",
+        "body": "ISO"
+      },
+      {
+        "code": "ASME B31.1",
+        "desc": "Tubulação de força para conexões de vapor",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 9001",
+        "desc": "Sistema de gestão da qualidade para documentação de revisão geral",
+        "body": "ISO"
+      },
+      {
+        "code": "Manuais OEM",
+        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_3": {
+    "tagline": "Escaneamento 3D a Desenho de Produção — Eliminando a Dependência do OEM",
+    "accentColor": "#7c3aed",
+    "keyStats": [
+      {
+        "value": "5kW–60MW",
+        "label": "Faixa de Turbinas Coberta"
+      },
+      {
+        "value": "0,001mm",
+        "label": "Resolução de Medição MMC"
+      },
+      {
+        "value": "100%",
+        "label": "Material Verificado por PMI"
+      },
+      {
+        "value": "GD&T",
+        "label": "Desenhos com Tolerâncias Completas"
+      }
+    ],
+    "whyUs": "Quando um OEM para de dar suporte a uma máquina, um simples rotor desgastado ou diafragma quebrado pode forçar a parada de uma planta por meses. Nosso processo de engenharia reversa recria a especificação exata de material, geometria e tratamento térmico — com desenhos de fabricação completos — para que qualquer oficina mecânica competente possa fabricar a peça.",
+    "overview": "Quando desenhos OEM não estão disponíveis, o OEM não está mais ativo, ou os prazos de entrega são medidos em anos, a Keshav Enterprises pode fazer engenharia reversa de qualquer componente de turbina de 5 kW a 60 MW até um conjunto de desenhos totalmente prontos para produção. Nosso processo usa scanners a laser 3D, máquinas de medição por coordenadas MMC e identificação de material PMI por XRF — as mesmas ferramentas usadas pelas principais equipes de engenharia OEM — para gerar desenhos de fabricação completos com todas as tolerâncias, acabamentos superficiais, sequências de tratamento térmico e especificações de material. Já fizemos engenharia reversa com sucesso de rotores, diafragmas, blocos de bocal, selos labirinto, mancais, reguladores e componentes do caminho de vapor para turbinas Triveni, Siemens, BHEL, DLF-Skoda, Belliss e Maxwatt.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Recebimento do Componente e Avaliação Inicial",
+        "iconName": "Search",
+        "desc": "Recebimento seguro do componente desgastado ou original de referência. Inspeção visual inicial, limpeza e fotografia abrangente. Avaliação de danos, zonas de desgaste e superfícies de medição críticas para determinar a estratégia de medição ideal e o esquema de referência antes de qualquer medição começar."
+      },
+      {
+        "step": "02",
+        "title": "Identificação de Material PMI",
+        "iconName": "Shield",
+        "desc": "Identificação Positiva de Material usando analisador XRF (fluorescência de raios X) em múltiplos locais para identificar a composição exata da liga. Teste de dureza (Rockwell, Brinell, Vickers) para determinar a condição de tratamento térmico. Grau de material confirmado e correspondido à norma atual mais próxima antes que a medição comece — sem adivinhação sobre a liga."
+      },
+      {
+        "step": "03",
+        "title": "Escaneamento a Laser 3D e Medição MMC",
+        "iconName": "Hexagon",
+        "desc": "Escaneamento 3D completo do exterior do componente usando scanner a laser portátil — precisão de nuvem de pontos de até 0,05 mm. Dimensões e tolerâncias internas críticas (furo, rasgo de chaveta, estria, forma de rosca, passo e avanço) medidas em MMC com resolução de 0,001 mm. Esquema de referência estabelecido a partir de superfícies funcionais de mancal."
+      },
+      {
+        "step": "04",
+        "title": "Geração de Desenho de Engenharia",
+        "iconName": "BookOpen",
+        "desc": "Modelo CAD desenvolvido a partir de dados de escaneamento e medições MMC. Desenho de fabricação 2D completo produzido com: todas as dimensões lineares e angulares, tolerâncias GD&T (concentricidade, cilindricidade, paralelismo, circularidade, desvio), indicações de acabamento superficial (valores Ra em μm), normas de forma e classe de rosca, e um quadro de referência completo."
+      },
+      {
+        "step": "05",
+        "title": "Especificação de Tratamento Térmico e Superficial",
+        "iconName": "Zap",
+        "desc": "Sequência de usinagem completa definida: alívio de tensões pré-usinagem, usinagem grosseira, normalização ou têmpera, estágios de usinagem pré-acabamento e acabamento final. Condições de tratamento térmico especificadas com temperatura (°C), tempo de encharque, meio de têmpera e dureza-alvo. Especificações de tratamento superficial: profundidade de nitretação, dureza de camada, cementação ou cromagem dura conforme necessário."
+      },
+      {
+        "step": "06",
+        "title": "Aquisição de Material e Fabricação",
+        "iconName": "Factory",
+        "desc": "Material adquirido conforme especificação identificada por PMI com certificado de usina EN 10204 Tipo 3.1. Usinagem CNC executada através de cada estágio definido com inspeção dimensional em processo em cada estágio. Todos os dados de inspeção registrados em um pacote de dados de fabricação."
+      },
+      {
+        "step": "07",
+        "title": "Inspeção Final e Entrega",
+        "iconName": "CheckCircle2",
+        "desc": "Relatório de inspeção dimensional completo conforme o desenho de engenharia. A reverificação PMI no componente acabado confirma que a liga correta foi usada em todo o processo. Medição de acabamento superficial. Teste de dureza em superfícies críticas. Pacote completo de documentação de rastreabilidade fornecido com cada componente."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Scanner a Laser 3D",
+        "detail": "Faro Focus / Creaform HandySCAN — precisão de 0,05 mm",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "MMC — Máquina de Medição por Coordenadas",
+        "detail": "Tipo ponte e braço portátil, resolução de 0,001 mm",
+        "iconName": "Target"
+      },
+      {
+        "name": "Analisador PMI XRF",
+        "detail": "Olympus Vanta — identificação de liga no local",
+        "iconName": "Search"
+      },
+      {
+        "name": "Durômetro",
+        "detail": "Rockwell, Brinell, Vickers — verificação de tratamento térmico",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Perfilômetro",
+        "detail": "Testador de rugosidade superficial — resolução Ra 0,001 μm",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Torno Copiador",
+        "detail": "Leitura digital para replicação de componentes rotacionais",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Software CAD",
+        "detail": "SolidWorks / AutoCAD — geração de desenho GD&T",
+        "iconName": "BookOpen"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 1101",
+        "desc": "Tolerâncias geométricas (GD&T) para desenhos",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 286",
+        "desc": "Sistema de limites e ajustes para eixos e furos",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 1302",
+        "desc": "Indicação de textura superficial em desenhos de engenharia",
+        "body": "ISO"
+      },
+      {
+        "code": "EN 10204",
+        "desc": "Certificados de rastreabilidade de material (Tipo 3.1)",
+        "body": "EN"
+      },
+      {
+        "code": "ASTM E1417",
+        "desc": "Normas de teste PMI e END",
+        "body": "ASTM"
+      },
+      {
+        "code": "Especificação OEM",
+        "desc": "Correspondida ao material e intenção de tolerância OEM original",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_4": {
+    "tagline": "Balanceamento de Grau ISO — Porque as Forças do Rotor Crescem com o Quadrado da Velocidade",
+    "accentColor": "#d97706",
+    "keyStats": [
+      {
+        "value": "50–2000kg",
+        "label": "Capacidade de Rotor"
+      },
+      {
+        "value": "G1.0",
+        "label": "Grau de Balanceamento Alcançável"
+      },
+      {
+        "value": "0,001mm",
+        "label": "Resolução do Relógio Comparador"
+      },
+      {
+        "value": "ISO/API",
+        "label": "Normas Certificadas"
+      }
+    ],
+    "whyUs": "Um rotor a 3.000 RPM gera 100× mais força de desbalanceamento do que a 300 RPM. O mesmo desbalanceamento residual que é invisível em baixa velocidade destruirá um mancal em velocidade plena. Balanceamos conforme o Grau G1.0 da ISO 1940 quando necessário — não apenas 'suficientemente bom'.",
+    "overview": "O desbalanceamento do rotor é uma das causas mais comuns e mais evitáveis de falha de mancal de turbina, dano de selo e vida útil reduzida do rotor. A Keshav Enterprises realiza usinagem de precisão de munhões e balanceamento dinâmico ISO 1940 / API 670 para rotores de 50 kg a 2.000 kg em nossa instalação de oficina dedicada. O rotor é primeiro usinado para restaurar a integridade geométrica — munhões redondos, superfícies labirinto concêntricas, acabamento superficial correto — antes do balanceamento. Essa sequência importa: balancear um rotor geometricamente distorcido apenas mascara o problema. Nossos relatórios de balanceamento documentam o desbalanceamento inicial, planos de correção, correções de massa, desbalanceamento residual e o grau de balanceamento ISO alcançado, fornecendo rastreabilidade completa para seus registros de manutenção.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Recebimento do Rotor e Medição Inicial",
+        "iconName": "Search",
+        "desc": "Rotor recebido e limpo. Desvio mecânico inicial medido usando relógios comparadores de precisão em todos os munhões, ajustes de acoplamento e superfícies labirinto em uma base estática de precisão. Desvio elétrico verificado. Todos os diâmetros medidos e registrados conforme especificação OEM — ovalização, conicidade e subdimensionamento de munhão documentados."
+      },
+      {
+        "step": "02",
+        "title": "Avaliação da Condição do Munhão",
+        "iconName": "Activity",
+        "desc": "Acabamento superficial medido usando perfilômetro em 3 posições ao redor da circunferência de cada munhão. Inspeção visual quanto a riscos, transferência de babbitt, pites de corrosão e padrões de desgaste. Dureza verificada. Remoção mínima de material calculada para restaurar geometria e acabamento dentro dos limites OEM."
+      },
+      {
+        "step": "03",
+        "title": "Retífica e Polimento de Munhão",
+        "iconName": "Cog",
+        "desc": "Retificação cilíndrica de precisão de munhões em máquina retificadora CNC: circularidade restaurada a no máximo 0,005 mm, conicidade a no máximo 0,005 mm por 100 mm. Superfície retificada polida a Ra 0,4 μm (especificação OEM de superfície de mancal) usando torno de polimento de precisão. Remoção de material absolutamente mínima para preservar a vida útil do eixo."
+      },
+      {
+        "step": "04",
+        "title": "Usinagem da Seção Labirinto e Gaxeta",
+        "iconName": "Hexagon",
+        "desc": "Reusinagem de superfícies de selo labirinto, áreas de gaxeta, faces de disco de balanceamento e ajustes de acoplamento em tornos CNC de precisão. Todas as superfícies centralizadas conforme a referência do munhão antes da usinagem usando placa de quatro castanhas e zeragem por relógio comparador — essencial para manter a integridade geométrica do rotor e evitar introduzir novo desvio."
+      },
+      {
+        "step": "05",
+        "title": "Balanceamento Dinâmico — Correção em Dois Planos",
+        "iconName": "Target",
+        "desc": "Rotor montado em máquina de balanceamento dinâmico de mancal rígido. Desbalanceamento inicial medido simultaneamente em dois planos de correção (extremidade de acoplamento e extremidade de regulador/impulsor). Massas de teste aplicadas e removidas. Iterações de balanceamento repetidas até que o desbalanceamento residual em cada plano atenda ao grau ISO 1940 / API 670 especificado para este serviço de rotor."
+      },
+      {
+        "step": "06",
+        "title": "Verificação de Desvio Pós-Balanceamento",
+        "iconName": "TrendingUp",
+        "desc": "Desvio mecânico e elétrico remedido pós-balanceamento em todas as posições de munhão. Comparação com a linha de base pré-balanceamento confirma melhoria por usinagem e balanceamento. Qualquer desvio residual que exceda os limites OEM é investigado — se causado por eixo empenado, endireitamento ou substituição é recomendado."
+      },
+      {
+        "step": "07",
+        "title": "Documentação e Despacho",
+        "iconName": "BookOpen",
+        "desc": "Relatório completo de balanceamento emitido: desbalanceamento inicial (g·mm), localizações dos planos de correção, massas de correção aplicadas, desbalanceamento residual final em cada plano, grau de balanceamento alcançado (G1.0, G2.5, G6.3) e todas as medições de desvio. Certificado PMI e resultados de teste de dureza anexados. Rotor embalado e despachado com documentação."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Máquina de Balanceamento de Mancal Rígido",
+        "detail": "Capacidade de 50–2.000 kg, 100–10.000 RPM",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Máquina Retificadora Cilíndrica CNC",
+        "detail": "Sistema de retificação de precisão, controle de 0,001 mm",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Torno de Polimento de Precisão",
+        "detail": "Microacabamento a Ra 0,4 μm na superfície do munhão",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "Perfilômetro",
+        "detail": "Rugosidade superficial — resolução Ra 0,001 μm",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Relógios Comparadores de Precisão",
+        "detail": "0,001 mm — medição de desvio e diâmetro",
+        "iconName": "Target"
+      },
+      {
+        "name": "Analisador de Balanceamento Portátil",
+        "detail": "Capacidade de balanceamento de campo in situ",
+        "iconName": "Search"
+      },
+      {
+        "name": "Estroboscópio Digital",
+        "detail": "Medição de ângulo de fase para correções de balanceamento",
+        "iconName": "Zap"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 1940-1",
+        "desc": "Requisitos de qualidade de balanceamento para rotores rígidos",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 21940",
+        "desc": "Vibração mecânica: vocabulário e procedimentos de balanceamento de rotores",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Monitoramento de vibração, posição axial e temperatura de mancal",
+        "body": "API"
+      },
+      {
+        "code": "API 612",
+        "desc": "Turbinas a vapor de propósito especial — requisitos de balanceamento",
+        "body": "API"
+      },
+      {
+        "code": "ISO 1101",
+        "desc": "Tolerâncias geométricas aplicadas a desenhos de usinagem",
+        "body": "ISO"
+      },
+      {
+        "code": "Especificação OEM",
+        "desc": "Graus de balanceamento da Triveni, Siemens, BHEL, Man Turbo, KKK",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_5": {
+    "tagline": "Classe de Limpeza ISO 4406 16/14/11 — Certificado Antes da Carga de Óleo",
+    "accentColor": "#0284c7",
+    "keyStats": [
+      {
+        "value": "16/14/11",
+        "label": "Classe-Alvo ISO 4406"
+      },
+      {
+        "value": "6.000 L/min",
+        "label": "Vazão Máxima do Sistema"
+      },
+      {
+        "value": "3μm",
+        "label": "Classificação de Filtração Final"
+      },
+      {
+        "value": "100%",
+        "label": "Contagem de Partículas Certificada em Laboratório"
+      }
+    ],
+    "whyUs": "Turbinas novas e recentemente revisadas são destruídas por detritos de construção — escória de solda, carepa de tubo, areia e cavacos metálicos — horas após a primeira partida. A lavagem de óleo não é opcional: é o seguro mais custo-efetivo contra uma falha catastrófica de mancal em uma revisão geral recém-concluída.",
+    "overview": "A contaminação do sistema de óleo lubrificante é a principal causa de falhas de mancal em turbinas novas e recentemente revisadas. Detritos de construção que entram no sistema de óleo lubrificante durante a instalação ou revisão geral podem destruir mancais e superfícies de munhão horas após a partida. A Keshav Enterprises realiza lavagem profissional de óleo lubrificante usando sistemas móveis de filtro centrífugo sob medida para atingir a classe de limpeza ISO 4406:99 16/14/11 — o padrão mínimo para lubrificação de mancais de turbinas a vapor. Nosso processo é totalmente documentado: resultados de amostras de óleo em cada estágio, registros de atualização progressiva de filtros e um certificado final de contagem de partículas certificado em laboratório são fornecidos antes que o sistema seja devolvido para a carga de óleo.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Levantamento do Sistema e Plano de Lavagem",
+        "iconName": "Search",
+        "desc": "Revisão do P&ID do sistema, volume de óleo, tamanhos de diâmetro de tubo, configuração do trocador de calor e layout da carcaça de mancal. Desenvolvimento do caminho de fluxo de lavagem usando cálculos hidráulicos para atingir fluxo turbulento (número de Reynolds acima de 4.000) em cada seção de tubo. Carretéis de desvio temporários e flanges cegos identificados e projetados onde necessário."
+      },
+      {
+        "step": "02",
+        "title": "Instalação de Circuito de Lavagem Temporário",
+        "iconName": "Wrench",
+        "desc": "Instalação de tubulação de desvio temporária ao redor de mancais, válvulas de controle, instrumentação e outros equipamentos sensíveis que não devem ver detritos de lavagem. Conexão da unidade de lavagem móvel. Instalação de coadores de tela de arame temporários nos pontos de retorno de lavagem para monitoramento de detritos."
+      },
+      {
+        "step": "03",
+        "title": "Lavagem Inicial — Vazão Alta",
+        "iconName": "Droplets",
+        "desc": "Sistema carregado com óleo de lavagem (ou óleo de processo se compatível). Bomba de lavagem operada na vazão máxima alcançável para máxima turbulência. Temperatura do óleo ciclada termicamente entre 30°C e 70°C em intervalos de 30 minutos — a ciclagem térmica tensiona as paredes do tubo e solta carepa e detritos aderidos. Coadores-alvo inspecionados e limpos a cada intervalo."
+      },
+      {
+        "step": "04",
+        "title": "Monitoramento de Contaminação e Contagem de Partículas",
+        "iconName": "Activity",
+        "desc": "Amostras de óleo coletadas conforme procedimento de extração de amostra limpa ISO 4021 em cada estágio. Contagem de partículas medida usando contador automático de partículas conforme ISO 11500 — reportando contagens em ≥4μm, ≥6μm, ≥14μm e ≥21μm. Resultados plotados em um gráfico de progresso de limpeza conforme a classe-alvo ISO 4406."
+      },
+      {
+        "step": "05",
+        "title": "Atualização Progressiva de Filtros",
+        "iconName": "Layers",
+        "desc": "À medida que a contaminação grosseira é removida, a classificação em mícrons do elemento filtrante é progressivamente reduzida por estágios: 25μm → 10μm → 6μm → 3μm absoluto. Unidade de desumidificação por centrífuga operada continuamente durante toda a lavagem para remover água livre e emulsionada. Teor de água Karl Fischer testado para confirmar a eficácia da desumidificação."
+      },
+      {
+        "step": "06",
+        "title": "Contagem de Partículas de Aceitação Final",
+        "iconName": "CheckCircle2",
+        "desc": "No mínimo três amostras de óleo limpo consecutivas coletadas em intervalos devem atingir a classe-alvo ISO 4406 16/14/11. Amostras finais enviadas a laboratório credenciado para verificação independente. Certificado escrito de limpeza de óleo — assinado, carimbado e rastreável ao laboratório — emitido ao cliente."
+      },
+      {
+        "step": "07",
+        "title": "Restauração do Sistema e Enchimento de Óleo",
+        "iconName": "Zap",
+        "desc": "Todos os carretéis de desvio temporários e flanges cegos removidos. Todos os mancais, instrumentos sensíveis e equipamentos críticos reconectados. Sistema reabastecido com óleo de processo novo e filtrado, passado por filtro absoluto de 3μm durante o enchimento. Contagem final de partículas no óleo do sistema após o enchimento confirma que o alvo foi mantido. Sistema entregue para a partida."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Unidade de Filtro Centrífugo Móvel",
+        "detail": "Até 6.000 L/min de vazão do sistema",
+        "iconName": "Droplets"
+      },
+      {
+        "name": "Contador Automático de Partículas",
+        "detail": "Conforme ISO 11500 — monitoramento online em tempo real",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Titulador Karl Fischer",
+        "detail": "Medição de teor de água livre em óleo lubrificante",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Kit de Amostragem de Óleo",
+        "detail": "Extração limpa ISO 4021 de linhas pressurizadas",
+        "iconName": "Search"
+      },
+      {
+        "name": "Aquecedor de Óleo",
+        "detail": "Ciclagem térmica: 30°C a 70°C para soltar detritos",
+        "iconName": "Zap"
+      },
+      {
+        "name": "Conjunto de Coadores-Alvo",
+        "detail": "Malha de 25, 10, 3μm para monitoramento de detritos por estágio",
+        "iconName": "Filter"
+      },
+      {
+        "name": "Conjunto de Carretéis de Desvio",
+        "detail": "Carretéis de desvio e flanges cegos fabricados sob medida",
+        "iconName": "Wrench"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 4406:99",
+        "desc": "Classificação de limpeza de fluido hidráulico — alvo 16/14/11",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 11500",
+        "desc": "Determinação de contagem de partículas usando métodos automáticos",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 4021",
+        "desc": "Análise de contaminação e amostragem de fluido hidráulico",
+        "body": "ISO"
+      },
+      {
+        "code": "API 614",
+        "desc": "Lubrificação, vedação de eixo e sistemas de controle de óleo",
+        "body": "API"
+      },
+      {
+        "code": "ASTM D6304",
+        "desc": "Medição de teor de água Karl Fischer em óleos lubrificantes",
+        "body": "ASTM"
+      },
+      {
+        "code": "Especificação OEM",
+        "desc": "Requisitos de limpeza de óleo lubrificante da Triveni, Siemens, BHEL, Man Turbo",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_6": {
+    "tagline": "Alinhamento de Precisão a Laser — Eliminando a Causa Nº 1 de Falha de Mancal",
+    "accentColor": "#059669",
+    "keyStats": [
+      {
+        "value": "0,05mm",
+        "label": "Tolerância de Alinhamento Alcançada"
+      },
+      {
+        "value": "50%",
+        "label": "Falhas de Mancal por Desalinhamento"
+      },
+      {
+        "value": "80%",
+        "label": "Vida de Mancal Perdida a 0,05mm de Desvio"
+      },
+      {
+        "value": "Qualquer Tamanho",
+        "label": "Estrutura de Máquina Coberta"
+      }
+    ],
+    "whyUs": "Um desalinhamento de apenas 0,05 mm no acoplamento pode reduzir a vida do mancal em 80% e gerar forças que se propagam através de selos, acoplamentos e todo o trem de acionamento. O alinhamento a laser leva horas — uma falha de mancal leva semanas e custa muito mais. Nós alinhamos a quente, não apenas a frio.",
+    "overview": "O desalinhamento de eixo é responsável por até 50% de todas as falhas de mancal de equipamentos rotativos na indústria indiana. Mesmo desalinhamentos invisíveis a olho nu geram enormes forças cíclicas em mancais, selos e acoplamentos em velocidade operacional. A Keshav Enterprises realiza alinhamento a laser de precisão de eixo usando sistemas Pruftechnik e SKF para turbinas, caixas de engrenagens, bombas, ventiladores, alternadores e geradores de indução de qualquer tamanho de estrutura. Fundamentalmente, calculamos e aplicamos desvios de alinhamento a quente — o alinhamento a frio é deliberadamente ajustado para considerar o crescimento térmico, para que a máquina funcione reta na temperatura operacional. Nossos relatórios de alinhamento mostram leituras antes/depois, histórico de calços e valores finais conforme tolerância OEM.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Verificações Pré-Alinhamento",
+        "iconName": "Search",
+        "desc": "Verificação da condição de pé bambo (distorção da estrutura da máquina ao apertar parafusos) usando relógios comparadores de precisão em todos os pés — requer-se 0,05 mm ou menos antes que o alinhamento prossiga. Medição de tensão de tubulação para identificar forças impostas nos bocais da máquina pela tubulação conectada. Verificação de folga de mancal e cálculo de crescimento térmico a partir de dados OEM ou medições no local."
+      },
+      {
+        "step": "02",
+        "title": "Configuração do Sistema de Alinhamento a Laser",
+        "iconName": "Target",
+        "desc": "Montagem de cabeças transmissora e receptora a laser nos eixos usando suportes magnéticos de precisão. Sistema zerado e tolerância de rotação do eixo verificada. Todas as dimensões relevantes inseridas no software de alinhamento: diâmetro do acoplamento, separação de eixo cubo a cubo e distância de medição. Compensação de flexão do suporte verificada e aplicada."
+      },
+      {
+        "step": "03",
+        "title": "Medição Inicial de Desalinhamento",
+        "iconName": "Activity",
+        "desc": "Eixos rotacionados através do arco de medição (três posições: 12, 3 e 9 horas). O software calcula o desalinhamento real: desalinhamento angular (mrad) e desvio (mm) na face do acoplamento, e a correção necessária em cada pé da máquina nos planos vertical e horizontal simultaneamente."
+      },
+      {
+        "step": "04",
+        "title": "Correção de Calço e Parafuso Niveladores",
+        "iconName": "Layers",
+        "desc": "Correções de calço calculadas aplicadas aos pés da máquina estacionária. Calços de precisão em aço inoxidável instalados ou removidos na configuração correta para corrigir o desalinhamento vertical. Correção horizontal feita usando parafusos niveladores de alinhamento nos pés da máquina com o laser ainda ativo para feedback em tempo real durante a correção."
+      },
+      {
+        "step": "05",
+        "title": "Compensação de Alinhamento a Quente",
+        "iconName": "Zap",
+        "desc": "Crescimento térmico da carcaça da máquina de frio a temperatura operacional calculado a partir de dados de crescimento térmico OEM ou medido usando monitoramento DBSE (distância entre extremidades de eixo) e termografia. Meta de alinhamento a frio deliberadamente desviada para que a máquina alcance o alinhamento correto de operação a quente em carga plena e temperatura."
+      },
+      {
+        "step": "06",
+        "title": "Medição Final e Verificação de Tolerância",
+        "iconName": "CheckCircle2",
+        "desc": "Medição final a laser confirma alinhamento dentro da tolerância OEM — tipicamente: desalinhamento angular 0,05 mrad máx., desvio 0,05 mm máx. no acoplamento. Todos os quatro pés reverificados quanto a pé bambo de 0,05 mm ou menos. Parafusos de acoplamento torqueados conforme especificação OEM usando chave de torque digital calibrada."
+      },
+      {
+        "step": "07",
+        "title": "Relatório de Alinhamento e Torque de Parafusos",
+        "iconName": "BookOpen",
+        "desc": "Relatório de alinhamento detalhado gerado pelo software do sistema a laser: leituras pré-alinhamento, mudanças de calço em cada pé, vetores de correção aplicados e valores finais alcançados conforme tolerância OEM. Torques de parafusos de fundação registrados. Relatório assinado e emitido — faz parte da linha de base do registro de manutenção para alinhamentos futuros."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Pruftechnik Rotalign Pro",
+        "detail": "Série OPTALIGN — alinhamento a laser sem fio",
+        "iconName": "Target"
+      },
+      {
+        "name": "SKF TKSA 71",
+        "detail": "Alinhamento a laser sem fio com relatório baseado em app",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Relógios Comparadores de Precisão",
+        "detail": "Medição de pé bambo — resolução de 0,001 mm",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Conjuntos de Calço de Precisão SS",
+        "detail": "De 0,025 a 3,0 mm em incrementos de 0,025 mm",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Chaves de Torque Digitais",
+        "detail": "Torqueamento de parafusos de acoplamento e fundação",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Analisador de Vibração",
+        "detail": "Comparação de vibração pré e pós alinhamento",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Câmera Termográfica",
+        "detail": "Levantamento de temperatura de mancal e acoplamento a quente",
+        "iconName": "Zap"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 10816-3 / 20816-3",
+        "desc": "Avaliação de severidade de vibração para máquinas >15 kW",
+        "body": "ISO"
+      },
+      {
+        "code": "API 686",
+        "desc": "Prática recomendada para instalação e alinhamento de máquinas",
+        "body": "API"
+      },
+      {
+        "code": "ASME B31.3",
+        "desc": "Limites de carga de bocal de tubulação de processo em conexões de máquina",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 1940",
+        "desc": "Limites de desbalanceamento residual pós-correção de alinhamento",
+        "body": "ISO"
+      },
+      {
+        "code": "API 612",
+        "desc": "Turbinas a vapor de propósito especial — requisitos de alinhamento",
+        "body": "API"
+      },
+      {
+        "code": "Tolerância OEM",
+        "desc": "Especificações de alinhamento da Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_7": {
+    "tagline": "Causa Raiz Encontrada. Ação Corretiva Implantada. Turbina de Volta Online.",
+    "accentColor": "#dc2626",
+    "keyStats": [
+      {
+        "value": "24×7",
+        "label": "Mobilização de Emergência"
+      },
+      {
+        "value": "10+",
+        "label": "Marcas OEM Diagnosticadas"
+      },
+      {
+        "value": "FFT+Térmico",
+        "label": "Método de Diagnóstico Duplo"
+      },
+      {
+        "value": "48h",
+        "label": "Monitoramento de Tendência Pós-Reparo"
+      }
+    ],
+    "whyUs": "Uma falha mal diagnosticada e reparada sem encontrar sua causa raiz falhará novamente — geralmente mais cedo do que da primeira vez. Nós não adivinhamos. Medimos, analisamos o espectro, desmontamos apenas o que os dados indicam, confirmamos a causa raiz fisicamente e a corrigimos com a mesma equipe que a encontrou.",
+    "overview": "Disparos não planejados de turbinas e degradação inexplicada de desempenho custam às plantas industriais milhões em produção perdida a cada ano. A Keshav Enterprises implanta engenheiros de diagnóstico de falhas ex-OEM com instrumentação diagnóstica completa para identificar, documentar e corrigir a causa raiz precisa de qualquer falha de turbina a vapor — desde vibração alta e falha de mancal até instabilidade de regulador, contaminação de óleo e vazamento de vapor. Cobrimos todas as marcas de turbina de 5 kW a 60 MW em todo o espectro das indústrias de processo e energia da Índia. Nossa metodologia é sistemática: medição online primeiro, inspeção física direcionada pelos dados, causa raiz confirmada por escrito, e ação corretiva executada pela mesma equipe que diagnosticou a falha.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Mobilização de Emergência e Coleta de Dados no Local",
+        "iconName": "Zap",
+        "desc": "Implantação de resposta 24×7 ao local com kit diagnóstico completo. Coleta de todos os dados operacionais disponíveis: histórico de vibração, registros de disparo do DCS, relatórios de análise de óleo, tendências de temperatura de mancal, registros de condição de vapor e registros de manutenção. Entrevista com pessoal de operações e manutenção que testemunhou o evento de falha."
+      },
+      {
+        "step": "02",
+        "title": "Medição de Vibração e Desempenho de Linha de Base",
+        "iconName": "Activity",
+        "desc": "Medição de vibração online em todas as carcaças de mancal: nível de vibração geral (mm/s RMS), análise de espectro FFT em tempo real, amplitude e ângulo de fase 1X e 2X, componentes subsíncronos e de alta frequência. Pressão, temperatura e vazão de entrada/exaustão de vapor comparadas com o projeto de operação. Temperaturas de mancal mapeadas usando câmera termográfica."
+      },
+      {
+        "step": "03",
+        "title": "Identificação de Assinatura de Falha e Hipótese",
+        "iconName": "Search",
+        "desc": "Análise do espectro de vibração, dados de fase, mapa de temperatura de mancal e resultados de amostra de óleo para construir a assinatura da falha. Cada causa raiz potencial mapeada sistematicamente conforme a evidência medida: desbalanceamento (1X dominante), desalinhamento (2X dominante), desgaste de mancal (subsíncrono ou frequências de defeito de mancal), atrito (subharmônicos, 1X alto), folga (múltiplos harmônicos) ou incrustação do caminho de vapor (empeno térmico)."
+      },
+      {
+        "step": "04",
+        "title": "Desmonte Direcionado e Inspeção Física",
+        "iconName": "Wrench",
+        "desc": "Desmontagem minimamente invasiva direcionada apenas à zona de falha suspeita — não um desmonte completo, a menos que os dados exijam. Medição física de folgas de mancal, desvio de eixo, alinhamento de acoplamento, folgas de selo de gaxeta e ajustes de selo labirinto comparados com especificação OEM. Todas as constatações fotografadas e documentadas dimensionalmente."
+      },
+      {
+        "step": "05",
+        "title": "Confirmação de Causa Raiz e Relatório ACR Escrito",
+        "iconName": "BookOpen",
+        "desc": "Relatório formal de análise de causa raiz (ACR) combinando dados em máquina, medições de desmonte e comparação com especificação OEM. Causa raiz classificada e confirmada por escrito. Fatores contribuintes identificados. Plano de ação corretiva com classificação de prioridade, peças necessárias, tempo de parada estimado e medidas preventivas recomendadas emitido ao cliente antes do início do trabalho."
+      },
+      {
+        "step": "06",
+        "title": "Execução da Ação Corretiva",
+        "iconName": "Cog",
+        "desc": "Execução direta da ação corretiva pela mesma equipe de diagnóstico: rebalanceamento de rotor, substituição de mancal e ajuste de folga, correção de alinhamento a laser, substituição de selo de gaxeta e empacotamento labirinto, lavagem do sistema de óleo lubrificante até ISO 4406, revisão geral e calibração de regulador, ou calibração do sistema de controle. Todo trabalho corretivo documentado conforme especificação OEM."
+      },
+      {
+        "step": "07",
+        "title": "Comissionamento Pós-Reparo e Monitoramento de Tendência de 48 Horas",
+        "iconName": "TrendingUp",
+        "desc": "Reinício monitorado com registro contínuo de dados de vibração e temperatura de mancal durante o aumento de velocidade. Níveis de vibração pós-reparo comparados com a linha de base pré-falha e limites de aceitação OEM (ISO 10816-3). Monitoramento de tendência contínuo de 48 horas em carga plena antes de emitir relatório de liberação escrito e devolver a turbina à operação não assistida."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Analisador de Vibração Multicanal",
+        "detail": "FFT em tempo real — classe CSI 2140 / SKF Microlog",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Sondas de Proximidade",
+        "detail": "Vibração de eixo por corrente parasita — norma API 670",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Câmera Termográfica",
+        "detail": "FLIR / Testo — levantamento térmico de mancal e caminho de vapor",
+        "iconName": "Zap"
+      },
+      {
+        "name": "Estroboscópio + Referência de Fase",
+        "detail": "Medição de amplitude e ângulo de fase 1X",
+        "iconName": "Search"
+      },
+      {
+        "name": "Contador de Partículas de Óleo Portátil",
+        "detail": "ISO 11500 — contaminação de óleo lubrificante no local",
+        "iconName": "Droplets"
+      },
+      {
+        "name": "Boroscópio",
+        "detail": "Rígido e flexível — inspeção de pás sem desmonte completo",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "Analisador PMI XRF",
+        "detail": "Identificação de liga de componentes falhados",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Sistema de Alinhamento a Laser de Eixo",
+        "detail": "Confirmação de alinhamento de acoplamento e mancal",
+        "iconName": "Target"
+      },
+      {
+        "name": "Titulador Karl Fischer",
+        "detail": "Teor de água livre em óleo lubrificante — verificação de contaminação",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Equipamento de Calibração de Regulador",
+        "detail": "Instrumentos de referência de velocidade e sistema de controle",
+        "iconName": "Cog"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 10816-3 / 20816-3",
+        "desc": "Limites de severidade de vibração para máquinas industriais >15 kW",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Proteção de máquinas: vibração, posição axial, temperatura",
+        "body": "API"
+      },
+      {
+        "code": "API 612",
+        "desc": "Turbinas a vapor de propósito especial para serviço de petróleo e químico",
+        "body": "API"
+      },
+      {
+        "code": "ISO 4406:99",
+        "desc": "Classificação de limpeza de óleo lubrificante",
+        "body": "ISO"
+      },
+      {
+        "code": "ASME PTC 6",
+        "desc": "Código de teste de desempenho de turbina a vapor para benchmarking de eficiência",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 14224",
+        "desc": "Coleta de dados de confiabilidade e manutenção para equipamentos",
+        "body": "ISO"
+      },
+      {
+        "code": "Manuais OEM",
+        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB",
+        "body": "OEM"
+      }
+    ],
+    "faultMatrix": [
+      {
+        "symptom": "Vibração alta — 1X dominante",
+        "causes": [
+          "Desbalanceamento de rotor (residual ou induzido por depósito)",
+          "Empeno de rotor (térmico ou mecânico)",
+          "Folga excessiva de mancal"
+        ],
+        "action": "Balanceamento dinâmico, inspeção de rotor, substituição de mancal"
+      },
+      {
+        "symptom": "Vibração alta — 2X dominante",
+        "causes": [
+          "Desalinhamento de eixo (angular ou de desvio)",
+          "Falha de acoplamento",
+          "Distorção de carcaça / tensão de tubulação"
+        ],
+        "action": "Alinhamento a laser, inspeção de acoplamento, medição de tensão de tubulação"
+      },
+      {
+        "symptom": "Vibração subsíncrona",
+        "causes": [
+          "Redemoinho/chicote de óleo em mancais de munhão",
+          "Instabilidade induzida por atrito",
+          "Ajuste de mancal frouxo"
+        ],
+        "action": "Reajuste de folga de mancal, verificação de pressão/viscosidade de óleo lubrificante, inspeção de folga de atrito"
+      },
+      {
+        "symptom": "Vibração de alta frequência (>3X)",
+        "causes": [
+          "Incrustação ou erosão de pás",
+          "Folga em fundação ou tampa de mancal",
+          "Falha de engrenamento (caixa de engrenagens)"
+        ],
+        "action": "Inspeção de pás (boroscópio), verificação de torque de tampa de mancal, inspeção de caixa de engrenagens"
+      },
+      {
+        "symptom": "Contaminação de óleo de mancal / água em óleo",
+        "causes": [
+          "Desgaste de selo de anel de carbono",
+          "Pressão de vapor de vedação muito alta",
+          "Entrada de condensado via exaustão"
+        ],
+        "action": "Substituição de anel de carbono, reajuste de pressão de vapor de vedação, lavagem do sistema de óleo lubrificante"
+      },
+      {
+        "symptom": "Vazamento de gaxeta de vapor",
+        "causes": [
+          "Desgaste de selo labirinto (folga excessiva)",
+          "Gaxeta desgastada ou danificada",
+          "Pressão de vapor de vedação ajustada incorretamente"
+        ],
+        "action": "Substituição de selo labirinto, substituição de gaxeta, calibração do controlador de vapor de vedação"
+      },
+      {
+        "symptom": "Caça do regulador / instabilidade de velocidade",
+        "causes": [
+          "Desgaste ou emperramento de vínculo do regulador",
+          "Óleo sujo / lodo em regulador PG-PL",
+          "Desajuste da válvula de agulha de compensação"
+        ],
+        "action": "Revisão geral de vínculo do regulador, lavagem e reabastecimento de óleo do regulador, recalibração de válvula de agulha"
+      },
+      {
+        "symptom": "Disparo por baixa pressão de óleo lubrificante",
+        "causes": [
+          "Desgaste de bomba de óleo",
+          "Incrustação de resfriador de óleo / alta temperatura de óleo",
+          "Válvula de alívio de pressão travada aberta",
+          "Nível de óleo baixo ou cavitação"
+        ],
+        "action": "Inspeção de bomba de óleo, limpeza de resfriador, inspeção de válvula de alívio, verificação de nível de óleo e sistema"
+      },
+      {
+        "symptom": "Disparo por sobrevelocidade — espúrio ou real",
+        "causes": [
+          "Desgaste ou ajuste incorreto do pino de disparo",
+          "Válvula de regulador passando vapor",
+          "Falha de atuador ou óleo de controle"
+        ],
+        "action": "Inspeção e reajuste do pino de disparo, inspeção de sede de válvula de regulador, verificação do sistema de controle"
+      },
+      {
+        "symptom": "Perda de potência de saída / eficiência",
+        "causes": [
+          "Incrustação de pás (pureza de vapor / contaminação de água de atemperação)",
+          "Desgaste de tira de selo (aumento de bypass de vapor)",
+          "Erosão ou obstrução de bocal"
+        ],
+        "action": "Inspeção por boroscópio, substituição de tira de selo, inspeção e limpeza de bocal"
+      }
+    ]
+  }
+}

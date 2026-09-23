@@ -1,0 +1,17 @@
+{
+  "schema": {
+    "description": "Ex-OEM steam turbine engineers providing overhauling, reverse engineering, dynamic balancing, lube oil flushing, machine alignment, and OEM-compatible spares for 5 kW–60 MW turbines.",
+    "knowsAbout": [
+      "Steam turbine overhauling",
+      "Turbine reverse engineering",
+      "Dynamic balancing",
+      "Lube oil flushing",
+      "Turbine erection and commissioning",
+      "Machine alignment",
+      "Industrial filtration",
+      "Triveni turbines",
+      "Siemens turbines",
+      "BHEL turbines"
+    ]
+  }
+}

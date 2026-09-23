@@ -1,0 +1,17 @@
+---
+// src/pages/[locale]/blog/index.astro — reads Astro.currentLocale directly.
+// Depends on blog/index.astro's Part 1 step-4 fix (getLocalizedList instead
+// of a direct BLOG_POSTS import) — without that fix this would still render
+// English content under every locale prefix.
+import BlogPage from "../../blog/index.astro";
+import { LOCALES, DEFAULT_LOCALE } from "../../../lib/i18n";
+import { getPathByLocale } from "astro:i18n";
+
+export function getStaticPaths() {
+  return LOCALES.filter((locale) => locale !== DEFAULT_LOCALE).map((locale) => ({
+    params: { locale: getPathByLocale(locale) },
+  }));
+}
+---
+
+<BlogPage />

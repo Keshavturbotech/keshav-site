@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Keshav Enterprises — 汽轮机大修与备件，印度北方邦沙姆利",
+    "description": "来自Triveni、Siemens、BHEL的原厂背景汽轮机工程师。为5千瓦至60兆瓦汽轮机提供大修、逆向工程、动平衡、润滑油冲洗及OEM兼容备件。总部位于印度北方邦沙姆利，提供24小时全天候紧急支持。",
+    "keywords": "印度汽轮机维护, 汽轮机大修, 汽轮机逆向工程, 工业汽轮机备件, 润滑油滤芯, 印度膨胀节, Triveni汽轮机服务, BHEL汽轮机备件, 北方邦汽轮机安装, 沙姆利工程"
+  },
+  "hero": {
+    "badgeMakeInIndia": "印度制造",
+    "badgeVocalForLocal": "本地优先",
+    "badgeIndiaMartLabel": "IndiaMART认证",
+    "badgeIndiaMartRatingSuffix": "评分",
+    "h1Line1": "精密工程，成就",
+    "h1Line2": "最大运行率。",
+    "capabilityLine": "5 kW 至 60 MW 蒸汽轮机 — 背压式和凝汽式，卧式和立式，单级和多级。服务遍及全印度及全球客户。",
+    "introText": "来自Triveni、Siemens、BHEL及其他7个品牌的原厂背景工程师。我们让您的汽轮机比原厂供货更快恢复运行——提供完整的PMI证书、ISO动平衡报告，自{founded}年以来零违约记录。",
+    "ctaPrimary": "提交您的需求",
+    "ctaEmergency": "紧急故障",
+    "trustYearsOverhauls": "{years}+年 · 500+次大修",
+    "trustPmi": "PMI认证备件",
+    "trustResponse": "平均响应时间：2小时",
+    "proofCards": [
+      {
+        "label": "无需磨合期",
+        "title": "原厂背景工程师",
+        "sub": "我们的团队曾在Triveni、Siemens、BHEL及Belliss工作——同等专业水准，直接服务您的工厂。"
+      },
+      {
+        "label": "每项工作均有文档记录",
+        "title": "交付时附报告",
+        "sub": "PMI证书、动平衡报告、找正记录、状态报告——工作完成时一并交付。"
+      },
+      {
+        "label": "分秒必争时刻",
+        "title": "24小时紧急响应",
+        "sub": "工程师分布印度多地。凌晨2点致电——总有人接听。"
+      }
+    ]
+  },
+  "oemMarquee": {
+    "heading": "OEM兼容，深受行业领导者信赖"
+  },
+  "stats": {
+    "overhauls": {
+      "label": "已完成大修数量",
+      "sub": "遍布印度的糖厂、电厂、造纸厂及水泥厂"
+    },
+    "years": {
+      "label": "服务年限",
+      "sub": "自{founded}年以来持续运营——从未易主"
+    },
+    "penaltyClaims": {
+      "label": "违约索赔",
+      "sub": "{years}年零记录——客户参考资料可应要求提供"
+    },
+    "emergency": {
+      "label": "紧急响应",
+      "sub": "工程师分布多地——平均派遣时间低于4小时"
+    }
+  },
+  "featuredProducts": {
+    "heading": "精选工程产品",
+    "scrollLeftLabel": "向左滚动",
+    "scrollRightLabel": "向右滚动",
+    "dragToExplore": "拖动浏览",
+    "viewCompleteCatalog": "查看完整目录",
+    "viewDetails": "查看详情",
+    "swipeToBrowse": "滑动浏览"
+  },
+  "servicesPreview": {
+    "eyebrow": "汽轮机全生命周期服务",
+    "heading": "技术服务",
+    "subheading": "同一批原厂背景工程师负责您的大修、备件及凌晨2点的紧急故障——无分包、无交接。",
+    "painLines": {
+      "srv_2": "厌倦了准备不足、又不提供工作报告的供应商？",
+      "srv_3": "原厂对已停产备件报价需要数月？",
+      "srv_4": "找正及更换轴承后振动仍反复出现——根本原因未解决？"
+    },
+    "viewFullDetails": "查看完整详情",
+    "viewAllServices": "查看全部8项服务"
+  },
+  "testimonials": {
+    "eyebrow": "客户反馈",
+    "heading": "深受印度各地工厂经理信赖",
+    "googleRatingLabel": "+条Google认证评价",
+    "disclaimer": "引述内容摘自已完成的项目记录，在获得书面同意进行完整署名前以姓名缩写呈现。如需独立核实的评分，请见上方Google评价。",
+    "footerCtaPrefix": "曾与我们合作？",
+    "footerCtaLink": "在Google留下评价——帮助其他工厂经理找到我们 →",
+    "googleReviewBadge": "Google评价",
+    "items": [
+      {
+        "quote": "他们的前Triveni工程师在年度停机检修期间负责我们12兆瓦Triveni汽轮机的大修——所有间隙均有记录，转子按ISO G1.0标准平衡，并提前恢复运行。这是六年来首次首次开车零问题。",
+        "name": "R. Kumar",
+        "role": "工厂经理",
+        "company": "糖厂及联合发电厂",
+        "location": "北方邦",
+        "service": "汽轮机大修",
+        "detail": "12兆瓦 Triveni · 计划停机"
+      },
+      {
+        "quote": "在榨季高峰期凌晨2点，我们的Belliss & Morcom汽轮机发生了严重的巴氏合金轴承故障。Keshav Enterprises的工程师在早晨前已抵达现场，并备好更换轴承。停机时间不到14小时——为我们避免了数千万卢比的甘蔗损失。",
+        "name": "A. Singh",
+        "role": "维护主管",
+        "company": "糖厂",
+        "location": "哈里亚纳邦",
+        "service": "紧急故障响应",
+        "detail": "Belliss & Morcom · 轴承故障"
+      },
+      {
+        "quote": "我们使用了28年的Belliss & Morcom汽轮机的原厂备件交期长达18个月。Keshav在6周内完成了转子轴及迷宫环的逆向工程，并提供完整PMI证书，质量与原厂件无异。",
+        "name": "V. Sharma",
+        "role": "总工程师",
+        "company": "造纸厂及电厂",
+        "location": "旁遮普邦",
+        "service": "逆向工程",
+        "detail": "Belliss & Morcom · 停产备件"
+      },
+      {
+        "quote": "Keshav对我们3兆瓦BHEL汽轮机转子进行动平衡处理后，残余振动值从9.2毫米/秒降至0.8毫米/秒——远优于ISO G1.0标准。此前该转子每8个月就导致一次轴承磨损，如今已运行26个月无需更换轴承。动平衡报告也顺利通过了我们保险审计方的审核。",
+        "name": "P. Reddy",
+        "role": "仪表及维护工程师",
+        "company": "自备电厂",
+        "location": "特伦甘纳邦",
+        "service": "动平衡",
+        "detail": "3兆瓦BHEL · 符合ISO G1.0标准"
+      }
+    ]
+  },
+  "capabilities": {
+    "heading": "制造与技术能力",
+    "items": [
+      {
+        "iconName": "Zap",
+        "text": "交期快于原厂供货——Triveni、Siemens、BHEL"
+      },
+      {
+        "iconName": "Layers",
+        "text": "材料升级：双相钢、因科洛伊合金、因科镍合金、钛、哈氏合金"
+      },
+      {
+        "iconName": "Activity",
+        "text": "ISO/API动平衡，处理能力50–2,000公斤"
+      },
+      {
+        "iconName": "Wind",
+        "text": "定制膨胀波纹管 DN15–12,000，压力最高150巴"
+      },
+      {
+        "iconName": "Droplets",
+        "text": "符合ISO 16889、API 614、ASME及EN标准的滤芯"
+      },
+      {
+        "iconName": "Cpu",
+        "text": "符合ISO 4406:99洁净度分级的润滑油系统"
+      }
+    ]
+  },
+  "projectsTeaser": {
+    "eyebrow": "有据可查的现场成果",
+    "heading": "项目与案例研究",
+    "viewAllProjects": "查看全部项目",
+    "readCaseStudy": "阅读案例研究",
+    "seeAllProjectsPrefix": "查看全部",
+    "seeAllProjectsSuffix": "个项目"
+  },
+  "resourceBar": {
+    "blogText": "来自我们工程团队的技术文章",
+    "downloadsText": "免费大修检查清单、询价单模板及技术资料表"
+  },
+  "finalCta": {
+    "heading": "获取技术报价。停机的每一小时都有成本。",
+    "subheading": "对于计划性工作，我们的工程师会在24小时内给出技术答复；对于故障，则在一小时内响应——因为工厂的可用率就是您的利润底线。",
+    "plannedTitle": "计划大修或询价",
+    "plannedDesc": "计划维护、备件采购、膨胀节供应或滤芯订购。分享您的需求，获取详细的技术报价。",
+    "plannedSendBtn": "提交您的需求",
+    "plannedEmailBtn": "发送邮件至我们的工程团队",
+    "emergencyTitle": "紧急故障——立即处理",
+    "emergencyDesc": "汽轮机跳机？振动过高？意外停机？我们的工程师24小时随时待命，请立即致电或发送WhatsApp消息——停机的每一小时都有成本。",
+    "emergencyCallPrefix": "立即致电 —",
+    "emergencyWhatsappBtn": "紧急WhatsApp联系",
+    "riskReversal": [
+      "无义务——我们提供技术答复，后续决定权在您",
+      "保密询价——您的工厂信息绝不会流向原厂代表",
+      "由工程师直接回应，而非呼叫中心",
+      "计划性工作24小时响应 · 紧急故障1小时响应"
+    ]
+  },
+  "whatsappEmergencyMessage": "您好 KESHAV ENTERPRISES，我们发生紧急故障，请立即协助处理。"
+}

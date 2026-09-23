@@ -1,0 +1,210 @@
+{
+  "cs_01": {
+    "id": "cs_01",
+    "image": "project-triveni-overhaul.webp",
+    "category": "Revizyon",
+    "industry": "Şeker Fabrikası",
+    "title": "Triveni 5 MW Karşı Basınçlı Türbin — Tam Revizyon ve Rotor Balansı",
+    "client": "Gizli — Şeker Fabrikası, Batı UP",
+    "year": "2023",
+    "duration": "12 gün",
+    "scope": "Eksiksiz anahtar teslim revizyon: rotor sökümü, yatak değişimi, labirent conta işleme, rotor dinamik balansı (ISO 1940 G2.5), yağlama yağı yıkama ve devreye alma.",
+    "challenge": "Türbin iki sezon boyunca yüksek titreşimle (>6 mm/s) çalışıyordu. Yatak gövdelerinde fretting aşınması görüldü ve rotorda önceki bakımların çözemediği kalıcı bir 1× salgı vardı.",
+    "solution": "Triveni'den OEM kökenli mühendisler üniteyi söktü ve tahrik ucunda çatlak bir mil buldu. Mil alt boyutlandırıldı, yeni babbitt döküldü ve kazındı, labirentler atölyemizde işlendi ve rotor <0,5 g·mm kalan dengesizliğe kadar dinamik olarak balanslandı. Devreye alma sonrası titreşim: 1,8 mm/s.",
+    "outcomes": [
+      "Titreşim 6,4 mm/s'den 1,8 mm/s'ye düştü",
+      "Yatak metal sıcaklığı 14 °C düştü",
+      "Türbin planlanan 12 günlük pencerede hizmete döndü",
+      "Sonraki 12 aylık işletme sezonunda plansız trip yaşanmadı"
+    ],
+    "tags": [
+      "Triveni",
+      "Rotor Balansı",
+      "Babbitt Yataklar",
+      "Revizyon"
+    ],
+    "categorySlug": "overhauling"
+  },
+  "cs_02": {
+    "id": "cs_02",
+    "image": "project-reverse-engineering.webp",
+    "category": "Tersine Mühendislik",
+    "industry": "Kağıt Fabrikası",
+    "title": "Siemens SST-200 Darbe Kademesi Diski — Tersine Mühendislik ve İmalat",
+    "client": "Gizli — Kağıt Fabrikası, Uttarakhand",
+    "year": "2023",
+    "duration": "21 gün",
+    "scope": "Hasarlı darbe diskinin 3D lazer taraması, PMI malzeme doğrulaması, tam imalat çizim seti ve çizime göre işlenmiş yedek disk tedariki.",
+    "challenge": "OEM yedek darbe diski için 14 haftalık teslim süresi ve 18.000 € teklif etti. Fabrika, sezon yaklaşırken 14 haftalık bir kesintiyi göze alamıyordu.",
+    "solution": "Ekibimiz hasarlı diski sahada 3D taradı, alaşımı doğrulamak için PMI yaptı (AISI 422 paslanmaz çelik), tüm toleranslar ve ısıl işlem şartnameleriyle tam imalat çizimleri üretti ve disk 19 iş gününde kaba işlendi, ısıl işlem gördü, final işlendi ve dinamik olarak balanslandı.",
+    "outcomes": [
+      "Teslim süresi 14 haftadan (OEM) 21 güne indi",
+      "OEM fiyatına kıyasla yaklaşık ₹12 lakh maliyet tasarrufu",
+      "Disk boyutsal sorun olmadan takıldı; türbin nominal çıkışına döndü",
+      "Gelecekteki yeniden sipariş için tam çizim paketi saklandı"
+    ],
+    "tags": [
+      "Siemens",
+      "Tersine Mühendislik",
+      "3D Tarama",
+      "PMI"
+    ],
+    "categorySlug": "reverse-engineering"
+  },
+  "cs_03": {
+    "id": "cs_03",
+    "image": "project-erection-commissioning.webp",
+    "category": "Montaj ve Devreye Alma",
+    "industry": "İçki İmalathanesi",
+    "title": "Maxwatt 3,5 MW Kojenerasyon Türbini — Sıfırdan Montaj ve Devreye Alma",
+    "client": "Gizli — İçki İmalathanesi, Orta UP",
+    "year": "2022",
+    "duration": "28 gün",
+    "scope": "Buhar türbini, dişli kutusu, alternatör, kondansatör, yağlama yağı sistemi ve ilgili tüm boru ve kablo işlerinin eksiksiz montajı. OEM tanıklığında devreye alma.",
+    "challenge": "Türbin sahaya yanlış taban çerçeve şaplama çizimleriyle geldi. Montaja başlamadan önce inşaat işleri yeniden değerlendirilip düzeltilmesi gerekti, bu da mevcut devreye alma penceresini daralttı.",
+    "solution": "Saha mühendislerimiz, şaplama ceplerini 48 saat içinde düzeltmek için inşaat yüklenicisiyle koordine oldu. Türbin, dişli kutusu ve alternatör monte edildi, hizalandı (mil hizalaması <0,02 mm TIR'a kadar) ve tüm devreye alma öncesi kontroller tamamlandı. OEM tanıklık çalışması sırasında ilk denemede senkronizasyon sağlandı.",
+    "outcomes": [
+      "İlk senkronizasyon devreye alma gününde sağlandı — punch-list gecikmesi yok",
+      "Mil hizalaması 0,016 mm TIR'da sağlandı — OEM toleransı içinde",
+      "İlk çalıştırmadan önce yağlama yağı ISO 4406 16/14/11 temizliğine yıkandı",
+      "Tesis, türbini OEM punch-list'inde sıfır sorun kalemiyle kabul etti"
+    ],
+    "tags": [
+      "Maxwatt",
+      "Montaj",
+      "Devreye Alma",
+      "Hizalama"
+    ],
+    "categorySlug": "erection-and-commissioning"
+  },
+  "cs_04": {
+    "id": "cs_04",
+    "image": "project-lube-oil-flushing.webp",
+    "category": "Yağlama Yağı Yıkama",
+    "industry": "Enerji Üretimi",
+    "title": "BHEL 15 MW Ekstraksiyon-Kondansasyon Türbini — Revizyon Sonrası Yağlama Yağı Yıkama",
+    "client": "Gizli — Bağımsız Elektrik Üreticisi, Rajasthan",
+    "year": "2024",
+    "duration": "5 gün",
+    "scope": "Mobil santrifüj filtre ünitesi kullanılarak revizyon sonrası yağlama yağı sistemi yıkaması. Hedef temizlik: ana yağlama yağı devresi için ISO 4406 ≤16/14/11 ve kontrol yağı devresi için ≤15/13/10.",
+    "challenge": "Yağlama yağı sistemi revizyondan kaynaklanan önemli metalik kontaminasyona sahipti. Başka bir yüklenici tarafından yapılan üç önceki yıkama denemesi kontrol yağı devresinde hedef temizliğe ulaşamadı.",
+    "solution": "Kontrol yağı halkası için özel düşük hacimli yüksek hızlı bir alt devreyle özel yapım mobil santrifüj yıkama ünitemizi devreye aldık. 3. günde ana devre 15/13/10'a ulaştı ve 5. günde her iki devre de üçüncü taraf parçacık sayım raporlarıyla doğrulanan temizlik hedeflerine ulaştı.",
+    "outcomes": [
+      "Ana yağlama yağı devresi: ISO 4406 15/13/10 ✓",
+      "Kontrol yağı devresi: ISO 4406 14/12/9 ✓ (hedeften daha iyi)",
+      "Her iki devre 10 günlük acil durum penceresine kıyasla 5 günde temizlendi",
+      "Türbin, daha fazla gecikme olmadan ilk ateşleme için onaylandı"
+    ],
+    "tags": [
+      "BHEL",
+      "Yağlama Yağı Yıkama",
+      "ISO 4406",
+      "Enerji Üretimi"
+    ],
+    "categorySlug": "lube-oil-flushing"
+  },
+  "cs_05": {
+    "id": "cs_05",
+    "image": "project-alignment.webp",
+    "category": "Makine Hizalama",
+    "industry": "Çelik Tesisi",
+    "title": "KKK Kompresör-Dişli Kutusu-Motor Grubu — Hassas Lazer Hizalama",
+    "client": "Gizli — Çelik Tesisi, Jharkhand",
+    "year": "2024",
+    "duration": "2 gün",
+    "scope": "Dişli kutusu değişiminin ardından üç elemanlı kompresör grubunun (motor–dişli kutusu–kompresör) hassas lazer hizalaması. Boru gerilimi ölçümü ve düzeltmesi.",
+    "challenge": "Motor, sınırlı şim erişimine sahip sabit hızlı bir indüksiyon motoruydu. Kompresör deşarjındaki boru gerilimi gövdeyi 0,04 mm çekiyordu — bağlandığında hizalamayı geçersiz kılmaya yetecek kadar.",
+    "solution": "Kaplinsiz soğuk hizalama yaptık, ardından deşarj hattı bağlıyken boru gerilimini ölçüp belgeledik. Boru yüklenicisi deşarj makarasını yeniden destekledi ve boru gerilimi <0,005 mm'ye düştü. Son kaplinli hizalama: açısal 0,008 mm/100 mm, ofset 0,012 mm — OEM toleransları içinde.",
+    "outcomes": [
+      "Açısal hizasızlık: 0,008 mm/100 mm (OEM sınırı 0,02 mm/100 mm)",
+      "Paralel ofset: 0,012 mm (OEM sınırı 0,025 mm)",
+      "Boru gerilimi düzeltildi — kompresörde kalan nozul yükü yok",
+      "İlk çalıştırmada titreşim: 1,2 mm/s — alarm seviyesinin çok altında"
+    ],
+    "tags": [
+      "KKK",
+      "Lazer Hizalama",
+      "Kompresör",
+      "Çelik Tesisi"
+    ],
+    "categorySlug": "machine-alignment"
+  },
+  "cs_06": {
+    "id": "cs_06",
+    "image": "project-dynamic-balancing.webp",
+    "category": "Dinamik Balans",
+    "industry": "Çimento Fabrikası",
+    "title": "Çimento Değirmeni Fan Rotoru — Dinamik Balans ve Mil İşleme",
+    "client": "Gizli — Çimento Fabrikası, Rajasthan",
+    "year": "2023",
+    "duration": "4 gün",
+    "scope": "680 kg ID fan rotorunun ISO 21940-11 G2.5 kalite sınıfına atölyede dinamik balansı, artı hem tahrik ucu hem de tahriksiz uç millerinde taşlama ve parlatma.",
+    "challenge": "Rotor ağır çimento birikimi, çökmüş yataktan kaynaklanan mil çizikleri ve sahadan ~420 g·mm kalan dengesizlikle geldi — işletme hızı için ISO G2.5 sınırlarının çok dışında.",
+    "solution": "Çimento birikintileri kum püskürtmeyle temizlendi. Her iki mil de 0,10 mm alt boyutlandırılarak taşlandı ve Ra 0,4 µm'ye parlatıldı. Rotor daha sonra iki düzlemli dinamik balans makinemizde (2000 kg kapasite, 1500 RPM'ye kadar hız) balanslandı. Son kalan dengesizlik: düzlem başına 6 g·mm (ISO G1.0 sağlandı).",
+    "outcomes": [
+      "Kalan dengesizlik: düzlem başına 6 g·mm — G1.0'dan daha iyi",
+      "Mil yüzey kalitesi: her iki uçta Ra 0,38 µm",
+      "Kurulum sonrası tam hızda (980 RPM) titreşim: 0,9 mm/s",
+      "Yatak sıcaklıkları ilk çalıştırmadan 2 saat içinde normalleşti"
+    ],
+    "tags": [
+      "Dinamik Balans",
+      "Fan Rotoru",
+      "Mil İşleme",
+      "Çimento"
+    ],
+    "categorySlug": "dynamic-balancing"
+  },
+  "cs_07": {
+    "id": "cs_07",
+    "image": "project-emergency-breakdown.webp",
+    "category": "Acil Arıza",
+    "industry": "Şeker Fabrikası",
+    "title": "Belliss & Morcom Türbin — Hasat Sezonunda Acil Babbitt Yatak Arızası",
+    "client": "Gizli — Şeker Fabrikası, Haryana",
+    "year": "2024",
+    "duration": "14 saat duruş",
+    "scope": "Sahada acil müdahale, kök neden teşhisi, yedek babbitt yatak imalatı ve montajı, rotor incelemesi ve 14 saatlik pencerede yeniden devreye alma.",
+    "challenge": "Türbin, hasat sezonunun zirvesinde saat 02:00'de tahriksiz uçtaki babbitt yatak çökmesi nedeniyle trip yaptı. Fabrika 8.000 TCD işliyordu — her çevrimdışı saat şeker kamışı kaybında yaklaşık ₹4 lakh'a mal oluyordu.",
+    "solution": "Mühendisimiz aramadan 90 dakika içinde sevk edildi ve sahaya 05:30'da ulaştı. Kök neden belirlendi: tıkalı yağ yolundan kaynaklanan yağ açlığı. Yedek yatak atölye stoğundan temin edildi, yeniden babbitlendi ve sahada oturması için elle kazındı. Rotor mili incelendi — hasar yok. Türbin 16:00'da tekrar hatta girdi.",
+    "outcomes": [
+      "Toplam duruş süresi: trip'ten ilk buhara kadar 14 saat",
+      "Kök neden belirlendi ve yağ yolu temizlendi — tekrar trip yok",
+      "Önlenen tahmini şeker kamışı kayıp değeri: yaklaşık ₹56 lakh",
+      "Rotor millerinde hasar yok — mil değişim maliyeti tasarrufu sağlandı"
+    ],
+    "tags": [
+      "Belliss & Morcom",
+      "Acil Durum",
+      "Babbitt Yatak",
+      "Şeker Fabrikası"
+    ],
+    "categorySlug": "emergency-breakdown"
+  },
+  "cs_08": {
+    "id": "cs_08",
+    "image": "project-troubleshooting.webp",
+    "category": "Arıza Giderme",
+    "industry": "Kağıt Fabrikası",
+    "title": "BHEL 3 MW Türbin — Yüksek Titreşim Kök Neden Araştırması ve Düzeltmesi",
+    "client": "Gizli — Kağıt Fabrikası, Pencap",
+    "year": "2024",
+    "duration": "3 gün araştırma + 8 gün düzeltme",
+    "scope": "Sahada titreşim analizi, rotor-dinamik değerlendirme, kök neden tespiti, atölyede rotor balansı, yatak değişimi ve yeniden devreye alma.",
+    "challenge": "3 MW türbin 6 aydır artan titreşim yaşıyordu — tahriksiz uç yatağında 9,2 mm/s'ye ulaşıyordu. Üç ayrı bakım ekibi, altta yatan sorunu çözmeden yatakları değiştirmişti.",
+    "solution": "Titreşim analiz ekipmanı devreye aldık ve tüm işletme hızlarında frekans spektrumları kaydettik. Baskın 1× bileşeni tüm hızlarda devam etti, bu da yatak veya hizalama sorunları yerine rotor kütle dengesizliğini doğruladı. Rotor çıkarıldı, miller incelendi (hafif ovallik düzeltildi) ve atölyemizde ISO G1.0'a balanslandı. Son kalan: düzlem başına 4,8 g·mm.",
+    "outcomes": [
+      "Titreşim işletme hızında 9,2 mm/s'den 0,8 mm/s'ye düştü",
+      "Kök neden doğrulandı: önceki başarısız mil onarımından kaynaklanan rotor kütle eksantrikliği",
+      "Yeniden devreye almadan bu yana 24+ ay işletme — yatak değişimi yok",
+      "Sigorta dosyası için tam balans raporu ve titreşim spektrumları sağlandı"
+    ],
+    "tags": [
+      "BHEL",
+      "Titreşim Analizi",
+      "Dinamik Balans",
+      "Arıza Giderme"
+    ],
+    "categorySlug": "troubleshooting"
+  }
+}

@@ -1,0 +1,28 @@
+---
+// src/pages/[locale]/products/[slug].astro
+// Part 1, step 4. Unlike index.astro/about.astro/products/index.astro, the
+// underlying ../../products/[slug].astro page reads its `product` from
+// Astro.props (set by ITS OWN getStaticPaths, which is ignored when this
+// file is used as a plain component) — so this wrapper must replicate that
+// getStaticPaths shape itself and pass `product` down explicitly as a
+// component prop. 16 non-default locales × ~132 products ≈ 2,112 pages.
+import ProductDetailPage from "../../products/[slug].astro";
+import type { Product } from "../../../data/products";
+import { PRODUCTS as PRODUCTS_EN } from "../../../data/products";
+import { LOCALES, DEFAULT_LOCALE } from "../../../lib/i18n";
+import { getPathByLocale } from "astro:i18n";
+
+export function getStaticPaths() {
+  const locales = LOCALES.filter((locale) => locale !== DEFAULT_LOCALE);
+  return locales.flatMap((locale) =>
+    PRODUCTS_EN.map((product) => ({
+      params: { locale: getPathByLocale(locale), slug: product.slug },
+      props: { product },
+    })),
+  );
+}
+
+const { product } = Astro.props as { product: Product };
+---
+
+<ProductDetailPage product={product} />

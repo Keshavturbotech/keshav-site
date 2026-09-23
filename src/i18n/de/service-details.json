@@ -1,0 +1,1074 @@
+{
+  "srv_1": {
+    "tagline": "OEM-koordinierte Montage — vom ersten Fundamentbolzen bis zum ersten Dampf",
+    "accentColor": "#2563eb",
+    "keyStats": [
+      {
+        "value": "10+",
+        "label": "OEM-Fabrikate in Betrieb genommen"
+      },
+      {
+        "value": "5kW–60MW",
+        "label": "Abgedeckter Leistungsbereich"
+      },
+      {
+        "value": "100%",
+        "label": "Dokumentation nach OEM-Spezifikation"
+      },
+      {
+        "value": "24×7",
+        "label": "Vor-Ort-Support verfügbar"
+      }
+    ],
+    "whyUs": "Ein einziges falsch eingestelltes Spielmaß während der Montage kann ein Lager innerhalb von Stunden nach dem ersten Dampf zerstören. Unsere Ex-OEM-Baustellenaingenieure haben persönlich dieselben Maschinentypen in Betrieb genommen, die Sie installieren — sie wissen genau, was die OEM-Spezifikation in der Praxis bedeutet, nicht nur auf dem Papier.",
+    "overview": "Turbinenmontage und Inbetriebnahme ist die kritischste Phase jedes Kraftwerks- oder Industrieprojekts. Fehler während der Montage — falsche Ausrichtung, unsachgemäße Spielmaße, falsche Drehmomente — summieren sich innerhalb des ersten Betriebsjahres zu kostspieligen Ausfällen. Keshav Enterprises bringt Ex-OEM-Baustellenaingenieure ein, die Triveni-, Siemens-, BHEL-, Belliss- und Maxwatt-Turbinen in Kraftwerken, Zuckerfabriken, Papierfabriken und Prozessindustrien in Betrieb genommen haben. Jeder Haltepunkt wird bezeugt, jedes Spielmaß dokumentiert und jedes Sicherheitssystem vor der Dampfzufuhr geprüft. Unser Dokumentationspaket erfüllt die Übergabeanforderungen von Kunde, Versicherer und OEM.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Technische Prüfung vor der Montage",
+        "iconName": "BookOpen",
+        "desc": "Detaillierte Prüfung des OEM-Montagehandbuchs, der Übersichtszeichnungen, R&I-Fließbilder und Baugrundzeichnungen. Festlegung aller Haltepunkte, Zeugenpunkte und Dokumentationsanforderungen vor der ersten Geräteanhebung. Montagereihenfolge und kritischer Pfad mit dem Projektteam des Kunden abgestimmt."
+      },
+      {
+        "step": "02",
+        "title": "Fundament- und Grundplattenvorbereitung",
+        "iconName": "Layers",
+        "desc": "Präzisionsnivellierung und Vergießen der Turbinengrundplatte auf bis zu 0,05 mm/m genau. Passstückbearbeitung und -installation. Vorspannen der Fundamentbolzen auf OEM-vorgegebene Drehmomente mit kalibrierten Hydraulikschlüsseln. Vorbereitung, Vergießen und Aushärtungsüberwachung des Epoxidvergussmörtels mit Temperaturprotokollierung."
+      },
+      {
+        "step": "03",
+        "title": "Geräteaufstellung und Grobausrichtung",
+        "iconName": "Target",
+        "desc": "Präzise Positionierung von Turbinengehäuse, Getriebe und angetriebener Anlage auf den Grundplatten. Grobe Wellenausrichtung mit Messuhren und Laserausrüstung auf bis zu 0,1 mm vor der Kupplungspassung. Weichfußprüfung und -korrektur an allen Maschinenfüßen vor der Endausrichtung."
+      },
+      {
+        "step": "04",
+        "title": "Innenmontage und Spielmaßeinstellung",
+        "iconName": "Cog",
+        "desc": "Rotorabsenkmessung, Stopfbuchsspielmaßeinstellung (radial und axial), Labyrinthdichtungspassung, Drucklagermontage und Wellenzapfenlagerspielmaßeinstellung. Alle Spielmaße gegen OEM-Spezifikation im Baustellen-Spielmaßregister dokumentiert. Rotor-Endspiel gemessen und innerhalb der OEM-Grenzen bestätigt."
+      },
+      {
+        "step": "05",
+        "title": "Anschluss von Rohrleitungen und Hilfssystemen",
+        "iconName": "Activity",
+        "desc": "Anschlüsse für Dampfeintritt, Abdampf, Entnahme und Entwässerungsleitungen mit korrekter Rohrhalterung und Federaufhängungen. Stutzenbelastungen innerhalb der OEM-Grenzen verifiziert — Rohrspannung vor dem endgültigen Anschluss beseitigt. Schmieröl-, Regelöl-, Sperrdampf- und Instrumentierungsleitungen fertiggestellt und auf Dichtheit geprüft."
+      },
+      {
+        "step": "06",
+        "title": "Prüfungen vor der Inbetriebnahme und Spülung",
+        "iconName": "Droplets",
+        "desc": "Spülung des Schmierölsystems nach ISO-4406-Sauberkeitsnorm, durch Partikelzählung bestätigt. Funktionsprüfungen von Steuerungs- und Auslösesystem. Sicherheitssystem-Funktionsprüfungen durchgeführt und dokumentiert: Überdrehzahlauslösung, Niederdruck-Ölauslösung, Hochtemperatur-Lagerauslösung, Schnellschlussventilbetätigung."
+      },
+      {
+        "step": "07",
+        "title": "Erstzündung, Hochlauf und Inbetriebnahme",
+        "iconName": "Zap",
+        "desc": "Kontrollierter erster Start mit Abhörprüfung im Langsamlauf. Drehzahlhochlauf in definierten Stufen mit kontinuierlicher Vibrations- und Lagertemperaturüberwachung. Reglerreaktion und Totbandprüfung. Überdrehzahlauslösetest bei 110 % Nenndrehzahl. Lastannahmetest und Volllast-Betriebsübergabe mit Inbetriebnahmebericht."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Laser-Wellenausrichtung",
+        "detail": "Pruftechnik-Rotalign-Pro- / SKF-TKSA-Serie",
+        "iconName": "Target"
+      },
+      {
+        "name": "Schwingungsanalysator",
+        "detail": "Echtzeit-FFT, 8-Kanal-Datenerfassung",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Präzisionsmessuhren",
+        "detail": "0,001 mm Auflösung, KMG-Qualität",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Hydraulische Drehmomentschlüssel",
+        "detail": "Kalibrierte Drehmomentvervielfacher für Fundamentbolzen",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Endoskop",
+        "detail": "Starr & flexibel für Innenprüfung",
+        "iconName": "Search"
+      },
+      {
+        "name": "Thermoelement-Datenlogger",
+        "detail": "Mehrpunkt-Wärmeprüfung beim ersten Lauf",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Ultraschall-Durchflussmesser",
+        "detail": "Durchflussverifikation bei Rohrleitungsinbetriebnahme",
+        "iconName": "Droplets"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ASME PTC 6",
+        "desc": "Leistungsprüfcode für Dampfturbinen",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 10816 / 20816",
+        "desc": "Grenzwerte für mechanische Schwingungen bei rotierenden Maschinen",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Maschinenschutz: Überdrehzahl- und Schwingungsauslösungen",
+        "body": "API"
+      },
+      {
+        "code": "API 686",
+        "desc": "Empfohlene Praxis für die Maschineninstallation",
+        "body": "API"
+      },
+      {
+        "code": "IS 3639",
+        "desc": "Normen für Fundamentbolzen und Verankerungen",
+        "body": "BIS"
+      },
+      {
+        "code": "OEM-Handbücher",
+        "desc": "Montageverfahren von Triveni, Siemens, BHEL, Belliss, Maxwatt",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_2": {
+    "tagline": "Von der schlüsselfertigen Stillstandsplanung bis zum fehlerfreien Neustart",
+    "accentColor": "#0891b2",
+    "keyStats": [
+      {
+        "value": "8+",
+        "label": "OEM-Fabrikate überholt"
+      },
+      {
+        "value": "26+",
+        "label": "Jahre Felderfahrung"
+      },
+      {
+        "value": "0,001mm",
+        "label": "Spielmaßauflösung"
+      },
+      {
+        "value": "24×7",
+        "label": "Notfallreaktion"
+      }
+    ],
+    "whyUs": "Eine schlecht ausgeführte Überholung ist schlimmer als keine Überholung — sie führt neue Spielmaßfehler, Verunreinigung und Zusammenbaufehler ein. Unsere Ingenieure wurden von den OEMs geschult. Sie wissen, was Toleranzen bei Betriebstemperatur und -drehzahl tatsächlich bedeuten, nicht nur, was im Handbuch steht.",
+    "overview": "Turbinenüberholung ist keine Wartungstätigkeit — sie ist ein präzisionstechnischer Eingriff. Keshav Enterprises setzt Ex-OEM-Ingenieure von Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK und ABB ein, um schlüsselfertige Überholungen mit derselben Disziplin und denselben Dokumentationsstandards wie der Originalhersteller durchzuführen. Jede Überholung beginnt 4–6 Wochen vor dem Stillstand mit Umfangsfinalisierung, Ersatzteil-Vorprüfung und Personalmobilisierungsplanung. Jedes Bauteil wird vor der Demontage, während der Zerlegung und nach dem Zusammenbau gemessen. Für jede Überholung wird ein schriftlicher Zustandsbericht, ein Spielmaßregister und eine Fotodokumentation erstellt — dies schafft eine Basislinie für den nächsten Stillstand.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Planung vor dem Stillstand und Umfangsfinalisierung",
+        "iconName": "BookOpen",
+        "desc": "Prüfung früherer Überholungsaufzeichnungen, Betriebsdaten, Schwingungshistorie und Leistungstrends 4–6 Wochen vor dem Stillstand. Festlegung von Umfang, kritischer Ersatzteilliste, Verbrauchsmaterialliste und Personalmobilisierungsplan. Vorprüfung der Lagerersatzteile vor dem Stillstand mit an den Kunden ausgestelltem Fehlmengenbericht."
+      },
+      {
+        "step": "02",
+        "title": "Baustellenmobilisierung und Werkzeugeinrichtung",
+        "iconName": "Wrench",
+        "desc": "Einsatz des vollständigen Überholungswerkzeugsatzes: Hydraulikwagenheber, Präzisionskettenzüge, Rotorhandhabungsgeschirre, dedizierte Messinstrumente, Läppwerkzeuge und das vollständige Überholungsdokumentationspaket. Werkzeugzustandsprüfungen und Kalibrierverifikation vor Arbeitsbeginn."
+      },
+      {
+        "step": "03",
+        "title": "Demontage und Erstprüfung",
+        "iconName": "Search",
+        "desc": "Kontrollierte Demontage mit allen vor der Demontage dokumentierten Messungen: Lagerspielmaße, Wellenrundlauf, Stopfbuchsspielmaße, Kupplungsausrichtung und Rotor-Endspiel. Jedes Bauteil fotografiert. Zustand vor der Reinigung gegen OEM-Spezifikation vermerkt."
+      },
+      {
+        "step": "04",
+        "title": "Bauteilprüfung und Zustandsberichterstattung",
+        "iconName": "Activity",
+        "desc": "Visuelle, maßliche und ZfP-Prüfung von Rotor, Schaufeln, Lagern, Stopfbuchsen, Gehäuse, allen Ventilen und der Kupplung. Rissprüfung mittels Farbeindringprüfung oder Magnetpulverprüfung an kritischen Bauteilen. Schriftlicher Zustandsbericht mit spezifischer Empfehlung für jedes Bauteil: austauschen, reparieren oder mit Begründung weiterverwenden."
+      },
+      {
+        "step": "05",
+        "title": "Bauteilreparatur und Ersatzteilinstallation",
+        "iconName": "Cog",
+        "desc": "Weißmetall-Neubeschichtung und Präzisionsbearbeitung von Wellenzapfenlagern, Labyrinthdichtungsaustausch, Schaufelprüfung und selektiver Austausch, Wellenzapfenpolitur (Ra 0,4 μm), Gehäusetrennfugen-Läppung, Stopfbuchspackungsaustausch und Ventilsitzläppung nach Blaupassungsstandard."
+      },
+      {
+        "step": "06",
+        "title": "Zusammenbau und Spielmaßeinstellung",
+        "iconName": "Target",
+        "desc": "Präziser Zusammenbau mit allen gegen OEM-Spezifikation eingestellten und dokumentierten Spielmaßen: Wellenzapfenlagerspielmaße (diametral und axial), radiale und axiale Labyrinthdichtungsspielmaße, Stopfbuchsspielmaße, Kupplungsausrichtung und Rotor-Endspiel. Alle Messwerte im Spielmaßregister eingetragen und mit der vorherigen Überholungs-Basislinie verglichen."
+      },
+      {
+        "step": "07",
+        "title": "Wiederinbetriebnahme und Übergabe",
+        "iconName": "Zap",
+        "desc": "Spülung des Schmierölsystems nach der Überholung auf ISO 4406. Sicherheitssystem-Funktionsprüfung: Überdrehzahlauslösung, Niederdruck-Ölauslösung, Schnellschlussventil. Überwachter Start mit Schwingungs- und Lagertemperaturtrendüberwachung. Schriftliche Freigabe für Volllast mit vollständigem Überholungsdokumentationspaket an den Kunden übergeben."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Präzisionsmessuhren & Bohrungsmessgeräte",
+        "detail": "Spielmaßmessung mit 0,001 mm Auflösung",
+        "iconName": "Target"
+      },
+      {
+        "name": "Laser-Wellenausrichtung",
+        "detail": "Abschließende Kupplungsausrichtungsverifikation",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Tragbare Auswuchtmaschine",
+        "detail": "In-situ-Rotor-Trimmwuchtung",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Weißmetallguss-Ausrüstung",
+        "detail": "Schleuderguss für Lagerneubeschichtung",
+        "iconName": "Factory"
+      },
+      {
+        "name": "Oberflächen-Läppplatten",
+        "detail": "Alle Körnungen für Ventilsitze und Gehäuseflächen",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Ultraschall-Dickenmessgerät",
+        "detail": "Messung der Gehäusewandkorrosion",
+        "iconName": "Search"
+      },
+      {
+        "name": "8-Kanal-Schwingungsanalysator",
+        "detail": "Echtzeit-FFT während des überwachten Neustarts",
+        "iconName": "TrendingUp"
+      }
+    ],
+    "standards": [
+      {
+        "code": "API 614",
+        "desc": "Schmierung, Wellenabdichtung und Ölregelsysteme",
+        "body": "API"
+      },
+      {
+        "code": "API 670",
+        "desc": "Schwingungs- und Überdrehzahlschutzsysteme",
+        "body": "API"
+      },
+      {
+        "code": "ISO 1940",
+        "desc": "Auswuchtgüteklassen für rotierende Bauteile",
+        "body": "ISO"
+      },
+      {
+        "code": "ASME B31.1",
+        "desc": "Kraftwerksrohrleitungen für Dampfanschlüsse",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 9001",
+        "desc": "Qualitätsmanagementsystem für Überholungsdokumentation",
+        "body": "ISO"
+      },
+      {
+        "code": "OEM-Handbücher",
+        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_3": {
+    "tagline": "Vom 3D-Scan zur Fertigungszeichnung — Beseitigung der OEM-Abhängigkeit",
+    "accentColor": "#7c3aed",
+    "keyStats": [
+      {
+        "value": "5kW–60MW",
+        "label": "Abgedeckter Turbinenbereich"
+      },
+      {
+        "value": "0,001mm",
+        "label": "KMG-Messauflösung"
+      },
+      {
+        "value": "100%",
+        "label": "PMI-verifiziertes Material"
+      },
+      {
+        "value": "GD&T",
+        "label": "Zeichnungen mit vollen Toleranzen"
+      }
+    ],
+    "whyUs": "Wenn ein OEM den Support für eine Maschine einstellt, kann ein einfacher verschlissener Rotor oder ein gebrochenes Leitblech einen Anlagenstillstand von Monaten erzwingen. Unser Reverse-Engineering-Prozess bildet exakt Material, Geometrie und Wärmebehandlungsspezifikation nach — mit vollständigen Fertigungszeichnungen —, sodass jede kompetente Maschinenwerkstatt das Teil herstellen kann.",
+    "overview": "Wenn OEM-Zeichnungen nicht verfügbar sind, der OEM nicht mehr aktiv ist oder Lieferzeiten in Jahren gemessen werden, kann Keshav Enterprises jedes Turbinenbauteil von 5 kW bis 60 MW per Reverse Engineering bis zu einem vollständig fertigungsfähigen Zeichnungssatz nachbilden. Unser Prozess verwendet 3D-Laserscanner, KMG-Koordinatenmessmaschinen und XRF-PMI-Materialidentifikation — dieselben Werkzeuge, die von großen OEM-Ingenieurteams verwendet werden —, um vollständige Fertigungszeichnungen mit allen Toleranzen, Oberflächengüten, Wärmebehandlungssequenzen und Werkstoffspezifikationen zu erstellen. Wir haben erfolgreich Rotoren, Leitbleche, Düsenblöcke, Labyrinthdichtungen, Lager, Regler und Dampfpfadkomponenten für Triveni-, Siemens-, BHEL-, DLF-Skoda-, Belliss- und Maxwatt-Turbinen per Reverse Engineering nachgebildet.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Bauteilannahme und Erstbewertung",
+        "iconName": "Search",
+        "desc": "Sichere Annahme des verschlissenen oder originalen Referenzbauteils. Erste Sichtprüfung, Reinigung und umfassende Fotodokumentation. Bewertung von Schäden, Verschleißzonen und kritischen Messflächen zur Festlegung der optimalen Messstrategie und des Bezugsschemas vor Beginn jeder Messung."
+      },
+      {
+        "step": "02",
+        "title": "PMI-Materialidentifikation",
+        "iconName": "Shield",
+        "desc": "Positive Materialidentifikation mittels RFA-Analysator (Röntgenfluoreszenzanalyse) an mehreren Stellen zur Bestimmung der exakten Legierungszusammensetzung. Härteprüfung (Rockwell, Brinell, Vickers) zur Bestimmung des Wärmebehandlungszustands. Werkstoffgüte vor Messbeginn bestätigt und der nächstgelegenen aktuellen Norm zugeordnet — kein Raten bei der Legierung."
+      },
+      {
+        "step": "03",
+        "title": "3D-Laserscanning und KMG-Messung",
+        "iconName": "Hexagon",
+        "desc": "Vollständiger 3D-Scan der Bauteilaußenfläche mit tragbarem Laserscanner — Punktwolkengenauigkeit bis 0,05 mm. Kritische Innenmaße und Toleranzen (Bohrung, Passfedernut, Keilwelle, Gewindeform, Steigung und Vorschub) auf KMG mit 0,001 mm Auflösung gemessen. Bezugsschema aus funktionalen Lagerflächen erstellt."
+      },
+      {
+        "step": "04",
+        "title": "Erstellung der Konstruktionszeichnung",
+        "iconName": "BookOpen",
+        "desc": "CAD-Modell aus Scandaten und KMG-Messungen entwickelt. Vollständige 2D-Fertigungszeichnung erstellt mit: allen Längen- und Winkelmaßen, GD&T-Toleranzen (Rundlauf, Zylinderform, Parallelität, Rundheit, Planlauf), Oberflächengüteangaben (Ra-Werte in μm), Gewindeform- und Klassennormen sowie einem vollständigen Bezugsrahmen."
+      },
+      {
+        "step": "05",
+        "title": "Wärme- und Oberflächenbehandlungsspezifikation",
+        "iconName": "Zap",
+        "desc": "Vollständige Bearbeitungsreihenfolge definiert: Spannungsarmglühen vor der Bearbeitung, Schruppbearbeitung, Normalisieren oder Härten, Vor- und Endbearbeitungsstufen. Wärmebehandlungsbedingungen mit Temperatur (°C), Haltezeit, Abschreckmedium und Zielhärte spezifiziert. Oberflächenbehandlungsspezifikationen: Nitriertiefe, Randschichthärte, Aufkohlung oder Hartverchromung nach Bedarf."
+      },
+      {
+        "step": "06",
+        "title": "Materialbeschaffung und Fertigung",
+        "iconName": "Factory",
+        "desc": "Material gemäß PMI-identifizierter Spezifikation mit Werkszeugnis EN 10204 Typ 3.1 beschafft. CNC-Bearbeitung durch jede definierte Stufe mit prozessbegleitender Maßprüfung in jeder Stufe ausgeführt. Alle Prüfdaten in einem Fertigungsdatenpaket erfasst."
+      },
+      {
+        "step": "07",
+        "title": "Endprüfung und Lieferung",
+        "iconName": "CheckCircle2",
+        "desc": "Vollständiger Maßprüfbericht gegen die Konstruktionszeichnung. PMI-Nachprüfung am fertigen Bauteil bestätigt, dass durchgehend die korrekte Legierung verwendet wurde. Oberflächengütemessung. Härteprüfung an kritischen Flächen. Vollständiges Rückverfolgbarkeitsdokumentationspaket mit jedem Bauteil geliefert."
+      }
+    ],
+    "tools": [
+      {
+        "name": "3D-Laserscanner",
+        "detail": "Faro Focus / Creaform HandySCAN — 0,05 mm Genauigkeit",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "KMG — Koordinatenmessmaschine",
+        "detail": "Brücken- & tragbarer Armtyp, 0,001 mm Auflösung",
+        "iconName": "Target"
+      },
+      {
+        "name": "RFA-PMI-Analysator",
+        "detail": "Olympus Vanta — Legierungsidentifikation vor Ort",
+        "iconName": "Search"
+      },
+      {
+        "name": "Härteprüfgerät",
+        "detail": "Rockwell, Brinell, Vickers — Wärmebehandlungsverifikation",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Profilometer",
+        "detail": "Oberflächenrauheitstester — Ra-0,001-μm-Auflösung",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Kopierdrehmaschine",
+        "detail": "Digitalanzeige zur Nachbildung rotationssymmetrischer Bauteile",
+        "iconName": "Cog"
+      },
+      {
+        "name": "CAD-Software",
+        "detail": "SolidWorks / AutoCAD — GD&T-Zeichnungserstellung",
+        "iconName": "BookOpen"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 1101",
+        "desc": "Geometrische Tolerierung (GD&T) für Zeichnungen",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 286",
+        "desc": "Grenzmaß- und Passsystem für Wellen und Bohrungen",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 1302",
+        "desc": "Angabe der Oberflächenbeschaffenheit in technischen Zeichnungen",
+        "body": "ISO"
+      },
+      {
+        "code": "EN 10204",
+        "desc": "Materialrückverfolgbarkeitszeugnisse (Typ 3.1)",
+        "body": "EN"
+      },
+      {
+        "code": "ASTM E1417",
+        "desc": "PMI- und ZfP-Prüfnormen",
+        "body": "ASTM"
+      },
+      {
+        "code": "OEM-Spezifikation",
+        "desc": "Angeglichen an ursprünglichen OEM-Werkstoff und -Toleranzabsicht",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_4": {
+    "tagline": "Auswuchtung nach ISO-Norm — weil Rotorkräfte quadratisch mit der Drehzahl steigen",
+    "accentColor": "#d97706",
+    "keyStats": [
+      {
+        "value": "50–2000kg",
+        "label": "Rotorkapazität"
+      },
+      {
+        "value": "G1.0",
+        "label": "Erreichbare Auswuchtgüte"
+      },
+      {
+        "value": "0,001mm",
+        "label": "Messuhrauflösung"
+      },
+      {
+        "value": "ISO/API",
+        "label": "Zertifizierte Normen"
+      }
+    ],
+    "whyUs": "Ein Rotor bei 3.000 U/min erzeugt 100-mal mehr Unwuchtkraft als bei 300 U/min. Dieselbe Restunwucht, die bei niedriger Drehzahl unsichtbar ist, wird bei voller Drehzahl ein Lager zerstören. Wir wuchten nach ISO-1940-Güteklasse G1.0 aus, wo erforderlich — nicht nur 'gut genug'.",
+    "overview": "Rotorunwucht ist eine der häufigsten und am besten vermeidbaren Ursachen für Turbinenlagerausfall, Dichtungsschäden und verkürzte Rotorlebensdauer. Keshav Enterprises führt präzise Wellenzapfenbearbeitung und dynamisches Auswuchten nach ISO 1940 / API 670 für Rotoren von 50 kg bis 2.000 kg in unserer eigenen Werkstattanlage durch. Der Rotor wird zunächst bearbeitet, um die geometrische Integrität wiederherzustellen — runde Wellenzapfen, konzentrische Labyrinthbereiche, korrekte Oberflächengüte — bevor er ausgewuchtet wird. Diese Reihenfolge ist wichtig: Das Auswuchten eines geometrisch verzogenen Rotors verdeckt das Problem lediglich. Unsere Auswuchtberichte dokumentieren Anfangsunwucht, Korrekturebenen, Massenkorrekturen, Restunwucht und die erreichte ISO-Auswuchtgüte und bieten volle Rückverfolgbarkeit für Ihre Wartungsunterlagen.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Rotorannahme und Erstmessung",
+        "iconName": "Search",
+        "desc": "Rotor angenommen und gereinigt. Anfänglicher mechanischer Rundlauf mit Präzisionsmessuhren an allen Wellenzapfen, Kupplungssitzen und Labyrinthbereichen auf einem Präzisions-Statikständer gemessen. Elektrischer Rundlauf geprüft. Alle Durchmesser gemessen und gegen OEM-Spezifikation dokumentiert — Unrundheit, Konizität und Wellenzapfenuntermaß dokumentiert."
+      },
+      {
+        "step": "02",
+        "title": "Zustandsbewertung des Wellenzapfens",
+        "iconName": "Activity",
+        "desc": "Oberflächengüte an 3 Stellen um den Umfang jedes Wellenzapfens mit Profilometer gemessen. Sichtprüfung auf Riefen, Weißmetallübertragung, Korrosionsnarben und Verschleißmuster. Härte geprüft. Minimaler Materialabtrag berechnet, um Geometrie und Oberflächengüte innerhalb der OEM-Grenzen wiederherzustellen."
+      },
+      {
+        "step": "03",
+        "title": "Wellenzapfenschleifen und -polieren",
+        "iconName": "Cog",
+        "desc": "Präzises Rundschleifen der Wellenzapfen auf CNC-Schleifmaschine: Rundheit auf max. 0,005 mm wiederhergestellt, Konizität auf max. 0,005 mm pro 100 mm. Geschliffene Oberfläche mit Präzisionspoliermaschine auf Ra 0,4 μm (OEM-Lageroberflächenspezifikation) poliert. Absolut minimaler Materialabtrag zur Erhaltung der Wellenlebensdauer."
+      },
+      {
+        "step": "04",
+        "title": "Bearbeitung von Labyrinth- und Stopfbuchsbereich",
+        "iconName": "Hexagon",
+        "desc": "Nachbearbeitung von Labyrinthdichtungsbereichen, Stopfbuchsbereichen, Auswuchtscheibenflächen und Kupplungssitzen auf Präzisions-CNC-Drehmaschinen. Alle Flächen vor der Bearbeitung konzentrisch zum Wellenzapfen-Bezug ausgerichtet unter Verwendung eines Vierbackenfutters und Messuhr-Nullung — wesentlich zur Erhaltung der geometrischen Integrität des Rotors und zur Vermeidung neuen Rundlauffehlers."
+      },
+      {
+        "step": "05",
+        "title": "Dynamisches Auswuchten — Zweiebenen-Korrektur",
+        "iconName": "Target",
+        "desc": "Rotor in Hartlager-Auswuchtmaschine montiert. Anfangsunwucht gleichzeitig in zwei Korrekturebenen gemessen (Kupplungsseite und Regler-/Laufradseite). Testmassen angebracht und entfernt. Auswuchtiterationen wiederholt, bis die Restunwucht in jeder Ebene die für diesen Rotoreinsatz festgelegte ISO-1940- / API-670-Güte erfüllt."
+      },
+      {
+        "step": "06",
+        "title": "Rundlaufprüfung nach dem Auswuchten",
+        "iconName": "TrendingUp",
+        "desc": "Mechanischer und elektrischer Rundlauf nach dem Auswuchten an allen Wellenzapfenpositionen neu gemessen. Vergleich mit der Basislinie vor dem Auswuchten bestätigt die Verbesserung durch Bearbeitung und Auswuchten. Jeder Restrundlauffehler über den OEM-Grenzen wird untersucht — bei einer verbogenen Welle wird Richten oder Austausch empfohlen."
+      },
+      {
+        "step": "07",
+        "title": "Dokumentation und Versand",
+        "iconName": "BookOpen",
+        "desc": "Vollständiger Auswuchtbericht ausgestellt: Anfangsunwucht (g·mm), Korrekturebenenpositionen, angebrachte Korrekturmassen, endgültige Restunwucht in jeder Ebene, erreichte Auswuchtgüte (G1.0, G2.5, G6.3) und alle Rundlaufmessungen. PMI-Zertifikat und Härteprüfergebnisse beigefügt. Rotor verpackt und mit Dokumentation versandt."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Hartlager-Auswuchtmaschine",
+        "detail": "50–2.000 kg, 100–10.000 U/min Kapazität",
+        "iconName": "Activity"
+      },
+      {
+        "name": "CNC-Rundschleifmaschine",
+        "detail": "Präzisionsabrichtsystem, 0,001 mm Steuerung",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Präzisionspoliermaschine",
+        "detail": "Feinschliff auf Ra 0,4 μm Wellenzapfenoberfläche",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "Profilometer",
+        "detail": "Oberflächenrauheit — Ra-0,001-μm-Auflösung",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Präzisionsmessuhren",
+        "detail": "0,001 mm — Rundlauf- und Durchmessermessung",
+        "iconName": "Target"
+      },
+      {
+        "name": "Tragbarer Auswuchtanalysator",
+        "detail": "In-situ-Feldauswuchtungsfähigkeit",
+        "iconName": "Search"
+      },
+      {
+        "name": "Digitales Stroboskop",
+        "detail": "Phasenwinkelmessung für Auswuchtkorrekturen",
+        "iconName": "Zap"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 1940-1",
+        "desc": "Auswuchtgüteanforderungen für starre Rotoren",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 21940",
+        "desc": "Mechanische Schwingungen: Terminologie und Verfahren zur Rotorauswuchtung",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Überwachung von Schwingung, axialer Position und Lagertemperatur",
+        "body": "API"
+      },
+      {
+        "code": "API 612",
+        "desc": "Dampfturbinen für Sonderanwendungen — Auswuchtanforderungen",
+        "body": "API"
+      },
+      {
+        "code": "ISO 1101",
+        "desc": "Geometrische Tolerierung angewandt auf Bearbeitungszeichnungen",
+        "body": "ISO"
+      },
+      {
+        "code": "OEM-Spezifikation",
+        "desc": "Auswuchtgüten von Triveni, Siemens, BHEL, Man Turbo, KKK",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_5": {
+    "tagline": "ISO-4406-Sauberkeitsklasse 16/14/11 — zertifiziert vor Ölbefüllung",
+    "accentColor": "#0284c7",
+    "keyStats": [
+      {
+        "value": "16/14/11",
+        "label": "ISO-4406-Zielklasse"
+      },
+      {
+        "value": "6.000 L/min",
+        "label": "Max. Systemdurchflussrate"
+      },
+      {
+        "value": "3μm",
+        "label": "Endfiltrationsgrad"
+      },
+      {
+        "value": "100%",
+        "label": "Labor-zertifizierte Partikelzählung"
+      }
+    ],
+    "whyUs": "Neue und kürzlich überholte Turbinen werden innerhalb von Stunden nach dem ersten Anfahren durch Bauschutt — Schweißschlacke, Rohrzunder, Sand und Metallspäne — zerstört. Ölspülung ist nicht optional: Sie ist die kosteneffizienteste Versicherung gegen einen katastrophalen Lagerausfall bei einer brandneuen Überholung.",
+    "overview": "Schmierölsystemverunreinigung ist die Hauptursache für Lagerausfälle bei neuen und kürzlich überholten Turbinen. Bauschutt, der während der Installation oder Überholung in das Schmierölsystem gelangt, kann Lager und Wellenzapfenflächen innerhalb von Stunden nach dem Anfahren zerstören. Keshav Enterprises führt professionelle Schmierölspülung mit eigens gebauten mobilen Zentrifugen-Filtersystemen durch, um die ISO-4406:99-Sauberkeitsklasse 16/14/11 zu erreichen — den Mindeststandard für die Schmierung von Dampfturbinenlagern. Unser Prozess ist vollständig dokumentiert: Ölprobenergebnisse bei jeder Stufe, Aufzeichnungen der progressiven Filteraufrüstung und ein abschließendes labor-zertifiziertes Partikelzählungszertifikat werden vor der Rückgabe des Systems zur Ölbefüllung bereitgestellt.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Systemerhebung und Spülplan",
+        "iconName": "Search",
+        "desc": "Prüfung des System-R&I-Fließbilds, Ölvolumens, der Rohrdurchmesser, Wärmetauscherkonfiguration und Lagergehäuseanordnung. Entwicklung des Spülströmungswegs mittels hydraulischer Berechnungen zur Erreichung turbulenter Strömung (Reynolds-Zahl über 4.000) in jedem Rohrabschnitt. Temporäre Bypass-Rohrstücke und Blindflansche identifiziert und wo erforderlich ausgelegt."
+      },
+      {
+        "step": "02",
+        "title": "Installation des temporären Spülkreises",
+        "iconName": "Wrench",
+        "desc": "Installation temporärer Bypass-Rohrleitungen um Lager, Regelventile, Instrumentierung und andere empfindliche Anlagen, die keinem Spülschmutz ausgesetzt werden dürfen. Anschluss der mobilen Spüleinheit. Installation temporärer Drahtnetz-Zielsiebe an den Spülrücklaufpunkten zur Schmutzüberwachung."
+      },
+      {
+        "step": "03",
+        "title": "Erste Spülung — hohe Durchflussrate",
+        "iconName": "Droplets",
+        "desc": "System mit Spülöl (oder Prozessöl, falls kompatibel) befüllt. Spülpumpe mit maximal erreichbarer Durchflussrate für maximale Turbulenz betrieben. Öltemperatur zwischen 30 °C und 70 °C in 30-Minuten-Intervallen thermisch zykliert — thermisches Zyklieren beansprucht Rohrwände und löst anhaftenden Zunder und Schmutz. Zielsiebe bei jedem Intervall geprüft und gereinigt."
+      },
+      {
+        "step": "04",
+        "title": "Verunreinigungsüberwachung und Partikelzählung",
+        "iconName": "Activity",
+        "desc": "Ölproben nach ISO-4021-Reinprobenahmeverfahren bei jeder Stufe gezogen. Partikelzählung mit automatischem Partikelzähler nach ISO 11500 gemessen — Berichterstattung von Zählungen bei ≥4μm, ≥6μm, ≥14μm und ≥21μm. Ergebnisse in einem Sauberkeitsfortschrittsdiagramm gegen die ISO-4406-Zielklasse aufgetragen."
+      },
+      {
+        "step": "05",
+        "title": "Progressive Filteraufrüstung",
+        "iconName": "Layers",
+        "desc": "Sobald grobe Verunreinigung entfernt ist, wird die Mikronbewertung des Filterelements stufenweise reduziert: 25μm → 10μm → 6μm → 3μm absolut. Zentrifugen-Entwässerungseinheit während der gesamten Spülung kontinuierlich betrieben, um freies und emulgiertes Wasser zu entfernen. Karl-Fischer-Wassergehalt getestet, um die Wirksamkeit der Entwässerung zu bestätigen."
+      },
+      {
+        "step": "06",
+        "title": "Abschließende Abnahme-Partikelzählung",
+        "iconName": "CheckCircle2",
+        "desc": "Mindestens drei aufeinanderfolgende saubere Ölproben, in Intervallen gezogen, müssen alle die ISO-4406-Zielklasse 16/14/11 erreichen. Endproben zur unabhängigen Verifikation an ein akkreditiertes Labor gesendet. Schriftliches Ölsauberkeitszertifikat — unterzeichnet, gestempelt und rückverfolgbar zum Labor — an den Kunden ausgestellt."
+      },
+      {
+        "step": "07",
+        "title": "Systemwiederherstellung und Ölbefüllung",
+        "iconName": "Zap",
+        "desc": "Alle temporären Bypass-Rohrstücke und Blindflansche entfernt. Alle Lager, empfindlichen Instrumente und kritischen Anlagen wieder angeschlossen. System mit gefiltertem, neuem Prozessöl neu befüllt, während der Befüllung durch einen absoluten 3μm-Filter geleitet. Endgültige Partikelzählung im Systemöl nach der Befüllung bestätigt die Einhaltung des Ziels. System zum Anfahren übergeben."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Mobile Zentrifugen-Filtereinheit",
+        "detail": "Bis zu 6.000 L/min Systemdurchflussraten",
+        "iconName": "Droplets"
+      },
+      {
+        "name": "Automatischer Partikelzähler",
+        "detail": "ISO-11500-konform — Online-Echtzeitüberwachung",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Karl-Fischer-Titrator",
+        "detail": "Messung des freien Wassergehalts im Schmieröl",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Ölprobenahmeset",
+        "detail": "ISO-4021-Reinentnahme aus Druckleitungen",
+        "iconName": "Search"
+      },
+      {
+        "name": "Ölerhitzer",
+        "detail": "Thermisches Zyklieren: 30 °C bis 70 °C zur Schmutzlösung",
+        "iconName": "Zap"
+      },
+      {
+        "name": "Zielsieb-Set",
+        "detail": "25-, 10-, 3-μm-Maschenweite für stufenweise Schmutzüberwachung",
+        "iconName": "Filter"
+      },
+      {
+        "name": "Bypass-Rohrstück-Set",
+        "detail": "Kundenspezifisch gefertigte Bypass-Rohrstücke und Blindflansche",
+        "iconName": "Wrench"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 4406:99",
+        "desc": "Hydraulikflüssigkeits-Sauberkeitsklassifizierung — Ziel 16/14/11",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 11500",
+        "desc": "Partikelzählungsbestimmung mittels automatischer Methoden",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 4021",
+        "desc": "Hydraulikflüssigkeits-Verunreinigungsanalyse und Probenahme",
+        "body": "ISO"
+      },
+      {
+        "code": "API 614",
+        "desc": "Schmierung, Wellenabdichtung und Ölregelsysteme",
+        "body": "API"
+      },
+      {
+        "code": "ASTM D6304",
+        "desc": "Karl-Fischer-Wassergehaltsmessung in Schmierölen",
+        "body": "ASTM"
+      },
+      {
+        "code": "OEM-Spezifikation",
+        "desc": "Schmierölsauberkeitsanforderungen von Triveni, Siemens, BHEL, Man Turbo",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_6": {
+    "tagline": "Laserpräzisions-Ausrichtung — Beseitigung der Ursache Nr. 1 für Lagerausfall",
+    "accentColor": "#059669",
+    "keyStats": [
+      {
+        "value": "0,05mm",
+        "label": "Erreichte Ausrichtungstoleranz"
+      },
+      {
+        "value": "50%",
+        "label": "Lagerausfälle durch Fluchtungsfehler"
+      },
+      {
+        "value": "80%",
+        "label": "Lagerlebensdauerverlust bei 0,05 mm Versatz"
+      },
+      {
+        "value": "Jede Größe",
+        "label": "Abgedeckte Maschinenrahmengröße"
+      }
+    ],
+    "whyUs": "Ein Fluchtungsfehler von nur 0,05 mm an der Kupplung kann die Lagerlebensdauer um 80 % verkürzen und Kräfte erzeugen, die sich durch Dichtungen, Kupplungen und den gesamten Antriebsstrang fortpflanzen. Laserausrichtung dauert Stunden — ein Lagerausfall dauert Wochen und kostet weit mehr. Wir richten heiß aus, nicht nur kalt.",
+    "overview": "Wellenfluchtungsfehler sind für bis zu 50 % aller Lagerausfälle bei rotierenden Anlagen in der indischen Industrie verantwortlich. Selbst mit bloßem Auge unsichtbare Fluchtungsfehler erzeugen bei Betriebsdrehzahl enorme zyklische Kräfte auf Lager, Dichtungen und Kupplungen. Keshav Enterprises führt präzise Laser-Wellenausrichtung mit Pruftechnik- und SKF-Systemen für Turbinen, Getriebe, Pumpen, Ventilatoren, Generatoren und Asynchrongeneratoren jeder Rahmengröße durch. Entscheidend ist, dass wir Warmausrichtungsversätze berechnen und anwenden — die Kaltausrichtung wird bewusst so eingestellt, dass sie das thermische Wachstum berücksichtigt, sodass die Maschine bei Betriebstemperatur gerade läuft. Unsere Ausrichtungsberichte zeigen Vorher-/Nachher-Messwerte, Passstückhistorie und Endwerte gegen OEM-Toleranz.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Prüfungen vor der Ausrichtung",
+        "iconName": "Search",
+        "desc": "Verifikation des Weichfußzustands (Verformung des Maschinenrahmens beim Anziehen der Schrauben) mit Präzisionsmessuhren an allen Füßen — 0,05 mm oder weniger erforderlich, bevor die Ausrichtung fortgesetzt wird. Rohrspannungsmessung zur Identifizierung von Kräften, die durch angeschlossene Rohrleitungen auf Maschinenstutzen ausgeübt werden. Lagerspielmaßprüfung und Berechnung des thermischen Wachstums aus OEM-Daten oder Baustellenmessungen."
+      },
+      {
+        "step": "02",
+        "title": "Einrichtung des Laserausrichtungssystems",
+        "iconName": "Target",
+        "desc": "Montage von Laser-Sender- und Empfängerköpfen auf den Wellen mit Präzisions-Magnethalterungen. System genullt und Wellendrehtoleranz verifiziert. Alle relevanten Abmessungen in die Ausrichtungssoftware eingegeben: Kupplungsdurchmesser, Nabe-zu-Nabe-Wellenabstand und Messabstand. Halterungsdurchhang-Kompensation verifiziert und angewendet."
+      },
+      {
+        "step": "03",
+        "title": "Anfängliche Fluchtungsfehlermessung",
+        "iconName": "Activity",
+        "desc": "Wellen durch den Messbogen gedreht (drei Positionen: 12, 3 und 9 Uhr). Software berechnet den tatsächlichen Fluchtungsfehler: Winkelfehlausrichtung (mrad) und Versatz (mm) an der Kupplungsfläche sowie die erforderliche Korrektur an jedem Maschinenfuß gleichzeitig in vertikaler und horizontaler Ebene."
+      },
+      {
+        "step": "04",
+        "title": "Passstück- und Stellschraubenkorrektur",
+        "iconName": "Layers",
+        "desc": "Berechnete Passstückkorrekturen auf die stationären Maschinenfüße angewendet. Edelstahl-Präzisionspassstücke in der korrekten Konfiguration installiert oder entfernt, um vertikale Fluchtungsfehler zu korrigieren. Horizontale Korrektur mit Ausrichtungsstellschrauben an den Maschinenfüßen bei weiterhin aktivem Laser für Echtzeit-Rückmeldung während der Korrektur durchgeführt."
+      },
+      {
+        "step": "05",
+        "title": "Warmausrichtungskompensation",
+        "iconName": "Zap",
+        "desc": "Thermisches Wachstum des Maschinengehäuses von kalt zu Betriebstemperatur aus OEM-Wärmewachstumsdaten berechnet oder mittels DBSE-Überwachung (Abstand zwischen Wellenenden) und Wärmebildgebung gemessen. Kaltausrichtungsziel bewusst versetzt, sodass die Maschine bei Volllast und -temperatur die korrekte Warmlaufausrichtung erreicht."
+      },
+      {
+        "step": "06",
+        "title": "Endmessung und Toleranzverifikation",
+        "iconName": "CheckCircle2",
+        "desc": "Endgültige Lasermessung bestätigt Ausrichtung innerhalb der OEM-Toleranz — typischerweise: Winkelfehlausrichtung max. 0,05 mrad, Versatz max. 0,05 mm an der Kupplung. Alle vier Füße auf Weichfuß von 0,05 mm oder weniger nachgeprüft. Kupplungsschrauben mit kalibriertem digitalem Drehmomentschlüssel auf OEM-Spezifikation angezogen."
+      },
+      {
+        "step": "07",
+        "title": "Ausrichtungsbericht und Schraubendrehmoment",
+        "iconName": "BookOpen",
+        "desc": "Detaillierter Ausrichtungsbericht von der Lasersystem-Software erstellt: Messwerte vor der Ausrichtung, Passstückänderungen an jedem Fuß, angewendete Korrekturvektoren und endgültig erreichte Werte gegen OEM-Toleranz. Fundamentbolzendrehmomente erfasst. Bericht unterzeichnet und ausgestellt — bildet Teil der Wartungsdatenbasis für zukünftige Ausrichtungen."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Pruftechnik Rotalign Pro",
+        "detail": "OPTALIGN-Serie — drahtlose Laserausrichtung",
+        "iconName": "Target"
+      },
+      {
+        "name": "SKF TKSA 71",
+        "detail": "Drahtlose Laserausrichtung mit App-basierter Berichterstattung",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Präzisionsmessuhren",
+        "detail": "Weichfußmessung — 0,001 mm Auflösung",
+        "iconName": "Cog"
+      },
+      {
+        "name": "SS-Präzisionspassstücksätze",
+        "detail": "0,025 bis 3,0 mm in 0,025-mm-Schritten",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Digitale Drehmomentschlüssel",
+        "detail": "Kupplungs- und Fundamentbolzenanzug",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Schwingungsanalysator",
+        "detail": "Schwingungsvergleich vor und nach der Ausrichtung",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Wärmebildkamera",
+        "detail": "Heißlager- und Kupplungstemperaturprüfung",
+        "iconName": "Zap"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 10816-3 / 20816-3",
+        "desc": "Schwingungsschwerebewertung für Maschinen >15 kW",
+        "body": "ISO"
+      },
+      {
+        "code": "API 686",
+        "desc": "Empfohlene Praxis für Maschineninstallation und -ausrichtung",
+        "body": "API"
+      },
+      {
+        "code": "ASME B31.3",
+        "desc": "Prozessrohrleitungs-Stutzenbelastungsgrenzen an Maschinenanschlüssen",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 1940",
+        "desc": "Restunwuchtgrenzen nach Ausrichtungskorrektur",
+        "body": "ISO"
+      },
+      {
+        "code": "API 612",
+        "desc": "Dampfturbinen für Sonderanwendungen — Ausrichtungsanforderungen",
+        "body": "API"
+      },
+      {
+        "code": "OEM-Toleranz",
+        "desc": "Ausrichtungsspezifikationen von Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_7": {
+    "tagline": "Ursache gefunden. Korrekturmaßnahme durchgeführt. Turbine wieder in Betrieb.",
+    "accentColor": "#dc2626",
+    "keyStats": [
+      {
+        "value": "24×7",
+        "label": "Notfalleinsatz"
+      },
+      {
+        "value": "10+",
+        "label": "OEM-Fabrikate diagnostiziert"
+      },
+      {
+        "value": "FFT+Wärmebild",
+        "label": "Doppelte Diagnosemethode"
+      },
+      {
+        "value": "48h",
+        "label": "Trendüberwachung nach der Reparatur"
+      }
+    ],
+    "whyUs": "Eine falsch diagnostizierte Störung, die ohne Ermittlung der Ursache repariert wird, wird erneut ausfallen — oft schneller als beim ersten Mal. Wir raten nicht. Wir messen, analysieren das Spektrum, zerlegen nur das, was die Daten anzeigen, bestätigen die Ursache physisch und beheben sie mit demselben Team, das sie gefunden hat.",
+    "overview": "Ungeplante Turbinenabschaltungen und unerklärliche Leistungsverschlechterung kosten Industrieanlagen jährlich Millionen an Produktionsausfällen. Keshav Enterprises setzt Ex-OEM-Störungsbehebungsingenieure mit vollständiger Diagnoseinstrumentierung ein, um die genaue Ursache jeder Dampfturbinenstörung zu identifizieren, zu dokumentieren und zu beheben — von hoher Vibration und Lagerausfall bis zu Reglerinstabilität, Ölverunreinigung und Dampfleckage. Wir decken alle Turbinenfabrikate von 5 kW bis 60 MW über das gesamte Spektrum der indischen Prozess- und Energieindustrie ab. Unsere Methodik ist systematisch: zunächst Online-Messung, durch Daten gezielte physische Inspektion, schriftlich bestätigte Ursache und Korrekturmaßnahme durch dasselbe Team ausgeführt, das die Störung diagnostiziert hat.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Notfallmobilisierung und Baustellendatenerfassung",
+        "iconName": "Zap",
+        "desc": "24×7-Reaktionseinsatz vor Ort mit vollständigem Diagnosekit. Erfassung aller verfügbaren Betriebsdaten: Schwingungshistorie, DCS-Auslöseprotokolle, Ölanalyseberichte, Lagertemperaturtrends, Dampfzustandsprotokolle und Wartungsaufzeichnungen. Befragung des Betriebs- und Wartungspersonals, das das Störungsereignis miterlebt hat."
+      },
+      {
+        "step": "02",
+        "title": "Basisschwingungs- und Leistungsmessung",
+        "iconName": "Activity",
+        "desc": "Online-Schwingungsmessung an allen Lagergehäusen: Gesamtschwingungspegel (mm/s RMS), Echtzeit-FFT-Spektralanalyse, 1X- und 2X-Amplitude und -Phasenwinkel, subsynchrone und hochfrequente Komponenten. Dampfeintritts-/Abdampfdruck, -temperatur und -durchfluss mit Auslegungsleistung verglichen. Lagertemperaturen mit Wärmebildkamera erfasst."
+      },
+      {
+        "step": "03",
+        "title": "Störungssignaturidentifikation und Hypothese",
+        "iconName": "Search",
+        "desc": "Analyse von Schwingungsspektrum, Phasendaten, Lagertemperaturkarte und Ölprobenergebnissen zur Erstellung der Störungssignatur. Jede potenzielle Ursache systematisch gegen gemessene Nachweise abgeglichen: Unwucht (dominante 1X), Fluchtungsfehler (dominante 2X), Lagerverschleiß (subsynchrone oder Lagerdefektfrequenzen), Anstreifen (Subharmonische, hohe 1X), Lockerheit (mehrere Harmonische) oder Dampfpfadverschmutzung (thermischer Verzug)."
+      },
+      {
+        "step": "04",
+        "title": "Gezielte Zerlegung und physische Inspektion",
+        "iconName": "Wrench",
+        "desc": "Minimalinvasive Demontage, ausschließlich auf die vermutete Störungszone ausgerichtet — keine vollständige Zerlegung, es sei denn, die Daten erfordern dies. Physische Messung von Lagerspielmaßen, Wellenrundlauf, Kupplungsausrichtung, Stopfbuchsdichtungsspielmaßen und Labyrinthdichtungspassungen im Vergleich zur OEM-Spezifikation. Alle Befunde fotografiert und maßlich dokumentiert."
+      },
+      {
+        "step": "05",
+        "title": "Ursachenbestätigung und schriftlicher RCA-Bericht",
+        "iconName": "BookOpen",
+        "desc": "Formeller Ursachenanalysebericht (RCA), der Maschinendaten, Zerlegungsmessungen und OEM-Spezifikationsvergleich kombiniert. Ursache klassifiziert und schriftlich bestätigt. Mitwirkende Faktoren identifiziert. Korrekturmaßnahmenplan mit Prioritätseinstufung, benötigten Teilen, geschätzter Ausfallzeit und empfohlenen Präventivmaßnahmen vor Arbeitsbeginn an den Kunden ausgestellt."
+      },
+      {
+        "step": "06",
+        "title": "Durchführung der Korrekturmaßnahme",
+        "iconName": "Cog",
+        "desc": "Direkte Durchführung der Korrekturmaßnahme durch dasselbe Störungsbehebungsteam: Rotorneuauswuchtung, Lageraustausch und Spielmaßeinstellung, Laserausrichtungskorrektur, Stopfbuchsdichtungs- und Labyrinthpackungsaustausch, Schmierölsystemspülung auf ISO 4406, Reglerüberholung und -kalibrierung oder Steuerungssystemkalibrierung. Alle Korrekturarbeiten gegen OEM-Spezifikation dokumentiert."
+      },
+      {
+        "step": "07",
+        "title": "Inbetriebnahme nach Reparatur und 48-Stunden-Trendüberwachung",
+        "iconName": "TrendingUp",
+        "desc": "Überwachter Neustart mit kontinuierlicher Schwingungs- und Lagertemperaturdatenerfassung während des Drehzahlhochlaufs. Schwingungspegel nach der Reparatur mit Basislinie vor der Störung und OEM-Abnahmegrenzen (ISO 10816-3) verglichen. Kontinuierliche 48-Stunden-Trendüberwachung bei Volllast, bevor ein schriftlicher Freigabebericht ausgestellt und die Turbine in den unbeaufsichtigten Betrieb zurückgeführt wird."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Mehrkanal-Schwingungsanalysator",
+        "detail": "Echtzeit-FFT — Klasse CSI 2140 / SKF Microlog",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Näherungssonden",
+        "detail": "Wirbelstrom-Wellenschwingung — Norm API 670",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Wärmebildkamera",
+        "detail": "FLIR / Testo — Lager- und Dampfpfad-Wärmeprüfung",
+        "iconName": "Zap"
+      },
+      {
+        "name": "Stroboskop + Phasenreferenz",
+        "detail": "1X-Amplituden- und Phasenwinkelmessung",
+        "iconName": "Search"
+      },
+      {
+        "name": "Tragbarer Ölpartikelzähler",
+        "detail": "ISO 11500 — Schmierölverunreinigung vor Ort",
+        "iconName": "Droplets"
+      },
+      {
+        "name": "Endoskop",
+        "detail": "Starr & flexibel — Schaufelinspektion ohne vollständige Zerlegung",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "RFA-PMI-Analysator",
+        "detail": "Legierungsidentifikation ausgefallener Bauteile",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Laser-Wellenausrichtungssystem",
+        "detail": "Kupplungs- und Lagerausrichtungsbestätigung",
+        "iconName": "Target"
+      },
+      {
+        "name": "Karl-Fischer-Titrator",
+        "detail": "Freier Wassergehalt im Schmieröl — Verunreinigungsprüfung",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Reglerkalibrierungsausrüstung",
+        "detail": "Drehzahlreferenz- und Steuerungssysteminstrumente",
+        "iconName": "Cog"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 10816-3 / 20816-3",
+        "desc": "Schwingungsschwellenwerte für Industriemaschinen >15 kW",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Maschinenschutz: Schwingung, axiale Position, Temperatur",
+        "body": "API"
+      },
+      {
+        "code": "API 612",
+        "desc": "Dampfturbinen für Sonderanwendungen im Erdöl- und Chemiebereich",
+        "body": "API"
+      },
+      {
+        "code": "ISO 4406:99",
+        "desc": "Schmierölsauberkeitsklassifizierung",
+        "body": "ISO"
+      },
+      {
+        "code": "ASME PTC 6",
+        "desc": "Dampfturbinen-Leistungsprüfcode für Wirkungsgrad-Benchmarking",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 14224",
+        "desc": "Zuverlässigkeits- und Wartungsdatenerfassung für Anlagen",
+        "body": "ISO"
+      },
+      {
+        "code": "OEM-Handbücher",
+        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB",
+        "body": "OEM"
+      }
+    ],
+    "faultMatrix": [
+      {
+        "symptom": "Hohe Vibration — 1X dominant",
+        "causes": [
+          "Rotorunwucht (Rest- oder ablagerungsbedingt)",
+          "Rotorverzug (thermisch oder mechanisch)",
+          "Übermäßiges Lagerspielmaß"
+        ],
+        "action": "Dynamisches Auswuchten, Rotorinspektion, Lageraustausch"
+      },
+      {
+        "symptom": "Hohe Vibration — 2X dominant",
+        "causes": [
+          "Wellenfluchtungsfehler (winklig oder Versatz)",
+          "Kupplungsfehler",
+          "Gehäuseverzug / Rohrspannung"
+        ],
+        "action": "Laserausrichtung, Kupplungsinspektion, Rohrspannungsmessung"
+      },
+      {
+        "symptom": "Subsynchrone Vibration",
+        "causes": [
+          "Ölwirbel/-schlag in Wellenzapfenlagern",
+          "Anstreif-induzierte Instabilität",
+          "Lockerer Lagersitz"
+        ],
+        "action": "Lagerspielmaß-Rücksetzung, Schmieröldruck-/Viskositätsprüfung, Anstreifspielmaßinspektion"
+      },
+      {
+        "symptom": "Hochfrequenzschwingung (>3X)",
+        "causes": [
+          "Schaufelverschmutzung oder -erosion",
+          "Lockerheit im Fundament oder Lagerdeckel",
+          "Zahnradfehler (Getriebe)"
+        ],
+        "action": "Schaufelinspektion (Endoskop), Lagerdeckel-Drehmomentprüfung, Getriebeinspektion"
+      },
+      {
+        "symptom": "Lagerölverunreinigung / Wasser im Öl",
+        "causes": [
+          "Verschleiß der Kohleringdichtung",
+          "Sperrdampfdruck zu hoch",
+          "Kondensateintrag über Abdampf"
+        ],
+        "action": "Kohleringaustausch, Sperrdampfdruck-Rücksetzung, Schmierölsystemspülung"
+      },
+      {
+        "symptom": "Dampfstopfbuchsleckage",
+        "causes": [
+          "Labyrinthdichtungsverschleiß (übermäßiges Spielmaß)",
+          "Stopfbuchspackung verschlissen oder beschädigt",
+          "Sperrdampfdruck falsch eingestellt"
+        ],
+        "action": "Labyrinthdichtungsaustausch, Stopfbuchspackungsaustausch, Sperrdampfreglerkalibrierung"
+      },
+      {
+        "symptom": "Reglerpendeln / Drehzahlinstabilität",
+        "causes": [
+          "Reglergestängeverschleiß oder Klemmen",
+          "Verschmutztes Öl / Schlamm im PG-PL-Regler",
+          "Fehlausgleich des Kompensationsnadelventils"
+        ],
+        "action": "Reglergestängeüberholung, Reglerölspülung und -nachfüllung, Nadelventil-Neukalibrierung"
+      },
+      {
+        "symptom": "Niederdruck-Schmierölauslösung",
+        "causes": [
+          "Ölpumpenverschleiß",
+          "Ölkühlerverschmutzung / hohe Öltemperatur",
+          "Überdruckventil klemmt offen",
+          "Niedriger Ölstand oder Kavitation"
+        ],
+        "action": "Ölpumpeninspektion, Kühlerreinigung, Überdruckventilinspektion, Ölstand- und Systemprüfung"
+      },
+      {
+        "symptom": "Überdrehzahlauslösung — falsch oder tatsächlich",
+        "causes": [
+          "Auslösestiftverschleiß oder falsche Einstellung",
+          "Reglerventil lässt Dampf durch",
+          "Aktuator- oder Regelölfehler"
+        ],
+        "action": "Auslösestiftinspektion und -neueinstellung, Reglerventilsitzinspektion, Steuerungssystemprüfung"
+      },
+      {
+        "symptom": "Leistungsabgabe- / Wirkungsgradverlust",
+        "causes": [
+          "Schaufelverschmutzung (Dampfreinheit / Einspritzwasserverunreinigung)",
+          "Dichtstreifenverschleiß (erhöhter Dampf-Bypass)",
+          "Düsenerosion oder -verstopfung"
+        ],
+        "action": "Endoskopinspektion, Dichtstreifenaustausch, Düseninspektion und -reinigung"
+      }
+    ]
+  }
+}

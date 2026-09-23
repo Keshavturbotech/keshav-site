@@ -1,0 +1,157 @@
+{
+  "srv_1": {
+    "id": "srv_1",
+    "image": "service-turbine-erection.webp",
+    "title": "Türbin Montajı ve Devreye Alma",
+    "desc": "Buhar türbinleri, pompalar, kompresörler, fanlar, kondansatörler, EOT vinçler ve buhar/su/hava boru hattı işleri için uzman montaj ve devreye alma. Tam OEM koordinasyonu ve dokümantasyon içerir.",
+    "details": [
+      "Buhar türbinleri, pompalar, kompresörler, fanlar, kondansatörler",
+      "EOT vinçler, çelik yapı ve boru hattı işleri",
+      "OEM şartnamelerine ve geçerli standartlara göre inşaat denetimi",
+      "Tüm aşamalarda OEM ile koordinasyon",
+      "Operasyona devir için tam dokümantasyon",
+      "Devreye alma öncesi prosedürlerin geliştirilmesi ve uygulanması",
+      "Başlatma ve operasyonel ihtiyaçlara göre ince ayar desteği"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "Belliss India",
+      "Maxwatt"
+    ],
+    "slug": "turbine-erection-and-commissioning"
+  },
+  "srv_2": {
+    "id": "srv_2",
+    "image": "service-overhauling.webp",
+    "title": "Anahtar Teslim Revizyon ve Bakım",
+    "desc": "Triveni, Siemens, BHEL, Belliss ve daha fazlasından OEM kökenli mühendisler tarafından yürütülür. Duruş öncesi planlama, sahada durum raporlama, kapsamlı yedek parça yönetimi ve 7/24 acil arıza giderme içerir.",
+    "details": [
+      "Döner ekipmanların detaylı kapsamıyla duruş öncesi planlama",
+      "Eksiklik raporlarıyla stoklu yedek parçaların sahada incelenmesi",
+      "OEM kökenli mühendisler: Triveni, Belliss, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
+      "Tüm boşluklar, aralıklar ve ölçüler kaydedilir",
+      "Her bileşen için önerilerle durum raporu",
+      "Anahtar teslim esas: araç, takım, sarf malzemesi ve işgücü sağlanır",
+      "Birden fazla lokasyonda mühendislerle 7/24 acil müdahale"
+    ],
+    "oems": [
+      "Triveni",
+      "Belliss India",
+      "Maxwatt",
+      "Man Turbo",
+      "BHEL",
+      "Siemens",
+      "KKK",
+      "ABB"
+    ],
+    "slug": "turnkey-overhauling-and-maintenance"
+  },
+  "srv_3": {
+    "id": "srv_3",
+    "image": "service-reverse-engineering.webp",
+    "title": "Hassas Tersine Mühendislik",
+    "desc": "5 kW ile 60 MW arası türbinler için 3D lazer tarayıcılar, CMM ve kopya tornalar kullanılarak PMI doğrulamalı tersine mühendislik. Toleranslar, konsentrisite, ısıl işlem öncesi/sonrası şartnameleriyle tam imalat çizimleri üretir.",
+    "details": [
+      "Sahada/atölyede 3D Lazer Tarayıcı, CMM ve Koordinat Ölçüm Makinesi",
+      "Malzeme bileşiminin tam tanımlanması için PMI testi",
+      "Hassas boyutsal replikasyon için kopya torna",
+      "Toleranslar, yüzey işleme, paralellik, konsentrisite ile mühendislik çizimleri",
+      "Isıl işlem öncesi/sonrası şartnameleri dahildir",
+      "Kaba işleme, ön-final ve final işleme çizimleri",
+      "5 kW'dan 60 MW'a kadar türbinleri kapsar (Karşı Basınçlı veya Kondansasyonlu)",
+      "Tek/çok kademeli, Tahrik veya Güç, Yatay veya Dikey"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "All Makes"
+    ],
+    "slug": "precision-reverse-engineering"
+  },
+  "srv_4": {
+    "id": "srv_4",
+    "image": "service-dynamic-balancing.webp",
+    "title": "Dinamik Balans ve Rotor İşleme",
+    "desc": "Atölye tornalarımızda hassas rotor işleme (taşlama, parlatma, mil alt boyutlandırma), ayrıca 50 ile 2000 kg arası ISO/API standardında dinamik balans ve tam uyumluluk raporlaması.",
+    "details": [
+      "Minimum alt boyutlandırma tekniğiyle mil taşlama ve parlatma",
+      "Hassas tornalarda labirent bölümü işleme",
+      "İşlemeden önce rotor tüm bölümlerde konsentrik hale getirilir",
+      "ISO/API standartlarına göre 50-2000 kg dinamik balans",
+      "En son titreşim izleme sistemlerine sahip balans makineleri",
+      "Kurulum öncesi mekanik ve elektriksel salgı tespiti",
+      "ISO/API uyumluluğunu belgeleyen kapsamlı balans raporu"
+    ],
+    "oems": [
+      "All Turbine Makes"
+    ],
+    "slug": "dynamic-balancing-and-rotor-machining"
+  },
+  "srv_5": {
+    "id": "srv_5",
+    "image": "service-lube-oil-flushing.webp",
+    "title": "Yağlama Yağı Yıkama",
+    "desc": "Özel yapım mobil santrifüj filtre sistemleri kullanılarak ISO uyumlu yıkama. İnşaat sonrası veya planlı bakım sırasında maksimum temizlik ve su giderme sağlar.",
+    "details": [
+      "Özel yapım mobil santrifüj filtre sistemi",
+      "ISO 4406:99 standartlarına göre sistem temizliğini hedefler",
+      "Yağ numunelemesi ve raporlama ISO standartlarına göre yapılır",
+      "İnşaat sonrası ve planlı bakım için etkilidir",
+      "Üstün su giderme ve kontaminasyon temizliği",
+      "4 ile 25 mikron arası katı parçacık giderme",
+      "6.000 l/dak'ya kadar sistem debisi işlenir"
+    ],
+    "oems": [
+      "All Systems"
+    ],
+    "slug": "lube-oil-flushing"
+  },
+  "srv_6": {
+    "id": "srv_6",
+    "image": "service-machine-alignment.webp",
+    "title": "Makine Hizalama",
+    "desc": "Ekipman arızalarının başlıca nedenlerinden biri olan hizasızlığı ortadan kaldırmak için en son teknolojiyle uzman makine hizalama. Türbinler, dişli kutuları, pompalar, fanlar, alternatörler ve indüksiyon jeneratörlerini kapsar.",
+    "details": [
+      "Türbinden dişli kutusuna ve dişli kutusundan değirmen dişli kutusuna hizalama",
+      "Fan, pompa, alternatör, indüksiyon jeneratörü hizalama",
+      "Herhangi bir gövde boyutunda makine tesviyesi ve boru gerilimi ölçümleri",
+      "Elyaflandırıcı, parçalayıcı hizalama",
+      "En yüksek standartlar için en son hizalama teknolojisi",
+      "Kesin sonuçlarla detaylı hizalama raporlaması",
+      "Herhangi bir yerde herhangi bir makine gövde boyutunu kapsar"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "machine-alignment"
+  },
+  "srv_7": {
+    "id": "srv_7",
+    "image": "service-troubleshooting.webp",
+    "title": "Arıza Giderme Hizmeti",
+    "desc": "Titreşim, yatak arızası, gövernör kararsızlığı, buhar kaçağı, yağ kontaminasyonu veya beklenmedik tripler yaşayan buhar türbinleri için hızlı sahada arıza teşhisi. OEM kökenli mühendisler, kök neden tespiti ve düzeltici eylem için tam teşhis enstrümantasyonuyla sahaya çıkar.",
+    "details": [
+      "Yüksek titreşim — dengesizlik, hizasızlık, yatak aşınması, sürtünme teşhisi",
+      "Gövernör salınımı, hız kararsızlığı ve aşırı hız trip araştırması",
+      "Yatak yağı kontaminasyonu — karbon halka salmastra ve yağlama sistemi analizi",
+      "Buhar salmastra kaçağı — labirent salmastra, conta ve salmastra buhar basıncı sorunları",
+      "Kanat kirlenmesi, erozyon ve buhar yolu verimlilik kaybı analizi",
+      "Beklenmedik trip araştırması — yağ basıncı, sıcaklık ve kontrol sistemi arızaları",
+      "Tüm teşhis ekipmanıyla Hindistan genelinde 7/24 acil müdahale"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "Belliss India",
+      "Maxwatt",
+      "Man Turbo",
+      "KKK",
+      "ABB"
+    ],
+    "slug": "troubleshooting-service"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "dl_1": {
+    "id": "dl_1",
+    "title": "Türbin Revizyon Kontrol Listesi",
+    "desc": "Büyük ve küçük türbin revizyonları için adım adım kontrol listesi. Boşluklar, balans, tork onayı ve devreye alma öncesi kontrolleri kapsar.",
+    "category": "Bakım",
+    "tags": [
+      "Türbin",
+      "Revizyon",
+      "Kontrol Listesi"
+    ],
+    "fileSize": "420 KB",
+    "fileType": "PDF",
+    "file": "turbine-overhaul-checklist.pdf",
+    "featured": true
+  },
+  "dl_2": {
+    "id": "dl_2",
+    "title": "Filtre Elemanı Veri Sayfası — Yağlama Yağı",
+    "desc": "Keshav Enterprises tarafından tedarik edilen tüm yağlama yağı filtre elemanları için teknik değerler, diferansiyel basınç eğrileri ve uyumluluk tablosu.",
+    "category": "Veri Sayfaları",
+    "tags": [
+      "Filtrasyon",
+      "Yağlama Yağı",
+      "Veri Sayfası"
+    ],
+    "fileSize": "1.2 MB",
+    "fileType": "PDF",
+    "file": "filter-element-datasheet-lube-oil.pdf",
+    "featured": false
+  },
+  "dl_3": {
+    "id": "dl_3",
+    "title": "Yağlama Yağı Yıkama Kontrol Listesi",
+    "desc": "ISO uyumlu yıkama prosedürü kontrol listesi. Mobil santrifüj kurulumu, yağ numune alma protokolü, temizlik doğrulaması ve onayı kapsar.",
+    "category": "Bakım",
+    "tags": [
+      "Yağlama Yağı",
+      "Yıkama",
+      "ISO"
+    ],
+    "fileSize": "310 KB",
+    "fileType": "PDF",
+    "file": "lube-oil-flushing-checklist.pdf",
+    "featured": false
+  },
+  "dl_4": {
+    "id": "dl_4",
+    "title": "Yatak Seçimi ve Boşluk Referansı",
+    "desc": "Yaygın buhar türbini markaları için yatak seçimi, mil boşlukları ve radyal/eksenel toleranslar için hızlı referans kılavuzu.",
+    "category": "Teknik Kılavuzlar",
+    "tags": [
+      "Yataklar",
+      "Boşluklar",
+      "Referans"
+    ],
+    "fileSize": "680 KB",
+    "fileType": "PDF",
+    "file": "bearing-selection-clearance-reference.pdf",
+    "featured": false
+  },
+  "dl_5": {
+    "id": "dl_5",
+    "title": "Türbin Teklif Talebi Şablonu",
+    "desc": "Onarım veya revizyon teklifi talep etmek için boş türbin şartname formu. Marka, model, güç ve servis geçmişinizi doldurun.",
+    "category": "Teklif Talebi / Formlar",
+    "tags": [
+      "Teklif Talebi",
+      "Şablon",
+      "Teklif"
+    ],
+    "fileSize": "185 KB",
+    "fileType": "XLSX",
+    "file": "turbine-rfq-template.xlsx",
+    "featured": true
+  },
+  "dl_6": {
+    "id": "dl_6",
+    "title": "Keshav Enterprises Şirket Profili",
+    "desc": "Satın alma ekipleri ve tesis müdürleri için kapasite sunumu. Hizmetler, OEM kapsamı, atölye ekipmanı ve referans projeleri kapsar.",
+    "category": "Şirket",
+    "tags": [
+      "Profil",
+      "Kapasite",
+      "Broşür"
+    ],
+    "fileSize": "3.4 MB",
+    "fileType": "PDF",
+    "file": "keshav-enterprises-company-profile.pdf",
+    "featured": false
+  }
+}

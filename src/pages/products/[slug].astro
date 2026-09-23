@@ -1,0 +1,215 @@
+---
+// src/pages/products/[slug].astro
+// Ported from ProductDetailPage in App.jsx (line ~14258).
+// Renamed from [id].astro → [slug].astro: URLs are now /products/<readable-name>
+// instead of /products/prod_f2, using the `slug` field added to each Product
+// in data/products.ts (derived from title, `id` stays the internal key).
+import Layout from "../../layouts/Layout.astro";
+import ProductDetailInteractive from "../../components/islands/ProductDetailInteractive.jsx";
+import RecentlyViewedStrip from "../../components/islands/RecentlyViewedStrip.jsx";
+import RichProductCard from "../../components/islands/RichProductCard.jsx";
+import type { Product } from "../../data/products";
+import { PRODUCTS as PRODUCTS_EN } from "../../data/products";
+import { buildProductImageMap, hasLocalImage } from "../../lib/productImages";
+import { getLocalizedList } from "../../lib/i18n";
+import { localizedPath } from "../../lib/localeMeta";
+import { buildSeoTitle } from "../../lib/seo";
+
+export function getStaticPaths() {
+  // Route generation stays keyed off the English (build-time, locale-
+  // agnostic) product list — per-locale static path generation is Phase 3/4
+  // scope (Astro i18n routing), not this data-layer migration. Same pattern
+  // as services/[slug].astro.
+  return PRODUCTS_EN.map((product) => ({
+    params: { slug: product.slug },
+    props: { product },
+  }));
+}
+
+const locale = Astro.currentLocale ?? "en";
+const { product: productEn } = Astro.props;
+const PRODUCTS = getLocalizedList<Product>("products", locale);
+const product = PRODUCTS.find((p) => p.id === productEn.id) ?? productEn;
+const SITE_URL = "https://www.keshavturbotech.com";
+
+// RecentlyViewedStrip can surface ANY product client-side (it's driven by
+// localStorage), so it needs an optimized-URL entry covering every product's
+// images, not just this page's. Cheap in practice: buildProductImageMap only
+// does real work for filenames it finds under src/assets/products/, and
+// results are cached across the whole `astro build` run.
+const imageMap = await buildProductImageMap(PRODUCTS.flatMap((p) => p.images));
+
+// Only ever reference a product photo in metadata (schema.org `image`,
+// og:image) when the file genuinely exists on disk. Emitting a URL that
+// 404s is worse than omitting the field — Google's structured data
+// validator checks image reachability and flags unreachable Product
+// images, and social platforms show a broken card instead of no image.
+const firstImage = product.images?.[0];
+const verifiedImageUrl = firstImage && hasLocalImage(firstImage) ? `${SITE_URL}/${firstImage}` : undefined;
+
+// RecentlyViewedStrip only ever renders id/slug/title/category/first-image
+// (see its source) but was receiving the FULL localized PRODUCTS array —
+// every product's desc/usage/features/specs/priceRange/availability,
+// serialized into this page's client-hydration payload even though none of
+// it is used. That one line was ~470KB of the ~1MB this page shipped,
+// multiplied by every product page across all 17 locales (found while
+// investigating the 3.7GB build-output size flagged in Part 3). Trimming to
+// only the fields the component actually reads cuts that to a few KB.
+const recentlyViewedProducts = PRODUCTS.map((p) => ({
+  id: p.id,
+  slug: p.slug,
+  title: p.title,
+  category: p.category,
+  images: p.images?.[0] ? [p.images[0]] : [],
+}));
+
+// Related products: same category first (up to 3), then deterministic cross-category fill.
+const sameCat = PRODUCTS.filter((p) => p.categorySlug === product.categorySlug && p.id !== product.id).slice(0, 3);
+let related = sameCat;
+if (sameCat.length < 3) {
+  const seed = product.id.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0);
+  const crossCat = PRODUCTS.filter((p) => p.categorySlug !== product.categorySlug && p.id !== product.id)
+    .sort((a, b) => {
+      const ha = (a.id.charCodeAt(0) * 2654435761 + seed) >>> 0;
+      const hb = (b.id.charCodeAt(0) * 2654435761 + seed) >>> 0;
+      return ha - hb;
+    })
+    .slice(0, 3 - sameCat.length);
+  related = [...sameCat, ...crossCat];
+}
+
+const productSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      name: product.title,
+      description: product.desc,
+      category: product.category,
+      sku: product.sku,
+      ...(verifiedImageUrl ? { image: verifiedImageUrl } : {}),
+      brand: { "@type": "Brand", name: "Keshav Enterprises" },
+      // Surfaces the product's existing spec sheet (pressure/temperature
+      // ratings, materials, OEM interchange numbers, compatible turbine
+      // models, HSN code, etc.) as schema.org PropertyValue pairs so Google
+      // can index compatibility/spec data for rich results — no new data,
+      // just structuring what `specs` already holds.
+      ...(product.specs && Object.keys(product.specs).length > 0
+        ? {
+            additionalProperty: Object.entries(product.specs)
+              .filter(([, value]) => value !== undefined)
+              .map(([name, value]) => ({
+                "@type": "PropertyValue",
+                name,
+                value,
+              })),
+          }
+        : {}),
+      // Clean, per-code certification entries (parsed from specs) — kept
+      // separate from the raw additionalProperty dump above so a single
+      // clear code like "ISO 16889" isn't buried inside a long comma-
+      // separated "Standards" string value.
+      ...(product.certifications && product.certifications.length > 0
+        ? {
+            hasCertification: product.certifications.map((code) => ({
+              "@type": "Certification",
+              name: code,
+            })),
+          }
+        : {}),
+      offers: product.priceRange
+        ? {
+            "@type": "AggregateOffer",
+            lowPrice: product.priceRange.min,
+            highPrice: product.priceRange.max,
+            priceCurrency: "INR",
+            offerCount: 1,
+            availability: product.availability?.label === "Made to Order" ? "https://schema.org/PreOrder" : "https://schema.org/InStock",
+            seller: { "@type": "Organization", name: "Keshav Enterprises" },
+          }
+        : { "@type": "Offer", availability: "https://schema.org/InStock", seller: { "@type": "Organization", name: "Keshav Enterprises" }, priceCurrency: "INR" },
+      manufacturer: { "@type": "Organization", name: "Keshav Enterprises", url: SITE_URL },
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Products", item: `${SITE_URL}/products` },
+        { "@type": "ListItem", position: 2, name: product.category },
+        { "@type": "ListItem", position: 3, name: product.title, item: `${SITE_URL}/products/${product.slug}` },
+      ],
+    },
+  ],
+};
+
+const pageTitle = buildSeoTitle(product.title, [product.category], locale);
+---
+
+<Layout
+  title={pageTitle}
+  description={`${product.desc} — Keshav Enterprises, Shamli, UP.`}
+  canonicalPath={`/products/${product.slug}`}
+  ogImage={firstImage && hasLocalImage(firstImage) ? `/${firstImage}` : undefined}
+  keywords={[product.title, product.category, "Keshav Enterprises", "Shamli India"].filter(Boolean).join(", ")}
+  jsonLd={productSchema}
+>
+  <div class="pt-24 pb-20 bg-slate-50 min-h-screen">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!--
+        FIXED: this nav previously had `uppercase` on the whole breadcrumb,
+        forcing "Catalog" and the category name to shout in caps — caught
+        via screenshot comparison. The real site only uppercases the current
+        page name (the product title), keeping "Catalog" and the category
+        crumb in normal case.
+      -->
+      <nav aria-label="Breadcrumb" class="flex items-center text-sm font-bold text-slate-500 mb-8 tracking-wide flex-wrap gap-2">
+        <a href={localizedPath(locale, "/products")} class="hover:text-blue-600 transition-colors flex items-center focus:outline-none focus-visible:underline">
+          <svg class="w-4 h-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 12H5m0 0l7 7m-7-7l7-7"/></svg>
+          Catalog
+        </a>
+        <span aria-hidden="true" class="mx-1">/</span>
+        <a href={`${localizedPath(locale, "/products")}?category=${encodeURIComponent(product.category)}`} class="hover:text-blue-600 transition-colors text-slate-500 focus:outline-none focus-visible:underline">{product.category}</a>
+        <span aria-hidden="true" class="mx-1">/</span>
+        <span class="text-slate-800 uppercase truncate max-w-[200px] md:max-w-full" aria-current="page">{product.title}</span>
+      </nav>
+
+      <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/50 overflow-hidden border border-slate-200 mb-10">
+        <ProductDetailInteractive client:load product={product} imageMap={imageMap} locale={locale} />
+      </div>
+
+      <!-- FIXED: entirely missing — caught via screenshot comparison -->
+      <RecentlyViewedStrip client:visible currentProductId={product.id} products={recentlyViewedProducts} imageMap={imageMap} locale={locale} />
+
+      {related.length > 0 && (
+        <div class="mb-10">
+          <!-- FIXED: heading was "Related Products"; real site says "You May Also Need" -->
+          <h2 class="text-2xl font-black text-slate-900 tracking-tight mb-6">You May Also Need</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {related.map((r) => (
+              <RichProductCard client:visible product={r} imageMap={imageMap} locale={locale} />
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  </div>
+
+  <!-- Cross-link CTA -->
+  <div class="bg-[#0A192F] border-t-4 border-blue-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+        <div class="text-center md:text-left">
+          <p class="text-xs font-black text-blue-400 uppercase tracking-[0.25em] mb-2">Need It Installed or Serviced?</p>
+          <h2 class="text-2xl md:text-3xl font-black text-white leading-tight">Our Engineers Fit &amp; Commission Everything We Supply</h2>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-3 shrink-0">
+          <a href={localizedPath(locale, "/services")} class="bg-blue-600 text-white px-7 py-4 rounded-xl font-black text-sm hover:bg-blue-700 transition-all shadow-lg flex items-center justify-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300">
+            View Our Services
+          </a>
+          <a href="/contact" class="border-2 border-slate-600 text-slate-300 px-7 py-4 rounded-xl font-black text-sm hover:border-blue-400 hover:text-white transition-all flex items-center justify-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300">
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

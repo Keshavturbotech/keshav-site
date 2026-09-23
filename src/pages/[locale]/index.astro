@@ -1,0 +1,32 @@
+---
+// src/pages/[locale]/index.astro
+// Part 1, step 2 (validation slice): locale-prefixed homepage for every
+// NON-default locale. English stays served from the root-level
+// src/pages/index.astro (prefixDefaultLocale: false), so "en" is
+// deliberately excluded from getStaticPaths below.
+//
+// Reuses the existing root index.astro *as a plain component* instead of
+// duplicating ~1,160 lines of template. Astro allows importing a .astro
+// file from src/pages this way — its own getStaticPaths export is simply
+// ignored when it's used as a component rather than a route entry. All of
+// its internal `Astro.currentLocale` reads (getLocalizedData/getLocalizedList
+// calls, the <Layout> hreflang block, etc.) resolve against the CURRENT
+// request's URL — i.e. this file's route, "/{locale}/" — not against the
+// imported file's own location. That's what makes this pattern work: same
+// template, different data, per Astro.currentLocale.
+import IndexPage from "../index.astro";
+import { LOCALES, DEFAULT_LOCALE } from "../../lib/i18n";
+import { getPathByLocale } from "astro:i18n";
+
+export function getStaticPaths() {
+  // params.locale is a URL PATH segment, not necessarily the locale code
+  // itself — for zh-CN specifically these differ (see astro.config.mjs).
+  // getPathByLocale() is astro:i18n's own code->path mapping, so this stays
+  // correct automatically for any locale, not just today's one exception.
+  return LOCALES.filter((locale) => locale !== DEFAULT_LOCALE).map((locale) => ({
+    params: { locale: getPathByLocale(locale) },
+  }));
+}
+---
+
+<IndexPage />

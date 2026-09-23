@@ -1,0 +1,17 @@
+{
+  "schema": {
+    "description": "Wahandisi wa turbine za mvuke wenye uzoefu wa zamani na makampuni ya OEM, wakitoa huduma za ukarabati mkubwa, uhandisi wa kinyume, uwiano wa mzunguko (dynamic balancing), usafishaji wa mafuta ya kulainisha, upatanishi wa mitambo, na vipuri vinavyoendana na OEM kwa turbine za 5 kW–60 MW.",
+    "knowsAbout": [
+      "Ukarabati mkubwa wa turbine za mvuke",
+      "Uhandisi wa kinyume wa turbine",
+      "Uwiano wa mzunguko (dynamic balancing)",
+      "Usafishaji wa mafuta ya kulainisha",
+      "Uwekaji na uanzishaji wa turbine",
+      "Upatanishi wa mitambo",
+      "Uchujaji wa viwandani",
+      "Turbine za Triveni",
+      "Turbine za Siemens",
+      "Turbine za BHEL"
+    ]
+  }
+}

@@ -1,0 +1,658 @@
+{
+  "ind_1": {
+    "heroSub": "Dampfturbinen von 5 MW bis 60 MW — Wärmeerzeugung, Kraft-Wärme-Kopplung und Eigenstromversorgung",
+    "overview": "Indiens Wärme- und Eigenstromsektor ist auf die unterbrechungsfreie Leistung von Dampfturbinen angewiesen, die unter Dauerlast arbeiten. Keshav Enterprises verfügt über tiefgreifende OEM-Erfahrung — unsere Ingenieure wurden von Turbinenherstellern geschult, bevor sie das Unternehmen gründeten —, wodurch wir jedes wichtige Subsystem einer Kraftwerksdampfturbine nach OEM-Toleranzen per Reverse Engineering nachbilden, fertigen und vollständig überholen können.",
+    "challenges": [
+      {
+        "title": "Kontinuierlicher Hochlastbetrieb",
+        "desc": "Dampfturbinen in Kraftwerken laufen bei 3000–3600 U/min unter dauerhaften Volllastbedingungen, was Lager, Dichtungen und rotierende Baugruppen extremer Beanspruchung aussetzt."
+      },
+      {
+        "title": "Schmierölverunreinigung",
+        "desc": "Der Eintrag von Partikeln und Wasser in das Schmierölsystem kann Lageroberflächen schnell schädigen. ISO-4406:99-Sauberkeitsziele müssen kontinuierlich eingehalten werden."
+      },
+      {
+        "title": "Wärmeausdehnung in Dampfleitungen",
+        "desc": "Hochtemperatur-Dampfleitungen erfahren erhebliche thermische Zyklen. Ohne korrekt ausgelegte Kompensatoren führt Rohrspannung zu Flanschleckagen und Schäden an den Turbinendüsen."
+      },
+      {
+        "title": "Rotorvibration und Auswuchtdrift",
+        "desc": "Ablagerungsbildung und Erosion verursachen eine fortschreitende Auswuchtdrift bei Rotoren, was Vibration erhöht und Lagerverschleiß beschleunigt, wenn nicht frühzeitig erkannt."
+      }
+    ],
+    "products": [
+      {
+        "name": "Schmierölfilterelemente (180 GPM)",
+        "purpose": "Erhält die ISO-4406:99-Sauberkeit in Turbinenschmierölsystemen und schützt Wellenzapfen- und Drucklager vor abrasivem Verschleiß.",
+        "features": [
+          "VG-Glasfaserfilzmedium, Feinheit 6–25 µm",
+          "Antistatik-Spezifikation IS27 für synthetische Öle",
+          "OEM-kompatibel mit Triveni, Siemens, BHEL"
+        ]
+      },
+      {
+        "name": "Dampf-Überströmbälge",
+        "purpose": "Absorbiert die Wärmeausdehnung zwischen HD-/ND-Turbinenabschnitten und Überströmleitung und verhindert die Spannungsübertragung auf Turbinendüsenflansche.",
+        "features": [
+          "Hochzyklische Edelstahlbälge nach EJMA-Norm",
+          "Betriebstemperatur bis 550 °C",
+          "Kundenspezifische Flanschenden nach OEM-Maßen"
+        ]
+      },
+      {
+        "name": "Wellenzapfen- und Drucklager aus Weißmetall",
+        "purpose": "Weißmetallbeschichtete Lager, präzisionsbearbeitet nach OEM-Profilen für Turbinenrotoren — entscheidend für die Wellenstabilität bei hoher Drehzahl.",
+        "features": [
+          "Präzisionsguss und -bearbeitung von Weißmetall (Babbitt)",
+          "Alle Turbinenfabrikate: Triveni, Siemens, BHEL, KKK",
+          "Presspassung auf KMG verifiziert"
+        ]
+      },
+      {
+        "name": "Schnellschlussventile",
+        "purpose": "Kritisches Sicherheitsventil, das die Turbine bei Überdrehzahl oder niedrigem Schmieröldruck abschaltet — gefertigt nach OEM-Auslösedruckeinstellungen.",
+        "features": [
+          "CNC-bearbeitetes Gehäuse aus EN8/EN19-Schmiedeteilen",
+          "Federbetätigter Auslösemechanismus",
+          "Vor Versand mit dem 1,5-fachen Betriebsdruck geprüft"
+        ]
+      },
+      {
+        "name": "Schwingungsüberwachungssonden (Shinkawa-kompatibel)",
+        "purpose": "Näherungssonden zur kontinuierlichen Rotorschwingungsüberwachung nach API 670, ermöglicht vorausschauende Wartung vor einem Lagerausfall.",
+        "features": [
+          "Kompatibel mit Shinkawa, Bently Nevada",
+          "Berührungslose Erfassung über Wirbelstrom",
+          "Warn- und Gefahren-Sollwerte nach API 670"
+        ]
+      },
+      {
+        "name": "Turbinenölpumpen (Haupt- und Hilfspumpe)",
+        "purpose": "Versorgt alle Lager mit Drucköl. Die Hilfspumpe übernimmt beim An- und Abfahren, wenn die Förderleistung der wellenangetriebenen Hauptpumpe nicht ausreicht.",
+        "features": [
+          "Zahnradpumpenkonstruktion, auf Turbinen-Skid montiert",
+          "Alle wichtigen OEM-Maße verfügbar",
+          "Überdruckventil nach OEM-Druckspezifikation eingestellt"
+        ]
+      },
+      {
+        "name": "Faltenpanel-Luftfilter (HVAC für Leitstand und Turbinenhaus)",
+        "purpose": "Ersatz-HVAC-Filter für RLT-Geräte von Kraftwerksleitständen, Turbinenhaus-Lüftungseinheiten und Schaltanlagen-Luftkühlern — hält die Kühlluft sauber und schützt empfindliche Anlagen vor Verunreinigung durch Kohlestaub und Flugasche.",
+        "features": [
+          "F7-Wirkungsgrad zur Erfassung feiner Flugasche und Kohlestaub",
+          "Rahmen aus verzinktem Stahl mit synthetischem Medium",
+          "Standard-RLT-Größen vorrätig; kundenspezifisch auf Anfrage",
+          "Metallnetz-Vorfilter für erste Stufe ebenfalls erhältlich"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Maximale betreute Turbinenleistung: 60 MW",
+      "26+ Jahre OEM-geschulte Ingenieurerfahrung",
+      "Produkte nach API 614 und ISO 4406:99",
+      "Lieferung von HVAC-Filtern für Leitstände und Turbinenhäuser",
+      "24×7-Notfallunterstützung"
+    ]
+  },
+  "ind_2": {
+    "heroSub": "Gegendruck- und Entnahme-Kondensationsturbinen in der Kraft-Wärme-Kopplung von Zuckerfabriken und Brennereien",
+    "overview": "Indiens Zuckerindustrie betreibt intensive Erntesaisons von 150–180 Tagen, in denen die Turbinenverfügbarkeit direkt mit dem Zuckerrohr-Mahldurchsatz verknüpft ist. Keshav Enterprises spezialisiert sich auf die Zwischensaison-Überholung von Gegendruckturbinen — den Arbeitspferden der Zucker-KWK — und bietet 24×7-Notfall-Ersatzteilunterstützung während der Erntesaison, wenn Ausfälle am kostspieligsten sind.",
+    "challenges": [
+      {
+        "title": "Kurzes Zwischensaison-Überholungsfenster",
+        "desc": "Turbinen müssen vollständig überholt, Teile ausgetauscht und wiederinbetriebgenommen werden, bevor die nächste Erntesaison beginnt — oft ein Fenster von nur 90–120 Tagen."
+      },
+      {
+        "title": "Kohle- und Stopfbuchsdichtungsverschleiß",
+        "desc": "Gegendruckturbinen verwenden Kohlestopfbuchsringe, um Dampfleckage zu verhindern. Diese verschleißen kontinuierlich und erfordern bei jeder Überholung einen präzisen Austausch."
+      },
+      {
+        "title": "Verunreinigung durch Melasse und Saft",
+        "desc": "Prozessbereiche erzeugen luftgetragene klebrige Partikel. Entlüftungsfilter und Schmutzfänger in Schmierölsystemen müssen gewartet werden, um Verunreinigung zu vermeiden."
+      },
+      {
+        "title": "Saisonale Notfallstörungen",
+        "desc": "Eine Turbinenabschaltung auf dem Höhepunkt der Ernte führt zu sofortigem Zuckerrohrstau. Notfallersatzteile und schnelle Reaktion können den Unterschied zwischen 4 Stunden und 4 Tagen Stillstand ausmachen."
+      }
+    ],
+    "products": [
+      {
+        "name": "Kohle- und Graphitdichtringe",
+        "purpose": "Verhindert Dampfleckage entlang der Turbinenwelle im Stopfbuchsbereich. Präzisionsbearbeitet nach OEM-Well- und Gehäusemaßen.",
+        "features": [
+          "Hochreine Kohle-/Graphitqualitäten",
+          "Alle Turbinenfabrikate: Triveni, Belliss & Morcom, Maxwatt",
+          "Innenbearbeitung mit Toleranz ±0,01 mm"
+        ]
+      },
+      {
+        "name": "Labyrinth-Dichtungspackungen",
+        "purpose": "Zwischenstufen- und Wellenenden-Labyrinthdichtungen, die die Dampfleckage zwischen Turbinenstufen reduzieren und den thermischen Wirkungsgrad direkt verbessern.",
+        "features": [
+          "Materialoptionen: Edelstahl, Messing oder Monel",
+          "OEM-Zahnprofil beibehalten",
+          "Neue oder reparierte Streifen an bestehende Gehäuse angepasst"
+        ]
+      },
+      {
+        "name": "Schmierölfilterelemente (Triveni-kompatibel)",
+        "purpose": "Sichert eine saubere Schmierölversorgung der Turbinenlager während der gesamten Erntesaison und verhindert Lagerausfälle in kritischen Produktionsphasen.",
+        "features": [
+          "Durchflussrate 180 GPM",
+          "Antistatik-Spezifikation IS27",
+          "Austausch in der Zwischensaison empfohlen"
+        ]
+      },
+      {
+        "name": "Luftentlüftungsfilter",
+        "purpose": "Schützt den Schmierölbehälter vor luftgetragenem Staub und Zuckerpartikeln — entscheidend in Zuckerfabrikumgebungen, wo die Umgebungsstaubbelastung extrem ist.",
+        "features": [
+          "Feinsieb-Trockenmittel-Entlüfterdesign",
+          "Verhindert Feuchtigkeits- und Staubeintritt",
+          "Visueller Sättigungsanzeiger"
+        ]
+      },
+      {
+        "name": "Simplex- und Duplex-Korbfilter",
+        "purpose": "Installiert in Schmieröl- und Kühlwasserkreisläufen, um Rückstände abzufangen, bevor sie Lager und Wärmetauscher erreichen.",
+        "features": [
+          "Edelstahl-Netzkörbe, waschbar und wiederverwendbar",
+          "ANSI-Flanschenden oder Gewindeanschlüsse",
+          "Duplex für Korbreinigung ohne Ausfallzeit"
+        ]
+      },
+      {
+        "name": "Rotorauswuchtungsservice",
+        "purpose": "Dynamisches Auswuchten von Turbinenrotoren nach Schaufel- oder Lageraustausch, stellt den ruhigen Lauf innerhalb der ISO-1940-G1.0-Spezifikation wieder her.",
+        "features": [
+          "Dynamisches Auswuchten nach ISO 1940/1 G1.0",
+          "Zweiebenen-Auswuchtung für alle Rotortypen",
+          "Auswuchtzertifikat mit Servicebericht ausgestellt"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Spezialservice für Triveni- und Belliss-Turbinen",
+      "24×7-Notfallunterstützung in der Saison",
+      "Alle Kohle-/Graphitqualitäten intern bearbeitet",
+      "Zwischensaison-Überholungen termingerecht abgeschlossen"
+    ]
+  },
+  "ind_3": {
+    "heroSub": "Dauerbetriebsturbinen, Kompensatoren und Prozessfiltration für Papierfabriken",
+    "overview": "Papier- und Zellstofffabriken betreiben Dampfturbinen rund um die Uhr an über 350 Tagen im Jahr, was geplante Wartungsfenster extrem eng macht. Der Prozess umfasst zudem korrosive Kochlauge, heißes Wasser und Hochdruckdampf — all dies erfordert für aggressive Medien ausgelegte Filtrations- und Dichtungsprodukte. Keshav Enterprises liefert die komplette Produktpalette, die zur Aufrechterhaltung von Papierfabrik-Dampf- und Prozesssystemen erforderlich ist.",
+    "challenges": [
+      {
+        "title": "Minimale Stillstandsfenster",
+        "desc": "Ein Papiermaschinenstillstand kostet Lakhs pro Stunde. Turbinenüberholungen müssen Monate im Voraus geplant und ohne Nacharbeit ausgeführt werden — jede Komponente muss beim ersten Mal stimmen."
+      },
+      {
+        "title": "Korrosive Prozessmedien",
+        "desc": "Kochlauge, chlorhaltige Verbindungen und ätzende Prozessflüssigkeiten greifen Standardmaterialien an. Filtrations- und Schlauchprodukte müssen kompatible Medien und Dichtungen verwenden."
+      },
+      {
+        "title": "Hochtemperatur-Dampfleitungen",
+        "desc": "Papierfabrikkessel erzeugen Hochdruckdampf bei 250–400 °C. Dampfleitungskompensatoren müssen sowohl hoher Temperatur als auch Zyklusermüdung standhalten."
+      },
+      {
+        "title": "Papiermaschinenvibration",
+        "desc": "Hochgeschwindigkeits-Papiermaschinen erzeugen kontinuierliche Breitbandvibration. Schwingungsdämpfer und flexible Schlauchverbindungen sind wesentlich, um Anlagen zu isolieren."
+      }
+    ],
+    "products": [
+      {
+        "name": "Duplex-Korbfilter",
+        "purpose": "Installiert in Prozesswasser-, Siebwasser- und Kühlwasserleitungen. Die Duplex-Bauweise ermöglicht Korbreinigung ohne Durchflussunterbrechung — entscheidend in Dauerbetriebsanlagen.",
+        "features": [
+          "SS316-Edelstahlkörbe für korrosive Medien",
+          "Stopfenumschaltventil inklusive",
+          "ANSI-Flanschklassen 150 bis 600 verfügbar"
+        ]
+      },
+      {
+        "name": "Metallbalg-Kompensatoren aus Edelstahl",
+        "purpose": "Absorbiert Wärmeausdehnung in Hochdruck-Dampfleitungen, Zellstoffprozessleitungen und Bleichereirohrleitungen, ohne Spannung auf Anlagenstutzen zu übertragen.",
+        "features": [
+          "SS316L-Bälge für Korrosionsbeständigkeit",
+          "Bereich DN15 bis DN1200",
+          "EJMA-Konstruktionsnorm, druckgeprüft"
+        ]
+      },
+      {
+        "name": "Gummikompensatoren (Doppelbogen)",
+        "purpose": "Bietet flexible Verbindung an Pumpensaug- und -druckseite in Wasseraufbereitungs-, Siebwasser- und Abwassersystemen — isoliert Pumpenvibration von der Rohrleitung.",
+        "features": [
+          "Naturkautschuk- oder EPDM-Schlauchoptionen",
+          "PN10/16-Flanschenden",
+          "Betriebstemperatur bis 150 °C"
+        ]
+      },
+      {
+        "name": "PTFE-ausgekleidete Schlauchbaugruppen",
+        "purpose": "Chemietransferschläuche für Lauge-, Ätz- und Säureleitungen in der Bleicherei — die PTFE-Auskleidung bietet vollständige Beständigkeit gegen aggressive Prozesschemikalien.",
+        "features": [
+          "PTFE-Innenkern, Edelstahl-Geflechtverstärkung",
+          "Vollvakuum-Bewertung",
+          "Endarmaturen nach EN14420"
+        ]
+      },
+      {
+        "name": "Sonderangefertigte Gummi-Strangpressprofile & Dichtungen",
+        "purpose": "Kundenspezifische, extrudierte Gummi-Dämpfungsstreifen, montiert unter Antrieben, Pumpen und Turbinenfundamenten der Papiermaschine, um Maschinenvibrationen von der Gebäudestruktur zu isolieren und zu dämpfen.",
+        "features": [
+          "EPDM-, Neopren-, Nitril- oder Naturkautschuk-Mischung",
+          "Individuelles Profil, extrudiert nach Zeichnung oder Muster",
+          "Härtebereich 40-80 Shore A je nach Anwendung"
+        ]
+      },
+      {
+        "name": "Turbinenersatzteile (Siemens, BHEL, Triveni)",
+        "purpose": "OEM-äquivalente Turbinenersatzteile aus zertifizierten Materialien für geplante Überholungssätze — Düsen, Leitbleche, Stopfbuchsringe und Lagergehäuse.",
+        "features": [
+          "Reverse Engineering nach OEM-Zeichnungen",
+          "Materialzertifikate mitgeliefert",
+          "Maßprüfbericht per KMG"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Unterstützung für Dauerbetrieb über 350 Tage im Jahr",
+      "SS316L-Produkte für korrosive Medien",
+      "Ausfallzeitfreie Duplex-Filterlösungen",
+      "Vollständige geplante Überholungssätze geplant und geliefert"
+    ]
+  },
+  "ind_4": {
+    "heroSub": "API-614-konforme Filtration, Weißmetalllager und Präzisionsschläuche für Öl- und Gasanlagen",
+    "overview": "Upstream-, Midstream- und Downstream-Öl- und Gasanlagen betreiben turbinengetriebene Verdichter und Pumpen unter einigen der härtesten Bedingungen der Branche. Jede Komponente des Schmieröl- und Steuerungssystems muss API-Normen erfüllen. Keshav Enterprises liefert API-614-konforme Filterelemente, Weißmetalllager und präzisionstechnische Schlauchbaugruppen, die für den Einsatz in Ex-Zonen-Anlagen qualifiziert sind.",
+    "challenges": [
+      {
+        "title": "API-614-Konformität des Schmierölsystems",
+        "desc": "Alle Komponenten des Schmierölsystems für turbinengetriebene Anlagen in Öl und Gas müssen API 614 erfüllen, das Materialien, Sauberkeit und Druckklassen vorgibt."
+      },
+      {
+        "title": "Ex-Zonen-Filtration",
+        "desc": "Synthetische Regelöle in Turbinensteuerungssystemen haben niedrige Leitfähigkeit. Filterelemente müssen die Antistatik-Spezifikation IS27 erfüllen, um elektrostatische Entladung zu verhindern."
+      },
+      {
+        "title": "Integrität von Hochdruckschläuchen",
+        "desc": "Hydraulik- und Instrumentierungsschlauchbaugruppen in Öl und Gas führen Drücke bis 420 bar. Ein Ausfall bedeutet Leck- und Brandrisiko — keine Kompromisse bei Qualität oder Zertifizierung."
+      },
+      {
+        "title": "Schnelle Belieferung entlegener Standorte",
+        "desc": "Offshore-Plattformen und entlegene Upstream-Anlagen benötigen schnelle Ersatzteillieferung. Kritische Teile werden auf Lager gehalten und bei Notfallbestellungen taggleich versandt."
+      }
+    ],
+    "products": [
+      {
+        "name": "Regelölfilterelemente (IS27-Antistatik)",
+        "purpose": "Für elektrohydraulische Turbinensteuerungssysteme (EHC), die synthetische Regelöle auf Phosphatester- oder Esterbasis mit Leitfähigkeit unter 300 pS/m verwenden.",
+        "features": [
+          "IS27-Antistatik-Zertifizierung",
+          "VG-Glasmikrofasermedium, 3–25 µm",
+          "Kompatibel mit Siemens, Man Turbo, KKK"
+        ]
+      },
+      {
+        "name": "Weißmetalllager-Fertigung",
+        "purpose": "Wellenzapfen- und Drucklager für turbinengetriebene Verdichter und Pumpen, weißmetallbeschichtet mit präzisen Profilen entsprechend der ursprünglichen OEM-Lagergeometrie.",
+        "features": [
+          "Weißmetallzusammensetzung nach ASTM B23",
+          "Präzisionsbohrung mit Toleranz <0,01 mm",
+          "Alle Fabrikate: Man Turbo, KKK, Siemens, ABB"
+        ]
+      },
+      {
+        "name": "PTFE-ausgekleidete Schlauchbaugruppen",
+        "purpose": "Chemie- und Instrumentierungsschlauch für den Transfer aggressiver Fluide in der Öl- und Gasverarbeitung — beständig gegen Rohöl, H2S, Methanol und Inhibitoren.",
+        "features": [
+          "PTFE-Kern, Edelstahl-316-Geflecht oder Edelstahl-Übergeflecht",
+          "Druckbewertung bis 420 bar (ausgewählte Baugruppen)",
+          "BS-EN-ISO-10380-konforme Baugruppen verfügbar"
+        ]
+      },
+      {
+        "name": "Hydraulik-Gummischlauchbaugruppen",
+        "purpose": "Hochdruck-Hydraulikschlauch für Steuerungsaktoren, BOP-Systeme und Hydraulikaggregate bei Bohr- und Verarbeitungsanlagen.",
+        "features": [
+          "4- und 6-Draht-Spiralkonstruktion",
+          "Arbeitsdruck bis 400 bar",
+          "Armaturen kompatibel mit Parker, Gates, Manuli"
+        ]
+      },
+      {
+        "name": "Gefertigte Duplex-Filtergehäuse",
+        "purpose": "Kundenspezifisch gefertigte Duplex-Filterbehälter für Schmieröl- und Steuerungsölsysteme, mit ASME-Codesiegel zur Erfüllung der API-614-Behälteranforderungen.",
+        "features": [
+          "ASME-Sec.-VIII-Div.-1-Codesiegel",
+          "Material: CS, SS304, SS316 je nach Anwendung",
+          "PED/CE-Zertifikat für Exportprojekte"
+        ]
+      },
+      {
+        "name": "Schwingungsüberwachungssonden",
+        "purpose": "Näherungssonden und Überwachungssysteme kompatibel mit API-670-Turbomaschinenschutzsystemen für Verdichter- und Turbinenstränge.",
+        "features": [
+          "Kompatibel mit Bently Nevada, Shinkawa",
+          "Sondengehäuse mit IP67-Schutzart",
+          "Warn- und Gefahren-Relaisausgänge"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Produkte nach API 614 und IS27",
+      "Weißmetalllager für alle wichtigen OEMs",
+      "Taggleicher Notfallversand verfügbar",
+      "Druckbehälter mit ASME-Codesiegel"
+    ]
+  },
+  "ind_5": {
+    "heroSub": "Metallkompensatoren, Hochtemperatur-Schmutzfänger und Präzisionsersatzteile für Raffinerien und Petrochemieanlagen",
+    "overview": "Raffinerien und petrochemische Komplexe verarbeiten Kohlenwasserstoffe, Säuren und aggressive Chemikalien unter extremen Temperaturen und Drücken. Metallkompensatoren, Prozessschmutzfänger und präzise Turbinenersatzteile müssen thermischer Zyklierung, korrosiven Medien und hochzyklischer Ermüdung standhalten. Keshav Enterprises fertigt diese Produkte nach EJMA-, ASME- und API-Normen für anspruchsvollste Raffinerieanwendungen.",
+    "challenges": [
+      {
+        "title": "Extreme Temperaturzyklierung",
+        "desc": "Raffinerie-Dampfcrack- und Destillationskolonnen zyklieren zwischen Umgebungstemperatur und Betriebstemperaturen über 600 °C. Kompensatoren müssen Millionen von Biegezyklen ohne Ermüdungsversagen überstehen."
+      },
+      {
+        "title": "Korrosive und wasserstoffreiche Medien",
+        "desc": "H2S-, HF-, Aminlösungsmittel- und Wasserstoffanwendungen erfordern Bälge aus Inconel, Hastelloy oder Duplex-Edelstahl — Standard-SS304/316 reicht nicht aus."
+      },
+      {
+        "title": "ASME- und API-Codekonformität",
+        "desc": "Druckbehälter, Rohrleitungen und Bälge in Raffinerien müssen ASME Sec. VIII und API-Codes erfüllen. Drittprüfung und Materialrückverfolgbarkeit sind verpflichtend."
+      },
+      {
+        "title": "Katalysatorerosion in FCCU",
+        "desc": "Fließbett-Katalysatorcrackanlagen führen mitgerissene Katalysatorpartikel bei über 700 °C. Kompensatoren in Regenerator- und Reaktorleitungen sind extremer Erosion und thermischem Schock ausgesetzt."
+      }
+    ],
+    "products": [
+      {
+        "name": "Dickwandiger Schwerlastkompensator",
+        "purpose": "Verstärkter Dickwand-Kompensator für die extremen Betriebsbedingungen von Regenerator-Reaktor-Transferleitungen: hohe Temperatur, hoher Druck und starke mechanische/thermische Beanspruchung.",
+        "features": [
+          "Verstärkte Wandkonstruktion für maximale Druck- und Belastungsbeständigkeit",
+          "Minimale Verformung bei extremen Druck- und Temperaturzyklen",
+          "Werkstoffe: SS 316/321, Duplex, Inconel, Hastelloy als Optionen"
+        ]
+      },
+      {
+        "name": "Axiale und universelle Metallkompensatoren",
+        "purpose": "Standard-Prozessleitungsbälge zur Aufnahme der Wärmeausdehnung in Rohöl-, Produkt- und Dampfleitungen im gesamten Raffineriekomplex.",
+        "features": [
+          "Fertigungsbereich DN15 bis DN12.000",
+          "Güten SS316L, Inconel, Hastelloy, Duplex-Edelstahl",
+          "Konstruktionscode ASME Sec. VIII Div. 1"
+        ]
+      },
+      {
+        "name": "Simplex- und Duplex-Hochdruck-Schmutzfänger",
+        "purpose": "Inline-Schmutzfänger in Rohölbeschickungs-, Produkttransfer- und Verdichter-Saugleitungen zum Schutz der Anlagen vor Verschmutzung und Rückständen.",
+        "features": [
+          "Konstruktion nach ASME-Druckbehältercode",
+          "Lochblech- + Netzkorbkonstruktion",
+          "Druckstufen PN40 bis PN160 verfügbar"
+        ]
+      },
+      {
+        "name": "Kryogener LNG-/LPG-Kompensator",
+        "purpose": "Kryogen ausgelegter, metallischer Kompensator für Tieftemperatur-Flüssiggasleitungen: LNG/LPG-Transferleitungen, Kryo-Lagerterminals und Schiffsverladeleitungen.",
+        "features": [
+          "Ausgelegt für kryogenen Einsatz bis in LNG-Betriebstemperaturbereiche",
+          "Tieftemperatur-Werkstoffauswahl für Zähigkeit und Ermüdungsbeständigkeit",
+          "Austenitischer Edelstahl und kryogene Legierungsoptionen, vollständige Materialrückverfolgbarkeit"
+        ]
+      },
+      {
+        "name": "Turbinen-Dampfpfadkomponenten",
+        "purpose": "Düsenblöcke, Leitbleche und Schaufelhalter für turbinengetriebene Verdichterantriebe — aus legiertem Stahl nach OEM-Profilen gefertigt.",
+        "features": [
+          "CNC-Bearbeitung aus zertifizierten Schmiedeteilen",
+          "Material: Cr-Mo-Legierungsstahl, SS 17-4PH",
+          "Profil per 3D-KMG-Messung verifiziert"
+        ]
+      },
+      {
+        "name": "Druckausgeglichene Kompensatoren",
+        "purpose": "Eliminiert Druckschubkräfte an Stutzen empfindlicher Anlagen im Hochdruck-Raffineriebetrieb — schützt Verdichter- und Pumpenflansche.",
+        "features": [
+          "Zugstangen-eliminiertes Druckschubdesign",
+          "Reduziert Stutzenlasten auf nahezu null",
+          "Verfügbar in verspannten und unverspannten Konfigurationen"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Bälge aus Inconel, Hastelloy und Duplex-Edelstahl",
+      "EJMA-Konstruktionsnorm, 10. Ausgabe",
+      "Druckbehälter und Bälge mit ASME-Codesiegel",
+      "Spezialisten für FCCU und Extrembetrieb"
+    ]
+  },
+  "ind_6": {
+    "heroSub": "Dampfturbinen-Kraft-Wärme-Kopplung, Filtration und Gummiprodukte für agroindustrielle Anlagen",
+    "overview": "Die agroindustrielle Verarbeitung — von Reismühlen und Lösungsmittelextraktion bis zur Molkerei- und Lebensmittelherstellung — setzt zunehmend auf eigene Dampf-KWK zur Senkung der Energiekosten. Diese Anlagen benötigen zuverlässige Turbinenwartung, Schlauch- und Filterprodukte in Lebensmittelqualität sowie Schwingungsisolationslösungen für empfindliche Verarbeitungsmaschinen. Keshav Enterprises liefert die vollständige Palette an Produkten und Dienstleistungen, die im gesamten Agrarindustriesektor benötigt werden.",
+    "challenges": [
+      {
+        "title": "Materialanforderungen in Lebensmittelqualität",
+        "desc": "Schläuche, Dichtungen und Filtration in Lebensmittelkontaktbereichen müssen FDA-zugelassene Materialien verwenden — PTFE, EPDM in Lebensmittelqualität und Edelstahl mit polierten Oberflächen."
+      },
+      {
+        "title": "Saisonale Lastschwankung",
+        "desc": "Agroindustrielle KWK-Turbinen erfahren mit den Anbausaisons große Lastschwankungen. Dies führt zu schnellerer Schaufelerosion und höherer Ermüdung durch Thermozyklierung als bei Kraftwerken mit konstanter Last."
+      },
+      {
+        "title": "Verunreinigung durch Tankentlüftung",
+        "desc": "Speiseöl-Lagertanks müssen über den Entlüftungsweg vor luftgetragenem Staub und Feuchtigkeit geschützt werden — Verunreinigung beeinträchtigt Produktqualität und Haltbarkeit."
+      },
+      {
+        "title": "Maschinenvibration in Lebensmittelbetrieben",
+        "desc": "Hammermühlen, Zentrifugen und Verpackungsmaschinen übertragen Vibration auf Böden und benachbarte Anlagen. Isolierung ist erforderlich, um hygienische Verbindungen aufrechtzuerhalten."
+      }
+    ],
+    "products": [
+      {
+        "name": "FDA-Lebensmittelqualität-PTFE-Schlauchbaugruppen",
+        "purpose": "Flexibler Schlauch für Fluidtransfer in Lebensmittelqualität — CIP/SIP-Chemikalienzirkulation, Produktleitungen und Dampfeinspritzung in Umgebungen mit Lebensmittelqualität.",
+        "features": [
+          "PTFE-Innenkern, konform zu FDA 21 CFR 177.1550",
+          "Elektropolierte SS316-Endarmaturen",
+          "Tri-Clover-(Sanitär-)Endverbindungen verfügbar"
+        ]
+      },
+      {
+        "name": "Luft- und Tankentlüftungsfilter",
+        "purpose": "Schützt Speiseöl-Lagertanks vor Staub- und Feuchtigkeitseintritt über den Entlüftungsweg — verhindert Verunreinigung des gelagerten Produkts.",
+        "features": [
+          "Trockenmittel-Silikagel + Feinpartikelmedium",
+          "Visueller Farbsättigungsanzeiger",
+          "Austauschkartuschendesign für einfache Wartung"
+        ]
+      },
+      {
+        "name": "Y-Sieb- und Kegelschmutzfänger",
+        "purpose": "Inline-Schmutzfänger in Prozessfluid-, Pumpensaug- und Kesselspeisewassersystemen — schützt Anlagen vor Verschmutzung und Prozessrückständen.",
+        "features": [
+          "Edelstahl-Netzkorb, Maschenweite 40 bis 400 µm",
+          "Gewinde- oder Flanschanschlüsse",
+          "Einfache Inline-Reinigung ohne Rohrleitungstrennung"
+        ]
+      },
+      {
+        "name": "Sonderangefertigte Gummi-Strangpressprofile & Dichtungen",
+        "purpose": "Kundenspezifische, extrudierte Gummi-Dämpfungsstreifen isolieren Vibrationen von Hammermühlen, Zentrifugen, Kompressoren und Verpackungsmaschinen und schützen sowohl die Maschine als auch angrenzende Lebensmittelverarbeitungsbereiche.",
+        "features": [
+          "EPDM-, Neopren-, Nitril- oder Naturkautschuk-Mischungsoptionen",
+          "Individuelles Profil, extrudiert nach Zeichnung oder Muster",
+          "Auch mit selbstklebender Rückseite erhältlich"
+        ]
+      },
+      {
+        "name": "Gummikompensatoren (Einzelbogen)",
+        "purpose": "Flexibler Pumpenverbinder in Kühlwasser-, Kaltwasser- und Prozesswasserkreisläufen — absorbiert Pumpenvibration und thermische Bewegung.",
+        "features": [
+          "EPDM- oder Naturkautschukschlauch",
+          "PN10/16-Flanschenden, auch Gewindeausführung",
+          "Betriebstemperatur von –20 °C bis +130 °C"
+        ]
+      },
+      {
+        "name": "Dampfturbinenwartung (Triveni, Maxwatt)",
+        "purpose": "Geplante Überholung agroindustrieller KWK-Gegendruckdampfturbinen — Stopfbuchsringaustausch, Lagerinspektion und Rotorauswuchtprüfung.",
+        "features": [
+          "Zwischensaison-Überholungsplanung",
+          "Kohlestopfbuchsring intern bearbeitet",
+          "Probelauf und Schwingungsfreigabe inklusive"
+        ]
+      },
+      {
+        "name": "HVAC-Taschenfilter (Luftbehandlung Lebensmittelbetrieb)",
+        "purpose": "Mehrtaschen-Taschenfilter für RLT-Geräte in Lebensmittelverarbeitungsanlagen — entfernt luftgetragenes Mehl, Stärkestaub und Schimmelsporen aus der Zuluft zu Produktionsbereichen, Kühlräumen und Verpackungslinien.",
+        "features": [
+          "F7/F8-Wirkungsgrad zur Erfassung von Allergenen und Schimmelsporen",
+          "Synthetisches Polyestermedium — feuchtigkeitstolerant in feuchten Lebensmittelumgebungen",
+          "Standard-RLT-Rahmengrößen; kundenspezifische Maße auf Anfrage",
+          "Ergänzt GMP-Luftqualitätsanforderungen für Bereiche mit Lebensmittelqualität"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Schlauchprodukte konform zu FDA 21 CFR",
+      "Spezialist für agroindustrielle KWK-Turbinen",
+      "Tankentlüftungsfilter für Speiseöllagerung",
+      "F7/F8-HVAC-Filter für GMP-Luftqualität in Lebensmittelproduktion",
+      "Vollständige Pumpen-Schwingungsisolationslösungen"
+    ]
+  },
+  "ind_7": {
+    "heroSub": "Schmierölfiltration, Pulse-Jet-Entstauber-Filterschläuche, HVAC-Luftfilter, Kompensatoren und Schwingungsisolation für Zementwerksanlagen",
+    "overview": "Die Zementherstellung gehört zu den abrasivsten und staubbelastetsten Industrieumgebungen weltweit. Drehrohröfen mit Mantel-Betriebstemperaturen von 200–400 °C, monatelang durchlaufende Kugelmühlen und Brechanlagen, die enorme Staubwolken erzeugen, stellen extreme Anforderungen an jede Schmier-, Dicht- und Rohrleitungskomponente. Keshav Enterprises liefert die präzisionsgefertigte Filtration, Pulse-Jet-Entstauber-Filterschläuche, HVAC-Luftfilter, Kompensatoren und Antivibrationslösungen, die Zementwerke über 330 Tage im Jahr am Laufen halten.",
+    "challenges": [
+      {
+        "title": "Extremer Staub und abrasive Verunreinigung",
+        "desc": "Zementwerke erzeugen 1 bis 3 Tonnen Staub pro Tag und Ofen. Dieser luftgetragene Abrasivstoff dringt in Schmierölsysteme, Entlüfter und Filtergehäuse ein — beschleunigt Verschleiß und verursacht Filterumgehung bei unsachgemäßer Handhabung."
+      },
+      {
+        "title": "Verunreinigung des Ofengetriebeöls",
+        "desc": "Drehrohrofen-Getriebe arbeiten mit Umlaufschmiersystemen bei ISO VG 220–460. Klinkerstaub und thermische Verunreinigung bauen das Öl schnell ab — hocheffiziente Filtration ist entscheidend, um Ölwechselintervalle zu verlängern und teure Getriebestränge zu schützen."
+      },
+      {
+        "title": "Wärmeausdehnung in Ofenabgaskanälen",
+        "desc": "Ofenabgaskanäle arbeiten bei 250–450 °C und erfahren erhebliche Wärmeausdehnung. Ohne korrekt ausgelegte Metall- oder Gewebekompensatoren reißen Kanalabschnitte, lecken und lassen heißes Gas entweichen — ein Sicherheits- und Effizienzrisiko."
+      },
+      {
+        "title": "Vibration von Brechern und Mühlen",
+        "desc": "Kugelmühlen, Vertikal-Walzenmühlen und Backenbrecher erzeugen intensive Breitbandvibration, die über Fundamente auf benachbarte Anlagen und Instrumentierung übertragen wird und Ermüdungsausfälle und Messfehler verursacht."
+      }
+    ],
+    "products": [
+      {
+        "name": "Schmierölfilterelemente (Ofen- und Mühlengetriebe)",
+        "purpose": "Hocheffiziente Filterelemente für Ofengetriebe-Umlaufölsysteme — entfernt abrasive Klinkerpartikel und Verschleißrückstände, bevor sie Zahnräder und Wälzlager beschädigen.",
+        "features": [
+          "Glasfaserfilzmedium, Feinheit 6–25 µm",
+          "Hohe Schmutzaufnahmekapazität für staubbelastete Umgebungen",
+          "Kompatibel mit synthetischem und mineralischem Öl ISO VG 220–460",
+          "Beta-Wirkungsgrad ≥200 nach ISO 16889"
+        ]
+      },
+      {
+        "name": "Duplex-Korbfilter (Kühlwasser und Prozessleitungen)",
+        "purpose": "Installiert in Ofenkühlwassersystemen, Verdichter-Wasserkühlung und Rohmehlschlammleitungen zum Schutz von Pumpen, Wärmetauschern und Instrumentierung vor Verschmutzung und Rückständen.",
+        "features": [
+          "Edelstahl-Netzkörbe, Maschenoptionen 100–1000 µm",
+          "Duplex-Design: Korbreinigung ohne Ausfallzeit",
+          "ANSI-Flanschklassen 150 bis ANSI 600",
+          "SS316 für korrosiven Kühlwasserbetrieb"
+        ]
+      },
+      {
+        "name": "Axiale Metallkompensatoren (Ofenabgaskanäle)",
+        "purpose": "Kompensiert Wärmeausdehnung in Heißgaskanälen zwischen Ofen, Zyklon-Vorwärmerturm und Abhitzekessel — eliminiert thermisch induzierte Rissbildung in Kanalabschnitten.",
+        "features": [
+          "SS321-Bälge für Hochtemperaturbetrieb",
+          "Einfach- und Universalkonfigurationen (Doppelbalg)",
+          "Geflanscht passend zu bestehenden Kanalabmessungen",
+          "Strömungsauskleidung inklusive zum Schutz des Balgs vor Gaserosion"
+        ]
+      },
+      {
+        "name": "Nichtmetallische rechteckige Kompensatoren (Gewebe)",
+        "purpose": "Verwendet in großen rechteckigen Kanälen an der Klinkerkühler-Entlüftung, Rohmühlenlüfter-Verbindungen und Elektrofilter-(ESP)-Kanälen — bewältigt Fluchtungsfehler und thermische Bewegung in nicht-runden Abschnitten.",
+        "features": [
+          "PTFE-beschichtetes Glasgewebe oder Nomex-Verbundwerkstoff",
+          "Temperaturkapazität bis 450 °C dauerhaft",
+          "Kundenspezifisch nach rechteckigen Kanalabmessungen gefertigt",
+          "Verschraubte Rahmenbaugruppe für Vor-Ort-Montage"
+        ]
+      },
+      {
+        "name": "Sonderangefertigte Gummi-Strangpressprofile & Dichtungen",
+        "purpose": "Kundenspezifische, extrudierte Gummi-Dämpfungspads, montiert unter Kugelmühlen-Antriebseinheiten, Vertikalmühlen-Getrieben und Brecher-Lagergehäusen, um Maschinenvibrationen zu isolieren und zu dämpfen, die auf die Anlagenstruktur übertragen werden.",
+        "features": [
+          "Naturkautschuk, EPDM oder Neopren-Mischung",
+          "Individuelles Profil, extrudiert nach Zeichnung oder Muster",
+          "Betriebstemperatur -40 bis +150°C (EPDM-Qualität)"
+        ]
+      },
+      {
+        "name": "Luft- und Tankentlüftungsfilter (Schmierölbehälter)",
+        "purpose": "Verhindert, dass luftgetragener Zementstaub und Feuchtigkeit über den Entlüftungsweg in Schmierölbehälter gelangen — die Hauptursache für vorzeitiges Öl- und Lagerversagen in Zementwerken.",
+        "features": [
+          "Hocheffizientes Partikelmedium + Silikagel-Trockenmittel",
+          "Nach ISO-Sauberkeitsanforderungen klassifiziert",
+          "Sättigungsanzeiger durch Farbwechsel",
+          "Direkt- und Fernmontagekonfigurationen"
+        ]
+      },
+      {
+        "name": "Flexible Wellrohr-Schlauchbaugruppen aus Edelstahl",
+        "purpose": "Flexible Hochdruckverbindungen an Ofenkühlwassereinlässen, hydraulischen Schieberantrieben und Druckluftleitungen — widersteht Hitze, Druck und Vibration, wo starre Rohrleitungen versagen würden.",
+        "features": [
+          "SS316L-Innenwellrohr, Edelstahl-Geflechtverstärkung",
+          "Arbeitsdruck bis 200 bar (ausgewählte Baugruppen)",
+          "Endarmaturen: ANSI-Flansch, BSP/NPT-Gewinde oder hydraulisch",
+          "Temperaturbereich von –196 °C bis +600 °C"
+        ]
+      },
+      {
+        "name": "Kegel- und Y-Sieb-Schmutzfänger (Rohmühlen- und Förderpumpen)",
+        "purpose": "Temporäre und permanente Schmutzfänger an Rohschlammpumpen, Ofenwasserberieselungssystemen und Druckluftversorgungsleitungen — schützt nachgeschaltete Ventile und Instrumente.",
+        "features": [
+          "Lochkorb, Netzauskleidung verfügbar",
+          "Geflügelte oder Gewindeablassschraube zur Reinigung",
+          "Gehäusematerialien CS, SS304, SS316",
+          "Ab Lager für schnellen Versand"
+        ]
+      },
+      {
+        "name": "Filterschläuche und Kartuschen für Pulse-Jet-Entstauber",
+        "purpose": "Ersatzfilterschläuche und gefaltete Kartuschenelemente für Zementwerks-Schlauchfilter-Entstauber am Ofenabgas, Rohmühlenentlüftungen, Klinkerkühler, Kohlemühle, Absackanlage und Silo-Entlüftungssystemen — hält feinen Zementstaub zurück und erfüllt Emissionsnormen.",
+        "features": [
+          "Polyester-Nadelfilz (Standard) und PTFE-Membran (hohe Effizienz, niedrige Emission)",
+          "Antistatische Qualitäten für Kohlemühlenanwendungen (ATEX)",
+          "Käfigkompatible Abmessungen für bestehendes Schlauchfiltergehäuse",
+          "Pulse-Jet-Reinigung ausgelegt für 4–7 bar Druckluft"
+        ]
+      },
+      {
+        "name": "Faltenpanel-Luftfilter (HVAC für Leitstand und Schaltschrank)",
+        "purpose": "Filter für RLT-Geräte in Zementwerksleitständen und Schaltschrank-Kühleinheiten — verhindert, dass abrasiver Zementstaub in empfindliche Instrumentierung, SPS und DCS-Schränke eindringt.",
+        "features": [
+          "F7/F8-Wirkungsgrad zur Rückhaltung feinen Zementstaubs",
+          "Rahmen aus verzinktem Stahl für feuchte Zementwerksumgebungen",
+          "Standard-RLT-Rahmengrößen oder maßgeschneidert nach Schaltschrankmaßen",
+          "Ersatzlieferung nach Wartungsplan"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Unterstützung für Dauerbetrieb über 330 Tage im Jahr",
+      "Staubfeste Filtrationsprodukte ab Lager",
+      "Hochtemperatur-Kompensatoren bis 450 °C",
+      "Pulse-Jet-Schlauchfilterschläuche für alle Entlüftungspunkte des Zementwerks",
+      "Vollständige Schwingungsisolationslösungen"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "all": {
+    "label": "Semua"
+  },
+  "industrial-filtration": {
+    "label": "Filtrasi Industri"
+  },
+  "industrial-strainers": {
+    "label": "Saringan Industri"
+  },
+  "expansion-joints": {
+    "label": "Sambungan Ekspansi"
+  },
+  "turbine-spares": {
+    "label": "Suku Cadang Turbin"
+  },
+  "industrial-rubber-products": {
+    "label": "Produk Karet Industri"
+  },
+  "flexible-hoses-and-assemblies": {
+    "label": "Selang Fleksibel & Rakitan"
+  },
+  "electronic-equipments": {
+    "label": "Peralatan Elektronik"
+  },
+  "hydraulic-components": {
+    "label": "Komponen Hidraulik"
+  },
+  "hvac-ducting-and-air-filtration": {
+    "label": "HVAC, Ducting & Filtrasi Udara"
+  },
+  "valves-gaskets-and-steam-system-products": {
+    "label": "Katup, Gasket & Produk Sistem Uap"
+  }
+}

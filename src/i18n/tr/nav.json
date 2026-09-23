@@ -1,0 +1,29 @@
+{
+  "/": {
+    "label": "Ana Sayfa"
+  },
+  "/about": {
+    "label": "Hakkımızda"
+  },
+  "/services": {
+    "label": "Hizmetler"
+  },
+  "/products": {
+    "label": "Ürünler"
+  },
+  "/industries": {
+    "label": "Sektörler"
+  },
+  "/contact": {
+    "label": "İletişim"
+  },
+  "/projects": {
+    "label": "Projeler"
+  },
+  "/blog": {
+    "label": "Blog"
+  },
+  "/downloads": {
+    "label": "İndirmeler"
+  }
+}

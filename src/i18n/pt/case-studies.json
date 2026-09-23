@@ -1,0 +1,210 @@
+{
+  "cs_01": {
+    "id": "cs_01",
+    "image": "project-triveni-overhaul.webp",
+    "category": "Revisão Geral",
+    "industry": "Usina de Açúcar",
+    "title": "Turbina de Contrapressão Triveni 5 MW — Revisão Geral Completa e Balanceamento de Rotor",
+    "client": "Confidencial — Usina de Açúcar, UP Ocidental",
+    "year": "2023",
+    "duration": "12 dias",
+    "scope": "Revisão geral chave na mão completa: remoção do rotor, substituição de mancais, usinagem de selos labirinto, balanceamento dinâmico do rotor (ISO 1940 G2.5), lavagem de óleo lubrificante e comissionamento.",
+    "challenge": "A turbina vinha operando com vibração elevada (>6 mm/s) por duas safras. As carcaças dos mancais apresentavam desgaste por atrito e o rotor tinha uma excentricidade persistente de 1× que a manutenção anterior não havia resolvido.",
+    "solution": "Engenheiros ex-OEM da Triveni desmontaram a unidade e encontraram um munhão trincado no lado do acionamento. O munhão foi usinado com redução de diâmetro, novo babbitt foi vazado e raspado, os labirintos foram usinados em nossa oficina, e o rotor foi balanceado dinamicamente até um desbalanceamento residual de <0,5 g·mm. Vibração pós-comissionamento: 1,8 mm/s.",
+    "outcomes": [
+      "Vibração reduzida de 6,4 mm/s para 1,8 mm/s",
+      "Temperatura do metal do mancal caiu 14 °C",
+      "Turbina retornou ao serviço dentro da janela planejada de 12 dias",
+      "Nenhum disparo não programado na temporada operacional seguinte de 12 meses"
+    ],
+    "tags": [
+      "Triveni",
+      "Balanceamento de Rotor",
+      "Mancais Babbitt",
+      "Revisão Geral"
+    ],
+    "categorySlug": "overhauling"
+  },
+  "cs_02": {
+    "id": "cs_02",
+    "image": "project-reverse-engineering.webp",
+    "category": "Engenharia Reversa",
+    "industry": "Fábrica de Papel",
+    "title": "Disco de Estágio de Impulso Siemens SST-200 — Engenharia Reversa e Fabricação",
+    "client": "Confidencial — Fábrica de Papel, Uttarakhand",
+    "year": "2023",
+    "duration": "21 dias",
+    "scope": "Escaneamento a laser 3D do disco de impulso danificado, verificação de material por PMI, conjunto completo de desenhos de fabricação e fornecimento do disco de reposição usinado conforme desenho.",
+    "challenge": "O OEM cotou um prazo de 14 semanas e €18.000 por um disco de impulso de reposição. A fábrica não podia arcar com uma parada de 14 semanas com a safra se aproximando.",
+    "solution": "Nossa equipe escaneou em 3D o disco danificado no local, realizou PMI para confirmar a liga (aço inoxidável AISI 422), gerou desenhos de fabricação completos com todas as tolerâncias e especificações de tratamento térmico, e teve o disco desbastado, tratado termicamente, usinado no acabamento e balanceado dinamicamente em 19 dias úteis.",
+    "outcomes": [
+      "Prazo reduzido de 14 semanas (OEM) para 21 dias",
+      "Economia de custo de aproximadamente ₹12 lakh em relação ao preço OEM",
+      "Disco instalado sem problemas dimensionais; turbina retornou à potência nominal",
+      "Pacote completo de desenhos mantido para futuras reposições"
+    ],
+    "tags": [
+      "Siemens",
+      "Engenharia Reversa",
+      "Escaneamento 3D",
+      "PMI"
+    ],
+    "categorySlug": "reverse-engineering"
+  },
+  "cs_03": {
+    "id": "cs_03",
+    "image": "project-erection-commissioning.webp",
+    "category": "Montagem e Comissionamento",
+    "industry": "Destilaria",
+    "title": "Turbina de Cogeração Maxwatt 3,5 MW — Montagem e Comissionamento em Área Nova",
+    "client": "Confidencial — Destilaria, UP Central",
+    "year": "2022",
+    "duration": "28 dias",
+    "scope": "Montagem completa de turbina a vapor, caixa de engrenagens, alternador, condensador, sistema de óleo lubrificante e toda a tubulação e cabeamento associados. Comissionamento com testemunho do OEM.",
+    "challenge": "A turbina chegou ao local com desenhos incorretos de grauteamento da base. A obra civil teve que ser reavaliada e corrigida antes que a montagem pudesse começar, comprimindo a janela de comissionamento disponível.",
+    "solution": "Nossos engenheiros de campo coordenaram com o empreiteiro civil para corrigir os bolsões de grauteamento em 48 horas. Turbina, caixa de engrenagens e alternador foram montados, alinhados (alinhamento de eixo a <0,02 mm TIR) e todas as verificações pré-comissionamento foram concluídas. A sincronização foi alcançada na primeira tentativa durante o teste testemunhado pelo OEM.",
+    "outcomes": [
+      "Primeira sincronização alcançada no dia do comissionamento — sem atrasos na lista de pendências",
+      "Alinhamento de eixo alcançado a 0,016 mm TIR — dentro da tolerância OEM",
+      "Óleo lubrificante lavado até limpeza ISO 4406 16/14/11 antes da primeira operação",
+      "A planta aceitou a turbina com zero itens pendentes na lista OEM"
+    ],
+    "tags": [
+      "Maxwatt",
+      "Montagem",
+      "Comissionamento",
+      "Alinhamento"
+    ],
+    "categorySlug": "erection-and-commissioning"
+  },
+  "cs_04": {
+    "id": "cs_04",
+    "image": "project-lube-oil-flushing.webp",
+    "category": "Lavagem de Óleo Lubrificante",
+    "industry": "Geração de Energia",
+    "title": "Turbina de Extração-Condensação BHEL 15 MW — Lavagem de Óleo Lubrificante Pós-Revisão",
+    "client": "Confidencial — Produtor Independente de Energia, Rajastão",
+    "year": "2024",
+    "duration": "5 dias",
+    "scope": "Lavagem do sistema de óleo lubrificante pós-revisão geral usando unidade de filtro centrífugo móvel. Limpeza-alvo: ISO 4406 ≤16/14/11 para o circuito principal de óleo lubrificante e ≤15/13/10 para o circuito de óleo de controle.",
+    "challenge": "O sistema de óleo lubrificante apresentava contaminação metálica significativa da revisão geral. Três tentativas anteriores de lavagem por outro contratado não alcançaram a limpeza-alvo no circuito de óleo de controle.",
+    "solution": "Implantamos nossa unidade de lavagem por centrífuga móvel sob medida com um subcircuito dedicado de baixo volume e alta velocidade para o anel de óleo de controle. No dia 3, o circuito principal estava em 15/13/10 e no dia 5 ambos os circuitos atingiram suas metas de limpeza, confirmadas por relatórios de contagem de partículas de terceiros.",
+    "outcomes": [
+      "Circuito principal de óleo lubrificante: ISO 4406 15/13/10 ✓",
+      "Circuito de óleo de controle: ISO 4406 14/12/9 ✓ (melhor que a meta)",
+      "Ambos os circuitos aprovados em 5 dias contra a janela de contingência de 10 dias",
+      "Turbina liberada para o primeiro acendimento sem mais atrasos"
+    ],
+    "tags": [
+      "BHEL",
+      "Lavagem de Óleo Lubrificante",
+      "ISO 4406",
+      "Geração de Energia"
+    ],
+    "categorySlug": "lube-oil-flushing"
+  },
+  "cs_05": {
+    "id": "cs_05",
+    "image": "project-alignment.webp",
+    "category": "Alinhamento de Máquinas",
+    "industry": "Siderúrgica",
+    "title": "Trem Compressor-Caixa de Engrenagens-Motor KKK — Alinhamento a Laser de Precisão",
+    "client": "Confidencial — Siderúrgica, Jharkhand",
+    "year": "2024",
+    "duration": "2 dias",
+    "scope": "Alinhamento a laser de precisão de um trem compressor de três elementos (motor–caixa de engrenagens–compressor) após substituição da caixa de engrenagens. Medição e correção de tensão de tubulação.",
+    "challenge": "O motor era um motor de indução de velocidade fixa com acesso limitado para calços. A tensão de tubulação na descarga do compressor estava puxando a carcaça em 0,04 mm — suficiente para invalidar o alinhamento uma vez conectado.",
+    "solution": "Realizamos um alinhamento a frio desacoplado, depois medimos e documentamos a tensão de tubulação com a linha de descarga conectada. O empreiteiro de tubulação reforçou o suporte do carretel de descarga e a tensão de tubulação caiu para <0,005 mm. Alinhamento final acoplado: angular 0,008 mm/100 mm, deslocamento 0,012 mm — dentro das tolerâncias OEM.",
+    "outcomes": [
+      "Desalinhamento angular: 0,008 mm/100 mm (limite OEM 0,02 mm/100 mm)",
+      "Deslocamento paralelo: 0,012 mm (limite OEM 0,025 mm)",
+      "Tensão de tubulação corrigida — sem carga residual no bocal do compressor",
+      "Vibração na primeira partida: 1,2 mm/s — bem dentro do nível de alarme"
+    ],
+    "tags": [
+      "KKK",
+      "Alinhamento a Laser",
+      "Compressor",
+      "Siderúrgica"
+    ],
+    "categorySlug": "machine-alignment"
+  },
+  "cs_06": {
+    "id": "cs_06",
+    "image": "project-dynamic-balancing.webp",
+    "category": "Balanceamento Dinâmico",
+    "industry": "Fábrica de Cimento",
+    "title": "Rotor de Ventilador de Moinho de Cimento — Balanceamento Dinâmico e Usinagem de Munhões",
+    "client": "Confidencial — Fábrica de Cimento, Rajastão",
+    "year": "2023",
+    "duration": "4 dias",
+    "scope": "Balanceamento dinâmico em oficina de um rotor de ventilador ID de 680 kg conforme grau de qualidade ISO 21940-11 G2.5, além de retífica e polimento de munhões nos lados de acionamento e não acionamento.",
+    "challenge": "O rotor chegou com acúmulo severo de cimento, riscos nos munhões por colapso do mancal, e um desbalanceamento residual de ~420 g·mm de campo — bem fora dos limites ISO G2.5 para a velocidade operacional.",
+    "solution": "Depósitos de cimento foram limpos por jateamento com granalha. Ambos os munhões foram retificados com redução de 0,10 mm e polidos a Ra 0,4 µm. O rotor então foi balanceado em nossa máquina de balanceamento dinâmico de dois planos (capacidade de 2000 kg, velocidade até 1500 RPM). Desbalanceamento residual final: 6 g·mm por plano (ISO G1.0 alcançado).",
+    "outcomes": [
+      "Desbalanceamento residual: 6 g·mm/plano — melhor que G1.0",
+      "Acabamento superficial dos munhões: Ra 0,38 µm em ambas as extremidades",
+      "Vibração em velocidade plena (980 RPM) pós-instalação: 0,9 mm/s",
+      "Temperaturas dos mancais normalizadas em 2 horas após a primeira operação"
+    ],
+    "tags": [
+      "Balanceamento Dinâmico",
+      "Rotor de Ventilador",
+      "Usinagem de Munhões",
+      "Cimento"
+    ],
+    "categorySlug": "dynamic-balancing"
+  },
+  "cs_07": {
+    "id": "cs_07",
+    "image": "project-emergency-breakdown.webp",
+    "category": "Emergência de Parada",
+    "industry": "Usina de Açúcar",
+    "title": "Turbina Belliss & Morcom — Falha de Emergência de Mancal Babbitt Durante a Safra de Moagem",
+    "client": "Confidencial — Usina de Açúcar, Haryana",
+    "year": "2024",
+    "duration": "14 horas de parada",
+    "scope": "Resposta de emergência no local, diagnóstico de causa raiz, fabricação e ajuste de mancal babbitt de reposição, inspeção do rotor e recomissionamento dentro de uma janela de 14 horas.",
+    "challenge": "A turbina disparou às 02h00 no pico da safra de moagem devido ao colapso de um mancal babbitt no lado não acionamento. A usina processava 8.000 TCD — cada hora parada custava aproximadamente ₹4 lakh em perdas de cana.",
+    "solution": "Nosso engenheiro foi despachado em 90 minutos após a chamada e chegou ao local às 05h30. Causa raiz identificada: falta de óleo por uma passagem de óleo bloqueada. O mancal de reposição foi obtido do estoque da oficina, rebabbitado e raspado à mão para ajuste no local. Munhão do rotor inspecionado — sem danos. Turbina de volta em operação às 16h00.",
+    "outcomes": [
+      "Tempo total de parada: 14 horas do disparo ao primeiro vapor",
+      "Causa raiz identificada e passagem de óleo limpa — sem repetição do disparo",
+      "Valor estimado de perda de cana evitada: aproximadamente ₹56 lakh",
+      "Sem danos aos munhões do rotor — economizou o custo de substituição do eixo"
+    ],
+    "tags": [
+      "Belliss & Morcom",
+      "Emergência",
+      "Mancal Babbitt",
+      "Usina de Açúcar"
+    ],
+    "categorySlug": "emergency-breakdown"
+  },
+  "cs_08": {
+    "id": "cs_08",
+    "image": "project-troubleshooting.webp",
+    "category": "Diagnóstico de Falhas",
+    "industry": "Fábrica de Papel",
+    "title": "Turbina BHEL 3 MW — Investigação e Correção de Causa Raiz de Vibração Alta",
+    "client": "Confidencial — Fábrica de Papel, Punjab",
+    "year": "2024",
+    "duration": "3 dias de investigação + 8 dias de correção",
+    "scope": "Análise de vibração no local, avaliação rotordinâmica, identificação de causa raiz, balanceamento de rotor em oficina, substituição de mancais e recomissionamento.",
+    "challenge": "A turbina de 3 MW vinha apresentando vibração crescente por 6 meses — atingindo o pico de 9,2 mm/s no mancal do lado não acionamento. Três equipes de manutenção distintas haviam substituído mancais sem resolver o problema subjacente.",
+    "solution": "Implantamos equipamentos de análise de vibração e capturamos espectros de frequência em todas as velocidades operacionais. Um componente dominante 1× persistiu em todas as velocidades, confirmando desbalanceamento de massa do rotor em vez de problemas de mancal ou alinhamento. O rotor foi removido, os munhões inspecionados (ovalização leve corrigida) e balanceado a ISO G1.0 em nossa oficina. Residual final: 4,8 g·mm por plano.",
+    "outcomes": [
+      "Vibração reduzida de 9,2 mm/s para 0,8 mm/s na velocidade operacional",
+      "Causa raiz confirmada: excentricidade de massa do rotor de um reparo de munhão malfeito anteriormente",
+      "24+ meses de operação desde o recomissionamento — sem trocas de mancal",
+      "Relatório completo de balanceamento e espectros de vibração fornecidos para o arquivo do seguro"
+    ],
+    "tags": [
+      "BHEL",
+      "Análise de Vibração",
+      "Balanceamento Dinâmico",
+      "Diagnóstico de Falhas"
+    ],
+    "categorySlug": "troubleshooting"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "cs_01": {
+    "id": "cs_01",
+    "image": "project-triveni-overhaul.webp",
+    "category": "Đại tu",
+    "industry": "Nhà máy đường",
+    "title": "Tua-bin Đối áp Triveni 5 MW — Đại tu Toàn diện & Cân bằng Rotor",
+    "client": "Bảo mật — Nhà máy đường, Tây UP",
+    "year": "2023",
+    "duration": "12 ngày",
+    "scope": "Đại tu trọn gói toàn diện: tháo rotor, thay ổ trục, gia công phớt mê cung, cân bằng động rotor (ISO 1940 G2.5), súc rửa dầu bôi trơn và chạy thử.",
+    "challenge": "Tua-bin đã hoạt động với độ rung cao (>6 mm/s) trong hai mùa. Vỏ ổ trục cho thấy mòn fretting và rotor có độ đảo 1× dai dẳng mà bảo trì trước đó chưa khắc phục được.",
+    "solution": "Kỹ sư từng làm việc tại OEM Triveni tháo rời thiết bị và phát hiện ngõng trục bị nứt ở đầu dẫn động. Ngõng trục được gia công giảm kích thước, đổ và cạo babbitt mới, gia công mê cung tại xưởng chúng tôi, và cân bằng động rotor xuống <0,5 g·mm mất cân bằng dư. Độ rung sau chạy thử: 1,8 mm/s.",
+    "outcomes": [
+      "Độ rung giảm từ 6,4 mm/s xuống 1,8 mm/s",
+      "Nhiệt độ kim loại ổ trục giảm 14 °C",
+      "Tua-bin trở lại hoạt động trong khung thời gian 12 ngày đã lên kế hoạch",
+      "Không có trip ngoài kế hoạch trong 12 tháng vận hành tiếp theo"
+    ],
+    "tags": [
+      "Triveni",
+      "Cân bằng Rotor",
+      "Ổ trục Babbitt",
+      "Đại tu"
+    ],
+    "categorySlug": "overhauling"
+  },
+  "cs_02": {
+    "id": "cs_02",
+    "image": "project-reverse-engineering.webp",
+    "category": "Kỹ thuật Đảo ngược",
+    "industry": "Nhà máy giấy",
+    "title": "Đĩa Tầng Xung Siemens SST-200 — Kỹ thuật Đảo ngược & Chế tạo",
+    "client": "Bảo mật — Nhà máy giấy, Uttarakhand",
+    "year": "2023",
+    "duration": "21 ngày",
+    "scope": "Quét laser 3D đĩa xung bị hỏng, xác minh vật liệu PMI, bộ bản vẽ chế tạo đầy đủ, và cung cấp đĩa thay thế gia công theo bản vẽ.",
+    "challenge": "OEM báo giá thời gian chờ 14 tuần và €18.000 cho đĩa xung thay thế. Nhà máy không thể chịu đựng việc ngừng hoạt động 14 tuần khi mùa vụ đang đến gần.",
+    "solution": "Đội của chúng tôi quét 3D đĩa bị hỏng tại hiện trường, thực hiện PMI để xác nhận hợp kim (thép không gỉ AISI 422), tạo bản vẽ chế tạo đầy đủ với tất cả dung sai và thông số xử lý nhiệt, và đĩa được gia công thô, xử lý nhiệt, gia công hoàn thiện và cân bằng động trong 19 ngày làm việc.",
+    "outcomes": [
+      "Thời gian chờ giảm từ 14 tuần (OEM) xuống 21 ngày",
+      "Tiết kiệm chi phí khoảng ₹12 lakh so với giá OEM",
+      "Đĩa lắp đặt không có vấn đề kích thước; tua-bin trở lại công suất định mức",
+      "Bộ bản vẽ đầy đủ được lưu giữ để đặt hàng lại trong tương lai"
+    ],
+    "tags": [
+      "Siemens",
+      "Kỹ thuật Đảo ngược",
+      "Quét 3D",
+      "PMI"
+    ],
+    "categorySlug": "reverse-engineering"
+  },
+  "cs_03": {
+    "id": "cs_03",
+    "image": "project-erection-commissioning.webp",
+    "category": "Lắp đặt & Chạy thử",
+    "industry": "Nhà máy cồn",
+    "title": "Tua-bin Đồng phát Maxwatt 3,5 MW — Lắp đặt Dự án mới & Chạy thử",
+    "client": "Bảo mật — Nhà máy cồn, Trung UP",
+    "year": "2022",
+    "duration": "28 ngày",
+    "scope": "Lắp đặt hoàn chỉnh tua-bin hơi nước, hộp số, máy phát điện, bình ngưng, hệ thống dầu bôi trơn và tất cả công việc đường ống và cáp liên quan. Chạy thử có sự chứng kiến của OEM.",
+    "challenge": "Tua-bin đến hiện trường với bản vẽ đổ vữa bệ móng không chính xác. Công việc xây dựng phải được đánh giá và sửa chữa lại trước khi có thể bắt đầu lắp đặt, thu hẹp khung thời gian chạy thử hiện có.",
+    "solution": "Kỹ sư hiện trường của chúng tôi phối hợp với nhà thầu xây dựng để sửa các hốc đổ vữa trong vòng 48 giờ. Tua-bin, hộp số và máy phát điện được lắp đặt, căn chỉnh (căn chỉnh trục đến <0,02 mm TIR), và tất cả kiểm tra trước chạy thử hoàn thành. Đồng bộ hóa đạt được ngay lần thử đầu tiên trong quá trình chạy thử có chứng kiến của OEM.",
+    "outcomes": [
+      "Đồng bộ hóa lần đầu đạt được vào ngày chạy thử — không có chậm trễ punch-list",
+      "Căn chỉnh trục đạt 0,016 mm TIR — trong dung sai OEM",
+      "Súc rửa dầu bôi trơn đến độ sạch ISO 4406 16/14/11 trước lần chạy đầu tiên",
+      "Nhà máy chấp nhận tua-bin với không có hạng mục lỗi trên punch-list OEM"
+    ],
+    "tags": [
+      "Maxwatt",
+      "Lắp đặt",
+      "Chạy thử",
+      "Căn chỉnh"
+    ],
+    "categorySlug": "erection-and-commissioning"
+  },
+  "cs_04": {
+    "id": "cs_04",
+    "image": "project-lube-oil-flushing.webp",
+    "category": "Súc rửa Dầu Bôi trơn",
+    "industry": "Phát điện",
+    "title": "Tua-bin Trích hơi-Ngưng hơi BHEL 15 MW — Súc rửa Dầu Bôi trơn Sau Đại tu",
+    "client": "Bảo mật — Nhà sản xuất điện độc lập, Rajasthan",
+    "year": "2024",
+    "duration": "5 ngày",
+    "scope": "Súc rửa hệ thống dầu bôi trơn sau đại tu bằng thiết bị lọc ly tâm di động. Mục tiêu độ sạch: ISO 4406 ≤16/14/11 cho mạch dầu bôi trơn chính và ≤15/13/10 cho mạch dầu điều khiển.",
+    "challenge": "Hệ thống dầu bôi trơn bị nhiễm bẩn kim loại đáng kể từ đại tu. Ba lần súc rửa trước đó bởi nhà thầu khác không đạt được mục tiêu độ sạch trên mạch dầu điều khiển.",
+    "solution": "Chúng tôi triển khai thiết bị súc rửa ly tâm di động chuyên dụng với mạch phụ lưu lượng thấp tốc độ cao dành riêng cho vòng dầu điều khiển. Đến ngày thứ 3, mạch chính đạt 15/13/10 và đến ngày thứ 5, cả hai mạch đạt mục tiêu độ sạch, được xác nhận bởi báo cáo đếm hạt của bên thứ ba.",
+    "outcomes": [
+      "Mạch dầu bôi trơn chính: ISO 4406 15/13/10 ✓",
+      "Mạch dầu điều khiển: ISO 4406 14/12/9 ✓ (tốt hơn mục tiêu)",
+      "Cả hai mạch hoàn thành trong 5 ngày so với khung dự phòng 10 ngày",
+      "Tua-bin được phép khởi động lửa lần đầu mà không có chậm trễ thêm"
+    ],
+    "tags": [
+      "BHEL",
+      "Súc rửa Dầu Bôi trơn",
+      "ISO 4406",
+      "Phát điện"
+    ],
+    "categorySlug": "lube-oil-flushing"
+  },
+  "cs_05": {
+    "id": "cs_05",
+    "image": "project-alignment.webp",
+    "category": "Căn chỉnh Máy móc",
+    "industry": "Nhà máy thép",
+    "title": "Tổ hợp Máy nén-Hộp số-Động cơ KKK — Căn chỉnh Laser Chính xác",
+    "client": "Bảo mật — Nhà máy thép, Jharkhand",
+    "year": "2024",
+    "duration": "2 ngày",
+    "scope": "Căn chỉnh laser chính xác của tổ hợp máy nén ba thành phần (động cơ–hộp số–máy nén) sau khi thay hộp số. Đo và sửa ứng suất đường ống.",
+    "challenge": "Động cơ là động cơ cảm ứng tốc độ cố định với khả năng chêm hạn chế. Ứng suất đường ống tại đầu xả máy nén kéo vỏ 0,04 mm — đủ để làm mất hiệu lực căn chỉnh khi kết nối.",
+    "solution": "Chúng tôi thực hiện căn chỉnh nguội không khớp nối, sau đó đo và ghi nhận ứng suất đường ống với đường xả được kết nối. Nhà thầu đường ống hỗ trợ lại đoạn ống xả và ứng suất đường ống giảm xuống <0,005 mm. Căn chỉnh khớp nối cuối cùng: góc 0,008 mm/100 mm, độ lệch 0,012 mm — trong dung sai OEM.",
+    "outcomes": [
+      "Lệch góc: 0,008 mm/100 mm (giới hạn OEM 0,02 mm/100 mm)",
+      "Độ lệch song song: 0,012 mm (giới hạn OEM 0,025 mm)",
+      "Ứng suất đường ống được sửa chữa — không còn tải trọng vòi phun dư trên máy nén",
+      "Độ rung khi khởi động đầu tiên: 1,2 mm/s — thấp hơn nhiều mức báo động"
+    ],
+    "tags": [
+      "KKK",
+      "Căn chỉnh Laser",
+      "Máy nén",
+      "Nhà máy thép"
+    ],
+    "categorySlug": "machine-alignment"
+  },
+  "cs_06": {
+    "id": "cs_06",
+    "image": "project-dynamic-balancing.webp",
+    "category": "Cân bằng Động",
+    "industry": "Nhà máy xi măng",
+    "title": "Rotor Quạt Nhà máy Xi măng — Cân bằng Động & Gia công Ngõng trục",
+    "client": "Bảo mật — Nhà máy xi măng, Rajasthan",
+    "year": "2023",
+    "duration": "4 ngày",
+    "scope": "Cân bằng động tại xưởng của rotor quạt ID 680 kg đạt cấp chất lượng ISO 21940-11 G2.5, cùng với mài và đánh bóng ngõng trục ở cả đầu dẫn động và đầu không dẫn động.",
+    "challenge": "Rotor đến với tích tụ xi măng nghiêm trọng, xước ngõng trục do ổ trục bị sập, và mất cân bằng dư ~420 g·mm từ hiện trường — vượt xa giới hạn ISO G2.5 cho tốc độ vận hành.",
+    "solution": "Cặn xi măng được làm sạch bằng phun cát. Cả hai ngõng trục được mài giảm kích thước 0,10 mm và đánh bóng đạt Ra 0,4 µm. Rotor sau đó được cân bằng trên máy cân bằng động hai mặt phẳng của chúng tôi (công suất 2000 kg, tốc độ đến 1500 vòng/phút). Mất cân bằng dư cuối cùng: 6 g·mm mỗi mặt phẳng (đạt ISO G1.0).",
+    "outcomes": [
+      "Mất cân bằng dư: 6 g·mm/mặt phẳng — tốt hơn G1.0",
+      "Độ hoàn thiện bề mặt ngõng trục: Ra 0,38 µm cả hai đầu",
+      "Độ rung ở tốc độ đầy đủ (980 vòng/phút) sau lắp đặt: 0,9 mm/s",
+      "Nhiệt độ ổ trục ổn định trong vòng 2 giờ chạy đầu tiên"
+    ],
+    "tags": [
+      "Cân bằng Động",
+      "Rotor Quạt",
+      "Gia công Ngõng trục",
+      "Xi măng"
+    ],
+    "categorySlug": "dynamic-balancing"
+  },
+  "cs_07": {
+    "id": "cs_07",
+    "image": "project-emergency-breakdown.webp",
+    "category": "Sự cố Khẩn cấp",
+    "industry": "Nhà máy đường",
+    "title": "Tua-bin Belliss & Morcom — Sự cố Hỏng Ổ trục Babbitt Khẩn cấp Trong Mùa Ép mía",
+    "client": "Bảo mật — Nhà máy đường, Haryana",
+    "year": "2024",
+    "duration": "14 giờ ngừng máy",
+    "scope": "Ứng phó khẩn cấp tại hiện trường, chẩn đoán nguyên nhân gốc, chế tạo và lắp đặt ổ trục babbitt thay thế, kiểm tra rotor, và khôi phục vận hành trong khung thời gian 14 giờ.",
+    "challenge": "Tua-bin trip lúc 02:00 trong đỉnh điểm mùa ép mía do sập ổ trục babbitt ở đầu không dẫn động. Nhà máy đang xử lý 8.000 TCD — mỗi giờ ngừng hoạt động tốn khoảng ₹4 lakh do tổn thất mía.",
+    "solution": "Kỹ sư của chúng tôi được điều động trong vòng 90 phút sau cuộc gọi và đến hiện trường lúc 05:30. Nguyên nhân gốc được xác định: thiếu dầu do đường dầu bị tắc. Ổ trục thay thế được lấy từ kho xưởng, đổ babbitt lại và cạo tay để vừa khớp tại hiện trường. Ngõng trục rotor được kiểm tra — không hư hỏng. Tua-bin hoạt động trở lại lúc 16:00.",
+    "outcomes": [
+      "Tổng thời gian ngừng máy: 14 giờ từ khi trip đến hơi đầu tiên",
+      "Nguyên nhân gốc được xác định và đường dầu được làm sạch — không trip lặp lại",
+      "Giá trị tổn thất mía ước tính ngăn chặn được: khoảng ₹56 lakh",
+      "Không hư hỏng ngõng trục rotor — tiết kiệm chi phí thay trục"
+    ],
+    "tags": [
+      "Belliss & Morcom",
+      "Khẩn cấp",
+      "Ổ trục Babbitt",
+      "Nhà máy đường"
+    ],
+    "categorySlug": "emergency-breakdown"
+  },
+  "cs_08": {
+    "id": "cs_08",
+    "image": "project-troubleshooting.webp",
+    "category": "Xử lý Sự cố",
+    "industry": "Nhà máy giấy",
+    "title": "Tua-bin BHEL 3 MW — Điều tra & Khắc phục Nguyên nhân Gốc Rung động Cao",
+    "client": "Bảo mật — Nhà máy giấy, Punjab",
+    "year": "2024",
+    "duration": "3 ngày điều tra + 8 ngày khắc phục",
+    "scope": "Phân tích độ rung tại hiện trường, đánh giá động lực học rotor, xác định nguyên nhân gốc, cân bằng rotor tại xưởng, thay ổ trục và khôi phục vận hành.",
+    "challenge": "Tua-bin 3 MW đã trải qua độ rung ngày càng tăng trong 6 tháng — đạt đỉnh 9,2 mm/s tại ổ trục đầu không dẫn động. Ba đội bảo trì riêng biệt đã thay ổ trục mà không giải quyết được vấn đề gốc rễ.",
+    "solution": "Chúng tôi triển khai thiết bị phân tích độ rung và thu thập phổ tần số ở tất cả các tốc độ vận hành. Thành phần trội 1× vẫn tồn tại ở mọi tốc độ, xác nhận đây là mất cân bằng khối lượng rotor chứ không phải vấn đề ổ trục hoặc căn chỉnh. Rotor được tháo ra, ngõng trục được kiểm tra (độ ô van nhẹ được sửa), và cân bằng đến ISO G1.0 tại xưởng của chúng tôi. Dư cuối cùng: 4,8 g·mm mỗi mặt phẳng.",
+    "outcomes": [
+      "Độ rung giảm từ 9,2 mm/s xuống 0,8 mm/s ở tốc độ vận hành",
+      "Nguyên nhân gốc được xác nhận: độ lệch tâm khối lượng rotor từ lần sửa ngõng trục hỏng trước đó",
+      "24+ tháng vận hành kể từ khi khôi phục — không thay ổ trục",
+      "Báo cáo cân bằng đầy đủ và phổ độ rung được cung cấp cho hồ sơ bảo hiểm"
+    ],
+    "tags": [
+      "BHEL",
+      "Phân tích Độ rung",
+      "Cân bằng Động",
+      "Xử lý Sự cố"
+    ],
+    "categorySlug": "troubleshooting"
+  }
+}

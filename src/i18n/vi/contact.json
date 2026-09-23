@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "Liên Hệ Đội Ngũ Kỹ Thuật — Yêu Cầu Báo Giá Kỹ Thuật",
+    "description": "Liên hệ Keshav Enterprises để gửi RFQ kỹ thuật tua-bin, báo giá reverse engineering, và hỗ trợ khẩn cấp sự cố 24x7. Điện thoại: +91 9149229448.",
+    "schemaName": "Liên hệ Keshav Enterprises"
+  },
+  "hero": {
+    "title": "Trao Đổi Trực Tiếp Với Kỹ Sư — Không Qua Bộ Phận Bán Hàng",
+    "subtitle": "Cho chúng tôi biết yêu cầu của bạn, đội ngũ kỹ thuật của chúng tôi — từng làm việc tại OEM, không phải tổng đài viên — sẽ phản hồi bằng câu trả lời kỹ thuật trong vòng 24 giờ, vì bạn cần câu trả lời, không phải một tờ brochure.",
+    "trustSignals": [
+      "RFQ được bảo mật tuyệt đối — không bao giờ chia sẻ với đại diện OEM",
+      "Không ràng buộc — bạn là người quyết định bước tiếp theo",
+      "24 giờ đối với yêu cầu theo kế hoạch · 1 giờ đối với trường hợp khẩn cấp"
+    ]
+  },
+  "cards": {
+    "directLines": {
+      "title": "Đường Dây Trực Tiếp",
+      "salesLabel": "Kinh doanh & RFQ",
+      "emergencyLabel": "Hỗ Trợ Khẩn Cấp Sự Cố 24×7",
+      "whatsappCta": "Nhắn WhatsApp đến số này",
+      "whatsappPrefillMessage": "Xin chào, tôi cần hỗ trợ khẩn cấp cho sự cố tua-bin của mình."
+    },
+    "email": {
+      "title": "Email (dành cho RFQ)"
+    },
+    "facilityAddress": {
+      "title": "Địa Chỉ Nhà Máy"
+    },
+    "officeHours": {
+      "title": "Giờ Làm Việc",
+      "mondaySaturdayLabel": "Thứ Hai – Thứ Bảy",
+      "mondaySaturdayValue": "9:00 – 18:00 giờ Ấn Độ (IST)",
+      "sundayLabel": "Chủ Nhật",
+      "sundayValue": "Nghỉ (chỉ tiếp nhận trường hợp khẩn cấp)",
+      "emergencyLineLabel": "Đường Dây Khẩn Cấp",
+      "emergencyLineValue": "Hoạt động 24 × 7"
+    },
+    "indiamart": {
+      "ariaLabel": "Xem Keshav Enterprises trên IndiaMART",
+      "title": "Đã Xác Minh Trên IndiaMART",
+      "ratingSrOnly": "4,3 trên 5 sao",
+      "ratingText": "Đánh giá 4,3/5",
+      "trustSeal": "Nhà Cung Cấp TrustSeal"
+    },
+    "connect": {
+      "label": "Kết Nối Với Chúng Tôi"
+    }
+  },
+  "formSection": {
+    "heading": "Nhận Báo Giá Kỹ Thuật Miễn Phí",
+    "subheading": "Yêu cầu của bạn sẽ được chuyển thẳng đến kỹ sư trưởng của chúng tôi — không qua tổng đài. Chúng tôi phản hồi bằng câu trả lời kỹ thuật, vì đó mới là điều các quản lý nhà máy thực sự cần. Bao gồm đánh giá miễn phí báo cáo phân tích dầu bôi trơn gần nhất của tua-bin bạn."
+  },
+  "googleBusiness": {
+    "title": "Tìm Chúng Tôi Trên Google Doanh Nghiệp",
+    "descriptionPrefix": "Tìm kiếm",
+    "descriptionQuoted": "Keshav Enterprises Shamli",
+    "descriptionSuffix": "trên Google Maps — xem hồ sơ của chúng tôi, chỉ đường, hoặc để lại đánh giá giúp những khách hàng khác tìm thấy chúng tôi.",
+    "cta": "Xem Trên Google"
+  },
+  "facilityPhoto": {
+    "caption": "Nhà Máy Sản Xuất Của Chúng Tôi, Shamli, Uttar Pradesh",
+    "alt": "Nhà máy sản xuất Keshav Enterprises — Shamli, Uttar Pradesh"
+  },
+  "map": {
+    "heading": "Nhà Máy Sản Xuất Của Chúng Tôi — Shamli, Uttar Pradesh",
+    "iframeTitle": "Bản đồ vị trí Keshav Enterprises",
+    "googleBusinessCta": "Google Doanh Nghiệp",
+    "directionsCta": "Chỉ Đường"
+  },
+  "form": {
+    "riskReversal": [
+      {
+        "title": "Hoàn toàn không ràng buộc",
+        "sub": "Chúng tôi phản hồi bằng câu trả lời kỹ thuật. Bạn quyết định bước tiếp theo — không có áp lực theo đuổi."
+      },
+      {
+        "title": "RFQ của bạn luôn được bảo mật",
+        "sub": "Chúng tôi không bao giờ chia sẻ thông tin nhà máy của bạn cho bên thứ ba — kể cả đại diện OEM."
+      },
+      {
+        "title": "Kỹ sư phản hồi, không phải nhân viên bán hàng",
+        "sub": "Người đã từng làm việc với loại tua-bin của bạn sẽ đưa ra câu trả lời kỹ thuật thực sự."
+      },
+      {
+        "title": "Không phù hợp? Chúng tôi sẽ nói ngay từ đầu",
+        "sub": "Nếu công việc của bạn nằm ngoài phạm vi của chúng tôi, chúng tôi sẽ thông báo ngay — không vòng vo, không lãng phí thời gian."
+      }
+    ],
+    "inquiryTypes": [
+      "Dịch Vụ Đại Tu Tua-Bin",
+      "Hỗ Trợ Khẩn Cấp Sự Cố",
+      "Lắp Đặt & Vận Hành Thử Tua-Bin",
+      "Reverse Engineering",
+      "Cân Bằng Động",
+      "Vệ Sinh Súc Rửa Dầu Bôi Trơn",
+      "Căn Chỉnh Đồng Trục Máy",
+      "Chẩn Đoán Xử Lý Sự Cố",
+      "Phun Cát",
+      "RFQ Lõi Lọc",
+      "RFQ HVAC, Hệ Thống Ống Gió & Lọc Khí",
+      "RFQ Phụ Tùng Tua-Bin",
+      "RFQ Van, Gioăng & Hệ Thống Hơi Nước",
+      "RFQ Khớp Nối Giãn Nở",
+      "RFQ Bộ Lọc Rác (Strainer)",
+      "Yêu Cầu Chung"
+    ],
+    "officeStatus": {
+      "online": "Kỹ sư đang trực tuyến — phản hồi trong vòng 2 giờ",
+      "offline": "Đường dây khẩn cấp hoạt động 24×7 — RFQ theo kế hoạch sẽ được phản hồi từ 9 giờ sáng theo giờ IST"
+    },
+    "labels": {
+      "yourName": "Họ Tên Của Bạn",
+      "companyName": "Tên Công Ty",
+      "email": "Email",
+      "phone": "Số Điện Thoại",
+      "inquiryType": "Loại Yêu Cầu",
+      "turbineMakeModel": "Hãng Sản Xuất / Model Tua-Bin",
+      "details": "Chi Tiết",
+      "attachments": "Đính Kèm Bản Vẽ Kỹ Thuật / Datasheet (không bắt buộc)"
+    },
+    "placeholders": {
+      "yourName": "Họ và tên đầy đủ",
+      "companyName": "Tên công ty của bạn",
+      "email": "you@company.com",
+      "phone": "+91 98000 00000",
+      "inquiryTypeSelect": "Chọn loại yêu cầu…",
+      "turbineMakeModel": "vd: Triveni 5 MW, kiểu back-pressure",
+      "details": "Mô tả yêu cầu, triệu chứng sự cố, thời hạn hoặc thông số kỹ thuật của bạn…"
+    },
+    "attachmentsHelp": "PDF, DWG, DXF, JPG, PNG — tối đa 10 MB mỗi tệp. Giúp chúng tôi phản hồi nhanh hơn với báo giá chính xác hơn.",
+    "charCounter": {
+      "minRequired": "Yêu cầu tối thiểu 20 ký tự",
+      "moreNeededOne": "cần thêm {n} ký tự",
+      "moreNeededMany": "cần thêm {n} ký tự",
+      "looksGood": "✓ Đạt yêu cầu!"
+    },
+    "errors": {
+      "yourName": "Vui lòng nhập họ tên của bạn",
+      "companyName": "Vui lòng nhập tên công ty",
+      "email": "Vui lòng nhập email hợp lệ",
+      "phone": "Vui lòng nhập số điện thoại hợp lệ (từ 10 chữ số trở lên)",
+      "inquiryType": "Vui lòng chọn loại yêu cầu",
+      "details": "Vui lòng cung cấp chi tiết (tối thiểu 20 ký tự)",
+      "attachmentTooLarge": "\"{filename}\" vượt quá giới hạn 10 MB — vui lòng đính kèm tệp nhỏ hơn",
+      "rateLimited": "Bạn đã gửi quá nhiều lần. Vui lòng đợi một giờ trước khi thử lại.",
+      "securityCheck": "Vui lòng hoàn tất bước kiểm tra bảo mật.",
+      "notConfigured": "Biểu mẫu chưa được cấu hình — vui lòng liên hệ trực tiếp với chúng tôi qua WhatsApp hoặc điện thoại.",
+      "submissionFailedGeneric": "Gửi không thành công. Vui lòng thử lại.",
+      "submissionFailedBanner": "Gửi không thành công — vui lòng thử lại hoặc liên hệ trực tiếp với chúng tôi:",
+      "whatsappFallback": "WhatsApp",
+      "whatsappFallbackPrefillMessage": "Xin chào, tôi đã cố gửi biểu mẫu liên hệ nhưng không thành công. Bạn có thể hỗ trợ tôi được không?"
+    },
+    "buttons": {
+      "sendingToEngineer": "Đang gửi đến Đội Ngũ Kỹ Thuật...",
+      "sendToEngineer": "Gửi Đến Kỹ Sư Trưởng Của Chúng Tôi",
+      "sendToEngineerSub": "Nhận câu trả lời kỹ thuật, không phải brochure",
+      "sendingShort": "Đang gửi…",
+      "submitWithDrawings": "Gửi RFQ Kèm Bản Vẽ Kỹ Thuật",
+      "submitWithDrawingsSub": "Vì không phải ai cũng dùng WhatsApp"
+    },
+    "footerNote": {
+      "text": "Chúng tôi phản hồi trong vòng 1 ngày làm việc · Không spam ·",
+      "privacyPolicyLink": "Chính Sách Bảo Mật"
+    },
+    "success": {
+      "heading": "Yêu cầu đã được gửi đến đội ngũ kỹ sư của chúng tôi.",
+      "bodyPrefix": "Bạn có thể mong đợi câu trả lời kỹ thuật trong vòng",
+      "bodyMid": "đối với các yêu cầu theo kế hoạch, hoặc",
+      "bodySuffix": "đối với sự cố khẩn cấp — từ một kỹ sư, không phải tổng đài viên.",
+      "hours24": "24 giờ",
+      "hour1": "1 giờ",
+      "resendCta": "Gửi yêu cầu khác",
+      "whileYouWaitLabel": "Trong lúc chờ đợi —",
+      "whileYouWaitText": "hãy xem qua các nghiên cứu tình huống và kết quả thực tế đã được ghi nhận của chúng tôi.",
+      "viewCaseStudiesCta": "Xem Nghiên Cứu Tình Huống"
+    }
+  }
+}

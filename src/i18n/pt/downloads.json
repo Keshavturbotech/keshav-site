@@ -1,0 +1,92 @@
+{
+  "dl_1": {
+    "id": "dl_1",
+    "title": "Checklist de Revisão Geral de Turbinas",
+    "desc": "Checklist passo a passo para revisões gerais maiores e menores de turbinas. Cobre folgas, balanceamento, assinatura de torque e verificações pré-comissionamento.",
+    "category": "Manutenção",
+    "tags": [
+      "Turbina",
+      "Revisão Geral",
+      "Checklist"
+    ],
+    "fileSize": "420 KB",
+    "fileType": "PDF",
+    "file": "turbine-overhaul-checklist.pdf",
+    "featured": true
+  },
+  "dl_2": {
+    "id": "dl_2",
+    "title": "Ficha Técnica de Elementos Filtrantes — Óleo Lubrificante",
+    "desc": "Especificações técnicas, curvas de pressão diferencial e tabela de compatibilidade para todos os elementos filtrantes de óleo lubrificante fornecidos pela Keshav Enterprises.",
+    "category": "Fichas Técnicas",
+    "tags": [
+      "Filtração",
+      "Óleo Lubrificante",
+      "Ficha Técnica"
+    ],
+    "fileSize": "1.2 MB",
+    "fileType": "PDF",
+    "file": "filter-element-datasheet-lube-oil.pdf",
+    "featured": false
+  },
+  "dl_3": {
+    "id": "dl_3",
+    "title": "Checklist de Lavagem de Óleo Lubrificante",
+    "desc": "Checklist do procedimento de lavagem conforme ISO. Cobre montagem da centrífuga móvel, protocolo de amostragem de óleo, verificação de limpeza e assinatura de conformidade.",
+    "category": "Manutenção",
+    "tags": [
+      "Óleo Lubrificante",
+      "Lavagem",
+      "ISO"
+    ],
+    "fileSize": "310 KB",
+    "fileType": "PDF",
+    "file": "lube-oil-flushing-checklist.pdf",
+    "featured": false
+  },
+  "dl_4": {
+    "id": "dl_4",
+    "title": "Referência de Seleção de Mancais e Folgas",
+    "desc": "Guia de referência rápida para seleção de mancais, folgas de munhão e tolerâncias radiais/axiais nas marcas mais comuns de turbinas a vapor.",
+    "category": "Guias Técnicos",
+    "tags": [
+      "Mancais",
+      "Folgas",
+      "Referência"
+    ],
+    "fileSize": "680 KB",
+    "fileType": "PDF",
+    "file": "bearing-selection-clearance-reference.pdf",
+    "featured": false
+  },
+  "dl_5": {
+    "id": "dl_5",
+    "title": "Modelo de Solicitação de Cotação de Turbinas",
+    "desc": "Folha de especificação de turbina em branco para solicitar uma cotação de reparo ou revisão geral. Preencha marca, modelo, potência e histórico de manutenção.",
+    "category": "RFQ / Formulários",
+    "tags": [
+      "RFQ",
+      "Modelo",
+      "Cotação"
+    ],
+    "fileSize": "185 KB",
+    "fileType": "XLSX",
+    "file": "turbine-rfq-template.xlsx",
+    "featured": true
+  },
+  "dl_6": {
+    "id": "dl_6",
+    "title": "Perfil da Empresa Keshav Enterprises",
+    "desc": "Apresentação de capacidades para equipes de compras e gerentes de planta. Cobre serviços, cobertura de marcas OEM, equipamentos de oficina e projetos de referência.",
+    "category": "Empresa",
+    "tags": [
+      "Perfil",
+      "Capacidades",
+      "Folheto"
+    ],
+    "fileSize": "3.4 MB",
+    "fileType": "PDF",
+    "file": "keshav-enterprises-company-profile.pdf",
+    "featured": false
+  }
+}

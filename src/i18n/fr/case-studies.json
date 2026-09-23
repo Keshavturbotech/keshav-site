@@ -1,0 +1,210 @@
+{
+  "cs_01": {
+    "id": "cs_01",
+    "image": "project-triveni-overhaul.webp",
+    "category": "Révision complète",
+    "industry": "Sucrerie",
+    "title": "Turbine à contre-pression Triveni 5 MW — Révision complète et équilibrage du rotor",
+    "client": "Confidentiel — Sucrerie, Uttar Pradesh occidental",
+    "year": "2023",
+    "duration": "12 jours",
+    "scope": "Révision complète clé en main : dépose du rotor, remplacement des paliers, usinage des joints labyrinthes, équilibrage dynamique du rotor (ISO 1940 G2.5), rinçage de l'huile de lubrification et mise en service.",
+    "challenge": "La turbine fonctionnait avec des vibrations élevées (>6 mm/s) depuis deux saisons. Les logements de paliers présentaient une usure par fretting et le rotor avait un faux-rond persistant de type 1× que les entretiens précédents n'avaient pas résolu.",
+    "solution": "D'anciens ingénieurs OEM de Triveni ont démonté l'unité et découvert un tourillon fissuré côté entraînement. Le tourillon a été usiné en sous-cote, un nouveau métal antifriction (babbitt) coulé puis grattoir-fini, les labyrinthes usinés dans notre atelier, et le rotor équilibré dynamiquement jusqu'à un déséquilibre résiduel de <0,5 g·mm. Vibrations après mise en service : 1,8 mm/s.",
+    "outcomes": [
+      "Vibrations réduites de 6,4 mm/s à 1,8 mm/s",
+      "Température du métal des paliers réduite de 14 °C",
+      "Turbine remise en service dans le délai prévu de 12 jours",
+      "Aucun arrêt non planifié durant la saison d'exploitation de 12 mois suivante"
+    ],
+    "tags": [
+      "Triveni",
+      "Équilibrage du rotor",
+      "Paliers babbitt",
+      "Révision complète"
+    ],
+    "categorySlug": "overhauling"
+  },
+  "cs_02": {
+    "id": "cs_02",
+    "image": "project-reverse-engineering.webp",
+    "category": "Rétro-ingénierie",
+    "industry": "Papeterie",
+    "title": "Disque d'étage à impulsion Siemens SST-200 — Rétro-ingénierie et fabrication",
+    "client": "Confidentiel — Papeterie, Uttarakhand",
+    "year": "2023",
+    "duration": "21 jours",
+    "scope": "Numérisation 3D au laser du disque endommagé, vérification de matériau par PMI, jeu complet de plans de fabrication, et fourniture d'un disque de remplacement usiné selon plan.",
+    "challenge": "Le fabricant d'origine avait annoncé un délai de 14 semaines et un prix de 18 000 € pour un disque de remplacement. L'usine ne pouvait pas se permettre un arrêt de 14 semaines à l'approche de la saison.",
+    "solution": "Notre équipe a numérisé en 3D le disque endommagé sur site, réalisé une analyse PMI pour confirmer l'alliage (acier inoxydable AISI 422), généré des plans de fabrication complets avec toutes les tolérances et spécifications de traitement thermique, puis fait usiner grossièrement, traiter thermiquement, usiner en finition et équilibrer dynamiquement le disque en 19 jours ouvrés.",
+    "outcomes": [
+      "Délai réduit de 14 semaines (OEM) à 21 jours",
+      "Économie d'environ ₹12 lakh par rapport au prix du fabricant d'origine",
+      "Disque installé sans problème dimensionnel ; turbine revenue à sa puissance nominale",
+      "Jeu complet de plans conservé pour une future commande"
+    ],
+    "tags": [
+      "Siemens",
+      "Rétro-ingénierie",
+      "Scan 3D",
+      "PMI"
+    ],
+    "categorySlug": "reverse-engineering"
+  },
+  "cs_03": {
+    "id": "cs_03",
+    "image": "project-erection-commissioning.webp",
+    "category": "Montage et mise en service",
+    "industry": "Distillerie",
+    "title": "Turbine de cogénération Maxwatt 3,5 MW — Montage et mise en service sur site neuf",
+    "client": "Confidentiel — Distillerie, Uttar Pradesh central",
+    "year": "2022",
+    "duration": "28 jours",
+    "scope": "Montage complet de la turbine à vapeur, du réducteur, de l'alternateur, du condenseur, du système d'huile de lubrification, ainsi que de toute la tuyauterie et du câblage associés. Mise en service en présence du fabricant d'origine.",
+    "challenge": "La turbine est arrivée sur site avec des plans de scellement du châssis de base incorrects. Le génie civil a dû être réévalué et corrigé avant que le montage puisse commencer, réduisant le délai de mise en service disponible.",
+    "solution": "Nos ingénieurs de site ont coordonné avec l'entrepreneur en génie civil pour corriger les poches de scellement en 48 heures. La turbine, le réducteur et l'alternateur ont été montés et alignés (alignement d'arbre à <0,02 mm TIR), et tous les contrôles de pré-mise en service ont été réalisés. La synchronisation a été obtenue dès la première tentative lors de l'essai en présence du fabricant d'origine.",
+    "outcomes": [
+      "Première synchronisation obtenue le jour de la mise en service — aucun retard sur la liste des réserves",
+      "Alignement d'arbre obtenu à 0,016 mm TIR — dans les tolérances du fabricant d'origine",
+      "Huile de lubrification rincée jusqu'à une propreté ISO 4406 de 16/14/11 avant le premier démarrage",
+      "L'usine a réceptionné la turbine sans aucune réserve sur la liste du fabricant d'origine"
+    ],
+    "tags": [
+      "Maxwatt",
+      "Montage",
+      "Mise en service",
+      "Alignement"
+    ],
+    "categorySlug": "erection-and-commissioning"
+  },
+  "cs_04": {
+    "id": "cs_04",
+    "image": "project-lube-oil-flushing.webp",
+    "category": "Rinçage d'huile de lubrification",
+    "industry": "Production d'électricité",
+    "title": "Turbine à soutirage-condensation BHEL 15 MW — Rinçage d'huile de lubrification après révision",
+    "client": "Confidentiel — Producteur d'électricité indépendant, Rajasthan",
+    "year": "2024",
+    "duration": "5 jours",
+    "scope": "Rinçage du système d'huile de lubrification après révision à l'aide d'une unité mobile de filtration centrifuge. Propreté cible : ISO 4406 ≤16/14/11 pour le circuit principal d'huile de lubrification et ≤15/13/10 pour le circuit d'huile de commande.",
+    "challenge": "Le système d'huile de lubrification présentait une contamination métallique importante suite à la révision. Trois tentatives de rinçage précédentes par un autre prestataire n'avaient pas permis d'atteindre la propreté cible sur le circuit d'huile de commande.",
+    "solution": "Nous avons déployé notre unité mobile de rinçage centrifuge conçue à cet effet, avec un sous-circuit dédié à faible volume et haute vélocité pour la boucle d'huile de commande. Au troisième jour, le circuit principal était à 15/13/10, et au cinquième jour les deux circuits avaient atteint leurs objectifs de propreté, confirmés par des rapports de comptage de particules d'un tiers indépendant.",
+    "outcomes": [
+      "Circuit principal d'huile de lubrification : ISO 4406 15/13/10 ✓",
+      "Circuit d'huile de commande : ISO 4406 14/12/9 ✓ (meilleur que l'objectif)",
+      "Les deux circuits terminés en 5 jours contre un délai de contingence de 10 jours",
+      "Turbine validée pour le premier allumage sans délai supplémentaire"
+    ],
+    "tags": [
+      "BHEL",
+      "Rinçage d'huile de lubrification",
+      "ISO 4406",
+      "Production d'électricité"
+    ],
+    "categorySlug": "lube-oil-flushing"
+  },
+  "cs_05": {
+    "id": "cs_05",
+    "image": "project-alignment.webp",
+    "category": "Alignement de machines",
+    "industry": "Aciérie",
+    "title": "Ligne compresseur-réducteur-moteur KKK — Alignement laser de précision",
+    "client": "Confidentiel — Aciérie, Jharkhand",
+    "year": "2024",
+    "duration": "2 jours",
+    "scope": "Alignement laser de précision d'une ligne de compresseur à trois éléments (moteur–réducteur–compresseur) après remplacement du réducteur. Mesure et correction de la contrainte de tuyauterie.",
+    "challenge": "Le moteur était un moteur asynchrone à vitesse fixe avec un accès limité pour le calage. La contrainte de tuyauterie sur le refoulement du compresseur tirait le carter de 0,04 mm — suffisant pour invalider l'alignement une fois raccordé.",
+    "solution": "Nous avons d'abord réalisé un alignement à froid désaccouplé, puis mesuré et documenté la contrainte de tuyauterie avec la ligne de refoulement raccordée. L'entrepreneur en tuyauterie a re-supporté le tronçon de refoulement, ramenant la contrainte à <0,005 mm. Alignement final accouplé : angulaire 0,008 mm/100 mm, décalage 0,012 mm — dans les tolérances du fabricant d'origine.",
+    "outcomes": [
+      "Désalignement angulaire : 0,008 mm/100 mm (limite fabricant 0,02 mm/100 mm)",
+      "Décalage parallèle : 0,012 mm (limite fabricant 0,025 mm)",
+      "Contrainte de tuyauterie corrigée — aucune charge résiduelle sur la tubulure du compresseur",
+      "Vibrations au premier démarrage : 1,2 mm/s — bien en dessous du niveau d'alarme"
+    ],
+    "tags": [
+      "KKK",
+      "Alignement laser",
+      "Compresseur",
+      "Aciérie"
+    ],
+    "categorySlug": "machine-alignment"
+  },
+  "cs_06": {
+    "id": "cs_06",
+    "image": "project-dynamic-balancing.webp",
+    "category": "Équilibrage dynamique",
+    "industry": "Cimenterie",
+    "title": "Rotor de ventilateur d'une cimenterie — Équilibrage dynamique et usinage des tourillons",
+    "client": "Confidentiel — Cimenterie, Rajasthan",
+    "year": "2023",
+    "duration": "4 jours",
+    "scope": "Équilibrage dynamique en atelier d'un rotor de ventilateur ID de 680 kg au grade de qualité ISO 21940-11 G2.5, ainsi que rectification et polissage des tourillons côté entraînement et côté opposé à l'entraînement.",
+    "challenge": "Le rotor est arrivé avec un dépôt de ciment important, un rayage des tourillons dû à l'effondrement d'un palier, et un déséquilibre résiduel d'environ 420 g·mm relevé sur site — largement hors des limites ISO G2.5 pour la vitesse de service.",
+    "solution": "Les dépôts de ciment ont été nettoyés par sablage. Les deux tourillons ont été rectifiés en sous-cote de 0,10 mm et polis jusqu'à Ra 0,4 µm. Le rotor a ensuite été équilibré sur notre machine d'équilibrage dynamique à deux plans (capacité 2000 kg, vitesse jusqu'à 1500 tr/min). Déséquilibre résiduel final : 6 g·mm par plan (grade ISO G1.0 atteint).",
+    "outcomes": [
+      "Déséquilibre résiduel : 6 g·mm/plan — meilleur que G1.0",
+      "État de surface des tourillons : Ra 0,38 µm aux deux extrémités",
+      "Vibrations à pleine vitesse (980 tr/min) après installation : 0,9 mm/s",
+      "Températures des paliers normalisées en 2 heures après le premier démarrage"
+    ],
+    "tags": [
+      "Équilibrage dynamique",
+      "Rotor de ventilateur",
+      "Usinage de tourillons",
+      "Ciment"
+    ],
+    "categorySlug": "dynamic-balancing"
+  },
+  "cs_07": {
+    "id": "cs_07",
+    "image": "project-emergency-breakdown.webp",
+    "category": "Panne d'urgence",
+    "industry": "Sucrerie",
+    "title": "Turbine Belliss & Morcom — Défaillance d'urgence d'un palier babbitt pendant la campagne de broyage",
+    "client": "Confidentiel — Sucrerie, Haryana",
+    "year": "2024",
+    "duration": "14 heures d'arrêt",
+    "scope": "Intervention d'urgence sur site, diagnostic de la cause racine, fabrication et pose d'un palier babbitt de remplacement, inspection du rotor, et remise en service dans un délai de 14 heures.",
+    "challenge": "La turbine s'est déclenchée à 2 h du matin, en pleine campagne de broyage, suite à l'effondrement d'un palier babbitt côté opposé à l'entraînement. L'usine traitait 8 000 tonnes de canne par jour — chaque heure d'arrêt coûtait environ ₹4 lakh en pertes de canne.",
+    "solution": "Notre ingénieur a été dépêché dans les 90 minutes suivant l'appel et est arrivé sur site à 5 h 30. Cause racine identifiée : manque de lubrification dû à une voie d'huile bouchée. Un palier de remplacement a été prélevé sur notre stock d'atelier, re-régulé au babbitt et grattoir-fini à la main pour l'ajustement sur site. Le tourillon du rotor a été inspecté — aucun dommage. La turbine était de nouveau en ligne à 16 h.",
+    "outcomes": [
+      "Arrêt total : 14 heures entre le déclenchement et la première vapeur",
+      "Cause racine identifiée et voie d'huile nettoyée — aucune récidive",
+      "Valeur estimée des pertes de canne évitées : environ ₹56 lakh",
+      "Aucun dommage aux tourillons du rotor — coût de remplacement de l'arbre évité"
+    ],
+    "tags": [
+      "Belliss & Morcom",
+      "Urgence",
+      "Palier babbitt",
+      "Sucrerie"
+    ],
+    "categorySlug": "emergency-breakdown"
+  },
+  "cs_08": {
+    "id": "cs_08",
+    "image": "project-troubleshooting.webp",
+    "category": "Diagnostic de panne",
+    "industry": "Papeterie",
+    "title": "Turbine BHEL 3 MW — Investigation et correction de la cause racine de vibrations élevées",
+    "client": "Confidentiel — Papeterie, Punjab",
+    "year": "2024",
+    "duration": "3 jours d'investigation + 8 jours de correction",
+    "scope": "Analyse vibratoire sur site, évaluation dynamique du rotor, identification de la cause racine, équilibrage du rotor en atelier, remplacement des paliers, et remise en service.",
+    "challenge": "La turbine de 3 MW présentait des vibrations croissantes depuis 6 mois, culminant à 9,2 mm/s sur le palier côté opposé à l'entraînement. Trois équipes de maintenance distinctes avaient remplacé les paliers sans résoudre le problème sous-jacent.",
+    "solution": "Nous avons déployé des équipements d'analyse vibratoire et capturé les spectres de fréquence à toutes les vitesses de service. Une composante dominante de type 1× persistait à toutes les vitesses, confirmant un déséquilibre de masse du rotor plutôt qu'un problème de palier ou d'alignement. Le rotor a été déposé, les tourillons inspectés (légère ovalisation corrigée), puis équilibré au grade ISO G1.0 dans notre atelier. Résidu final : 4,8 g·mm par plan.",
+    "outcomes": [
+      "Vibrations réduites de 9,2 mm/s à 0,8 mm/s à la vitesse de service",
+      "Cause racine confirmée : excentricité de masse du rotor due à une réparation antérieure défectueuse du tourillon",
+      "Plus de 24 mois de fonctionnement depuis la remise en service — aucun changement de palier",
+      "Rapport d'équilibrage complet et spectres de vibration fournis pour le dossier d'assurance"
+    ],
+    "tags": [
+      "BHEL",
+      "Analyse vibratoire",
+      "Équilibrage dynamique",
+      "Diagnostic de panne"
+    ],
+    "categorySlug": "troubleshooting"
+  }
+}

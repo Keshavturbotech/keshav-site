@@ -1,0 +1,14 @@
+{
+  "dimensions": {
+    "label": "Boyutlar"
+  },
+  "performance": {
+    "label": "Performans"
+  },
+  "materials": {
+    "label": "Malzemeler"
+  },
+  "standards": {
+    "label": "Standartlar"
+  }
+}

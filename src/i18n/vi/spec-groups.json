@@ -1,0 +1,14 @@
+{
+  "dimensions": {
+    "label": "Kích thước"
+  },
+  "performance": {
+    "label": "Hiệu suất"
+  },
+  "materials": {
+    "label": "Vật liệu"
+  },
+  "standards": {
+    "label": "Tiêu chuẩn"
+  }
+}

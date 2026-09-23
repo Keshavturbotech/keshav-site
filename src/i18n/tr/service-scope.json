@@ -1,0 +1,30 @@
+{
+  "srv_1": {
+    "scope": "Anahtar teslim",
+    "turnaround": "Proje bazlı süre"
+  },
+  "srv_2": {
+    "scope": "Sahada anahtar teslim",
+    "turnaround": "Genellikle 3–21 gün"
+  },
+  "srv_3": {
+    "scope": "Atölye ve saha",
+    "turnaround": "7–30 gün"
+  },
+  "srv_4": {
+    "scope": "Atölye",
+    "turnaround": "Standart 48–72 saat"
+  },
+  "srv_5": {
+    "scope": "Sahada yıkama",
+    "turnaround": "2–7 gün"
+  },
+  "srv_6": {
+    "scope": "Sahada hassas işlem",
+    "turnaround": "1–3 gün"
+  },
+  "srv_7": {
+    "scope": "Sahada arıza teşhisi",
+    "turnaround": "Aynı gün rapor"
+  }
+}

@@ -1,0 +1,658 @@
+{
+  "ind_1": {
+    "heroSub": "Turbin uap dari 5 MW hingga 60 MW — termal, co-gen & pembangkit listrik captive",
+    "overview": "Sektor listrik termal dan captive India bergantung pada kinerja tanpa gangguan turbin uap yang beroperasi di bawah beban kontinu. Keshav Enterprises memiliki keahlian mendalam era OEM — insinyur kami dilatih oleh produsen turbin sebelum mendirikan perusahaan — memberi kami kemampuan untuk merekayasa balik, memproduksi, dan mengoverhaul setiap sub-sistem utama turbin uap pembangkit listrik sesuai toleransi OEM.",
+    "challenges": [
+      {
+        "title": "Operasi Beban Tinggi Berkelanjutan",
+        "desc": "Turbin uap di pembangkit listrik berjalan pada 3000–3600 RPM di bawah kondisi beban penuh berkelanjutan, memberikan tekanan ekstrem pada bearing, seal, dan rakitan berputar."
+      },
+      {
+        "title": "Kontaminasi Oli Pelumas",
+        "desc": "Masuknya partikel dan air ke sistem oli pelumas dapat dengan cepat menurunkan kualitas permukaan bearing. Target kebersihan ISO 4406:99 harus dipertahankan secara terus-menerus."
+      },
+      {
+        "title": "Ekspansi Termal pada Jalur Uap",
+        "desc": "Pipa uap bertemperatur tinggi mengalami siklus termal yang signifikan. Tanpa sambungan ekspansi yang direkayasa dengan tepat, tekanan pipa menyebabkan kebocoran flensa dan kerusakan nozzle turbin."
+      },
+      {
+        "title": "Getaran Rotor & Pergeseran Keseimbangan",
+        "desc": "Penumpukan deposit dan erosi menyebabkan pergeseran keseimbangan progresif pada rotor, meningkatkan getaran dan mempercepat keausan bearing jika tidak terdeteksi lebih awal."
+      }
+    ],
+    "products": [
+      {
+        "name": "Elemen Filter Oli Pelumas (180 GPM)",
+        "purpose": "Menjaga kebersihan ISO 4406:99 dalam sistem oli pelumas turbin, melindungi bearing journal dan bearing thrust dari keausan abrasif.",
+        "features": [
+          "Media VG serat kaca, kehalusan 6–25 µm",
+          "Spesifikasi anti-statis IS27 untuk oli sintetis",
+          "Kompatibel dengan OEM Triveni, Siemens, BHEL"
+        ]
+      },
+      {
+        "name": "Bellow Crossover Uap",
+        "purpose": "Menyerap ekspansi termal antara bagian turbin HP/LP dan pipa crossover, menghilangkan transfer tekanan ke flensa nozzle turbin.",
+        "features": [
+          "Bellow SS siklus tinggi, standar EJMA",
+          "Suhu operasi hingga 550°C",
+          "Ujung berflensa custom sesuai dimensi OEM"
+        ]
+      },
+      {
+        "name": "Bearing Journal & Thrust Babbitt",
+        "purpose": "Bearing berlapis logam putih yang dikerjakan presisi sesuai profil OEM untuk rotor turbin — kritis untuk stabilitas poros pada kecepatan tinggi.",
+        "features": [
+          "Logam putih (Babbitt) dituang & dikerjakan presisi",
+          "Semua merek turbin: Triveni, Siemens, BHEL, KKK",
+          "Interference fit diverifikasi pada CMM"
+        ]
+      },
+      {
+        "name": "Katup Penghenti Darurat",
+        "purpose": "Katup kritis keselamatan yang men-trip turbin saat overspeed atau tekanan oli pelumas rendah — diproduksi sesuai pengaturan tekanan trip OEM.",
+        "features": [
+          "Body CNC dikerjakan dari forging EN8/EN19",
+          "Mekanisme trip berpegas",
+          "Diuji pada 1,5× tekanan kerja sebelum pengiriman"
+        ]
+      },
+      {
+        "name": "Probe Pemantauan Getaran (Kompatibel Shinkawa)",
+        "purpose": "Probe proximity untuk pemantauan getaran rotor kontinu sesuai API 670, memungkinkan perawatan prediktif sebelum kegagalan bearing terjadi.",
+        "features": [
+          "Kompatibel Shinkawa, Bently Nevada",
+          "Sensing non-kontak arus eddy",
+          "Titik setel alert dan danger sesuai API 670"
+        ]
+      },
+      {
+        "name": "Pompa Oli Turbin (Utama & Bantu)",
+        "purpose": "Memasok oli pelumas bertekanan ke semua bearing. Pompa bantu mengambil alih selama run-up dan run-down saat output pompa penggerak poros utama tidak mencukupi.",
+        "features": [
+          "Desain pompa roda gigi, dipasang pada skid turbin",
+          "Semua dimensi OEM utama tersedia",
+          "Relief valve disetel sesuai spesifikasi tekanan OEM"
+        ]
+      },
+      {
+        "name": "Filter Udara Panel Berlipat (HVAC Ruang Kontrol & Aula Turbin)",
+        "purpose": "Filter HVAC pengganti untuk AHU ruang kontrol pembangkit listrik, unit ventilasi aula turbin, dan pendingin udara ruang switchgear listrik — menjaga udara pendingin tetap bersih dan melindungi peralatan sensitif dari kontaminasi debu batu bara dan fly ash.",
+        "features": [
+          "Efisiensi F7 untuk menangkap fly ash dan debu batu bara halus",
+          "Rangka baja galvanis dengan media sintetis",
+          "Ukuran AHU standar tersedia stok; custom atas permintaan",
+          "Pre-filter jaring metalik juga tersedia untuk tugas tahap pertama"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Kapasitas turbin maksimum 60 MW yang ditangani",
+      "26+ tahun pengalaman rekayasa terlatih OEM",
+      "Produk sesuai API 614 & ISO 4406:99",
+      "Pasokan filter HVAC untuk ruang kontrol dan aula turbin",
+      "Dukungan gangguan darurat 24×7"
+    ]
+  },
+  "ind_2": {
+    "heroSub": "Turbin back-pressure & extraction-condensing dalam co-gen gula & distilasi",
+    "overview": "Industri gula India menjalankan musim giling intensif 150–180 hari di mana ketersediaan turbin terkait langsung dengan throughput penggilingan tebu. Keshav Enterprises mengkhususkan diri dalam overhaul antar musim untuk turbin back-pressure — kuda kerja co-generation gula — dan menyediakan dukungan suku cadang darurat 24×7 selama musim giling saat shutdown paling mahal.",
+    "challenges": [
+      {
+        "title": "Jendela Overhaul Antar Musim yang Singkat",
+        "desc": "Turbin harus sepenuhnya dioverhaul, suku cadang diganti, dan dikomisioning sebelum musim giling berikutnya dimulai — sering kali hanya jendela 90–120 hari."
+      },
+      {
+        "title": "Keausan Seal Karbon & Gland",
+        "desc": "Turbin back-pressure menggunakan cincin gland karbon untuk mencegah kebocoran uap. Ini aus terus-menerus dan memerlukan penggantian akurat pada setiap overhaul."
+      },
+      {
+        "title": "Kontaminasi Molase & Jus",
+        "desc": "Area proses menghasilkan partikulat udara yang lengket. Filter breather dan saringan pada sistem oli pelumas harus dirawat untuk mencegah kontaminasi."
+      },
+      {
+        "title": "Gangguan Musim Darurat",
+        "desc": "Trip turbin saat puncak penggilingan menyebabkan penumpukan tebu langsung. Suku cadang darurat dan respons cepat dapat membuat perbedaan antara penghentian 4 jam dan 4 hari."
+      }
+    ],
+    "products": [
+      {
+        "name": "Cincin Seal Gland Karbon & Grafit",
+        "purpose": "Mencegah kebocoran uap melewati poros turbin di area gland. Dikerjakan presisi sesuai dimensi poros dan rumah OEM.",
+        "features": [
+          "Grade karbon/grafit kemurnian tinggi",
+          "Semua merek turbin: Triveni, Belliss & Morcom, Maxwatt",
+          "Dikerjakan internal hingga toleransi ±0,01 mm"
+        ]
+      },
+      {
+        "name": "Packing Seal Labirin",
+        "purpose": "Seal labirin antar tahap dan ujung poros yang mengurangi kebocoran uap antar tahap turbin, secara langsung meningkatkan efisiensi termal.",
+        "features": [
+          "Opsi material SS, kuningan, atau monel",
+          "Profil gigi OEM dipertahankan",
+          "Strip baru atau diperbaiki dipasang pada rumah yang ada"
+        ]
+      },
+      {
+        "name": "Elemen Filter Oli Pelumas (Kompatibel Triveni)",
+        "purpose": "Memastikan pasokan oli pelumas bersih ke bearing turbin sepanjang musim giling, mencegah kegagalan bearing selama periode produksi kritis.",
+        "features": [
+          "Rating aliran 180 GPM",
+          "Spesifikasi anti-statis IS27",
+          "Penggantian antar musim direkomendasikan"
+        ]
+      },
+      {
+        "name": "Filter Breather Udara",
+        "purpose": "Melindungi reservoir oli pelumas dari debu udara dan partikulat gula — kritis dalam lingkungan pabrik gula di mana beban debu ambien ekstrem.",
+        "features": [
+          "Desain breather desikan jaring halus",
+          "Mencegah masuknya kelembaban dan debu",
+          "Indikator saturasi visual"
+        ]
+      },
+      {
+        "name": "Saringan Keranjang Simplex & Duplex",
+        "purpose": "Dipasang dalam sirkuit oli pelumas dan air pendingin untuk menangkap kotoran sebelum mencapai bearing dan penukar panas.",
+        "features": [
+          "Keranjang jaring SS, dapat dibersihkan dan digunakan kembali",
+          "Ujung berflensa atau berulir ANSI",
+          "Duplex untuk pembersihan saringan tanpa downtime"
+        ]
+      },
+      {
+        "name": "Layanan Penyeimbangan Rotor",
+        "purpose": "Penyeimbangan dinamis rotor turbin setelah penggantian bilah atau bearing, mengembalikan operasi lancar dalam spesifikasi ISO 1940 G1.0.",
+        "features": [
+          "Penyeimbangan dinamis sesuai ISO 1940/1 G1.0",
+          "Penyeimbangan dua bidang pada semua jenis rotor",
+          "Sertifikat penyeimbangan diterbitkan dengan laporan pekerjaan"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Layanan spesialis turbin Triveni & Belliss",
+      "Dukungan musim darurat 24×7",
+      "Semua grade karbon/grafit dikerjakan internal",
+      "Overhaul antar musim diselesaikan dalam jendela waktu"
+    ]
+  },
+  "ind_3": {
+    "heroSub": "Turbin operasi kontinu, sambungan ekspansi & filtrasi proses untuk pabrik kertas",
+    "overview": "Pabrik kertas dan pulp mengoperasikan turbin uap sepanjang waktu, 350+ hari per tahun, membuat jendela perawatan terencana sangat sempit. Prosesnya juga melibatkan pemutih korosif, air panas, dan uap bertekanan tinggi — semuanya menuntut produk filtrasi dan penyegelan yang dirating untuk media agresif. Keshav Enterprises memasok rangkaian lengkap produk yang dibutuhkan untuk menjaga sistem uap dan proses pabrik kertas tetap berjalan.",
+    "challenges": [
+      {
+        "title": "Jendela Downtime Minimal",
+        "desc": "Shutdown mesin kertas menelan biaya lakh per jam. Overhaul turbin harus direncanakan berbulan-bulan sebelumnya dan dilaksanakan tanpa pengerjaan ulang — setiap komponen harus benar sejak awal."
+      },
+      {
+        "title": "Media Proses Korosif",
+        "desc": "Pemutih, senyawa terklorinasi, dan cairan proses kaustik menyerang material standar. Produk filtrasi dan selang harus menggunakan media dan seal yang kompatibel."
+      },
+      {
+        "title": "Pipa Uap Bertemperatur Tinggi",
+        "desc": "Boiler pabrik kertas menghasilkan uap bertekanan tinggi pada 250–400°C. Sambungan ekspansi pipa uap harus menangani suhu tinggi dan kelelahan siklus."
+      },
+      {
+        "title": "Getaran dari Mesin Kertas",
+        "desc": "Mesin kertas berkecepatan tinggi menghasilkan getaran broadband kontinu. Mounting anti-getaran dan sambungan selang fleksibel penting untuk mengisolasi peralatan."
+      }
+    ],
+    "products": [
+      {
+        "name": "Saringan Keranjang Duplex",
+        "purpose": "Dipasang pada jalur air proses, white water, dan air pendingin. Desain duplex memungkinkan pembersihan keranjang tanpa menghentikan aliran — kritis di pabrik operasi kontinu.",
+        "features": [
+          "Keranjang SS316 untuk media korosif",
+          "Katup bypass plug cock disertakan",
+          "Rating flensa ANSI 150 hingga 600 tersedia"
+        ]
+      },
+      {
+        "name": "Sambungan Ekspansi Bellow Metalik SS",
+        "purpose": "Menyerap ekspansi termal dalam pipa uap bertekanan tinggi, jalur proses pulp, dan pipa pabrik pemutih tanpa mentransfer tekanan ke nozzle peralatan.",
+        "features": [
+          "Bellow SS316L untuk ketahanan korosi",
+          "Rentang DN15 hingga DN1200",
+          "Standar desain EJMA, diuji tekanan"
+        ]
+      },
+      {
+        "name": "Sambungan Ekspansi Karet (Double-Arch)",
+        "purpose": "Menyediakan sambungan fleksibel pada isap dan discharge pompa dalam sistem pengolahan air, white water, dan efluen — mengisolasi getaran pompa dari perpipaan.",
+        "features": [
+          "Opsi tabung karet alam atau EPDM",
+          "Ujung berflensa PN10/16",
+          "Suhu layanan hingga 150°C"
+        ]
+      },
+      {
+        "name": "Rakitan Selang Berlapis PTFE",
+        "purpose": "Selang transfer kimia untuk jalur pemutih, kaustik, dan asam di pabrik pemutih — lapisan PTFE memberikan ketahanan total terhadap bahan kimia proses agresif.",
+        "features": [
+          "Inti dalam PTFE, penguatan anyaman SS",
+          "Rating vakum penuh",
+          "Fitting ujung sesuai EN14420"
+        ]
+      },
+      {
+        "name": "Profil & Seal Karet Ekstrusi Custom",
+        "purpose": "Strip peredam karet ekstrusi custom, dipasang di bawah penggerak mesin kertas, pompa, dan alas turbin untuk mengisolasi dan meredam getaran mesin yang ditransmisikan ke struktur bangunan.",
+        "features": [
+          "Compound EPDM, Neoprene, Nitril, atau Karet Alam",
+          "Penampang custom diekstrusi sesuai gambar atau sampel",
+          "Rentang kekerasan 40-80 Shore A sesuai aplikasi"
+        ]
+      },
+      {
+        "name": "Suku Cadang Turbin (Siemens, BHEL, Triveni)",
+        "purpose": "Suku cadang turbin setara OEM diproduksi dari material bersertifikat untuk kit overhaul terencana — nozzle, diafragma, cincin gland, dan rumah bearing.",
+        "features": [
+          "Direkayasa balik dari gambar OEM",
+          "Sertifikat material disediakan",
+          "Laporan inspeksi dimensi CMM"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Mendukung operasi kontinu 350+ hari per tahun",
+      "Produk SS316L untuk media korosif",
+      "Solusi saringan duplex tanpa downtime",
+      "Kit overhaul lengkap direncanakan dan dipasok"
+    ]
+  },
+  "ind_4": {
+    "heroSub": "Filtrasi sesuai API 614, bearing Babbitt & selang presisi untuk fasilitas minyak & gas",
+    "overview": "Fasilitas minyak dan gas hulu, tengah, dan hilir mengoperasikan kompresor dan pompa yang digerakkan turbin di bawah beberapa kondisi paling keras di industri. Setiap komponen dalam sistem oli pelumas dan oli kontrol harus memenuhi standar API. Keshav Enterprises memasok elemen filter sesuai API 614, bearing Babbitt, dan rakitan selang hasil rekayasa presisi yang memenuhi syarat untuk digunakan dalam peralatan area berbahaya.",
+    "challenges": [
+      {
+        "title": "Kepatuhan Sistem Oli Pelumas API 614",
+        "desc": "Semua komponen sistem oli pelumas untuk peralatan yang digerakkan turbin dalam minyak dan gas harus mematuhi API 614, yang menetapkan material, kebersihan, dan rating tekanan."
+      },
+      {
+        "title": "Filtrasi Area Berbahaya",
+        "desc": "Oli kontrol sintetis dalam sistem kontrol turbin memiliki konduktivitas rendah. Elemen filter harus memiliki spesifikasi anti-statis IS27 untuk mencegah pelepasan elektrostatik."
+      },
+      {
+        "title": "Integritas Selang Bertekanan Tinggi",
+        "desc": "Rakitan selang hidraulik dan instrumen dalam minyak dan gas membawa tekanan hingga 420 bar. Kegagalan berarti risiko tumpahan dan kebakaran — tanpa kompromi pada kualitas atau sertifikasi."
+      },
+      {
+        "title": "Pasokan Cepat Lokasi Terpencil",
+        "desc": "Platform lepas pantai dan fasilitas hulu terpencil membutuhkan pasokan suku cadang yang cepat. Suku cadang kritis disimpan dalam stok dan dikirim hari yang sama untuk pesanan darurat."
+      }
+    ],
+    "products": [
+      {
+        "name": "Elemen Filter Oli Kontrol (Anti-Statis IS27)",
+        "purpose": "Untuk sistem kontrol elektro-hidraulik (EHC) turbin menggunakan oli kontrol berbasis fosfat-ester sintetis atau ester dengan konduktivitas di bawah 300 pS/m.",
+        "features": [
+          "Sertifikasi anti-statis IS27",
+          "Media VG Microglass, 3–25 µm",
+          "Kompatibel Siemens, Man Turbo, KKK"
+        ]
+      },
+      {
+        "name": "Manufaktur Bearing Babbitt",
+        "purpose": "Bearing journal dan thrust untuk kompresor dan pompa yang digerakkan turbin, berlapis logam putih ke profil presisi yang sesuai dengan geometri bearing OEM asli.",
+        "features": [
+          "Komposisi logam putih sesuai ASTM B23",
+          "Dibor presisi hingga toleransi <0,01 mm",
+          "Semua merek: Man Turbo, KKK, Siemens, ABB"
+        ]
+      },
+      {
+        "name": "Rakitan Selang Berlapis PTFE",
+        "purpose": "Selang kimia dan instrumentasi untuk transfer fluida agresif dalam pemrosesan minyak dan gas — tahan terhadap minyak mentah, H2S, metanol, dan inhibitor.",
+        "features": [
+          "Inti PTFE, anyaman SS316 atau overbraid stainless",
+          "Rating tekanan hingga 420 bar (rakitan terpilih)",
+          "Rakitan sesuai BS EN ISO 10380 tersedia"
+        ]
+      },
+      {
+        "name": "Rakitan Selang Karet Hidraulik",
+        "purpose": "Selang hidraulik bertekanan tinggi untuk aktuator kontrol, sistem BOP, dan unit tenaga hidraulik pada peralatan pengeboran dan pemrosesan.",
+        "features": [
+          "Konstruksi spiral 4-kawat dan 6-kawat",
+          "Tekanan kerja hingga 400 bar",
+          "Fitting kompatibel Parker, Gates, Manuli"
+        ]
+      },
+      {
+        "name": "Rumah Filter Fabrikasi Duplex",
+        "purpose": "Bejana filter duplex fabrikasi custom untuk sistem oli pelumas dan oli kontrol, distempel kode ASME untuk kepatuhan dengan persyaratan bejana API 614.",
+        "features": [
+          "Distempel kode ASME Sec. VIII Div. 1",
+          "Material: CS, SS304, SS316 sesuai layanan",
+          "Bersertifikat PED/CE untuk proyek ekspor"
+        ]
+      },
+      {
+        "name": "Probe Pemantauan Getaran",
+        "purpose": "Probe proximity dan sistem pemantauan kompatibel dengan sistem perlindungan turbomachinery API 670 untuk rangkaian kompresor dan turbin.",
+        "features": [
+          "Kompatibel Bently Nevada, Shinkawa",
+          "Rumah probe rating IP67",
+          "Output relay alert dan danger"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Produk sesuai API 614 & IS27",
+      "Bearing Babbitt untuk semua OEM utama",
+      "Pengiriman darurat hari yang sama tersedia",
+      "Bejana tekan distempel kode ASME"
+    ]
+  },
+  "ind_5": {
+    "heroSub": "Sambungan ekspansi metalik, saringan suhu tinggi & suku cadang presisi untuk kilang & pabrik petrokimia",
+    "overview": "Kompleks kilang dan petrokimia menangani hidrokarbon, asam, dan bahan kimia agresif pada suhu dan tekanan ekstrem. Sambungan ekspansi metalik, saringan proses, dan suku cadang turbin presisi harus tahan terhadap siklus termal, media korosif, dan kelelahan siklus tinggi. Keshav Enterprises memproduksi produk ini sesuai standar EJMA, ASME, dan API untuk aplikasi kilang yang paling menuntut.",
+    "challenges": [
+      {
+        "title": "Siklus Suhu Ekstrem",
+        "desc": "Kolom steam cracking dan distilasi kilang bersiklus antara suhu ambien dan layanan 600°C+. Sambungan ekspansi harus bertahan jutaan siklus lentur tanpa kegagalan kelelahan."
+      },
+      {
+        "title": "Media Korosif & Kaya Hidrogen",
+        "desc": "H2S, HF, pelarut amina, dan layanan hidrogen memerlukan bellow Inconel, Hastelloy, atau stainless duplex — SS304/316 standar tidak mencukupi."
+      },
+      {
+        "title": "Kepatuhan Kode ASME & API",
+        "desc": "Bejana tekan, perpipaan, dan bellow di kilang harus mematuhi ASME Sec. VIII dan kode API. Inspeksi pihak ketiga dan ketertelusuran material wajib."
+      },
+      {
+        "title": "Erosi Katalis FCCU",
+        "desc": "Unit Fluid Catalytic Cracking membawa partikel katalis terperangkap pada 700°C+. Sambungan ekspansi di jalur regenerator dan reaktor menghadapi erosi ekstrem dan kejut termal."
+      }
+    ],
+    "products": [
+      {
+        "name": "Sambungan Ekspansi Tugas Berat Dinding Tebal",
+        "purpose": "Bellow dinding tebal yang diperkuat untuk kondisi operasi ekstrem pada jalur transfer regenerator-reaktor: suhu tinggi, tekanan tinggi, dan tegangan mekanis/termal berat.",
+        "features": [
+          "Konstruksi dinding diperkuat untuk ketahanan tekanan dan tegangan maksimal",
+          "Deformasi minimal pada siklus tekanan dan suhu ekstrem",
+          "Material: pilihan SS 316/321, Duplex, Inconel, Hastelloy"
+        ]
+      },
+      {
+        "name": "Sambungan Ekspansi Metalik Aksial & Universal",
+        "purpose": "Bellow jalur proses standar untuk menyerap ekspansi termal dalam minyak mentah, produk, dan pipa uap di seluruh kompleks kilang.",
+        "features": [
+          "Rentang manufaktur DN15 hingga DN12.000",
+          "Grade SS316L, Inconel, Hastelloy, Duplex SS",
+          "Kode desain ASME Sec. VIII Div. 1"
+        ]
+      },
+      {
+        "name": "Saringan Simplex & Duplex Bertekanan Tinggi",
+        "purpose": "Saringan inline pada jalur muatan minyak mentah, jalur transfer produk, dan perpipaan isap kompresor untuk melindungi peralatan dari kerak dan kotoran.",
+        "features": [
+          "Desain kode bejana tekan ASME",
+          "Konstruksi pelat berlubang + keranjang jaring",
+          "Kelas tekanan PN40 hingga PN160 tersedia"
+        ]
+      },
+      {
+        "name": "Sambungan Ekspansi Kriogenik LNG / LPG",
+        "purpose": "Sambungan ekspansi logam bersertifikat kriogenik untuk perpipaan gas cair bersuhu sangat rendah: jalur transfer LNG/LPG, terminal penyimpanan kriogenik, dan header pemuatan kapal.",
+        "features": [
+          "Direkayasa untuk tugas kriogenik hingga rentang suhu operasi LNG",
+          "Pemilihan material suhu rendah untuk ketangguhan dan ketahanan kelelahan",
+          "Pilihan SS austenitik dan paduan kelas kriogenik, dengan ketertelusuran material penuh"
+        ]
+      },
+      {
+        "name": "Komponen Jalur Uap Turbin",
+        "purpose": "Blok nozzle, diafragma, dan pembawa bilah untuk penggerak kompresor bertenaga turbin — diproduksi dari baja paduan sesuai profil OEM.",
+        "features": [
+          "Dikerjakan CNC dari forging bersertifikat",
+          "Material: baja paduan Cr-Mo, SS 17-4PH",
+          "Profil diverifikasi dengan pengukuran CMM 3D"
+        ]
+      },
+      {
+        "name": "Sambungan Ekspansi Seimbang Tekanan",
+        "purpose": "Menghilangkan gaya dorong tekanan pada nozzle peralatan sensitif dalam layanan kilang bertekanan tinggi — melindungi flensa kompresor dan pompa.",
+        "features": [
+          "Desain dorong tekanan tereliminasi tie-rod",
+          "Mengurangi beban nozzle mendekati nol",
+          "Tersedia dalam konfigurasi tied dan untied"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Bellow Inconel, Hastelloy & duplex SS",
+      "Standar desain EJMA edisi ke-10",
+      "Bejana tekan & bellow kode ASME",
+      "Spesialis FCCU dan layanan ekstrem"
+    ]
+  },
+  "ind_6": {
+    "heroSub": "Co-gen turbin uap, filtrasi & produk karet untuk fasilitas pengolahan agro",
+    "overview": "Pengolahan agro — dari penggilingan padi dan ekstraksi pelarut hingga produksi susu dan pangan — semakin banyak menggunakan co-generation uap captive untuk mengurangi biaya energi. Fasilitas ini membutuhkan perawatan turbin yang andal, produk selang dan filter food-grade, dan solusi isolasi getaran untuk mesin pemrosesan sensitif. Keshav Enterprises menyediakan rangkaian lengkap produk dan layanan yang dibutuhkan di seluruh sektor agro-industri.",
+    "challenges": [
+      {
+        "title": "Persyaratan Material Food-Grade",
+        "desc": "Selang, seal, dan filtrasi di area kontak pangan harus menggunakan material yang disetujui FDA — PTFE, EPDM food-grade, dan baja tahan karat dengan permukaan dipoles."
+      },
+      {
+        "title": "Variasi Beban Musiman",
+        "desc": "Turbin co-gen agro mengalami variasi beban luas seiring musim panen. Ini menyebabkan erosi bilah lebih cepat dan kelelahan siklus termal dibanding pembangkit listrik beban konstan."
+      },
+      {
+        "title": "Kontaminasi Pernapasan Tangki",
+        "desc": "Tangki penyimpanan minyak nabati harus dilindungi dari debu udara dan kelembaban melalui jalur breather — kontaminasi memengaruhi kualitas produk dan umur simpan."
+      },
+      {
+        "title": "Getaran Mesin di Pabrik Pangan",
+        "desc": "Hammer mill, sentrifugal, dan mesin pengemasan mentransmisikan getaran ke lantai dan peralatan yang berdekatan. Isolasi diperlukan untuk menjaga sambungan higienis."
+      }
+    ],
+    "products": [
+      {
+        "name": "Rakitan Selang PTFE Grade FDA",
+        "purpose": "Selang fleksibel untuk transfer fluida food-grade — sirkulasi kimia CIP/SIP, jalur produk, dan injeksi uap dalam lingkungan food-grade.",
+        "features": [
+          "Inti dalam PTFE, sesuai FDA 21 CFR 177.1550",
+          "Fitting ujung SS316 elektro-dipoles",
+          "Sambungan ujung tri-clover (sanitary) tersedia"
+        ]
+      },
+      {
+        "name": "Filter Breather Udara & Tangki",
+        "purpose": "Melindungi tangki penyimpanan minyak nabati dari masuknya debu dan kelembaban melalui jalur ventilasi — mencegah kontaminasi produk yang disimpan.",
+        "features": [
+          "Silika gel desikan + media partikulat halus",
+          "Indikator warna saturasi visual",
+          "Desain kartrid pengganti untuk servis mudah"
+        ]
+      },
+      {
+        "name": "Saringan Tipe-Y & Konikal",
+        "purpose": "Saringan inline pada jalur fluida proses, isap pompa, dan sistem air umpan boiler — melindungi peralatan dari kerak dan kotoran proses.",
+        "features": [
+          "Keranjang jaring SS, ukuran jaring 40 hingga 400 µm",
+          "Sambungan berulir atau berflensa",
+          "Pembersihan inline sederhana tanpa memutus jalur"
+        ]
+      },
+      {
+        "name": "Profil & Seal Karet Ekstrusi Custom",
+        "purpose": "Strip peredam karet ekstrusi custom mengisolasi getaran dari hammer mill, sentrifuse, kompresor, dan mesin pengemasan, melindungi mesin sekaligus area pengolahan makanan di sekitarnya.",
+        "features": [
+          "Pilihan compound EPDM, Neoprene, Nitril, atau Karet Alam",
+          "Penampang custom diekstrusi sesuai gambar atau sampel",
+          "Tersedia dengan lapisan perekat sensitif tekanan"
+        ]
+      },
+      {
+        "name": "Sambungan Ekspansi Karet (Single-Arch)",
+        "purpose": "Konektor pompa fleksibel pada sirkuit air pendingin, air dingin, dan air proses — menyerap getaran pompa dan pergerakan termal.",
+        "features": [
+          "Tabung EPDM atau karet alam",
+          "Ujung berflensa PN10/16, juga berulir",
+          "Suhu kerja –20°C hingga +130°C"
+        ]
+      },
+      {
+        "name": "Perawatan Turbin Uap (Triveni, Maxwatt)",
+        "purpose": "Overhaul terencana turbin uap back-pressure co-gen agro — penggantian cincin gland, inspeksi bearing, dan pemeriksaan keseimbangan rotor.",
+        "features": [
+          "Penjadwalan overhaul antar musim",
+          "Cincin gland karbon dikerjakan internal",
+          "Uji coba dan sign-off getaran termasuk"
+        ]
+      },
+      {
+        "name": "Filter Kantong HVAC (Penanganan Udara Pabrik Pangan)",
+        "purpose": "Filter kantong multi-pocket untuk AHU fasilitas pengolahan pangan — menghilangkan debu tepung, debu pati, dan spora jamur di udara dari udara suplai ke area produksi, gudang dingin, dan jalur pengemasan.",
+        "features": [
+          "Efisiensi F7/F8 untuk penangkapan alergen dan spora jamur",
+          "Media poliester sintetis — tahan kelembaban untuk lingkungan pangan lembab",
+          "Ukuran rangka AHU standar; dimensi custom atas permintaan",
+          "Melengkapi persyaratan kualitas udara GMP untuk zona food-grade"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Produk selang sesuai FDA 21 CFR",
+      "Spesialis turbin co-gen agro",
+      "Filter breather tangki untuk penyimpanan minyak nabati",
+      "Filter kantong HVAC F7/F8 untuk kualitas udara produksi pangan GMP",
+      "Solusi isolasi getaran pompa lengkap"
+    ]
+  },
+  "ind_7": {
+    "heroSub": "Filtrasi oli pelumas, kantong dust collector pulse-jet, filter udara HVAC, sambungan ekspansi & isolasi getaran untuk mesin pabrik semen",
+    "overview": "Manufaktur semen adalah salah satu lingkungan industri paling abrasif dan berdebu di bumi. Kiln putar yang beroperasi pada suhu shell 200–400°C, ball mill yang berjalan terus-menerus selama berbulan-bulan, dan rangkaian crusher yang menghasilkan awan debu masif memberikan tuntutan ekstrem pada setiap komponen pelumasan, penyegelan, dan perpipaan. Keshav Enterprises memasok filtrasi grade presisi, kantong filter dust collector pulse-jet, filter udara HVAC, sambungan ekspansi, dan solusi anti-getaran yang menjaga pabrik semen beroperasi 330+ hari per tahun.",
+    "challenges": [
+      {
+        "title": "Kontaminasi Debu & Abrasif Ekstrem",
+        "desc": "Pabrik semen menghasilkan 1–3 ton debu per hari per kiln. Abrasif udara ini masuk ke sistem oli pelumas, ventilasi breather, dan rumah filter — mempercepat keausan dan menyebabkan filter bypass jika tidak dikelola dengan baik."
+      },
+      {
+        "title": "Kontaminasi Oli Gearbox Kiln",
+        "desc": "Gearbox kiln putar beroperasi pada sistem pelumasan sirkulasi pada ISO VG 220–460. Debu klinker dan kontaminasi termal menurunkan kualitas oli dengan cepat — filtrasi efisiensi tinggi kritis untuk memperpanjang interval penggantian oli dan melindungi rangkaian gigi yang mahal."
+      },
+      {
+        "title": "Ekspansi Termal pada Ducting Exhaust Kiln",
+        "desc": "Saluran gas buang kiln beroperasi pada 250–450°C dan mengalami ekspansi termal signifikan. Tanpa sambungan ekspansi metalik atau kain yang direkayasa dengan tepat, bagian saluran retak, bocor, dan memungkinkan gas panas lolos — bahaya keselamatan dan efisiensi."
+      },
+      {
+        "title": "Getaran Crusher & Mill",
+        "desc": "Ball mill, vertical roller mill, dan jaw crusher menghasilkan getaran broadband intens yang ditransmisikan melalui fondasi ke peralatan dan instrumentasi yang berdekatan, menyebabkan kegagalan kelelahan dan kesalahan pengukuran."
+      }
+    ],
+    "products": [
+      {
+        "name": "Elemen Filter Oli Pelumas (Gearbox Kiln & Mill)",
+        "purpose": "Elemen filter efisiensi tinggi untuk sistem sirkulasi oli gearbox kiln — menghilangkan partikel klinker abrasif dan kotoran keausan sebelum merusak gigi gear dan bearing roller.",
+        "features": [
+          "Media VG serat kaca, kehalusan 6–25 µm",
+          "Kapasitas penahan kotoran tinggi untuk lingkungan berdebu",
+          "Kompatibel oli sintetis & mineral ISO VG 220–460",
+          "Efisiensi beta ≥200 sesuai ISO 16889"
+        ]
+      },
+      {
+        "name": "Saringan Keranjang Duplex (Air Pendingin & Jalur Proses)",
+        "purpose": "Dipasang pada sistem air pendingin kiln, pendinginan air kompresor, dan pipa slurry raw meal untuk melindungi pompa, penukar panas, dan instrumentasi dari kerak dan kotoran.",
+        "features": [
+          "Keranjang jaring SS, opsi jaring 100–1000 µm",
+          "Desain duplex: pembersihan keranjang tanpa downtime",
+          "Rating flensa ANSI 150 hingga ANSI 600",
+          "SS316 untuk layanan air pendingin korosif"
+        ]
+      },
+      {
+        "name": "Sambungan Ekspansi Metalik Aksial (Saluran Exhaust Kiln)",
+        "purpose": "Mengompensasi ekspansi termal dalam ductwork gas panas antara kiln, menara pre-heater cyclone, dan boiler waste heat — menghilangkan retak akibat tekanan termal pada bagian saluran.",
+        "features": [
+          "Bellow SS321 untuk layanan suhu tinggi",
+          "Konfigurasi single dan universal (dual-bellow)",
+          "Berflensa sesuai dimensi saluran yang ada",
+          "Flow liner disertakan untuk melindungi bellow dari erosi gas"
+        ]
+      },
+      {
+        "name": "Sambungan Ekspansi Non-Metalik (Kain) Persegi",
+        "purpose": "Digunakan dalam ductwork persegi besar di ventilasi clinker cooler, sambungan kipas raw mill, dan ductwork electrostatic precipitator (ESP) — menangani ketidaksejajaran dan pergerakan termal di bagian non-sirkular.",
+        "features": [
+          "Kain kaca berlapis PTFE atau komposit Nomex",
+          "Kemampuan suhu hingga 450°C kontinu",
+          "Dibuat custom sesuai dimensi saluran persegi",
+          "Rakitan rangka berbaut untuk instalasi di lokasi"
+        ]
+      },
+      {
+        "name": "Profil & Seal Karet Ekstrusi Custom",
+        "purpose": "Bantalan peredam karet ekstrusi custom, dipasang di bawah unit penggerak ball mill, gearbox vertical roller mill, dan rumah bearing crusher untuk mengisolasi dan meredam getaran mesin yang ditransmisikan ke struktur pabrik.",
+        "features": [
+          "Compound karet alam, EPDM, atau neoprene",
+          "Penampang custom diekstrusi sesuai gambar atau sampel",
+          "Suhu operasi -40 hingga +150°C (grade EPDM)"
+        ]
+      },
+      {
+        "name": "Filter Breather Udara & Tangki (Reservoir Oli Pelumas)",
+        "purpose": "Mencegah debu semen udara dan kelembaban masuk ke reservoir oli pelumas melalui jalur ventilasi — penyebab utama kegagalan oli dan bearing prematur di pabrik semen.",
+        "features": [
+          "Media partikulat efisiensi tinggi + desikan silika gel",
+          "Terrating sesuai persyaratan kebersihan ISO",
+          "Indikator saturasi perubahan warna",
+          "Konfigurasi direct-mount dan remote-mount"
+        ]
+      },
+      {
+        "name": "Rakitan Selang Fleksibel Corrugated SS",
+        "purpose": "Sambungan fleksibel bertekanan tinggi pada inlet air pendingin kiln, aktuator hidraulik slide gate, dan jalur udara terkompresi — tahan panas, tekanan, dan getaran di mana perpipaan kaku akan gagal.",
+        "features": [
+          "Selang dalam corrugated SS316L, penguatan anyaman SS",
+          "Tekanan kerja hingga 200 bar (rakitan terpilih)",
+          "Fitting ujung: berflensa ANSI, berulir BSP/NPT, atau hidraulik",
+          "Rentang suhu –196°C hingga +600°C"
+        ]
+      },
+      {
+        "name": "Saringan Konikal & Tipe-Y (Pompa Raw Mill & Konveyor)",
+        "purpose": "Saringan sementara dan permanen pada pompa slurry bahan baku, sistem spray air kiln, dan jalur pasokan udara terkompresi — melindungi katup dan instrumen hilir.",
+        "features": [
+          "Keranjang berlubang, pelapis jaring tersedia",
+          "Plug flush bersayap atau berulir untuk pembersihan",
+          "Material body CS, SS304, SS316",
+          "Stok tersedia untuk pengiriman cepat"
+        ]
+      },
+      {
+        "name": "Kantong & Kartrid Filter Dust Collector Pulse-Jet",
+        "purpose": "Kantong filter pengganti dan elemen kartrid berlipat untuk dust collector baghouse pabrik semen pada exhaust kiln, ventilasi raw mill, clinker cooler, coal mill, pabrik pengemasan, dan sistem ventilasi silo — menahan debu semen halus dan memenuhi norma emisi.",
+        "features": [
+          "Needle-felt poliester (standar) dan membran PTFE (efisiensi tinggi, emisi rendah)",
+          "Grade anti-statis untuk aplikasi coal mill (ATEX)",
+          "Dimensi kompatibel cage sesuai rumah baghouse yang ada",
+          "Pembersihan pulse-jet terrating pada udara terkompresi 4–7 bar"
+        ]
+      },
+      {
+        "name": "Filter Udara Panel Berlipat (HVAC Ruang Kontrol & Panel Listrik)",
+        "purpose": "Filter untuk AHU ruang kontrol pabrik semen dan unit pendingin panel listrik — mencegah debu semen abrasif masuk ke instrumentasi sensitif, PLC, dan kabinet DCS.",
+        "features": [
+          "Efisiensi F7/F8 untuk penahanan debu semen halus",
+          "Rangka baja galvanis untuk lingkungan pabrik semen lembab",
+          "Ukuran rangka AHU standar atau dipotong custom sesuai dimensi panel",
+          "Pasokan pengganti sesuai jadwal servis"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Mendukung operasi kontinu 330+ hari/tahun",
+      "Produk filtrasi tahan debu tersedia stok",
+      "Sambungan ekspansi suhu tinggi hingga 450°C",
+      "Kantong baghouse pulse-jet untuk semua titik ventilasi pabrik semen",
+      "Solusi isolasi getaran lengkap"
+    ]
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "titleTemplate": "Sobre a Keshav Enterprises — {years}+ Anos de Engenharia de Turbinas",
+    "descriptionTemplate": "Keshav Enterprises — {years}+ anos de engenharia industrial de turbinas, engenharia reversa e peças compatíveis com OEM, de Shamli, UP, Índia. Engenheiros ex-OEM da Triveni, Siemens, BHEL.",
+    "schemaName": "Sobre a Keshav Enterprises",
+    "schemaDescriptionTemplate": "Keshav Enterprises — {years}+ anos de engenharia industrial de turbinas, engenharia reversa e fabricação de peças compatíveis com OEM, de Shamli, UP, Índia."
+  },
+  "hero": {
+    "eyebrow": "Nossa História",
+    "h1Line1": "Duas Décadas de",
+    "h1Span": "Engenharia de Precisão",
+    "quote": "“Tolerância zero para paradas de planta — isso não é slogan. É o padrão de engenharia que todo cliente exige de nós.”",
+    "intro": "De uma empresa especializada em manutenção de turbinas em Shamli, Uttar Pradesh — a um parceiro de engenharia de confiança em toda a Índia para usinas de energia, usinas de açúcar, refinarias e indústrias de processo. Construída sobre experiência ex-OEM da Triveni, Siemens, BHEL, Man Turbo, KKK e ABB. Movida por um único mandato: máxima disponibilidade.",
+    "tags": [
+      "Engenheiros Ex-OEM",
+      "Escaneamento a Laser 3D",
+      "Precisão MMC",
+      "Resposta 24×7",
+      "Registrado no IEC",
+      "Pronto para Exportação",
+      "IndiaMART TrustSeal",
+      "Make In India",
+      "Registrado no MSME"
+    ],
+    "ctaServices": "Nossos Serviços",
+    "ctaContact": "Contatar Equipe de Engenharia",
+    "statCards": [
+      {
+        "label": "Anos no Mercado",
+        "subTemplate": "Desde {founded}"
+      },
+      {
+        "label": "Marcas OEM",
+        "sub": "Triveni · Siemens · BHEL"
+      },
+      {
+        "label": "Turbina Máxima",
+        "sub": "Até 60 M.W."
+      },
+      {
+        "label": "Suporte de Emergência",
+        "sub": "Engenheiros em vários locais"
+      }
+    ],
+    "trustBadges": {
+      "indiamartTitle": "Verificado pelo IndiaMART TrustSeal",
+      "indiamartSub": "50+ avaliações de compradores · classificação 4,3/5",
+      "msmeTitle": "Registrado no MSME",
+      "msmeSub": "Empresa Certificada Udyam · Governo da Índia"
+    }
+  },
+  "statsBar": [
+    {
+      "label": "Anos no Mercado",
+      "subTemplate": "Desde {founded}"
+    },
+    {
+      "label": "Marcas OEM Cobertas",
+      "sub": "Triveni · Siemens · BHEL"
+    },
+    {
+      "label": "Turbina Máxima Atendida",
+      "sub": "Até 60 M.W."
+    },
+    {
+      "label": "Resposta de Emergência",
+      "sub": "Engenheiros em vários locais"
+    }
+  ],
+  "overview": {
+    "eyebrow": "Quem Somos",
+    "heading": "Parceiros de Engenharia para a Espinha Dorsal Industrial da Índia",
+    "paragraphs": [
+      "A Keshav Enterprises é uma empresa de engenharia industrial de precisão sediada em Shamli, Uttar Pradesh. Por mais de duas décadas, fornecemos manutenção especializada de turbinas, engenharia reversa e peças compatíveis com OEM aos setores industriais mais exigentes da Índia.",
+      "Nossa equipe de engenharia inclui especialistas ex-OEM da Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK e ABB — proporcionando aos clientes o mesmo nível de expertise técnica dos fabricantes de equipamento original, a uma fração do prazo e custo.",
+      "Cobrimos turbinas a vapor de 5 kW a 60 MW — contrapressão e condensação, horizontais e verticais, de estágio único ou múltiplo. Nossa oficina é equipada com scanners a laser 3D, máquinas de medição por coordenadas MMC, máquinas de balanceamento dinâmico (50–2.000 kg) e tornos CNC de precisão."
+    ],
+    "coreCapabilitiesHeading": "Capacidades Principais",
+    "coreCapabilitiesList": [
+      "Montagem, comissionamento e revisão geral chave na mão de turbinas",
+      "Engenharia reversa de precisão usando escaneamento a laser 3D e MMC",
+      "Balanceamento dinâmico conforme ISO 1940 / API 670 (50–2.000 kg)",
+      "Lavagem de óleo lubrificante conforme classificação de limpeza ISO 4406:99",
+      "Alinhamento de máquinas com a mais recente tecnologia de alinhamento a laser",
+      "Fabricação: elementos filtrantes, filtros de ar HVAC, juntas de expansão, coadores",
+      "Peças de turbina: mancais, selos, rotores, reguladores, válvulas",
+      "Resposta a emergências 24×7, engenheiros em vários locais"
+    ],
+    "locationHeading": "Nossa Localização",
+    "gstLabel": "GST"
+  },
+  "gallery": {
+    "eyebrow": "Construído para a Disponibilidade Industrial",
+    "headingLine1": "Se Sua Turbina Precisa,",
+    "headingLine2": "Nós Fabricamos.",
+    "subheadingTemplate": "{productCount}+ componentes de engenharia de precisão em 9 categorias — de elementos filtrantes compatíveis com OEM e filtros de ar HVAC a peças de turbina que são enviadas na mesma semana em que sua planta liga.",
+    "cards": {
+      "workshopFloor": {
+        "caption": "Piso da Oficina",
+        "desc": "Tornos CNC de precisão, tornos copiadores e retificadoras para usinagem de munhões de rotor, polimento e trabalho na seção labirinto."
+      },
+      "ourServices": {
+        "caption": "Nossos Serviços",
+        "desc": "8 serviços especializados — montagem e comissionamento de turbinas, revisão geral chave na mão, engenharia reversa, balanceamento dinâmico, lavagem de óleo lubrificante, alinhamento de máquinas, jateamento de areia e diagnóstico de falhas 24×7.",
+        "linkLabel": "Ver Serviços"
+      },
+      "productRange": {
+        "caption": "Linha de Produtos",
+        "descTemplate": "{productCount} produtos de engenharia em 9 categorias — filtração, filtros de ar HVAC, coadores, juntas de expansão, peças de turbina, produtos de borracha, mangueiras flexíveis, equipamentos eletrônicos e componentes hidráulicos.",
+        "linkLabel": "Ver Produtos"
+      },
+      "rotorInspection": {
+        "caption": "Inspeção de Rotor",
+        "desc": "Engenheiros ex-OEM medem e registram cada folga, vão e dimensão durante a inspeção — relatório de condição completo em cada trabalho."
+      }
+    },
+    "browseFullCatalog": "Ver Catálogo Completo de Produtos"
+  },
+  "values": {
+    "eyebrow": "O Que Nos Move",
+    "heading": "Nossos Valores Essenciais",
+    "items": [
+      {
+        "label": "Integridade de Engenharia",
+        "text": "Cada componente, cada folga, cada dimensão documentada e verificada. Sem atalhos em equipamentos rotativos críticos para a segurança."
+      },
+      {
+        "label": "Padrões de Nível OEM",
+        "text": "Engenheiros ex-OEM da Triveni, Siemens, BHEL e ABB entregando manutenção no mesmo padrão do fabricante original."
+      },
+      {
+        "label": "Inovação em Engenharia Reversa",
+        "text": "Escaneamento 3D e testes PMI dão aos clientes acesso a peças obsoletas sem os prazos OEM de 12 a 18 meses."
+      },
+      {
+        "label": "Disponibilidade do Cliente em Primeiro Lugar",
+        "text": "Medimos o sucesso pela disponibilidade da planta. Resposta de emergência 24×7 porque paradas não seguem horário comercial."
+      }
+    ]
+  },
+  "milestones": {
+    "eyebrow": "Nossa Jornada",
+    "heading": "Marcos da Empresa",
+    "items": [
+      {
+        "year": "Anos 2000",
+        "title": "Fundação",
+        "desc": "Fundada em Shamli, UP, como uma empresa especializada em manutenção de turbinas atendendo usinas de açúcar locais com expertise prática em revisão geral."
+      },
+      {
+        "year": "2005",
+        "title": "Expertise OEM",
+        "desc": "Formada uma equipe dedicada de engenheiros ex-OEM da Triveni, BHEL e Belliss & Morcom — permitindo padrões de manutenção verdadeiramente equivalentes ao OEM."
+      },
+      {
+        "year": "2010",
+        "title": "Engenharia Reversa",
+        "desc": "Investimento em equipamentos de escaneamento a laser 3D e MMC para oferecer engenharia reversa interna de componentes de turbina obsoletos, sem dependência de OEM."
+      },
+      {
+        "year": "2015",
+        "title": "Expansão da Linha de Produtos",
+        "desc": "Lançamento de uma linha de produtos industriais abrangente cobrindo filtração, filtros de ar HVAC, juntas de expansão, coadores, produtos de borracha e conjuntos de mangueiras flexíveis."
+      },
+      {
+        "year": "2020",
+        "title": "Balanceamento ISO/API",
+        "desc": "Colocação em operação de máquinas de balanceamento dinâmico conforme normas ISO 1940 / API 670 — atendendo rotores de 50 a 2.000 kg."
+      },
+      {
+        "year": "Hoje",
+        "title": "Pronto para Exportação",
+        "desc": "Registrada no IEC junto ao DGFT — componentes de turbina, produtos de filtração e peças industriais fabricados conforme normas ISO/API/ASME e classificados HSN para exportação, com suporte documental para compradores estrangeiros. O alcance doméstico em toda a Índia continua com suporte de engenharia de emergência 24×7."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "As Pessoas Por Trás do Trabalho",
+    "heading": "Expertise em Engenharia Ex-OEM",
+    "subheading": "Nossos engenheiros foram treinados e atuaram dentro das fábricas OEM e equipes de serviço de campo — não apenas treinados em equipamentos OEM. Essa diferença aparece na qualidade de cada folga registrada.",
+    "expSuffix": "de experiência",
+    "namesWithheldNote": "Nomes omitidos para proteger nossos engenheiros de aliciamento por concorrentes. Histórico de emprego verificável disponível para consultas sérias.",
+    "members": {
+      "sk": {
+        "name": "Engenheiro Sênior — Triveni e BHEL",
+        "spec": "Revisão geral de turbinas · Montagem e comissionamento · Análise de vibração"
+      },
+      "rk": {
+        "name": "Engenheiro Sênior — Siemens e KKK",
+        "spec": "Engenharia reversa · Testes MMC e PMI · Usinagem de rotores"
+      },
+      "as": {
+        "name": "Engenheiro de Campo — Belliss e Man Turbo",
+        "spec": "Emergência · Alinhamento · Sistemas de óleo lubrificante"
+      },
+      "vp": {
+        "name": "Especialista em Balanceamento",
+        "spec": "Balanceamento dinâmico ISO 1940 / API 670 · Rotores de 50–2.000 kg"
+      },
+      "mt": {
+        "name": "Líder de Oficina — Usinagem",
+        "spec": "Retífica de munhões · Usinagem labirinto · Fabricação de anéis de carbono"
+      },
+      "pd": {
+        "name": "Líder de Produtos e Filtração",
+        "spec": "Fornecimento de elementos filtrantes · Filtros de ar HVAC · Juntas de expansão · Coadores"
+      }
+    }
+  },
+  "oemSection": {
+    "eyebrow": "Expertise OEM",
+    "headingLine1": "10+ Marcas OEM.",
+    "headingLine2": "Um Único Parceiro de Engenharia.",
+    "sub": "Nossos engenheiros ex-OEM têm experiência prática com todas as principais marcas de turbinas. Sem curva de aprendizado. Expertise técnica de autoridade desde o primeiro dia."
+  },
+  "exportSection": {
+    "eyebrow": "Pronto para Exportação",
+    "headingLine1": "Construído Para que",
+    "headingSpan": "Compradores de Exportação Verifiquem Facilmente",
+    "paragraphs": [
+      "A Keshav Enterprises possui um Código de Importador-Exportador (IEC) ativo, emitido pelo DGFT, a credencial legal exigida para enviar peças de engenharia de turbinas, produtos de filtração industrial e componentes compatíveis com OEM para fora da Índia.",
+      "Nossos produtos fabricados com precisão são produzidos conforme padrões internacionais, incluindo ISO 16889, API 614 e ASME Sec. VIII, e classificados sob códigos de exportação HSN padrão, para que compradores estrangeiros possam verificar a conformidade antes de fazer um pedido."
+    ],
+    "standards": [
+      {
+        "stat": "ISO 16889",
+        "label": "Norma de Filtração"
+      },
+      {
+        "stat": "API 614",
+        "label": "Norma de Sistema de Óleo Lubrificante"
+      },
+      {
+        "stat": "ASME VIII",
+        "label": "Norma de Vasos de Pressão"
+      },
+      {
+        "stat": "HSN 8421",
+        "label": "Classificação de Exportação"
+      }
+    ],
+    "iecCardTitle": "Exportador Registrado no IEC",
+    "iecCardDescTemplate": "Código de Importador-Exportador DGFT {iec} — ativo e verificável",
+    "checklistTitle": "Checklist de Prontidão para Exportação",
+    "checklistItems": [
+      "IEC ativo emitido pelo DGFT — legalmente autorizado a exportar",
+      "Produtos classificados sob códigos de exportação HSN padrão",
+      "Fabricado conforme normas internacionais ISO, API e ASME",
+      "Fichas técnicas, certificados de teste e documentação de controle de qualidade em inglês",
+      "Registrado no GST com plena conformidade de faturamento de exportação",
+      "Base de fabricação registrada no MSME em Shamli, Uttar Pradesh"
+    ],
+    "credentialLabels": {
+      "gst": "GST",
+      "msme": "MSME/Udyam",
+      "iec": "IEC"
+    }
+  },
+  "finalCta": {
+    "heading": "Pronto para trabalhar conosco?",
+    "subheading": "Diga-nos a marca, capacidade e requisito da sua turbina — respondemos com engenharia, não com discurso de vendas.",
+    "ctaQuote": "Obter uma Cotação Técnica",
+    "ctaServices": "Ver Todos os Serviços"
+  }
+}

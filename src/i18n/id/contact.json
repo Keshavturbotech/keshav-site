@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "Hubungi Tim Teknik — Ajukan Permintaan Penawaran Teknis",
+    "description": "Hubungi Keshav Enterprises untuk RFQ rekayasa turbin, penawaran reverse engineering, dan dukungan darurat kerusakan 24x7. Telepon: +91 9149229448.",
+    "schemaName": "Hubungi Keshav Enterprises"
+  },
+  "hero": {
+    "title": "Bicara Langsung dengan Insinyur — Bukan Tim Sales",
+    "subtitle": "Sampaikan kebutuhan Anda, dan tim teknik kami — mantan OEM, bukan call center — akan memberikan jawaban teknis dalam 24 jam, karena Anda butuh jawaban, bukan brosur.",
+    "trustSignals": [
+      "RFQ bersifat rahasia — tidak pernah dibagikan ke perwakilan OEM",
+      "Tanpa kewajiban apa pun — Anda yang menentukan langkah selanjutnya",
+      "24 jam untuk permintaan terjadwal · 1 jam untuk keadaan darurat"
+    ]
+  },
+  "cards": {
+    "directLines": {
+      "title": "Saluran Langsung",
+      "salesLabel": "Sales & RFQ",
+      "emergencyLabel": "Dukungan Darurat Kerusakan 24×7",
+      "whatsappCta": "WhatsApp ke nomor ini",
+      "whatsappPrefillMessage": "Halo, saya membutuhkan dukungan darurat untuk kerusakan turbin saya."
+    },
+    "email": {
+      "title": "Email (untuk RFQ)"
+    },
+    "facilityAddress": {
+      "title": "Alamat Fasilitas"
+    },
+    "officeHours": {
+      "title": "Jam Operasional",
+      "mondaySaturdayLabel": "Senin – Sabtu",
+      "mondaySaturdayValue": "09.00 – 18.00 WIB India (IST)",
+      "sundayLabel": "Minggu",
+      "sundayValue": "Tutup (hanya untuk keadaan darurat)",
+      "emergencyLineLabel": "Saluran Darurat",
+      "emergencyLineValue": "Aktif 24 × 7"
+    },
+    "indiamart": {
+      "ariaLabel": "Lihat Keshav Enterprises di IndiaMART",
+      "title": "Terverifikasi IndiaMART",
+      "ratingSrOnly": "4,3 dari 5 bintang",
+      "ratingText": "Rating 4,3/5",
+      "trustSeal": "Pemasok TrustSeal"
+    },
+    "connect": {
+      "label": "Terhubung dengan Kami"
+    }
+  },
+  "formSection": {
+    "heading": "Dapatkan Penawaran Teknis Gratis",
+    "subheading": "Pertanyaan Anda langsung diteruskan ke insinyur utama kami — bukan ke call center. Kami memberikan jawaban teknis, karena itulah yang benar-benar dibutuhkan manajer pabrik. Sudah termasuk tinjauan gratis atas laporan analisis oli turbin Anda yang terakhir."
+  },
+  "googleBusiness": {
+    "title": "Temukan Kami di Google Bisnis",
+    "descriptionPrefix": "Cari",
+    "descriptionQuoted": "Keshav Enterprises Shamli",
+    "descriptionSuffix": "di Google Maps — lihat profil kami, dapatkan petunjuk arah, atau tinggalkan ulasan untuk membantu pembeli lain menemukan kami.",
+    "cta": "Lihat di Google"
+  },
+  "facilityPhoto": {
+    "caption": "Fasilitas Manufaktur Kami, Shamli, Uttar Pradesh",
+    "alt": "Fasilitas manufaktur Keshav Enterprises — Shamli, Uttar Pradesh"
+  },
+  "map": {
+    "heading": "Fasilitas Manufaktur Kami — Shamli, Uttar Pradesh",
+    "iframeTitle": "Peta lokasi Keshav Enterprises",
+    "googleBusinessCta": "Google Bisnis",
+    "directionsCta": "Dapatkan Petunjuk Arah"
+  },
+  "form": {
+    "riskReversal": [
+      {
+        "title": "Tanpa kewajiban apa pun",
+        "sub": "Kami memberikan jawaban teknis. Anda yang menentukan langkah selanjutnya — tanpa tekanan follow-up."
+      },
+      {
+        "title": "RFQ Anda tetap rahasia",
+        "sub": "Kami tidak pernah membagikan detail pabrik Anda kepada pihak ketiga — bahkan ke perwakilan OEM sekalipun."
+      },
+      {
+        "title": "Yang menjawab adalah insinyur, bukan sales",
+        "sub": "Orang yang sudah pernah menangani jenis turbin Anda akan memberikan jawaban teknis yang sesungguhnya."
+      },
+      {
+        "title": "Bukan bidang kami? Kami akan sampaikan lebih dulu",
+        "sub": "Jika pekerjaan Anda di luar cakupan kami, kami akan sampaikan sejak awal — tanpa berbelit-belit, tanpa buang waktu."
+      }
+    ],
+    "inquiryTypes": [
+      "Jasa Overhaul Turbin",
+      "Dukungan Darurat Kerusakan",
+      "Erection & Commissioning Turbin",
+      "Reverse Engineering",
+      "Dynamic Balancing",
+      "Lube Oil Flushing",
+      "Alignment Mesin",
+      "Troubleshooting",
+      "Sand Blasting",
+      "RFQ Elemen Filter",
+      "RFQ HVAC, Ducting & Filtrasi Udara",
+      "RFQ Suku Cadang Turbin",
+      "RFQ Katup, Gasket & Sistem Uap",
+      "RFQ Expansion Joint",
+      "RFQ Strainer",
+      "Pertanyaan Umum"
+    ],
+    "officeStatus": {
+      "online": "Insinyur sedang online — dibalas dalam 2 jam",
+      "offline": "Saluran darurat aktif 24×7 — RFQ terjadwal akan dibalas mulai pukul 09.00 IST"
+    },
+    "labels": {
+      "yourName": "Nama Anda",
+      "companyName": "Nama Perusahaan",
+      "email": "Email",
+      "phone": "Telepon",
+      "inquiryType": "Jenis Pertanyaan",
+      "turbineMakeModel": "Merek / Model Turbin",
+      "details": "Detail",
+      "attachments": "Lampirkan Gambar Teknis / Datasheet (opsional)"
+    },
+    "placeholders": {
+      "yourName": "Nama lengkap",
+      "companyName": "Nama perusahaan Anda",
+      "email": "you@company.com",
+      "phone": "+91 98000 00000",
+      "inquiryTypeSelect": "Pilih jenis pertanyaan…",
+      "turbineMakeModel": "mis. Triveni 5 MW, back-pressure",
+      "details": "Jelaskan kebutuhan, gejala kerusakan, tenggat waktu, atau spesifikasi Anda…"
+    },
+    "attachmentsHelp": "PDF, DWG, DXF, JPG, PNG — maks. 10 MB per file. Membantu kami memberikan penawaran yang lebih akurat dan lebih cepat.",
+    "charCounter": {
+      "minRequired": "Minimal 20 karakter diperlukan",
+      "moreNeededOne": "perlu {n} karakter lagi",
+      "moreNeededMany": "perlu {n} karakter lagi",
+      "looksGood": "✓ Sudah sesuai!"
+    },
+    "errors": {
+      "yourName": "Nama Anda wajib diisi",
+      "companyName": "Nama perusahaan wajib diisi",
+      "email": "Email yang valid wajib diisi",
+      "phone": "Nomor telepon yang valid wajib diisi (minimal 10 digit)",
+      "inquiryType": "Silakan pilih jenis pertanyaan",
+      "details": "Silakan isi detail (minimal 20 karakter)",
+      "attachmentTooLarge": "\"{filename}\" melebihi batas 10 MB — silakan lampirkan file yang lebih kecil",
+      "rateLimited": "Terlalu banyak pengiriman. Mohon tunggu satu jam sebelum mencoba lagi.",
+      "securityCheck": "Silakan selesaikan pemeriksaan keamanan.",
+      "notConfigured": "Formulir belum dikonfigurasi — silakan hubungi kami langsung via WhatsApp atau telepon.",
+      "submissionFailedGeneric": "Pengiriman gagal. Silakan coba lagi.",
+      "submissionFailedBanner": "Pengiriman gagal — silakan coba lagi atau hubungi kami langsung:",
+      "whatsappFallback": "WhatsApp",
+      "whatsappFallbackPrefillMessage": "Halo, saya mencoba mengirim formulir kontak tetapi gagal. Bisakah Anda membantu?"
+    },
+    "buttons": {
+      "sendingToEngineer": "Mengirim ke Tim Teknik...",
+      "sendToEngineer": "Kirim ke Insinyur Utama Kami",
+      "sendToEngineerSub": "Dapatkan jawaban teknis, bukan brosur",
+      "sendingShort": "Mengirim…",
+      "submitWithDrawings": "Kirim RFQ dengan Gambar Teknis",
+      "submitWithDrawingsSub": "Karena tidak semua orang menggunakan WhatsApp"
+    },
+    "footerNote": {
+      "text": "Kami membalas dalam 1 hari kerja · Tanpa spam ·",
+      "privacyPolicyLink": "Kebijakan Privasi"
+    },
+    "success": {
+      "heading": "Pertanyaan telah dikirim ke tim insinyur kami.",
+      "bodyPrefix": "Jawaban teknis dapat Anda harapkan dalam",
+      "bodyMid": "untuk pertanyaan terjadwal, atau",
+      "bodySuffix": "untuk kerusakan darurat — langsung dari insinyur, bukan call center.",
+      "hours24": "24 jam",
+      "hour1": "1 jam",
+      "resendCta": "Kirim pertanyaan lain",
+      "whileYouWaitLabel": "Sambil menunggu —",
+      "whileYouWaitText": "jelajahi studi kasus dan hasil lapangan kami yang telah terdokumentasi.",
+      "viewCaseStudiesCta": "Lihat Studi Kasus"
+    }
+  }
+}

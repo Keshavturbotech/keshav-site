@@ -1,0 +1,60 @@
+# Keshav Enterprises
+
+> Ex-OEM steam turbine engineers providing overhauling, reverse engineering, dynamic balancing, lube oil flushing, machine alignment, and OEM-compatible industrial spares. 38+ years in business (since 1988), based in Shamli, Uttar Pradesh, India. 24×7 emergency breakdown response.
+
+Keshav Enterprises serves steam turbines from 5 kW to 60 MW (both back-pressure and condensing types, single or multi-stage, horizontal or vertical) across power generation, sugar mills, paper mills, oil & gas, petrochemical, agro/food processing, and cement/steel industries. The engineering team includes ex-OEM specialists from Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, Chola Turbo, DLF-Skoda, KKK, ABB.
+
+## Company
+
+- [About](https://www.keshavturbotech.com/about): Company history, timeline, team, OEM expertise, and export credentials (IEC registered, GST 09BOSPS3115K1ZC, MSME UDYAM-UP-47-0071234).
+- [Contact](https://www.keshavturbotech.com/contact): Phone, email, address, office hours, and RFQ form. Phones: +91 9149229448, +91 6397363268. Email: ksengg007@gmail.com.
+
+## Services
+
+- [Turbine Erection & Commissioning](https://www.keshavturbotech.com/services/turbine-erection-and-commissioning): Expert erection and commissioning for steam turbines, pumps, compressors, fans, condensers, EOT cranes, and steam/water/air pipeline work. Includes complete OEM coordination and documentation.
+- [Turnkey Overhauling & Maintenance](https://www.keshavturbotech.com/services/turnkey-overhauling-and-maintenance): Executed by ex-OEM engineers from Triveni, Siemens, BHEL, Belliss, and more. Includes pre-shutdown planning, on-site condition reporting, comprehensive spares management, and 24x7 emergency troubleshooting.
+- [Precision Reverse Engineering](https://www.keshavturbotech.com/services/precision-reverse-engineering): PMI-verified reverse engineering using 3D laser scanners, CMM, and copying lathes for turbines from 5 kW to 60 MW. Generate full manufacturing drawings with tolerances, concentricity, pre/post heat treatment specs.
+- [Dynamic Balancing & Rotor Machining](https://www.keshavturbotech.com/services/dynamic-balancing-and-rotor-machining): Precision rotor machining (grinding, polishing, journal undersizing) at our workshop lathes, plus ISO/API standard dynamic balancing from 50 to 2000 kg with full compliance reporting.
+- [Lube Oil Flushing](https://www.keshavturbotech.com/services/lube-oil-flushing): ISO-compliant flushing using purpose-built mobile centrifuge filter systems. Achieves maximum cleanliness and de-watering following construction or during scheduled maintenance.
+- [Machine Alignment](https://www.keshavturbotech.com/services/machine-alignment): Expert machine alignment using latest technology to eliminate misalignment, one of the primary causes of equipment failure. Covers turbines, gearboxes, pumps, fans, alternators, and induction generators.
+- [Troubleshooting Service](https://www.keshavturbotech.com/services/troubleshooting-service): Rapid on-site fault diagnosis for steam turbines experiencing vibration, bearing failure, governor instability, steam leakage, oil contamination, or unexpected trips. Ex-OEM engineers deploy with full diagnostic instrumentation for root-cause identification and corrective action.
+- [Sand Blasting & Surface Preparation](https://www.keshavturbotech.com/services/sand-blasting-and-surface-preparation): Controlled abrasive blasting for turbine rotors, casings, and components, removing rust, scale, and old coatings ahead of inspection, reverse engineering, or recoating without damaging critical machined surfaces.
+
+## Industries Served
+
+- [Power Generation](https://www.keshavturbotech.com/industries/power-generation): Supplying critical overhauling services and OEM-compatible spares to thermal power plants operating steam turbines from 5 MW to 60 MW. Our ex-OEM engineers ensure maximum plant availability.
+- [Sugar Mills & Distilleries](https://www.keshavturbotech.com/industries/sugar-mills-and-distilleries): Serving India's sugar industry with specialized back-pressure steam turbine services. Scheduled overhauling during off-season and emergency breakdown support during crushing season.
+- [Paper & Pulp Mills](https://www.keshavturbotech.com/industries/paper-and-pulp-mills): Paper mills operate steam turbines continuously and require precision maintenance to maintain uptime. We provide planned shutdown overhauling and critical spare components.
+- [Oil & Gas Industries](https://www.keshavturbotech.com/industries/oil-and-gas-industries): Oil and gas facilities demand the highest standards of precision engineering for turbine-driven compressors and pumps. Our API-compliant products meet the stringent requirements of upstream and downstream facilities.
+- [Petrochemical & Refineries](https://www.keshavturbotech.com/industries/petrochemical-and-refineries): Petrochemical and refinery turbines run continuously in hazardous environments, requiring API-grade filtration, explosion-proof instrumentation, and certified sealing products.
+- [Agro & Food Processing](https://www.keshavturbotech.com/industries/agro-and-food-processing): Agro-industrial facilities including rice mills, cotton gins, and food processing plants rely on back-pressure steam turbines for power and process steam. We provide cost-effective overhauling, spares, and fitration products.
+- [Cement & Steel Plants](https://www.keshavturbotech.com/industries/cement-and-steel-plants): Cement and steel plants operate large multi-stage steam turbines and require high-reliability maintenance with minimum production disruption. We provide planned and emergency overhauling services.
+
+## Products
+
+120 total SKUs across multiple categories. Full catalog: https://www.keshavturbotech.com/products
+Categories: Industrial Filtration, Industrial Strainers, Expansion Joints, HVAC, Ducting & Air Filtration, Valves, Gaskets & Steam System Products, Turbine Spares, Industrial Rubber Products, Flexible Hoses & Assemblies, Electronic Equipments, Hydraulic Components
+
+## Projects & Case Studies
+
+8 documented field case studies with measured outcomes. Full list: https://www.keshavturbotech.com/projects
+- [Triveni 5 MW Back-Pressure Turbine: Full Overhaul & Rotor Balance](https://www.keshavturbotech.com/projects/cs_01)
+- [Siemens SST-200 Impulse Stage Disc: Reverse Engineering & Manufacture](https://www.keshavturbotech.com/projects/cs_02)
+- [Maxwatt 3.5 MW Co-Gen Turbine: Greenfield Erection & Commissioning](https://www.keshavturbotech.com/projects/cs_03)
+- [BHEL 15 MW Extraction-Condensing Turbine: Post-Overhaul Lube Oil Flush](https://www.keshavturbotech.com/projects/cs_04)
+- [KKK Compressor-Gearbox-Motor Train: Precision Laser Alignment](https://www.keshavturbotech.com/projects/cs_05)
+
+## Engineering Blog
+
+7 technical articles on turbine maintenance, filtration, and industrial engineering. Full list: https://www.keshavturbotech.com/blog
+- [The Complete Steam Turbine Overhauling Checklist for Plant Engineers](https://www.keshavturbotech.com/blog/steam-turbine-overhauling-checklist)
+- [How Lube Oil Contamination Destroys Turbine Bearings: And How to Prevent It](https://www.keshavturbotech.com/blog/lube-oil-contamination-turbine-bearings)
+- [Reverse Engineering Turbine Spares: How We Recreate Obsolete Components in India](https://www.keshavturbotech.com/blog/reverse-engineering-turbine-spares-india)
+- [Belliss & Morcom Turbine Common Faults: Field Guide for Indian Plants](https://www.keshavturbotech.com/blog/belliss-morcom-turbine-common-faults-india)
+- [How to Read an ISO 4406 Lube Oil Cleanliness Report: A Guide for Maintenance Engineers](https://www.keshavturbotech.com/blog/iso-4406-lube-oil-cleanliness-guide)
+
+## Other
+
+- [Downloads](https://www.keshavturbotech.com/downloads): Free technical checklists, datasheets, and RFQ templates.
+- [Privacy Policy](https://www.keshavturbotech.com/privacy-policy)
+- [Terms of Service](https://www.keshavturbotech.com/terms-of-service)

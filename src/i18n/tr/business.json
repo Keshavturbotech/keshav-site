@@ -1,0 +1,17 @@
+{
+  "schema": {
+    "description": "OEM kökenli buhar türbini mühendisleri; 5 kW–60 MW aralığındaki türbinler için revizyon, tersine mühendislik, dinamik balans, yağlama yağı yıkama, makine hizalama ve OEM uyumlu yedek parça hizmetleri sunar.",
+    "knowsAbout": [
+      "Buhar türbini revizyonu",
+      "Türbin tersine mühendisliği",
+      "Dinamik balans",
+      "Yağlama yağı yıkama",
+      "Türbin montajı ve devreye alma",
+      "Makine hizalama",
+      "Endüstriyel filtrasyon",
+      "Triveni türbinleri",
+      "Siemens türbinleri",
+      "BHEL türbinleri"
+    ]
+  }
+}

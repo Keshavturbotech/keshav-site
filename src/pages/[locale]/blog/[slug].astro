@@ -1,0 +1,26 @@
+---
+// src/pages/[locale]/blog/[slug].astro
+// blog/[slug].astro's own getStaticPaths (Part 1 step-4-fixed) now accepts
+// props: { postEn } — same shape needed here. Route generation stays keyed
+// off the English/slug list; render content resolves through
+// getLocalizedList inside the underlying page.
+import BlogPostPage from "../../blog/[slug].astro";
+import type { BlogPost } from "../../../data/blog-posts";
+import { BLOG_POSTS as BLOG_POSTS_EN } from "../../../data/blog-posts";
+import { LOCALES, DEFAULT_LOCALE } from "../../../lib/i18n";
+import { getPathByLocale } from "astro:i18n";
+
+export function getStaticPaths() {
+  const locales = LOCALES.filter((locale) => locale !== DEFAULT_LOCALE);
+  return locales.flatMap((locale) =>
+    BLOG_POSTS_EN.map((post) => ({
+      params: { locale: getPathByLocale(locale), slug: post.slug },
+      props: { postEn: post },
+    })),
+  );
+}
+
+const { postEn } = Astro.props as { postEn: BlogPost };
+---
+
+<BlogPostPage postEn={postEn} />

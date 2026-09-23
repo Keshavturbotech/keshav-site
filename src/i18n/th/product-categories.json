@@ -1,0 +1,35 @@
+{
+  "all": {
+    "label": "ทั้งหมด"
+  },
+  "industrial-filtration": {
+    "label": "ระบบกรองอุตสาหกรรม"
+  },
+  "industrial-strainers": {
+    "label": "ตะแกรงกรองอุตสาหกรรม"
+  },
+  "expansion-joints": {
+    "label": "ข้อต่อขยายตัว"
+  },
+  "turbine-spares": {
+    "label": "อะไหล่กังหัน"
+  },
+  "industrial-rubber-products": {
+    "label": "ผลิตภัณฑ์ยางอุตสาหกรรม"
+  },
+  "flexible-hoses-and-assemblies": {
+    "label": "สายอ่อนและชุดประกอบ"
+  },
+  "electronic-equipments": {
+    "label": "อุปกรณ์อิเล็กทรอนิกส์"
+  },
+  "hydraulic-components": {
+    "label": "ชิ้นส่วนไฮดรอลิก"
+  },
+  "hvac-ducting-and-air-filtration": {
+    "label": "HVAC ท่อลม และระบบกรองอากาศ"
+  },
+  "valves-gaskets-and-steam-system-products": {
+    "label": "วาล์ว ปะเก็น และผลิตภัณฑ์ระบบไอน้ำ"
+  }
+}

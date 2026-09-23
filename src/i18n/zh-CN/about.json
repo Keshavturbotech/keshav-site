@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "titleTemplate": "关于Keshav Enterprises——{years}年以上汽轮机工程经验",
+    "descriptionTemplate": "Keshav Enterprises——来自印度北方邦沙姆利，拥有{years}年以上工业汽轮机工程、逆向工程及OEM兼容备件经验。原厂背景工程师来自Triveni、Siemens、BHEL。",
+    "schemaName": "关于Keshav Enterprises",
+    "schemaDescriptionTemplate": "Keshav Enterprises——来自印度北方邦沙姆利，拥有{years}年以上工业汽轮机工程、逆向工程及OEM兼容备件制造经验。"
+  },
+  "hero": {
+    "eyebrow": "我们的故事",
+    "h1Line1": "二十余年的",
+    "h1Span": "精密工程",
+    "quote": "「工厂零停机容忍——这不是一句口号，而是每位客户都要求我们坚守的工程标准。」",
+    "intro": "从北方邦沙姆利的一家专业汽轮机维护企业，成长为服务于电厂、糖厂、炼油厂及流程工业的印度全境可信赖工程伙伴。以来自Triveni、Siemens、BHEL、Man Turbo、KKK及ABB的原厂背景专业经验为根基，秉持唯一使命：最大化运行率。",
+    "tags": [
+      "原厂背景工程师",
+      "3D激光扫描",
+      "三坐标测量精度",
+      "24×7响应",
+      "IEC注册",
+      "出口就绪",
+      "IndiaMART认证",
+      "印度制造",
+      "MSME注册"
+    ],
+    "ctaServices": "我们的服务",
+    "ctaContact": "联系工程团队",
+    "statCards": [
+      {
+        "label": "创立年限",
+        "subTemplate": "自{founded}年起"
+      },
+      {
+        "label": "OEM品牌",
+        "sub": "Triveni · Siemens · BHEL"
+      },
+      {
+        "label": "最大汽轮机",
+        "sub": "最高60兆瓦"
+      },
+      {
+        "label": "紧急支持",
+        "sub": "工程师分布多地"
+      }
+    ],
+    "trustBadges": {
+      "indiamartTitle": "IndiaMART TrustSeal认证",
+      "indiamartSub": "50+条买家评价 · 4.3/5评分",
+      "msmeTitle": "MSME注册",
+      "msmeSub": "印度政府Udyam认证企业"
+    }
+  },
+  "statsBar": [
+    {
+      "label": "创立年限",
+      "subTemplate": "自{founded}年起"
+    },
+    {
+      "label": "覆盖OEM品牌",
+      "sub": "Triveni · Siemens · BHEL"
+    },
+    {
+      "label": "服务过的最大汽轮机",
+      "sub": "最高60兆瓦"
+    },
+    {
+      "label": "紧急响应",
+      "sub": "工程师分布多地"
+    }
+  ],
+  "overview": {
+    "eyebrow": "我们是谁",
+    "heading": "印度工业支柱的工程伙伴",
+    "paragraphs": [
+      "Keshav Enterprises是一家总部位于印度北方邦沙姆利的精密工业工程公司。二十多年来，我们为印度要求最严苛的工业领域提供专业汽轮机维护、逆向工程及OEM兼容备件。",
+      "我们的工程团队包括来自Triveni、Siemens、BHEL、Belliss & Morcom、Man Turbo、KKK及ABB的原厂背景专家——以远低于原厂交期与成本的方式，为客户提供同等水平的技术专业能力。",
+      "我们服务范围涵盖5千瓦至60兆瓦的汽轮机——背压式与凝汽式，卧式与立式，单级与多级。我们的车间配备3D激光扫描仪、三坐标测量机、动平衡机（50–2,000公斤）及精密数控车床。"
+    ],
+    "coreCapabilitiesHeading": "核心能力",
+    "coreCapabilitiesList": [
+      "汽轮机安装、调试及交钥匙大修",
+      "采用3D激光扫描及三坐标测量的精密逆向工程",
+      "符合ISO 1940 / API 670标准的动平衡（50–2,000公斤）",
+      "符合ISO 4406:99洁净度分级的润滑油冲洗",
+      "采用最新激光找正技术的设备找正",
+      "制造：滤芯、HVAC空气滤清器、膨胀节、过滤器",
+      "汽轮机备件：轴承、密封件、转子、调速器、阀门",
+      "24×7紧急故障响应，工程师分布多地"
+    ],
+    "locationHeading": "我们的位置",
+    "gstLabel": "GST税号"
+  },
+  "gallery": {
+    "eyebrow": "为工业运行率而生",
+    "headingLine1": "只要您的汽轮机需要，",
+    "headingLine2": "我们就能制造。",
+    "subheadingTemplate": "9大类别、{productCount}余种精密工程组件——从OEM匹配滤芯、HVAC空气滤清器到工厂来电当周即可发货的汽轮机备件。",
+    "cards": {
+      "workshopFloor": {
+        "caption": "车间实景",
+        "desc": "配备精密数控车床、仿形车床及磨床，用于转子轴颈加工、抛光及迷宫段作业。"
+      },
+      "ourServices": {
+        "caption": "我们的服务",
+        "desc": "8项专业服务——汽轮机安装与调试、交钥匙大修、逆向工程、动平衡、润滑油冲洗、设备找正、喷砂处理及24×7故障诊断。",
+        "linkLabel": "浏览服务"
+      },
+      "productRange": {
+        "caption": "产品系列",
+        "descTemplate": "9大类别、{productCount}种工程产品——过滤、HVAC空气滤清器、过滤器、膨胀节、汽轮机备件、橡胶制品、软管、电子设备及液压元件。",
+        "linkLabel": "浏览产品"
+      },
+      "rotorInspection": {
+        "caption": "转子检验",
+        "desc": "原厂背景工程师在检验过程中测量并记录每一处间隙、缝隙及尺寸——每项工作均附完整状态报告。"
+      }
+    },
+    "browseFullCatalog": "浏览完整产品目录"
+  },
+  "values": {
+    "eyebrow": "驱动我们前行的动力",
+    "heading": "我们的核心价值观",
+    "items": [
+      {
+        "label": "工程诚信",
+        "text": "每个部件、每处间隙、每项尺寸均经记录与核实。对安全关键旋转设备绝不走捷径。"
+      },
+      {
+        "label": "OEM级标准",
+        "text": "来自Triveni、Siemens、BHEL及ABB的原厂背景工程师，提供与原厂同等标准的维护服务。"
+      },
+      {
+        "label": "逆向工程创新",
+        "text": "3D扫描与PMI检测让客户无需等待原厂12至18个月的交期即可获取停产备件。"
+      },
+      {
+        "label": "客户运行率优先",
+        "text": "我们以工厂可用率衡量成功。提供24×7紧急响应，因为停机故障不会按工作时间发生。"
+      }
+    ]
+  },
+  "milestones": {
+    "eyebrow": "我们的历程",
+    "heading": "公司里程碑",
+    "items": [
+      {
+        "year": "2000年代",
+        "title": "创立",
+        "desc": "在北方邦沙姆利创立，作为一家专业汽轮机维护企业，凭借实操大修经验服务当地糖厂。"
+      },
+      {
+        "year": "2005年",
+        "title": "原厂专业能力",
+        "desc": "组建来自Triveni、BHEL及Belliss & Morcom的原厂背景工程师专属团队——实现真正对标原厂的维护标准。"
+      },
+      {
+        "year": "2010年",
+        "title": "逆向工程",
+        "desc": "投资3D激光扫描及三坐标测量设备，实现停产汽轮机部件的自主逆向工程，不再依赖原厂。"
+      },
+      {
+        "year": "2015年",
+        "title": "产品系列扩展",
+        "desc": "推出涵盖过滤、HVAC空气滤清器、膨胀节、过滤器、橡胶制品及软管总成的全面工业产品线。"
+      },
+      {
+        "year": "2020年",
+        "title": "ISO/API动平衡",
+        "desc": "投入使用符合ISO 1940 / API 670标准的动平衡机——可处理50至2,000公斤的转子。"
+      },
+      {
+        "year": "至今",
+        "title": "出口就绪",
+        "desc": "已在DGFT完成IEC注册——汽轮机部件、过滤产品及工业备件均按ISO/API/ASME标准制造，并按HSN编码分类以供出口，为海外买家提供文件支持。同时持续通过24×7紧急工程支持覆盖印度全境市场。"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "工作背后的人才",
+    "heading": "原厂背景工程专业能力",
+    "subheading": "我们的工程师曾在原厂工厂及现场服务团队中接受培训并任职——而不仅仅是接受过原厂设备培训。这一差异体现在每一处记录间隙的质量之中。",
+    "expSuffix": "从业经验",
+    "namesWithheldNote": "为保护我们的工程师不被竞争对手挖角，姓名暂不公开。如有正式咨询需求，可提供可核实的从业经历。",
+    "members": {
+      "sk": {
+        "name": "高级工程师——Triveni及BHEL背景",
+        "spec": "汽轮机大修 · 安装与调试 · 振动分析"
+      },
+      "rk": {
+        "name": "高级工程师——Siemens及KKK背景",
+        "spec": "逆向工程 · 三坐标测量及PMI检测 · 转子加工"
+      },
+      "as": {
+        "name": "现场工程师——Belliss及Man Turbo背景",
+        "spec": "紧急故障处理 · 找正 · 润滑油系统"
+      },
+      "vp": {
+        "name": "动平衡专家",
+        "spec": "ISO 1940 / API 670动平衡 · 50–2,000公斤转子"
+      },
+      "mt": {
+        "name": "车间加工主管",
+        "spec": "轴颈磨削 · 迷宫段加工 · 碳环制造"
+      },
+      "pd": {
+        "name": "产品与过滤业务主管",
+        "spec": "滤芯供应 · HVAC空气滤清器 · 膨胀节 · 过滤器"
+      }
+    }
+  },
+  "oemSection": {
+    "eyebrow": "原厂专业能力",
+    "headingLine1": "10余个OEM品牌。",
+    "headingLine2": "唯一的工程合作伙伴。",
+    "sub": "我们的原厂背景工程师对所有主要汽轮机品牌均拥有实操经验，无需磨合期，从第一天起即具备权威技术能力。"
+  },
+  "exportSection": {
+    "eyebrow": "出口就绪",
+    "headingLine1": "专为",
+    "headingSpan": "海外买家便捷核实而打造",
+    "paragraphs": [
+      "Keshav Enterprises持有DGFT签发的有效进出口代码（IEC），这是向印度境外出运汽轮机工程备件、工业过滤产品及OEM兼容组件所需的法定资质。",
+      "我们精密制造的产品均按照ISO 16889、API 614及ASME第八卷等国际标准生产，并按标准HSN出口编码分类，海外买家可在下单前核实合规性。"
+    ],
+    "standards": [
+      {
+        "stat": "ISO 16889",
+        "label": "过滤标准"
+      },
+      {
+        "stat": "API 614",
+        "label": "润滑油系统标准"
+      },
+      {
+        "stat": "ASME VIII",
+        "label": "压力容器标准"
+      },
+      {
+        "stat": "HSN 8421",
+        "label": "出口分类编码"
+      }
+    ],
+    "iecCardTitle": "IEC注册出口商",
+    "iecCardDescTemplate": "DGFT进出口代码{iec}——有效且可核实",
+    "checklistTitle": "出口就绪核查清单",
+    "checklistItems": [
+      "DGFT签发的有效IEC——依法获准出口",
+      "产品按标准HSN出口编码分类",
+      "按ISO、API及ASME国际标准制造",
+      "提供英文技术资料表、检测证书及质量控制文档",
+      "已完成GST注册，全面符合出口开票要求",
+      "位于北方邦沙姆利的MSME注册生产基地"
+    ],
+    "credentialLabels": {
+      "gst": "GST税号",
+      "msme": "MSME/Udyam",
+      "iec": "IEC"
+    }
+  },
+  "finalCta": {
+    "heading": "准备好与我们合作了吗？",
+    "subheading": "告诉我们您汽轮机的品牌、功率及需求——我们以工程方案回应，而非推销话术。",
+    "ctaQuote": "获取技术报价",
+    "ctaServices": "查看全部服务"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "dimensions": {
+    "label": "પરિમાણો"
+  },
+  "performance": {
+    "label": "કામગીરી"
+  },
+  "materials": {
+    "label": "સામગ્રી"
+  },
+  "standards": {
+    "label": "ધોરણો"
+  }
+}

@@ -1,0 +1,125 @@
+---
+// src/pages/terms-of-service.astro
+// Ported verbatim from TermsOfServicePage in App.jsx (line ~27132).
+import Layout from "../layouts/Layout.astro";
+import EnglishOnlyNotice from "../components/EnglishOnlyNotice.astro";
+import { CONTACT_INFO } from "../data/site-config";
+
+const lastUpdated = "19 June 2026";
+---
+
+<Layout
+  title="Terms of Service"
+  description="The terms that govern use of this website and enquiries submitted to Keshav Enterprises."
+  canonicalPath="/terms-of-service"
+  noindex={true}
+>
+  <div class="pt-24 sm:pt-28 pb-24 min-h-screen bg-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <a
+        href="/"
+        class="inline-flex items-center gap-1.5 text-blue-600 font-bold text-sm mb-8 hover:gap-2.5 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 rounded py-2 -my-2"
+      >
+        <svg
+          class="w-4 h-4"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          aria-hidden="true"
+          ><path stroke-linecap="round" stroke-linejoin="round" d="M19 12H5m0 0l7 7m-7-7l7-7"
+          ></path></svg
+        >
+        Back to Home
+      </a>
+      <h1 class="text-3xl md:text-4xl font-black text-slate-900 tracking-tight mb-2">
+        Terms of Service
+      </h1>
+      <p class="text-slate-500 text-sm font-medium mb-6">Last updated: {lastUpdated}</p>
+
+      <EnglishOnlyNotice />
+
+      <div class="space-y-8 text-slate-700 text-sm md:text-base leading-relaxed">
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">Scope</h2>
+          <p>
+            These terms cover your use of this website and any enquiry, RFQ, or download request you
+            submit through it. They do not, by themselves, constitute a commercial contract for the
+            supply of goods or services — that is governed separately by the written quotation,
+            purchase order, or work order agreed for each job.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">Indicative information only</h2>
+          <p>
+            Prices, lead times, and specifications shown on this site are indicative and based on
+            typical market ranges and past project data. They are not binding quotations. A firm
+            price, lead time, and scope are confirmed only in a written quotation issued for your
+            specific requirement after technical review.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">OEM references &amp; trademarks</h2>
+          <p>
+            Brand and OEM names referenced on this site (e.g. Triveni, Siemens, BHEL, and others)
+            are trademarks of their respective owners, used solely to describe compatibility of the
+            parts and services we supply. Keshav Enterprises is an independent supplier and is not
+            affiliated with, authorized by, or sponsored by these companies.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">Site content &amp; downloads</h2>
+          <p>
+            Catalogues, datasheets, and other downloadable material on this site are provided for
+            evaluation purposes and remain the property of Keshav Enterprises unless otherwise
+            stated. Please don't redistribute them commercially without asking us first — we're
+            generally happy to say yes for legitimate procurement use.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">No warranty on website content</h2>
+          <p>
+            We make reasonable efforts to keep this site accurate and current, but technical content
+            (tolerances, materials, compatibility) should always be confirmed with our engineering
+            team before you rely on it for a purchasing or maintenance decision. Warranty terms for
+            actual goods and services supplied are set out in the relevant quotation or work order,
+            not on this website.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">Limitation of liability</h2>
+          <p>
+            To the extent permitted by law, Keshav Enterprises is not liable for indirect or
+            consequential loss arising from use of this website itself (as distinct from goods or
+            services formally supplied under a written order, which are governed by that order's own
+            terms).
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">Governing law</h2>
+          <p>
+            These terms are governed by the laws of India, with courts at Shamli / Uttar Pradesh
+            having jurisdiction, without prejudice to any other rights you may have under applicable
+            consumer or export-trade regulations.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">Contact</h2>
+          <p>
+            Questions about these terms can be sent to{" "}
+            <a href={`mailto:${CONTACT_INFO.infoEmail}`} class="text-blue-600 font-bold underline"
+              >{CONTACT_INFO.infoEmail}</a
+            >.
+          </p>
+        </section>
+      </div>
+    </div>
+  </div>
+</Layout>

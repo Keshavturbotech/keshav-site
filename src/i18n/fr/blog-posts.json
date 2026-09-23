@@ -1,0 +1,284 @@
+{
+  "post_1": {
+    "id": "post_1",
+    "slug": "steam-turbine-overhauling-checklist",
+    "title": "La liste de contrôle complète de révision générale des turbines à vapeur pour ingénieurs d'usine",
+    "excerpt": "Une liste de contrôle pratique, étape par étape, couvrant la planification avant arrêt, les protocoles d'inspection, l'enregistrement des jeux fonctionnels, et la mise en service après révision pour des turbines à vapeur jusqu'à 60 MW.",
+    "date": "2026-03-15",
+    "author": "Keshav Enterprises Engineering Team",
+    "readTime": "8 min de lecture",
+    "tags": [
+      "Révision générale",
+      "Turbines à vapeur",
+      "Maintenance"
+    ],
+    "coverImage": "blog-turbine-overhaul.webp",
+    "content": [
+      { "type": "h2", "text": "Pourquoi une liste de contrôle structurée est essentielle" },
+      { "type": "p", "text": "Les arrêts non planifiés de turbines coûtent aux usines indiennes d'énergie et de sucre des lakhs de roupies par heure. Une liste de contrôle structurée garantit que rien n'est oublié pendant les fenêtres de maintenance planifiée — réduisant le risque de défaillance précoce après remise en service et évitant des arrêts répétés coûteux." },
+      { "type": "h2", "text": "1. Planification avant arrêt (4 à 6 semaines avant)" },
+      { "type": "p", "text": "Commencez par un cahier des charges détaillé couvrant tous les équipements tournants de la ligne. Inspectez toutes les pièces de rechange en stock et établissez un rapport de manques. Commandez les pièces critiques — paliers, joints, garnitures labyrinthes, bagues de carbone — avec un délai suffisant. Prévoyez les outils spécialisés : laser d'alignement, analyseur de vibrations, comparateurs à cadran, et jauges d'épaisseur." },
+      { "type": "list", "items": [
+        "Confirmer les données de jeu OEM pour tous les étages de la turbine",
+        "Prévoir l'équipement de rinçage d'huile de lubrification (unité de filtration à centrifugeuse mobile)",
+        "Réserver des ingénieurs anciens de l'OEM si nécessaire pour une révision majeure",
+        "Préparer les relevés de référence pour le suivi d'état (vibrations, température, pression)"
+      ] },
+      { "type": "h2", "text": "2. Arrêt et consignation" },
+      { "type": "p", "text": "Suivez la procédure d'arrêt spécifiée par l'OEM. Laissez un temps de refroidissement suffisant avant d'ouvrir toute bride. Consignez toutes les sources d'énergie, y compris la vapeur, l'huile de lubrification, les condensats et l'air de commande. Vidangez complètement le système d'huile de lubrification avant le démontage." },
+      { "type": "h2", "text": "3. Démontage et inspection" },
+      { "type": "p", "text": "Enregistrez tous les jeux, écarts et ajustements avant de retirer les composants — ces données sont essentielles pour les comparer à la spécification OEM et détecter les tendances d'usure. Photographiez chaque étape. Mesurez le faux-rond du rotor au niveau du tourillon, du collet de butée et des faces d'accouplement." },
+      { "type": "list", "items": [
+        "Jeux de paliers (radiaux et axiaux)",
+        "Jeux diamétraux des joints labyrinthes",
+        "Décalage et angularité de l'alignement de l'accouplement",
+        "État de la face de la bague de carbone et tension du ressort",
+        "État de la tuyère et du diaphragme, dimensions du col",
+        "État du siège et du disque de la vanne d'arrêt d'urgence (ESV)"
+      ] },
+      { "type": "h2", "text": "4. Réparations et remplacements en atelier" },
+      { "type": "p", "text": "Envoyez le rotor pour rectification du tourillon et équilibrage dynamique si les relevés de faux-rond ou de vibration dépassaient la tolérance. Remplacez les bagues de presse-étoupe en carbone et graphite, les garnitures labyrinthes, et les paliers en régule selon le rapport d'état. Tout équilibrage de rotor doit être effectué selon les normes ISO 1940 ou API 670." },
+      { "type": "h2", "text": "5. Remontage et alignement" },
+      { "type": "p", "text": "Remontez dans l'ordre inverse avec des joints neufs et un couple de serrage des fixations conforme aux spécifications OEM. Effectuez l'alignement final du rotor à l'aide d'un équipement d'alignement laser — de la turbine au réducteur et du réducteur au générateur. Enregistrez tous les jeux après montage et confirmez qu'ils sont dans la tolérance OEM." },
+      { "type": "h2", "text": "6. Rinçage d'huile de lubrification" },
+      { "type": "p", "text": "Avant la mise en service, rincez le système d'huile de lubrification avec un système de filtration à centrifugeuse mobile en visant une classe de propreté ISO 4406:99 de 16/14/11 ou mieux. Prélevez des échantillons d'huile avant et après le rinçage et conservez les rapports. Ne mettez jamais une turbine en service sans avoir terminé un rinçage d'huile — les défaillances de paliers dues à une huile contaminée représentent une part importante des pannes post-révision." },
+      { "type": "h2", "text": "7. Mise en service et premier démarrage" },
+      { "type": "p", "text": "Suivez étape par étape la procédure de pré-mise en service de l'OEM. Surveillez en continu les vibrations, les températures de palier et la pression d'huile de lubrification durant la première montée en régime. Confirmez le fonctionnement de la vanne ESV et du régulateur. Affinez l'alignement si les niveaux de vibration sont élevés. Documentez tous les relevés de mise en service pour le registre de maintenance de l'usine." },
+      { "type": "cta", "text": "Besoin d'ingénieurs experts en révision générale pour votre prochain arrêt planifié ? Notre équipe, ancienne des OEM, couvre Triveni, Siemens, BHEL, Belliss & Morcom, et plus encore." }
+    ]
+  },
+  "post_2": {
+    "id": "post_2",
+    "slug": "lube-oil-contamination-turbine-bearings",
+    "title": "Comment la contamination de l'huile de lubrification détruit les paliers de turbine — et comment l'éviter",
+    "excerpt": "L'infiltration d'eau, les particules solides et l'oxydation sont les trois principales causes de défaillance prématurée des paliers de turbine. Voici comment identifier chaque type de contamination et quels produits de filtration utiliser pour éviter les dommages.",
+    "date": "2026-02-28",
+    "author": "Keshav Enterprises Engineering Team",
+    "readTime": "6 min de lecture",
+    "tags": [
+      "Huile de lubrification",
+      "Paliers",
+      "Filtration",
+      "Maintenance préventive"
+    ],
+    "coverImage": "blog-lube-oil.webp",
+    "content": [
+      { "type": "h2", "text": "Le tueur de paliers invisible" },
+      { "type": "p", "text": "Les paliers en régule des turbines sont des composants de précision fonctionnant sur un film d'huile hydrodynamique de quelques microns d'épaisseur seulement. Toute contamination du système d'huile de lubrification — particules solides, eau, ou huile dégradée — détruit ce film, provoquant un contact métal-métal direct et une usure accélérée. Les études montrent que plus de 70 % des défaillances de paliers de turbine sont liées à la lubrification." },
+      { "type": "h2", "text": "Type de contamination 1 : particules solides" },
+      { "type": "p", "text": "Les particules supérieures à 10 microns peuvent rayer les surfaces des paliers. Les particules dans la plage de 1 à 10 microns sont les plus dommageables — elles pénètrent dans le jeu du film d'huile et provoquent une abrasion à trois corps. Les sources comprennent les débris post-construction, les particules d'usure des engrenages, et les saletés entrant par les reniflards du réservoir." },
+      { "type": "p", "text": "Solution : installez des éléments filtrants d'huile de lubrification à haute efficacité (ISO 16889, ratio bêta ≥200 à 10 microns) dans le boîtier de filtre principal. Utilisez des éléments filtrants de reniflard de réservoir (fibre de verre 3 VL) pour empêcher l'ingestion de particules en suspension dans l'air. Propreté cible du système : classe ISO 4406:99 16/14/11 ou mieux pour les paliers de turbine." },
+      { "type": "h2", "text": "Type de contamination 2 : infiltration d'eau" },
+      { "type": "p", "text": "L'eau dans l'huile de lubrification provoque une fragilisation par hydrogène du régule, favorise l'oxydation, et soutient la croissance bactérienne. Même 200 ppm d'eau libre réduit significativement la résistance du film d'huile. Les sources comprennent les fuites de presse-étoupe vapeur, la condensation dans le réservoir, et les défaillances de tubes de refroidisseur." },
+      { "type": "p", "text": "Solution : installez des éléments filtrants hors ligne WaterSorp sur la ligne de retour dérivée. Ces éléments à double fonction éliminent simultanément les particules solides et absorbent l'eau libre et émulsionnée. Un échantillonnage régulier de l'huile (mensuel) selon les normes ISO détectera l'eau précocement." },
+      { "type": "h2", "text": "Type de contamination 3 : oxydation et dégradation de l'huile" },
+      { "type": "p", "text": "Les températures de fonctionnement élevées et la présence de catalyseurs métalliques provoquent l'oxydation de l'huile de turbine, formant des dépôts de vernis et des sous-produits acides. Ces dépôts colmatent les éléments filtrants, adhèrent aux surfaces des paliers, et accélèrent l'usure." },
+      { "type": "p", "text": "Solution : surveillez l'indice d'acide (AN) et les tendances de viscosité. La filtration hors ligne WaterSorp prolonge la durée de vie de l'huile en éliminant l'eau et les particules qui catalysent l'oxydation. Planifiez les vidanges d'huile avant que l'indice d'acide ne dépasse les limites OEM." },
+      { "type": "list", "items": [
+        "Vérifiez la pression différentielle du filtre chaque semaine — remplacez l'élément à un ΔP de 3,5 à 4 bar",
+        "Inspectez le filtre du reniflard de réservoir mensuellement",
+        "Effectuez un échantillonnage d'huile tous les 30 jours et suivez les tendances des résultats",
+        "Installez des éléments WaterSorp si une contamination par l'eau est détectée",
+        "Rincez le système avec un filtre à centrifugeuse mobile après toute réparation majeure"
+      ] },
+      { "type": "cta", "text": "Nous fournissons des éléments filtrants d'huile de lubrification conformes à la norme ISO 16889, compatibles avec Triveni, Siemens, BHEL, et toutes les principales marques de turbines. Demandez un devis via WhatsApp." }
+    ]
+  },
+  "post_3": {
+    "id": "post_3",
+    "slug": "reverse-engineering-turbine-spares-india",
+    "title": "Ingénierie inverse des pièces de turbine : comment nous recréons des composants obsolètes en Inde",
+    "excerpt": "Lorsque les pièces détachées OEM sont indisponibles, ont des délais de 18 mois, ou sont proposées à des prix prohibitifs, l'ingénierie inverse offre une alternative fiable. Voici le processus étape par étape que nous utilisons chez Keshav Enterprises.",
+    "date": "2026-01-20",
+    "author": "Keshav Enterprises Engineering Team",
+    "readTime": "7 min de lecture",
+    "tags": [
+      "Ingénierie inverse",
+      "Pièces de turbine",
+      "Fabrication",
+      "Numérisation 3D"
+    ],
+    "coverImage": "blog-reverse-engineering.webp",
+    "content": [
+      { "type": "h2", "text": "Pourquoi faire de l'ingénierie inverse sur les pièces de turbine ?" },
+      { "type": "p", "text": "De nombreuses usines industrielles indiennes exploitent des turbines âgées de 20 à 40 ans. Les équipementiers d'origine ont abandonné certains modèles, fusionné avec d'autres entreprises, ou simplement cessé de stocker des pièces pour les machines plus anciennes. Les délais des OEM étrangers pour les composants usinés dépassent régulièrement 12 à 18 mois — inacceptable lorsqu'une sucrerie a une saison de broyage fixe ou qu'une centrale électrique a une pénalité contractuelle pour chaque jour d'arrêt." },
+      { "type": "h2", "text": "Étape 1 : Acquisition du composant et évaluation initiale" },
+      { "type": "p", "text": "Nous commençons par le composant usé ou cassé lui-même — ou la pièce d'accouplement si l'original ne peut plus être mesuré. Le composant est nettoyé et évalué visuellement pour déterminer quelles surfaces sont encore mesurables et lesquelles ont été dégradées par l'usure ou les dommages." },
+      { "type": "h2", "text": "Étape 2 : Numérisation laser 3D et mesure MMT" },
+      { "type": "p", "text": "Pour les profils complexes — aubes de rotor, blocs de tuyères, diaphragmes, composants de régulateur — nous utilisons un scanner laser 3D pour capturer la géométrie complète sous forme de nuage de points. Pour les pièces rotationnellement symétriques plus simples — carters de palier de tourillon, gorges de bague labyrinthe, bagues d'étanchéité — une machine à mesurer tridimensionnelle (MMT) capture les dimensions critiques avec une précision au micron près." },
+      { "type": "list", "items": [
+        "Toutes les dimensions critiques enregistrées avec les tolérances",
+        "Concentricité et parallélisme des faces d'accouplement vérifiés",
+        "Formes de filetage, profondeurs de clavette, et ajustements avec interférence mesurés",
+        "Spécifications d'état de surface notées lorsque mesurables"
+      ] },
+      { "type": "h2", "text": "Étape 3 : Analyse des matériaux par PMI" },
+      { "type": "p", "text": "L'identification positive des matériaux (PMI) par fluorescence X portable (XRF) ou spectrométrie d'émission optique identifie la composition exacte de l'alliage du composant d'origine. Ceci est essentiel — un arbre de rotor en acier à 12 % de Cr se comporte très différemment d'un arbre en 1 % Cr-Mo. Se tromper de matériau signifie que la pièce reconstruite par ingénierie inverse échouera prématurément." },
+      { "type": "h2", "text": "Étape 4 : Génération des plans d'ingénierie" },
+      { "type": "p", "text": "À partir des données de numérisation, des mesures MMT, et des résultats des essais de matériaux, nos ingénieurs génèrent un plan de fabrication complet. Cela comprend toutes les dimensions avec tolérances, les spécifications d'état de surface, les procédures de traitement thermique avant et après usinage, la spécification des matériaux, et les exigences d'inspection." },
+      { "type": "h2", "text": "Étape 5 : Usinage et contrôle qualité" },
+      { "type": "p", "text": "L'usinage est réalisé en trois étapes : ébauche jusqu'à des dimensions proches des dimensions finales, traitement thermique si nécessaire (détente des contraintes, trempe et revenu, nitruration), et usinage de précision final. Chaque étape est inspectée par rapport au plan d'ingénierie. Les rotors sont équilibrés dynamiquement selon les normes ISO 1940 / API 670 avant expédition." },
+      { "type": "h2", "text": "Les turbines que nous couvrons" },
+      { "type": "p", "text": "Nous avons reconstruit par ingénierie inverse des composants pour des turbines à vapeur de 5 kW à 60 MW, toutes marques principales confondues : Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, Chola Turbo, DLF-Skoda, KKK, et ABB. Turbines à contre-pression et à condensation, horizontales et verticales, mono et multi-étages." },
+      { "type": "cta", "text": "Vous avez une pièce obsolète à reconstruire par ingénierie inverse ? Envoyez-nous une photo et les détails de votre turbine sur WhatsApp — nous évaluerons la faisabilité sous 24 heures." }
+    ]
+  },
+  "post_4": {
+    "id": "post_4",
+    "slug": "belliss-morcom-turbine-common-faults-india",
+    "title": "Pannes courantes des turbines Belliss & Morcom — Guide de terrain pour les usines indiennes",
+    "excerpt": "Les turbines à vapeur Belliss & Morcom sont largement utilisées dans les sucreries et centrales de cogénération indiennes. Voici les pannes les plus courantes rencontrées par nos ingénieurs, anciens de l'OEM, et comment les diagnostiquer et les réparer.",
+    "date": "2026-03-18",
+    "author": "Keshav Enterprises Engineering Team",
+    "readTime": "8 min de lecture",
+    "tags": [
+      "Belliss & Morcom",
+      "Dépannage",
+      "Turbine à vapeur",
+      "Sucrerie"
+    ],
+    "coverImage": "blog-belliss-morcom.webp",
+    "content": [
+      { "type": "p", "text": "Les turbines Belliss & Morcom (aujourd'hui Howden) équipent des centaines de sucreries, centrales de cogénération et installations industrielles indiennes. Nos ingénieurs travaillent sur des unités Belliss depuis plus de 20 ans en Uttar Pradesh, au Pendjab, au Maharashtra, et au Karnataka. Voici les pannes que nous rencontrons le plus fréquemment — et la bonne méthode pour diagnostiquer et résoudre chacune." },
+      { "type": "h2", "text": "Panne 1 : Vibration élevée à la vitesse de fonctionnement" },
+      { "type": "p", "text": "La plainte la plus courante sur les turbines Belliss est une vibration élevée, généralement détectée par les opérateurs sous forme d'augmentation du bruit et confirmée par une analyse vibratoire portable. Les principales causes profondes, par ordre de fréquence, sont : (1) un déséquilibre du rotor dû à l'accumulation de dépôts sur les aubes, (2) l'usure des paliers de tourillon — en particulier après de longues périodes entre révisions, et (3) un défaut d'alignement entre la turbine et le réducteur dû à une contrainte de tuyauterie ou un tassement des fondations." },
+      { "type": "list", "items": [
+        "Vérifiez d'abord les températures de palier — une température élevée associée à une vibration élevée indique presque toujours un problème d'état du palier",
+        "Prenez une lecture vibratoire portable sur les quatre carters de palier et comparez à la référence (vitesse de rotation ×1 et ×2)",
+        "Si ×1 est dominant : déséquilibre ou défaut d'alignement. Si ×2 est dominant : jeu excessif du palier ou défaut d'alignement. Sous-synchrone : tourbillon d'huile",
+        "Inspectez l'accouplement pour vérifier l'usure et le bon montage avant de conclure qu'un défaut d'alignement est un problème de turbine"
+      ] },
+      { "type": "h2", "text": "Panne 2 : Pompage du régulateur / instabilité de vitesse" },
+      { "type": "p", "text": "Les turbines Belliss utilisent un régulateur centrifuge à boules ou un régulateur hydraulique selon le modèle et l'âge. Le pompage de vitesse — dépassement cyclique au-dessus et en dessous de la consigne — est généralement causé par : des axes de pivot et des boules usés dans les régulateurs centrifuges, un réglage de statisme incorrect, une hystérésis de l'actionneur de vanne de commande, ou des fluctuations de pression vapeur de la chaudière dépassant la capacité du régulateur." },
+      { "type": "p", "text": "Avant de démonter le régulateur, confirmez que la pression d'alimentation vapeur est stable. Si la pression d'alimentation fluctue de plus de ±0,5 bar, la boucle de commande de la chaudière est le problème principal — le régulateur ne peut pas compenser de grandes variations d'alimentation. Une fois la stabilité de la chaudière confirmée, les axes de pivot du régulateur et les poids des boules doivent être inspectés pour usure et remplacés si les jeux sont excessifs." },
+      { "type": "h2", "text": "Panne 3 : Fuite au presse-étoupe vapeur" },
+      { "type": "p", "text": "Les turbines Belliss utilisent des joints d'étanchéité labyrinthes et des systèmes de vapeur de presse-étoupe pour contrôler les fuites aux extrémités d'arbre. Une fuite de vapeur visible dans la zone du presse-étoupe en fonctionnement normal indique : des lamelles labyrinthes usées ou endommagées, un réglage incorrect de la pression de vapeur du presse-étoupe, ou une excentricité de l'arbre provoquant un jeu inégal autour du labyrinthe." },
+      { "type": "list", "items": [
+        "Mesurez l'excentricité de l'arbre dans la zone du presse-étoupe à l'aide d'un comparateur à cadran — si le faux-rond dépasse 0,05 mm, l'état du rotor doit être évalué",
+        "Vérifiez la pression de vapeur du presse-étoupe par rapport aux conditions de saturation — la condensation d'eau dans la ligne d'alimentation de vapeur du presse-étoupe provoque une érosion sévère du labyrinthe",
+        "Le remplacement des lamelles labyrinthes est une intervention d'arrêt planifié — n'essayez pas de réduire les jeux en calant les lamelles in situ"
+      ] },
+      { "type": "h2", "text": "Panne 4 : Température élevée ou pression basse de l'huile de lubrification" },
+      { "type": "p", "text": "Les pannes du système d'huile de lubrification sur les turbines Belliss provoquent plus de déclenchements non planifiés que toute autre cause. Une température d'huile élevée (supérieure à 55 °C à l'entrée du palier) signifie généralement que le refroidisseur d'huile de lubrification est encrassé — nettoyez la calandre et le faisceau de tubes du refroidisseur. Les déclenchements de basse pression d'huile surviennent lorsque la soupape de décharge est mal réglée, que la pression différentielle du filtre est élevée (l'élément doit être remplacé), ou que la pompe à huile est usée et perd son efficacité volumétrique." },
+      { "type": "cta", "text": "Besoin de nos ingénieurs, anciens de Belliss & Morcom, pour une révision, une analyse de vibration, ou un diagnostic de panne d'urgence ? Contactez-nous sur WhatsApp pour une réponse le jour même." }
+    ]
+  },
+  "post_5": {
+    "id": "post_5",
+    "slug": "iso-4406-lube-oil-cleanliness-guide",
+    "title": "Comment lire un rapport de propreté d'huile de lubrification ISO 4406 — Guide pour les ingénieurs de maintenance",
+    "excerpt": "Les rapports de comptage de particules ISO 4406 des laboratoires d'huile sont souvent mal compris. Ce guide explique exactement ce que signifient les chiffres, comment définir des objectifs de propreté pour les systèmes de paliers de turbine, et quand agir.",
+    "date": "2026-04-05",
+    "author": "Keshav Enterprises Engineering Team",
+    "readTime": "6 min de lecture",
+    "tags": [
+      "Huile de lubrification",
+      "ISO 4406",
+      "Filtration",
+      "Maintenance prédictive"
+    ],
+    "coverImage": "blog-iso-4406.webp",
+    "content": [
+      { "type": "p", "text": "Chaque mois, des milliers de rapports d'analyse d'huile arrivent dans les bureaux de maintenance des usines à travers l'Inde — et la plupart sont classés sans être compris. Les codes de propreté ISO 4406 sont le chiffre le plus exploitable de ce rapport. Les mal comprendre coûte des paliers. Les comprendre correctement prolonge la durée de vie de la turbine." },
+      { "type": "h2", "text": "Que signifie un code ISO 4406 ?" },
+      { "type": "p", "text": "Un code de propreté ISO 4406:99 comporte trois chiffres, par exemple 18/16/13. Chaque chiffre est un « code de plage » représentant un comptage de particules par millilitre d'huile à trois tailles de particules différentes : 4 µm(c), 6 µm(c), et 14 µm(c). Le suffixe « (c) » signifie que le comptage utilise l'étalonnage du compteur optique de particules selon ISO 11171 — ne le comparez pas avec d'anciens rapports utilisant la méthode non étalonnée." },
+      { "type": "list", "items": [
+        "Code de plage 14 = 80 à 160 particules/mL",
+        "Code de plage 16 = 320 à 640 particules/mL",
+        "Code de plage 18 = 1 280 à 2 560 particules/mL",
+        "Code de plage 20 = 5 120 à 10 240 particules/mL",
+        "Chaque palier supérieur = doublement du niveau de contamination"
+      ] },
+      { "type": "h2", "text": "Quel objectif de propreté vous faut-il ?" },
+      { "type": "p", "text": "Pour les systèmes de palier de tourillon et d'huile de lubrification de turbine à vapeur, l'objectif est généralement une classe ISO 4406:99 de 16/14/11 — c'est l'exigence minimale de la norme API 614. De nombreux OEM, dont Triveni et Siemens, spécifient 15/13/10 pour les turbines dotées de systèmes de commande hydraulique. Après une révision majeure ou un rinçage d'huile de lubrification, le système doit atteindre 16/14/11 avant l'introduction de l'huile pour éviter des dommages de contamination des paliers pendant la montée en régime." },
+      { "type": "h2", "text": "Quand devez-vous agir ?" },
+      { "type": "p", "text": "Si votre rapport d'analyse d'huile de routine indique un code de plage 6 µm(c) (le chiffre du milieu) à 17 ou plus — un palier au-dessus de l'objectif — enquêtez immédiatement. Vérifiez la pression différentielle du filtre (remplacez si elle approche 3,5 à 4 bar), inspectez l'état du reniflard du réservoir, et échantillonnez séparément l'entrée et la sortie du boîtier de filtre pour localiser où la contamination pénètre. Si le rapport de teneur en eau indique plus de 0,1 % d'eau — remplacez les éléments filtrants et planifiez une opération de filtration hors ligne WaterSorp." },
+      { "type": "h2", "text": "Le coût d'ignorer un code qui se détériore" },
+      { "type": "p", "text": "Les particules de la plage 4 à 10 µm sont les plus dommageables — elles ont exactement la bonne taille pour pénétrer dans le film d'huile hydrodynamique entre un tourillon rotatif et une surface de palier en régule, et provoquent une abrasion à trois corps. Une turbine fonctionnant avec un code de propreté ISO 20/18/15 au lieu de 16/14/11 contient environ 100 fois plus de particules dommageables que l'objectif. Les surfaces de palier se dégradent progressivement et la défaillance est graduelle jusqu'à ce qu'elle ne le soit plus — elle devient alors une urgence de 48 heures et une refonte de régule." },
+      { "type": "cta", "text": "Nous fournissons des éléments filtrants conformes à ISO 16889 pour toutes les principales marques de turbines, et pouvons vous conseiller sur le rinçage d'huile de lubrification pour atteindre la bonne classe de propreté avant votre prochain démarrage. Contactez-nous sur WhatsApp." }
+    ]
+  },
+  "post_6": {
+    "id": "post_6",
+    "slug": "hvac-air-filter-selection-guide-industrial",
+    "title": "Guide de sélection des filtres à air CVC pour installations industrielles — de F5 à F9 et tout ce qu'il y a entre les deux",
+    "excerpt": "Filtres à poches, panneaux plissés, préfiltres à mailles métalliques, charbon actif — choisir la mauvaise classe coûte de l'argent et risque d'endommager les équipements. Ce guide explique quel filtre CVC utiliser, où, et pourquoi.",
+    "date": "2026-04-20",
+    "author": "Keshav Enterprises Engineering Team",
+    "readTime": "7 min de lecture",
+    "tags": [
+      "CVC",
+      "Filtration de l'air",
+      "Filtres CTA",
+      "Maintenance"
+    ],
+    "coverImage": "blog-hvac-filter-selection.webp",
+    "content": [
+      { "type": "p", "text": "Entrez dans n'importe quelle usine industrielle en Inde — une sucrerie, une usine pharmaceutique, une salle de commande de cimenterie — et vous trouverez des centrales de traitement d'air (CTA) préservant silencieusement la vie des personnes et des équipements sensibles. Avancez un peu plus et vous trouverez souvent ces CTA fonctionnant avec la mauvaise classe de filtre, un sac colmaté remplacé pour la dernière fois il y a deux ans, ou aucun préfiltre du tout. Les résultats sont prévisibles : armoires DCS pleines de poussière, batteries de refroidissement recouvertes de feutre gris, et factures d'électricité 15 à 20 % plus élevées que nécessaire." },
+      { "type": "h2", "text": "Comprendre les classes d'efficacité — EN 779 et ISO 16890" },
+      { "type": "p", "text": "Deux normes régissent l'efficacité des filtres CVC. L'ancienne EN 779 utilise des classes de G1 à F9 — les classes G (grossières) captent les grosses particules, les classes M (moyennes) et F (fines) captent des particules progressivement plus petites. La nouvelle norme ISO 16890 utilise des classifications basées sur la taille des particules : ePM10, ePM2,5, et ePM1, avec une efficacité de captation en pourcentage. Si votre fournisseur de filtres ne cite qu'une classe EN 779, demandez l'efficacité ePM1 selon ISO 16890 — c'est le chiffre le plus pertinent pour la qualité de l'air." },
+      { "type": "list", "items": [
+        "G1–G4 (ISO grossier) : capte les peluches, fibres, insectes, grosses poussières — utilisé comme préfiltres et dans les panneaux lavables à mailles métalliques",
+        "M5–M6 (ISO ePM10 ≥50 %) : pollen, poussière grossière, sable — adapté à la ventilation industrielle non critique",
+        "F7 (ISO ePM1 ≥50 %) : norme CVC générale — le minimum pour les bureaux occupés, les salles de commande, et les CTA alimentant des équipements sensibles",
+        "F8 (ISO ePM1 ≥70 %) : alimentation des services hospitaliers, zones de préparation pharmaceutique de grade D",
+        "F9 (ISO ePM1 ≥85 %) : préfiltre en amont de HEPA pour salles blanches et zones pharmaceutiques critiques"
+      ] },
+      { "type": "h2", "text": "Étape 1 — Commencez par un préfiltre à mailles métalliques (G1–G3)" },
+      { "type": "p", "text": "Chaque CTA dans un environnement industriel lourd — cimenterie, centrale électrique, aciérie — devrait avoir un préfiltre à mailles d'aluminium ou d'inox lavable au premier étage. Coût : quelques centaines de roupies. Avantage : le sac ou le filtre plissé en aval dure 2 à 3 fois plus longtemps car il n'a jamais à gérer la charge grossière. Les mailles d'aluminium supportent des températures jusqu'à 150 °C ; les mailles inox jusqu'à 350 °C. Nettoyez à l'air comprimé à contre-courant ou à l'eau chaude toutes les 4 à 6 semaines." },
+      { "type": "h2", "text": "Étape 2 — Choisissez votre filtre principal : poches ou panneau plissé ?" },
+      { "type": "p", "text": "Les filtres à poches et les filtres à panneaux plissés sont tous deux disponibles de G4 à F9, mais ils conviennent à des configurations de CTA différentes. Les filtres à poches (multi-poches) ont une surface média plus grande et une durée de vie plus longue dans les environnements très poussiéreux — les poches s'étendent dans le flux d'air, maximisant la surface de contact. Ils sont le choix standard pour les grandes CTA industrielles, les bâtiments commerciaux, et les hôpitaux. Les filtres à panneaux plissés sont plus compacts (25 à 96 mm de profondeur contre 600 mm de longueur de poche) et rigides, ce qui en fait le choix préféré pour les ventilo-convecteurs (FCU), les unités de climatisation split, et les CTA à flux d'air vertical où l'espace est limité." },
+      { "type": "list", "items": [
+        "Filtre à poches : charge de poussière élevée, grande CTA, F5–F9, 3 000 à 5 000+ m³/h par section",
+        "Panneau plissé (25 mm) : remplacement FCU/climatisation split, G4–F7, flux d'air vertical compact",
+        "Panneau plissé (96 mm) : CTA de taille moyenne, F7–F8, construction rigide — pas de risque d'effondrement des poches",
+        "Panneau plissé (292 mm étendu) : étage final haute efficacité en CVC pharmaceutique, F8–F9"
+      ] },
+      { "type": "h2", "text": "Étape 3 — Ajoutez du charbon actif pour le contrôle des odeurs" },
+      { "type": "p", "text": "Si votre installation a des problèmes d'odeurs — cuisines, stockage de produits chimiques, ateliers de peinture, imprimeries, ou toute zone avec émissions de COV — un filtre particulaire seul ne résoudra pas le problème. Le charbon actif granulaire (GAC) adsorbe les odeurs de cuisine, les solvants, le sulfure d'hydrogène, le formaldéhyde, et la plupart des COV industriels courants. Dans les applications CVC, le charbon actif est généralement fourni sous forme de filtre panneau avec un lit de charbon granulaire de 25 à 50 mm, ou sous forme de filtre combiné avec un préfiltre particulaire G4 lié à la couche de charbon. Le panneau de charbon se place après le filtre particulaire dans le flux d'air — le placer en premier gaspille une capacité de charbon coûteuse sur la charge de poussière." },
+      { "type": "h2", "text": "Comment dimensionner les intervalles de remplacement des filtres" },
+      { "type": "p", "text": "La meilleure pratique consiste à installer un manomètre différentiel (DP) sur chaque étage de filtration et à remplacer à une perte de charge finale de 250 Pa — pas selon un calendrier fixe. Le remplacement calendaire gaspille des filtres encore utilisables ; le fonctionnement jusqu'à défaillance provoque l'effondrement ou le contournement du filtre, contaminant la batterie de la CTA avec tout ce qu'il était censé capter. Si les manomètres DP ne sont pas pratiques, remplacez tous les 3 mois dans les environnements industriels lourds (ciment, énergie, acier), tous les 6 mois dans l'industrie légère, et annuellement dans les environnements commerciaux propres — en ajustant selon l'inspection visuelle." },
+      { "type": "cta", "text": "Nous fournissons des filtres à poches CVC, des filtres à panneaux plissés, des préfiltres à mailles métalliques, et des filtres à évent de charbon actif pour les CTA industrielles et commerciales à travers l'Inde. Contactez-nous sur WhatsApp avec la marque, le modèle, et les dimensions du cadre de votre CTA pour un devis de remplacement adapté." }
+    ]
+  },
+  "post_7": {
+    "id": "post_7",
+    "slug": "pulse-jet-dust-collector-filter-bag-selection",
+    "title": "Comment sélectionner le bon sac filtrant pour dépoussiéreur à jet pulsé — Guide des médias, finitions et anti-statique pour les usines indiennes",
+    "excerpt": "Choisir le mauvais média de sac filtrant pour votre dépoussiéreur — mauvaise résistance à la température, mauvais traitement de surface, ou absence d'anti-statique — coûte aux ingénieurs d'usine des semaines d'arrêt et des remplacements d'urgence coûteux. Voici le guide de sélection complet.",
+    "date": "2026-05-01",
+    "author": "Keshav Enterprises Engineering Team",
+    "readTime": "8 min de lecture",
+    "tags": [
+      "Dépoussiéreur",
+      "Sacs filtrants",
+      "Filtre à manches",
+      "Filtration industrielle",
+      "Ciment",
+      "CVC"
+    ],
+    "coverImage": "blog-dust-collector-filter-bag.webp",
+    "content": [
+      { "type": "p", "text": "Les dépoussiéreurs à jet pulsé sont les chevaux de bataille du contrôle des poussières industrielles à travers l'Inde — cimenteries, systèmes de manutention du charbon, minoteries, traitement de poudres pharmaceutiques, et usines chimiques en dépendent tous pour respecter les normes d'émission et protéger les travailleurs. Pourtant, la sélection des sacs filtrants de remplacement se fait encore souvent par habitude (« comme avant ») plutôt que par ingénierie. Lorsque le sac « comme avant » était inadapté à l'application, le nouveau lot échoue aussi rapidement que le précédent." },
+      { "type": "h2", "text": "Étape 1 — Connaissez la température de vos gaz de combustion" },
+      { "type": "p", "text": "La température est le paramètre de sélection le plus critique et la cause la plus fréquente de défaillance prématurée des sacs. Chaque type de média a une limite de température de service continue et une limite de température de pointe (pic). Dépasser la limite continue de seulement 10 à 15 °C réduit la durée de vie du filtre de 50 % ou plus, par hydrolyse (dans un gaz de combustion humide) ou oxydation (dans un gaz sec contenant de l'oxygène)." },
+      { "type": "list", "items": [
+        "Feutre aiguilleté en polyester : continu 130 °C, pointe 150 °C — poussière industrielle générale, applications de température ambiante à basse",
+        "Feutre en polypropylène : continu 90 °C, pointe 110 °C — environnements de gaz acides, usines chimiques (meilleure résistance aux acides que le polyester, température inférieure)",
+        "Aramide / Nomex : continu 200 °C, pointe 220 °C — échappement de four, usines d'asphalte, four verrier, sortie de séchoir",
+        "PPS (Ryton) : continu 190 °C, pointe 210 °C — combinaison acide + chaleur (gaz de combustion soufré issu de la combustion du charbon)",
+        "Fibre de verre tissée : continu 260 °C, pointe 280 °C — farine crue de four à ciment, incinération de déchets, gaz de procédé à haute température",
+        "Membrane PTFE sur toute base : même résistance thermique que le média de base + gâteau de poussière résiduel quasi nul — efficacité de nettoyage la plus élevée"
+      ] },
+      { "type": "h2", "text": "Étape 2 — Sac lisse ou cartouche plissée ?" },
+      { "type": "p", "text": "Les dépoussiéreurs à jet pulsé standard utilisent des sacs filtrants cylindriques — surface extérieure lisse — soutenus par une cage métallique. C'est le bon choix pour les applications à forte charge de poussière : ciment, cendres volantes, charbon, traitement des minéraux. La surface extérieure lisse permet au choc d'air comprimé du jet pulsé d'éjecter efficacement le gâteau de poussière. Les éléments de cartouche plissée — média plissé en accordéon autour d'un noyau perforé — offrent jusqu'à 5 fois la surface de filtration dans la même emprise de boîtier, mais conviennent mieux aux charges de poussière plus légères dans les applications pharmaceutiques, alimentaires, et chimiques légères où la surface média plus importante permet une vitesse frontale plus basse et une perte de charge résiduelle très faible." },
+      { "type": "h2", "text": "Étape 3 — Traitement de surface : uni, brûlé, glacé, ou membrane PTFE ?" },
+      { "type": "p", "text": "Le traitement de surface extérieur d'un sac en feutre aiguilleté détermine la qualité de décollement du gâteau de poussière lors du nettoyage par jet pulsé et la durée pendant laquelle le sac résiste au colmatage (obstruction permanente). Le feutre uni a une surface fibreuse rugueuse — adéquate pour une poussière grossière, sèche, non collante. Le feutre brûlé a les fibres de surface retirées thermiquement, produisant une surface plus lisse — meilleur décollement du gâteau pour la plupart des poussières industrielles. Le feutre calandré (glacé) est pressé à chaud pour lisser et densifier davantage la surface — le meilleur choix pour les poussières fines, cohésives, ou légèrement collantes comme les poudres pharmaceutiques ou le ciment fin. La membrane PTFE laminée sur la surface extérieure — l'option premium — offre une filtration de surface. La poussière forme un gâteau fin sur le PTFE lisse et se décolle complètement à chaque pulsation, maintenant une perte de charge proche de l'état initial tout au long de la vie du sac. La performance d'émission est également supérieure, atteignant souvent des concentrations de poussière en sortie de 2 à 5 mg/Nm³ contre 20 à 50 mg/Nm³ pour le feutre uni." },
+      { "type": "h2", "text": "Étape 4 — Sacs anti-statiques et conducteurs pour poussières explosives" },
+      { "type": "p", "text": "Pour les applications de dépoussiéreurs traitant des poussières électriquement résistives pouvant accumuler une charge statique — charbon, céréales, farine, poudres pharmaceutiques, poudre polymère — les sacs en polyester standard représentent un risque d'incendie et d'explosion. Le gâteau de poussière sur un sac polyester uni peut développer une décharge statique (étincelle) suffisamment énergétique pour enflammer un nuage de poussière dans le plénum de sortie. Les sacs anti-statiques utilisent l'une des deux approches suivantes : (1) fibre de carbone mélangée au média polyester — les fibres conductrices dissipent la charge en continu ; (2) fibre d'acier inoxydable tissée dans le feutre aiguilleté à 1–3 % en poids — offre à la fois dissipation statique et résistance améliorée. Spécifiez toujours des sacs anti-statiques (conducteurs) pour la poussière de charbon, de céréales, de farine, et toute poudre ayant une valeur Kst supérieure à zéro." },
+      { "type": "h2", "text": "Faire correspondre les dimensions du sac à votre cage" },
+      { "type": "p", "text": "Les sacs filtrants de remplacement doivent correspondre exactement au diamètre et à la longueur de la cage existante — même un écart de diamètre de 5 mm empêche une étanchéité correcte au niveau de la bague à ressort supérieure. Avant de commander, mesurez : le diamètre extérieur de l'ouverture du sac (DE de la bande à ressort), la longueur du sac de la face de la bague à ressort jusqu'au fond fermé, et le type d'embout (bague à ressort, bande à ressort, ou bride). Si l'étiquette du sac OEM d'origine est encore lisible, notez le numéro de pièce — il identifie la géométrie exacte de la cage. Si les étiquettes ont disparu, retirez une cage du boîtier, mesurez-la, et fournissez ces dimensions avec votre commande." },
+      { "type": "cta", "text": "Nous fournissons des sacs filtrants à jet pulsé en polyester, aramide, PPS, fibre de verre, et membrane PTFE, ainsi que des éléments de cartouche plissée, pour les dépoussiéreurs des cimenteries, des centrales électriques, de l'industrie pharmaceutique, et de la manutention de céréales à travers l'Inde. Envoyez-nous les dimensions de vos sacs et les détails de votre application sur WhatsApp pour un devis le jour même." }
+    ]
+  }
+}

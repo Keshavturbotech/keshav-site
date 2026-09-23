@@ -1,0 +1,14 @@
+{
+  "dimensions": {
+    "label": "Abmessungen"
+  },
+  "performance": {
+    "label": "Leistung"
+  },
+  "materials": {
+    "label": "Werkstoffe"
+  },
+  "standards": {
+    "label": "Normen"
+  }
+}

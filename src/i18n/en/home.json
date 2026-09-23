@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "title": "Keshav Enterprises — Steam Turbine Overhauling & Spares, Shamli UP India",
+    "description": "Ex-OEM steam turbine engineers from Triveni, Siemens, BHEL. Overhauling, reverse engineering, dynamic balancing, lube oil flushing & OEM-compatible spares for 5 kW–60 MW turbines. Based in Shamli, UP — serving pan-India and clients worldwide. 24×7 emergency support.",
+    "keywords": "turbine maintenance India, steam turbine overhauling, turbine reverse engineering, industrial turbine spares, lube oil filter elements, expansion joints India, Triveni turbine service, BHEL turbine spares, turbine erection Uttar Pradesh, Shamli engineering"
+  },
+  "hero": {
+    "badgeMakeInIndia": "Make In India",
+    "badgeVocalForLocal": "Vocal For Local",
+    "badgeIndiaMartLabel": "IndiaMART Verified",
+    "badgeIndiaMartRatingSuffix": "RATING",
+    "h1Line1": "Precision Engineering for",
+    "h1Line2": "Maximum Uptime.",
+    "capabilityLine": "Steam turbines from 5 kW to 60 MW — back-pressure and condensing, horizontal and vertical, single and multi-stage. Serving pan-India and clients worldwide.",
+    "introText": "Ex-OEM engineers for Triveni, Siemens, BHEL & 7 more brands. We get your turbine back online faster than OEM sourcing, with full PMI certificates, ISO balancing reports, and a zero-penalty track record since {businessSince}.",
+    "ctaPrimary": "Send Us Your Requirements",
+    "ctaEmergency": "Emergency Breakdown",
+    "trustYearsOverhauls": "{years}+ years · 500+ overhauls",
+    "trustPmi": "PMI-certified spares",
+    "trustResponse": "Avg response: 2 hrs",
+    "proofCards": [
+      {
+        "label": "No Learning Curve",
+        "title": "Ex-OEM Engineers",
+        "sub": "Our team has worked inside Triveni, Siemens, BHEL & Belliss, and that same expertise now serves your plant."
+      },
+      {
+        "label": "Every Job Documented",
+        "title": "Report on Delivery",
+        "sub": "PMI certs, balancing reports, alignment records, condition reports, all handed over at job completion."
+      },
+      {
+        "label": "When Minutes Matter",
+        "title": "24×7 Emergency",
+        "sub": "Engineers at multiple locations across India. Call us at 2 AM. Someone answers."
+      }
+    ]
+  },
+  "oemMarquee": {
+    "heading": "OEM-Compatible & Trusted By Industry Leaders"
+  },
+  "stats": {
+    "overhauls": {
+      "label": "Overhauls Completed",
+      "sub": "Sugar, power, paper & cement plants across India"
+    },
+    "years": {
+      "label": "Engineering Experience",
+      "sub": "Hands-on steam turbine experience since {founded}"
+    },
+    "penaltyClaims": {
+      "label": "Penalty Claims",
+      "sub": "Zero in {businessYears} years of operation. Client references available on request"
+    },
+    "emergency": {
+      "label": "Emergency Response",
+      "sub": "Engineers at multiple locations, avg. dispatch under 4 hrs"
+    }
+  },
+  "featuredProducts": {
+    "heading": "Featured Engineering Products",
+    "scrollLeftLabel": "Scroll left",
+    "scrollRightLabel": "Scroll right",
+    "dragToExplore": "drag to explore",
+    "viewCompleteCatalog": "View Complete Catalog",
+    "viewDetails": "View Details",
+    "swipeToBrowse": "Swipe to browse"
+  },
+  "servicesPreview": {
+    "eyebrow": "End-to-End Turbine Lifecycle",
+    "heading": "Technical Services",
+    "subheading": "The same ex-OEM engineers handle your overhaul, your spares, and your 2 AM emergency, with no sub-contracting and no handoffs.",
+    "painLines": {
+      "srv_2": "Tired of vendors who show up under-equipped and deliver no job report?",
+      "srv_3": "OEM quoted months for a spare that's no longer in production?",
+      "srv_4": "Recurring vibration after alignment and bearing replacement, because the root cause hasn't been fixed?"
+    },
+    "viewFullDetails": "View Full Details",
+    "viewAllServices": "View All 8 Services"
+  },
+  "testimonials": {
+    "eyebrow": "Client Feedback",
+    "heading": "Trusted by Plant Managers Across India",
+    "googleRatingLabel": "+ verified reviews on Google",
+    "disclaimer": "Quotes are drawn from completed project records and abbreviated to initials pending written consent for full attribution. For independently verified ratings, see our Google reviews above.",
+    "footerCtaPrefix": "Worked with us?",
+    "footerCtaLink": "Leave a Google review — it helps other plant managers find us →",
+    "googleReviewBadge": "Google Review",
+    "items": [
+      {
+        "quote": "Their ex-Triveni engineers handled our 12 MW Triveni turbine overhaul during the annual shutdown — all clearances documented, rotor balanced to ISO G1.0, and back online ahead of schedule. First time in six years we had zero issues at first start-up.",
+        "name": "R. Kumar",
+        "role": "Plant Manager",
+        "company": "Sugar & Co-Gen Plant",
+        "location": "Uttar Pradesh",
+        "service": "Turbine Overhauling",
+        "detail": "12 MW Triveni · Planned Shutdown"
+      },
+      {
+        "quote": "We had a critical babbitt bearing failure on our Belliss & Morcom turbine at 2 AM during peak crushing season. Keshav Enterprises had an engineer at site by morning with the replacement bearing ready. Downtime was under 14 hours — that saved us crores in cane losses.",
+        "name": "A. Singh",
+        "role": "Maintenance Head",
+        "company": "Sugar Mill",
+        "location": "Haryana",
+        "service": "Emergency Breakdown Response",
+        "detail": "Belliss & Morcom · Bearing Failure"
+      },
+      {
+        "quote": "OEM spares for our 28-year-old Belliss & Morcom turbine had 18-month lead times. Keshav reverse-engineered the rotor shaft and labyrinth rings in 6 weeks with full PMI certificates. Quality was indistinguishable from OEM.",
+        "name": "V. Sharma",
+        "role": "Chief Engineer",
+        "company": "Paper Mill & Power Plant",
+        "location": "Punjab",
+        "service": "Reverse Engineering",
+        "detail": "Belliss & Morcom · Obsolete Spares"
+      },
+      {
+        "quote": "After Keshav dynamically balanced our 3 MW BHEL turbine rotor, residual vibration dropped from 9.2 mm/s to 0.8 mm/s — well inside ISO G1.0. The rotor had been causing bearing wear every 8 months. We are now at 26 months with no bearing change. The balancing report satisfied our insurance auditors.",
+        "name": "P. Reddy",
+        "role": "Instrumentation & Maintenance Engineer",
+        "company": "Captive Power Plant",
+        "location": "Telangana",
+        "service": "Dynamic Balancing",
+        "detail": "3 MW BHEL · ISO G1.0 Compliance"
+      }
+    ]
+  },
+  "capabilities": {
+    "heading": "Manufacturing & Technical Capabilities",
+    "items": [
+      { "iconName": "Zap", "text": "Faster lead times than OEM sourcing, covering Triveni, Siemens, BHEL" },
+      { "iconName": "Layers", "text": "Material upgrades: Duplex, Incoloy, Inconel, Titanium, Hastelloy" },
+      { "iconName": "Activity", "text": "ISO/API dynamic balancing 50–2,000 kg capacity" },
+      { "iconName": "Wind", "text": "Custom expansion bellows DN 15–12,000, up to 150 barg" },
+      { "iconName": "Droplets", "text": "Filter elements per ISO 16889, API 614, ASME & EN standards" },
+      { "iconName": "Cpu", "text": "Lube oil systems per ISO 4406:99 cleanliness classification" }
+    ]
+  },
+  "projectsTeaser": {
+    "eyebrow": "Documented Field Results",
+    "heading": "Projects & Case Studies",
+    "viewAllProjects": "View All Projects",
+    "readCaseStudy": "Read Case Study",
+    "seeAllProjectsPrefix": "See all",
+    "seeAllProjectsSuffix": "projects"
+  },
+  "resourceBar": {
+    "blogText": "Technical articles from our engineering team",
+    "downloadsText": "Free overhaul checklists, RFQ templates & datasheets"
+  },
+  "finalCta": {
+    "heading": "Get a Technical Quote. Every Hour Offline Has a Cost.",
+    "subheading": "Our engineers respond with a technical answer within 24 hours for planned work, and within the hour for breakdowns, because your plant's availability is your bottom line.",
+    "plannedTitle": "Planned Overhaul or RFQ",
+    "plannedDesc": "Scheduled maintenance, spare procurement, expansion joint supply, or filter element orders. Share your requirements and get a detailed technical quote.",
+    "plannedSendBtn": "Send Us Your Requirements",
+    "plannedEmailBtn": "Email Our Engineering Team",
+    "emergencyTitle": "Emergency Breakdown: Right Now",
+    "emergencyDesc": "Turbine tripped? High vibration? Unexpected shutdown? Our engineers are reachable 24×7, no matter what time zone you're calling from. Call or WhatsApp immediately, since every hour offline has a cost.",
+    "emergencyCallPrefix": "Call Now —",
+    "emergencyWhatsappBtn": "WhatsApp Emergency",
+    "riskReversal": [
+      "No obligation: we send a technical answer, you decide what's next",
+      "Confidential RFQ: your plant details never reach OEM reps",
+      "Engineer responds, not a call centre",
+      "24-hour planned · 1-hour emergency response"
+    ]
+  },
+  "whatsappEmergencyMessage": "Hi KESHAV ENTERPRISES, we have an emergency breakdown. Please assist immediately."
+}

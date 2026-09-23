@@ -1,0 +1,35 @@
+{
+  "all": {
+    "label": "Tümü"
+  },
+  "industrial-filtration": {
+    "label": "Endüstriyel Filtrasyon"
+  },
+  "industrial-strainers": {
+    "label": "Endüstriyel Süzgeçler"
+  },
+  "expansion-joints": {
+    "label": "Genleşme Contaları"
+  },
+  "turbine-spares": {
+    "label": "Türbin Yedek Parçaları"
+  },
+  "industrial-rubber-products": {
+    "label": "Endüstriyel Kauçuk Ürünler"
+  },
+  "flexible-hoses-and-assemblies": {
+    "label": "Esnek Hortumlar & Bağlantı Grupları"
+  },
+  "electronic-equipments": {
+    "label": "Elektronik Ekipmanlar"
+  },
+  "hydraulic-components": {
+    "label": "Hidrolik Bileşenler"
+  },
+  "hvac-ducting-and-air-filtration": {
+    "label": "HVAC, Kanal Sistemleri & Hava Filtrasyonu"
+  },
+  "valves-gaskets-and-steam-system-products": {
+    "label": "Valfler, Contalar ve Buhar Sistemi Ürünleri"
+  }
+}

@@ -1,0 +1,658 @@
+{
+  "ind_1": {
+    "heroSub": "5 MW ile 60 MW arası buhar türbinleri — termik, kojenerasyon ve kendi tüketimi için enerji",
+    "overview": "Hindistan'ın termik ve kendi tüketimi için enerji sektörü, sürekli yük altında çalışan buhar türbinlerinin kesintisiz performansına bağlıdır. Keshav Enterprises, şirketi kurmadan önce türbin üreticileri tarafından eğitilen mühendislerimizle derin OEM dönemi uzmanlığına sahiptir — bu da bize bir enerji santrali buhar türbininin her ana alt sistemini OEM toleranslarına göre tersine mühendislikle üretme, imal etme ve revize etme yeteneği sağlar.",
+    "challenges": [
+      {
+        "title": "Sürekli Yüksek Yük Çalışması",
+        "desc": "Enerji santrallerindeki buhar türbinleri, sürekli tam yük koşulları altında 3000–3600 RPM'de çalışarak yataklar, contalar ve döner gruplar üzerinde aşırı stres yaratır."
+      },
+      {
+        "title": "Yağlama Yağı Kontaminasyonu",
+        "desc": "Yağlama yağı sistemine partikül ve su girişi yatak yüzeylerini hızla bozabilir. ISO 4406:99 temizlik hedefleri sürekli olarak korunmalıdır."
+      },
+      {
+        "title": "Buhar Hatlarında Termal Genleşme",
+        "desc": "Yüksek sıcaklıktaki buhar boruları önemli termal çevrimlere maruz kalır. Doğru mühendislik yapılmış genleşme contaları olmadan, boru gerilimi flanş sızıntılarına ve türbin nozul hasarına neden olur."
+      },
+      {
+        "title": "Rotor Titreşimi ve Balans Kayması",
+        "desc": "Birikinti oluşumu ve erozyon, rotorlarda kademeli balans kaymasına neden olarak titreşimi artırır ve erken yakalanmazsa yatak aşınmasını hızlandırır."
+      }
+    ],
+    "products": [
+      {
+        "name": "Yağlama Yağı Filtre Elemanları (180 GPM)",
+        "purpose": "Türbin yağlama yağı sistemlerinde ISO 4406:99 temizliğini korur, mil yatakları ve itme yataklarını aşındırıcı aşınmadan korur.",
+        "features": [
+          "Cam elyaf VG medyası, 6–25 µm inceliği",
+          "Sentetik yağlar için IS27 anti-statik spesifikasyonu",
+          "Triveni, Siemens, BHEL OEM uyumlu"
+        ]
+      },
+      {
+        "name": "Buhar Crossover Körükleri",
+        "purpose": "HP/LP türbin bölümleri ile crossover borusu arasındaki termal genleşmeyi emer, türbin nozul flanşlarına stres transferini ortadan kaldırır.",
+        "features": [
+          "Yüksek çevrimli SS körükler, EJMA standardı",
+          "550°C'ye kadar çalışma sıcaklığı",
+          "OEM boyutlarına göre özel flanşlı uçlar"
+        ]
+      },
+      {
+        "name": "Babbitt Mil ve İtme Yatakları",
+        "purpose": "Türbin rotorları için OEM profillerine hassas işlenmiş beyaz metal kaplı yataklar — yüksek hızda şaft stabilitesi için kritik.",
+        "features": [
+          "Beyaz metal (Babbitt) dökülmüş ve hassas işlenmiş",
+          "Tüm türbin markaları: Triveni, Siemens, BHEL, KKK",
+          "CMM üzerinde geçme uyumu doğrulanmış"
+        ]
+      },
+      {
+        "name": "Acil Durdurma Valfleri",
+        "purpose": "Aşırı hız veya düşük yağlama yağı basıncında türbini durduran güvenlik açısından kritik valf — OEM trip basıncı ayarlarına göre imal edilir.",
+        "features": [
+          "EN8/EN19 dövmelerinden CNC işlenmiş gövde",
+          "Yaylı trip mekanizması",
+          "Sevkiyattan önce 1,5× çalışma basıncında test edilmiştir"
+        ]
+      },
+      {
+        "name": "Titreşim İzleme Probları (Shinkawa Uyumlu)",
+        "purpose": "API 670'e göre sürekli rotor titreşim izleme için yakınlık probları, yatak arızası oluşmadan önce kestirimci bakımı mümkün kılar.",
+        "features": [
+          "Shinkawa, Bently Nevada uyumlu",
+          "Eddy-current temassız algılama",
+          "API 670'e göre uyarı ve tehlike ayar noktaları"
+        ]
+      },
+      {
+        "name": "Türbin Yağ Pompaları (Ana ve Yardımcı)",
+        "purpose": "Tüm yataklara basınçlı yağlama yağı sağlar. Ana mil tahrikli pompa çıkışı yetersiz olduğunda yardımcı pompa çalışma başlangıcı ve durdurma sırasında devreye girer.",
+        "features": [
+          "Dişli pompa tasarımı, türbin kızağına monteli",
+          "Tüm büyük OEM boyutları mevcut",
+          "Relief valf OEM basınç spesifikasyonuna ayarlanmış"
+        ]
+      },
+      {
+        "name": "Kıvrımlı Panel Hava Filtreleri (Kontrol Odası ve Türbin Salonu HVAC)",
+        "purpose": "Enerji santrali kontrol odası AHU'ları, türbin salonu havalandırma üniteleri ve elektrik switchgear odası hava soğutucuları için değişim HVAC filtreleri — soğutma havasını temiz tutar ve hassas ekipmanı kömür tozu ve uçucu kül kontaminasyonundan korur.",
+        "features": [
+          "İnce uçucu kül ve kömür tozunu yakalamak için F7 verimlilik",
+          "Sentetik medyayla galvanizli çelik çerçeve",
+          "Standart AHU boyutları stokta; talep üzerine özel",
+          "İlk kademe görevi için metalik ağ ön filtre de mevcuttur"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "İşlenen maksimum 60 MW türbin kapasitesi",
+      "26+ yıllık OEM eğitimli mühendislik deneyimi",
+      "API 614 ve ISO 4406:99 uyumlu ürünler",
+      "Kontrol odaları ve türbin salonları için HVAC filtre tedariki",
+      "7/24 acil arıza desteği"
+    ]
+  },
+  "ind_2": {
+    "heroSub": "Şeker ve içki imalathanesi kojenerasyonunda karşı basınçlı ve ekstraksiyon-kondansasyon türbinleri",
+    "overview": "Hindistan'ın şeker endüstrisi, türbin kullanılabilirliğinin doğrudan şeker kamışı işleme verimine bağlı olduğu yoğun 150–180 günlük hasat sezonları işletir. Keshav Enterprises, şeker kojenerasyonunun iş atları olan karşı basınçlı türbinler için sezonlar arası revizyonda uzmanlaşmıştır ve duruşların en maliyetli olduğu hasat sezonunda 7/24 acil yedek parça desteği sağlar.",
+    "challenges": [
+      {
+        "title": "Kısa Sezonlar Arası Revizyon Penceresi",
+        "desc": "Türbinler, bir sonraki hasat sezonu başlamadan önce tamamen revize edilmeli, parçalar değiştirilmeli ve devreye alınmalıdır — genellikle sadece 90–120 günlük bir pencere."
+      },
+      {
+        "title": "Karbon ve Gland Conta Aşınması",
+        "desc": "Karşı basınçlı türbinler buhar kaçağını önlemek için karbon gland halkaları kullanır. Bunlar sürekli aşınır ve her revizyonda doğru şekilde değiştirilmesi gerekir."
+      },
+      {
+        "title": "Melas ve Şerbet Kontaminasyonu",
+        "desc": "Proses alanları yapışkan havada partikül madde üretir. Yağlama yağı sistemlerindeki nefes alma filtreleri ve süzgeçler kontaminasyonu önlemek için bakımlı tutulmalıdır."
+      },
+      {
+        "title": "Acil Sezon Arızaları",
+        "desc": "Zirve hasat döneminde türbin trip'i anında şeker kamışı yığılmasına neden olur. Acil yedek parçalar ve hızlı yanıt, 4 saatlik ile 4 günlük duruş arasındaki farkı yaratabilir."
+      }
+    ],
+    "products": [
+      {
+        "name": "Karbon ve Grafit Gland Sızdırmazlık Halkaları",
+        "purpose": "Gland bölgelerinde türbin milinden buhar kaçağını önler. OEM mil ve gövde boyutlarına hassas işlenir.",
+        "features": [
+          "Yüksek saflıkta karbon/grafit sınıfları",
+          "Tüm türbin markaları: Triveni, Belliss & Morcom, Maxwatt",
+          "İç bünyede ±0,01 mm toleransla işlenir"
+        ]
+      },
+      {
+        "name": "Labirent Sızdırmazlık Contaları",
+        "purpose": "Türbin kademeleri arasındaki buhar kaçağını azaltan, termal verimliliği doğrudan artıran kademeler arası ve mil ucu labirent contaları.",
+        "features": [
+          "SS, pirinç veya monel malzeme seçenekleri",
+          "OEM diş profili korunur",
+          "Yeni veya onarılmış şeritler mevcut gövdelere takılır"
+        ]
+      },
+      {
+        "name": "Yağlama Yağı Filtre Elemanları (Triveni Uyumlu)",
+        "purpose": "Hasat sezonu boyunca türbin yataklarına temiz yağlama yağı beslemesi sağlar, kritik üretim dönemlerinde yatak arızalarını önler.",
+        "features": [
+          "180 GPM debi derecesi",
+          "IS27 anti-statik spesifikasyonu",
+          "Sezonlar arası değiştirme önerilir"
+        ]
+      },
+      {
+        "name": "Hava Nefes Alma Filtreleri",
+        "purpose": "Yağlama yağı rezervuarını havadaki toz ve şeker partiküllerinden korur — ortam toz yükünün aşırı olduğu şeker fabrikası ortamlarında kritiktir.",
+        "features": [
+          "İnce ağlı desikan nefes alma tasarımı",
+          "Nem ve toz girişini önler",
+          "Görsel doygunluk göstergesi"
+        ]
+      },
+      {
+        "name": "Simplex ve Duplex Sepet Süzgeçler",
+        "purpose": "Yağlama yağı ve soğutma suyu devrelerine döşenerek, döküntülerin yataklara ve ısı eşanjörlerine ulaşmadan önce yakalanmasını sağlar.",
+        "features": [
+          "SS ağ sepetler, temizlenebilir ve yeniden kullanılabilir",
+          "ANSI flanşlı veya dişli uçlar",
+          "Sıfır duruş süreli süzgeç temizliği için duplex"
+        ]
+      },
+      {
+        "name": "Rotor Balans Hizmeti",
+        "purpose": "Bıçak değişimi veya yatak değişiminden sonra türbin rotorlarının dinamik balansı, ISO 1940 G1.0 spesifikasyonu içinde sorunsuz çalışmayı geri kazandırır.",
+        "features": [
+          "ISO 1940/1 G1.0'a göre dinamik balans",
+          "Tüm rotor tiplerinde iki düzlemli balans",
+          "İş raporuyla balans sertifikası düzenlenir"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Triveni ve Belliss türbin uzmanlık hizmetleri",
+      "7/24 acil sezon desteği",
+      "Tüm karbon/grafit sınıfları iç bünyede işlenir",
+      "Sezonlar arası revizyonlar zaman penceresi içinde tamamlanır"
+    ]
+  },
+  "ind_3": {
+    "heroSub": "Kağıt fabrikaları için sürekli çalışan türbinler, genleşme contaları ve proses filtrasyonu",
+    "overview": "Kağıt ve kağıt hamuru fabrikaları buhar türbinlerini yılda 350+ gün, gece gündüz çalıştırır, bu da planlı bakım pencerelerini son derece dar hale getirir. Süreç ayrıca aşındırıcı ağartıcı, sıcak su ve yüksek basınçlı buhar içerir — hepsi agresif ortamlar için derecelendirilmiş filtrasyon ve sızdırmazlık ürünleri gerektirir. Keshav Enterprises, kağıt fabrikası buhar ve proses sistemlerini çalışır durumda tutmak için gereken ürün yelpazesinin tamamını sağlar.",
+    "challenges": [
+      {
+        "title": "Minimum Duruş Pencereleri",
+        "desc": "Kağıt makinesi duruşu saatte lakh'lara mal olur. Türbin revizyonları aylar öncesinden planlanmalı ve sıfır yeniden işlemeyle uygulanmalıdır — her bileşen ilk seferde doğru olmalıdır."
+      },
+      {
+        "title": "Aşındırıcı Proses Ortamları",
+        "desc": "Ağartıcı, klorlu bileşikler ve kostik proses sıvıları standart malzemelere saldırır. Filtrasyon ve hortum ürünleri uyumlu ortam ve conta kullanmalıdır."
+      },
+      {
+        "title": "Yüksek Sıcaklıklı Buhar Boruları",
+        "desc": "Kağıt fabrikası kazanları 250–400°C'de yüksek basınçlı buhar üretir. Buhar boru genleşme contaları hem yüksek sıcaklığı hem de çevrim yorgunluğunu kaldırabilmelidir."
+      },
+      {
+        "title": "Kağıt Makinelerinden Titreşim",
+        "desc": "Yüksek hızlı kağıt makineleri sürekli geniş bant titreşim üretir. Ekipmanı izole etmek için anti-titreşim montajları ve esnek hortum bağlantıları esastır."
+      }
+    ],
+    "products": [
+      {
+        "name": "Duplex Sepet Süzgeçler",
+        "purpose": "Proses suyu, beyaz su ve soğutma suyu hatlarına döşenir. Duplex tasarım, akışı durdurmadan sepet temizliğine olanak tanır — sürekli çalışan tesislerde kritiktir.",
+        "features": [
+          "Aşındırıcı ortam için SS316 sepetler",
+          "Tapa musluk bypass valfi dahildir",
+          "ANSI 150 ile 600 arası flanş dereceleri mevcuttur"
+        ]
+      },
+      {
+        "name": "SS Metalik Körük Genleşme Contaları",
+        "purpose": "Yüksek basınçlı buhar borularında, kağıt hamuru proses hatlarında ve ağartma tesisi borularında ekipman nozullarına stres aktarmadan termal genleşmeyi emer.",
+        "features": [
+          "Korozyon direnci için SS316L körükler",
+          "DN15 ile DN1200 arası aralık",
+          "EJMA tasarım standardı, basınç testli"
+        ]
+      },
+      {
+        "name": "Kauçuk Genleşme Contaları (Çift Kemer)",
+        "purpose": "Su arıtma, beyaz su ve atık su sistemlerinde pompa emiş ve tahliyesinde esnek bağlantı sağlar — pompa titreşimini borulardan izole eder.",
+        "features": [
+          "Doğal kauçuk veya EPDM boru seçenekleri",
+          "PN10/16 flanşlı uçlar",
+          "150°C'ye kadar hizmet sıcaklığı"
+        ]
+      },
+      {
+        "name": "PTFE Kaplı Hortum Grupları",
+        "purpose": "Ağartma tesisinde ağartıcı, kostik ve asit hatları için kimyasal transfer hortumları — PTFE kaplama agresif proses kimyasallarına tam direnç sağlar.",
+        "features": [
+          "PTFE iç çekirdek, SS örgü takviyesi",
+          "Tam vakum derecesi",
+          "EN14420 uyumlu uç bağlantı parçaları"
+        ]
+      },
+      {
+        "name": "Özel Ekstrüde Kauçuk Profiller ve Contalar",
+        "purpose": "Kağıt makinesi tahrikleri, pompalar ve türbin kaideleri altına monte edilen, özel ekstrüde kauçuk sönümleme şeritleri; makine titreşiminin bina yapısına iletilmesini izole eder ve söndürür.",
+        "features": [
+          "EPDM, Neopren, Nitril veya Doğal Kauçuk bileşimi",
+          "Çizim veya numuneye göre özel kesitte ekstrüde edilir",
+          "Uygulamaya göre 40-80 Shore A sertlik aralığı"
+        ]
+      },
+      {
+        "name": "Türbin Yedek Parçaları (Siemens, BHEL, Triveni)",
+        "purpose": "Planlı revizyon kitleri için sertifikalı malzemelerden imal edilmiş OEM eşdeğeri türbin yedek parçaları — nozullar, diyaframlar, gland halkaları ve yatak gövdeleri.",
+        "features": [
+          "OEM çizimlerinden tersine mühendislikle üretilmiştir",
+          "Malzeme sertifikaları tedarik edilir",
+          "CMM boyutsal inceleme raporu"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Yılda 350+ gün sürekli çalışma desteklenir",
+      "Aşındırıcı ortam için SS316L ürünler",
+      "Sıfır duruş süreli duplex süzgeç çözümleri",
+      "Eksiksiz revizyon kitleri planlanır ve tedarik edilir"
+    ]
+  },
+  "ind_4": {
+    "heroSub": "Petrol ve gaz tesisleri için API 614 uyumlu filtrasyon, Babbitt yataklar ve hassas hortum",
+    "overview": "Yukarı akış, orta akış ve aşağı akış petrol ve gaz tesisleri, endüstrideki en zorlu koşullardan bazıları altında türbin tahrikli kompresörler ve pompalar işletir. Petrol ve gazda yağlama yağı ve kontrol yağı sistemindeki her bileşen API standartlarına uygun olmalıdır. Keshav Enterprises, tehlikeli alan ekipmanında kullanım için nitelikli API 614 uyumlu filtre elemanları, Babbitt yataklar ve hassas mühendislikli hortum grupları sağlar.",
+    "challenges": [
+      {
+        "title": "API 614 Yağlama Yağı Sistemi Uyumluluğu",
+        "desc": "Petrol ve gazda türbin tahrikli ekipman için tüm yağlama yağı sistemi bileşenleri, malzemeleri, temizliği ve basınç derecelerini belirten API 614'e uygun olmalıdır."
+      },
+      {
+        "title": "Tehlikeli Alan Filtrasyonu",
+        "desc": "Türbin kontrol sistemlerindeki sentetik kontrol yağları düşük iletkenliğe sahiptir. Filtre elemanları elektrostatik boşalmayı önlemek için IS27 anti-statik spesifikasyonu taşımalıdır."
+      },
+      {
+        "title": "Yüksek Basınçlı Hortum Bütünlüğü",
+        "desc": "Petrol ve gazda hidrolik ve enstrüman hortum grupları 420 bar'a kadar basınç taşır. Arıza, sızıntı ve yangın riski anlamına gelir — kalite veya sertifikasyonda hiçbir taviz yoktur."
+      },
+      {
+        "title": "Uzak Konum Hızlı Tedarik",
+        "desc": "Açık deniz platformları ve uzak yukarı akış tesisleri hızlı yedek parça tedariki gerektirir. Kritik yedek parçalar stokta tutulur ve acil siparişlerde aynı gün sevk edilir."
+      }
+    ],
+    "products": [
+      {
+        "name": "Kontrol Yağı Filtre Elemanları (IS27 Anti-Statik)",
+        "purpose": "300 pS/m altında iletkenliğe sahip sentetik fosfat-ester veya ester bazlı kontrol yağları kullanan türbin elektro-hidrolik kontrol (EHC) sistemleri için.",
+        "features": [
+          "IS27 anti-statik sertifikasyonu",
+          "Microglass VG medya, 3–25 µm",
+          "Siemens, Man Turbo, KKK uyumlu"
+        ]
+      },
+      {
+        "name": "Babbitt Yatak İmalatı",
+        "purpose": "Türbin tahrikli kompresör ve pompalar için mil ve itme yatakları, orijinal OEM yatak geometrisiyle eşleşen hassas profillere beyaz metal kaplanmıştır.",
+        "features": [
+          "ASTM B23'e göre beyaz metal bileşimi",
+          "<0,01 mm toleransla hassas delme",
+          "Tüm markalar: Man Turbo, KKK, Siemens, ABB"
+        ]
+      },
+      {
+        "name": "PTFE Kaplı Hortum Grupları",
+        "purpose": "Petrol ve gaz işlemede agresif akışkan transferi için kimyasal ve enstrümantasyon hortumu — ham petrol, H2S, metanol ve inhibitörlere dayanıklı.",
+        "features": [
+          "PTFE çekirdek, SS316 örgü veya paslanmaz üst örgü",
+          "420 bar'a kadar basınç derecesi (seçili gruplar)",
+          "BS EN ISO 10380 uyumlu gruplar mevcuttur"
+        ]
+      },
+      {
+        "name": "Hidrolik Kauçuk Hortum Grupları",
+        "purpose": "Kontrol aktüatörleri, BOP sistemleri ve sondaj ve işleme ekipmanında hidrolik güç üniteleri için yüksek basınçlı hidrolik hortum.",
+        "features": [
+          "4 telli ve 6 telli spiral yapı",
+          "400 bar'a kadar çalışma basıncı",
+          "Parker, Gates, Manuli uyumlu bağlantı parçaları"
+        ]
+      },
+      {
+        "name": "Duplex İmal Edilmiş Filtre Muhafazaları",
+        "purpose": "Yağlama yağı ve kontrol yağı sistemleri için özel imal edilmiş duplex filtre kapları, API 614 kap gereksinimlerine uygunluk için ASME kod damgalıdır.",
+        "features": [
+          "ASME Sec. VIII Div. 1 kod damgalı",
+          "Malzeme: servise göre CS, SS304, SS316",
+          "İhracat projeleri için PED/CE sertifikalı"
+        ]
+      },
+      {
+        "name": "Titreşim İzleme Probları",
+        "purpose": "Kompresör ve türbin trenleri için API 670 türbomakine koruma sistemleriyle uyumlu yakınlık probları ve izleme sistemleri.",
+        "features": [
+          "Bently Nevada, Shinkawa uyumlu",
+          "IP67 dereceli prob muhafazası",
+          "Uyarı ve tehlike röle çıkışları"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "API 614 ve IS27 uyumlu ürünler",
+      "Tüm büyük OEM'ler için Babbitt yataklar",
+      "Aynı gün acil sevkiyat mevcuttur",
+      "ASME kod damgalı basınçlı kaplar"
+    ]
+  },
+  "ind_5": {
+    "heroSub": "Rafineriler ve petrokimya tesisleri için metalik genleşme contaları, yüksek sıcaklık süzgeçleri ve hassas yedek parçalar",
+    "overview": "Rafineriler ve petrokimya kompleksleri, ekstrem sıcaklık ve basınçlarda hidrokarbonları, asitleri ve agresif kimyasalları işler. Metalik genleşme contaları, proses süzgeçleri ve hassas türbin yedek parçaları termal döngüye, aşındırıcı ortama ve yüksek çevrimli yorgunluğa dayanmalıdır. Keshav Enterprises, bu ürünleri en zorlu rafineri uygulamaları için EJMA, ASME ve API standartlarına göre imal eder.",
+    "challenges": [
+      {
+        "title": "Aşırı Sıcaklık Döngüsü",
+        "desc": "Rafineri buhar kraking ve distilasyon kolonları ortam ve 600°C+ hizmet sıcaklıkları arasında döngüye girer. Genleşme contaları yorgunluk arızası olmadan milyonlarca esneme döngüsünde hayatta kalmalıdır."
+      },
+      {
+        "title": "Aşındırıcı ve Hidrojen Açısından Zengin Ortam",
+        "desc": "H2S, HF, amin çözücüler ve hidrojen servisi Inconel, Hastelloy veya duplex paslanmaz körükler gerektirir — standart SS304/316 yetersizdir."
+      },
+      {
+        "title": "ASME ve API Kod Uyumluluğu",
+        "desc": "Rafinerilerdeki basınçlı kaplar, borular ve körükler ASME Sec. VIII ve API kodlarına uygun olmalıdır. Üçüncü taraf denetimi ve malzeme izlenebilirliği zorunludur."
+      },
+      {
+        "title": "FCCU Katalizör Erozyonu",
+        "desc": "Akışkan Katalitik Kraking Üniteleri 700°C+'da sürüklenmiş katalizör parçacıkları taşır. Rejeneratör ve reaktör hatlarındaki genleşme contaları aşırı erozyon ve termal şokla karşılaşır."
+      }
+    ],
+    "products": [
+      {
+        "name": "Kalın Cidarlı Ağır Hizmet Genleşme Contası",
+        "purpose": "Rejeneratör-reaktör transfer hatlarının aşırı zorlu servis koşulları için güçlendirilmiş kalın cidarlı körük: yüksek sıcaklık, yüksek basınç ve ağır mekanik/termal gerilim.",
+        "features": [
+          "Maksimum basınç ve gerilim direnci için güçlendirilmiş cidar yapısı",
+          "Aşırı basınç ve sıcaklık döngülerinde minimum deformasyon",
+          "Malzemeler: SS 316/321, Duplex, Inconel, Hastelloy seçenekleri"
+        ]
+      },
+      {
+        "name": "Eksenel ve Evrensel Metalik Genleşme Contaları",
+        "purpose": "Rafineri kompleksi genelinde ham petrol, ürün ve buhar borularında termal genleşmeyi emmek için standart proses hattı körükleri.",
+        "features": [
+          "DN15 ile DN12.000 arası üretim aralığı",
+          "SS316L, Inconel, Hastelloy, Duplex SS sınıfları",
+          "ASME Sec. VIII Div. 1 tasarım kodu"
+        ]
+      },
+      {
+        "name": "Yüksek Basınçlı Simplex ve Duplex Süzgeçler",
+        "purpose": "Ham petrol şarj hatları, ürün transfer hatları ve kompresör emiş borularında ekipmanı kireç ve döküntüden korumak için hat içi süzgeçler.",
+        "features": [
+          "ASME basınçlı kap kodu tasarımı",
+          "Delikli plaka + ağ sepet yapısı",
+          "PN40 ile PN160 arası basınç sınıfları mevcuttur"
+        ]
+      },
+      {
+        "name": "Kriyojenik LNG / LPG Genleşme Contası",
+        "purpose": "Çok düşük sıcaklıklı sıvılaştırılmış gaz boru hatları için kriyojenik sınıf metalik genleşme contası: LNG/LPG transfer hatları, kriyojenik depolama terminalleri ve gemi yükleme kolektörleri.",
+        "features": [
+          "LNG servis sıcaklık aralıklarına kadar kriyojenik görev için tasarlanmıştır",
+          "Tokluk ve yorulma direnci için düşük sıcaklık malzeme seçimi",
+          "Ostenitik paslanmaz çelik ve kriyojenik sınıf alaşım seçenekleri, tam malzeme izlenebilirliği"
+        ]
+      },
+      {
+        "name": "Türbin Buhar Yolu Bileşenleri",
+        "purpose": "Türbin tahrikli kompresör tahrikleri için nozul blokları, diyaframlar ve bıçak taşıyıcıları — OEM profillerine göre alaşımlı çelikten imal edilmiştir.",
+        "features": [
+          "Sertifikalı dövmelerden CNC işlenmiştir",
+          "Malzeme: Cr-Mo alaşımlı çelik, 17-4PH SS",
+          "3D CMM ölçümüyle doğrulanmış profil"
+        ]
+      },
+      {
+        "name": "Basınç Dengeli Genleşme Contaları",
+        "purpose": "Yüksek basınçlı rafineri servisinde hassas ekipman nozullarındaki basınç itme kuvvetlerini ortadan kaldırır — kompresör ve pompa flanşlarını korur.",
+        "features": [
+          "Bağlantı çubuğu ortadan kaldırılmış basınç itme tasarımı",
+          "Nozul yüklerini sıfıra yakın azaltır",
+          "Bağlı ve bağsız konfigürasyonlarda mevcuttur"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Inconel, Hastelloy ve duplex SS körükler",
+      "EJMA 10. baskı tasarım standardı",
+      "ASME kod basınçlı kaplar ve körükler",
+      "FCCU ve ekstrem servis uzmanları"
+    ]
+  },
+  "ind_6": {
+    "heroSub": "Tarımsal işleme tesisleri için buhar türbini kojenerasyonu, filtrasyon ve kauçuk ürünler",
+    "overview": "Pirinç değirmenciliğinden çözücü ekstraksiyonuna, süt ürünlerinden gıda üretimine kadar tarımsal işleme, enerji maliyetlerini azaltmak için kendi buhar kojenerasyonunu giderek daha fazla kullanmaktadır. Bu tesisler güvenilir türbin bakımı, gıda sınıfı hortum ve filtrasyon ürünleri ve hassas işleme makineleri için titreşim izolasyon çözümlerine ihtiyaç duyar. Keshav Enterprises, tarım-endüstriyel sektörde gereken ürün ve hizmetlerin tamamını sağlar.",
+    "challenges": [
+      {
+        "title": "Gıda Sınıfı Malzeme Gereksinimleri",
+        "desc": "Gıda temas alanlarındaki hortum, conta ve filtrasyon, FDA onaylı malzemeler kullanmalıdır — PTFE, gıda sınıfı EPDM ve cilalı yüzeyli paslanmaz çelik."
+      },
+      {
+        "title": "Mevsimsel Yük Değişimi",
+        "desc": "Tarım kojenerasyon türbinleri mahsul mevsimleriyle geniş yük değişimi görür. Bu, sabit yüklü enerji santrallerine göre daha hızlı bıçak erozyonu ve termal çevrim yorgunluğuna yol açar."
+      },
+      {
+        "title": "Tank Solunum Kontaminasyonu",
+        "desc": "Yenilebilir yağ depolama tankları, solunum yolu boyunca havadaki toz ve nemden korunmalıdır — kontaminasyon ürün kalitesini ve raf ömrünü etkiler."
+      },
+      {
+        "title": "Gıda Tesislerinde Makine Titreşimi",
+        "desc": "Çekiçli değirmenler, santrifüjler ve paketleme makineleri titreşimi zeminlere ve komşu ekipmana iletir. Hijyenik bağlantıları korumak için izolasyon gereklidir."
+      }
+    ],
+    "products": [
+      {
+        "name": "FDA Sınıfı PTFE Hortum Grupları",
+        "purpose": "Gıda sınıfı sıvı transferi için esnek hortum — gıda sınıfı ortamlarda CIP/SIP kimyasal sirkülasyonu, ürün hatları ve buhar enjeksiyonu.",
+        "features": [
+          "PTFE iç çekirdek, FDA 21 CFR 177.1550 uyumlu",
+          "Elektro-cilalı SS316 uç bağlantı parçaları",
+          "Tri-clover (sıhhi) uç bağlantıları mevcuttur"
+        ]
+      },
+      {
+        "name": "Hava Nefes Alma ve Tank Nefes Alma Filtreleri",
+        "purpose": "Yenilebilir yağ depolama tanklarını havalandırma yolu boyunca toz ve nem girişinden korur — depolanan ürünün kontaminasyonunu önler.",
+        "features": [
+          "Desikan silika jeli + ince partikül medya",
+          "Görsel doygunluk renk göstergesi",
+          "Kolay servis için değiştirilebilir kartuş tasarımı"
+        ]
+      },
+      {
+        "name": "Y-Tipi ve Konik Süzgeçler",
+        "purpose": "Proses akışkan hatları, pompa emişi ve kazan besleme suyu sistemlerinde hat içi süzgeçler — ekipmanı kireç ve proses döküntüsünden korur.",
+        "features": [
+          "SS ağ sepet, 40 ile 400 µm arası ağ boyutu",
+          "Dişli veya flanşlı bağlantılar",
+          "Hat kesintisi olmadan basit hat içi temizleme"
+        ]
+      },
+      {
+        "name": "Özel Ekstrüde Kauçuk Profiller ve Contalar",
+        "purpose": "Özel ekstrüde kauçuk sönümleme şeritleri; çekiçli değirmenler, santrifüjler, kompresörler ve paketleme makinelerinden gelen titreşimi izole ederek hem makineyi hem de bitişik gıda işleme alanlarını korur.",
+        "features": [
+          "EPDM, Neopren, Nitril veya Doğal Kauçuk bileşim seçenekleri",
+          "Çizim veya numuneye göre özel kesitte ekstrüde edilir",
+          "Basınca duyarlı yapışkan arka yüzeyle de mevcuttur"
+        ]
+      },
+      {
+        "name": "Kauçuk Genleşme Contaları (Tek Kemer)",
+        "purpose": "Soğutma suyu, soğutulmuş su ve proses suyu devrelerinde esnek pompa konektörü — pompa titreşimini ve termal hareketi emer.",
+        "features": [
+          "EPDM veya doğal kauçuk boru",
+          "PN10/16 flanşlı, ayrıca dişli uçlar",
+          "Çalışma sıcaklığı –20°C ile +130°C"
+        ]
+      },
+      {
+        "name": "Buhar Türbini Bakımı (Triveni, Maxwatt)",
+        "purpose": "Tarım kojenerasyon karşı basınçlı buhar türbinlerinin planlı revizyonu — gland halka değişimi, yatak incelemesi ve rotor balans kontrolü.",
+        "features": [
+          "Sezonlar arası revizyon zamanlaması",
+          "İç bünyede işlenmiş karbon gland halkası",
+          "Deneme çalışması ve titreşim onayı dahildir"
+        ]
+      },
+      {
+        "name": "HVAC Cep Torba Filtreleri (Gıda Tesisi Hava İşleme)",
+        "purpose": "Gıda işleme tesisi AHU'ları için çok cepli torba filtreler — havadaki un tozunu, nişasta tozunu ve küf sporlarını besleme havasından üretim alanlarına, soğuk depolara ve paketleme hatlarına giren havadan uzaklaştırır.",
+        "features": [
+          "Alerjen ve küf sporu yakalama için F7/F8 verimlilik",
+          "Sentetik polyester medya — nemli gıda ortamları için nem toleranslı",
+          "Standart AHU çerçeve boyutları; talep üzerine özel boyutlar",
+          "Gıda sınıfı bölgeler için GMP hava kalitesi gereksinimlerini tamamlar"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "FDA 21 CFR uyumlu hortum ürünleri",
+      "Tarım kojenerasyon türbini uzmanı",
+      "Yenilebilir yağ depolama için tank nefes alma filtreleri",
+      "GMP gıda üretim hava kalitesi için F7/F8 HVAC torba filtreleri",
+      "Eksiksiz pompa titreşim izolasyon çözümleri"
+    ]
+  },
+  "ind_7": {
+    "heroSub": "Çimento tesisi makineleri için yağlama yağı filtrasyonu, pulse-jet toz toplayıcı torbaları, HVAC hava filtreleri, genleşme contaları ve titreşim izolasyonu",
+    "overview": "Çimento üretimi, dünyadaki en aşındırıcı ve tozlu endüstriyel ortamlardan biridir. 200–400°C kabuk sıcaklığında çalışan döner fırınlar, aylarca sürekli çalışan bilyalı değirmenler ve devasa toz bulutları üreten kırıcı hatları, her yağlama, sızdırmazlık ve boru bileşeni üzerinde aşırı talepler yaratır. Keshav Enterprises, çimento tesislerini yılda 330+ gün çalışır durumda tutan hassas sınıf filtrasyon, pulse-jet toz toplayıcı filtre torbaları, HVAC hava filtreleri, genleşme contaları ve anti-titreşim çözümlerini sağlar.",
+    "challenges": [
+      {
+        "title": "Aşırı Toz ve Aşındırıcı Kontaminasyon",
+        "desc": "Çimento tesisleri fırın başına günde 1–3 ton toz üretir. Bu havadaki aşındırıcı, yağlama yağı sistemlerine, nefes alma menfezlerine ve filtre muhafazalarına girer — düzgün yönetilmezse aşınmayı hızlandırır ve filtre baypasına neden olur."
+      },
+      {
+        "title": "Fırın Dişli Kutusu Yağ Kontaminasyonu",
+        "desc": "Döner fırın dişli kutuları ISO VG 220–460'ta sirkülasyon yağlama sistemlerinde çalışır. Klinker tozu ve termal kontaminasyon yağı hızla bozar — yüksek verimli filtrasyon, yağ değişim aralıklarını uzatmak ve pahalı dişli setlerini korumak için kritiktir."
+      },
+      {
+        "title": "Fırın Egzoz Kanallarında Termal Genleşme",
+        "desc": "Fırın egzoz gazı kanalları 250–450°C'de çalışır ve önemli termal genleşmeye maruz kalır. Doğru tasarlanmış metalik veya kumaş genleşme contaları olmadan, kanal bölümleri çatlar, sızıntı yapar ve sıcak gaz kaçışına izin verir — bir güvenlik ve verimlilik tehlikesi."
+      },
+      {
+        "title": "Kırıcı ve Değirmen Titreşimi",
+        "desc": "Bilyalı değirmenler, dikey silindirli değirmenler ve çeneli kırıcılar, temellerden komşu ekipman ve enstrümantasyona iletilen yoğun geniş bant titreşim üretir, yorgunluk arızalarına ve ölçüm hatalarına neden olur."
+      }
+    ],
+    "products": [
+      {
+        "name": "Yağlama Yağı Filtre Elemanları (Fırın ve Değirmen Dişli Kutuları)",
+        "purpose": "Fırın dişli kutusu yağ sirkülasyon sistemleri için yüksek verimli filtre elemanları — dişli dişlerine ve rulman yataklarına zarar vermeden önce aşındırıcı klinker parçacıklarını ve aşınma döküntülerini uzaklaştırır.",
+        "features": [
+          "Cam elyaf VG medya, 6–25 µm inceliği",
+          "Tozlu ortamlar için yüksek kir tutma kapasitesi",
+          "ISO VG 220–460 sentetik ve mineral yağ uyumlu",
+          "ISO 16889'a göre beta verimliliği ≥200"
+        ]
+      },
+      {
+        "name": "Duplex Sepet Süzgeçler (Soğutma Suyu ve Proses Hatları)",
+        "purpose": "Fırın soğutma suyu sistemlerine, kompresör su soğutmasına ve ham un bulamacı boru hatlarına döşenerek pompaları, ısı eşanjörlerini ve enstrümantasyonu kireç ve döküntüden korur.",
+        "features": [
+          "SS ağ sepetler, 100–1000 µm ağ seçenekleri",
+          "Duplex tasarım: sıfır duruş süreli sepet temizliği",
+          "ANSI 150 ile ANSI 600 arası flanş dereceleri",
+          "Aşındırıcı soğutma suyu servisi için SS316"
+        ]
+      },
+      {
+        "name": "Eksenel Metalik Genleşme Contaları (Fırın Egzoz Kanalları)",
+        "purpose": "Fırın, siklon ön ısıtıcı kulesi ve atık ısı kazanı arasındaki sıcak gaz kanal işinde termal genleşmeyi telafi eder — kanal bölümlerindeki termal kaynaklı gerilim çatlamasını ortadan kaldırır.",
+        "features": [
+          "Yüksek sıcaklık servisi için SS321 körükler",
+          "Tek ve evrensel (çift körük) konfigürasyonlar",
+          "Mevcut kanal boyutlarına uygun flanşlı",
+          "Körüğü gaz erozyonundan korumak için akış astarı dahildir"
+        ]
+      },
+      {
+        "name": "Dikdörtgen Metalik Olmayan (Kumaş) Genleşme Contaları",
+        "purpose": "Klinker soğutucu menfezinde, ham değirmen fan bağlantılarında ve elektrostatik çökeltici (ESP) kanal işinde büyük dikdörtgen kanal işinde kullanılır — dairesel olmayan bölümlerde hizasızlık ve termal hareketi kaldırır.",
+        "features": [
+          "PTFE kaplı cam kumaş veya Nomex kompozit",
+          "450°C'ye kadar sürekli sıcaklık kapasitesi",
+          "Dikdörtgen kanal boyutlarına özel yapılır",
+          "Sahada montaj için cıvatalı çerçeve grubu"
+        ]
+      },
+      {
+        "name": "Özel Ekstrüde Kauçuk Profiller ve Contalar",
+        "purpose": "Bilyeli değirmen tahrik üniteleri, dikey merdaneli değirmen dişli kutuları ve kırıcı rulman yuvaları altına monte edilen özel ekstrüde kauçuk sönümleme pedleri; tesis yapılarına iletilen makine titreşimini izole eder ve azaltır.",
+        "features": [
+          "Doğal kauçuk, EPDM veya neopren bileşimi",
+          "Çizim veya numuneye göre özel kesitte ekstrüde edilir",
+          "-40 ile +150°C arası çalışma sıcaklığı (EPDM sınıfı)"
+        ]
+      },
+      {
+        "name": "Hava Nefes Alma ve Tank Nefes Alma Filtreleri (Yağlama Yağı Rezervuarları)",
+        "purpose": "Havadaki çimento tozunun ve nemin nefes alma yolu boyunca yağlama yağı rezervuarlarına girmesini önler — çimento tesislerinde erken yağ ve yatak arızasının başlıca nedeni.",
+        "features": [
+          "Yüksek verimli partikül medya + silika jel desikan",
+          "ISO temizlik gereksinimlerine göre derecelendirilmiş",
+          "Renk değişimi doygunluk göstergesi",
+          "Doğrudan montaj ve uzaktan montaj konfigürasyonları"
+        ]
+      },
+      {
+        "name": "SS Kıvrımlı Esnek Hortum Grupları",
+        "purpose": "Fırın soğutma suyu girişlerinde, hidrolik kızak kapı aktüatörlerinde ve basınçlı hava hatlarında yüksek basınçlı esnek bağlantılar — sert borulamanın başarısız olacağı yerlerde ısı, basınç ve titreşime dayanır.",
+        "features": [
+          "SS316L kıvrımlı iç hortum, SS örgü takviyesi",
+          "200 bar'a kadar çalışma basıncı (seçili gruplar)",
+          "Uç bağlantı parçaları: ANSI flanşlı, BSP/NPT dişli veya hidrolik",
+          "–196°C ile +600°C arası sıcaklık aralığı"
+        ]
+      },
+      {
+        "name": "Konik ve Y-Tipi Süzgeçler (Ham Değirmen ve Konveyör Pompaları)",
+        "purpose": "Ham malzeme bulamaç pompalarında, fırın su spreyleme sistemlerinde ve basınçlı hava besleme hatlarında geçici ve kalıcı süzgeçler — aşağı akış valflerini ve enstrümanları korur.",
+        "features": [
+          "Delikli sepet, ağ astarı mevcuttur",
+          "Temizlik için kanatlı veya dişli boşaltma tapası",
+          "CS, SS304, SS316 gövde malzemeleri",
+          "Hızlı sevkiyat için stokta"
+        ]
+      },
+      {
+        "name": "Pulse-Jet Toz Toplayıcı Filtre Torbaları ve Kartuşları",
+        "purpose": "Fırın egzozunda, ham değirmen menfezlerinde, klinker soğutucuda, kömür değirmeninde, paketleme tesisinde ve silo menfez sistemlerinde çimento tesisi baghouse toz toplayıcıları için değişim filtre torbaları ve kıvrımlı kartuş elemanları — ince çimento tozunu tutar ve emisyon normlarını karşılar.",
+        "features": [
+          "Polyester iğne keçesi (standart) ve PTFE membran (yüksek verimli, düşük emisyon)",
+          "Kömür değirmeni uygulamaları için anti-statik sınıflar (ATEX)",
+          "Mevcut baghouse muhafazasına kafes uyumlu boyutlar",
+          "4–7 bar basınçlı havada pulse-jet temizleme derecesi"
+        ]
+      },
+      {
+        "name": "Kıvrımlı Panel Hava Filtreleri (Kontrol Odası ve Elektrik Panel HVAC)",
+        "purpose": "Çimento tesisi kontrol odası AHU'ları ve elektrik paneli soğutma üniteleri için filtreler — aşındırıcı çimento tozunun hassas enstrümantasyona, PLC'lere ve DCS dolaplarına girmesini önler.",
+        "features": [
+          "İnce çimento tozu tutma için F7/F8 verimlilik",
+          "Nemli çimento tesisi ortamları için galvanizli çelik çerçeve",
+          "Standart AHU çerçeve boyutları veya panel boyutlarına özel kesim",
+          "Servis programına göre değişim tedariki"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Yılda 330+ gün sürekli çalışma desteklenir",
+      "Toza dayanıklı filtrasyon ürünleri stokta",
+      "450°C'ye kadar yüksek sıcaklık genleşme contaları",
+      "Tüm çimento tesisi menfez noktaları için pulse-jet baghouse torbaları",
+      "Eksiksiz titreşim izolasyon çözümleri"
+    ]
+  }
+}

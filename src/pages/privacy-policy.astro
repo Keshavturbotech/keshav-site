@@ -1,0 +1,137 @@
+---
+// src/pages/privacy-policy.astro
+// Ported verbatim from PrivacyPolicyPage in App.jsx (line ~27040).
+import Layout from "../layouts/Layout.astro";
+import EnglishOnlyNotice from "../components/EnglishOnlyNotice.astro";
+import { CONTACT_INFO } from "../data/site-config";
+
+const lastUpdated = "19 June 2026";
+---
+
+<Layout
+  title="Privacy Policy"
+  description="How Keshav Enterprises collects, uses, and protects information from visitors and enquiry submissions on this website."
+  canonicalPath="/privacy-policy"
+  noindex={true}
+>
+  <div class="pt-24 sm:pt-28 pb-24 min-h-screen bg-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <a
+        href="/"
+        class="inline-flex items-center gap-1.5 text-blue-600 font-bold text-sm mb-8 hover:gap-2.5 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 rounded py-2 -my-2"
+      >
+        <svg
+          class="w-4 h-4"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          aria-hidden="true"
+          ><path stroke-linecap="round" stroke-linejoin="round" d="M19 12H5m0 0l7 7m-7-7l7-7"
+          ></path></svg
+        >
+        Back to Home
+      </a>
+      <h1 class="text-3xl md:text-4xl font-black text-slate-900 tracking-tight mb-2">
+        Privacy Policy
+      </h1>
+      <p class="text-slate-500 text-sm font-medium mb-6">Last updated: {lastUpdated}</p>
+
+      <EnglishOnlyNotice />
+
+      <div class="space-y-8 text-slate-700 text-sm md:text-base leading-relaxed">
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">Who we are</h2>
+          <p>
+            This website is operated by Keshav Enterprises ({CONTACT_INFO.address}), GST {
+              CONTACT_INFO.gst
+            }, MSME {CONTACT_INFO.msme}. For any privacy question, contact us at{" "}
+            <a href={`mailto:${CONTACT_INFO.infoEmail}`} class="text-blue-600 font-bold underline"
+              >{CONTACT_INFO.infoEmail}</a
+            >.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">What we collect</h2>
+          <p>
+            When you use a form on this site (RFQ, contact, catalogue download, or review form), we
+            collect what you submit — typically name, company, email, phone number, and the details
+            of your enquiry. We do not require account creation and we do not process any payments
+            on this site.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">Cookies &amp; analytics</h2>
+          <p>
+            We use Google Analytics 4 and Microsoft Clarity to understand how visitors use the site
+            (pages viewed, general navigation patterns, anonymised session behaviour) so we can
+            improve it. These tools set cookies and may record anonymised session interactions. They
+            only run after you accept analytics cookies via the banner shown on your first visit —
+            see "Your choices" below. We also use Cloudflare Turnstile on our forms purely to filter
+            automated spam submissions; it does not track you for advertising purposes.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">How we use your information</h2>
+          <p>
+            We use the information you submit to respond to your enquiry, prepare quotations, send
+            the catalogue or datasheet you requested, and — only with your separate consent where
+            required — follow up about related products or services. We do not sell or rent your
+            information to third parties.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">Who we share it with</h2>
+          <p>
+            Form submissions are delivered to us via standard third-party form-processing
+            infrastructure (e.g. our email and form-relay providers) solely to route your enquiry to
+            our team. We do not share your contact details with other clients, OEM brands referenced
+            on this site, or marketing partners.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">Your choices</h2>
+          <p>
+            You can decline non-essential cookies at any time from the consent banner, or by
+            clearing your browser's site data for this domain, which resets the banner on your next
+            visit. You can ask us to tell you what information we hold about you, correct it, or
+            delete it, by emailing {CONTACT_INFO.infoEmail} — we'll respond within a reasonable time.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">Data retention &amp; security</h2>
+          <p>
+            We retain enquiry and quotation records for as long as reasonably needed for business,
+            accounting, and warranty-reference purposes, then delete or anonymise them. We take
+            reasonable technical measures (HTTPS, spam filtering, restricted access) to protect the
+            information you share with us, though no online system can be guaranteed 100% secure.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">Applicable law</h2>
+          <p>
+            This policy is intended to be consistent with India's Digital Personal Data Protection
+            Act, 2023. If you are contacting us from outside India, your information may be
+            processed in India; by submitting a form you consent to that transfer for the purpose of
+            handling your enquiry.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">Changes to this policy</h2>
+          <p>
+            We may update this page from time to time as our tools or practices change. The "Last
+            updated" date above reflects the most recent revision.
+          </p>
+        </section>
+      </div>
+    </div>
+  </div>
+</Layout>

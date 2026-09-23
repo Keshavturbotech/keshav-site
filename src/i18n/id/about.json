@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "titleTemplate": "Tentang Keshav Enterprises — {years}+ Tahun Rekayasa Turbin",
+    "descriptionTemplate": "Keshav Enterprises — {years}+ tahun rekayasa turbin industri, rekayasa balik, dan suku cadang kompatibel OEM dari Shamli, UP, India. Insinyur eks-OEM dari Triveni, Siemens, BHEL.",
+    "schemaName": "Tentang Keshav Enterprises",
+    "schemaDescriptionTemplate": "Keshav Enterprises — {years}+ tahun rekayasa turbin industri, rekayasa balik, dan manufaktur suku cadang kompatibel OEM dari Shamli, UP, India."
+  },
+  "hero": {
+    "eyebrow": "Kisah Kami",
+    "h1Line1": "Dua Dekade",
+    "h1Span": "Rekayasa Presisi",
+    "quote": "“Toleransi nol untuk downtime pabrik — itu bukan slogan. Itu adalah standar rekayasa yang dipegang setiap klien terhadap kami.”",
+    "intro": "Dari bengkel perawatan turbin spesialis di Shamli, Uttar Pradesh — menjadi mitra rekayasa terpercaya pan-India untuk pembangkit listrik, pabrik gula, kilang, dan industri proses. Dibangun di atas keahlian eks-OEM dari Triveni, Siemens, BHEL, Man Turbo, KKK dan ABB. Digerakkan oleh satu mandat: uptime maksimal.",
+    "tags": [
+      "Insinyur Eks-OEM",
+      "Pemindaian Laser 3D",
+      "Presisi CMM",
+      "Respons 24×7",
+      "Terdaftar IEC",
+      "Siap Ekspor",
+      "IndiaMART TrustSeal",
+      "Make In India",
+      "Terdaftar MSME"
+    ],
+    "ctaServices": "Layanan Kami",
+    "ctaContact": "Hubungi Tim Rekayasa",
+    "statCards": [
+      {
+        "label": "Tahun Beroperasi",
+        "subTemplate": "Sejak {founded}"
+      },
+      {
+        "label": "Merek OEM",
+        "sub": "Triveni · Siemens · BHEL"
+      },
+      {
+        "label": "Turbin Maksimum",
+        "sub": "Hingga 60 M.W."
+      },
+      {
+        "label": "Dukungan Darurat",
+        "sub": "Insinyur multi-lokasi"
+      }
+    ],
+    "trustBadges": {
+      "indiamartTitle": "Terverifikasi IndiaMART TrustSeal",
+      "indiamartSub": "50+ ulasan pembeli · rating 4,3/5",
+      "msmeTitle": "Terdaftar MSME",
+      "msmeSub": "Perusahaan Bersertifikat Udyam · Pemerintah India"
+    }
+  },
+  "statsBar": [
+    {
+      "label": "Tahun Beroperasi",
+      "subTemplate": "Sejak {founded}"
+    },
+    {
+      "label": "Merek OEM Tercakup",
+      "sub": "Triveni · Siemens · BHEL"
+    },
+    {
+      "label": "Turbin Maksimum Ditangani",
+      "sub": "Hingga 60 M.W."
+    },
+    {
+      "label": "Respons Darurat",
+      "sub": "Insinyur multi-lokasi"
+    }
+  ],
+  "overview": {
+    "eyebrow": "Siapa Kami",
+    "heading": "Mitra Rekayasa untuk Tulang Punggung Industri India",
+    "paragraphs": [
+      "Keshav Enterprises adalah perusahaan rekayasa industri presisi yang berkantor pusat di Shamli, Uttar Pradesh. Selama lebih dari dua dekade, kami telah menyediakan perawatan turbin spesialis, rekayasa balik, dan suku cadang kompatibel OEM untuk sektor industri India yang paling menuntut.",
+      "Tim rekayasa kami mencakup spesialis eks-OEM dari Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, dan ABB — memberikan klien tingkat keahlian teknis yang sama dengan produsen peralatan asli, dengan sebagian kecil dari waktu tunggu dan biaya.",
+      "Kami mencakup turbin uap dari 5 kW hingga 60 MW — back-pressure dan condensing, horizontal dan vertikal, satu dan multi-tahap. Bengkel kami dilengkapi dengan pemindai laser 3D, mesin pengukur koordinat CMM, mesin penyeimbang dinamis (50–2.000 kg), dan mesin bubut CNC presisi."
+    ],
+    "coreCapabilitiesHeading": "Kapabilitas Inti",
+    "coreCapabilitiesList": [
+      "Pemasangan turbin, komisioning, dan overhaul turnkey",
+      "Rekayasa balik presisi menggunakan pemindaian laser 3D & CMM",
+      "Penyeimbangan dinamis sesuai ISO 1940 / API 670 (50–2.000 kg)",
+      "Pembersihan oli pelumas sesuai klasifikasi kebersihan ISO 4406:99",
+      "Penyelarasan mesin menggunakan teknologi penyelarasan laser terbaru",
+      "Manufaktur: elemen filter, filter udara HVAC, sambungan ekspansi, saringan",
+      "Suku cadang turbin: bearing, seal, rotor, governor, katup",
+      "Respons gangguan darurat 24×7, insinyur multi-lokasi"
+    ],
+    "locationHeading": "Lokasi Kami",
+    "gstLabel": "GST"
+  },
+  "gallery": {
+    "eyebrow": "Dibangun untuk Uptime Industri",
+    "headingLine1": "Jika Turbin Anda Membutuhkannya,",
+    "headingLine2": "Kami Membuatnya.",
+    "subheadingTemplate": "{productCount}+ komponen hasil rekayasa presisi di 9 kategori — dari elemen filter yang sesuai OEM dan filter udara HVAC hingga suku cadang turbin yang dikirim minggu yang sama saat pabrik Anda menelepon.",
+    "cards": {
+      "workshopFloor": {
+        "caption": "Area Bengkel",
+        "desc": "Mesin bubut CNC presisi, mesin bubut penyalin, dan mesin gerinda untuk pemesinan journal rotor, polishing, dan pekerjaan bagian labirin."
+      },
+      "ourServices": {
+        "caption": "Layanan Kami",
+        "desc": "8 layanan spesialis — pemasangan & komisioning turbin, overhaul turnkey, rekayasa balik, penyeimbangan dinamis, pembersihan oli pelumas, penyelarasan mesin, sandblasting, dan troubleshooting 24×7.",
+        "linkLabel": "Jelajahi Layanan"
+      },
+      "productRange": {
+        "caption": "Rangkaian Produk",
+        "descTemplate": "{productCount} produk hasil rekayasa di 9 kategori — filtrasi, filter udara HVAC, saringan, sambungan ekspansi, suku cadang turbin, produk karet, selang fleksibel, peralatan elektronik, dan komponen hidraulik.",
+        "linkLabel": "Jelajahi Produk"
+      },
+      "rotorInspection": {
+        "caption": "Inspeksi Rotor",
+        "desc": "Insinyur eks-OEM mengukur dan mencatat setiap celah, jarak, dan dimensi selama inspeksi — laporan kondisi lengkap untuk setiap pekerjaan."
+      }
+    },
+    "browseFullCatalog": "Jelajahi Katalog Produk Lengkap"
+  },
+  "values": {
+    "eyebrow": "Yang Mendorong Kami",
+    "heading": "Nilai-Nilai Inti Kami",
+    "items": [
+      {
+        "label": "Integritas Rekayasa",
+        "text": "Setiap komponen, setiap celah, setiap dimensi didokumentasikan dan diverifikasi. Tidak ada jalan pintas pada peralatan berputar yang kritis terhadap keselamatan."
+      },
+      {
+        "label": "Standar Setara OEM",
+        "text": "Insinyur eks-OEM dari Triveni, Siemens, BHEL, dan ABB memberikan perawatan dengan standar yang sama seperti produsen asli."
+      },
+      {
+        "label": "Inovasi dalam Rekayasa Balik",
+        "text": "Pemindaian 3D dan pengujian PMI memberi klien akses ke suku cadang usang tanpa waktu tunggu OEM 12–18 bulan."
+      },
+      {
+        "label": "Uptime Pelanggan yang Diutamakan",
+        "text": "Kami mengukur kesuksesan dari ketersediaan pabrik. Respons darurat 24×7 karena shutdown tidak mengikuti jam kerja."
+      }
+    ]
+  },
+  "milestones": {
+    "eyebrow": "Perjalanan Kami",
+    "heading": "Tonggak Perusahaan",
+    "items": [
+      {
+        "year": "2000-an",
+        "title": "Pendirian",
+        "desc": "Didirikan di Shamli, UP sebagai bengkel perawatan turbin spesialis yang melayani pabrik gula lokal dengan keahlian overhaul langsung."
+      },
+      {
+        "year": "2005",
+        "title": "Keahlian OEM",
+        "desc": "Membangun tim khusus insinyur eks-OEM dari Triveni, BHEL, dan Belliss & Morcom — memungkinkan standar perawatan setara OEM yang sesungguhnya."
+      },
+      {
+        "year": "2010",
+        "title": "Rekayasa Balik",
+        "desc": "Berinvestasi dalam pemindaian laser 3D dan peralatan CMM untuk menawarkan rekayasa balik internal untuk komponen turbin usang tanpa ketergantungan OEM."
+      },
+      {
+        "year": "2015",
+        "title": "Perluasan Rangkaian Produk",
+        "desc": "Meluncurkan lini produk industri komprehensif yang mencakup filtrasi, filter udara HVAC, sambungan ekspansi, saringan, produk karet, dan rakitan selang fleksibel."
+      },
+      {
+        "year": "2020",
+        "title": "Penyeimbangan ISO/API",
+        "desc": "Mengoperasikan mesin penyeimbang dinamis sesuai standar ISO 1940 / API 670 — menangani rotor dari 50 hingga 2.000 kg."
+      },
+      {
+        "year": "Hari Ini",
+        "title": "Siap Ekspor",
+        "desc": "Terdaftar IEC dengan DGFT — komponen turbin, produk filtrasi, dan suku cadang industri diproduksi sesuai standar ISO/API/ASME dan diklasifikasikan HSN untuk ekspor, dengan dukungan dokumentasi untuk pembeli luar negeri. Jangkauan domestik pan-India berlanjut dengan dukungan rekayasa darurat 24×7."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Orang-Orang di Balik Pekerjaan",
+    "heading": "Keahlian Rekayasa Eks-OEM",
+    "subheading": "Insinyur kami dilatih dan ditempatkan di dalam pabrik OEM dan tim layanan lapangan — bukan sekadar dilatih pada peralatan OEM. Perbedaan itulah yang terlihat pada kualitas setiap celah yang dicatat.",
+    "expSuffix": "pengalaman",
+    "namesWithheldNote": "Nama dirahasiakan untuk melindungi insinyur kami dari pendekatan kompetitor. Riwayat kerja yang dapat diverifikasi tersedia untuk pertanyaan serius.",
+    "members": {
+      "sk": {
+        "name": "Insinyur Senior — Triveni & BHEL",
+        "spec": "Overhaul turbin · Pemasangan & komisioning · Analisis getaran"
+      },
+      "rk": {
+        "name": "Insinyur Senior — Siemens & KKK",
+        "spec": "Rekayasa balik · Pengujian CMM & PMI · Pemesinan rotor"
+      },
+      "as": {
+        "name": "Insinyur Lapangan — Belliss & Man Turbo",
+        "spec": "Gangguan darurat · Penyelarasan · Sistem oli pelumas"
+      },
+      "vp": {
+        "name": "Spesialis Penyeimbangan",
+        "spec": "Penyeimbangan dinamis ISO 1940 / API 670 · Rotor 50–2.000 kg"
+      },
+      "mt": {
+        "name": "Kepala Bengkel — Pemesinan",
+        "spec": "Grinding journal · Pemesinan labirin · Manufaktur cincin karbon"
+      },
+      "pd": {
+        "name": "Kepala Produk & Filtrasi",
+        "spec": "Pasokan elemen filter · Filter udara HVAC · Sambungan ekspansi · Saringan"
+      }
+    }
+  },
+  "oemSection": {
+    "eyebrow": "Keahlian OEM",
+    "headingLine1": "10+ Merek OEM.",
+    "headingLine2": "Satu Mitra Rekayasa.",
+    "sub": "Insinyur eks-OEM kami memiliki pengalaman langsung dengan semua merek turbin utama. Tanpa kurva belajar. Keahlian teknis otoritatif sejak hari pertama."
+  },
+  "exportSection": {
+    "eyebrow": "Siap Ekspor",
+    "headingLine1": "Dibangun Untuk",
+    "headingSpan": "Pembeli Ekspor Memverifikasi dengan Mudah",
+    "paragraphs": [
+      "Keshav Enterprises memegang Importer-Exporter Code (IEC) aktif yang diterbitkan oleh DGFT, kredensial hukum yang diperlukan untuk mengirim suku cadang rekayasa turbin, produk filtrasi industri, dan komponen kompatibel OEM ke luar India.",
+      "Produk hasil rekayasa presisi kami diproduksi sesuai standar internasional termasuk ISO 16889, API 614, dan ASME Sec. VIII, serta diklasifikasikan di bawah kode ekspor HSN standar, sehingga pembeli luar negeri dapat memverifikasi kepatuhan sebelum melakukan pemesanan."
+    ],
+    "standards": [
+      {
+        "stat": "ISO 16889",
+        "label": "Standar Filtrasi"
+      },
+      {
+        "stat": "API 614",
+        "label": "Std Sistem Oli Pelumas"
+      },
+      {
+        "stat": "ASME VIII",
+        "label": "Std Bejana Tekan"
+      },
+      {
+        "stat": "HSN 8421",
+        "label": "Klasifikasi Ekspor"
+      }
+    ],
+    "iecCardTitle": "Eksportir Terdaftar IEC",
+    "iecCardDescTemplate": "Importer-Exporter Code DGFT {iec} — aktif dan dapat diverifikasi",
+    "checklistTitle": "Daftar Periksa Kesiapan Ekspor",
+    "checklistItems": [
+      "IEC aktif diterbitkan oleh DGFT — legal untuk mengekspor",
+      "Produk diklasifikasikan di bawah kode ekspor HSN standar",
+      "Diproduksi sesuai standar internasional ISO, API & ASME",
+      "Lembar data berbahasa Inggris, sertifikat uji & dokumentasi QC",
+      "Terdaftar GST dengan kepatuhan faktur ekspor penuh",
+      "Basis manufaktur terdaftar MSME di Shamli, Uttar Pradesh"
+    ],
+    "credentialLabels": {
+      "gst": "GST",
+      "msme": "MSME/Udyam",
+      "iec": "IEC"
+    }
+  },
+  "finalCta": {
+    "heading": "Siap bekerja sama dengan kami?",
+    "subheading": "Beri tahu kami merek turbin, kapasitas, dan kebutuhan Anda — kami merespons dengan rekayasa, bukan promosi penjualan.",
+    "ctaQuote": "Dapatkan Penawaran Teknis",
+    "ctaServices": "Lihat Semua Layanan"
+  }
+}

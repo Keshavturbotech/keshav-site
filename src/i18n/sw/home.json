@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Keshav Enterprises — Ukarabati na Vipuri vya Turbine za Mvuke, Shamli UP India",
+    "description": "Wahandisi wa turbine za mvuke wenye uzoefu wa OEM kutoka Triveni, Siemens, BHEL. Ukarabati, uhandisi wa kinyume, uwiano wa mzunguko, usafishaji wa mafuta ya kulainisha, na vipuri vinavyoendana na OEM kwa turbine za 5 kW–60 MW. Vinapatikana Shamli, UP. Msaada wa dharura wa saa 24×7.",
+    "keywords": "matengenezo ya turbine India, ukarabati wa turbine za mvuke, uhandisi wa kinyume wa turbine, vipuri vya turbine vya viwandani, vichujio vya mafuta ya kulainisha, viungo vya upanuzi India, huduma za turbine za Triveni, vipuri vya turbine vya BHEL, uwekaji wa turbine Uttar Pradesh, uhandisi Shamli"
+  },
+  "hero": {
+    "badgeMakeInIndia": "Make In India",
+    "badgeVocalForLocal": "Vocal For Local",
+    "badgeIndiaMartLabel": "Imethibitishwa na IndiaMART",
+    "badgeIndiaMartRatingSuffix": "KIWANGO",
+    "h1Line1": "Uhandisi Sahihi kwa",
+    "h1Line2": "Muda wa Uendeshaji wa Juu.",
+    "capabilityLine": "Turbine za mvuke kutoka 5 kW hadi 60 MW — aina ya back-pressure na condensing, mlalo na wima, hatua moja na hatua nyingi. Tunahudumia wateja kote India na duniani kote.",
+    "introText": "Wahandisi wenye uzoefu wa OEM kwa Triveni, Siemens, BHEL na chapa 7 zaidi. Tunarudisha turbine yako kufanya kazi haraka kuliko kununua kutoka OEM — na vyeti kamili vya PMI, ripoti za uwiano za ISO, na historia isiyo na adhabu tangu {founded}.",
+    "ctaPrimary": "Tuma Mahitaji Yako",
+    "ctaEmergency": "Dharura ya Kusimama",
+    "trustYearsOverhauls": "Miaka {years}+ · Ukarabati zaidi ya 500",
+    "trustPmi": "Vipuri vilivyoidhinishwa na PMI",
+    "trustResponse": "Wastani wa mwitikio: masaa 2",
+    "proofCards": [
+      {
+        "label": "Hakuna Kipindi cha Kujifunza",
+        "title": "Wahandisi Wenye Uzoefu wa OEM",
+        "sub": "Timu yetu imefanya kazi ndani ya Triveni, Siemens, BHEL na Belliss — utaalamu uleule, unaotolewa kwa kiwanda chako."
+      },
+      {
+        "label": "Kila Kazi Inaandikwa",
+        "title": "Ripoti wakati wa Kukabidhi",
+        "sub": "Vyeti vya PMI, ripoti za uwiano, rekodi za upatanishi, ripoti za hali — hukabidhiwa mwishoni mwa kazi."
+      },
+      {
+        "label": "Wakati Kila Dakika Ina Maana",
+        "title": "Dharura ya Saa 24×7",
+        "sub": "Wahandisi katika maeneo mengi kote India. Tupigie saa nane usiku — mtu atajibu."
+      }
+    ]
+  },
+  "oemMarquee": {
+    "heading": "Inayoendana na OEM na Inayoaminiwa na Viongozi wa Viwanda"
+  },
+  "stats": {
+    "overhauls": {
+      "label": "Ukarabati Uliokamilika",
+      "sub": "Viwanda vya sukari, umeme, karatasi na saruji kote India"
+    },
+    "years": {
+      "label": "Miaka ya Huduma",
+      "sub": "Uendeshaji unaoendelea tangu {founded} — hakuna mabadiliko ya umiliki"
+    },
+    "penaltyClaims": {
+      "label": "Madai ya Adhabu",
+      "sub": "Sifuri katika miaka {years} — marejeleo ya wateja yanapatikana ukiomba"
+    },
+    "emergency": {
+      "label": "Mwitikio wa Dharura",
+      "sub": "Wahandisi katika maeneo mengi — wastani wa kupelekwa chini ya masaa 4"
+    }
+  },
+  "featuredProducts": {
+    "heading": "Bidhaa za Uhandisi Zilizoangaziwa",
+    "scrollLeftLabel": "Sogeza kushoto",
+    "scrollRightLabel": "Sogeza kulia",
+    "dragToExplore": "buruta kuchunguza",
+    "viewCompleteCatalog": "Tazama Katalogi Kamili",
+    "viewDetails": "Tazama Maelezo",
+    "swipeToBrowse": "Telezesha kuvinjari"
+  },
+  "servicesPreview": {
+    "eyebrow": "Mzunguko Kamili wa Maisha ya Turbine",
+    "heading": "Huduma za Kiufundi",
+    "subheading": "Wahandisi walewale wenye uzoefu wa OEM hushughulikia ukarabati wako, vipuri vyako, na dharura yako ya saa nane usiku — hakuna kandarasi ndogo, hakuna makabidhiano.",
+    "painLines": {
+      "srv_2": "Umechoka na wakandarasi wanaofika bila vifaa vya kutosha na hawatoi ripoti ya kazi?",
+      "srv_3": "OEM alitoa muda wa miezi kwa kipuri ambacho hakizalishwi tena?",
+      "srv_4": "Mtetemo unaorudia baada ya upatanishi na kubadilisha bearing — chanzo cha tatizo hakijarekebishwa?"
+    },
+    "viewFullDetails": "Tazama Maelezo Kamili",
+    "viewAllServices": "Tazama Huduma Zote 8"
+  },
+  "testimonials": {
+    "eyebrow": "Maoni ya Wateja",
+    "heading": "Inaaminiwa na Wasimamizi wa Viwanda Kote India",
+    "googleRatingLabel": "+ maoni yaliyothibitishwa kwenye Google",
+    "disclaimer": "Nukuu zimetolewa kutoka kwenye rekodi za miradi iliyokamilika na kufupishwa kuwa herufi za mwanzo hadi idhini ya maandishi kwa utambulisho kamili. Kwa viwango vilivyothibitishwa kwa kujitegemea, tazama maoni yetu ya Google hapo juu.",
+    "footerCtaPrefix": "Umewahi kufanya kazi nasi?",
+    "footerCtaLink": "Acha maoni ya Google — inasaidia wasimamizi wengine wa viwanda kutupata →",
+    "googleReviewBadge": "Maoni ya Google",
+    "items": [
+      {
+        "quote": "Wahandisi wao wenye uzoefu wa Triveni walishughulikia ukarabati wa turbine yetu ya Triveni 12 MW wakati wa kusimama kwa mwaka — nafasi zote za kiufundi ziliandikwa, rota ilisawazishwa hadi ISO G1.0, na ilirudi kufanya kazi kabla ya ratiba. Mara ya kwanza katika miaka sita hatukuwa na matatizo yoyote wakati wa kuanza kwa mara ya kwanza.",
+        "name": "R. Kumar",
+        "role": "Msimamizi wa Kiwanda",
+        "company": "Kiwanda cha Sukari na Co-Gen",
+        "location": "Uttar Pradesh",
+        "service": "Ukarabati wa Turbine",
+        "detail": "Triveni 12 MW · Kusimama Kulikopangwa"
+      },
+      {
+        "quote": "Tulikuwa na kushindwa kwa dharura kwa bearing ya babbitt kwenye turbine yetu ya Belliss & Morcom saa nane usiku wakati wa kilele cha msimu wa kusaga. Keshav Enterprises walikuwa na mhandisi eneo la kazi kabla ya asubuhi na bearing mbadala tayari. Muda wa kusimama ulikuwa chini ya masaa 14 — hiyo ilituokoa mamilioni ya rupia katika hasara za miwa.",
+        "name": "A. Singh",
+        "role": "Mkuu wa Matengenezo",
+        "company": "Kiwanda cha Sukari",
+        "location": "Haryana",
+        "service": "Mwitikio wa Dharura ya Kusimama",
+        "detail": "Belliss & Morcom · Kushindwa kwa Bearing"
+      },
+      {
+        "quote": "Vipuri vya OEM kwa turbine yetu ya Belliss & Morcom yenye umri wa miaka 28 vilikuwa na muda wa miezi 18. Keshav walifanya uhandisi wa kinyume wa mhimili wa rota na pete za labyrinth ndani ya wiki 6 na vyeti kamili vya PMI. Ubora haukutofautiana na wa OEM.",
+        "name": "V. Sharma",
+        "role": "Mhandisi Mkuu",
+        "company": "Kiwanda cha Karatasi na Umeme",
+        "location": "Punjab",
+        "service": "Uhandisi wa Kinyume",
+        "detail": "Belliss & Morcom · Vipuri Visivyozalishwa Tena"
+      },
+      {
+        "quote": "Baada ya Keshav kusawazisha kwa mzunguko rota ya turbine yetu ya BHEL 3 MW, mtetemo wa mabaki ulishuka kutoka 9.2 mm/s hadi 0.8 mm/s — ndani kabisa ya ISO G1.0. Rota hiyo ilikuwa ikisababisha uchakavu wa bearing kila miezi 8. Sasa tumefikia miezi 26 bila kubadilisha bearing. Ripoti ya uwiano iliwaridhisha wakaguzi wetu wa bima.",
+        "name": "P. Reddy",
+        "role": "Mhandisi wa Vyombo na Matengenezo",
+        "company": "Kituo cha Umeme cha Ndani",
+        "location": "Telangana",
+        "service": "Uwiano wa Mzunguko",
+        "detail": "BHEL 3 MW · Uzingatiaji wa ISO G1.0"
+      }
+    ]
+  },
+  "capabilities": {
+    "heading": "Uwezo wa Utengenezaji na Kiufundi",
+    "items": [
+      {
+        "iconName": "Zap",
+        "text": "Muda mfupi wa utoaji kuliko kununua kutoka OEM — Triveni, Siemens, BHEL"
+      },
+      {
+        "iconName": "Layers",
+        "text": "Uboreshaji wa malighafi: Duplex, Incoloy, Inconel, Titanium, Hastelloy"
+      },
+      {
+        "iconName": "Activity",
+        "text": "Uwiano wa mzunguko wa ISO/API uwezo wa kilo 50–2,000"
+      },
+      {
+        "iconName": "Wind",
+        "text": "Bellows za upanuzi maalum DN 15–12,000, hadi barg 150"
+      },
+      {
+        "iconName": "Droplets",
+        "text": "Vichujio kulingana na viwango vya ISO 16889, API 614, ASME na EN"
+      },
+      {
+        "iconName": "Cpu",
+        "text": "Mifumo ya mafuta ya kulainisha kulingana na uainishaji wa usafi wa ISO 4406:99"
+      }
+    ]
+  },
+  "projectsTeaser": {
+    "eyebrow": "Matokeo ya Uwanjani Yaliyoandikwa",
+    "heading": "Miradi na Masomo ya Kesi",
+    "viewAllProjects": "Tazama Miradi Yote",
+    "readCaseStudy": "Soma Somo la Kesi",
+    "seeAllProjectsPrefix": "Tazama yote",
+    "seeAllProjectsSuffix": "miradi"
+  },
+  "resourceBar": {
+    "blogText": "Makala za kiufundi kutoka kwa timu yetu ya uhandisi",
+    "downloadsText": "Orodha za ukaguzi za ukarabati bila malipo, fomu za ombi la bei na karatasi za data"
+  },
+  "finalCta": {
+    "heading": "Pata Bei ya Kiufundi. Kila Saa ya Kusimama Ina Gharama.",
+    "subheading": "Wahandisi wetu hujibu na jibu la kiufundi ndani ya masaa 24 kwa kazi zilizopangwa — na ndani ya saa moja kwa dharura — kwa sababu upatikanaji wa kiwanda chako ndio faida yako.",
+    "plannedTitle": "Ukarabati Uliopangwa au Ombi la Bei",
+    "plannedDesc": "Matengenezo yaliyopangwa, ununuzi wa vipuri, utoaji wa viungo vya upanuzi, au maagizo ya vichujio. Shiriki mahitaji yako na upate bei ya kiufundi ya kina.",
+    "plannedSendBtn": "Tuma Mahitaji Yako",
+    "plannedEmailBtn": "Tuma Barua Pepe kwa Timu Yetu ya Uhandisi",
+    "emergencyTitle": "Dharura ya Kusimama — Sasa Hivi",
+    "emergencyDesc": "Turbine imesimama? Mtetemo wa juu? Kusimama bila kutarajiwa? Wahandisi wetu wanapatikana saa 24×7. Piga simu au WhatsApp mara moja — kila saa ya kusimama ina gharama.",
+    "emergencyCallPrefix": "Piga Sasa —",
+    "emergencyWhatsappBtn": "WhatsApp Dharura",
+    "riskReversal": [
+      "Hakuna wajibu — tunatuma jibu la kiufundi, wewe unaamua hatua inayofuata",
+      "Ombi la bei ni siri — maelezo ya kiwanda chako hayafiki kwa wawakilishi wa OEM",
+      "Mhandisi anajibu, si kituo cha simu",
+      "Mwitikio wa masaa 24 uliopangwa · saa 1 kwa dharura"
+    ]
+  },
+  "whatsappEmergencyMessage": "Habari KESHAV ENTERPRISES, tuna dharura ya kusimama. Tafadhali tusaidie mara moja."
+}

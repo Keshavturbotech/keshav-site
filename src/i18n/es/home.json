@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Keshav Enterprises — Revisión General y Repuestos de Turbinas de Vapor, Shamli UP India",
+    "description": "Ingenieros ex-OEM de turbinas de vapor de Triveni, Siemens, BHEL. Revisión general, ingeniería inversa, equilibrado dinámico, lavado de aceite lubricante y repuestos compatibles con OEM para turbinas de 5 kW–60 MW. Con sede en Shamli, UP. Soporte de emergencia 24×7.",
+    "keywords": "mantenimiento de turbinas India, revisión general de turbinas de vapor, ingeniería inversa de turbinas, repuestos industriales para turbinas, elementos filtrantes de aceite lubricante, juntas de expansión India, servicio de turbinas Triveni, repuestos de turbinas BHEL, montaje de turbinas Uttar Pradesh, ingeniería Shamli"
+  },
+  "hero": {
+    "badgeMakeInIndia": "Make In India",
+    "badgeVocalForLocal": "Vocal For Local",
+    "badgeIndiaMartLabel": "Verificado por IndiaMART",
+    "badgeIndiaMartRatingSuffix": "CALIFICACIÓN",
+    "h1Line1": "Ingeniería de Precisión para",
+    "h1Line2": "el Máximo Tiempo de Actividad.",
+    "capabilityLine": "Turbinas de vapor de 5 kW a 60 MW — de contrapresión y de condensación, horizontales y verticales, de una y varias etapas. Servimos a clientes en toda la India y en todo el mundo.",
+    "introText": "Ingenieros ex-OEM de Triveni, Siemens, BHEL y 7 marcas más. Ponemos su turbina de nuevo en marcha más rápido que el abastecimiento OEM, con certificados PMI completos, informes de equilibrado ISO y un historial sin penalizaciones desde {founded}.",
+    "ctaPrimary": "Envíenos Sus Requisitos",
+    "ctaEmergency": "Avería de Emergencia",
+    "trustYearsOverhauls": "{years}+ años · 500+ revisiones generales",
+    "trustPmi": "Repuestos certificados PMI",
+    "trustResponse": "Respuesta media: 2 h",
+    "proofCards": [
+      {
+        "label": "Sin Curva de Aprendizaje",
+        "title": "Ingenieros Ex-OEM",
+        "sub": "Nuestro equipo ha trabajado dentro de Triveni, Siemens, BHEL y Belliss — la misma experiencia, entregada en su planta."
+      },
+      {
+        "label": "Cada Trabajo Documentado",
+        "title": "Informe en la Entrega",
+        "sub": "Certificados PMI, informes de equilibrado, registros de alineación, informes de estado — entregados al finalizar el trabajo."
+      },
+      {
+        "label": "Cuando Cada Minuto Cuenta",
+        "title": "Emergencia 24×7",
+        "sub": "Ingenieros en múltiples ubicaciones por toda la India. Llámenos a las 2 de la madrugada — alguien responde."
+      }
+    ]
+  },
+  "oemMarquee": {
+    "heading": "Compatible con OEM y de Confianza para Líderes de la Industria"
+  },
+  "stats": {
+    "overhauls": {
+      "label": "Revisiones Generales Completadas",
+      "sub": "Plantas de azúcar, energía, papel y cemento por toda la India"
+    },
+    "years": {
+      "label": "Años en Servicio",
+      "sub": "Operación continua desde {founded} — sin cambios de propiedad"
+    },
+    "penaltyClaims": {
+      "label": "Reclamaciones por Penalización",
+      "sub": "Cero en {years} años — referencias de clientes disponibles a petición"
+    },
+    "emergency": {
+      "label": "Respuesta de Emergencia",
+      "sub": "Ingenieros en múltiples ubicaciones — despacho medio en menos de 4 h"
+    }
+  },
+  "featuredProducts": {
+    "heading": "Productos de Ingeniería Destacados",
+    "scrollLeftLabel": "Desplazar a la izquierda",
+    "scrollRightLabel": "Desplazar a la derecha",
+    "dragToExplore": "arrastre para explorar",
+    "viewCompleteCatalog": "Ver Catálogo Completo",
+    "viewDetails": "Ver Detalles",
+    "swipeToBrowse": "Deslice para navegar"
+  },
+  "servicesPreview": {
+    "eyebrow": "Ciclo de Vida Integral de la Turbina",
+    "heading": "Servicios Técnicos",
+    "subheading": "Los mismos ingenieros ex-OEM gestionan su revisión general, sus repuestos y su emergencia a las 2 de la madrugada — sin subcontratación, sin traspasos.",
+    "painLines": {
+      "srv_2": "¿Cansado de proveedores que llegan mal equipados y no entregan ningún informe de trabajo?",
+      "srv_3": "¿El OEM cotizó meses para un repuesto que ya no está en producción?",
+      "srv_4": "¿Vibración recurrente tras la alineación y el cambio de cojinetes — sin resolver la causa raíz?"
+    },
+    "viewFullDetails": "Ver Detalles Completos",
+    "viewAllServices": "Ver los 8 Servicios"
+  },
+  "testimonials": {
+    "eyebrow": "Opiniones de Clientes",
+    "heading": "De Confianza para Jefes de Planta en Toda la India",
+    "googleRatingLabel": "+ reseñas verificadas en Google",
+    "disclaimer": "Las citas provienen de registros de proyectos finalizados y se abrevian a iniciales en espera del consentimiento por escrito para atribución completa. Para calificaciones verificadas de forma independiente, consulte nuestras reseñas de Google arriba.",
+    "footerCtaPrefix": "¿Trabajó con nosotros?",
+    "footerCtaLink": "Deje una reseña en Google — ayuda a otros jefes de planta a encontrarnos →",
+    "googleReviewBadge": "Reseña de Google",
+    "items": [
+      {
+        "quote": "Sus ingenieros ex-Triveni gestionaron la revisión general de nuestra turbina Triveni de 12 MW durante la parada anual — todas las holguras documentadas, rotor equilibrado a ISO G1.0 y de nuevo en marcha antes de lo previsto. Primera vez en seis años sin problemas en el primer arranque.",
+        "name": "R. Kumar",
+        "role": "Jefe de Planta",
+        "company": "Ingenio Azucarero y Cogeneración",
+        "location": "Uttar Pradesh",
+        "service": "Revisión General de Turbinas",
+        "detail": "12 MW Triveni · Parada Programada"
+      },
+      {
+        "quote": "Tuvimos un fallo crítico de cojinete babbitt en nuestra turbina Belliss & Morcom a las 2 de la madrugada en plena temporada de molienda. Keshav Enterprises tuvo un ingeniero en planta por la mañana con el cojinete de repuesto listo. El tiempo de parada fue inferior a 14 horas — eso nos ahorró crores en pérdidas de caña.",
+        "name": "A. Singh",
+        "role": "Jefe de Mantenimiento",
+        "company": "Ingenio Azucarero",
+        "location": "Haryana",
+        "service": "Respuesta a Avería de Emergencia",
+        "detail": "Belliss & Morcom · Fallo de Cojinete"
+      },
+      {
+        "quote": "Los repuestos OEM para nuestra turbina Belliss & Morcom de 28 años tenían plazos de 18 meses. Keshav aplicó ingeniería inversa al eje del rotor y los anillos laberínticos en 6 semanas con certificados PMI completos. La calidad era indistinguible de la OEM.",
+        "name": "V. Sharma",
+        "role": "Ingeniero Jefe",
+        "company": "Fábrica de Papel y Planta de Energía",
+        "location": "Punjab",
+        "service": "Ingeniería Inversa",
+        "detail": "Belliss & Morcom · Repuestos Obsoletos"
+      },
+      {
+        "quote": "Después de que Keshav equilibrara dinámicamente el rotor de nuestra turbina BHEL de 3 MW, la vibración residual bajó de 9,2 mm/s a 0,8 mm/s — bien dentro de ISO G1.0. El rotor había estado causando desgaste de cojinetes cada 8 meses. Ahora llevamos 26 meses sin cambio de cojinetes. El informe de equilibrado satisfizo a nuestros auditores de seguros.",
+        "name": "P. Reddy",
+        "role": "Ingeniero de Instrumentación y Mantenimiento",
+        "company": "Planta de Energía Cautiva",
+        "location": "Telangana",
+        "service": "Equilibrado Dinámico",
+        "detail": "3 MW BHEL · Cumplimiento ISO G1.0"
+      }
+    ]
+  },
+  "capabilities": {
+    "heading": "Capacidades de Fabricación y Técnicas",
+    "items": [
+      {
+        "iconName": "Zap",
+        "text": "Plazos más rápidos que el abastecimiento OEM — Triveni, Siemens, BHEL"
+      },
+      {
+        "iconName": "Layers",
+        "text": "Mejoras de material: Duplex, Incoloy, Inconel, Titanio, Hastelloy"
+      },
+      {
+        "iconName": "Activity",
+        "text": "Equilibrado dinámico ISO/API con capacidad de 50–2.000 kg"
+      },
+      {
+        "iconName": "Wind",
+        "text": "Fuelles de expansión personalizados DN 15–12.000, hasta 150 barg"
+      },
+      {
+        "iconName": "Droplets",
+        "text": "Elementos filtrantes según normas ISO 16889, API 614, ASME y EN"
+      },
+      {
+        "iconName": "Cpu",
+        "text": "Sistemas de aceite lubricante según clasificación de limpieza ISO 4406:99"
+      }
+    ]
+  },
+  "projectsTeaser": {
+    "eyebrow": "Resultados de Campo Documentados",
+    "heading": "Proyectos y Casos de Estudio",
+    "viewAllProjects": "Ver Todos los Proyectos",
+    "readCaseStudy": "Leer Caso de Estudio",
+    "seeAllProjectsPrefix": "Ver todos los",
+    "seeAllProjectsSuffix": "proyectos"
+  },
+  "resourceBar": {
+    "blogText": "Artículos técnicos de nuestro equipo de ingeniería",
+    "downloadsText": "Listas de verificación de revisión gratuitas, plantillas RFQ y fichas técnicas"
+  },
+  "finalCta": {
+    "heading": "Obtenga una Cotización Técnica. Cada Hora Fuera de Línea Tiene un Costo.",
+    "subheading": "Nuestros ingenieros responden con una respuesta técnica en 24 horas para trabajos programados — y en menos de una hora para averías — porque la disponibilidad de su planta es su resultado final.",
+    "plannedTitle": "Revisión Programada o RFQ",
+    "plannedDesc": "Mantenimiento programado, adquisición de repuestos, suministro de juntas de expansión o pedidos de elementos filtrantes. Comparta sus requisitos y obtenga una cotización técnica detallada.",
+    "plannedSendBtn": "Envíenos Sus Requisitos",
+    "plannedEmailBtn": "Envíe un Correo a Nuestro Equipo de Ingeniería",
+    "emergencyTitle": "Avería de Emergencia — Ahora Mismo",
+    "emergencyDesc": "¿Turbina disparada? ¿Vibración alta? ¿Parada inesperada? Nuestros ingenieros están disponibles 24×7. Llame o escriba por WhatsApp de inmediato — cada hora fuera de línea tiene un costo.",
+    "emergencyCallPrefix": "Llame Ahora —",
+    "emergencyWhatsappBtn": "WhatsApp de Emergencia",
+    "riskReversal": [
+      "Sin compromiso — enviamos una respuesta técnica, usted decide qué sigue",
+      "RFQ confidencial — los detalles de su planta nunca llegan a los representantes OEM",
+      "Responde un ingeniero, no un centro de llamadas",
+      "Respuesta programada en 24 horas · emergencia en 1 hora"
+    ]
+  },
+  "whatsappEmergencyMessage": "Hola KESHAV ENTERPRISES, tenemos una avería de emergencia. Por favor, ayúdennos de inmediato."
+}

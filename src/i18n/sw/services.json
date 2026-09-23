@@ -1,0 +1,157 @@
+{
+  "srv_1": {
+    "id": "srv_1",
+    "image": "service-turbine-erection.webp",
+    "title": "Uwekaji na Uanzishaji wa Turbine",
+    "desc": "Uwekaji na uanzishaji wa kitaalamu kwa turbine za mvuke, pampu, compressors, feni, condensers, korongo za EOT, na kazi ya mabomba ya mvuke/maji/hewa. Inajumuisha uratibu kamili wa OEM na nyaraka.",
+    "details": [
+      "Turbine za mvuke, pampu, compressors, feni, condensers",
+      "Korongo za EOT, muundo wa chuma na kazi ya mabomba",
+      "Usimamizi wa ujenzi kulingana na vipimo vya OEM na viwango vinavyotumika",
+      "Uratibu na OEM katika hatua zote",
+      "Nyaraka kamili kwa ajili ya makabidhiano kwa uendeshaji",
+      "Utengenezaji na utekelezaji wa taratibu za kabla ya uanzishaji",
+      "Msaada wa kuanzisha na kurekebisha kulingana na mahitaji ya uendeshaji"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "Belliss India",
+      "Maxwatt"
+    ],
+    "slug": "turbine-erection-and-commissioning"
+  },
+  "srv_2": {
+    "id": "srv_2",
+    "image": "service-overhauling.webp",
+    "title": "Ukarabati na Matengenezo ya Huduma Kamili",
+    "desc": "Inatekelezwa na wahandisi wenye uzoefu wa zamani wa OEM kutoka Triveni, Siemens, BHEL, Belliss, na wengine. Inajumuisha upangaji kabla ya kusimama, uripoti wa hali eneo la kazi, usimamizi kamili wa vipuri, na utatuzi wa dharura wa saa 24/7.",
+    "details": [
+      "Upangaji kabla ya kusimama na wigo wa kina wa vifaa vinavyozunguka",
+      "Ukaguzi wa eneo la kazi wa vipuri vilivyohifadhiwa na ripoti za upungufu",
+      "Wahandisi wenye uzoefu wa OEM: Triveni, Belliss, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
+      "Nafasi zote za kiufundi, mapengo na vipimo hupimwa na kurekodiwa",
+      "Ripoti ya hali na mapendekezo kwa kila kipengele",
+      "Msingi wa huduma kamili: vifaa, zana, vitu vinavyotumika na wafanyakazi hutolewa",
+      "Mwitikio wa dharura wa saa 24/7 na wahandisi katika maeneo mengi"
+    ],
+    "oems": [
+      "Triveni",
+      "Belliss India",
+      "Maxwatt",
+      "Man Turbo",
+      "BHEL",
+      "Siemens",
+      "KKK",
+      "ABB"
+    ],
+    "slug": "turnkey-overhauling-and-maintenance"
+  },
+  "srv_3": {
+    "id": "srv_3",
+    "image": "service-reverse-engineering.webp",
+    "title": "Uhandisi wa Kinyume wa Usahihi",
+    "desc": "Uhandisi wa kinyume ulioidhinishwa na PMI ukitumia visomaji vya leza vya 3D, CMM, na mashine za kunakili kwa turbine kutoka 5 kW hadi 60 MW. Kutengeneza michoro kamili ya utengenezaji yenye mipaka, umbo la mzunguko sawa (concentricity), na vipimo vya matibabu ya joto kabla/baada.",
+    "details": [
+      "Kisomaji cha Leza cha 3D, CMM na Mashine ya Kupima Kuratibu eneo la kazi/karakhana",
+      "Upimaji wa PMI kwa utambuzi sahihi wa muundo wa malighafi",
+      "Mashine ya kunakili kwa unakili sahihi wa vipimo",
+      "Michoro ya uhandisi yenye mipaka, umaliziaji, usawa (parallelity), na concentricity",
+      "Vipimo vya matibabu ya joto kabla/baada vimejumuishwa",
+      "Michoro ya kukata ghafi, kabla ya mwisho, na ya mwisho",
+      "Inajumuisha turbine kutoka 5 kW hadi 60 MW (Shinikizo la Nyuma au Condensing)",
+      "Hatua moja/nyingi, Drive au Power, Mlalo au Wima"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "All Makes"
+    ],
+    "slug": "precision-reverse-engineering"
+  },
+  "srv_4": {
+    "id": "srv_4",
+    "image": "service-dynamic-balancing.webp",
+    "title": "Uwiano wa Mzunguko na Ukataji wa Rota",
+    "desc": "Ukataji sahihi wa rota (kusaga, kung'arisha, kupunguza ukubwa wa journal) katika mashine zetu za karakhana, pamoja na uwiano wa mzunguko wa kiwango cha ISO/API kutoka kilo 50 hadi 2000 na uripoti kamili wa uzingatiaji.",
+    "details": [
+      "Kusaga na kung'arisha journal kwa mbinu ya kupunguza ukubwa kidogo",
+      "Ukataji wa sehemu ya labyrinth kwenye mashine sahihi",
+      "Rota huwekwa sawa kwenye sehemu zote kabla ya kukata",
+      "Uwiano wa mzunguko wa kilo 50-2000 kulingana na viwango vya ISO/API",
+      "Mashine za uwiano zenye mifumo ya kisasa ya ufuatiliaji wa mtetemo",
+      "Utambuzi wa run-out ya kimitambo na kielektroniki kabla ya uwekaji",
+      "Ripoti kamili ya uwiano inayoonyesha uzingatiaji wa ISO/API"
+    ],
+    "oems": [
+      "All Turbine Makes"
+    ],
+    "slug": "dynamic-balancing-and-rotor-machining"
+  },
+  "srv_5": {
+    "id": "srv_5",
+    "image": "service-lube-oil-flushing.webp",
+    "title": "Usafishaji wa Mafuta ya Kulainisha",
+    "desc": "Usafishaji unaokidhi ISO ukitumia mifumo maalum ya kichujio cha sentrifiuji unaotembea. Hufikia usafi wa hali ya juu na uondoaji wa maji baada ya ujenzi au wakati wa matengenezo yaliyopangwa.",
+    "details": [
+      "Mfumo maalum wa kichujio cha sentrifiuji unaotembea",
+      "Hulenga usafi wa mfumo kulingana na viwango vya ISO 4406:99",
+      "Sampuli za mafuta na uripoti hufanywa kulingana na viwango vya ISO",
+      "Ufanisi kwa baada ya ujenzi na matengenezo yaliyopangwa",
+      "Uondoaji bora wa maji na uchafuzi",
+      "Uondoaji wa chembe ngumu kutoka mikroni 4 hadi 25",
+      "Viwango vya mtiririko wa mfumo hushughulikiwa hadi lita 6,000/dakika"
+    ],
+    "oems": [
+      "All Systems"
+    ],
+    "slug": "lube-oil-flushing"
+  },
+  "srv_6": {
+    "id": "srv_6",
+    "image": "service-machine-alignment.webp",
+    "title": "Upatanishi wa Mitambo",
+    "desc": "Upatanishi wa mitambo wa kitaalamu ukitumia teknolojia ya kisasa zaidi kuondoa upatanishaji mbaya, mojawapo ya sababu kuu za kushindwa kwa vifaa. Inajumuisha turbine, gearbox, pampu, feni, alternators, na jenereta za induction.",
+    "details": [
+      "Upatanishi wa turbine kwa gearbox na gearbox kwa gearbox ya kinu",
+      "Upatanishi wa feni, pampu, alternator, jenereta ya induction",
+      "Upimaji wa usawa wa mitambo na mkazo wa mabomba katika ukubwa wowote wa fremu",
+      "Upatanishi wa fiberizor, kipondaji",
+      "Teknolojia ya kisasa zaidi ya upatanishi kwa viwango vya juu kabisa",
+      "Uripoti wa kina wa upatanishi wenye matokeo sahihi",
+      "Inajumuisha mashine ya ukubwa wowote wa fremu mahali popote"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "machine-alignment"
+  },
+  "srv_7": {
+    "id": "srv_7",
+    "image": "service-troubleshooting.webp",
+    "title": "Huduma ya Utatuzi wa Matatizo",
+    "desc": "Uchunguzi wa haraka wa hitilafu eneo la kazi kwa turbine za mvuke zinazopata mtetemo, kushindwa kwa bearing, kutokuwa thabiti kwa governor, uvujaji wa mvuke, uchafuzi wa mafuta, au kusimama bila kutarajiwa. Wahandisi wenye uzoefu wa OEM huenda eneo la kazi na vifaa kamili vya uchunguzi kwa ajili ya kutambua chanzo cha tatizo na hatua za kurekebisha.",
+    "details": [
+      "Mtetemo wa juu — utambuzi wa kukosa uwiano, upatanishaji mbaya, uchakavu wa bearing, msuguano",
+      "Uchunguzi wa kuyumba kwa governor, kutokuwa thabiti kwa kasi na kusimama kwa kasi kupita kiasi",
+      "Uchafuzi wa mafuta ya bearing — uchambuzi wa seal ya pete ya kaboni na mfumo wa kulainisha",
+      "Uvujaji wa gland ya mvuke — matatizo ya seal ya labyrinth, upakiaji na shinikizo la mvuke la gland",
+      "Uchambuzi wa uchafu kwenye vile, mmomonyoko na upotevu wa ufanisi wa njia ya mvuke",
+      "Uchunguzi wa kusimama bila kutarajiwa — hitilafu za shinikizo la mafuta, joto na mfumo wa udhibiti",
+      "Uwekaji wa dharura wa saa 24/7 kote India na vifaa vyote vya uchunguzi"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "Belliss India",
+      "Maxwatt",
+      "Man Turbo",
+      "KKK",
+      "ABB"
+    ],
+    "slug": "troubleshooting-service"
+  }
+}

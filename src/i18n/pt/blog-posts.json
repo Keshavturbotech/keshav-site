@@ -1,0 +1,581 @@
+{
+  "post_1": {
+    "id": "post_1",
+    "slug": "steam-turbine-overhauling-checklist",
+    "title": "O Checklist Completo de Revisão Geral de Turbinas a Vapor para Engenheiros de Planta",
+    "excerpt": "Um checklist prático, passo a passo, cobrindo planejamento pré-parada, protocolos de inspeção, registro de folgas e comissionamento pós-revisão geral para turbinas a vapor de até 60 MW.",
+    "date": "2026-03-15",
+    "author": "Equipe de Engenharia da Keshav Enterprises",
+    "readTime": "8 min de leitura",
+    "tags": [
+      "Revisão Geral",
+      "Turbinas a Vapor",
+      "Manutenção"
+    ],
+    "coverImage": "blog-turbine-overhaul.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Por Que um Checklist Estruturado Importa"
+      },
+      {
+        "type": "p",
+        "text": "Paradas não programadas de turbinas custam lakhs de rúpias por hora a usinas de energia e açúcar indianas. Um checklist de revisão geral estruturado garante que nada seja esquecido durante as janelas de manutenção programada — reduzindo o risco de falha precoce após o recomissionamento e evitando paradas repetidas custosas."
+      },
+      {
+        "type": "h2",
+        "text": "1. Planejamento Pré-Parada (4–6 Semanas Antes)"
+      },
+      {
+        "type": "p",
+        "text": "Comece com um escopo de trabalho detalhado cobrindo todo o equipamento rotativo do trem. Inspecione todas as peças de reposição em estoque e gere um relatório de faltas. Solicite itens críticos — mancais, selos, gaxetas labirinto, anéis de carbono — com prazo de entrega adequado. Providencie ferramentas especializadas: laser de alinhamento, analisador de vibração, relógios comparadores e calibradores de folga."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Confirmar dados de folga OEM para todos os estágios da turbina",
+          "Providenciar equipamento de lavagem de óleo lubrificante (unidade de filtro centrífugo móvel)",
+          "Reservar engenheiros ex-OEM se necessário para revisão geral maior",
+          "Preparar leituras de referência de monitoramento de condição (vibração, temperatura, pressão)"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "2. Parada e Isolamento"
+      },
+      {
+        "type": "p",
+        "text": "Siga o procedimento de parada especificado pelo OEM. Permita tempo de resfriamento adequado antes de abrir quaisquer flanges. Bloqueie e sinalize todas as fontes de energia, incluindo vapor, óleo lubrificante, condensado e ar de controle. Drene completamente o sistema de óleo lubrificante antes da desmontagem."
+      },
+      {
+        "type": "h2",
+        "text": "3. Desmontagem e Inspeção"
+      },
+      {
+        "type": "p",
+        "text": "Registre todas as folgas, vãos e ajustes antes de remover componentes — são essenciais para comparação com a especificação OEM e para detectar tendências de desgaste. Fotografe cada estágio. Meça o desvio do rotor no munhão, colar de encosto e faces de acoplamento."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Folgas de mancais (radiais e axiais)",
+          "Folgas diametrais do selo labirinto",
+          "Desvio e angularidade do alinhamento do acoplamento",
+          "Condição da face do anel de carbono e tensão da mola",
+          "Condição do bocal e diafragma e dimensões da garganta",
+          "Condição do assento e disco da válvula de parada de emergência"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "4. Reparos e Substituições em Oficina"
+      },
+      {
+        "type": "p",
+        "text": "Envie o rotor para retífica de munhão e balanceamento dinâmico se as leituras de desvio ou vibração estiverem fora da tolerância. Substitua anéis de gaxeta de carbono e grafite, gaxetas labirinto e mancais babbitt conforme o relatório de condição. Todo balanceamento de rotor deve ser realizado conforme as normas ISO 1940 ou API 670."
+      },
+      {
+        "type": "h2",
+        "text": "5. Remontagem e Alinhamento"
+      },
+      {
+        "type": "p",
+        "text": "Remonte na ordem inversa com juntas novas e torque de fixadores conforme especificações OEM. Realize o alinhamento final do rotor usando equipamento de alinhamento a laser — turbina para caixa de engrenagens e caixa de engrenagens para gerador. Registre todas as folgas pós-montagem e confirme que estão dentro da tolerância OEM."
+      },
+      {
+        "type": "h2",
+        "text": "6. Lavagem de Óleo Lubrificante"
+      },
+      {
+        "type": "p",
+        "text": "Antes do comissionamento, lave o sistema de óleo lubrificante com um sistema de filtro centrífugo móvel visando a classe de limpeza ISO 4406:99 16/14/11 ou melhor. Colete amostras de óleo antes e depois da lavagem e retenha os relatórios. Nunca comissione uma turbina sem concluir uma lavagem de óleo — falhas de mancais por óleo contaminado representam uma parcela significativa das falhas pós-revisão geral."
+      },
+      {
+        "type": "h2",
+        "text": "7. Comissionamento e Primeira Operação"
+      },
+      {
+        "type": "p",
+        "text": "Siga o procedimento pré-comissionamento do OEM passo a passo. Monitore continuamente vibração, temperaturas de mancais e pressão de óleo lubrificante durante a primeira partida. Confirme a operação da válvula de parada de emergência e do regulador. Ajuste finamente o alinhamento se os níveis de vibração estiverem elevados. Documente todas as leituras de comissionamento para o registro de manutenção da planta."
+      },
+      {
+        "type": "cta",
+        "text": "Precisa de engenheiros especialistas em revisão geral para sua próxima parada programada? Nossa equipe ex-OEM cobre Triveni, Siemens, BHEL, Belliss & Morcom e mais."
+      }
+    ]
+  },
+  "post_2": {
+    "id": "post_2",
+    "slug": "lube-oil-contamination-turbine-bearings",
+    "title": "Como a Contaminação do Óleo Lubrificante Destrói os Mancais de Turbina — E Como Preveni-la",
+    "excerpt": "Entrada de água, partículas sólidas e oxidação são as três principais causas de falha prematura de mancais de turbina. Veja como identificar cada tipo de contaminação e quais produtos de filtração usar para prevenir danos.",
+    "date": "2026-02-28",
+    "author": "Equipe de Engenharia da Keshav Enterprises",
+    "readTime": "6 min de leitura",
+    "tags": [
+      "Óleo Lubrificante",
+      "Mancais",
+      "Filtração",
+      "Manutenção Preventiva"
+    ],
+    "coverImage": "blog-lube-oil.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "O Assassino Oculto de Mancais"
+      },
+      {
+        "type": "p",
+        "text": "Mancais babbitt de turbina são componentes de precisão que operam sobre um filme de óleo hidrodinâmico de apenas alguns mícrons de espessura. Qualquer contaminação do sistema de óleo lubrificante — partículas sólidas, água ou óleo degradado — destrói esse filme, levando ao contato metal-metal direto e desgaste acelerado. Estudos mostram que mais de 70% das falhas de mancais de turbina estão relacionadas à lubrificação."
+      },
+      {
+        "type": "h2",
+        "text": "Tipo de Contaminação 1: Partículas Sólidas"
+      },
+      {
+        "type": "p",
+        "text": "Partículas acima de 10 mícrons podem riscar as superfícies dos mancais. Partículas na faixa de 1–10 mícrons são as mais danosas — entram na folga do filme de óleo e causam abrasão de três corpos. As fontes incluem detritos pós-construção, partículas de desgaste de engrenagens e sujeira que entra pelos respiros do tanque."
+      },
+      {
+        "type": "p",
+        "text": "Solução: instale elementos filtrantes de óleo lubrificante de alta eficiência (ISO 16889, razão beta ≥200 a 10 mícrons) na carcaça do filtro principal. Use elementos filtrantes de respiro do tanque (fibra de vidro 3 VL) para evitar a ingestão de partículas transportadas pelo ar. Limpeza-alvo do sistema: ISO 4406:99 Classe 16/14/11 ou melhor para mancais de turbina."
+      },
+      {
+        "type": "h2",
+        "text": "Tipo de Contaminação 2: Entrada de Água"
+      },
+      {
+        "type": "p",
+        "text": "Água no óleo lubrificante causa fragilização por hidrogênio do babbitt, promove oxidação e favorece o crescimento bacteriano. Mesmo 200 ppm de água livre reduzem significativamente a resistência do filme de óleo. As fontes incluem vazamentos de gaxeta de vapor, condensação no tanque e falhas nos tubos do resfriador."
+      },
+      {
+        "type": "p",
+        "text": "Solução: instale elementos filtrantes offline WaterSorp na linha de retorno de fluxo lateral. Esses elementos de dupla função removem simultaneamente partículas sólidas e absorvem água livre e emulsionada. Amostragem regular de óleo (mensal) conforme normas ISO detectará água precocemente."
+      },
+      {
+        "type": "h2",
+        "text": "Tipo de Contaminação 3: Oxidação e Degradação do Óleo"
+      },
+      {
+        "type": "p",
+        "text": "Altas temperaturas de operação e a presença de catalisadores metálicos fazem o óleo de turbina oxidar, formando depósitos de verniz e subprodutos ácidos. Esses depósitos entopem os elementos filtrantes, aderem às superfícies dos mancais e aceleram o desgaste."
+      },
+      {
+        "type": "p",
+        "text": "Solução: monitore as tendências do número de acidez (AN) e viscosidade. A filtração offline WaterSorp prolonga a vida do óleo removendo a água e as partículas que catalisam a oxidação. Planeje as trocas de óleo antes que o número de acidez exceda os limites OEM."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Verifique a pressão diferencial do filtro semanalmente — substitua o elemento a 3,5–4 bar ΔP",
+          "Inspecione o filtro de respiro do tanque mensalmente",
+          "Realize amostragem de óleo a cada 30 dias e acompanhe a tendência dos resultados",
+          "Instale elementos WaterSorp se contaminação por água for detectada",
+          "Lave o sistema com filtro centrífugo móvel após qualquer reparo maior"
+        ]
+      },
+      {
+        "type": "cta",
+        "text": "Fornecemos elementos filtrantes de óleo lubrificante conforme ISO 16889, compatíveis com Triveni, Siemens, BHEL e todas as principais marcas de turbinas. Solicite uma cotação pelo WhatsApp."
+      }
+    ]
+  },
+  "post_3": {
+    "id": "post_3",
+    "slug": "reverse-engineering-turbine-spares-india",
+    "title": "Engenharia Reversa de Peças de Turbina: Como Recriamos Componentes Obsoletos na Índia",
+    "excerpt": "Quando peças OEM não estão disponíveis, têm prazos de 18 meses ou preços proibitivos, a engenharia reversa oferece uma alternativa confiável. Este é o processo passo a passo que usamos na Keshav Enterprises.",
+    "date": "2026-01-20",
+    "author": "Equipe de Engenharia da Keshav Enterprises",
+    "readTime": "7 min de leitura",
+    "tags": [
+      "Engenharia Reversa",
+      "Peças de Turbina",
+      "Fabricação",
+      "Escaneamento 3D"
+    ],
+    "coverImage": "blog-reverse-engineering.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Por Que Aplicar Engenharia Reversa em Peças de Turbina?"
+      },
+      {
+        "type": "p",
+        "text": "Muitas plantas industriais indianas operam turbinas com 20 a 40 anos de idade. Fabricantes de equipamento original descontinuaram certos modelos, se fundiram com outras empresas ou simplesmente pararam de estocar peças para máquinas mais antigas. Prazos de entrega de componentes usinados de OEMs estrangeiros costumam superar 12–18 meses — inaceitável quando uma usina de açúcar tem uma safra fixa ou uma usina de energia tem multa contratual por cada dia parada."
+      },
+      {
+        "type": "h2",
+        "text": "Etapa 1: Aquisição do Componente e Avaliação Inicial"
+      },
+      {
+        "type": "p",
+        "text": "Começamos com o próprio componente desgastado ou quebrado — ou a peça de acoplamento se o original estiver além de medição. O componente é limpo e avaliado visualmente para determinar quais superfícies ainda são mensuráveis e quais foram degradadas por desgaste ou dano."
+      },
+      {
+        "type": "h2",
+        "text": "Etapa 2: Escaneamento a Laser 3D e Medição MMC"
+      },
+      {
+        "type": "p",
+        "text": "Para perfis complexos — pás de rotor, blocos de bocal, diafragmas, componentes do regulador — usamos um scanner a laser 3D para capturar a geometria completa como uma nuvem de pontos. Para peças mais simples e rotacionalmente simétricas — carcaças de mancal de munhão, ranhuras de anel labirinto, anéis de vedação — uma máquina de medição por coordenadas (MMC) captura dimensões críticas com precisão em nível de mícron."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Todas as dimensões críticas registradas com tolerâncias",
+          "Concentricidade e paralelismo das faces de acoplamento verificados",
+          "Formas de rosca, profundidades de rasgo de chaveta e ajustes por interferência medidos",
+          "Especificações de acabamento superficial anotadas onde mensuráveis"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Etapa 3: Teste de Material PMI"
+      },
+      {
+        "type": "p",
+        "text": "A Identificação Positiva de Material (PMI) usando fluorescência de raios X (XRF) portátil ou espectrometria de emissão óptica identifica a composição exata da liga do componente original. Isso é crítico — um eixo de rotor em aço 12% Cr se comporta de forma muito diferente de um eixo 1% Cr-Mo. Errar o material significa que a peça de engenharia reversa falhará prematuramente."
+      },
+      {
+        "type": "h2",
+        "text": "Etapa 4: Geração de Desenho de Engenharia"
+      },
+      {
+        "type": "p",
+        "text": "A partir dos dados de escaneamento, medições MMC e resultados de testes de material, nossos engenheiros geram um desenho de fabricação completo. Isso inclui todas as dimensões com tolerâncias, especificações de acabamento superficial, procedimentos de tratamento térmico pré e pós, especificação de material e requisitos de inspeção."
+      },
+      {
+        "type": "h2",
+        "text": "Etapa 5: Usinagem e Controle de Qualidade"
+      },
+      {
+        "type": "p",
+        "text": "A usinagem é realizada em três estágios: usinagem grosseira até dimensões quase finais, tratamento térmico se necessário (alívio de tensões, têmpera e revenimento, nitretação) e usinagem de precisão final. Cada estágio é inspecionado em relação ao desenho de engenharia. Rotores são balanceados dinamicamente conforme normas ISO 1940 / API 670 antes do envio."
+      },
+      {
+        "type": "h2",
+        "text": "Turbinas que Cobrimos"
+      },
+      {
+        "type": "p",
+        "text": "Já aplicamos engenharia reversa em componentes de turbinas a vapor de 5 kW a 60 MW em todas as principais marcas: Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, Chola Turbo, DLF-Skoda, KKK e ABB. Tanto turbinas de contrapressão quanto de condensação, horizontais e verticais, de estágio único ou múltiplo."
+      },
+      {
+        "type": "cta",
+        "text": "Tem uma peça obsoleta que precisa de engenharia reversa? Envie-nos uma foto e os detalhes da sua turbina pelo WhatsApp — avaliaremos a viabilidade em 24 horas."
+      }
+    ]
+  },
+  "post_4": {
+    "id": "post_4",
+    "slug": "belliss-morcom-turbine-common-faults-india",
+    "title": "Falhas Comuns em Turbinas Belliss & Morcom — Guia de Campo para Plantas Indianas",
+    "excerpt": "Turbinas a vapor Belliss & Morcom são amplamente usadas em usinas de açúcar e plantas de cogeração indianas. Aqui estão as falhas mais comuns que nossos engenheiros ex-OEM encontram e como diagnosticá-las e corrigi-las.",
+    "date": "2026-03-18",
+    "author": "Equipe de Engenharia da Keshav Enterprises",
+    "readTime": "8 min de leitura",
+    "tags": [
+      "Belliss & Morcom",
+      "Diagnóstico de Falhas",
+      "Turbina a Vapor",
+      "Usina de Açúcar"
+    ],
+    "coverImage": "blog-belliss-morcom.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Turbinas Belliss & Morcom (agora Howden) são encontradas em centenas de usinas de açúcar, plantas de cogeração e instalações industriais indianas. Nossos engenheiros trabalham em unidades Belliss há mais de 20 anos em UP, Punjab, Maharashtra e Karnataka. Aqui estão as falhas que encontramos com mais frequência — e a forma correta de diagnosticar e resolver cada uma."
+      },
+      {
+        "type": "h2",
+        "text": "Falha 1: Vibração Alta na Velocidade Operacional"
+      },
+      {
+        "type": "p",
+        "text": "A reclamação mais comum em turbinas Belliss é vibração elevada, tipicamente detectada pelos operadores como ruído aumentado e confirmada por análise de vibração portátil. As principais causas raiz, em ordem de frequência, são: (1) desbalanceamento do rotor por acúmulo de depósitos nas pás, (2) desgaste do mancal de munhão — especialmente após longos períodos entre revisões gerais, e (3) desalinhamento entre a turbina e a caixa de engrenagens devido a tensão de tubulação ou recalque de fundação."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Verifique primeiro as temperaturas dos mancais — temperatura elevada junto com vibração alta quase sempre indica problemas de condição do mancal",
+          "Faça uma leitura de vibração portátil nas quatro carcaças de mancal e compare com a linha de base (1× e 2× a velocidade de operação)",
+          "Se 1× dominante: desbalanceamento ou desalinhamento. Se 2× dominante: folga de mancal ou desalinhamento. Subsíncrono: redemoinho de óleo",
+          "Inspecione o acoplamento quanto a desgaste e montagem correta antes de concluir que o desalinhamento é um problema da turbina"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Falha 2: Caça do Regulador / Instabilidade de Velocidade"
+      },
+      {
+        "type": "p",
+        "text": "Turbinas Belliss usam um regulador centrífugo de esferas voadoras ou regulador hidráulico dependendo do modelo e da idade. A caça de velocidade — sobrepasso cíclico acima e abaixo do ponto de ajuste — é tipicamente causada por: pinos de pivô e esferas voadoras desgastados em reguladores centrífugos, ajuste incorreto de estatismo, histerese do atuador da válvula de controle, ou flutuações de pressão de vapor da caldeira excedendo a autoridade do regulador."
+      },
+      {
+        "type": "p",
+        "text": "Antes de desmontar o regulador, confirme que a pressão de suprimento de vapor está estável. Se a pressão de suprimento estiver flutuando mais de ±0,5 bar, o laço de controle da caldeira é o problema primário — o regulador não consegue compensar grandes oscilações de suprimento. Uma vez confirmada a estabilidade da caldeira, os pinos de pivô e pesos de esferas voadoras do regulador devem ser inspecionados quanto a desgaste e substituídos se as folgas forem excessivas."
+      },
+      {
+        "type": "h2",
+        "text": "Falha 3: Vazamento na Gaxeta de Vapor"
+      },
+      {
+        "type": "p",
+        "text": "Turbinas Belliss usam selos de gaxeta labirinto e sistemas de vapor de vedação para controlar o vazamento nas extremidades do eixo. Vazamento visível de vapor na área da gaxeta em operação normal indica: tiras labirinto desgastadas ou danificadas, ajuste incorreto da pressão de vapor de vedação, ou excentricidade do eixo causando folga desigual ao redor do labirinto."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Meça a excentricidade do eixo na área da gaxeta usando um relógio comparador — se o desvio exceder 0,05 mm, a condição do rotor deve ser avaliada",
+          "Verifique a pressão de vapor de vedação versus condições de saturação — condensação de água na linha de suprimento de vapor de vedação causa erosão severa do labirinto",
+          "A substituição de tiras labirinto é um item de parada planejada — não tente reduzir folgas calçando tiras no local"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Falha 4: Alta Temperatura ou Baixa Pressão de Óleo Lubrificante"
+      },
+      {
+        "type": "p",
+        "text": "Falhas do sistema de óleo lubrificante em turbinas Belliss respondem por mais disparos não planejados do que qualquer outra causa. Alta temperatura do óleo (acima de 55°C na entrada do mancal) geralmente significa que o resfriador de óleo lubrificante está incrustado — limpe a carcaça do resfriador e o feixe de tubos. Disparos por baixa pressão de óleo ocorrem quando a válvula de alívio está ajustada incorretamente, a pressão diferencial do filtro está alta (elemento precisa de substituição), ou a bomba de óleo está desgastada e perdendo eficiência volumétrica."
+      },
+      {
+        "type": "cta",
+        "text": "Precisa dos nossos engenheiros ex-Belliss & Morcom para uma revisão geral, análise de vibração ou diagnóstico de falha de emergência? Contate-nos pelo WhatsApp para resposta no mesmo dia."
+      }
+    ]
+  },
+  "post_5": {
+    "id": "post_5",
+    "slug": "iso-4406-lube-oil-cleanliness-guide",
+    "title": "Como Ler um Relatório de Limpeza de Óleo Lubrificante ISO 4406 — Guia para Engenheiros de Manutenção",
+    "excerpt": "Relatórios de contagem de partículas ISO 4406 de laboratórios de óleo são frequentemente mal interpretados. Este guia explica exatamente o que os números significam, como definir metas de limpeza para sistemas de mancais de turbina e quando agir.",
+    "date": "2026-04-05",
+    "author": "Equipe de Engenharia da Keshav Enterprises",
+    "readTime": "6 min de leitura",
+    "tags": [
+      "Óleo Lubrificante",
+      "ISO 4406",
+      "Filtração",
+      "Manutenção Preditiva"
+    ],
+    "coverImage": "blog-iso-4406.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Todo mês, milhares de relatórios de análise de óleo chegam aos escritórios de manutenção de plantas em toda a Índia — e a maioria é arquivada sem ser compreendida. Os códigos de limpeza ISO 4406 são o número mais acionável desse relatório. Interpretá-los errado custa mancais. Interpretá-los corretamente prolonga a vida da turbina."
+      },
+      {
+        "type": "h2",
+        "text": "O Que Significa um Código ISO 4406?"
+      },
+      {
+        "type": "p",
+        "text": "Um código de limpeza ISO 4406:99 tem três números, por exemplo 18/16/13. Cada número é um \"código de faixa\" representando uma contagem de partículas por mililitro de óleo em três tamanhos de partícula diferentes: 4 µm(c), 6 µm(c) e 14 µm(c). O sufixo \"(c)\" significa que a contagem usa a calibração de contador óptico de partículas conforme ISO 11171 — não compare com relatórios antigos que usavam o método não calibrado."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Código de faixa 14 = 80–160 partículas/mL",
+          "Código de faixa 16 = 320–640 partículas/mL",
+          "Código de faixa 18 = 1.280–2.560 partículas/mL",
+          "Código de faixa 20 = 5.120–10.240 partículas/mL",
+          "Cada nível acima = duplicação do nível de contaminação"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Qual Meta de Limpeza Você Precisa?"
+      },
+      {
+        "type": "p",
+        "text": "Para sistemas de mancal de munhão e óleo lubrificante de turbinas a vapor, a meta é tipicamente ISO 4406:99 Classe 16/14/11 — este é o requisito mínimo na API 614. Muitos OEMs, incluindo Triveni e Siemens, especificam 15/13/10 para turbinas com sistemas de controle hidráulico. Após uma revisão geral maior ou lavagem de óleo lubrificante, o sistema deve atingir 16/14/11 antes da carga de óleo para evitar danos por contaminação de mancais durante a partida."
+      },
+      {
+        "type": "h2",
+        "text": "Quando Você Deve Agir?"
+      },
+      {
+        "type": "p",
+        "text": "Se seu relatório de análise de óleo de rotina mostrar o código de faixa de 6 µm(c) (número do meio) em 17 ou mais — um nível acima da meta — investigue imediatamente. Verifique a pressão diferencial do filtro (substitua se estiver próxima de 3,5–4 bar), inspecione a condição do respiro do tanque e colete amostras da entrada e saída da carcaça do filtro separadamente para localizar onde a contaminação está entrando. Se o relatório de teor de água mostrar mais de 0,1% de água — substitua os elementos filtrantes e programe uma passagem de filtração offline WaterSorp."
+      },
+      {
+        "type": "h2",
+        "text": "O Custo de Ignorar um Código em Deterioração"
+      },
+      {
+        "type": "p",
+        "text": "Partículas na faixa de 4–10 µm são as mais danosas — têm exatamente o tamanho certo para entrar no filme de óleo hidrodinâmico entre um munhão giratório e a superfície de um mancal babbitt e causar abrasão de três corpos. Uma turbina operando com código de limpeza ISO 20/18/15 em vez de 16/14/11 tem aproximadamente 100 vezes mais partículas danosas do que a meta. As superfícies dos mancais se degradam progressivamente e a falha é gradual até que deixa de ser — então se torna uma emergência de 48 horas e uma nova fundição de babbitt."
+      },
+      {
+        "type": "cta",
+        "text": "Fornecemos elementos filtrantes conforme ISO 16889 para todas as principais marcas de turbinas e podemos orientar sobre lavagem de óleo lubrificante para atingir a classe de limpeza correta antes da sua próxima partida. Contate-nos pelo WhatsApp."
+      }
+    ]
+  },
+  "post_6": {
+    "id": "post_6",
+    "slug": "hvac-air-filter-selection-guide-industrial",
+    "title": "Guia de Seleção de Filtros de Ar HVAC para Instalações Industriais — De F5 a F9 e Tudo no Meio",
+    "excerpt": "Filtros de bolsa, painéis plissados, pré-filtros de tela metálica, carvão ativado — escolher o grau errado custa dinheiro e arrisca danos ao equipamento. Este guia explica qual filtro HVAC usar, onde e por quê.",
+    "date": "2026-04-20",
+    "author": "Equipe de Engenharia da Keshav Enterprises",
+    "readTime": "7 min de leitura",
+    "tags": [
+      "HVAC",
+      "Filtração de Ar",
+      "Filtros de UTA",
+      "Manutenção"
+    ],
+    "coverImage": "blog-hvac-filter-selection.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Entre em qualquer planta industrial na Índia — uma usina de açúcar, uma fábrica farmacêutica, uma sala de controle de cimento — e você encontrará unidades tratadoras de ar HVAC (UTAs) mantendo silenciosamente pessoas e equipamentos sensíveis vivos. Vá um pouco mais longe e frequentemente encontrará essas UTAs operando com o grau de filtro errado, uma bolsa entupida substituída pela última vez há dois anos, ou nenhum pré-filtro. Os resultados são previsíveis: painéis DCS cheios de poeira, serpentinas de resfriamento cobertas de feltro cinza e contas de eletricidade 15–20% mais altas do que precisariam ser."
+      },
+      {
+        "type": "h2",
+        "text": "Entendendo as Classes de Eficiência — EN 779 e ISO 16890"
+      },
+      {
+        "type": "p",
+        "text": "Duas normas regem a eficiência de filtros HVAC. A mais antiga, EN 779, usa graus de G1 a F9 — os graus G (grosso) capturam partículas grandes, os graus M (médio) e F (fino) capturam progressivamente partículas menores. A mais nova, ISO 16890, usa classificações baseadas no tamanho da partícula: ePM10, ePM2.5 e ePM1, com eficiência de captura percentual. Se seu fornecedor de filtros cotar apenas um grau EN 779, peça a eficiência ePM1 da ISO 16890 — é o número mais significativo para qualidade do ar."
+      },
+      {
+        "type": "list",
+        "items": [
+          "G1–G4 (ISO Grosso): captura fiapos, fibras, insetos, poeira grande — usado como pré-filtros e em painéis laváveis de tela metálica",
+          "M5–M6 (ISO ePM10 ≥50%): pólen, poeira grossa, areia — adequado para ventilação industrial não crítica",
+          "F7 (ISO ePM1 ≥50%): padrão HVAC geral — o mínimo para escritórios ocupados, salas de controle e UTAs que alimentam equipamentos sensíveis",
+          "F8 (ISO ePM1 ≥70%): suprimento de enfermaria hospitalar, áreas de preparo farmacêutico Grau D",
+          "F9 (ISO ePM1 ≥85%): pré-filtro a montante de HEPA para salas limpas e áreas farmacêuticas críticas"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Etapa 1 — Comece com um Pré-Filtro de Tela Metálica (G1–G3)"
+      },
+      {
+        "type": "p",
+        "text": "Toda UTA em ambiente industrial pesado — usina de cimento, central elétrica, siderúrgica — deve ter um pré-filtro de tela lavável de alumínio ou aço inoxidável no primeiro estágio. Custo: algumas centenas de rúpias. Benefício: o filtro de bolsa ou plissado a jusante dura 2 a 3 vezes mais porque nunca precisa lidar com a carga grossa. Tela de alumínio suporta temperaturas até 150°C; tela de aço inoxidável até 350°C. Limpe com retrossopro de ar comprimido ou água morna a cada 4–6 semanas."
+      },
+      {
+        "type": "h2",
+        "text": "Etapa 2 — Escolha seu Filtro Principal: Bolsa ou Painel Plissado?"
+      },
+      {
+        "type": "p",
+        "text": "Tanto filtros de bolsa quanto filtros de painel plissado estão disponíveis de G4 a F9, mas se adequam a diferentes configurações de UTA. Filtros de bolsa (multi-bolso) têm maior área de mídia e vida útil mais longa em ambientes de alta poeira — os bolsos se estendem para o fluxo de ar, maximizando a área de contato. São a escolha padrão para grandes UTAs industriais, prédios comerciais e hospitais. Filtros de painel plissado são mais compactos (25–96 mm de profundidade contra 600 mm de comprimento de bolso) e rígidos, tornando-os a escolha preferida para unidades fan-coil (FCUs), unidades de ar-condicionado split e UTAs de fluxo de ar vertical onde o espaço é limitado."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Filtro de bolsa: alta carga de poeira, UTA grande, F5–F9, 3.000–5.000 m³/h+ por seção",
+          "Painel plissado (25 mm): substituição de FCU/AC split, G4–F7, fluxo de ar vertical compacto",
+          "Painel plissado (96 mm): UTA de porte médio, F7–F8, construção rígida — sem risco de colapso de bolso",
+          "Painel plissado (292 mm estendido): alta eficiência de estágio final em HVAC farmacêutico, F8–F9"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Etapa 3 — Adicione Carvão Ativado para Controle de Odor"
+      },
+      {
+        "type": "p",
+        "text": "Se sua instalação tem problemas de odor — cozinhas, armazenamento de químicos, oficinas de pintura, gráficas, ou qualquer área com emissões de COV — um filtro de partículas sozinho não resolverá o problema. Carvão ativado (GAC) adsorve odores de cozinha, solventes, sulfeto de hidrogênio, formaldeído e a maioria dos COVs industriais comuns. Em aplicações HVAC, o carvão ativado é tipicamente fornecido como um filtro de painel com um leito de carvão granular de 25–50 mm, ou como um filtro combinado com um pré-filtro de partículas G4 ligado à camada de carvão. O painel de carvão fica após o filtro de partículas no fluxo de ar — colocá-lo primeiro desperdiça a cara capacidade de carvão na carga de poeira."
+      },
+      {
+        "type": "h2",
+        "text": "Como Dimensionar os Intervalos de Substituição de Filtros"
+      },
+      {
+        "type": "p",
+        "text": "A melhor prática única é instalar um manômetro de pressão diferencial (DP) em cada estágio de filtro e substituir a 250 Pa de queda de pressão final — não em cronograma de calendário. A substituição por calendário desperdiça filtros ainda utilizáveis; operar até a falha faz o filtro colapsar ou fazer bypass, contaminando a serpentina da UTA com tudo o que deveria ter capturado. Se manômetros DP não forem práticos, substitua a cada 3 meses em ambientes industriais pesados (cimento, energia, aço), a cada 6 meses em indústria leve, e anualmente em ambientes comerciais limpos — ajustando com base em inspeção visual."
+      },
+      {
+        "type": "cta",
+        "text": "Fornecemos filtros de bolsa HVAC, filtros de painel plissado, pré-filtros de tela metálica e filtros de ventilação de carvão ativado para UTAs industriais e comerciais em toda a Índia. Contate-nos pelo WhatsApp com a marca, modelo e dimensões do chassi da sua UTA para uma cotação de substituição compatível."
+      }
+    ]
+  },
+  "post_7": {
+    "id": "post_7",
+    "slug": "pulse-jet-dust-collector-filter-bag-selection",
+    "title": "Como Selecionar a Manga Filtrante Correta para Coletor de Pó Jato Pulsante — Guia de Mídia, Acabamento e Antiestático para Plantas Indianas",
+    "excerpt": "Escolher a mídia de manga filtrante errada para seu filtro de manga — classificação de temperatura errada, tratamento de superfície errado, ou sem proteção antiestática — custa aos engenheiros de planta semanas de parada e substituições de emergência caras. Aqui está o guia completo de seleção.",
+    "date": "2026-05-01",
+    "author": "Equipe de Engenharia da Keshav Enterprises",
+    "readTime": "8 min de leitura",
+    "tags": [
+      "Coletor de Pó",
+      "Mangas Filtrantes",
+      "Filtro de Manga",
+      "Filtração Industrial",
+      "Cimento",
+      "HVAC"
+    ],
+    "coverImage": "blog-dust-collector-filter-bag.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Os filtros de manga de jato pulsante são os cavalos de batalha do controle de poeira industrial em toda a Índia — usinas de cimento, sistemas de manuseio de carvão, moinhos de grãos, processamento de pó farmacêutico e plantas químicas dependem deles para atender normas de emissão e proteger trabalhadores. No entanto, a seleção de mangas filtrantes de reposição ainda é frequentemente feita por hábito (\"igual à anterior\") em vez de engenharia. Quando a manga \"igual à anterior\" estava errada para a aplicação, o novo conjunto falha tão rápido quanto o anterior."
+      },
+      {
+        "type": "h2",
+        "text": "Etapa 1 — Conheça a Temperatura do seu Gás de Combustão"
+      },
+      {
+        "type": "p",
+        "text": "Temperatura é o parâmetro de seleção mais crítico e a causa mais comum de falha prematura da manga. Cada tipo de mídia tem um limite de temperatura de serviço contínuo e um limite de temperatura de pico (surto). Exceder o limite contínuo em apenas 10–15°C reduz a vida do filtro em 50% ou mais por hidrólise (em gás de combustão úmido) ou oxidação (em gás seco contendo oxigênio)."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Feltro de agulha de poliéster: contínuo 130°C, pico 150°C — poeira industrial geral, aplicações de ambiente a baixa temperatura",
+          "Feltro de polipropileno: contínuo 90°C, pico 110°C — ambientes de gás ácido, plantas químicas (melhor resistência a ácido que poliéster, temperatura mais baixa)",
+          "Aramida / Nomex: contínuo 200°C, pico 220°C — exaustão de forno, usinas de asfalto, forno de vidro, saída de secador",
+          "PPS (Ryton): contínuo 190°C, pico 210°C — combinação ácido + calor (gás de combustão sulfuroso da queima de carvão)",
+          "Fibra de vidro tecida: contínuo 260°C, pico 280°C — farinha crua de forno de cimento, incineração de resíduos, gás de processo de alta temperatura",
+          "Membrana de PTFE sobre qualquer base: mesma classificação de temperatura da mídia base + torta de poeira residual quase zero — máxima eficiência de limpeza"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Etapa 2 — Manga Lisa ou Cartucho Plissado?"
+      },
+      {
+        "type": "p",
+        "text": "Filtros de manga de jato pulsante padrão usam mangas filtrantes cilíndricas — superfície externa lisa — sustentadas em uma gaiola metálica. Esta é a escolha correta para aplicações de alta carga de poeira: cimento, cinza volante, carvão, processamento mineral. A superfície externa lisa permite que o choque de ar comprimido do jato pulsante ejete a torta de poeira eficientemente. Elementos de cartucho plissado — mídia plissada em sanfona ao redor de um núcleo perfurado — fornecem até 5 vezes a área de filtração na mesma pegada de carcaça, mas são mais adequados para cargas de poeira mais leves em aplicações farmacêuticas, alimentícias e químicas leves, onde a maior área de mídia permite menor velocidade frontal e queda de pressão residual muito baixa."
+      },
+      {
+        "type": "h2",
+        "text": "Etapa 3 — Tratamento de Superfície: Liso, Chamuscado, Calandrado ou Membrana de PTFE?"
+      },
+      {
+        "type": "p",
+        "text": "O tratamento da superfície externa de uma manga de feltro agulhado determina quão bem a torta de poeira se solta durante a limpeza por jato pulsante e quanto tempo a manga resiste ao entupimento (obstrução permanente). Feltro liso tem uma superfície de fibra áspera — adequado para poeira grossa, seca e não pegajosa. Feltro chamuscado tem as fibras superficiais removidas termicamente, produzindo uma superfície mais lisa — melhor liberação de torta para a maioria das poeiras industriais. Feltro calandrado (glaseado) é prensado a quente para suavizar e densificar ainda mais a superfície — melhor para poeira fina, coesiva ou levemente pegajosa como pós farmacêuticos ou cimento fino. Membrana de PTFE laminada na superfície externa — a opção premium — fornece filtração de carregamento superficial. A poeira forma uma torta fina sobre o PTFE liso e se solta completamente a cada pulso, mantendo queda de pressão quase inicial durante toda a vida da manga. O desempenho de emissão também é superior, frequentemente atingindo concentrações de poeira de saída de 2–5 mg/Nm³ contra 20–50 mg/Nm³ para feltro liso."
+      },
+      {
+        "type": "h2",
+        "text": "Etapa 4 — Mangas Antiestáticas e Condutoras para Poeira Explosiva"
+      },
+      {
+        "type": "p",
+        "text": "Para aplicações de coletor de pó que lidam com poeira eletricamente resistiva que pode acumular carga estática — carvão, grão, farinha, pós farmacêuticos, pó de polímero — mangas de poliéster padrão são um risco de incêndio e explosão. A torta de poeira em uma manga de poliéster liso pode desenvolver uma descarga estática (faísca) energética o suficiente para incendiar uma nuvem de poeira no plenum de saída. Mangas antiestáticas usam uma de duas abordagens: (1) fibra de carbono misturada na mídia de poliéster — as fibras condutoras dissipam carga continuamente; (2) fibra de aço inoxidável tecida no feltro agulhado em 1–3% em peso — fornece tanto dissipação estática quanto resistência melhorada. Sempre especifique mangas antiestáticas (condutoras) para poeira de carvão, poeira de grão, farinha e qualquer pó com valor Kst acima de zero."
+      },
+      {
+        "type": "h2",
+        "text": "Combinando as Dimensões da Manga com sua Gaiola"
+      },
+      {
+        "type": "p",
+        "text": "Mangas filtrantes de reposição devem corresponder exatamente ao diâmetro e comprimento da gaiola existente — mesmo uma diferença de 5 mm no diâmetro impede a vedação adequada no anel de mola superior. Antes de pedir, meça: diâmetro externo da boca da manga (DE da banda de mola), comprimento da manga da face do anel de mola até o fundo fechado, e o tipo de tampa (anel de mola, banda de mola ou flange). Se a etiqueta original da manga OEM ainda estiver legível, anote o número da peça — isso identifica a geometria exata da gaiola. Se as etiquetas tiverem desaparecido, retire uma gaiola da carcaça, meça-a e forneça essas dimensões com seu pedido."
+      },
+      {
+        "type": "cta",
+        "text": "Fornecemos mangas filtrantes de jato pulsante em graus de poliéster, aramida, PPS, fibra de vidro e membrana de PTFE, junto com elementos de cartucho plissado, para filtros de manga de cimento, energia, farmacêutico e manuseio de grãos em toda a Índia. Envie-nos as dimensões da sua manga e detalhes da aplicação pelo WhatsApp para uma cotação no mesmo dia."
+      }
+    ]
+  }
+}

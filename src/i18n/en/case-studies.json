@@ -1,0 +1,210 @@
+{
+  "cs_01": {
+    "id": "cs_01",
+    "image": "project-triveni-overhaul.webp",
+    "category": "Overhauling",
+    "industry": "Sugar Mill",
+    "title": "Triveni 5 MW Back-Pressure Turbine — Full Overhaul & Rotor Balance",
+    "client": "Confidential — Sugar Mill, Western UP",
+    "year": "2023",
+    "duration": "12 days",
+    "scope": "Complete turnkey overhaul: rotor removal, bearing replacement, labyrinth seal machining, rotor dynamic balancing (ISO 1940 G2.5), lube oil flushing, and commissioning.",
+    "challenge": "The turbine had been running with elevated vibration (>6 mm/s) for two seasons. Bearing housings showed fretting wear and the rotor had a persistent 1× runout that previous maintenance had not resolved.",
+    "solution": "Ex-Triveni OEM engineers disassembled the unit and found a cracked journal on the drive end. The journal was machined undersized, new Babbitt poured and scraped, labyrinths machined in our workshop, and the rotor dynamically balanced to <0.5 g·mm residual imbalance. Post-commissioning vibration: 1.8 mm/s.",
+    "outcomes": [
+      "Vibration reduced from 6.4 mm/s to 1.8 mm/s",
+      "Bearing metal temperature dropped by 14 °C",
+      "Turbine returned to service within the planned 12-day window",
+      "No unplanned trips in the subsequent 12-month operating season"
+    ],
+    "tags": [
+      "Triveni",
+      "Rotor Balancing",
+      "Babbitt Bearings",
+      "Overhaul"
+    ],
+    "categorySlug": "overhauling"
+  },
+  "cs_02": {
+    "id": "cs_02",
+    "image": "project-reverse-engineering.webp",
+    "category": "Reverse Engineering",
+    "industry": "Paper Mill",
+    "title": "Siemens SST-200 Impulse Stage Disc — Reverse Engineering & Manufacture",
+    "client": "Confidential — Paper Mill, Uttarakhand",
+    "year": "2023",
+    "duration": "21 days",
+    "scope": "3D laser scan of damaged impulse disc, PMI material verification, full manufacturing drawing set, and supply of replacement disc machined to drawing.",
+    "challenge": "The OEM quoted a 14-week lead time and €18,000 for a replacement impulse disc. The mill could not afford a 14-week outage with the season approaching.",
+    "solution": "Our team 3D scanned the damaged disc on-site, performed PMI to confirm the alloy (AISI 422 stainless), generated complete manufacturing drawings with all tolerances and heat treatment specs, and had the disc rough-machined, heat-treated, finish-machined, and dynamically balanced in 19 working days.",
+    "outcomes": [
+      "Lead time cut from 14 weeks (OEM) to 21 days",
+      "Cost saving of approximately ₹12 lakh vs. OEM price",
+      "Disc installed without dimensional issues; turbine returned to rated output",
+      "Full drawing package retained for future reorder"
+    ],
+    "tags": [
+      "Siemens",
+      "Reverse Engineering",
+      "3D Scan",
+      "PMI"
+    ],
+    "categorySlug": "reverse-engineering"
+  },
+  "cs_03": {
+    "id": "cs_03",
+    "image": "project-erection-commissioning.webp",
+    "category": "Erection & Commissioning",
+    "industry": "Distillery",
+    "title": "Maxwatt 3.5 MW Co-Gen Turbine — Greenfield Erection & Commissioning",
+    "client": "Confidential — Distillery, Central UP",
+    "year": "2022",
+    "duration": "28 days",
+    "scope": "Complete erection of steam turbine, gearbox, alternator, condenser, lube oil system, and all associated piping and cable work. OEM witness commissioning.",
+    "challenge": "The turbine arrived on-site with incorrect baseframe grouting drawings. Civil work had to be re-assessed and corrected before erection could begin, compressing the available commissioning window.",
+    "solution": "Our site engineers coordinated with the civil contractor to correct the grouting pockets within 48 hours. Turbine, gearbox, and alternator were erected, aligned (shaft alignment to <0.02 mm TIR), and all pre-commissioning checks completed. Synchronisation achieved on the first attempt during OEM witness run.",
+    "outcomes": [
+      "First synchronisation achieved on commissioning day — no punch-list delays",
+      "Shaft alignment achieved at 0.016 mm TIR — within OEM tolerance",
+      "Lube oil flushed to ISO 4406 cleanliness 16/14/11 before first run",
+      "Plant accepted turbine with zero snag items on OEM punch-list"
+    ],
+    "tags": [
+      "Maxwatt",
+      "Erection",
+      "Commissioning",
+      "Alignment"
+    ],
+    "categorySlug": "erection-and-commissioning"
+  },
+  "cs_04": {
+    "id": "cs_04",
+    "image": "project-lube-oil-flushing.webp",
+    "category": "Lube Oil Flushing",
+    "industry": "Power Generation",
+    "title": "BHEL 15 MW Extraction-Condensing Turbine — Post-Overhaul Lube Oil Flush",
+    "client": "Confidential — Independent Power Producer, Rajasthan",
+    "year": "2024",
+    "duration": "5 days",
+    "scope": "Post-overhaul lube oil system flushing using mobile centrifuge filter unit. Target cleanliness: ISO 4406 ≤16/14/11 for main lube oil circuit and ≤15/13/10 for control oil circuit.",
+    "challenge": "The lube oil system had significant metallic contamination from the overhaul. Three previous flush attempts by another contractor failed to achieve target cleanliness on the control oil circuit.",
+    "solution": "We deployed our purpose-built mobile centrifuge flush unit with a dedicated low-volume high-velocity sub-circuit for the control oil ring. By day 3 the main circuit was at 15/13/10 and by day 5 both circuits met their cleanliness targets, confirmed by third-party particle count reports.",
+    "outcomes": [
+      "Main lube oil circuit: ISO 4406 15/13/10 ✓",
+      "Control oil circuit: ISO 4406 14/12/9 ✓ (better than target)",
+      "Both circuits cleared in 5 days vs. the 10-day contingency window",
+      "Turbine cleared for first fire without further delay"
+    ],
+    "tags": [
+      "BHEL",
+      "Lube Oil Flushing",
+      "ISO 4406",
+      "Power Generation"
+    ],
+    "categorySlug": "lube-oil-flushing"
+  },
+  "cs_05": {
+    "id": "cs_05",
+    "image": "project-alignment.webp",
+    "category": "Machine Alignment",
+    "industry": "Steel Plant",
+    "title": "KKK Compressor-Gearbox-Motor Train — Precision Laser Alignment",
+    "client": "Confidential — Steel Plant, Jharkhand",
+    "year": "2024",
+    "duration": "2 days",
+    "scope": "Precision laser alignment of a three-element compressor train (motor–gearbox–compressor) following gearbox replacement. Pipe strain measurement and correction.",
+    "challenge": "The motor was a fixed-speed induction motor with limited shimming access. Pipe strain on the compressor discharge was pulling the casing by 0.04 mm — enough to invalidate the alignment once connected.",
+    "solution": "We performed an uncoupled cold alignment, then measured and documented pipe strain with the discharge line connected. The piping contractor re-supported the discharge spool and the pipe strain dropped to <0.005 mm. Final coupled alignment: angular 0.008 mm/100 mm, offset 0.012 mm — within OEM tolerances.",
+    "outcomes": [
+      "Angular misalignment: 0.008 mm/100 mm (OEM limit 0.02 mm/100 mm)",
+      "Parallel offset: 0.012 mm (OEM limit 0.025 mm)",
+      "Pipe strain corrected — no residual nozzle load on compressor",
+      "Vibration at first start: 1.2 mm/s — well within alarm level"
+    ],
+    "tags": [
+      "KKK",
+      "Laser Alignment",
+      "Compressor",
+      "Steel Plant"
+    ],
+    "categorySlug": "machine-alignment"
+  },
+  "cs_06": {
+    "id": "cs_06",
+    "image": "project-dynamic-balancing.webp",
+    "category": "Dynamic Balancing",
+    "industry": "Cement Plant",
+    "title": "Cement Mill Fan Rotor — Dynamic Balancing & Journal Machining",
+    "client": "Confidential — Cement Plant, Rajasthan",
+    "year": "2023",
+    "duration": "4 days",
+    "scope": "Workshop dynamic balancing of a 680 kg ID fan rotor to ISO 21940-11 G2.5 quality grade, plus journal grinding and polishing on both drive-end and non-drive-end journals.",
+    "challenge": "Rotor arrived with severe cement build-up, journal scoring from collapsed bearing, and a residual imbalance of ~420 g·mm from the field — well outside ISO G2.5 limits for operating speed.",
+    "solution": "Cement deposits cleaned by grit blasting. Both journals ground undersized by 0.10 mm and polished to Ra 0.4 µm. Rotor then balanced in our two-plane dynamic balancing machine (capacity 2000 kg, speed to 1500 RPM). Final residual imbalance: 6 g·mm per plane (ISO G1.0 achieved).",
+    "outcomes": [
+      "Residual imbalance: 6 g·mm/plane — better than G1.0",
+      "Journal surface finish: Ra 0.38 µm both ends",
+      "Vibration at full speed (980 RPM) post-installation: 0.9 mm/s",
+      "Bearing temperatures normalised within 2 hours of first run"
+    ],
+    "tags": [
+      "Dynamic Balancing",
+      "Fan Rotor",
+      "Journal Machining",
+      "Cement"
+    ],
+    "categorySlug": "dynamic-balancing"
+  },
+  "cs_07": {
+    "id": "cs_07",
+    "image": "project-emergency-breakdown.webp",
+    "category": "Emergency Breakdown",
+    "industry": "Sugar Mill",
+    "title": "Belliss & Morcom Turbine — Emergency Babbitt Bearing Failure During Crushing Season",
+    "client": "Confidential — Sugar Mill, Haryana",
+    "year": "2024",
+    "duration": "14 hours downtime",
+    "scope": "Emergency site response, root-cause diagnosis, replacement babbitt bearing manufacture and fit, rotor inspection, and recommissioning within a 14-hour window.",
+    "challenge": "The turbine tripped at 02:00 during peak crushing season due to a babbitt bearing collapse on the non-drive end. The mill was processing 8,000 TCD — every hour offline cost approximately ₹4 lakh in cane losses.",
+    "solution": "Our engineer was dispatched within 90 minutes of the call and reached site by 05:30. Root cause identified: oil starvation from a blocked oil way. Replacement bearing was sourced from workshop stock, rebabbitted and hand-scraped to fit on-site. Rotor journal inspected — no damage. Turbine back on line by 16:00.",
+    "outcomes": [
+      "Total downtime: 14 hours from trip to first steam",
+      "Root cause identified and oil way cleaned — no repeat trip",
+      "Estimated cane loss value prevented: approximately ₹56 lakh",
+      "No damage to rotor journals — saved shaft replacement cost"
+    ],
+    "tags": [
+      "Belliss & Morcom",
+      "Emergency",
+      "Babbitt Bearing",
+      "Sugar Mill"
+    ],
+    "categorySlug": "emergency-breakdown"
+  },
+  "cs_08": {
+    "id": "cs_08",
+    "image": "project-troubleshooting.webp",
+    "category": "Troubleshooting",
+    "industry": "Paper Mill",
+    "title": "BHEL 3 MW Turbine — High Vibration Root-Cause Investigation & Correction",
+    "client": "Confidential — Paper Mill, Punjab",
+    "year": "2024",
+    "duration": "3 days investigation + 8 days correction",
+    "scope": "On-site vibration analysis, rotor-dynamic assessment, root-cause identification, workshop rotor balancing, bearing replacement, and recommissioning.",
+    "challenge": "The 3 MW turbine had been experiencing increasing vibration for 6 months — peaking at 9.2 mm/s on the non-drive-end bearing. Three separate maintenance teams had replaced bearings without resolving the underlying issue.",
+    "solution": "We deployed vibration analysis equipment and captured frequency spectra at all operating speeds. A 1× dominant component persisted through all speeds, confirming rotor mass imbalance rather than bearing or alignment issues. The rotor was removed, journals inspected (light ovality corrected), and balanced to ISO G1.0 in our workshop. Final residual: 4.8 g·mm per plane.",
+    "outcomes": [
+      "Vibration reduced from 9.2 mm/s to 0.8 mm/s at operating speed",
+      "Root cause confirmed: rotor mass eccentricity from a previous botched journal repair",
+      "24+ months operation since recommissioning — no bearing changes",
+      "Full balancing report and vibration spectra provided for insurance file"
+    ],
+    "tags": [
+      "BHEL",
+      "Vibration Analysis",
+      "Dynamic Balancing",
+      "Troubleshooting"
+    ],
+    "categorySlug": "troubleshooting"
+  }
+}

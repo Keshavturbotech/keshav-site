@@ -1,0 +1,30 @@
+{
+  "srv_1": {
+    "scope": "Llave en mano",
+    "turnaround": "Cronograma según el proyecto"
+  },
+  "srv_2": {
+    "scope": "Llave en mano in situ",
+    "turnaround": "Habitualmente 3–21 días"
+  },
+  "srv_3": {
+    "scope": "Taller y en sitio",
+    "turnaround": "7–30 días"
+  },
+  "srv_4": {
+    "scope": "Taller",
+    "turnaround": "Estándar 48–72 h"
+  },
+  "srv_5": {
+    "scope": "Lavado in situ",
+    "turnaround": "2–7 días"
+  },
+  "srv_6": {
+    "scope": "Precisión in situ",
+    "turnaround": "1–3 días"
+  },
+  "srv_7": {
+    "scope": "Diagnóstico in situ",
+    "turnaround": "Informe el mismo día"
+  }
+}

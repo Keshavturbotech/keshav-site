@@ -1,0 +1,142 @@
+{
+  "ind_1": {
+    "id": "ind_1",
+    "title": "Uzalishaji wa Umeme",
+    "iconName": "Zap",
+    "color": "from-yellow-500/20 to-amber-600/10",
+    "border": "border-yellow-500/30",
+    "accent": "text-yellow-500",
+    "image": "industry-power-generation.webp",
+    "desc": "Kutoa huduma muhimu za ukarabati mkubwa na vipuri vinavyoendana na OEM kwa vituo vya umeme vya joto vinavyotumia turbine za mvuke kutoka 5 MW hadi 60 MW. Wahandisi wetu wenye uzoefu wa OEM huhakikisha upatikanaji wa juu wa kituo.",
+    "useCases": [
+      "Ukarabati mkubwa na mdogo wa turbine za mvuke",
+      "Uwekaji na uanzishaji wa turbine",
+      "Usafishaji wa mfumo wa mafuta ya kulainisha kulingana na ISO 4406:99",
+      "Uwiano wa mzunguko na upatanishi wa rota",
+      "Utengenezaji wa valvu za kusimamisha dharura",
+      "Utoaji wa vichujio na vichungi",
+      "Vichujio vya paneli za HVAC kwa vyumba vya udhibiti na majengo ya turbine"
+    ],
+    "turbines": "5 MW – 60 MW",
+    "slug": "power-generation"
+  },
+  "ind_2": {
+    "id": "ind_2",
+    "title": "Viwanda vya Sukari na Vinywaji Vikali",
+    "iconName": "Factory",
+    "color": "from-green-500/20 to-emerald-600/10",
+    "border": "border-green-500/30",
+    "accent": "text-green-500",
+    "image": "industry-sugar-mills.webp",
+    "desc": "Kuhudumia sekta ya sukari ya India kwa huduma maalum za turbine za mvuke za shinikizo la nyuma. Ukarabati mkubwa uliopangwa wakati wa msimu wa mapumziko na msaada wa dharura wakati wa msimu wa kusaga.",
+    "useCases": [
+      "Ukarabati wa turbine za shinikizo la nyuma (kati ya misimu)",
+      "Huduma maalum za turbine za Triveni na Belliss",
+      "Utoaji wa pete za gland za kaboni na grafiti",
+      "Utengenezaji wa upakiaji wa labyrinth",
+      "Utoaji wa bidhaa za uchujaji wa mafuta ya kulainisha",
+      "Msaada wa dharura wa saa 24/7"
+    ],
+    "turbines": "Triveni, Belliss & Morcom, Maxwatt",
+    "slug": "sugar-mills-and-distilleries"
+  },
+  "ind_3": {
+    "id": "ind_3",
+    "title": "Viwanda vya Karatasi na Massa",
+    "iconName": "Layers",
+    "color": "from-blue-500/20 to-cyan-600/10",
+    "border": "border-blue-500/30",
+    "accent": "text-blue-500",
+    "image": "industry-paper-mills.webp",
+    "desc": "Viwanda vya karatasi hutumia turbine za mvuke bila kusimama na vinahitaji matengenezo sahihi ili kudumisha muda wa uendeshaji. Tunatoa ukarabati wa kusimama uliopangwa na vipengele muhimu vya vipuri.",
+    "useCases": [
+      "Upangaji wa matengenezo ya turbine zinazofanya kazi bila kusimama",
+      "Utoaji wa vichujio vya kikapu-mbili kwa mistari ya uchakataji",
+      "Utoaji wa viungo vya upanuzi na bellows",
+      "Utengenezaji wa vipuri vya turbine kulingana na viwango vya OEM",
+      "Huduma za upatanishi wa mitambo",
+      "Utoaji wa vifaa vya ufuatiliaji wa mtetemo"
+    ],
+    "turbines": "Siemens, BHEL, Triveni",
+    "slug": "paper-and-pulp-mills"
+  },
+  "ind_4": {
+    "id": "ind_4",
+    "title": "Viwanda vya Mafuta na Gesi",
+    "iconName": "Droplets",
+    "color": "from-orange-500/20 to-red-600/10",
+    "border": "border-orange-500/30",
+    "accent": "text-orange-500",
+    "image": "industry-oil-gas.webp",
+    "desc": "Vituo vya mafuta na gesi vinahitaji viwango vya juu kabisa vya uhandisi sahihi kwa compressors na pampu zinazoendeshwa na turbine. Bidhaa zetu zinazokidhi API zinakidhi mahitaji makali ya vituo vya uzalishaji na usindikaji.",
+    "useCases": [
+      "Vichujio vya mafuta ya kulainisha vinavyokidhi API 614",
+      "Vipimo vya ufuatiliaji wa mtetemo vinavyokidhi API 670",
+      "Vifaa vya mabomba yaliyofunikwa na PTFE kwa usafirishaji wa kemikali",
+      "Vifaa vya mabomba ya hydraulic ya shinikizo la juu",
+      "Utengenezaji wa bearing za babbitt kwa mifumo ya compressor",
+      "Uwiano wa mzunguko kulingana na ISO 1940/API 670"
+    ],
+    "turbines": "Siemens, Man Turbo, KKK, ABB",
+    "slug": "oil-and-gas-industries"
+  },
+  "ind_5": {
+    "id": "ind_5",
+    "title": "Petrokemikali na Visafishaji",
+    "iconName": "Activity",
+    "color": "from-purple-500/20 to-violet-600/10",
+    "border": "border-purple-500/30",
+    "accent": "text-purple-500",
+    "image": "industry-petrochemical.webp",
+    "desc": "Turbine za petrokemikali na visafishaji hufanya kazi bila kusimama katika mazingira hatarishi — zinahitaji uchujaji wa daraja la API, vifaa vya kupima visivyolipuka, na bidhaa za kuziba zilizoidhinishwa.",
+    "useCases": [
+      "Utoaji wa vichujio na ufuatiliaji unaokidhi API 614/670",
+      "Viungo vya upanuzi vilivyofunikwa na PTFE kwa mistari ya uchakataji wa kemikali",
+      "Vifaa vya mabomba ya hydraulic kwa mifumo ya udhibiti",
+      "Utoaji wa vichujio vya mafuta ya kulainisha kwa turbocompressors",
+      "Utoaji wa seal za turbine na upakiaji wa gland",
+      "Upatanishi wa mitambo kwa mifumo ya compressor na pampu"
+    ],
+    "turbines": "Siemens, Man Turbo, KKK",
+    "slug": "petrochemical-and-refineries"
+  },
+  "ind_6": {
+    "id": "ind_6",
+    "title": "Kilimo na Uchakataji wa Chakula",
+    "iconName": "Wheat",
+    "color": "from-lime-500/20 to-green-600/10",
+    "border": "border-lime-500/30",
+    "accent": "text-lime-600",
+    "image": "industry-agro-food.webp",
+    "desc": "Vituo vya kilimo-viwanda ikiwa ni pamoja na viwanda vya mchele, viwanda vya pamba, na viwanda vya kuchakata chakula hutegemea turbine za mvuke za shinikizo la nyuma kwa umeme na mvuke wa uchakataji. Tunatoa ukarabati wenye gharama nafuu, vipuri, na bidhaa za uchujaji.",
+    "useCases": [
+      "Ukarabati wa turbine za shinikizo la nyuma kwa viwanda vya mchele na viwanda vya pamba",
+      "Utoaji wa vichujio vya mafuta ya kulainisha kwa turbine ndogo za pakiti",
+      "Utoaji wa viungo vya upanuzi kwa mistari ya usambazaji wa mvuke",
+      "Vichujio vya kikapu kwa mistari ya maji ya uchakataji",
+      "Vichujio vya HVAC kwa mazingira ya uzalishaji yenye kiwango cha chakula"
+    ],
+    "turbines": "Triveni, Maxwatt, Chola Turbo",
+    "slug": "agro-and-food-processing"
+  },
+  "ind_7": {
+    "id": "ind_7",
+    "title": "Viwanda vya Saruji na Chuma",
+    "iconName": "Building2",
+    "color": "from-stone-500/20 to-slate-600/10",
+    "border": "border-stone-500/30",
+    "accent": "text-stone-500",
+    "image": "industry-cement-steel.webp",
+    "desc": "Viwanda vya saruji na chuma hutumia turbine kubwa za mvuke za hatua-nyingi na vinahitaji matengenezo ya uaminifu wa hali ya juu bila kuvuruga uzalishaji. Tunatoa huduma za ukarabati zilizopangwa na za dharura.",
+    "useCases": [
+      "Ukarabati wa turbine za mvuke za hatua-nyingi",
+      "Uhandisi wa kinyume wa rota kwa vipuri visivyozalishwa tena",
+      "Uwiano wa mzunguko kulingana na ISO G1.0 kwa rota za mwendo wa kasi",
+      "Utoaji wa vichujio vya kikapu-mbili na vipengele vya kichujio",
+      "Usafishaji wa mafuta ya kulainisha kwa matangi ya ujazo mkubwa",
+      "Upatanishi wa mitambo kwa turbine za fremu kubwa"
+    ],
+    "turbines": "BHEL, Siemens, Man Turbo",
+    "slug": "cement-and-steel-plants"
+  }
+}

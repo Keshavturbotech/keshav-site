@@ -1,0 +1,35 @@
+{
+  "all": {
+    "label": "બધા"
+  },
+  "industrial-filtration": {
+    "label": "ઔદ્યોગિક ફિલ્ટ્રેશન"
+  },
+  "industrial-strainers": {
+    "label": "ઔદ્યોગિક સ્ટ્રેનર્સ"
+  },
+  "expansion-joints": {
+    "label": "એક્સપાન્શન જોઈન્ટ્સ"
+  },
+  "turbine-spares": {
+    "label": "ટર્બાઇન સ્પેર્સ"
+  },
+  "industrial-rubber-products": {
+    "label": "ઔદ્યોગિક રબર ઉત્પાદનો"
+  },
+  "flexible-hoses-and-assemblies": {
+    "label": "ફ્લેક્સિબલ હોસ અને એસેમ્બલી"
+  },
+  "electronic-equipments": {
+    "label": "ઇલેક્ટ્રોનિક સાધનો"
+  },
+  "hydraulic-components": {
+    "label": "હાઇડ્રોલિક ઘટકો"
+  },
+  "hvac-ducting-and-air-filtration": {
+    "label": "HVAC, ડક્ટિંગ અને એર ફિલ્ટ્રેશન"
+  },
+  "valves-gaskets-and-steam-system-products": {
+    "label": "વાલ્વ, ગાસ્કેટ અને સ્ટીમ સિસ્ટમ ઉત્પાદનો"
+  }
+}

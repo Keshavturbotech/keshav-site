@@ -1,0 +1,849 @@
+// src/data/industry-details.ts
+// Ported verbatim from INDUSTRY_DETAILS in App.jsx (line ~22387).
+import { YEARS_IN_BUSINESS } from "./site-config";
+
+export interface IndustryChallenge {
+  title: string;
+  desc: string;
+}
+export interface IndustryDetailProduct {
+  name: string;
+  purpose: string;
+  features: string[];
+}
+export interface IndustryDetail {
+  heroSub: string;
+  overview: string;
+  challenges: IndustryChallenge[];
+  keyFacts: string[];
+  products?: IndustryDetailProduct[];
+  [key: string]: unknown;
+}
+
+export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
+  ind_1: {
+    heroSub: "Steam turbines from 5 MW to 60 MW: thermal, co-gen & captive power",
+    overview: `India's thermal and captive power sector depends on the uninterrupted performance of steam turbines operating under continuous load. Keshav Enterprises has deep OEM-era expertise (our engineers were trained by turbine manufacturers before founding the company), giving us the ability to reverse-engineer, manufacture, and overhaul every major sub-system of a power plant steam turbine to OEM tolerances.`,
+    challenges: [
+      {
+        title: "Continuous High-Load Operation",
+        desc: "Steam turbines in power plants run at 3000–3600 RPM under sustained full-load conditions, placing extreme stress on bearings, seals, and rotating assemblies.",
+      },
+      {
+        title: "Lube Oil Contamination",
+        desc: "Particulate and water ingression into the lube oil system can rapidly degrade bearing surfaces. ISO 4406:99 cleanliness targets must be maintained continuously.",
+      },
+      {
+        title: "Thermal Expansion in Steam Lines",
+        desc: "High-temperature steam piping undergoes significant thermal cycling. Without properly engineered expansion joints, piping stress causes flange leaks and turbine nozzle damage.",
+      },
+      {
+        title: "Rotor Vibration & Balance Drift",
+        desc: "Deposit build-up and erosion cause progressive balance shift in rotors, increasing vibration and accelerating bearing wear if not caught early.",
+      },
+    ],
+    products: [
+      {
+        name: "Lube Oil Filter Elements (180 GPM)",
+        purpose:
+          "Maintains ISO 4406:99 cleanliness in turbine lube oil systems, protecting journal bearings and thrust bearings from abrasive wear.",
+        features: [
+          "Glass fiber fleece VG media, 6–25 µm fineness",
+          "IS27 anti-static spec for synthetic oils",
+          "Triveni, Siemens, BHEL OEM compatible",
+        ],
+      },
+      {
+        name: "Steam Crossover Bellows",
+        purpose:
+          "Absorbs thermal expansion between HP/LP turbine sections and the crossover pipe, eliminating stress transfer to turbine nozzle flanges.",
+        features: [
+          "High-cycle SS bellows, EJMA standard",
+          "Operating temp up to 550°C",
+          "Custom flanged ends to OEM dimensions",
+        ],
+      },
+      {
+        name: "Babbitt Journal & Thrust Bearings",
+        purpose:
+          "White-metal lined bearings precisely machined to OEM profiles for turbine rotors, critical for shaft stability at high speed.",
+        features: [
+          "White metal (Babbitt) poured & precision-machined",
+          "All turbine makes: Triveni, Siemens, BHEL, KKK",
+          "Interference fit verified on CMM",
+        ],
+      },
+      {
+        name: "Emergency Stop Valves",
+        purpose:
+          "Safety-critical valve that trips the turbine on overspeed or lube oil low pressure, manufactured to OEM trip pressure settings.",
+        features: [
+          "CNC machined body from EN8/EN19 forgings",
+          "Spring-loaded trip mechanism",
+          "Tested at 1.5× working pressure before dispatch",
+        ],
+      },
+      {
+        name: "Vibration Monitoring Probes (Shinkawa-compatible)",
+        purpose:
+          "Proximity probes for continuous rotor vibration monitoring per API 670, enabling predictive maintenance before bearing failure occurs.",
+        features: [
+          "Shinkawa, Bently Nevada compatible",
+          "Eddy-current non-contact sensing",
+          "Alert and danger setpoints per API 670",
+        ],
+      },
+      {
+        name: "Turbine Oil Pumps (Main & Aux)",
+        purpose:
+          "Supplies pressurized lube oil to all bearings. Auxiliary pump takes over during run-up and run-down when main shaft-driven pump output is insufficient.",
+        features: [
+          "Gear pump design, fitted to turbine skid",
+          "All major OEM dimensions available",
+          "Relief valve set to OEM pressure specification",
+        ],
+      },
+      {
+        name: "Pleated Panel Air Filters (Control Room & Turbine Hall HVAC)",
+        purpose:
+          "Replacement HVAC filters for power plant control room AHUs, turbine hall ventilation units, and electrical switchgear room air coolers, keeping cooling air clean and protecting sensitive equipment from coal dust and fly ash contamination.",
+        features: [
+          "F7 efficiency to capture fine fly ash and coal dust",
+          "Galvanised steel frame with synthetic media",
+          "Standard AHU sizes stocked; custom on request",
+          "Metallic mesh pre-filter also available for first-stage duty",
+        ],
+      },
+    ],
+    keyFacts: [
+      "60 MW maximum turbine capacity handled",
+      `${YEARS_IN_BUSINESS}+ years OEM-trained engineering experience`,
+      "API 614 & ISO 4406:99 compliant products",
+      "HVAC filter supply for control rooms and turbine halls",
+      "24×7 emergency breakdown support",
+    ],
+  },
+  ind_2: {
+    heroSub: "Back-pressure & extraction-condensing turbines in sugar & distillery co-gen",
+    overview: `India's sugar industry runs intensive 150–180 day crushing seasons where turbine availability is directly tied to cane crushing throughput. Keshav Enterprises specialises in inter-season overhauling for back-pressure turbines (the workhorses of sugar co-generation) and provides 24×7 emergency spares support during the crushing season when shutdowns are most costly.`,
+    challenges: [
+      {
+        title: "Short Inter-Season Overhaul Window",
+        desc: "Turbines must be completely overhauled, parts replaced, and commissioned before the next crushing season starts, often a window of just 90–120 days.",
+      },
+      {
+        title: "Carbon & Gland Seal Wear",
+        desc: "Back-pressure turbines use carbon gland rings to prevent steam leakage. These wear continuously and require accurate replacement at every overhaul.",
+      },
+      {
+        title: "Molasses & Juice Contamination",
+        desc: "Process areas generate sticky airborne particulates. Breather filters and strainers on lube oil systems must be maintained to prevent contamination.",
+      },
+      {
+        title: "Emergency Season Breakdowns",
+        desc: "A turbine trip during peak crushing causes immediate cane pile-up. Emergency spares and rapid response can mean the difference between a 4-hour and 4-day stoppage.",
+      },
+    ],
+    products: [
+      {
+        name: "Carbon & Graphite Gland Sealing Rings",
+        purpose:
+          "Prevents steam leakage past the turbine shaft at gland areas. Precision-machined to OEM shaft and housing dimensions.",
+        features: [
+          "High-purity carbon/graphite grades",
+          "All turbine makes: Triveni, Belliss & Morcom, Maxwatt",
+          "Machined in-house to ±0.01 mm tolerance",
+        ],
+      },
+      {
+        name: "Labyrinth Sealing Packings",
+        purpose:
+          "Inter-stage and shaft-end labyrinth seals that reduce steam leakage between turbine stages, directly improving thermal efficiency.",
+        features: [
+          "SS, brass or monel material options",
+          "OEM tooth profile maintained",
+          "New or repaired strips fitted to existing housings",
+        ],
+      },
+      {
+        name: "Lube Oil Filter Elements (Triveni-compatible)",
+        purpose:
+          "Ensures clean lube oil supply to turbine bearings throughout the crushing season, preventing bearing failures during critical production periods.",
+        features: [
+          "180 GPM flow rating",
+          "IS27 anti-static specification",
+          "Inter-season replacement recommended",
+        ],
+      },
+      {
+        name: "Air Breather Filters",
+        purpose:
+          "Protects the lube oil reservoir from airborne dust and sugar particulates, critical in sugar mill environments where ambient dust loading is extreme.",
+        features: [
+          "Fine-mesh desiccant breather design",
+          "Prevents moisture and dust ingression",
+          "Visual saturation indicator",
+        ],
+      },
+      {
+        name: "Simplex & Duplex Basket Strainers",
+        purpose:
+          "Installed in lube oil and cooling water circuits to catch debris before it reaches bearings and heat exchangers.",
+        features: [
+          "SS mesh baskets, cleanable and reusable",
+          "ANSI flanged or screwed ends",
+          "Duplex for zero-downtime strainer cleaning",
+        ],
+      },
+      {
+        name: "Rotor Balancing Service",
+        purpose:
+          "Dynamic balancing of turbine rotors after re-blading or bearing replacement, restoring smooth operation within ISO 1940 G1.0 specification.",
+        features: [
+          "Dynamic balancing to ISO 1940/1 G1.0",
+          "Two-plane balancing on all rotor types",
+          "Balance certificate issued with job report",
+        ],
+      },
+    ],
+    keyFacts: [
+      "Triveni & Belliss turbine specialist services",
+      "24×7 emergency season support",
+      "All carbon/graphite grades machined in-house",
+      "Inter-season overhauls completed within window",
+    ],
+  },
+  ind_3: {
+    heroSub: "Continuous-run turbines, expansion joints & process filtration for paper mills",
+    overview: `Paper and pulp mills operate steam turbines around the clock, 350+ days per year, making planned maintenance windows extremely tight. The process also involves corrosive bleach, hot water, and high-pressure steam, all demanding filtration and sealing products rated for aggressive media. Keshav Enterprises supplies the complete range of products needed to keep paper mill steam and process systems running.`,
+    challenges: [
+      {
+        title: "Minimal Downtime Windows",
+        desc: "A paper machine shutdown costs lakhs per hour. Turbine overhauls must be planned months ahead and executed with zero rework: every component must be right the first time.",
+      },
+      {
+        title: "Corrosive Process Media",
+        desc: "Bleach, chlorinated compounds, and caustic process fluids attack standard materials. Filtration and hose products must use compatible media and seals.",
+      },
+      {
+        title: "High-Temperature Steam Piping",
+        desc: "Paper mill boilers generate high-pressure steam at 250–400°C. Steam piping expansion joints must handle both high temperature and cycle fatigue.",
+      },
+      {
+        title: "Vibration from Paper Machines",
+        desc: "High-speed paper machines generate continuous broadband vibration. Anti-vibration mounts and flexible hose connections are essential to isolate equipment.",
+      },
+    ],
+    products: [
+      {
+        name: "Duplex Basket Strainers",
+        purpose:
+          "Installed on process water, white water, and cooling water lines. Duplex design allows basket cleaning without stopping flow, critical in continuous-run plants.",
+        features: [
+          "SS316 baskets for corrosive media",
+          "Plug cock bypass valve included",
+          "ANSI 150 to 600 flange ratings available",
+        ],
+      },
+      {
+        name: "SS Metallic Bellows Expansion Joints",
+        purpose:
+          "Absorbs thermal expansion in high-pressure steam piping, pulp process lines, and bleach plant piping without transferring stress to equipment nozzles.",
+        features: [
+          "SS316L bellows for corrosion resistance",
+          "DN15 to DN1200 range",
+          "EJMA design standard, pressure tested",
+        ],
+      },
+      {
+        name: "Rubber Expansion Joints (Double-Arch)",
+        purpose:
+          "Provides flexible connection on pump suction and discharge in water treatment, white water, and effluent systems, isolating pump vibration from piping.",
+        features: [
+          "Natural rubber or EPDM tube options",
+          "PN10/16 flanged ends",
+          "Up to 150°C service temperature",
+        ],
+      },
+      {
+        name: "PTFE-Lined Hose Assemblies",
+        purpose:
+          "Chemical transfer hoses for bleach, caustic, and acid lines in the bleach plant: PTFE lining provides total resistance to aggressive process chemicals.",
+        features: [
+          "PTFE inner core, SS braid reinforcement",
+          "Full vacuum rated",
+          "EN14420-compliant end fittings",
+        ],
+      },
+      {
+        name: "Custom Extruded Rubber Profiles & Seals",
+        purpose:
+          "Custom extruded rubber damping strips and profiles fitted under paper machine drives, pumps, and turbine pedestals to isolate and dampen machinery vibration transmitted to the building structure.",
+        features: [
+          "EPDM, Neoprene, Nitrile, or Natural Rubber compound",
+          "Custom cross-section extruded to drawing or sample",
+          "Hardness range 40-80 Shore A per application",
+        ],
+      },
+      {
+        name: "Turbine Spares (Siemens, BHEL, Triveni)",
+        purpose:
+          "OEM-equivalent turbine spares manufactured from certified materials for planned overhaul kits: nozzles, diaphragms, gland rings, and bearing housings.",
+        features: [
+          "Reverse-engineered from OEM drawings",
+          "Material certificates supplied",
+          "CMM dimensional inspection report",
+        ],
+      },
+    ],
+    keyFacts: [
+      "350+ days per year continuous operation supported",
+      "SS316L products for corrosive media",
+      "Zero-downtime duplex strainer solutions",
+      "Complete overhaul kits planned and supplied",
+    ],
+  },
+  ind_4: {
+    heroSub:
+      "API 614-compliant filtration, Babbitt bearings & precision hose for oil & gas facilities",
+    overview: `Upstream, midstream, and downstream oil and gas facilities operate turbine-driven compressors and pumps under some of the harshest conditions in industry. Every component in the lube oil and control oil system must meet API standards. Keshav Enterprises supplies API 614-compliant filter elements, Babbitt bearings, and precision-engineered hose assemblies qualified for use in hazardous-area equipment.`,
+    challenges: [
+      {
+        title: "API 614 Lube Oil System Compliance",
+        desc: "All lube oil system components for turbine-driven equipment in oil and gas must comply with API 614, specifying materials, cleanliness, and pressure ratings.",
+      },
+      {
+        title: "Hazardous Area Filtration",
+        desc: "Synthetic control oils in turbine control systems have low conductivity. Filter elements must carry IS27 anti-static specification to prevent electrostatic discharge.",
+      },
+      {
+        title: "High-Pressure Hose Integrity",
+        desc: "Hydraulic and instrument hose assemblies in oil and gas carry pressures up to 420 bar. Failure means spill and fire risk: zero compromise on quality or certification.",
+      },
+      {
+        title: "Remote Location Rapid Supply",
+        desc: "Offshore platforms and remote upstream facilities need fast spares supply. Critical spares held in stock and dispatched same day on emergency orders.",
+      },
+    ],
+    products: [
+      {
+        name: "Control Oil Filter Elements (IS27 Anti-Static)",
+        purpose:
+          "For turbine electro-hydraulic control (EHC) systems using synthetic phosphate-ester or ester-based control oils with conductivity below 300 pS/m.",
+        features: [
+          "IS27 anti-static certification",
+          "Microglass VG media, 3–25 µm",
+          "Siemens, Man Turbo, KKK compatible",
+        ],
+      },
+      {
+        name: "Babbitt Bearing Manufacturing",
+        purpose:
+          "Journal and thrust bearings for turbine-driven compressors and pumps, white-metal lined to precise profiles matching the original OEM bearing geometry.",
+        features: [
+          "White metal composition per ASTM B23",
+          "Precision-bored to <0.01 mm tolerance",
+          "All makes: Man Turbo, KKK, Siemens, ABB",
+        ],
+      },
+      {
+        name: "PTFE-Lined Hose Assemblies",
+        purpose:
+          "Chemical and instrumentation hose for aggressive fluid transfer in oil and gas processing: resistant to crude oil, H2S, methanol, and inhibitors.",
+        features: [
+          "PTFE core, SS316 braid or stainless overbraid",
+          "Pressure rated to 420 bar (selected assemblies)",
+          "BS EN ISO 10380 compliant assemblies available",
+        ],
+      },
+      {
+        name: "Hydraulic Rubber Hose Assemblies",
+        purpose:
+          "High-pressure hydraulic hose for control actuators, BOP systems, and hydraulic power units on drilling and processing equipment.",
+        features: [
+          "4-wire and 6-wire spiral construction",
+          "Working pressure up to 400 bar",
+          "Parker, Gates, Manuli-compatible fittings",
+        ],
+      },
+      {
+        name: "Duplex Fabricated Filter Housings",
+        purpose:
+          "Custom-fabricated duplex filter vessels for lube oil and control oil systems, ASME code stamped for compliance with API 614 vessels requirements.",
+        features: [
+          "ASME Sec. VIII Div. 1 code stamped",
+          "Material: CS, SS304, SS316 per service",
+          "PED/CE certified for export projects",
+        ],
+      },
+      {
+        name: "Vibration Monitoring Probes",
+        purpose:
+          "Proximity probes and monitoring systems compatible with API 670 turbomachinery protection systems for compressor and turbine trains.",
+        features: [
+          "Bently Nevada, Shinkawa-compatible",
+          "IP67 rated probe housing",
+          "Alert and danger relay outputs",
+        ],
+      },
+    ],
+    keyFacts: [
+      "API 614 & IS27 compliant products",
+      "Babbitt bearings for all major OEMs",
+      "Same-day emergency dispatch available",
+      "ASME code-stamped pressure vessels",
+    ],
+  },
+  ind_5: {
+    heroSub:
+      "Metallic expansion joints, high-temp strainers & precision spares for refineries & petrochemical plants",
+    overview: `Refineries and petrochemical complexes handle hydrocarbons, acids, and aggressive chemicals at extreme temperatures and pressures. Metallic expansion joints, process strainers, and precision turbine spares must withstand thermal cycling, corrosive media, and high-cycle fatigue. Keshav Enterprises manufactures these products to EJMA, ASME, and API standards for the most demanding refinery applications.`,
+    challenges: [
+      {
+        title: "Extreme Temperature Cycling",
+        desc: "Refinery steam cracking and distillation columns cycle between ambient and 600°C+ service temperatures. Expansion joints must survive millions of flex cycles without fatigue failure.",
+      },
+      {
+        title: "Corrosive & Hydrogen-Rich Media",
+        desc: "H2S, HF, amine solvents, and hydrogen service require Inconel, Hastelloy, or duplex stainless bellows, because standard SS304/316 is insufficient.",
+      },
+      {
+        title: "ASME & API Code Compliance",
+        desc: "Pressure vessels, piping, and bellows in refineries must comply with ASME Sec. VIII and API codes. Third-party inspection and material traceability are mandatory.",
+      },
+      {
+        title: "FCCU Catalyst Erosion",
+        desc: "Fluid Catalytic Cracking Units carry entrained catalyst particles at 700°C+. Expansion joints in regenerator and reactor lines face extreme erosion and thermal shock.",
+      },
+    ],
+    products: [
+      {
+        name: "Thick Wall Heavy-Duty Expansion Joint",
+        purpose:
+          "Reinforced thick-wall bellows for the extreme service conditions of regenerator-reactor transfer lines: high temperature, high pressure, and heavy mechanical/thermal stress.",
+        features: [
+          "Thick/reinforced wall construction for maximum pressure and stress resistance",
+          "Minimal deformation under extreme pressure and temperature cycles",
+          "Materials: SS 316/321, Duplex, Inconel, Hastelloy options",
+        ],
+      },
+      {
+        name: "Axial & Universal Metallic Expansion Joints",
+        purpose:
+          "Standard process line bellows for absorbing thermal expansion in crude oil, product, and steam piping throughout the refinery complex.",
+        features: [
+          "DN15 to DN12,000 manufacturing range",
+          "SS316L, Inconel, Hastelloy, Duplex SS grades",
+          "ASME Sec. VIII Div. 1 design code",
+        ],
+      },
+      {
+        name: "High-Pressure Simplex & Duplex Strainers",
+        purpose:
+          "In-line strainers on crude oil charge lines, product transfer lines, and compressor suction piping to protect equipment from scale and debris.",
+        features: [
+          "ASME pressure vessel code design",
+          "Perforated plate + mesh basket construction",
+          "PN40 to PN160 pressure classes available",
+        ],
+      },
+      {
+        name: "Cryogenic LNG / LPG Expansion Joint",
+        purpose:
+          "Cryogenic-rated metallic expansion joint for very low-temperature liquefied gas piping: LNG/LPG transfer lines, cryogenic storage terminals, and ship loading headers.",
+        features: [
+          "Engineered for cryogenic duty down to LNG service temperature ranges",
+          "Low-temperature material selection for toughness and fatigue resistance",
+          "Austenitic SS and cryogenic-grade alloy options, full material traceability",
+        ],
+      },
+      {
+        name: "Turbine Steam Path Components",
+        purpose:
+          "Nozzle blocks, diaphragms, and blade carriers for turbine-driven compressor drives, manufactured from alloy steel to OEM profiles.",
+        features: [
+          "CNC machined from certified forgings",
+          "Material: Cr-Mo alloy steel, 17-4PH SS",
+          "Profile verified by 3D CMM measurement",
+        ],
+      },
+      {
+        name: "Pressure-Balanced Expansion Joints",
+        purpose:
+          "Eliminates pressure thrust forces on sensitive equipment nozzles in high-pressure refinery service, protecting compressor and pump flanges.",
+        features: [
+          "Tie-rod eliminated pressure thrust design",
+          "Reduces nozzle loads to near zero",
+          "Available in tied and untied configurations",
+        ],
+      },
+    ],
+    keyFacts: [
+      "Inconel, Hastelloy & duplex SS bellows",
+      "EJMA 10th edition design standard",
+      "ASME code pressure vessels & bellows",
+      "FCCU and extreme service specialists",
+    ],
+  },
+  ind_6: {
+    heroSub: "Steam turbine co-gen, filtration & rubber products for agro-processing facilities",
+    overview: `Agro-processing (from rice milling and solvent extraction to dairy and food manufacturing) increasingly uses captive steam co-generation to reduce energy costs. These facilities need reliable turbine maintenance, food-grade hose and filter products, and vibration isolation solutions for sensitive processing machinery. Keshav Enterprises provides the full range of products and services needed across the agro-industrial sector.`,
+    challenges: [
+      {
+        title: "Food-Grade Material Requirements",
+        desc: "Hose, seals, and filtration in food contact areas must use FDA-approved materials: PTFE, food-grade EPDM, and stainless steel with polished surfaces.",
+      },
+      {
+        title: "Seasonal Load Variation",
+        desc: "Agro co-gen turbines see wide load variation with crop seasons. This leads to faster blade erosion and thermal cycling fatigue than in constant-load power plants.",
+      },
+      {
+        title: "Tank Breathing Contamination",
+        desc: "Edible oil storage tanks must be protected from airborne dust and moisture through the breather path: contamination affects product quality and shelf life.",
+      },
+      {
+        title: "Machinery Vibration in Food Plants",
+        desc: "Hammer mills, centrifuges, and packaging machinery transmit vibration to floors and adjacent equipment. Isolation is required to maintain hygienic connections.",
+      },
+    ],
+    products: [
+      {
+        name: "FDA-Grade PTFE Hose Assemblies",
+        purpose:
+          "Flexible hose for food-grade fluid transfer: CIP/SIP chemical circulation, product lines, and steam injection in food-grade environments.",
+        features: [
+          "PTFE inner core, FDA 21 CFR 177.1550 compliant",
+          "Electro-polished SS316 end fittings",
+          "Tri-clover (sanitary) end connections available",
+        ],
+      },
+      {
+        name: "Air Breather & Tank Breather Filters",
+        purpose:
+          "Protects edible oil storage tanks from dust and moisture ingression through the vent path, preventing contamination of stored product.",
+        features: [
+          "Desiccant silica gel + fine particulate media",
+          "Visual saturation colour indicator",
+          "Replacement cartridge design for easy servicing",
+        ],
+      },
+      {
+        name: "Y-Type & Conical Strainers",
+        purpose:
+          "Inline strainers on process fluid lines, pump suction, and boiler feed water systems, protecting equipment from scale and process debris.",
+        features: [
+          "SS mesh basket, mesh size 40 to 400 µm",
+          "Screwed or flanged connections",
+          "Simple inline cleanout without line break",
+        ],
+      },
+      {
+        name: "Custom Extruded Rubber Profiles & Seals",
+        purpose:
+          "Custom extruded rubber damping strips isolate vibration from hammer mills, centrifuges, compressors, and packaging machinery, protecting both the machine and adjacent food processing areas.",
+        features: [
+          "EPDM, Neoprene, Nitrile, or Natural Rubber compound options",
+          "Custom cross-section extruded to drawing or sample",
+          "Available with pressure-sensitive adhesive backing",
+        ],
+      },
+      {
+        name: "Rubber Expansion Joints (Single-Arch)",
+        purpose:
+          "Flexible pump connector on cooling water, chilled water, and process water circuits, absorbing pump vibration and thermal movement.",
+        features: [
+          "EPDM or natural rubber tube",
+          "PN10/16 flanged, also screwed ends",
+          "Working temperature –20°C to +130°C",
+        ],
+      },
+      {
+        name: "Steam Turbine Maintenance (Triveni, Maxwatt)",
+        purpose:
+          "Planned overhaul of agro co-gen back-pressure steam turbines: gland ring replacement, bearing inspection, and rotor balance check.",
+        features: [
+          "Inter-season overhaul scheduling",
+          "Carbon gland ring machined in-house",
+          "Trial run and vibration sign-off included",
+        ],
+      },
+      {
+        name: "HVAC Pocket Bag Filters (Food Plant Air Handling)",
+        purpose:
+          "Multi-pocket bag filters for food processing facility AHUs: removes airborne flour, starch dust, and mould spores from supply air to production areas, cold stores, and packaging lines.",
+        features: [
+          "F7 / F8 efficiency for allergen and mould spore capture",
+          "Synthetic polyester media: moisture-tolerant for humid food environments",
+          "Standard AHU frame sizes; custom dimensions on request",
+          "Complements GMP air quality requirements for food-grade zones",
+        ],
+      },
+    ],
+    keyFacts: [
+      "FDA 21 CFR compliant hose products",
+      "Agro co-gen turbine specialist",
+      "Tank breather filters for edible oil storage",
+      "F7/F8 HVAC bag filters for GMP food production air quality",
+      "Complete pump vibration isolation solutions",
+    ],
+  },
+  ind_7: {
+    heroSub:
+      "Lube oil filtration, pulse-jet dust collector bags, HVAC air filters, expansion joints & vibration isolation for cement plant machinery",
+    overview: `Cement manufacturing is one of the most abrasive and dust-laden industrial environments on earth. Rotary kilns operating at 200–400°C shell temperature, ball mills running continuously for months, and crusher trains generating massive dust clouds place extreme demands on every lubrication, sealing, and piping component. Keshav Enterprises supplies the precision-grade filtration, pulse-jet dust collector filter bags, HVAC air filters, expansion joints, and anti-vibration solutions that keep cement plants running at 330+ days per year.`,
+    challenges: [
+      {
+        title: "Extreme Dust & Abrasive Contamination",
+        desc: "Cement plants generate 1–3 tonnes of dust per day per kiln. This airborne abrasive enters lube oil systems, breather vents, and filter housings, accelerating wear and causing filter bypass if not properly managed.",
+      },
+      {
+        title: "Kiln Gearbox Oil Contamination",
+        desc: "Rotary kiln gearboxes operate on circulation lubrication systems at ISO VG 220–460. Clinker dust and thermal contamination degrade oil rapidly: high-efficiency filtration is critical to extending oil change intervals and protecting expensive gear sets.",
+      },
+      {
+        title: "Thermal Expansion in Kiln Exhaust Ducting",
+        desc: "Kiln exhaust gas ducts operate at 250–450°C and undergo significant thermal expansion. Without properly designed metallic or fabric expansion joints, duct sections crack, leak, and allow hot gas escape, a safety and efficiency hazard.",
+      },
+      {
+        title: "Crusher & Mill Vibration",
+        desc: "Ball mills, vertical roller mills, and jaw crushers generate intense broadband vibration that transmits through foundations to adjacent equipment and instrumentation, causing fatigue failures and measurement errors.",
+      },
+    ],
+    products: [
+      {
+        name: "Lube Oil Filter Elements (Kiln & Mill Gearboxes)",
+        purpose:
+          "High-efficiency filter elements for kiln gearbox oil circulation systems: removes abrasive clinker particles and wear debris before they damage gear teeth and roller bearings.",
+        features: [
+          "Glass fiber fleece media, 6–25 µm fineness",
+          "High dirt-holding capacity for dust-laden environments",
+          "ISO VG 220–460 synthetic & mineral oil compatible",
+          "Beta efficiency ≥200 per ISO 16889",
+        ],
+      },
+      {
+        name: "Duplex Basket Strainers (Cooling Water & Process Lines)",
+        purpose:
+          "Installed on kiln cooling water systems, compressor water cooling, and raw meal slurry pipelines to protect pumps, heat exchangers, and instrumentation from scale and debris.",
+        features: [
+          "SS mesh baskets, 100–1000 µm mesh options",
+          "Duplex design: zero-downtime basket cleaning",
+          "ANSI 150 to ANSI 600 flange ratings",
+          "SS316 for corrosive cooling water service",
+        ],
+      },
+      {
+        name: "Axial Metallic Expansion Joints (Kiln Exhaust Ducts)",
+        purpose:
+          "Compensates thermal expansion in hot gas ductwork between the kiln, cyclone pre-heater tower, and waste heat boiler, eliminating thermally induced stress cracking in duct sections.",
+        features: [
+          "SS321 bellows for high-temperature service",
+          "Single and universal (dual-bellows) configurations",
+          "Flanged to match existing duct dimensions",
+          "Flow liner included to protect bellows from gas erosion",
+        ],
+      },
+      {
+        name: "Rectangular Non-Metallic (Fabric) Expansion Joints",
+        purpose:
+          "Used in large rectangular ductwork at clinker cooler vent, raw mill fan connections, and electrostatic precipitator (ESP) ductwork, handling misalignment and thermal movement in non-circular sections.",
+        features: [
+          "PTFE-coated glass fabric or Nomex composite",
+          "Temperature capability to 450°C continuous",
+          "Custom-made to rectangular duct dimensions",
+          "Bolted frame assembly for on-site installation",
+        ],
+      },
+      {
+        name: "Custom Extruded Rubber Profiles & Seals",
+        purpose:
+          "Custom extruded rubber damping pads fitted under ball mill drive units, vertical roller mill gearboxes, and crusher bearing housings to isolate and attenuate machinery vibration transmitted to plant structures.",
+        features: [
+          "Natural rubber, EPDM, or neoprene compound",
+          "Custom cross-section extruded to drawing or sample",
+          "Operating temperature -40 to +150°C (EPDM grade)",
+        ],
+      },
+      {
+        name: "Air Breather & Tank Breather Filters (Lube Oil Reservoirs)",
+        purpose:
+          "Prevents airborne cement dust and moisture from entering lube oil reservoirs through the vent path, the leading cause of premature oil and bearing failure in cement plants.",
+        features: [
+          "High-efficiency particulate media + silica gel desiccant",
+          "Rated to ISO cleanliness requirements",
+          "Colour-change saturation indicator",
+          "Direct-mount and remote-mount configurations",
+        ],
+      },
+      {
+        name: "SS Corrugated Flexible Hose Assemblies",
+        purpose:
+          "High-pressure flexible connections on kiln cooling water inlets, hydraulic slide gate actuators, and compressed air lines: resists heat, pressure, and vibration where rigid piping would fail.",
+        features: [
+          "SS316L corrugated inner hose, SS braid reinforcement",
+          "Working pressure to 200 bar (selected assemblies)",
+          "End fittings: ANSI flanged, BSP/NPT screwed, or hydraulic",
+          "Temperature range –196°C to +600°C",
+        ],
+      },
+      {
+        name: "Conical & Y-Type Strainers (Raw Mill & Conveyor Pumps)",
+        purpose:
+          "Temporary and permanent strainers on raw material slurry pumps, kiln water spray systems, and compressed air supply lines, protecting downstream valves and instruments.",
+        features: [
+          "Perforated basket, mesh lining available",
+          "Winged or screwed flush plug for cleaning",
+          "CS, SS304, SS316 body materials",
+          "In stock for rapid dispatch",
+        ],
+      },
+      {
+        name: "Pulse-Jet Dust Collector Filter Bags & Cartridges",
+        purpose:
+          "Replacement filter bags and pleated cartridge elements for cement plant baghouse dust collectors on kiln exhaust, raw mill vents, clinker cooler, coal mill, packing plant, and silo vent systems: retains fine cement dust and meets emission norms.",
+        features: [
+          "Polyester needle-felt (standard) and PTFE membrane (high-efficiency, low-emission)",
+          "Anti-static grades for coal mill applications (ATEX)",
+          "Cage-compatible dimensions to existing baghouse housing",
+          "Pulse-jet cleaning rated at 4–7 bar compressed air",
+        ],
+      },
+      {
+        name: "Pleated Panel Air Filters (Control Room & Electrical Panel HVAC)",
+        purpose:
+          "Filters for cement plant control room AHUs and electrical panel cooling units: prevents abrasive cement dust from entering sensitive instrumentation, PLCs, and DCS cabinets.",
+        features: [
+          "F7 / F8 efficiency for fine cement dust retention",
+          "Galvanised steel frame for humid cement plant environments",
+          "Standard AHU frame sizes or custom-cut to panel dimensions",
+          "Replacement supply on service schedule",
+        ],
+      },
+    ],
+    keyFacts: [
+      "330+ days/year continuous operation supported",
+      "Dust-resistant filtration products stocked",
+      "High-temp expansion joints up to 450°C",
+      "Pulse-jet baghouse bags for all cement plant vent points",
+      "Complete vibration isolation solutions",
+    ],
+  },
+};
+
+export const IND_TESTIMONIALS: Record<
+  string,
+  { quote: string; credit: string; link: string | null }
+> = {
+  ind_1: {
+    quote:
+      "3 MW BHEL rotor vibration dropped from 9.2 to 0.8 mm/s after dynamic balancing. 26 months — zero bearing changes.",
+    credit: "Captive Power Plant, Telangana",
+    link: null,
+  },
+  ind_2: {
+    quote:
+      "Babbitt bearing failure at 2 AM during crushing season. Engineer on-site by morning. Downtime: 14 hours.",
+    credit: "Sugar Mill, Haryana",
+    link: null,
+  },
+  ind_3: {
+    quote:
+      "Reverse-engineered Belliss & Morcom rotor shaft and labyrinth rings in 6 weeks. Quality indistinguishable from OEM.",
+    credit: "Paper Mill & Power Plant, Punjab",
+    link: null,
+  },
+  ind_4: {
+    quote:
+      "API 614-compliant lube oil filters supplied with full material certificates — matched HYDAC OEM dimensions exactly.",
+    credit: "Oil Refinery, Gujarat",
+    link: null,
+  },
+  ind_5: {
+    quote:
+      "Spiral wound gaskets per ASME B16.20 — all ANSI 600# flanges replaced in a 5-day shutdown with zero leaks at startup.",
+    credit: "Petrochemical Plant, Rajasthan",
+    link: null,
+  },
+  ind_6: {
+    quote:
+      "HVAC pocket bag filters for food-grade control room — F7 grade, delivered in 3 days. No cross-contamination issues.",
+    credit: "Agro Processing Facility, UP",
+    link: null,
+  },
+  ind_7: {
+    quote:
+      "Dust collector filter bags for cement mill — PTFE membrane grade. Pressure drop stayed flat for 18 months vs 6-month cycle before.",
+    credit: "Cement Plant, MP",
+    link: null,
+  },
+};
+
+const RAW_INDUSTRY_PRODUCT_IDS: Record<string, string | null> = {
+  "Lube Oil Filter Elements (180 GPM)": "prod_f1",
+  "Steam Crossover Bellows": "prod_e13",
+  "Babbitt Journal & Thrust Bearings": "prod_ts3",
+  "Emergency Stop Valves": "prod_ts4",
+  "Vibration Monitoring Probes (Shinkawa-compatible)": "prod_ee1",
+  "Turbine Oil Pumps (Main & Aux)": "prod_ts5",
+  "Carbon & Graphite Gland Sealing Rings": "prod_ts1",
+  "Labyrinth Sealing Packings": "prod_ts2",
+  "Lube Oil Filter Elements (Triveni-compatible)": "prod_f1",
+  "Air Breather Filters": "prod_f4",
+  "Simplex & Duplex Basket Strainers": "prod_st2",
+  "Rotor Balancing Service": null,
+  "Duplex Basket Strainers": "prod_st2",
+  "SS Metallic Bellows Expansion Joints": "prod_e1",
+  "Rubber Expansion Joints (Double-Arch)": "prod_e2",
+  "PTFE-Lined Hose Assemblies": "prod_h2",
+  "Custom Extruded Rubber Profiles & Seals": "prod_r1",
+  "Turbine Spares (Siemens, BHEL, Triveni)": null,
+  "Control Oil Filter Elements (IS27 Anti-Static)": "prod_f2",
+  "Babbitt Bearing Manufacturing": "prod_ts3",
+  "Hydraulic Rubber Hose Assemblies": "prod_h3",
+  "Duplex Fabricated Filter Housings": "prod_f10",
+  "Vibration Monitoring Probes": "prod_ee1",
+  "Thick Wall Heavy-Duty Expansion Joint": "prod_e27",
+  "Axial & Universal Metallic Expansion Joints": "prod_e4",
+  "High-Pressure Simplex & Duplex Strainers": "prod_st2",
+  "Cryogenic LNG / LPG Expansion Joint": "prod_e21",
+  "Turbine Steam Path Components": "prod_ts9",
+  "Pressure-Balanced Expansion Joints": "prod_e6",
+  "FDA-Grade PTFE Hose Assemblies": "prod_h2",
+  "Air Breather & Tank Breather Filters": "prod_f4",
+  "Y-Type & Conical Strainers": "prod_st4",
+  "Rubber Expansion Joints (Single-Arch)": "prod_e3",
+  "Steam Turbine Maintenance (Triveni, Maxwatt)": null,
+  "Lube Oil Filter Elements (Kiln & Mill Gearboxes)": "prod_f1",
+  "Duplex Basket Strainers (Cooling Water & Process Lines)": "prod_st2",
+  "Axial Metallic Expansion Joints (Kiln Exhaust Ducts)": "prod_e1b",
+  "Rectangular Non-Metallic (Fabric) Expansion Joints": "prod_e18",
+  "Air Breather & Tank Breather Filters (Lube Oil Reservoirs)": "prod_f4",
+  "SS Corrugated Flexible Hose Assemblies": "prod_h1",
+  "Conical & Y-Type Strainers (Raw Mill & Conveyor Pumps)": "prod_st3",
+  "Pulse-Jet Dust Collector Filter Bags & Cartridges": "prod_af5",
+  "Pleated Panel Air Filters (Control Room & Electrical Panel HVAC)": "prod_af4",
+  "HVAC Pocket Bag Filters (Food Plant Air Handling)": "prod_af1",
+  "Pleated Panel Air Filters (Control Room & Turbine Hall HVAC)": "prod_af4",
+};
+
+// ─── STABLE LOOKUP KEY (decoupled from the translatable `name` field) ──────
+// `INDUSTRY_PRODUCT_IDS` was previously keyed directly by the display name
+// in IndustryDetail.products[].name — translating that name in a non-English
+// locale would silently break the "View Product" cross-link. Keys are now a
+// slug of the (English) name; callers must look up via `industryProductKey`
+// on whatever `name` they have, so the same slug is produced consistently
+// whether it's still English or has been translated — see i18n Phase 2
+// corrections, item 3.
+export function industryProductKey(name: string): string {
+  return name
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+export const INDUSTRY_PRODUCT_IDS: Record<string, string | null> = Object.fromEntries(
+  Object.entries(RAW_INDUSTRY_PRODUCT_IDS).map(([name, id]) => [industryProductKey(name), id]),
+);

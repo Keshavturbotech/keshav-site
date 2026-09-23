@@ -1,0 +1,38 @@
+# Cloudflare Pages security headers — applied to every response.
+# This is the "duplicate as HTTP headers" defense-in-depth layer the
+# original App.jsx comment called for but never implemented (it only had
+# the JS-injected <meta> version). A real header applies before the browser
+# parses a single byte of HTML, closing the gap the meta-tag approach can't.
+#
+# If you deploy somewhere other than Cloudflare Pages (Netlify, Vercel),
+# this specific file format won't be read — but the same header values
+# should be configured in that platform's equivalent mechanism
+# (netlify.toml [[headers]], vercel.json "headers", etc).
+
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com https://www.googletagmanager.com https://www.clarity.ms https://scripts.clarity.ms https://cdn.clarity.ms https://translate.googleapis.com https://translate.google.com https://translate-pa.googleapis.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://translate.googleapis.com https://www.gstatic.com; font-src 'self' https://fonts.gstatic.com https://www.gstatic.com; img-src 'self' data: https: blob:; frame-src https://challenges.cloudflare.com https://maps.google.com https://www.google.com https://translate.google.com; connect-src 'self' https://api.web3forms.com https://open.er-api.com https://www.google-analytics.com https://region1.google-analytics.com https://www.clarity.ms https://scripts.clarity.ms https://translate.googleapis.com https://translate-pa.googleapis.com https://www.gstatic.com; upgrade-insecure-requests; object-src 'none'; base-uri 'self'; form-action 'self' https://api.web3forms.com
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), fullscreen=(self)
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-XSS-Protection: 1; mode=block
+
+# Long-cache immutable hashed build assets (Astro fingerprints these — safe to cache forever)
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Images — cache but allow revalidation in case you swap a file without renaming it
+/*.webp
+  Cache-Control: public, max-age=604800
+/*.png
+  Cache-Control: public, max-age=604800
+/*.jpg
+  Cache-Control: public, max-age=604800
+
+# llms.txt / llms-full.txt — regenerated whenever content changes, so a
+# shorter cache with revalidation is safer than the long image cache above.
+/llms.txt
+  Cache-Control: public, max-age=3600, must-revalidate
+/llms-full.txt
+  Cache-Control: public, max-age=3600, must-revalidate

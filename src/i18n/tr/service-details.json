@@ -1,0 +1,1074 @@
+{
+  "srv_1": {
+    "tagline": "İlk Temel Cıvatasından İlk Buhara OEM Koordineli Montaj",
+    "accentColor": "#2563eb",
+    "keyStats": [
+      {
+        "value": "10+",
+        "label": "Devreye Alınan OEM Markası"
+      },
+      {
+        "value": "5kW–60MW",
+        "label": "İşlenen Güç Aralığı"
+      },
+      {
+        "value": "100%",
+        "label": "OEM Spesifikasyonuna Uygun Dokümantasyon"
+      },
+      {
+        "value": "24×7",
+        "label": "Sahada Destek Mevcut"
+      }
+    ],
+    "whyUs": "Montaj sırasında yanlış bir boşluk seti, ilk buhardan itibaren saatler içinde yatağı mahvedebilir. OEM kökenli saha mühendislerimiz, montajını yaptığınız aynı makine türlerini kendileri devreye almıştır — OEM spesifikasyonlarının kağıt üzerinde değil, pratikte ne anlama geldiğini tam olarak bilirler.",
+    "overview": "Türbin montajı ve devreye alma, herhangi bir enerji santrali veya endüstriyel proje için en kritik aşamadır. Montaj sırasındaki hatalar — yanlış hizalama, hatalı boşluklar, yanlış tork — işletmenin ilk yılında maliyetli arızalara dönüşür. Keshav Enterprises, enerji santrallerinde, şeker fabrikalarında, kağıt fabrikalarında ve proses endüstrilerinde Triveni, Siemens, BHEL, Belliss ve Maxwatt türbinlerini devreye almış OEM kökenli saha mühendisleri konuşlandırır. Her tutma noktası tanıklanır, her boşluk kaydedilir ve her güvenlik sistemi buhar verilmeden önce test edilir. Dokümantasyon paketimiz müşteri, sigorta ve OEM devir teslim gereksinimlerini karşılar.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Montaj Öncesi Mühendislik İncelemesi",
+        "iconName": "BookOpen",
+        "desc": "OEM montaj kılavuzunun, GA çizimlerinin, P&ID'lerin ve inşaat temel çizimlerinin detaylı incelemesi. İlk ekipman kaldırılmadan önce tüm tutma noktaları, tanıklık noktaları ve dokümantasyon gereksinimlerinin belirlenmesi. Montaj sırası ve kritik yol müşteri proje ekibiyle üzerinde anlaşmaya varılır."
+      },
+      {
+        "step": "02",
+        "title": "Temel ve Taban Plakası Hazırlığı",
+        "iconName": "Layers",
+        "desc": "Türbin taban plakasının 0,05 mm/m dahilinde hassas tesviyesi ve şaplanması. Chock'ların işlenmesi ve montajı. Kalibre edilmiş hidrolik anahtarlar kullanılarak temel cıvatalarının OEM tarafından belirtilen torka sıkılması. Epoksi harç hazırlığı, dökümü ve sıcaklık kaydıyla kürleme izlenmesi."
+      },
+      {
+        "step": "03",
+        "title": "Ekipman Yerleştirme ve Kaba Hizalama",
+        "iconName": "Target",
+        "desc": "Türbin gövdesinin, dişli kutusunun ve tahrik edilen ekipmanın taban plakası üzerinde hassas konumlandırılması. Kaplin montajından önce iberli komparatör ve lazer ekipmanı kullanılarak mil kaba hizalaması 0,1 mm dahilinde. Nihai hizalamadan önce tüm makine ayaklarında soft foot kontrolü ve düzeltmesi."
+      },
+      {
+        "step": "04",
+        "title": "İç Montaj ve Boşluk Ayarı",
+        "iconName": "Cog",
+        "desc": "Rotor düşüşü ölçümü, gland boşluğu ayarı (radyal ve eksenel), labirent conta montajı, itme yatağı montajı ve mil yatağı boşluğu ayarı. Tüm boşluklar OEM spesifikasyonlarına göre saha boşluk kayıt defterine kaydedilir. Rotor eksenel oynama ölçülür ve OEM sınırları içinde onaylanır."
+      },
+      {
+        "step": "05",
+        "title": "Boru Bağlantıları ve Yardımcı Sistemler",
+        "iconName": "Activity",
+        "desc": "Uygun boru desteği ve yaylı askılarla buhar giriş, egzoz, çekme ve tahliye boru bağlantıları. Nozul yükleri OEM sınırları içinde doğrulanır — nihai bağlantıdan önce boru gerilimi ortadan kaldırılır. Yağlama yağı, kontrol yağı, gland buharı ve enstrümantasyon boruları tamamlanır ve sızıntı testi yapılır."
+      },
+      {
+        "step": "06",
+        "title": "Devreye Alma Öncesi Kontroller ve Yıkama",
+        "iconName": "Droplets",
+        "desc": "Yağlama yağı sistemi ISO 4406 temizlik standardına yıkanır, parçacık sayımıyla onaylanır. Kontrol ve trip sistemlerinin fonksiyonel kontrolü. Güvenlik sistemi denemeleri yapılır ve belgelenir: aşırı hız trip'i, düşük yağ basıncı trip'i, yüksek yatak sıcaklığı trip'i, acil durdurma valfi çalışması."
+      },
+      {
+        "step": "07",
+        "title": "İlk Ateşleme, Hız Artırma ve Devreye Alma",
+        "iconName": "Zap",
+        "desc": "Yavaş dönüşte dinleme testiyle kontrollü ilk çalıştırma. Sürekli titreşim ve yatak sıcaklığı izlemeyle belirtilen adımlarda hız artırma. Gövernör tepki ve ölü bant testi. Nominal hızın %110'unda aşırı hız trip testi. Devreye alma raporuyla yük kabul testi ve tam yük işletme devir teslimi."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Lazer Mil Hizalama",
+        "detail": "Pruftechnik Rotalign Pro / SKF TKSA serisi",
+        "iconName": "Target"
+      },
+      {
+        "name": "Titreşim Analizörü",
+        "detail": "Gerçek zamanlı FFT, 8 kanallı veri toplama",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Hassas Komparatör",
+        "detail": "0,001 mm çözünürlük, CMM sınıfı",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Hidrolik Tork Anahtarı",
+        "detail": "Temel cıvataları için kalibre edilmiş tork çoğaltıcı",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Boreskop",
+        "detail": "İç inceleme için rijit ve esnek",
+        "iconName": "Search"
+      },
+      {
+        "name": "Termokupl Kaydedici",
+        "detail": "İlk çalıştırma sırasında çok noktalı termal tarama",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Ultrasonik Debimetre",
+        "detail": "Devreye alma sırasında boru akış doğrulaması",
+        "iconName": "Droplets"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ASME PTC 6",
+        "desc": "Buhar türbini performans test kodu",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 10816 / 20816",
+        "desc": "Döner makineler için mekanik titreşim sınırları",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Makine koruması: aşırı hız trip'i ve titreşim",
+        "body": "API"
+      },
+      {
+        "code": "API 686",
+        "desc": "Makine kurulumu için önerilen uygulama",
+        "body": "API"
+      },
+      {
+        "code": "IS 3639",
+        "desc": "Temel cıvatası ve ankraj standardı",
+        "body": "BIS"
+      },
+      {
+        "code": "OEM Kılavuzu",
+        "desc": "Triveni, Siemens, BHEL, Belliss, Maxwatt montaj prosedürleri",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_2": {
+    "tagline": "Anahtar Teslim Duruş Planlamasından Sıfır Hatalı Yeniden Başlatmaya",
+    "accentColor": "#0891b2",
+    "keyStats": [
+      {
+        "value": "8+",
+        "label": "Revize Edilen OEM Markası"
+      },
+      {
+        "value": "26+",
+        "label": "Yıllık Saha Deneyimi"
+      },
+      {
+        "value": "0.001mm",
+        "label": "Boşluk Çözünürlüğü"
+      },
+      {
+        "value": "24×7",
+        "label": "Acil Müdahale"
+      }
+    ],
+    "whyUs": "Kötü yapılmış bir revizyon, hiç revizyon yapılmamasından daha kötüdür — yeni boşluk hataları, kontaminasyon ve yeniden montaj kusurları getirir. Mühendislerimiz OEM tarafından eğitildi. Toleransların işletme sıcaklığı ve hızında gerçekte ne anlama geldiğini bilirler, sadece kılavuzda yazanı değil.",
+    "overview": "Türbin revizyonu sıradan bir bakım faaliyeti değildir — hassas bir mühendislik müdahalesidir. Keshav Enterprises, orijinal üreticiyle aynı disiplin ve dokümantasyon standardıyla anahtar teslim revizyonlar gerçekleştirmek için Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK ve ABB'den OEM kökenli mühendisler konuşlandırır. Her revizyon, duruştan 4-6 hafta önce kapsam sonlandırması, yedek parça ön incelemesi ve işgücü seferberliği planlamasıyla başlar. Her bileşen sökümden önce, sökme sırasında ve yeniden montajdan sonra ölçülür. Yazılı durum raporları, boşluk kayıt defterleri ve fotoğraflı kayıtlar her revizyon için oluşturulur — bir sonraki duruş için bir temel oluşturur.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Duruş Öncesi Planlama ve Kapsam Sonlandırması",
+        "iconName": "BookOpen",
+        "desc": "Duruştan 4-6 hafta önce önceki revizyon kayıtlarının, işletme verilerinin, titreşim geçmişinin ve performans trendlerinin incelenmesi. Kapsam tanımı, kritik yedek parça listesi, sarf malzeme listesi ve işgücü seferberliği planı. Stoklu yedek parçaların duruş öncesi incelemesi ve eksiklik raporunun müşteriye sunulması."
+      },
+      {
+        "step": "02",
+        "title": "Saha Seferberliği ve Ekipman Hazırlığı",
+        "iconName": "Wrench",
+        "desc": "Tam revizyon takım seti konuşlandırılır: hidrolik krikolar, hassas zincirli palangalar, rotor kaldırma askıları, özel ölçüm cihazları, lepleme aletleri ve eksiksiz revizyon dokümantasyon paketi. İşe başlamadan önce alet durumu kontrolü ve enstrüman kalibrasyon doğrulaması."
+      },
+      {
+        "step": "03",
+        "title": "Söküm ve İlk İnceleme",
+        "iconName": "Search",
+        "desc": "Tüm söküm öncesi ölçümlerin kaydedildiği kontrollü söküm: yatak boşlukları, mil salgısı, gland boşlukları, kaplin hizalaması ve rotor eksenel oynaması. Her bileşen fotoğraflanır. Temizlemeden önce durum OEM spesifikasyonlarına göre kaydedilir."
+      },
+      {
+        "step": "04",
+        "title": "Bileşen İncelemesi ve Durum Raporlaması",
+        "iconName": "Activity",
+        "desc": "Rotor, kanatlar, yataklar, glandlar, gövde, tüm valfler ve kaplinler üzerinde görsel, boyutsal ve NDT incelemesi. Kritik bileşenlerde boya penetrasyon veya manyetik parçacık yöntemleriyle çatlak tespiti. Her bileşen için özel önerilerle yazılı durum raporu: değiştir, onar veya gerekçesiyle yeniden kullan."
+      },
+      {
+        "step": "05",
+        "title": "Bileşen Onarımı ve Yedek Parça Montajı",
+        "iconName": "Cog",
+        "desc": "Mil yataklarının babbitt yeniden dökümü ve hassas işlenmesi, labirent conta değişimi, kanat incelemesi ve seçici değişim, mil parlatma (Ra 0,4 μm), gövde ayrım yüzeyi lepleme, gland dolgu değişimi ve valf oturma yüzeyi mavi-eşleşme standardına lepleme."
+      },
+      {
+        "step": "06",
+        "title": "Yeniden Montaj ve Boşluk Ayarı",
+        "iconName": "Target",
+        "desc": "Tüm boşlukların OEM spesifikasyonlarına göre ayarlandığı ve kaydedildiği hassas yeniden montaj: mil yatağı boşlukları (çapsal ve eksenel), labirent conta radyal ve eksenel boşlukları, gland boşlukları, kaplin hizalaması ve rotor eksenel oynaması. Tüm okumalar boşluk kayıt defterine girilir ve önceki revizyon temeliyle karşılaştırılır."
+      },
+      {
+        "step": "07",
+        "title": "Yeniden Devreye Alma ve Devir Teslim",
+        "iconName": "Zap",
+        "desc": "Revizyon sonrası yeniden devreye alma yıkaması yağlama yağı sistemi ISO 4406'ya kadar. Güvenlik sistemi denemeleri: aşırı hız trip'i, düşük yağ basıncı trip'i, acil durdurma valfi. Titreşim ve yatak sıcaklığı trendleriyle izlenen başlatma. Eksiksiz revizyon dokümantasyon paketiyle tam yük için yazılı izin müşteriye teslim edilir."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Hassas Komparatör ve Delik Mastarı",
+        "detail": "0,001 mm çözünürlükte boşluk ölçümü",
+        "iconName": "Target"
+      },
+      {
+        "name": "Lazer Mil Hizalama",
+        "detail": "Son kaplin hizalama doğrulaması",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Taşınabilir Balans Makinesi",
+        "detail": "Yerinde rotor tirim balansı",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Babbitt Döküm Ekipmanı",
+        "detail": "Yatak yeniden dökümü için santrifüj döküm",
+        "iconName": "Factory"
+      },
+      {
+        "name": "Yüzey Lepleme Plakaları",
+        "detail": "Valf oturma yüzeyleri ve gövde yüzeyleri için tüm sınıflar",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Ultrasonik Kalınlık Ölçer",
+        "detail": "Gövde duvarı erozyon ölçümü",
+        "iconName": "Search"
+      },
+      {
+        "name": "8 Kanallı Titreşim Analizörü",
+        "detail": "İzlenen yeniden başlatma sırasında gerçek zamanlı FFT",
+        "iconName": "TrendingUp"
+      }
+    ],
+    "standards": [
+      {
+        "code": "API 614",
+        "desc": "Yağlama sistemleri, mil sızdırmazlığı ve yağ kontrolü",
+        "body": "API"
+      },
+      {
+        "code": "API 670",
+        "desc": "Titreşim ve aşırı hız koruma sistemleri",
+        "body": "API"
+      },
+      {
+        "code": "ISO 1940",
+        "desc": "Döner bileşenler için dinamik balans kalite sınıfları",
+        "body": "ISO"
+      },
+      {
+        "code": "ASME B31.1",
+        "desc": "Buhar bağlantıları için güç boruları",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 9001",
+        "desc": "Revizyon dokümantasyonu için kalite yönetim sistemi",
+        "body": "ISO"
+      },
+      {
+        "code": "OEM Kılavuzu",
+        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_3": {
+    "tagline": "3D Taramadan Üretim Çizimlerine — OEM Bağımlılığını Ortadan Kaldırma",
+    "accentColor": "#7c3aed",
+    "keyStats": [
+      {
+        "value": "5kW–60MW",
+        "label": "Kapsanan Türbin Aralığı"
+      },
+      {
+        "value": "0.001mm",
+        "label": "CMM Ölçüm Çözünürlüğü"
+      },
+      {
+        "value": "100%",
+        "label": "PMI Doğrulamalı Malzeme"
+      },
+      {
+        "value": "GD&T",
+        "label": "Tam Tolerans Çizimleri"
+      }
+    ],
+    "whyUs": "OEM bir makineyi desteklemeyi bıraktığında, basit bir aşınmış rotor veya çatlamış bir diyafram, tesisin aylarca duruşuna neden olabilir. Tersine mühendislik sürecimiz malzemeyi, geometriyi ve ısıl işlem spesifikasyonlarını tam olarak yeniden oluşturur — eksiksiz imalat çizimleriyle — böylece herhangi bir yetkin makine atölyesi bileşeni üretebilir.",
+    "overview": "OEM çizimleri mevcut olmadığında, OEM artık faaliyette değilse veya teslim süreleri yıllarla ölçülüyorsa, Keshav Enterprises 5 kW'dan 60 MW'a kadar herhangi bir türbin bileşenini eksiksiz, üretime hazır bir çizim setine tersine mühendislikle dönüştürebilir. Sürecimiz, büyük OEM mühendislik ekiplerinin kullandığı aynı araçlar olan 3D lazer tarayıcılar, CMM koordinat ölçüm makineleri ve PMI XRF malzeme tanımlaması kullanarak tüm toleranslar, yüzey işlemleri, ısıl işlem sıraları ve malzeme spesifikasyonlarıyla eksiksiz imalat çizimleri üretir. Triveni, Siemens, BHEL, DLF-Skoda, Belliss ve Maxwatt türbinleri için rotorları, diyaframları, nozul bloklarını, labirent contaları, yatakları, gövernörleri ve buhar yolu bileşenlerini başarıyla tersine mühendislikle ürettik.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Bileşen Kabulü ve İlk Değerlendirme",
+        "iconName": "Search",
+        "desc": "Aşınmış bileşenin veya orijinal referans parçanın güvenli kabulü. İlk görsel inceleme, temizlik ve kapsamlı fotoğraflama. Herhangi bir ölçüm başlamadan önce optimal ölçüm stratejisini ve datum şemasını belirlemek için hasar, aşınma bölgeleri ve kritik ölçüm yüzeylerinin değerlendirilmesi."
+      },
+      {
+        "step": "02",
+        "title": "PMI Malzeme Tanımlaması",
+        "iconName": "Shield",
+        "desc": "Tam alaşım bileşimini belirlemek için birden fazla konumda XRF (X-ışını floresans) analizör kullanılarak Positive Material Identification. Isıl işlem durumunu belirlemek için sertlik testi (Rockwell, Brinell, Vickers). Malzeme sınıfı onaylanır ve ölçüm başlamadan önce en yakın mevcut standartla eşleştirilir — alaşımı tahmin etmeden."
+      },
+      {
+        "step": "03",
+        "title": "3D Lazer Tarama ve CMM Ölçümü",
+        "iconName": "Hexagon",
+        "desc": "Taşınabilir lazer tarayıcı kullanılarak bileşenin dış kısmının eksiksiz 3D taraması — nokta bulutu doğruluğu 0,05 mm'ye kadar. İç boyutlar ve kritik toleranslar (delik, kama yuvası, spline, diş formu, adım ve helis) 0,001 mm çözünürlükte CMM üzerinde ölçülür. Datum şeması fonksiyonel yatak yüzeylerinden oluşturulur."
+      },
+      {
+        "step": "04",
+        "title": "Mühendislik Çizimi Üretimi",
+        "iconName": "BookOpen",
+        "desc": "Tarama ve CMM ölçüm verilerinden CAD modeli geliştirilir. Eksiksiz 2D imalat çizimleri şunlarla üretilir: tüm doğrusal ve açısal boyutlar, GD&T toleransları (konsentriklik, silindiriklik, paralellik, dairesellik, salgı), yüzey işleme notasyonu (μm cinsinden Ra değerleri), diş formu ve sınıf standartları, ve eksiksiz datum referans çerçevesi."
+      },
+      {
+        "step": "05",
+        "title": "Isıl İşlem ve Yüzey İşleme Spesifikasyonu",
+        "iconName": "Zap",
+        "desc": "Eksiksiz işleme sırası belirtilir: işleme öncesi gerilim giderme, kaba işleme, normalizasyon veya sertleştirme, ön-final ve final işleme aşamaları. Isıl işlem durumu sıcaklık (°C), bekletme süresi, su verme ortamı ve hedef sertlikle belirtilir. Yüzey işleme spesifikasyonu: gerektiğinde nitrürleme derinliği, yüzey sertliği, karbürizasyon veya sert krom kaplama."
+      },
+      {
+        "step": "06",
+        "title": "Malzeme Tedariki ve İmalat",
+        "iconName": "Factory",
+        "desc": "Malzeme, EN 10204 Type 3.1 fabrika sertifikalarıyla PMI tanımlama sonucu spesifikasyonlara göre tedarik edilir. CNC işleme, her aşamada işlem içi boyutsal inceleme ile belirtilen her aşama boyunca yürütülür. Tüm inceleme verileri imalat veri paketinde kaydedilir."
+      },
+      {
+        "step": "07",
+        "title": "Final İnceleme ve Sevkiyat",
+        "iconName": "CheckCircle2",
+        "desc": "Mühendislik çizimine karşı eksiksiz boyutsal inceleme raporu. Bitmiş bileşen üzerinde PMI yeniden doğrulaması, süreç boyunca doğru alaşımın kullanıldığını onaylar. Yüzey işleme ölçümü. Kritik yüzeylerde sertlik testi. Eksiksiz izlenebilirlik dokümantasyon paketi her bileşenle birlikte sağlanır."
+      }
+    ],
+    "tools": [
+      {
+        "name": "3D Lazer Tarayıcı",
+        "detail": "Faro Focus / Creaform HandySCAN — 0,05 mm doğruluk",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "CMM — Koordinat Ölçüm Makinesi",
+        "detail": "Köprü ve taşınabilir kol tipi, 0,001 mm çözünürlük",
+        "iconName": "Target"
+      },
+      {
+        "name": "PMI XRF Analizör",
+        "detail": "Olympus Vanta — sahada alaşım tanımlaması",
+        "iconName": "Search"
+      },
+      {
+        "name": "Sertlik Test Cihazı",
+        "detail": "Rockwell, Brinell, Vickers — ısıl işlem doğrulaması",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Profilometre",
+        "detail": "Yüzey pürüzlülük test cihazı — Ra 0,001 μm çözünürlük",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Kopya Torna",
+        "detail": "Döner bileşen replikasyonu için dijital okuma",
+        "iconName": "Cog"
+      },
+      {
+        "name": "CAD Yazılımı",
+        "detail": "SolidWorks / AutoCAD — GD&T çizim üretimi",
+        "iconName": "BookOpen"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 1101",
+        "desc": "Çizimler için geometrik tolerans (GD&T)",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 286",
+        "desc": "Miller ve delikler için limit ve geçme sistemi",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 1302",
+        "desc": "Mühendislik çizimlerinde yüzey dokusu göstergesi",
+        "body": "ISO"
+      },
+      {
+        "code": "EN 10204",
+        "desc": "Malzeme izlenebilirlik sertifikaları (Tip 3.1)",
+        "body": "EN"
+      },
+      {
+        "code": "ASTM E1417",
+        "desc": "PMI ve NDT test standartları",
+        "body": "ASTM"
+      },
+      {
+        "code": "OEM Spesifikasyonu",
+        "desc": "Orijinal OEM malzeme ve tolerans amacıyla eşleştirilmiştir",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_4": {
+    "tagline": "ISO Sınıfı Balans — Çünkü Rotor Kuvvetleri Hızın Karesiyle Artar",
+    "accentColor": "#d97706",
+    "keyStats": [
+      {
+        "value": "50–2000kg",
+        "label": "Rotor Kapasitesi"
+      },
+      {
+        "value": "G1.0",
+        "label": "Ulaşılabilir Balans Sınıfı"
+      },
+      {
+        "value": "0.001mm",
+        "label": "Komparatör Çözünürlüğü"
+      },
+      {
+        "value": "ISO/API",
+        "label": "Sertifikalı Standartlar"
+      }
+    ],
+    "whyUs": "3.000 RPM'deki bir rotor, 300 RPM'dekinden 100 kat daha büyük dengesizlik kuvveti üretir. Düşük hızda gözle görülmeyen aynı kalan dengesizlik, tam hızda yatağı mahveder. Gerektiğinde ISO 1940 G1.0 Sınıfına kadar balanslıyoruz — sadece 'yeterince iyi' değil.",
+    "overview": "Rotor dengesizliği, Hindistan endüstrisinde türbin yatağı arızalarının, conta hasarının ve rotor ömrü kısalmasının en yaygın ve en önlenebilir nedenlerinden biridir. Keshav Enterprises, özel atölye tesisimizde 50 kg ile 2.000 kg arasındaki rotorlar için hassas mil işleme ve ISO 1940 / API 670 dinamik balans gerçekleştirir. Rotorlar önce geometrik bütünlüğü geri kazanmak için işlenir — yuvarlak miller, konsantrik labirentler, doğru yüzey işleme — balanstan önce. Bu sıra önemlidir: geometrik olarak bozulmuş bir rotoru balanslamak sadece sorunu maskeler. Balans raporlarımız başlangıç dengesizliğini, düzeltme düzlemlerini, kütle düzeltmesini, kalan dengesizliği ve ulaşılan ISO balans sınıfını belgeler, bakım kayıtlarınız için tam izlenebilirlik sağlar.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Rotor Kabulü ve İlk Ölçüm",
+        "iconName": "Search",
+        "desc": "Rotor kabul edilir ve temizlenir. İlk mekanik salgı, hassas statik stand üzerinde tüm millerde, kaplin oturma yerlerinde ve labirentlerde hassas komparatör kullanılarak ölçülür. Elektriksel salgı kontrol edilir. Tüm çaplar ölçülür ve OEM spesifikasyonlarına göre kaydedilir — yuvarlaklık dışılık, koniklik ve mil alt boyutlandırma belgelenir."
+      },
+      {
+        "step": "02",
+        "title": "Mil Durum Değerlendirmesi",
+        "iconName": "Activity",
+        "desc": "Yüzey işleme, her mil çevresinde 3 pozisyonda profilometre kullanılarak ölçülür. Çizik, babbitt transferi, korozyon çukurlaşması ve aşınma paternleri için görsel inceleme. Sertlik kontrol edilir. Geometriyi ve işlemeyi OEM sınırları içinde geri kazanmak için minimum malzeme çıkarma hesaplanır."
+      },
+      {
+        "step": "03",
+        "title": "Mil Taşlama ve Parlatma",
+        "iconName": "Cog",
+        "desc": "CNC taşlama makinesinde hassas silindirik mil taşlaması: yuvarlaklık maks 0,005 mm'ye, koniklik 100 mm başına maks 0,005 mm'ye geri kazanılır. Taşlanmış yüzey, hassas parlatma tornası kullanılarak Ra 0,4 μm'ye (OEM yatak yüzey spesifikasyonu) parlatılır. Mil ömrünü korumak için mutlak minimum malzeme çıkarma."
+      },
+      {
+        "step": "04",
+        "title": "Labirent ve Gland Bölümü İşleme",
+        "iconName": "Hexagon",
+        "desc": "Labirentlerin, gland alanlarının, balans diski yüzeylerinin ve kaplin oturma yerlerinin hassas CNC tornasında yeniden işlenmesi. Rotor geometrik bütünlüğünü korumak ve yeni salgı ortaya çıkmasını önlemek için gerekli olan 4 çeneli ayna ve komparatör sıfırlama kullanılarak işlemeden önce tüm yüzeyler mil datumuna konsantrik olarak ayarlanır."
+      },
+      {
+        "step": "05",
+        "title": "Dinamik Balans — İki Düzlemli Düzeltme",
+        "iconName": "Target",
+        "desc": "Rotor sert yataklı dinamik balans makinesine monte edilir. Başlangıç dengesizliği eş zamanlı olarak iki düzeltme düzleminde (kaplin ucu ve gövernör/pervane ucu) ölçülür. Deneme kütleleri uygulanır ve çıkarılır. Balans yinelemeleri, her düzlemdeki kalan dengesizlik bu rotor servisi için belirtilen ISO 1940 / API 670 sınıfını karşılayana kadar tekrarlanır."
+      },
+      {
+        "step": "06",
+        "title": "Balans Sonrası Salgı Kontrolü",
+        "iconName": "TrendingUp",
+        "desc": "Mekanik ve elektriksel salgı, balanstan sonra tüm mil pozisyonlarında yeniden ölçülür. Balans öncesi temelle karşılaştırma, işleme ve balanstan gelen iyileşmeyi doğrular. OEM sınırlarını aşan kalan salgı araştırılır — mil eğriliğinden kaynaklanıyorsa doğrultma veya değişim önerilir."
+      },
+      {
+        "step": "07",
+        "title": "Dokümantasyon ve Sevkiyat",
+        "iconName": "BookOpen",
+        "desc": "Eksiksiz balans raporu düzenlenir: başlangıç dengesizliği (g·mm), düzeltme düzlemi konumları, uygulanan düzeltme kütlesi, her düzlemdeki nihai kalan dengesizlik, ulaşılan balans sınıfı (G1.0, G2.5, G6.3) ve tüm salgı ölçümleri. PMI sertifikası ve sertlik test sonuçları eklenir. Rotor dokümantasyonla ambalajlanır ve sevk edilir."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Sert Yataklı Balans Makinesi",
+        "detail": "50–2.000 kg kapasite, 100–10.000 RPM",
+        "iconName": "Activity"
+      },
+      {
+        "name": "CNC Silindirik Taşlama Makinesi",
+        "detail": "Hassas düzeltme sistemi, 0,001 mm kontrol",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Hassas Parlatma Tornası",
+        "detail": "Mil yüzeyinde Ra 0,4 μm'ye kadar mikro işleme",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "Profilometre",
+        "detail": "Yüzey pürüzlülüğü — Ra 0,001 μm çözünürlük",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Hassas Komparatör",
+        "detail": "0,001 mm — salgı ve çap ölçümü",
+        "iconName": "Target"
+      },
+      {
+        "name": "Taşınabilir Balans Analizörü",
+        "detail": "Yerinde saha balans yeteneği",
+        "iconName": "Search"
+      },
+      {
+        "name": "Dijital Stroboskop",
+        "detail": "Balans düzeltmesi için faz açısı ölçümü",
+        "iconName": "Zap"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 1940-1",
+        "desc": "Rijit rotorlar için balans kalite gereksinimleri",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 21940",
+        "desc": "Mekanik titreşim: rotor balans kelime dağarcığı ve prosedürleri",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Titreşim izleme, eksenel pozisyon ve yatak sıcaklığı",
+        "body": "API"
+      },
+      {
+        "code": "API 612",
+        "desc": "Özel amaçlı buhar türbinleri — balans gereksinimleri",
+        "body": "API"
+      },
+      {
+        "code": "ISO 1101",
+        "desc": "İşleme çizimlerine uygulanan geometrik tolerans",
+        "body": "ISO"
+      },
+      {
+        "code": "OEM Spesifikasyonu",
+        "desc": "Triveni, Siemens, BHEL, Man Turbo, KKK balans sınıfları",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_5": {
+    "tagline": "ISO 4406 16/14/11 Temizlik Sınıfı — Yağ Doldurulmadan Önce Sertifikalı",
+    "accentColor": "#0284c7",
+    "keyStats": [
+      {
+        "value": "16/14/11",
+        "label": "ISO 4406 Hedef Sınıfı"
+      },
+      {
+        "value": "6.000 L/dak",
+        "label": "Maks Sistem Debisi"
+      },
+      {
+        "value": "3μm",
+        "label": "Final Filtrasyon Derecesi"
+      },
+      {
+        "value": "100%",
+        "label": "Laboratuvar Sertifikalı Parçacık Sayımı"
+      }
+    ],
+    "whyUs": "Yeni ve yeni revize edilmiş türbinler, kaynak cürufu, boru pası, kum ve metal talaşları gibi inşaat döküntüleri tarafından ilk çalıştırmadan itibaren saatler içinde mahvedilir. Yağ yıkama isteğe bağlı değildir: yeni bir revizyonda katastrofik yatak arızasına karşı en uygun maliyetli sigortadır.",
+    "overview": "Yağlama yağı sistemi kontaminasyonu, yeni ve yeni revize edilmiş türbinlerde yatak arızalarının önde gelen nedenidir. Montaj veya revizyon sırasında yağlama yağı sistemine giren inşaat döküntüleri, ilk çalıştırmadan itibaren saatler içinde yatakları ve mil yüzeylerini mahvedebilir. Keshav Enterprises, buhar türbini yatak yağlaması için minimum standart olan ISO 4406:99 16/14/11 temizlik sınıfına ulaşmak için özel yapım mobil santrifüj filtre sistemleri kullanarak profesyonel yağlama yağı yıkaması gerçekleştirir. Sürecimiz eksiksiz belgelenir: her aşamada yağ numunesi sonuçları, kademeli filtre yükseltme kayıtları ve sistem yağ doldurma için iade edilmeden önce sağlanan final laboratuvar sertifikalı parçacık sayım sertifikası.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Sistem Anketi ve Yıkama Planı",
+        "iconName": "Search",
+        "desc": "Sistem P&ID'lerinin, yağ hacminin, boru delik boyutlarının, ısı eşanjörü konfigürasyonunun ve yatak gövdesi düzeninin incelenmesi. Her boru bölümünde türbülanslı akış (4.000'in üzerinde Reynolds sayısı) elde etmek için hidrolik hesaplamalar kullanılarak yıkama akış yolunun geliştirilmesi. Geçici baypas makaraları ve kör flanşların gerektiğinde belirlenmesi ve tasarlanması."
+      },
+      {
+        "step": "02",
+        "title": "Geçici Yıkama Devresi Kurulumu",
+        "iconName": "Wrench",
+        "desc": "Yıkama döküntüsüne maruz kalmaması gereken yataklar, kontrol valfleri, enstrümantasyon ve diğer hassas ekipman etrafına geçici baypas borularının kurulumu. Mobil yıkama ünitesi bağlantısı. Döküntü izleme için yıkama dönüş noktasında geçici tel örgü hedef süzgeç kurulumu."
+      },
+      {
+        "step": "03",
+        "title": "İlk Yıkama — Yüksek Debi",
+        "iconName": "Droplets",
+        "desc": "Sistem yıkama yağı (veya uyumluysa proses yağı) ile doldurulur. Yıkama pompası maksimum türbülans için ulaşılabilir maksimum debide çalıştırılır. Yağ sıcaklığı 30 dakikalık aralıklarla 30°C ile 70°C arasında termal olarak döngüye sokulur — termal döngü boru duvarlarına stres uygular ve yapışık kireç ve döküntüleri serbest bırakır. Hedef süzgeçler her aralıkta kontrol edilir ve temizlenir."
+      },
+      {
+        "step": "04",
+        "title": "Kontaminasyon İzleme ve Parçacık Sayımı",
+        "iconName": "Activity",
+        "desc": "Her aşamada ISO 4021 temiz numune çıkarma prosedürüne göre yağ numuneleri alınır. Parçacık sayımı, ISO 11500'e göre otomatik parçacık sayacı kullanılarak ölçülür — ≥4μm, ≥6μm, ≥14μm ve ≥21μm'de sayımlar raporlanır. Sonuçlar ISO 4406 hedef sınıfına karşı temizlik ilerleme grafiğinde çizilir."
+      },
+      {
+        "step": "05",
+        "title": "Kademeli Filtre Yükseltme",
+        "iconName": "Layers",
+        "desc": "Kaba kontaminasyon giderildikçe, filtre elemanı mikron derecesi aşamalar boyunca kademeli olarak azaltılır: 25μm → 10μm → 6μm → 3μm mutlak. Serbest ve emülsiyona girmiş suyu gidermek için yıkama boyunca santrifüj kurutma ünitesi sürekli çalıştırılır. Kurutma etkinliğini doğrulamak için Karl Fischer su içeriği test edilir."
+      },
+      {
+        "step": "06",
+        "title": "Final Kabul Parçacık Sayımı",
+        "iconName": "CheckCircle2",
+        "desc": "Aralıklarla alınan en az üç ardışık temiz yağ numunesi, hepsi ISO 4406 16/14/11 hedef sınıfına ulaşmalıdır. Final numune bağımsız doğrulama için akredite bir laboratuvara gönderilir. Yazılı yağ temizlik sertifikası — imzalanmış, damgalanmış ve laboratuvara izlenebilir — müşteriye verilir."
+      },
+      {
+        "step": "07",
+        "title": "Sistem Restorasyonu ve Yağ Doldurma",
+        "iconName": "Zap",
+        "desc": "Tüm geçici baypas makaraları ve kör flanşlar çıkarılır. Tüm yataklar, hassas enstrümanlar ve kritik ekipman yeniden bağlanır. Sistem, doldurma sırasında 3μm mutlak filtreden geçirilen taze proses yağıyla yeniden doldurulur. Doldurma sonrası sistem yağındaki final parçacık sayımı hedefin korunduğunu doğrular. Sistem başlatma için teslim edilir."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Mobil Santrifüj Filtre Ünitesi",
+        "detail": "6.000 L/dak'ya kadar sistem debisi",
+        "iconName": "Droplets"
+      },
+      {
+        "name": "Otomatik Parçacık Sayacı",
+        "detail": "ISO 11500'e göre — gerçek zamanlı çevrimiçi izleme",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Karl Fischer Titratör",
+        "detail": "Yağlama yağında serbest su içeriği ölçümü",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Yağ Numune Alma Kiti",
+        "detail": "Basınçlı hatlardan ISO 4021 temiz ekstraksiyon",
+        "iconName": "Search"
+      },
+      {
+        "name": "Yağ Isıtıcı",
+        "detail": "Termal döngü: döküntüyü serbest bırakmak için 30°C ile 70°C",
+        "iconName": "Zap"
+      },
+      {
+        "name": "Hedef Süzgeç Seti",
+        "detail": "Kademeli döküntü izleme için 25, 10, 3μm ağ",
+        "iconName": "Filter"
+      },
+      {
+        "name": "Baypas Makara Seti",
+        "detail": "Özel imal baypas makaraları ve kör flanşlar",
+        "iconName": "Wrench"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 4406:99",
+        "desc": "Hidrolik akışkan temizlik sınıflandırması — 16/14/11 hedefi",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 11500",
+        "desc": "Otomatik yöntemler kullanılarak parçacık sayımının belirlenmesi",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 4021",
+        "desc": "Hidrolik akışkan kontaminasyon analizi ve numune alma",
+        "body": "ISO"
+      },
+      {
+        "code": "API 614",
+        "desc": "Yağlama sistemleri, mil sızdırmazlığı ve yağ kontrolü",
+        "body": "API"
+      },
+      {
+        "code": "ASTM D6304",
+        "desc": "Yağlama yağında Karl Fischer su içeriği ölçümü",
+        "body": "ASTM"
+      },
+      {
+        "code": "OEM Spesifikasyonu",
+        "desc": "Triveni, Siemens, BHEL, Man Turbo yağlama yağı temizlik gereksinimleri",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_6": {
+    "tagline": "Lazer Hassasiyetinde Hizalama — Yatak Arızalarının #1 Nedenini Ortadan Kaldırma",
+    "accentColor": "#059669",
+    "keyStats": [
+      {
+        "value": "0.05mm",
+        "label": "Ulaşılan Hizalama Toleransı"
+      },
+      {
+        "value": "50%",
+        "label": "Hizasızlıktan Kaynaklanan Yatak Arızaları"
+      },
+      {
+        "value": "80%",
+        "label": "0,05mm Ofsette Kaybedilen Yatak Ömrü"
+      },
+      {
+        "value": "Tüm Boyutlar",
+        "label": "Kapsanan Makine Gövdeleri"
+      }
+    ],
+    "whyUs": "Kaplinde 0,05 mm kadar küçük bir hizasızlık, yatak ömrünü %80 azaltabilir ve contalar, kaplinler ve tüm tahrik hattı boyunca yayılan kuvvetler üretebilir. Lazer hizalama sadece birkaç saat sürer — yatak arızası haftalar sürer ve çok daha fazla maliyetlidir. Sadece soğukta değil, sıcak koşullarda hizalıyoruz.",
+    "overview": "Mil hizasızlığı, Hindistan endüstrisindeki tüm döner ekipman yatak arızalarının %50'sine kadar sorumludur. Çıplak gözle görülemeyen hizasızlık bile, işletme hızında yataklarda, contalarda ve kaplinlerde büyük döngüsel kuvvetler üretir. Keshav Enterprises, herhangi bir gövde boyutundaki türbinler, dişli kutuları, pompalar, fanlar, alternatörler ve indüksiyon jeneratörleri için Pruftechnik ve SKF sistemleri kullanarak hassas lazer mil hizalaması gerçekleştirir. Kritik olarak, sıcak hizalama ofsetini hesaplar ve uygularız — soğuk hizalama, termal büyümeyi hesaba katmak için kasıtlı olarak ofsetlenir, böylece makine işletme sıcaklığında düz çalışır. Hizalama raporlarımız, önce/sonra okumaları, şim geçmişi ve OEM toleranslarına karşı final değerleri gösterir.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Hizalama Öncesi Kontroller",
+        "iconName": "Search",
+        "desc": "Tüm ayaklarda hassas komparatör kullanılarak soft foot durumunun (cıvatalar sıkıldığında makine gövdesi bozulması) doğrulanması — hizalama devam etmeden önce 0,05 mm veya daha az gereklidir. Bağlı borulama tarafından makine nozullarına uygulanan kuvvetleri belirlemek için boru gerilimi ölçümü. Yatak boşluk kontrolü ve OEM verilerinden veya saha ölçümlerinden termal büyüme hesaplaması."
+      },
+      {
+        "step": "02",
+        "title": "Lazer Hizalama Sistemi Kurulumu",
+        "iconName": "Target",
+        "desc": "Hassas manyetik braketler kullanılarak lazer verici ve alıcı kafalarının mile montajı. Sistem sıfırlanır ve mil dönüş toleransı doğrulanır. Tüm ilgili boyutlar hizalama yazılımına girilir: kaplin çapı, göbekten göbeğe mil mesafesi ve ölçüm mesafeleri. Braket sehim telafisi doğrulanır ve uygulanır."
+      },
+      {
+        "step": "03",
+        "title": "İlk Hizasızlık Ölçümü",
+        "iconName": "Activity",
+        "desc": "Mil ölçüm yayı boyunca döndürülür (üç pozisyon: 12, 3 ve 9 saat). Yazılım gerçek hizasızlığı hesaplar: kaplin yüzünde açısal hizasızlık (mrad) ve ofset (mm), ve dikey ve yatay düzlemlerde her makine ayağında eş zamanlı olarak gereken düzeltme."
+      },
+      {
+        "step": "04",
+        "title": "Şim ve Krikovida Düzeltmesi",
+        "iconName": "Layers",
+        "desc": "Hesaplanan şim düzeltmesi sabit makine ayağına uygulanır. Dikey hizasızlığı düzeltmek için doğru konfigürasyonda hassas paslanmaz çelik şimler eklenir veya çıkarılır. Yatay düzeltme, düzeltme sırasında gerçek zamanlı geri bildirim için lazer hala aktifken makine ayağındaki hizalama krikovidaları kullanılarak yapılır."
+      },
+      {
+        "step": "05",
+        "title": "Sıcak Hizalama Telafisi",
+        "iconName": "Zap",
+        "desc": "Makine gövdesinin soğuk sıcaklıktan işletme sıcaklığına termal büyümesi, OEM termal büyüme verilerinden hesaplanır veya DBSE (mil uçları arası mesafe) izleme ve termal görüntüleme kullanılarak ölçülür. Soğuk hizalama hedefi, makinenin tam yük ve sıcaklıkta doğru sıcak çalışma hizalamasına ulaşması için kasıtlı olarak ofsetlenir."
+      },
+      {
+        "step": "06",
+        "title": "Final Ölçüm ve Tolerans Doğrulaması",
+        "iconName": "CheckCircle2",
+        "desc": "Final lazer ölçümü, hizalamanın OEM toleransları içinde olduğunu doğrular — tipik olarak: kaplinde maks 0,05 mrad açısal hizasızlık, maks 0,05 mm ofset. Tüm dört ayak, 0,05 mm veya daha az soft foot için yeniden kontrol edilir. Kaplin cıvataları, kalibre edilmiş dijital tork anahtarı kullanılarak OEM spesifikasyonuna göre sıkılır."
+      },
+      {
+        "step": "07",
+        "title": "Hizalama Raporu ve Cıvata Torku",
+        "iconName": "BookOpen",
+        "desc": "Lazer sistemi yazılımı tarafından detaylı hizalama raporu üretilir: hizalama öncesi okumalar, her ayaktaki şim değişiklikleri, uygulanan düzeltme vektörleri ve OEM toleranslarına karşı ulaşılan final değerler. Temel cıvata torku kaydedilir. Rapor imzalanır ve düzenlenir — gelecekteki hizalamalar için bakım kaydı temelinin bir parçası haline gelir."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Pruftechnik Rotalign Pro",
+        "detail": "OPTALIGN serisi — kablosuz lazer hizalama",
+        "iconName": "Target"
+      },
+      {
+        "name": "SKF TKSA 71",
+        "detail": "Uygulama tabanlı raporlamalı kablosuz lazer hizalama",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Hassas Komparatör",
+        "detail": "Soft foot ölçümü — 0,001 mm çözünürlük",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Hassas SS Şim Seti",
+        "detail": "0,025 mm artışlarla 0,025 ile 3,0 mm arası",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Dijital Tork Anahtarı",
+        "detail": "Kaplin ve temel cıvatası tork uygulama",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Titreşim Analizörü",
+        "detail": "Hizalama öncesi ve sonrası titreşim karşılaştırması",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Termal Görüntüleme Kamerası",
+        "detail": "Yatak ve sıcak kaplin sıcaklık taraması",
+        "iconName": "Zap"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 10816-3 / 20816-3",
+        "desc": ">15 kW makineler için titreşim şiddeti değerlendirmesi",
+        "body": "ISO"
+      },
+      {
+        "code": "API 686",
+        "desc": "Makine kurulumu ve hizalama için önerilen uygulama",
+        "body": "API"
+      },
+      {
+        "code": "ASME B31.3",
+        "desc": "Makine bağlantılarında proses boru nozul yük sınırları",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 1940",
+        "desc": "Hizalama düzeltmesi sonrası kalan dengesizlik sınırları",
+        "body": "ISO"
+      },
+      {
+        "code": "API 612",
+        "desc": "Özel amaçlı buhar türbinleri — hizalama gereksinimleri",
+        "body": "API"
+      },
+      {
+        "code": "OEM Toleransları",
+        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK hizalama spesifikasyonları",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_7": {
+    "tagline": "Kök Neden Bulundu. Düzeltici Eylem Uygulandı. Türbin Tekrar Çevrimiçi.",
+    "accentColor": "#dc2626",
+    "keyStats": [
+      {
+        "value": "24×7",
+        "label": "Acil Konuşlandırma"
+      },
+      {
+        "value": "10+",
+        "label": "Teşhis Edilen OEM Markası"
+      },
+      {
+        "value": "FFT+Termal",
+        "label": "İkili Teşhis Yöntemi"
+      },
+      {
+        "value": "48saat",
+        "label": "Onarım Sonrası Trend İzleme"
+      }
+    ],
+    "whyUs": "Kök nedeni bulunmadan yanlış teşhis edilip onarılan bir arıza tekrar başarısız olur — genellikle ilkinden daha hızlı. Tahmin etmiyoruz. Ölçüyoruz, spektrumları analiz ediyoruz, sadece verinin gerektirdiğini söktük, kök nedeni fiziksel olarak doğruluyoruz ve sorunu bulan aynı ekiple onarıyoruz.",
+    "overview": "Planlanmamış türbin tripleri ve açıklanamayan performans bozulmaları, endüstriyel tesislere her yıl kayıp üretimde milyonlarca maliyete mal olur. Keshav Enterprises, yüksek titreşim ve yatak arızasından gövernör kararsızlığına, yağ kontaminasyonuna ve buhar kaçaklarına kadar herhangi bir buhar türbini arızasının kesin kök nedenini tanımlamak, belgelemek ve düzeltmek için tam teşhis enstrümantasyonuyla OEM kökenli arıza giderme mühendisleri konuşlandırır. Hindistan'ın proses ve enerji endüstrisi spektrumu genelinde 5 kW'dan 60 MW'a kadar tüm türbin markalarını kapsıyoruz. Metodolojimiz sistematiktir: önce çevrimiçi ölçüm, veri tarafından hedeflenen fiziksel inceleme, yazılı olarak onaylanan kök neden ve arızayı teşhis eden aynı ekip tarafından uygulanan düzeltici eylem.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Acil Seferberlik ve Saha Veri Toplama",
+        "iconName": "Zap",
+        "desc": "Tam teşhis kitiyle sahaya 7/24 müdahale konuşlandırması. Mevcut tüm işletme verilerinin toplanması: titreşim geçmişi, DCS trip günlükleri, yağ analiz raporları, yatak sıcaklık trendleri, buhar durum günlükleri ve bakım kayıtları. Arıza olayına tanık olan operasyon ve bakım personeliyle görüşme."
+      },
+      {
+        "step": "02",
+        "title": "Titreşim ve Temel Performans Ölçümü",
+        "iconName": "Activity",
+        "desc": "Tüm yatak gövdelerinde çevrimiçi titreşim ölçümü: genel titreşim seviyeleri (mm/s RMS), gerçek zamanlı FFT spektrum analizi, 1X ve 2X genlik ve faz açısı, senkron altı ve yüksek frekans bileşenleri. Buhar giriş/egzoz basıncı, sıcaklığı ve akışı tasarım görevine karşı karşılaştırılır. Yatak sıcaklıkları termal görüntüleme kamerası kullanılarak haritalanır."
+      },
+      {
+        "step": "03",
+        "title": "Arıza İmzası Tanımlama ve Hipotez",
+        "iconName": "Search",
+        "desc": "Bir arıza imzası oluşturmak için titreşim spektrumu, faz verileri, yatak sıcaklık haritası ve yağ numunesi sonuçlarının analizi. Her olası kök neden, ölçülebilir kanıta karşı sistematik olarak eşleştirilir: dengesizlik (baskın 1X), hizasızlık (baskın 2X), yatak aşınması (senkron altı veya yatak arıza frekansları), sürtünme (alt harmonikler, yüksek 1X), gevşeklik (çoklu harmonikler) veya buhar yolu kirlenmesi (termal bükülme)."
+      },
+      {
+        "step": "04",
+        "title": "Hedeflenen Söküm ve Fiziksel İnceleme",
+        "iconName": "Wrench",
+        "desc": "Sadece şüphelenilen arıza bölgesini hedefleyen minimum invaziv söküm — veri gerektirmedikçe tam söküm değil. Yatak boşluklarının, mil salgısının, kaplin hizalamasının, gland conta boşluklarının ve labirent conta oturmasının fiziksel ölçümü OEM spesifikasyonlarına karşı karşılaştırılır. Tüm bulgular fotoğraflanır ve boyutsal olarak belgelenir."
+      },
+      {
+        "step": "05",
+        "title": "Kök Neden Doğrulaması ve Yazılı RCA Raporu",
+        "iconName": "BookOpen",
+        "desc": "Makine üzeri verileri, söküm ölçümlerini ve OEM spesifikasyon karşılaştırmalarını birleştiren resmi kök neden analizi (RCA) raporu. Kök neden sınıflandırılır ve yazılı olarak onaylanır. Katkıda bulunan faktörler belirlenir. Öncelik sıralaması, gerekli yedek parçalar, duruş süresi tahmini ve önerilen önleyici tedbirlerle düzeltici eylem planı, işe başlamadan önce müşteriye sunulur."
+      },
+      {
+        "step": "06",
+        "title": "Düzeltici Eylem Uygulaması",
+        "iconName": "Cog",
+        "desc": "Aynı arıza giderme ekibi tarafından düzeltici eylemin doğrudan uygulanması: rotor yeniden balansı, yatak değişimi ve boşluk ayarı, lazer hizalama düzeltmesi, gland conta ve labirent dolgu değişimi, ISO 4406'ya yağlama yağı sistemi yıkaması, gövernör revizyonu ve kalibrasyonu veya kontrol sistemi kalibrasyonu. Tüm düzeltici çalışma OEM spesifikasyonlarına karşı belgelenir."
+      },
+      {
+        "step": "07",
+        "title": "Onarım Sonrası Devreye Alma ve 48 Saatlik Trend İzleme",
+        "iconName": "TrendingUp",
+        "desc": "Hız artırma sırasında sürekli titreşim ve yatak sıcaklığı veri kaydıyla izlenen yeniden başlatma. Onarım sonrası titreşim seviyeleri, arıza öncesi temel ve OEM kabul sınırlarına (ISO 10816-3) karşı karşılaştırılır. Yazılı izin raporu düzenlenmeden ve türbin denetimsiz işletmeye geri döndürülmeden önce tam yükte sürekli 48 saatlik trend izleme."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Çok Kanallı Titreşim Analizörü",
+        "detail": "Gerçek zamanlı FFT — CSI 2140 / SKF Microlog sınıfı",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Yakınlık Probları",
+        "detail": "Eddy current mil titreşimi — API 670 standardı",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Termal Görüntüleme Kamerası",
+        "detail": "FLIR / Testo — yatak ve buhar yolu termal taraması",
+        "iconName": "Zap"
+      },
+      {
+        "name": "Stroboskop + Faz Referansı",
+        "detail": "1X genlik ve faz açısı ölçümü",
+        "iconName": "Search"
+      },
+      {
+        "name": "Taşınabilir Yağ Parçacık Sayacı",
+        "detail": "ISO 11500 — sahada yağlama yağı kontaminasyonu",
+        "iconName": "Droplets"
+      },
+      {
+        "name": "Boreskop",
+        "detail": "Rijit ve esnek — tam söküm olmadan kanat incelemesi",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "PMI XRF Analizör",
+        "detail": "Arızalı bileşen alaşım tanımlaması",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Lazer Mil Hizalama Sistemi",
+        "detail": "Kaplin ve yatak hizalama doğrulaması",
+        "iconName": "Target"
+      },
+      {
+        "name": "Karl Fischer Titratör",
+        "detail": "Yağlama yağında serbest su içeriği — kontaminasyon kontrolü",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Gövernör Kalibrasyon Ekipmanı",
+        "detail": "Hız referans ve kontrol sistemi cihazları",
+        "iconName": "Cog"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 10816-3 / 20816-3",
+        "desc": ">15 kW endüstriyel makineler için titreşim şiddeti sınırları",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Makine koruması: titreşim, eksenel pozisyon, sıcaklık",
+        "body": "API"
+      },
+      {
+        "code": "API 612",
+        "desc": "Petrol ve kimya servisi için özel amaçlı buhar türbinleri",
+        "body": "API"
+      },
+      {
+        "code": "ISO 4406:99",
+        "desc": "Yağlama yağı temizlik sınıflandırması",
+        "body": "ISO"
+      },
+      {
+        "code": "ASME PTC 6",
+        "desc": "Verimlilik kıyaslaması için buhar türbini performans test kodu",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 14224",
+        "desc": "Ekipman için güvenilirlik ve bakım veri toplama",
+        "body": "ISO"
+      },
+      {
+        "code": "OEM Kılavuzu",
+        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB",
+        "body": "OEM"
+      }
+    ],
+    "faultMatrix": [
+      {
+        "symptom": "Yüksek titreşim — baskın 1X",
+        "causes": [
+          "Rotor dengesizliği (kalan veya birikinti kaynaklı)",
+          "Rotor eğriliği (termal veya mekanik)",
+          "Aşırı yatak boşluğu"
+        ],
+        "action": "Dinamik balans, rotor incelemesi, yatak değişimi"
+      },
+      {
+        "symptom": "Yüksek titreşim — baskın 2X",
+        "causes": [
+          "Mil hizasızlığı (açısal veya ofset)",
+          "Kaplin arızası",
+          "Gövde bozulması / boru gerilimi"
+        ],
+        "action": "Lazer hizalama, kaplin incelemesi, boru gerilimi ölçümü"
+      },
+      {
+        "symptom": "Senkron altı titreşim",
+        "causes": [
+          "Mil yatağında yağ girdabı / yağ kırbacı",
+          "Sürtünme kaynaklı kararsızlık",
+          "Gevşek yatak montajı"
+        ],
+        "action": "Yatak boşluğunu sıfırlama, yağlama yağı basınç/viskozite kontrolü, sürtünme boşluğu incelemesi"
+      },
+      {
+        "symptom": "Yüksek frekans titreşimi (>3X)",
+        "causes": [
+          "Kanat kirlenmesi veya erozyonu",
+          "Temel veya yatak kapağında gevşeklik",
+          "Dişli kavraması arızası (dişli kutusu)"
+        ],
+        "action": "Kanat incelemesi (boreskop), yatak kapağı torku kontrolü, dişli kutusu incelemesi"
+      },
+      {
+        "symptom": "Yatak yağı kontaminasyonu / yağda su",
+        "causes": [
+          "Karbon halka gland conta aşınması",
+          "Gland buhar basıncı çok yüksek",
+          "Egzoz yoluyla kondensat girişi"
+        ],
+        "action": "Karbon halka değişimi, gland buhar basıncını sıfırlama, yağlama yağı sistemi yıkaması"
+      },
+      {
+        "symptom": "Gland buhar kaçağı",
+        "causes": [
+          "Labirent conta aşınması (aşırı boşluk)",
+          "Gland dolgusu aşınmış veya hasarlı",
+          "Gland buhar basıncı yanlış ayarlanmış"
+        ],
+        "action": "Labirent conta değişimi, gland dolgu değişimi, gland buhar kontrolör kalibrasyonu"
+      },
+      {
+        "symptom": "Gövernör salınımı / hız kararsızlığı",
+        "causes": [
+          "Gövernör bağlantı aşınması veya sıkışması",
+          "Gövernör PG-PL'de kirli yağ / çamur",
+          "Kompanzasyon iğne valfi ayarı yanlış"
+        ],
+        "action": "Gövernör bağlantı revizyonu, gövernör yağı temizleme ve yeniden doldurma, iğne valfi yeniden kalibrasyonu"
+      },
+      {
+        "symptom": "Düşük yağlama yağı basıncı trip'i",
+        "causes": [
+          "Yağ pompası aşınması",
+          "Yağ soğutucu kirlenmesi / yüksek yağ sıcaklığı",
+          "Basınç tahliye valfi açık sıkışmış",
+          "Düşük yağ seviyesi veya kavitasyon"
+        ],
+        "action": "Yağ pompası incelemesi, soğutucu temizliği, PRV incelemesi, yağ seviyesi ve sistem kontrolü"
+      },
+      {
+        "symptom": "Aşırı hız trip'i — sahte veya gerçek",
+        "causes": [
+          "Trip pini aşınması veya yanlış ayar",
+          "Gövernör valfi buhar kaçırıyor",
+          "Aktüatör veya kontrol yağı arızası"
+        ],
+        "action": "Trip pini inceleme ve yeniden ayar, gövernör valf oturma yeri incelemesi, kontrol sistemi kontrolü"
+      },
+      {
+        "symptom": "Çıkış gücü / verimlilik kaybı",
+        "causes": [
+          "Kanat kirlenmesi (buhar saflığı / attemperasyon su kontaminasyonu)",
+          "Conta şeridi aşınması (artan buhar baypası)",
+          "Nozul erozyonu veya tıkanması"
+        ],
+        "action": "Boreskop incelemesi, conta şeridi değişimi, nozul incelemesi ve temizliği"
+      }
+    ]
+  }
+}

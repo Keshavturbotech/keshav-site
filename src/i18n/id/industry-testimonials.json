@@ -1,0 +1,37 @@
+{
+  "ind_1": {
+    "quote": "Getaran rotor BHEL 3 MW turun dari 9,2 menjadi 0,8 mm/s setelah penyeimbangan dinamis. 26 bulan — tanpa penggantian bearing.",
+    "credit": "Pembangkit Listrik Captive, Telangana",
+    "link": null
+  },
+  "ind_2": {
+    "quote": "Kegagalan bearing babbitt pukul 2 pagi saat musim giling. Insinyur tiba di lokasi keesokan paginya. Downtime: 14 jam.",
+    "credit": "Pabrik Gula, Haryana",
+    "link": null
+  },
+  "ind_3": {
+    "quote": "Rekayasa balik poros rotor dan cincin labirin Belliss & Morcom dalam 6 minggu. Kualitas setara OEM.",
+    "credit": "Pabrik Kertas & Pembangkit Listrik, Punjab",
+    "link": null
+  },
+  "ind_4": {
+    "quote": "Filter oli pelumas sesuai API 614 dengan sertifikat material lengkap — dimensi sama persis dengan OEM HYDAC.",
+    "credit": "Kilang Minyak, Gujarat",
+    "link": null
+  },
+  "ind_5": {
+    "quote": "Gasket spiral wound sesuai ASME B16.20 — seluruh flensa ANSI 600# diganti dalam shutdown 5 hari tanpa kebocoran saat startup.",
+    "credit": "Pabrik Petrokimia, Rajasthan",
+    "link": null
+  },
+  "ind_6": {
+    "quote": "Filter kantong HVAC untuk ruang kontrol food-grade — grade F7, dikirim dalam 3 hari. Tidak ada masalah kontaminasi silang.",
+    "credit": "Fasilitas Pengolahan Agro, UP",
+    "link": null
+  },
+  "ind_7": {
+    "quote": "Kantong filter dust collector untuk pabrik semen — grade membran PTFE. Penurunan tekanan stabil selama 18 bulan dibanding siklus 6 bulan sebelumnya.",
+    "credit": "Pabrik Semen, MP",
+    "link": null
+  }
+}

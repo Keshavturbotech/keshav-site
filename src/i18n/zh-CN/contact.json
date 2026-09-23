@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "联系工程团队 — 索取技术报价",
+    "description": "联系 Keshav Enterprises，获取汽轮机工程 RFQ、逆向工程报价及 24x7 紧急故障支持。电话：+91 9149229448。",
+    "schemaName": "联系 Keshav Enterprises"
+  },
+  "hero": {
+    "title": "直接对话工程师 — 而非销售人员",
+    "subtitle": "告诉我们您的需求，我们的工程团队——前 OEM 工程师，而非呼叫中心——将在 24 小时内给出技术答复，因为您需要的是答案，而不是一份宣传册。",
+    "trustSignals": [
+      "RFQ 严格保密 — 绝不透露给 OEM 代表",
+      "无任何义务 — 后续如何进行由您决定",
+      "常规询价 24 小时内回复 · 紧急情况 1 小时内回复"
+    ]
+  },
+  "cards": {
+    "directLines": {
+      "title": "直拨电话",
+      "salesLabel": "销售与 RFQ",
+      "emergencyLabel": "24×7 紧急故障支持",
+      "whatsappCta": "通过 WhatsApp 联系此号码",
+      "whatsappPrefillMessage": "您好，我的汽轮机需要紧急故障支持。"
+    },
+    "email": {
+      "title": "邮箱（用于 RFQ）"
+    },
+    "facilityAddress": {
+      "title": "厂区地址"
+    },
+    "officeHours": {
+      "title": "办公时间",
+      "mondaySaturdayLabel": "周一至周六",
+      "mondaySaturdayValue": "上午 9:00 – 下午 6:00（印度标准时间）",
+      "sundayLabel": "周日",
+      "sundayValue": "休息（仅处理紧急事务）",
+      "emergencyLineLabel": "紧急热线",
+      "emergencyLineValue": "24 × 7 全天候开通"
+    },
+    "indiamart": {
+      "ariaLabel": "在 IndiaMART 上查看 Keshav Enterprises",
+      "title": "IndiaMART 认证",
+      "ratingSrOnly": "5 星中的 4.3 星",
+      "ratingText": "评分 4.3/5",
+      "trustSeal": "TrustSeal 认证供应商"
+    },
+    "connect": {
+      "label": "联系我们"
+    }
+  },
+  "formSection": {
+    "heading": "免费获取技术报价",
+    "subheading": "您的咨询将直接发送给我们的首席工程师，而非呼叫中心。我们提供技术性答复，因为这才是工厂管理者真正需要的。另附赠对贵方汽轮机最近一次油品分析报告的免费评估。"
+  },
+  "googleBusiness": {
+    "title": "在 Google 商家信息中找到我们",
+    "descriptionPrefix": "在 Google 地图中搜索",
+    "descriptionQuoted": "Keshav Enterprises Shamli",
+    "descriptionSuffix": "——查看我们的主页、获取路线，或留下评价以帮助其他买家找到我们。",
+    "cta": "在 Google 上查看"
+  },
+  "facilityPhoto": {
+    "caption": "我们位于印度北方邦沙姆利的生产基地",
+    "alt": "Keshav Enterprises 生产基地 — 北方邦沙姆利"
+  },
+  "map": {
+    "heading": "我们的生产基地 — 北方邦沙姆利",
+    "iframeTitle": "Keshav Enterprises 位置地图",
+    "googleBusinessCta": "Google 商家信息",
+    "directionsCta": "获取路线"
+  },
+  "form": {
+    "riskReversal": [
+      {
+        "title": "完全没有任何义务",
+        "sub": "我们会给出技术性答复，后续如何推进完全由您决定——绝无跟单压力。"
+      },
+      {
+        "title": "您的 RFQ 严格保密",
+        "sub": "我们绝不会将您的工厂信息透露给第三方，即便是 OEM 代表也不例外。"
+      },
+      {
+        "title": "由工程师而非销售人员回复",
+        "sub": "由曾处理过您所用汽轮机型号的工程师，给出真正的技术答复。"
+      },
+      {
+        "title": "若不匹配，我们会提前说明",
+        "sub": "如果您的项目超出我们的服务范围，我们会第一时间告知，不兜圈子，不浪费时间。"
+      }
+    ],
+    "inquiryTypes": [
+      "汽轮机大修服务",
+      "紧急故障支持",
+      "汽轮机安装与调试",
+      "逆向工程",
+      "动平衡",
+      "润滑油冲洗",
+      "机组对中",
+      "故障排查",
+      "喷砂处理",
+      "滤芯 RFQ",
+      "暖通空调、风管及空气过滤 RFQ",
+      "汽轮机备件 RFQ",
+      "阀门、垫片及蒸汽系统 RFQ",
+      "膨胀节 RFQ",
+      "过滤器 RFQ",
+      "其他咨询"
+    ],
+    "officeStatus": {
+      "online": "工程师现已在线 — 2 小时内回复",
+      "offline": "紧急热线 24×7 全天候开通 — 常规 RFQ 将于印度标准时间上午 9 点后回复"
+    },
+    "labels": {
+      "yourName": "您的姓名",
+      "companyName": "公司名称",
+      "email": "邮箱",
+      "phone": "电话",
+      "inquiryType": "咨询类型",
+      "turbineMakeModel": "汽轮机品牌 / 型号",
+      "details": "详细说明",
+      "attachments": "上传技术图纸 / 数据表（选填）"
+    },
+    "placeholders": {
+      "yourName": "请填写全名",
+      "companyName": "您的公司名称",
+      "email": "you@company.com",
+      "phone": "+91 98000 00000",
+      "inquiryTypeSelect": "请选择咨询类型…",
+      "turbineMakeModel": "例如：Triveni 5 MW，背压式",
+      "details": "请描述您的具体需求、故障现象、时间要求或技术规格……"
+    },
+    "attachmentsHelp": "支持 PDF、DWG、DXF、JPG、PNG 格式 — 每个文件最大 10 MB。有助于我们更快给出更精准的报价。",
+    "charCounter": {
+      "minRequired": "至少需输入 20 个字符",
+      "moreNeededOne": "还需输入 {n} 个字符",
+      "moreNeededMany": "还需输入 {n} 个字符",
+      "looksGood": "✓ 符合要求！"
+    },
+    "errors": {
+      "yourName": "请填写您的姓名",
+      "companyName": "请填写公司名称",
+      "email": "请填写有效的邮箱地址",
+      "phone": "请填写有效的电话号码（至少 10 位数字）",
+      "inquiryType": "请选择咨询类型",
+      "details": "请填写详细说明（至少 20 个字符）",
+      "attachmentTooLarge": "“{filename}” 超过 10 MB 大小限制 — 请上传较小的文件",
+      "rateLimited": "提交次数过多，请等待一小时后再试。",
+      "securityCheck": "请完成安全验证。",
+      "notConfigured": "表单尚未配置 — 请直接通过 WhatsApp 或电话联系我们。",
+      "submissionFailedGeneric": "提交失败，请重试。",
+      "submissionFailedBanner": "提交失败 — 请重试，或直接联系我们：",
+      "whatsappFallback": "WhatsApp",
+      "whatsappFallbackPrefillMessage": "您好，我尝试提交联系表单但失败了，能帮我处理一下吗？"
+    },
+    "buttons": {
+      "sendingToEngineer": "正在发送给工程团队……",
+      "sendToEngineer": "发送给首席工程师",
+      "sendToEngineerSub": "获得技术答复，而非宣传册",
+      "sendingShort": "发送中……",
+      "submitWithDrawings": "提交带技术图纸的 RFQ",
+      "submitWithDrawingsSub": "因为并非所有人都使用 WhatsApp"
+    },
+    "footerNote": {
+      "text": "我们将在 1 个工作日内回复 · 绝无垃圾邮件 ·",
+      "privacyPolicyLink": "隐私政策"
+    },
+    "success": {
+      "heading": "咨询已发送给我们的工程师。",
+      "bodyPrefix": "常规咨询预计将在",
+      "bodyMid": "内收到技术答复，紧急故障则在",
+      "bodySuffix": "内答复——由工程师亲自回复，而非呼叫中心。",
+      "hours24": "24 小时",
+      "hour1": "1 小时",
+      "resendCta": "发送新的咨询",
+      "whileYouWaitLabel": "在等待期间 —",
+      "whileYouWaitText": "欢迎浏览我们记录详实的案例研究与实际成效。",
+      "viewCaseStudiesCta": "查看案例研究"
+    }
+  }
+}

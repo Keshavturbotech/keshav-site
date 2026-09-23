@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Keshav Enterprises — Dampfturbinen-Überholung & Ersatzteile, Shamli UP Indien",
+    "description": "Ex-OEM-Dampfturbineningenieure von Triveni, Siemens, BHEL. Überholung, Reverse Engineering, dynamisches Auswuchten, Schmierölspülung und OEM-kompatible Ersatzteile für Turbinen von 5 kW–60 MW. Sitz in Shamli, UP. 24×7-Notfallunterstützung.",
+    "keywords": "Turbinenwartung Indien, Dampfturbinenüberholung, Turbinen-Reverse-Engineering, industrielle Turbinenersatzteile, Schmierölfilterelemente, Kompensatoren Indien, Triveni Turbinenservice, BHEL Turbinenersatzteile, Turbinenmontage Uttar Pradesh, Engineering Shamli"
+  },
+  "hero": {
+    "badgeMakeInIndia": "Make In India",
+    "badgeVocalForLocal": "Vocal For Local",
+    "badgeIndiaMartLabel": "IndiaMART-verifiziert",
+    "badgeIndiaMartRatingSuffix": "BEWERTUNG",
+    "h1Line1": "Präzisionstechnik für",
+    "h1Line2": "maximale Verfügbarkeit.",
+    "capabilityLine": "Dampfturbinen von 5 kW bis 60 MW — Gegendruck- und Kondensationsturbinen, horizontal und vertikal, ein- und mehrstufig. Wir betreuen Kunden in ganz Indien und weltweit.",
+    "introText": "Ex-OEM-Ingenieure von Triveni, Siemens, BHEL und 7 weiteren Marken. Wir bringen Ihre Turbine schneller zurück in Betrieb als die OEM-Beschaffung — mit vollständigen PMI-Zertifikaten, ISO-Auswuchtberichten und einer straffreien Erfolgsbilanz seit {founded}.",
+    "ctaPrimary": "Anfrage senden",
+    "ctaEmergency": "Notfall-Störung",
+    "trustYearsOverhauls": "{years}+ Jahre · 500+ Überholungen",
+    "trustPmi": "PMI-zertifizierte Ersatzteile",
+    "trustResponse": "Ø Reaktionszeit: 2 Std.",
+    "proofCards": [
+      {
+        "label": "Keine Einarbeitungszeit",
+        "title": "Ex-OEM-Ingenieure",
+        "sub": "Unser Team hat bei Triveni, Siemens, BHEL und Belliss gearbeitet — dieselbe Expertise, geliefert für Ihre Anlage."
+      },
+      {
+        "label": "Jeder Auftrag dokumentiert",
+        "title": "Bericht bei Übergabe",
+        "sub": "PMI-Zertifikate, Auswuchtberichte, Ausrichtungsprotokolle, Zustandsberichte — bei Auftragsabschluss übergeben."
+      },
+      {
+        "label": "Wenn jede Minute zählt",
+        "title": "24×7-Notdienst",
+        "sub": "Ingenieure an mehreren Standorten in ganz Indien. Rufen Sie um 2 Uhr nachts an — jemand antwortet."
+      }
+    ]
+  },
+  "oemMarquee": {
+    "heading": "OEM-kompatibel und vertraut von Branchenführern"
+  },
+  "stats": {
+    "overhauls": {
+      "label": "Abgeschlossene Überholungen",
+      "sub": "Zucker-, Kraft-, Papier- und Zementwerke in ganz Indien"
+    },
+    "years": {
+      "label": "Jahre im Dienst",
+      "sub": "Durchgehender Betrieb seit {founded} — kein Eigentümerwechsel"
+    },
+    "penaltyClaims": {
+      "label": "Vertragsstrafen",
+      "sub": "Null in {years} Jahren — Kundenreferenzen auf Anfrage verfügbar"
+    },
+    "emergency": {
+      "label": "Notfallreaktion",
+      "sub": "Ingenieure an mehreren Standorten — Ø Einsatzzeit unter 4 Std."
+    }
+  },
+  "featuredProducts": {
+    "heading": "Ausgewählte technische Produkte",
+    "scrollLeftLabel": "Nach links scrollen",
+    "scrollRightLabel": "Nach rechts scrollen",
+    "dragToExplore": "zum Erkunden ziehen",
+    "viewCompleteCatalog": "Vollständigen Katalog ansehen",
+    "viewDetails": "Details ansehen",
+    "swipeToBrowse": "Zum Durchblättern wischen"
+  },
+  "servicesPreview": {
+    "eyebrow": "Turbinen-Lebenszyklus von A bis Z",
+    "heading": "Technische Leistungen",
+    "subheading": "Dieselben Ex-OEM-Ingenieure übernehmen Ihre Überholung, Ihre Ersatzteile und Ihren Notfall um 2 Uhr nachts — ohne Unterauftragnehmer, ohne Übergaben.",
+    "painLines": {
+      "srv_2": "Genug von Dienstleistern, die schlecht ausgerüstet erscheinen und keinen Auftragsbericht liefern?",
+      "srv_3": "Hat der OEM Monate für ein Ersatzteil angeboten, das nicht mehr produziert wird?",
+      "srv_4": "Wiederkehrende Vibration nach Ausrichtung und Lagerwechsel — die Ursache wurde nicht behoben?"
+    },
+    "viewFullDetails": "Alle Details ansehen",
+    "viewAllServices": "Alle 8 Leistungen ansehen"
+  },
+  "testimonials": {
+    "eyebrow": "Kundenfeedback",
+    "heading": "Vertraut von Werksleitern in ganz Indien",
+    "googleRatingLabel": "+ verifizierte Google-Bewertungen",
+    "disclaimer": "Zitate stammen aus abgeschlossenen Projektunterlagen und werden bis zur schriftlichen Zustimmung zur vollständigen Namensnennung auf Initialen gekürzt. Unabhängig verifizierte Bewertungen finden Sie oben in unseren Google-Rezensionen.",
+    "footerCtaPrefix": "Mit uns zusammengearbeitet?",
+    "footerCtaLink": "Hinterlassen Sie eine Google-Bewertung — sie hilft anderen Werksleitern, uns zu finden →",
+    "googleReviewBadge": "Google-Bewertung",
+    "items": [
+      {
+        "quote": "Ihre Ex-Triveni-Ingenieure führten die Überholung unserer 12-MW-Triveni-Turbine während des Jahresstillstands durch — alle Spielmaße dokumentiert, Rotor nach ISO G1.0 ausgewuchtet und früher als geplant wieder in Betrieb. Zum ersten Mal seit sechs Jahren keine Probleme beim ersten Anfahren.",
+        "name": "R. Kumar",
+        "role": "Werksleiter",
+        "company": "Zucker- und Kraft-Wärme-Kopplungsanlage",
+        "location": "Uttar Pradesh",
+        "service": "Turbinenüberholung",
+        "detail": "12 MW Triveni · Geplanter Stillstand"
+      },
+      {
+        "quote": "Wir hatten um 2 Uhr nachts während der Hochsaison einen kritischen Weißmetalllager-Ausfall an unserer Belliss & Morcom-Turbine. Keshav Enterprises hatte bis zum Morgen einen Ingenieur mit dem fertigen Ersatzlager vor Ort. Die Ausfallzeit betrug unter 14 Stunden — das ersparte uns enorme Verluste bei der Zuckerrohrverarbeitung.",
+        "name": "A. Singh",
+        "role": "Instandhaltungsleiter",
+        "company": "Zuckerfabrik",
+        "location": "Haryana",
+        "service": "Notfall-Störungsreaktion",
+        "detail": "Belliss & Morcom · Lagerausfall"
+      },
+      {
+        "quote": "OEM-Ersatzteile für unsere 28 Jahre alte Belliss & Morcom-Turbine hatten 18 Monate Lieferzeit. Keshav führte Reverse Engineering von Rotorwelle und Labyrinthringen in 6 Wochen mit vollständigen PMI-Zertifikaten durch. Die Qualität war nicht von OEM-Ware zu unterscheiden.",
+        "name": "V. Sharma",
+        "role": "Chefingenieur",
+        "company": "Papierfabrik & Kraftwerk",
+        "location": "Punjab",
+        "service": "Reverse Engineering",
+        "detail": "Belliss & Morcom · Ausgelaufene Ersatzteile"
+      },
+      {
+        "quote": "Nachdem Keshav den Rotor unserer 3-MW-BHEL-Turbine dynamisch ausgewuchtet hatte, sank die Restvibration von 9,2 mm/s auf 0,8 mm/s — weit innerhalb von ISO G1.0. Der Rotor hatte alle 8 Monate Lagerverschleiß verursacht. Jetzt sind wir bei 26 Monaten ohne Lagerwechsel. Der Auswuchtbericht überzeugte unsere Versicherungsprüfer.",
+        "name": "P. Reddy",
+        "role": "MSR- und Instandhaltungsingenieur",
+        "company": "Eigenkraftwerk",
+        "location": "Telangana",
+        "service": "Dynamisches Auswuchten",
+        "detail": "3 MW BHEL · ISO-G1.0-Konformität"
+      }
+    ]
+  },
+  "capabilities": {
+    "heading": "Fertigungs- und technische Kompetenzen",
+    "items": [
+      {
+        "iconName": "Zap",
+        "text": "Schnellere Lieferzeiten als OEM-Beschaffung — Triveni, Siemens, BHEL"
+      },
+      {
+        "iconName": "Layers",
+        "text": "Werkstoff-Upgrades: Duplex, Incoloy, Inconel, Titan, Hastelloy"
+      },
+      {
+        "iconName": "Activity",
+        "text": "ISO/API-dynamisches Auswuchten, Kapazität 50–2.000 kg"
+      },
+      {
+        "iconName": "Wind",
+        "text": "Kundenspezifische Kompensatoren DN 15–12.000, bis 150 barg"
+      },
+      {
+        "iconName": "Droplets",
+        "text": "Filterelemente nach ISO 16889, API 614, ASME- und EN-Normen"
+      },
+      {
+        "iconName": "Cpu",
+        "text": "Schmierölsysteme nach ISO-4406:99-Reinheitsklassifizierung"
+      }
+    ]
+  },
+  "projectsTeaser": {
+    "eyebrow": "Dokumentierte Praxisergebnisse",
+    "heading": "Projekte & Fallstudien",
+    "viewAllProjects": "Alle Projekte ansehen",
+    "readCaseStudy": "Fallstudie lesen",
+    "seeAllProjectsPrefix": "Alle",
+    "seeAllProjectsSuffix": "Projekte ansehen"
+  },
+  "resourceBar": {
+    "blogText": "Fachartikel unseres Engineering-Teams",
+    "downloadsText": "Kostenlose Überholungs-Checklisten, RFQ-Vorlagen & Datenblätter"
+  },
+  "finalCta": {
+    "heading": "Holen Sie sich ein technisches Angebot. Jede Stunde Stillstand kostet.",
+    "subheading": "Unsere Ingenieure antworten bei geplanten Arbeiten innerhalb von 24 Stunden mit einer technischen Antwort — und bei Störungen innerhalb einer Stunde —, denn die Verfügbarkeit Ihrer Anlage ist Ihr Geschäftsergebnis.",
+    "plannedTitle": "Geplante Überholung oder Anfrage",
+    "plannedDesc": "Geplante Wartung, Ersatzteilbeschaffung, Lieferung von Kompensatoren oder Bestellung von Filterelementen. Teilen Sie uns Ihre Anforderungen mit und erhalten Sie ein detailliertes technisches Angebot.",
+    "plannedSendBtn": "Anfrage senden",
+    "plannedEmailBtn": "E-Mail an unser Engineering-Team",
+    "emergencyTitle": "Notfall-Störung — Jetzt sofort",
+    "emergencyDesc": "Turbine abgeschaltet? Hohe Vibration? Unerwarteter Stillstand? Unsere Ingenieure sind 24×7 erreichbar. Rufen Sie sofort an oder schreiben Sie per WhatsApp — jede Stunde Stillstand kostet.",
+    "emergencyCallPrefix": "Jetzt anrufen —",
+    "emergencyWhatsappBtn": "WhatsApp-Notfall",
+    "riskReversal": [
+      "Unverbindlich — wir senden eine technische Antwort, Sie entscheiden über die nächsten Schritte",
+      "Vertrauliche Anfrage — Ihre Anlagendetails erreichen niemals OEM-Vertreter",
+      "Ein Ingenieur antwortet, kein Callcenter",
+      "24-Stunden-Antwort geplant · 1-Stunden-Notfallreaktion"
+    ]
+  },
+  "whatsappEmergencyMessage": "Hallo KESHAV ENTERPRISES, wir haben eine Notfall-Störung. Bitte helfen Sie sofort."
+}

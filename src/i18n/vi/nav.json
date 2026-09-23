@@ -1,0 +1,29 @@
+{
+  "/": {
+    "label": "Trang chủ"
+  },
+  "/about": {
+    "label": "Giới thiệu"
+  },
+  "/services": {
+    "label": "Dịch vụ"
+  },
+  "/products": {
+    "label": "Sản phẩm"
+  },
+  "/industries": {
+    "label": "Ngành công nghiệp"
+  },
+  "/contact": {
+    "label": "Liên hệ"
+  },
+  "/projects": {
+    "label": "Dự án"
+  },
+  "/blog": {
+    "label": "Blog"
+  },
+  "/downloads": {
+    "label": "Tải xuống"
+  }
+}

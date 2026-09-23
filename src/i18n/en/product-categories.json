@@ -1,0 +1,35 @@
+{
+  "all": {
+    "label": "All"
+  },
+  "industrial-filtration": {
+    "label": "Industrial Filtration"
+  },
+  "industrial-strainers": {
+    "label": "Industrial Strainers"
+  },
+  "expansion-joints": {
+    "label": "Expansion Joints"
+  },
+  "turbine-spares": {
+    "label": "Turbine Spares"
+  },
+  "industrial-rubber-products": {
+    "label": "Industrial Rubber Products"
+  },
+  "flexible-hoses-and-assemblies": {
+    "label": "Flexible Hoses & Assemblies"
+  },
+  "electronic-equipments": {
+    "label": "Electronic Equipments"
+  },
+  "hydraulic-components": {
+    "label": "Hydraulic Components"
+  },
+  "hvac-ducting-and-air-filtration": {
+    "label": "HVAC, Ducting & Air Filtration"
+  },
+  "valves-gaskets-and-steam-system-products": {
+    "label": "Valves, Gaskets & Steam System Products"
+  }
+}

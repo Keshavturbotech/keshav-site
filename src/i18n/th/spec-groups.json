@@ -1,0 +1,14 @@
+{
+  "dimensions": {
+    "label": "ขนาด"
+  },
+  "performance": {
+    "label": "สมรรถนะ"
+  },
+  "materials": {
+    "label": "วัสดุ"
+  },
+  "standards": {
+    "label": "มาตรฐาน"
+  }
+}

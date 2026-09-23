@@ -1,0 +1,14 @@
+{
+  "dimensions": {
+    "label": "Dimensiones"
+  },
+  "performance": {
+    "label": "Rendimiento"
+  },
+  "materials": {
+    "label": "Materiales"
+  },
+  "standards": {
+    "label": "Normas"
+  }
+}

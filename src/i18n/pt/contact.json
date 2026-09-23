@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "Fale com a Equipe de Engenharia — Solicite um Orçamento Técnico",
+    "description": "Entre em contato com a Keshav Enterprises para orçamentos de engenharia de turbinas, orçamentos de engenharia reversa e suporte de emergência 24x7. Telefone: +91 9149229448.",
+    "schemaName": "Contatar Keshav Enterprises"
+  },
+  "hero": {
+    "title": "Fale com um Engenheiro — Não com um Vendedor",
+    "subtitle": "Compartilhe suas necessidades e nossa equipe de engenharia — ex-OEM, não uma central de atendimento — responderá com uma resposta técnica em até 24 horas, porque você precisa de respostas, não de um folheto.",
+    "trustSignals": [
+      "Solicitação confidencial — nunca compartilhada com representantes de OEM",
+      "Sem compromisso — você decide o próximo passo",
+      "24 horas para o planejado · 1 hora para emergências"
+    ]
+  },
+  "cards": {
+    "directLines": {
+      "title": "Linhas Diretas",
+      "salesLabel": "Vendas e Orçamentos",
+      "emergencyLabel": "Emergência 24×7",
+      "whatsappCta": "Fale por WhatsApp nesta linha",
+      "whatsappPrefillMessage": "Olá, preciso de suporte de emergência para uma falha na minha turbina."
+    },
+    "email": {
+      "title": "E-mail (Orçamentos)"
+    },
+    "facilityAddress": {
+      "title": "Endereço da Fábrica"
+    },
+    "officeHours": {
+      "title": "Horário de Funcionamento",
+      "mondaySaturdayLabel": "Segunda – Sábado",
+      "mondaySaturdayValue": "9h00 – 18h00 IST",
+      "sundayLabel": "Domingo",
+      "sundayValue": "Fechado (apenas emergências)",
+      "emergencyLineLabel": "Linha de Emergência",
+      "emergencyLineValue": "Ativa 24 × 7"
+    },
+    "indiamart": {
+      "ariaLabel": "Ver Keshav Enterprises no IndiaMART",
+      "title": "Verificado no IndiaMART",
+      "ratingSrOnly": "4,3 de 5 estrelas",
+      "ratingText": "Avaliação 4,3/5",
+      "trustSeal": "Fornecedor TrustSeal"
+    },
+    "connect": {
+      "label": "Conecte-se Conosco"
+    }
+  },
+  "formSection": {
+    "heading": "Receba Seu Orçamento Técnico Gratuito",
+    "subheading": "Sua consulta vai diretamente ao nosso engenheiro-chefe — não a uma central de atendimento. Enviamos uma resposta técnica, porque é isso que os gerentes de planta realmente precisam. Inclui uma revisão gratuita do último relatório de análise de óleo da sua turbina."
+  },
+  "googleBusiness": {
+    "title": "Encontre-nos no Google Business",
+    "descriptionPrefix": "Pesquise",
+    "descriptionQuoted": "Keshav Enterprises Shamli",
+    "descriptionSuffix": "no Google Maps — veja nosso perfil, obtenha direções, ou deixe uma avaliação para ajudar outros compradores a nos encontrar.",
+    "cta": "Ver no Google"
+  },
+  "facilityPhoto": {
+    "caption": "Nossa Fábrica, Shamli, Uttar Pradesh",
+    "alt": "Fábrica da Keshav Enterprises — Shamli, Uttar Pradesh"
+  },
+  "map": {
+    "heading": "Nossa Fábrica — Shamli, Uttar Pradesh",
+    "iframeTitle": "Mapa de localização da Keshav Enterprises",
+    "googleBusinessCta": "Google Business",
+    "directionsCta": "Obter Direções"
+  },
+  "form": {
+    "riskReversal": [
+      {
+        "title": "Nenhum compromisso, de forma alguma",
+        "sub": "Respondemos com uma resposta técnica. Você decide o que acontece a seguir — sem pressão de acompanhamento."
+      },
+      {
+        "title": "Seu orçamento permanece confidencial",
+        "sub": "Nunca compartilhamos os detalhes da sua fábrica com terceiros — nem mesmo com representantes de OEM."
+      },
+      {
+        "title": "Um engenheiro responde, não um vendedor",
+        "sub": "Alguém que já trabalhou com o seu tipo de turbina lhe dá uma resposta técnica real."
+      },
+      {
+        "title": "Não é o serviço certo? Avisamos primeiro",
+        "sub": "Se sua necessidade estiver fora do nosso escopo, avisamos desde o início — sem enrolação, sem perda de tempo."
+      }
+    ],
+    "inquiryTypes": [
+      "Serviço de Revisão Geral de Turbinas",
+      "Suporte de Falha de Emergência",
+      "Montagem e Comissionamento de Turbinas",
+      "Engenharia Reversa",
+      "Balanceamento Dinâmico",
+      "Lavagem de Óleo de Lubrificação",
+      "Alinhamento de Máquinas",
+      "Diagnóstico de Falhas",
+      "Jateamento de Areia",
+      "Orçamento de Elemento Filtrante",
+      "Orçamento de HVAC, Dutos e Filtração de Ar",
+      "Orçamento de Peças de Turbina",
+      "Orçamento de Válvulas, Juntas e Sistema de Vapor",
+      "Orçamento de Junta de Expansão",
+      "Orçamento de Filtro/Coador",
+      "Consulta Geral"
+    ],
+    "officeStatus": {
+      "online": "Engenheiros online agora — resposta em 2 h",
+      "offline": "Linha de emergência ativa 24×7 — orçamentos planejados respondidos até as 9h IST"
+    },
+    "labels": {
+      "yourName": "Seu Nome",
+      "companyName": "Nome da Empresa",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "inquiryType": "Tipo de Consulta",
+      "turbineMakeModel": "Marca / Modelo da Turbina",
+      "details": "Detalhes",
+      "attachments": "Anexar Desenhos Técnicos / Ficha Técnica (opcional)"
+    },
+    "placeholders": {
+      "yourName": "Nome completo",
+      "companyName": "Sua empresa",
+      "email": "voce@empresa.com",
+      "phone": "+91 98000 00000",
+      "inquiryTypeSelect": "Selecione um tipo de consulta…",
+      "turbineMakeModel": "ex.: Triveni 5 MW, contrapressão",
+      "details": "Descreva sua necessidade, sintomas, prazo, ou especificações…"
+    },
+    "attachmentsHelp": "PDF, DWG, DXF, JPG, PNG — máx. 10 MB por arquivo. Ajuda a responder mais rápido com um orçamento mais preciso.",
+    "charCounter": {
+      "minRequired": "Mínimo de 20 caracteres necessários",
+      "moreNeededOne": "Falta {n} caractere",
+      "moreNeededMany": "Faltam {n} caracteres",
+      "looksGood": "✓ Está ótimo!"
+    },
+    "errors": {
+      "yourName": "Seu nome é obrigatório",
+      "companyName": "O nome da empresa é obrigatório",
+      "email": "É necessário um e-mail válido",
+      "phone": "É necessário um número de telefone válido (10 dígitos ou mais)",
+      "inquiryType": "Selecione um tipo de consulta",
+      "details": "Forneça detalhes (mínimo de 20 caracteres)",
+      "attachmentTooLarge": "\"{filename}\" excede o limite de 10 MB — anexe um arquivo menor",
+      "rateLimited": "Muitos envios. Aguarde uma hora antes de tentar novamente.",
+      "securityCheck": "Complete a verificação de segurança.",
+      "notConfigured": "Formulário não configurado — entre em contato diretamente pelo WhatsApp ou telefone.",
+      "submissionFailedGeneric": "Falha no envio. Tente novamente.",
+      "submissionFailedBanner": "Falha no envio — tente novamente ou entre em contato diretamente conosco:",
+      "whatsappFallback": "WhatsApp",
+      "whatsappFallbackPrefillMessage": "Olá, tentei enviar o formulário de contato mas ele falhou. Vocês podem ajudar?"
+    },
+    "buttons": {
+      "sendingToEngineer": "Enviando para a Equipe de Engenharia...",
+      "sendToEngineer": "Enviar para Nosso Engenheiro-Chefe",
+      "sendToEngineerSub": "Obtenha uma resposta técnica, não um folheto",
+      "sendingShort": "Enviando…",
+      "submitWithDrawings": "Enviar Orçamento com Desenhos Técnicos",
+      "submitWithDrawingsSub": "Porque nem todos usam WhatsApp"
+    },
+    "footerNote": {
+      "text": "Respondemos em até 1 dia útil · Sem spam ·",
+      "privacyPolicyLink": "Política de Privacidade"
+    },
+    "success": {
+      "heading": "Consulta enviada aos nossos engenheiros.",
+      "bodyPrefix": "Espere uma resposta técnica dentro de",
+      "bodyMid": "para consultas planejadas, ou",
+      "bodySuffix": "para falhas de emergência — de um engenheiro, não de uma central de atendimento.",
+      "hours24": "24 horas",
+      "hour1": "1 hora",
+      "resendCta": "Enviar outra consulta",
+      "whileYouWaitLabel": "Enquanto espera —",
+      "whileYouWaitText": "veja nossos estudos de caso documentados e resultados de campo.",
+      "viewCaseStudiesCta": "Ver Estudos de Caso"
+    }
+  }
+}

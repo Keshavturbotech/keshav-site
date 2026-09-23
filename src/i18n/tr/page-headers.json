@@ -1,0 +1,32 @@
+{
+  "products": {
+    "metaTitle": "Ürün Kataloğu — Türbin Yedek Parçaları, Filtreler, Genleşme Contaları, HVAC Hava Filtreleri",
+    "metaDescription": "",
+    "h1": "Endüstriyel Ürünler",
+    "subheading": "{categories} kategoride {count} hassas mühendislik ürünü. Tam teknik özelliklerle ISO/API/ASME uyumlu."
+  },
+  "services": {
+    "metaTitle": "Türbin Hizmetleri — Revizyon, Montaj ve Tersine Mühendislik",
+    "metaDescription": "5 kW ile 60 MW arası buhar türbinleri için eksiksiz revizyon, tersine mühendislik, montaj ve devreye alma, dinamik dengeleme, yağlama yağı yıkama ve makine hizalama.",
+    "h1": "Teknik Hizmetler",
+    "subheading": "5 kW ile 60 MW arası endüstriyel döner ekipmanlar için özel mekanik çözümler; enerji santralleri, şeker fabrikaları, kağıt fabrikaları, rafineriler ve petrokimya sektörlerinde en yüksek güvenilirliği sağlar."
+  },
+  "industries": {
+    "metaTitle": "Hizmet Verilen Sektörler — Enerji, Şeker, Petrol ve Gaz, Petrokimya, Çimento",
+    "metaDescription": "Keshav Enterprises, enerji santrallerine, şeker fabrikalarına, kağıt fabrikalarına, petrol ve gaz, petrokimya, tarım ve çimento sektörlerine özel türbin mühendisliği ve endüstriyel ürünler sunmaktadır.",
+    "h1": "Hizmet Verdiğimiz Sektörler",
+    "subheading": "Yedi ana endüstriyel sektörde özel türbin mühendisliği ve endüstriyel ürün çözümleri."
+  },
+  "blog": {
+    "metaTitle": "Mühendislik Blogu — Türbin Bakımı, Endüstriyel Filtrasyon ve HVAC Bilgileri",
+    "metaDescription": "Keshav Enterprises mühendislik ekibinden buhar türbini revizyonu, yağlama yağı filtrasyonu, HVAC hava filtresi seçimi, darbeli jet toz toplayıcıları, tersine mühendislik ve endüstriyel bakım en iyi uygulamaları hakkında teknik makaleler.",
+    "h1": "Mühendislik Blogu",
+    "subheading": "Mühendislik ekibimizden türbin bakımı, yağlama yağı sistemleri, HVAC hava filtrasyonu, toz toplama, tersine mühendislik ve endüstriyel en iyi uygulamalar hakkında teknik bilgiler."
+  },
+  "downloads": {
+    "metaTitle": "Ücretsiz Teknik İndirmeler — Türbin Kontrol Listeleri, Veri Sayfaları ve RFQ Şablonları",
+    "metaDescription": "Hindistan'ın buhar türbini uzmanı Keshav Enterprises'tan ücretsiz buhar türbini revizyon kontrol listeleri, yağlama yağı filtresi veri sayfaları, yatak boşluğu kılavuzları ve RFQ şablonları indirin.",
+    "h1": "Ücretsiz İndirmeler",
+    "subheading": "Fabrika mühendisleri ve satın alma ekipleri için ücretsiz teknik kontrol listeleri, veri sayfaları, yatak referansları ve RFQ şablonları."
+  }
+}

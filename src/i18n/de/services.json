@@ -1,0 +1,157 @@
+{
+  "srv_1": {
+    "id": "srv_1",
+    "image": "service-turbine-erection.webp",
+    "title": "Turbinenmontage & Inbetriebnahme",
+    "desc": "Fachgerechte Montage und Inbetriebnahme von Dampfturbinen, Pumpen, Verdichtern, Ventilatoren, Kondensatoren, Hallenkränen sowie Dampf-/Wasser-/Luftrohrleitungsarbeiten. Inklusive vollständiger OEM-Koordination und Dokumentation.",
+    "details": [
+      "Dampfturbinen, Pumpen, Verdichter, Ventilatoren, Kondensatoren",
+      "Hallenkräne, Stahlbau & Rohrleitungsarbeiten",
+      "Bauüberwachung nach OEM-Vorgaben und geltenden Normen",
+      "Koordination mit dem OEM in allen Phasen",
+      "Vollständige Dokumentation zur Übergabe an den Betrieb",
+      "Entwicklung und Durchführung von Verfahren vor der Inbetriebnahme",
+      "Unterstützung bei Anfahren und Feinabstimmung nach Betriebsanforderungen"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "Belliss India",
+      "Maxwatt"
+    ],
+    "slug": "turbine-erection-and-commissioning"
+  },
+  "srv_2": {
+    "id": "srv_2",
+    "image": "service-overhauling.webp",
+    "title": "Schlüsselfertige Überholung & Wartung",
+    "desc": "Durchgeführt von Ex-OEM-Ingenieuren von Triveni, Siemens, BHEL, Belliss und weiteren. Umfasst Planung vor dem Stillstand, Zustandsberichte vor Ort, umfassendes Ersatzteilmanagement und 24x7-Notfallbehebung.",
+    "details": [
+      "Planung vor dem Stillstand mit detailliertem Umfang der rotierenden Anlagen",
+      "Bestandsprüfung der Lagerersatzteile vor Ort mit Fehlmengenberichten",
+      "Ex-OEM-Ingenieure: Triveni, Belliss, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
+      "Alle Spielmaße, Spalte und Maße gemessen und dokumentiert",
+      "Zustandsbericht mit Empfehlungen für jede Komponente",
+      "Schlüsselfertig: Werkzeuge, Hebezeuge, Verbrauchsmaterial & Personal inklusive",
+      "24x7-Notfallreaktion mit Ingenieuren an mehreren Standorten"
+    ],
+    "oems": [
+      "Triveni",
+      "Belliss India",
+      "Maxwatt",
+      "Man Turbo",
+      "BHEL",
+      "Siemens",
+      "KKK",
+      "ABB"
+    ],
+    "slug": "turnkey-overhauling-and-maintenance"
+  },
+  "srv_3": {
+    "id": "srv_3",
+    "image": "service-reverse-engineering.webp",
+    "title": "Präzises Reverse Engineering",
+    "desc": "PMI-verifiziertes Reverse Engineering mit 3D-Laserscannern, KMG und Kopierdrehmaschinen für Turbinen von 5 kW bis 60 MW. Erstellung vollständiger Fertigungszeichnungen mit Toleranzen, Rundlauf sowie Vor-/Nachwärmebehandlungsvorgaben.",
+    "details": [
+      "3D-Laserscanner, KMG und Koordinatenmessmaschine vor Ort/im Werk",
+      "PMI-Prüfung zur exakten Bestimmung der Werkstoffzusammensetzung",
+      "Kopierdrehmaschine für präzise maßliche Nachbildung",
+      "Konstruktionszeichnungen mit Toleranzen, Oberflächengüte, Parallelität und Rundlauf",
+      "Vor-/Nachwärmebehandlungsvorgaben inklusive",
+      "Zeichnungen für Schrupp-, Vor- und Fertigbearbeitung",
+      "Deckt Turbinen von 5 kW bis 60 MW ab (Gegendruck oder Kondensation)",
+      "Ein- oder mehrstufig, Antriebs- oder Kraftturbine, horizontal oder vertikal"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "All Makes"
+    ],
+    "slug": "precision-reverse-engineering"
+  },
+  "srv_4": {
+    "id": "srv_4",
+    "image": "service-dynamic-balancing.webp",
+    "title": "Dynamisches Auswuchten & Rotorbearbeitung",
+    "desc": "Präzise Rotorbearbeitung (Schleifen, Polieren, Wellenzapfen-Untermaß) an unseren Werkstattdrehmaschinen sowie dynamisches Auswuchten nach ISO/API-Norm von 50 bis 2000 kg mit vollständigem Konformitätsbericht.",
+    "details": [
+      "Wellenzapfenschleifen & -polieren mit minimaler Untermaßtechnik",
+      "Bearbeitung des Labyrinthbereichs auf Präzisionsdrehmaschinen",
+      "Rotor an allen Bereichen vor der Bearbeitung zentriert",
+      "Dynamisches Auswuchten 50–2000 kg nach ISO/API-Norm",
+      "Auswuchtmaschinen mit modernsten Schwingungsüberwachungssystemen",
+      "Ermittlung von mechanischem und elektrischem Rundlauffehler vor dem Einbau",
+      "Umfassender Auswuchtbericht zur Dokumentation der ISO/API-Konformität"
+    ],
+    "oems": [
+      "All Turbine Makes"
+    ],
+    "slug": "dynamic-balancing-and-rotor-machining"
+  },
+  "srv_5": {
+    "id": "srv_5",
+    "image": "service-lube-oil-flushing.webp",
+    "title": "Schmierölspülung",
+    "desc": "ISO-konforme Spülung mit eigens gebauten mobilen Zentrifugen-Filtersystemen. Erreicht maximale Sauberkeit und Entwässerung nach der Montage oder bei planmäßiger Wartung.",
+    "details": [
+      "Eigens gebautes mobiles Zentrifugen-Filtersystem",
+      "Systemsauberkeit nach ISO-4406:99-Normen",
+      "Ölprobenahme und Berichterstattung nach ISO-Normen",
+      "Wirksam nach Montage und bei planmäßiger Wartung",
+      "Überlegene Entwässerung und Verunreinigungsentfernung",
+      "Entfernung von Feststoffpartikeln von 4 bis 25 Mikron",
+      "Systemdurchflussraten bis zu 6.000 l/min"
+    ],
+    "oems": [
+      "All Systems"
+    ],
+    "slug": "lube-oil-flushing"
+  },
+  "srv_6": {
+    "id": "srv_6",
+    "image": "service-machine-alignment.webp",
+    "title": "Maschinenausrichtung",
+    "desc": "Fachgerechte Maschinenausrichtung mit modernster Technologie zur Beseitigung von Fluchtungsfehlern — einer der Hauptursachen für Anlagenausfälle. Umfasst Turbinen, Getriebe, Pumpen, Ventilatoren, Generatoren und Asynchrongeneratoren.",
+    "details": [
+      "Ausrichtung Turbine zu Getriebe & Getriebe zu Mühlengetriebe",
+      "Ausrichtung von Ventilator, Pumpe, Generator, Asynchrongenerator",
+      "Maschinennivellierung & Rohrspannungsmessungen bei jeder Rahmengröße",
+      "Ausrichtung von Zerfaserern und Zerkleinerern",
+      "Modernste Ausrichttechnologie für höchste Standards",
+      "Detaillierter Ausrichtungsbericht mit genauen Ergebnissen",
+      "Deckt Maschinen jeder Rahmengröße an jedem Standort ab"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "machine-alignment"
+  },
+  "srv_7": {
+    "id": "srv_7",
+    "image": "service-troubleshooting.webp",
+    "title": "Störungsbehebungsservice",
+    "desc": "Schnelle Vor-Ort-Fehlerdiagnose bei Dampfturbinen mit Vibration, Lagerausfall, Reglerinstabilität, Dampfleckage, Ölverschmutzung oder unerwarteten Abschaltungen. Ex-OEM-Ingenieure rücken mit vollständiger Diagnoseinstrumentierung zur Ursachenermittlung und Fehlerbehebung aus.",
+    "details": [
+      "Hohe Vibration — Diagnose von Unwucht, Fluchtungsfehler, Lagerverschleiß, Anstreifen",
+      "Untersuchung von Reglerpendeln, Drehzahlinstabilität & Überdrehzahlabschaltung",
+      "Lagerölverschmutzung — Analyse von Kohleringdichtung & Schmiersystem",
+      "Dampfstopfbuchsleckage — Probleme mit Labyrinthdichtung, Packung & Sperrdampfdruck",
+      "Analyse von Schaufelverschmutzung, Erosion & Wirkungsgradverlust im Dampfpfad",
+      "Untersuchung unerwarteter Abschaltungen — Öldruck-, Temperatur- & Steuerungsfehler",
+      "24x7-Noteinsatz in ganz Indien mit vollständiger Diagnoseausrüstung"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "Belliss India",
+      "Maxwatt",
+      "Man Turbo",
+      "KKK",
+      "ABB"
+    ],
+    "slug": "troubleshooting-service"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "cs_01": {
+    "id": "cs_01",
+    "image": "project-triveni-overhaul.webp",
+    "category": "Overhaul",
+    "industry": "Pabrik Gula",
+    "title": "Turbin Back-Pressure Triveni 5 MW — Overhaul Penuh & Penyeimbangan Rotor",
+    "client": "Rahasia — Pabrik Gula, UP Barat",
+    "year": "2023",
+    "duration": "12 hari",
+    "scope": "Overhaul turnkey lengkap: pelepasan rotor, penggantian bearing, pemesinan seal labirin, penyeimbangan dinamis rotor (ISO 1940 G2.5), pembersihan oli pelumas, dan komisioning.",
+    "challenge": "Turbin telah beroperasi dengan getaran tinggi (>6 mm/s) selama dua musim. Rumah bearing menunjukkan keausan fretting dan rotor memiliki runout 1× yang persisten yang belum teratasi oleh perawatan sebelumnya.",
+    "solution": "Insinyur eks-OEM Triveni membongkar unit dan menemukan journal retak di sisi drive. Journal dikecilkan ukurannya, babbitt baru dituang dan dikerok, labirin dikerjakan di bengkel kami, dan rotor diseimbangkan secara dinamis hingga <0,5 g·mm ketidakseimbangan sisa. Getaran pasca-komisioning: 1,8 mm/s.",
+    "outcomes": [
+      "Getaran turun dari 6,4 mm/s menjadi 1,8 mm/s",
+      "Suhu logam bearing turun 14 °C",
+      "Turbin kembali beroperasi dalam jendela 12 hari yang direncanakan",
+      "Tidak ada trip tak terencana dalam 12 bulan musim operasi berikutnya"
+    ],
+    "tags": [
+      "Triveni",
+      "Penyeimbangan Rotor",
+      "Bearing Babbitt",
+      "Overhaul"
+    ],
+    "categorySlug": "overhauling"
+  },
+  "cs_02": {
+    "id": "cs_02",
+    "image": "project-reverse-engineering.webp",
+    "category": "Rekayasa Balik",
+    "industry": "Pabrik Kertas",
+    "title": "Piringan Tahap Impuls Siemens SST-200 — Rekayasa Balik & Manufaktur",
+    "client": "Rahasia — Pabrik Kertas, Uttarakhand",
+    "year": "2023",
+    "duration": "21 hari",
+    "scope": "Pemindaian laser 3D piringan impuls yang rusak, verifikasi material PMI, set gambar manufaktur lengkap, dan pasokan piringan pengganti yang dikerjakan sesuai gambar.",
+    "challenge": "OEM menawarkan waktu tunggu 14 minggu dan €18.000 untuk piringan impuls pengganti. Pabrik tidak mampu menanggung shutdown 14 minggu dengan musim yang semakin dekat.",
+    "solution": "Tim kami memindai 3D piringan yang rusak di lokasi, melakukan PMI untuk memastikan paduan (stainless AISI 422), menghasilkan gambar manufaktur lengkap dengan semua toleransi dan spesifikasi perlakuan panas, dan piringan dikerjakan kasar, diperlakukan panas, dikerjakan akhir, dan diseimbangkan secara dinamis dalam 19 hari kerja.",
+    "outcomes": [
+      "Waktu tunggu dipangkas dari 14 minggu (OEM) menjadi 21 hari",
+      "Penghematan biaya sekitar ₹12 lakh dibanding harga OEM",
+      "Piringan terpasang tanpa masalah dimensi; turbin kembali ke output nominal",
+      "Paket gambar lengkap disimpan untuk pemesanan ulang di masa depan"
+    ],
+    "tags": [
+      "Siemens",
+      "Rekayasa Balik",
+      "Pemindaian 3D",
+      "PMI"
+    ],
+    "categorySlug": "reverse-engineering"
+  },
+  "cs_03": {
+    "id": "cs_03",
+    "image": "project-erection-commissioning.webp",
+    "category": "Pemasangan & Komisioning",
+    "industry": "Distilasi",
+    "title": "Turbin Co-Gen Maxwatt 3,5 MW — Pemasangan Greenfield & Komisioning",
+    "client": "Rahasia — Distilasi, UP Tengah",
+    "year": "2022",
+    "duration": "28 hari",
+    "scope": "Pemasangan lengkap turbin uap, gearbox, alternator, kondensor, sistem oli pelumas, dan semua pekerjaan pipa dan kabel terkait. Komisioning disaksikan OEM.",
+    "challenge": "Turbin tiba di lokasi dengan gambar grouting baseframe yang salah. Pekerjaan sipil harus dinilai ulang dan dikoreksi sebelum pemasangan dapat dimulai, mempersempit jendela komisioning yang tersedia.",
+    "solution": "Insinyur lapangan kami berkoordinasi dengan kontraktor sipil untuk mengoreksi kantong grouting dalam 48 jam. Turbin, gearbox, dan alternator dipasang, diselaraskan (penyelarasan poros hingga <0,02 mm TIR), dan semua pemeriksaan pra-komisioning selesai. Sinkronisasi tercapai pada percobaan pertama saat uji coba disaksikan OEM.",
+    "outcomes": [
+      "Sinkronisasi pertama tercapai pada hari komisioning — tanpa keterlambatan punch-list",
+      "Penyelarasan poros tercapai pada 0,016 mm TIR — dalam toleransi OEM",
+      "Oli pelumas dibersihkan hingga kebersihan ISO 4406 16/14/11 sebelum operasi pertama",
+      "Pabrik menerima turbin tanpa item snag pada punch-list OEM"
+    ],
+    "tags": [
+      "Maxwatt",
+      "Pemasangan",
+      "Komisioning",
+      "Penyelarasan"
+    ],
+    "categorySlug": "erection-and-commissioning"
+  },
+  "cs_04": {
+    "id": "cs_04",
+    "image": "project-lube-oil-flushing.webp",
+    "category": "Pembersihan Oli Pelumas",
+    "industry": "Pembangkit Listrik",
+    "title": "Turbin Extraction-Condensing BHEL 15 MW — Pembersihan Oli Pelumas Pasca-Overhaul",
+    "client": "Rahasia — Produsen Listrik Independen, Rajasthan",
+    "year": "2024",
+    "duration": "5 hari",
+    "scope": "Pembersihan sistem oli pelumas pasca-overhaul menggunakan unit filter sentrifugal mobile. Target kebersihan: ISO 4406 ≤16/14/11 untuk sirkuit oli pelumas utama dan ≤15/13/10 untuk sirkuit oli kontrol.",
+    "challenge": "Sistem oli pelumas memiliki kontaminasi logam signifikan dari overhaul. Tiga upaya pembersihan sebelumnya oleh kontraktor lain gagal mencapai target kebersihan pada sirkuit oli kontrol.",
+    "solution": "Kami menyebarkan unit pembersih sentrifugal mobile khusus kami dengan sub-sirkuit volume rendah kecepatan tinggi khusus untuk ring oli kontrol. Pada hari ke-3 sirkuit utama mencapai 15/13/10 dan pada hari ke-5 kedua sirkuit memenuhi target kebersihan, dikonfirmasi oleh laporan hitungan partikel pihak ketiga.",
+    "outcomes": [
+      "Sirkuit oli pelumas utama: ISO 4406 15/13/10 ✓",
+      "Sirkuit oli kontrol: ISO 4406 14/12/9 ✓ (lebih baik dari target)",
+      "Kedua sirkuit selesai dalam 5 hari dibanding jendela kontingensi 10 hari",
+      "Turbin disetujui untuk penyalaan pertama tanpa penundaan lebih lanjut"
+    ],
+    "tags": [
+      "BHEL",
+      "Pembersihan Oli Pelumas",
+      "ISO 4406",
+      "Pembangkit Listrik"
+    ],
+    "categorySlug": "lube-oil-flushing"
+  },
+  "cs_05": {
+    "id": "cs_05",
+    "image": "project-alignment.webp",
+    "category": "Penyelarasan Mesin",
+    "industry": "Pabrik Baja",
+    "title": "Rangkaian Kompresor-Gearbox-Motor KKK — Penyelarasan Laser Presisi",
+    "client": "Rahasia — Pabrik Baja, Jharkhand",
+    "year": "2024",
+    "duration": "2 hari",
+    "scope": "Penyelarasan laser presisi rangkaian kompresor tiga elemen (motor–gearbox–kompresor) setelah penggantian gearbox. Pengukuran dan koreksi regangan pipa.",
+    "challenge": "Motor adalah motor induksi kecepatan tetap dengan akses shimming terbatas. Regangan pipa pada discharge kompresor menarik casing sebesar 0,04 mm — cukup untuk membatalkan penyelarasan setelah tersambung.",
+    "solution": "Kami melakukan penyelarasan dingin tanpa kopling, kemudian mengukur dan mendokumentasikan regangan pipa dengan saluran discharge tersambung. Kontraktor pemipaan menyangga ulang spool discharge dan regangan pipa turun menjadi <0,005 mm. Penyelarasan berkopling akhir: angular 0,008 mm/100 mm, offset 0,012 mm — dalam toleransi OEM.",
+    "outcomes": [
+      "Ketidaksejajaran angular: 0,008 mm/100 mm (batas OEM 0,02 mm/100 mm)",
+      "Offset paralel: 0,012 mm (batas OEM 0,025 mm)",
+      "Regangan pipa dikoreksi — tanpa beban nozzle sisa pada kompresor",
+      "Getaran pada start pertama: 1,2 mm/s — jauh di bawah level alarm"
+    ],
+    "tags": [
+      "KKK",
+      "Penyelarasan Laser",
+      "Kompresor",
+      "Pabrik Baja"
+    ],
+    "categorySlug": "machine-alignment"
+  },
+  "cs_06": {
+    "id": "cs_06",
+    "image": "project-dynamic-balancing.webp",
+    "category": "Penyeimbangan Dinamis",
+    "industry": "Pabrik Semen",
+    "title": "Rotor Kipas Pabrik Semen — Penyeimbangan Dinamis & Pemesinan Journal",
+    "client": "Rahasia — Pabrik Semen, Rajasthan",
+    "year": "2023",
+    "duration": "4 hari",
+    "scope": "Penyeimbangan dinamis bengkel rotor kipas ID 680 kg hingga grade kualitas ISO 21940-11 G2.5, plus grinding dan polishing journal pada kedua sisi drive-end dan non-drive-end.",
+    "challenge": "Rotor tiba dengan penumpukan semen parah, goresan journal dari bearing yang runtuh, dan ketidakseimbangan sisa ~420 g·mm dari lapangan — jauh di luar batas ISO G2.5 untuk kecepatan operasi.",
+    "solution": "Deposit semen dibersihkan dengan grit blasting. Kedua journal digerinda undersize 0,10 mm dan dipoles hingga Ra 0,4 µm. Rotor kemudian diseimbangkan pada mesin penyeimbang dinamis dua bidang kami (kapasitas 2000 kg, kecepatan hingga 1500 RPM). Ketidakseimbangan sisa akhir: 6 g·mm per bidang (ISO G1.0 tercapai).",
+    "outcomes": [
+      "Ketidakseimbangan sisa: 6 g·mm/bidang — lebih baik dari G1.0",
+      "Kehalusan permukaan journal: Ra 0,38 µm kedua ujung",
+      "Getaran pada kecepatan penuh (980 RPM) pasca-instalasi: 0,9 mm/s",
+      "Suhu bearing normal dalam 2 jam operasi pertama"
+    ],
+    "tags": [
+      "Penyeimbangan Dinamis",
+      "Rotor Kipas",
+      "Pemesinan Journal",
+      "Semen"
+    ],
+    "categorySlug": "dynamic-balancing"
+  },
+  "cs_07": {
+    "id": "cs_07",
+    "image": "project-emergency-breakdown.webp",
+    "category": "Gangguan Darurat",
+    "industry": "Pabrik Gula",
+    "title": "Turbin Belliss & Morcom — Kegagalan Darurat Bearing Babbitt Saat Musim Giling",
+    "client": "Rahasia — Pabrik Gula, Haryana",
+    "year": "2024",
+    "duration": "14 jam downtime",
+    "scope": "Respons darurat di lokasi, diagnosis akar masalah, pembuatan dan pemasangan bearing babbitt pengganti, inspeksi rotor, dan rekomisioning dalam jendela 14 jam.",
+    "challenge": "Turbin trip pada pukul 02:00 saat puncak musim giling akibat keruntuhan bearing babbitt di sisi non-drive. Pabrik memproses 8.000 TCD — setiap jam offline menelan biaya sekitar ₹4 lakh dalam kerugian tebu.",
+    "solution": "Insinyur kami dikirim dalam 90 menit setelah panggilan dan tiba di lokasi pukul 05:30. Akar masalah teridentifikasi: kekurangan oli akibat jalur oli tersumbat. Bearing pengganti diambil dari stok bengkel, dibabbitt ulang dan dikerok tangan agar pas di lokasi. Journal rotor diperiksa — tidak ada kerusakan. Turbin kembali beroperasi pukul 16:00.",
+    "outcomes": [
+      "Total downtime: 14 jam dari trip hingga uap pertama",
+      "Akar masalah teridentifikasi dan jalur oli dibersihkan — tidak ada trip berulang",
+      "Perkiraan nilai kerugian tebu yang dicegah: sekitar ₹56 lakh",
+      "Tidak ada kerusakan pada journal rotor — menghemat biaya penggantian poros"
+    ],
+    "tags": [
+      "Belliss & Morcom",
+      "Darurat",
+      "Bearing Babbitt",
+      "Pabrik Gula"
+    ],
+    "categorySlug": "emergency-breakdown"
+  },
+  "cs_08": {
+    "id": "cs_08",
+    "image": "project-troubleshooting.webp",
+    "category": "Troubleshooting",
+    "industry": "Pabrik Kertas",
+    "title": "Turbin BHEL 3 MW — Investigasi & Koreksi Akar Masalah Getaran Tinggi",
+    "client": "Rahasia — Pabrik Kertas, Punjab",
+    "year": "2024",
+    "duration": "3 hari investigasi + 8 hari koreksi",
+    "scope": "Analisis getaran di lokasi, penilaian dinamika rotor, identifikasi akar masalah, penyeimbangan rotor di bengkel, penggantian bearing, dan rekomisioning.",
+    "challenge": "Turbin 3 MW mengalami getaran yang meningkat selama 6 bulan — memuncak pada 9,2 mm/s pada bearing non-drive-end. Tiga tim perawatan terpisah telah mengganti bearing tanpa menyelesaikan masalah yang mendasarinya.",
+    "solution": "Kami menyebarkan peralatan analisis getaran dan menangkap spektrum frekuensi pada semua kecepatan operasi. Komponen dominan 1× bertahan pada semua kecepatan, memastikan ketidakseimbangan massa rotor bukan masalah bearing atau penyelarasan. Rotor dilepas, journal diperiksa (ovalitas ringan dikoreksi), dan diseimbangkan hingga ISO G1.0 di bengkel kami. Sisa akhir: 4,8 g·mm per bidang.",
+    "outcomes": [
+      "Getaran turun dari 9,2 mm/s menjadi 0,8 mm/s pada kecepatan operasi",
+      "Akar masalah dikonfirmasi: eksentrisitas massa rotor dari perbaikan journal sebelumnya yang salah",
+      "24+ bulan operasi sejak rekomisioning — tanpa penggantian bearing",
+      "Laporan penyeimbangan lengkap dan spektrum getaran diberikan untuk berkas asuransi"
+    ],
+    "tags": [
+      "BHEL",
+      "Analisis Getaran",
+      "Penyeimbangan Dinamis",
+      "Troubleshooting"
+    ],
+    "categorySlug": "troubleshooting"
+  }
+}

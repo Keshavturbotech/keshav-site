@@ -1,0 +1,658 @@
+{
+  "ind_1": {
+    "heroSub": "Turbinas de vapor de 5 MW a 60 MW — generación térmica, cogeneración y energía cautiva",
+    "overview": "El sector de energía térmica y cautiva de la India depende del rendimiento ininterrumpido de las turbinas de vapor que operan bajo carga continua. Keshav Enterprises cuenta con una profunda experiencia de la era OEM — nuestros ingenieros fueron formados por fabricantes de turbinas antes de fundar la empresa — lo que nos permite aplicar ingeniería inversa, fabricar y revisar íntegramente cada subsistema principal de una turbina de vapor de central eléctrica según tolerancias OEM.",
+    "challenges": [
+      {
+        "title": "Operación Continua de Alta Carga",
+        "desc": "Las turbinas de vapor en centrales eléctricas funcionan a 3000–3600 RPM en condiciones sostenidas de plena carga, sometiendo a cojinetes, sellos y conjuntos rotativos a un estrés extremo."
+      },
+      {
+        "title": "Contaminación del Aceite Lubricante",
+        "desc": "La entrada de partículas y agua en el sistema de aceite lubricante puede degradar rápidamente las superficies de los cojinetes. Los objetivos de limpieza ISO 4406:99 deben mantenerse de forma continua."
+      },
+      {
+        "title": "Expansión Térmica en Líneas de Vapor",
+        "desc": "Las tuberías de vapor de alta temperatura experimentan un ciclado térmico significativo. Sin juntas de expansión correctamente diseñadas, la tensión de tuberías causa fugas en bridas y daños en las toberas de la turbina."
+      },
+      {
+        "title": "Vibración del Rotor y Deriva del Equilibrado",
+        "desc": "La acumulación de depósitos y la erosión provocan un desplazamiento progresivo del equilibrado en los rotores, aumentando la vibración y acelerando el desgaste de los cojinetes si no se detecta a tiempo."
+      }
+    ],
+    "products": [
+      {
+        "name": "Elementos Filtrantes de Aceite Lubricante (180 GPM)",
+        "purpose": "Mantiene la limpieza ISO 4406:99 en los sistemas de aceite lubricante de turbinas, protegiendo los cojinetes de muñón y de empuje del desgaste abrasivo.",
+        "features": [
+          "Medio VG de fieltro de fibra de vidrio, finura 6–25 µm",
+          "Especificación antiestática IS27 para aceites sintéticos",
+          "Compatible con OEM Triveni, Siemens, BHEL"
+        ]
+      },
+      {
+        "name": "Fuelles de Cruce de Vapor",
+        "purpose": "Absorbe la expansión térmica entre las secciones de turbina AP/BP y la tubería de cruce, eliminando la transferencia de tensión a las bridas de las toberas de la turbina.",
+        "features": [
+          "Fuelles de acero inoxidable de alto ciclo, norma EJMA",
+          "Temperatura de operación hasta 550 °C",
+          "Extremos embridados personalizados según dimensiones OEM"
+        ]
+      },
+      {
+        "name": "Cojinetes de Muñón y Empuje Babbitt",
+        "purpose": "Cojinetes revestidos de metal blanco mecanizados con precisión según los perfiles OEM para rotores de turbina — críticos para la estabilidad del eje a alta velocidad.",
+        "features": [
+          "Metal blanco (babbitt) vertido y mecanizado de precisión",
+          "Todas las marcas de turbina: Triveni, Siemens, BHEL, KKK",
+          "Ajuste por interferencia verificado en MMC"
+        ]
+      },
+      {
+        "name": "Válvulas de Parada de Emergencia",
+        "purpose": "Válvula crítica de seguridad que dispara la turbina ante sobrevelocidad o baja presión de aceite lubricante — fabricada según los ajustes de presión de disparo OEM.",
+        "features": [
+          "Cuerpo mecanizado CNC a partir de forjas EN8/EN19",
+          "Mecanismo de disparo accionado por resorte",
+          "Probada a 1,5× la presión de trabajo antes del envío"
+        ]
+      },
+      {
+        "name": "Sondas de Monitoreo de Vibración (compatibles con Shinkawa)",
+        "purpose": "Sondas de proximidad para el monitoreo continuo de la vibración del rotor según API 670, permitiendo el mantenimiento predictivo antes de que se produzca un fallo de cojinete.",
+        "features": [
+          "Compatible con Shinkawa, Bently Nevada",
+          "Detección sin contacto por corrientes de Foucault",
+          "Puntos de ajuste de alerta y peligro según API 670"
+        ]
+      },
+      {
+        "name": "Bombas de Aceite de Turbina (Principal y Auxiliar)",
+        "purpose": "Suministra aceite lubricante presurizado a todos los cojinetes. La bomba auxiliar asume el control durante el arranque y la parada cuando la salida de la bomba principal accionada por el eje es insuficiente.",
+        "features": [
+          "Diseño de bomba de engranajes, montada en el patín de la turbina",
+          "Disponibles todas las dimensiones OEM principales",
+          "Válvula de alivio ajustada según especificación de presión OEM"
+        ]
+      },
+      {
+        "name": "Filtros de Aire de Panel Plisado (HVAC de Sala de Control y Nave de Turbinas)",
+        "purpose": "Filtros HVAC de reemplazo para UMA de salas de control de centrales eléctricas, unidades de ventilación de la nave de turbinas y enfriadores de aire de salas de aparamenta eléctrica — mantiene limpio el aire de refrigeración y protege el equipo sensible de la contaminación por polvo de carbón y ceniza volante.",
+        "features": [
+          "Eficiencia F7 para capturar ceniza volante fina y polvo de carbón",
+          "Marco de acero galvanizado con medio sintético",
+          "Tamaños de UMA estándar en stock; personalizados bajo pedido",
+          "Prefiltro de malla metálica también disponible para la primera etapa"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Capacidad máxima de turbina atendida: 60 MW",
+      "26+ años de experiencia en ingeniería formada en OEM",
+      "Productos conformes a API 614 e ISO 4406:99",
+      "Suministro de filtros HVAC para salas de control y naves de turbinas",
+      "Soporte de averías de emergencia 24×7"
+    ]
+  },
+  "ind_2": {
+    "heroSub": "Turbinas de contrapresión y de extracción-condensación en cogeneración de ingenios azucareros y destilerías",
+    "overview": "La industria azucarera de la India opera temporadas de molienda intensivas de 150–180 días donde la disponibilidad de la turbina está directamente ligada al rendimiento de molienda de caña. Keshav Enterprises se especializa en la revisión general entre temporadas de turbinas de contrapresión — los caballos de batalla de la cogeneración azucarera — y proporciona soporte de repuestos de emergencia 24×7 durante la temporada de molienda, cuando las paradas son más costosas.",
+    "challenges": [
+      {
+        "title": "Ventana Corta de Revisión General Entre Temporadas",
+        "desc": "Las turbinas deben revisarse por completo, sustituir piezas y ponerse en marcha antes de que comience la siguiente temporada de molienda — a menudo una ventana de apenas 90–120 días."
+      },
+      {
+        "title": "Desgaste del Sello de Carbono y Prensaestopas",
+        "desc": "Las turbinas de contrapresión usan anillos de prensaestopas de carbono para evitar la fuga de vapor. Estos se desgastan continuamente y requieren una sustitución precisa en cada revisión general."
+      },
+      {
+        "title": "Contaminación por Melaza y Jugo",
+        "desc": "Las áreas de proceso generan partículas pegajosas en suspensión. Los filtros de respiradero y coladores de los sistemas de aceite lubricante deben mantenerse para evitar la contaminación."
+      },
+      {
+        "title": "Averías de Emergencia en Temporada",
+        "desc": "Un disparo de turbina durante el pico de molienda causa una acumulación inmediata de caña. Los repuestos de emergencia y la respuesta rápida pueden marcar la diferencia entre una parada de 4 horas y una de 4 días."
+      }
+    ],
+    "products": [
+      {
+        "name": "Anillos de Sellado de Carbono y Grafito",
+        "purpose": "Evita la fuga de vapor a través del eje de la turbina en las zonas de prensaestopas. Mecanizados con precisión según las dimensiones OEM del eje y la carcasa.",
+        "features": [
+          "Grados de carbono/grafito de alta pureza",
+          "Todas las marcas de turbina: Triveni, Belliss & Morcom, Maxwatt",
+          "Mecanizado interno con tolerancia de ±0,01 mm"
+        ]
+      },
+      {
+        "name": "Empaquetaduras de Sellado Laberíntico",
+        "purpose": "Sellos laberínticos entre etapas y de extremo de eje que reducen la fuga de vapor entre las etapas de la turbina, mejorando directamente la eficiencia térmica.",
+        "features": [
+          "Opciones de material: acero inoxidable, latón o monel",
+          "Se mantiene el perfil de dientes OEM",
+          "Tiras nuevas o reparadas ajustadas a las carcasas existentes"
+        ]
+      },
+      {
+        "name": "Elementos Filtrantes de Aceite Lubricante (Compatibles con Triveni)",
+        "purpose": "Garantiza un suministro de aceite lubricante limpio a los cojinetes de la turbina durante toda la temporada de molienda, evitando fallos de cojinetes en períodos críticos de producción.",
+        "features": [
+          "Clasificación de caudal de 180 GPM",
+          "Especificación antiestática IS27",
+          "Se recomienda sustitución entre temporadas"
+        ]
+      },
+      {
+        "name": "Filtros de Respiradero de Aire",
+        "purpose": "Protege el depósito de aceite lubricante del polvo en suspensión y las partículas de azúcar — crítico en entornos de ingenios azucareros donde la carga de polvo ambiental es extrema.",
+        "features": [
+          "Diseño de respiradero desecante de malla fina",
+          "Evita la entrada de humedad y polvo",
+          "Indicador visual de saturación"
+        ]
+      },
+      {
+        "name": "Coladores de Cesta Simplex y Dúplex",
+        "purpose": "Instalados en circuitos de aceite lubricante y agua de refrigeración para atrapar residuos antes de que lleguen a los cojinetes y los intercambiadores de calor.",
+        "features": [
+          "Cestas de malla de acero inoxidable, limpiables y reutilizables",
+          "Extremos embridados ANSI o roscados",
+          "Dúplex para limpieza del colador sin tiempo de inactividad"
+        ]
+      },
+      {
+        "name": "Servicio de Equilibrado de Rotor",
+        "purpose": "Equilibrado dinámico de rotores de turbina tras el reemplazo de álabes o cojinetes, restableciendo un funcionamiento suave dentro de la especificación ISO 1940 G1.0.",
+        "features": [
+          "Equilibrado dinámico según ISO 1940/1 G1.0",
+          "Equilibrado en dos planos en todos los tipos de rotor",
+          "Certificado de equilibrado emitido con el informe del trabajo"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Servicios especializados en turbinas Triveni y Belliss",
+      "Soporte de emergencia 24×7 en temporada",
+      "Todos los grados de carbono/grafito mecanizados internamente",
+      "Revisiones generales entre temporadas completadas dentro del plazo"
+    ]
+  },
+  "ind_3": {
+    "heroSub": "Turbinas de operación continua, juntas de expansión y filtración de proceso para fábricas de papel",
+    "overview": "Las fábricas de papel y pulpa operan turbinas de vapor las 24 horas, más de 350 días al año, lo que hace que las ventanas de mantenimiento planificado sean extremadamente ajustadas. El proceso también implica lejía corrosiva, agua caliente y vapor de alta presión — todo lo cual exige productos de filtración y sellado clasificados para medios agresivos. Keshav Enterprises suministra la gama completa de productos necesarios para mantener en funcionamiento los sistemas de vapor y proceso de las fábricas de papel.",
+    "challenges": [
+      {
+        "title": "Ventanas de Parada Mínimas",
+        "desc": "Una parada de la máquina de papel cuesta lakhs por hora. Las revisiones generales de turbinas deben planificarse con meses de antelación y ejecutarse sin repetición de trabajo — cada componente debe estar correcto a la primera."
+      },
+      {
+        "title": "Medios de Proceso Corrosivos",
+        "desc": "La lejía, los compuestos clorados y los fluidos de proceso cáusticos atacan los materiales estándar. Los productos de filtración y manguera deben usar medios y sellos compatibles."
+      },
+      {
+        "title": "Tuberías de Vapor de Alta Temperatura",
+        "desc": "Las calderas de las fábricas de papel generan vapor de alta presión a 250–400 °C. Las juntas de expansión de las tuberías de vapor deben soportar tanto la alta temperatura como la fatiga por ciclos."
+      },
+      {
+        "title": "Vibración de las Máquinas de Papel",
+        "desc": "Las máquinas de papel de alta velocidad generan vibración continua de banda ancha. Los soportes antivibración y las conexiones de manguera flexible son esenciales para aislar el equipo."
+      }
+    ],
+    "products": [
+      {
+        "name": "Coladores de Cesta Dúplex",
+        "purpose": "Instalados en líneas de agua de proceso, agua blanca y agua de refrigeración. El diseño dúplex permite la limpieza de la cesta sin detener el flujo — crítico en plantas de operación continua.",
+        "features": [
+          "Cestas de acero inoxidable 316 para medios corrosivos",
+          "Válvula de derivación de tapón incluida",
+          "Clasificaciones de brida ANSI 150 a 600 disponibles"
+        ]
+      },
+      {
+        "name": "Juntas de Expansión de Fuelle Metálico de Acero Inoxidable",
+        "purpose": "Absorbe la expansión térmica en tuberías de vapor de alta presión, líneas de proceso de pulpa y tuberías de la planta de blanqueo sin transferir tensión a las boquillas del equipo.",
+        "features": [
+          "Fuelles de SS316L para resistencia a la corrosión",
+          "Rango DN15 a DN1200",
+          "Norma de diseño EJMA, probada a presión"
+        ]
+      },
+      {
+        "name": "Juntas de Expansión de Caucho (Doble Arco)",
+        "purpose": "Proporciona una conexión flexible en la succión y descarga de bombas en sistemas de tratamiento de agua, agua blanca y efluentes — aísla la vibración de la bomba de las tuberías.",
+        "features": [
+          "Opciones de tubo de caucho natural o EPDM",
+          "Extremos embridados PN10/16",
+          "Temperatura de servicio de hasta 150 °C"
+        ]
+      },
+      {
+        "name": "Conjuntos de Manguera Revestidos de PTFE",
+        "purpose": "Mangueras de transferencia química para líneas de lejía, cáustico y ácido en la planta de blanqueo — el revestimiento de PTFE proporciona resistencia total a los químicos de proceso agresivos.",
+        "features": [
+          "Núcleo interior de PTFE, refuerzo de trenzado de acero inoxidable",
+          "Clasificación de vacío total",
+          "Accesorios de extremo conformes a EN14420"
+        ]
+      },
+      {
+        "name": "Perfiles y Sellos de Caucho Extruido Personalizados",
+        "purpose": "Tiras de amortiguación de caucho extruido a medida, instaladas bajo accionamientos, bombas y pedestales de turbina de la máquina de papel para aislar y amortiguar la vibración de la maquinaria transmitida a la estructura del edificio.",
+        "features": [
+          "Compuesto de EPDM, neopreno, nitrilo o caucho natural",
+          "Sección transversal personalizada extruida según plano o muestra",
+          "Rango de dureza 40-80 Shore A según la aplicación"
+        ]
+      },
+      {
+        "name": "Repuestos de Turbina (Siemens, BHEL, Triveni)",
+        "purpose": "Repuestos de turbina equivalentes a OEM fabricados con materiales certificados para kits de revisión general planificada — toberas, diafragmas, anillos de prensaestopas y carcasas de cojinete.",
+        "features": [
+          "Ingeniería inversa a partir de planos OEM",
+          "Certificados de material suministrados",
+          "Informe de inspección dimensional por MMC"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Soporte para operación continua de más de 350 días al año",
+      "Productos de SS316L para medios corrosivos",
+      "Soluciones de colador dúplex sin tiempo de inactividad",
+      "Kits de revisión general completos planificados y suministrados"
+    ]
+  },
+  "ind_4": {
+    "heroSub": "Filtración conforme a API 614, cojinetes babbitt y manguera de precisión para instalaciones de petróleo y gas",
+    "overview": "Las instalaciones de petróleo y gas upstream, midstream y downstream operan compresores y bombas accionados por turbina en algunas de las condiciones más duras de la industria. Cada componente del sistema de aceite lubricante y de control debe cumplir con las normas API. Keshav Enterprises suministra elementos filtrantes conformes a API 614, cojinetes babbitt y conjuntos de manguera de ingeniería de precisión calificados para su uso en equipos de áreas peligrosas.",
+    "challenges": [
+      {
+        "title": "Cumplimiento del Sistema de Aceite Lubricante API 614",
+        "desc": "Todos los componentes del sistema de aceite lubricante para equipos accionados por turbina en petróleo y gas deben cumplir con API 614, que especifica materiales, limpieza y clasificaciones de presión."
+      },
+      {
+        "title": "Filtración en Áreas Peligrosas",
+        "desc": "Los aceites de control sintéticos en los sistemas de control de turbinas tienen baja conductividad. Los elementos filtrantes deben cumplir la especificación antiestática IS27 para evitar la descarga electrostática."
+      },
+      {
+        "title": "Integridad de Manguera de Alta Presión",
+        "desc": "Los conjuntos de manguera hidráulica e instrumentación en petróleo y gas transportan presiones de hasta 420 bar. Un fallo significa riesgo de derrame e incendio — cero compromiso en calidad o certificación."
+      },
+      {
+        "title": "Suministro Rápido a Ubicaciones Remotas",
+        "desc": "Las plataformas offshore y las instalaciones upstream remotas necesitan un suministro rápido de repuestos. Los repuestos críticos se mantienen en stock y se envían el mismo día en pedidos de emergencia."
+      }
+    ],
+    "products": [
+      {
+        "name": "Elementos Filtrantes de Aceite de Control (Antiestático IS27)",
+        "purpose": "Para sistemas de control electrohidráulico (EHC) de turbina que usan aceites de control sintéticos a base de éster fosfato o éster con conductividad inferior a 300 pS/m.",
+        "features": [
+          "Certificación antiestática IS27",
+          "Medio de microfibra de vidrio VG, 3–25 µm",
+          "Compatible con Siemens, Man Turbo, KKK"
+        ]
+      },
+      {
+        "name": "Fabricación de Cojinetes Babbitt",
+        "purpose": "Cojinetes de muñón y de empuje para compresores y bombas accionados por turbina, revestidos de metal blanco con perfiles precisos que coinciden con la geometría original del cojinete OEM.",
+        "features": [
+          "Composición de metal blanco según ASTM B23",
+          "Mandrinado de precisión con tolerancia <0,01 mm",
+          "Todas las marcas: Man Turbo, KKK, Siemens, ABB"
+        ]
+      },
+      {
+        "name": "Conjuntos de Manguera Revestidos de PTFE",
+        "purpose": "Manguera química y de instrumentación para la transferencia de fluidos agresivos en el procesamiento de petróleo y gas — resistente al petróleo crudo, H2S, metanol e inhibidores.",
+        "features": [
+          "Núcleo de PTFE, trenzado de acero inoxidable 316 o sobretrenzado inoxidable",
+          "Clasificación de presión hasta 420 bar (conjuntos seleccionados)",
+          "Conjuntos conformes a BS EN ISO 10380 disponibles"
+        ]
+      },
+      {
+        "name": "Conjuntos de Manguera Hidráulica de Caucho",
+        "purpose": "Manguera hidráulica de alta presión para actuadores de control, sistemas BOP y unidades de potencia hidráulica en equipos de perforación y procesamiento.",
+        "features": [
+          "Construcción espiral de 4 y 6 alambres",
+          "Presión de trabajo de hasta 400 bar",
+          "Accesorios compatibles con Parker, Gates, Manuli"
+        ]
+      },
+      {
+        "name": "Carcasas de Filtro Fabricadas Dúplex",
+        "purpose": "Recipientes de filtro dúplex fabricados a medida para sistemas de aceite lubricante y de control, con sello de código ASME para cumplir con los requisitos de recipientes API 614.",
+        "features": [
+          "Sello de código ASME Sec. VIII Div. 1",
+          "Material: CS, SS304, SS316 según servicio",
+          "Certificado PED/CE para proyectos de exportación"
+        ]
+      },
+      {
+        "name": "Sondas de Monitoreo de Vibración",
+        "purpose": "Sondas de proximidad y sistemas de monitoreo compatibles con los sistemas de protección de turbomaquinaria API 670 para trenes de compresores y turbinas.",
+        "features": [
+          "Compatible con Bently Nevada, Shinkawa",
+          "Carcasa de sonda con clasificación IP67",
+          "Salidas de relé de alerta y peligro"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Productos conformes a API 614 e IS27",
+      "Cojinetes babbitt para todos los OEM principales",
+      "Despacho de emergencia el mismo día disponible",
+      "Recipientes a presión con sello de código ASME"
+    ]
+  },
+  "ind_5": {
+    "heroSub": "Juntas de expansión metálicas, coladores de alta temperatura y repuestos de precisión para refinerías y plantas petroquímicas",
+    "overview": "Las refinerías y complejos petroquímicos manejan hidrocarburos, ácidos y químicos agresivos a temperaturas y presiones extremas. Las juntas de expansión metálicas, los coladores de proceso y los repuestos de turbina de precisión deben soportar el ciclado térmico, los medios corrosivos y la fatiga de alto ciclo. Keshav Enterprises fabrica estos productos según las normas EJMA, ASME y API para las aplicaciones de refinería más exigentes.",
+    "challenges": [
+      {
+        "title": "Ciclado de Temperatura Extremo",
+        "desc": "Las columnas de craqueo con vapor y destilación de refinería ciclan entre temperaturas ambiente y de servicio superiores a 600 °C. Las juntas de expansión deben sobrevivir a millones de ciclos de flexión sin fallo por fatiga."
+      },
+      {
+        "title": "Medios Corrosivos y Ricos en Hidrógeno",
+        "desc": "El servicio de H2S, HF, disolventes de amina e hidrógeno requiere fuelles de Inconel, Hastelloy o acero inoxidable dúplex — el SS304/316 estándar es insuficiente."
+      },
+      {
+        "title": "Cumplimiento de Códigos ASME y API",
+        "desc": "Los recipientes a presión, tuberías y fuelles en refinerías deben cumplir con ASME Sec. VIII y los códigos API. La inspección por terceros y la trazabilidad de materiales son obligatorias."
+      },
+      {
+        "title": "Erosión por Catalizador en FCCU",
+        "desc": "Las unidades de craqueo catalítico fluido transportan partículas de catalizador arrastradas a más de 700 °C. Las juntas de expansión en las líneas de regenerador y reactor enfrentan una erosión extrema y choque térmico."
+      }
+    ],
+    "products": [
+      {
+        "name": "Junta de Expansión de Pared Gruesa de Servicio Pesado",
+        "purpose": "Fuelle reforzado de pared gruesa para las condiciones de servicio extremas de las líneas de transferencia regenerador-reactor: alta temperatura, alta presión y fuerte esfuerzo mecánico/térmico.",
+        "features": [
+          "Construcción de pared reforzada para máxima resistencia a presión y esfuerzo",
+          "Deformación mínima bajo ciclos extremos de presión y temperatura",
+          "Materiales: opciones de SS 316/321, Dúplex, Inconel, Hastelloy"
+        ]
+      },
+      {
+        "name": "Juntas de Expansión Metálicas Axiales y Universales",
+        "purpose": "Fuelles de línea de proceso estándar para absorber la expansión térmica en tuberías de petróleo crudo, producto y vapor en todo el complejo de la refinería.",
+        "features": [
+          "Rango de fabricación DN15 a DN12.000",
+          "Grados SS316L, Inconel, Hastelloy, SS dúplex",
+          "Código de diseño ASME Sec. VIII Div. 1"
+        ]
+      },
+      {
+        "name": "Coladores Simplex y Dúplex de Alta Presión",
+        "purpose": "Coladores en línea en líneas de carga de petróleo crudo, líneas de transferencia de producto y tuberías de succión de compresor para proteger el equipo de incrustaciones y residuos.",
+        "features": [
+          "Diseño según código de recipiente a presión ASME",
+          "Construcción de placa perforada + cesta de malla",
+          "Clases de presión PN40 a PN160 disponibles"
+        ]
+      },
+      {
+        "name": "Junta de Expansión Criogénica para GNL / GLP",
+        "purpose": "Junta de expansión metálica de calidad criogénica para tuberías de gas licuado a muy baja temperatura: líneas de transferencia de GNL/GLP, terminales de almacenamiento criogénico y cabezales de carga de buques.",
+        "features": [
+          "Diseñada para servicio criogénico hasta rangos de temperatura de GNL",
+          "Selección de materiales de baja temperatura para tenacidad y resistencia a la fatiga",
+          "Opciones de acero inoxidable austenítico y aleación criogénica, con trazabilidad completa de materiales"
+        ]
+      },
+      {
+        "name": "Componentes del Paso de Vapor de Turbina",
+        "purpose": "Bloques de tobera, diafragmas y portaálabes para accionamientos de compresores por turbina — fabricados en acero aleado según perfiles OEM.",
+        "features": [
+          "Mecanizado CNC a partir de forjas certificadas",
+          "Material: acero aleado Cr-Mo, SS 17-4PH",
+          "Perfil verificado por medición MMC 3D"
+        ]
+      },
+      {
+        "name": "Juntas de Expansión de Presión Equilibrada",
+        "purpose": "Elimina las fuerzas de empuje por presión en las boquillas de equipo sensible en servicio de refinería de alta presión — protege las bridas de compresores y bombas.",
+        "features": [
+          "Diseño de empuje de presión eliminado por tirantes",
+          "Reduce las cargas en boquillas a casi cero",
+          "Disponible en configuraciones atadas y no atadas"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Fuelles de Inconel, Hastelloy y SS dúplex",
+      "Norma de diseño EJMA 10ª edición",
+      "Recipientes a presión y fuelles con código ASME",
+      "Especialistas en FCCU y servicio extremo"
+    ]
+  },
+  "ind_6": {
+    "heroSub": "Cogeneración de turbina de vapor, filtración y productos de caucho para instalaciones agroindustriales",
+    "overview": "El procesamiento agroindustrial — desde la molienda de arroz y la extracción por solventes hasta la fabricación láctea y alimentaria — utiliza cada vez más la cogeneración de vapor cautiva para reducir los costos energéticos. Estas instalaciones necesitan un mantenimiento de turbina confiable, productos de manguera y filtro de grado alimentario, y soluciones de aislamiento de vibración para maquinaria de procesamiento sensible. Keshav Enterprises proporciona la gama completa de productos y servicios necesarios en todo el sector agroindustrial.",
+    "challenges": [
+      {
+        "title": "Requisitos de Material de Grado Alimentario",
+        "desc": "Las mangueras, sellos y filtración en áreas de contacto con alimentos deben usar materiales aprobados por la FDA — PTFE, EPDM de grado alimentario y acero inoxidable con superficies pulidas."
+      },
+      {
+        "title": "Variación de Carga Estacional",
+        "desc": "Las turbinas de cogeneración agroindustrial experimentan una amplia variación de carga con las temporadas de cultivo. Esto conduce a una erosión de álabes más rápida y una fatiga por ciclado térmico mayor que en las centrales eléctricas de carga constante."
+      },
+      {
+        "title": "Contaminación por Respiración del Tanque",
+        "desc": "Los tanques de almacenamiento de aceite comestible deben protegerse del polvo en suspensión y la humedad a través de la vía de respiración — la contaminación afecta la calidad del producto y la vida útil."
+      },
+      {
+        "title": "Vibración de Maquinaria en Plantas Alimentarias",
+        "desc": "Los molinos de martillos, centrífugas y maquinaria de envasado transmiten vibración a los pisos y equipos adyacentes. Se requiere aislamiento para mantener conexiones higiénicas."
+      }
+    ],
+    "products": [
+      {
+        "name": "Conjuntos de Manguera de PTFE Grado FDA",
+        "purpose": "Manguera flexible para transferencia de fluidos de grado alimentario — circulación química CIP/SIP, líneas de producto e inyección de vapor en entornos de grado alimentario.",
+        "features": [
+          "Núcleo interior de PTFE, conforme a FDA 21 CFR 177.1550",
+          "Accesorios de extremo de SS316 electropulido",
+          "Conexiones de extremo tipo tri-clover (sanitarias) disponibles"
+        ]
+      },
+      {
+        "name": "Filtros de Respiradero de Aire y de Tanque",
+        "purpose": "Protege los tanques de almacenamiento de aceite comestible de la entrada de polvo y humedad a través de la vía de ventilación — evita la contaminación del producto almacenado.",
+        "features": [
+          "Gel de sílice desecante + medio de partículas finas",
+          "Indicador de color de saturación visual",
+          "Diseño de cartucho de reemplazo para fácil mantenimiento"
+        ]
+      },
+      {
+        "name": "Coladores Tipo Y y Cónicos",
+        "purpose": "Coladores en línea en líneas de fluido de proceso, succión de bomba y sistemas de agua de alimentación de caldera — protegen el equipo de incrustaciones y residuos de proceso.",
+        "features": [
+          "Cesta de malla de acero inoxidable, tamaño de malla de 40 a 400 µm",
+          "Conexiones roscadas o embridadas",
+          "Limpieza en línea simple sin cortar la tubería"
+        ]
+      },
+      {
+        "name": "Perfiles y Sellos de Caucho Extruido Personalizados",
+        "purpose": "Las tiras de amortiguación de caucho extruido a medida aíslan la vibración de molinos de martillos, centrífugas, compresores y maquinaria de embalaje, protegiendo tanto la máquina como las áreas adyacentes de procesamiento de alimentos.",
+        "features": [
+          "Opciones de compuesto EPDM, neopreno, nitrilo o caucho natural",
+          "Sección transversal personalizada extruida según plano o muestra",
+          "Disponible con respaldo adhesivo sensible a la presión"
+        ]
+      },
+      {
+        "name": "Juntas de Expansión de Caucho (Arco Simple)",
+        "purpose": "Conector flexible de bomba en circuitos de agua de refrigeración, agua fría y agua de proceso — absorbe la vibración de la bomba y el movimiento térmico.",
+        "features": [
+          "Tubo de EPDM o caucho natural",
+          "Extremos embridados PN10/16, también roscados",
+          "Temperatura de trabajo de –20 °C a +130 °C"
+        ]
+      },
+      {
+        "name": "Mantenimiento de Turbina de Vapor (Triveni, Maxwatt)",
+        "purpose": "Revisión general planificada de turbinas de vapor de contrapresión de cogeneración agroindustrial — sustitución de anillos de prensaestopas, inspección de cojinetes y verificación de equilibrado de rotor.",
+        "features": [
+          "Programación de revisión general entre temporadas",
+          "Anillo de prensaestopas de carbono mecanizado internamente",
+          "Marcha de prueba y aprobación de vibración incluidas"
+        ]
+      },
+      {
+        "name": "Filtros de Bolsa HVAC (Manejo de Aire de Planta Alimentaria)",
+        "purpose": "Filtros de bolsa multibolsillo para UMA de instalaciones de procesamiento de alimentos — elimina harina, polvo de almidón y esporas de moho en suspensión del aire de suministro a áreas de producción, cámaras frías y líneas de envasado.",
+        "features": [
+          "Eficiencia F7/F8 para captura de alérgenos y esporas de moho",
+          "Medio de poliéster sintético — tolerante a la humedad en entornos alimentarios húmedos",
+          "Tamaños de marco de UMA estándar; dimensiones personalizadas bajo pedido",
+          "Complementa los requisitos de calidad del aire GMP para zonas de grado alimentario"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Productos de manguera conformes a FDA 21 CFR",
+      "Especialista en turbinas de cogeneración agroindustrial",
+      "Filtros de respiradero de tanque para almacenamiento de aceite comestible",
+      "Filtros de bolsa HVAC F7/F8 para calidad del aire GMP en producción alimentaria",
+      "Soluciones completas de aislamiento de vibración de bombas"
+    ]
+  },
+  "ind_7": {
+    "heroSub": "Filtración de aceite lubricante, mangas de colector de polvo de chorro pulsante, filtros de aire HVAC, juntas de expansión y aislamiento de vibración para maquinaria de plantas de cemento",
+    "overview": "La fabricación de cemento es uno de los entornos industriales más abrasivos y cargados de polvo del planeta. Los hornos rotativos que operan a temperaturas de carcasa de 200–400 °C, los molinos de bolas que funcionan continuamente durante meses y los trenes de trituración que generan enormes nubes de polvo imponen exigencias extremas a cada componente de lubricación, sellado y tuberías. Keshav Enterprises suministra la filtración de grado de precisión, las mangas de filtro para colector de polvo de chorro pulsante, los filtros de aire HVAC, las juntas de expansión y las soluciones antivibración que mantienen a las plantas de cemento funcionando más de 330 días al año.",
+    "challenges": [
+      {
+        "title": "Polvo Extremo y Contaminación Abrasiva",
+        "desc": "Las plantas de cemento generan de 1 a 3 toneladas de polvo al día por horno. Este abrasivo en suspensión entra en los sistemas de aceite lubricante, respiraderos y carcasas de filtro — acelerando el desgaste y causando derivación del filtro si no se gestiona correctamente."
+      },
+      {
+        "title": "Contaminación del Aceite de la Caja de Engranajes del Horno",
+        "desc": "Las cajas de engranajes de hornos rotativos operan con sistemas de lubricación por circulación a ISO VG 220–460. El polvo de clínker y la contaminación térmica degradan el aceite rápidamente — la filtración de alta eficiencia es crítica para extender los intervalos de cambio de aceite y proteger costosos trenes de engranajes."
+      },
+      {
+        "title": "Expansión Térmica en Conductos de Escape del Horno",
+        "desc": "Los conductos de gas de escape del horno operan a 250–450 °C y experimentan una expansión térmica significativa. Sin juntas de expansión metálicas o de tejido correctamente diseñadas, las secciones de conducto se agrietan, tienen fugas y permiten el escape de gas caliente — un riesgo de seguridad y eficiencia."
+      },
+      {
+        "title": "Vibración de Trituradoras y Molinos",
+        "desc": "Los molinos de bolas, los molinos de rodillos verticales y las trituradoras de mandíbula generan una intensa vibración de banda ancha que se transmite a través de las cimentaciones a equipos e instrumentación adyacentes, causando fallos por fatiga y errores de medición."
+      }
+    ],
+    "products": [
+      {
+        "name": "Elementos Filtrantes de Aceite Lubricante (Cajas de Engranajes de Horno y Molino)",
+        "purpose": "Elementos filtrantes de alta eficiencia para sistemas de circulación de aceite de caja de engranajes de horno — elimina partículas abrasivas de clínker y residuos de desgaste antes de que dañen los dientes de engranaje y los cojinetes de rodillos.",
+        "features": [
+          "Medio de fieltro de fibra de vidrio, finura 6–25 µm",
+          "Alta capacidad de retención de suciedad para entornos cargados de polvo",
+          "Compatible con aceite sintético y mineral ISO VG 220–460",
+          "Eficiencia beta ≥200 según ISO 16889"
+        ]
+      },
+      {
+        "name": "Coladores de Cesta Dúplex (Agua de Refrigeración y Líneas de Proceso)",
+        "purpose": "Instalados en sistemas de agua de refrigeración de horno, refrigeración de agua de compresor y tuberías de lechada de harina cruda para proteger bombas, intercambiadores de calor e instrumentación de incrustaciones y residuos.",
+        "features": [
+          "Cestas de malla de acero inoxidable, opciones de malla de 100–1000 µm",
+          "Diseño dúplex: limpieza de cesta sin tiempo de inactividad",
+          "Clasificaciones de brida ANSI 150 a ANSI 600",
+          "SS316 para servicio de agua de refrigeración corrosiva"
+        ]
+      },
+      {
+        "name": "Juntas de Expansión Metálicas Axiales (Conductos de Escape del Horno)",
+        "purpose": "Compensa la expansión térmica en los conductos de gas caliente entre el horno, la torre de precalentamiento de ciclones y la caldera de calor residual — elimina el agrietamiento por tensión inducida térmicamente en las secciones del conducto.",
+        "features": [
+          "Fuelles de SS321 para servicio de alta temperatura",
+          "Configuraciones simples y universales (fuelle doble)",
+          "Embridadas para coincidir con las dimensiones de conducto existentes",
+          "Revestimiento de flujo incluido para proteger el fuelle de la erosión por gas"
+        ]
+      },
+      {
+        "name": "Juntas de Expansión No Metálicas Rectangulares (Tejido)",
+        "purpose": "Utilizadas en conductos rectangulares grandes en el respiradero del enfriador de clínker, conexiones de ventilador del molino de crudo y conductos de precipitador electrostático (ESP) — maneja la desalineación y el movimiento térmico en secciones no circulares.",
+        "features": [
+          "Tejido de vidrio recubierto de PTFE o compuesto Nomex",
+          "Capacidad de temperatura hasta 450 °C continuos",
+          "Fabricadas a medida según las dimensiones del conducto rectangular",
+          "Conjunto de marco atornillado para instalación in situ"
+        ]
+      },
+      {
+        "name": "Perfiles y Sellos de Caucho Extruido Personalizados",
+        "purpose": "Almohadillas de amortiguación de caucho extruido a medida, instaladas bajo unidades de accionamiento de molinos de bolas, engranajes de molinos verticales de rodillos y alojamientos de rodamientos de trituradoras, para aislar y atenuar la vibración de la maquinaria transmitida a las estructuras de la planta.",
+        "features": [
+          "Compuesto de caucho natural, EPDM o neopreno",
+          "Sección transversal personalizada extruida según plano o muestra",
+          "Temperatura de servicio de -40 a +150°C (grado EPDM)"
+        ]
+      },
+      {
+        "name": "Filtros de Respiradero de Aire y de Tanque (Depósitos de Aceite Lubricante)",
+        "purpose": "Evita que el polvo de cemento en suspensión y la humedad entren en los depósitos de aceite lubricante a través de la vía de ventilación — la principal causa de fallo prematuro de aceite y cojinetes en plantas de cemento.",
+        "features": [
+          "Medio de partículas de alta eficiencia + desecante de gel de sílice",
+          "Clasificado según los requisitos de limpieza ISO",
+          "Indicador de saturación por cambio de color",
+          "Configuraciones de montaje directo y remoto"
+        ]
+      },
+      {
+        "name": "Conjuntos de Manguera Flexible Corrugada de Acero Inoxidable",
+        "purpose": "Conexiones flexibles de alta presión en entradas de agua de refrigeración de horno, actuadores hidráulicos de compuerta deslizante y líneas de aire comprimido — resiste el calor, la presión y la vibración donde la tubería rígida fallaría.",
+        "features": [
+          "Manguera interior corrugada SS316L, refuerzo de trenzado de acero inoxidable",
+          "Presión de trabajo hasta 200 bar (conjuntos seleccionados)",
+          "Accesorios de extremo: embridado ANSI, roscado BSP/NPT o hidráulico",
+          "Rango de temperatura de –196 °C a +600 °C"
+        ]
+      },
+      {
+        "name": "Coladores Cónicos y Tipo Y (Bombas de Molino de Crudo y Transportador)",
+        "purpose": "Coladores temporales y permanentes en bombas de lechada de materia prima, sistemas de rociado de agua del horno y líneas de suministro de aire comprimido — protegen las válvulas e instrumentos aguas abajo.",
+        "features": [
+          "Cesta perforada, revestimiento de malla disponible",
+          "Tapón de purga alado o roscado para limpieza",
+          "Materiales de cuerpo CS, SS304, SS316",
+          "En stock para despacho rápido"
+        ]
+      },
+      {
+        "name": "Mangas y Cartuchos de Filtro para Colector de Polvo de Chorro Pulsante",
+        "purpose": "Mangas filtrantes de reemplazo y elementos de cartucho plisado para colectores de polvo de casa de mangas de plantas de cemento en el escape del horno, respiraderos del molino de crudo, enfriador de clínker, molino de carbón, planta de envasado y sistemas de respiradero de silo — retiene el polvo fino de cemento y cumple con las normas de emisión.",
+        "features": [
+          "Fieltro de agujas de poliéster (estándar) y membrana de PTFE (alta eficiencia, baja emisión)",
+          "Grados antiestáticos para aplicaciones de molino de carbón (ATEX)",
+          "Dimensiones compatibles con jaula para la carcasa de casa de mangas existente",
+          "Limpieza por chorro pulsante clasificada a 4–7 bar de aire comprimido"
+        ]
+      },
+      {
+        "name": "Filtros de Aire de Panel Plisado (HVAC de Sala de Control y Panel Eléctrico)",
+        "purpose": "Filtros para UMA de salas de control de plantas de cemento y unidades de refrigeración de paneles eléctricos — evita que el polvo abrasivo de cemento entre en instrumentación sensible, PLC y gabinetes DCS.",
+        "features": [
+          "Eficiencia F7/F8 para retención de polvo de cemento fino",
+          "Marco de acero galvanizado para entornos húmedos de planta de cemento",
+          "Tamaños de marco de UMA estándar o cortados a medida según dimensiones de panel",
+          "Suministro de reemplazo según programa de servicio"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Soporte para operación continua de más de 330 días al año",
+      "Productos de filtración resistentes al polvo en stock",
+      "Juntas de expansión de alta temperatura hasta 450 °C",
+      "Mangas de casa de mangas de chorro pulsante para todos los puntos de ventilación de la planta de cemento",
+      "Soluciones completas de aislamiento de vibración"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+---
+// src/pages/[locale]/products/index.astro
+// Part 1, step 4: generalizes the validated [locale]/index.astro pattern.
+// ProductsPage reads Astro.currentLocale directly (no getStaticPaths props
+// of its own) — same as index.astro/about.astro/services/index.astro/etc —
+// so importing it as a plain component and letting it read the CURRENT
+// request's locale is all that's needed here, no props to thread through.
+import ProductsPage from "../../products/index.astro";
+import { LOCALES, DEFAULT_LOCALE } from "../../../lib/i18n";
+import { getPathByLocale } from "astro:i18n";
+
+export function getStaticPaths() {
+  return LOCALES.filter((locale) => locale !== DEFAULT_LOCALE).map((locale) => ({
+    params: { locale: getPathByLocale(locale) },
+  }));
+}
+---
+
+<ProductsPage />

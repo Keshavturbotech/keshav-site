@@ -1,0 +1,1074 @@
+{
+  "srv_1": {
+    "tagline": "Lắp đặt Phối hợp OEM từ Bu-lông Móng Đầu tiên đến Hơi Đầu tiên",
+    "accentColor": "#2563eb",
+    "keyStats": [
+      {
+        "value": "10+",
+        "label": "Thương hiệu OEM Đã Chạy thử"
+      },
+      {
+        "value": "5kW–60MW",
+        "label": "Dải Công suất Xử lý"
+      },
+      {
+        "value": "100%",
+        "label": "Tài liệu Theo Thông số OEM"
+      },
+      {
+        "value": "24×7",
+        "label": "Hỗ trợ Hiện trường Có sẵn"
+      }
+    ],
+    "whyUs": "Một bộ khe hở sai trong quá trình lắp đặt có thể phá hủy ổ trục trong vòng vài giờ kể từ hơi đầu tiên. Kỹ sư hiện trường từng làm việc tại OEM của chúng tôi đã tự mình chạy thử cùng loại máy móc mà bạn đang lắp đặt — họ biết chính xác thông số OEM có nghĩa gì trong thực tế, không chỉ trên giấy.",
+    "overview": "Lắp đặt và chạy thử tua-bin là giai đoạn quan trọng nhất của bất kỳ dự án nhà máy điện hoặc công nghiệp nào. Lỗi trong quá trình lắp đặt — căn chỉnh sai, khe hở không đúng, mô-men xoắn sai — tích lũy thành hỏng hóc tốn kém trong năm vận hành đầu tiên. Keshav Enterprises triển khai các kỹ sư hiện trường từng làm việc tại OEM đã chạy thử tua-bin Triveni, Siemens, BHEL, Belliss, và Maxwatt tại các nhà máy điện, nhà máy đường, nhà máy giấy, và ngành công nghiệp quy trình. Mọi điểm giữ được chứng kiến, mọi khe hở được ghi lại, và mọi hệ thống an toàn được thử nghiệm trước khi đưa hơi vào. Bộ tài liệu của chúng tôi đáp ứng yêu cầu bàn giao của khách hàng, bảo hiểm, và OEM.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Xem xét Kỹ thuật Trước Lắp đặt",
+        "iconName": "BookOpen",
+        "desc": "Xem xét chi tiết hướng dẫn lắp đặt OEM, bản vẽ GA, P&ID, và bản vẽ móng xây dựng. Xác định tất cả điểm giữ, điểm chứng kiến, và yêu cầu tài liệu trước khi nâng thiết bị đầu tiên. Trình tự lắp đặt và đường găng được thống nhất với đội dự án của khách hàng."
+      },
+      {
+        "step": "02",
+        "title": "Chuẩn bị Móng & Tấm Đế",
+        "iconName": "Layers",
+        "desc": "San phẳng chính xác và đổ vữa tấm đế tua-bin trong phạm vi 0,05 mm/m. Gia công và lắp đặt chock. Siết chặt bu-lông móng theo mô-men xoắn quy định của OEM bằng cờ lê thủy lực đã hiệu chuẩn. Chuẩn bị vữa epoxy, đổ, và giám sát đông cứng với ghi nhận nhiệt độ."
+      },
+      {
+        "step": "03",
+        "title": "Đặt Thiết bị & Căn chỉnh Thô",
+        "iconName": "Target",
+        "desc": "Định vị chính xác vỏ tua-bin, hộp số, và thiết bị dẫn động trên tấm đế. Căn chỉnh trục thô bằng đồng hồ so và thiết bị laser trong phạm vi 0,1 mm trước khi lắp khớp nối. Kiểm tra và sửa soft foot ở tất cả chân máy trước khi căn chỉnh cuối cùng."
+      },
+      {
+        "step": "04",
+        "title": "Lắp ráp Nội bộ & Điều chỉnh Khe hở",
+        "iconName": "Cog",
+        "desc": "Đo độ tụt rotor, điều chỉnh khe hở gland (hướng kính và dọc trục), lắp phớt mê cung, lắp ổ chặn, và điều chỉnh khe hở ổ trục ngõng. Tất cả khe hở được ghi lại theo thông số OEM trong sổ đăng ký khe hở hiện trường. Đo và xác nhận độ trôi đầu rotor trong giới hạn OEM."
+      },
+      {
+        "step": "05",
+        "title": "Kết nối Đường ống & Hệ thống Phụ trợ",
+        "iconName": "Activity",
+        "desc": "Kết nối đường ống hơi vào, xả, trích, và xả đáy với giá đỡ ống và móc treo lò xo phù hợp. Xác minh tải nozzle trong giới hạn OEM — loại bỏ ứng suất đường ống trước khi kết nối cuối cùng. Hoàn thành đường ống dầu bôi trơn, dầu điều khiển, hơi gland, và thiết bị đo, thử nghiệm rò rỉ."
+      },
+      {
+        "step": "06",
+        "title": "Kiểm tra Trước Chạy thử & Súc rửa",
+        "iconName": "Droplets",
+        "desc": "Súc rửa hệ thống dầu bôi trơn đến tiêu chuẩn độ sạch ISO 4406, xác nhận bằng đếm hạt. Kiểm tra chức năng hệ thống điều khiển và trip. Thử nghiệm hệ thống an toàn được thực hiện và ghi lại: trip vượt tốc, trip áp suất dầu thấp, trip nhiệt độ ổ trục cao, vận hành van dừng khẩn cấp."
+      },
+      {
+        "step": "07",
+        "title": "Khởi động Lần đầu, Tăng tốc & Chạy thử",
+        "iconName": "Zap",
+        "desc": "Khởi động đầu tiên có kiểm soát với thử nghiệm nghe ở tốc độ quay chậm. Tăng tốc theo các bước quy định với giám sát rung động và nhiệt độ ổ trục liên tục. Thử nghiệm phản ứng bộ điều tốc và dead-band. Thử nghiệm trip vượt tốc ở 110% tốc độ định mức. Thử nghiệm chấp nhận tải và bàn giao vận hành tải đầy đủ với báo cáo chạy thử."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Căn chỉnh Trục Laser",
+        "detail": "Pruftechnik Rotalign Pro / dòng SKF TKSA",
+        "iconName": "Target"
+      },
+      {
+        "name": "Máy phân tích Rung động",
+        "detail": "FFT thời gian thực, thu thập dữ liệu 8 kênh",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Đồng hồ so Chính xác",
+        "detail": "Độ phân giải 0,001 mm, cấp CMM",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Cờ lê Mô-men Thủy lực",
+        "detail": "Bộ nhân mô-men đã hiệu chuẩn cho bu-lông móng",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Ống soi",
+        "detail": "Cứng & mềm cho kiểm tra nội bộ",
+        "iconName": "Search"
+      },
+      {
+        "name": "Bộ ghi Nhiệt kế cặp",
+        "detail": "Khảo sát nhiệt đa điểm trong lần chạy đầu tiên",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Đồng hồ đo Lưu lượng Siêu âm",
+        "detail": "Xác minh lưu lượng đường ống khi chạy thử",
+        "iconName": "Droplets"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ASME PTC 6",
+        "desc": "Quy chuẩn thử nghiệm hiệu suất tua-bin hơi nước",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 10816 / 20816",
+        "desc": "Giới hạn rung động cơ học cho máy quay",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Bảo vệ máy: trip vượt tốc và rung động",
+        "body": "API"
+      },
+      {
+        "code": "API 686",
+        "desc": "Thực hành khuyến nghị cho lắp đặt máy móc",
+        "body": "API"
+      },
+      {
+        "code": "IS 3639",
+        "desc": "Tiêu chuẩn bu-lông móng và neo",
+        "body": "BIS"
+      },
+      {
+        "code": "Hướng dẫn OEM",
+        "desc": "Quy trình lắp đặt Triveni, Siemens, BHEL, Belliss, Maxwatt",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_2": {
+    "tagline": "Lập kế hoạch Dừng máy Trọn gói đến Khởi động lại Không Sai sót",
+    "accentColor": "#0891b2",
+    "keyStats": [
+      {
+        "value": "8+",
+        "label": "Thương hiệu OEM Đã Đại tu"
+      },
+      {
+        "value": "26+",
+        "label": "Năm Kinh nghiệm Hiện trường"
+      },
+      {
+        "value": "0.001mm",
+        "label": "Độ phân giải Khe hở"
+      },
+      {
+        "value": "24×7",
+        "label": "Ứng phó Khẩn cấp"
+      }
+    ],
+    "whyUs": "Đại tu thực hiện kém còn tệ hơn không đại tu — nó tạo ra lỗi khe hở mới, nhiễm bẩn, và lỗi lắp ráp lại. Kỹ sư của chúng tôi được OEM đào tạo. Họ biết dung sai thực sự có ý nghĩa gì ở nhiệt độ và tốc độ vận hành, không chỉ những gì được viết trong hướng dẫn sử dụng.",
+    "overview": "Đại tu tua-bin không phải là hoạt động bảo trì thông thường — đó là can thiệp kỹ thuật chính xác. Keshav Enterprises triển khai các kỹ sư từng làm việc tại OEM Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK, và ABB để thực hiện đại tu trọn gói với kỷ luật và tiêu chuẩn tài liệu giống như nhà sản xuất gốc. Mỗi lần đại tu bắt đầu 4-6 tuần trước khi dừng máy với việc hoàn thiện phạm vi, kiểm tra phụ tùng trước, và lập kế hoạch huy động nhân lực. Mọi linh kiện được đo trước khi tháo dỡ, trong quá trình tháo rời, và sau khi lắp ráp lại. Báo cáo tình trạng bằng văn bản, sổ đăng ký khe hở, và hồ sơ ảnh được tạo cho mỗi lần đại tu — tạo ra đường cơ sở cho lần dừng máy tiếp theo.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Lập kế hoạch Trước Dừng máy & Hoàn thiện Phạm vi",
+        "iconName": "BookOpen",
+        "desc": "Xem xét hồ sơ đại tu trước đó, dữ liệu vận hành, lịch sử rung động, và xu hướng hiệu suất 4-6 tuần trước khi dừng máy. Định nghĩa phạm vi, danh sách phụ tùng quan trọng, danh sách vật tư tiêu hao, và kế hoạch huy động nhân lực. Kiểm tra trước dừng máy các phụ tùng tồn kho với báo cáo thiếu hụt được phát hành cho khách hàng."
+      },
+      {
+        "step": "02",
+        "title": "Huy động Hiện trường & Chuẩn bị Dụng cụ",
+        "iconName": "Wrench",
+        "desc": "Bộ dụng cụ đại tu đầy đủ được triển khai: kích thủy lực, ròng rọc xích chính xác, dây đai xử lý rotor, dụng cụ đo chuyên dụng, dụng cụ mài rà, và bộ tài liệu đại tu hoàn chỉnh. Kiểm tra tình trạng dụng cụ và xác minh hiệu chuẩn thiết bị trước khi bắt đầu công việc."
+      },
+      {
+        "step": "03",
+        "title": "Tháo dỡ & Kiểm tra Ban đầu",
+        "iconName": "Search",
+        "desc": "Tháo dỡ có kiểm soát với tất cả các phép đo trước khi tháo được ghi lại: khe hở ổ trục, độ đảo trục, khe hở gland, căn chỉnh khớp nối, và độ trôi đầu rotor. Mỗi linh kiện được chụp ảnh. Tình trạng được ghi lại theo thông số OEM trước khi làm sạch."
+      },
+      {
+        "step": "04",
+        "title": "Kiểm tra Linh kiện & Báo cáo Tình trạng",
+        "iconName": "Activity",
+        "desc": "Kiểm tra trực quan, kích thước, và NDT trên rotor, cánh, ổ trục, gland, vỏ, tất cả các van, và khớp nối. Phát hiện vết nứt bằng phương pháp thẩm thấu chất lỏng hoặc hạt từ trên các linh kiện quan trọng. Báo cáo tình trạng bằng văn bản với khuyến nghị cụ thể cho từng linh kiện: thay thế, sửa chữa, hoặc tái sử dụng với lý do."
+      },
+      {
+        "step": "05",
+        "title": "Sửa chữa Linh kiện & Lắp đặt Phụ tùng",
+        "iconName": "Cog",
+        "desc": "Đổ lại babbitt và gia công chính xác ổ trục ngõng, thay phớt mê cung, kiểm tra cánh và thay thế chọn lọc, đánh bóng ngõng trục (Ra 0,4 μm), mài rà bề mặt ghép vỏ, thay đệm gland, và mài rà bệ van đến tiêu chuẩn blue-match."
+      },
+      {
+        "step": "06",
+        "title": "Lắp ráp lại & Điều chỉnh Khe hở",
+        "iconName": "Target",
+        "desc": "Lắp ráp lại chính xác với tất cả khe hở được điều chỉnh và ghi lại theo thông số OEM: khe hở ổ trục ngõng (đường kính và dọc trục), khe hở hướng kính và dọc trục phớt mê cung, khe hở gland, căn chỉnh khớp nối, và độ trôi đầu rotor. Tất cả số đọc được nhập vào sổ đăng ký khe hở và so sánh với đường cơ sở đại tu trước đó."
+      },
+      {
+        "step": "07",
+        "title": "Khôi phục Vận hành & Bàn giao",
+        "iconName": "Zap",
+        "desc": "Súc rửa khôi phục vận hành hệ thống dầu bôi trơn sau đại tu đến ISO 4406. Thử nghiệm hệ thống an toàn: trip vượt tốc, trip áp suất dầu thấp, van dừng khẩn cấp. Khởi động được giám sát với xu hướng rung động và nhiệt độ ổ trục. Cho phép bằng văn bản để tải đầy đủ với bộ tài liệu đại tu hoàn chỉnh được bàn giao cho khách hàng."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Đồng hồ so & Đo lỗ Chính xác",
+        "detail": "Đo khe hở độ phân giải 0,001 mm",
+        "iconName": "Target"
+      },
+      {
+        "name": "Căn chỉnh Trục Laser",
+        "detail": "Xác minh căn chỉnh khớp nối cuối cùng",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Máy Cân bằng Di động",
+        "detail": "Cân bằng tinh chỉnh rotor tại chỗ",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Thiết bị Đúc Babbitt",
+        "detail": "Đúc ly tâm cho đúc lại ổ trục",
+        "iconName": "Factory"
+      },
+      {
+        "name": "Tấm Mài rà Bề mặt",
+        "detail": "Tất cả các cấp cho bệ van và bề mặt vỏ",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Đồng hồ đo Độ dày Siêu âm",
+        "detail": "Đo ăn mòn thành vỏ",
+        "iconName": "Search"
+      },
+      {
+        "name": "Máy phân tích Rung động 8 Kênh",
+        "detail": "FFT thời gian thực trong quá trình khởi động lại giám sát",
+        "iconName": "TrendingUp"
+      }
+    ],
+    "standards": [
+      {
+        "code": "API 614",
+        "desc": "Hệ thống bôi trơn, làm kín trục, và điều khiển dầu",
+        "body": "API"
+      },
+      {
+        "code": "API 670",
+        "desc": "Hệ thống bảo vệ rung động và vượt tốc",
+        "body": "API"
+      },
+      {
+        "code": "ISO 1940",
+        "desc": "Cấp chất lượng cân bằng động cho linh kiện quay",
+        "body": "ISO"
+      },
+      {
+        "code": "ASME B31.1",
+        "desc": "Đường ống công suất cho kết nối hơi",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 9001",
+        "desc": "Hệ thống quản lý chất lượng cho tài liệu đại tu",
+        "body": "ISO"
+      },
+      {
+        "code": "Hướng dẫn OEM",
+        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_3": {
+    "tagline": "Từ Quét 3D đến Bản vẽ Sản xuất — Loại bỏ Sự Phụ thuộc vào OEM",
+    "accentColor": "#7c3aed",
+    "keyStats": [
+      {
+        "value": "5kW–60MW",
+        "label": "Dải Tua-bin Bao phủ"
+      },
+      {
+        "value": "0.001mm",
+        "label": "Độ phân giải Đo CMM"
+      },
+      {
+        "value": "100%",
+        "label": "Vật liệu Xác minh PMI"
+      },
+      {
+        "value": "GD&T",
+        "label": "Bản vẽ Dung sai Đầy đủ"
+      }
+    ],
+    "whyUs": "Khi OEM ngừng hỗ trợ một cỗ máy, một rotor mòn đơn giản hoặc màng ngăn nứt có thể buộc nhà máy phải dừng hoạt động nhiều tháng. Quy trình kỹ thuật đảo ngược của chúng tôi tái tạo lại chính xác vật liệu, hình học, và thông số xử lý nhiệt — với bản vẽ chế tạo đầy đủ — để bất kỳ xưởng máy có năng lực nào cũng có thể sản xuất linh kiện đó.",
+    "overview": "Khi bản vẽ OEM không có sẵn, OEM đã ngừng hoạt động, hoặc thời gian chờ được tính bằng năm, Keshav Enterprises có thể thực hiện kỹ thuật đảo ngược bất kỳ linh kiện tua-bin nào từ 5 kW đến 60 MW thành bộ bản vẽ sẵn sàng sản xuất hoàn chỉnh. Quy trình của chúng tôi sử dụng máy quét laser 3D, máy đo tọa độ CMM, và nhận dạng vật liệu PMI XRF — cùng các công cụ mà các đội kỹ thuật OEM lớn sử dụng — để tạo ra bản vẽ chế tạo đầy đủ với tất cả dung sai, hoàn thiện bề mặt, trình tự xử lý nhiệt, và thông số vật liệu. Chúng tôi đã kỹ thuật đảo ngược thành công rotor, màng ngăn, khối vòi phun, phớt mê cung, ổ trục, bộ điều tốc, và linh kiện đường hơi cho tua-bin Triveni, Siemens, BHEL, DLF-Skoda, Belliss, và Maxwatt.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Tiếp nhận Linh kiện & Đánh giá Ban đầu",
+        "iconName": "Search",
+        "desc": "Tiếp nhận an toàn linh kiện đã mòn hoặc mẫu tham chiếu gốc. Kiểm tra trực quan ban đầu, làm sạch, và chụp ảnh toàn diện. Đánh giá hư hỏng, vùng mòn, và bề mặt đo quan trọng để xác định chiến lược đo lường và sơ đồ chuẩn tối ưu trước khi bắt đầu bất kỳ phép đo nào."
+      },
+      {
+        "step": "02",
+        "title": "Nhận dạng Vật liệu PMI",
+        "iconName": "Shield",
+        "desc": "Nhận dạng Vật liệu Chính xác sử dụng máy phân tích XRF (huỳnh quang tia X) tại nhiều vị trí để xác định thành phần hợp kim chính xác. Thử nghiệm độ cứng (Rockwell, Brinell, Vickers) để xác định tình trạng xử lý nhiệt. Cấp vật liệu được xác nhận và khớp với tiêu chuẩn hiện tại gần nhất trước khi bắt đầu đo lường — không đoán mò hợp kim."
+      },
+      {
+        "step": "03",
+        "title": "Quét Laser 3D & Đo CMM",
+        "iconName": "Hexagon",
+        "desc": "Quét 3D hoàn chỉnh bề mặt ngoài linh kiện sử dụng máy quét laser di động — độ chính xác point cloud đến 0,05 mm. Kích thước bên trong và dung sai quan trọng (lỗ, rãnh then, spline, hình dạng ren, bước ren, và chiều dẫn) được đo trên CMM với độ phân giải 0,001 mm. Sơ đồ chuẩn được thiết lập từ bề mặt ổ trục chức năng."
+      },
+      {
+        "step": "04",
+        "title": "Tạo Bản vẽ Kỹ thuật",
+        "iconName": "BookOpen",
+        "desc": "Mô hình CAD được phát triển từ dữ liệu quét và đo CMM. Bản vẽ chế tạo 2D đầy đủ được tạo ra với: tất cả kích thước tuyến tính và góc, dung sai GD&T (độ đồng tâm, độ trụ, độ song song, độ tròn, độ đảo), ký hiệu hoàn thiện bề mặt (giá trị Ra tính bằng μm), tiêu chuẩn hình dạng và cấp ren, và khung tham chiếu chuẩn đầy đủ."
+      },
+      {
+        "step": "05",
+        "title": "Thông số Xử lý Nhiệt & Xử lý Bề mặt",
+        "iconName": "Zap",
+        "desc": "Trình tự gia công đầy đủ được chỉ định: giảm ứng suất trước gia công, gia công thô, chuẩn hóa hoặc tôi cứng, các giai đoạn gia công gần hoàn thiện và hoàn thiện. Tình trạng xử lý nhiệt được chỉ định với nhiệt độ (°C), thời gian ngâm, môi trường làm nguội, và độ cứng mục tiêu. Thông số xử lý bề mặt: độ sâu thấm nitơ, độ cứng bề mặt, thấm cacbon, hoặc mạ crôm cứng khi cần thiết."
+      },
+      {
+        "step": "06",
+        "title": "Mua sắm Vật liệu & Chế tạo",
+        "iconName": "Factory",
+        "desc": "Vật liệu được mua sắm theo thông số kết quả nhận dạng PMI với chứng chỉ nhà máy EN 10204 Type 3.1. Gia công CNC được thực hiện qua từng giai đoạn đã chỉ định với kiểm tra kích thước trong quy trình ở mỗi giai đoạn. Tất cả dữ liệu kiểm tra được ghi lại trong bộ dữ liệu chế tạo."
+      },
+      {
+        "step": "07",
+        "title": "Kiểm tra Cuối cùng & Giao hàng",
+        "iconName": "CheckCircle2",
+        "desc": "Báo cáo kiểm tra kích thước đầy đủ so với bản vẽ kỹ thuật. Xác minh lại PMI trên linh kiện hoàn thiện xác nhận hợp kim chính xác được sử dụng xuyên suốt quy trình. Đo hoàn thiện bề mặt. Thử nghiệm độ cứng trên các bề mặt quan trọng. Bộ tài liệu truy xuất nguồn gốc đầy đủ được cung cấp với mỗi linh kiện."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Máy quét Laser 3D",
+        "detail": "Faro Focus / Creaform HandySCAN — độ chính xác 0,05 mm",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "CMM — Máy đo Tọa độ",
+        "detail": "Loại cầu & cánh tay di động, độ phân giải 0,001 mm",
+        "iconName": "Target"
+      },
+      {
+        "name": "Máy phân tích PMI XRF",
+        "detail": "Olympus Vanta — nhận dạng hợp kim tại hiện trường",
+        "iconName": "Search"
+      },
+      {
+        "name": "Máy thử Độ cứng",
+        "detail": "Rockwell, Brinell, Vickers — xác minh xử lý nhiệt",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Máy đo Biên dạng",
+        "detail": "Máy thử độ nhám bề mặt — độ phân giải Ra 0,001 μm",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Máy tiện Chép hình",
+        "detail": "Đọc số cho tái tạo linh kiện quay",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Phần mềm CAD",
+        "detail": "SolidWorks / AutoCAD — tạo bản vẽ GD&T",
+        "iconName": "BookOpen"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 1101",
+        "desc": "Dung sai hình học (GD&T) cho bản vẽ",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 286",
+        "desc": "Hệ thống giới hạn và lắp ghép cho trục và lỗ",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 1302",
+        "desc": "Chỉ định kết cấu bề mặt trên bản vẽ kỹ thuật",
+        "body": "ISO"
+      },
+      {
+        "code": "EN 10204",
+        "desc": "Chứng chỉ truy xuất nguồn gốc vật liệu (Type 3.1)",
+        "body": "EN"
+      },
+      {
+        "code": "ASTM E1417",
+        "desc": "Tiêu chuẩn thử nghiệm PMI và NDT",
+        "body": "ASTM"
+      },
+      {
+        "code": "Thông số OEM",
+        "desc": "Khớp với vật liệu và ý định dung sai OEM gốc",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_4": {
+    "tagline": "Cân bằng Cấp ISO — Vì Lực Rotor Tăng theo Bình phương Tốc độ",
+    "accentColor": "#d97706",
+    "keyStats": [
+      {
+        "value": "50–2000kg",
+        "label": "Công suất Rotor"
+      },
+      {
+        "value": "G1.0",
+        "label": "Cấp Cân bằng Đạt được"
+      },
+      {
+        "value": "0.001mm",
+        "label": "Độ phân giải Đồng hồ so"
+      },
+      {
+        "value": "ISO/API",
+        "label": "Tiêu chuẩn Chứng nhận"
+      }
+    ],
+    "whyUs": "Rotor ở 3.000 vòng/phút tạo ra lực mất cân bằng lớn hơn 100 lần so với ở 300 vòng/phút. Cùng một mất cân bằng dư mà không thể nhìn thấy ở tốc độ chậm sẽ phá hủy ổ trục ở tốc độ đầy đủ. Chúng tôi cân bằng đến ISO 1940 Cấp G1.0 khi được yêu cầu — không chỉ là 'đủ tốt'.",
+    "overview": "Mất cân bằng rotor là một trong những nguyên nhân phổ biến nhất và có thể phòng ngừa nhiều nhất gây hỏng ổ trục tua-bin, hư hỏng phớt, và giảm tuổi thọ rotor. Keshav Enterprises thực hiện gia công ngõng trục chính xác và cân bằng động theo ISO 1940 / API 670 cho rotor từ 50 kg đến 2.000 kg tại cơ sở xưởng chuyên dụng của chúng tôi. Rotor trước tiên được gia công để khôi phục tính toàn vẹn hình học — ngõng trục tròn, mê cung đồng tâm, hoàn thiện bề mặt đúng — trước khi cân bằng. Trình tự này quan trọng: cân bằng một rotor bị biến dạng hình học chỉ che giấu vấn đề. Báo cáo cân bằng của chúng tôi ghi lại mất cân bằng ban đầu, mặt phẳng hiệu chỉnh, hiệu chỉnh khối lượng, mất cân bằng dư, và cấp cân bằng ISO đạt được, cung cấp khả năng truy xuất nguồn gốc đầy đủ cho hồ sơ bảo trì của bạn.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Tiếp nhận Rotor & Đo lường Ban đầu",
+        "iconName": "Search",
+        "desc": "Rotor được tiếp nhận và làm sạch. Độ đảo cơ học ban đầu được đo bằng đồng hồ so chính xác trên tất cả ngõng trục, bệ khớp nối, và mê cung trên giá đỡ tĩnh chính xác. Độ đảo điện được kiểm tra. Tất cả đường kính được đo và ghi lại theo thông số OEM — độ không tròn, độ côn, và giảm kích thước ngõng trục được ghi chép."
+      },
+      {
+        "step": "02",
+        "title": "Đánh giá Tình trạng Ngõng trục",
+        "iconName": "Activity",
+        "desc": "Hoàn thiện bề mặt được đo bằng máy đo biên dạng tại 3 vị trí quanh chu vi mỗi ngõng trục. Kiểm tra trực quan để tìm vết xước, chuyển babbitt, rỗ ăn mòn, và mẫu mòn. Độ cứng được kiểm tra. Lượng loại bỏ vật liệu tối thiểu được tính toán để khôi phục hình học và hoàn thiện trong giới hạn OEM."
+      },
+      {
+        "step": "03",
+        "title": "Mài & Đánh bóng Ngõng trục",
+        "iconName": "Cog",
+        "desc": "Mài trụ chính xác ngõng trục trên máy mài CNC: độ tròn được khôi phục tối đa 0,005 mm, độ côn tối đa 0,005 mm mỗi 100 mm. Bề mặt đã mài được đánh bóng đến Ra 0,4 μm (thông số bề mặt ổ trục OEM) sử dụng máy tiện đánh bóng chính xác. Loại bỏ vật liệu tuyệt đối tối thiểu để bảo tồn tuổi thọ trục."
+      },
+      {
+        "step": "04",
+        "title": "Gia công Phần Mê cung & Gland",
+        "iconName": "Hexagon",
+        "desc": "Gia công lại mê cung, khu vực gland, bề mặt đĩa cân bằng, và bệ khớp nối trên máy tiện CNC chính xác. Tất cả các bề mặt được đặt đồng tâm với chuẩn ngõng trục trước khi gia công sử dụng mâm cặp 4 chấu và cân bằng đồng hồ so về không — cần thiết để duy trì tính toàn vẹn hình học rotor và tránh xuất hiện độ đảo mới."
+      },
+      {
+        "step": "05",
+        "title": "Cân bằng Động — Hiệu chỉnh Hai Mặt phẳng",
+        "iconName": "Target",
+        "desc": "Rotor được lắp trên máy cân bằng động loại hard-bearing. Mất cân bằng ban đầu được đo đồng thời trên hai mặt phẳng hiệu chỉnh (đầu khớp nối và đầu bộ điều tốc/cánh bơm). Khối lượng thử được áp dụng và loại bỏ. Các lần lặp cân bằng được lặp lại cho đến khi mất cân bằng dư trên mỗi mặt phẳng đáp ứng cấp ISO 1940 / API 670 quy định cho dịch vụ rotor này."
+      },
+      {
+        "step": "06",
+        "title": "Kiểm tra Độ đảo Sau Cân bằng",
+        "iconName": "TrendingUp",
+        "desc": "Độ đảo cơ học và điện được đo lại sau cân bằng tại tất cả các vị trí ngõng trục. So sánh với đường cơ sở trước cân bằng xác nhận cải thiện từ gia công và cân bằng. Bất kỳ độ đảo dư nào vượt quá giới hạn OEM đều được điều tra — nếu do trục cong, khuyến nghị làm thẳng hoặc thay thế."
+      },
+      {
+        "step": "07",
+        "title": "Tài liệu & Giao hàng",
+        "iconName": "BookOpen",
+        "desc": "Báo cáo cân bằng đầy đủ được phát hành: mất cân bằng ban đầu (g·mm), vị trí mặt phẳng hiệu chỉnh, khối lượng hiệu chỉnh áp dụng, mất cân bằng dư cuối cùng ở mỗi mặt phẳng, cấp cân bằng đạt được (G1.0, G2.5, G6.3), và tất cả các phép đo độ đảo. Chứng chỉ PMI và kết quả thử độ cứng được đính kèm. Rotor được đóng gói và vận chuyển kèm tài liệu."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Máy Cân bằng Hard-Bearing",
+        "detail": "Công suất 50–2.000 kg, 100–10.000 vòng/phút",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Máy mài Trụ CNC",
+        "detail": "Hệ thống sửa đá chính xác, kiểm soát 0,001 mm",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Máy tiện Đánh bóng Chính xác",
+        "detail": "Hoàn thiện siêu tinh đến Ra 0,4 μm bề mặt ngõng trục",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "Máy đo Biên dạng",
+        "detail": "Độ nhám bề mặt — độ phân giải Ra 0,001 μm",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Đồng hồ so Chính xác",
+        "detail": "0,001 mm — đo độ đảo và đường kính",
+        "iconName": "Target"
+      },
+      {
+        "name": "Máy phân tích Cân bằng Di động",
+        "detail": "Khả năng cân bằng hiện trường tại chỗ",
+        "iconName": "Search"
+      },
+      {
+        "name": "Đèn nhấp nháy Kỹ thuật số",
+        "detail": "Đo góc pha cho hiệu chỉnh cân bằng",
+        "iconName": "Zap"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 1940-1",
+        "desc": "Yêu cầu chất lượng cân bằng cho rotor cứng",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 21940",
+        "desc": "Rung động cơ học: từ vựng và quy trình cân bằng rotor",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Giám sát rung động, vị trí dọc trục, và nhiệt độ ổ trục",
+        "body": "API"
+      },
+      {
+        "code": "API 612",
+        "desc": "Tua-bin hơi nước chuyên dụng — yêu cầu cân bằng",
+        "body": "API"
+      },
+      {
+        "code": "ISO 1101",
+        "desc": "Dung sai hình học áp dụng cho bản vẽ gia công",
+        "body": "ISO"
+      },
+      {
+        "code": "Thông số OEM",
+        "desc": "Cấp cân bằng Triveni, Siemens, BHEL, Man Turbo, KKK",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_5": {
+    "tagline": "Cấp Độ sạch ISO 4406 16/14/11 — Được Chứng nhận Trước khi Đổ Dầu",
+    "accentColor": "#0284c7",
+    "keyStats": [
+      {
+        "value": "16/14/11",
+        "label": "Cấp Mục tiêu ISO 4406"
+      },
+      {
+        "value": "6.000 L/phút",
+        "label": "Lưu lượng Hệ thống Tối đa"
+      },
+      {
+        "value": "3μm",
+        "label": "Định mức Lọc Cuối cùng"
+      },
+      {
+        "value": "100%",
+        "label": "Đếm Hạt Chứng nhận Phòng thí nghiệm"
+      }
+    ],
+    "whyUs": "Tua-bin mới và mới đại tu bị hỏng bởi mảnh vụn xây dựng — xỉ hàn, cặn ống, cát, và mảnh kim loại — trong vòng vài giờ kể từ lần khởi động đầu tiên. Súc rửa dầu không phải là tùy chọn: đó là bảo hiểm tiết kiệm chi phí nhất chống lại hỏng ổ trục thảm khốc trên một lần đại tu mới.",
+    "overview": "Nhiễm bẩn hệ thống dầu bôi trơn là nguyên nhân hàng đầu gây hỏng ổ trục ở tua-bin mới và mới đại tu. Mảnh vụn xây dựng xâm nhập vào hệ thống dầu bôi trơn trong quá trình lắp đặt hoặc đại tu có thể phá hủy ổ trục và bề mặt ngõng trục trong vòng vài giờ kể từ khởi động. Keshav Enterprises thực hiện súc rửa dầu bôi trơn chuyên nghiệp sử dụng hệ thống lọc ly tâm di động chuyên dụng để đạt cấp độ sạch ISO 4406:99 16/14/11 — tiêu chuẩn tối thiểu cho bôi trơn ổ trục tua-bin hơi nước. Quy trình của chúng tôi được ghi lại đầy đủ: kết quả mẫu dầu ở mỗi giai đoạn, hồ sơ nâng cấp lọc dần dần, và chứng chỉ đếm hạt phòng thí nghiệm cuối cùng được cung cấp trước khi hệ thống được bàn giao lại để đổ dầu.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Khảo sát Hệ thống & Kế hoạch Súc rửa",
+        "iconName": "Search",
+        "desc": "Xem xét P&ID hệ thống, thể tích dầu, kích thước lỗ ống, cấu hình bộ trao đổi nhiệt, và bố trí vỏ ổ trục. Phát triển đường dòng súc rửa sử dụng tính toán thủy lực để đạt dòng chảy rối (số Reynolds trên 4.000) trong mọi đoạn ống. Xác định và thiết kế đoạn ống bypass tạm thời và mặt bích mù khi cần thiết."
+      },
+      {
+        "step": "02",
+        "title": "Lắp đặt Mạch Súc rửa Tạm thời",
+        "iconName": "Wrench",
+        "desc": "Lắp đặt đường ống bypass tạm thời quanh ổ trục, van điều khiển, thiết bị đo, và các thiết bị nhạy cảm khác không được tiếp xúc với mảnh vụn súc rửa. Kết nối thiết bị súc rửa di động. Lắp đặt bộ lọc rác mục tiêu lưới kim loại tạm thời tại điểm hồi súc rửa để giám sát mảnh vụn."
+      },
+      {
+        "step": "03",
+        "title": "Súc rửa Ban đầu — Lưu lượng Cao",
+        "iconName": "Droplets",
+        "desc": "Hệ thống được đổ đầy dầu súc rửa (hoặc dầu quy trình nếu tương thích). Bơm súc rửa vận hành ở lưu lượng tối đa có thể đạt được để đạt độ rối tối đa. Nhiệt độ dầu được chu kỳ nhiệt giữa 30°C và 70°C mỗi 30 phút — chu kỳ nhiệt tạo ứng suất lên thành ống và giải phóng cặn và mảnh vụn bám dính. Bộ lọc rác mục tiêu được kiểm tra và làm sạch ở mỗi khoảng thời gian."
+      },
+      {
+        "step": "04",
+        "title": "Giám sát Nhiễm bẩn & Đếm Hạt",
+        "iconName": "Activity",
+        "desc": "Mẫu dầu được lấy theo quy trình chiết xuất mẫu sạch ISO 4021 ở mỗi giai đoạn. Đếm hạt được đo bằng máy đếm hạt tự động theo ISO 11500 — báo cáo số đếm ở ≥4μm, ≥6μm, ≥14μm, và ≥21μm. Kết quả được vẽ trên biểu đồ tiến độ độ sạch so với cấp mục tiêu ISO 4406."
+      },
+      {
+        "step": "05",
+        "title": "Nâng cấp Lọc Dần dần",
+        "iconName": "Layers",
+        "desc": "Khi nhiễm bẩn thô được loại bỏ, định mức micron của lõi lọc được giảm dần qua các giai đoạn: 25μm → 10μm → 6μm → 3μm tuyệt đối. Thiết bị khử nước ly tâm hoạt động liên tục trong suốt quá trình súc rửa để loại bỏ nước tự do và nhũ hóa. Hàm lượng nước Karl Fischer được thử nghiệm để xác nhận hiệu quả khử nước."
+      },
+      {
+        "step": "06",
+        "title": "Đếm Hạt Chấp nhận Cuối cùng",
+        "iconName": "CheckCircle2",
+        "desc": "Tối thiểu ba mẫu dầu sạch liên tiếp được lấy theo khoảng thời gian phải đều đạt cấp mục tiêu ISO 4406 16/14/11. Mẫu cuối cùng được gửi đến phòng thí nghiệm được công nhận để xác minh độc lập. Chứng chỉ độ sạch dầu bằng văn bản — có chữ ký, đóng dấu, và truy xuất được đến phòng thí nghiệm — được cấp cho khách hàng."
+      },
+      {
+        "step": "07",
+        "title": "Khôi phục Hệ thống & Đổ Dầu",
+        "iconName": "Zap",
+        "desc": "Tất cả đoạn ống bypass tạm thời và mặt bích mù được tháo bỏ. Tất cả ổ trục, thiết bị đo nhạy cảm, và thiết bị quan trọng được kết nối lại. Hệ thống được đổ đầy lại bằng dầu quy trình mới được lọc qua bộ lọc 3μm tuyệt đối trong quá trình đổ dầu. Đếm hạt cuối cùng trên dầu hệ thống sau khi đổ dầu xác nhận mục tiêu được duy trì. Hệ thống được bàn giao để khởi động."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Thiết bị Lọc Ly tâm Di động",
+        "detail": "Lưu lượng hệ thống lên đến 6.000 L/phút",
+        "iconName": "Droplets"
+      },
+      {
+        "name": "Máy đếm Hạt Tự động",
+        "detail": "Theo ISO 11500 — giám sát trực tuyến thời gian thực",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Máy chuẩn độ Karl Fischer",
+        "detail": "Đo hàm lượng nước tự do trong dầu bôi trơn",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Bộ Lấy mẫu Dầu",
+        "detail": "Chiết xuất sạch ISO 4021 từ đường có áp suất",
+        "iconName": "Search"
+      },
+      {
+        "name": "Máy gia nhiệt Dầu",
+        "detail": "Chu kỳ nhiệt: 30°C đến 70°C để giải phóng mảnh vụn",
+        "iconName": "Zap"
+      },
+      {
+        "name": "Bộ Lọc rác Mục tiêu",
+        "detail": "Lưới 25, 10, 3μm để giám sát mảnh vụn theo giai đoạn",
+        "iconName": "Filter"
+      },
+      {
+        "name": "Bộ Đoạn ống Bypass",
+        "detail": "Đoạn ống bypass và mặt bích mù chế tạo tùy chỉnh",
+        "iconName": "Wrench"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 4406:99",
+        "desc": "Phân loại độ sạch chất lỏng thủy lực — mục tiêu 16/14/11",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 11500",
+        "desc": "Xác định đếm hạt sử dụng phương pháp tự động",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 4021",
+        "desc": "Phân tích nhiễm bẩn và lấy mẫu chất lỏng thủy lực",
+        "body": "ISO"
+      },
+      {
+        "code": "API 614",
+        "desc": "Hệ thống bôi trơn, làm kín trục, và điều khiển dầu",
+        "body": "API"
+      },
+      {
+        "code": "ASTM D6304",
+        "desc": "Đo hàm lượng nước Karl Fischer trong dầu bôi trơn",
+        "body": "ASTM"
+      },
+      {
+        "code": "Thông số OEM",
+        "desc": "Yêu cầu độ sạch dầu bôi trơn Triveni, Siemens, BHEL, Man Turbo",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_6": {
+    "tagline": "Căn chỉnh Chính xác Laser — Loại bỏ Nguyên nhân #1 Gây Hỏng Ổ trục",
+    "accentColor": "#059669",
+    "keyStats": [
+      {
+        "value": "0.05mm",
+        "label": "Dung sai Căn chỉnh Đạt được"
+      },
+      {
+        "value": "50%",
+        "label": "Hỏng Ổ trục do Lệch trục"
+      },
+      {
+        "value": "80%",
+        "label": "Tuổi thọ Ổ trục Mất ở Độ lệch 0,05mm"
+      },
+      {
+        "value": "Mọi Kích cỡ",
+        "label": "Khung Máy Bao phủ"
+      }
+    ],
+    "whyUs": "Độ lệch trục nhỏ đến 0,05 mm ở khớp nối có thể giảm tuổi thọ ổ trục đến 80% và tạo ra lực lan truyền qua phớt, khớp nối, và toàn bộ hệ truyền động. Căn chỉnh laser chỉ mất vài giờ — hỏng ổ trục mất nhiều tuần và tốn kém hơn nhiều. Chúng tôi căn chỉnh ở điều kiện nóng, không chỉ nguội.",
+    "overview": "Lệch trục chịu trách nhiệm cho đến 50% tất cả các hỏng ổ trục thiết bị quay trong công nghiệp Ấn Độ. Ngay cả lệch trục không thể nhìn thấy bằng mắt thường cũng tạo ra lực chu kỳ lớn lên ổ trục, phớt, và khớp nối ở tốc độ vận hành. Keshav Enterprises thực hiện căn chỉnh trục laser chính xác sử dụng hệ thống Pruftechnik và SKF cho tua-bin, hộp số, bơm, quạt, máy phát điện xoay chiều, và máy phát cảm ứng ở mọi kích cỡ khung. Quan trọng là, chúng tôi tính toán và áp dụng độ lệch căn chỉnh nóng — căn chỉnh nguội được cố ý đặt lệch để tính đến sự giãn nở nhiệt, để máy chạy thẳng ở nhiệt độ vận hành. Báo cáo căn chỉnh của chúng tôi hiển thị số đọc trước/sau, lịch sử shim, và giá trị cuối cùng so với dung sai OEM.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Kiểm tra Trước Căn chỉnh",
+        "iconName": "Search",
+        "desc": "Xác minh tình trạng soft foot (biến dạng khung máy khi siết bu-lông) sử dụng đồng hồ so chính xác trên tất cả các chân — cần 0,05 mm hoặc ít hơn trước khi tiếp tục căn chỉnh. Đo ứng suất đường ống để xác định lực tác động lên nozzle máy bởi đường ống kết nối. Kiểm tra khe hở ổ trục và tính toán giãn nở nhiệt từ dữ liệu OEM hoặc đo tại hiện trường."
+      },
+      {
+        "step": "02",
+        "title": "Thiết lập Hệ thống Căn chỉnh Laser",
+        "iconName": "Target",
+        "desc": "Lắp đầu phát và thu laser trên trục sử dụng giá đỡ nam châm chính xác. Hệ thống được đặt về không và dung sai quay trục được xác minh. Tất cả các kích thước liên quan được nhập vào phần mềm căn chỉnh: đường kính khớp nối, khoảng cách trục từ trung tâm đến trung tâm, và khoảng cách đo. Bù độ võng giá đỡ được xác minh và áp dụng."
+      },
+      {
+        "step": "03",
+        "title": "Đo Lệch trục Ban đầu",
+        "iconName": "Activity",
+        "desc": "Trục được quay qua cung đo (ba vị trí: 12, 3, và 9 giờ). Phần mềm tính toán lệch trục thực tế: lệch góc (mrad) và độ lệch (mm) tại mặt khớp nối, và hiệu chỉnh cần thiết tại mỗi chân máy đồng thời trong mặt phẳng dọc và ngang."
+      },
+      {
+        "step": "04",
+        "title": "Hiệu chỉnh Shim & Jackscrew",
+        "iconName": "Layers",
+        "desc": "Hiệu chỉnh shim đã tính toán được áp dụng cho chân máy cố định. Shim thép không gỉ chính xác được lắp hoặc tháo trong cấu hình đúng để hiệu chỉnh lệch trục dọc. Hiệu chỉnh ngang được thực hiện sử dụng jackscrew căn chỉnh tại chân máy với laser vẫn hoạt động để phản hồi thời gian thực trong quá trình hiệu chỉnh."
+      },
+      {
+        "step": "05",
+        "title": "Bù Căn chỉnh Nóng",
+        "iconName": "Zap",
+        "desc": "Giãn nở nhiệt vỏ máy từ nhiệt độ nguội đến vận hành được tính từ dữ liệu giãn nở nhiệt OEM hoặc đo bằng giám sát DBSE (khoảng cách giữa đầu trục) và chụp ảnh nhiệt. Mục tiêu căn chỉnh nguội được cố ý lệch để máy đạt được căn chỉnh khi chạy nóng chính xác ở tải và nhiệt độ đầy đủ."
+      },
+      {
+        "step": "06",
+        "title": "Đo Cuối cùng & Xác minh Dung sai",
+        "iconName": "CheckCircle2",
+        "desc": "Đo laser cuối cùng xác nhận căn chỉnh trong dung sai OEM — thông thường: lệch góc tối đa 0,05 mrad, độ lệch tối đa 0,05 mm tại khớp nối. Tất cả bốn chân được kiểm tra lại cho soft foot 0,05 mm hoặc ít hơn. Bu-lông khớp nối được siết mô-men theo thông số OEM sử dụng cờ lê mô-men kỹ thuật số đã hiệu chuẩn."
+      },
+      {
+        "step": "07",
+        "title": "Báo cáo Căn chỉnh & Mô-men Bu-lông",
+        "iconName": "BookOpen",
+        "desc": "Báo cáo căn chỉnh chi tiết được tạo bởi phần mềm hệ thống laser: số đọc trước căn chỉnh, thay đổi shim tại mỗi chân, vector hiệu chỉnh áp dụng, và giá trị cuối cùng đạt được so với dung sai OEM. Mô-men xoắn bu-lông móng được ghi lại. Báo cáo được ký và phát hành — trở thành một phần của đường cơ sở hồ sơ bảo trì cho căn chỉnh trong tương lai."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Pruftechnik Rotalign Pro",
+        "detail": "Dòng OPTALIGN — căn chỉnh laser không dây",
+        "iconName": "Target"
+      },
+      {
+        "name": "SKF TKSA 71",
+        "detail": "Căn chỉnh laser không dây với báo cáo qua ứng dụng",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Đồng hồ so Chính xác",
+        "detail": "Đo soft foot — độ phân giải 0,001 mm",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Bộ Shim Thép không gỉ Chính xác",
+        "detail": "0,025 đến 3,0 mm theo bước 0,025 mm",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Cờ lê Mô-men Kỹ thuật số",
+        "detail": "Siết mô-men bu-lông khớp nối và móng",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Máy phân tích Rung động",
+        "detail": "So sánh rung động trước và sau căn chỉnh",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Máy ảnh Nhiệt",
+        "detail": "Khảo sát nhiệt độ ổ trục và khớp nối nóng",
+        "iconName": "Zap"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 10816-3 / 20816-3",
+        "desc": "Đánh giá mức độ rung động cho máy >15 kW",
+        "body": "ISO"
+      },
+      {
+        "code": "API 686",
+        "desc": "Thực hành khuyến nghị cho lắp đặt và căn chỉnh máy móc",
+        "body": "API"
+      },
+      {
+        "code": "ASME B31.3",
+        "desc": "Giới hạn tải nozzle đường ống quy trình tại kết nối máy",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 1940",
+        "desc": "Giới hạn mất cân bằng dư sau hiệu chỉnh căn chỉnh",
+        "body": "ISO"
+      },
+      {
+        "code": "API 612",
+        "desc": "Tua-bin hơi nước chuyên dụng — yêu cầu căn chỉnh",
+        "body": "API"
+      },
+      {
+        "code": "Dung sai OEM",
+        "desc": "Thông số căn chỉnh Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_7": {
+    "tagline": "Nguyên nhân Gốc Được Tìm ra. Hành động Khắc phục Được Thực hiện. Tua-bin Trở lại Hoạt động.",
+    "accentColor": "#dc2626",
+    "keyStats": [
+      {
+        "value": "24×7",
+        "label": "Triển khai Khẩn cấp"
+      },
+      {
+        "value": "10+",
+        "label": "Thương hiệu OEM Được Chẩn đoán"
+      },
+      {
+        "value": "FFT+Nhiệt",
+        "label": "Phương pháp Chẩn đoán Kép"
+      },
+      {
+        "value": "48giờ",
+        "label": "Giám sát Xu hướng Sau Sửa chữa"
+      }
+    ],
+    "whyUs": "Một lỗi được chẩn đoán sai và sửa chữa mà không tìm ra nguyên nhân gốc sẽ hỏng lại — thường nhanh hơn lần đầu. Chúng tôi không đoán mò. Chúng tôi đo lường, phân tích phổ, chỉ tháo dỡ những gì dữ liệu yêu cầu, xác nhận nguyên nhân gốc về mặt vật lý, và sửa chữa với cùng đội ngũ đã tìm ra vấn đề.",
+    "overview": "Trip tua-bin ngoài kế hoạch và suy giảm hiệu suất không giải thích được khiến các nhà máy công nghiệp tốn hàng triệu đô la sản xuất bị mất mỗi năm. Keshav Enterprises triển khai các kỹ sư xử lý sự cố từng làm việc tại OEM với đầy đủ thiết bị chẩn đoán để xác định, ghi lại, và sửa chữa chính xác nguyên nhân gốc của bất kỳ lỗi tua-bin hơi nước nào — từ rung động cao và hỏng ổ trục đến mất ổn định bộ điều tốc, nhiễm bẩn dầu, và rò rỉ hơi. Chúng tôi bao phủ tất cả các thương hiệu tua-bin từ 5 kW đến 60 MW trên toàn bộ phổ công nghiệp quy trình và năng lượng của Ấn Độ. Phương pháp của chúng tôi có hệ thống: đo lường trực tuyến trước, kiểm tra vật lý được nhắm mục tiêu bởi dữ liệu, nguyên nhân gốc được xác nhận bằng văn bản, và hành động khắc phục được thực hiện bởi cùng đội ngũ chẩn đoán lỗi.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Huy động Khẩn cấp & Thu thập Dữ liệu Hiện trường",
+        "iconName": "Zap",
+        "desc": "Triển khai ứng phó 24×7 đến hiện trường với bộ chẩn đoán đầy đủ. Thu thập tất cả dữ liệu vận hành có sẵn: lịch sử rung động, nhật ký trip DCS, báo cáo phân tích dầu, xu hướng nhiệt độ ổ trục, nhật ký tình trạng hơi, và hồ sơ bảo trì. Phỏng vấn nhân viên vận hành và bảo trì đã chứng kiến sự cố."
+      },
+      {
+        "step": "02",
+        "title": "Đo lường Rung động & Hiệu suất Cơ sở",
+        "iconName": "Activity",
+        "desc": "Đo rung động trực tuyến tại tất cả vỏ ổ trục: mức rung động tổng thể (mm/s RMS), phân tích phổ FFT thời gian thực, biên độ và góc pha 1X và 2X, thành phần dưới đồng bộ và tần số cao. Áp suất, nhiệt độ, và lưu lượng hơi vào/ra được so sánh với công suất thiết kế. Nhiệt độ ổ trục được lập bản đồ sử dụng máy ảnh nhiệt."
+      },
+      {
+        "step": "03",
+        "title": "Nhận dạng Chữ ký Lỗi & Giả thuyết",
+        "iconName": "Search",
+        "desc": "Phân tích phổ rung động, dữ liệu pha, bản đồ nhiệt độ ổ trục, và kết quả mẫu dầu để xây dựng chữ ký lỗi. Mỗi nguyên nhân gốc có thể xảy ra được lập bản đồ có hệ thống với bằng chứng có thể đo lường: mất cân bằng (1X chi phối), lệch trục (2X chi phối), mòn ổ trục (tần số dưới đồng bộ hoặc tần số lỗi ổ trục), cọ xát (dưới hài, 1X cao), lỏng lẻo (hài bội), hoặc bám bẩn đường hơi (uốn cong nhiệt)."
+      },
+      {
+        "step": "04",
+        "title": "Tháo dỡ Có Mục tiêu & Kiểm tra Vật lý",
+        "iconName": "Wrench",
+        "desc": "Tháo dỡ xâm lấn tối thiểu chỉ nhắm vào vùng lỗi nghi ngờ — không tháo toàn bộ trừ khi dữ liệu yêu cầu. Đo vật lý khe hở ổ trục, độ đảo trục, căn chỉnh khớp nối, khe hở phớt gland, và bệ phớt mê cung so với thông số OEM. Tất cả phát hiện được chụp ảnh và ghi lại kích thước."
+      },
+      {
+        "step": "05",
+        "title": "Xác nhận Nguyên nhân Gốc & Báo cáo RCA Bằng văn bản",
+        "iconName": "BookOpen",
+        "desc": "Báo cáo phân tích nguyên nhân gốc (RCA) chính thức kết hợp dữ liệu trên máy, đo lường tháo dỡ, và so sánh thông số OEM. Nguyên nhân gốc được phân loại và xác nhận bằng văn bản. Các yếu tố góp phần được xác định. Kế hoạch hành động khắc phục với xếp hạng ưu tiên, phụ tùng cần thiết, ước tính thời gian ngừng máy, và các biện pháp phòng ngừa khuyến nghị được phát hành cho khách hàng trước khi bắt đầu công việc."
+      },
+      {
+        "step": "06",
+        "title": "Thực hiện Hành động Khắc phục",
+        "iconName": "Cog",
+        "desc": "Thực hiện trực tiếp hành động khắc phục bởi cùng đội ngũ xử lý sự cố: cân bằng lại rotor, thay ổ trục và điều chỉnh khe hở, hiệu chỉnh căn chỉnh laser, thay phớt gland và đệm mê cung, súc rửa hệ thống dầu bôi trơn đến ISO 4406, đại tu và hiệu chuẩn bộ điều tốc, hoặc hiệu chuẩn hệ thống điều khiển. Tất cả công việc khắc phục được ghi lại theo thông số OEM."
+      },
+      {
+        "step": "07",
+        "title": "Chạy thử Sau Sửa chữa & Giám sát Xu hướng 48 Giờ",
+        "iconName": "TrendingUp",
+        "desc": "Khởi động lại được giám sát với ghi dữ liệu rung động và nhiệt độ ổ trục liên tục trong quá trình tăng tốc. Mức rung động sau sửa chữa được so sánh với đường cơ sở trước lỗi và giới hạn chấp nhận OEM (ISO 10816-3). Giám sát xu hướng liên tục 48 giờ ở tải đầy đủ trước khi báo cáo cho phép bằng văn bản được phát hành và tua-bin được trả lại hoạt động không giám sát."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Máy phân tích Rung động Đa kênh",
+        "detail": "FFT thời gian thực — cấp CSI 2140 / SKF Microlog",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Đầu dò Tiệm cận",
+        "detail": "Rung động trục dòng xoáy — tiêu chuẩn API 670",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Máy ảnh Nhiệt",
+        "detail": "FLIR / Testo — khảo sát nhiệt ổ trục và đường hơi",
+        "iconName": "Zap"
+      },
+      {
+        "name": "Đèn nhấp nháy + Tham chiếu Pha",
+        "detail": "Đo biên độ và góc pha 1X",
+        "iconName": "Search"
+      },
+      {
+        "name": "Máy đếm Hạt Dầu Di động",
+        "detail": "ISO 11500 — nhiễm bẩn dầu bôi trơn tại hiện trường",
+        "iconName": "Droplets"
+      },
+      {
+        "name": "Ống soi",
+        "detail": "Cứng & mềm — kiểm tra cánh không cần tháo toàn bộ",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "Máy phân tích PMI XRF",
+        "detail": "Nhận dạng hợp kim linh kiện hỏng",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Hệ thống Căn chỉnh Trục Laser",
+        "detail": "Xác nhận căn chỉnh khớp nối và ổ trục",
+        "iconName": "Target"
+      },
+      {
+        "name": "Máy chuẩn độ Karl Fischer",
+        "detail": "Hàm lượng nước tự do trong dầu bôi trơn — kiểm tra nhiễm bẩn",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Thiết bị Hiệu chuẩn Bộ điều tốc",
+        "detail": "Dụng cụ tham chiếu tốc độ và hệ thống điều khiển",
+        "iconName": "Cog"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 10816-3 / 20816-3",
+        "desc": "Giới hạn mức độ rung động cho máy công nghiệp >15 kW",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Bảo vệ máy: rung động, vị trí dọc trục, nhiệt độ",
+        "body": "API"
+      },
+      {
+        "code": "API 612",
+        "desc": "Tua-bin hơi nước chuyên dụng cho dịch vụ dầu mỏ và hóa chất",
+        "body": "API"
+      },
+      {
+        "code": "ISO 4406:99",
+        "desc": "Phân loại độ sạch dầu bôi trơn",
+        "body": "ISO"
+      },
+      {
+        "code": "ASME PTC 6",
+        "desc": "Quy chuẩn thử nghiệm hiệu suất tua-bin hơi nước để so sánh hiệu suất",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 14224",
+        "desc": "Thu thập dữ liệu độ tin cậy và bảo trì cho thiết bị",
+        "body": "ISO"
+      },
+      {
+        "code": "Hướng dẫn OEM",
+        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB",
+        "body": "OEM"
+      }
+    ],
+    "faultMatrix": [
+      {
+        "symptom": "Rung động cao — 1X chi phối",
+        "causes": [
+          "Mất cân bằng rotor (dư hoặc do tích tụ)",
+          "Rotor cong (do nhiệt hoặc cơ học)",
+          "Khe hở ổ trục quá mức"
+        ],
+        "action": "Cân bằng động, kiểm tra rotor, thay ổ trục"
+      },
+      {
+        "symptom": "Rung động cao — 2X chi phối",
+        "causes": [
+          "Lệch trục (góc hoặc độ lệch)",
+          "Lỗi khớp nối",
+          "Biến dạng vỏ / ứng suất đường ống"
+        ],
+        "action": "Căn chỉnh laser, kiểm tra khớp nối, đo ứng suất đường ống"
+      },
+      {
+        "symptom": "Rung động dưới đồng bộ",
+        "causes": [
+          "Xoáy dầu / whip dầu ở ổ trục ngõng",
+          "Mất ổn định do cọ xát",
+          "Lắp đặt ổ trục lỏng lẻo"
+        ],
+        "action": "Đặt lại khe hở ổ trục, kiểm tra áp suất/độ nhớt dầu bôi trơn, kiểm tra khe hở cọ xát"
+      },
+      {
+        "symptom": "Rung động tần số cao (>3X)",
+        "causes": [
+          "Bám bẩn hoặc ăn mòn cánh",
+          "Lỏng lẻo ở móng hoặc nắp ổ trục",
+          "Lỗi ăn khớp bánh răng (hộp số)"
+        ],
+        "action": "Kiểm tra cánh (ống soi), kiểm tra mô-men nắp ổ trục, kiểm tra hộp số"
+      },
+      {
+        "symptom": "Nhiễm bẩn dầu ổ trục / nước trong dầu",
+        "causes": [
+          "Mòn phớt gland vòng carbon",
+          "Áp suất hơi gland quá cao",
+          "Xâm nhập nước ngưng qua ống xả"
+        ],
+        "action": "Thay vòng carbon, đặt lại áp suất hơi gland, súc rửa hệ thống dầu bôi trơn"
+      },
+      {
+        "symptom": "Rò rỉ gland hơi",
+        "causes": [
+          "Mòn phớt mê cung (khe hở quá mức)",
+          "Đệm gland mòn hoặc hỏng",
+          "Áp suất hơi gland cài đặt sai"
+        ],
+        "action": "Thay phớt mê cung, thay đệm gland, hiệu chuẩn bộ điều khiển hơi gland"
+      },
+      {
+        "symptom": "Bộ điều tốc dao động / mất ổn định tốc độ",
+        "causes": [
+          "Mòn hoặc kẹt liên kết bộ điều tốc",
+          "Dầu bẩn / bùn trong bộ điều tốc PG-PL",
+          "Cài đặt van kim bù sai"
+        ],
+        "action": "Đại tu liên kết bộ điều tốc, làm sạch và đổ lại dầu bộ điều tốc, hiệu chuẩn lại van kim"
+      },
+      {
+        "symptom": "Trip áp suất dầu bôi trơn thấp",
+        "causes": [
+          "Mòn bơm dầu",
+          "Bám bẩn bộ làm mát dầu / nhiệt độ dầu cao",
+          "Van xả áp kẹt mở",
+          "Mức dầu thấp hoặc xâm thực"
+        ],
+        "action": "Kiểm tra bơm dầu, làm sạch bộ làm mát, kiểm tra PRV, kiểm tra mức dầu và hệ thống"
+      },
+      {
+        "symptom": "Trip vượt tốc — giả hoặc thực",
+        "causes": [
+          "Mòn chốt trip hoặc cài đặt sai",
+          "Van bộ điều tốc rò rỉ hơi",
+          "Lỗi cơ cấu chấp hành hoặc dầu điều khiển"
+        ],
+        "action": "Kiểm tra và đặt lại chốt trip, kiểm tra bệ van bộ điều tốc, kiểm tra hệ thống điều khiển"
+      },
+      {
+        "symptom": "Mất công suất đầu ra / hiệu suất",
+        "causes": [
+          "Bám bẩn cánh (độ tinh khiết hơi / nhiễm bẩn nước giảm nhiệt)",
+          "Mòn dải phớt (tăng bypass hơi)",
+          "Ăn mòn hoặc tắc nghẽn vòi phun"
+        ],
+        "action": "Kiểm tra ống soi, thay dải phớt, kiểm tra và làm sạch vòi phun"
+      }
+    ]
+  }
+}

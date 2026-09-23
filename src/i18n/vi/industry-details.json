@@ -1,0 +1,658 @@
+{
+  "ind_1": {
+    "heroSub": "Tua-bin hơi nước từ 5 MW đến 60 MW — nhiệt điện, đồng phát & điện tự dùng",
+    "overview": "Ngành nhiệt điện và điện tự dùng của Ấn Độ phụ thuộc vào hiệu suất không gián đoạn của tua-bin hơi nước vận hành dưới tải liên tục. Keshav Enterprises có chuyên môn sâu từ thời OEM — kỹ sư của chúng tôi được đào tạo bởi các nhà sản xuất tua-bin trước khi thành lập công ty — mang lại cho chúng tôi khả năng kỹ thuật đảo ngược, chế tạo, và đại tu mọi hệ thống con chính của tua-bin hơi nước nhà máy điện theo dung sai OEM.",
+    "challenges": [
+      {
+        "title": "Vận hành Tải cao Liên tục",
+        "desc": "Tua-bin hơi nước tại nhà máy điện chạy ở 3000–3600 vòng/phút dưới điều kiện tải đầy đủ liên tục, gây áp lực cực lớn lên ổ trục, phớt, và các cụm quay."
+      },
+      {
+        "title": "Nhiễm bẩn Dầu Bôi trơn",
+        "desc": "Sự xâm nhập của hạt và nước vào hệ thống dầu bôi trơn có thể nhanh chóng làm suy giảm bề mặt ổ trục. Mục tiêu độ sạch ISO 4406:99 phải được duy trì liên tục."
+      },
+      {
+        "title": "Giãn nở Nhiệt trong Đường ống Hơi",
+        "desc": "Đường ống hơi nhiệt độ cao trải qua chu kỳ nhiệt đáng kể. Nếu không có khớp nối giãn nở được thiết kế đúng cách, ứng suất đường ống gây rò rỉ mặt bích và hư hỏng vòi phun tua-bin."
+      },
+      {
+        "title": "Rung động Rotor & Trôi dạt Cân bằng",
+        "desc": "Tích tụ cặn lắng và ăn mòn gây ra sự dịch chuyển cân bằng dần dần ở rotor, làm tăng độ rung và đẩy nhanh mòn ổ trục nếu không được phát hiện sớm."
+      }
+    ],
+    "products": [
+      {
+        "name": "Lõi Lọc Dầu Bôi trơn (180 GPM)",
+        "purpose": "Duy trì độ sạch ISO 4406:99 trong hệ thống dầu bôi trơn tua-bin, bảo vệ ổ trục ngõng và ổ chặn khỏi mài mòn.",
+        "features": [
+          "Vật liệu sợi thủy tinh VG, độ mịn 6–25 µm",
+          "Thông số chống tĩnh điện IS27 cho dầu tổng hợp",
+          "Tương thích OEM Triveni, Siemens, BHEL"
+        ]
+      },
+      {
+        "name": "Ống xếp Crossover Hơi",
+        "purpose": "Hấp thụ giãn nở nhiệt giữa các phần tua-bin HP/LP và ống crossover, loại bỏ truyền ứng suất đến mặt bích vòi phun tua-bin.",
+        "features": [
+          "Ống xếp SS chu kỳ cao, tiêu chuẩn EJMA",
+          "Nhiệt độ vận hành đến 550°C",
+          "Đầu mặt bích tùy chỉnh theo kích thước OEM"
+        ]
+      },
+      {
+        "name": "Ổ trục Ngõng & Chặn Babbitt",
+        "purpose": "Ổ trục lót kim loại trắng được gia công chính xác theo hồ sơ OEM cho rotor tua-bin — quan trọng đối với độ ổn định trục ở tốc độ cao.",
+        "features": [
+          "Kim loại trắng (Babbitt) đổ khuôn & gia công chính xác",
+          "Tất cả các hãng tua-bin: Triveni, Siemens, BHEL, KKK",
+          "Độ khít lắp ghép được xác minh trên CMM"
+        ]
+      },
+      {
+        "name": "Van Dừng Khẩn cấp",
+        "purpose": "Van an toàn quan trọng làm trip tua-bin khi vượt tốc hoặc áp suất dầu bôi trơn thấp — được chế tạo theo cài đặt áp suất trip OEM.",
+        "features": [
+          "Thân gia công CNC từ phôi rèn EN8/EN19",
+          "Cơ chế trip có lò xo",
+          "Được thử nghiệm ở 1,5× áp suất làm việc trước khi giao hàng"
+        ]
+      },
+      {
+        "name": "Đầu dò Giám sát Rung động (Tương thích Shinkawa)",
+        "purpose": "Đầu dò tiệm cận để giám sát rung động rotor liên tục theo API 670, cho phép bảo trì dự đoán trước khi xảy ra hỏng ổ trục.",
+        "features": [
+          "Tương thích Shinkawa, Bently Nevada",
+          "Cảm biến không tiếp xúc dòng xoáy",
+          "Điểm cài đặt cảnh báo và nguy hiểm theo API 670"
+        ]
+      },
+      {
+        "name": "Bơm Dầu Tua-bin (Chính & Phụ)",
+        "purpose": "Cung cấp dầu bôi trơn áp lực đến tất cả ổ trục. Bơm phụ tiếp quản trong quá trình tăng tốc và giảm tốc khi công suất bơm dẫn động trục chính không đủ.",
+        "features": [
+          "Thiết kế bơm bánh răng, lắp trên bệ trượt tua-bin",
+          "Có sẵn tất cả kích thước OEM chính",
+          "Van xả áp cài đặt theo thông số áp suất OEM"
+        ]
+      },
+      {
+        "name": "Bộ lọc Khí Tấm Xếp nếp (HVAC Phòng Điều khiển & Nhà Tua-bin)",
+        "purpose": "Bộ lọc HVAC thay thế cho AHU phòng điều khiển nhà máy điện, hệ thống thông gió nhà tua-bin, và bộ làm mát không khí phòng thiết bị đóng cắt điện — giữ khí làm mát sạch và bảo vệ thiết bị nhạy cảm khỏi bụi than và tro bay.",
+        "features": [
+          "Hiệu suất F7 để bắt tro bay và bụi than mịn",
+          "Khung thép mạ kẽm với vật liệu tổng hợp",
+          "Có sẵn kích thước AHU tiêu chuẩn trong kho; tùy chỉnh theo yêu cầu",
+          "Cũng có bộ lọc lưới kim loại sơ bộ cho tầng đầu"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Xử lý tua-bin công suất tối đa 60 MW",
+      "26+ năm kinh nghiệm kỹ thuật được đào tạo bởi OEM",
+      "Sản phẩm tuân thủ API 614 & ISO 4406:99",
+      "Cung cấp bộ lọc HVAC cho phòng điều khiển và nhà tua-bin",
+      "Hỗ trợ sự cố khẩn cấp 24×7"
+    ]
+  },
+  "ind_2": {
+    "heroSub": "Tua-bin đối áp & trích hơi-ngưng hơi trong đồng phát đường & rượu",
+    "overview": "Ngành mía đường Ấn Độ vận hành các mùa ép mía chuyên sâu 150–180 ngày nơi tính sẵn sàng của tua-bin liên quan trực tiếp đến sản lượng ép mía. Keshav Enterprises chuyên về đại tu giữa các mùa cho tua-bin đối áp — cỗ máy chủ lực của đồng phát đường — và cung cấp hỗ trợ phụ tùng khẩn cấp 24×7 trong mùa ép khi việc ngừng hoạt động tốn kém nhất.",
+    "challenges": [
+      {
+        "title": "Cửa sổ Đại tu Giữa Mùa Ngắn",
+        "desc": "Tua-bin phải được đại tu hoàn toàn, thay thế linh kiện, và đưa vào vận hành trước khi mùa ép tiếp theo bắt đầu — thường chỉ có 90–120 ngày."
+      },
+      {
+        "title": "Mòn Phớt Carbon & Gland",
+        "desc": "Tua-bin đối áp sử dụng vòng gland carbon để ngăn rò rỉ hơi. Chúng mòn liên tục và cần được thay thế chính xác trong mỗi lần đại tu."
+      },
+      {
+        "title": "Nhiễm bẩn Mật rỉ & Nước mía",
+        "desc": "Khu vực quy trình tạo ra hạt bụi dính trong không khí. Bộ lọc thở và bộ lọc rác trên hệ thống dầu bôi trơn phải được bảo trì để ngăn nhiễm bẩn."
+      },
+      {
+        "title": "Sự cố Khẩn cấp Trong Mùa",
+        "desc": "Tua-bin trip trong đỉnh điểm ép mía gây tồn đọng mía ngay lập tức. Phụ tùng khẩn cấp và phản ứng nhanh có thể tạo ra sự khác biệt giữa dừng máy 4 giờ và 4 ngày."
+      }
+    ],
+    "products": [
+      {
+        "name": "Vòng Đệm Kín Gland Carbon & Graphite",
+        "purpose": "Ngăn rò rỉ hơi qua trục tua-bin tại các khu vực gland. Được gia công chính xác theo kích thước trục và vỏ OEM.",
+        "features": [
+          "Cấp carbon/graphite độ tinh khiết cao",
+          "Tất cả các hãng tua-bin: Triveni, Belliss & Morcom, Maxwatt",
+          "Gia công nội bộ với dung sai ±0,01 mm"
+        ]
+      },
+      {
+        "name": "Đệm Kín Mê cung",
+        "purpose": "Phớt mê cung liên tầng và đầu trục làm giảm rò rỉ hơi giữa các tầng tua-bin, trực tiếp cải thiện hiệu suất nhiệt.",
+        "features": [
+          "Tùy chọn vật liệu SS, đồng thau hoặc monel",
+          "Duy trì hồ sơ răng OEM",
+          "Dải mới hoặc sửa chữa lắp vào vỏ hiện có"
+        ]
+      },
+      {
+        "name": "Lõi Lọc Dầu Bôi trơn (Tương thích Triveni)",
+        "purpose": "Đảm bảo cung cấp dầu bôi trơn sạch cho ổ trục tua-bin trong suốt mùa ép, ngăn ngừa hỏng ổ trục trong các giai đoạn sản xuất quan trọng.",
+        "features": [
+          "Định mức lưu lượng 180 GPM",
+          "Thông số chống tĩnh điện IS27",
+          "Khuyến nghị thay thế giữa các mùa"
+        ]
+      },
+      {
+        "name": "Bộ lọc Thở Khí",
+        "purpose": "Bảo vệ bể chứa dầu bôi trơn khỏi bụi trong không khí và hạt đường — quan trọng trong môi trường nhà máy đường nơi tải bụi xung quanh cực đoan.",
+        "features": [
+          "Thiết kế bộ thở hút ẩm lưới mịn",
+          "Ngăn xâm nhập độ ẩm và bụi",
+          "Chỉ báo bão hòa trực quan"
+        ]
+      },
+      {
+        "name": "Bộ lọc Rác Giỏ Đơn & Đôi",
+        "purpose": "Lắp đặt trong mạch dầu bôi trơn và nước làm mát để bắt mảnh vụn trước khi chúng đến ổ trục và bộ trao đổi nhiệt.",
+        "features": [
+          "Giỏ lưới SS, có thể làm sạch và tái sử dụng",
+          "Đầu mặt bích hoặc ren ANSI",
+          "Kiểu đôi để làm sạch bộ lọc không ngừng hoạt động"
+        ]
+      },
+      {
+        "name": "Dịch vụ Cân bằng Rotor",
+        "purpose": "Cân bằng động rotor tua-bin sau khi thay cánh hoặc ổ trục, khôi phục vận hành êm trong thông số kỹ thuật ISO 1940 G1.0.",
+        "features": [
+          "Cân bằng động theo ISO 1940/1 G1.0",
+          "Cân bằng hai mặt phẳng trên mọi loại rotor",
+          "Chứng chỉ cân bằng được cấp cùng báo cáo công việc"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Dịch vụ chuyên biệt tua-bin Triveni & Belliss",
+      "Hỗ trợ mùa khẩn cấp 24×7",
+      "Tất cả cấp carbon/graphite được gia công nội bộ",
+      "Đại tu giữa mùa hoàn thành trong thời hạn"
+    ]
+  },
+  "ind_3": {
+    "heroSub": "Tua-bin vận hành liên tục, khớp nối giãn nở & lọc quy trình cho nhà máy giấy",
+    "overview": "Nhà máy giấy và bột giấy vận hành tua-bin hơi nước suốt ngày đêm, hơn 350 ngày mỗi năm, khiến khung thời gian bảo trì theo kế hoạch cực kỳ hạn hẹp. Quy trình cũng liên quan đến thuốc tẩy ăn mòn, nước nóng, và hơi áp suất cao — tất cả đòi hỏi sản phẩm lọc và làm kín được đánh giá cho môi trường khắc nghiệt. Keshav Enterprises cung cấp toàn bộ dải sản phẩm cần thiết để giữ hệ thống hơi và quy trình nhà máy giấy hoạt động.",
+    "challenges": [
+      {
+        "title": "Khung thời gian Ngừng hoạt động Tối thiểu",
+        "desc": "Việc dừng máy xeo giấy tốn hàng lakh mỗi giờ. Đại tu tua-bin phải được lên kế hoạch trước nhiều tháng và thực hiện với không có việc làm lại — mọi linh kiện phải đúng ngay từ lần đầu."
+      },
+      {
+        "title": "Môi trường Quy trình Ăn mòn",
+        "desc": "Thuốc tẩy, hợp chất chứa clo, và chất lỏng quy trình ăn da tấn công vật liệu tiêu chuẩn. Sản phẩm lọc và ống mềm phải sử dụng vật liệu và phớt tương thích."
+      },
+      {
+        "title": "Đường ống Hơi Nhiệt độ Cao",
+        "desc": "Nồi hơi nhà máy giấy tạo ra hơi áp suất cao ở 250–400°C. Khớp nối giãn nở đường ống hơi phải chịu được cả nhiệt độ cao và mỏi chu kỳ."
+      },
+      {
+        "title": "Rung động từ Máy Xeo Giấy",
+        "desc": "Máy xeo giấy tốc độ cao tạo ra rung động băng thông rộng liên tục. Giá đỡ chống rung và kết nối ống mềm linh hoạt là thiết yếu để cách ly thiết bị."
+      }
+    ],
+    "products": [
+      {
+        "name": "Bộ lọc Rác Giỏ Đôi",
+        "purpose": "Lắp đặt trên đường nước quy trình, nước trắng, và nước làm mát. Thiết kế kiểu đôi cho phép làm sạch giỏ mà không dừng dòng chảy — quan trọng trong các nhà máy vận hành liên tục.",
+        "features": [
+          "Giỏ SS316 cho môi trường ăn mòn",
+          "Bao gồm van bypass plug cock",
+          "Có sẵn định mức mặt bích ANSI 150 đến 600"
+        ]
+      },
+      {
+        "name": "Khớp nối Giãn nở Ống xếp Kim loại SS",
+        "purpose": "Hấp thụ giãn nở nhiệt trong đường ống hơi áp suất cao, đường quy trình bột giấy, và đường ống nhà máy tẩy trắng mà không truyền ứng suất đến vòi phun thiết bị.",
+        "features": [
+          "Ống xếp SS316L chống ăn mòn",
+          "Phạm vi DN15 đến DN1200",
+          "Tiêu chuẩn thiết kế EJMA, thử nghiệm áp suất"
+        ]
+      },
+      {
+        "name": "Khớp nối Giãn nở Cao su (Vòm Đôi)",
+        "purpose": "Cung cấp kết nối linh hoạt tại đầu hút và xả bơm trong hệ thống xử lý nước, nước trắng, và nước thải — cách ly rung động bơm khỏi đường ống.",
+        "features": [
+          "Tùy chọn ống cao su tự nhiên hoặc EPDM",
+          "Đầu mặt bích PN10/16",
+          "Nhiệt độ vận hành đến 150°C"
+        ]
+      },
+      {
+        "name": "Bộ ống mềm Lót PTFE",
+        "purpose": "Ống mềm vận chuyển hóa chất cho đường thuốc tẩy, kiềm, và axit tại nhà máy tẩy trắng — lớp lót PTFE cung cấp khả năng chống hoàn toàn hóa chất quy trình khắc nghiệt.",
+        "features": [
+          "Lõi trong PTFE, gia cường bện SS",
+          "Định mức chân không đầy đủ",
+          "Đầu nối tuân thủ EN14420 có sẵn"
+        ]
+      },
+      {
+        "name": "Biên dạng & Gioăng Cao su Đùn Tùy chỉnh",
+        "purpose": "Dải giảm chấn cao su đùn tùy chỉnh, lắp dưới bộ truyền động máy xeo giấy, bơm và bệ tua-bin để cách ly và giảm rung động máy móc truyền đến kết cấu tòa nhà.",
+        "features": [
+          "Hợp chất EPDM, Neoprene, Nitrile hoặc Cao su Tự nhiên",
+          "Tiết diện tùy chỉnh được đùn theo bản vẽ hoặc mẫu",
+          "Dải độ cứng 40-80 Shore A tùy ứng dụng"
+        ]
+      },
+      {
+        "name": "Phụ tùng Tua-bin (Siemens, BHEL, Triveni)",
+        "purpose": "Phụ tùng tua-bin tương đương OEM được chế tạo từ vật liệu chứng nhận cho bộ kit đại tu theo kế hoạch — vòi phun, màng ngăn, vòng gland, và vỏ ổ trục.",
+        "features": [
+          "Kỹ thuật đảo ngược từ bản vẽ OEM",
+          "Cung cấp chứng chỉ vật liệu",
+          "Báo cáo kiểm tra kích thước CMM"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Hỗ trợ vận hành liên tục 350+ ngày mỗi năm",
+      "Sản phẩm SS316L cho môi trường ăn mòn",
+      "Giải pháp bộ lọc kiểu đôi không ngừng hoạt động",
+      "Bộ kit đại tu hoàn chỉnh được lên kế hoạch và cung cấp"
+    ]
+  },
+  "ind_4": {
+    "heroSub": "Lọc tuân thủ API 614, ổ trục Babbitt & ống mềm chính xác cho cơ sở dầu khí",
+    "overview": "Các cơ sở dầu khí thượng nguồn, trung nguồn, và hạ nguồn vận hành máy nén và bơm dẫn động bằng tua-bin dưới một số điều kiện khắc nghiệt nhất trong ngành. Mọi linh kiện trong hệ thống dầu bôi trơn và dầu điều khiển phải đáp ứng tiêu chuẩn API. Keshav Enterprises cung cấp lõi lọc tuân thủ API 614, ổ trục Babbitt, và bộ ống mềm kỹ thuật chính xác đủ tiêu chuẩn sử dụng trong thiết bị khu vực nguy hiểm.",
+    "challenges": [
+      {
+        "title": "Tuân thủ Hệ thống Dầu Bôi trơn API 614",
+        "desc": "Tất cả linh kiện hệ thống dầu bôi trơn cho thiết bị dẫn động bằng tua-bin trong dầu khí phải tuân thủ API 614, quy định vật liệu, độ sạch, và định mức áp suất."
+      },
+      {
+        "title": "Lọc Khu vực Nguy hiểm",
+        "desc": "Dầu điều khiển tổng hợp trong hệ thống điều khiển tua-bin có độ dẫn điện thấp. Lõi lọc phải có thông số chống tĩnh điện IS27 để ngăn phóng tĩnh điện."
+      },
+      {
+        "title": "Tính Toàn vẹn Ống mềm Áp suất Cao",
+        "desc": "Bộ ống mềm thủy lực và thiết bị đo trong dầu khí chịu áp suất lên đến 420 bar. Hỏng hóc đồng nghĩa với rủi ro tràn và cháy — không có sự thỏa hiệp về chất lượng hoặc chứng nhận."
+      },
+      {
+        "title": "Cung cấp Nhanh cho Vị trí Xa xôi",
+        "desc": "Giàn khoan ngoài khơi và cơ sở thượng nguồn xa xôi cần cung cấp phụ tùng nhanh. Phụ tùng quan trọng được lưu kho và giao trong ngày cho đơn hàng khẩn cấp."
+      }
+    ],
+    "products": [
+      {
+        "name": "Lõi Lọc Dầu Điều khiển (Chống Tĩnh điện IS27)",
+        "purpose": "Cho hệ thống điều khiển điện-thủy lực (EHC) tua-bin sử dụng dầu điều khiển tổng hợp gốc phosphate-ester hoặc ester với độ dẫn điện dưới 300 pS/m.",
+        "features": [
+          "Chứng nhận chống tĩnh điện IS27",
+          "Vật liệu Microglass VG, 3–25 µm",
+          "Tương thích Siemens, Man Turbo, KKK"
+        ]
+      },
+      {
+        "name": "Chế tạo Ổ trục Babbitt",
+        "purpose": "Ổ trục ngõng và chặn cho máy nén và bơm dẫn động bằng tua-bin, lót kim loại trắng theo hồ sơ chính xác khớp với hình học ổ trục OEM gốc.",
+        "features": [
+          "Thành phần kim loại trắng theo ASTM B23",
+          "Doa chính xác đến dung sai <0,01 mm",
+          "Tất cả các hãng: Man Turbo, KKK, Siemens, ABB"
+        ]
+      },
+      {
+        "name": "Bộ ống mềm Lót PTFE",
+        "purpose": "Ống mềm hóa chất và thiết bị đo cho vận chuyển chất lỏng khắc nghiệt trong chế biến dầu khí — chống lại dầu thô, H2S, methanol, và chất ức chế.",
+        "features": [
+          "Lõi PTFE, bện SS316 hoặc bện ngoài thép không gỉ",
+          "Định mức áp suất đến 420 bar (bộ chọn lọc)",
+          "Có sẵn bộ tuân thủ BS EN ISO 10380"
+        ]
+      },
+      {
+        "name": "Bộ ống mềm Thủy lực Cao su",
+        "purpose": "Ống mềm thủy lực áp suất cao cho cơ cấu chấp hành điều khiển, hệ thống BOP, và đơn vị năng lượng thủy lực trên thiết bị khoan và chế biến.",
+        "features": [
+          "Cấu trúc xoắn ốc 4 dây và 6 dây",
+          "Áp suất làm việc đến 400 bar",
+          "Phụ kiện tương thích Parker, Gates, Manuli"
+        ]
+      },
+      {
+        "name": "Vỏ Lọc Chế tạo Kiểu Đôi",
+        "purpose": "Bình lọc kiểu đôi chế tạo tùy chỉnh cho hệ thống dầu bôi trơn và dầu điều khiển, đóng dấu mã ASME để tuân thủ yêu cầu bình chứa API 614.",
+        "features": [
+          "Đóng dấu mã ASME Sec. VIII Div. 1",
+          "Vật liệu: CS, SS304, SS316 theo dịch vụ",
+          "Chứng nhận PED/CE cho dự án xuất khẩu"
+        ]
+      },
+      {
+        "name": "Đầu dò Giám sát Rung động",
+        "purpose": "Đầu dò tiệm cận và hệ thống giám sát tương thích với hệ thống bảo vệ turbomachinery API 670 cho dây chuyền máy nén và tua-bin.",
+        "features": [
+          "Tương thích Bently Nevada, Shinkawa",
+          "Vỏ đầu dò định mức IP67",
+          "Đầu ra rơ-le cảnh báo và nguy hiểm"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Sản phẩm tuân thủ API 614 & IS27",
+      "Ổ trục Babbitt cho tất cả các hãng OEM chính",
+      "Có sẵn giao hàng khẩn cấp trong ngày",
+      "Bình áp lực đóng dấu mã ASME"
+    ]
+  },
+  "ind_5": {
+    "heroSub": "Khớp nối giãn nở kim loại, bộ lọc rác nhiệt độ cao & phụ tùng chính xác cho nhà máy lọc dầu & hóa dầu",
+    "overview": "Các khu phức hợp lọc dầu và hóa dầu xử lý hydrocarbon, axit, và hóa chất khắc nghiệt ở nhiệt độ và áp suất cực đoan. Khớp nối giãn nở kim loại, bộ lọc rác quy trình, và phụ tùng tua-bin chính xác phải chịu được chu kỳ nhiệt, môi trường ăn mòn, và mỏi chu kỳ cao. Keshav Enterprises chế tạo các sản phẩm này theo tiêu chuẩn EJMA, ASME, và API cho các ứng dụng nhà máy lọc dầu đòi hỏi khắt khe nhất.",
+    "challenges": [
+      {
+        "title": "Chu kỳ Nhiệt độ Cực đoan",
+        "desc": "Cột cracking hơi và chưng cất nhà máy lọc dầu chuyển đổi giữa nhiệt độ môi trường và nhiệt độ vận hành 600°C+. Khớp nối giãn nở phải chịu được hàng triệu chu kỳ uốn cong mà không hỏng do mỏi."
+      },
+      {
+        "title": "Môi trường Ăn mòn & Giàu Hydro",
+        "desc": "H2S, HF, dung môi amine, và dịch vụ hydro yêu cầu ống xếp Inconel, Hastelloy, hoặc thép không gỉ duplex — SS304/316 tiêu chuẩn không đủ."
+      },
+      {
+        "title": "Tuân thủ Mã ASME & API",
+        "desc": "Bình áp lực, đường ống, và ống xếp trong nhà máy lọc dầu phải tuân thủ ASME Sec. VIII và mã API. Kiểm tra bên thứ ba và khả năng truy xuất vật liệu là bắt buộc."
+      },
+      {
+        "title": "Ăn mòn Xúc tác FCCU",
+        "desc": "Đơn vị Cracking Xúc tác Tầng sôi mang theo hạt xúc tác cuốn theo ở 700°C+. Khớp nối giãn nở trong đường ống bộ tái sinh và lò phản ứng đối mặt với ăn mòn cực đoan và sốc nhiệt."
+      }
+    ],
+    "products": [
+      {
+        "name": "Khớp Nối Giãn Nở Thành Dày Hạng Nặng",
+        "purpose": "Ống gấp thành dày gia cường cho các điều kiện vận hành khắc nghiệt của đường ống chuyển tiếp bộ tái sinh-lò phản ứng: nhiệt độ cao, áp suất cao và ứng suất cơ/nhiệt lớn.",
+        "features": [
+          "Kết cấu thành gia cường cho khả năng chịu áp suất và ứng suất tối đa",
+          "Biến dạng tối thiểu dưới chu kỳ áp suất và nhiệt độ khắc nghiệt",
+          "Vật liệu: tùy chọn SS 316/321, Duplex, Inconel, Hastelloy"
+        ]
+      },
+      {
+        "name": "Khớp nối Giãn nở Kim loại Trục & Toàn năng",
+        "purpose": "Ống xếp đường quy trình tiêu chuẩn để hấp thụ giãn nở nhiệt trong dầu thô, sản phẩm, và đường ống hơi trên toàn khu phức hợp nhà máy lọc dầu.",
+        "features": [
+          "Phạm vi chế tạo DN15 đến DN12.000",
+          "Cấp SS316L, Inconel, Hastelloy, Duplex SS",
+          "Mã thiết kế ASME Sec. VIII Div. 1"
+        ]
+      },
+      {
+        "name": "Bộ lọc Rác Đơn & Đôi Áp suất Cao",
+        "purpose": "Bộ lọc rác trực tuyến trên đường nạp dầu thô, đường truyền sản phẩm, và đường ống hút máy nén để bảo vệ thiết bị khỏi cặn và mảnh vụn.",
+        "features": [
+          "Thiết kế theo mã bình áp lực ASME",
+          "Cấu trúc tấm đục lỗ + giỏ lưới",
+          "Có sẵn cấp áp suất PN40 đến PN160"
+        ]
+      },
+      {
+        "name": "Khớp Nối Giãn Nở Lạnh Sâu LNG / LPG (Cryogenic)",
+        "purpose": "Khớp nối giãn nở kim loại đạt chuẩn lạnh sâu cho đường ống khí hóa lỏng nhiệt độ rất thấp: đường ống chuyển tiếp LNG/LPG, terminal lưu trữ lạnh sâu và đầu nối nạp tàu.",
+        "features": [
+          "Được thiết kế cho hoạt động lạnh sâu đến dải nhiệt độ vận hành LNG",
+          "Lựa chọn vật liệu nhiệt độ thấp để đảm bảo độ dẻo dai và chống mỏi",
+          "Tùy chọn thép không gỉ austenit và hợp kim cấp lạnh sâu, truy xuất nguồn gốc vật liệu đầy đủ"
+        ]
+      },
+      {
+        "name": "Linh kiện Đường Hơi Tua-bin",
+        "purpose": "Khối vòi phun, màng ngăn, và giá đỡ cánh cho bộ truyền động máy nén dẫn động bằng tua-bin — chế tạo từ thép hợp kim theo hồ sơ OEM.",
+        "features": [
+          "Gia công CNC từ phôi rèn chứng nhận",
+          "Vật liệu: thép hợp kim Cr-Mo, SS 17-4PH",
+          "Hồ sơ được xác minh bằng đo CMM 3D"
+        ]
+      },
+      {
+        "name": "Khớp nối Giãn nở Cân bằng Áp suất",
+        "purpose": "Loại bỏ lực đẩy áp suất trên vòi phun thiết bị nhạy cảm trong dịch vụ nhà máy lọc dầu áp suất cao — bảo vệ mặt bích máy nén và bơm.",
+        "features": [
+          "Thiết kế loại bỏ lực đẩy áp suất bằng thanh giằng",
+          "Giảm tải vòi phun gần bằng không",
+          "Có sẵn cấu hình buộc và không buộc"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Ống xếp Inconel, Hastelloy & duplex SS",
+      "Tiêu chuẩn thiết kế EJMA phiên bản 10",
+      "Bình áp lực & ống xếp theo mã ASME",
+      "Chuyên gia FCCU và dịch vụ khắc nghiệt"
+    ]
+  },
+  "ind_6": {
+    "heroSub": "Đồng phát tua-bin hơi nước, lọc & sản phẩm cao su cho cơ sở chế biến nông sản",
+    "overview": "Chế biến nông sản — từ xay xát gạo và chiết xuất dung môi đến sản xuất sữa và thực phẩm — ngày càng sử dụng đồng phát hơi tự dùng để giảm chi phí năng lượng. Các cơ sở này cần bảo trì tua-bin đáng tin cậy, sản phẩm ống mềm và lọc đạt chuẩn thực phẩm, và giải pháp cách ly rung động cho máy móc chế biến nhạy cảm. Keshav Enterprises cung cấp toàn bộ dải sản phẩm và dịch vụ cần thiết trên toàn ngành nông-công nghiệp.",
+    "challenges": [
+      {
+        "title": "Yêu cầu Vật liệu Đạt chuẩn Thực phẩm",
+        "desc": "Ống mềm, phớt, và bộ lọc trong khu vực tiếp xúc thực phẩm phải sử dụng vật liệu được FDA phê duyệt — PTFE, EPDM đạt chuẩn thực phẩm, và thép không gỉ với bề mặt đánh bóng."
+      },
+      {
+        "title": "Biến động Tải Theo Mùa",
+        "desc": "Tua-bin đồng phát nông sản thấy biến động tải rộng theo mùa vụ. Điều này dẫn đến ăn mòn cánh nhanh hơn và mỏi chu kỳ nhiệt so với nhà máy điện tải không đổi."
+      },
+      {
+        "title": "Nhiễm bẩn Thở Bồn chứa",
+        "desc": "Bồn chứa dầu ăn phải được bảo vệ khỏi bụi trong không khí và độ ẩm qua đường thở — nhiễm bẩn ảnh hưởng đến chất lượng sản phẩm và thời hạn sử dụng."
+      },
+      {
+        "title": "Rung động Máy móc trong Nhà máy Thực phẩm",
+        "desc": "Máy nghiền búa, máy ly tâm, và máy đóng gói truyền rung động đến sàn và thiết bị lân cận. Cần cách ly để duy trì kết nối vệ sinh."
+      }
+    ],
+    "products": [
+      {
+        "name": "Bộ ống mềm PTFE Đạt chuẩn FDA",
+        "purpose": "Ống mềm linh hoạt cho vận chuyển chất lỏng đạt chuẩn thực phẩm — tuần hoàn hóa chất CIP/SIP, đường sản phẩm, và phun hơi trong môi trường đạt chuẩn thực phẩm.",
+        "features": [
+          "Lõi trong PTFE, tuân thủ FDA 21 CFR 177.1550",
+          "Phụ kiện đầu SS316 đánh bóng điện",
+          "Có sẵn kết nối đầu tri-clover (vệ sinh)"
+        ]
+      },
+      {
+        "name": "Bộ lọc Thở Khí & Bồn chứa",
+        "purpose": "Bảo vệ bồn chứa dầu ăn khỏi bụi và độ ẩm xâm nhập qua đường thông hơi — ngăn nhiễm bẩn sản phẩm lưu trữ.",
+        "features": [
+          "Silica gel hút ẩm + vật liệu hạt mịn",
+          "Chỉ báo màu bão hòa trực quan",
+          "Thiết kế lõi thay thế để bảo trì dễ dàng"
+        ]
+      },
+      {
+        "name": "Bộ lọc rác Kiểu Y & Hình Nón",
+        "purpose": "Bộ lọc rác trực tuyến trên đường chất lỏng quy trình, hút bơm, và hệ thống nước cấp nồi hơi — bảo vệ thiết bị khỏi cặn và mảnh vụn quy trình.",
+        "features": [
+          "Giỏ lưới SS, kích thước lưới 40 đến 400 µm",
+          "Kết nối ren hoặc mặt bích",
+          "Làm sạch trực tuyến đơn giản không cần ngắt đường ống"
+        ]
+      },
+      {
+        "name": "Biên dạng & Gioăng Cao su Đùn Tùy chỉnh",
+        "purpose": "Dải giảm chấn cao su đùn tùy chỉnh cách ly rung động từ máy nghiền búa, máy ly tâm, máy nén khí và máy đóng gói, bảo vệ cả máy móc lẫn khu vực chế biến thực phẩm lân cận.",
+        "features": [
+          "Tùy chọn hợp chất EPDM, Neoprene, Nitrile hoặc Cao su Tự nhiên",
+          "Tiết diện tùy chỉnh được đùn theo bản vẽ hoặc mẫu",
+          "Có sẵn với lớp keo dán nhạy áp"
+        ]
+      },
+      {
+        "name": "Khớp nối Giãn nở Cao su (Vòm Đơn)",
+        "purpose": "Đầu nối bơm linh hoạt trên mạch nước làm mát, nước lạnh, và nước quy trình — hấp thụ rung động bơm và chuyển động nhiệt.",
+        "features": [
+          "Ống EPDM hoặc cao su tự nhiên",
+          "Đầu mặt bích PN10/16, cũng có đầu ren",
+          "Nhiệt độ làm việc –20°C đến +130°C"
+        ]
+      },
+      {
+        "name": "Bảo trì Tua-bin Hơi nước (Triveni, Maxwatt)",
+        "purpose": "Đại tu theo kế hoạch tua-bin hơi nước đối áp đồng phát nông sản — thay vòng gland, kiểm tra ổ trục, và kiểm tra cân bằng rotor.",
+        "features": [
+          "Lên lịch đại tu giữa các mùa",
+          "Vòng gland carbon gia công nội bộ",
+          "Bao gồm chạy thử và xác nhận rung động"
+        ]
+      },
+      {
+        "name": "Bộ lọc Túi HVAC (Xử lý Không khí Nhà máy Thực phẩm)",
+        "purpose": "Bộ lọc túi đa ngăn cho AHU cơ sở chế biến thực phẩm — loại bỏ bụi bột mì, bụi tinh bột, và bào tử nấm mốc trong không khí từ không khí cấp đến khu vực sản xuất, kho lạnh, và dây chuyền đóng gói.",
+        "features": [
+          "Hiệu suất F7/F8 để bắt chất gây dị ứng và bào tử nấm mốc",
+          "Vật liệu polyester tổng hợp — chịu ẩm cho môi trường thực phẩm ẩm",
+          "Kích thước khung AHU tiêu chuẩn; kích thước tùy chỉnh theo yêu cầu",
+          "Bổ sung yêu cầu chất lượng không khí GMP cho khu vực đạt chuẩn thực phẩm"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Sản phẩm ống mềm tuân thủ FDA 21 CFR",
+      "Chuyên gia tua-bin đồng phát nông sản",
+      "Bộ lọc thở bồn chứa cho lưu trữ dầu ăn",
+      "Bộ lọc túi HVAC F7/F8 cho chất lượng không khí sản xuất thực phẩm GMP",
+      "Giải pháp cách ly rung động bơm hoàn chỉnh"
+    ]
+  },
+  "ind_7": {
+    "heroSub": "Lọc dầu bôi trơn, túi lọc bụi kiểu pulse-jet, bộ lọc khí HVAC, khớp nối giãn nở & cách ly rung động cho máy móc nhà máy xi măng",
+    "overview": "Sản xuất xi măng là một trong những môi trường công nghiệp mài mòn và nhiều bụi nhất trên trái đất. Lò nung quay vận hành ở nhiệt độ vỏ 200–400°C, máy nghiền bi chạy liên tục trong nhiều tháng, và dây chuyền nghiền tạo ra đám mây bụi khổng lồ đặt yêu cầu cực đoan lên mọi linh kiện bôi trơn, làm kín, và đường ống. Keshav Enterprises cung cấp bộ lọc cấp chính xác, túi lọc bụi kiểu pulse-jet, bộ lọc khí HVAC, khớp nối giãn nở, và giải pháp chống rung giữ nhà máy xi măng hoạt động 330+ ngày mỗi năm.",
+    "challenges": [
+      {
+        "title": "Nhiễm bẩn Bụi & Mài mòn Cực đoan",
+        "desc": "Nhà máy xi măng tạo ra 1–3 tấn bụi mỗi ngày mỗi lò nung. Vật liệu mài mòn trong không khí này xâm nhập vào hệ thống dầu bôi trơn, lỗ thông hơi, và vỏ lọc — đẩy nhanh mòn và gây bypass bộ lọc nếu không được quản lý đúng cách."
+      },
+      {
+        "title": "Nhiễm bẩn Dầu Hộp số Lò nung",
+        "desc": "Hộp số lò nung quay vận hành trên hệ thống bôi trơn tuần hoàn ở ISO VG 220–460. Bụi clinker và nhiễm bẩn nhiệt làm suy giảm dầu nhanh chóng — lọc hiệu suất cao rất quan trọng để kéo dài khoảng thời gian thay dầu và bảo vệ bộ bánh răng đắt tiền."
+      },
+      {
+        "title": "Giãn nở Nhiệt trong Ống dẫn Khí thải Lò nung",
+        "desc": "Ống dẫn khí thải lò nung vận hành ở 250–450°C và trải qua giãn nở nhiệt đáng kể. Nếu không có khớp nối giãn nở kim loại hoặc vải được thiết kế đúng cách, các đoạn ống nứt, rò rỉ, và cho phép khí nóng thoát ra — nguy cơ an toàn và hiệu suất."
+      },
+      {
+        "title": "Rung động Máy nghiền & Máy nghiền",
+        "desc": "Máy nghiền bi, máy nghiền con lăn đứng, và máy nghiền hàm tạo ra rung động băng thông rộng dữ dội truyền qua nền móng đến thiết bị và thiết bị đo lân cận, gây hỏng do mỏi và lỗi đo lường."
+      }
+    ],
+    "products": [
+      {
+        "name": "Lõi Lọc Dầu Bôi trơn (Hộp số Lò nung & Máy nghiền)",
+        "purpose": "Lõi lọc hiệu suất cao cho hệ thống tuần hoàn dầu hộp số lò nung — loại bỏ hạt clinker mài mòn và mảnh vụn mòn trước khi chúng làm hỏng răng bánh răng và ổ trục con lăn.",
+        "features": [
+          "Vật liệu sợi thủy tinh VG, độ mịn 6–25 µm",
+          "Khả năng chứa bụi bẩn cao cho môi trường nhiều bụi",
+          "Tương thích dầu tổng hợp & khoáng ISO VG 220–460",
+          "Hiệu suất beta ≥200 theo ISO 16889"
+        ]
+      },
+      {
+        "name": "Bộ lọc rác Giỏ Đôi (Nước Làm mát & Đường Quy trình)",
+        "purpose": "Lắp đặt trên hệ thống nước làm mát lò nung, nước làm mát máy nén, và đường ống bùn nguyên liệu thô để bảo vệ bơm, bộ trao đổi nhiệt, và thiết bị đo khỏi cặn và mảnh vụn.",
+        "features": [
+          "Giỏ lưới SS, tùy chọn lưới 100–1000 µm",
+          "Thiết kế kiểu đôi: làm sạch giỏ không ngừng hoạt động",
+          "Định mức mặt bích ANSI 150 đến ANSI 600",
+          "SS316 cho dịch vụ nước làm mát ăn mòn"
+        ]
+      },
+      {
+        "name": "Khớp nối Giãn nở Kim loại Trục (Ống dẫn Khí thải Lò nung)",
+        "purpose": "Bù giãn nở nhiệt trong ống dẫn khí nóng giữa lò nung, tháp gia nhiệt sơ bộ cyclone, và nồi hơi thu hồi nhiệt thải — loại bỏ nứt do ứng suất nhiệt trong các đoạn ống dẫn.",
+        "features": [
+          "Ống xếp SS321 cho dịch vụ nhiệt độ cao",
+          "Cấu hình đơn và toàn năng (ống xếp kép)",
+          "Mặt bích khớp với kích thước ống dẫn hiện có",
+          "Bao gồm lớp lót dòng chảy để bảo vệ ống xếp khỏi ăn mòn khí"
+        ]
+      },
+      {
+        "name": "Khớp nối Giãn nở Phi Kim loại (Vải) Hình Chữ nhật",
+        "purpose": "Sử dụng trong ống dẫn hình chữ nhật lớn tại khe thông hơi máy làm nguội clinker, kết nối quạt máy nghiền thô, và ống dẫn bộ lọc tĩnh điện (ESP) — xử lý lệch trục và chuyển động nhiệt trong các đoạn không tròn.",
+        "features": [
+          "Vải thủy tinh phủ PTFE hoặc composite Nomex",
+          "Khả năng nhiệt độ đến 450°C liên tục",
+          "Chế tạo tùy chỉnh theo kích thước ống dẫn hình chữ nhật",
+          "Lắp ráp khung bắt bu-lông để lắp đặt tại hiện trường"
+        ]
+      },
+      {
+        "name": "Biên dạng & Gioăng Cao su Đùn Tùy chỉnh",
+        "purpose": "Đệm giảm chấn cao su đùn tùy chỉnh, lắp dưới cụm truyền động máy nghiền bi, hộp số máy nghiền con lăn đứng và vỏ ổ trục máy nghiền để cách ly và giảm rung động máy móc truyền đến kết cấu nhà máy.",
+        "features": [
+          "Hợp chất cao su tự nhiên, EPDM hoặc neoprene",
+          "Tiết diện tùy chỉnh được đùn theo bản vẽ hoặc mẫu",
+          "Nhiệt độ vận hành -40 đến +150°C (cấp EPDM)"
+        ]
+      },
+      {
+        "name": "Bộ lọc Thở Khí & Bồn chứa (Bể chứa Dầu Bôi trơn)",
+        "purpose": "Ngăn bụi xi măng trong không khí và độ ẩm xâm nhập vào bể chứa dầu bôi trơn qua đường thông hơi — nguyên nhân hàng đầu gây hỏng dầu và ổ trục sớm trong nhà máy xi măng.",
+        "features": [
+          "Vật liệu hạt hiệu suất cao + silica gel hút ẩm",
+          "Định mức theo yêu cầu độ sạch ISO",
+          "Chỉ báo bão hòa đổi màu",
+          "Cấu hình lắp trực tiếp và lắp từ xa"
+        ]
+      },
+      {
+        "name": "Bộ ống mềm Linh hoạt Gợn sóng SS",
+        "purpose": "Kết nối linh hoạt áp suất cao trên đầu vào nước làm mát lò nung, cơ cấu chấp hành thủy lực cửa trượt, và đường khí nén — chống nhiệt, áp suất, và rung động nơi đường ống cứng sẽ hỏng.",
+        "features": [
+          "Ống mềm trong gợn sóng SS316L, gia cường bện SS",
+          "Áp suất làm việc đến 200 bar (bộ chọn lọc)",
+          "Phụ kiện đầu: mặt bích ANSI, ren BSP/NPT, hoặc thủy lực",
+          "Phạm vi nhiệt độ –196°C đến +600°C"
+        ]
+      },
+      {
+        "name": "Bộ lọc rác Hình Nón & Kiểu Y (Bơm Máy nghiền Thô & Băng tải)",
+        "purpose": "Bộ lọc rác tạm thời và cố định trên bơm bùn nguyên liệu thô, hệ thống phun nước lò nung, và đường cấp khí nén — bảo vệ van và thiết bị đo hạ nguồn.",
+        "features": [
+          "Giỏ đục lỗ, có sẵn lót lưới",
+          "Nút xả có cánh hoặc ren để làm sạch",
+          "Vật liệu thân CS, SS304, SS316",
+          "Có sẵn trong kho để giao hàng nhanh"
+        ]
+      },
+      {
+        "name": "Túi & Hộp lọc Bụi Kiểu Pulse-Jet",
+        "purpose": "Túi lọc thay thế và phần tử hộp xếp nếp cho máy lọc bụi baghouse nhà máy xi măng tại khí thải lò nung, thông hơi máy nghiền thô, máy làm nguội clinker, máy nghiền than, nhà máy đóng gói, và hệ thống thông hơi silo — giữ lại bụi xi măng mịn và đáp ứng tiêu chuẩn phát thải.",
+        "features": [
+          "Nỉ kim polyester (tiêu chuẩn) và màng PTFE (hiệu suất cao, phát thải thấp)",
+          "Cấp chống tĩnh điện cho ứng dụng máy nghiền than (ATEX)",
+          "Kích thước tương thích lồng theo vỏ baghouse hiện có",
+          "Làm sạch pulse-jet định mức ở khí nén 4–7 bar"
+        ]
+      },
+      {
+        "name": "Bộ lọc Khí Tấm Xếp nếp (HVAC Phòng Điều khiển & Tủ Điện)",
+        "purpose": "Bộ lọc cho AHU phòng điều khiển nhà máy xi măng và đơn vị làm mát tủ điện — ngăn bụi xi măng mài mòn xâm nhập vào thiết bị đo nhạy cảm, PLC, và tủ DCS.",
+        "features": [
+          "Hiệu suất F7/F8 để giữ bụi xi măng mịn",
+          "Khung thép mạ kẽm cho môi trường nhà máy xi măng ẩm",
+          "Kích thước khung AHU tiêu chuẩn hoặc cắt tùy chỉnh theo kích thước tủ",
+          "Cung cấp thay thế theo lịch bảo trì"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Hỗ trợ vận hành liên tục 330+ ngày/năm",
+      "Sản phẩm lọc chống bụi có sẵn trong kho",
+      "Khớp nối giãn nở nhiệt độ cao đến 450°C",
+      "Túi baghouse pulse-jet cho mọi điểm thông hơi nhà máy xi măng",
+      "Giải pháp cách ly rung động hoàn chỉnh"
+    ]
+  }
+}

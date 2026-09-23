@@ -1,0 +1,32 @@
+{
+  "products": {
+    "metaTitle": "Product Catalog — Turbine Spares, Filters, Expansion Joints, HVAC Air Filters",
+    "metaDescription": "",
+    "h1": "Industrial Products",
+    "subheading": "{count} precision-engineered products across {categories} categories. ISO/API/ASME compliant with full technical specifications."
+  },
+  "services": {
+    "metaTitle": "Turbine Services — Overhauling, Erection & Reverse Engineering",
+    "metaDescription": "Complete turbine overhauling, reverse engineering, erection & commissioning, dynamic balancing, lube oil flushing, and machine alignment for steam turbines 5 kW to 60 MW.",
+    "h1": "Technical Services",
+    "subheading": "Specialized mechanical solutions for industrial rotating equipment from 5 kW to 60 MW. Ensuring peak reliability across power generation, sugar mills, paper mills, refineries, and petrochemical industries."
+  },
+  "industries": {
+    "metaTitle": "Industries Served — Power, Sugar, Oil & Gas, Petrochemical, Cement",
+    "metaDescription": "Keshav Enterprises serves power plants, sugar mills, paper mills, oil & gas, petrochemical, agro, and cement industries with specialized turbine engineering and industrial products.",
+    "h1": "Industries We Serve",
+    "subheading": "Specialized turbine engineering and industrial product solutions across seven major industry verticals."
+  },
+  "blog": {
+    "metaTitle": "Engineering Blog — Turbine Maintenance, Industrial Filtration & HVAC Insights",
+    "metaDescription": "Technical articles on steam turbine overhauling, lube oil filtration, HVAC air filter selection, pulse-jet dust collectors, reverse engineering, and industrial maintenance best practices from Keshav Enterprises.",
+    "h1": "Engineering Blog",
+    "subheading": "Technical insights on turbine maintenance, lube oil systems, HVAC air filtration, dust collection, reverse engineering, and industrial best practices — from our engineering team."
+  },
+  "downloads": {
+    "metaTitle": "Free Technical Downloads — Turbine Checklists, Datasheets & RFQ Templates",
+    "metaDescription": "Download free steam turbine overhaul checklists, lube oil filter datasheets, bearing clearance guides, and RFQ templates from Keshav Enterprises — India's steam turbine specialists.",
+    "h1": "Free Downloads",
+    "subheading": "Technical checklists, datasheets, bearing references, and RFQ templates — free for plant engineers and procurement teams."
+  }
+}

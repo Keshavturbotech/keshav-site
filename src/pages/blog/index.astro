@@ -1,0 +1,78 @@
+---
+// src/pages/blog/index.astro
+// Ported from BlogPage in App.jsx (line ~18114).
+import Layout from "../../layouts/Layout.astro";
+import BlogFilter from "../../components/islands/BlogFilter.jsx";
+import type { BlogPost } from "../../data/blog-posts";
+import { getLocalizedList, getLocalizedData } from "../../lib/i18n";
+
+// FIXED (Part 1, step 4): this previously imported BLOG_POSTS directly from
+// data/blog-posts.ts, bypassing the i18n loader entirely — every locale,
+// including non-English [locale]/blog/ routes, was rendering English blog
+// data. Same bug existed in blog/[slug].astro and downloads.astro; all three
+// now go through getLocalizedList() like products/services/industries.
+const locale = Astro.currentLocale ?? "en";
+const BLOG_POSTS = getLocalizedList<BlogPost>("blog-posts", locale);
+const pageHeaders = getLocalizedData<
+  Record<string, { metaTitle: string; metaDescription: string; h1: string; subheading: string }>
+>("page-headers", locale).blog;
+
+const SITE_URL = "https://www.keshavturbotech.com";
+const BLOG_COLLECTION_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "@id": `${SITE_URL}/blog`,
+  name: "Keshav Enterprises Engineering Blog",
+  url: `${SITE_URL}/blog`,
+  blogPost: BLOG_POSTS.map((p) => ({
+    "@type": "BlogPosting",
+    headline: p.title,
+    url: `${SITE_URL}/blog/${p.slug}`,
+    datePublished: p.date,
+  })),
+};
+---
+
+<Layout
+  title={pageHeaders.metaTitle}
+  description={pageHeaders.metaDescription}
+  canonicalPath="/blog"
+  jsonLd={BLOG_COLLECTION_SCHEMA}
+>
+  <div class="bg-[#0A192F] text-white py-24 border-b-8 border-blue-600 relative">
+    <div
+      class="absolute inset-0 opacity-10 pointer-events-none"
+      style="background-image:linear-gradient(to right,#4f4f4f2e 1px,transparent 1px),linear-gradient(to bottom,#4f4f4f2e 1px,transparent 1px);background-size:4rem 4rem;"
+      aria-hidden="true"
+    >
+    </div>
+    <div
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center relative z-10"
+    >
+      <div
+        class="w-16 h-16 bg-blue-600/20 border border-blue-500/30 rounded-2xl flex items-center justify-center mb-6"
+      >
+        <svg
+          class="w-8 h-8 text-blue-400"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          aria-hidden="true"
+          ><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"></path><path
+            d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"></path></svg
+        >
+      </div>
+      <h1 class="text-5xl md:text-6xl font-black mb-6 tracking-tight drop-shadow-lg">
+        {pageHeaders.h1}
+      </h1>
+      <div class="w-24 h-1.5 bg-blue-500 mb-8 rounded-full" aria-hidden="true"></div>
+      <p
+        class="text-slate-300 font-medium max-w-3xl mx-auto text-xl md:text-2xl leading-relaxed mb-10"
+      >
+        {pageHeaders.subheading}
+      </p>
+      <BlogFilter client:load posts={BLOG_POSTS} locale={locale} />
+    </div>
+  </div>
+</Layout>

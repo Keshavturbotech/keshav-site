@@ -1,0 +1,442 @@
+---
+// src/pages/services/index.astro
+// Full port of ServicesPage from App.jsx (line ~19211).
+import Layout from "../../layouts/Layout.astro";
+import { localizedPath } from "../../lib/localeMeta";
+import ServicesFAQ from "../../components/islands/ServicesFAQ.jsx";
+import type { Service } from "../../data/services";
+import { CONTACT_INFO } from "../../data/site-config";
+import { getLocalizedList, getLocalizedData } from "../../lib/i18n";
+
+const locale = Astro.currentLocale ?? "en";
+const SERVICES = getLocalizedList<Service>("services", locale);
+const pageHeaders = getLocalizedData<
+  Record<string, { metaTitle: string; metaDescription: string; h1: string; subheading: string }>
+>("page-headers", locale).services;
+const SVC_SCOPE_MAP = getLocalizedData<Record<string, { scope: string; turnaround: string }>>(
+  "service-scope",
+  locale,
+);
+
+const SVC_INQUIRY_MAP: Record<string, string> = {
+  srv_1: "Turbine Erection & Commissioning",
+  srv_2: "Turbine Overhauling Service",
+  srv_3: "Reverse Engineering",
+  srv_4: "Dynamic Balancing",
+  srv_5: "Lube Oil Flushing",
+  srv_6: "Machine Alignment",
+  srv_7: "Troubleshooting",
+  srv_8: "Sand Blasting",
+};
+
+const SVC_FAQ_ITEMS_SCHEMA = [
+  {
+    q: "What turbine makes do you overhaul?",
+    a: "We service all major makes: Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, Chola Turbo, DLF-Skoda, KKK, and ABB — covering turbines from 5 kW to 60 MW.",
+  },
+  {
+    q: "How fast can you respond to a breakdown emergency?",
+    a: "Our engineers are stationed at multiple locations across India. For North India, typical site arrival is 4–12 hours from your call. We operate 24×7.",
+  },
+];
+
+const FAQ_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: SVC_FAQ_ITEMS_SCHEMA.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+
+const waHref = (text: string) =>
+  `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent(text)}`;
+---
+
+<Layout
+  title={pageHeaders.metaTitle}
+  description={pageHeaders.metaDescription}
+  keywords="steam turbine overhauling India, turbine reverse engineering, turbine erection commissioning, dynamic balancing service, lube oil flushing, machine alignment, Triveni turbine service, BHEL turbine maintenance, Keshav Enterprises Shamli"
+  canonicalPath="/services"
+  jsonLd={FAQ_SCHEMA}
+>
+  <div
+    class="bg-[#0A192F] text-white py-24 mb-16 border-b-8 border-blue-600 relative overflow-hidden pt-40"
+  >
+    <img
+      src="/services-hero-bg.webp"
+      alt=""
+      aria-hidden="true"
+      width="1920"
+      height="700"
+      loading="eager"
+      decoding="async"
+      class="absolute inset-0 w-full h-full object-cover pointer-events-none select-none"
+      style="opacity:0.45;object-fit:cover;"
+      onerror="this.style.display='none'"
+    />
+    <div class="absolute inset-0 bg-[#0A192F]/75"></div>
+    <div class="absolute inset-0 bg-linear-to-t from-[#0A192F]/90 via-transparent to-[#0A192F]/50">
+    </div>
+    <div
+      class="absolute inset-0 opacity-10"
+      style="background-image:linear-gradient(to right,#4f4f4f2e 1px,transparent 1px),linear-gradient(to bottom,#4f4f4f2e 1px,transparent 1px);background-size:4rem 4rem;"
+      aria-hidden="true"
+    >
+    </div>
+    <div
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center relative z-10"
+    >
+      <h1 class="text-5xl md:text-6xl font-black mb-6 tracking-tight drop-shadow-lg">
+        {pageHeaders.h1}
+      </h1>
+      <div class="w-24 h-1.5 bg-blue-500 mb-8 rounded-full" aria-hidden="true"></div>
+      <p class="text-slate-300 font-medium max-w-3xl mx-auto text-xl md:text-2xl leading-relaxed">
+        {pageHeaders.subheading}
+      </p>
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="space-y-24 mt-12">
+      {
+        SERVICES.map((service, index) => (
+          <div
+            class={`relative flex flex-col md:flex-row gap-16 group ${index % 2 !== 0 ? "md:flex-row-reverse" : ""}`}
+          >
+            {/*
+              FIXED: the description paragraph and "What We Deliver" feature
+              list were dead click zones — hovering anywhere in this card
+              (thanks to the shared `group` class) already triggered the
+              image/title hover effects as if the whole block were one
+              target, but only the image, title, and the two CTA buttons
+              below actually navigated. Same class of bug as the product
+              card fix; same stretched-link solution: this overlay fills the
+              dead space with a link to the service detail page, while the
+              image, title, and CTA buttons stay independently clickable via
+              relative z-10 below.
+            */}
+            <a
+              href={localizedPath(locale, `/services/${service.slug}`)}
+              class="absolute inset-0 z-0"
+              tabindex="-1"
+              aria-hidden="true"
+            />
+            <div class="md:w-2/5 w-full shrink-0 relative z-10">
+              {/*
+                FIXED (label-content-name-mismatch): this card's aria-label
+                ("View full details for X") replaced the accessible name
+                entirely, but the card's visible content — the title badge
+                and OEM expertise summary — was never included in it. Screen
+                reader users heard a label that didn't match what's on
+                screen. Dropping the override lets the accessible name be
+                built from the visible content instead, which trivially
+                satisfies WCAG 2.5.3 (Label in Name) since the name now IS
+                the visible text.
+              */}
+              <a
+                href={localizedPath(locale, `/services/${service.slug}`)}
+                class="w-full h-full min-h-70 sm:min-h-85 lg:min-h-110 rounded-3xl overflow-hidden shadow-xl group-hover:shadow-2xl transition-all duration-500 bg-[#0A192F] focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-500 block relative"
+              >
+                {service.image && (
+                  <img
+                    src={`/${service.image}`}
+                    alt={service.title}
+                    class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    loading="lazy"
+                    decoding="async"
+                    width="560"
+                    height="420"
+                    onerror="this.style.display='none'"
+                  />
+                )}
+                <div
+                  class="absolute inset-0 opacity-10"
+                  style="background-image:radial-gradient(#94a3b8 1px,transparent 1px);background-size:16px 16px;"
+                  aria-hidden="true"
+                />
+                <div class="absolute inset-0 bg-linear-to-t from-[#0A192F]/95 via-[#0A192F]/20 to-transparent z-10" />
+
+                <div class="absolute top-5 left-5 z-20">
+                  <div class="flex items-center gap-3 bg-[#0A192F]/70 backdrop-blur-md border border-white/10 px-4 py-2.5 rounded-xl shadow-lg">
+                    <div class="w-9 h-9 bg-blue-600/20 rounded-lg flex items-center justify-center border border-blue-500/30 shrink-0">
+                      <svg
+                        class="w-5 h-5 text-blue-400"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        aria-hidden="true"
+                      >
+                        <>
+                          <circle cx="12" cy="12" r="9" />
+                          <path d="M12 7v5l3 3" />
+                        </>
+                      </svg>
+                    </div>
+                    <span class="text-white font-black text-xs uppercase tracking-widest leading-tight">
+                      {service.title}
+                    </span>
+                  </div>
+                </div>
+
+                {service.oems && (
+                  <section
+                    class="absolute bottom-0 left-0 right-0 z-20 p-5"
+                    aria-label={`OEM expertise: ${service.oems.join(", ")}`}
+                  >
+                    <p class="text-[10px] font-black text-blue-400 uppercase tracking-widest mb-2">
+                      OEM Expertise
+                    </p>
+                    <div class="flex flex-wrap gap-1.5">
+                      {service.oems.slice(0, 6).map((oem) => (
+                        <span class="text-[11px] font-black text-slate-200 bg-slate-800/80 backdrop-blur-sm px-2.5 py-1 rounded-full uppercase tracking-wide border border-white/10">
+                          {oem}
+                        </span>
+                      ))}
+                      {service.oems.length > 6 && (
+                        <span class="text-[11px] font-black text-blue-300 bg-blue-900/50 backdrop-blur-sm px-2.5 py-1 rounded-full uppercase tracking-wide border border-blue-500/20">
+                          +{service.oems.length - 6} more
+                        </span>
+                      )}
+                    </div>
+                  </section>
+                )}
+              </a>
+            </div>
+
+            <div class="md:w-3/5 w-full">
+              <div
+                class="text-blue-600 font-black tracking-widest text-sm uppercase mb-5 flex items-center"
+                aria-hidden="true"
+              >
+                <span class="w-10 h-0.5 bg-blue-600 mr-4" /> Service{" "}
+                {(index + 1).toString().padStart(2, "0")}
+                {SVC_SCOPE_MAP[service.id] && (
+                  <span class="ml-4 inline-flex items-center gap-1.5 text-slate-600 bg-slate-100 border border-slate-200 px-3 py-1 rounded-full text-[11px] font-black uppercase tracking-widest normal-case">
+                    <svg
+                      class="w-3.5 h-3.5 text-blue-600"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      aria-hidden="true"
+                    >
+                      <circle cx="12" cy="12" r="9" />
+                      <path d="M12 7v5l3 3" />
+                    </svg>
+                    {SVC_SCOPE_MAP[service.id].turnaround}
+                  </span>
+                )}
+              </div>
+              <a
+                href={localizedPath(locale, `/services/${service.slug}`)}
+                class="text-left group/title focus:outline-none focus-visible:underline mb-6 block w-full relative z-10"
+                aria-label={`View full details for ${service.title}`}
+              >
+                <h2 class="text-4xl md:text-5xl font-black text-slate-900 tracking-tight leading-tight group-hover/title:text-blue-600 transition-colors duration-300 flex items-start gap-3">
+                  {service.title}
+                  <svg
+                    class="w-8 h-8 mt-2 shrink-0 opacity-0 -translate-x-2 group-hover/title:opacity-100 group-hover/title:translate-x-0 transition-all duration-300 text-blue-600"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 12h14m-7-7l7 7-7 7"
+                    />
+                  </svg>
+                </h2>
+              </a>
+              <p class="text-slate-600 font-medium text-lg mb-8 leading-relaxed">{service.desc}</p>
+              <div class="mb-8 bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+                <div class="bg-slate-900 px-6 py-4">
+                  <h3 class="font-black text-white text-sm uppercase tracking-widest">
+                    What We Deliver
+                  </h3>
+                </div>
+                <ul class="divide-y divide-slate-100">
+                  {service.details.map((detail) => (
+                    <li class="flex items-start px-6 py-4 hover:bg-blue-50/30 transition-colors">
+                      <svg
+                        class="w-5 h-5 text-blue-500 mr-4 shrink-0 mt-0.5"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        aria-hidden="true"
+                      >
+                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <span class="text-slate-700 font-medium text-sm leading-relaxed">
+                        {detail}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div class="flex flex-wrap gap-4 relative z-10">
+                <a
+                  href={`/contact?service=${encodeURIComponent(SVC_INQUIRY_MAP[service.id] ?? service.title)}`}
+                  aria-label={`Inquire About This Service — ${service.title}`}
+                  class="bg-blue-600 text-white px-8 py-4 rounded-xl font-black text-lg hover:bg-blue-700 transition-all shadow-md hover:shadow-xl flex items-center group/btn focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
+                >
+                  Inquire About This Service
+                  <svg
+                    class="ml-3 w-5 h-5 group-hover/btn:translate-x-1 transition-transform"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 12h14m-7-7l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href={localizedPath(locale, `/services/${service.slug}`)}
+                  aria-label={`View full details for ${service.title}`}
+                  class="border-2 border-slate-300 text-slate-600 px-8 py-4 rounded-xl font-black text-lg hover:border-slate-500 hover:text-slate-900 transition-colors shadow-sm flex items-center group/btn focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                >
+                  View Full Details
+                  <svg
+                    class="ml-3 w-5 h-5 group-hover/btn:translate-x-1 transition-transform"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5 12h14m-7-7l7 7-7 7"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+
+  <!-- Mid-page emergency CTA -->
+  <div class="bg-amber-50 border-t border-b border-amber-200 py-8 mt-16">
+    <div
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-5"
+    >
+      <div class="flex items-center gap-4">
+        <div
+          class="w-12 h-12 bg-red-500/10 rounded-xl flex items-center justify-center border border-red-400/20 shrink-0"
+        >
+          <svg
+            class="w-6 h-6 text-red-500"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"
+            ><path d="M12 2a10 10 0 100 20 10 10 0 000-20zM12 8v5m0 3h.01"></path></svg
+          >
+        </div>
+        <div>
+          <p class="font-black text-slate-900 text-base leading-snug">Turbine down right now?</p>
+          <p class="text-slate-600 text-sm font-medium">
+            Our engineers are on call 24×7. Average site arrival: 4–12 hours anywhere in North
+            India.
+          </p>
+        </div>
+      </div>
+      <div class="flex gap-3 shrink-0">
+        <a
+          href={waHref("EMERGENCY: Our turbine has tripped. Please assist immediately.")}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center gap-2 bg-whatsapp text-white px-5 py-3 rounded-xl font-black text-sm hover:bg-whatsapp-hover transition-all shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-green-400 whitespace-nowrap"
+        >
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
+            ><path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"
+            ></path></svg
+          >
+          WhatsApp Emergency
+        </a>
+        <a
+          href={`tel:${CONTACT_INFO.phones[1].replace(/\s/g, "")}`}
+          class="flex items-center gap-2 bg-slate-900 text-white px-5 py-3 rounded-xl font-black text-sm hover:bg-blue-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 whitespace-nowrap"
+        >
+          <svg
+            class="w-4 h-4"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"
+            ><path
+              d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"
+            ></path></svg
+          >
+          {CONTACT_INFO.phones[1]}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <ServicesFAQ client:visible />
+
+  <!-- See Our Work banner -->
+  <div class="bg-[#0A192F] border-t-4 border-blue-600 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+        <div class="text-center md:text-left">
+          <p class="text-xs font-black text-blue-400 uppercase tracking-[0.25em] mb-2">
+            Proven in the Field
+          </p>
+          <h2 class="text-2xl md:text-3xl font-black text-white leading-tight">
+            See These Services in Action
+          </h2>
+          <p class="text-slate-300 text-sm mt-2 max-w-md">
+            Real case studies — actual outcomes, actual numbers. From a Triveni overhaul that cut
+            vibration by 72% to a reverse-engineered Siemens disc delivered in 21 days at ₹12 lakh
+            below OEM price.
+          </p>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-3 shrink-0">
+          <a
+            href={localizedPath(locale, "/projects")}
+            class="bg-blue-600 text-white px-8 py-4 rounded-xl font-black text-base hover:bg-blue-700 transition-all shadow-lg flex items-center justify-center gap-2 group focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
+          >
+            Projects &amp; Case Studies
+            <svg
+              class="w-5 h-5 group-hover:translate-x-1 transition-transform"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              aria-hidden="true"
+              ><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7"
+              ></path></svg
+            >
+          </a>
+          <a
+            href="/contact"
+            class="border-2 border-slate-600 text-slate-300 px-8 py-4 rounded-xl font-black text-base hover:border-blue-400 hover:text-white transition-all flex items-center justify-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
+          >
+            Discuss Your Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

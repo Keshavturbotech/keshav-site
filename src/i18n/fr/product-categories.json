@@ -1,0 +1,35 @@
+{
+  "all": {
+    "label": "Tous"
+  },
+  "industrial-filtration": {
+    "label": "Filtration industrielle"
+  },
+  "industrial-strainers": {
+    "label": "Crépines industrielles"
+  },
+  "expansion-joints": {
+    "label": "Joints de dilatation"
+  },
+  "turbine-spares": {
+    "label": "Pièces de rechange pour turbines"
+  },
+  "industrial-rubber-products": {
+    "label": "Produits en caoutchouc industriel"
+  },
+  "flexible-hoses-and-assemblies": {
+    "label": "Flexibles et assemblages"
+  },
+  "electronic-equipments": {
+    "label": "Équipements électroniques"
+  },
+  "hydraulic-components": {
+    "label": "Composants hydrauliques"
+  },
+  "hvac-ducting-and-air-filtration": {
+    "label": "CVC, Conduits et Filtration d'Air"
+  },
+  "valves-gaskets-and-steam-system-products": {
+    "label": "Vannes, Joints et Produits du Système Vapeur"
+  }
+}

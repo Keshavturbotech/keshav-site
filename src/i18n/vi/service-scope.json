@@ -1,0 +1,30 @@
+{
+  "srv_1": {
+    "scope": "Trọn gói",
+    "turnaround": "Theo tiến độ dự án"
+  },
+  "srv_2": {
+    "scope": "Trọn gói tại hiện trường",
+    "turnaround": "Thường 3–21 ngày"
+  },
+  "srv_3": {
+    "scope": "Tại xưởng & hiện trường",
+    "turnaround": "7–30 ngày"
+  },
+  "srv_4": {
+    "scope": "Tại xưởng",
+    "turnaround": "Tiêu chuẩn 48–72 giờ"
+  },
+  "srv_5": {
+    "scope": "Súc rửa tại hiện trường",
+    "turnaround": "2–7 ngày"
+  },
+  "srv_6": {
+    "scope": "Chính xác tại hiện trường",
+    "turnaround": "1–3 ngày"
+  },
+  "srv_7": {
+    "scope": "Chẩn đoán tại hiện trường",
+    "turnaround": "Báo cáo trong ngày"
+  }
+}

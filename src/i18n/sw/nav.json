@@ -1,0 +1,29 @@
+{
+  "/": {
+    "label": "Nyumbani"
+  },
+  "/about": {
+    "label": "Kuhusu"
+  },
+  "/services": {
+    "label": "Huduma"
+  },
+  "/products": {
+    "label": "Bidhaa"
+  },
+  "/industries": {
+    "label": "Viwanda"
+  },
+  "/contact": {
+    "label": "Wasiliana"
+  },
+  "/projects": {
+    "label": "Miradi"
+  },
+  "/blog": {
+    "label": "Blogu"
+  },
+  "/downloads": {
+    "label": "Vipakuliwa"
+  }
+}

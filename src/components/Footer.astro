@@ -1,0 +1,974 @@
+---
+import {
+  CONTACT_INFO,
+  OEMS,
+  SOCIAL_LINKS,
+  YEARS_IN_BUSINESS,
+} from "../data/site-config";
+import type { Service } from "../data/services";
+import { getLocalizedData, getLocalizedList } from "../lib/i18n";
+import { localizedPath } from "../lib/localeMeta";
+
+const locale = Astro.currentLocale ?? "en";
+const navLinksData = getLocalizedData<Record<string, { label: string }>>("nav", locale);
+// FIXED: nav.json's keys are plain, locale-agnostic paths ("/about", "/") —
+// same root bug found in Navbar.jsx (see its comments). Footer renders on
+// every page too, so this was silently bouncing translated-page visitors
+// back to English on click, same as the navbar was.
+const NAV_LINKS = Object.entries(navLinksData).map(([path, { label }]) => ({
+  name: label,
+  path: localizedPath(locale, path),
+}));
+const SERVICES = getLocalizedList<Service>("services", locale);
+
+const year = new Date().getFullYear();
+
+const CREDENTIAL_BADGES = [
+  {
+    imgSrc: "/msme-logo.png",
+    title: "MSME Registered",
+    sub: CONTACT_INFO.msme,
+    accentColor: "#38BDF8",
+  },
+  {
+    imgSrc: "/iec-logo.png",
+    title: "IEC Registered",
+    sub: CONTACT_INFO.iec,
+    accentColor: "#f472b6",
+  },
+  {
+    imgSrc: "/indiamart-logo.png",
+    title: "IndiaMART TrustSeal",
+    sub: "4.3★ Verified Supplier",
+    accentColor: "#fb923c",
+  },
+  {
+    imgSrc: "/make-in-india.png",
+    title: "Make In India",
+    sub: "Manufactured in India",
+    accentColor: "#4ade80",
+  },
+];
+
+// ids stay the stable internal keys; slug is resolved from SERVICES so the
+// footer always points at the same readable URL as the service detail page.
+const CORE_SERVICES_LINKS = [
+  { label: "Turbine Erection", id: "srv_1" },
+  { label: "Turnkey Overhauling", id: "srv_2" },
+  { label: "Reverse Engineering", id: "srv_3" },
+  { label: "Dynamic Balancing", id: "srv_4" },
+  { label: "Lube Oil Flushing", id: "srv_5" },
+  { label: "Machine Alignment", id: "srv_6" },
+  { label: "Sand Blasting", id: "srv_8" },
+].map(({ label, id }) => ({ label, slug: SERVICES.find((s) => s.id === id)?.slug ?? id }));
+
+const INDUSTRIES_TAGS = [
+  { name: "Power Generation", color: "#facc15" },
+  { name: "Sugar Mills", color: "#4ade80" },
+  { name: "Paper & Pulp", color: "#67E8F9" },
+  { name: "Oil & Gas", color: "#fb923c" },
+  { name: "Petrochemical", color: "#c084fc" },
+  { name: "Agro & Food", color: "#2dd4bf" },
+  { name: "Cement", color: "#a8a29e" },
+];
+---
+
+<footer role="contentinfo" class="ke-footer ke-footer-mobile-cta-clearance">
+  <div class="ke-accent-bar" aria-hidden="true"></div>
+
+  <div class="ke-upper">
+    <div class="ke-footer-grid">
+      <div>
+        <div class="ke-brand-block">
+          <a href={localizedPath(locale, "/")} class="ke-brand-link">
+            <img src="/keshav-logo.png" alt="" width="40" height="40" class="ke-brand-logo" />
+            <span class="ke-brand-text">
+              <span class="ke-brand-name">Keshav Enterprises</span>
+              <span class="ke-brand-sub">Turbine Engineering</span>
+            </span>
+          </a>
+        </div>
+
+        <p class="ke-brand-desc">
+          {YEARS_IN_BUSINESS}+ years delivering ex-OEM turbine engineering, precision reverse
+          engineering, and certified industrial spares across India.
+        </p>
+
+        <div class="ke-badges-wrap">
+          {
+            CREDENTIAL_BADGES.map((badge) => (
+              <div class="ke-badge">
+                <div class="ke-badge-logo" style={{ borderColor: `${badge.accentColor}25` }}>
+                  <img src={badge.imgSrc} alt="" width="26" height="26" loading="lazy" />
+                </div>
+                <div class="ke-badge-text">
+                  <p class="ke-badge-title">{badge.title}</p>
+                  <p class="ke-badge-sub">{badge.sub}</p>
+                </div>
+                <div
+                  class="ke-badge-dot"
+                  style={{ background: badge.accentColor }}
+                  aria-hidden="true"
+                />
+              </div>
+            ))
+          }
+        </div>
+
+        <p class="ke-footer-label">OEM Compatible With</p>
+        <p class="ke-footer-mono">{OEMS.join(" · ")}</p>
+        <p class="ke-trademark-note">
+          Brand names above are trademarks of their respective owners, referenced solely to indicate
+          compatibility. Keshav Enterprises is an independent supplier and is not affiliated with,
+          authorized by, or sponsored by these companies.
+        </p>
+      </div>
+
+      <nav aria-label="Footer site links">
+        <span class="ke-col-h3">Navigate</span>
+        <ul class="ke-footer-list">
+          {
+            NAV_LINKS.map((link) => (
+              <li>
+                <a href={link.path} class="ke-nav-btn">
+                  <svg
+                    aria-hidden="true"
+                    class="ke-icon-lg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                  >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                  {link.name}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+
+      <div>
+        <span class="ke-col-h3">Core Services</span>
+        <ul class="ke-footer-list">
+          {
+            CORE_SERVICES_LINKS.map(({ label, slug }) => (
+              <li>
+                <a href={localizedPath(locale, `/services/${slug}`)} class="ke-nav-btn">
+                  <svg
+                    aria-hidden="true"
+                    class="ke-icon-sm"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 12l-3-3v6l3-3zM3 12l3 3V9l-3 3zM12 3l-3 3h6l-3-3zM12 21l3-3H9l3 3z" />
+                  </svg>
+                  {label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+        <a href={localizedPath(locale, "/services")} class="ke-all-srv">
+          <svg
+            width="12"
+            height="12"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"
+            ></path>
+          </svg>
+          All Services
+        </a>
+      </div>
+
+      <address class="ke-address">
+        <span class="ke-col-h3">Contact Us</span>
+        <div class="ke-contact-col">
+          <div class="ke-contact-row">
+            <div class="ke-contact-icon">
+              <svg
+                class="ke-icon-contact"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <path d="M12 21s-7-7.5-7-12a7 7 0 1114 0c0 4.5-7 12-7 12z"></path>
+                <circle cx="12" cy="9" r="2.5"></circle>
+              </svg>
+            </div>
+            <a
+              href={CONTACT_INFO.gmapsShare}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="ke-contact-link"
+            >
+              {CONTACT_INFO.address}
+            </a>
+          </div>
+
+          <div class="ke-contact-row">
+            <div class="ke-contact-icon">
+              <svg
+                class="ke-icon-contact"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"
+                ></path>
+              </svg>
+            </div>
+            <div class="ke-phone-list">
+              {
+                CONTACT_INFO.phones.map((p) => (
+                  <a href={`tel:${p.replace(/\s/g, "")}`} class="ke-contact-link ke-phone">
+                    {p}
+                  </a>
+                ))
+              }
+            </div>
+          </div>
+
+          <div class="ke-contact-row">
+            <div class="ke-contact-icon">
+              <svg
+                class="ke-icon-contact"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="M22 6l-10 7L2 6"></path>
+              </svg>
+            </div>
+            <div class="ke-email-col">
+              {
+                [
+                  { addr: CONTACT_INFO.email, label: "General" },
+                  { addr: CONTACT_INFO.infoEmail, label: "Info" },
+                ].map(({ addr, label }) => (
+                  <a href={`mailto:${addr}`} class="ke-contact-link ke-email-link">
+                    <span class="ke-ellipsis">{addr}</span>
+                    <span class="ke-tiny-label">{label}</span>
+                  </a>
+                ))
+              }
+            </div>
+          </div>
+        </div>
+      </address>
+    </div>
+
+    <div class="ke-follow-block">
+      <p class="ke-cert-row">
+        <span class="ke-hr-line" aria-hidden="true"></span>
+        Follow Us
+        <span class="ke-hr-line" aria-hidden="true"></span>
+      </p>
+      <nav aria-label="Social media profiles" class="ke-social-row">
+        {
+          SOCIAL_LINKS.map((s) => (
+            <a
+              href={s.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="ke-soc-pill"
+            >
+              <span class="ke-soc-badge" style={{ background: s.iconBg || s.color }}>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  width="14"
+                  height="14"
+                  aria-hidden="true"
+                  style={{ color: "#fff" }}
+                >
+                  <path d={s.path} />
+                </svg>
+              </span>
+              <span class="sr-only">{s.label}</span>
+              <span class="ke-soc-handle">{s.handle}</span>
+            </a>
+          ))
+        }
+      </nav>
+    </div>
+
+    <div class="ke-divider" aria-hidden="true"></div>
+
+    <div class="ke-card">
+      <div>
+        <p class="ke-card-label">Industries Served</p>
+        <div class="ke-tag-row">
+          {
+            INDUSTRIES_TAGS.map(({ name, color }) => (
+              <span
+                class="ke-ind-tag"
+                style={{ color, background: `${color}18`, borderColor: `${color}44` }}
+              >
+                {name}
+              </span>
+            ))
+          }
+        </div>
+      </div>
+      <div class="ke-capability">
+        <p class="ke-card-label">Capability Range</p>
+        <p class="ke-cap-nums">
+          <span class="ke-stat-num">5 kW</span><span class="ke-stat-unit">—</span><span
+            class="ke-stat-num">60 MW</span
+          >
+        </p>
+        <p class="ke-stat-label">Back Pressure &amp; Condensing Turbines</p>
+      </div>
+    </div>
+
+    <div class="ke-bottom-bar">
+      <p class="ke-copyright">© {year} Keshav Enterprises. All rights reserved.</p>
+      <nav aria-label="Legal" class="ke-legal-row">
+        <a href="/privacy-policy" class="ke-legal-link">Privacy Policy</a>
+        <a href="/terms-of-service" class="ke-legal-link">Terms of Service</a>
+      </nav>
+      <div class="ke-bottom-row">
+        <div class="ke-id-badges">
+          {
+            [
+              { label: "GST", value: CONTACT_INFO.gst },
+              { label: "MSME", value: CONTACT_INFO.msme },
+              { label: "IEC", value: CONTACT_INFO.iec },
+            ].map(({ label, value }) => (
+              <span class="ke-id-chip">
+                <span class="ke-id-label">{label}</span>
+                <span class="ke-id-value">{value}</span>
+              </span>
+            ))
+          }
+        </div>
+        <button type="button" id="ke-back-top" class="ke-back-top" aria-label="Back to top"
+          >↑ Top</button
+        >
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script is:inline>
+  document.getElementById("ke-back-top")?.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>
+
+<style>
+  /* Clearance for MobileStickyCTA (Layout.astro): that bar is fixed at the
+     bottom of the viewport on screens <768px, so without this the last row
+     of the footer would sit permanently underneath it once a visitor
+     scrolls all the way down. 64px ~ the bar's min-h-14 content height;
+     the env() term adds the iOS home-indicator safe-area on top of that,
+     matching the bar's own safe-area padding so the gap looks intentional
+     rather than oversized on notch devices. Desktop is unaffected (bar is
+     md:hidden there). */
+  .ke-footer-mobile-cta-clearance {
+    padding-bottom: calc(64px + env(safe-area-inset-bottom, 0px));
+  }
+  @media (min-width: 768px) {
+    .ke-footer-mobile-cta-clearance {
+      padding-bottom: 0;
+    }
+  }
+  .ke-footer {
+    background: var(--color-navy-900);
+    color: #fff;
+    font-family: sans-serif;
+  }
+  .ke-accent-bar {
+    height: 4px;
+    background: linear-gradient(90deg, #1d4ed8 0%, #2563eb 60%, #3b82f6 100%);
+  }
+  .ke-upper {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 2rem;
+  }
+  .ke-footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem 3rem;
+    margin-bottom: 2.5rem;
+  }
+  @media (min-width: 640px) {
+    .ke-footer-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (min-width: 1024px) {
+    .ke-footer-grid {
+      grid-template-columns: 2.2fr 1fr 1.25fr 1.6fr;
+    }
+  }
+
+  .ke-brand-block {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #0d2040;
+  }
+  .ke-brand-link {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    text-decoration: none;
+  }
+  .ke-brand-logo {
+    height: 2.25rem;
+    width: 2.25rem;
+    object-fit: contain;
+  }
+  .ke-brand-text {
+    line-height: 1.1;
+  }
+  .ke-brand-name {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .ke-brand-sub {
+    display: block;
+    font-size: 0.62rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #3b82f6;
+  }
+  .ke-brand-desc {
+    font-size: 0.82rem;
+    line-height: 1.8;
+    color: #94a3b8;
+    margin: 0 0 1.25rem;
+    max-width: 22rem;
+  }
+
+  .ke-badges-wrap {
+    margin-bottom: 1.25rem;
+  }
+  .ke-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, var(--color-navy-900) 0%, var(--color-navy-800) 100%);
+    border: 1px solid #132040;
+    border-radius: 0.75rem;
+    transition:
+      border-color 0.2s,
+      box-shadow 0.2s;
+  }
+  .ke-badge:hover {
+    border-color: #2563eb50;
+    box-shadow: 0 4px 16px #2563eb18;
+  }
+  .ke-badge-logo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.45rem;
+    background: #fff;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 2px;
+  }
+  .ke-badge-logo img {
+    width: 1.6rem;
+    height: 1.6rem;
+    object-fit: contain;
+  }
+  .ke-badge-text {
+    min-width: 0;
+  }
+  .ke-badge-title {
+    margin: 0;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #e2e8f0;
+    line-height: 1.25;
+  }
+  .ke-badge-sub {
+    margin: 2px 0 0;
+    font-size: 0.68rem;
+    /* was #64748b — same low-contrast token flagged elsewhere in this
+       file against the navy-900/800 gradient background */
+    color: #94a3b8;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ke-badge-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    opacity: 0.8;
+  }
+
+  .ke-footer-label {
+    font-size: 8.5px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    /* was #64748b (4.09:1 on #050d1a — fails WCAG AA 4.5:1); slate-400
+       clears it with margin to spare */
+    color: #94a3b8;
+    margin: 0 0 0.5rem;
+  }
+  .ke-footer-mono {
+    font-family: monospace;
+    font-size: 0.66rem;
+    /* was #475569 (2.56:1 on #050d1a — fails badly); lightened just enough
+       to clear 4.5:1 while staying visibly quieter than ke-footer-label */
+    color: #7d8ba1;
+  }
+  .ke-trademark-note {
+    font-size: 0.68rem;
+    line-height: 1.6;
+    color: #7d8ba1;
+    margin-top: 0.6rem;
+    max-width: 22rem;
+  }
+
+  .ke-col-h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #3b82f6;
+    margin: 0 0 1.1rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #0d2040;
+  }
+  .ke-col-h3::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 12px;
+    background: #2563eb;
+    border-radius: 99px;
+    flex-shrink: 0;
+  }
+  .ke-footer-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+  }
+  .ke-nav-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    color: #94a3b8;
+    font-size: 0.83rem;
+    font-weight: 500;
+    padding: 0.2rem 0;
+    text-align: left;
+    transition:
+      color 0.15s,
+      gap 0.15s;
+    text-decoration: none;
+  }
+  .ke-nav-btn:hover,
+  .ke-nav-btn:focus {
+    color: #e2e8f0;
+    gap: 0.6rem;
+    outline: none;
+  }
+  .ke-icon-lg {
+    width: 0.875rem;
+    height: 0.875rem;
+    color: #2563eb;
+    flex-shrink: 0;
+  }
+  .ke-icon-sm {
+    width: 0.75rem;
+    height: 0.75rem;
+    color: #2563eb;
+    flex-shrink: 0;
+  }
+  .ke-all-srv {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 1rem;
+    padding: 0.45rem 0.875rem;
+    background: transparent;
+    border: 1px solid var(--color-navy-600);
+    border-radius: 0.5rem;
+    color: #3b82f6;
+    font-size: 0.72rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition:
+      border-color 0.15s,
+      background 0.15s,
+      color 0.15s;
+    text-decoration: none;
+  }
+  .ke-all-srv:hover {
+    border-color: #2563eb;
+    background: #2563eb15;
+    color: #fff;
+  }
+
+  .ke-address {
+    font-style: normal;
+  }
+  .ke-contact-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+  .ke-contact-row {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+  }
+  .ke-contact-icon {
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 0.45rem;
+    background: #0a1a30;
+    border: 1px solid #132040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+    transition:
+      border-color 0.15s,
+      background 0.15s;
+  }
+  .ke-contact-row:hover .ke-contact-icon {
+    background: #2563eb20;
+    border-color: #2563eb60;
+  }
+  .ke-icon-contact {
+    width: 0.85rem;
+    height: 0.85rem;
+    color: #3b82f6;
+    flex-shrink: 0;
+  }
+  .ke-contact-link {
+    color: #94a3b8;
+    font-size: 0.82rem;
+    text-decoration: none;
+    display: block;
+    transition: color 0.15s;
+    line-height: 1.6;
+  }
+  .ke-contact-link:hover,
+  .ke-contact-link:focus {
+    color: #3b82f6;
+    outline: none;
+  }
+  .ke-phone-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .ke-phone {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 0.82rem;
+    color: #e2e8f0;
+    position: relative;
+    /* Real padding (not an invisible/overlapping hit-area hack) so each
+       phone link's own box is at least 24x24 CSS px per WCAG 2.5.8, and the
+       ke-phone-list gap above keeps stacked numbers from touching. */
+    display: block;
+    padding: 4px 0;
+  }
+  .ke-email-col {
+    min-width: 0;
+  }
+  .ke-email-link {
+    margin-bottom: 6px;
+  }
+  .ke-ellipsis {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .ke-tiny-label {
+    font-family: monospace;
+    font-size: 8px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    /* was #64748b (4.08:1 on #050d1a — fails WCAG AA 4.5:1) */
+    color: #94a3b8;
+  }
+
+  .ke-follow-block {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .ke-cert-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: monospace;
+    font-size: 0.62rem;
+    /* was #475569 (2.56:1 on #050d1a — fails badly) */
+    color: #7d8ba1;
+    letter-spacing: 0.1em;
+  }
+  .ke-hr-line {
+    flex: 1;
+    height: 1px;
+    background: #0d2040;
+  }
+  .ke-social-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.4rem;
+    margin-top: 0.9rem;
+  }
+  @media (min-width: 420px) {
+    .ke-social-row {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media (min-width: 540px) {
+    .ke-social-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  }
+  .ke-soc-pill {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.9rem 0.5rem 0.4rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    border: 1px solid #1e293b;
+    background: #0a1628;
+    transition:
+      background 0.15s,
+      border-color 0.15s,
+      transform 0.15s;
+    min-height: 42px;
+  }
+  .ke-soc-pill:hover {
+    background: #0f1f33;
+    transform: translateY(-1px);
+  }
+  .ke-soc-badge {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .ke-soc-handle {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #e2e8f0;
+    white-space: nowrap;
+  }
+
+  .ke-divider {
+    height: 1px;
+    background: #0d2040;
+    margin-bottom: 1.75rem;
+  }
+
+  .ke-card {
+    border-radius: 0.875rem;
+    padding: 1.4rem;
+    background: var(--color-navy-900);
+    border: 1px solid #0d2040;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-bottom: 1.75rem;
+  }
+  .ke-card-label {
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    /* was #64748b (4.08:1 on #050d1a — fails WCAG AA 4.5:1) */
+    color: #94a3b8;
+    margin: 0 0 0.6rem;
+  }
+  .ke-tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+  .ke-ind-tag {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 600;
+    padding: 0.3rem 0.75rem;
+    border-radius: 2rem;
+    border: 1px solid;
+    transition:
+      transform 0.15s,
+      box-shadow 0.15s;
+  }
+  .ke-ind-tag:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  .ke-capability {
+    text-align: left;
+  }
+  .ke-cap-nums {
+    margin: 0;
+  }
+  .ke-stat-num {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .ke-stat-unit {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #3b82f6;
+    margin: 0 0.3rem;
+  }
+  .ke-stat-label {
+    margin: 0.25rem 0 0;
+    font-size: 0.6rem;
+    /* was #64748b (4.08:1 on #050d1a — fails WCAG AA 4.5:1) */
+    color: #94a3b8;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .ke-bottom-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding-top: 1.1rem;
+    border-top: 1px solid #0d2040;
+  }
+  .ke-copyright {
+    margin: 0;
+    font-size: 0.78rem;
+    /* was #475569 (2.56:1 on #050d1a — fails badly) */
+    color: #7d8ba1;
+  }
+  .ke-legal-row {
+    display: flex;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+  }
+  .ke-legal-link {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 0.78rem;
+    /* was #64748b (4.08:1 on #050d1a — fails WCAG AA 4.5:1) */
+    color: #94a3b8;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .ke-bottom-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.45rem;
+  }
+  .ke-id-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    align-items: center;
+  }
+  .ke-id-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border: 1px solid #0d2040;
+    border-radius: 0.375rem;
+    padding: 0.22rem 0.55rem;
+    font-size: 0.68rem;
+    /* was #64748b — same low-contrast token flagged elsewhere in this file */
+    color: #94a3b8;
+  }
+  .ke-id-label {
+    font-weight: 700;
+    color: #3b82f6;
+    font-size: 7.5px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+  .ke-id-value {
+    font-family: monospace;
+    color: #94a3b8;
+  }
+  .ke-back-top {
+    background: none;
+    border: 1px solid var(--color-navy-600);
+    border-radius: 0.375rem;
+    color: #3b82f6;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.3rem 0.7rem;
+    cursor: pointer;
+    transition:
+      background 0.15s,
+      border-color 0.15s;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .ke-back-top:hover,
+  .ke-back-top:focus {
+    background: #2563eb15;
+    border-color: #2563eb;
+    outline: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ke-soc-pill,
+    .ke-ind-tag {
+      transition: none !important;
+      transform: none !important;
+    }
+  }
+</style>

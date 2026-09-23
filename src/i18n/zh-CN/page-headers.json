@@ -1,0 +1,32 @@
+{
+  "products": {
+    "metaTitle": "产品目录 — 涡轮备件、过滤器、伸缩接头、HVAC 空气过滤器",
+    "metaDescription": "",
+    "h1": "工业产品",
+    "subheading": "{count} 款精密工程产品，涵盖 {categories} 个类别。符合 ISO/API/ASME 标准，提供完整技术规格。"
+  },
+  "services": {
+    "metaTitle": "涡轮服务 — 大修、安装与逆向工程",
+    "metaDescription": "为 5 kW 至 60 MW 蒸汽涡轮提供完整大修、逆向工程、安装与调试、动平衡、润滑油冲洗及机器对中服务。",
+    "h1": "技术服务",
+    "subheading": "为 5 kW 至 60 MW 工业旋转设备提供专业机械解决方案，确保发电厂、糖厂、造纸厂、炼油厂和石化行业的高可靠性。"
+  },
+  "industries": {
+    "metaTitle": "服务行业 — 电力、糖业、石油天然气、石化、水泥",
+    "metaDescription": "Keshav Enterprises 为电力、糖业、造纸、石油天然气、石化、农业及水泥行业提供专业涡轮工程与工业产品服务。",
+    "h1": "我们服务的行业",
+    "subheading": "覆盖七大主要工业领域的专业涡轮工程与工业产品解决方案。"
+  },
+  "blog": {
+    "metaTitle": "工程博客 — 涡轮维护、工业过滤与 HVAC 知识",
+    "metaDescription": "来自 Keshav Enterprises 工程团队关于蒸汽涡轮大修、润滑油过滤、HVAC 空气过滤器选型、脉冲喷射除尘器、逆向工程及工业维护最佳实践的技术文章。",
+    "h1": "工程博客",
+    "subheading": "来自我们工程团队的涡轮维护、润滑油系统、HVAC 空气过滤、除尘、逆向工程及工业最佳实践方面的技术见解。"
+  },
+  "downloads": {
+    "metaTitle": "免费技术下载 — 涡轮检查清单、数据表与询价模板",
+    "metaDescription": "从印度蒸汽涡轮专家 Keshav Enterprises 免费下载蒸汽涡轮大修检查清单、润滑油过滤器数据表、轴承间隙指南及询价模板。",
+    "h1": "免费下载",
+    "subheading": "为工厂工程师和采购团队提供免费技术检查清单、数据表、轴承参考资料及询价模板。"
+  }
+}

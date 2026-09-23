@@ -1,0 +1,16 @@
+---
+// src/pages/[locale]/downloads.astro — reads Astro.currentLocale directly.
+// Depends on downloads.astro's Part 1 step-4 fix (getLocalizedList instead
+// of a direct DOWNLOADS import).
+import DownloadsPage from "../downloads.astro";
+import { LOCALES, DEFAULT_LOCALE } from "../../lib/i18n";
+import { getPathByLocale } from "astro:i18n";
+
+export function getStaticPaths() {
+  return LOCALES.filter((locale) => locale !== DEFAULT_LOCALE).map((locale) => ({
+    params: { locale: getPathByLocale(locale) },
+  }));
+}
+---
+
+<DownloadsPage />

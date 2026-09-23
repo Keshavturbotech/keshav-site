@@ -1,0 +1,157 @@
+{
+  "srv_1": {
+    "id": "srv_1",
+    "image": "service-turbine-erection.webp",
+    "title": "汽轮机安装与调试",
+    "desc": "为汽轮机、水泵、压缩机、风机、凝汽器、桥式起重机及蒸汽/水/空气管道工程提供专业安装与调试服务，包含全程OEM协调与文档记录。",
+    "details": [
+      "汽轮机、水泵、压缩机、风机、凝汽器",
+      "桥式起重机、钢结构及管道工程",
+      "按OEM规范及适用标准进行施工监督",
+      "全阶段与OEM协调",
+      "移交运营部门的完整文档",
+      "制定并执行试车前程序",
+      "协助开车及按运行需求进行精细调整"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "Belliss India",
+      "Maxwatt"
+    ],
+    "slug": "turbine-erection-and-commissioning"
+  },
+  "srv_2": {
+    "id": "srv_2",
+    "image": "service-overhauling.webp",
+    "title": "交钥匙大修与维护",
+    "desc": "由来自Triveni、Siemens、BHEL、Belliss等品牌的原厂背景工程师执行，包括停机前规划、现场状态报告、全面备件管理及24小时紧急故障处理。",
+    "details": [
+      "对旋转设备进行详细范围界定的停机前规划",
+      "现场备件库存检查并出具短缺报告",
+      "原厂背景工程师：Triveni、Belliss、Maxwatt、Man Turbo、BHEL、Siemens、KKK、ABB",
+      "所有间隙、缝隙及尺寸均测量并记录",
+      "为每个部件出具状态报告及建议",
+      "交钥匙模式：提供工具、吊装设备、耗材及人力",
+      "24小时紧急响应，工程师分布多地"
+    ],
+    "oems": [
+      "Triveni",
+      "Belliss India",
+      "Maxwatt",
+      "Man Turbo",
+      "BHEL",
+      "Siemens",
+      "KKK",
+      "ABB"
+    ],
+    "slug": "turnkey-overhauling-and-maintenance"
+  },
+  "srv_3": {
+    "id": "srv_3",
+    "image": "service-reverse-engineering.webp",
+    "title": "精密逆向工程",
+    "desc": "采用3D激光扫描仪、三坐标测量机及仿形车床，对5千瓦至60兆瓦的汽轮机进行经PMI验证的逆向工程，生成含公差、同心度及热处理前后规范的完整制造图纸。",
+    "details": [
+      "现场/车间配备3D激光扫描仪、三坐标测量机",
+      "PMI材质成分精确检测",
+      "仿形车床实现精密尺寸复制",
+      "含公差、表面粗糙度、平行度及同心度的工程图纸",
+      "含热处理前后规范",
+      "粗加工、半精加工及精加工图纸",
+      "覆盖5千瓦至60兆瓦汽轮机（背压式或凝汽式）",
+      "单级/多级，驱动式或做功式，卧式或立式"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "All Makes"
+    ],
+    "slug": "precision-reverse-engineering"
+  },
+  "srv_4": {
+    "id": "srv_4",
+    "image": "service-dynamic-balancing.webp",
+    "title": "动平衡与转子加工",
+    "desc": "在我方车间车床上进行精密转子加工（磨削、抛光、轴颈缩径），并按ISO/API标准提供50至2000公斤范围动平衡，附完整合规报告。",
+    "details": [
+      "采用最小缩径工艺进行轴颈磨削与抛光",
+      "精密车床加工迷宫段",
+      "加工前对转子各部位进行同心度校正",
+      "按ISO/API标准进行50–2000公斤动平衡",
+      "配备最新振动监测系统的动平衡机",
+      "安装前进行机械及电气跳动检测",
+      "出具记录ISO/API合规情况的完整平衡报告"
+    ],
+    "oems": [
+      "All Turbine Makes"
+    ],
+    "slug": "dynamic-balancing-and-rotor-machining"
+  },
+  "srv_5": {
+    "id": "srv_5",
+    "image": "service-lube-oil-flushing.webp",
+    "title": "润滑油冲洗",
+    "desc": "采用专用移动式离心过滤系统按ISO标准进行冲洗，在施工完成后或计划维护期间实现最佳洁净度及脱水效果。",
+    "details": [
+      "专用移动式离心过滤系统",
+      "按ISO 4406:99标准达到系统洁净度目标",
+      "按ISO标准进行取油样及出具报告",
+      "适用于施工后及计划维护",
+      "优异的脱水及污染去除效果",
+      "可去除4至25微米固体颗粒",
+      "系统流量处理能力最高达6,000升/分钟"
+    ],
+    "oems": [
+      "All Systems"
+    ],
+    "slug": "lube-oil-flushing"
+  },
+  "srv_6": {
+    "id": "srv_6",
+    "image": "service-machine-alignment.webp",
+    "title": "设备找正",
+    "desc": "采用最新技术进行专业设备找正，消除设备失效的主要原因之一——不对中问题，涵盖汽轮机、齿轮箱、水泵、风机、交流发电机及感应发电机。",
+    "details": [
+      "汽轮机—齿轮箱及齿轮箱—磨机齿轮箱找正",
+      "风机、水泵、交流发电机、感应发电机找正",
+      "任意机架尺寸的设备调平及管道应力测量",
+      "打浆机、粉碎机找正",
+      "采用最新找正技术满足最高标准",
+      "出具带精确结果的详细找正报告",
+      "覆盖任意地点、任意尺寸机架的设备"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "machine-alignment"
+  },
+  "srv_7": {
+    "id": "srv_7",
+    "image": "service-troubleshooting.webp",
+    "title": "故障诊断服务",
+    "desc": "针对出现振动、轴承故障、调速器失稳、蒸汽泄漏、油液污染或意外跳机的汽轮机，提供快速现场故障诊断。原厂背景工程师携带完整诊断仪器出勤，进行根本原因分析及纠正措施制定。",
+    "details": [
+      "高振动——不平衡、不对中、轴承磨损、摩擦诊断",
+      "调速器摆动、转速失稳及超速跳机调查",
+      "轴承油污染——碳环密封及润滑系统分析",
+      "蒸汽填料函泄漏——迷宫密封、填料及密封蒸汽压力问题",
+      "叶片结垢、侵蚀及蒸汽通道效率损失分析",
+      "意外跳机调查——油压、温度及控制系统故障",
+      "印度全境24小时紧急出勤，携带全套诊断设备"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "Belliss India",
+      "Maxwatt",
+      "Man Turbo",
+      "KKK",
+      "ABB"
+    ],
+    "slug": "troubleshooting-service"
+  }
+}

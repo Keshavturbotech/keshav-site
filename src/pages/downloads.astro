@@ -1,0 +1,78 @@
+---
+// src/pages/downloads.astro
+// Ported from DownloadsPage in App.jsx (line ~26773).
+import Layout from "../layouts/Layout.astro";
+import DownloadsGrid from "../components/islands/DownloadsGrid.jsx";
+import type { DownloadItem } from "../data/downloads";
+import { getLocalizedList, getLocalizedData } from "../lib/i18n";
+
+// FIXED (Part 1, step 4): was importing DOWNLOADS directly from
+// data/downloads.ts — same bug as blog/index.astro, see that file's comment.
+const locale = Astro.currentLocale ?? "en";
+const DOWNLOADS = getLocalizedList<DownloadItem>("downloads", locale);
+const pageHeaders = getLocalizedData<
+  Record<string, { metaTitle: string; metaDescription: string; h1: string; subheading: string }>
+>("page-headers", locale).downloads;
+
+const SITE_URL = "https://www.keshavturbotech.com";
+const downloadsSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "Free Technical Downloads — Keshav Enterprises",
+  description:
+    "Free steam turbine engineering documents: overhaul checklists, lube oil datasheets, bearing clearance references, and RFQ templates.",
+  url: `${SITE_URL}/downloads`,
+  numberOfItems: DOWNLOADS.length,
+  itemListElement: DOWNLOADS.map((d, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name: d.title,
+    description: d.desc,
+    url: `${SITE_URL}/${d.file}`,
+  })),
+};
+---
+
+<Layout
+  title={pageHeaders.metaTitle}
+  description={pageHeaders.metaDescription}
+  canonicalPath="/downloads"
+  jsonLd={downloadsSchema}
+>
+  <div class="bg-[#0A192F] text-white py-24 border-b-8 border-blue-600 relative">
+    <div
+      class="absolute inset-0 opacity-10 pointer-events-none"
+      style="background-image:linear-gradient(to right,#4f4f4f2e 1px,transparent 1px),linear-gradient(to bottom,#4f4f4f2e 1px,transparent 1px);background-size:4rem 4rem;"
+      aria-hidden="true"
+    >
+    </div>
+    <div
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center relative z-10"
+    >
+      <div
+        class="w-16 h-16 bg-blue-600/20 border border-blue-500/30 rounded-2xl flex items-center justify-center mb-6"
+      >
+        <svg
+          class="w-8 h-8 text-blue-400"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          aria-hidden="true"
+          ><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"></path><path d="M7 10l5 5 5-5M12 15V3"
+          ></path></svg
+        >
+      </div>
+      <h1 class="text-5xl md:text-6xl font-black mb-6 tracking-tight drop-shadow-lg">
+        {pageHeaders.h1}
+      </h1>
+      <div class="w-24 h-1.5 bg-blue-500 mb-8 rounded-full" aria-hidden="true"></div>
+      <p
+        class="text-slate-300 font-medium max-w-3xl mx-auto text-xl md:text-2xl leading-relaxed mb-10"
+      >
+        {pageHeaders.subheading}
+      </p>
+      <DownloadsGrid client:load />
+    </div>
+  </div>
+</Layout>

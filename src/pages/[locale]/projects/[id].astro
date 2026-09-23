@@ -1,0 +1,32 @@
+---
+// src/pages/[locale]/projects/[id].astro
+// projects/[id].astro's own getStaticPaths passes props: { csId, prevId,
+// nextId } (prev/next case study navigation) — replicate that exact shape
+// here so the underlying page's prev/next links still work per locale.
+import ProjectDetailPage from "../../projects/[id].astro";
+import { CASE_STUDIES as CASE_STUDIES_EN } from "../../../data/case-studies";
+import { LOCALES, DEFAULT_LOCALE } from "../../../lib/i18n";
+import { getPathByLocale } from "astro:i18n";
+
+export function getStaticPaths() {
+  const locales = LOCALES.filter((locale) => locale !== DEFAULT_LOCALE);
+  return locales.flatMap((locale) =>
+    CASE_STUDIES_EN.map((cs, idx) => ({
+      params: { locale: getPathByLocale(locale), id: cs.id },
+      props: {
+        csId: cs.id,
+        prevId: idx > 0 ? CASE_STUDIES_EN[idx - 1].id : null,
+        nextId: idx < CASE_STUDIES_EN.length - 1 ? CASE_STUDIES_EN[idx + 1].id : null,
+      },
+    })),
+  );
+}
+
+const { csId, prevId, nextId } = Astro.props as {
+  csId: string;
+  prevId: string | null;
+  nextId: string | null;
+};
+---
+
+<ProjectDetailPage csId={csId} prevId={prevId} nextId={nextId} />

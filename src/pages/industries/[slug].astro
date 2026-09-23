@@ -1,0 +1,497 @@
+---
+// src/pages/industries/[slug].astro
+// Ported from IndustryDetailPage in App.jsx (line ~23163).
+// Renamed from [id].astro → [slug].astro: URLs are now /industries/<readable-name>
+// instead of /industries/ind_1, using the `slug` field added to each Industry
+// in data/industries.ts (derived from title, `id` stays the internal key).
+import Layout from "../../layouts/Layout.astro";
+import { localizedPath } from "../../lib/localeMeta";
+import Icon from "../../components/Icon.astro";
+import { getLocalizedData, getLocalizedList } from "../../lib/i18n";
+import type { Industry } from "../../data/industries";
+import {
+  // INDUSTRY_PRODUCT_IDS/industryProductKey are a stable lookup structure
+  // keyed off slugified English product names, not translatable content —
+  // they stay as a direct TS import rather than moving into the i18n JSON
+  // namespaces (there's nothing to translate in a lookup table).
+  INDUSTRY_PRODUCT_IDS,
+  industryProductKey,
+  type IndustryDetail,
+  type IndustryDetailProduct,
+} from "../../data/industry-details";
+import type { CaseStudy } from "../../data/case-studies";
+import type { Product } from "../../data/products";
+import { CONTACT_INFO } from "../../data/site-config";
+
+export type Props = Record<string, never>;
+
+export function getStaticPaths() {
+  // getStaticPaths runs in an isolated scope separate from the rest of the
+  // component body — only imports are reliably hoisted alongside it, not
+  // top-level consts computed elsewhere in the frontmatter. Resolve the
+  // English industries list directly here. Slugs are stable/English-derived
+  // regardless of locale (see data/industries.ts), so this is safe to do
+  // once for route generation.
+  const industriesEn = getLocalizedList<Industry>("industries", "en");
+  return industriesEn.map((ind) => ({
+    params: { slug: ind.slug },
+  }));
+}
+
+const locale = Astro.currentLocale ?? "en";
+const { slug } = Astro.params;
+
+const IND_CS_MAP: Record<string, string[]> = {
+  ind_1: ["Power Generation"],
+  ind_2: ["Sugar Mill", "Distillery"],
+  ind_3: ["Paper Mill"],
+  ind_4: [],
+  ind_5: [],
+  ind_6: [],
+  ind_7: ["Cement Plant", "Steel Plant"],
+};
+
+// Resolve the localized lists/records for this request's locale. `slug` is
+// stable across locales (English-derived, baked into the JSON at migration
+// time — see data/industries.ts), so looking the industry up by slug in the
+// localized list still finds the right record even once translated titles
+// exist.
+const industries = getLocalizedList<Industry>("industries", locale);
+const industryDetails = getLocalizedData<Record<string, IndustryDetail>>(
+  "industry-details",
+  locale,
+);
+const caseStudies = getLocalizedList<CaseStudy>("case-studies", locale);
+const products = getLocalizedList<Product>("products", locale);
+
+const ind = industries.find((i) => i.slug === slug)!;
+const detail = industryDetails[ind.id];
+const relatedCaseStudies = caseStudies
+  .filter((cs) => (IND_CS_MAP[ind.id] || []).includes(cs.industry))
+  .slice(0, 3);
+
+const SITE_URL = "https://www.keshavturbotech.com";
+const industrySchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      name: `${ind.title} — Turbine Engineering Solutions`,
+      description: ind.desc,
+      provider: { "@type": "LocalBusiness", name: "Keshav Enterprises", url: SITE_URL },
+      areaServed: { "@type": "Country", name: "India" },
+      serviceType: ind.title,
+      url: `${SITE_URL}/industries/${ind.slug}`,
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Industries", item: `${SITE_URL}/industries` },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: ind.title,
+          item: `${SITE_URL}/industries/${ind.slug}`,
+        },
+      ],
+    },
+  ],
+};
+
+const waHref = (text: string) =>
+  `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent(text)}`;
+
+// Resolve product IDs to real product objects for cross-linking cards.
+//
+// IMPORTANT: INDUSTRY_PRODUCT_IDS is keyed by *English* product name (see
+// data/industry-details.ts) — it is not and cannot be a translated lookup
+// table. Matching on `prod.name` directly only works for the "en" locale;
+// on every other locale prod.name is already translated, so the slugified
+// key never matches and the card silently falls back to the generic
+// catalog link ("View in Catalog") instead of the specific product page.
+//
+// Fix: look up the key using the ENGLISH product name at the same array
+// index, not the localized display name. detail.products and the English
+// industry-details.json arrays are written and maintained in lockstep
+// (same order, same length, per industry) — see
+// scripts/check-industry-locale-parity.cjs, which fails the build if that
+// ever drifts. The localized name/purpose/features still get *displayed*;
+// only the id lookup uses English.
+const industryDetailsEn = getLocalizedData<Record<string, IndustryDetail>>(
+  "industry-details",
+  "en",
+);
+const enProductsForIndustry: IndustryDetailProduct[] = industryDetailsEn[ind.id]?.products ?? [];
+
+const productsWithLinks = (detail.products ?? []).map(
+  (prod: IndustryDetailProduct, i: number) => {
+    // Fall back to the localized name if the English array is somehow
+    // shorter (should never happen — see parity check above — but this
+    // keeps a mismatch from throwing at build time).
+    const enName = enProductsForIndustry[i]?.name ?? prod.name;
+    const prodId = INDUSTRY_PRODUCT_IDS[industryProductKey(enName)];
+    const linkedProduct = prodId ? products.find((p) => p.id === prodId) : null;
+    return {
+      ...prod,
+      href: linkedProduct
+        ? localizedPath(locale, `/products/${linkedProduct.slug}`)
+        : localizedPath(locale, "/products"),
+      hasDirectLink: Boolean(linkedProduct),
+    };
+  },
+);
+---
+
+<Layout
+  title={`${ind.title} | Industrial Solutions — Keshav Enterprises`}
+  description={`${ind.desc} — Keshav Enterprises, Shamli, UP.`}
+  canonicalPath={`/industries/${ind.slug}`}
+  ogImage={ind.image ? `/${ind.image}` : undefined}
+  jsonLd={industrySchema}
+>
+  <!-- ══ HERO ══ -->
+  <div
+    class="bg-[#0A192F] text-white pt-28 pb-20 relative overflow-hidden border-b-8 border-blue-600"
+  >
+    <div
+      class="absolute inset-0 opacity-10"
+      style="background-image:linear-gradient(to right,#4f4f4f2e 1px,transparent 1px),linear-gradient(to bottom,#4f4f4f2e 1px,transparent 1px);background-size:4rem 4rem;"
+      aria-hidden="true"
+    >
+    </div>
+    {
+      ind.image && (
+        <img
+          src={`/${ind.image}`}
+          alt=""
+          aria-hidden="true"
+          width="800"
+          height="600"
+          loading="eager"
+          decoding="async"
+          class="absolute inset-0 w-full h-full object-cover opacity-60"
+          onerror="this.style.display='none'"
+        />
+      )
+    }
+    <div class="absolute inset-0 bg-linear-to-r from-[#0A192F]/65 via-[#0A192F]/35 to-[#0A192F]/10">
+    </div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav
+        aria-label="Breadcrumb"
+        class="flex items-center gap-2 text-xs font-black text-slate-300 uppercase tracking-widest mb-10"
+      >
+        <a
+          href={localizedPath(locale, "/industries")}
+          class="hover:text-blue-400 transition-colors flex items-center gap-1 focus:outline-none focus-visible:underline"
+        >
+          <svg
+            class="w-3.5 h-3.5"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            aria-hidden="true"
+            ><path stroke-linecap="round" stroke-linejoin="round" d="M19 12H5m0 0l7 7m-7-7l7-7"
+            ></path></svg
+          >
+          Industries
+        </a>
+        <svg
+          class="w-3.5 h-3.5 opacity-40"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          aria-hidden="true"
+          ><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg
+        >
+        <span class={ind.accent}>{ind.title}</span>
+      </nav>
+      <div class="flex flex-col lg:flex-row items-start lg:items-center gap-8">
+        <div
+          class={`w-20 h-20 rounded-2xl bg-linear-to-br ${ind.color} border ${ind.border} flex items-center justify-center shrink-0 shadow-2xl`}
+        >
+          <Icon name={ind.iconName} class={`w-10 h-10 ${ind.accent}`} />
+        </div>
+        <div>
+          <div
+            class={`inline-block text-xs font-black ${ind.accent} uppercase tracking-widest mb-3 bg-white/5 px-3 py-1 rounded-full border border-white/10`}
+          >
+            Industry Focus
+          </div>
+          <h1 class="text-4xl md:text-5xl font-black tracking-tight mb-3">{ind.title}</h1>
+          <p class="text-slate-100 font-medium text-lg">{detail.heroSub}</p>
+        </div>
+      </div>
+      <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
+        {
+          detail.keyFacts.map((fact) => (
+            <div class="bg-white/[0.07] border border-white/[0.14] rounded-xl px-5 py-4 flex items-start gap-3">
+              <Icon name="CheckCircle2" class="w-4 h-4 text-blue-400 shrink-0 mt-0.5" />
+              <span class="text-white/90 font-semibold text-sm leading-snug">{fact}</span>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-16">
+    <!-- Overview -->
+    <section aria-label="Industry overview">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+        <div class="lg:col-span-2">
+          <div class="flex items-center gap-3 mb-5">
+            <div class={`w-1.5 h-8 rounded-full ${ind.accent.replace("text-", "bg-")}`}></div>
+            <h2 class="text-2xl font-black text-slate-900 tracking-tight">Industry Overview</h2>
+          </div>
+          <p class="text-slate-600 font-medium text-lg leading-relaxed">{detail.overview}</p>
+        </div>
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-7">
+          <h3 class="text-xs font-black text-slate-500 uppercase tracking-widest mb-5">
+            Key Applications
+          </h3>
+          <ul class="space-y-3">
+            {
+              ind.useCases.slice(0, 6).map((uc) => (
+                <li class="flex items-start gap-3">
+                  <Icon name="CheckCircle2" class={`w-4 h-4 shrink-0 mt-0.5 ${ind.accent}`} />
+                  <span class="text-slate-700 font-medium text-sm leading-snug">{uc}</span>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Challenges -->
+    <section aria-label="Industry challenges">
+      <div class="flex items-center gap-3 mb-8">
+        <div class={`w-1.5 h-8 rounded-full ${ind.accent.replace("text-", "bg-")}`}></div>
+        <h2 class="text-2xl font-black text-slate-900 tracking-tight">Key Challenges We Solve</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        {
+          detail.challenges.map((c, i) => (
+            <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-7 hover:border-blue-200 hover:shadow-md transition-all">
+              <div class="flex items-start gap-4">
+                <div
+                  class={`w-10 h-10 rounded-xl bg-linear-to-br ${ind.color} border ${ind.border} flex items-center justify-center shrink-0`}
+                >
+                  <span class={`text-lg font-black ${ind.accent}`}>{i + 1}</span>
+                </div>
+                <div>
+                  <h3 class="font-black text-slate-900 text-base mb-2">{c.title}</h3>
+                  <p class="text-slate-600 font-medium text-sm leading-relaxed">{c.desc}</p>
+                </div>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section aria-label="Products we supply">
+      <div class="flex items-center gap-3 mb-8">
+        <div class={`w-1.5 h-8 rounded-full ${ind.accent.replace("text-", "bg-")}`}></div>
+        <h2 class="text-2xl font-black text-slate-900 tracking-tight">
+          Products We Supply for {ind.title}
+        </h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+        {
+          productsWithLinks.map((prod) => (
+            <a
+              href={prod.href}
+              class="bg-white rounded-2xl border border-slate-200 shadow-sm transition-all flex flex-col hover:shadow-lg hover:border-blue-300 group focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+            >
+              <div class="h-1.5 w-full rounded-t-2xl bg-linear-to-r from-blue-600 to-blue-400" />
+              <div class="p-7 flex flex-col flex-1">
+                <div class="flex items-start gap-3 mb-4">
+                  <div
+                    class={`w-9 h-9 rounded-xl bg-linear-to-br ${ind.color} border ${ind.border} flex items-center justify-center shrink-0 mt-0.5`}
+                  >
+                    <svg
+                      class={`w-4 h-4 ${ind.accent}`}
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      aria-hidden="true"
+                    >
+                      <>
+                        <circle cx="12" cy="12" r="3" />
+                        <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 11-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 110-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 114 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 110 4h-.09a1.65 1.65 0 00-1.51 1z" />
+                      </>
+                    </svg>
+                  </div>
+                  <h3 class="font-black text-slate-900 text-base leading-snug">{prod.name}</h3>
+                </div>
+                <p class="text-slate-600 font-medium text-sm leading-relaxed mb-5 flex-1">
+                  {prod.purpose}
+                </p>
+                <ul class="space-y-1.5 mb-6">
+                  {prod.features.map((f) => (
+                    <li class="flex items-start gap-2">
+                      <div
+                        class={`w-1.5 h-1.5 rounded-full mt-1.5 shrink-0 ${ind.accent.replace("text-", "bg-")}`}
+                      />
+                      <span class="text-slate-600 text-xs font-semibold leading-snug">{f}</span>
+                    </li>
+                  ))}
+                </ul>
+                <span
+                  class={`mt-auto text-xs font-black uppercase tracking-widest ${ind.accent} flex items-center gap-1`}
+                >
+                  {prod.hasDirectLink ? "View Product" : "View in Catalog"}
+                  <svg
+                    class="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    aria-hidden="true"
+                  >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    {
+      relatedCaseStudies.length > 0 && (
+        <section aria-label="Related case studies">
+          <div class="flex items-center gap-3 mb-8">
+            <div class={`w-1.5 h-8 rounded-full ${ind.accent.replace("text-", "bg-")}`} />
+            <h2 class="text-2xl font-black text-slate-900 tracking-tight">
+              See How We Helped {ind.title} Clients
+            </h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {relatedCaseStudies.map((cs) => (
+              <a
+                href={localizedPath(locale, `/projects/${cs.id}`)}
+                class="group bg-white border border-slate-200 rounded-2xl overflow-hidden hover:border-blue-300 hover:shadow-lg transition-all block"
+              >
+                <div class="h-36 bg-[#0A192F] relative overflow-hidden">
+                  {cs.image && (
+                    <img
+                      src={`/${cs.image}`}
+                      alt=""
+                      aria-hidden="true"
+                      width="600"
+                      height="300"
+                      loading="lazy"
+                      decoding="async"
+                      class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-75 transition-opacity"
+                      onerror="this.style.display='none'"
+                    />
+                  )}
+                  <div class="absolute inset-0 bg-linear-to-t from-[#0A192F]/90 via-[#0A192F]/10 to-transparent" />
+                  <p class="absolute bottom-3 left-4 right-4 text-white font-black text-sm leading-snug line-clamp-2">
+                    {cs.title}
+                  </p>
+                </div>
+                <div class="p-4">
+                  {cs.outcomes[0] && (
+                    <p class="text-emerald-700 text-xs font-semibold leading-snug mb-2">
+                      {cs.outcomes[0]}
+                    </p>
+                  )}
+                  <span class="text-blue-600 font-black text-xs flex items-center gap-1 group-hover:gap-2 transition-all">
+                    Read Case Study
+                    <svg
+                      class="w-3.5 h-3.5"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M5 12h14m-7-7l7 7-7 7"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <!-- CTA -->
+    <section
+      aria-label="Get in touch"
+      class="bg-slate-900 rounded-3xl p-10 md:p-14 flex flex-col md:flex-row items-center gap-8 shadow-xl"
+    >
+      <div class="flex-1">
+        <h2 class="text-3xl font-black text-white mb-3 tracking-tight">
+          Ready to Discuss Your {ind.title} Requirements?
+        </h2>
+        <p class="text-slate-300 font-medium text-base leading-relaxed">
+          Our engineers have hands-on experience with the unique challenges of your industry.
+          Contact us for a technical consultation or request a quote today.
+        </p>
+      </div>
+      <div class="flex flex-col sm:flex-row md:flex-col gap-4 shrink-0">
+        <a
+          href={`/contact?service=${encodeURIComponent("General Inquiry")}&details=${encodeURIComponent(`Hi, I need engineering support for my ${ind.title} facility. Please contact me.`)}`}
+          class="bg-blue-600 text-white px-8 py-4 rounded-xl font-black hover:bg-blue-700 transition-all shadow-lg flex items-center justify-center gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
+        >
+          Get a Quote
+          <svg
+            class="w-5 h-5"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            aria-hidden="true"
+            ><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7"
+            ></path></svg
+          >
+        </a>
+        <a
+          href={waHref(`Hello KESHAV ENTERPRISES, I need solutions for my ${ind.title} facility.`)}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="border-2 border-whatsapp text-whatsapp px-8 py-4 rounded-xl font-black hover:bg-whatsapp hover:text-white transition-all flex items-center justify-center gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-green-400"
+        >
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
+            ><path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+            ></path></svg
+          >
+          WhatsApp Us
+        </a>
+        <a
+          href={localizedPath(locale, "/projects")}
+          class="border-2 border-slate-600 text-slate-300 px-8 py-4 rounded-xl font-black hover:border-blue-400 hover:text-white transition-all flex items-center justify-center gap-2 group focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
+        >
+          <svg
+            class="w-4 h-4 shrink-0"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"
+            ><rect x="2" y="7" width="20" height="14" rx="2"></rect><path
+              d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"></path></svg
+          >
+          View Related Projects
+        </a>
+      </div>
+    </section>
+  </div>
+</Layout>

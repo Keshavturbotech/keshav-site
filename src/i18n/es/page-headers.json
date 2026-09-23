@@ -1,0 +1,32 @@
+{
+  "products": {
+    "metaTitle": "Catálogo de productos — Repuestos de turbinas, filtros, juntas de expansión, filtros de aire HVAC",
+    "metaDescription": "",
+    "h1": "Productos industriales",
+    "subheading": "{count} productos diseñados con precisión en {categories} categorías. Conformes con ISO/API/ASME y especificaciones técnicas completas."
+  },
+  "services": {
+    "metaTitle": "Servicios de turbinas — Revisión general, montaje e ingeniería inversa",
+    "metaDescription": "Revisión general completa, ingeniería inversa, montaje y puesta en marcha, equilibrado dinámico, lavado de aceite lubricante y alineación de máquinas para turbinas de vapor de 5 kW a 60 MW.",
+    "h1": "Servicios técnicos",
+    "subheading": "Soluciones mecánicas especializadas para equipos rotativos industriales de 5 kW a 60 MW, garantizando la máxima fiabilidad en centrales eléctricas, ingenios azucareros, fábricas de papel, refinerías e industrias petroquímicas."
+  },
+  "industries": {
+    "metaTitle": "Industrias atendidas — Energía, azúcar, petróleo y gas, petroquímica, cemento",
+    "metaDescription": "Keshav Enterprises atiende a centrales eléctricas, ingenios azucareros, fábricas de papel, industrias petroleras y de gas, petroquímicas, agrícolas y cementeras con ingeniería de turbinas y productos industriales especializados.",
+    "h1": "Industrias a las que servimos",
+    "subheading": "Soluciones especializadas de ingeniería de turbinas y productos industriales en siete sectores industriales principales."
+  },
+  "blog": {
+    "metaTitle": "Blog técnico — Mantenimiento de turbinas, filtración industrial e información HVAC",
+    "metaDescription": "Artículos técnicos sobre revisión de turbinas de vapor, filtración de aceite lubricante, selección de filtros de aire HVAC, colectores de polvo de chorro pulsante, ingeniería inversa y mejores prácticas de mantenimiento industrial, del equipo de ingeniería de Keshav Enterprises.",
+    "h1": "Blog técnico",
+    "subheading": "Perspectivas técnicas sobre mantenimiento de turbinas, sistemas de aceite lubricante, filtración de aire HVAC, recolección de polvo, ingeniería inversa y mejores prácticas industriales, de nuestro equipo de ingeniería."
+  },
+  "downloads": {
+    "metaTitle": "Descargas técnicas gratuitas — Listas de verificación, fichas técnicas y plantillas de RFQ",
+    "metaDescription": "Descargue gratis listas de verificación de revisión de turbinas de vapor, fichas técnicas de filtros de aceite lubricante, guías de holgura de cojinetes y plantillas de RFQ de Keshav Enterprises, especialistas en turbinas de vapor de la India.",
+    "h1": "Descargas gratuitas",
+    "subheading": "Listas de verificación técnicas, fichas técnicas, referencias de cojinetes y plantillas de RFQ gratuitas para ingenieros de planta y equipos de compras."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "products": {
+    "metaTitle": "Produktkatalog — Turbinenersatzteile, Filter, Kompensatoren, HVAC-Luftfilter",
+    "metaDescription": "",
+    "h1": "Industrieprodukte",
+    "subheading": "{count} präzisionsgefertigte Produkte in {categories} Kategorien. ISO/API/ASME-konform mit vollständigen technischen Spezifikationen."
+  },
+  "services": {
+    "metaTitle": "Turbinendienstleistungen — Generalüberholung, Montage und Reverse Engineering",
+    "metaDescription": "Komplette Generalüberholung, Reverse Engineering, Montage und Inbetriebnahme, dynamisches Auswuchten, Schmierölspülung und Maschinenausrichtung für Dampfturbinen von 5 kW bis 60 MW.",
+    "h1": "Technische Dienstleistungen",
+    "subheading": "Spezialisierte mechanische Lösungen für industrielle rotierende Anlagen von 5 kW bis 60 MW, die höchste Zuverlässigkeit in Kraftwerken, Zuckerfabriken, Papierfabriken, Raffinerien und der Petrochemie gewährleisten."
+  },
+  "industries": {
+    "metaTitle": "Bediente Branchen — Energie, Zucker, Öl und Gas, Petrochemie, Zement",
+    "metaDescription": "Keshav Enterprises beliefert Kraftwerke, Zuckerfabriken, Papierfabriken, Öl- und Gas-, Petrochemie-, Agrar- und Zementindustrien mit spezialisiertem Turbinen-Engineering und Industrieprodukten.",
+    "h1": "Branchen, die wir bedienen",
+    "subheading": "Spezialisierte Lösungen für Turbinen-Engineering und Industrieprodukte in sieben wichtigen Branchen."
+  },
+  "blog": {
+    "metaTitle": "Technik-Blog — Turbinenwartung, industrielle Filtration und HVAC-Informationen",
+    "metaDescription": "Technische Artikel zur Generalüberholung von Dampfturbinen, Schmierölfiltration, Auswahl von HVAC-Luftfiltern, Pulsstrahl-Staubsammlern, Reverse Engineering und Best Practices für die industrielle Wartung vom Engineering-Team von Keshav Enterprises.",
+    "h1": "Technik-Blog",
+    "subheading": "Technische Einblicke in Turbinenwartung, Schmierölsysteme, HVAC-Luftfiltration, Staubsammlung, Reverse Engineering und industrielle Best Practices — von unserem Engineering-Team."
+  },
+  "downloads": {
+    "metaTitle": "Kostenlose technische Downloads — Turbinen-Checklisten, Datenblätter und RFQ-Vorlagen",
+    "metaDescription": "Laden Sie kostenlos Checklisten für die Generalüberholung von Dampfturbinen, Datenblätter für Schmierölfilter, Leitfäden zum Lagerspiel und RFQ-Vorlagen von Keshav Enterprises herunter — Indiens Dampfturbinen-Spezialisten.",
+    "h1": "Kostenlose Downloads",
+    "subheading": "Kostenlose technische Checklisten, Datenblätter, Lagerreferenzen und RFQ-Vorlagen für Anlagenbauer und Einkaufsteams."
+  }
+}

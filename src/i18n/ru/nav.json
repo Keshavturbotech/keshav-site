@@ -1,0 +1,29 @@
+{
+  "/": {
+    "label": "Главная"
+  },
+  "/about": {
+    "label": "О компании"
+  },
+  "/services": {
+    "label": "Услуги"
+  },
+  "/products": {
+    "label": "Продукция"
+  },
+  "/industries": {
+    "label": "Отрасли"
+  },
+  "/contact": {
+    "label": "Контакты"
+  },
+  "/projects": {
+    "label": "Проекты"
+  },
+  "/blog": {
+    "label": "Блог"
+  },
+  "/downloads": {
+    "label": "Загрузки"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "cs_01": {
+    "id": "cs_01",
+    "image": "project-triveni-overhaul.webp",
+    "category": "Überholung",
+    "industry": "Zuckerfabrik",
+    "title": "Triveni-5-MW-Gegendruckturbine — Komplettüberholung & Rotorauswuchtung",
+    "client": "Vertraulich — Zuckerfabrik, West-Uttar Pradesh",
+    "year": "2023",
+    "duration": "12 Tage",
+    "scope": "Vollständige schlüsselfertige Überholung: Rotorausbau, Lageraustausch, Bearbeitung der Labyrinthdichtungen, dynamisches Rotorauswuchten (ISO 1940 G2.5), Schmierölspülung und Inbetriebnahme.",
+    "challenge": "Die Turbine lief zwei Saisons lang mit erhöhter Vibration (>6 mm/s). Die Lagergehäuse zeigten Reibkorrosion, und der Rotor wies einen anhaltenden 1×-Rundlauffehler auf, den frühere Wartungen nicht behoben hatten.",
+    "solution": "Ex-Triveni-OEM-Ingenieure demontierten die Einheit und fanden einen gerissenen Wellenzapfen auf der Antriebsseite. Der Zapfen wurde untermaßig bearbeitet, neues Weißmetall gegossen und geschabt, die Labyrinthe in unserer Werkstatt bearbeitet und der Rotor auf eine Restunwucht von <0,5 g·mm dynamisch ausgewuchtet. Vibration nach Inbetriebnahme: 1,8 mm/s.",
+    "outcomes": [
+      "Vibration von 6,4 mm/s auf 1,8 mm/s reduziert",
+      "Lagermetalltemperatur um 14 °C gesenkt",
+      "Turbine innerhalb des geplanten 12-Tage-Fensters wieder in Betrieb",
+      "Keine ungeplanten Abschaltungen in der folgenden 12-monatigen Betriebssaison"
+    ],
+    "tags": [
+      "Triveni",
+      "Rotorauswuchtung",
+      "Weißmetalllager",
+      "Überholung"
+    ],
+    "categorySlug": "overhauling"
+  },
+  "cs_02": {
+    "id": "cs_02",
+    "image": "project-reverse-engineering.webp",
+    "category": "Reverse Engineering",
+    "industry": "Papierfabrik",
+    "title": "Siemens-SST-200-Impulsstufenscheibe — Reverse Engineering & Fertigung",
+    "client": "Vertraulich — Papierfabrik, Uttarakhand",
+    "year": "2023",
+    "duration": "21 Tage",
+    "scope": "3D-Laserscan der beschädigten Impulsscheibe, PMI-Materialverifikation, vollständiger Satz Fertigungszeichnungen und Lieferung der nach Zeichnung gefertigten Ersatzscheibe.",
+    "challenge": "Der OEM bot eine Lieferzeit von 14 Wochen und 18.000 € für eine Ersatz-Impulsscheibe. Die Fabrik konnte sich bei nahender Saison keinen 14-wöchigen Stillstand leisten.",
+    "solution": "Unser Team scannte die beschädigte Scheibe vor Ort in 3D, führte PMI zur Bestätigung der Legierung durch (Edelstahl AISI 422), erstellte vollständige Fertigungszeichnungen mit allen Toleranzen und Wärmebehandlungsvorgaben und ließ die Scheibe in 19 Arbeitstagen schruppen, wärmebehandeln, fertigbearbeiten und dynamisch auswuchten.",
+    "outcomes": [
+      "Lieferzeit von 14 Wochen (OEM) auf 21 Tage verkürzt",
+      "Kosteneinsparung von etwa ₹12 Lakh gegenüber OEM-Preis",
+      "Scheibe ohne Maßprobleme montiert; Turbine erreichte Nennleistung",
+      "Vollständiges Zeichnungspaket für künftige Nachbestellungen aufbewahrt"
+    ],
+    "tags": [
+      "Siemens",
+      "Reverse Engineering",
+      "3D-Scan",
+      "PMI"
+    ],
+    "categorySlug": "reverse-engineering"
+  },
+  "cs_03": {
+    "id": "cs_03",
+    "image": "project-erection-commissioning.webp",
+    "category": "Montage & Inbetriebnahme",
+    "industry": "Brennerei",
+    "title": "Maxwatt-3,5-MW-Kraft-Wärme-Kopplungsturbine — Neuanlagenmontage & Inbetriebnahme",
+    "client": "Vertraulich — Brennerei, Zentral-Uttar Pradesh",
+    "year": "2022",
+    "duration": "28 Tage",
+    "scope": "Vollständige Montage von Dampfturbine, Getriebe, Generator, Kondensator, Schmierölsystem sowie allen zugehörigen Rohrleitungs- und Kabelarbeiten. Inbetriebnahme unter OEM-Zeugenabnahme.",
+    "challenge": "Die Turbine traf mit fehlerhaften Vergusszeichnungen für den Grundrahmen ein. Die Bauarbeiten mussten vor Montagebeginn neu bewertet und korrigiert werden, was das verfügbare Inbetriebnahmefenster verkürzte.",
+    "solution": "Unsere Baustellenaingenieure koordinierten mit dem Bauunternehmer die Korrektur der Verguss-Taschen innerhalb von 48 Stunden. Turbine, Getriebe und Generator wurden montiert, ausgerichtet (Wellenausrichtung auf <0,02 mm TIR) und alle Prüfungen vor der Inbetriebnahme abgeschlossen. Die Synchronisation gelang beim ersten Versuch während des OEM-Zeugenlaufs.",
+    "outcomes": [
+      "Erste Synchronisation am Inbetriebnahmetag erreicht — keine Verzögerungen durch die Mängelliste",
+      "Wellenausrichtung bei 0,016 mm TIR erreicht — innerhalb der OEM-Toleranz",
+      "Schmieröl vor dem ersten Lauf auf ISO-4406-Sauberkeit 16/14/11 gespült",
+      "Anlage nahm die Turbine mit null offenen Punkten auf der OEM-Mängelliste ab"
+    ],
+    "tags": [
+      "Maxwatt",
+      "Montage",
+      "Inbetriebnahme",
+      "Ausrichtung"
+    ],
+    "categorySlug": "erection-and-commissioning"
+  },
+  "cs_04": {
+    "id": "cs_04",
+    "image": "project-lube-oil-flushing.webp",
+    "category": "Schmierölspülung",
+    "industry": "Energieerzeugung",
+    "title": "BHEL-15-MW-Entnahme-Kondensationsturbine — Schmierölspülung nach der Überholung",
+    "client": "Vertraulich — unabhängiger Stromerzeuger, Rajasthan",
+    "year": "2024",
+    "duration": "5 Tage",
+    "scope": "Spülung des Schmierölsystems nach der Überholung mit mobiler Zentrifugen-Filtereinheit. Sauberkeitsziel: ISO 4406 ≤16/14/11 für den Hauptschmierölkreis und ≤15/13/10 für den Regelölkreis.",
+    "challenge": "Das Schmierölsystem wies nach der Überholung erhebliche metallische Verunreinigung auf. Drei vorherige Spülversuche eines anderen Auftragnehmers erreichten die Zielreinheit im Regelölkreis nicht.",
+    "solution": "Wir setzten unsere eigens gebaute mobile Zentrifugenspüleinheit mit einem dedizierten Niedervolumen-Hochgeschwindigkeits-Nebenkreis für den Regelölring ein. Am Tag 3 lag der Hauptkreis bei 15/13/10, und am Tag 5 erreichten beide Kreise ihre Sauberkeitsziele, bestätigt durch unabhängige Partikelzählberichte.",
+    "outcomes": [
+      "Hauptschmierölkreis: ISO 4406 15/13/10 ✓",
+      "Regelölkreis: ISO 4406 14/12/9 ✓ (besser als Zielwert)",
+      "Beide Kreise in 5 Tagen abgeschlossen statt des 10-tägigen Reservefensters",
+      "Turbine ohne weitere Verzögerung zum Erstanfahren freigegeben"
+    ],
+    "tags": [
+      "BHEL",
+      "Schmierölspülung",
+      "ISO 4406",
+      "Energieerzeugung"
+    ],
+    "categorySlug": "lube-oil-flushing"
+  },
+  "cs_05": {
+    "id": "cs_05",
+    "image": "project-alignment.webp",
+    "category": "Maschinenausrichtung",
+    "industry": "Stahlwerk",
+    "title": "KKK-Verdichter-Getriebe-Motor-Strang — präzise Laserausrichtung",
+    "client": "Vertraulich — Stahlwerk, Jharkhand",
+    "year": "2024",
+    "duration": "2 Tage",
+    "scope": "Präzise Laserausrichtung eines dreiteiligen Verdichterstrangs (Motor–Getriebe–Verdichter) nach Getriebeaustausch. Rohrspannungsmessung und -korrektur.",
+    "challenge": "Der Motor war ein Asynchronmotor mit fester Drehzahl und begrenztem Zugang für Unterlegbleche. Die Rohrspannung am Verdichteraustritt zog das Gehäuse um 0,04 mm — genug, um die Ausrichtung nach dem Anschluss ungültig zu machen.",
+    "solution": "Wir führten eine entkuppelte Kaltausrichtung durch, maßen und dokumentierten dann die Rohrspannung bei angeschlossener Austrittsleitung. Der Rohrleitungsbauer stützte das Austrittsformstück neu ab, und die Rohrspannung sank auf <0,005 mm. Endgültige gekuppelte Ausrichtung: winklig 0,008 mm/100 mm, Versatz 0,012 mm — innerhalb der OEM-Toleranzen.",
+    "outcomes": [
+      "Winkelfehlausrichtung: 0,008 mm/100 mm (OEM-Grenzwert 0,02 mm/100 mm)",
+      "Parallelversatz: 0,012 mm (OEM-Grenzwert 0,025 mm)",
+      "Rohrspannung korrigiert — keine Restlast am Verdichterstutzen",
+      "Vibration beim ersten Anfahren: 1,2 mm/s — deutlich unter dem Alarmniveau"
+    ],
+    "tags": [
+      "KKK",
+      "Laserausrichtung",
+      "Verdichter",
+      "Stahlwerk"
+    ],
+    "categorySlug": "machine-alignment"
+  },
+  "cs_06": {
+    "id": "cs_06",
+    "image": "project-dynamic-balancing.webp",
+    "category": "Dynamisches Auswuchten",
+    "industry": "Zementwerk",
+    "title": "Zementmühlen-Ventilatorrotor — dynamisches Auswuchten & Wellenzapfenbearbeitung",
+    "client": "Vertraulich — Zementwerk, Rajasthan",
+    "year": "2023",
+    "duration": "4 Tage",
+    "scope": "Werkstatt-dynamisches Auswuchten eines 680-kg-ID-Ventilatorrotors nach ISO-21940-11-G2.5-Gütegrad sowie Wellenzapfenschleifen und -polieren an Antriebs- und Nichtantriebsseite.",
+    "challenge": "Der Rotor traf mit starken Zementablagerungen, Zapfenriefen durch kollabiertes Lager und einer Restunwucht von ~420 g·mm aus dem Feld ein — weit außerhalb der ISO-G2.5-Grenzwerte für die Betriebsdrehzahl.",
+    "solution": "Zementablagerungen wurden durch Sandstrahlen entfernt. Beide Zapfen wurden um 0,10 mm untermaßig geschliffen und auf Ra 0,4 µm poliert. Der Rotor wurde dann in unserer Zweiebenen-Auswuchtmaschine ausgewuchtet (Kapazität 2000 kg, Drehzahl bis 1500 U/min). Endgültige Restunwucht: 6 g·mm pro Ebene (ISO G1.0 erreicht).",
+    "outcomes": [
+      "Restunwucht: 6 g·mm/Ebene — besser als G1.0",
+      "Zapfenoberflächengüte: Ra 0,38 µm an beiden Enden",
+      "Vibration bei Volldrehzahl (980 U/min) nach Einbau: 0,9 mm/s",
+      "Lagertemperaturen innerhalb von 2 Stunden nach erstem Lauf normalisiert"
+    ],
+    "tags": [
+      "Dynamisches Auswuchten",
+      "Ventilatorrotor",
+      "Wellenzapfenbearbeitung",
+      "Zement"
+    ],
+    "categorySlug": "dynamic-balancing"
+  },
+  "cs_07": {
+    "id": "cs_07",
+    "image": "project-emergency-breakdown.webp",
+    "category": "Notfall-Störung",
+    "industry": "Zuckerfabrik",
+    "title": "Belliss-&-Morcom-Turbine — Notfall-Ausfall eines Weißmetalllagers während der Erntesaison",
+    "client": "Vertraulich — Zuckerfabrik, Haryana",
+    "year": "2024",
+    "duration": "14 Stunden Ausfallzeit",
+    "scope": "Notfalleinsatz vor Ort, Ursachendiagnose, Fertigung und Einbau eines Ersatz-Weißmetalllagers, Rotorinspektion und Wiederinbetriebnahme innerhalb eines 14-Stunden-Fensters.",
+    "challenge": "Die Turbine schaltete um 02:00 Uhr auf dem Höhepunkt der Erntesaison aufgrund eines Weißmetalllagerausfalls auf der Nichtantriebsseite ab. Die Fabrik verarbeitete 8.000 TCD — jede Stunde Stillstand kostete etwa ₹4 Lakh an Zuckerrohrverlusten.",
+    "solution": "Unser Ingenieur wurde innerhalb von 90 Minuten nach dem Anruf entsandt und erreichte die Anlage um 05:30 Uhr. Ursache identifiziert: Ölmangel durch einen verstopften Ölkanal. Das Ersatzlager wurde aus dem Werkstattbestand bezogen, neu mit Weißmetall ausgegossen und vor Ort von Hand geschabt. Rotorzapfen inspiziert — kein Schaden. Turbine um 16:00 Uhr wieder am Netz.",
+    "outcomes": [
+      "Gesamtausfallzeit: 14 Stunden von Abschaltung bis zum ersten Dampf",
+      "Ursache identifiziert und Ölkanal gereinigt — keine wiederholte Abschaltung",
+      "Geschätzter verhinderter Zuckerrohrverlustwert: etwa ₹56 Lakh",
+      "Keine Schäden an Rotorzapfen — Wellenaustauschkosten eingespart"
+    ],
+    "tags": [
+      "Belliss & Morcom",
+      "Notfall",
+      "Weißmetalllager",
+      "Zuckerfabrik"
+    ],
+    "categorySlug": "emergency-breakdown"
+  },
+  "cs_08": {
+    "id": "cs_08",
+    "image": "project-troubleshooting.webp",
+    "category": "Störungsbehebung",
+    "industry": "Papierfabrik",
+    "title": "BHEL-3-MW-Turbine — Ursachenuntersuchung & Behebung starker Vibration",
+    "client": "Vertraulich — Papierfabrik, Punjab",
+    "year": "2024",
+    "duration": "3 Tage Untersuchung + 8 Tage Behebung",
+    "scope": "Vor-Ort-Schwingungsanalyse, rotordynamische Bewertung, Ursachenermittlung, Werkstatt-Rotorauswuchtung, Lageraustausch und Wiederinbetriebnahme.",
+    "challenge": "Die 3-MW-Turbine zeigte seit 6 Monaten zunehmende Vibration — mit einem Höchstwert von 9,2 mm/s am Lager der Nichtantriebsseite. Drei verschiedene Wartungsteams hatten Lager ausgetauscht, ohne das zugrunde liegende Problem zu lösen.",
+    "solution": "Wir setzten Schwingungsanalysegeräte ein und erfassten Frequenzspektren bei allen Betriebsdrehzahlen. Eine dominante 1×-Komponente hielt bei allen Drehzahlen an und bestätigte eine Rotormassenunwucht statt Lager- oder Ausrichtungsprobleme. Der Rotor wurde ausgebaut, die Zapfen inspiziert (leichte Ovalität korrigiert) und in unserer Werkstatt auf ISO G1.0 ausgewuchtet. Endrestwert: 4,8 g·mm pro Ebene.",
+    "outcomes": [
+      "Vibration bei Betriebsdrehzahl von 9,2 mm/s auf 0,8 mm/s reduziert",
+      "Ursache bestätigt: Rotormassenexzentrizität durch eine zuvor misslungene Zapfenreparatur",
+      "24+ Monate Betrieb seit der Wiederinbetriebnahme — keine Lagerwechsel",
+      "Vollständiger Auswuchtbericht und Schwingungsspektren für die Versicherungsakte bereitgestellt"
+    ],
+    "tags": [
+      "BHEL",
+      "Schwingungsanalyse",
+      "Dynamisches Auswuchten",
+      "Störungsbehebung"
+    ],
+    "categorySlug": "troubleshooting"
+  }
+}

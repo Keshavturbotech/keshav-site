@@ -1,0 +1,92 @@
+{
+  "dl_1": {
+    "id": "dl_1",
+    "title": "Daftar Periksa Overhaul Turbin",
+    "desc": "Daftar periksa langkah demi langkah untuk overhaul turbin besar dan kecil. Mencakup celah (clearance), penyeimbangan, pengesahan torsi, dan pemeriksaan pra-komisioning.",
+    "category": "Perawatan",
+    "tags": [
+      "Turbin",
+      "Overhaul",
+      "Daftar Periksa"
+    ],
+    "fileSize": "420 KB",
+    "fileType": "PDF",
+    "file": "turbine-overhaul-checklist.pdf",
+    "featured": true
+  },
+  "dl_2": {
+    "id": "dl_2",
+    "title": "Lembar Data Elemen Filter — Oli Pelumas",
+    "desc": "Rating teknis, kurva tekanan diferensial, dan tabel kompatibilitas untuk semua elemen filter oli pelumas yang dipasok oleh Keshav Enterprises.",
+    "category": "Lembar Data",
+    "tags": [
+      "Filtrasi",
+      "Oli Pelumas",
+      "Lembar Data"
+    ],
+    "fileSize": "1.2 MB",
+    "fileType": "PDF",
+    "file": "filter-element-datasheet-lube-oil.pdf",
+    "featured": false
+  },
+  "dl_3": {
+    "id": "dl_3",
+    "title": "Daftar Periksa Pembersihan Oli Pelumas",
+    "desc": "Daftar periksa prosedur pembersihan sesuai ISO. Mencakup pengaturan sentrifugal mobile, protokol pengambilan sampel oli, verifikasi kebersihan, dan pengesahan.",
+    "category": "Perawatan",
+    "tags": [
+      "Oli Pelumas",
+      "Pembersihan",
+      "ISO"
+    ],
+    "fileSize": "310 KB",
+    "fileType": "PDF",
+    "file": "lube-oil-flushing-checklist.pdf",
+    "featured": false
+  },
+  "dl_4": {
+    "id": "dl_4",
+    "title": "Referensi Pemilihan & Celah Bearing",
+    "desc": "Panduan referensi cepat untuk pemilihan bearing, celah journal, dan toleransi radial/aksial pada berbagai merek turbin uap umum.",
+    "category": "Panduan Teknis",
+    "tags": [
+      "Bearing",
+      "Celah",
+      "Referensi"
+    ],
+    "fileSize": "680 KB",
+    "fileType": "PDF",
+    "file": "bearing-selection-clearance-reference.pdf",
+    "featured": false
+  },
+  "dl_5": {
+    "id": "dl_5",
+    "title": "Template RFQ Turbin",
+    "desc": "Lembar spesifikasi turbin kosong untuk meminta penawaran perbaikan atau overhaul. Isi merek, model, daya, dan riwayat servis Anda.",
+    "category": "RFQ / Formulir",
+    "tags": [
+      "RFQ",
+      "Template",
+      "Penawaran"
+    ],
+    "fileSize": "185 KB",
+    "fileType": "XLSX",
+    "file": "turbine-rfq-template.xlsx",
+    "featured": true
+  },
+  "dl_6": {
+    "id": "dl_6",
+    "title": "Profil Perusahaan Keshav Enterprises",
+    "desc": "Deck kapabilitas untuk tim pengadaan dan manajer pabrik. Mencakup layanan, cakupan OEM, peralatan bengkel, dan proyek referensi.",
+    "category": "Perusahaan",
+    "tags": [
+      "Profil",
+      "Kapabilitas",
+      "Brosur"
+    ],
+    "fileSize": "3.4 MB",
+    "fileType": "PDF",
+    "file": "keshav-enterprises-company-profile.pdf",
+    "featured": false
+  }
+}

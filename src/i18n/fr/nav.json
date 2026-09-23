@@ -1,0 +1,11 @@
+{
+  "/": { "label": "Accueil" },
+  "/about": { "label": "À propos" },
+  "/services": { "label": "Services" },
+  "/products": { "label": "Produits" },
+  "/industries": { "label": "Industries" },
+  "/contact": { "label": "Contact" },
+  "/projects": { "label": "Projets" },
+  "/blog": { "label": "Blog" },
+  "/downloads": { "label": "Téléchargements" }
+}

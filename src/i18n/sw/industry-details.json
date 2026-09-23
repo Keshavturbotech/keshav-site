@@ -1,0 +1,658 @@
+{
+  "ind_1": {
+    "heroSub": "Turbine za mvuke kutoka 5 MW hadi 60 MW — joto, co-gen na umeme wa ndani",
+    "overview": "Sekta ya umeme wa joto na wa ndani ya India inategemea utendaji usiokatizwa wa turbine za mvuke zinazofanya kazi chini ya mzigo endelevu. Keshav Enterprises ina utaalamu wa kina wa enzi ya OEM — wahandisi wetu walifunzwa na watengenezaji wa turbine kabla ya kuanzisha kampuni — hii inatupatia uwezo wa kufanya uhandisi wa kinyume, kutengeneza, na kukarabati kila mfumo mkuu wa turbine ya mvuke ya kituo cha umeme kulingana na mipaka ya OEM.",
+    "challenges": [
+      {
+        "title": "Uendeshaji wa Mzigo Mkubwa Endelevu",
+        "desc": "Turbine za mvuke katika vituo vya umeme hufanya kazi kwa RPM 3000–3600 chini ya hali za mzigo kamili endelevu, zikiweka msongo mkubwa kwenye bearing, seal, na mifumo inayozunguka."
+      },
+      {
+        "title": "Uchafuzi wa Mafuta ya Kulainisha",
+        "desc": "Kuingia kwa chembe na maji kwenye mfumo wa mafuta ya kulainisha kunaweza kuharibu haraka nyuso za bearing. Malengo ya usafi ya ISO 4406:99 lazima yadumishwe kila mara."
+      },
+      {
+        "title": "Upanuzi wa Joto katika Mistari ya Mvuke",
+        "desc": "Mabomba ya mvuke ya joto la juu hupitia mizunguko mikubwa ya joto. Bila viungo vya upanuzi vilivyoundwa vizuri, msongo wa bomba husababisha uvujaji wa flange na uharibifu wa nozzle ya turbine."
+      },
+      {
+        "title": "Mtetemo wa Rota na Kutoweka kwa Uwiano",
+        "desc": "Mkusanyiko wa mabaki na mmomonyoko husababisha kuhama kwa uwiano kwa hatua kwa hatua katika rota, kuongeza mtetemo na kuharakisha uchakavu wa bearing ikiwa haitagunduliwa mapema."
+      }
+    ],
+    "products": [
+      {
+        "name": "Vichujio vya Mafuta ya Kulainisha (180 GPM)",
+        "purpose": "Hudumisha usafi wa ISO 4406:99 katika mifumo ya mafuta ya kulainisha ya turbine, ikilinda journal bearing na thrust bearing kutokana na uchakavu wa kukwaruza.",
+        "features": [
+          "Media ya VG ya nyuzi za kioo, ukamilifu wa mikroni 6–25",
+          "Kipimo cha kuzuia umeme tuli IS27 kwa mafuta ya sintetiki",
+          "Inaendana na OEM za Triveni, Siemens, BHEL"
+        ]
+      },
+      {
+        "name": "Bellows za Crossover ya Mvuke",
+        "purpose": "Hufyonza upanuzi wa joto kati ya sehemu za turbine za HP/LP na bomba la crossover, ikiondoa uhamishaji wa msongo kwenda kwa flange za nozzle ya turbine.",
+        "features": [
+          "Bellows za SS za mzunguko wa juu, kiwango cha EJMA",
+          "Joto la uendeshaji hadi 550°C",
+          "Ncha za flange maalum kulingana na vipimo vya OEM"
+        ]
+      },
+      {
+        "name": "Bearing za Journal na Thrust za Babbitt",
+        "purpose": "Bearing zilizofunikwa na metali nyeupe zilizokatwa kwa usahihi kulingana na maumbo ya OEM kwa rota za turbine — muhimu kwa uthabiti wa mhimili kwa kasi ya juu.",
+        "features": [
+          "Metali nyeupe (Babbitt) iliyomwagwa na kukatwa kwa usahihi",
+          "Chapa zote za turbine: Triveni, Siemens, BHEL, KKK",
+          "Uwiano wa interference umethibitishwa kwenye CMM"
+        ]
+      },
+      {
+        "name": "Valvu za Kusimamisha Dharura",
+        "purpose": "Valvu muhimu kwa usalama inayosimamisha turbine wakati wa mwendo kupita kiasi au shinikizo dogo la mafuta ya kulainisha — inatengenezwa kulingana na mipangilio ya shinikizo la kusimama ya OEM.",
+        "features": [
+          "Mwili uliokatwa kwa CNC kutoka kwa vitu vilivyofuliwa vya EN8/EN19",
+          "Utaratibu wa kusimama wenye spring",
+          "Umejaribiwa kwa 1.5× ya shinikizo la kazi kabla ya usafirishaji"
+        ]
+      },
+      {
+        "name": "Vipimo vya Ufuatiliaji wa Mtetemo (Vinavyoendana na Shinkawa)",
+        "purpose": "Vipimo vya proximity kwa ufuatiliaji endelevu wa mtetemo wa rota kulingana na API 670, vikiwezesha matengenezo ya kutabiri kabla ya kushindwa kwa bearing kutokea.",
+        "features": [
+          "Vinavyoendana na Shinkawa, Bently Nevada",
+          "Kihisi kisichogusa cha eddy-current",
+          "Vipimo vya tahadhari na hatari kulingana na API 670"
+        ]
+      },
+      {
+        "name": "Pampu za Mafuta ya Turbine (Kuu na Msaidizi)",
+        "purpose": "Hutoa mafuta ya kulainisha yenye shinikizo kwa bearing zote. Pampu msaidizi huchukua nafasi wakati wa kuanza na kusimamisha wakati matokeo ya pampu inayoendeshwa na mhimili mkuu hayatoshi.",
+        "features": [
+          "Muundo wa pampu ya gia, umewekwa kwenye skid ya turbine",
+          "Vipimo vyote vikuu vya OEM vinapatikana",
+          "Valvu ya relief imewekwa kulingana na kipimo cha shinikizo la OEM"
+        ]
+      },
+      {
+        "name": "Vichujio vya Hewa vya Paneli Zilizokunjwa (HVAC ya Chumba cha Udhibiti na Jengo la Turbine)",
+        "purpose": "Vichujio vya HVAC vya kubadilisha kwa AHU za chumba cha udhibiti cha kituo cha umeme, vitengo vya uingizaji hewa vya jengo la turbine, na vipoezaji hewa vya chumba cha switchgear ya umeme — vinaweka hewa ya kupoeza safi na kulinda vifaa nyeti kutokana na uchafuzi wa vumbi la makaa na fly ash.",
+        "features": [
+          "Ufanisi wa F7 kunasa fly ash na vumbi la makaa laini",
+          "Fremu ya chuma iliyofunikwa na zinki na media ya sintetiki",
+          "Vipimo vya kawaida vya AHU vipo kwenye hifadhi; maalum kwa ombi",
+          "Kichujio cha awali cha wavu wa metali pia kinapatikana kwa hatua ya kwanza"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Uwezo wa juu wa turbine wa 60 MW unaoshughulikiwa",
+      "Miaka 26+ ya uzoefu wa uhandisi uliofunzwa na OEM",
+      "Bidhaa zinazokidhi API 614 na ISO 4406:99",
+      "Utoaji wa vichujio vya HVAC kwa vyumba vya udhibiti na majengo ya turbine",
+      "Msaada wa dharura wa kusimama wa saa 24×7"
+    ]
+  },
+  "ind_2": {
+    "heroSub": "Turbine za shinikizo la nyuma na extraction-condensing katika co-gen ya sukari na vinywaji vikali",
+    "overview": "Sekta ya sukari ya India inaendesha misimu ya kusaga mikubwa ya siku 150–180 ambapo upatikanaji wa turbine unahusiana moja kwa moja na uzalishaji wa kusaga miwa. Keshav Enterprises inabobea katika ukarabati wa kati ya misimu kwa turbine za shinikizo la nyuma — mashine kuu za co-generation ya sukari — na inatoa msaada wa vipuri vya dharura wa saa 24×7 wakati wa msimu wa kusaga wakati kusimama kunagharimu zaidi.",
+    "challenges": [
+      {
+        "title": "Kipindi Kifupi cha Ukarabati wa Kati ya Misimu",
+        "desc": "Turbine lazima zikarabatiwe kikamilifu, vipengele vibadilishwe, na kuanzishwa kabla msimu ujao wa kusaga kuanza — mara nyingi kipindi cha siku 90–120 tu."
+      },
+      {
+        "title": "Uchakavu wa Seal ya Kaboni na Gland",
+        "desc": "Turbine za shinikizo la nyuma hutumia pete za gland za kaboni kuzuia uvujaji wa mvuke. Hizi huchakaa kila mara na zinahitaji kubadilishwa kwa usahihi kwenye kila ukarabati."
+      },
+      {
+        "title": "Uchafuzi wa Molasi na Maji ya Miwa",
+        "desc": "Maeneo ya uchakataji hutoa chembe zinazonata angani. Vichujio vya breather na vichujio kwenye mifumo ya mafuta ya kulainisha lazima vitunzwe kuzuia uchafuzi."
+      },
+      {
+        "title": "Kushindwa kwa Dharura Msimu",
+        "desc": "Kusimama kwa turbine wakati wa kilele cha kusaga husababisha mrundikano wa haraka wa miwa. Vipuri vya dharura na mwitikio wa haraka vinaweza kutofautisha kati ya kusimama kwa masaa 4 na siku 4."
+      }
+    ],
+    "products": [
+      {
+        "name": "Pete za Seal za Gland za Kaboni na Grafiti",
+        "purpose": "Huzuia uvujaji wa mvuke kupitia mhimili wa turbine katika maeneo ya gland. Hukatwa kwa usahihi kulingana na vipimo vya mhimili na nyumba za OEM.",
+        "features": [
+          "Madaraja ya kaboni/grafiti ya usafi wa hali ya juu",
+          "Chapa zote za turbine: Triveni, Belliss & Morcom, Maxwatt",
+          "Hukatwa ndani kwa mipaka ya ±0.01 mm"
+        ]
+      },
+      {
+        "name": "Upakiaji wa Seal ya Labyrinth",
+        "purpose": "Seal za labyrinth za kati ya hatua na ncha za mhimili zinazopunguza uvujaji wa mvuke kati ya hatua za turbine, zikiboresha moja kwa moja ufanisi wa joto.",
+        "features": [
+          "Chaguo za malighafi za SS, shaba, au monel",
+          "Umbo la meno la OEM linadumishwa",
+          "Vipande vipya au vilivyorekebishwa vinawekwa kwenye nyumba zilizopo"
+        ]
+      },
+      {
+        "name": "Vichujio vya Mafuta ya Kulainisha (Vinavyoendana na Triveni)",
+        "purpose": "Huhakikisha ugavi safi wa mafuta ya kulainisha kwa bearing za turbine katika msimu wote wa kusaga, ukizuia kushindwa kwa bearing wakati wa vipindi muhimu vya uzalishaji.",
+        "features": [
+          "Kipimo cha mtiririko cha GPM 180",
+          "Kipimo cha kuzuia umeme tuli IS27",
+          "Kubadilisha kati ya misimu kunapendekezwa"
+        ]
+      },
+      {
+        "name": "Vichujio vya Breather vya Hewa",
+        "purpose": "Hulinda hifadhi ya mafuta ya kulainisha kutokana na vumbi angani na chembe za sukari — muhimu katika mazingira ya kiwanda cha sukari ambapo mzigo wa vumbi la mazingira ni mkubwa sana.",
+        "features": [
+          "Muundo wa breather wa wavu laini wenye desiccant",
+          "Huzuia kuingia kwa unyevu na vumbi",
+          "Kiashiria cha kueneza kinachoonekana"
+        ]
+      },
+      {
+        "name": "Vichujio vya Kikapu vya Simplex na Duplex",
+        "purpose": "Vimewekwa katika mizunguko ya mafuta ya kulainisha na maji ya kupoeza kunasa uchafu kabla ya kufika bearing na visambaza joto.",
+        "features": [
+          "Vikapu vya wavu vya SS, vinavyoweza kusafishwa na kutumika tena",
+          "Ncha za flange au za kupindwa za ANSI",
+          "Duplex kwa usafishaji wa kichujio bila kusimama"
+        ]
+      },
+      {
+        "name": "Huduma ya Uwiano wa Rota",
+        "purpose": "Uwiano wa mzunguko wa rota za turbine baada ya kubadilisha vile au bearing, ukirejesha uendeshaji laini ndani ya kipimo cha ISO 1940 G1.0.",
+        "features": [
+          "Uwiano wa mzunguko kulingana na ISO 1940/1 G1.0",
+          "Uwiano wa ndege mbili kwenye aina zote za rota",
+          "Cheti cha uwiano hutolewa pamoja na ripoti ya kazi"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Huduma maalum za turbine za Triveni na Belliss",
+      "Msaada wa msimu wa dharura wa saa 24×7",
+      "Madaraja yote ya kaboni/grafiti hukatwa ndani",
+      "Ukarabati wa kati ya misimu unakamilika ndani ya kipindi"
+    ]
+  },
+  "ind_3": {
+    "heroSub": "Turbine zinazofanya kazi bila kusimama, viungo vya upanuzi na uchujaji wa uchakataji kwa viwanda vya karatasi",
+    "overview": "Viwanda vya karatasi na massa hutumia turbine za mvuke saa zote, zaidi ya siku 350 kwa mwaka, na kufanya vipindi vya matengenezo yaliyopangwa kuwa vifupi sana. Mchakato pia unahusisha bleach ya kuharibu, maji ya moto, na mvuke wenye shinikizo la juu — vyote vinahitaji bidhaa za uchujaji na kuziba zenye kiwango cha vyombo vikali. Keshav Enterprises inatoa wigo kamili wa bidhaa zinazohitajika kuweka mifumo ya mvuke na uchakataji ya kiwanda cha karatasi ikiendelea kufanya kazi.",
+    "challenges": [
+      {
+        "title": "Vipindi vya Chini vya Kusimama",
+        "desc": "Kusimama kwa mashine ya karatasi kunagharimu lakh nyingi kwa saa. Ukarabati wa turbine lazima upangwe miezi mapema na kutekelezwa bila kurudia kazi — kila kipengele lazima kiwe sahihi mara ya kwanza."
+      },
+      {
+        "title": "Vyombo vya Uchakataji Vinavyoharibu",
+        "desc": "Bleach, misombo yenye klorini, na maji ya uchakataji ya caustic hushambulia malighafi za kawaida. Bidhaa za uchujaji na mabomba lazima zitumie vyombo na seal zinazoendana."
+      },
+      {
+        "title": "Mabomba ya Mvuke ya Joto la Juu",
+        "desc": "Boilers za kiwanda cha karatasi huzalisha mvuke wenye shinikizo la juu kwa 250–400°C. Viungo vya upanuzi vya mabomba ya mvuke lazima vishughulikie joto la juu na uchovu wa mzunguko."
+      },
+      {
+        "title": "Mtetemo kutoka kwa Mashine za Karatasi",
+        "desc": "Mashine za karatasi za kasi ya juu huzalisha mtetemo endelevu wa broadband. Mounting za kupinga mtetemo na miunganisho ya mabomba yanayopinda ni muhimu kutenganisha vifaa."
+      }
+    ],
+    "products": [
+      {
+        "name": "Vichujio vya Kikapu vya Duplex",
+        "purpose": "Vimewekwa kwenye mistari ya maji ya uchakataji, maji meupe, na maji ya kupoeza. Muundo wa duplex huruhusu kusafisha kikapu bila kusimamisha mtiririko — muhimu katika viwanda vinavyofanya kazi bila kusimama.",
+        "features": [
+          "Vikapu vya SS316 kwa vyombo vinavyoharibu",
+          "Valvu ya bypass ya plug cock imejumuishwa",
+          "Vipimo vya flange vya ANSI 150 hadi 600 vinapatikana"
+        ]
+      },
+      {
+        "name": "Viungo vya Upanuzi vya Bellows za Metali za SS",
+        "purpose": "Hufyonza upanuzi wa joto katika mabomba ya mvuke yenye shinikizo la juu, mistari ya uchakataji ya massa, na mabomba ya kiwanda cha bleach bila kuhamisha msongo kwenye nozzle za vifaa.",
+        "features": [
+          "Bellows za SS316L kwa upinzani wa kutu",
+          "Wigo wa DN15 hadi DN1200",
+          "Kiwango cha muundo wa EJMA, kimejaribiwa shinikizo"
+        ]
+      },
+      {
+        "name": "Viungo vya Upanuzi vya Mpira (Double-Arch)",
+        "purpose": "Hutoa muunganisho unaopinda kwenye upande wa kunyonya na kutokwa kwa pampu katika mifumo ya uchakataji wa maji, maji meupe, na maji taka — hutenganisha mtetemo wa pampu kutoka kwa mabomba.",
+        "features": [
+          "Chaguo za bomba la mpira wa asili au EPDM",
+          "Ncha za flange za PN10/16",
+          "Joto la huduma hadi 150°C"
+        ]
+      },
+      {
+        "name": "Vifaa vya Mabomba yaliyofunikwa na PTFE",
+        "purpose": "Mabomba ya kuhamisha kemikali kwa mistari ya bleach, caustic, na asidi katika kiwanda cha bleach — ufunikaji wa PTFE hutoa upinzani kamili dhidi ya kemikali za uchakataji zinazoharibu.",
+        "features": [
+          "Kiini cha ndani cha PTFE, uimarishaji wa msuko wa SS",
+          "Kipimo cha utupu kamili",
+          "Vifaa vya ncha vinavyokidhi EN14420"
+        ]
+      },
+      {
+        "name": "Maumbo na Seal za Mpira Zilizosukumwa Maalum",
+        "purpose": "Ukanda maalum wa mpira uliosukumwa (extruded) kwa ajili ya kupunguza mtetemo, uliowekwa chini ya mota za mashine ya karatasi, pampu, na msingi wa turbine ili kutenga na kupunguza mtetemo wa mashine unaofika kwenye muundo wa jengo.",
+        "features": [
+          "Mchanganyiko wa EPDM, Neoprene, Nitrile, au Mpira wa Asili",
+          "Umbo maalum lililosukumwa kulingana na mchoro au sampuli",
+          "Kiwango cha ugumu 40-80 Shore A kulingana na matumizi"
+        ]
+      },
+      {
+        "name": "Vipuri vya Turbine (Siemens, BHEL, Triveni)",
+        "purpose": "Vipuri vya turbine vinavyolingana na OEM vinavyotengenezwa kutoka kwa malighafi zilizoidhinishwa kwa vifurushi vya ukarabati vilivyopangwa — nozzle, diaphragms, pete za gland, na nyumba za bearing.",
+        "features": [
+          "Vimefanywa uhandisi wa kinyume kutoka kwa michoro ya OEM",
+          "Vyeti vya malighafi vinatolewa",
+          "Ripoti ya ukaguzi wa vipimo vya CMM"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Inasaidia uendeshaji endelevu wa siku 350+ kwa mwaka",
+      "Bidhaa za SS316L kwa vyombo vinavyoharibu",
+      "Suluhu za kichujio cha duplex bila kusimama",
+      "Vifurushi kamili vya ukarabati vinavyopangwa na kutolewa"
+    ]
+  },
+  "ind_4": {
+    "heroSub": "Uchujaji unaokidhi API 614, bearing za Babbitt na mabomba sahihi kwa vituo vya mafuta na gesi",
+    "overview": "Vituo vya mafuta na gesi vya uzalishaji, usafirishaji wa kati, na usindikaji vinatumia compressors na pampu zinazoendeshwa na turbine chini ya baadhi ya hali ngumu zaidi katika sekta hiyo. Kila kipengele katika mfumo wa mafuta ya kulainisha na mafuta ya udhibiti lazima kikidhi viwango vya API. Keshav Enterprises inatoa vichujio vinavyokidhi API 614, bearing za Babbitt, na vifaa vya mabomba vilivyotengenezwa kwa usahihi vinavyostahiki kwa matumizi katika vifaa vya maeneo hatarishi.",
+    "challenges": [
+      {
+        "title": "Uzingatiaji wa Mfumo wa Mafuta ya Kulainisha API 614",
+        "desc": "Vipengele vyote vya mfumo wa mafuta ya kulainisha kwa vifaa vinavyoendeshwa na turbine katika mafuta na gesi lazima vikidhi API 614, inayoainisha malighafi, usafi, na viwango vya shinikizo."
+      },
+      {
+        "title": "Uchujaji katika Maeneo Hatarishi",
+        "desc": "Mafuta ya udhibiti ya sintetiki katika mifumo ya udhibiti wa turbine yana upitishaji mdogo wa umeme. Vichujio lazima viwe na kipimo cha kuzuia umeme tuli IS27 kuzuia utoaji wa umeme tuli."
+      },
+      {
+        "title": "Uadilifu wa Mabomba ya Shinikizo la Juu",
+        "desc": "Vifaa vya mabomba ya hydraulic na vipimo katika mafuta na gesi hubeba shinikizo hadi bar 420. Kushindwa kunamaanisha hatari ya kumwagika na moto — hakuna maafikiano juu ya ubora au uthibitishaji."
+      },
+      {
+        "title": "Usambazaji wa Haraka kwa Maeneo ya Mbali",
+        "desc": "Majukwaa ya pwani na vituo vya mbali vya uzalishaji vinahitaji ugavi wa haraka wa vipuri. Vipuri muhimu vinahifadhiwa na kusafirishwa siku hiyo hiyo kwa maagizo ya dharura."
+      }
+    ],
+    "products": [
+      {
+        "name": "Vichujio vya Mafuta ya Udhibiti (Kuzuia Umeme Tuli IS27)",
+        "purpose": "Kwa mifumo ya udhibiti wa umeme-hydraulic (EHC) ya turbine inayotumia mafuta ya udhibiti ya sintetiki ya phosphate-ester au ester yenye upitishaji chini ya pS/m 300.",
+        "features": [
+          "Uidhinishaji wa kuzuia umeme tuli IS27",
+          "Media ya Microglass VG, mikroni 3–25",
+          "Inaendana na Siemens, Man Turbo, KKK"
+        ]
+      },
+      {
+        "name": "Utengenezaji wa Bearing za Babbitt",
+        "purpose": "Bearing za journal na thrust kwa compressors na pampu zinazoendeshwa na turbine, zilizofunikwa na metali nyeupe kwa maumbo sahihi yanayolingana na jiometri ya bearing ya OEM asili.",
+        "features": [
+          "Muundo wa metali nyeupe kulingana na ASTM B23",
+          "Umechimbwa kwa usahihi hadi mipaka ya <0.01 mm",
+          "Chapa zote: Man Turbo, KKK, Siemens, ABB"
+        ]
+      },
+      {
+        "name": "Vifaa vya Mabomba yaliyofunikwa na PTFE",
+        "purpose": "Mabomba ya kemikali na vipimo kwa uhamishaji wa vimiminika vinavyoharibu katika uchakataji wa mafuta na gesi — vinavyostahimili mafuta ghafi, H2S, methanol, na vizuizi.",
+        "features": [
+          "Kiini cha PTFE, msuko wa SS316 au overbraid ya stainless",
+          "Kipimo cha shinikizo hadi bar 420 (vifaa vilivyochaguliwa)",
+          "Vifaa vinavyokidhi BS EN ISO 10380 vinapatikana"
+        ]
+      },
+      {
+        "name": "Vifaa vya Mabomba ya Hydraulic ya Mpira",
+        "purpose": "Mabomba ya hydraulic ya shinikizo la juu kwa vidhibiti vya udhibiti, mifumo ya BOP, na vitengo vya nguvu za hydraulic kwenye vifaa vya uchimbaji na uchakataji.",
+        "features": [
+          "Muundo wa spiral wa nyuzi 4 na nyuzi 6",
+          "Shinikizo la kazi hadi bar 400",
+          "Vifaa vinavyoendana na Parker, Gates, Manuli"
+        ]
+      },
+      {
+        "name": "Nyumba za Kichujio za Duplex Zilizotengenezwa",
+        "purpose": "Vyombo vya kichujio vya duplex vilivyotengenezwa maalum kwa mifumo ya mafuta ya kulainisha na mafuta ya udhibiti, vimepigwa muhuri wa kanuni ya ASME kwa uzingatiaji wa mahitaji ya vyombo vya API 614.",
+        "features": [
+          "Umepigwa muhuri wa kanuni ya ASME Sec. VIII Div. 1",
+          "Malighafi: CS, SS304, SS316 kulingana na huduma",
+          "Imeidhinishwa PED/CE kwa miradi ya kusafirisha"
+        ]
+      },
+      {
+        "name": "Vipimo vya Ufuatiliaji wa Mtetemo",
+        "purpose": "Vipimo vya proximity na mifumo ya ufuatiliaji inayoendana na mifumo ya ulinzi wa turbomachinery ya API 670 kwa mifumo ya compressor na turbine.",
+        "features": [
+          "Inaendana na Bently Nevada, Shinkawa",
+          "Nyumba ya kipimo yenye kiwango cha IP67",
+          "Matokeo ya relay ya tahadhari na hatari"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Bidhaa zinazokidhi API 614 na IS27",
+      "Bearing za Babbitt kwa OEM zote kuu",
+      "Usafirishaji wa dharura wa siku hiyo hiyo unapatikana",
+      "Vyombo vya shinikizo vilivyopigwa muhuri wa kanuni ya ASME"
+    ]
+  },
+  "ind_5": {
+    "heroSub": "Viungo vya upanuzi vya metali, vichujio vya joto la juu na vipuri sahihi kwa visafishaji na viwanda vya petrokemikali",
+    "overview": "Majengo ya visafishaji na petrokemikali hushughulikia hydrocarbon, asidi, na kemikali zinazoharibu kwa joto na shinikizo la juu sana. Viungo vya upanuzi vya metali, vichujio vya uchakataji, na vipuri sahihi vya turbine lazima vistahimili mzunguko wa joto, vyombo vinavyoharibu, na uchovu wa mzunguko wa juu. Keshav Enterprises inatengeneza bidhaa hizi kulingana na viwango vya EJMA, ASME, na API kwa matumizi ya kisafishaji yanayodai zaidi.",
+    "challenges": [
+      {
+        "title": "Mzunguko wa Joto Uliokithiri",
+        "desc": "Nguzo za steam cracking na distilesheni za kisafishaji huzunguka kati ya joto la mazingira na huduma ya 600°C+. Viungo vya upanuzi lazima vistahimili mamilioni ya mizunguko ya kupinda bila kushindwa kwa uchovu."
+      },
+      {
+        "title": "Vyombo Vinavyoharibu na Vyenye Hidrojeni Nyingi",
+        "desc": "H2S, HF, vimumunyisho vya amine, na huduma ya hidrojeni vinahitaji bellows za Inconel, Hastelloy, au duplex stainless — SS304/316 ya kawaida haitoshi."
+      },
+      {
+        "title": "Uzingatiaji wa Kanuni za ASME na API",
+        "desc": "Vyombo vya shinikizo, mabomba, na bellows katika visafishaji lazima vikidhi ASME Sec. VIII na kanuni za API. Ukaguzi wa mtu wa tatu na uwezo wa kufuatilia malighafi ni lazima."
+      },
+      {
+        "title": "Mmomonyoko wa Kichocheo cha FCCU",
+        "desc": "Vitengo vya Fluid Catalytic Cracking hubeba chembe za kichocheo zilizonaswa kwa 700°C+. Viungo vya upanuzi kwenye mistari ya regenerator na reactor vinakumbana na mmomonyoko mkubwa na mshtuko wa joto."
+      }
+    ],
+    "products": [
+      {
+        "name": "Kiungo cha Upanuzi cha Ukuta Mzito wa Kazi Nzito",
+        "purpose": "Bomba la ukuta mzito lililoimarishwa kwa ajili ya hali ngumu za kazi za mistari ya kusafirisha kati ya regenerator na reactor: joto kali, shinikizo kubwa, na mkazo mkubwa wa kimitambo/kijoto.",
+        "features": [
+          "Muundo wa ukuta ulioimarishwa kwa upinzani wa juu wa shinikizo na mkazo",
+          "Mabadiliko madogo ya umbo chini ya mizunguko mikali ya shinikizo na joto",
+          "Malighafi: chaguo za SS 316/321, Duplex, Inconel, Hastelloy"
+        ]
+      },
+      {
+        "name": "Viungo vya Upanuzi vya Metali vya Axial na Universal",
+        "purpose": "Bellows za kawaida za mstari wa uchakataji kwa kufyonza upanuzi wa joto katika mafuta ghafi, bidhaa, na mabomba ya mvuke katika jengo lote la kisafishaji.",
+        "features": [
+          "Wigo wa utengenezaji wa DN15 hadi DN12,000",
+          "Madaraja ya SS316L, Inconel, Hastelloy, Duplex SS",
+          "Kanuni ya muundo ya ASME Sec. VIII Div. 1"
+        ]
+      },
+      {
+        "name": "Vichujio vya Simplex na Duplex vya Shinikizo la Juu",
+        "purpose": "Vichujio vya in-line kwenye mistari ya kupakia mafuta ghafi, mistari ya kuhamisha bidhaa, na mabomba ya kunyonya ya compressor kulinda vifaa kutokana na magamba na uchafu.",
+        "features": [
+          "Muundo wa kanuni ya vyombo vya shinikizo ya ASME",
+          "Muundo wa bamba lenye matundu + kikapu cha wavu",
+          "Madaraja ya shinikizo ya PN40 hadi PN160 yanapatikana"
+        ]
+      },
+      {
+        "name": "Kiungo cha Upanuzi cha Cryogenic cha LNG / LPG",
+        "purpose": "Kiungo cha upanuzi cha chuma cha kiwango cha cryogenic kwa mabomba ya gesi iliyoyeyushwa yenye joto la chini sana: mistari ya kusafirisha LNG/LPG, vituo vya kuhifadhi cryogenic, na sehemu za kupakia meli.",
+        "features": [
+          "Kimeundwa kwa kazi za cryogenic hadi viwango vya joto vya huduma ya LNG",
+          "Uchaguzi wa malighafi ya joto la chini kwa ustahimilivu na upinzani wa uchovu",
+          "Chaguo za chuma cha pua cha austenitic na aloi za kiwango cha cryogenic, ufuatiliaji kamili wa malighafi"
+        ]
+      },
+      {
+        "name": "Vipengele vya Njia ya Mvuke ya Turbine",
+        "purpose": "Vitalu vya nozzle, diaphragms, na wabeba vile kwa vidhibiti vya compressor vinavyoendeshwa na turbine — vinatengenezwa kutoka kwa chuma cha aloi kulingana na maumbo ya OEM.",
+        "features": [
+          "Vimekatwa kwa CNC kutoka kwa vitu vilivyofuliwa vilivyoidhinishwa",
+          "Malighafi: chuma cha aloi cha Cr-Mo, SS 17-4PH",
+          "Umbo limethibitishwa kwa upimaji wa CMM wa 3D"
+        ]
+      },
+      {
+        "name": "Viungo vya Upanuzi Vilivyosawazishwa kwa Shinikizo",
+        "purpose": "Huondoa nguvu za kusukuma za shinikizo kwenye nozzle za vifaa nyeti katika huduma ya kisafishaji ya shinikizo la juu — hulinda flange za compressor na pampu.",
+        "features": [
+          "Muundo wa kusukuma shinikizo ulioondolewa tie-rod",
+          "Hupunguza mizigo ya nozzle karibu na sifuri",
+          "Inapatikana katika mipangilio iliyofungwa na isiyofungwa"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Bellows za Inconel, Hastelloy na duplex SS",
+      "Kiwango cha muundo cha EJMA toleo la 10",
+      "Vyombo vya shinikizo na bellows za kanuni za ASME",
+      "Wataalamu wa FCCU na huduma ngumu"
+    ]
+  },
+  "ind_6": {
+    "heroSub": "Co-gen ya turbine za mvuke, uchujaji na bidhaa za mpira kwa vituo vya uchakataji wa kilimo",
+    "overview": "Uchakataji wa kilimo — kutoka kusaga mchele na uchimbaji wa kimumunyisho hadi utengenezaji wa maziwa na chakula — unazidi kutumia co-generation ya mvuke wa ndani kupunguza gharama za nishati. Vituo hivi vinahitaji matengenezo ya kuaminika ya turbine, bidhaa za mabomba na vichujio vya kiwango cha chakula, na suluhu za kutenganisha mtetemo kwa mashine nyeti za uchakataji. Keshav Enterprises inatoa wigo kamili wa bidhaa na huduma zinazohitajika katika sekta yote ya kilimo-viwanda.",
+    "challenges": [
+      {
+        "title": "Mahitaji ya Malighafi ya Kiwango cha Chakula",
+        "desc": "Mabomba, seal, na uchujaji katika maeneo ya kugusa chakula lazima vitumie malighafi zilizoidhinishwa na FDA — PTFE, EPDM ya kiwango cha chakula, na chuma cha pua chenye nyuso zilizong'arishwa."
+      },
+      {
+        "title": "Tofauti za Mzigo wa Msimu",
+        "desc": "Turbine za co-gen za kilimo huona tofauti kubwa za mzigo kulingana na misimu ya mazao. Hii husababisha mmomonyoko wa haraka wa vile na uchovu wa mzunguko wa joto kuliko katika vituo vya umeme vya mzigo thabiti."
+      },
+      {
+        "title": "Uchafuzi wa Kupumua kwa Tangi",
+        "desc": "Matangi ya kuhifadhi mafuta ya kula lazima yalindwe kutokana na vumbi angani na unyevu kupitia njia ya kupumua — uchafuzi unaathiri ubora wa bidhaa na muda wa kuhifadhi."
+      },
+      {
+        "title": "Mtetemo wa Mitambo katika Viwanda vya Chakula",
+        "desc": "Hammer mills, centrifuges, na mashine za kufungasha husambaza mtetemo kwenye sakafu na vifaa vya jirani. Kutenganisha kunahitajika kudumisha miunganisho ya usafi."
+      }
+    ],
+    "products": [
+      {
+        "name": "Vifaa vya Mabomba ya PTFE ya Daraja la FDA",
+        "purpose": "Bomba linalopinda kwa uhamishaji wa kimiminika cha kiwango cha chakula — mzunguko wa kemikali wa CIP/SIP, mistari ya bidhaa, na uingizaji wa mvuke katika mazingira ya kiwango cha chakula.",
+        "features": [
+          "Kiini cha ndani cha PTFE, kinachokidhi FDA 21 CFR 177.1550",
+          "Vifaa vya ncha vya SS316 vilivyong'arishwa kwa umeme",
+          "Miunganisho ya ncha ya tri-clover (usafi) inapatikana"
+        ]
+      },
+      {
+        "name": "Vichujio vya Kupumua vya Hewa na Tangi",
+        "purpose": "Hulinda matangi ya kuhifadhi mafuta ya kula kutokana na kuingia kwa vumbi na unyevu kupitia njia ya uingizaji hewa — huzuia uchafuzi wa bidhaa iliyohifadhiwa.",
+        "features": [
+          "Silika gel ya desiccant + media ya chembe laini",
+          "Kiashiria cha rangi cha kueneza kinachoonekana",
+          "Muundo wa katriji ya kubadilisha kwa huduma rahisi"
+        ]
+      },
+      {
+        "name": "Vichujio vya Aina ya Y na Conical",
+        "purpose": "Vichujio vya in-line kwenye mistari ya kimiminika ya uchakataji, kunyonya kwa pampu, na mifumo ya maji ya kulisha boiler — hulinda vifaa kutokana na magamba na uchafu wa uchakataji.",
+        "features": [
+          "Kikapu cha wavu cha SS, ukubwa wa wavu mikroni 40 hadi 400",
+          "Miunganisho ya kupindwa au ya flange",
+          "Usafishaji rahisi wa in-line bila kukatiza mstari"
+        ]
+      },
+      {
+        "name": "Maumbo na Seal za Mpira Zilizosukumwa Maalum",
+        "purpose": "Ukanda maalum wa mpira uliosukumwa hutenga mtetemo kutoka kwa mashine za kusaga nyundo, mashine za centrifuge, compressors, na mashine za ufungaji, kulinda mashine yenyewe na maeneo ya usindikaji chakula yaliyo karibu.",
+        "features": [
+          "Chaguo za mchanganyiko wa EPDM, Neoprene, Nitrile, au Mpira wa Asili",
+          "Umbo maalum lililosukumwa kulingana na mchoro au sampuli",
+          "Inapatikana na sehemu ya nyuma yenye gundi"
+        ]
+      },
+      {
+        "name": "Viungo vya Upanuzi vya Mpira (Single-Arch)",
+        "purpose": "Kiunganishi cha pampu kinachopinda kwenye mizunguko ya maji ya kupoeza, maji baridi, na maji ya uchakataji — hufyonza mtetemo wa pampu na mwendo wa joto.",
+        "features": [
+          "Bomba la EPDM au mpira wa asili",
+          "Ncha za flange za PN10/16, pia ncha zilizopindwa",
+          "Joto la kazi –20°C hadi +130°C"
+        ]
+      },
+      {
+        "name": "Matengenezo ya Turbine ya Mvuke (Triveni, Maxwatt)",
+        "purpose": "Ukarabati uliopangwa wa turbine za mvuke za shinikizo la nyuma za co-gen za kilimo — kubadilisha pete ya gland, ukaguzi wa bearing, na ukaguzi wa uwiano wa rota.",
+        "features": [
+          "Ratiba ya ukarabati kati ya misimu",
+          "Pete ya gland ya kaboni imekatwa ndani",
+          "Mwendo wa jaribio na uthibitisho wa mtetemo umejumuishwa"
+        ]
+      },
+      {
+        "name": "Vichujio vya Mfuko wa HVAC (Ushughulikiaji wa Hewa wa Kiwanda cha Chakula)",
+        "purpose": "Vichujio vya mfuko wenye pocket nyingi kwa AHU za vituo vya uchakataji wa chakula — huondoa vumbi la unga, vumbi la wanga, na spora za ukungu angani kutoka kwa hewa ya ugavi hadi maeneo ya uzalishaji, maghala baridi, na mistari ya kufungasha.",
+        "features": [
+          "Ufanisi wa F7/F8 kunasa allergen na spora za ukungu",
+          "Media ya polyester ya sintetiki — inayostahimili unyevu kwa mazingira ya chakula yenye unyevu",
+          "Vipimo vya kawaida vya fremu ya AHU; vipimo maalum kwa ombi",
+          "Inakamilisha mahitaji ya ubora wa hewa ya GMP kwa maeneo ya kiwango cha chakula"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Bidhaa za mabomba zinazokidhi FDA 21 CFR",
+      "Mtaalamu wa turbine za co-gen za kilimo",
+      "Vichujio vya kupumua vya tangi kwa uhifadhi wa mafuta ya kula",
+      "Vichujio vya mfuko vya HVAC vya F7/F8 kwa ubora wa hewa wa uzalishaji wa chakula wa GMP",
+      "Suluhu kamili za kutenganisha mtetemo wa pampu"
+    ]
+  },
+  "ind_7": {
+    "heroSub": "Uchujaji wa mafuta ya kulainisha, mifuko ya kichujio cha vumbi cha pulse-jet, vichujio vya hewa vya HVAC, viungo vya upanuzi na kutenganisha mtetemo kwa mitambo ya kiwanda cha saruji",
+    "overview": "Utengenezaji wa saruji ni mojawapo ya mazingira ya viwandani yenye kukwaruza na vumbi zaidi duniani. Tanuru za mzunguko zinazofanya kazi kwa joto la ganda la 200–400°C, mills za mipira zinazofanya kazi bila kusimama kwa miezi, na mistari ya crusher inayozalisha mawingu makubwa ya vumbi huweka mahitaji makubwa kwenye kila kipengele cha ulainishaji, kuziba, na mabomba. Keshav Enterprises inatoa uchujaji wa daraja sahihi, mifuko ya kichujio cha vumbi cha pulse-jet, vichujio vya hewa vya HVAC, viungo vya upanuzi, na suluhu za kupinga mtetemo zinazoweka viwanda vya saruji vikifanya kazi kwa siku 330+ kwa mwaka.",
+    "challenges": [
+      {
+        "title": "Uchafuzi wa Vumbi na Ukwaruzaji Uliokithiri",
+        "desc": "Viwanda vya saruji huzalisha tani 1–3 za vumbi kwa siku kwa kila tanuru. Kikwaruzo hiki angani huingia kwenye mifumo ya mafuta ya kulainisha, matundu ya breather, na nyumba za kichujio — kikiharakisha uchakavu na kusababisha kupita kwa kichujio ikiwa hakitasimamiwa vizuri."
+      },
+      {
+        "title": "Uchafuzi wa Mafuta ya Gearbox ya Tanuru",
+        "desc": "Gearboxes za tanuru za mzunguko hufanya kazi kwenye mifumo ya ulainishaji wa mzunguko kwa ISO VG 220–460. Vumbi la clinker na uchafuzi wa joto huharibu mafuta haraka — uchujaji wa ufanisi wa juu ni muhimu kwa kupanua vipindi vya kubadilisha mafuta na kulinda seti za gia za gharama kubwa."
+      },
+      {
+        "title": "Upanuzi wa Joto katika Ducting ya Gesi ya Utoaji wa Tanuru",
+        "desc": "Mifereji ya gesi ya utoaji wa tanuru hufanya kazi kwa 250–450°C na hupitia upanuzi mkubwa wa joto. Bila viungo vya upanuzi vya metali au kitambaa vilivyoundwa vizuri, sehemu za mfereji hupasuka, huvuja, na kuruhusu gesi ya moto kutoroka — hatari ya usalama na ufanisi."
+      },
+      {
+        "title": "Mtetemo wa Crusher na Mill",
+        "desc": "Mills za mipira, mills za roller wima, na crusher za taya huzalisha mtetemo mkubwa wa broadband unaosambazwa kupitia misingi hadi vifaa na vipimo vya jirani, ukisababisha kushindwa kwa uchovu na makosa ya kipimo."
+      }
+    ],
+    "products": [
+      {
+        "name": "Vichujio vya Mafuta ya Kulainisha (Gearboxes za Tanuru na Mill)",
+        "purpose": "Vichujio vya ufanisi wa juu kwa mifumo ya mzunguko wa mafuta ya gearbox ya tanuru — huondoa chembe za clinker zinazokwaruza na uchafu wa uchakavu kabla ya kuharibu meno ya gia na bearing za roller.",
+        "features": [
+          "Media ya VG ya nyuzi za kioo, ukamilifu wa mikroni 6–25",
+          "Uwezo wa juu wa kushikilia uchafu kwa mazingira yenye vumbi",
+          "Inaendana na mafuta ya sintetiki na madini ya ISO VG 220–460",
+          "Ufanisi wa beta ≥200 kulingana na ISO 16889"
+        ]
+      },
+      {
+        "name": "Vichujio vya Kikapu vya Duplex (Maji ya Kupoeza na Mistari ya Uchakataji)",
+        "purpose": "Vimewekwa kwenye mifumo ya maji ya kupoeza ya tanuru, kupoeza maji ya compressor, na mabomba ya slurry ya malighafi kulinda pampu, visambaza joto, na vipimo kutokana na magamba na uchafu.",
+        "features": [
+          "Vikapu vya wavu vya SS, chaguo za wavu mikroni 100–1000",
+          "Muundo wa duplex: usafishaji wa kikapu bila kusimama",
+          "Madaraja ya flange ya ANSI 150 hadi ANSI 600",
+          "SS316 kwa huduma ya maji ya kupoeza yanayoharibu"
+        ]
+      },
+      {
+        "name": "Viungo vya Upanuzi vya Metali vya Axial (Mifereji ya Gesi ya Utoaji wa Tanuru)",
+        "purpose": "Hulipiza upanuzi wa joto katika kazi ya mfereji wa gesi ya moto kati ya tanuru, mnara wa cyclone pre-heater, na boiler ya joto la mabaki — huondoa upasukaji wa msongo wa joto katika sehemu za mfereji.",
+        "features": [
+          "Bellows za SS321 kwa huduma ya joto la juu",
+          "Mipangilio ya single na universal (dual-bellow)",
+          "Flange zinazolingana na vipimo vya mfereji vilivyopo",
+          "Flow liner imejumuishwa kulinda bellows kutokana na mmomonyoko wa gesi"
+        ]
+      },
+      {
+        "name": "Viungo vya Upanuzi Visivyo vya Metali (Kitambaa) vya Mstatili",
+        "purpose": "Vinatumika katika kazi ya mfereji mkubwa wa mstatili kwenye tundu la clinker cooler, miunganisho ya feni ya raw mill, na kazi ya mfereji wa electrostatic precipitator (ESP) — hushughulikia upatanishaji mbaya na mwendo wa joto katika sehemu zisizo za mviringo.",
+        "features": [
+          "Kitambaa cha kioo kilichofunikwa na PTFE au composite ya Nomex",
+          "Uwezo wa joto hadi 450°C endelevu",
+          "Vimeundwa maalum kulingana na vipimo vya mfereji wa mstatili",
+          "Mkusanyiko wa fremu iliyofungwa na bolt kwa uwekaji wa eneo la kazi"
+        ]
+      },
+      {
+        "name": "Maumbo na Seal za Mpira Zilizosukumwa Maalum",
+        "purpose": "Pedi maalum za mpira zilizosukumwa kwa ajili ya kupunguza mtetemo, zilizowekwa chini ya vitengo vya mota za ball mill, gearbox za vertical roller mill, na nyumba za bearing za crusher ili kutenga na kupunguza mtetemo wa mashine unaofika kwenye muundo wa kiwanda.",
+        "features": [
+          "Mchanganyiko wa mpira wa asili, EPDM, au neoprene",
+          "Umbo maalum lililosukumwa kulingana na mchoro au sampuli",
+          "Joto la uendeshaji -40 hadi +150°C (aina ya EPDM)"
+        ]
+      },
+      {
+        "name": "Vichujio vya Kupumua vya Hewa na Tangi (Hifadhi za Mafuta ya Kulainisha)",
+        "purpose": "Huzuia vumbi la saruji angani na unyevu kuingia kwenye hifadhi za mafuta ya kulainisha kupitia njia ya uingizaji hewa — sababu kuu ya kushindwa mapema kwa mafuta na bearing katika viwanda vya saruji.",
+        "features": [
+          "Media ya chembe ya ufanisi wa juu + desiccant ya silika gel",
+          "Imeorodheshwa kulingana na mahitaji ya usafi wa ISO",
+          "Kiashiria cha kueneza cha kubadilisha rangi",
+          "Mipangilio ya direct-mount na remote-mount"
+        ]
+      },
+      {
+        "name": "Vifaa vya Mabomba Yanayopinda ya SS Yenye Mikunjo",
+        "purpose": "Miunganisho inayopinda ya shinikizo la juu kwenye maingizo ya maji ya kupoeza ya tanuru, vidhibiti vya hydraulic vya slide gate, na mistari ya hewa iliyoshindiliwa — vinastahimili joto, shinikizo, na mtetemo pale ambapo mabomba magumu yangeshindwa.",
+        "features": [
+          "Bomba la ndani lenye mikunjo la SS316L, uimarishaji wa msuko wa SS",
+          "Shinikizo la kazi hadi bar 200 (vifaa vilivyochaguliwa)",
+          "Vifaa vya ncha: flange za ANSI, kupindwa kwa BSP/NPT, au hydraulic",
+          "Wigo wa joto –196°C hadi +600°C"
+        ]
+      },
+      {
+        "name": "Vichujio vya Conical na Aina ya Y (Pampu za Raw Mill na Conveyor)",
+        "purpose": "Vichujio vya muda na vya kudumu kwenye pampu za slurry za malighafi, mifumo ya kunyunyizia maji ya tanuru, na mistari ya ugavi wa hewa iliyoshindiliwa — hulinda valvu na vipimo vya chini.",
+        "features": [
+          "Kikapu chenye matundu, ukingo wa wavu unapatikana",
+          "Plug ya kusafisha yenye mabawa au iliyopindwa kwa kusafisha",
+          "Malighafi za mwili: CS, SS304, SS316",
+          "Kwenye hifadhi kwa usafirishaji wa haraka"
+        ]
+      },
+      {
+        "name": "Mifuko na Katriji za Kichujio cha Vumbi cha Pulse-Jet",
+        "purpose": "Mifuko ya kichujio ya kubadilisha na vipengele vya katriji vyenye mikunjo kwa vikusanyaji vya vumbi vya baghouse vya kiwanda cha saruji kwenye utoaji wa tanuru, matundu ya raw mill, clinker cooler, coal mill, kiwanda cha kufungasha, na mifumo ya matundu ya silo — hushikilia vumbi la saruji laini na hukidhi kanuni za utoaji.",
+        "features": [
+          "Needle-felt ya polyester (kawaida) na utando wa PTFE (ufanisi wa juu, utoaji mdogo)",
+          "Madaraja ya kuzuia umeme tuli kwa matumizi ya coal mill (ATEX)",
+          "Vipimo vinavyoendana na cage kulingana na nyumba ya baghouse iliyopo",
+          "Usafishaji wa pulse-jet umeorodheshwa kwa hewa iliyoshindiliwa ya bar 4–7"
+        ]
+      },
+      {
+        "name": "Vichujio vya Hewa vya Paneli Zilizokunjwa (HVAC ya Chumba cha Udhibiti na Paneli ya Umeme)",
+        "purpose": "Vichujio kwa AHU za chumba cha udhibiti cha kiwanda cha saruji na vitengo vya kupoeza vya paneli za umeme — huzuia vumbi la saruji linaloharibu kuingia kwenye vipimo nyeti, PLC, na makabati ya DCS.",
+        "features": [
+          "Ufanisi wa F7/F8 kwa kushikilia vumbi laini la saruji",
+          "Fremu ya chuma iliyofunikwa na zinki kwa mazingira ya kiwanda cha saruji yenye unyevu",
+          "Vipimo vya kawaida vya fremu ya AHU au vilivyokatwa maalum kulingana na vipimo vya paneli",
+          "Ugavi wa kubadilisha kulingana na ratiba ya huduma"
+        ]
+      }
+    ],
+    "keyFacts": [
+      "Inasaidia uendeshaji endelevu wa siku 330+/mwaka",
+      "Bidhaa za uchujaji zinazostahimili vumbi zipo kwenye hifadhi",
+      "Viungo vya upanuzi vya joto la juu hadi 450°C",
+      "Mifuko ya baghouse ya pulse-jet kwa sehemu zote za matundu ya kiwanda cha saruji",
+      "Suluhu kamili za kutenganisha mtetemo"
+    ]
+  }
+}

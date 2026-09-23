@@ -1,0 +1,1074 @@
+{
+  "srv_1": {
+    "tagline": "Uwekaji Ulioratibiwa na OEM kutoka Bolt ya Kwanza ya Msingi hadi Mvuke wa Kwanza",
+    "accentColor": "#2563eb",
+    "keyStats": [
+      {
+        "value": "10+",
+        "label": "Chapa za OEM Zilizoanzishwa"
+      },
+      {
+        "value": "5kW–60MW",
+        "label": "Wigo wa Nguvu Unaoshughulikiwa"
+      },
+      {
+        "value": "100%",
+        "label": "Nyaraka Kulingana na Vipimo vya OEM"
+      },
+      {
+        "value": "24×7",
+        "label": "Msaada wa Eneo la Kazi Unapatikana"
+      }
+    ],
+    "whyUs": "Seti moja ya nafasi za kiufundi zilizowekwa vibaya wakati wa uwekaji inaweza kuharibu bearing ndani ya masaa kutoka mvuke wa kwanza. Wahandisi wetu wa uwanjani wenye uzoefu wa zamani wa OEM wamejianzisha wenyewe aina hiyo hiyo ya mitambo unayoweka — wanajua hasa vipimo vya OEM vinamaanisha nini kivitendo, si tu kwenye karatasi.",
+    "overview": "Uwekaji na uanzishaji wa turbine ni hatua muhimu zaidi ya mradi wowote wa kituo cha umeme au wa viwandani. Makosa wakati wa uwekaji — upatanishi usio sahihi, nafasi zisizo sahihi, msokoto usio sahihi — hujilimbikiza kuwa kushindwa kwa gharama kubwa ndani ya mwaka wa kwanza wa uendeshaji. Keshav Enterprises hupeleka wahandisi wa uwanjani wenye uzoefu wa zamani wa OEM ambao wamewahi kuanzisha turbine za Triveni, Siemens, BHEL, Belliss, na Maxwatt katika vituo vya umeme, viwanda vya sukari, viwanda vya karatasi, na viwanda vya uchakataji. Kila nukta ya kusimama inashuhudiwa, kila nafasi ya kiufundi inarekodiwa, na kila mfumo wa usalama unajaribiwa kabla ya mvuke kuingizwa. Kifurushi chetu cha nyaraka kinakidhi mahitaji ya makabidhiano ya mteja, bima, na OEM.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Ukaguzi wa Uhandisi Kabla ya Uwekaji",
+        "iconName": "BookOpen",
+        "desc": "Ukaguzi wa kina wa mwongozo wa uwekaji wa OEM, michoro ya GA, P&ID, na michoro ya msingi wa ujenzi. Utambuzi wa nukta zote za kusimama, nukta za kushuhudia, na mahitaji ya nyaraka kabla ya kuinua kifaa cha kwanza. Mfuatano wa uwekaji na njia muhimu hukubaliwa na timu ya mradi ya mteja."
+      },
+      {
+        "step": "02",
+        "title": "Maandalizi ya Msingi na Sahani ya Chini",
+        "iconName": "Layers",
+        "desc": "Usawazishaji sahihi na grouting ya sahani ya chini ya turbine ndani ya 0.05 mm/m. Ukataji na uwekaji wa chock. Ukazaji wa bolt za msingi kulingana na msokoto uliobainishwa na OEM ukitumia funguo za hydraulic zilizosawazishwa. Maandalizi ya epoxy grout, kumwaga, na ufuatiliaji wa kuponya na urekodi wa joto."
+      },
+      {
+        "step": "03",
+        "title": "Uwekaji wa Kifaa na Upatanishi Mbaya",
+        "iconName": "Target",
+        "desc": "Uwekaji sahihi wa nafasi ya casing ya turbine, gearbox, na kifaa kinachoendeshwa kwenye sahani ya chini. Upatanishi mbaya wa mhimili ukitumia dial gauge na vifaa vya leza ndani ya 0.1 mm kabla ya uwekaji wa coupling. Ukaguzi na urekebishaji wa soft foot kwenye miguu yote ya mtambo kabla ya upatanishi wa mwisho."
+      },
+      {
+        "step": "04",
+        "title": "Uunganishaji wa Ndani na Uwekaji wa Nafasi za Kiufundi",
+        "iconName": "Cog",
+        "desc": "Upimaji wa kushuka kwa rota, uwekaji wa nafasi ya gland (radial na axial), uwekaji wa seal ya labyrinth, uwekaji wa thrust bearing, na uwekaji wa nafasi ya journal bearing. Nafasi zote za kiufundi zinarekodiwa kulingana na vipimo vya OEM katika daftari la nafasi za kiufundi za eneo la kazi. Kupima na kuthibitisha rotor end float ndani ya mipaka ya OEM."
+      },
+      {
+        "step": "05",
+        "title": "Miunganisho ya Mabomba na Mifumo Msaidizi",
+        "iconName": "Activity",
+        "desc": "Miunganisho ya mabomba ya kuingiza mvuke, utoaji, uchimbaji, na mifereji kwa msaada sahihi wa bomba na spring hanger. Mizigo ya nozzle inathibitishwa ndani ya mipaka ya OEM — mkazo wa bomba unaondolewa kabla ya muunganisho wa mwisho. Mabomba ya mafuta ya kulainisha, mafuta ya udhibiti, mvuke wa gland, na vipimo yanakamilika na kujaribiwa kwa uvujaji."
+      },
+      {
+        "step": "06",
+        "title": "Ukaguzi Kabla ya Uanzishaji na Usafishaji",
+        "iconName": "Droplets",
+        "desc": "Mfumo wa mafuta ya kulainisha unasafishwa hadi kiwango cha usafi cha ISO 4406, kikithibitishwa na hesabu ya chembe. Ukaguzi wa utendaji wa mifumo ya udhibiti na kusimama. Majaribio ya mifumo ya usalama yanafanywa na kurekodiwa: kusimama kwa mwendo kupita kiasi, kusimama kwa shinikizo dogo la mafuta, kusimama kwa joto la juu la bearing, uendeshaji wa valvu ya kusimamisha dharura."
+      },
+      {
+        "step": "07",
+        "title": "Kuwasha Mara ya Kwanza, Kuongeza Kasi na Uanzishaji",
+        "iconName": "Zap",
+        "desc": "Kuanza kwa kwanza kudhibitiwa na jaribio la kusikia kwa mzunguko wa polepole. Kuongeza kasi katika hatua zilizobainishwa na ufuatiliaji endelevu wa mtetemo na joto la bearing. Majaribio ya mwitikio wa governor na dead-band. Jaribio la kusimama kwa mwendo kupita kiasi kwa 110% ya kasi ya kiwango. Jaribio la kukubali mzigo na makabidhiano ya uendeshaji wa mzigo kamili na ripoti ya uanzishaji."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Upatanishi wa Mhimili wa Leza",
+        "detail": "Pruftechnik Rotalign Pro / mfululizo wa SKF TKSA",
+        "iconName": "Target"
+      },
+      {
+        "name": "Kichanganuzi cha Mtetemo",
+        "detail": "FFT ya wakati halisi, ukusanyaji wa data wa njia 8",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Dial Gauge Sahihi",
+        "detail": "Uwezo wa 0.001 mm, daraja la CMM",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Ufunguo wa Msokoto wa Hydraulic",
+        "detail": "Kiongeza msokoto kilichosawazishwa kwa bolt za msingi",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Borescope",
+        "detail": "Ngumu na inayopinda kwa ukaguzi wa ndani",
+        "iconName": "Search"
+      },
+      {
+        "name": "Kirekodi cha Thermocouple",
+        "detail": "Uchunguzi wa joto wa nukta nyingi wakati wa mwendo wa kwanza",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Kipimo cha Mtiririko wa Ultrasonic",
+        "detail": "Uthibitisho wa mtiririko wa bomba wakati wa uanzishaji",
+        "iconName": "Droplets"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ASME PTC 6",
+        "desc": "Kanuni ya jaribio la utendaji wa turbine ya mvuke",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 10816 / 20816",
+        "desc": "Mipaka ya mtetemo wa kimitambo kwa mitambo inayozunguka",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Ulinzi wa mtambo: kusimama kwa mwendo kupita kiasi na mtetemo",
+        "body": "API"
+      },
+      {
+        "code": "API 686",
+        "desc": "Mazoezi yanayopendekezwa kwa uwekaji wa mitambo",
+        "body": "API"
+      },
+      {
+        "code": "IS 3639",
+        "desc": "Kiwango cha bolt za msingi na nanga",
+        "body": "BIS"
+      },
+      {
+        "code": "Mwongozo wa OEM",
+        "desc": "Taratibu za uwekaji wa Triveni, Siemens, BHEL, Belliss, Maxwatt",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_2": {
+    "tagline": "Upangaji wa Huduma Kamili wa Kusimama hadi Kuanzisha Upya bila Kasoro",
+    "accentColor": "#0891b2",
+    "keyStats": [
+      {
+        "value": "8+",
+        "label": "Chapa za OEM Zilizokarabatiwa"
+      },
+      {
+        "value": "26+",
+        "label": "Miaka ya Uzoefu wa Uwanjani"
+      },
+      {
+        "value": "0.001mm",
+        "label": "Uwezo wa Nafasi za Kiufundi"
+      },
+      {
+        "value": "24×7",
+        "label": "Mwitikio wa Dharura"
+      }
+    ],
+    "whyUs": "Ukarabati uliofanywa vibaya ni mbaya zaidi kuliko kutokarabati kabisa — huleta makosa mapya ya nafasi za kiufundi, uchafuzi, na kasoro za kuunganisha upya. Wahandisi wetu walifunzwa na OEM. Wanajua vipimo vinamaanisha nini kwa kweli kwa joto na kasi ya uendeshaji, si tu kile kilichoandikwa katika mwongozo.",
+    "overview": "Ukarabati wa turbine si shughuli ya kawaida ya matengenezo — ni uingiliaji wa uhandisi sahihi. Keshav Enterprises hupeleka wahandisi wenye uzoefu wa zamani wa OEM kutoka Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK, na ABB kutekeleza ukarabati wa huduma kamili kwa nidhamu na kiwango sawa cha nyaraka kama mtengenezaji asili. Kila ukarabati huanza wiki 4-6 kabla ya kusimama na kukamilika kwa wigo, ukaguzi wa awali wa vipuri, na upangaji wa uhamasishaji wa wafanyakazi. Kila kipengele kinapimwa kabla ya kubomolewa, wakati wa kuvunja, na baada ya kuunganisha upya. Ripoti za hali zilizoandikwa, madaftari ya nafasi za kiufundi, na rekodi za picha huundwa kwa kila ukarabati — kuunda msingi kwa kusimama kwa siku zijazo.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Upangaji Kabla ya Kusimama na Kukamilika kwa Wigo",
+        "iconName": "BookOpen",
+        "desc": "Ukaguzi wa rekodi za ukarabati wa awali, data ya uendeshaji, historia ya mtetemo, na mienendo ya utendaji wiki 4-6 kabla ya kusimama. Ufafanuzi wa wigo, orodha ya vipuri muhimu, orodha ya vitu vinavyotumika, na mpango wa uhamasishaji wa wafanyakazi. Ukaguzi wa eneo la kazi kabla ya kusimama wa vipuri vilivyohifadhiwa na ripoti ya upungufu inayotolewa kwa mteja."
+      },
+      {
+        "step": "02",
+        "title": "Uhamasishaji wa Eneo la Kazi na Maandalizi ya Vifaa",
+        "iconName": "Wrench",
+        "desc": "Seti kamili ya zana za ukarabati zinapelekwa: jack za hydraulic, chain block sahihi, mikanda ya kushughulikia rota, vyombo maalum vya kupima, zana za lapping, na kifurushi kamili cha nyaraka za ukarabati. Ukaguzi wa hali ya zana na uthibitisho wa usawazishaji wa vyombo kabla ya kazi kuanza."
+      },
+      {
+        "step": "03",
+        "title": "Kubomolewa na Ukaguzi wa Awali",
+        "iconName": "Search",
+        "desc": "Kubomolewa kudhibitiwa na vipimo vyote kabla ya kubomolewa vikirekodiwa: nafasi za bearing, runout ya mhimili, nafasi za gland, upatanishi wa coupling, na rotor end float. Kila kipengele kinapigwa picha. Hali inarekodiwa kulingana na vipimo vya OEM kabla ya kusafisha."
+      },
+      {
+        "step": "04",
+        "title": "Ukaguzi wa Vipengele na Uripoti wa Hali",
+        "iconName": "Activity",
+        "desc": "Ukaguzi wa kuona, vipimo, na NDT kwenye rota, vile, bearing, gland, casing, valvu zote, na coupling. Utambuzi wa nyufa ukitumia mbinu ya dye penetrant au magnetic particle kwenye vipengele muhimu. Ripoti ya hali iliyoandikwa yenye mapendekezo maalum kwa kila kipengele: kubadilisha, kurekebisha, au kutumia tena kwa sababu."
+      },
+      {
+        "step": "05",
+        "title": "Ukarabati wa Vipengele na Uwekaji wa Vipuri",
+        "iconName": "Cog",
+        "desc": "Kumwaga upya babbitt na ukataji sahihi wa journal bearing, kubadilisha seal ya labyrinth, ukaguzi wa vile na kubadilisha kwa uchaguzi, kung'arisha journal (Ra 0.4 μm), lapping ya nyuso za mgawanyiko wa casing, kubadilisha gland packing, na lapping ya viti vya valvu hadi kiwango cha blue-match."
+      },
+      {
+        "step": "06",
+        "title": "Kuunganisha Upya na Uwekaji wa Nafasi za Kiufundi",
+        "iconName": "Target",
+        "desc": "Kuunganisha upya kwa usahihi na nafasi zote za kiufundi zikiwekwa na kurekodiwa kulingana na vipimo vya OEM: nafasi za journal bearing (kipenyo na axial), nafasi za radial na axial za seal ya labyrinth, nafasi za gland, upatanishi wa coupling, na rotor end float. Usomaji wote unaingizwa kwenye daftari la nafasi za kiufundi na kulinganishwa na msingi wa ukarabati wa awali."
+      },
+      {
+        "step": "07",
+        "title": "Kuanzisha Upya na Makabidhiano",
+        "iconName": "Zap",
+        "desc": "Usafishaji wa kuanzisha upya wa mfumo wa mafuta ya kulainisha baada ya ukarabati hadi ISO 4406. Majaribio ya mifumo ya usalama: kusimama kwa mwendo kupita kiasi, kusimama kwa shinikizo dogo la mafuta, valvu ya kusimamisha dharura. Kuanza kufuatiliwa na mienendo ya mtetemo na joto la bearing. Idhini iliyoandikwa kwa mzigo kamili na kifurushi kamili cha nyaraka za ukarabati kikikabidhiwa kwa mteja."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Dial Gauge na Bore Gauge Sahihi",
+        "detail": "Upimaji wa nafasi za kiufundi wa uwezo wa 0.001 mm",
+        "iconName": "Target"
+      },
+      {
+        "name": "Upatanishi wa Mhimili wa Leza",
+        "detail": "Uthibitisho wa upatanishi wa mwisho wa coupling",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Mashine ya Uwiano Inayobebeka",
+        "detail": "Uwiano wa kurekebisha rota eneo la kazi",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Vifaa vya Kumwaga Babbitt",
+        "detail": "Kumwaga kwa sentrifiuji kwa kumwaga upya bearing",
+        "iconName": "Factory"
+      },
+      {
+        "name": "Mabamba ya Lapping ya Uso",
+        "detail": "Madaraja yote kwa viti vya valvu na nyuso za casing",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Kipimo cha Unene cha Ultrasonic",
+        "detail": "Upimaji wa mmomonyoko wa ukuta wa casing",
+        "iconName": "Search"
+      },
+      {
+        "name": "Kichanganuzi cha Mtetemo cha Njia 8",
+        "detail": "FFT ya wakati halisi wakati wa kuanzisha upya kunakofuatiliwa",
+        "iconName": "TrendingUp"
+      }
+    ],
+    "standards": [
+      {
+        "code": "API 614",
+        "desc": "Mifumo ya ulainishaji, kuziba mhimili, na udhibiti wa mafuta",
+        "body": "API"
+      },
+      {
+        "code": "API 670",
+        "desc": "Mifumo ya ulinzi wa mtetemo na mwendo kupita kiasi",
+        "body": "API"
+      },
+      {
+        "code": "ISO 1940",
+        "desc": "Madaraja ya ubora wa uwiano wa mzunguko kwa vipengele vinavyozunguka",
+        "body": "ISO"
+      },
+      {
+        "code": "ASME B31.1",
+        "desc": "Mabomba ya nguvu kwa miunganisho ya mvuke",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 9001",
+        "desc": "Mfumo wa usimamizi wa ubora kwa nyaraka za ukarabati",
+        "body": "ISO"
+      },
+      {
+        "code": "Mwongozo wa OEM",
+        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_3": {
+    "tagline": "Kutoka Usomaji wa 3D hadi Michoro ya Uzalishaji — Kuondoa Utegemezi wa OEM",
+    "accentColor": "#7c3aed",
+    "keyStats": [
+      {
+        "value": "5kW–60MW",
+        "label": "Wigo wa Turbine Unaoshughulikiwa"
+      },
+      {
+        "value": "0.001mm",
+        "label": "Uwezo wa Upimaji wa CMM"
+      },
+      {
+        "value": "100%",
+        "label": "Malighafi Iliyothibitishwa na PMI"
+      },
+      {
+        "value": "GD&T",
+        "label": "Michoro Kamili ya Mipaka"
+      }
+    ],
+    "whyUs": "OEM inapoacha kusaidia mtambo, rota iliyochakaa ya kawaida au diaphragm iliyopasuka inaweza kulazimisha kiwanda kusimama kwa miezi. Mchakato wetu wa uhandisi wa kinyume hujenga upya malighafi, jiometri, na vipimo vya matibabu ya joto kwa usahihi — na michoro kamili ya utengenezaji — ili karakhana yoyote yenye uwezo iweze kutengeneza kipengele hicho.",
+    "overview": "Wakati michoro ya OEM haipatikani, OEM haifanyi kazi tena, au muda wa kusubiri unapimwa kwa miaka, Keshav Enterprises inaweza kufanya uhandisi wa kinyume wa kipengele chochote cha turbine kutoka 5 kW hadi 60 MW hadi seti kamili ya michoro tayari kwa uzalishaji. Mchakato wetu unatumia visomaji vya leza vya 3D, mashine za kupima kuratibu za CMM, na utambuzi wa malighafi wa PMI XRF — zana zilezile zinazotumiwa na timu kubwa za uhandisi za OEM — kuzalisha michoro kamili ya utengenezaji yenye mipaka yote, umaliziaji wa uso, mfuatano wa matibabu ya joto, na vipimo vya malighafi. Tumefanikiwa kufanya uhandisi wa kinyume wa rota, diaphragms, vitalu vya nozzle, seal za labyrinth, bearing, governor, na vipengele vya njia ya mvuke kwa turbine za Triveni, Siemens, BHEL, DLF-Skoda, Belliss, na Maxwatt.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Upokeaji wa Kipengele na Tathmini ya Awali",
+        "iconName": "Search",
+        "desc": "Upokeaji salama wa kipengele kilichochakaa au kipande cha rejea asili. Ukaguzi wa kuona wa awali, usafishaji, na upigaji picha kamili. Tathmini ya uharibifu, maeneo ya uchakavu, na nyuso muhimu za kupima ili kuamua mkakati bora wa upimaji na mpango wa datum kabla ya upimaji wowote kuanza."
+      },
+      {
+        "step": "02",
+        "title": "Utambuzi wa Malighafi wa PMI",
+        "iconName": "Shield",
+        "desc": "Positive Material Identification ukitumia kichanganuzi cha XRF (X-ray fluorescence) katika maeneo mengi kutambua muundo sahihi wa aloi. Upimaji wa ugumu (Rockwell, Brinell, Vickers) kubaini hali ya matibabu ya joto. Daraja la malighafi linathibitishwa na kulinganishwa na kiwango cha karibu zaidi kilichopo kabla ya upimaji kuanza — bila kukisia aloi."
+      },
+      {
+        "step": "03",
+        "title": "Usomaji wa Leza wa 3D na Upimaji wa CMM",
+        "iconName": "Hexagon",
+        "desc": "Usomaji kamili wa 3D wa nje ya kipengele ukitumia kisomaji cha leza kinachobebeka — usahihi wa point cloud hadi 0.05 mm. Vipimo vya ndani na mipaka muhimu (bore, keyway, spline, umbo la nyuzi, pitch, na lead) hupimwa kwenye CMM kwa uwezo wa 0.001 mm. Mpango wa datum unaanzishwa kutoka kwa nyuso za bearing zinazofanya kazi."
+      },
+      {
+        "step": "04",
+        "title": "Utengenezaji wa Michoro ya Uhandisi",
+        "iconName": "BookOpen",
+        "desc": "Muundo wa CAD unatengenezwa kutoka kwa data ya usomaji na upimaji wa CMM. Michoro kamili ya utengenezaji ya 2D inazalishwa ikiwa na: vipimo vyote vya mstari na pembe, mipaka ya GD&T (concentricity, cylindricity, parallelity, roundness, runout), alama ya umaliziaji wa uso (thamani za Ra kwa μm), viwango vya umbo la nyuzi na daraja, na fremu kamili ya rejea ya datum."
+      },
+      {
+        "step": "05",
+        "title": "Vipimo vya Matibabu ya Joto na Uboreshaji wa Uso",
+        "iconName": "Zap",
+        "desc": "Mfuatano kamili wa ukataji unabainishwa: kupunguza msongo kabla ya kukata, kukata ghafi, uwekaji sawa au ugumu, hatua za kabla ya mwisho na za mwisho za kukata. Hali ya matibabu ya joto inabainishwa na joto (°C), muda wa kuloweka, kati ya quench, na ugumu wa lengo. Vipimo vya uboreshaji wa uso: kina cha nitriding, ugumu wa uso, carburizing, au kupaka chrome ngumu inapohitajika."
+      },
+      {
+        "step": "06",
+        "title": "Ununuzi wa Malighafi na Utengenezaji",
+        "iconName": "Factory",
+        "desc": "Malighafi inanunuliwa kulingana na vipimo vya matokeo ya utambuzi wa PMI na vyeti vya kinu vya EN 10204 Type 3.1. Ukataji wa CNC unafanywa kupitia kila hatua iliyobainishwa na ukaguzi wa vipimo wa ndani ya mchakato katika kila hatua. Data yote ya ukaguzi inarekodiwa katika kifurushi cha data cha utengenezaji."
+      },
+      {
+        "step": "07",
+        "title": "Ukaguzi wa Mwisho na Usafirishaji",
+        "iconName": "CheckCircle2",
+        "desc": "Ripoti kamili ya ukaguzi wa vipimo dhidi ya mchoro wa uhandisi. Uthibitisho upya wa PMI kwenye kipengele kilichokamilika unathibitisha aloi sahihi ilitumika katika mchakato mzima. Upimaji wa umaliziaji wa uso. Upimaji wa ugumu kwenye nyuso muhimu. Kifurushi kamili cha nyaraka za kufuatilia hutolewa na kila kipengele."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Kisomaji cha Leza cha 3D",
+        "detail": "Faro Focus / Creaform HandySCAN — usahihi wa 0.05 mm",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "CMM — Mashine ya Kupima Kuratibu",
+        "detail": "Aina ya bridge na mkono unaobebeka, uwezo wa 0.001 mm",
+        "iconName": "Target"
+      },
+      {
+        "name": "Kichanganuzi cha PMI XRF",
+        "detail": "Olympus Vanta — utambuzi wa aloi eneo la kazi",
+        "iconName": "Search"
+      },
+      {
+        "name": "Kipima Ugumu",
+        "detail": "Rockwell, Brinell, Vickers — uthibitisho wa matibabu ya joto",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Profilometer",
+        "detail": "Kipima ukali wa uso — uwezo wa Ra 0.001 μm",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Mashine ya Kunakili",
+        "detail": "Usomaji wa dijitali kwa unakili wa vipengele vinavyozunguka",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Programu ya CAD",
+        "detail": "SolidWorks / AutoCAD — utengenezaji wa michoro ya GD&T",
+        "iconName": "BookOpen"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 1101",
+        "desc": "Mipaka ya kijiometri (GD&T) kwa michoro",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 286",
+        "desc": "Mfumo wa mipaka na uwiano kwa mihimili na bore",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 1302",
+        "desc": "Uonyeshaji wa umbile la uso kwenye michoro ya uhandisi",
+        "body": "ISO"
+      },
+      {
+        "code": "EN 10204",
+        "desc": "Vyeti vya kufuatilia malighafi (Type 3.1)",
+        "body": "EN"
+      },
+      {
+        "code": "ASTM E1417",
+        "desc": "Viwango vya majaribio ya PMI na NDT",
+        "body": "ASTM"
+      },
+      {
+        "code": "Vipimo vya OEM",
+        "desc": "Vinavyolingana na malighafi na madhumuni ya mipaka ya OEM asili",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_4": {
+    "tagline": "Uwiano wa Daraja la ISO — Kwa Sababu Nguvu za Rota Huongezeka kwa Mraba wa Kasi",
+    "accentColor": "#d97706",
+    "keyStats": [
+      {
+        "value": "50–2000kg",
+        "label": "Uwezo wa Rota"
+      },
+      {
+        "value": "G1.0",
+        "label": "Daraja la Uwiano Linaloweza Kufikiwa"
+      },
+      {
+        "value": "0.001mm",
+        "label": "Uwezo wa Dial Gauge"
+      },
+      {
+        "value": "ISO/API",
+        "label": "Viwango Vilivyoidhinishwa"
+      }
+    ],
+    "whyUs": "Rota kwa RPM 3,000 huzalisha nguvu za kutokuwiana mara 100 zaidi kuliko kwa RPM 300. Kutokuwiana kule kule kwa mabaki ambako hakuonekani kwa kasi ndogo kutaharibu bearing kwa kasi kamili. Tunasawazisha hadi ISO 1940 Daraja G1.0 inapohitajika — si tu 'nzuri ya kutosha'.",
+    "overview": "Kutokuwiana kwa rota ni mojawapo ya sababu za kawaida na zinazoweza kuzuiwa zaidi za kushindwa kwa bearing ya turbine, uharibifu wa seal, na kupunguzwa kwa maisha ya rota. Keshav Enterprises hufanya ukataji sahihi wa journal na uwiano wa mzunguko wa ISO 1940 / API 670 kwa rota kutoka kilo 50 hadi 2,000 katika karakhana yetu maalum. Rota kwanza hukatwa kurejesha uadilifu wa kijiometri — journal za mviringo, labyrinth zinazolingana katikati, umaliziaji sahihi wa uso — kabla ya uwiano. Mfuatano huu ni muhimu: kusawazisha rota iliyopotoshwa kijiometri kunaficha tu tatizo. Ripoti zetu za uwiano zinaandika kutokuwiana kwa awali, ndege za urekebishaji, urekebishaji wa uzito, kutokuwiana kwa mabaki, na daraja la uwiano la ISO lililofikiwa, likitoa ufuatiliaji kamili kwa rekodi zako za matengenezo.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Upokeaji wa Rota na Upimaji wa Awali",
+        "iconName": "Search",
+        "desc": "Rota inapokewa na kusafishwa. Runout ya awali ya kimitambo hupimwa ukitumia dial gauge sahihi kwenye journal zote, viti vya coupling, na labyrinth kwenye stendi sahihi tuli. Runout ya kielektroniki inakaguliwa. Vipenyo vyote hupimwa na kurekodiwa kulingana na vipimo vya OEM — out-of-round, taper, na kupunguza ukubwa wa journal huandikwa."
+      },
+      {
+        "step": "02",
+        "title": "Tathmini ya Hali ya Journal",
+        "iconName": "Activity",
+        "desc": "Umaliziaji wa uso hupimwa ukitumia profilometer kwenye nafasi 3 kuzunguka mzunguko wa kila journal. Ukaguzi wa kuona kwa mikwaruzo, uhamishaji wa babbitt, mashimo ya kutu, na mifumo ya uchakavu. Ugumu unakaguliwa. Uondoaji wa chini wa malighafi unahesabiwa kurejesha jiometri na umaliziaji ndani ya mipaka ya OEM."
+      },
+      {
+        "step": "03",
+        "title": "Kusaga na Kung'arisha Journal",
+        "iconName": "Cog",
+        "desc": "Kusaga silinda sahihi kwa journal kwenye mashine ya kusaga ya CNC: mviringo unarejeshwa hadi kiwango cha juu cha 0.005 mm, taper hadi kiwango cha juu cha 0.005 mm kwa 100 mm. Uso uliosagwa unang'arishwa hadi Ra 0.4 μm (kipimo cha uso wa bearing wa OEM) ukitumia mashine ya kunoa sahihi. Uondoaji wa chini kabisa wa malighafi kudumisha maisha ya mhimili."
+      },
+      {
+        "step": "04",
+        "title": "Ukataji wa Sehemu ya Labyrinth na Gland",
+        "iconName": "Hexagon",
+        "desc": "Ukataji upya wa labyrinths, maeneo ya gland, nyuso za diski ya uwiano, na viti vya coupling kwenye mashine sahihi ya CNC. Nyuso zote zinawekwa sawa katikati na datum ya journal kabla ya ukataji ukitumia chuck ya taya 4 na kuweka dial gauge sifuri — muhimu kudumisha uadilifu wa kijiometri wa rota na kuepuka kutokea kwa runout mpya."
+      },
+      {
+        "step": "05",
+        "title": "Uwiano wa Mzunguko — Urekebishaji wa Ndege Mbili",
+        "iconName": "Target",
+        "desc": "Rota inawekwa kwenye mashine ya uwiano wa mzunguko wa hard-bearing. Kutokuwiana kwa awali hupimwa kwa wakati mmoja kwenye ndege mbili za urekebishaji (ncha ya coupling na ncha ya governor/impeller). Uzito wa jaribio unatumika na kuondolewa. Marudio ya uwiano yanarudiwa hadi kutokuwiana kwa mabaki kwenye kila ndege kunakidhi daraja la ISO 1940 / API 670 lililobainishwa kwa huduma hii ya rota."
+      },
+      {
+        "step": "06",
+        "title": "Ukaguzi wa Runout Baada ya Uwiano",
+        "iconName": "TrendingUp",
+        "desc": "Runout ya kimitambo na kielektroniki hupimwa upya baada ya uwiano kwenye nafasi zote za journal. Ulinganisho na msingi wa kabla ya uwiano unathibitisha uboreshaji kutoka kwa ukataji na uwiano. Runout yoyote ya mabaki inayozidi mipaka ya OEM inachunguzwa — ikiwa inasababishwa na mhimili uliopindika, urekebishaji au kubadilisha kunapendekezwa."
+      },
+      {
+        "step": "07",
+        "title": "Nyaraka na Usafirishaji",
+        "iconName": "BookOpen",
+        "desc": "Ripoti kamili ya uwiano inatolewa: kutokuwiana kwa awali (g·mm), nafasi za ndege za urekebishaji, uzito wa urekebishaji uliotumika, kutokuwiana kwa mabaki ya mwisho kwenye kila ndege, daraja la uwiano lililofikiwa (G1.0, G2.5, G6.3), na vipimo vyote vya runout. Cheti cha PMI na matokeo ya upimaji wa ugumu vinaambatanishwa. Rota inafungashwa na kusafirishwa na nyaraka."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Mashine ya Uwiano wa Hard-Bearing",
+        "detail": "Uwezo wa kilo 50–2,000, RPM 100–10,000",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Mashine ya Kusaga Silinda ya CNC",
+        "detail": "Mfumo sahihi wa dressing, udhibiti wa 0.001 mm",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Mashine ya Kunoa Sahihi",
+        "detail": "Microfinish hadi Ra 0.4 μm uso wa journal",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "Profilometer",
+        "detail": "Ukali wa uso — uwezo wa Ra 0.001 μm",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Dial Gauge Sahihi",
+        "detail": "0.001 mm — upimaji wa runout na kipenyo",
+        "iconName": "Target"
+      },
+      {
+        "name": "Kichanganuzi cha Uwiano Kinachobebeka",
+        "detail": "Uwezo wa uwiano wa eneo la kazi",
+        "iconName": "Search"
+      },
+      {
+        "name": "Stroboscope ya Kidijitali",
+        "detail": "Upimaji wa pembe ya awamu kwa urekebishaji wa uwiano",
+        "iconName": "Zap"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 1940-1",
+        "desc": "Mahitaji ya ubora wa uwiano kwa rota ngumu",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 21940",
+        "desc": "Mtetemo wa kimitambo: msamiati na taratibu za uwiano wa rota",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Ufuatiliaji wa mtetemo, nafasi ya axial, na joto la bearing",
+        "body": "API"
+      },
+      {
+        "code": "API 612",
+        "desc": "Turbine za mvuke maalum — mahitaji ya uwiano",
+        "body": "API"
+      },
+      {
+        "code": "ISO 1101",
+        "desc": "Mipaka ya kijiometri inayotumika kwa michoro ya ukataji",
+        "body": "ISO"
+      },
+      {
+        "code": "Vipimo vya OEM",
+        "desc": "Madaraja ya uwiano ya Triveni, Siemens, BHEL, Man Turbo, KKK",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_5": {
+    "tagline": "Daraja la Usafi la ISO 4406 16/14/11 — Kilichoidhinishwa Kabla ya Kumwaga Mafuta",
+    "accentColor": "#0284c7",
+    "keyStats": [
+      {
+        "value": "16/14/11",
+        "label": "Daraja Lengwa la ISO 4406"
+      },
+      {
+        "value": "Lita 6,000/dakika",
+        "label": "Kiwango cha Juu cha Mtiririko wa Mfumo"
+      },
+      {
+        "value": "3μm",
+        "label": "Kiwango cha Uchujaji cha Mwisho"
+      },
+      {
+        "value": "100%",
+        "label": "Hesabu ya Chembe Iliyoidhinishwa na Maabara"
+      }
+    ],
+    "whyUs": "Turbine mpya na zilizokarabatiwa hivi karibuni zinaharibiwa na mabaki ya ujenzi — makombo ya kulehemu, kutu ya bomba, mchanga, na vipande vya metali — ndani ya masaa kutoka mwendo wa kwanza. Usafishaji wa mafuta si hiari: ni bima yenye gharama nafuu zaidi dhidi ya kushindwa kubwa kwa bearing kwenye ukarabati mpya.",
+    "overview": "Uchafuzi wa mfumo wa mafuta ya kulainisha ni sababu kuu ya kushindwa kwa bearing katika turbine mpya na zilizokarabatiwa hivi karibuni. Mabaki ya ujenzi yanayoingia kwenye mfumo wa mafuta ya kulainisha wakati wa uwekaji au ukarabati yanaweza kuharibu bearing na nyuso za journal ndani ya masaa kutoka mwendo. Keshav Enterprises hufanya usafishaji wa kitaalamu wa mafuta ya kulainisha ukitumia mifumo maalum ya kichujio cha sentrifiuji kinachotembea kufikia daraja la usafi la ISO 4406:99 16/14/11 — kiwango cha chini kwa ulainishaji wa bearing ya turbine ya mvuke. Mchakato wetu unaandikwa kikamilifu: matokeo ya sampuli za mafuta katika kila hatua, rekodi za kuboresha kichujio hatua kwa hatua, na cheti cha mwisho cha hesabu ya chembe kilichoidhinishwa na maabara kinatolewa kabla ya mfumo kurudishwa kwa ajili ya kumwaga mafuta.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Uchunguzi wa Mfumo na Mpango wa Usafishaji",
+        "iconName": "Search",
+        "desc": "Ukaguzi wa P&ID ya mfumo, ujazo wa mafuta, ukubwa wa bore ya bomba, mpangilio wa kisambaza joto, na mchoro wa nyumba ya bearing. Utengenezaji wa njia ya mtiririko wa usafishaji ukitumia mahesabu ya hydraulic kufikia mtiririko wa msukosuko (nambari ya Reynolds zaidi ya 4,000) katika kila sehemu ya bomba. Utambuzi na muundo wa spool za bypass za muda na flange za upofu inapohitajika."
+      },
+      {
+        "step": "02",
+        "title": "Uwekaji wa Mzunguko wa Usafishaji wa Muda",
+        "iconName": "Wrench",
+        "desc": "Uwekaji wa mabomba ya bypass ya muda kuzunguka bearing, valvu za udhibiti, vipimo, na vifaa vingine nyeti visivyopaswa kugusana na mabaki ya usafishaji. Muunganisho wa kifaa cha usafishaji kinachotembea. Uwekaji wa kichujio cha lengo la wavu wa waya wa muda kwenye nukta ya kurudi ya usafishaji kwa ufuatiliaji wa mabaki."
+      },
+      {
+        "step": "03",
+        "title": "Usafishaji wa Awali — Mtiririko wa Juu",
+        "iconName": "Droplets",
+        "desc": "Mfumo unajazwa na mafuta ya kusafisha (au mafuta ya uchakataji ikiwa yanaendana). Pampu ya usafishaji inaendeshwa kwa mtiririko wa juu unaoweza kufikiwa kwa msukosuko wa juu. Joto la mafuta linazungushwa kati ya 30°C na 70°C kwa vipindi vya dakika 30 — mzunguko wa joto huweka mkazo kwenye kuta za bomba na kuachilia kutu na mabaki yaliyoshikamana. Vichujio vya lengo vinakaguliwa na kusafishwa kwa kila kipindi."
+      },
+      {
+        "step": "04",
+        "title": "Ufuatiliaji wa Uchafuzi na Hesabu ya Chembe",
+        "iconName": "Activity",
+        "desc": "Sampuli za mafuta zinachukuliwa kulingana na utaratibu wa uchimbaji safi wa ISO 4021 katika kila hatua. Hesabu ya chembe hupimwa ukitumia kihesabu cha chembe kiotomatiki kulingana na ISO 11500 — kikiripoti hesabu kwa ≥4μm, ≥6μm, ≥14μm, na ≥21μm. Matokeo yanachorwa kwenye chati ya maendeleo ya usafi dhidi ya daraja lengwa la ISO 4406."
+      },
+      {
+        "step": "05",
+        "title": "Kuboresha Kichujio Hatua kwa Hatua",
+        "iconName": "Layers",
+        "desc": "Uchafuzi mkubwa unapoondolewa, daraja la mikroni ya kipengele cha kichujio linapunguzwa hatua kwa hatua kupitia hatua: 25μm → 10μm → 6μm → 3μm kamili. Kifaa cha kuondoa maji cha sentrifiuji kinaendeshwa kwa kudumu katika usafishaji wote kuondoa maji huru na yaliyochanganyika. Maudhui ya maji ya Karl Fischer yanajaribiwa kuthibitisha ufanisi wa kuondoa maji."
+      },
+      {
+        "step": "06",
+        "title": "Hesabu ya Chembe ya Kukubaliwa kwa Mwisho",
+        "iconName": "CheckCircle2",
+        "desc": "Kiwango cha chini cha sampuli tatu za mafuta safi zinazofuatana zilizochukuliwa kwa vipindi lazima zote zifikie daraja lengwa la ISO 4406 16/14/11. Sampuli ya mwisho inatumwa kwenye maabara iliyoidhinishwa kwa uthibitisho huru. Cheti kilichoandikwa cha usafi wa mafuta — kilichosainiwa, kilichopigwa muhuri, na kinachoweza kufuatiliwa hadi maabara — kinatolewa kwa mteja."
+      },
+      {
+        "step": "07",
+        "title": "Urejeshaji wa Mfumo na Kumwaga Mafuta",
+        "iconName": "Zap",
+        "desc": "Spool zote za bypass za muda na flange za upofu zinaondolewa. Bearing zote, vipimo nyeti, na vifaa muhimu vinaunganishwa upya. Mfumo unajazwa upya na mafuta mapya ya uchakataji yaliyochujwa kupitia kichujio cha 3μm kamili wakati wa kumwaga. Hesabu ya chembe ya mwisho kwenye mafuta ya mfumo baada ya kumwaga inathibitisha lengo limehifadhiwa. Mfumo unakabidhiwa kwa ajili ya kuanza."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Kifaa cha Kichujio cha Sentrifiuji Kinachotembea",
+        "detail": "Mtiririko wa mfumo hadi lita 6,000/dakika",
+        "iconName": "Droplets"
+      },
+      {
+        "name": "Kihesabu cha Chembe Kiotomatiki",
+        "detail": "Kulingana na ISO 11500 — ufuatiliaji wa mtandaoni wa wakati halisi",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Titrator ya Karl Fischer",
+        "detail": "Upimaji wa maudhui ya maji huru katika mafuta ya kulainisha",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Kifaa cha Kuchukua Sampuli za Mafuta",
+        "detail": "Uchimbaji safi wa ISO 4021 kutoka mistari yenye shinikizo",
+        "iconName": "Search"
+      },
+      {
+        "name": "Kipasha Joto cha Mafuta",
+        "detail": "Mzunguko wa joto: 30°C hadi 70°C kuachilia mabaki",
+        "iconName": "Zap"
+      },
+      {
+        "name": "Seti ya Vichujio vya Lengo",
+        "detail": "Wavu 25, 10, 3μm kwa ufuatiliaji wa mabaki wa hatua",
+        "iconName": "Filter"
+      },
+      {
+        "name": "Seti ya Spool za Bypass",
+        "detail": "Spool za bypass na flange za upofu zilizotengenezwa maalum",
+        "iconName": "Wrench"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 4406:99",
+        "desc": "Uainishaji wa usafi wa maji ya hydraulic — lengo la 16/14/11",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 11500",
+        "desc": "Ubainishaji wa hesabu ya chembe ukitumia mbinu za kiotomatiki",
+        "body": "ISO"
+      },
+      {
+        "code": "ISO 4021",
+        "desc": "Uchambuzi wa uchafuzi wa maji ya hydraulic na uchukuaji sampuli",
+        "body": "ISO"
+      },
+      {
+        "code": "API 614",
+        "desc": "Mifumo ya ulainishaji, kuziba mhimili, na udhibiti wa mafuta",
+        "body": "API"
+      },
+      {
+        "code": "ASTM D6304",
+        "desc": "Upimaji wa maudhui ya maji ya Karl Fischer katika mafuta ya kulainisha",
+        "body": "ASTM"
+      },
+      {
+        "code": "Vipimo vya OEM",
+        "desc": "Mahitaji ya usafi wa mafuta ya kulainisha ya Triveni, Siemens, BHEL, Man Turbo",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_6": {
+    "tagline": "Upatanishi Sahihi wa Leza — Kuondoa Sababu ya Kwanza ya Kushindwa kwa Bearing",
+    "accentColor": "#059669",
+    "keyStats": [
+      {
+        "value": "0.05mm",
+        "label": "Mipaka ya Upatanishi Iliyofikiwa"
+      },
+      {
+        "value": "50%",
+        "label": "Kushindwa kwa Bearing kutokana na Upatanishaji Mbaya"
+      },
+      {
+        "value": "80%",
+        "label": "Maisha ya Bearing Yaliyopotea kwa Offset ya 0.05mm"
+      },
+      {
+        "value": "Ukubwa Wote",
+        "label": "Fremu za Mtambo Zinazoshughulikiwa"
+      }
+    ],
+    "whyUs": "Upatanishaji mbaya mdogo kama 0.05 mm kwenye coupling unaweza kupunguza maisha ya bearing kwa 80% na kuzalisha nguvu zinazoenea kupitia seal, coupling, na mfumo mzima wa upitishaji. Upatanishi wa leza unachukua masaa machache tu — kushindwa kwa bearing kunachukua wiki na gharama zaidi sana. Tunapatanisha katika hali ya joto, si baridi tu.",
+    "overview": "Upatanishaji mbaya wa mhimili unahusika na hadi 50% ya kushindwa kwote kwa bearing ya vifaa vinavyozunguka katika viwanda vya India. Hata upatanishaji mbaya usioweza kuonekana kwa jicho la kawaida huzalisha nguvu kubwa za mzunguko kwenye bearing, seal, na coupling kwa kasi ya uendeshaji. Keshav Enterprises hufanya upatanishi sahihi wa mhimili wa leza ukitumia mifumo ya Pruftechnik na SKF kwa turbine, gearbox, pampu, feni, alternator, na jenereta za induction za ukubwa wowote wa fremu. Muhimu zaidi, tunahesabu na kutumia offset ya upatanishi wa joto — upatanishi baridi unawekwa kwa makusudi offset kuzingatia ukuaji wa joto, ili mtambo ufanye kazi moja kwa moja kwa joto la uendeshaji. Ripoti zetu za upatanishi zinaonyesha usomaji wa kabla/baada, historia ya shim, na thamani za mwisho dhidi ya mipaka ya OEM.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Ukaguzi Kabla ya Upatanishi",
+        "iconName": "Search",
+        "desc": "Uthibitisho wa hali ya soft foot (kupotoshwa kwa fremu ya mtambo wakati bolt zinapokazwa) ukitumia dial gauge sahihi kwenye miguu yote — 0.05 mm au chini inahitajika kabla ya upatanishi kuendelea. Upimaji wa mkazo wa bomba kutambua nguvu zinazowekwa kwenye nozzle ya mtambo na mabomba yaliyounganishwa. Ukaguzi wa nafasi za bearing na uhesabuji wa ukuaji wa joto kutoka data ya OEM au vipimo vya eneo la kazi."
+      },
+      {
+        "step": "02",
+        "title": "Uwekaji wa Mfumo wa Upatanishi wa Leza",
+        "iconName": "Target",
+        "desc": "Uwekaji wa vichwa vya transmita na receiver ya leza kwenye mhimili ukitumia breketi za sumaku sahihi. Mfumo unawekwa sifuri na mipaka ya mzunguko wa mhimili inathibitishwa. Vipimo vyote muhimu vinaingizwa kwenye programu ya upatanishi: kipenyo cha coupling, umbali wa mhimili kutoka hub hadi hub, na umbali wa upimaji. Fidia ya kuinama kwa breketi inathibitishwa na kutumika."
+      },
+      {
+        "step": "03",
+        "title": "Upimaji wa Upatanishaji Mbaya wa Awali",
+        "iconName": "Activity",
+        "desc": "Mhimili unazungushwa kupitia upinde wa upimaji (nafasi tatu: saa 12, 3, na 9). Programu inahesabu upatanishaji mbaya halisi: upatanishaji mbaya wa pembe (mrad) na offset (mm) kwenye uso wa coupling, na urekebishaji unaohitajika kwenye kila mguu wa mtambo katika ndege za wima na mlalo kwa wakati mmoja."
+      },
+      {
+        "step": "04",
+        "title": "Urekebishaji wa Shim na Jackscrew",
+        "iconName": "Layers",
+        "desc": "Urekebishaji wa shim uliohesabiwa unatumika kwenye mguu wa mtambo uliosimama. Shim za chuma cha pua sahihi zinawekwa au kuondolewa katika mpangilio sahihi kurekebisha upatanishaji mbaya wa wima. Urekebishaji wa mlalo unafanywa ukitumia jackscrew za upatanishi kwenye mguu wa mtambo huku leza ikiwa bado inafanya kazi kwa maoni ya wakati halisi wakati wa urekebishaji."
+      },
+      {
+        "step": "05",
+        "title": "Fidia ya Upatanishi wa Joto",
+        "iconName": "Zap",
+        "desc": "Ukuaji wa joto wa casing ya mtambo kutoka joto baridi hadi la uendeshaji unahesabiwa kutoka data ya ukuaji wa joto wa OEM au unapimwa ukitumia ufuatiliaji wa DBSE (umbali kati ya ncha za mhimili) na upigaji picha wa joto. Lengo la upatanishi baridi linawekwa offset kwa makusudi ili mtambo ufikie upatanishi sahihi wa uendeshaji wa joto kwa mzigo kamili na joto."
+      },
+      {
+        "step": "06",
+        "title": "Upimaji wa Mwisho na Uthibitisho wa Mipaka",
+        "iconName": "CheckCircle2",
+        "desc": "Upimaji wa mwisho wa leza unathibitisha upatanishi ndani ya mipaka ya OEM — kwa kawaida: upatanishaji mbaya wa pembe wa juu 0.05 mrad, offset ya juu 0.05 mm kwenye coupling. Miguu yote minne inakaguliwa upya kwa soft foot ya 0.05 mm au chini. Bolt za coupling zinakazwa kulingana na vipimo vya OEM ukitumia ufunguo wa msokoto wa kidijitali uliosawazishwa."
+      },
+      {
+        "step": "07",
+        "title": "Ripoti ya Upatanishi na Msokoto wa Bolt",
+        "iconName": "BookOpen",
+        "desc": "Ripoti ya kina ya upatanishi inazalishwa na programu ya mfumo wa leza: usomaji kabla ya upatanishi, mabadiliko ya shim kwenye kila mguu, vekta za urekebishaji zilizotumika, na thamani za mwisho zilizofikiwa dhidi ya mipaka ya OEM. Msokoto wa bolt za msingi unarekodiwa. Ripoti inasainiwa na kutolewa — kuwa sehemu ya msingi wa rekodi za matengenezo kwa upatanishi wa siku zijazo."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Pruftechnik Rotalign Pro",
+        "detail": "Mfululizo wa OPTALIGN — upatanishi wa leza usiotumia waya",
+        "iconName": "Target"
+      },
+      {
+        "name": "SKF TKSA 71",
+        "detail": "Upatanishi wa leza usiotumia waya na uripoti wa msingi wa programu",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Dial Gauge Sahihi",
+        "detail": "Upimaji wa soft foot — uwezo wa 0.001 mm",
+        "iconName": "Cog"
+      },
+      {
+        "name": "Seti ya Shim za SS Sahihi",
+        "detail": "0.025 hadi 3.0 mm kwa hatua za 0.025 mm",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Ufunguo wa Msokoto wa Kidijitali",
+        "detail": "Ukazaji wa bolt za coupling na msingi",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Kichanganuzi cha Mtetemo",
+        "detail": "Ulinganisho wa mtetemo kabla na baada ya upatanishi",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Kamera ya Upigaji Picha wa Joto",
+        "detail": "Uchunguzi wa joto la bearing na coupling ya joto",
+        "iconName": "Zap"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 10816-3 / 20816-3",
+        "desc": "Tathmini ya ukali wa mtetemo kwa mitambo >15 kW",
+        "body": "ISO"
+      },
+      {
+        "code": "API 686",
+        "desc": "Mazoezi yanayopendekezwa kwa uwekaji na upatanishi wa mitambo",
+        "body": "API"
+      },
+      {
+        "code": "ASME B31.3",
+        "desc": "Mipaka ya mzigo wa nozzle ya bomba la uchakataji kwenye muunganisho wa mtambo",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 1940",
+        "desc": "Mipaka ya kutokuwiana kwa mabaki baada ya urekebishaji wa upatanishi",
+        "body": "ISO"
+      },
+      {
+        "code": "API 612",
+        "desc": "Turbine za mvuke maalum — mahitaji ya upatanishi",
+        "body": "API"
+      },
+      {
+        "code": "Mipaka ya OEM",
+        "desc": "Vipimo vya upatanishi vya Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK",
+        "body": "OEM"
+      }
+    ]
+  },
+  "srv_7": {
+    "tagline": "Chanzo cha Tatizo Kimepatikana. Hatua ya Kurekebisha Imetekelezwa. Turbine Imerudi Mtandaoni.",
+    "accentColor": "#dc2626",
+    "keyStats": [
+      {
+        "value": "24×7",
+        "label": "Uwekaji wa Dharura"
+      },
+      {
+        "value": "10+",
+        "label": "Chapa za OEM Zilizochunguzwa"
+      },
+      {
+        "value": "FFT+Joto",
+        "label": "Mbinu Mbili za Uchunguzi"
+      },
+      {
+        "value": "Masaa 48",
+        "label": "Ufuatiliaji wa Mwenendo Baada ya Ukarabati"
+      }
+    ],
+    "whyUs": "Hitilafu iliyogunduliwa vibaya na kurekebishwa bila kupata chanzo cha tatizo itashindwa tena — mara nyingi haraka zaidi kuliko mara ya kwanza. Hatukisii. Tunapima, tunachambua spectra, tunabomoa tu kile data inachohitaji, tunathibitisha chanzo cha tatizo kimwili, na kukirekebisha na timu ileile iliyokipata.",
+    "overview": "Kusimama kwa turbine bila kupangwa na kupungua kwa utendaji kusikoelezeka kunagharimu viwanda vya kiviwanda mamilioni katika uzalishaji uliopotea kila mwaka. Keshav Enterprises hupeleka wahandisi wa utatuzi wa matatizo wenye uzoefu wa zamani wa OEM na vifaa kamili vya uchunguzi kutambua, kuandika, na kurekebisha kwa usahihi chanzo cha tatizo la hitilafu yoyote ya turbine ya mvuke — kutoka mtetemo wa juu na kushindwa kwa bearing hadi kutokuwa thabiti kwa governor, uchafuzi wa mafuta, na uvujaji wa mvuke. Tunashughulikia chapa zote za turbine kutoka 5 kW hadi 60 MW katika wigo mzima wa viwanda vya uchakataji na nishati vya India. Mbinu yetu ni ya kimfumo: upimaji wa mtandaoni kwanza, ukaguzi wa kimwili unaolengwa na data, chanzo cha tatizo kilichothibitishwa kwa maandishi, na hatua za kurekebisha zinazotekelezwa na timu ileile iliyogundua hitilafu.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Uhamasishaji wa Dharura na Ukusanyaji wa Data wa Eneo la Kazi",
+        "iconName": "Zap",
+        "desc": "Uwekaji wa mwitikio wa saa 24×7 eneo la kazi na seti kamili ya uchunguzi. Ukusanyaji wa data yote ya uendeshaji inayopatikana: historia ya mtetemo, kumbukumbu za kusimama za DCS, ripoti za uchambuzi wa mafuta, mienendo ya joto la bearing, kumbukumbu za hali ya mvuke, na rekodi za matengenezo. Mahojiano na wafanyakazi wa uendeshaji na matengenezo waliyoshuhudia tukio la hitilafu."
+      },
+      {
+        "step": "02",
+        "title": "Upimaji wa Mtetemo na Utendaji wa Msingi",
+        "iconName": "Activity",
+        "desc": "Upimaji wa mtetemo wa mtandaoni kwenye nyumba zote za bearing: viwango vya jumla vya mtetemo (mm/s RMS), uchambuzi wa spectra wa FFT wa wakati halisi, amplitude na pembe ya awamu ya 1X na 2X, vipengele vya masafa ya chini ya usawazishaji na masafa ya juu. Shinikizo, joto, na mtiririko wa mvuke wa kuingiza/kutoka unalinganishwa na wajibu wa muundo. Joto la bearing linarembwa ukitumia kamera ya upigaji picha wa joto."
+      },
+      {
+        "step": "03",
+        "title": "Utambuzi wa Sahihi ya Hitilafu na Nadharia",
+        "iconName": "Search",
+        "desc": "Uchambuzi wa spectra ya mtetemo, data ya awamu, ramani ya joto ya bearing, na matokeo ya sampuli za mafuta kujenga sahihi ya hitilafu. Kila chanzo cha tatizo kinachowezekana kinalinganishwa kimfumo na ushahidi unaoweza kupimwa: kutokuwiana (1X inayotawala), upatanishaji mbaya (2X inayotawala), uchakavu wa bearing (masafa ya chini ya usawazishaji au masafa ya hitilafu ya bearing), msuguano (chini ya harmonics, 1X ya juu), ulegevu (harmonics nyingi), au uchafu wa njia ya mvuke (kupinda kwa joto)."
+      },
+      {
+        "step": "04",
+        "title": "Kubomolewa kwa Kulengwa na Ukaguzi wa Kimwili",
+        "iconName": "Wrench",
+        "desc": "Kubomolewa kwa uvamizi mdogo kunakolenga tu eneo la hitilafu linaloshukiwa — si kubomoa kabisa isipokuwa data inahitaji. Upimaji wa kimwili wa nafasi za bearing, runout ya mhimili, upatanishi wa coupling, nafasi za seal za gland, na ukaaji wa seal ya labyrinth unalinganishwa na vipimo vya OEM. Matokeo yote yanapigwa picha na kuandikwa kimipimo."
+      },
+      {
+        "step": "05",
+        "title": "Uthibitisho wa Chanzo cha Tatizo na Ripoti ya RCA Iliyoandikwa",
+        "iconName": "BookOpen",
+        "desc": "Ripoti rasmi ya uchambuzi wa chanzo cha tatizo (RCA) inayochanganya data ya mtambo, vipimo vya kubomolewa, na ulinganisho wa vipimo vya OEM. Chanzo cha tatizo kinaainishwa na kuthibitishwa kwa maandishi. Sababu zinazochangia zinatambuliwa. Mpango wa hatua za kurekebisha wenye kipaumbele, vipuri vinavyohitajika, makadirio ya muda wa kusimama, na hatua za kuzuia zinazopendekezwa vinatolewa kwa mteja kabla ya kazi kuanza."
+      },
+      {
+        "step": "06",
+        "title": "Utekelezaji wa Hatua za Kurekebisha",
+        "iconName": "Cog",
+        "desc": "Utekelezaji wa moja kwa moja wa hatua za kurekebisha na timu ileile ya utatuzi wa matatizo: kusawazisha upya rota, kubadilisha bearing na kuweka nafasi za kiufundi, urekebishaji wa upatanishi wa leza, kubadilisha seal za gland na upakiaji wa labyrinth, usafishaji wa mfumo wa mafuta ya kulainisha hadi ISO 4406, ukarabati na usawazishaji wa governor, au usawazishaji wa mfumo wa udhibiti. Kazi zote za kurekebisha zinaandikwa dhidi ya vipimo vya OEM."
+      },
+      {
+        "step": "07",
+        "title": "Uanzishaji Baada ya Ukarabati na Ufuatiliaji wa Mwenendo wa Masaa 48",
+        "iconName": "TrendingUp",
+        "desc": "Kuanzisha upya kunakofuatiliwa na urekodi endelevu wa data ya mtetemo na joto la bearing wakati wa kuongeza kasi. Viwango vya mtetemo baada ya ukarabati vinalinganishwa na msingi wa kabla ya hitilafu na mipaka ya kukubalika ya OEM (ISO 10816-3). Ufuatiliaji endelevu wa mwenendo wa masaa 48 kwa mzigo kamili kabla ripoti ya idhini iliyoandikwa kutolewa na turbine kurudishwa kwenye uendeshaji usiosimamiwa."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Kichanganuzi cha Mtetemo cha Njia Nyingi",
+        "detail": "FFT ya wakati halisi — daraja la CSI 2140 / SKF Microlog",
+        "iconName": "Activity"
+      },
+      {
+        "name": "Vipimo vya Proximity",
+        "detail": "Mtetemo wa mhimili wa eddy current — kiwango cha API 670",
+        "iconName": "TrendingUp"
+      },
+      {
+        "name": "Kamera ya Upigaji Picha wa Joto",
+        "detail": "FLIR / Testo — uchunguzi wa joto wa bearing na njia ya mvuke",
+        "iconName": "Zap"
+      },
+      {
+        "name": "Stroboscope + Rejea ya Awamu",
+        "detail": "Upimaji wa amplitude na pembe ya awamu ya 1X",
+        "iconName": "Search"
+      },
+      {
+        "name": "Kihesabu cha Chembe za Mafuta Kinachobebeka",
+        "detail": "ISO 11500 — uchafuzi wa mafuta ya kulainisha eneo la kazi",
+        "iconName": "Droplets"
+      },
+      {
+        "name": "Borescope",
+        "detail": "Ngumu na inayopinda — ukaguzi wa vile bila kubomoa kabisa",
+        "iconName": "Hexagon"
+      },
+      {
+        "name": "Kichanganuzi cha PMI XRF",
+        "detail": "Utambuzi wa aloi ya kipengele kilichoshindwa",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Mfumo wa Upatanishi wa Mhimili wa Leza",
+        "detail": "Uthibitisho wa upatanishi wa coupling na bearing",
+        "iconName": "Target"
+      },
+      {
+        "name": "Titrator ya Karl Fischer",
+        "detail": "Maudhui ya maji huru katika mafuta ya kulainisha — ukaguzi wa uchafuzi",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Vifaa vya Usawazishaji wa Governor",
+        "detail": "Vyombo vya rejea vya kasi na mfumo wa udhibiti",
+        "iconName": "Cog"
+      }
+    ],
+    "standards": [
+      {
+        "code": "ISO 10816-3 / 20816-3",
+        "desc": "Mipaka ya ukali wa mtetemo kwa mitambo ya viwandani >15 kW",
+        "body": "ISO"
+      },
+      {
+        "code": "API 670",
+        "desc": "Ulinzi wa mtambo: mtetemo, nafasi ya axial, joto",
+        "body": "API"
+      },
+      {
+        "code": "API 612",
+        "desc": "Turbine za mvuke maalum kwa huduma ya mafuta na kemikali",
+        "body": "API"
+      },
+      {
+        "code": "ISO 4406:99",
+        "desc": "Uainishaji wa usafi wa mafuta ya kulainisha",
+        "body": "ISO"
+      },
+      {
+        "code": "ASME PTC 6",
+        "desc": "Kanuni ya jaribio la utendaji wa turbine ya mvuke kwa ulinganisho wa ufanisi",
+        "body": "ASME"
+      },
+      {
+        "code": "ISO 14224",
+        "desc": "Ukusanyaji wa data ya uaminifu na matengenezo kwa vifaa",
+        "body": "ISO"
+      },
+      {
+        "code": "Mwongozo wa OEM",
+        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB",
+        "body": "OEM"
+      }
+    ],
+    "faultMatrix": [
+      {
+        "symptom": "Mtetemo wa juu — 1X inayotawala",
+        "causes": [
+          "Kutokuwiana kwa rota (mabaki au kutokana na mkusanyiko)",
+          "Upindaji wa rota (joto au kimitambo)",
+          "Nafasi ya bearing kupita kiasi"
+        ],
+        "action": "Uwiano wa mzunguko, ukaguzi wa rota, kubadilisha bearing"
+      },
+      {
+        "symptom": "Mtetemo wa juu — 2X inayotawala",
+        "causes": [
+          "Upatanishaji mbaya wa mhimili (pembe au offset)",
+          "Hitilafu ya coupling",
+          "Upotoshaji wa casing / mkazo wa bomba"
+        ],
+        "action": "Upatanishi wa leza, ukaguzi wa coupling, upimaji wa mkazo wa bomba"
+      },
+      {
+        "symptom": "Mtetemo wa chini ya usawazishaji",
+        "causes": [
+          "Whirl / whip ya mafuta kwenye journal bearing",
+          "Kutokuwa thabiti kutokana na msuguano",
+          "Uwekaji wa bearing uliolegea"
+        ],
+        "action": "Kuweka upya nafasi za bearing, ukaguzi wa shinikizo/uzito wa mafuta ya kulainisha, ukaguzi wa nafasi ya msuguano"
+      },
+      {
+        "symptom": "Mtetemo wa masafa ya juu (>3X)",
+        "causes": [
+          "Uchafu au mmomonyoko wa vile",
+          "Ulegevu kwenye msingi au kifuniko cha bearing",
+          "Hitilafu ya gear mesh (gearbox)"
+        ],
+        "action": "Ukaguzi wa vile (borescope), ukaguzi wa msokoto wa kifuniko cha bearing, ukaguzi wa gearbox"
+      },
+      {
+        "symptom": "Uchafuzi wa mafuta ya bearing / maji kwenye mafuta",
+        "causes": [
+          "Uchakavu wa seal ya gland ya pete ya kaboni",
+          "Shinikizo la mvuke la gland juu sana",
+          "Kuingia kwa condensate kupitia utoaji"
+        ],
+        "action": "Kubadilisha pete ya kaboni, kuweka upya shinikizo la mvuke la gland, usafishaji wa mfumo wa mafuta ya kulainisha"
+      },
+      {
+        "symptom": "Uvujaji wa gland ya mvuke",
+        "causes": [
+          "Uchakavu wa seal ya labyrinth (nafasi kupita kiasi)",
+          "Upakiaji wa gland uliochakaa au kuharibika",
+          "Shinikizo la mvuke la gland limewekwa vibaya"
+        ],
+        "action": "Kubadilisha seal ya labyrinth, kubadilisha upakiaji wa gland, usawazishaji wa kidhibiti cha mvuke wa gland"
+      },
+      {
+        "symptom": "Kuyumba kwa governor / kutokuwa thabiti kwa kasi",
+        "causes": [
+          "Uchakavu au kushikamana kwa linkage ya governor",
+          "Mafuta machafu / matope kwenye governor PG-PL",
+          "Uwekaji wa needle valve ya fidia vibaya"
+        ],
+        "action": "Ukarabati wa linkage ya governor, kusafisha na kujaza upya mafuta ya governor, usawazishaji upya wa needle valve"
+      },
+      {
+        "symptom": "Kusimama kwa shinikizo dogo la mafuta ya kulainisha",
+        "causes": [
+          "Uchakavu wa pampu ya mafuta",
+          "Uchafu wa oil cooler / joto la juu la mafuta",
+          "Valvu ya relief ya shinikizo imekwama wazi",
+          "Kiwango cha chini cha mafuta au cavitation"
+        ],
+        "action": "Ukaguzi wa pampu ya mafuta, kusafisha cooler, ukaguzi wa PRV, ukaguzi wa kiwango cha mafuta na mfumo"
+      },
+      {
+        "symptom": "Kusimama kwa mwendo kupita kiasi — bandia au halisi",
+        "causes": [
+          "Uchakavu wa trip pin au uwekaji vibaya",
+          "Valvu ya governor inavuja mvuke",
+          "Hitilafu ya actuator au mafuta ya udhibiti"
+        ],
+        "action": "Ukaguzi na kuweka upya trip pin, ukaguzi wa kiti cha valvu ya governor, ukaguzi wa mfumo wa udhibiti"
+      },
+      {
+        "symptom": "Upotevu wa nguvu ya matokeo / ufanisi",
+        "causes": [
+          "Uchafu wa vile (usafi wa mvuke / uchafuzi wa maji ya attemperating)",
+          "Uchakavu wa strip ya seal (kuongezeka kwa bypass ya mvuke)",
+          "Mmomonyoko au uzibaji wa nozzle"
+        ],
+        "action": "Ukaguzi wa borescope, kubadilisha strip ya seal, ukaguzi na kusafisha nozzle"
+      }
+    ]
+  }
+}

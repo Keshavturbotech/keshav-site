@@ -1,0 +1,210 @@
+{
+  "cs_01": {
+    "id": "cs_01",
+    "image": "project-triveni-overhaul.webp",
+    "category": "Ukarabati",
+    "industry": "Kiwanda cha Sukari",
+    "title": "Turbine ya Shinikizo la Nyuma ya Triveni 5 MW — Ukarabati Kamili na Uwiano wa Rota",
+    "client": "Siri — Kiwanda cha Sukari, UP ya Magharibi",
+    "year": "2023",
+    "duration": "siku 12",
+    "scope": "Ukarabati kamili wa huduma kamili: kuondoa rota, kubadilisha bearing, kukata seal ya labyrinth, uwiano wa mzunguko wa rota (ISO 1940 G2.5), usafishaji wa mafuta ya kulainisha, na uanzishaji.",
+    "challenge": "Turbine ilikuwa ikifanya kazi kwa mtetemo wa juu (>6 mm/s) kwa misimu miwili. Nyumba za bearing zilionyesha uchakavu wa fretting na rota ilikuwa na runout ya 1× iliyoendelea ambayo matengenezo ya awali hayakuwa yametatua.",
+    "solution": "Wahandisi wenye uzoefu wa OEM wa Triveni walibomoa kifaa na kupata journal iliyopasuka upande wa drive. Journal ilikatwa kupunguza ukubwa, babbitt mpya ilimwagwa na kukwaruzwa, labyrinths zilikatwa katika karakhana yetu, na rota ilisawazishwa kwa mzunguko hadi kutokuwiana kwa mabaki <0.5 g·mm. Mtetemo baada ya uanzishaji: 1.8 mm/s.",
+    "outcomes": [
+      "Mtetemo ulishuka kutoka 6.4 mm/s hadi 1.8 mm/s",
+      "Joto la metali ya bearing lilishuka kwa 14 °C",
+      "Turbine ilirudi kwenye huduma ndani ya kipindi cha siku 12 kilichopangwa",
+      "Hakuna kusimama bila kupangwa katika msimu wa miezi 12 uliofuata"
+    ],
+    "tags": [
+      "Triveni",
+      "Uwiano wa Rota",
+      "Bearing za Babbitt",
+      "Ukarabati"
+    ],
+    "categorySlug": "overhauling"
+  },
+  "cs_02": {
+    "id": "cs_02",
+    "image": "project-reverse-engineering.webp",
+    "category": "Uhandisi wa Kinyume",
+    "industry": "Kiwanda cha Karatasi",
+    "title": "Diski ya Hatua ya Impulse ya Siemens SST-200 — Uhandisi wa Kinyume na Utengenezaji",
+    "client": "Siri — Kiwanda cha Karatasi, Uttarakhand",
+    "year": "2023",
+    "duration": "siku 21",
+    "scope": "Usomaji wa leza wa 3D wa diski ya impulse iliyoharibika, uthibitisho wa malighafi wa PMI, seti kamili ya michoro ya utengenezaji, na utoaji wa diski mbadala iliyokatwa kulingana na mchoro.",
+    "challenge": "OEM ilitoa muda wa wiki 14 na €18,000 kwa diski mbadala ya impulse. Kiwanda hakikuweza kumudu kusimama kwa wiki 14 huku msimu ukikaribia.",
+    "solution": "Timu yetu ilisoma diski iliyoharibika kwa leza ya 3D eneo la kazi, ilifanya PMI kuthibitisha aloi (chuma cha pua AISI 422), ilitengeneza michoro kamili ya utengenezaji yenye mipaka yote na vipimo vya matibabu ya joto, na diski ilikatwa ghafi, kutibiwa kwa joto, kukatwa kwa umaliziaji, na kusawazishwa kwa mzunguko ndani ya siku 19 za kazi.",
+    "outcomes": [
+      "Muda ulipunguzwa kutoka wiki 14 (OEM) hadi siku 21",
+      "Akiba ya gharama ya takriban ₹12 lakh ikilinganishwa na bei ya OEM",
+      "Diski iliwekwa bila matatizo ya vipimo; turbine ilirudi kwenye uzalishaji uliokadiriwa",
+      "Kifurushi kamili cha michoro kilihifadhiwa kwa ajili ya agizo la baadaye"
+    ],
+    "tags": [
+      "Siemens",
+      "Uhandisi wa Kinyume",
+      "Usomaji wa 3D",
+      "PMI"
+    ],
+    "categorySlug": "reverse-engineering"
+  },
+  "cs_03": {
+    "id": "cs_03",
+    "image": "project-erection-commissioning.webp",
+    "category": "Uwekaji na Uanzishaji",
+    "industry": "Kiwanda cha Vinywaji Vikali",
+    "title": "Turbine ya Co-Gen ya Maxwatt 3.5 MW — Uwekaji wa Mradi Mpya na Uanzishaji",
+    "client": "Siri — Kiwanda cha Vinywaji Vikali, UP ya Kati",
+    "year": "2022",
+    "duration": "siku 28",
+    "scope": "Uwekaji kamili wa turbine ya mvuke, gearbox, alternator, condenser, mfumo wa mafuta ya kulainisha, na kazi zote za mabomba na nyaya zinazohusiana. Uanzishaji ulioshuhudiwa na OEM.",
+    "challenge": "Turbine ilifika eneo la kazi na michoro isiyo sahihi ya grouting ya fremu ya msingi. Kazi za ujenzi zilipaswa kutathminiwa upya na kurekebishwa kabla ya uwekaji kuanza, na kupunguza kipindi cha uanzishaji kilichopatikana.",
+    "solution": "Wahandisi wetu wa eneo la kazi waliratibu na mkandarasi wa ujenzi kurekebisha mifuko ya grouting ndani ya masaa 48. Turbine, gearbox, na alternator ziliwekwa, kupatanishwa (upatanishi wa mhimili hadi <0.02 mm TIR), na ukaguzi wote kabla ya uanzishaji ulikamilika. Usawazishaji ulifanikiwa katika jaribio la kwanza wakati wa jaribio lililoshuhudiwa na OEM.",
+    "outcomes": [
+      "Usawazishaji wa kwanza ulifanikiwa siku ya uanzishaji — hakuna ucheleweshaji wa punch-list",
+      "Upatanishi wa mhimili ulifanikiwa kwa 0.016 mm TIR — ndani ya mipaka ya OEM",
+      "Mafuta ya kulainisha yalisafishwa hadi usafi wa ISO 4406 16/14/11 kabla ya mwendo wa kwanza",
+      "Kiwanda kilikubali turbine bila vipengele vya tatizo kwenye punch-list ya OEM"
+    ],
+    "tags": [
+      "Maxwatt",
+      "Uwekaji",
+      "Uanzishaji",
+      "Upatanishi"
+    ],
+    "categorySlug": "erection-and-commissioning"
+  },
+  "cs_04": {
+    "id": "cs_04",
+    "image": "project-lube-oil-flushing.webp",
+    "category": "Usafishaji wa Mafuta ya Kulainisha",
+    "industry": "Uzalishaji wa Umeme",
+    "title": "Turbine ya Extraction-Condensing ya BHEL 15 MW — Usafishaji wa Mafuta ya Kulainisha Baada ya Ukarabati",
+    "client": "Siri — Mzalishaji Huru wa Umeme, Rajasthan",
+    "year": "2024",
+    "duration": "siku 5",
+    "scope": "Usafishaji wa mfumo wa mafuta ya kulainisha baada ya ukarabati ukitumia kifaa cha kichujio cha sentrifiuji kinachotembea. Lengo la usafi: ISO 4406 ≤16/14/11 kwa mzunguko mkuu wa mafuta ya kulainisha na ≤15/13/10 kwa mzunguko wa mafuta ya udhibiti.",
+    "challenge": "Mfumo wa mafuta ya kulainisha ulikuwa na uchafuzi mkubwa wa metali kutoka kwa ukarabati. Majaribio matatu ya awali ya usafishaji na mkandarasi mwingine hayakufikia lengo la usafi kwenye mzunguko wa mafuta ya udhibiti.",
+    "solution": "Tulipeleka kifaa chetu maalum cha usafishaji cha sentrifiuji kinachotembea chenye mzunguko mdogo wa ujazo mdogo wa kasi ya juu kwa ajili ya pete ya mafuta ya udhibiti. Kufikia siku ya 3 mzunguko mkuu ulikuwa kwenye 15/13/10 na kufikia siku ya 5 mizunguko yote miwili ilifikia malengo yao ya usafi, ikithibitishwa na ripoti za idadi ya chembe kutoka kwa mtu wa tatu.",
+    "outcomes": [
+      "Mzunguko mkuu wa mafuta ya kulainisha: ISO 4406 15/13/10 ✓",
+      "Mzunguko wa mafuta ya udhibiti: ISO 4406 14/12/9 ✓ (bora kuliko lengo)",
+      "Mizunguko yote miwili ilikamilika ndani ya siku 5 ikilinganishwa na kipindi cha dharura cha siku 10",
+      "Turbine ilikubaliwa kuwashwa kwa mara ya kwanza bila ucheleweshaji zaidi"
+    ],
+    "tags": [
+      "BHEL",
+      "Usafishaji wa Mafuta ya Kulainisha",
+      "ISO 4406",
+      "Uzalishaji wa Umeme"
+    ],
+    "categorySlug": "lube-oil-flushing"
+  },
+  "cs_05": {
+    "id": "cs_05",
+    "image": "project-alignment.webp",
+    "category": "Upatanishi wa Mitambo",
+    "industry": "Kiwanda cha Chuma",
+    "title": "Mfumo wa Compressor-Gearbox-Motor wa KKK — Upatanishi Sahihi wa Leza",
+    "client": "Siri — Kiwanda cha Chuma, Jharkhand",
+    "year": "2024",
+    "duration": "siku 2",
+    "scope": "Upatanishi sahihi wa leza wa mfumo wa compressor wenye vipengele vitatu (motor–gearbox–compressor) baada ya kubadilisha gearbox. Upimaji na urekebishaji wa mkazo wa mabomba.",
+    "challenge": "Motor ilikuwa motor ya induction ya kasi thabiti yenye ufikiaji mdogo wa shimming. Mkazo wa bomba kwenye utokaji wa compressor ulikuwa ukivuta casing kwa 0.04 mm — vya kutosha kubatilisha upatanishi mara tu ilipounganishwa.",
+    "solution": "Tulifanya upatanishi baridi bila coupling, kisha tukapima na kuandika mkazo wa bomba na mstari wa utokaji ukiwa umeunganishwa. Mkandarasi wa mabomba aliunga mkono tena spool ya utokaji na mkazo wa bomba ulishuka hadi <0.005 mm. Upatanishi wa mwisho wenye coupling: pembe 0.008 mm/100 mm, offset 0.012 mm — ndani ya mipaka ya OEM.",
+    "outcomes": [
+      "Upatanishaji mbaya wa pembe: 0.008 mm/100 mm (kikomo cha OEM 0.02 mm/100 mm)",
+      "Offset sambamba: 0.012 mm (kikomo cha OEM 0.025 mm)",
+      "Mkazo wa bomba ulirekebishwa — hakuna mzigo wa nozzle uliobaki kwenye compressor",
+      "Mtetemo wakati wa kuanza kwa mara ya kwanza: 1.2 mm/s — chini sana ya kiwango cha tahadhari"
+    ],
+    "tags": [
+      "KKK",
+      "Upatanishi wa Leza",
+      "Compressor",
+      "Kiwanda cha Chuma"
+    ],
+    "categorySlug": "machine-alignment"
+  },
+  "cs_06": {
+    "id": "cs_06",
+    "image": "project-dynamic-balancing.webp",
+    "category": "Uwiano wa Mzunguko",
+    "industry": "Kiwanda cha Saruji",
+    "title": "Rota ya Feni ya Kiwanda cha Saruji — Uwiano wa Mzunguko na Ukataji wa Journal",
+    "client": "Siri — Kiwanda cha Saruji, Rajasthan",
+    "year": "2023",
+    "duration": "siku 4",
+    "scope": "Uwiano wa mzunguko wa karakhana wa rota ya feni ya ID ya kilo 680 hadi daraja la ubora la ISO 21940-11 G2.5, pamoja na kusaga na kung'arisha journal kwenye ncha za drive-end na non-drive-end.",
+    "challenge": "Rota ilifika na mkusanyiko mkubwa wa saruji, mikwaruzo ya journal kutokana na bearing iliyoanguka, na kutokuwiana kwa mabaki ~420 g·mm kutoka eneo la kazi — mbali sana na mipaka ya ISO G2.5 kwa kasi ya uendeshaji.",
+    "solution": "Mabaki ya saruji yalisafishwa kwa kupuliza mchanga. Journal zote mbili zilisagwa kupunguza ukubwa kwa 0.10 mm na kung'arishwa hadi Ra 0.4 µm. Rota kisha ilisawazishwa kwenye mashine yetu ya uwiano wa mzunguko wa ndege mbili (uwezo wa kilo 2000, kasi hadi RPM 1500). Kutokuwiana kwa mabaki ya mwisho: 6 g·mm kwa kila ndege (ISO G1.0 ilifikiwa).",
+    "outcomes": [
+      "Kutokuwiana kwa mabaki: 6 g·mm/ndege — bora kuliko G1.0",
+      "Umaliziaji wa uso wa journal: Ra 0.38 µm ncha zote mbili",
+      "Mtetemo kwa kasi kamili (RPM 980) baada ya uwekaji: 0.9 mm/s",
+      "Joto la bearing lilirejea kawaida ndani ya masaa 2 ya mwendo wa kwanza"
+    ],
+    "tags": [
+      "Uwiano wa Mzunguko",
+      "Rota ya Feni",
+      "Ukataji wa Journal",
+      "Saruji"
+    ],
+    "categorySlug": "dynamic-balancing"
+  },
+  "cs_07": {
+    "id": "cs_07",
+    "image": "project-emergency-breakdown.webp",
+    "category": "Dharura ya Kusimama",
+    "industry": "Kiwanda cha Sukari",
+    "title": "Turbine ya Belliss & Morcom — Kushindwa kwa Dharura kwa Bearing ya Babbitt Wakati wa Msimu wa Kusaga",
+    "client": "Siri — Kiwanda cha Sukari, Haryana",
+    "year": "2024",
+    "duration": "masaa 14 ya kusimama",
+    "scope": "Mwitikio wa dharura eneo la kazi, uchunguzi wa chanzo cha tatizo, utengenezaji na uwekaji wa bearing mbadala ya babbitt, ukaguzi wa rota, na kuanzisha upya ndani ya kipindi cha masaa 14.",
+    "challenge": "Turbine ilisimama saa nane usiku wakati wa kilele cha msimu wa kusaga kutokana na kuanguka kwa bearing ya babbitt upande wa non-drive. Kiwanda kilikuwa kikichakata TCD 8,000 — kila saa ya kusimama iligharimu takriban ₹4 lakh katika hasara za miwa.",
+    "solution": "Mhandisi wetu alipelekwa ndani ya dakika 90 baada ya wito na kufika eneo la kazi kabla ya saa 05:30. Chanzo cha tatizo kilitambuliwa: uhaba wa mafuta kutoka kwa njia ya mafuta iliyoziba. Bearing mbadala ilitolewa kutoka hifadhi ya karakhana, ilirudishwa babbitt na kukwaruzwa kwa mkono ili kufaa eneo la kazi. Journal ya rota ilikaguliwa — hakuna uharibifu. Turbine ilirudi kwenye mstari kabla ya saa 16:00.",
+    "outcomes": [
+      "Jumla ya muda wa kusimama: masaa 14 kutoka kusimama hadi mvuke wa kwanza",
+      "Chanzo cha tatizo kilitambuliwa na njia ya mafuta ilisafishwa — hakuna kusimama tena",
+      "Thamani ya hasara ya miwa iliyozuiwa inakadiriwa: takriban ₹56 lakh",
+      "Hakuna uharibifu kwa journal za rota — iliokoa gharama ya kubadilisha mhimili"
+    ],
+    "tags": [
+      "Belliss & Morcom",
+      "Dharura",
+      "Bearing ya Babbitt",
+      "Kiwanda cha Sukari"
+    ],
+    "categorySlug": "emergency-breakdown"
+  },
+  "cs_08": {
+    "id": "cs_08",
+    "image": "project-troubleshooting.webp",
+    "category": "Utatuzi wa Matatizo",
+    "industry": "Kiwanda cha Karatasi",
+    "title": "Turbine ya BHEL 3 MW — Uchunguzi na Urekebishaji wa Chanzo cha Tatizo la Mtetemo wa Juu",
+    "client": "Siri — Kiwanda cha Karatasi, Punjab",
+    "year": "2024",
+    "duration": "siku 3 za uchunguzi + siku 8 za urekebishaji",
+    "scope": "Uchambuzi wa mtetemo eneo la kazi, tathmini ya mienendo ya rota, utambuzi wa chanzo cha tatizo, uwiano wa rota karakhana, kubadilisha bearing, na kuanzisha upya.",
+    "challenge": "Turbine ya 3 MW ilikuwa ikipata mtetemo unaoongezeka kwa miezi 6 — ukifikia kilele cha 9.2 mm/s kwenye bearing ya non-drive-end. Timu tatu tofauti za matengenezo zilikuwa zimebadilisha bearing bila kutatua tatizo la msingi.",
+    "solution": "Tulipeleka vifaa vya uchambuzi wa mtetemo na kupata spektra za masafa kwa kasi zote za uendeshaji. Kipengele kikuu cha 1× kiliendelea kwa kasi zote, kikithibitisha kutokuwiana kwa uzito wa rota badala ya matatizo ya bearing au upatanishi. Rota iliondolewa, journal zilikaguliwa (uovali mdogo ulirekebishwa), na kusawazishwa hadi ISO G1.0 katika karakhana yetu. Mabaki ya mwisho: 4.8 g·mm kwa kila ndege.",
+    "outcomes": [
+      "Mtetemo ulishuka kutoka 9.2 mm/s hadi 0.8 mm/s kwa kasi ya uendeshaji",
+      "Chanzo cha tatizo kilithibitishwa: uondoshaji wa uzito wa rota kutokana na urekebishaji mbaya wa journal wa awali",
+      "Miezi 24+ ya uendeshaji tangu kuanzisha upya — hakuna kubadilisha bearing",
+      "Ripoti kamili ya uwiano na spektra za mtetemo zilitolewa kwa faili ya bima"
+    ],
+    "tags": [
+      "BHEL",
+      "Uchambuzi wa Mtetemo",
+      "Uwiano wa Mzunguko",
+      "Utatuzi wa Matatizo"
+    ],
+    "categorySlug": "troubleshooting"
+  }
+}

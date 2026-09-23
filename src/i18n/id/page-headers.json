@@ -1,0 +1,32 @@
+{
+  "products": {
+    "metaTitle": "Katalog Produk — Suku Cadang Turbin, Filter, Sambungan Ekspansi, Filter Udara HVAC",
+    "metaDescription": "",
+    "h1": "Produk Industri",
+    "subheading": "{count} produk hasil rekayasa presisi dalam {categories} kategori. Sesuai ISO/API/ASME dengan spesifikasi teknis lengkap."
+  },
+  "services": {
+    "metaTitle": "Layanan Turbin — Overhaul, Pemasangan, dan Rekayasa Balik",
+    "metaDescription": "Overhaul lengkap, rekayasa balik, pemasangan dan commissioning, penyeimbangan dinamis, pembilasan oli pelumas, dan penyelarasan mesin untuk turbin uap 5 kW hingga 60 MW.",
+    "h1": "Layanan Teknis",
+    "subheading": "Solusi mekanis khusus untuk peralatan berputar industri dari 5 kW hingga 60 MW, memastikan keandalan tertinggi di pembangkit listrik, pabrik gula, pabrik kertas, kilang, dan industri petrokimia."
+  },
+  "industries": {
+    "metaTitle": "Industri yang Dilayani — Energi, Gula, Minyak dan Gas, Petrokimia, Semen",
+    "metaDescription": "Keshav Enterprises melayani pembangkit listrik, pabrik gula, pabrik kertas, industri minyak dan gas, petrokimia, pertanian, dan semen dengan rekayasa turbin dan produk industri khusus.",
+    "h1": "Industri yang Kami Layani",
+    "subheading": "Solusi rekayasa turbin dan produk industri khusus di tujuh sektor industri utama."
+  },
+  "blog": {
+    "metaTitle": "Blog Teknik — Perawatan Turbin, Filtrasi Industri, dan Wawasan HVAC",
+    "metaDescription": "Artikel teknis tentang overhaul turbin uap, filtrasi oli pelumas, pemilihan filter udara HVAC, pengumpul debu pulse-jet, rekayasa balik, dan praktik terbaik perawatan industri dari tim teknik Keshav Enterprises.",
+    "h1": "Blog Teknik",
+    "subheading": "Wawasan teknis tentang perawatan turbin, sistem oli pelumas, filtrasi udara HVAC, pengumpulan debu, rekayasa balik, dan praktik terbaik industri — dari tim teknik kami."
+  },
+  "downloads": {
+    "metaTitle": "Unduhan Teknis Gratis — Checklist Turbin, Lembar Data, dan Template RFQ",
+    "metaDescription": "Unduh gratis checklist overhaul turbin uap, lembar data filter oli pelumas, panduan celah bantalan, dan template RFQ dari Keshav Enterprises — spesialis turbin uap India.",
+    "h1": "Unduhan Gratis",
+    "subheading": "Checklist teknis gratis, lembar data, referensi bantalan, dan template RFQ untuk insinyur pabrik dan tim pengadaan."
+  }
+}

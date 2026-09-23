@@ -1,0 +1,581 @@
+{
+  "post_1": {
+    "id": "post_1",
+    "slug": "steam-turbine-overhauling-checklist",
+    "title": "Orodha Kamili ya Ukaguzi wa Ukarabati wa Turbine ya Mvuke kwa Wahandisi wa Kiwanda",
+    "excerpt": "Orodha ya ukaguzi ya vitendo, hatua kwa hatua inayojumuisha upangaji kabla ya kusimama, taratibu za ukaguzi, urekodi wa nafasi za kiufundi, na uanzishaji baada ya ukarabati kwa turbine za mvuke hadi 60 MW.",
+    "date": "2026-03-15",
+    "author": "Timu ya Uhandisi ya Keshav Enterprises",
+    "readTime": "Dakika 8 za kusoma",
+    "tags": [
+      "Ukarabati",
+      "Turbine ya Mvuke",
+      "Matengenezo"
+    ],
+    "coverImage": "blog-turbine-overhaul.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Kwa Nini Orodha ya Ukaguzi Iliyopangwa Ina Umuhimu"
+      },
+      {
+        "type": "p",
+        "text": "Kusimama kwa turbine bila kupangwa kunagharimu vituo vya umeme na sukari vya India lakh za rupia kwa saa. Orodha ya ukaguzi ya ukarabati iliyopangwa inahakikisha hakuna kitu kinachokosekana wakati wa vipindi vya matengenezo vilivyopangwa — ikipunguza hatari ya kushindwa mapema baada ya kuanzisha upya na kuepuka kusimama mara kwa mara kwa gharama kubwa."
+      },
+      {
+        "type": "h2",
+        "text": "1. Upangaji Kabla ya Kusimama (Wiki 4-6 Mapema)"
+      },
+      {
+        "type": "p",
+        "text": "Anza na wigo wa kina wa kazi unaojumuisha vifaa vyote vinavyozunguka kwenye mstari. Kagua vipuri vyote vilivyohifadhiwa na tengeneza ripoti ya upungufu. Agiza vitu muhimu — bearing, seal, upakiaji wa labyrinth, pete za kaboni — kwa muda wa kutosha wa kusubiri. Panga vifaa maalum: leza za upatanishi, wachanganuzi wa mtetemo, dial indicator, na feeler gauge."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Thibitisha data ya nafasi za kiufundi za OEM kwa hatua zote za turbine",
+          "Panga vifaa vya usafishaji wa mafuta ya kulainisha (kifaa cha kichujio cha sentrifiuji kinachotembea)",
+          "Weka wahandisi wenye uzoefu wa OEM ikiwa inahitajika kwa ukarabati mkubwa",
+          "Andaa usomaji wa msingi wa ufuatiliaji wa hali (mtetemo, joto, shinikizo)"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "2. Kusimama na Kutenganisha"
+      },
+      {
+        "type": "p",
+        "text": "Fuata utaratibu wa kusimama uliobainishwa na OEM. Ruhusu muda wa kutosha wa kupoa kabla ya kufungua flange yoyote. Fanya lock out/tag out kwa vyanzo vyote vya nishati ikiwa ni pamoja na mvuke, mafuta ya kulainisha, condensate, na hewa ya udhibiti. Toa maji kikamilifu kutoka mfumo wa mafuta ya kulainisha kabla ya kubomolewa."
+      },
+      {
+        "type": "h2",
+        "text": "3. Kubomolewa na Ukaguzi"
+      },
+      {
+        "type": "p",
+        "text": "Rekodi nafasi zote za kiufundi, mapengo, na uwiano kabla ya kuondoa vipengele — hizi ni muhimu kwa kulinganisha na vipimo vya OEM na kutambua mienendo ya uchakavu. Piga picha kila hatua. Pima runout ya rota kwenye journal, thrust collar, na nyuso za coupling."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Nafasi za bearing (radial na axial)",
+          "Nafasi ya kipenyo ya seal ya labyrinth",
+          "Offset na pembe ya upatanishi wa coupling",
+          "Hali ya uso wa pete ya kaboni na mkazo wa spring",
+          "Hali ya nozzle na diaphragm na vipimo vya throat",
+          "Hali ya kiti na disk ya ESV"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "4. Ukarabati na Kubadilisha katika Karakhana"
+      },
+      {
+        "type": "p",
+        "text": "Peleka rota kwa kusaga journal na uwiano wa mzunguko ikiwa usomaji wa runout au mtetemo uko nje ya uwiano. Badilisha pete za gland za kaboni na grafiti, upakiaji wa labyrinth, na bearing za babbitt kulingana na ripoti ya hali. Uwiano wote wa rota unapaswa kufanywa kulingana na viwango vya ISO 1940 au API 670."
+      },
+      {
+        "type": "h2",
+        "text": "5. Kuunganisha Upya na Upatanishi"
+      },
+      {
+        "type": "p",
+        "text": "Unganisha upya kwa mfuatano wa kinyume na gaskets mpya na msokoto wa fastener kulingana na vipimo vya OEM. Fanya upatanishi wa mwisho wa rota ukitumia vifaa vya upatanishi wa leza — turbine kwa gearbox na gearbox kwa jenereta. Rekodi nafasi zote za kiufundi baada ya kuunganisha na thibitisha ziko ndani ya mipaka ya OEM."
+      },
+      {
+        "type": "h2",
+        "text": "6. Usafishaji wa Mafuta ya Kulainisha"
+      },
+      {
+        "type": "p",
+        "text": "Kabla ya uanzishaji, safisha mfumo wa mafuta ya kulainisha na mfumo wa kichujio cha sentrifiuji kinachotembea kinacholenga daraja la usafi la ISO 4406:99 16/14/11 au bora zaidi. Chukua sampuli za mafuta kabla na baada ya usafishaji na hifadhi ripoti. Usiwahi kuanzisha turbine bila kukamilisha usafishaji wa mafuta — kushindwa kwa bearing kutokana na mafuta yaliyochafuliwa kunachangia sehemu kubwa ya kushindwa baada ya ukarabati."
+      },
+      {
+        "type": "h2",
+        "text": "7. Uanzishaji na Mwendo wa Kwanza"
+      },
+      {
+        "type": "p",
+        "text": "Fuata utaratibu wa kabla ya uanzishaji wa OEM hatua kwa hatua. Fuatilia mtetemo, joto la bearing, na shinikizo la mafuta ya kulainisha kwa kudumu wakati wa kuongeza kasi kwa mara ya kwanza. Thibitisha uendeshaji wa ESV na governor. Rekebisha upatanishi ikiwa viwango vya mtetemo vinaongezeka. Andika usomaji wote wa uanzishaji kwa rekodi za matengenezo za kiwanda."
+      },
+      {
+        "type": "cta",
+        "text": "Unahitaji wahandisi wa ukarabati wenye ujuzi kwa ajili ya kusimama kwako kulikopangwa ijayo? Timu yetu yenye uzoefu wa OEM inashughulikia Triveni, Siemens, BHEL, Belliss & Morcom, na zaidi."
+      }
+    ]
+  },
+  "post_2": {
+    "id": "post_2",
+    "slug": "lube-oil-contamination-turbine-bearings",
+    "title": "Jinsi Uchafuzi wa Mafuta ya Kulainisha Unavyoharibu Bearing za Turbine — Na Jinsi ya Kuzuia",
+    "excerpt": "Kuingia kwa maji, chembe ngumu, na oxidation ni sababu tatu kuu za kushindwa mapema kwa bearing za turbine. Hii ni jinsi ya kutambua kila aina ya uchafuzi na bidhaa gani za uchujaji zinatumika kuzuia uharibifu.",
+    "date": "2026-02-28",
+    "author": "Timu ya Uhandisi ya Keshav Enterprises",
+    "readTime": "Dakika 6 za kusoma",
+    "tags": [
+      "Mafuta ya Kulainisha",
+      "Bearing",
+      "Uchujaji",
+      "Matengenezo ya Kinga"
+    ],
+    "coverImage": "blog-lube-oil.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Muuaji wa Bearing Aliyefichwa"
+      },
+      {
+        "type": "p",
+        "text": "Bearing za babbitt za turbine ni vipengele sahihi vinavyofanya kazi kwenye utando wa mafuta ya hydrodynamic wenye unene wa mikroni chache tu. Uchafuzi wowote wa mfumo wa mafuta ya kulainisha — chembe ngumu, maji, au mafuta yaliyoharibika — huharibu utando huu, na kusababisha mgusano wa moja kwa moja wa metali na uchakavu wa haraka. Tafiti zinaonyesha kuwa zaidi ya 70% ya kushindwa kwa bearing za turbine kunahusiana na ulainishaji."
+      },
+      {
+        "type": "h2",
+        "text": "Aina ya Uchafuzi 1: Chembe Ngumu"
+      },
+      {
+        "type": "p",
+        "text": "Chembe zaidi ya mikroni 10 zinaweza kukwaruza nyuso za bearing. Chembe katika wigo wa mikroni 1-10 zinaharibu zaidi — huingia kwenye pengo la utando wa mafuta na kusababisha ukwaruzaji wa vitu vitatu. Vyanzo ni pamoja na uchafu wa baada ya ujenzi, chembe za uchakavu kutoka kwa gia, na uchafu unaoingia kupitia breather ya tangi."
+      },
+      {
+        "type": "p",
+        "text": "Suluhisho: Weka vichujio vya mafuta ya kulainisha vyenye ufanisi wa juu (ISO 16889, uwiano wa beta ≥200 kwa mikroni 10) katika nyumba kuu ya kichujio. Tumia vichujio vya breather ya tangi (nyuzi za kioo 3 VL) kuzuia kuingia kwa chembe za angani. Lengo la usafi wa mfumo: ISO 4406:99 Daraja 16/14/11 au bora zaidi kwa bearing za turbine."
+      },
+      {
+        "type": "h2",
+        "text": "Aina ya Uchafuzi 2: Kuingia kwa Maji"
+      },
+      {
+        "type": "p",
+        "text": "Maji katika mafuta ya kulainisha husababisha hydrogen embrittlement katika babbitt, kukuza oxidation, na kusaidia ukuaji wa bakteria. Hata sehemu 200 kwa milioni za maji huru hupunguza kwa kiasi kikubwa nguvu ya utando wa mafuta. Vyanzo ni pamoja na uvujaji wa gland ya mvuke, condensation kwenye matangi, na kushindwa kwa bomba la cooler."
+      },
+      {
+        "type": "p",
+        "text": "Suluhisho: Weka vichujio vya WaterSorp visivyo mtandaoni kwenye mstari wa kurudi wa side-stream. Vichujio hivi vya kazi mbili huondoa chembe ngumu na kunyonya maji huru na yaliyochanganyika kwa wakati mmoja. Uchukuaji wa mara kwa mara wa sampuli za mafuta (kila mwezi) kulingana na viwango vya ISO utatambua maji mapema."
+      },
+      {
+        "type": "h2",
+        "text": "Aina ya Uchafuzi 3: Oxidation na Uharibikaji wa Mafuta"
+      },
+      {
+        "type": "p",
+        "text": "Joto la juu la uendeshaji na uwepo wa vichocheo vya metali husababisha mafuta ya turbine kuoxidize, na kutengeneza mabaki ya varnish na bidhaa za asidi. Mabaki haya huziba vichujio, kushikamana na nyuso za bearing, na kuharakisha uchakavu."
+      },
+      {
+        "type": "p",
+        "text": "Suluhisho: Fuatilia mienendo ya nambari ya asidi (AN) na viscosity. Uchujaji usio mtandaoni wa WaterSorp huongeza maisha ya mafuta kwa kuondoa maji na chembe zinazochochea oxidation. Panga kubadilisha mafuta kabla nambari ya asidi haijazidi mipaka ya OEM."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Kagua shinikizo tofauti la kichujio kila wiki — badilisha kipengele kwa ΔP ya bar 3.5-4",
+          "Kagua vichujio vya breather ya tangi kila mwezi",
+          "Chukua sampuli za mafuta kila siku 30 na fuatilia matokeo",
+          "Weka vichujio vya WaterSorp ikiwa uchafuzi wa maji umegunduliwa",
+          "Safisha mfumo na kichujio cha sentrifiuji kinachotembea baada ya ukarabati wowote mkubwa"
+        ]
+      },
+      {
+        "type": "cta",
+        "text": "Tunatoa vichujio vya mafuta ya kulainisha vinavyokidhi ISO 16889 vinavyoendana na Triveni, Siemens, BHEL, na chapa zote kuu za turbine. Omba bei kupitia WhatsApp."
+      }
+    ]
+  },
+  "post_3": {
+    "id": "post_3",
+    "slug": "reverse-engineering-turbine-spares-india",
+    "title": "Uhandisi wa Kinyume wa Vipuri vya Turbine: Jinsi Tunavyojenga Upya Vipengele Visivyozalishwa Tena India",
+    "excerpt": "Wakati vipuri vya OEM havipatikani, vina muda wa kusubiri wa miezi 18, au bei yao ni ya juu sana, uhandisi wa kinyume unatoa mbadala unaotegemewa. Hii ni mchakato wa hatua kwa hatua tunaotumia Keshav Enterprises.",
+    "date": "2026-01-20",
+    "author": "Timu ya Uhandisi ya Keshav Enterprises",
+    "readTime": "Dakika 7 za kusoma",
+    "tags": [
+      "Uhandisi wa Kinyume",
+      "Vipuri vya Turbine",
+      "Utengenezaji",
+      "Usomaji wa 3D"
+    ],
+    "coverImage": "blog-reverse-engineering.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Kwa Nini Kufanya Uhandisi wa Kinyume wa Vipengele vya Turbine?"
+      },
+      {
+        "type": "p",
+        "text": "Viwanda vingi vya India vinatumia turbine za miaka 20-40. Watengenezaji wa vifaa asili wameacha mifano fulani, wameungana na makampuni mengine, au wameacha tu kuhifadhi vipuri kwa mitambo ya zamani. Muda wa kusubiri kutoka kwa OEM za nje kwa vipengele vinavyokatwa mara kwa mara mara nyingi huzidi miezi 12-18 — jambo lisilokubalika wakati kiwanda cha sukari kina msimu wa kusaga uliowekwa au kituo cha umeme kina adhabu za mkataba kwa kila siku ya kusimama."
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 1: Upokeaji wa Kipengele na Tathmini ya Awali"
+      },
+      {
+        "type": "p",
+        "text": "Tunaanza na kipengele kilichochakaa au kilichoharibika chenyewe — au kipande kinacholingana ikiwa asili haiwezi kupimwa tena. Kipengele kinasafishwa na kutathminiwa kwa macho ili kubaini nyuso zipi bado zinaweza kupimwa na zipi zimeharibika kutokana na uchakavu au uharibifu."
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 2: Usomaji wa Leza wa 3D na Upimaji wa CMM"
+      },
+      {
+        "type": "p",
+        "text": "Kwa maumbo magumu — vile vya rota, vitalu vya nozzle, diaphragms, vipengele vya governor — tunatumia visomaji vya leza vya 3D kunasa jiometri kamili kama point cloud. Kwa sehemu rahisi zaidi zenye ulinganifu wa mzunguko — nyumba za journal bearing, mifereji ya pete za labyrinth, pete za seal — mashine ya kupima kuratibu (CMM) hunasa vipimo muhimu kwa usahihi wa kiwango cha mikroni."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Vipimo vyote muhimu vinarekodiwa na mipaka",
+          "Concentricity na parallelity za nyuso zinazolingana zinakaguliwa",
+          "Umbo la nyuzi, kina cha keyway, na uwiano wa interference vinapimwa",
+          "Vipimo vya umaliziaji wa uso vinarekodiwa panapoweza kupimwa"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 3: Upimaji wa Malighafi wa PMI"
+      },
+      {
+        "type": "p",
+        "text": "Positive Material Identification (PMI) ukitumia X-ray fluorescence (XRF) inayobebeka au optical emission spectrometry hutambua muundo sahihi wa aloi wa kipengele asili. Hii ni muhimu — mhimili wa rota katika chuma cha Cr 12% hufanya kazi tofauti sana na mhimili wa Cr-Mo 1%. Kukosea malighafi kunamaanisha kipande cha uhandisi wa kinyume kitashindwa mapema."
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 4: Utengenezaji wa Michoro ya Uhandisi"
+      },
+      {
+        "type": "p",
+        "text": "Kutoka kwa data ya usomaji, upimaji wa CMM, na matokeo ya upimaji wa malighafi, wahandisi wetu wanazalisha michoro kamili ya utengenezaji. Hii inajumuisha vipimo vyote na mipaka, vipimo vya umaliziaji wa uso, taratibu za matibabu ya joto kabla na baada, vipimo vya malighafi, na mahitaji ya ukaguzi."
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 5: Ukataji na Udhibiti wa Ubora"
+      },
+      {
+        "type": "p",
+        "text": "Ukataji unafanywa katika hatua tatu: ukataji ghafi karibu na vipimo vya mwisho, matibabu ya joto ikiwa inahitajika (kupunguza msongo, quench and temper, nitriding), na ukataji sahihi wa mwisho. Kila hatua inakaguliwa dhidi ya mchoro wa uhandisi. Rota husawazishwa kwa mzunguko kulingana na viwango vya ISO 1940 / API 670 kabla ya usafirishaji."
+      },
+      {
+        "type": "h2",
+        "text": "Turbine Tunazoshughulikia"
+      },
+      {
+        "type": "p",
+        "text": "Tumefanya uhandisi wa kinyume wa vipengele kwa turbine za mvuke kutoka 5 kW hadi 60 MW katika chapa zote kuu: Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, Chola Turbo, DLF-Skoda, KKK, na ABB. Zote mbili turbine za shinikizo la nyuma na condensing, mlalo na wima, hatua moja na nyingi."
+      },
+      {
+        "type": "cta",
+        "text": "Una kipuri kisichozalishwa tena kinachohitaji uhandisi wa kinyume? Tutumie picha na maelezo ya turbine yako kupitia WhatsApp — tutatathmini uwezekano ndani ya masaa 24."
+      }
+    ]
+  },
+  "post_4": {
+    "id": "post_4",
+    "slug": "belliss-morcom-turbine-common-faults-india",
+    "title": "Hitilafu za Kawaida za Turbine za Belliss & Morcom — Mwongozo wa Uwanjani kwa Viwanda vya India",
+    "excerpt": "Turbine za mvuke za Belliss & Morcom zinatumika sana katika viwanda vya sukari na vituo vya co-gen vya India. Hizi ndizo hitilafu za kawaida zaidi ambazo wahandisi wetu wenye uzoefu wa OEM wamekutana nazo na jinsi ya kuzichunguza na kuzirekebisha.",
+    "date": "2026-03-18",
+    "author": "Timu ya Uhandisi ya Keshav Enterprises",
+    "readTime": "Dakika 8 za kusoma",
+    "tags": [
+      "Belliss & Morcom",
+      "Utatuzi wa Matatizo",
+      "Turbine ya Mvuke",
+      "Kiwanda cha Sukari"
+    ],
+    "coverImage": "blog-belliss-morcom.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Turbine za Belliss & Morcom (sasa Howden) zinapatikana katika mamia ya viwanda vya sukari, vituo vya co-generation, na vituo vya viwandani vya India. Wahandisi wetu wamekuwa wakifanya kazi na vitengo vya Belliss kwa zaidi ya miaka 20 kote UP, Punjab, Maharashtra, na Karnataka. Hizi ndizo hitilafu tunazokutana nazo mara kwa mara — na njia sahihi ya kuzichunguza na kuzitatua kila moja."
+      },
+      {
+        "type": "h2",
+        "text": "Hitilafu 1: Mtetemo wa Juu kwa Kasi ya Uendeshaji"
+      },
+      {
+        "type": "p",
+        "text": "Malalamiko ya kawaida zaidi kwenye turbine za Belliss ni mtetemo unaoongezeka, kwa kawaida hugunduliwa na waendeshaji kama kelele inayoongezeka na kuthibitishwa na uchambuzi wa mtetemo unaobebeka. Sababu kuu za tatizo, kwa mpangilio wa marudio, ni: (1) kutokuwiana kwa rota kutokana na mkusanyiko wa mabaki kwenye vile, (2) uchakavu wa journal bearing — hasa baada ya mwendo mrefu kati ya ukarabati, na (3) upatanishaji mbaya kati ya turbine na gearbox kutokana na mkazo wa bomba au kuzama kwa msingi."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Kagua joto la bearing kwanza — joto linaloongezeka pamoja na mtetemo wa juu karibu kila mara linaonyesha tatizo la hali ya bearing",
+          "Chukua usomaji wa mtetemo unaobebeka kwenye nyumba zote nne za bearing na linganisha na msingi (1× na 2× kasi ya uendeshaji)",
+          "Ikiwa 1X inatawala: kutokuwiana au upatanishaji mbaya. Ikiwa 2X inatawala: ulegevu wa bearing au upatanishaji mbaya. Chini ya usawazishaji: oil whirl",
+          "Kagua coupling kwa uchakavu na uunganishaji sahihi kabla ya kuhitimisha upatanishaji mbaya ni tatizo la turbine"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Hitilafu 2: Kuyumba kwa Governor / Kutokuwa Thabiti kwa Kasi"
+      },
+      {
+        "type": "p",
+        "text": "Turbine za Belliss zinatumia governor ya fly-ball ya centrifugal au governor ya hydraulic kulingana na modeli na mwaka wa utengenezaji. Kuyumba kwa kasi — kupitiliza kwa mzunguko juu na chini ya setpoint — kwa kawaida husababishwa na: pivot pin na fly-ball zilizochakaa katika governor ya centrifugal, mipangilio ya droop isiyo sahihi, hysteresis ya actuator ya valvu ya udhibiti, au mabadiliko ya shinikizo la mvuke kutoka boiler yanayozidi mamlaka ya governor."
+      },
+      {
+        "type": "p",
+        "text": "Kabla ya kubomoa governor, thibitisha shinikizo la usambazaji wa mvuke ni thabiti. Ikiwa shinikizo la usambazaji linabadilika zaidi ya bar ±0.5, kitanzi cha udhibiti wa boiler ni tatizo kuu — governor haiwezi kufidia mabadiliko makubwa ya usambazaji. Baada ya uthabiti wa boiler kuthibitishwa, pivot pin ya governor na uzito wa fly-ball zinapaswa kukaguliwa kwa uchakavu na kubadilishwa ikiwa nafasi ni kubwa mno."
+      },
+      {
+        "type": "h2",
+        "text": "Hitilafu 3: Uvujaji wa Gland ya Mvuke"
+      },
+      {
+        "type": "p",
+        "text": "Turbine za Belliss zinatumia seal ya gland ya labyrinth na mfumo wa mvuke wa gland kudhibiti uvujaji kwenye ncha ya mhimili. Uvujaji wa mvuke unaoonekana katika eneo la gland wakati wa uendeshaji wa kawaida unaonyesha: strip za labyrinth zilizochakaa au kuharibika, mipangilio isiyo sahihi ya shinikizo la mvuke la gland, au uondoshaji wa mhimili unaosababisha nafasi isiyo sawa kuzunguka labyrinth."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Pima uondoshaji wa mhimili katika eneo la gland ukitumia dial gauge — ikiwa runout inazidi 0.05 mm, hali ya rota lazima itathminiwe",
+          "Kagua shinikizo la mvuke la gland dhidi ya hali ya saturation — condensation ya maji katika mstari wa usambazaji wa mvuke wa gland husababisha mmomonyoko mkubwa wa labyrinth",
+          "Kubadilisha strip ya labyrinth ni kipengele cha kusimama kilichopangwa — usijaribu kupunguza nafasi kwa kuweka shim za strip mahali ilipo"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Hitilafu 4: Joto la Juu la Mafuta ya Kulainisha au Shinikizo Dogo"
+      },
+      {
+        "type": "p",
+        "text": "Hitilafu za mfumo wa mafuta ya kulainisha katika turbine za Belliss husababisha kusimama bila kupangwa zaidi kuliko sababu nyingine yoyote. Joto la juu la mafuta (juu ya 55°C kwenye kuingiza kwa bearing) kwa kawaida linamaanisha cooler ya mafuta ya kulainisha imechafuka — safisha shell ya cooler na fungu la mabomba. Kusimama kwa shinikizo dogo la mafuta hutokea wakati valvu ya relief imewekwa vibaya, shinikizo tofauti la kichujio ni kubwa (kipengele kinahitaji kubadilishwa), au pampu ya mafuta imechakaa na kupoteza ufanisi wa ujazo."
+      },
+      {
+        "type": "cta",
+        "text": "Unahitaji wahandisi wetu wenye uzoefu wa zamani wa Belliss & Morcom kwa ukarabati, uchambuzi wa mtetemo, au uchunguzi wa hitilafu za dharura? Wasiliana nasi kupitia WhatsApp kwa mwitikio siku hiyo hiyo."
+      }
+    ]
+  },
+  "post_5": {
+    "id": "post_5",
+    "slug": "iso-4406-lube-oil-cleanliness-guide",
+    "title": "Jinsi ya Kusoma Ripoti ya Usafi wa Mafuta ya Kulainisha ya ISO 4406 — Mwongozo kwa Wahandisi wa Matengenezo",
+    "excerpt": "Ripoti za hesabu ya chembe za ISO 4406 kutoka maabara za mafuta mara nyingi zinaeleweka vibaya. Mwongozo huu unaeleza kwa usahihi maana ya nambari hizo, jinsi ya kuweka malengo ya usafi kwa mifumo ya bearing ya turbine, na wakati wa kuchukua hatua.",
+    "date": "2026-04-05",
+    "author": "Timu ya Uhandisi ya Keshav Enterprises",
+    "readTime": "Dakika 6 za kusoma",
+    "tags": [
+      "Mafuta ya Kulainisha",
+      "ISO 4406",
+      "Uchujaji",
+      "Matengenezo ya Kutabiri"
+    ],
+    "coverImage": "blog-iso-4406.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Kila mwezi, maelfu ya ripoti za uchambuzi wa mafuta zinafika ofisi za matengenezo za viwanda kote India — na nyingi zinahifadhiwa bila kueleweka. Msimbo wa usafi wa ISO 4406 ni nambari inayoweza kutekelezwa zaidi katika ripoti hiyo. Kuelewa vibaya kunagharimu bearing. Kuelewa vizuri kunaongeza maisha ya turbine."
+      },
+      {
+        "type": "h2",
+        "text": "Msimbo wa ISO 4406 Unamaanisha Nini?"
+      },
+      {
+        "type": "p",
+        "text": "Msimbo wa usafi wa ISO 4406:99 una nambari tatu, kwa mfano 18/16/13. Kila nambari ni \"msimbo wa wigo\" unaowakilisha idadi ya chembe kwa mililita ya mafuta katika ukubwa tatu tofauti wa chembe: 4 µm(c), 6 µm(c), na 14 µm(c). Kiambatisho \"(c)\" kinamaanisha hesabu inatumia usawazishaji wa kihesabu cha chembe za macho kulingana na ISO 11171 — usilinganishe na ripoti za zamani zinazotumia mbinu zisizosawazishwa."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Msimbo wa wigo 14 = chembe 80-160/mL",
+          "Msimbo wa wigo 16 = chembe 320-640/mL",
+          "Msimbo wa wigo 18 = chembe 1,280-2,560/mL",
+          "Msimbo wa wigo 20 = chembe 5,120-10,240/mL",
+          "Kila ongezeko la hatua = kuongezeka mara mbili kwa kiwango cha uchafuzi"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Unahitaji Lengo Gani la Usafi?"
+      },
+      {
+        "type": "p",
+        "text": "Kwa mifumo ya journal bearing na mafuta ya kulainisha ya turbine za mvuke, lengo kwa kawaida ni ISO 4406:99 Daraja 16/14/11 — hii ni mahitaji ya chini katika API 614. OEM nyingi ikiwa ni pamoja na Triveni na Siemens zinabainisha 15/13/10 kwa turbine zenye mifumo ya udhibiti wa hydraulic. Baada ya ukarabati mkubwa au usafishaji wa mafuta ya kulainisha, mfumo unapaswa kufikia 16/14/11 kabla mafuta hayajamwagwa kuzuia uharibifu wa uchafuzi wa bearing wakati wa kuongeza kasi."
+      },
+      {
+        "type": "h2",
+        "text": "Ni Lini Unapaswa Kuchukua Hatua?"
+      },
+      {
+        "type": "p",
+        "text": "Ikiwa ripoti yako ya kawaida ya uchambuzi wa mafuta inaonyesha msimbo wa wigo wa 6 µm(c) (nambari ya kati) kwa 17 au juu zaidi — hatua moja juu ya lengo — chunguza mara moja. Kagua shinikizo tofauti la kichujio (badilisha ikiwa liko karibu na bar 3.5-4), kagua hali ya breather ya tangi, na chukua sampuli za kuingiza na kutoka kwa nyumba ya kichujio kando kando kubaini uchafuzi unaingia wapi. Ikiwa ripoti ya maudhui ya maji inaonyesha zaidi ya 0.1% maji — badilisha kipengele cha kichujio na panga mwendo wa uchujaji usio mtandaoni wa WaterSorp."
+      },
+      {
+        "type": "h2",
+        "text": "Gharama ya Kupuuza Msimbo Unaozidi Kuwa Mbaya"
+      },
+      {
+        "type": "p",
+        "text": "Chembe katika wigo wa mikroni 4-10 zinaharibu zaidi — zina ukubwa sahihi wa kuingia kwenye utando wa mafuta wa hydrodynamic kati ya journal inayozunguka na uso wa bearing wa Babbitt na kusababisha ukwaruzaji wa vitu vitatu. Turbine inayofanya kazi na msimbo wa usafi wa ISO 20/18/15 badala ya 16/14/11 ina takriban mara 100 zaidi ya chembe zinazoharibu kuliko lengo. Nyuso za bearing huharibika hatua kwa hatua na kushindwa huendelea taratibu hadi hakuendelei tena — kisha inakuwa dharura ya masaa 48 na kumwaga upya kwa Babbitt."
+      },
+      {
+        "type": "cta",
+        "text": "Tunatoa vichujio vinavyokidhi ISO 16889 kwa chapa zote kuu za turbine na tunaweza kutoa ushauri kuhusu usafishaji wa mafuta ya kulainisha ili kufikia daraja sahihi la usafi kabla ya kuanza kwako kunakofuata. Wasiliana nasi kupitia WhatsApp."
+      }
+    ]
+  },
+  "post_6": {
+    "id": "post_6",
+    "slug": "hvac-air-filter-selection-guide-industrial",
+    "title": "Mwongozo wa Uchaguzi wa Vichujio vya Hewa vya HVAC kwa Vituo vya Viwandani — F5 hadi F9 na Kila Kitu Katikati",
+    "excerpt": "Vichujio vya mfuko wa pocket, paneli zilizokunjwa, pre-filter za wavu wa metali, kaboni iliyoamilishwa — kuchagua daraja lisilo sahihi kunagharimu pesa na kuhatarisha uharibifu wa vifaa. Mwongozo huu unaeleza kichujio kipi cha HVAC kinapaswa kutumika, wapi, na kwa nini.",
+    "date": "2026-04-20",
+    "author": "Timu ya Uhandisi ya Keshav Enterprises",
+    "readTime": "Dakika 7 za kusoma",
+    "tags": [
+      "HVAC",
+      "Uchujaji wa Hewa",
+      "Vichujio vya AHU",
+      "Matengenezo"
+    ],
+    "coverImage": "blog-hvac-filter-selection.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Ingia kiwanda chochote cha viwandani India — kiwanda cha sukari, kiwanda cha dawa, chumba cha udhibiti cha saruji — na utapata vitengo vya HVAC vya kushughulikia hewa (AHU) vikilinda kimya kimya watu na vifaa nyeti. Tembea zaidi kidogo na mara nyingi utapata AHU hizo zikifanya kazi na daraja lisilo sahihi la kichujio, mfuko uliozibwa uliobadilishwa mara ya mwisho miaka miwili iliyopita, au bila pre-filter kabisa. Matokeo yanaweza kutabiriwa: makabati ya DCS yaliyofunikwa na vumbi, coil za kupoeza zilizofunikwa na felt ya kijivu, na bili za umeme za juu 15-20% kuliko inavyopaswa kuwa."
+      },
+      {
+        "type": "h2",
+        "text": "Kuelewa Madaraja ya Ufanisi — EN 779 na ISO 16890"
+      },
+      {
+        "type": "p",
+        "text": "Viwango viwili vinasimamia ufanisi wa kichujio cha HVAC. EN 779 ya zamani inatumia madaraja G1 hadi F9 — daraja la G (kubwa) linanasa chembe kubwa, madaraja ya M (kati) na F (laini) yananasa chembe ndogo zaidi kuendelea. ISO 16890 mpya zaidi inatumia uainishaji unaotegemea ukubwa wa chembe: ePM10, ePM2.5, na ePM1, na ufanisi wa unaso kwa asilimia. Ikiwa msambazaji wako wa kichujio anataja tu daraja la EN 779, omba ufanisi wa ePM1 wa ISO 16890 — hiyo ni nambari yenye maana zaidi kwa ubora wa hewa."
+      },
+      {
+        "type": "list",
+        "items": [
+          "G1-G4 (ISO Coarse): Kunasa nyuzi, fluff, wadudu, vumbi kubwa — hutumika kama pre-filter na kwenye paneli za wavu wa metali zinazoweza kuoshwa",
+          "M5-M6 (ISO ePM10 ≥50%): Chavua, vumbi kubwa, mchanga — inafaa kwa uingizaji hewa wa viwandani usio muhimu",
+          "F7 (ISO ePM1 ≥50%): Kiwango cha kawaida cha HVAC — kiwango cha chini kwa ofisi zenye watu, vyumba vya udhibiti, na AHU zinazosambaza vifaa nyeti",
+          "F8 (ISO ePM1 ≥70%): Usambazaji wa wodi za hospitali, maeneo ya maandalizi ya Daraja D la dawa",
+          "F9 (ISO ePM1 ≥85%): Pre-filter kabla ya HEPA kwa vyumba safi na maeneo muhimu ya dawa"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 1 — Anza na Pre-Filter ya Wavu wa Metali (G1-G3)"
+      },
+      {
+        "type": "p",
+        "text": "Kila AHU katika mazingira ya viwandani mazito — viwanda vya saruji, vituo vya umeme, viwanda vya chuma — vinapaswa kuwa na pre-filter ya wavu wa aluminium au SS inayoweza kuoshwa katika hatua ya kwanza. Gharama: mamia machache ya rupia. Faida: vichujio vya mfuko au vilivyokunjwa chini vinadumu mara 2-3 zaidi kwa sababu havihitaji kushughulikia mzigo mkubwa kamwe. Wavu wa aluminium unashughulikia joto hadi 150°C; wavu wa SS hadi 350°C. Safisha kwa upulizaji wa hewa iliyoshindiliwa au maji ya uvuguvugu kila wiki 4-6."
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 2 — Chagua Kichujio Chako Kikuu: Mfuko wa Pocket au Paneli Iliyokunjwa?"
+      },
+      {
+        "type": "p",
+        "text": "Vichujio vyote vya mfuko wa pocket na vichujio vya paneli zilizokunjwa vinapatikana kutoka G4 hadi F9, lakini vinafaa kwa mipangilio tofauti ya AHU. Vichujio vya mfuko wa pocket (pocket nyingi) vina eneo kubwa zaidi la media na maisha ya huduma marefu zaidi katika mazingira yenye vumbi la juu — mifuko inaenea kwenye mtiririko wa hewa, ikiongeza eneo la mgusano. Ni chaguo la kawaida kwa AHU kubwa za viwandani, majengo ya kibiashara, na hospitali. Vichujio vya paneli zilizokunjwa ni vidogo zaidi (kina cha 25-96 mm dhidi ya urefu wa mfuko wa 600 mm) na vigumu, hivyo kuvifanya chaguo linalopendelewa kwa fan coil unit (FCU), vitengo vya split-AC, na AHU za mtiririko wa hewa wima ambapo nafasi ni finyu."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Vichujio vya mfuko wa pocket: mzigo mkubwa wa vumbi, AHU kubwa, F5-F9, m³/saa 3,000-5,000+ kwa sehemu",
+          "Paneli iliyokunjwa (25 mm): kubadilisha FCU/split AC, G4-F7, mtiririko wa hewa wima mdogo",
+          "Paneli iliyokunjwa (96 mm): AHU ya ukubwa wa kati, F7-F8, muundo mgumu — hakuna hatari ya kuanguka kwa mfuko",
+          "Paneli iliyokunjwa (292 mm iliyopanuliwa): ufanisi wa juu wa hatua ya mwisho katika HVAC ya dawa, F8-F9"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 3 — Ongeza Kaboni Iliyoamilishwa kwa Udhibiti wa Harufu"
+      },
+      {
+        "type": "p",
+        "text": "Ikiwa kituo chako kina tatizo la harufu — jikoni, uhifadhi wa kemikali, warsha za rangi, printa, au eneo lolote lenye utoaji wa VOC — vichujio vya chembe pekee havitatatua tatizo. Kaboni iliyoamilishwa (GAC) inanyonya harufu za kupikia, vimumunyisho, hydrogen sulfide, formaldehyde, na VOC nyingi za kawaida za viwandani. Katika matumizi ya HVAC, kaboni iliyoamilishwa kwa kawaida hutolewa kama kichujio cha paneli chenye tabaka la kaboni la mikate ya 25-50 mm, au kama kichujio cha mchanganyiko chenye pre-filter ya chembe ya G4 iliyobandikwa kwenye tabaka la kaboni. Paneli za kaboni huwekwa baada ya kichujio cha chembe kwenye mtiririko wa hewa — kuziweka kwanza kunapoteza uwezo wa gharama kubwa wa kaboni kwenye mzigo wa vumbi."
+      },
+      {
+        "type": "h2",
+        "text": "Jinsi ya Kuamua Vipindi vya Kubadilisha Vichujio"
+      },
+      {
+        "type": "p",
+        "text": "Mazoezi bora pekee ni kuweka kipimo cha shinikizo tofauti (DP) kwenye kila hatua ya kichujio na kubadilisha kwa kushuka kwa shinikizo la mwisho la Pa 250 — si kulingana na ratiba ya kalenda. Kubadilisha kulingana na kalenda kunapoteza vichujio bado vinavyoweza kutumika; kuendesha hadi kushindwa kunasababisha vichujio kuanguka au kupita, kuchafua coil ya AHU na kila kitu ambacho kingepaswa kunasa. Ikiwa kipimo cha DP hakifai, badilisha kila miezi 3 katika mazingira ya viwandani mazito (saruji, umeme, chuma), kila miezi 6 katika viwanda vidogo, na kila mwaka katika mazingira safi ya kibiashara — rekebisha kulingana na ukaguzi wa kuona."
+      },
+      {
+        "type": "cta",
+        "text": "Tunatoa vichujio vya mfuko wa pocket vya HVAC, vichujio vya paneli zilizokunjwa, pre-filter za wavu wa metali, na vichujio vya uingizaji hewa vya kaboni iliyoamilishwa kwa AHU za viwandani na kibiashara kote India. Wasiliana nasi kupitia WhatsApp na chapa, modeli, na vipimo vya fremu ya AHU yako kwa bei ya kubadilisha inayolingana."
+      }
+    ]
+  },
+  "post_7": {
+    "id": "post_7",
+    "slug": "pulse-jet-dust-collector-filter-bag-selection",
+    "title": "Jinsi ya Kuchagua Mfuko Sahihi wa Kichujio cha Vumbi cha Pulse-Jet — Mwongozo wa Media, Umaliziaji na Kuzuia Umeme Tuli kwa Viwanda vya India",
+    "excerpt": "Kuchagua media isiyo sahihi ya mfuko wa kichujio kwa baghouse yako — kiwango kisicho sahihi cha joto, matibabu yasiyo sahihi ya uso, au ukosefu wa kuzuia umeme tuli — kunagharimu wahandisi wa kiwanda wiki za kusimama na kubadilisha kwa dharura kwa gharama kubwa. Huu ni mwongozo kamili wa uchaguzi.",
+    "date": "2026-05-01",
+    "author": "Timu ya Uhandisi ya Keshav Enterprises",
+    "readTime": "Dakika 8 za kusoma",
+    "tags": [
+      "Kikusanya Vumbi",
+      "Mifuko ya Kichujio",
+      "Baghouse",
+      "Uchujaji wa Viwandani",
+      "Saruji",
+      "HVAC"
+    ],
+    "coverImage": "blog-dust-collector-filter-bag.webp",
+    "content": [
+      {
+        "type": "p",
+        "text": "Baghouse za pulse-jet ni mashine kuu za udhibiti wa vumbi wa viwandani kote India — viwanda vya saruji, mifumo ya kushughulikia makaa, mills za nafaka, uchakataji wa unga wa dawa, na viwanda vya kemikali vyote vinategemea hizo kukidhi kanuni za utoaji na kulinda wafanyakazi. Hata hivyo uchaguzi wa mfuko wa kichujio wa kubadilisha bado mara nyingi hufanywa kwa mazoea (\"sawa na kabla\") badala ya uhandisi. Wakati mfuko \"sawa na kabla\" huo si sahihi kwa matumizi, seti mpya inashindwa haraka kama ile ya mwisho."
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 1 — Jua Joto la Gesi Yako ya Utoaji"
+      },
+      {
+        "type": "p",
+        "text": "Joto ni kigezo muhimu zaidi cha uchaguzi na sababu ya kawaida zaidi ya kushindwa mapema kwa mfuko. Kila aina ya media ina kikomo cha joto la huduma endelevu na kikomo cha joto la kilele (surge). Kuzidi kikomo endelevu hata kwa 10-15°C kunapunguza maisha ya kichujio kwa 50% au zaidi kupitia hydrolysis (katika gesi ya utoaji yenye unyevu) au oxidation (katika gesi kavu yenye oksijeni)."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Needle felt ya polyester: endelevu 130°C, kilele 150°C — vumbi la jumla la viwandani, matumizi ya mazingira hadi joto la chini",
+          "Felt ya polypropylene: endelevu 90°C, kilele 110°C — mazingira ya gesi ya asidi, viwanda vya kemikali (upinzani bora wa asidi kuliko polyester, joto la chini)",
+          "Aramid / Nomex: endelevu 200°C, kilele 220°C — utoaji wa tanuru, viwanda vya lami, tanuru za kioo, matoleo ya dryer",
+          "PPS (Ryton): endelevu 190°C, kilele 210°C — mchanganyiko wa asidi + joto (gesi ya utoaji yenye salfa kutoka kuchoma makaa)",
+          "Nyuzi za kioo zilizofumwa: endelevu 260°C, kilele 280°C — malighafi ghafi ya tanuru ya saruji, uchomaji wa taka, gesi ya mchakato wa joto la juu",
+          "Utando wa PTFE kwenye media yoyote ya msingi: kiwango sawa cha joto na media ya msingi + mkate wa vumbi wa mabaki karibu na sifuri — ufanisi wa juu zaidi wa kusafisha"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 2 — Mfuko Laini au Katriji Iliyokunjwa?"
+      },
+      {
+        "type": "p",
+        "text": "Baghouse za kawaida za pulse-jet zinatumia mifuko ya kichujio ya silinda — uso wa nje laini — inayosaidiwa na cage ya metali. Hii ni chaguo sahihi kwa matumizi ya mzigo mkubwa wa vumbi: saruji, fly ash, makaa, uchakataji wa madini. Uso wa nje laini unaruhusu mshtuko wa hewa iliyoshindiliwa wa pulse-jet kutoa mkate wa vumbi kwa ufanisi. Vipengele vya katriji iliyokunjwa — media iliyokunjwa kama accordion kuzunguka kiini chenye matundu — vinatoa hadi mara 5 eneo la uchujaji katika eneo lilelile la nyumba, lakini vinafaa zaidi kwa mizigo nyepesi zaidi ya vumbi katika matumizi ya dawa, chakula, na kemikali nyepesi ambapo eneo kubwa zaidi la media linaruhusu kasi ya chini ya uso na kushuka kwa chini sana kwa shinikizo la mabaki."
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 3 — Matibabu ya Uso: Wazi, Iliyochomwa, Iliyong'arishwa, au Utando wa PTFE?"
+      },
+      {
+        "type": "p",
+        "text": "Matibabu ya uso wa nje wa mfuko wa needle-felt huamua jinsi mkate wa vumbi utakavyoachiliwa vizuri wakati wa usafishaji wa pulse-jet na muda gani mfuko utastahimili blinding (uzibaji wa kudumu). Felt wazi ina uso wa nyuzi mbaya — inatosha kwa vumbi kubwa, kavu, lisilo nata. Felt iliyochomwa ina nyuzi za uso zilizoondolewa kwa joto, ikitoa uso laini zaidi — kutolewa bora kwa mkate kwa vumbi nyingi za viwandani. Felt iliyokalenda (iliyong'arishwa) inasisitizwa kwa joto kulaza zaidi na kufanya uso kuwa mnene — bora kwa vumbi laini, inayoshikamana, au inayonata kidogo kama unga wa dawa au saruji laini. Utando wa PTFE uliobandikwa kwenye uso wa nje — chaguo la hali ya juu — hutoa uchujaji wa upakiaji wa uso. Vumbi hutengeneza mkate mwembamba kwenye PTFE laini na kuachiliwa kikamilifu kwa kila pulse, likidumisha kushuka kwa shinikizo karibu na mwanzo katika maisha yote ya mfuko. Utendaji wa utoaji pia ni bora zaidi, mara nyingi ukifikia mkusanyiko wa vumbi wa matokeo wa 2-5 mg/Nm³ dhidi ya 20-50 mg/Nm³ kwa felt wazi."
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 4 — Mifuko ya Kuzuia Umeme Tuli na Inayopitisha Umeme kwa Vumbi Linaloweza Kulipuka"
+      },
+      {
+        "type": "p",
+        "text": "Kwa matumizi ya kikusanya vumbi yanayoshughulikia vumbi lenye upinzani wa umeme linaloweza kukusanya chaji ya tuli — makaa, nafaka, unga, unga wa dawa, unga wa polymer — mifuko ya kawaida ya polyester ni hatari ya moto na mlipuko. Mkate wa vumbi kwenye mfuko wa polyester wazi unaweza kukuza utoaji wa tuli (cheche) wenye nguvu ya kutosha kuwasha wingu la vumbi katika chumba cha matokeo. Mifuko ya kuzuia umeme tuli hutumia mojawapo ya njia mbili: (1) nyuzi za kaboni zimechanganywa kwenye media ya polyester — nyuzi zinazopitisha umeme hutoa chaji kwa kudumu; (2) nyuzi za chuma cha pua zimefumwa kwenye needlefelt kwa 1-3% ya uzito — hutoa upunguzaji wa tuli na nguvu iliyoboreshwa. Daima bainisha mifuko ya kuzuia umeme tuli (inayopitisha umeme) kwa vumbi la makaa, vumbi la nafaka, unga, na unga wowote wenye thamani ya Kst juu ya sifuri."
+      },
+      {
+        "type": "h2",
+        "text": "Kulinganisha Vipimo vya Mfuko na Cage Yako"
+      },
+      {
+        "type": "p",
+        "text": "Mifuko ya kichujio ya kubadilisha lazima ilingane kikamilifu na kipenyo na urefu wa cage iliyopo — hata tofauti ya kipenyo ya 5 mm inazuia kuziba sahihi kwenye snap ring ya juu. Kabla ya kuagiza, pima: kipenyo cha nje cha mdomo wa mfuko (snap band OD), urefu wa mfuko kutoka uso wa snap ring hadi chini iliyofungwa, na aina ya end cap (snap ring, snap band, au flange). Ikiwa lebo ya asili ya mfuko wa OEM bado inasomeka, rekodi nambari yake ya sehemu — hii inatambua jiometri sahihi ya cage. Ikiwa lebo imepotea, vuta cage moja kutoka nyumba, ipime, na toa vipimo hivi na agizo lako."
+      },
+      {
+        "type": "cta",
+        "text": "Tunatoa mifuko ya kichujio ya pulse-jet katika madaraja ya polyester, aramid, PPS, nyuzi za kioo, na utando wa PTFE, pamoja na vipengele vya katriji iliyokunjwa, kwa baghouse za saruji, umeme, dawa, na kushughulikia nafaka kote India. Tutumie vipimo vya mfuko wako na maelezo ya matumizi kupitia WhatsApp kwa bei ya siku hiyo hiyo."
+      }
+    ]
+  }
+}

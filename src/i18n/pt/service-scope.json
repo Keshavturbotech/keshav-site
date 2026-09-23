@@ -1,0 +1,30 @@
+{
+  "srv_1": {
+    "scope": "Chave na mão",
+    "turnaround": "Cronograma conforme o projeto"
+  },
+  "srv_2": {
+    "scope": "Chave na mão no local",
+    "turnaround": "Normalmente 3–21 dias"
+  },
+  "srv_3": {
+    "scope": "Oficina e no local",
+    "turnaround": "7–30 dias"
+  },
+  "srv_4": {
+    "scope": "Oficina",
+    "turnaround": "Padrão 48–72 h"
+  },
+  "srv_5": {
+    "scope": "Lavagem no local",
+    "turnaround": "2–7 dias"
+  },
+  "srv_6": {
+    "scope": "Precisão no local",
+    "turnaround": "1–3 dias"
+  },
+  "srv_7": {
+    "scope": "Diagnóstico no local",
+    "turnaround": "Relatório no mesmo dia"
+  }
+}

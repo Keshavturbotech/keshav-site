@@ -1,0 +1,157 @@
+{
+  "srv_1": {
+    "id": "srv_1",
+    "image": "service-turbine-erection.webp",
+    "title": "Montaje y Puesta en Marcha de Turbinas",
+    "desc": "Montaje y puesta en marcha experta de turbinas de vapor, bombas, compresores, ventiladores, condensadores, grúas EOT y trabajos de tuberías de vapor/agua/aire. Incluye coordinación completa con el OEM y documentación.",
+    "details": [
+      "Turbinas de vapor, bombas, compresores, ventiladores, condensadores",
+      "Grúas EOT, estructura metálica y trabajo de tuberías",
+      "Supervisión de la construcción según especificaciones OEM y normas aplicables",
+      "Coordinación con el OEM durante todas las fases",
+      "Documentación completa para la entrega a operaciones",
+      "Desarrollo y ejecución de procedimientos previos a la puesta en marcha",
+      "Asistencia en el arranque y ajuste fino según necesidades operativas"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "Belliss India",
+      "Maxwatt"
+    ],
+    "slug": "turbine-erection-and-commissioning"
+  },
+  "srv_2": {
+    "id": "srv_2",
+    "image": "service-overhauling.webp",
+    "title": "Revisión General y Mantenimiento Llave en Mano",
+    "desc": "Ejecutado por ingenieros ex-OEM de Triveni, Siemens, BHEL, Belliss y más. Incluye planificación previa a la parada, informes de estado in situ, gestión integral de repuestos y resolución de averías de emergencia 24×7.",
+    "details": [
+      "Planificación previa a la parada con alcance detallado del equipo rotativo",
+      "Inspección in situ de repuestos en stock con informes de faltantes",
+      "Ingenieros ex-OEM: Triveni, Belliss, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
+      "Todas las holguras, huelgos y medidas registradas",
+      "Informe de estado con recomendaciones para cada componente",
+      "Sistema llave en mano: herramientas, aparejos, consumibles y mano de obra incluidos",
+      "Respuesta de emergencia 24×7 con ingenieros en múltiples ubicaciones"
+    ],
+    "oems": [
+      "Triveni",
+      "Belliss India",
+      "Maxwatt",
+      "Man Turbo",
+      "BHEL",
+      "Siemens",
+      "KKK",
+      "ABB"
+    ],
+    "slug": "turnkey-overhauling-and-maintenance"
+  },
+  "srv_3": {
+    "id": "srv_3",
+    "image": "service-reverse-engineering.webp",
+    "title": "Ingeniería Inversa de Precisión",
+    "desc": "Ingeniería inversa verificada por PMI utilizando escáneres láser 3D, MMC y tornos de copiado para turbinas de 5 kW a 60 MW. Generamos planos de fabricación completos con tolerancias, concentricidad y especificaciones de tratamiento térmico pre/post.",
+    "details": [
+      "Escáner láser 3D, MMC y máquina de medición por coordenadas en obra/taller",
+      "Ensayo PMI para identificación exacta de la composición del material",
+      "Torno de copiado para réplica dimensional de precisión",
+      "Planos de ingeniería con tolerancias, acabado, paralelismo y concentricidad",
+      "Especificaciones de tratamiento térmico pre/post incluidas",
+      "Planos de mecanizado en desbaste, pre-acabado y acabado final",
+      "Cubre turbinas de 5 kW a 60 MW (contrapresión o condensación)",
+      "De una o varias etapas, motriz o de potencia, horizontal o vertical"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "All Makes"
+    ],
+    "slug": "precision-reverse-engineering"
+  },
+  "srv_4": {
+    "id": "srv_4",
+    "image": "service-dynamic-balancing.webp",
+    "title": "Equilibrado Dinámico y Mecanizado de Rotores",
+    "desc": "Mecanizado de precisión de rotores (rectificado, pulido, rebaje de muñones) en nuestros tornos de taller, más equilibrado dinámico según normas ISO/API de 50 a 2000 kg con informe completo de conformidad.",
+    "details": [
+      "Rectificado y pulido de muñones con técnica de rebaje mínimo",
+      "Mecanizado de la sección laberíntica en tornos de precisión",
+      "Rotor centrado en todas las secciones antes del mecanizado",
+      "Equilibrado dinámico de 50-2000 kg según normas ISO/API",
+      "Máquinas de equilibrado con sistemas de monitoreo de vibración de última generación",
+      "Identificación de excentricidad mecánica y eléctrica antes de la instalación",
+      "Informe de equilibrado completo que documenta el cumplimiento ISO/API"
+    ],
+    "oems": [
+      "All Turbine Makes"
+    ],
+    "slug": "dynamic-balancing-and-rotor-machining"
+  },
+  "srv_5": {
+    "id": "srv_5",
+    "image": "service-lube-oil-flushing.webp",
+    "title": "Lavado de Aceite Lubricante",
+    "desc": "Lavado conforme a ISO mediante sistemas móviles de filtración por centrífuga diseñados a medida. Logra la máxima limpieza y deshidratación tras la construcción o durante el mantenimiento programado.",
+    "details": [
+      "Sistema móvil de filtración por centrífuga diseñado a medida",
+      "Limpieza del sistema conforme a las normas ISO 4406:99",
+      "Muestreo y elaboración de informes de aceite según normas ISO",
+      "Eficaz tras la construcción y en mantenimiento programado",
+      "Deshidratación y eliminación de contaminación superiores",
+      "Eliminación de partículas sólidas de 4 a 25 micras",
+      "Caudales de sistema atendidos de hasta 6.000 l/min"
+    ],
+    "oems": [
+      "All Systems"
+    ],
+    "slug": "lube-oil-flushing"
+  },
+  "srv_6": {
+    "id": "srv_6",
+    "image": "service-machine-alignment.webp",
+    "title": "Alineación de Máquinas",
+    "desc": "Alineación experta de máquinas con la última tecnología para eliminar la desalineación, una de las principales causas de fallo de los equipos. Cubre turbinas, cajas de engranajes, bombas, ventiladores, alternadores y generadores de inducción.",
+    "details": [
+      "Alineación de turbina a caja de engranajes y de caja de engranajes a caja del molino",
+      "Alineación de ventiladores, bombas, alternadores y generadores de inducción",
+      "Nivelación de máquinas y medición de tensión de tuberías en cualquier tamaño de bastidor",
+      "Alineación de desfibradoras y desmenuzadoras",
+      "Tecnología de alineación de última generación para los más altos estándares",
+      "Informe de alineación detallado con resultados exactos",
+      "Cubre máquinas de cualquier tamaño de bastidor en cualquier ubicación"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "machine-alignment"
+  },
+  "srv_7": {
+    "id": "srv_7",
+    "image": "service-troubleshooting.webp",
+    "title": "Servicio de Resolución de Averías",
+    "desc": "Diagnóstico rápido de fallos in situ para turbinas de vapor con vibración, fallo de cojinetes, inestabilidad del regulador, fugas de vapor, contaminación de aceite o disparos inesperados. Ingenieros ex-OEM se desplazan con instrumental de diagnóstico completo para identificar la causa raíz y aplicar acciones correctivas.",
+    "details": [
+      "Vibración alta — diagnóstico de desequilibrio, desalineación, desgaste de cojinetes, rozamiento",
+      "Investigación de caza del regulador, inestabilidad de velocidad y disparo por sobrevelocidad",
+      "Contaminación de aceite de cojinetes — análisis de sello de anillo de carbono y sistema de lubricación",
+      "Fuga de prensaestopas de vapor — problemas de sello laberíntico, empaquetadura y presión de vapor de sellado",
+      "Análisis de incrustación de álabes, erosión y pérdida de eficiencia del paso de vapor",
+      "Investigación de disparos inesperados — fallos de presión de aceite, temperatura y sistema de control",
+      "Despliegue de emergencia 24×7 en toda la India con todo el equipo de diagnóstico"
+    ],
+    "oems": [
+      "Triveni",
+      "Siemens",
+      "BHEL",
+      "Belliss India",
+      "Maxwatt",
+      "Man Turbo",
+      "KKK",
+      "ABB"
+    ],
+    "slug": "troubleshooting-service"
+  }
+}
