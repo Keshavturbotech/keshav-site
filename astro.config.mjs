@@ -145,9 +145,7 @@ export default defineConfig({
     },
   },
   image: {
-    // Astro's sharp image service, wrapped so AVIF encodes at a faster effort
-    // level (see the header comment in that file for why — build timeouts).
-    service: { entrypoint: "./src/lib/fastImageService.mjs", config: {} },
+    // Astro's built-in image service — auto WebP/AVIF generation for <Image />
     remotePatterns: [{ protocol: "https" }],
   },
   build: {

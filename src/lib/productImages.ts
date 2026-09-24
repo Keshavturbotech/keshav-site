@@ -36,11 +36,7 @@ import { getImage } from "astro:assets";
 import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
-// Trimmed from [120, 240, 480, 800, 1200] to cut the number of generated files
-// (~2,700 variants made the Cloudflare build hit its 20-minute limit). The
-// smallest on-page image is a 64px thumbnail (needs ~128px at 2x), so 240 covers
-// it; the largest displayed size is 600px, so 800 covers it.
-const PRODUCT_IMAGE_WIDTHS = [240, 480, 800];
+const PRODUCT_IMAGE_WIDTHS = [120, 240, 480, 800, 1200];
 
 const productImageFiles = import.meta.glob<{ default: ImageMetadata }>(
   "/src/assets/products/*.{webp,jpg,jpeg,png,avif}",
