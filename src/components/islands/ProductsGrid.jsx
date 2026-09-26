@@ -425,7 +425,13 @@ export default function ProductsGrid({ products: PRODUCTS, categories: PRODUCT_C
             type="button"
             onClick={() => scrollCats("left")}
             aria-label="Scroll categories left"
-            className="absolute left-1 z-20 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center bg-white border border-slate-300 shadow-md rounded-full text-slate-600 hover:text-blue-600 hover:border-blue-300 transition-all disabled:opacity-40 disabled:cursor-not-allowed"
+            // MOBILE UX FIX: w-9 h-9 (36px) is under the ~44px thumb-target
+            // comfort minimum, and this is a same-corner target you tap
+            // repeatedly while browsing categories. w-11 h-11 (44px) on
+            // mobile, md:w-9 md:h-9 restores the exact original desktop
+            // size. The chip row's px-10 padding (below) is bumped to match
+            // on mobile so the bigger circle still clears the first chip.
+            className="absolute left-1 z-20 top-1/2 -translate-y-1/2 w-11 h-11 md:w-9 md:h-9 flex items-center justify-center bg-white border border-slate-300 shadow-md rounded-full text-slate-600 hover:text-blue-600 hover:border-blue-300 transition-all disabled:opacity-40 disabled:cursor-not-allowed"
             disabled={!showLeft}
           >
             <ChevronLeft className="w-4 h-4" aria-hidden="true" />
@@ -434,7 +440,7 @@ export default function ProductsGrid({ products: PRODUCTS, categories: PRODUCT_C
             ref={catScrollRef}
             onScroll={handleCatScroll}
             onWheel={handleCatWheel}
-            className="flex gap-2 overflow-x-auto scrollbar-hide px-10 py-1"
+            className="flex gap-2 overflow-x-auto scrollbar-hide px-12 md:px-10 py-1"
             style={{ scrollbarWidth: "none" }}
           >
             {PRODUCT_CATEGORY_OPTIONS.map((opt) => (
@@ -463,7 +469,7 @@ export default function ProductsGrid({ products: PRODUCTS, categories: PRODUCT_C
             type="button"
             onClick={() => scrollCats("right")}
             aria-label="Scroll categories right"
-            className="absolute right-1 z-20 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center bg-white border border-slate-300 shadow-md rounded-full text-slate-600 hover:text-blue-600 hover:border-blue-300 transition-all disabled:opacity-40 disabled:cursor-not-allowed"
+            className="absolute right-1 z-20 top-1/2 -translate-y-1/2 w-11 h-11 md:w-9 md:h-9 flex items-center justify-center bg-white border border-slate-300 shadow-md rounded-full text-slate-600 hover:text-blue-600 hover:border-blue-300 transition-all disabled:opacity-40 disabled:cursor-not-allowed"
             disabled={!showRight}
           >
             <ChevronRight className="w-4 h-4" aria-hidden="true" />
@@ -529,7 +535,10 @@ export default function ProductsGrid({ products: PRODUCTS, categories: PRODUCT_C
                 onClick={() => goPage(page - 1)}
                 disabled={page === 1}
                 aria-label="Previous page"
-                className="w-10 h-10 flex items-center justify-center rounded-xl border-2 border-slate-200 bg-white text-slate-600 hover:border-blue-500 hover:text-blue-600 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-sm"
+                // MOBILE UX FIX: was w-10 h-10 (40px), just under the ~44px
+                // comfort minimum on a control users tap repeatedly.
+                // md: restores the exact original desktop size.
+                className="w-11 h-11 md:w-10 md:h-10 flex items-center justify-center rounded-xl border-2 border-slate-200 bg-white text-slate-600 hover:border-blue-500 hover:text-blue-600 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-sm"
               >
                 <ChevronLeft className="w-5 h-5" aria-hidden="true" />
               </button>
@@ -547,7 +556,7 @@ export default function ProductsGrid({ products: PRODUCTS, categories: PRODUCT_C
                     type="button"
                     onClick={() => goPage(item)}
                     aria-current={item === page ? "page" : undefined}
-                    className={`w-10 h-10 flex items-center justify-center rounded-xl border-2 text-sm font-bold transition-all shadow-sm ${item === page ? "bg-slate-900 text-white border-slate-900" : "bg-white text-slate-600 border-slate-200 hover:border-blue-500 hover:text-blue-600"}`}
+                    className={`w-11 h-11 md:w-10 md:h-10 flex items-center justify-center rounded-xl border-2 text-sm font-bold transition-all shadow-sm ${item === page ? "bg-slate-900 text-white border-slate-900" : "bg-white text-slate-600 border-slate-200 hover:border-blue-500 hover:text-blue-600"}`}
                   >
                     {item}
                   </button>
@@ -558,7 +567,7 @@ export default function ProductsGrid({ products: PRODUCTS, categories: PRODUCT_C
                 onClick={() => goPage(page + 1)}
                 disabled={page === totalPages}
                 aria-label="Next page"
-                className="w-10 h-10 flex items-center justify-center rounded-xl border-2 border-slate-200 bg-white text-slate-600 hover:border-blue-500 hover:text-blue-600 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-sm"
+                className="w-11 h-11 md:w-10 md:h-10 flex items-center justify-center rounded-xl border-2 border-slate-200 bg-white text-slate-600 hover:border-blue-500 hover:text-blue-600 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-sm"
               >
                 <ChevronRight className="w-5 h-5" aria-hidden="true" />
               </button>

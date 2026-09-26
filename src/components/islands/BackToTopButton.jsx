@@ -63,7 +63,19 @@ export default function BackToTopButton() {
       // cookie-banner offset and hover/visible animation still shift it
       // further via `transform`, which composes fine with the base
       // position set in the class.
-      className="fixed left-6 bottom-[calc(4.5rem+env(safe-area-inset-bottom,0px))] md:bottom-6 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
+      //
+      // FIX (mobile overlap, round 2 — screenshot audit): bottom-left also
+      // means this fixed circle can end up parked directly over left-aligned
+      // in-page controls it scrolls past at a given viewport position — e.g.
+      // the product page's "Materials"/"Standards" spec sub-tabs, which
+      // start right at the same left edge. The comment above explains why
+      // it's on the *left* on desktop (md:left-6): to stay clear of
+      // WhatsAppBubble, which only renders on desktop (`hidden md:flex`).
+      // On mobile that widget doesn't exist — WhatsAppBubble is hidden and
+      // MobileStickyCTA spans full-width either side — so bottom-right is
+      // free there and doesn't sit over any left-aligned content. Desktop
+      // keeps its original left-6 position unchanged via md:left-6/md:right-auto.
+      className="fixed right-6 left-auto md:left-6 md:right-auto bottom-[calc(4.5rem+env(safe-area-inset-bottom,0px))] md:bottom-6 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
       style={{
         zIndex: 50,
         width: "2.75rem",

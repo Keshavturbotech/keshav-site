@@ -383,7 +383,12 @@ export default function ProductDetailInteractive({ product, imageMap = {}, local
                   /* user cancelled share sheet — ignore */
                 }
               }}
-              className="flex items-center gap-1.5 text-xs font-bold text-slate-500 hover:text-blue-600 border border-slate-200 hover:border-blue-300 rounded-md px-3 py-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
+              // MOBILE UX FIX: measured ~34px tall (px-3 py-2 on text-xs),
+              // under the ~44px thumb-target comfort minimum. min-h-11
+              // (44px) adds tap-area padding without changing the visible
+              // text/icon layout; md:min-h-0 restores the exact original
+              // (unpadded) desktop height.
+              className="flex items-center justify-center gap-1.5 text-xs font-bold text-slate-500 hover:text-blue-600 border border-slate-200 hover:border-blue-300 rounded-md px-3 py-2 min-h-11 md:min-h-0 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
             >
               <Paperclip className="w-3.5 h-3.5" aria-hidden="true" />
               {copied ? "Link copied!" : "Share"}
@@ -496,7 +501,16 @@ export default function ProductDetailInteractive({ product, imageMap = {}, local
                           role="tab"
                           aria-selected={specSubTab === gid}
                           onClick={() => setSpecSubTab(gid)}
-                          className={`px-3.5 py-2 text-xs font-black uppercase tracking-wider rounded-t-md transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 ${specSubTab === gid ? "bg-slate-100 text-blue-700 border-b-2 border-blue-600 -mb-px" : "text-slate-500 hover:text-slate-800"}`}
+                          // MOBILE UX FIX: these measured ~32px tall
+                          // (px-3.5 py-2 on text-xs) — below the ~44px
+                          // thumb-target comfort minimum, and there are
+                          // several in a row (Materials/Standards/
+                          // Application/General). min-h-11 md:min-h-0 adds
+                          // tap-area only on mobile; inline-flex
+                          // items-center keeps the label vertically centred
+                          // in the taller box. Desktop's exact original
+                          // height/padding is unchanged.
+                          className={`inline-flex items-center px-3.5 py-2 min-h-11 md:min-h-0 text-xs font-black uppercase tracking-wider rounded-t-md transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 ${specSubTab === gid ? "bg-slate-100 text-blue-700 border-b-2 border-blue-600 -mb-px" : "text-slate-500 hover:text-slate-800"}`}
                         >
                           {labelOfGroup(gid)}{" "}
                           {/* FIXED: opacity-60 on top of the active tab's

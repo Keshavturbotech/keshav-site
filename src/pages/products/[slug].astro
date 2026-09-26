@@ -169,7 +169,17 @@ const pageTitle = buildSeoTitle(product.title, [product.category], locale);
         <span aria-hidden="true" class="mx-1">/</span>
         <a href={`${localizedPath(locale, "/products")}?category=${encodeURIComponent(product.category)}`} class="hover:text-blue-600 transition-colors text-slate-500 focus:outline-none focus-visible:underline">{product.category}</a>
         <span aria-hidden="true" class="mx-1">/</span>
-        <span class="text-slate-800 uppercase truncate max-w-[200px] md:max-w-full" aria-current="page">{product.title}</span>
+        <!--
+          MOBILE UX FIX: max-w-[200px] forced this crumb (the full product
+          name, e.g. "Steam Turbine Bearing Rebabbitting Service") to
+          ellipsis after ~15-20 characters on phones — hiding the one piece
+          of text a visitor opened the page to read. The parent <nav> already
+          has `flex-wrap`, so dropping the truncation and the fixed 200px cap
+          just lets a long title wrap onto its own full-width line instead of
+          being cut off; short titles still sit inline as before. md:max-w-full
+          (desktop) is untouched.
+        -->
+        <span class="text-slate-800 uppercase max-w-full md:max-w-full" aria-current="page">{product.title}</span>
       </nav>
 
       <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/50 overflow-hidden border border-slate-200 mb-10">

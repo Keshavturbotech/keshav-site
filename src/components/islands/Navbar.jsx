@@ -62,6 +62,7 @@ const waMsg = (text) => `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURI
  * @param {Array<{id?: string, title?: string, slug?: string, category?: string, desc?: string, features?: string[], images?: string[], priceRange?: unknown}>} [props.products]
  * @param {Array<{slug: string, label: string}>} [props.productCategories]
  * @param {Array<{id?: string, slug?: string, title?: string}>} [props.industries]
+ * @param {Record<string, {src: string, srcSet: string}>} [props.imageMap] - filename -> resolved optimized image (buildProductImageMap), for search-result thumbnails. Same guess+onError fallback pattern as RichProductCard for filenames not in the map.
  * @param {string} [props.currentLocale] - Astro.currentLocale, resolved server-side (Part 2)
  * @param {Record<string, string>} [props.equivalentLocalePaths] - locale code -> this page's URL in that locale (Part 2)
  */
@@ -72,6 +73,7 @@ export default function Navbar({
   products = [],
   productCategories = [],
   industries = [],
+  imageMap = {},
   currentLocale = "en",
   equivalentLocalePaths = {},
 } = {}) {
@@ -163,6 +165,21 @@ export default function Navbar({
     queryRef.current = query;
   }, [query]);
   const deferredQ = useDeferredValue(q);
+  // BUG FIX: this used to store the raw filename (`s.image` / `p.images?.[0]`)
+  // and the two result-list <img> tags below each prepended `/` to it. That
+  // only resolves for files sitting directly in public/ — real product/
+  // service photos live in src/assets/products/ and need to go through
+  // Astro's build-time optimizer (buildProductImageMap, resolved in
+  // Layout.astro and passed down as `imageMap`) first, or the content-hashed
+  // /_astro/... path never gets generated and the thumbnail 404s. Resolving
+  // to a full src here (same imageMap[filename]?.src ?? `/${filename}`
+  // fallback RichProductCard uses) means both the desktop popover and the
+  // mobile drawer's result list — which each render this same `image` field
+  // — just use it directly with no per-callsite guessing.
+  const resolveImage = (filename) => {
+    if (!filename) return undefined;
+    return imageMap[filename]?.src ?? `/${filename}`;
+  };
   const searchResultsAll = useMemo(() => {
     if (!deferredQ) return [];
     return [
@@ -175,7 +192,7 @@ export default function Navbar({
         desc: s.desc,
         type: "Service",
         path: localizedPath(currentLocale, `/services/${s.slug}`),
-        image: s.image,
+        image: resolveImage(s.image),
         priceRange: null,
       })),
       ...products.filter(
@@ -191,11 +208,11 @@ export default function Navbar({
         type: "Product",
         category: p.category,
         path: localizedPath(currentLocale, `/products/${p.slug}`),
-        image: p.images?.[0],
+        image: resolveImage(p.images?.[0]),
         priceRange: p.priceRange || null,
       })),
     ];
-  }, [deferredQ, services, products, currentLocale]);
+  }, [deferredQ, services, products, currentLocale, imageMap]);
   const searchResults = useMemo(() => searchResultsAll.slice(0, 8), [searchResultsAll]);
   const searchResultsTotal = searchResultsAll.length;
   const hasMoreResults = searchResultsTotal > searchResults.length;
@@ -287,7 +304,18 @@ export default function Navbar({
     <nav
       ref={menuRef}
       aria-label="Main navigation"
-      className={`fixed top-0 left-0 w-full z-55 transition-all duration-500 ease-[cubic-bezier(0.3,0,0,1)] border-b ${isVisible ? "translate-y-0" : "-translate-y-full"} ${scrolled ? "bg-white/97 backdrop-blur-xl border-slate-200 shadow-lg" : "bg-navy-800/95 backdrop-blur-sm border-white/10"}`}
+      // MOBILE UX FIX: this nav (and its mobile dropdown/drawer, which is an
+      // in-flow descendant with no z-index of its own) forms its own
+      // stacking context at z-55. CookieConsentBanner (z-90) and
+      // MobileStickyCTA (z-80) are siblings elsewhere in the DOM, both
+      // higher, so the open mobile drawer — which extends down toward the
+      // bottom of the viewport — was rendering *underneath* those two bars
+      // instead of above them, clipping "About"/"Services"/etc. Raising this
+      // to z-95 (still below the z-100 modal layer used by the image
+      // lightbox/report modal/downloads modal) fixes that. Nothing on
+      // desktop currently overlaps the top-anchored navbar with a
+      // higher/competing z-index, so this has no visible effect there.
+      className={`fixed top-0 left-0 w-full z-95 transition-all duration-500 ease-[cubic-bezier(0.3,0,0,1)] border-b ${isVisible ? "translate-y-0" : "-translate-y-full"} ${scrolled ? "bg-white/97 backdrop-blur-xl border-slate-200 shadow-lg" : "bg-navy-800/95 backdrop-blur-sm border-white/10"}`}
     >
       <a
         href="#main-content"
@@ -516,7 +544,13 @@ export default function Navbar({
                                     <div className="w-12 h-12 shrink-0 rounded bg-slate-100 border border-slate-200/50 overflow-hidden flex items-center justify-center relative shadow-sm">
                                       {r.image && (
                                         <img
-                                          src={`/${r.image}`}
+                                          // BUG FIX: r.image is now a fully-resolved
+                                          // src (optimized /_astro/... path when
+                                          // available, raw passthrough fallback
+                                          // otherwise) — see resolveImage() above.
+                                          // No longer prepending `/` here, which
+                                          // was mangling the optimized path too.
+                                          src={r.image}
                                           alt=""
                                           aria-hidden="true"
                                           width="800"
@@ -763,7 +797,10 @@ export default function Navbar({
                                 <div className="w-10 h-10 shrink-0 rounded-lg bg-slate-100 border border-slate-200/50 overflow-hidden flex items-center justify-center relative">
                                   {r.image && (
                                     <img
-                                      src={`/${r.image}`}
+                                      // BUG FIX: see the desktop popover's img
+                                      // above — r.image is already a resolved
+                                      // src now, don't prepend `/`.
+                                      src={r.image}
                                       alt=""
                                       aria-hidden="true"
                                       width="800"

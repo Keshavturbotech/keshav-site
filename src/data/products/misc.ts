@@ -656,7 +656,15 @@ export const MISC_PRODUCTS = [
     },
   {
       id: "prod_af5",
-      sku: "KTB-IF-028",
+      // FIX: duplicate SKU — this collided with "Cenlub Replacement Filter
+      // Elements" in filtration.ts (both were KTB-IF-028), a copy-paste
+      // error from when this entry was added. Industrial Filtration SKUs
+      // otherwise run sequentially KTB-IF-001..030 (filtration.ts) with no
+      // other gaps or collisions, so this takes the next free slot after
+      // the sequence's current end rather than reusing 011 (skipped
+      // upstream in filtration.ts, left alone since nothing indicates
+      // that gap was meant to be filled here).
+      sku: "KTB-IF-031",
       category: "Industrial Filtration",
       title: "Pulse-Jet Dust Collector Filter Bag / Cartridge",
       desc: "Industrial-grade filter bags and pleated cartridge elements for pulse-jet dust collectors and baghouse systems. Supplied as cylindrical woven or needle-felt filter bags (smooth outer surface for standard cage-type housings) or as pleated cartridge elements (accordion-pleated media around a perforated core: up to 5× the filter area of an equivalent smooth bag in the same housing footprint). Both designs are compatible with pulse-jet reverse-flow cleaning. Media options span standard polyester felt, anti-static, PTFE membrane, aramid, and glass fibre for temperatures up to 260°C.",

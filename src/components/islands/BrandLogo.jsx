@@ -44,8 +44,14 @@ export default function BrandLogo({ scrolled, locale = "en" }) {
         >
           ENTERPRISES
         </span>
+        {/*
+          MOBILE UX FIX: text-[8px] is well under comfortable mobile
+          reading size. Bumped the base (mobile/tablet) size to 10px;
+          lg:text-[9px] (desktop) is untouched, so this only changes
+          screens below the `lg` breakpoint.
+        */}
         <span
-          className={`font-semibold tracking-[0.08em] text-[8px] lg:text-[9px] mt-0.5 uppercase italic ${subCls} transition-colors duration-200`}
+          className={`font-semibold tracking-[0.08em] text-[10px] lg:text-[9px] mt-0.5 uppercase italic ${subCls} transition-colors duration-200`}
         >
           Quality &amp; Assurance
         </span>

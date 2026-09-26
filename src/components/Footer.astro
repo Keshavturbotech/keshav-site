@@ -343,6 +343,7 @@ const INDUSTRIES_TAGS = [
       <nav aria-label="Legal" class="ke-legal-row">
         <a href="/privacy-policy" class="ke-legal-link">Privacy Policy</a>
         <a href="/terms-of-service" class="ke-legal-link">Terms of Service</a>
+        <button type="button" id="ke-cookie-prefs" class="ke-legal-link">Cookie Preferences</button>
       </nav>
       <div class="ke-bottom-row">
         <div class="ke-id-badges">
@@ -370,6 +371,14 @@ const INDUSTRIES_TAGS = [
 <script is:inline>
   document.getElementById("ke-back-top")?.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  // Footer is a static .astro component, so the cookie banner (a React
+  // island) can't be reopened directly from here — dispatch a window event
+  // it already listens for instead, same cross-island pattern as
+  // ke:cookieConsentAccepted.
+  document.getElementById("ke-cookie-prefs")?.addEventListener("click", () => {
+    window.dispatchEvent(new CustomEvent("ke:openCookiePreferences"));
   });
 </script>
 
@@ -937,6 +946,18 @@ const INDUSTRIES_TAGS = [
     font-size: 7.5px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+  }
+  /* MOBILE UX FIX: 7.5px is below comfortable reading size on a phone —
+     smaller even than the tagline flagged in the mobile UX audit. This
+     chip appears in the footer of every page, so it's worth bumping on
+     its own. Scoped to <768px (Tailwind's `md` breakpoint) so desktop's
+     7.5px is untouched. GST/MSME/IEC are short (3-4 char) labels with
+     room in the chip, so this doesn't risk wrapping/overflow the way
+     bumping the long monospace value next to it could. */
+  @media (max-width: 767px) {
+    .ke-id-label {
+      font-size: 9.5px;
+    }
   }
   .ke-id-value {
     font-family: monospace;

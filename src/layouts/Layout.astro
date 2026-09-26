@@ -16,6 +16,7 @@ import ExitIntentReviewPopup from "../components/islands/ExitIntentReviewPopup.j
 import AnalyticsLoader from "../components/islands/AnalyticsLoader.jsx";
 import { getLocalizedData, getLocalizedList, LOCALES, DEFAULT_LOCALE } from "../lib/i18n";
 import { buildSeoTitle, buildSeoDescription } from "../lib/seo";
+import { buildProductImageMap } from "../lib/productImages";
 import { getRelativeLocaleUrl } from "astro:i18n";
 import type { Service } from "../data/services";
 import type { Product } from "../data/products";
@@ -170,6 +171,21 @@ const navProducts = navProductsFull.map((p) => ({
   images: p.images?.[0] ? [p.images[0]] : [],
   priceRange: p.priceRange,
 }));
+
+// BUG FIX: Navbar's search dropdown (both the desktop popover and the
+// mobile drawer's results list) was rendering a raw `/${filename}`
+// passthrough path for every thumbnail, which only resolves for files
+// sitting directly in public/. Real product/service photos live in
+// src/assets/products/ and need to go through buildProductImageMap()
+// first — exactly like the product grid/detail pages already do — or the
+// content-hashed /_astro/... path never gets generated and the <img> 404s.
+// Built once here from the same trimmed navServices/navProducts lists
+// (just the service image + each product's first image) so this doesn't
+// reprocess the full catalog on every page.
+const navImageMap = await buildProductImageMap([
+  ...navServices.map((s) => s.image),
+  ...navProducts.map((p) => p.images[0]),
+]);
 
 // ── Part 2: equivalent-page URLs per locale, for LanguageSwitcher ──────────
 // LanguageSwitcher.jsx is a client island and cannot import astro:i18n
@@ -479,6 +495,7 @@ const jsonLdBlocks = [
       products={navProducts}
       productCategories={navProductCategories}
       industries={navIndustries}
+      imageMap={navImageMap}
       currentLocale={currentLocale}
       equivalentLocalePaths={equivalentLocalePaths}
     />
