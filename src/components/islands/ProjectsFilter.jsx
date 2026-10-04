@@ -282,8 +282,28 @@ export default function ProjectsFilter({ caseStudies: CASE_STUDIES = [], locale 
               {paginated.map((cs) => (
                 <article
                   key={cs.id}
-                  className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-blue-300 transition-all duration-300 flex flex-col group"
+                  className="relative bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-blue-300 transition-all duration-300 flex flex-col group"
                 >
+                  {/*
+                    Full-card click target: the hover lift/shadow/border
+                    above made the whole card look clickable, but only the
+                    small "Read Case Study" button at the bottom actually
+                    was — clicking the photo, title, or tags did nothing.
+                    This stretched link (same pattern as RichProductCard's
+                    product cards) sits behind everything so a click
+                    anywhere on the card navigates; it's aria-hidden and
+                    untabbable since "Read Case Study" below already gives
+                    keyboard/screen-reader users a proper, visible link to
+                    the same destination — this just extends the mouse
+                    target to the full card without creating a second,
+                    redundant tab stop.
+                  */}
+                  <a
+                    href={localizedPath(locale, `/projects/${cs.id}`)}
+                    className="absolute inset-0 z-0"
+                    tabIndex={-1}
+                    aria-hidden="true"
+                  />
                   <div className="h-44 bg-[#0A192F] relative overflow-hidden shrink-0">
                     {cs.image && (
                       <SkeletonImage
@@ -351,7 +371,7 @@ export default function ProjectsFilter({ caseStudies: CASE_STUDIES = [], locale 
                     </div>
                     <a
                       href={localizedPath(locale, `/projects/${cs.id}`)}
-                      className="mt-4 w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 rounded-xl font-bold text-sm transition-colors"
+                      className="relative z-10 mt-4 w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 rounded-xl font-bold text-sm transition-colors"
                     >
                       Read Case Study
                       <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />

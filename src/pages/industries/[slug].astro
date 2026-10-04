@@ -7,6 +7,7 @@
 import Layout from "../../layouts/Layout.astro";
 import { localizedPath } from "../../lib/localeMeta";
 import Icon from "../../components/Icon.astro";
+import { buildProductImageMap } from "../../lib/productImages";
 import { getLocalizedData, getLocalizedList } from "../../lib/i18n";
 import type { Industry } from "../../data/industries";
 import {
@@ -137,8 +138,23 @@ const productsWithLinks = (detail.products ?? []).map(
         ? localizedPath(locale, `/products/${linkedProduct.slug}`)
         : localizedPath(locale, "/products"),
       hasDirectLink: Boolean(linkedProduct),
+      // First real product photo, when this card is linked to an actual
+      // catalog entry — same source RichProductCard/products pages use.
+      // Cards with no linked product (generic "View in Catalog" fallback)
+      // have no specific photo to show and keep the icon.
+      image: linkedProduct?.images?.[0],
     };
   },
+);
+
+// Resolve to optimized AVIF variants for whichever of those photos have
+// already been migrated into src/assets/products/ (see productImages.ts).
+// Anything not yet migrated falls back to a raw `/${filename}` passthrough
+// below, and the icon badge underneath remains as the onerror fallback for
+// filenames that don't exist anywhere yet — same layered pattern used by
+// the homepage's service-card photo chip.
+const industryProductImageMap = await buildProductImageMap(
+  productsWithLinks.map((p) => p.image),
 );
 ---
 
@@ -313,8 +329,17 @@ const productsWithLinks = (detail.products ?? []).map(
               <div class="p-7 flex flex-col flex-1">
                 <div class="flex items-start gap-3 mb-4">
                   <div
-                    class={`w-9 h-9 rounded-xl bg-linear-to-br ${ind.color} border ${ind.border} flex items-center justify-center shrink-0 mt-0.5`}
+                    class={`relative w-9 h-9 rounded-xl bg-linear-to-br ${ind.color} border ${ind.border} flex items-center justify-center shrink-0 mt-0.5 overflow-hidden`}
                   >
+                    {/*
+                      Generic gear icon stays rendered underneath as the
+                      fallback — a product photo (same source as its own
+                      catalog/detail page) layers on top when one exists,
+                      and onerror hides the <img> to reveal the icon again
+                      for any filename not actually on disk yet. Cards with
+                      no linked product (prod.image undefined) just show
+                      the icon, unchanged from before.
+                    */}
                     <svg
                       class={`w-4 h-4 ${ind.accent}`}
                       viewBox="0 0 24 24"
@@ -328,6 +353,21 @@ const productsWithLinks = (detail.products ?? []).map(
                         <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 11-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 110-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 114 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 110 4h-.09a1.65 1.65 0 00-1.51 1z" />
                       </>
                     </svg>
+                    {prod.image && (
+                      <img
+                        src={industryProductImageMap[prod.image]?.src ?? `/${prod.image}`}
+                        srcset={industryProductImageMap[prod.image]?.srcSet}
+                        sizes="36px"
+                        alt=""
+                        aria-hidden="true"
+                        class="absolute inset-0 w-full h-full object-cover"
+                        loading="lazy"
+                        decoding="async"
+                        width="36"
+                        height="36"
+                        onerror="this.style.display='none'"
+                      />
+                    )}
                   </div>
                   <h3 class="font-black text-slate-900 text-base leading-snug">{prod.name}</h3>
                 </div>

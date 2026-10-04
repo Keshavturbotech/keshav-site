@@ -282,29 +282,33 @@ const INDUSTRIES_TAGS = [
       </p>
       <nav aria-label="Social media profiles" class="ke-social-row">
         {
-          SOCIAL_LINKS.map((s) => (
-            <a
-              href={s.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="ke-soc-pill"
-            >
-              <span class="ke-soc-badge" style={{ background: s.iconBg || s.color }}>
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  width="14"
-                  height="14"
-                  aria-hidden="true"
-                  style={{ color: "#fff" }}
-                >
-                  <path d={s.path} />
-                </svg>
-              </span>
-              <span class="sr-only">{s.label}</span>
-              <span class="ke-soc-handle">{s.handle}</span>
-            </a>
-          ))
+          SOCIAL_LINKS.map((s) => {
+            const brandColor = s.iconBg || s.color;
+            return (
+              <a
+                href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="ke-soc-pill"
+                style={{ "--soc-color": brandColor, "--soc-glow": `${brandColor}4d` }}
+              >
+                <span class="ke-soc-badge" style={{ background: brandColor }}>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="16"
+                    height="16"
+                    aria-hidden="true"
+                    style={{ color: "#fff" }}
+                  >
+                    <path d={s.path} />
+                  </svg>
+                </span>
+                <span class="sr-only">{s.label}</span>
+                <span class="ke-soc-handle">{s.handle}</span>
+              </a>
+            );
+          })
         }
       </nav>
     </div>
@@ -763,7 +767,7 @@ const INDUSTRIES_TAGS = [
   .ke-social-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0.4rem;
+    gap: 0.55rem;
     margin-top: 0.9rem;
   }
   @media (min-width: 420px) {
@@ -776,31 +780,50 @@ const INDUSTRIES_TAGS = [
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 0.5rem;
+      gap: 0.6rem;
     }
   }
   .ke-soc-pill {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 0.9rem 0.5rem 0.4rem;
+    gap: 0.6rem;
+    padding: 0.5rem 1.05rem 0.5rem 0.45rem;
     border-radius: 2rem;
     text-decoration: none;
-    border: 1px solid #1e293b;
-    background: #0a1628;
+    /* Was #1e293b on an #0a1628 pill over an equally dark footer — the
+       border was nearly invisible and the pill read as flat text rather
+       than a distinct, clickable chip. A touch lighter + a real shadow
+       gives it some lift off the background. */
+    border: 1px solid #243249;
+    background: #0d1a30;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
     transition:
       background 0.15s,
       border-color 0.15s,
+      box-shadow 0.2s,
       transform 0.15s;
-    min-height: 42px;
+    min-height: 44px;
   }
-  .ke-soc-pill:hover {
-    background: #0f1f33;
-    transform: translateY(-1px);
+  .ke-soc-pill:hover,
+  .ke-soc-pill:focus-visible {
+    /* Each pill's hover/focus now glows in its own platform's brand color
+       (--soc-color / --soc-glow, set per-pill from SOCIAL_LINKS) instead
+       of one generic lighten-the-background treatment for every icon —
+       and doubles as this pill's first focus-visible style, which it had
+       none of before (keyboard focus fell back to the plain default
+       outline here, unlike every other interactive element in this
+       footer). */
+    background: #111f38;
+    border-color: var(--soc-color);
+    box-shadow:
+      0 4px 16px var(--soc-glow),
+      0 1px 2px rgba(0, 0, 0, 0.35);
+    transform: translateY(-2px);
+    outline: none;
   }
   .ke-soc-badge {
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -808,8 +831,8 @@ const INDUSTRIES_TAGS = [
     flex-shrink: 0;
   }
   .ke-soc-handle {
-    font-size: 0.81rem;
-    font-weight: 600;
+    font-size: 0.84rem;
+    font-weight: 700;
     color: #e2e8f0;
     white-space: nowrap;
   }
