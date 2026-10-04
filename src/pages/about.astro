@@ -23,11 +23,11 @@ const PRODUCTS = getLocalizedList<Product>("products", locale);
 const ABOUT_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  "@id": "https://www.keshavturbotech.com/about",
-  url: "https://www.keshavturbotech.com/about",
+  "@id": "https://keshavturbotech.com/about",
+  url: "https://keshavturbotech.com/about",
   name: about.meta.schemaName,
   description: about.meta.schemaDescriptionTemplate.replace("{years}", String(YEARS_IN_BUSINESS)),
-  mainEntity: { "@id": "https://www.keshavturbotech.com/#business" },
+  mainEntity: { "@id": "https://keshavturbotech.com/#business" },
 };
 
 // Non-text scaffolding only — copy (title/desc/labels) now lives in

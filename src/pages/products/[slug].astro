@@ -30,7 +30,7 @@ const locale = Astro.currentLocale ?? "en";
 const { product: productEn } = Astro.props;
 const PRODUCTS = getLocalizedList<Product>("products", locale);
 const product = PRODUCTS.find((p) => p.id === productEn.id) ?? productEn;
-const SITE_URL = "https://www.keshavturbotech.com";
+const SITE_URL = "https://keshavturbotech.com";
 
 // RecentlyViewedStrip can surface ANY product client-side (it's driven by
 // localStorage), so it needs an optimized-URL entry covering every product's

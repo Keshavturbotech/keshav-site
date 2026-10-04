@@ -21,7 +21,7 @@ const {
 const fs = require("fs");
 const path = require("path");
 
-const SITE = "https://www.keshavturbotech.com";
+const SITE = "https://keshavturbotech.com";
 const OUT_DIR = path.join(__dirname, "..", "public");
 
 // ═══════════════════════════════════════════════════════════

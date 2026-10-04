@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.keshavturbotech.com/sitemap-index.xml
+Sitemap: https://keshavturbotech.com/sitemap-index.xml

@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 
 // ── CHANGE THIS to your final root domain (no trailing slash on path) ──
-const SITE_URL = "https://www.keshavturbotech.com";
+const SITE_URL = "https://keshavturbotech.com";
 
 export default defineConfig({
   site: SITE_URL,
