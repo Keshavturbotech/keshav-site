@@ -803,6 +803,9 @@ const INDUSTRIES_TAGS = [
       box-shadow 0.2s,
       transform 0.15s;
     min-height: 44px;
+    /* Grid items default to min-width:auto, so nowrap text inside forced the
+       2-column mobile grid wider than the viewport (horizontal scroll). */
+    min-width: 0;
   }
   .ke-soc-pill:hover,
   .ke-soc-pill:focus-visible {
@@ -835,6 +838,9 @@ const INDUSTRIES_TAGS = [
     font-weight: 700;
     color: #e2e8f0;
     white-space: nowrap;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .ke-divider {
