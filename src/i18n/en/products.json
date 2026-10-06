@@ -2326,7 +2326,7 @@
     "priceRange": {
       "min": 8000,
       "max": 65000,
-      "unit": "per bearing",
+      "unit": "per set",
       "note": "Labyrinth seal segments; 410SS/Monel/Stellite, spring-back or caulked-in"
     },
     "availability": {
@@ -2379,8 +2379,8 @@
     "slug": "babbitt-journal-bearings-and-thrust-pads",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 12000,
-      "max": 95000,
+      "min": 10000,
+      "max": 125000,
       "unit": "per piece",
       "note": "Babbitt journal bearing / thrust pad; tilting pad or fixed profile"
     },
@@ -2495,7 +2495,7 @@
     "categorySlug": "turbine-spares",
     "priceRange": {
       "min": 1500,
-      "max": 12000,
+      "max": 20000,
       "unit": "per piece",
       "note": "Lube oil pump + mechanical seal; 10–500 LPM, 5–20 bar"
     },
@@ -2604,8 +2604,8 @@
     "slug": "complete-turbine-rotor-assemblies",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 2000,
-      "max": 15000,
+      "min": 800000,
+      "max": 2500000,
       "unit": "per piece",
       "note": "Complete rotor assembly; price varies by stage count & size"
     },
@@ -2714,7 +2714,7 @@
     "slug": "turbine-nozzles-and-diaphragms",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 6000,
+      "min": 1000,
       "max": 45000,
       "unit": "per piece",
       "note": "Nozzle / diaphragm; 13% Cr / 316L SS / Incoloy per stage"
@@ -2773,8 +2773,8 @@
     "slug": "mechanical-centrifugal-speed-governors",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 3000,
-      "max": 20000,
+      "min": 150000,
+      "max": 200000,
       "unit": "per piece",
       "note": "Centrifugal speed governor; 1,000–6,000 RPM range"
     },
@@ -3553,7 +3553,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "Turbine Spares",
+    "category": "Electronic Equipments",
     "title": "Magnetic Pickup Sensor (Woodward)",
     "desc": "Genuine Woodward variable reluctance magnetic speed pickup (MPU) (long-body 5/8-18 UNF variant cross-referenced to Woodward part number 5430-933, manufacturer marking MSC 401029-20) for precise shaft speed feedback to Woodward governors and digital turbine control systems. Passive, self-powered, zero-maintenance design for continuous duty on steam turbines running at 3000–3600 RPM; MSC 401029-20 is the most commonly ordered variant on Indian steam turbine governor retrofits and overhauls.",
     "usage": "Primary speed sensing input for Woodward 505/505D/505E digital governors, 2301 and 7206 governor amplifiers, and standalone overspeed trip systems on Triveni, BHEL, Siemens, KKK, and Maxwatt steam turbines. The MSC 401029-20 / Woodward 5430-933 variant is the long-body, 5/8-18 UNF version most frequently specified on Indian steam turbine governor retrofits. Monitors turbine rotor speed via the governor gear wheel (tooth gear / flywheel) to provide closed-loop speed regulation, load control, and overspeed protection throughout startup, synchronisation, and full-load operation.",
@@ -3608,7 +3608,7 @@
       "woodward-magnetic-pickup-12.webp"
     ],
     "slug": "magnetic-pickup-sensor-woodward",
-    "categorySlug": "turbine-spares",
+    "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 5500,
       "max": 45000,
@@ -6829,7 +6829,7 @@
   },
   "prod_af5": {
     "id": "prod_af5",
-    "sku": "KTB-IF-028",
+    "sku": "KTB-IF-031",
     "category": "Industrial Filtration",
     "title": "Pulse-Jet Dust Collector Filter Bag / Cartridge",
     "desc": "Industrial-grade filter bags and pleated cartridge elements for pulse-jet dust collectors and baghouse systems. Supplied as cylindrical woven or needle-felt filter bags (smooth outer surface for standard cage-type housings) or as pleated cartridge elements (accordion-pleated media around a perforated core: up to 5× the filter area of an equivalent smooth bag in the same housing footprint). Both designs are compatible with pulse-jet reverse-flow cleaning. Media options span standard polyester felt, anti-static, PTFE membrane, aramid, and glass fibre for temperatures up to 260°C.",

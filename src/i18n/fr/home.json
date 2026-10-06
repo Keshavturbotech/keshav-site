@@ -12,7 +12,7 @@
     "h1Line1": "Ingénierie de précision pour",
     "h1Line2": "une disponibilité maximale.",
     "capabilityLine": "Turbines à vapeur de 5 kW à 60 MW — à contre-pression et à condensation, horizontales et verticales, à un ou plusieurs étages. Au service de clients dans toute l'Inde et dans le monde entier.",
-    "introText": "Anciens ingénieurs OEM de Triveni, Siemens, BHEL et 7 autres marques. Nous remettons votre turbine en service plus vite qu'un approvisionnement OEM — avec certificats PMI complets, rapports d'équilibrage ISO, et un historique sans pénalité depuis {founded}.",
+    "introText": "Anciens ingénieurs OEM de Triveni, Siemens, BHEL et 7 autres marques. Nous remettons votre turbine en service plus vite qu'un approvisionnement OEM — avec certificats PMI complets, rapports d'équilibrage ISO, et un historique sans pénalité depuis {businessSince}.",
     "ctaPrimary": "Envoyez-nous vos besoins",
     "ctaEmergency": "Panne d'urgence",
     "trustYearsOverhauls": "{years}+ ans · 500+ révisions générales",
@@ -50,7 +50,7 @@
     },
     "penaltyClaims": {
       "label": "Réclamations de pénalité",
-      "sub": "Zéro en {years} ans — références clients disponibles sur demande"
+      "sub": "Zéro en {businessYears} ans — références clients disponibles sur demande"
     },
     "emergency": {
       "label": "Réponse d'urgence",

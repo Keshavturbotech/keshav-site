@@ -12,7 +12,7 @@
     "h1Line1": "Rekayasa Presisi untuk",
     "h1Line2": "Uptime Maksimal.",
     "capabilityLine": "Turbin uap dari 5 kW hingga 60 MW — back-pressure dan condensing, horizontal dan vertikal, single dan multi-stage. Melayani pelanggan di seluruh India dan dunia.",
-    "introText": "Insinyur eks-OEM untuk Triveni, Siemens, BHEL & 7 merek lainnya. Kami mengembalikan turbin Anda beroperasi lebih cepat daripada pengadaan OEM — dengan sertifikat PMI lengkap, laporan penyeimbangan ISO, dan rekam jejak tanpa penalti sejak {founded}.",
+    "introText": "Insinyur eks-OEM untuk Triveni, Siemens, BHEL & 7 merek lainnya. Kami mengembalikan turbin Anda beroperasi lebih cepat daripada pengadaan OEM — dengan sertifikat PMI lengkap, laporan penyeimbangan ISO, dan rekam jejak tanpa penalti sejak {businessSince}.",
     "ctaPrimary": "Kirim Kebutuhan Anda",
     "ctaEmergency": "Gangguan Darurat",
     "trustYearsOverhauls": "{years}+ tahun · 500+ overhaul",
@@ -50,7 +50,7 @@
     },
     "penaltyClaims": {
       "label": "Klaim Penalti",
-      "sub": "Nol dalam {years} tahun — referensi klien tersedia atas permintaan"
+      "sub": "Nol dalam {businessYears} tahun — referensi klien tersedia atas permintaan"
     },
     "emergency": {
       "label": "Respons Darurat",

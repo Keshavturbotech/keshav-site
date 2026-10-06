@@ -12,7 +12,7 @@
     "h1Line1": "Ingeniería de Precisión para",
     "h1Line2": "el Máximo Tiempo de Actividad.",
     "capabilityLine": "Turbinas de vapor de 5 kW a 60 MW — de contrapresión y de condensación, horizontales y verticales, de una y varias etapas. Servimos a clientes en toda la India y en todo el mundo.",
-    "introText": "Ingenieros ex-OEM de Triveni, Siemens, BHEL y 7 marcas más. Ponemos su turbina de nuevo en marcha más rápido que el abastecimiento OEM, con certificados PMI completos, informes de equilibrado ISO y un historial sin penalizaciones desde {founded}.",
+    "introText": "Ingenieros ex-OEM de Triveni, Siemens, BHEL y 7 marcas más. Ponemos su turbina de nuevo en marcha más rápido que el abastecimiento OEM, con certificados PMI completos, informes de equilibrado ISO y un historial sin penalizaciones desde {businessSince}.",
     "ctaPrimary": "Envíenos Sus Requisitos",
     "ctaEmergency": "Avería de Emergencia",
     "trustYearsOverhauls": "{years}+ años · 500+ revisiones generales",
@@ -50,7 +50,7 @@
     },
     "penaltyClaims": {
       "label": "Reclamaciones por Penalización",
-      "sub": "Cero en {years} años — referencias de clientes disponibles a petición"
+      "sub": "Cero en {businessYears} años — referencias de clientes disponibles a petición"
     },
     "emergency": {
       "label": "Respuesta de Emergencia",

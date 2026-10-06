@@ -42,7 +42,7 @@
     "accentColor": "#0891b2",
     "keyStats": [
       { "value": "8+", "label": "Marques OEM révisées" },
-      { "value": "26+", "label": "Années d'expérience terrain" },
+      { "value": "{years}+", "label": "Années d'expérience terrain" },
       { "value": "0.001mm", "label": "Résolution de jeu" },
       { "value": "24×7", "label": "Intervention d'urgence" }
     ],

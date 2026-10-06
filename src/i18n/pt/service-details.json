@@ -145,7 +145,7 @@
         "label": "Marcas OEM Revisadas"
       },
       {
-        "value": "26+",
+        "value": "{years}+",
         "label": "Anos de Experiência de Campo"
       },
       {

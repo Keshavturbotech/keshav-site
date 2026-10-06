@@ -5,7 +5,7 @@
 // Astro.props (set by ITS OWN getStaticPaths, which is ignored when this
 // file is used as a plain component) — so this wrapper must replicate that
 // getStaticPaths shape itself and pass `product` down explicitly as a
-// component prop. 16 non-default locales × ~132 products ≈ 2,112 pages.
+// component prop. one page per product per non-default locale (16 locales × PRODUCTS.length).
 import ProductDetailPage from "../../products/[slug].astro";
 import type { Product } from "../../../data/products";
 import { PRODUCTS as PRODUCTS_EN } from "../../../data/products";

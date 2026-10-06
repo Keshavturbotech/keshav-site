@@ -13,6 +13,7 @@ import {
   checkFormRateLimit,
   sanitiseField,
   sanitiseForWhatsApp,
+  postWeb3Forms,
   waMsg,
 } from "../../lib/formHelpers";
 import { isOfficeHoursNow } from "../../lib/officeHours";
@@ -56,6 +57,7 @@ export default function ContactForm({ content }) {
   const [submitError, setSubmitError] = useState("");
   const [errors, setErrors] = useState({});
   const [turnstileToken, setTurnstileToken] = useState("");
+  const [attachmentDropped, setAttachmentDropped] = useState(false);
   const [officeHours, setOfficeHours] = useState(() => getOfficeStatus(content));
   const refreshOfficeHours = useCallback(
     () => setOfficeHours(getOfficeStatus(content)),
@@ -63,7 +65,7 @@ export default function ContactForm({ content }) {
   );
   useEffect(() => {
     // BUGFIX: getOfficeStatus() also runs during Astro's server render, on
-    // the server's clock. If the real hour/day boundary (9 AM/7 PM IST,
+    // the server's clock. If the real hour/day boundary (9 AM/6 PM IST,
     // Mon-Sat) falls between server render and client hydration, the two
     // disagree — a hydration mismatch on the live response-time bar.
     // Re-syncing to the client's own clock right after mount (in addition
@@ -97,6 +99,7 @@ export default function ContactForm({ content }) {
   };
 
   const resetForm = () => {
+    setAttachmentDropped(false);
     setContactName("");
     setName("");
     setEmail("");
@@ -198,14 +201,8 @@ export default function ContactForm({ content }) {
       const fileInput = document.getElementById("c-files");
       if (fileInput?.files?.length > 0) fd.append("attachment", fileInput.files[0]);
 
-      const res = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: { Accept: "application/json" },
-        body: fd,
-      });
-      const data = await res.json();
-      if (!res.ok || data.success === false)
-        throw new Error(data.message || "Web3Forms submission failed");
+      const { attachmentDropped } = await postWeb3Forms(fd);
+      setAttachmentDropped(attachmentDropped);
 
       if (openWhatsApp) {
         const msg = [
@@ -245,6 +242,12 @@ export default function ContactForm({ content }) {
             {content.success.bodyMid} <strong>{content.success.hour1}</strong>{" "}
             {content.success.bodySuffix}
           </p>
+          {attachmentDropped && (
+            <p className="text-amber-700 font-semibold text-xs mb-4">
+              Your enquiry was received, but the attached file could not be uploaded. Please email
+              it to {CONTACT_INFO.email} and we will add it to your request.
+            </p>
+          )}
           <button
             type="button"
             onClick={resetForm}

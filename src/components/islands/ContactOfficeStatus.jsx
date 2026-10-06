@@ -12,7 +12,7 @@ export default function ContactOfficeStatus() {
   const refresh = useCallback(() => setIsOfficeHours(isOfficeHoursNow()), []);
   useEffect(() => {
     // BUGFIX: isOfficeHoursNow() also runs during Astro's server render, on
-    // the server's clock. If the real hour/day boundary (9 AM/7 PM IST,
+    // the server's clock. If the real hour/day boundary (9 AM/6 PM IST,
     // Mon-Sat) falls between server render and client hydration, the two
     // disagree — a hydration mismatch on a live status line. Re-syncing to
     // the client's own clock right after mount (in addition to the 60s

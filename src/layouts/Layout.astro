@@ -17,6 +17,7 @@ import AnalyticsLoader from "../components/islands/AnalyticsLoader.jsx";
 import { getLocalizedData, getLocalizedList, LOCALES, DEFAULT_LOCALE } from "../lib/i18n";
 import { buildSeoTitle, buildSeoDescription } from "../lib/seo";
 import { buildProductImageMap } from "../lib/productImages";
+import { CONTACT_INFO, OFFICE_OPEN_HOUR, OFFICE_CLOSE_HOUR } from "../data/site-config";
 import { getRelativeLocaleUrl } from "astro:i18n";
 import type { Service } from "../data/services";
 import type { Product } from "../data/products";
@@ -219,8 +220,8 @@ const localBusinessSchema = {
   url: `${SITE_URL}/`,
   logo: `${SITE_URL}/keshav-logo-icon.png`,
   image: `${SITE_URL}/og-image.webp`,
-  telephone: ["+919149229448", "+916397363268"],
-  email: "ksengg007@gmail.com",
+  telephone: CONTACT_INFO.phones.map((p) => p.replace(/\s/g, "")),
+  email: CONTACT_INFO.email,
   address: {
     "@type": "PostalAddress",
     streetAddress: "Dayanand Nagar Gali No.2, Near Subash Ki Chakki",
@@ -234,11 +235,11 @@ const localBusinessSchema = {
     {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "09:00",
-      closes: "19:00",
+      opens: `${String(OFFICE_OPEN_HOUR).padStart(2, "0")}:00`,
+      closes: `${String(OFFICE_CLOSE_HOUR).padStart(2, "0")}:00`,
     },
   ],
-  hasMap: "https://share.google/uLc4GwsGec5eM62Ep",
+  hasMap: CONTACT_INFO.gmapsShare,
   sameAs: [
     "https://www.indiamart.com/keshav-enterprises-shamli/",
     "https://www.linkedin.com/in/keshav-enterprises-825a473b8",
@@ -248,8 +249,8 @@ const localBusinessSchema = {
     "https://www.youtube.com/@ksengg007",
   ],
   identifier: [
-    { "@type": "PropertyValue", name: "GST", value: "09BOSPS3115K1ZC" },
-    { "@type": "PropertyValue", name: "MSME / Udyam", value: "UDYAM-UP-47-0071234" },
+    { "@type": "PropertyValue", name: "GST", value: CONTACT_INFO.gst },
+    { "@type": "PropertyValue", name: "MSME / Udyam", value: CONTACT_INFO.msme },
   ],
   areaServed: { "@type": "Country", name: "India" },
   knowsAbout: businessSchemaText.knowsAbout,

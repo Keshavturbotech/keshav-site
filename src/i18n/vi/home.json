@@ -12,7 +12,7 @@
     "h1Line1": "Kỹ thuật Chính xác cho",
     "h1Line2": "Thời gian Hoạt động Tối đa.",
     "capabilityLine": "Tua-bin hơi nước từ 5 kW đến 60 MW — đối áp và ngưng hơi, nằm ngang và thẳng đứng, đơn cấp và đa cấp. Phục vụ khách hàng trên khắp Ấn Độ và toàn thế giới.",
-    "introText": "Kỹ sư từng làm việc tại OEM Triveni, Siemens, BHEL & 7 thương hiệu khác. Chúng tôi đưa tua-bin của bạn hoạt động trở lại nhanh hơn so với việc mua từ OEM — với đầy đủ chứng chỉ PMI, báo cáo cân bằng ISO và lịch sử không phạt kể từ {founded}.",
+    "introText": "Kỹ sư từng làm việc tại OEM Triveni, Siemens, BHEL & 7 thương hiệu khác. Chúng tôi đưa tua-bin của bạn hoạt động trở lại nhanh hơn so với việc mua từ OEM — với đầy đủ chứng chỉ PMI, báo cáo cân bằng ISO và lịch sử không phạt kể từ {businessSince}.",
     "ctaPrimary": "Gửi Yêu cầu Của Bạn",
     "ctaEmergency": "Sự cố Khẩn cấp",
     "trustYearsOverhauls": "{years}+ năm · 500+ lần đại tu",
@@ -50,7 +50,7 @@
     },
     "penaltyClaims": {
       "label": "Yêu cầu Bồi thường Phạt",
-      "sub": "Không có trong {years} năm — có sẵn tài liệu tham khảo khách hàng theo yêu cầu"
+      "sub": "Không có trong {businessYears} năm — có sẵn tài liệu tham khảo khách hàng theo yêu cầu"
     },
     "emergency": {
       "label": "Phản ứng Khẩn cấp",

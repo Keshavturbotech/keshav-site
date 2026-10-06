@@ -2,7 +2,7 @@
 // src/pages/[locale]/services/[slug].astro — same shape as
 // [locale]/products/[slug].astro: the underlying page reads `service` from
 // its own getStaticPaths props, so this wrapper must replicate the props.
-// 16 non-default locales × 7 services = 112 pages.
+// one page per service per non-default locale (16 locales × SERVICES.length).
 import ServiceDetailPage from "../../services/[slug].astro";
 import type { Service } from "../../../data/services";
 import { SERVICES as SERVICES_EN } from "../../../data/services";

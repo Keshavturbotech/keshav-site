@@ -3282,7 +3282,7 @@
     "priceRange": {
       "min": 8000,
       "max": 65000,
-      "unit": "por mancal",
+      "unit": "por conjunto",
       "note": "Mancal de metal branco / babbitt; rebabitado ou novo"
     },
     "availability": {
@@ -3334,8 +3334,8 @@
       "HSN Code": "8483"
     },
     "priceRange": {
-      "min": 12000,
-      "max": 95000,
+      "min": 10000,
+      "max": 125000,
       "unit": "por peça",
       "note": "Eixo do rotor; aço-liga usinado de precisão"
     },
@@ -3448,7 +3448,7 @@
     },
     "priceRange": {
       "min": 1500,
-      "max": 12000,
+      "max": 20000,
       "unit": "por peça",
       "note": "Parafusos/prisioneiros de acoplamento; aço-liga"
     },
@@ -3555,8 +3555,8 @@
       "HSN Code": "8406"
     },
     "priceRange": {
-      "min": 2000,
-      "max": 15000,
+      "min": 800000,
+      "max": 2500000,
       "unit": "por peça",
       "note": "Bocal / segmento de bocal; fundido de precisão"
     },
@@ -3663,7 +3663,7 @@
       "HSN Code": "8406"
     },
     "priceRange": {
-      "min": 6000,
+      "min": 1000,
       "max": 45000,
       "unit": "por peça",
       "note": "Roda dentada/pinhão; cementado"
@@ -3721,8 +3721,8 @@
       "HSN Code": "8406"
     },
     "priceRange": {
-      "min": 3000,
-      "max": 20000,
+      "min": 150000,
+      "max": 200000,
       "unit": "por peça",
       "note": "Colar de escora / sapata de escora; babbitt de precisão"
     },
@@ -5978,8 +5978,8 @@
       "woodward-magnetic-pickup-12.webp"
     ],
     "slug": "magnetic-pickup-sensor-woodward",
-    "categorySlug": "turbine-spares",
-    "category": "Peças de Reposição para Turbina",
+    "categorySlug": "electronic-equipments",
+    "category": "Equipamentos Eletrônicos",
     "title": "Sensor de Captação Magnética (Woodward)",
     "desc": "Sensor de captação magnética de relutância variável genuíno Woodward (MPU) para retroalimentação precisa de velocidade do eixo para governadores Woodward e sistemas digitais de controle de turbina. Design passivo, autoalimentado e sem manutenção para serviço contínuo em turbinas a vapor operando a 3000–3600 RPM.",
     "usage": "Entrada primária de detecção de velocidade para governadores digitais Woodward 505/505D/505E, amplificadores de governador 2301 e 7206, e sistemas independentes de disparo por sobrevelocidade em turbinas a vapor Triveni, BHEL, Siemens, KKK e Maxwatt. Monitora a velocidade do rotor da turbina via a roda dentada do governador (engrenagem/volante) para fornecer regulação de velocidade em malha fechada, controle de carga e proteção contra sobrevelocidade durante a partida, sincronização e operação em carga plena.",
@@ -6642,7 +6642,7 @@
   },
   "prod_af5": {
     "id": "prod_af5",
-    "sku": "KTB-IF-028",
+    "sku": "KTB-IF-031",
     "images": [
       "pulse-jet-dust-collector-filter-1.webp",
       "pulse-jet-dust-collector-filter-2.webp",

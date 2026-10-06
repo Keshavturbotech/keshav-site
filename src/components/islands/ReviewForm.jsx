@@ -193,7 +193,7 @@ const SOCIAL_LINKS = [
 ];
 
 /* ─────────────────────────────────────────────────────────────────
-   ALL 113 PRODUCTS  (unchanged data)
+   ALL PRODUCTS  (count comes from the `products` prop)
    ───────────────────────────────────────────────────────────────── */
 // ALL_PRODUCTS / ALL_LIST used to be derived once at module scope from a
 // direct `PRODUCTS` import. Now that products are locale-aware and resolved
@@ -3121,7 +3121,7 @@ export default function ReviewForm({
                     fontFamily: T.font,
                   }}
                 >
-                  Ask anything about our 133 products, spare parts availability, pricing, or
+                  Ask anything about our {products.length} products, spare parts availability, pricing, or
                   technical services — get an instant AI-powered answer.
                 </p>
                 <Field id="ai-question" label="Your question">

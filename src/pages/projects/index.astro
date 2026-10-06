@@ -4,7 +4,7 @@
 import Layout from "../../layouts/Layout.astro";
 import ProjectsFilter from "../../components/islands/ProjectsFilter.jsx";
 import type { CaseStudy } from "../../data/case-studies";
-import { YEARS_IN_BUSINESS } from "../../data/site-config";
+import { YEARS_IN_BUSINESS, OVERHAULS_COMPLETED } from "../../data/site-config";
 import { getLocalizedList } from "../../lib/i18n";
 
 const locale = Astro.currentLocale ?? "en";
@@ -73,7 +73,7 @@ const PROJECTS_LIST_SCHEMA = {
         {
           [
             { val: `${CASE_STUDIES.length}`, label: "Documented Case Studies" },
-            { val: "500+", label: "Turbines Serviced" },
+            { val: `${OVERHAULS_COMPLETED}+`, label: "Overhauls Completed" },
             { val: `${YEARS_IN_BUSINESS}+`, label: "Years Experience" },
             { val: "24/7", label: "Emergency Response" },
           ].map(({ val, label }) => (

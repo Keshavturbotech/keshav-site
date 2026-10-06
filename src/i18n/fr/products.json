@@ -2227,7 +2227,7 @@
     "priceRange": {
       "min": 8000,
       "max": 65000,
-      "unit": "per bearing",
+      "unit": "per set",
       "note": "Palier métal blanc / babbitt ; rebabbitté ou neuf"
     },
     "availability": {
@@ -2279,8 +2279,8 @@
     "slug": "babbitt-journal-bearings-and-thrust-pads",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 12000,
-      "max": 95000,
+      "min": 10000,
+      "max": 125000,
       "unit": "per piece",
       "note": "Arbre de rotor ; acier allié usiné avec précision"
     },
@@ -2393,7 +2393,7 @@
     "categorySlug": "turbine-spares",
     "priceRange": {
       "min": 1500,
-      "max": 12000,
+      "max": 20000,
       "unit": "per piece",
       "note": "Boulons/goujons d'accouplement ; acier allié"
     },
@@ -2500,8 +2500,8 @@
     "slug": "complete-turbine-rotor-assemblies",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 2000,
-      "max": 15000,
+      "min": 800000,
+      "max": 2500000,
       "unit": "per piece",
       "note": "Tuyère / segment de tuyère ; moulage de précision"
     },
@@ -2608,7 +2608,7 @@
     "slug": "turbine-nozzles-and-diaphragms",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 6000,
+      "min": 1000,
       "max": 45000,
       "unit": "per piece",
       "note": "Roue dentée / pignon ; cémenté"
@@ -2666,8 +2666,8 @@
     "slug": "mechanical-centrifugal-speed-governors",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 3000,
-      "max": 20000,
+      "min": 150000,
+      "max": 200000,
       "unit": "per piece",
       "note": "Collier de butée / patin de butée ; babbitt de précision"
     },
@@ -4908,7 +4908,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "Turbine Spares",
+    "category": "Electronic Equipments",
     "title": "Capteur magnétique (Woodward)",
     "desc": "Capteur de vitesse magnétique à réluctance variable Woodward authentique (MPU) pour la rétroaction précise de vitesse d'arbre vers les régulateurs Woodward et systèmes de contrôle de turbine numériques. Conception passive, autoalimentée, sans entretien pour un service continu sur turbines à vapeur fonctionnant à 3000–3600 tr/min.",
     "usage": "Entrée de détection de vitesse primaire pour les régulateurs numériques Woodward 505/505D/505E, amplificateurs de régulateur 2301 et 7206, et systèmes de déclenchement de survitesse autonomes sur les turbines à vapeur Triveni, BHEL, Siemens, KKK et Maxwatt. Surveille la vitesse du rotor de turbine via la roue dentée du régulateur (engrenage/volant) pour fournir une régulation de vitesse en boucle fermée, un contrôle de charge, et une protection contre la survitesse tout au long du démarrage, de la synchronisation, et du fonctionnement à pleine charge.",
@@ -4962,7 +4962,7 @@
       "woodward-magnetic-pickup-12.webp"
     ],
     "slug": "magnetic-pickup-sensor-woodward",
-    "categorySlug": "turbine-spares",
+    "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 5500,
       "max": 45000,
@@ -6646,7 +6646,7 @@
   },
   "prod_af5": {
     "id": "prod_af5",
-    "sku": "KTB-IF-028",
+    "sku": "KTB-IF-031",
     "category": "Industrial Filtration",
     "title": "Manche filtrante de dépoussiéreur à impulsion d'air avec élément à cartouche plissée ou lisse",
     "desc": "Manches filtrantes de qualité industrielle et éléments à cartouche plissée pour dépoussiéreurs à impulsion d'air et systèmes à manches. Fournis sous forme de manches filtrantes cylindriques tissées ou en feutre aiguilleté (surface extérieure lisse pour boîtiers standard type cage) ou d'éléments à cartouche plissée (média plissé en accordéon autour d'un noyau perforé — jusqu'à 5x la surface de filtre d'une manche lisse équivalente dans le même encombrement de boîtier). Les deux conceptions sont compatibles avec le nettoyage par contre-courant à impulsion d'air. Les options de média couvrent le feutre polyester standard, l'antistatique, la membrane PTFE, l'aramide, et la fibre de verre pour des températures jusqu'à 260 °C.",

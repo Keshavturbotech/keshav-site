@@ -39,3 +39,63 @@ export function sanitiseForWhatsApp(s: unknown): string {
 export function waMsg(whatsappNumber: string, text: string): string {
   return `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(String(text ?? "").slice(0, 1500))}`;
 }
+
+// ─────────────────────────────────────────────────────────────────────────
+// Web3Forms submit, hardened. Three failure modes made forms look "broken"
+// with a confusing message (or silently):
+//   1. A non-JSON reply (network/ad-blocker/proxy HTML page) made res.json()
+//      throw "Unexpected token <" — shown raw to the visitor.
+//   2. File attachments are a Web3Forms PRO feature. On a free key the whole
+//      submission is rejected whenever the visitor attaches a file, so the
+//      enquiry was lost. We now retry once WITHOUT the file and tell the
+//      team to ask for it by email, so the lead always arrives.
+//   3. fetch() rejecting ("Failed to fetch") surfaced as-is.
+// Returns { attachmentDropped }. Throws Error(message) with a visitor-safe
+// message on real failure.
+export async function postWeb3Forms(
+  fd: FormData,
+): Promise<{ attachmentDropped: boolean }> {
+  const send = async (body: FormData) => {
+    let res: Response;
+    try {
+      res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body,
+      });
+    } catch {
+      throw new Error(
+        "Could not reach the form service. Check your connection (or disable ad-blockers for this site) and try again, or contact us on WhatsApp.",
+      );
+    }
+    let data: { success?: boolean; message?: string } | null = null;
+    try {
+      data = await res.json();
+    } catch {
+      data = null;
+    }
+    if (!res.ok || !data || data.success === false) {
+      throw new Error(data?.message || "Submission failed. Please try again or contact us on WhatsApp.");
+    }
+  };
+
+  try {
+    await send(fd);
+    return { attachmentDropped: false };
+  } catch (err) {
+    if (fd.has("attachment")) {
+      const retry = new FormData();
+      fd.forEach((value, key) => {
+        if (key !== "attachment") retry.append(key, value);
+      });
+      const file = fd.get("attachment");
+      retry.append(
+        "Attachment note",
+        `Visitor attached "${file instanceof File ? file.name : "a file"}" but it could not be sent (file uploads need a paid Web3Forms plan). Please ask them to email it.`,
+      );
+      await send(retry); // throws the real error if this fails too
+      return { attachmentDropped: true };
+    }
+    throw err;
+  }
+}

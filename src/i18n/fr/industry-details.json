@@ -88,7 +88,7 @@
     ],
     "keyFacts": [
       "Capacité de turbine maximale traitée : 60 MW",
-      "Plus de 26 ans d'expérience d'ingénierie formée par les OEM",
+      "Plus de {years} ans d'expérience d'ingénierie formée par les OEM",
       "Produits conformes API 614 et ISO 4406:99",
       "Fourniture de filtres HVAC pour salles de contrôle et halls de turbines",
       "Assistance d'urgence 24h/24 et 7j/7"

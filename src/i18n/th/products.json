@@ -2871,7 +2871,7 @@
     "priceRange": {
       "min": 8000,
       "max": 65000,
-      "unit": "per bearing",
+      "unit": "per set",
       "note": "แบริ่งโลหะขาว / บาบิท; ทำใหม่หรือรีบาบิท"
     },
     "availability": {
@@ -2923,8 +2923,8 @@
     "slug": "babbitt-journal-bearings-and-thrust-pads",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 12000,
-      "max": 95000,
+      "min": 10000,
+      "max": 125000,
       "unit": "per piece",
       "note": "เพลาโรเตอร์; เหล็กผสมกลึงอย่างแม่นยำ"
     },
@@ -3037,7 +3037,7 @@
     "categorySlug": "turbine-spares",
     "priceRange": {
       "min": 1500,
-      "max": 12000,
+      "max": 20000,
       "unit": "per piece",
       "note": "สลักเกลียว/สตัดคัปปลิ้ง; เหล็กผสม"
     },
@@ -3144,8 +3144,8 @@
     "slug": "complete-turbine-rotor-assemblies",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 2000,
-      "max": 15000,
+      "min": 800000,
+      "max": 2500000,
       "unit": "per piece",
       "note": "หัวฉีด / ชิ้นส่วนหัวฉีด; หล่อแบบ investment cast"
     },
@@ -3252,7 +3252,7 @@
     "slug": "turbine-nozzles-and-diaphragms",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 6000,
+      "min": 1000,
       "max": 45000,
       "unit": "per piece",
       "note": "เฟือง / พีเนียน; case hardened"
@@ -3310,8 +3310,8 @@
     "slug": "mechanical-centrifugal-speed-governors",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 3000,
-      "max": 20000,
+      "min": 150000,
+      "max": 200000,
       "unit": "per piece",
       "note": "Thrust collar / thrust pad; บาบิทความแม่นยำสูง"
     },
@@ -5849,7 +5849,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "Turbine Spares",
+    "category": "Electronic Equipments",
     "title": "เซนเซอร์ Magnetic Pickup (Woodward)",
     "desc": "เซนเซอร์ความเร็วแม่เหล็กแบบ variable reluctance (MPU) แท้จาก Woodward สำหรับป้อนกลับความเร็วเพลาที่แม่นยำไปยัง governor ของ Woodward และระบบควบคุมกังหันดิจิทัล ออกแบบแบบพาสซีฟ จ่ายไฟในตัวเอง ไม่ต้องบำรุงรักษาสำหรับงานต่อเนื่องบนกังหันไอน้ำที่ทำงานที่ 3000–3600 RPM",
     "usage": "อินพุตตรวจจับความเร็วหลักสำหรับ governor ดิจิทัล Woodward 505/505D/505E, แอมพลิฟายเออร์ governor 2301 และ 7206 และระบบ trip overspeed แบบ standalone บนกังหันไอน้ำ Triveni, BHEL, Siemens, KKK และ Maxwatt ตรวจสอบความเร็วโรเตอร์กังหันผ่านล้อเฟือง governor (เฟือง/ล้อช่วยแรง) เพื่อควบคุมความเร็วแบบวงปิด ควบคุมโหลด และป้องกัน overspeed ตลอดการเริ่มเดินเครื่อง การซิงโครไนซ์ และการทำงานที่โหลดเต็ม",
@@ -5903,7 +5903,7 @@
       "woodward-magnetic-pickup-12.webp"
     ],
     "slug": "magnetic-pickup-sensor-woodward",
-    "categorySlug": "turbine-spares",
+    "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 5500,
       "max": 45000,
@@ -6466,7 +6466,7 @@
   },
   "prod_af5": {
     "id": "prod_af5",
-    "sku": "KTB-IF-028",
+    "sku": "KTB-IF-031",
     "category": "Industrial Filtration",
     "title": "ถุงฟิลเตอร์ Pulse-Jet Dust Collector พร้อมเอลิเมนต์คาร์ทริดจ์แบบพับหรือเรียบ",
     "desc": "ถุงฟิลเตอร์และเอลิเมนต์คาร์ทริดจ์แบบพับเกรดอุตสาหกรรมสำหรับ pulse-jet dust collector และระบบ baghouse จัดส่งเป็นถุงฟิลเตอร์ทรงกระบอกแบบทอหรือ needle-felt (พื้นผิวด้านนอกเรียบสำหรับตัวเรือนแบบ cage มาตรฐาน) หรือเป็นเอลิเมนต์คาร์ทริดจ์แบบพับ (สื่อพับแบบหีบเพลงรอบแกนเจาะรู — พื้นที่กรองสูงสุดถึง 5 เท่าเทียบกับถุงเรียบขนาดเท่ากันในขนาดตัวเรือนเดียวกัน) ทั้งสองดีไซน์เข้ากันได้กับการทำความสะอาดแบบ reverse-flow pulse-jet ตัวเลือกสื่อครอบคลุมเฟลต์โพลีเอสเตอร์มาตรฐาน ป้องกันไฟฟ้าสถิต เมมเบรน PTFE อารามิด และใยแก้วสำหรับอุณหภูมิสูงถึง 260°C",

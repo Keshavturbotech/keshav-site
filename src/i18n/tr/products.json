@@ -2871,7 +2871,7 @@
     "priceRange": {
       "min": 8000,
       "max": 65000,
-      "unit": "per bearing",
+      "unit": "per set",
       "note": "Beyaz metal / babbitt yatak; yeniden dökülmüş veya yeni"
     },
     "availability": {
@@ -2923,8 +2923,8 @@
     "slug": "babbitt-journal-bearings-and-thrust-pads",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 12000,
-      "max": 95000,
+      "min": 10000,
+      "max": 125000,
       "unit": "per piece",
       "note": "Rotor mili; hassas işlenmiş alaşımlı çelik"
     },
@@ -3037,7 +3037,7 @@
     "categorySlug": "turbine-spares",
     "priceRange": {
       "min": 1500,
-      "max": 12000,
+      "max": 20000,
       "unit": "per piece",
       "note": "Kaplin cıvataları / saplamaları; alaşımlı çelik"
     },
@@ -3144,8 +3144,8 @@
     "slug": "complete-turbine-rotor-assemblies",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 2000,
-      "max": 15000,
+      "min": 800000,
+      "max": 2500000,
       "unit": "per piece",
       "note": "Nozul / nozul segmenti; hassas döküm (investment cast)"
     },
@@ -3252,7 +3252,7 @@
     "slug": "turbine-nozzles-and-diaphragms",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 6000,
+      "min": 1000,
       "max": 45000,
       "unit": "per piece",
       "note": "Dişli çarkı / pinyon; yüzey sertleştirilmiş"
@@ -3310,8 +3310,8 @@
     "slug": "mechanical-centrifugal-speed-governors",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 3000,
-      "max": 20000,
+      "min": 150000,
+      "max": 200000,
       "unit": "per piece",
       "note": "İtme bileziği / itme pedi; hassas babbitt"
     },
@@ -5849,7 +5849,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "Turbine Spares",
+    "category": "Electronic Equipments",
     "title": "Manyetik Pickup Sensörü (Woodward)",
     "desc": "Woodward regülatörlerine ve dijital türbin kontrol sistemlerine hassas mil hızı geri beslemesi için orijinal Woodward değişken relüktanslı manyetik hız pickup'ı (MPU). 3000–3600 RPM'de çalışan buhar türbinlerinde sürekli görev için pasif, kendinden beslemeli, bakım gerektirmeyen tasarım.",
     "usage": "Woodward 505/505D/505E dijital regülatörleri, 2301 ve 7206 regülatör amplifikatörleri ve Triveni, BHEL, Siemens, KKK ve Maxwatt buhar türbinlerinde bağımsız aşırı hız tripi sistemleri için birincil hız algılama girişi. Kapalı döngü hız regülasyonu, yük kontrolü ve başlatma, senkronizasyon ve tam yük çalışması boyunca aşırı hız korumasını sağlamak için türbin rotor hızını regülatör dişli çarkı (diş dişlisi / volan) üzerinden izler.",
@@ -5903,7 +5903,7 @@
       "woodward-magnetic-pickup-12.webp"
     ],
     "slug": "magnetic-pickup-sensor-woodward",
-    "categorySlug": "turbine-spares",
+    "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 5500,
       "max": 45000,
@@ -6466,7 +6466,7 @@
   },
   "prod_af5": {
     "id": "prod_af5",
-    "sku": "KTB-IF-028",
+    "sku": "KTB-IF-031",
     "category": "Industrial Filtration",
     "title": "Pilili veya Düz Kartuş Elemanlı Pulse-Jet Toz Toplayıcı Filtre Torbası",
     "desc": "Pulse-jet toz toplayıcılar ve torba evi sistemleri için endüstriyel sınıf filtre torbaları ve pilili kartuş elemanları. Silindirik dokuma veya iğneli keçe filtre torbaları (standart kafes tipi gövdeler için düz dış yüzey) veya pilili kartuş elemanları (delikli çekirdek etrafında akordeon pililenmiş ortam — aynı gövde alanında eşdeğer düz torbanın 5 katına varan filtre alanı) olarak tedarik edilir. Her iki tasarım da pulse-jet ters akış temizliğiyle uyumludur. Ortam seçenekleri standart polyester keçe, anti-statik, PTFE membran, aramid ve 260°C'ye kadar sıcaklıklar için cam elyafı kapsar.",

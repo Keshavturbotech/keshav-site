@@ -11,6 +11,7 @@ import {
   FOUNDED_YEAR,
   BUSINESS_OPERATING_YEAR,
   BUSINESS_OPERATING_YEARS,
+  OVERHAULS_COMPLETED,
   CONTACT_INFO,
 } from "../data/site-config";
 import Icon from "../components/Icon.astro";
@@ -116,7 +117,7 @@ const keywords = home.meta.keywords;
 const HOME_STATS = [
   {
     iconPath: "M3 17l6-6 4 4 8-8M21 7v6m0-6h-6",
-    end: 500,
+    end: OVERHAULS_COMPLETED,
     suffix: "+",
     label: home.stats.overhauls.label,
     sub: home.stats.overhauls.sub,

@@ -10,7 +10,7 @@ import ReadingProgressBar from "../../components/islands/ReadingProgressBar.jsx"
 import { linkifyBlogText } from "../../lib/linkifyBlogText";
 import type { BlogPost } from "../../data/blog-posts";
 import { BLOG_POSTS as BLOG_POSTS_EN } from "../../data/blog-posts";
-import { CONTACT_INFO } from "../../data/site-config";
+import { CONTACT_INFO, YEARS_IN_BUSINESS } from "../../data/site-config";
 import { getLocalizedList } from "../../lib/i18n";
 
 export function getStaticPaths() {
@@ -173,7 +173,7 @@ const waHref = (text: string) =>
           <span>
             <span class="block font-black text-slate-800 text-sm leading-tight">{post.author}</span>
             <span class="block text-[11px] text-blue-600 font-bold leading-tight"
-              >Ex-OEM Engineers · 15+ yrs experience</span
+              >Ex-OEM Engineers · {YEARS_IN_BUSINESS}+ yrs experience</span
             >
           </span>
         </span>

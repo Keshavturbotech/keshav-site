@@ -1,15 +1,16 @@
 # Keshav Enterprises
 
-> Ex-OEM steam turbine engineers providing overhauling, reverse engineering, dynamic balancing, lube oil flushing, machine alignment, and OEM-compatible industrial spares. 38+ years in business (since 1988), based in Shamli, Uttar Pradesh, India. 24×7 emergency breakdown response.
+> Ex-OEM steam turbine engineers providing overhauling, reverse engineering, dynamic balancing, lube oil flushing, machine alignment, and OEM-compatible spares for 5 kW–60 MW turbines. Based in Shamli, Uttar Pradesh, India. 24×7 emergency breakdown response. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988 (38+ years of engineering experience); he started an independent turbine maintenance partnership in 2016, and Keshav Enterprises was formally established in June 2020.
 
-Keshav Enterprises serves steam turbines from 5 kW to 60 MW (both back-pressure and condensing types, single or multi-stage, horizontal or vertical) across power generation, sugar mills, paper mills, oil & gas, petrochemical, agro/food processing, and cement/steel industries. The engineering team includes ex-OEM specialists from Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, Chola Turbo, DLF-Skoda, KKK, ABB.
+Keshav Enterprises serves steam turbines from 5 kW to 60 MW (both back-pressure and condensing types, single or multi-stage, horizontal or vertical) across 7 industry sectors: Power Generation, Sugar Mills & Distilleries, Paper & Pulp Mills, Oil & Gas Industries, Petrochemical & Refineries, Agro & Food Processing, Cement & Steel Plants. The engineering team includes ex-OEM specialists from Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, Chola Turbo, DLF-Skoda, KKK, ABB. More than 500 overhauls completed.
 
 ## Company
 
 - [About](https://keshavturbotech.com/about): Company history, timeline, team, OEM expertise, and export credentials (IEC registered, GST 09BOSPS3115K1ZC, MSME UDYAM-UP-47-0071234).
 - [Contact](https://keshavturbotech.com/contact): Phone, email, address, office hours, and RFQ form. Phones: +91 9149229448, +91 6397363268. Email: ksengg007@gmail.com.
+- [Downloads](https://keshavturbotech.com/downloads): Free technical checklists, datasheets, and RFQ templates.
 
-## Services
+## Services (8)
 
 - [Turbine Erection & Commissioning](https://keshavturbotech.com/services/turbine-erection-and-commissioning): Expert erection and commissioning for steam turbines, pumps, compressors, fans, condensers, EOT cranes, and steam/water/air pipeline work. Includes complete OEM coordination and documentation.
 - [Turnkey Overhauling & Maintenance](https://keshavturbotech.com/services/turnkey-overhauling-and-maintenance): Executed by ex-OEM engineers from Triveni, Siemens, BHEL, Belliss, and more. Includes pre-shutdown planning, on-site condition reporting, comprehensive spares management, and 24x7 emergency troubleshooting.
@@ -20,7 +21,7 @@ Keshav Enterprises serves steam turbines from 5 kW to 60 MW (both back-pressure 
 - [Troubleshooting Service](https://keshavturbotech.com/services/troubleshooting-service): Rapid on-site fault diagnosis for steam turbines experiencing vibration, bearing failure, governor instability, steam leakage, oil contamination, or unexpected trips. Ex-OEM engineers deploy with full diagnostic instrumentation for root-cause identification and corrective action.
 - [Sand Blasting & Surface Preparation](https://keshavturbotech.com/services/sand-blasting-and-surface-preparation): Controlled abrasive blasting for turbine rotors, casings, and components, removing rust, scale, and old coatings ahead of inspection, reverse engineering, or recoating without damaging critical machined surfaces.
 
-## Industries Served
+## Industries Served (7)
 
 - [Power Generation](https://keshavturbotech.com/industries/power-generation): Supplying critical overhauling services and OEM-compatible spares to thermal power plants operating steam turbines from 5 MW to 60 MW. Our ex-OEM engineers ensure maximum plant availability.
 - [Sugar Mills & Distilleries](https://keshavturbotech.com/industries/sugar-mills-and-distilleries): Serving India's sugar industry with specialized back-pressure steam turbine services. Scheduled overhauling during off-season and emergency breakdown support during crushing season.
@@ -30,31 +31,181 @@ Keshav Enterprises serves steam turbines from 5 kW to 60 MW (both back-pressure 
 - [Agro & Food Processing](https://keshavturbotech.com/industries/agro-and-food-processing): Agro-industrial facilities including rice mills, cotton gins, and food processing plants rely on back-pressure steam turbines for power and process steam. We provide cost-effective overhauling, spares, and fitration products.
 - [Cement & Steel Plants](https://keshavturbotech.com/industries/cement-and-steel-plants): Cement and steel plants operate large multi-stage steam turbines and require high-reliability maintenance with minimum production disruption. We provide planned and emergency overhauling services.
 
-## Products
+## Product Catalogue (120 products in 10 categories)
 
-120 total SKUs across multiple categories. Full catalog: https://keshavturbotech.com/products
-Categories: Industrial Filtration, Industrial Strainers, Expansion Joints, HVAC, Ducting & Air Filtration, Valves, Gaskets & Steam System Products, Turbine Spares, Industrial Rubber Products, Flexible Hoses & Assemblies, Electronic Equipments, Hydraulic Components
+Full catalogue: https://keshavturbotech.com/products
 
-## Projects & Case Studies
+### Industrial Filtration (30)
+- [Triveni Replacement Turbine Lube Oil Filter Elements](https://keshavturbotech.com/products/triveni-replacement-turbine-lube-oil-filter-elements)
+- [Siemens Replacement Turbine Lube Oil Filter Elements](https://keshavturbotech.com/products/siemens-replacement-turbine-lube-oil-filter-elements)
+- [SS Wire Mesh (CEP) Centrifugal Filter Elements](https://keshavturbotech.com/products/ss-wire-mesh-cep-centrifugal-filter-elements)
+- [Tank Breather Filter Elements (NBF Series)](https://keshavturbotech.com/products/tank-breather-filter-elements-nbf-series)
+- [Hydraulic Suction Strainer Elements (AS/TS Series)](https://keshavturbotech.com/products/hydraulic-suction-strainer-elements-as-ts-series)
+- [WaterSorp Offline Filter Elements (WSNR Series)](https://keshavturbotech.com/products/watersorp-offline-filter-elements-wsnr-series)
+- [PTFE Hydrophobic Air & Gas Filter Elements](https://keshavturbotech.com/products/ptfe-hydrophobic-air-and-gas-filter-elements)
+- [Return-Line Filter Elements](https://keshavturbotech.com/products/return-line-filter-elements)
+- [Duplex Control Oil Filter Assembly](https://keshavturbotech.com/products/duplex-control-oil-filter-assembly)
+- [Duplex Fabricated Filter Housing](https://keshavturbotech.com/products/duplex-fabricated-filter-housing)
+- [Filter Bag & Support Cage Assembly](https://keshavturbotech.com/products/filter-bag-and-support-cage-assembly)
+- [Siemens Replacement Turbine Control Oil Filters](https://keshavturbotech.com/products/siemens-replacement-turbine-control-oil-filters)
+- [Triveni Replacement Turbine Control Oil Filters](https://keshavturbotech.com/products/triveni-replacement-turbine-control-oil-filters)
+- [Wedge Wire Filter Element](https://keshavturbotech.com/products/wedge-wire-filter-element)
+- [Concrete Pump Filter Element](https://keshavturbotech.com/products/concrete-pump-filter-element)
+- [Dust Collector Filter Cartridge](https://keshavturbotech.com/products/dust-collector-filter-cartridge)
+- [Pleated Dust Collector Filter Cartridge (Flange-Type)](https://keshavturbotech.com/products/pleated-dust-collector-filter-cartridge-flange-type)
+- [Oil Vapour Extractor Filter](https://keshavturbotech.com/products/oil-vapour-extractor-filter)
+- [HYDAC Replacement Filter Elements](https://keshavturbotech.com/products/hydac-replacement-filter-elements)
+- [Pall Replacement Filter Elements](https://keshavturbotech.com/products/pall-replacement-filter-elements)
+- [Bhagwati Replacement Oil Filters](https://keshavturbotech.com/products/bhagwati-replacement-oil-filters)
+- [Compressor Air Oil Separator Filter Element](https://keshavturbotech.com/products/air-oil-separator-filter)
+- [BHEL Replacement Turbine Lube Oil Filter Elements](https://keshavturbotech.com/products/bhel-replacement-turbine-lube-oil-filter-elements)
+- [HTC Replacement Turbine Filter Elements](https://keshavturbotech.com/products/htc-replacement-turbine-filter-elements)
+- [High-Pressure Single Cartridge Filter Housing](https://keshavturbotech.com/products/high-pressure-single-cartridge-filter-housing)
+- [Magnetic Filter / Separator Assembly](https://keshavturbotech.com/products/magnetic-filter-separator-assembly)
+- [Pulse-Jet Dust Collector Filter Bag / Cartridge](https://keshavturbotech.com/products/pulse-jet-dust-collector-filter-bag-cartridge)
+- [Cenlub Replacement Filter Elements](https://keshavturbotech.com/products/cenlub-replacement-filter-elements)
+- [Eaton Replacement Filter Elements](https://keshavturbotech.com/products/eaton-replacement-filter-elements)
+- [EPE Replacement Filter Elements](https://keshavturbotech.com/products/epe-replacement-filter-elements)
 
-8 documented field case studies with measured outcomes. Full list: https://keshavturbotech.com/projects
-- [Triveni 5 MW Back-Pressure Turbine: Full Overhaul & Rotor Balance](https://keshavturbotech.com/projects/cs_01)
-- [Siemens SST-200 Impulse Stage Disc: Reverse Engineering & Manufacture](https://keshavturbotech.com/projects/cs_02)
-- [Maxwatt 3.5 MW Co-Gen Turbine: Greenfield Erection & Commissioning](https://keshavturbotech.com/projects/cs_03)
-- [BHEL 15 MW Extraction-Condensing Turbine: Post-Overhaul Lube Oil Flush](https://keshavturbotech.com/projects/cs_04)
-- [KKK Compressor-Gearbox-Motor Train: Precision Laser Alignment](https://keshavturbotech.com/projects/cs_05)
+### Industrial Strainers (7)
+- [SS/CS Simplex Basket Strainer (DN15–DN600)](https://keshavturbotech.com/products/simplex-basket-strainer)
+- [SS/CS Duplex Basket Strainer: Continuous Service](https://keshavturbotech.com/products/duplex-basket-strainer)
+- [SS 304/316 Conical Strainer (DN15–DN1200)](https://keshavturbotech.com/products/conical-strainer)
+- [Cast Steel Y-Type Strainer (DN15–DN400)](https://keshavturbotech.com/products/y-type-strainer)
+- [Pot / Bucket Type Strainer](https://keshavturbotech.com/products/pot-bucket-type-strainer)
+- [SS 304/316 Basket Strainer Replacement Elements](https://keshavturbotech.com/products/basket-strainer-elements)
+- [Stainless Steel Notch Wire Strainer Element](https://keshavturbotech.com/products/stainless-steel-notch-wire-strainer-element)
 
-## Engineering Blog
+### Expansion Joints (19)
+- [Stainless Steel Metallic Bellows Expansion Joint](https://keshavturbotech.com/products/stainless-steel-metallic-bellows-expansion-joint)
+- [SS/Alloy Axial Expansion Joint (DN15–DN12,000)](https://keshavturbotech.com/products/axial-expansion-joint)
+- [Double Arch Rubber Expansion Joint](https://keshavturbotech.com/products/double-arch-rubber-expansion-joint)
+- [Single Arch Rubber Expansion Joint](https://keshavturbotech.com/products/single-arch-rubber-expansion-joint)
+- [Wide Arch Rubber Expansion Bellow](https://keshavturbotech.com/products/wide-arch-rubber-expansion-bellow)
+- [Industrial Heat Exchanger Bellows](https://keshavturbotech.com/products/industrial-heat-exchanger-bellows)
+- [Universal Metallic Expansion Joint](https://keshavturbotech.com/products/universal-metallic-expansion-joint)
+- [Non-Metallic Fabric Expansion Joint](https://keshavturbotech.com/products/non-metallic-fabric-expansion-joint)
+- [Pressure Balance Expansion Joint](https://keshavturbotech.com/products/pressure-balance-expansion-joint)
+- [Ring Reinforced Metallic Expansion Joint](https://keshavturbotech.com/products/ring-reinforced-metallic-expansion-joint)
+- [Lateral Metallic Expansion Joint](https://keshavturbotech.com/products/lateral-metallic-expansion-joint)
+- [Angular Hinged / Gimbal Expansion Joint](https://keshavturbotech.com/products/angular-hinged-gimbal-expansion-joint)
+- [Metallic Vibration Absorber](https://keshavturbotech.com/products/metallic-vibration-absorber)
+- [Steam Crossover Piping Bellows](https://keshavturbotech.com/products/steam-crossover-piping-bellows)
+- [Lens Type Expansion Joint](https://keshavturbotech.com/products/lens-type-expansion-joint)
+- [Rectangular Expansion Joint](https://keshavturbotech.com/products/rectangular-expansion-joint)
+- [Cryogenic LNG / LPG Expansion Joint](https://keshavturbotech.com/products/cryogenic-lng-lpg-expansion-joint)
+- [Octagonal Profile Expansion Joint](https://keshavturbotech.com/products/octagonal-profile-expansion-joint)
+- [Thick Wall Heavy-Duty Expansion Joint](https://keshavturbotech.com/products/thick-wall-heavy-duty-expansion-joint)
 
-7 technical articles on turbine maintenance, filtration, and industrial engineering. Full list: https://keshavturbotech.com/blog
+### HVAC, Ducting & Air Filtration (7)
+- [Industrial Airflow Damper](https://keshavturbotech.com/products/industrial-airflow-damper)
+- [MS & SS Industrial Duct Systems](https://keshavturbotech.com/products/ms-and-ss-industrial-duct-systems)
+- [HVAC Pocket Bag Filter (Multi-Pocket Air Filter)](https://keshavturbotech.com/products/hvac-pocket-bag-filter-multi-pocket-air-filter)
+- [Activated Carbon Vent Filter: Recirculating Air](https://keshavturbotech.com/products/activated-carbon-vent-filter-recirculating-air)
+- [HVAC Metallic Mesh Pre-Filter](https://keshavturbotech.com/products/hvac-metallic-mesh-pre-filter)
+- [F7/F8 Pleated Panel Air Filter (EN 779 / ISO 16890)](https://keshavturbotech.com/products/pleated-panel-air-filter)
+- [Bulk Wound Filter Media Rolls (Polyester / Glass Fibre)](https://keshavturbotech.com/products/wound-filter-media-rolls)
+
+### Valves, Gaskets & Steam System Products (6)
+- [MS/SS Dismantling Joint for Pipeline Maintenance](https://keshavturbotech.com/products/dismantling-joint)
+- [Gland Packing: Graphite, PTFE, PTFE-Graphite Braided Rope](https://keshavturbotech.com/products/gland-packing-graphite-ptfe-ptfe-graphite-braided-rope)
+- [Safety Relief Valves (SRV / PSV): Spring-Loaded](https://keshavturbotech.com/products/safety-relief-valves-srv-psv-spring-loaded)
+- [Steam Trap Assemblies: Thermodynamic & Float Type](https://keshavturbotech.com/products/steam-trap-assemblies-thermodynamic-and-float-type)
+- [Spiral Wound Gaskets (SWG): ASME B16.20](https://keshavturbotech.com/products/spiral-wound-gaskets-swg-asme-b16-20)
+- [Ring Joint Gaskets (RTJ), Oval & Octagonal: ASME B16.20](https://keshavturbotech.com/products/ring-joint-gaskets-rtj-oval-and-octagonal-asme-b16-20)
+
+### Turbine Spares (33)
+- [Steam Turbine Carbon & Graphite Gland Sealing Rings](https://keshavturbotech.com/products/carbon-and-graphite-gland-sealing-rings)
+- [Steam Turbine Labyrinth Shaft Sealing Packings](https://keshavturbotech.com/products/labyrinth-shaft-sealing-packings)
+- [Steam Turbine Babbitt Journal Bearings & Thrust Pads](https://keshavturbotech.com/products/babbitt-journal-bearings-and-thrust-pads)
+- [Steam Turbine Emergency Stop Valves (ESV)](https://keshavturbotech.com/products/emergency-stop-valves-esv)
+- [Steam Turbine Lube Oil Pumps & Mechanical Seals](https://keshavturbotech.com/products/turbine-lube-oil-pumps-and-mechanical-seals)
+- [Steam Turbine High-Purity Electrographite Sealing Rings](https://keshavturbotech.com/products/high-purity-electrographite-sealing-rings)
+- [Complete Steam Turbine Rotor Assemblies](https://keshavturbotech.com/products/complete-turbine-rotor-assemblies)
+- [Precision Steam Turbine Gears & Worm Wheels](https://keshavturbotech.com/products/precision-turbine-gears-and-worm-wheels)
+- [Steam Turbine Nozzles & Diaphragms](https://keshavturbotech.com/products/turbine-nozzles-and-diaphragms)
+- [Steam Turbine Mechanical Centrifugal Speed Governors](https://keshavturbotech.com/products/mechanical-centrifugal-speed-governors)
+- [Steam Turbine Throttle (Control) Valves](https://keshavturbotech.com/products/turbine-throttle-control-valves)
+- [High/Low Speed Couplings for Steam Turbines](https://keshavturbotech.com/products/high-low-speed-couplings-for-turbines)
+- [Steam Turbine Flexible Disc Pack (MetaFlex)](https://keshavturbotech.com/products/flexible-disc-pack-metaflex)
+- [Steam Turbine & Boiler Sight Glass: Round / Reflex](https://keshavturbotech.com/products/boiler-sight-glass-round-reflex)
+- [Triveni TDPS Alternator Spherical White Metal Bearing](https://keshavturbotech.com/products/spherical-white-metal-bearing-tdps-alternator)
+- [Leaf Springs for Steam Turbine Governors](https://keshavturbotech.com/products/leaf-springs-for-turbine-governors)
+- [Steam Turbine Rotor Journal Polishing Service](https://keshavturbotech.com/products/rotor-journal-polishing-service)
+- [Steam Turbine Fulcrum Pins: Blade Locking Linkage](https://keshavturbotech.com/products/fulcrum-pins-blade-locking-trip-mechanism-linkage)
+- [Spiral Conveyor Screw for Turbine Auxiliaries](https://keshavturbotech.com/products/spiral-conveyor-screw-turbine-auxiliaries)
+- [Gear Coupling Nylon Sleeve (Multi-Brand OEM Replacement)](https://keshavturbotech.com/products/nylon-sleeve-for-gear-coupling)
+- [KTR BoWex Curved-Tooth Gear Coupling](https://keshavturbotech.com/products/ktr-bowex-curved-tooth-gear-coupling)
+- [Shear Pins for Steam Turbine Couplings](https://keshavturbotech.com/products/shear-pins-turbine-coupling)
+- [Dowty Replacement Hydraulic Oil Pumps](https://keshavturbotech.com/products/dowty-replacement-hydraulic-oil-pumps)
+- [Steam Turbine Blades (Moving & Stationary)](https://keshavturbotech.com/products/steam-turbine-blades-moving-and-stationary)
+- [Woodward Replacement Governor Cards & PCB Assemblies](https://keshavturbotech.com/products/woodward-replacement-governor-cards-and-pcb-assemblies)
+- [Steam Turbine Shaft Seal Kit: Carbon Ring Gland](https://keshavturbotech.com/products/complete-shaft-seal-kit-carbon-ring-gland-assembly)
+- [Steam Turbine Bearing Rebabbitting Service](https://keshavturbotech.com/products/bearing-rebabbitting-service)
+- [Steam Turbine Lube Oil Cooler (Shell & Tube / Plate)](https://keshavturbotech.com/products/turbine-lube-oil-cooler-shell-and-tube-plate-type)
+- [Steam Turbine Lube Oil Pressure Instruments & Gauges](https://keshavturbotech.com/products/lube-oil-system-pressure-instruments-and-gauges)
+- [Steam Turbine Pressure Reducing Valve (PRV) & PRDS](https://keshavturbotech.com/products/pressure-reducing-valve-prv-and-prds-station)
+- [Steam Turbine Overspeed Trip Device & Speed Switch](https://keshavturbotech.com/products/overspeed-trip-device-and-speed-switch)
+- [Steam Turbine Lube Oil DP & Temperature Switches](https://keshavturbotech.com/products/dp-and-temperature-switches-turbine-lube-oil-monitoring)
+- [Leaf Springs for Steam Turbine Labyrinth Gland Seals](https://keshavturbotech.com/products/leaf-springs-for-turbine-labyrinth-gland-seals)
+
+### Industrial Rubber Products (1)
+- [Custom Extruded Rubber Profiles & Seals](https://keshavturbotech.com/products/custom-extruded-rubber-profiles-and-seals)
+
+### Flexible Hoses & Assemblies (9)
+- [SS Corrugated Flexible Metal Hose Assemblies](https://keshavturbotech.com/products/ss-corrugated-flexible-metal-hose-assemblies)
+- [SS Hose Pre-Fitted Assemblies](https://keshavturbotech.com/products/ss-hose-pre-fitted-assemblies)
+- [Generator & Engine Exhaust Bellows](https://keshavturbotech.com/products/generator-and-engine-exhaust-bellows)
+- [PTFE Lined Smooth Bore Hose Assemblies](https://keshavturbotech.com/products/ptfe-lined-smooth-bore-hose-assemblies)
+- [High-Pressure Hydraulic Rubber Hose Assemblies](https://keshavturbotech.com/products/high-pressure-hydraulic-rubber-hose-assemblies)
+- [PTFE Braided Corrugated Transfer Hose](https://keshavturbotech.com/products/ptfe-braided-corrugated-transfer-hose)
+- [Metallic Flexible Hose (Corrugated Core)](https://keshavturbotech.com/products/metallic-flexible-hose-corrugated-core)
+- [Steam Hose: High Temperature Service](https://keshavturbotech.com/products/steam-hose-high-temperature-service)
+- [FDA-Compliant Food-Grade Flexible Hose (PTFE/SS316L)](https://keshavturbotech.com/products/flexible-food-grade-hose)
+
+### Electronic Equipments (6)
+- [Vibration Monitoring Probes (Shinkawa-compatible)](https://keshavturbotech.com/products/vibration-monitoring-probes-shinkawa-compatible)
+- [Magnetic Pickup Sensor (Woodward)](https://keshavturbotech.com/products/magnetic-pickup-sensor-woodward)
+- [ASCO 8210 Series Explosion-Proof Solenoid Valve](https://keshavturbotech.com/products/asco-8210-series-explosion-proof-solenoid-valve)
+- [Beacon Industrial Analog Tachometer Gauge](https://keshavturbotech.com/products/beacon-industrial-analog-tachometer-gauge)
+- [RTD & Sensors for Power Plants & Steam Turbines](https://keshavturbotech.com/products/rtd-and-sensors-for-power-plants-and-steam-turbines)
+- [SEMIKRON SKN240/16 Rectifier Diode](https://keshavturbotech.com/products/semikron-skn240-16-rectifier-diode)
+
+### Hydraulic Components (2)
+- [Directional Control Valves (All Major Makes)](https://keshavturbotech.com/products/directional-control-valves-all-major-makes)
+- [Hydraulic Accumulators: Bladder & Piston Type](https://keshavturbotech.com/products/hydraulic-accumulators-bladder-and-piston-type)
+
+## Projects & Case Studies (8)
+
+Full list: https://keshavturbotech.com/projects
+
+- [Triveni 5 MW Back-Pressure Turbine — Full Overhaul & Rotor Balance](https://keshavturbotech.com/projects/cs_01)
+- [Siemens SST-200 Impulse Stage Disc — Reverse Engineering & Manufacture](https://keshavturbotech.com/projects/cs_02)
+- [Maxwatt 3.5 MW Co-Gen Turbine — Greenfield Erection & Commissioning](https://keshavturbotech.com/projects/cs_03)
+- [BHEL 15 MW Extraction-Condensing Turbine — Post-Overhaul Lube Oil Flush](https://keshavturbotech.com/projects/cs_04)
+- [KKK Compressor-Gearbox-Motor Train — Precision Laser Alignment](https://keshavturbotech.com/projects/cs_05)
+- [Cement Mill Fan Rotor — Dynamic Balancing & Journal Machining](https://keshavturbotech.com/projects/cs_06)
+- [Belliss & Morcom Turbine — Emergency Babbitt Bearing Failure During Crushing Season](https://keshavturbotech.com/projects/cs_07)
+- [BHEL 3 MW Turbine — High Vibration Root-Cause Investigation & Correction](https://keshavturbotech.com/projects/cs_08)
+
+## Engineering Blog (7)
+
+Full list: https://keshavturbotech.com/blog
+
 - [The Complete Steam Turbine Overhauling Checklist for Plant Engineers](https://keshavturbotech.com/blog/steam-turbine-overhauling-checklist)
-- [How Lube Oil Contamination Destroys Turbine Bearings: And How to Prevent It](https://keshavturbotech.com/blog/lube-oil-contamination-turbine-bearings)
+- [How Lube Oil Contamination Destroys Turbine Bearings — And How to Prevent It](https://keshavturbotech.com/blog/lube-oil-contamination-turbine-bearings)
 - [Reverse Engineering Turbine Spares: How We Recreate Obsolete Components in India](https://keshavturbotech.com/blog/reverse-engineering-turbine-spares-india)
-- [Belliss & Morcom Turbine Common Faults: Field Guide for Indian Plants](https://keshavturbotech.com/blog/belliss-morcom-turbine-common-faults-india)
-- [How to Read an ISO 4406 Lube Oil Cleanliness Report: A Guide for Maintenance Engineers](https://keshavturbotech.com/blog/iso-4406-lube-oil-cleanliness-guide)
+- [Belliss & Morcom Turbine Common Faults — Field Guide for Indian Plants](https://keshavturbotech.com/blog/belliss-morcom-turbine-common-faults-india)
+- [How to Read an ISO 4406 Lube Oil Cleanliness Report — A Guide for Maintenance Engineers](https://keshavturbotech.com/blog/iso-4406-lube-oil-cleanliness-guide)
+- [HVAC Air Filter Selection Guide for Industrial Facilities — F5 to F9 and Everything In Between](https://keshavturbotech.com/blog/hvac-air-filter-selection-guide-industrial)
+- [How to Select the Right Pulse-Jet Dust Collector Filter Bag — Media, Finish & Anti-Static Guide for Indian Plants](https://keshavturbotech.com/blog/pulse-jet-dust-collector-filter-bag-selection)
+
+## Languages & Sitemap
+
+English is served at the site root. Translated versions of the same pages live under: /hi, /mr, /gu, /ar, /fr, /ne, /es, /pt, /ru, /de, /zh-cn, /id, /th, /vi, /tr, /sw.
+Sitemap: https://keshavturbotech.com/sitemap-index.xml
 
 ## Other
 
-- [Downloads](https://keshavturbotech.com/downloads): Free technical checklists, datasheets, and RFQ templates.
 - [Privacy Policy](https://keshavturbotech.com/privacy-policy)
 - [Terms of Service](https://keshavturbotech.com/terms-of-service)

@@ -12,7 +12,7 @@
     "h1Line1": "Präzisionstechnik für",
     "h1Line2": "maximale Verfügbarkeit.",
     "capabilityLine": "Dampfturbinen von 5 kW bis 60 MW — Gegendruck- und Kondensationsturbinen, horizontal und vertikal, ein- und mehrstufig. Wir betreuen Kunden in ganz Indien und weltweit.",
-    "introText": "Ex-OEM-Ingenieure von Triveni, Siemens, BHEL und 7 weiteren Marken. Wir bringen Ihre Turbine schneller zurück in Betrieb als die OEM-Beschaffung — mit vollständigen PMI-Zertifikaten, ISO-Auswuchtberichten und einer straffreien Erfolgsbilanz seit {founded}.",
+    "introText": "Ex-OEM-Ingenieure von Triveni, Siemens, BHEL und 7 weiteren Marken. Wir bringen Ihre Turbine schneller zurück in Betrieb als die OEM-Beschaffung — mit vollständigen PMI-Zertifikaten, ISO-Auswuchtberichten und einer straffreien Erfolgsbilanz seit {businessSince}.",
     "ctaPrimary": "Anfrage senden",
     "ctaEmergency": "Notfall-Störung",
     "trustYearsOverhauls": "{years}+ Jahre · 500+ Überholungen",
@@ -50,7 +50,7 @@
     },
     "penaltyClaims": {
       "label": "Vertragsstrafen",
-      "sub": "Null in {years} Jahren — Kundenreferenzen auf Anfrage verfügbar"
+      "sub": "Null in {businessYears} Jahren — Kundenreferenzen auf Anfrage verfügbar"
     },
     "emergency": {
       "label": "Notfallreaktion",

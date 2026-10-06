@@ -145,7 +145,7 @@
         "label": "OEM-Fabrikate überholt"
       },
       {
-        "value": "26+",
+        "value": "{years}+",
         "label": "Jahre Felderfahrung"
       },
       {

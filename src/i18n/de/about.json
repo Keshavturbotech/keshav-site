@@ -7,10 +7,10 @@
   },
   "hero": {
     "eyebrow": "Unsere Geschichte",
-    "h1Line1": "Zwei Jahrzehnte",
+    "h1Line1": "{years}+ Jahre",
     "h1Span": "Präzisionstechnik",
     "quote": "„Null Toleranz für Anlagenstillstand — das ist kein Slogan. Es ist der Ingenieurstandard, den jeder Kunde von uns erwartet.“",
-    "intro": "Vom spezialisierten Turbinenwartungsbetrieb in Shamli, Uttar Pradesh — zum vertrauenswürdigen gesamtindischen Engineering-Partner für Kraftwerke, Zuckerfabriken, Raffinerien und Prozessindustrien. Aufgebaut auf Ex-OEM-Expertise von Triveni, Siemens, BHEL, Man Turbo, KKK und ABB. Angetrieben von einem Auftrag: maximale Verfügbarkeit.",
+    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
     "tags": [
       "Ex-OEM-Ingenieure",
       "3D-Laserscanning",
@@ -71,7 +71,7 @@
     "eyebrow": "Wer wir sind",
     "heading": "Engineering-Partner für Indiens industrielles Rückgrat",
     "paragraphs": [
-      "Keshav Enterprises ist ein Unternehmen für präzise Industrietechnik mit Hauptsitz in Shamli, Uttar Pradesh. Seit über zwei Jahrzehnten bieten wir spezialisierte Turbinenwartung, Reverse Engineering und OEM-kompatible Ersatzteile für Indiens anspruchsvollste Industriesektoren.",
+      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
       "Unser Engineering-Team umfasst Ex-OEM-Spezialisten von Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK und ABB — sie bieten Kunden das gleiche technische Fachwissen wie die Originalgerätehersteller, zu einem Bruchteil der Vorlaufzeit und der Kosten.",
       "Wir decken Dampfturbinen von 5 kW bis 60 MW ab — Gegendruck- und Kondensationsturbinen, horizontal und vertikal, ein- und mehrstufig. Unsere Werkstatt ist mit 3D-Laserscannern, Koordinatenmessmaschinen (KMG), dynamischen Auswuchtmaschinen (50–2.000 kg) und Präzisions-CNC-Drehmaschinen ausgestattet."
     ],
@@ -106,7 +106,7 @@
       },
       "productRange": {
         "caption": "Produktpalette",
-        "descTemplate": "{productCount} technische Produkte in 9 Kategorien — Filtration, HVAC-Luftfilter, Schmutzfänger, Kompensatoren, Turbinenersatzteile, Gummiprodukte, flexible Schläuche, elektronische Geräte und Hydraulikkomponenten.",
+        "descTemplate": "{productCount} technische Produkte in {categoryCount} Kategorien —{categoryList}.",
         "linkLabel": "Produkte ansehen"
       },
       "rotorInspection": {
@@ -143,34 +143,29 @@
     "heading": "Unternehmensmeilensteine",
     "items": [
       {
-        "year": "2000er",
-        "title": "Gründung",
-        "desc": "Gegründet in Shamli, UP, als spezialisierter Turbinenwartungsbetrieb für lokale Zuckerfabriken mit praktischer Überholungsexpertise."
+        "year": "1988",
+        "title": "Engineering Roots",
+        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
       },
       {
-        "year": "2005",
-        "title": "OEM-Expertise",
-        "desc": "Aufbau eines eigenen Teams aus Ex-OEM-Ingenieuren von Triveni, BHEL und Belliss & Morcom — für echte, gleichwertige OEM-Wartungsstandards."
+        "year": "2016",
+        "title": "Partnership Formed",
+        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
       },
       {
-        "year": "2010",
-        "title": "Reverse Engineering",
-        "desc": "Investition in 3D-Laserscan- und KMG-Ausrüstung, um internes Reverse Engineering für ausgelaufene Turbinenkomponenten ohne OEM-Abhängigkeit anzubieten."
+        "year": "June 2020",
+        "title": "Keshav Enterprises Founded",
+        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
       },
       {
-        "year": "2015",
-        "title": "Erweiterung der Produktpalette",
-        "desc": "Einführung einer umfassenden Industrieproduktlinie mit Filtration, HVAC-Luftfiltern, Kompensatoren, Schmutzfängern, Gummiprodukten und flexiblen Schlauchbaugruppen."
+        "year": "2021",
+        "title": "Capability & Product Line Expansion",
+        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
       },
       {
-        "year": "2020",
-        "title": "ISO/API-Auswuchten",
-        "desc": "Inbetriebnahme von dynamischen Auswuchtmaschinen nach ISO-1940- / API-670-Normen — für Rotoren von 50 bis 2.000 kg."
-      },
-      {
-        "year": "Heute",
-        "title": "Exportbereit",
-        "desc": "IEC-registriert beim DGFT — Turbinenkomponenten, Filtrationsprodukte und Industrieersatzteile nach ISO-/API-/ASME-Normen gefertigt und HSN-klassifiziert für den Export, mit Dokumentationsunterstützung für ausländische Käufer. Die gesamtindische Inlandsreichweite besteht mit 24×7-Notfall-Engineering-Support fort."
+        "year": "Today",
+        "title": "Export Ready",
+        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
       }
     ]
   },

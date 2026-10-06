@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Search, X, FileText, Download, CheckCircle2, AlertTriangle } from "lucide-react";
 import { DOWNLOADS, DOWNLOAD_CATEGORIES } from "../../data/downloads";
-import { checkFormRateLimit, sanitiseField } from "../../lib/formHelpers";
+import { checkFormRateLimit, sanitiseField, postWeb3Forms } from "../../lib/formHelpers";
 import { useFocusTrap } from "../../lib/useFocusTrap";
 
 const WEB3FORMS_KEY = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? "";
@@ -95,7 +95,14 @@ function GateModal({ item, onClose, onSuccess }) {
     // async fetch resolves is no longer treated as user-initiated and gets
     // silently blocked by popup blockers (Safari especially) — same class of
     // bug fixed in ContactForm's WhatsApp button.
-    const fileWindow = window.open("", "_blank", "noopener");
+    // NOTE: do NOT pass "noopener" here. Per the HTML spec window.open()
+    // returns null whenever "noopener" is in the features string, so the
+    // reference was always null, the pre-opened tab was lost, and the later
+    // fallback window.open() (after the await) was blocked as a popup — the
+    // visitor saw "Your download is ready" and nothing opened. Sever the
+    // opener manually instead, which keeps the reference.
+    const fileWindow = window.open("", "_blank");
+    if (fileWindow) fileWindow.opener = null;
 
     if (!checkFormRateLimit("ke_dl_ts", 10, 3_600_000)) {
       fileWindow?.close();
@@ -121,13 +128,7 @@ function GateModal({ item, onClose, onSuccess }) {
       fd.append("Phone", sanitiseField(phone) || "Not provided");
       if (city.trim()) fd.append("City", sanitiseField(city));
       fd.append("File", `${sanitiseField(item.title)} (${item.fileType})`);
-      const res = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: { Accept: "application/json" },
-        body: fd,
-      });
-      const data = await res.json();
-      if (!res.ok || data.success === false) throw new Error(data.message || "Submission failed");
+      await postWeb3Forms(fd);
       markSessionGated(item.id);
       setStatus("success");
       onSuccess(item, fileWindow);
@@ -355,6 +356,7 @@ export default function DownloadsGrid() {
   const [query, setQuery] = useState("");
   const [gateItem, setGateItem] = useState(null);
   const [sessionGated, setSessionGated] = useState([]);
+  const [fileNotice, setFileNotice] = useState("");
   const searchRef = useRef(null);
 
   useEffect(() => {
@@ -380,27 +382,53 @@ export default function DownloadsGrid() {
     searchRef.current?.focus();
   };
 
+  // Opens the document in `targetWindow` (a tab opened synchronously during the
+  // click, so popup blockers allow it) — but only if the file really exists.
+  // The six files in data/downloads.ts must be placed in /public; if one is
+  // missing the visitor used to land on a 404 page in a new tab. Now the tab
+  // is closed and they get a clear message; the lead has already been
+  // emailed to you by Web3Forms (it names the file requested).
+  const openFile = useCallback(async (item, targetWindow) => {
+    const url = `/${item.file}`;
+    let exists = false;
+    try {
+      const res = await fetch(url, { method: "HEAD", cache: "no-store" });
+      exists = res.ok;
+    } catch {
+      exists = false;
+    }
+    if (exists) {
+      setFileNotice("");
+      if (targetWindow && !targetWindow.closed) targetWindow.location.href = url;
+      else window.open(url, "_blank");
+    } else {
+      targetWindow?.close();
+      setFileNotice(
+        `“${item.title}” is being updated and can't be downloaded right now. We have your request and will email it to you shortly, or you can contact us for it directly.`,
+      );
+    }
+  }, []);
+
   const handleDownload = useCallback(
     (item) => {
       if (sessionGated.includes(item.id)) {
-        window.open(`/${item.file}`, "_blank", "noopener");
+        const w = window.open("", "_blank");
+        if (w) w.opener = null;
+        openFile(item, w);
         return;
       }
       setGateItem(item);
     },
-    [sessionGated],
+    [sessionGated, openFile],
   );
 
-  const handleGateSuccess = useCallback((item, fileWindow) => {
-    if (fileWindow && !fileWindow.closed) {
-      fileWindow.location.href = `/${item.file}`;
-    } else {
-      // Fallback in case the pre-opened window reference is unavailable —
-      // still likely to be blocked, but better than doing nothing.
-      window.open(`/${item.file}`, "_blank", "noopener");
-    }
-    setSessionGated((prev) => (prev.includes(item.id) ? prev : [...prev, item.id]));
-  }, []);
+  const handleGateSuccess = useCallback(
+    (item, fileWindow) => {
+      openFile(item, fileWindow);
+      setSessionGated((prev) => (prev.includes(item.id) ? prev : [...prev, item.id]));
+    },
+    [openFile],
+  );
 
   return (
     <>
@@ -435,6 +463,24 @@ export default function DownloadsGrid() {
           </button>
         )}
       </div>
+
+      {fileNotice && (
+        <div
+          role="status"
+          aria-live="polite"
+          className="mt-6 p-4 bg-amber-50 border border-amber-200 text-amber-900 text-sm font-semibold rounded-xl flex items-start justify-between gap-4"
+        >
+          <span>{fileNotice}</span>
+          <button
+            type="button"
+            onClick={() => setFileNotice("")}
+            aria-label="Dismiss"
+            className="shrink-0 text-amber-700 hover:text-amber-900"
+          >
+            <X className="w-4 h-4" aria-hidden="true" />
+          </button>
+        </div>
+      )}
 
       <div className="bg-slate-50 -mx-4 sm:-mx-6 lg:-mx-8 mt-10 pt-10 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

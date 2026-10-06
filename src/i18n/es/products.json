@@ -2227,7 +2227,7 @@
     "priceRange": {
       "min": 8000,
       "max": 65000,
-      "unit": "por cojinete",
+      "unit": "por juego",
       "note": "Cojinete de metal blanco/babbitt; rebabbitizado o nuevo"
     },
     "availability": {
@@ -2279,8 +2279,8 @@
       "HSN Code": "8483"
     },
     "priceRange": {
-      "min": 12000,
-      "max": 95000,
+      "min": 10000,
+      "max": 125000,
       "unit": "por pieza",
       "note": "Eje de rotor; acero aleado mecanizado de precisión"
     },
@@ -2393,7 +2393,7 @@
     },
     "priceRange": {
       "min": 1500,
-      "max": 12000,
+      "max": 20000,
       "unit": "por pieza",
       "note": "Pernos/espárragos de acoplamiento; acero aleado"
     },
@@ -2500,8 +2500,8 @@
       "HSN Code": "8406"
     },
     "priceRange": {
-      "min": 2000,
-      "max": 15000,
+      "min": 800000,
+      "max": 2500000,
       "unit": "por pieza",
       "note": "Tobera / segmento de tobera; fundición a la cera perdida"
     },
@@ -2608,7 +2608,7 @@
       "HSN Code": "8406"
     },
     "priceRange": {
-      "min": 6000,
+      "min": 1000,
       "max": 45000,
       "unit": "por pieza",
       "note": "Rueda dentada / piñón; cementado"
@@ -2666,8 +2666,8 @@
       "HSN Code": "8406"
     },
     "priceRange": {
-      "min": 3000,
-      "max": 20000,
+      "min": 150000,
+      "max": 200000,
       "unit": "por pieza",
       "note": "Collarín de empuje / patín de empuje; babbitt de precisión"
     },
@@ -6071,8 +6071,8 @@
       "woodward-magnetic-pickup-12.webp"
     ],
     "slug": "magnetic-pickup-sensor-woodward",
-    "categorySlug": "turbine-spares",
-    "category": "Repuestos para Turbinas",
+    "categorySlug": "electronic-equipments",
+    "category": "Equipos Electrónicos",
     "title": "Sensor de Captación Magnética (Woodward)",
     "desc": "Captación magnética de velocidad de reluctancia variable genuina Woodward (MPU) para retroalimentación precisa de velocidad del eje a reguladores Woodward y sistemas de control digital de turbina. Diseño pasivo, autoalimentado, sin mantenimiento para servicio continuo en turbinas de vapor que funcionan a 3000–3600 RPM.",
     "usage": "Entrada primaria de detección de velocidad para reguladores digitales Woodward 505/505D/505E, amplificadores de regulador 2301 y 7206, y sistemas de disparo por sobrevelocidad independientes en turbinas de vapor Triveni, BHEL, Siemens, KKK, y Maxwatt. Monitorea la velocidad del rotor de turbina a través de la rueda dentada del regulador para proporcionar regulación de velocidad de circuito cerrado, control de carga, y protección de sobrevelocidad durante el arranque, sincronización, y operación a plena carga.",
@@ -6604,7 +6604,7 @@
   },
   "prod_af5": {
     "id": "prod_af5",
-    "sku": "KTB-IF-028",
+    "sku": "KTB-IF-031",
     "images": [
       "pulse-jet-dust-collector-filter-1.webp",
       "pulse-jet-dust-collector-filter-2.webp",

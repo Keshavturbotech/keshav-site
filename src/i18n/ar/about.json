@@ -7,10 +7,10 @@
   },
   "hero": {
     "eyebrow": "قصتنا",
-    "h1Line1": "عقدان من",
+    "h1Line1": "{years}+ عامًا من",
     "h1Span": "الهندسة الدقيقة",
     "quote": "“عدم التسامح مطلقًا مع توقف المصنع — ليس هذا شعارًا. إنه المعيار الهندسي الذي يحاسبنا عليه كل عميل.”",
-    "intro": "من مؤسسة متخصصة في صيانة التوربينات في شاملي، أوتار براديش — إلى شريك هندسي موثوق على مستوى الهند لمحطات الطاقة ومصانع السكر والمصافي والصناعات التحويلية. مبني على خبرة مهندسين سابقين في Triveni وSiemens وBHEL وMan Turbo وKKK وABB. مدفوع بمهمة واحدة: أقصى وقت تشغيل.",
+    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
     "tags": [
       "مهندسون سابقون في الشركات المصنعة الأصلية",
       "مسح ليزري ثلاثي الأبعاد",
@@ -35,7 +35,7 @@
       },
       {
         "label": "أقصى قدرة توربين",
-        "sub": "حتى 27 ميجاواط"
+        "sub": "حتى 60 ميجاواط"
       },
       {
         "label": "الدعم الطارئ",
@@ -60,7 +60,7 @@
     },
     {
       "label": "أقصى توربين تمت معالجته",
-      "sub": "حتى 27 ميجاواط"
+      "sub": "حتى 60 ميجاواط"
     },
     {
       "label": "الاستجابة الطارئة",
@@ -71,9 +71,9 @@
     "eyebrow": "من نحن",
     "heading": "شركاء هندسيون للعمود الفقري الصناعي للهند",
     "paragraphs": [
-      "Keshav Enterprises هي شركة هندسة صناعية دقيقة يقع مقرها في شاملي، أوتار براديش. لأكثر من عقدين، نقدم صيانة متخصصة للتوربينات، وهندسة عكسية، وقطع غيار متوافقة مع الشركات المصنعة الأصلية لأكثر القطاعات الصناعية تطلبًا في الهند.",
+      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
       "يضم فريقنا الهندسي متخصصين سابقين من Triveni وSiemens وBHEL وBelliss & Morcom وMan Turbo وKKK وABB — ما يمنح العملاء نفس مستوى الخبرة التقنية للشركات المصنعة الأصلية، بجزء صغير من الوقت والتكلفة.",
-      "نغطي التوربينات البخارية من 5 كيلوواط إلى 27 ميجاواط — ضغط خلفي وتكثيف، أفقي وعمودي، أحادي ومتعدد المراحل. ورشتنا مجهزة بماسحات ليزر ثلاثية الأبعاد، وأجهزة قياس إحداثية CMM، وآلات موازنة ديناميكية (50–2,000 كجم)، ومخارط CNC دقيقة."
+      "نغطي التوربينات البخارية من 5 كيلوواط إلى 60 ميجاواط — ضغط خلفي وتكثيف، أفقي وعمودي، أحادي ومتعدد المراحل. ورشتنا مجهزة بماسحات ليزر ثلاثية الأبعاد، وأجهزة قياس إحداثية CMM، وآلات موازنة ديناميكية (50–2,000 كجم)، ومخارط CNC دقيقة."
     ],
     "coreCapabilitiesHeading": "القدرات الأساسية",
     "coreCapabilitiesList": [
@@ -106,7 +106,7 @@
       },
       "productRange": {
         "caption": "مجموعة المنتجات",
-        "descTemplate": "{productCount} منتج مصمم هندسيًا عبر 9 فئات — الترشيح، مرشحات هواء التكييف، المصافي، وصلات التمدد، قطع غيار التوربينات، منتجات المطاط، الخراطيم المرنة، المعدات الإلكترونية، والمكونات الهيدروليكية.",
+        "descTemplate": "{productCount} منتج مصمم هندسيًا عبر {categoryCount} فئات —{categoryList}.",
         "linkLabel": "تصفح المنتجات"
       },
       "rotorInspection": {
@@ -143,34 +143,29 @@
     "heading": "محطات الشركة",
     "items": [
       {
-        "year": "2000s",
-        "title": "التأسيس",
-        "desc": "تأسست في شاملي، أوتار براديش كمؤسسة متخصصة في صيانة التوربينات تخدم مصانع السكر المحلية بخبرة عملية في الإصلاح الشامل."
+        "year": "1988",
+        "title": "Engineering Roots",
+        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
       },
       {
-        "year": "2005",
-        "title": "الخبرة في الشركات المصنعة الأصلية",
-        "desc": "بناء فريق مخصص من مهندسين سابقين من Triveni وBHEL وBelliss & Morcom — مما مكّن من تحقيق معايير صيانة مطابقة تمامًا لمعايير الشركة المصنعة الأصلية."
+        "year": "2016",
+        "title": "Partnership Formed",
+        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
       },
       {
-        "year": "2010",
-        "title": "الهندسة العكسية",
-        "desc": "استثمار في معدات المسح الليزري ثلاثي الأبعاد وCMM لتقديم هندسة عكسية داخلية لمكونات التوربينات المتوقفة عن التصنيع دون أي اعتماد على الشركة المصنعة الأصلية."
+        "year": "June 2020",
+        "title": "Keshav Enterprises Founded",
+        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
       },
       {
-        "year": "2015",
-        "title": "توسيع مجموعة المنتجات",
-        "desc": "إطلاق خط منتجات صناعية شامل يغطي الترشيح، مرشحات هواء التكييف، وصلات التمدد، المصافي، منتجات المطاط، وتجميعات الخراطيم المرنة."
+        "year": "2021",
+        "title": "Capability & Product Line Expansion",
+        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
       },
       {
-        "year": "2020",
-        "title": "الموازنة وفق ISO/API",
-        "desc": "تشغيل آلات موازنة ديناميكية وفق معايير ISO 1940 / API 670 — للتعامل مع دوارات من 50 إلى 2,000 كجم."
-      },
-      {
-        "year": "اليوم",
-        "title": "جاهز للتصدير",
-        "desc": "مسجل لدى DGFT بموجب IEC — مكونات التوربينات، منتجات الترشيح، وقطع الغيار الصناعية مصنعة وفق معايير ISO/API/ASME ومصنفة بموجب رموز HSN للتصدير، مع دعم توثيقي للمشترين في الخارج. استمرار الوصول المحلي على مستوى الهند مع دعم هندسي طارئ على مدار الساعة."
+        "year": "Today",
+        "title": "Export Ready",
+        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
       }
     ]
   },

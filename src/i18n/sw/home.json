@@ -12,7 +12,7 @@
     "h1Line1": "Uhandisi Sahihi kwa",
     "h1Line2": "Muda wa Uendeshaji wa Juu.",
     "capabilityLine": "Turbine za mvuke kutoka 5 kW hadi 60 MW — aina ya back-pressure na condensing, mlalo na wima, hatua moja na hatua nyingi. Tunahudumia wateja kote India na duniani kote.",
-    "introText": "Wahandisi wenye uzoefu wa OEM kwa Triveni, Siemens, BHEL na chapa 7 zaidi. Tunarudisha turbine yako kufanya kazi haraka kuliko kununua kutoka OEM — na vyeti kamili vya PMI, ripoti za uwiano za ISO, na historia isiyo na adhabu tangu {founded}.",
+    "introText": "Wahandisi wenye uzoefu wa OEM kwa Triveni, Siemens, BHEL na chapa 7 zaidi. Tunarudisha turbine yako kufanya kazi haraka kuliko kununua kutoka OEM — na vyeti kamili vya PMI, ripoti za uwiano za ISO, na historia isiyo na adhabu tangu {businessSince}.",
     "ctaPrimary": "Tuma Mahitaji Yako",
     "ctaEmergency": "Dharura ya Kusimama",
     "trustYearsOverhauls": "Miaka {years}+ · Ukarabati zaidi ya 500",
@@ -50,7 +50,7 @@
     },
     "penaltyClaims": {
       "label": "Madai ya Adhabu",
-      "sub": "Sifuri katika miaka {years} — marejeleo ya wateja yanapatikana ukiomba"
+      "sub": "Sifuri katika miaka {businessYears} — marejeleo ya wateja yanapatikana ukiomba"
     },
     "emergency": {
       "label": "Mwitikio wa Dharura",

@@ -82,7 +82,7 @@
       },
       "productRange": {
         "caption": "Product Range",
-        "descTemplate": "{productCount} engineered products across 9 categories: filtration, HVAC air filters, strainers, expansion joints, turbine spares, rubber products, flexible hoses, electronic equipment, and hydraulic components.",
+        "descTemplate": "{productCount} engineered products across {categoryCount} categories: {categoryList}.",
         "linkLabel": "Browse Products"
       },
       "rotorInspection": {

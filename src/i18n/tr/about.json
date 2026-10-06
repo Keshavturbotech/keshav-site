@@ -7,10 +7,10 @@
   },
   "hero": {
     "eyebrow": "Hikayemiz",
-    "h1Line1": "İki On Yıllık",
+    "h1Line1": "{years}+ Yıllık",
     "h1Span": "Hassas Mühendislik",
     "quote": "“Tesis duruşuna sıfır tolerans — bu bir slogan değil. Her müşterinin bizden beklediği mühendislik standardı.”",
-    "intro": "Shamli, Uttar Pradesh'te uzman bir türbin bakım kuruluşundan — enerji santralleri, şeker fabrikaları, rafineriler ve proses endüstrileri için güvenilir Hindistan genelinde bir mühendislik ortağına dönüştük. Triveni, Siemens, BHEL, Man Turbo, KKK ve ABB'den OEM kökenli uzmanlık üzerine kurulu. Tek bir görevle yönlendirildik: maksimum kullanılabilirlik.",
+    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
     "tags": [
       "OEM Kökenli Mühendisler",
       "3D Lazer Tarama",
@@ -71,7 +71,7 @@
     "eyebrow": "Biz Kimiz",
     "heading": "Hindistan'ın Endüstriyel Omurgası için Mühendislik Ortakları",
     "paragraphs": [
-      "Keshav Enterprises, Shamli, Uttar Pradesh merkezli hassas bir endüstriyel mühendislik şirketidir. İki on yılı aşkın süredir, Hindistan'ın en zorlu endüstriyel sektörlerine uzman türbin bakımı, tersine mühendislik ve OEM uyumlu yedek parçalar sağlıyoruz.",
+      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
       "Mühendislik ekibimiz Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK ve ABB'den OEM kökenli uzmanları içerir — müşterilere orijinal ekipman üreticileriyle aynı düzeyde teknik uzmanlığı, teslim süresi ve maliyetin çok küçük bir kısmıyla sunar.",
       "5 kW'dan 60 MW'a kadar buhar türbinlerini kapsıyoruz — karşı basınçlı ve kondansasyonlu, yatay ve dikey, tek ve çok kademeli. Atölyemiz 3D lazer tarayıcılar, CMM koordinat ölçüm makineleri, dinamik balans makineleri (50–2.000 kg) ve hassas CNC tornalarla donatılmıştır."
     ],
@@ -106,7 +106,7 @@
       },
       "productRange": {
         "caption": "Ürün Yelpazesi",
-        "descTemplate": "9 kategoride {productCount} mühendislik ürünü — filtrasyon, HVAC hava filtreleri, süzgeçler, genleşme contaları, türbin yedek parçaları, kauçuk ürünler, esnek hortumlar, elektronik ekipman ve hidrolik bileşenler.",
+        "descTemplate": "{categoryCount} kategoride {productCount} mühendislik ürünü —{categoryList}.",
         "linkLabel": "Ürünlere Göz At"
       },
       "rotorInspection": {
@@ -143,34 +143,29 @@
     "heading": "Şirket Kilometre Taşları",
     "items": [
       {
-        "year": "2000'ler",
-        "title": "Kuruluş",
-        "desc": "Shamli, UP'de yerel şeker fabrikalarına uygulamalı revizyon uzmanlığıyla hizmet veren uzman bir türbin bakım kuruluşu olarak kuruldu."
+        "year": "1988",
+        "title": "Engineering Roots",
+        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
       },
       {
-        "year": "2005",
-        "title": "OEM Uzmanlığı",
-        "desc": "Triveni, BHEL ve Belliss & Morcom'dan OEM kökenli mühendislerden oluşan özel bir ekip kurduk — gerçek birebir OEM bakım standartlarını mümkün kıldı."
+        "year": "2016",
+        "title": "Partnership Formed",
+        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
       },
       {
-        "year": "2010",
-        "title": "Tersine Mühendislik",
-        "desc": "Üretimi durdurulmuş türbin bileşenleri için sıfır OEM bağımlılığıyla iç bünyede tersine mühendislik sunmak üzere 3D lazer tarama ve CMM ekipmanına yatırım yaptık."
+        "year": "June 2020",
+        "title": "Keshav Enterprises Founded",
+        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
       },
       {
-        "year": "2015",
-        "title": "Ürün Yelpazesi Genişlemesi",
-        "desc": "Filtrasyon, HVAC hava filtreleri, genleşme contaları, süzgeçler, kauçuk ürünler ve esnek hortum gruplarını kapsayan kapsamlı bir endüstriyel ürün hattı başlattık."
+        "year": "2021",
+        "title": "Capability & Product Line Expansion",
+        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
       },
       {
-        "year": "2020",
-        "title": "ISO/API Balans",
-        "desc": "ISO 1940 / API 670 standartlarına göre dinamik balans makinelerini devreye aldık — 50 ila 2.000 kg arası rotorları işleyerek."
-      },
-      {
-        "year": "Bugün",
-        "title": "İhracata Hazır",
-        "desc": "DGFT ile IEC kayıtlı — türbin bileşenleri, filtrasyon ürünleri ve endüstriyel yedek parçalar ISO/API/ASME standartlarına göre imal edilir ve ihracat için HSN sınıflandırılır, yurt dışı alıcılar için belge desteğiyle. 7/24 acil mühendislik desteğiyle Hindistan genelindeki yurt içi erişim devam ediyor."
+        "year": "Today",
+        "title": "Export Ready",
+        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
       }
     ]
   },

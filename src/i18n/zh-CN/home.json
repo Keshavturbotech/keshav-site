@@ -12,7 +12,7 @@
     "h1Line1": "精密工程，成就",
     "h1Line2": "最大运行率。",
     "capabilityLine": "5 kW 至 60 MW 蒸汽轮机 — 背压式和凝汽式，卧式和立式，单级和多级。服务遍及全印度及全球客户。",
-    "introText": "来自Triveni、Siemens、BHEL及其他7个品牌的原厂背景工程师。我们让您的汽轮机比原厂供货更快恢复运行——提供完整的PMI证书、ISO动平衡报告，自{founded}年以来零违约记录。",
+    "introText": "来自Triveni、Siemens、BHEL及其他7个品牌的原厂背景工程师。我们让您的汽轮机比原厂供货更快恢复运行——提供完整的PMI证书、ISO动平衡报告，自{businessSince}年以来零违约记录。",
     "ctaPrimary": "提交您的需求",
     "ctaEmergency": "紧急故障",
     "trustYearsOverhauls": "{years}+年 · 500+次大修",
@@ -50,7 +50,7 @@
     },
     "penaltyClaims": {
       "label": "违约索赔",
-      "sub": "{years}年零记录——客户参考资料可应要求提供"
+      "sub": "{businessYears}年零记录——客户参考资料可应要求提供"
     },
     "emergency": {
       "label": "紧急响应",

@@ -20,6 +20,19 @@ const locale = Astro.currentLocale ?? "en";
 const about = getLocalizedData<any>("about", locale);
 const PRODUCTS = getLocalizedList<Product>("products", locale);
 
+// Category count and names come from the live catalogue + the localized
+// product-categories labels, so the About copy can never go stale when a
+// category is added (it said "9 categories" while the catalogue had 10).
+const CATEGORY_COUNT = new Set(PRODUCTS.map((p) => p.category)).size;
+const CATEGORY_LABELS = Object.entries(
+  getLocalizedData<Record<string, { label: string }>>("product-categories", locale),
+)
+  .filter(([key]) => key !== "all")
+  .map(([, v]) => v.label);
+const CATEGORY_LIST = new Intl.ListFormat(locale, { style: "long", type: "conjunction" }).format(
+  CATEGORY_LABELS,
+);
+
 const ABOUT_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
@@ -79,10 +92,10 @@ const galleryCards = [
     src: "workshop-gallery-products.webp",
     alt: "Keshav Enterprises industrial product range",
     caption: about.gallery.cards.productRange.caption,
-    desc: about.gallery.cards.productRange.descTemplate.replace(
-      "{productCount}",
-      String(PRODUCTS.length),
-    ),
+    desc: about.gallery.cards.productRange.descTemplate
+      .replace("{productCount}", String(PRODUCTS.length))
+      .replace("{categoryCount}", String(CATEGORY_COUNT))
+      .replace("{categoryList}", CATEGORY_LIST),
     href: localizedPath(locale, "/products"),
     linkLabel: about.gallery.cards.productRange.linkLabel,
   },

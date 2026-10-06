@@ -572,3 +572,10 @@ Open http://localhost:4321 and compare against the live React site page by page.
    to plain HTML/CSS/JS deployable to Cloudflare Pages, Netlify, Vercel, or
    any static host. Update `SITE_URL` in `astro.config.mjs` and `Layout.astro`
    if the final domain differs from `keshavturbotech.com`.
+
+
+## Forms & downloads: deployment checklist
+
+1. **Set `PUBLIC_WEB3FORMS_KEY` in the host dashboard** (Cloudflare Pages → Settings → Variables and Secrets, both Production and Preview). `.env` is gitignored, and `PUBLIC_*` values are baked in at build time, so set the variable and then redeploy. `npm run build` now fails on a host build if the key is missing (`scripts/check-forms-env.cjs`; run `npm run check:forms` any time).
+2. **Put the six downloadable files in `/public`** with the exact names listed in `src/data/downloads.ts` (`turbine-overhaul-checklist.pdf`, `filter-element-datasheet-lube-oil.pdf`, `lube-oil-flushing-checklist.pdf`, `bearing-selection-clearance-reference.pdf`, `turbine-rfq-template.xlsx`, `keshav-enterprises-company-profile.pdf`). Until a file exists the visitor sees a "being updated" notice instead of a 404 page.
+3. **File attachments in the RFQ forms need a paid Web3Forms plan.** On a free key the form retries without the file so the enquiry still reaches you, and the visitor is asked to email the file.

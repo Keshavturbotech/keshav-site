@@ -145,7 +145,7 @@
         "label": "Merek OEM Dioverhaul"
       },
       {
-        "value": "26+",
+        "value": "{years}+",
         "label": "Tahun Pengalaman Lapangan"
       },
       {

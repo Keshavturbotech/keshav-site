@@ -54,7 +54,14 @@ export default defineConfig({
     react(), // enables React islands (client:* directives) inside .astro files
     sitemap({
       // Excludes private/utility routes from sitemap.xml
-      filter: (page) => !page.includes("/thank-you") && !page.includes("/404"),
+      // privacy-policy and terms-of-service are noindex (see their <Layout
+      // noindex>), and a URL must not be both in the sitemap and noindex —
+      // search engines flag that as a contradictory signal. Keep this list in
+      // sync with any page that sets noindex.
+      filter: (page) =>
+        !page.includes("/thank-you") &&
+        !page.includes("/404") &&
+        !/\/(privacy-policy|terms-of-service)\/?$/.test(page),
       changefreq: "weekly",
       priority: 0.7,
       // Part 3, step 3: emit per-URL <xhtml:link rel="alternate" hreflang>

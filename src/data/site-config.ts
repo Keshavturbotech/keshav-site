@@ -54,6 +54,16 @@ export const BUSINESS_OPERATING_YEAR = 2016;
 export const BUSINESS_OPERATING_YEARS = CURRENT_YEAR - BUSINESS_OPERATING_YEAR;
 export const ENTITY_FOUNDED_YEAR = 2020;
 
+// Overhauls completed (shown as "500+" on the home stats, hero trust line and
+// the Projects page). Single source so the figure and its label cannot drift.
+export const OVERHAULS_COMPLETED = 500;
+
+// Office hours, Mon-Sat IST, 24-hour clock. The contact page copy (all
+// locales) says 9:00 AM - 6:00 PM. The live "open now" status and the
+// schema.org openingHoursSpecification both read these two numbers.
+export const OFFICE_OPEN_HOUR = 9;
+export const OFFICE_CLOSE_HOUR = 18;
+
 // Back-compat aliases so any not-yet-updated call site still resolves to the
 // founder-experience figure (the headline "N+ years" number site-wide)
 // rather than silently reverting to the old, incorrect 2000 baseline.

@@ -3920,7 +3920,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "Turbine Spares",
+    "category": "Electronic Equipments",
     "title": "म्याग्नेटिक पिकअप सेन्सर (Woodward)",
     "desc": "Woodward गभर्नर र डिजिटल टर्बाइन कन्ट्रोल प्रणालीलाई सटीक शाफ्ट स्पीड फिडब्याक दिने असली Woodward भेरियबल रिलक्टेन्स म्याग्नेटिक स्पीड पिकअप (MPU)। 3000–3600 RPM मा चल्ने स्टीम टर्बाइनमा निरन्तर ड्युटीका लागि प्यासिभ, सेल्फ-पावर्ड, शून्य-मर्मत डिजाइन।",
     "usage": "Triveni, BHEL, Siemens, KKK, र Maxwatt स्टीम टर्बाइनमा Woodward 505/505D/505E डिजिटल गभर्नर, 2301 र 7206 गभर्नर एम्प्लिफायर, र स्ट्यान्डअलोन ओभरस्पीड ट्रिप प्रणालीका लागि प्राथमिक स्पीड सेन्सिङ इनपुट। स्टार्टअप, सिंक्रोनाइजेसन, र फुल-लोड सञ्चालनभर क्लोज्ड-लुप स्पीड नियमन, लोड नियन्त्रण, र ओभरस्पीड सुरक्षा दिन गभर्नर गियर व्हील (टुथ गियर / फ्लाईव्हील) मार्फत टर्बाइन रोटर स्पीड मोनिटर गर्छ।",
@@ -3974,7 +3974,7 @@
       "woodward-magnetic-pickup-12.webp"
     ],
     "slug": "magnetic-pickup-sensor-woodward",
-    "categorySlug": "turbine-spares",
+    "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 5500,
       "max": 45000,
@@ -4477,7 +4477,7 @@
   },
   "prod_af5": {
     "id": "prod_af5",
-    "sku": "KTB-IF-028",
+    "sku": "KTB-IF-031",
     "category": "Industrial Filtration",
     "title": "प्लीटेड वा स्मुथ कार्ट्रिज एलिमेन्टसहित पल्स-जेट डस्ट कलेक्टर फिल्टर ब्याग",
     "desc": "पल्स-जेट डस्ट कलेक्टर र ब्यागहाउस प्रणालीका लागि औद्योगिक-ग्रेड फिल्टर ब्याग र प्लीटेड कार्ट्रिज एलिमेन्ट। सिलिन्ड्रिकल वाउन वा निडल-फेल्ट फिल्टर ब्याग (स्ट्यान्डर्ड केज-प्रकार हाउजिङका लागि चिल्लो बाहिरी सतह) वा प्लीटेड कार्ट्रिज एलिमेन्ट (छिद्रित कोरको वरिपरि अकर्डियन-प्लीटेड मिडिया — उही हाउजिङ फुटप्रिन्टमा बराबर स्मुथ ब्यागको फिल्टर क्षेत्रको 5× सम्म) को रूपमा आपूर्ति गरिन्छ। दुवै डिजाइन पल्स-जेट रिभर्स-फ्लो सफाइसँग अनुकूल छन्। मिडिया विकल्पले 260°C सम्मको तापक्रमका लागि स्ट्यान्डर्ड पोलिएस्टर फेल्ट, एन्टी-स्ट्याटिक, PTFE मेम्ब्रेन, आरामिड, र ग्लास फाइबर समेट्छ।",
@@ -4711,7 +4711,7 @@
     "priceRange": {
       "min": 8000,
       "max": 65000,
-      "unit": "per bearing",
+      "unit": "per set",
       "note": "व्हाइट मेटल / ब्याबिट बेयरिङ; रिब्याबिट वा नयाँ"
     },
     "availability": {
@@ -4763,8 +4763,8 @@
     "slug": "babbitt-journal-bearings-and-thrust-pads",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 12000,
-      "max": 95000,
+      "min": 10000,
+      "max": 125000,
       "unit": "per piece",
       "note": "रोटर शाफ्ट; प्रिसिजन मेसिन गरिएको एलोय स्टिल"
     },
@@ -4877,7 +4877,7 @@
     "categorySlug": "turbine-spares",
     "priceRange": {
       "min": 1500,
-      "max": 12000,
+      "max": 20000,
       "unit": "per piece",
       "note": "कपलिङ बोल्ट / स्टड; एलोय स्टिल"
     },
@@ -4984,8 +4984,8 @@
     "slug": "complete-turbine-rotor-assemblies",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 2000,
-      "max": 15000,
+      "min": 800000,
+      "max": 2500000,
       "unit": "per piece",
       "note": "नोजल / नोजल सेगमेन्ट; इन्भेस्टमेन्ट कास्ट"
     },
@@ -5092,7 +5092,7 @@
     "slug": "turbine-nozzles-and-diaphragms",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 6000,
+      "min": 1000,
       "max": 45000,
       "unit": "per piece",
       "note": "गियर व्हील / पिनियन; केस हार्डेन्ड"
@@ -5150,8 +5150,8 @@
     "slug": "mechanical-centrifugal-speed-governors",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 3000,
-      "max": 20000,
+      "min": 150000,
+      "max": 200000,
       "unit": "per piece",
       "note": "थ्रस्ट कलर / थ्रस्ट प्याड; प्रिसिजन ब्याबिट"
     },

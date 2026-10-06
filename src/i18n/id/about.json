@@ -7,10 +7,10 @@
   },
   "hero": {
     "eyebrow": "Kisah Kami",
-    "h1Line1": "Dua Dekade",
+    "h1Line1": "{years}+ Tahun",
     "h1Span": "Rekayasa Presisi",
     "quote": "“Toleransi nol untuk downtime pabrik — itu bukan slogan. Itu adalah standar rekayasa yang dipegang setiap klien terhadap kami.”",
-    "intro": "Dari bengkel perawatan turbin spesialis di Shamli, Uttar Pradesh — menjadi mitra rekayasa terpercaya pan-India untuk pembangkit listrik, pabrik gula, kilang, dan industri proses. Dibangun di atas keahlian eks-OEM dari Triveni, Siemens, BHEL, Man Turbo, KKK dan ABB. Digerakkan oleh satu mandat: uptime maksimal.",
+    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
     "tags": [
       "Insinyur Eks-OEM",
       "Pemindaian Laser 3D",
@@ -71,7 +71,7 @@
     "eyebrow": "Siapa Kami",
     "heading": "Mitra Rekayasa untuk Tulang Punggung Industri India",
     "paragraphs": [
-      "Keshav Enterprises adalah perusahaan rekayasa industri presisi yang berkantor pusat di Shamli, Uttar Pradesh. Selama lebih dari dua dekade, kami telah menyediakan perawatan turbin spesialis, rekayasa balik, dan suku cadang kompatibel OEM untuk sektor industri India yang paling menuntut.",
+      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
       "Tim rekayasa kami mencakup spesialis eks-OEM dari Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, dan ABB — memberikan klien tingkat keahlian teknis yang sama dengan produsen peralatan asli, dengan sebagian kecil dari waktu tunggu dan biaya.",
       "Kami mencakup turbin uap dari 5 kW hingga 60 MW — back-pressure dan condensing, horizontal dan vertikal, satu dan multi-tahap. Bengkel kami dilengkapi dengan pemindai laser 3D, mesin pengukur koordinat CMM, mesin penyeimbang dinamis (50–2.000 kg), dan mesin bubut CNC presisi."
     ],
@@ -106,7 +106,7 @@
       },
       "productRange": {
         "caption": "Rangkaian Produk",
-        "descTemplate": "{productCount} produk hasil rekayasa di 9 kategori — filtrasi, filter udara HVAC, saringan, sambungan ekspansi, suku cadang turbin, produk karet, selang fleksibel, peralatan elektronik, dan komponen hidraulik.",
+        "descTemplate": "{productCount} produk hasil rekayasa di {categoryCount} kategori —{categoryList}.",
         "linkLabel": "Jelajahi Produk"
       },
       "rotorInspection": {
@@ -143,34 +143,29 @@
     "heading": "Tonggak Perusahaan",
     "items": [
       {
-        "year": "2000-an",
-        "title": "Pendirian",
-        "desc": "Didirikan di Shamli, UP sebagai bengkel perawatan turbin spesialis yang melayani pabrik gula lokal dengan keahlian overhaul langsung."
+        "year": "1988",
+        "title": "Engineering Roots",
+        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
       },
       {
-        "year": "2005",
-        "title": "Keahlian OEM",
-        "desc": "Membangun tim khusus insinyur eks-OEM dari Triveni, BHEL, dan Belliss & Morcom — memungkinkan standar perawatan setara OEM yang sesungguhnya."
+        "year": "2016",
+        "title": "Partnership Formed",
+        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
       },
       {
-        "year": "2010",
-        "title": "Rekayasa Balik",
-        "desc": "Berinvestasi dalam pemindaian laser 3D dan peralatan CMM untuk menawarkan rekayasa balik internal untuk komponen turbin usang tanpa ketergantungan OEM."
+        "year": "June 2020",
+        "title": "Keshav Enterprises Founded",
+        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
       },
       {
-        "year": "2015",
-        "title": "Perluasan Rangkaian Produk",
-        "desc": "Meluncurkan lini produk industri komprehensif yang mencakup filtrasi, filter udara HVAC, sambungan ekspansi, saringan, produk karet, dan rakitan selang fleksibel."
+        "year": "2021",
+        "title": "Capability & Product Line Expansion",
+        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
       },
       {
-        "year": "2020",
-        "title": "Penyeimbangan ISO/API",
-        "desc": "Mengoperasikan mesin penyeimbang dinamis sesuai standar ISO 1940 / API 670 — menangani rotor dari 50 hingga 2.000 kg."
-      },
-      {
-        "year": "Hari Ini",
-        "title": "Siap Ekspor",
-        "desc": "Terdaftar IEC dengan DGFT — komponen turbin, produk filtrasi, dan suku cadang industri diproduksi sesuai standar ISO/API/ASME dan diklasifikasikan HSN untuk ekspor, dengan dukungan dokumentasi untuk pembeli luar negeri. Jangkauan domestik pan-India berlanjut dengan dukungan rekayasa darurat 24×7."
+        "year": "Today",
+        "title": "Export Ready",
+        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
       }
     ]
   },

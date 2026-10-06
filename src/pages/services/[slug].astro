@@ -14,7 +14,7 @@ import { SERVICES as SERVICES_EN, SERVICE_ICON_NAMES } from "../../data/services
 import type { ServiceDetail } from "../../data/service-details";
 import { SVC_CATEGORY_MAP } from "../../data/service-details";
 import type { CaseStudy } from "../../data/case-studies";
-import { CONTACT_INFO } from "../../data/site-config";
+import { CONTACT_INFO, YEARS_IN_BUSINESS } from "../../data/site-config";
 import { getLocalizedData, getLocalizedList } from "../../lib/i18n";
 import { hasLocalImage } from "../../lib/productImages";
 
@@ -228,7 +228,7 @@ const waHref = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent
                 class="text-3xl font-black tracking-tight mb-1"
                 style={`color:${detail.accentColor}`}
               >
-                {stat.value}
+                {stat.value.replace("{years}", String(YEARS_IN_BUSINESS))}
               </p>
               <p class="text-slate-500 text-xs font-bold uppercase tracking-wide">{stat.label}</p>
             </div>

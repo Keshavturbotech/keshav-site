@@ -2227,7 +2227,7 @@
     "priceRange": {
       "min": 8000,
       "max": 65000,
-      "unit": "pro Lager",
+      "unit": "pro Satz",
       "note": "Weißmetall-/Babbitt-Lager; neu oder ausgegossen"
     },
     "availability": {
@@ -2279,8 +2279,8 @@
     "slug": "babbitt-journal-bearings-and-thrust-pads",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 12000,
-      "max": 95000,
+      "min": 10000,
+      "max": 125000,
       "unit": "pro Stück",
       "note": "Rotorwelle; präzisionsbearbeiteter Legierungsstahl"
     },
@@ -2393,7 +2393,7 @@
     "categorySlug": "turbine-spares",
     "priceRange": {
       "min": 1500,
-      "max": 12000,
+      "max": 20000,
       "unit": "pro Stück",
       "note": "Kupplungsschrauben / -bolzen; Legierungsstahl"
     },
@@ -2500,8 +2500,8 @@
     "slug": "complete-turbine-rotor-assemblies",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 2000,
-      "max": 15000,
+      "min": 800000,
+      "max": 2500000,
       "unit": "pro Stück",
       "note": "Düse / Düsensegment; Feinguss"
     },
@@ -2608,7 +2608,7 @@
     "slug": "turbine-nozzles-and-diaphragms",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 6000,
+      "min": 1000,
       "max": 45000,
       "unit": "pro Stück",
       "note": "Zahnrad / Ritzel; einsatzgehärtet"
@@ -2666,8 +2666,8 @@
     "slug": "mechanical-centrifugal-speed-governors",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 3000,
-      "max": 20000,
+      "min": 150000,
+      "max": 200000,
       "unit": "pro Stück",
       "note": "Kammring / Kammlager; Präzisions-Babbitt"
     },
@@ -3418,7 +3418,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "Turbinenersatzteile",
+    "category": "Elektronische Geräte",
     "title": "Magnetischer Aufnehmersensor (Woodward)",
     "desc": "Original-Woodward-Reluktanz-Drehzahlaufnehmer (MPU) für präzise Wellendrehzahlrückmeldung an Woodward-Regler und digitale Turbinensteuersysteme. Passive, selbstversorgte, wartungsfreie Konstruktion für Dauerbetrieb bei Dampfturbinen mit 3000–3600 U/min.",
     "usage": "Primäre Drehzahlmesseingabe für digitale Woodward-Regler 505/505D/505E, 2301- und 7206-Reglerverstärker sowie eigenständige Überdrehzahl-Auslösesysteme bei Dampfturbinen von Triveni, BHEL, Siemens, KKK und Maxwatt. Überwacht die Turbinenrotordrehzahl über das Reglerzahnrad (Zahnkranz/Schwungrad) zur Bereitstellung geschlossener Drehzahlregelung, Lastregelung und Überdrehzahlschutz während Anfahrt, Synchronisation und Volllastbetrieb.",
@@ -3472,7 +3472,7 @@
       "woodward-magnetic-pickup-12.webp"
     ],
     "slug": "magnetic-pickup-sensor-woodward",
-    "categorySlug": "turbine-spares",
+    "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 5500,
       "max": 45000,
@@ -6583,7 +6583,7 @@
   },
   "prod_af5": {
     "id": "prod_af5",
-    "sku": "KTB-IF-028",
+    "sku": "KTB-IF-031",
     "category": "Industriefiltration",
     "title": "Druckstoß-Staubabscheider-Filterbeutel mit plissiertem oder glattem Patronenelement",
     "desc": "Industriequalität-Filterbeutel und Faltenpatronenelemente für Druckstoß-Staubabscheider und Schlauchfilteranlagen. Lieferung als zylindrische gewebte oder Nadelfilz-Filterbeutel (glatte Außenfläche für Standard-Korbgehäuse) oder als Faltenpatronenelemente (ziehharmonikagefaltetes Medium um einen gelochten Kern – bis zum 5-Fachen der Filterfläche eines gleichwertigen glatten Beutels bei gleicher Gehäuseaufstandsfläche). Beide Konstruktionen sind kompatibel mit Druckstoß-Umkehrreinigung. Medienoptionen umfassen Standard-Polyesterfilz, antistatisch, PTFE-Membran, Aramid und Glasfaser für Temperaturen bis 260 °C.",

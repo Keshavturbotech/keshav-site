@@ -2227,7 +2227,7 @@
     "priceRange": {
       "min": 8000,
       "max": 65000,
-      "unit": "每套轴承",
+      "unit": "每套",
       "note": "巴氏合金轴承;可重新浇铸或全新制造"
     },
     "availability": {
@@ -2279,8 +2279,8 @@
     "slug": "babbitt-journal-bearings-and-thrust-pads",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 12000,
-      "max": 95000,
+      "min": 10000,
+      "max": 125000,
       "unit": "每件",
       "note": "转子轴;精密加工合金钢"
     },
@@ -2393,7 +2393,7 @@
     "categorySlug": "turbine-spares",
     "priceRange": {
       "min": 1500,
-      "max": 12000,
+      "max": 20000,
       "unit": "每件",
       "note": "联轴器螺栓/螺柱;合金钢"
     },
@@ -2500,8 +2500,8 @@
     "slug": "complete-turbine-rotor-assemblies",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 2000,
-      "max": 15000,
+      "min": 800000,
+      "max": 2500000,
       "unit": "每件",
       "note": "喷嘴/喷嘴分段;精密铸造"
     },
@@ -2608,7 +2608,7 @@
     "slug": "turbine-nozzles-and-diaphragms",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 6000,
+      "min": 1000,
       "max": 45000,
       "unit": "每件",
       "note": "齿轮/小齿轮;表面淬火"
@@ -2666,8 +2666,8 @@
     "slug": "mechanical-centrifugal-speed-governors",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 3000,
-      "max": 20000,
+      "min": 150000,
+      "max": 200000,
       "unit": "每件",
       "note": "推力环/推力瓦;精密巴氏合金"
     },
@@ -3418,7 +3418,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "汽轮机备件",
+    "category": "电子设备",
     "title": "磁性拾取传感器(伍德沃德Woodward)",
     "desc": "伍德沃德原厂可变磁阻式磁性转速传感器(MPU),为伍德沃德调速器及数字化汽轮机控制系统提供精确的轴转速反馈信号。被动式、自供电、免维护设计,适用于3000–3600转/分钟汽轮机的连续工况。",
     "usage": "适用于伍德沃德505/505D/505E数字调速器、2301及7206调速放大器,以及特里维尼、BHEL、西门子、KKK及Maxwatt汽轮机独立超速跳闸系统的主要转速检测输入。通过调速器齿轮(齿轮/飞轮)监测汽轮机转子转速,在启动、并网及满负荷运行全过程中提供闭环转速调节、负荷控制及超速保护。",
@@ -3472,7 +3472,7 @@
       "woodward-magnetic-pickup-12.webp"
     ],
     "slug": "magnetic-pickup-sensor-woodward",
-    "categorySlug": "turbine-spares",
+    "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 5500,
       "max": 45000,
@@ -6579,7 +6579,7 @@
   },
   "prod_af5": {
     "id": "prod_af5",
-    "sku": "KTB-IF-028",
+    "sku": "KTB-IF-031",
     "category": "工业过滤",
     "title": "脉冲喷吹除尘滤袋(褶式或平滑滤筒元件)",
     "desc": "适用于脉冲喷吹除尘器及布袋除尘系统的工业级滤袋及褶式滤筒元件。可提供圆柱形机织或针刺毡滤袋(标准笼式壳体用平滑外表面),或褶式滤筒元件(围绕冲孔芯体的手风琴式褶皱滤材——在相同壳体尺寸内可实现相当于同规格平滑滤袋高达5倍的过滤面积)。两种设计均兼容脉冲喷吹反向气流清灰。滤材选项涵盖标准聚酯毡、防静电型、PTFE覆膜、芳纶及玻璃纤维,适用于最高260°C的温度。",

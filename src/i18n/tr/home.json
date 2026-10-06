@@ -12,7 +12,7 @@
     "h1Line1": "Maksimum Kullanılabilirlik için",
     "h1Line2": "Hassas Mühendislik.",
     "capabilityLine": "5 kW'tan 60 MW'a kadar buhar türbinleri — karşı basınçlı ve yoğuşmalı, yatay ve dikey, tek ve çok kademeli. Hindistan genelinde ve dünya çapında müşterilere hizmet veriyoruz.",
-    "introText": "Triveni, Siemens, BHEL ve 7 marka daha için OEM kökenli mühendisler. Türbininizi OEM'den tedarik etmekten daha hızlı tekrar çalışır hale getiriyoruz — tam PMI sertifikaları, ISO balans raporları ve {founded}'den bu yana sıfır ceza geçmişiyle.",
+    "introText": "Triveni, Siemens, BHEL ve 7 marka daha için OEM kökenli mühendisler. Türbininizi OEM'den tedarik etmekten daha hızlı tekrar çalışır hale getiriyoruz — tam PMI sertifikaları, ISO balans raporları ve {businessSince}'den bu yana sıfır ceza geçmişiyle.",
     "ctaPrimary": "İhtiyaçlarınızı Gönderin",
     "ctaEmergency": "Acil Arıza",
     "trustYearsOverhauls": "{years}+ yıl · 500+ revizyon",
@@ -50,7 +50,7 @@
     },
     "penaltyClaims": {
       "label": "Ceza Talepleri",
-      "sub": "{years} yılda sıfır — talep üzerine müşteri referansları mevcut"
+      "sub": "{businessYears} yılda sıfır — talep üzerine müşteri referansları mevcut"
     },
     "emergency": {
       "label": "Acil Müdahale",

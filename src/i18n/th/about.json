@@ -7,10 +7,10 @@
   },
   "hero": {
     "eyebrow": "เรื่องราวของเรา",
-    "h1Line1": "สองทศวรรษแห่ง",
+    "h1Line1": "{years}+ ปีแห่ง",
     "h1Span": "วิศวกรรมความแม่นยำ",
     "quote": "“ไม่มีความคลาดเคลื่อนสำหรับเวลาหยุดทำงานของโรงงาน — นี่ไม่ใช่คำขวัญ แต่เป็นมาตรฐานวิศวกรรมที่ลูกค้าทุกรายยึดถือกับเรา”",
-    "intro": "จากหน่วยงานบำรุงรักษากังหันเฉพาะทางใน Shamli รัฐอุตตรประเทศ — สู่พันธมิตรวิศวกรรมที่เชื่อถือได้ทั่วอินเดียสำหรับโรงไฟฟ้า โรงงานน้ำตาล โรงกลั่น และอุตสาหกรรมกระบวนการ สร้างขึ้นจากความเชี่ยวชาญของอดีต OEM จาก Triveni, Siemens, BHEL, Man Turbo, KKK และ ABB ขับเคลื่อนด้วยพันธกิจเดียว: เวลาใช้งานสูงสุด",
+    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
     "tags": [
       "วิศวกรอดีต OEM",
       "การสแกนเลเซอร์ 3 มิติ",
@@ -35,7 +35,7 @@
       },
       {
         "label": "กังหันสูงสุด",
-        "sub": "สูงสุด 27 เมกะวัตต์"
+        "sub": "สูงสุด 60 เมกะวัตต์"
       },
       {
         "label": "สนับสนุนฉุกเฉิน",
@@ -60,7 +60,7 @@
     },
     {
       "label": "กังหันสูงสุดที่รองรับ",
-      "sub": "สูงสุด 27 เมกะวัตต์"
+      "sub": "สูงสุด 60 เมกะวัตต์"
     },
     {
       "label": "การตอบสนองฉุกเฉิน",
@@ -71,9 +71,9 @@
     "eyebrow": "เราคือใคร",
     "heading": "พันธมิตรวิศวกรรมสำหรับกระดูกสันหลังอุตสาหกรรมของอินเดีย",
     "paragraphs": [
-      "Keshav Enterprises เป็นบริษัทวิศวกรรมอุตสาหกรรมความแม่นยำที่มีสำนักงานใหญ่ใน Shamli รัฐอุตตรประเทศ เป็นเวลากว่าสองทศวรรษที่เราให้บริการบำรุงรักษากังหันเฉพาะทาง วิศวกรรมย้อนกลับ และอะไหล่ที่เข้ากันได้กับ OEM แก่ภาคอุตสาหกรรมที่ต้องการความเข้มงวดที่สุดของอินเดีย",
+      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
       "ทีมวิศวกรรมของเรารวมถึงผู้เชี่ยวชาญอดีต OEM จาก Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK และ ABB — มอบความเชี่ยวชาญทางเทคนิคระดับเดียวกับผู้ผลิตอุปกรณ์ดั้งเดิมให้กับลูกค้า ในเวลาและต้นทุนเพียงเสี้ยวหนึ่ง",
-      "เราครอบคลุมกังหันไอน้ำตั้งแต่ 5 กิโลวัตต์ถึง 27 เมกะวัตต์ — แบบแรงดันย้อนกลับและ condensing แนวนอนและแนวตั้ง แบบเดี่ยวและหลายชั้น โรงงานของเราติดตั้งเครื่องสแกนเลเซอร์ 3 มิติ เครื่องวัดพิกัด CMM เครื่องถ่วงสมดุลแบบไดนามิก (50–2,000 กก.) และเครื่องกลึง CNC ความแม่นยำสูง"
+      "เราครอบคลุมกังหันไอน้ำตั้งแต่ 5 กิโลวัตต์ถึง 60 เมกะวัตต์ — แบบแรงดันย้อนกลับและ condensing แนวนอนและแนวตั้ง แบบเดี่ยวและหลายชั้น โรงงานของเราติดตั้งเครื่องสแกนเลเซอร์ 3 มิติ เครื่องวัดพิกัด CMM เครื่องถ่วงสมดุลแบบไดนามิก (50–2,000 กก.) และเครื่องกลึง CNC ความแม่นยำสูง"
     ],
     "coreCapabilitiesHeading": "ศักยภาพหลัก",
     "coreCapabilitiesList": [
@@ -106,7 +106,7 @@
       },
       "productRange": {
         "caption": "กลุ่มผลิตภัณฑ์",
-        "descTemplate": "ผลิตภัณฑ์ที่ออกแบบด้วยวิศวกรรม {productCount} รายการใน 9 หมวดหมู่ — การกรอง ไส้กรองอากาศ HVAC ตะแกรงกรอง ข้อต่อขยายตัว อะไหล่กังหัน ผลิตภัณฑ์ยาง สายอ่อน อุปกรณ์อิเล็กทรอนิกส์ และชิ้นส่วนไฮดรอลิก",
+        "descTemplate": "ผลิตภัณฑ์ที่ออกแบบด้วยวิศวกรรม {productCount} รายการใน {categoryCount} หมวดหมู่ —{categoryList}",
         "linkLabel": "ดูผลิตภัณฑ์"
       },
       "rotorInspection": {
@@ -143,34 +143,29 @@
     "heading": "เหตุการณ์สำคัญของบริษัท",
     "items": [
       {
-        "year": "ยุค 2000",
-        "title": "การก่อตั้ง",
-        "desc": "ก่อตั้งใน Shamli รัฐอุตตรประเทศในฐานะหน่วยงานบำรุงรักษากังหันเฉพาะทางที่ให้บริการโรงงานน้ำตาลท้องถิ่นด้วยความเชี่ยวชาญด้านการซ่อมบำรุงใหญ่แบบลงมือปฏิบัติ"
+        "year": "1988",
+        "title": "Engineering Roots",
+        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
       },
       {
-        "year": "2005",
-        "title": "ความเชี่ยวชาญ OEM",
-        "desc": "สร้างทีมวิศวกรอดีต OEM โดยเฉพาะจาก Triveni, BHEL และ Belliss & Morcom — ทำให้เกิดมาตรฐานการบำรุงรักษาแบบเทียบเท่า OEM ที่แท้จริง"
+        "year": "2016",
+        "title": "Partnership Formed",
+        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
       },
       {
-        "year": "2010",
-        "title": "วิศวกรรมย้อนกลับ",
-        "desc": "ลงทุนในการสแกนเลเซอร์ 3 มิติและอุปกรณ์ CMM เพื่อให้บริการวิศวกรรมย้อนกลับภายในสำหรับชิ้นส่วนกังหันที่เลิกผลิตแล้วโดยไม่ต้องพึ่ง OEM"
+        "year": "June 2020",
+        "title": "Keshav Enterprises Founded",
+        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
       },
       {
-        "year": "2015",
-        "title": "การขยายกลุ่มผลิตภัณฑ์",
-        "desc": "เปิดตัวสายผลิตภัณฑ์อุตสาหกรรมที่ครอบคลุมการกรอง ไส้กรองอากาศ HVAC ข้อต่อขยายตัว ตะแกรงกรอง ผลิตภัณฑ์ยาง และชุดสายอ่อน"
+        "year": "2021",
+        "title": "Capability & Product Line Expansion",
+        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
       },
       {
-        "year": "2020",
-        "title": "การถ่วงสมดุล ISO/API",
-        "desc": "เริ่มใช้งานเครื่องถ่วงสมดุลแบบไดนามิกตามมาตรฐาน ISO 1940 / API 670 — รองรับโรเตอร์ตั้งแต่ 50 ถึง 2,000 กก."
-      },
-      {
-        "year": "วันนี้",
-        "title": "พร้อมส่งออก",
-        "desc": "จดทะเบียน IEC กับ DGFT — ชิ้นส่วนกังหัน ผลิตภัณฑ์กรอง และอะไหล่อุตสาหกรรมผลิตตามมาตรฐาน ISO/API/ASME และจัดประเภท HSN สำหรับการส่งออก พร้อมการสนับสนุนเอกสารสำหรับผู้ซื้อต่างประเทศ การเข้าถึงในประเทศแบบทั่วอินเดียยังคงดำเนินต่อไปพร้อมการสนับสนุนวิศวกรรมฉุกเฉิน 24×7"
+        "year": "Today",
+        "title": "Export Ready",
+        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
       }
     ]
   },

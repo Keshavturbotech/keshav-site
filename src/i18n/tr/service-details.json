@@ -145,7 +145,7 @@
         "label": "Revize Edilen OEM Markası"
       },
       {
-        "value": "26+",
+        "value": "{years}+",
         "label": "Yıllık Saha Deneyimi"
       },
       {

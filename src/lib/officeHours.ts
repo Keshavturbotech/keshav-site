@@ -1,11 +1,13 @@
 // src/lib/officeHours.ts
 // Single source of truth for the "are we in business hours right now" check
-// (Mon–Sat, 9 AM–7 PM IST). Ported from useOfficeHours() in App.jsx (line
+// (Mon–Sat, 9 AM–6 PM IST). Ported from useOfficeHours() in App.jsx (line
 // ~23994). This calculation was previously duplicated verbatim across
 // OfficeHoursPill.jsx, ContactOfficeStatus.jsx, and ContactForm.jsx — three
 // copies of the same timezone math where the original had one. Each
 // consumer still owns its own display text/styling; only the underlying
 // boolean lives here now.
+
+import { OFFICE_OPEN_HOUR, OFFICE_CLOSE_HOUR } from "../data/site-config";
 
 export function isOfficeHoursNow(): boolean {
   const now = new Date();
@@ -14,5 +16,5 @@ export function isOfficeHoursNow(): boolean {
   const ist = new Date(istMs);
   const day = ist.getDay(); // 0=Sun … 6=Sat
   const h = ist.getHours();
-  return day >= 1 && day <= 6 && h >= 9 && h < 19;
+  return day >= 1 && day <= 6 && h >= OFFICE_OPEN_HOUR && h < OFFICE_CLOSE_HOUR;
 }

@@ -5,7 +5,7 @@
 // by default (it's the primary on-page conversion action).
 import { useCallback, useState } from "react";
 import { Mail, CheckCircle2, AlertTriangle } from "lucide-react";
-import { checkFormRateLimit, sanitiseField } from "../../lib/formHelpers";
+import { checkFormRateLimit, sanitiseField, postWeb3Forms } from "../../lib/formHelpers";
 import TurnstileWidget from "./TurnstileWidget.jsx";
 
 const WEB3FORMS_KEY = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? "";
@@ -98,13 +98,7 @@ export default function InlineRFQForm({ productTitle, contactHref = "/contact" }
       fd.append("Message", sanitiseField(message, 1000));
       const fileInput = document.getElementById("rfq-files");
       if (fileInput?.files?.length > 0) fd.append("attachment", fileInput.files[0]);
-      const res = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: { Accept: "application/json" },
-        body: fd,
-      });
-      const data = await res.json();
-      if (!res.ok || data.success === false) throw new Error(data.message || "Submission failed");
+      await postWeb3Forms(fd);
       setStatus("success");
     } catch (err) {
       setErrMsg(err.message || "Something went wrong. Please try again.");

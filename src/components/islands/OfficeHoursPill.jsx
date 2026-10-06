@@ -35,7 +35,7 @@ export default function OfficeHoursPill() {
   const refresh = useCallback(() => setStatus(getStatus()), []);
   useEffect(() => {
     // BUGFIX: getStatus() also runs during Astro's server render, using the
-    // server's clock. If the real hour/day boundary (9 AM/7 PM IST, Mon-Sat)
+    // server's clock. If the real hour/day boundary (9 AM/6 PM IST, Mon-Sat)
     // falls between server render and client hydration, the two disagree —
     // a hydration mismatch on a live status pill. Re-syncing to the client's
     // own clock right after mount (in addition to the 60s interval below)

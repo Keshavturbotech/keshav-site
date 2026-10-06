@@ -7,10 +7,10 @@
   },
   "hero": {
     "eyebrow": "हाम्रो कथा",
-    "h1Line1": "दुई दशकको",
+    "h1Line1": "{years}+ वर्षको",
     "h1Span": "शुद्ध इन्जिनियरिङ",
     "quote": "“प्लान्ट डाउनटाइमका लागि शून्य सहनशीलता — यो नारा मात्र होइन। यो त्यो इन्जिनियरिङ मापदण्ड हो जसका लागि हरेक ग्राहकले हामीलाई जिम्मेवार ठान्छन्।”",
-    "intro": "शामली, उत्तर प्रदेशको एक विशेष टर्बाइन मर्मत संस्थादेखि — पावर प्लान्ट, चिनी मिल, रिफाइनरी र प्रोसेस उद्योगहरूका लागि एक विश्वसनीय पान-भारत इन्जिनियरिङ साझेदार सम्म। Triveni, Siemens, BHEL, Man Turbo, KKK र ABB को पूर्व-OEM विशेषज्ञतामा निर्मित। एउटै लक्ष्यबाट प्रेरित: अधिकतम अपटाइम।",
+    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
     "tags": [
       "पूर्व-OEM इन्जिनियरहरू",
       "3D लेजर स्क्यानिङ",
@@ -71,7 +71,7 @@
     "eyebrow": "हामी को हौं",
     "heading": "भारतको औद्योगिक मेरुदण्डका लागि इन्जिनियरिङ साझेदार",
     "paragraphs": [
-      "Keshav Enterprises शामली, उत्तर प्रदेशमा मुख्यालय भएको शुद्ध औद्योगिक इन्जिनियरिङ कम्पनी हो। दुई दशकभन्दा बढी समयदेखि, हामीले भारतका सबैभन्दा माग गरिएका औद्योगिक क्षेत्रहरूलाई विशेष टर्बाइन मर्मत, रिभर्स इन्जिनियरिङ, र OEM-अनुकूल स्पेयर पार्टहरू प्रदान गर्दै आएका छौं।",
+      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
       "हाम्रो इन्जिनियरिङ टोलीमा Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, र ABB का पूर्व-OEM विशेषज्ञहरू समावेश छन् — जसले ग्राहकहरूलाई मूल उपकरण निर्माताहरूकै स्तरको प्राविधिक विशेषज्ञता, कम समय र लागतमा प्रदान गर्छन्।",
       "हामी 5 kW देखि 60 MW सम्मका स्टिम टर्बाइनहरू समेट्छौं — ब्याक-प्रेसर र कन्डेन्सिङ, हरिजोन्टल र भर्टिकल, सिंगल र मल्टी-स्टेज। हाम्रो कार्यशाला 3D लेजर स्क्यानर, CMM कोअर्डिनेट मापन मेसिन, डायनामिक ब्यालेन्सिङ मेसिन (50–2,000 kg), र प्रिसिजन CNC लेथले सुसज्जित छ।"
     ],
@@ -106,7 +106,7 @@
       },
       "productRange": {
         "caption": "उत्पादन दायरा",
-        "descTemplate": "9 वर्गमा {productCount} इन्जिनियर्ड उत्पादनहरू — फिल्ट्रेसन, HVAC एयर फिल्टर, स्ट्रेनर, एक्सपान्सन जोइन्ट, टर्बाइन स्पेयर, रबर उत्पादन, फ्लेक्सिबल होज, इलेक्ट्रोनिक उपकरण, र हाइड्रोलिक कम्पोनेन्ट।",
+        "descTemplate": "{categoryCount} वर्गमा {productCount} इन्जिनियर्ड उत्पादनहरू —{categoryList}।",
         "linkLabel": "उत्पादनहरू हेर्नुहोस्"
       },
       "rotorInspection": {
@@ -143,34 +143,29 @@
     "heading": "कम्पनीका उपलब्धिहरू",
     "items": [
       {
-        "year": "2000s",
-        "title": "स्थापना",
-        "desc": "शामली, उत्तर प्रदेशमा स्थानीय चिनी मिलहरूलाई ह्यान्ड्स-अन ओभरहलिङ विशेषज्ञतासहित सेवा दिने विशेष टर्बाइन मर्मत संस्थाको रूपमा स्थापित।"
+        "year": "1988",
+        "title": "Engineering Roots",
+        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
       },
       {
-        "year": "2005",
-        "title": "OEM विशेषज्ञता",
-        "desc": "Triveni, BHEL, र Belliss & Morcom का पूर्व-OEM इन्जिनियरहरूको समर्पित टोली निर्माण गरियो — जसले साँच्चिकै OEM-समान मर्मत मापदण्ड सम्भव बनायो।"
+        "year": "2016",
+        "title": "Partnership Formed",
+        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
       },
       {
-        "year": "2010",
-        "title": "रिभर्स इन्जिनियरिङ",
-        "desc": "अप्रचलित टर्बाइन कम्पोनेन्टहरूका लागि शून्य OEM निर्भरतासहित इन-हाउस रिभर्स इन्जिनियरिङ प्रदान गर्न 3D लेजर स्क्यानिङ र CMM उपकरणमा लगानी गरियो।"
+        "year": "June 2020",
+        "title": "Keshav Enterprises Founded",
+        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
       },
       {
-        "year": "2015",
-        "title": "उत्पादन दायरा विस्तार",
-        "desc": "फिल्ट्रेसन, HVAC एयर फिल्टर, एक्सपान्सन जोइन्ट, स्ट्रेनर, रबर उत्पादन, र फ्लेक्सिबल होज एसेम्बली समेट्ने विस्तृत औद्योगिक उत्पादन लाइन सुरु गरियो।"
+        "year": "2021",
+        "title": "Capability & Product Line Expansion",
+        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
       },
       {
-        "year": "2020",
-        "title": "ISO/API ब्यालेन्सिङ",
-        "desc": "ISO 1940 / API 670 मापदण्ड अनुसार डायनामिक ब्यालेन्सिङ मेसिनहरू सञ्चालनमा ल्याइयो — 50 देखि 2,000 kg सम्मका रोटरहरू ह्यान्डल गर्ने।"
-      },
-      {
-        "year": "आज",
-        "title": "एक्सपोर्ट रेडी",
-        "desc": "DGFT सँग IEC दर्ता — टर्बाइन कम्पोनेन्ट, फिल्ट्रेसन उत्पादन, र औद्योगिक स्पेयरहरू ISO/API/ASME मापदण्ड अनुसार निर्मित र निर्यातका लागि HSN-वर्गीकृत, विदेशी खरिदकर्ताहरूका लागि कागजात सहयोगसहित। 24×7 आपतकालीन इन्जिनियरिङ सहयोगसहित पान-भारत घरेलु पहुँच जारी।"
+        "year": "Today",
+        "title": "Export Ready",
+        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
       }
     ]
   },

@@ -2227,7 +2227,7 @@
     "priceRange": {
       "min": 8000,
       "max": 65000,
-      "unit": "per bearing",
+      "unit": "per set",
       "note": "વ્હાઈટ મેટલ / બેબિટ બેરિંગ; રિબેબિટેડ અથવા નવું"
     },
     "availability": {
@@ -2279,8 +2279,8 @@
     "slug": "babbitt-journal-bearings-and-thrust-pads",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 12000,
-      "max": 95000,
+      "min": 10000,
+      "max": 125000,
       "unit": "per piece",
       "note": "રોટર શાફ્ટ; પ્રિસિઝન મશીન્ડ એલોય સ્ટીલ"
     },
@@ -2393,7 +2393,7 @@
     "categorySlug": "turbine-spares",
     "priceRange": {
       "min": 1500,
-      "max": 12000,
+      "max": 20000,
       "unit": "per piece",
       "note": "કપલિંગ બોલ્ટ / સ્ટડ; એલોય સ્ટીલ"
     },
@@ -2500,8 +2500,8 @@
     "slug": "complete-turbine-rotor-assemblies",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 2000,
-      "max": 15000,
+      "min": 800000,
+      "max": 2500000,
       "unit": "per piece",
       "note": "નોઝલ / નોઝલ સેગમેન્ટ; ઇન્વેસ્ટમેન્ટ કાસ્ટ"
     },
@@ -2608,7 +2608,7 @@
     "slug": "turbine-nozzles-and-diaphragms",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 6000,
+      "min": 1000,
       "max": 45000,
       "unit": "per piece",
       "note": "ગિયર વ્હીલ / પિનિયન; કેસ હાર્ડન્ડ"
@@ -2666,8 +2666,8 @@
     "slug": "mechanical-centrifugal-speed-governors",
     "categorySlug": "turbine-spares",
     "priceRange": {
-      "min": 3000,
-      "max": 20000,
+      "min": 150000,
+      "max": 200000,
       "unit": "per piece",
       "note": "થ્રસ્ટ કોલર / થ્રસ્ટ પેડ; પ્રિસિઝન બેબિટ"
     },
@@ -3418,7 +3418,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "Turbine Spares",
+    "category": "Electronic Equipments",
     "title": "મેગ્નેટિક પિકઅપ સેન્સર (Woodward)",
     "desc": "Woodward ગવર્નર અને ડિજિટલ ટર્બાઇન કંટ્રોલ સિસ્ટમને ચોક્કસ શાફ્ટ સ્પીડ ફીડબેક માટે અસલી Woodward વેરિએબલ રિલક્ટન્સ મેગ્નેટિક સ્પીડ પિકઅપ (MPU). 3000–3600 RPM પર ચાલતાં સ્ટીમ ટર્બાઇન પર કન્ટિન્યુઅસ ડ્યુટી માટે પેસિવ, સેલ્ફ-પાવર્ડ, ઝીરો-મેન્ટેનન્સ ડિઝાઇન.",
     "usage": "Woodward 505/505D/505E ડિજિટલ ગવર્નર, 2301 અને 7206 ગવર્નર એમ્પ્લિફાયર, અને Triveni, BHEL, Siemens, KKK, અને Maxwatt સ્ટીમ ટર્બાઇન પર સ્ટેન્ડઅલોન ઓવરસ્પીડ ટ્રિપ સિસ્ટમ માટે પ્રાયમરી સ્પીડ સેન્સિંગ ઇનપુટ. સ્ટાર્ટઅપ, સિન્ક્રોનાઈઝેશન, અને ફુલ-લોડ ઓપરેશન દરમિયાન ક્લોઝ્ડ-લૂપ સ્પીડ રેગ્યુલેશન, લોડ કંટ્રોલ, અને ઓવરસ્પીડ પ્રોટેક્શન પૂરું પાડવા ગવર્નર ગિયર વ્હીલ (દાંતવાળું ગિયર / ફ્લાયવ્હીલ) દ્વારા ટર્બાઇન રોટર સ્પીડ મોનિટર કરે છે.",
@@ -3472,7 +3472,7 @@
       "woodward-magnetic-pickup-12.webp"
     ],
     "slug": "magnetic-pickup-sensor-woodward",
-    "categorySlug": "turbine-spares",
+    "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 5500,
       "max": 45000,
@@ -6646,7 +6646,7 @@
   },
   "prod_af5": {
     "id": "prod_af5",
-    "sku": "KTB-IF-028",
+    "sku": "KTB-IF-031",
     "category": "Industrial Filtration",
     "title": "પ્લીટેડ અથવા સ્મૂધ કાર્ટ્રિજ એલિમેન્ટ સાથે પલ્સ-જેટ ડસ્ટ કલેક્ટર ફિલ્ટર બેગ",
     "desc": "પલ્સ-જેટ ડસ્ટ કલેક્ટર અને બેગહાઉસ સિસ્ટમ માટે ઔદ્યોગિક-ગ્રેડ ફિલ્ટર બેગ અને પ્લીટેડ કાર્ટ્રિજ એલિમેન્ટ. સિલિન્ડ્રિકલ વોવન અથવા નીડલ-ફેલ્ટ ફિલ્ટર બેગ (સ્ટાન્ડર્ડ કેજ-ટાઈપ હાઉસિંગ માટે સ્મૂધ આઉટર સપાટી) અથવા પ્લીટેડ કાર્ટ્રિજ એલિમેન્ટ (છિદ્રિત કોરની આસપાસ એકોર્ડિયન-પ્લીટેડ મીડિયા — સમાન હાઉસિંગ ફૂટપ્રિન્ટમાં સમકક્ષ સ્મૂધ બેગ કરતાં 5× સુધી ફિલ્ટર એરિયા) તરીકે પૂરાં પાડવામાં આવે છે. બંને ડિઝાઇન પલ્સ-જેટ રિવર્સ-ફ્લો સફાઈ સાથે સુસંગત. મીડિયા વિકલ્પોમાં 260°C સુધીના તાપમાન માટે સ્ટાન્ડર્ડ પોલિએસ્ટર ફેલ્ટ, એન્ટિ-સ્ટેટિક, PTFE મેમ્બ્રેન, એરામિડ, અને ગ્લાસ ફાઇબર સામેલ છે.",

@@ -7,10 +7,10 @@
   },
   "hero": {
     "eyebrow": "Câu chuyện của Chúng tôi",
-    "h1Line1": "Hai Thập kỷ",
+    "h1Line1": "{years}+ Năm",
     "h1Span": "Kỹ thuật Chính xác",
     "quote": "“Không dung sai cho việc ngừng hoạt động nhà máy — đó không phải là khẩu hiệu. Đó là tiêu chuẩn kỹ thuật mà mọi khách hàng đều yêu cầu ở chúng tôi.”",
-    "intro": "Từ một xưởng bảo trì tua-bin chuyên biệt tại Shamli, Uttar Pradesh — trở thành đối tác kỹ thuật đáng tin cậy trên toàn Ấn Độ cho các nhà máy điện, nhà máy đường, nhà máy lọc dầu và ngành công nghiệp quy trình. Được xây dựng trên nền tảng chuyên môn từng làm việc tại OEM Triveni, Siemens, BHEL, Man Turbo, KKK và ABB. Được thúc đẩy bởi một mệnh lệnh duy nhất: thời gian hoạt động tối đa.",
+    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
     "tags": [
       "Kỹ sư Từng làm việc tại OEM",
       "Quét Laser 3D",
@@ -71,7 +71,7 @@
     "eyebrow": "Chúng tôi là Ai",
     "heading": "Đối tác Kỹ thuật cho Trụ cột Công nghiệp Ấn Độ",
     "paragraphs": [
-      "Keshav Enterprises là công ty kỹ thuật công nghiệp chính xác có trụ sở tại Shamli, Uttar Pradesh. Trong hơn hai thập kỷ, chúng tôi đã cung cấp dịch vụ bảo trì tua-bin chuyên biệt, kỹ thuật đảo ngược, và phụ tùng tương thích OEM cho các ngành công nghiệp khắt khe nhất Ấn Độ.",
+      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
       "Đội ngũ kỹ thuật của chúng tôi bao gồm các chuyên gia từng làm việc tại OEM Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, và ABB — mang đến cho khách hàng cùng mức độ chuyên môn kỹ thuật như các nhà sản xuất thiết bị gốc, với chi phí và thời gian chờ chỉ bằng một phần nhỏ.",
       "Chúng tôi bao phủ tua-bin hơi nước từ 5 kW đến 60 MW — đối áp và ngưng hơi, nằm ngang và thẳng đứng, đơn và đa cấp. Xưởng của chúng tôi được trang bị máy quét laser 3D, máy đo tọa độ CMM, máy cân bằng động (50–2.000 kg), và máy tiện CNC chính xác."
     ],
@@ -106,7 +106,7 @@
       },
       "productRange": {
         "caption": "Danh mục Sản phẩm",
-        "descTemplate": "{productCount} sản phẩm kỹ thuật trên 9 danh mục — lọc, bộ lọc khí HVAC, bộ lọc rác, khớp nối giãn nở, phụ tùng tua-bin, sản phẩm cao su, ống mềm, thiết bị điện tử, và linh kiện thủy lực.",
+        "descTemplate": "{productCount} sản phẩm kỹ thuật trên {categoryCount} danh mục —{categoryList}.",
         "linkLabel": "Xem Sản phẩm"
       },
       "rotorInspection": {
@@ -143,34 +143,29 @@
     "heading": "Các Cột mốc Công ty",
     "items": [
       {
-        "year": "Thập niên 2000",
-        "title": "Thành lập",
-        "desc": "Thành lập tại Shamli, UP như một xưởng bảo trì tua-bin chuyên biệt phục vụ các nhà máy đường địa phương với chuyên môn đại tu thực tế."
+        "year": "1988",
+        "title": "Engineering Roots",
+        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
       },
       {
-        "year": "2005",
-        "title": "Chuyên môn OEM",
-        "desc": "Xây dựng đội ngũ chuyên biệt các kỹ sư từng làm việc tại OEM từ Triveni, BHEL, và Belliss & Morcom — cho phép các tiêu chuẩn bảo trì tương đương OEM thực sự."
+        "year": "2016",
+        "title": "Partnership Formed",
+        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
       },
       {
-        "year": "2010",
-        "title": "Kỹ thuật Đảo ngược",
-        "desc": "Đầu tư vào thiết bị quét laser 3D và CMM để cung cấp dịch vụ kỹ thuật đảo ngược nội bộ cho các linh kiện tua-bin đã ngừng sản xuất mà không phụ thuộc OEM."
+        "year": "June 2020",
+        "title": "Keshav Enterprises Founded",
+        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
       },
       {
-        "year": "2015",
-        "title": "Mở rộng Danh mục Sản phẩm",
-        "desc": "Ra mắt dòng sản phẩm công nghiệp toàn diện bao gồm lọc, bộ lọc khí HVAC, khớp nối giãn nở, bộ lọc rác, sản phẩm cao su, và bộ lắp ráp ống mềm."
+        "year": "2021",
+        "title": "Capability & Product Line Expansion",
+        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
       },
       {
-        "year": "2020",
-        "title": "Cân bằng ISO/API",
-        "desc": "Đưa vào vận hành máy cân bằng động theo tiêu chuẩn ISO 1940 / API 670 — xử lý rotor từ 50 đến 2.000 kg."
-      },
-      {
-        "year": "Hôm nay",
-        "title": "Sẵn sàng Xuất khẩu",
-        "desc": "Đăng ký IEC với DGFT — linh kiện tua-bin, sản phẩm lọc, và phụ tùng công nghiệp được chế tạo theo tiêu chuẩn ISO/API/ASME và phân loại HSN để xuất khẩu, với hỗ trợ tài liệu cho người mua nước ngoài. Phạm vi tiếp cận trong nước trên toàn Ấn Độ tiếp tục với hỗ trợ kỹ thuật khẩn cấp 24×7."
+        "year": "Today",
+        "title": "Export Ready",
+        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
       }
     ]
   },
