@@ -10,7 +10,7 @@
     "h1Line1": "{years}+ عامًا من",
     "h1Span": "الهندسة الدقيقة",
     "quote": "“عدم التسامح مطلقًا مع توقف المصنع — ليس هذا شعارًا. إنه المعيار الهندسي الذي يحاسبنا عليه كل عميل.”",
-    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
+    "intro": "يعمل المؤسس شيخار شارما مباشرةً مع التوربينات البخارية منذ عام 1988، وقد اكتسب خبرة في عدة شركات قبل أن يؤسس شراكة مستقلة لصيانة التوربينات عام 2016. وتأسست Keshav Enterprises رسميًا في يونيو 2020، وهي اليوم شريك هندسي موثوق لمحطات الطاقة ومصانع السكر والمصافي والصناعات التحويلية في أنحاء الهند والعالم، وتواصل نقل الخبرة نفسها لمتخصصين سابقين في الشركات المصنِّعة الأصلية (OEM) من Triveni وSiemens وBHEL وMan Turbo وKKK وABB.",
     "tags": [
       "مهندسون سابقون في الشركات المصنعة الأصلية",
       "مسح ليزري ثلاثي الأبعاد",
@@ -71,7 +71,7 @@
     "eyebrow": "من نحن",
     "heading": "شركاء هندسيون للعمود الفقري الصناعي للهند",
     "paragraphs": [
-      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
+      "Keshav Enterprises شركة هندسة صناعية دقيقة يقع مقرها الرئيسي في شاملي بولاية أوتار براديش. يعمل المؤسس شيخار شارما مباشرةً مع التوربينات البخارية منذ عام 1988؛ وقد تحولت تلك الخبرة إلى شراكة مستقلة عام 2016، وتأسست Keshav Enterprises رسميًا في يونيو 2020. نقدم صيانة متخصصة للتوربينات وهندسة عكسية وقطع غيار متوافقة مع الشركات المصنِّعة الأصلية لعملاء في أنحاء الهند والعالم، بما في ذلك الصادرات إلى نيبال وأوغندا.",
       "يضم فريقنا الهندسي متخصصين سابقين من Triveni وSiemens وBHEL وBelliss & Morcom وMan Turbo وKKK وABB — ما يمنح العملاء نفس مستوى الخبرة التقنية للشركات المصنعة الأصلية، بجزء صغير من الوقت والتكلفة.",
       "نغطي التوربينات البخارية من 5 كيلوواط إلى 60 ميجاواط — ضغط خلفي وتكثيف، أفقي وعمودي، أحادي ومتعدد المراحل. ورشتنا مجهزة بماسحات ليزر ثلاثية الأبعاد، وأجهزة قياس إحداثية CMM، وآلات موازنة ديناميكية (50–2,000 كجم)، ومخارط CNC دقيقة."
     ],
@@ -144,28 +144,28 @@
     "items": [
       {
         "year": "1988",
-        "title": "Engineering Roots",
-        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
+        "title": "جذور هندسية",
+        "desc": "يبدأ المؤسس شيخار شارما العمل مباشرةً مع التوربينات البخارية بصفته مهندسًا، ويكتسب خبرة في عدة شركات على مدى العقود التالية."
       },
       {
         "year": "2016",
-        "title": "Partnership Formed",
-        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
+        "title": "تكوين الشراكة",
+        "desc": "يؤسس شيخار شارما شراكة مستقلة لصيانة التوربينات في شاملي بولاية أوتار براديش، لخدمة مصانع السكر المحلية بخبرة عملية في الصيانة الشاملة."
       },
       {
-        "year": "June 2020",
-        "title": "Keshav Enterprises Founded",
-        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
+        "year": "يونيو 2020",
+        "title": "تأسيس Keshav Enterprises",
+        "desc": "تُسجَّل الشراكة رسميًا باسم Keshav Enterprises في شاملي بولاية أوتار براديش."
       },
       {
         "year": "2021",
-        "title": "Capability & Product Line Expansion",
-        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
+        "title": "توسيع القدرات وخط المنتجات",
+        "desc": "استثمار في المسح الليزري ثلاثي الأبعاد ومعدات القياس بالإحداثيات (CMM) وآلات الموازنة الديناميكية وفق ISO 1940 / API 670 (50–2,000 كجم)، وإطلاق خط شامل من المنتجات الصناعية يشمل الترشيح ومرشحات هواء التكييف (HVAC) ووصلات التمدد والمصافي ومنتجات المطاط ومجموعات الخراطيم المرنة."
       },
       {
-        "year": "Today",
-        "title": "Export Ready",
-        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
+        "year": "اليوم",
+        "title": "جاهزية للتصدير",
+        "desc": "مسجلة في IEC لدى DGFT: تُصنَّع مكونات التوربينات ومنتجات الترشيح وقطع الغيار الصناعية وفق معايير ISO/API/ASME وتُصنَّف بحسب رموز HSN للتصدير، مع دعم المستندات للمشترين في الخارج. ويستمر الانتشار داخل الهند بدعم هندسي طارئ على مدار الساعة طوال أيام الأسبوع (24×7)."
       }
     ]
   },
@@ -213,7 +213,7 @@
     "headingLine1": "مصمم للتصدير",
     "headingSpan": "يسهل على المشترين التحقق منه",
     "paragraphs": [
-      "تحتفظ Keshav Enterprises برمز مستورد-مصدّر (IEC) نشط صادر عن DGFT، وهو الاعتماد القانوني المطلوب لشحن قطع غيار هندسة التوربينات، ومنتجات الترشيح الصناعي، والمكونات المتوافقة مع الشركات المصنعة الأصلية خارج الهند.",
+      "تحتفظ Keshav Enterprises برمز مستورد-مصدّر (IEC) نشط صادر عن DGFT، وهو الاعتماد القانوني المطلوب لشحن قطع غيار هندسة التوربينات، ومنتجات الترشيح الصناعي، والمكونات المتوافقة مع الشركات المصنعة الأصلية خارج الهند. سبق أن صدّرنا مرشحات سلّية (basket strainers) إلى نيبال، ومرشحات زيت التزييت وأوتاد القص (shear pins) إلى أوغندا.",
       "تُصنَّع منتجاتنا المصنوعة بدقة وفق المعايير الدولية بما فيها ISO 16889 وAPI 614 وASME Sec. VIII، وتُصنَّف بموجب رموز HSN القياسية للتصدير، بحيث يمكن للمشترين في الخارج التحقق من الامتثال قبل تقديم الطلب."
     ],
     "standards": [
@@ -239,6 +239,7 @@
     "checklistTitle": "قائمة التحقق من جاهزية التصدير",
     "checklistItems": [
       "رمز IEC نشط صادر عن DGFT — مصرح قانونيًا بالتصدير",
+      "منتجات تم شحنها بالفعل إلى نيبال وأوغندا",
       "منتجات مصنفة بموجب رموز HSN القياسية للتصدير",
       "مصنعة وفق المعايير الدولية ISO وAPI وASME",
       "بيانات فنية وشهادات اختبار ووثائق ضبط جودة باللغة الإنجليزية",
@@ -249,6 +250,51 @@
       "gst": "GST",
       "msme": "MSME/Udyam",
       "iec": "IEC"
+    },
+    "tradeTerms": {
+      "heading": "شروط التجارة للتصدير",
+      "subheading": "ما يمكن أن يتوقعه المشترون من الخارج عند الطلب من Keshav Enterprises",
+      "items": [
+        {
+          "label": "شروط الإنكوتيرمز",
+          "value": "FOB نهافا شيفا / ميناء دلهي الجاف (ICD)، وCIF متاح عند الطلب"
+        },
+        {
+          "label": "شروط الدفع",
+          "value": "دفعة مقدمة 30% (T/T) مع الطلب، و70% مقابل نسخة من بوليصة الشحن (B/L)؛ يُقبل خطاب الاعتماد (L/C عند الاطلاع) للطلبات التي تتجاوز 2,000 دولار أمريكي"
+        },
+        {
+          "label": "مدة التوريد المعتادة",
+          "value": "من 4 إلى 6 أسابيع تسليم من المصنع (ex-works) من تاريخ تأكيد الطلب، حسب نطاق العمل"
+        },
+        {
+          "label": "التعبئة والتغليف",
+          "value": "تغليف بمعيار التصدير يصلح للشحن البحري/الجوي لقطع غيار التوربينات ومنتجات الترشيح"
+        },
+        {
+          "label": "المستندات المقدمة",
+          "value": "فاتورة تجارية، قائمة تعبئة، شهادة منشأ، شهادات الاختبار/الفحص، وصحيفة بيانات السلامة (MSDS) عند الاقتضاء"
+        }
+      ],
+      "note": "تُؤكَّد الشروط الدقيقة لكل طلب بحسب المنتج والكمية وبلد الوجهة."
+    },
+    "trackRecord": {
+      "heading": "سجل الصادرات",
+      "subheading": "منتجات تم شحنها بالفعل خارج الهند",
+      "shipments": [
+        {
+          "product": "مرشحات سلّية",
+          "country": "نيبال"
+        },
+        {
+          "product": "مرشحات زيت التزييت",
+          "country": "أوغندا"
+        },
+        {
+          "product": "أوتاد القص",
+          "country": "أوغندا"
+        }
+      ]
     }
   },
   "finalCta": {

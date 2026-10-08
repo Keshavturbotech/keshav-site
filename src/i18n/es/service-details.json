@@ -1070,5 +1070,116 @@
         "body": "OEM"
       }
     ]
+  },
+  "srv_8": {
+    "tagline": "Chorreado abrasivo de precisión: metal limpio sin comprometer las tolerancias críticas",
+    "accentColor": "#ea580c",
+    "keyStats": [
+      {
+        "value": "4 tipos de abrasivo",
+        "label": "Según el sustrato"
+      },
+      {
+        "value": "SSPC/NACE",
+        "label": "Normas de preparación de superficies"
+      },
+      {
+        "value": "100%",
+        "label": "Superficies críticas enmascaradas"
+      },
+      {
+        "value": "Taller/Obra",
+        "label": "Despliegue flexible"
+      }
+    ],
+    "whyUs": "Un chorreado agresivo o con un abrasivo inadecuado puede redondear aristas, rugosificar caras de sellado y destruir las tolerancias exactas con que se mecanizó su rotor. Enmascaramos todas las superficies críticas antes de empezar y adaptamos el grado de abrasivo al sustrato, de modo que obtiene una superficie limpia y lista para pintar sin tocar ni una sola cota mecanizada.",
+    "overview": "Antes de poder inspeccionar con precisión, someter a ingeniería inversa, ensayar con END o recubrir un rotor, carcasa o componente de turbina, su superficie debe estar libre de óxido, cascarilla, pintura antigua y depósitos de carbón, y esa preparación debe hacerse sin dañar la geometría mecanizada subyacente. Keshav Enterprises ofrece chorreado abrasivo controlado de componentes de turbina con abrasivos elegidos según el sustrato y el acabado requerido: abrasivos más gruesos para acero estructural y carcasas, y microesferas de vidrio finas o cáscara de nuez para superficies mecanizadas delicadas. Cada muñón, asiento de sellado, rosca y elemento de precisión se enmascara y protege antes de comenzar. El resultado es una superficie limpia y con perfil uniforme (verificada según las normas de preparación de superficies SSPC/NACE), lista para medición precisa, END o recubrimiento.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Evaluación del componente y enmascarado",
+        "iconName": "Search",
+        "desc": "Inspección del componente para identificar todas las superficies mecanizadas críticas (muñones, asientos de sellado, roscas, caras de junta) que deben protegerse del abrasivo. Todas esas zonas se enmascaran con cubiertas a medida, cinta o tapones antes de iniciar el chorreado."
+      },
+      {
+        "step": "02",
+        "title": "Selección del abrasivo",
+        "iconName": "Layers",
+        "desc": "El abrasivo se elige según la dureza del sustrato y el perfil superficial requerido: óxido de aluminio o granate para acero estructural y carcasas, microesferas de vidrio finas para superficies delicadas de rotor y piezas de pared delgada, cáscara de nuez para la limpieza más suave de piezas de precisión."
+      },
+      {
+        "step": "03",
+        "title": "Eliminación de óxido, cascarilla y recubrimientos",
+        "iconName": "Wrench",
+        "desc": "El chorreado controlado, con presión y distancia adecuadas al componente, elimina óxido, cascarilla de laminación, pintura antigua y depósitos de carbón hasta dejar una superficie uniforme y libre de contaminantes, sin picaduras, deformaciones ni cambios dimensionales."
+      },
+      {
+        "step": "04",
+        "title": "Verificación del perfil superficial",
+        "iconName": "Activity",
+        "desc": "El patrón de anclaje (perfil superficial) se mide con un comparador de perfil o cinta réplica para confirmar que la superficie cumple la norma SSPC-SP o NACE exigida para el recubrimiento o el proceso de inspección posterior."
+      },
+      {
+        "step": "05",
+        "title": "Control de polvo y residuos",
+        "iconName": "Shield",
+        "desc": "El chorreado se realiza en una cabina cerrada en nuestro taller, o con equipo carenado con recuperación por aspiración in situ, para controlar el polvo y proteger la planta y el personal circundantes."
+      },
+      {
+        "step": "06",
+        "title": "Inspección final y entrega",
+        "iconName": "CheckCircle2",
+        "desc": "Se retiran los enmascarados, se vuelven a comprobar todas las superficies protegidas frente a las cotas originales y se inspecciona visualmente el componente para verificar un chorreado uniforme antes de entregarlo para medición, END, recubrimiento o montaje."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Equipo portátil de chorreado abrasivo",
+        "detail": "Tipo olla a presión, desplegable in situ",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Gama de abrasivos",
+        "detail": "Granate, óxido de aluminio, microesferas de vidrio, cáscara de nuez",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Cabina de chorreado cerrada",
+        "detail": "Chorreado en taller con control de polvo",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Comparador de perfil superficial",
+        "detail": "Verificación del patrón de anclaje SSPC/NACE",
+        "iconName": "Search"
+      },
+      {
+        "name": "Carenado con recuperación por aspiración",
+        "detail": "Chorreado in situ con contención de polvo",
+        "iconName": "Filter"
+      }
+    ],
+    "standards": [
+      {
+        "code": "SSPC-SP 6/10",
+        "desc": "Limpieza por chorreado de metal comercial y casi blanco",
+        "body": "SSPC"
+      },
+      {
+        "code": "NACE No.3/2",
+        "desc": "Normas de preparación de superficies para recubrimiento",
+        "body": "NACE"
+      },
+      {
+        "code": "ISO 8501-1",
+        "desc": "Evaluación visual de la limpieza de la superficie",
+        "body": "ISO"
+      },
+      {
+        "code": "Especificación OEM",
+        "desc": "Enmascarado y límites de abrasivo según el requisito de recubrimiento del OEM",
+        "body": "OEM"
+      }
+    ]
   }
 }

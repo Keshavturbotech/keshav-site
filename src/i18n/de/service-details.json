@@ -1070,5 +1070,116 @@
         "action": "Endoskopinspektion, Dichtstreifenaustausch, Düseninspektion und -reinigung"
       }
     ]
+  },
+  "srv_8": {
+    "tagline": "Präzises Strahlen: Saubere Metalloberflächen ohne Einbußen bei kritischen Toleranzen",
+    "accentColor": "#ea580c",
+    "keyStats": [
+      {
+        "value": "4 Strahlmittel",
+        "label": "Passend zum Grundwerkstoff"
+      },
+      {
+        "value": "SSPC/NACE",
+        "label": "Normen zur Oberflächenvorbereitung"
+      },
+      {
+        "value": "100%",
+        "label": "Kritische Flächen abgedeckt"
+      },
+      {
+        "value": "Werkstatt/Vor Ort",
+        "label": "Flexibler Einsatz"
+      }
+    ],
+    "whyUs": "Aggressives Strahlen oder ein falsches Strahlmittel kann Kanten verrunden, Dichtflächen aufrauen und genau die Toleranzen zerstören, auf die Ihr Rotor gefertigt wurde. Wir decken jede kritische Fläche ab, bevor das Strahlen beginnt, und stimmen die Strahlmittelqualität auf den Grundwerkstoff ab – so erhalten Sie eine saubere, lackierfertige Oberfläche, ohne ein einziges bearbeitetes Maß anzutasten.",
+    "overview": "Bevor ein Turbinenrotor, ein Gehäuse oder ein Bauteil genau inspiziert, per Reverse Engineering vermessen, zerstörungsfrei geprüft oder neu beschichtet werden kann, muss seine Oberfläche frei von Rost, Zunder, alter Farbe und Kohlenstoffablagerungen sein – und zwar ohne die darunterliegende bearbeitete Geometrie zu beschädigen. Keshav Enterprises bietet kontrolliertes Strahlen von Turbinenbauteilen mit Strahlmitteln, die auf Grundwerkstoff und geforderte Oberflächengüte abgestimmt sind: gröbere Mittel für Baustahl und Gehäuse, feine Glasperlen oder Walnussschalen für empfindliche bearbeitete Flächen. Jeder Lagerzapfen, jede Dichtfläche, jedes Gewinde und jedes Präzisionsmerkmal wird vor Beginn des Strahlens abgedeckt und geschützt. Das Ergebnis ist eine saubere, gleichmäßig profilierte Oberfläche (geprüft nach den SSPC/NACE-Normen zur Oberflächenvorbereitung), bereit für genaue Messung, NDT oder Neubeschichtung.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Bauteilbewertung & Abdeckung",
+        "iconName": "Search",
+        "desc": "Prüfung des Bauteils, um alle kritischen bearbeiteten Flächen (Lagerzapfen, Dichtflächen, Gewinde, Dichtungsflächen) zu identifizieren, die vor dem Strahlmittel geschützt werden müssen. Alle diese Bereiche werden mit speziell angefertigten Abdeckungen, Klebeband oder passenden Stopfen abgedeckt, bevor das Strahlen beginnt."
+      },
+      {
+        "step": "02",
+        "title": "Auswahl des Strahlmittels",
+        "iconName": "Layers",
+        "desc": "Das Strahlmittel wird auf Härte des Grundwerkstoffs und gewünschtes Oberflächenprofil abgestimmt: Aluminiumoxid oder Granat für Baustahl und Gehäuse, feine Glasperlen für empfindliche Rotoroberflächen und dünnwandige Bauteile, Walnussschalen für die schonendste Reinigung von Präzisionsteilen."
+      },
+      {
+        "step": "03",
+        "title": "Entfernung von Rost, Zunder & Beschichtung",
+        "iconName": "Wrench",
+        "desc": "Kontrolliertes Strahlen mit auf das Bauteil abgestimmtem Druck und Strahlabstand entfernt Rost, Walzzunder, alte Farbe und Kohlenstoffablagerungen bis auf eine gleichmäßige, verunreinigungsfreie Oberfläche – ohne Lochfraß, Verzug oder Maßänderungen."
+      },
+      {
+        "step": "04",
+        "title": "Prüfung des Oberflächenprofils",
+        "iconName": "Activity",
+        "desc": "Das Ankerprofil (Oberflächenprofil) wird mit einem Profilvergleicher oder Replikaband gemessen, um sicherzustellen, dass die Oberfläche die SSPC-SP- oder NACE-Norm für den folgenden Beschichtungs- oder Prüfprozess erfüllt."
+      },
+      {
+        "step": "05",
+        "title": "Staub- & Schmutzkontrolle",
+        "iconName": "Shield",
+        "desc": "Das Strahlen erfolgt in einer geschlossenen Kabine in unserer Werkstatt oder vor Ort mit Geräten mit Absaugung und Einhausung, um Staub zu kontrollieren und die umliegende Anlage sowie das Personal zu schützen."
+      },
+      {
+        "step": "06",
+        "title": "Endkontrolle & Übergabe",
+        "iconName": "CheckCircle2",
+        "desc": "Abdeckungen werden entfernt, alle geschützten Flächen gegen die Originalmaße erneut geprüft und das Bauteil visuell auf gleichmäßige Strahlabdeckung kontrolliert, bevor es zur Messung, NDT, Beschichtung oder Montage übergeben wird."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Mobile Strahlanlage",
+        "detail": "Druckkesselbauart, vor Ort einsetzbar",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Strahlmittel-Sortiment",
+        "detail": "Granat, Aluminiumoxid, Glasperlen, Walnussschalen",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Geschlossene Strahlkabine",
+        "detail": "Staubkontrolliertes Strahlen in der Werkstatt",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Oberflächenprofil-Vergleicher",
+        "detail": "Prüfung des Ankerprofils nach SSPC/NACE",
+        "iconName": "Search"
+      },
+      {
+        "name": "Absaug-Einhausung",
+        "detail": "Staubgekapseltes Strahlen vor Ort",
+        "iconName": "Filter"
+      }
+    ],
+    "standards": [
+      {
+        "code": "SSPC-SP 6/10",
+        "desc": "Strahlreinigung von Metall (kommerziell & nahezu metallisch blank)",
+        "body": "SSPC"
+      },
+      {
+        "code": "NACE No.3/2",
+        "desc": "Normen zur Oberflächenvorbereitung für Beschichtungen",
+        "body": "NACE"
+      },
+      {
+        "code": "ISO 8501-1",
+        "desc": "Visuelle Beurteilung der Oberflächenreinheit",
+        "body": "ISO"
+      },
+      {
+        "code": "OEM-Spezifikation",
+        "desc": "Abdeckung & Strahlmittelgrenzen nach OEM-Beschichtungsvorgabe",
+        "body": "OEM"
+      }
+    ]
   }
 }

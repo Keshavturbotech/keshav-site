@@ -10,7 +10,7 @@
     "h1Line1": "{years}+ ปีแห่ง",
     "h1Span": "วิศวกรรมความแม่นยำ",
     "quote": "“ไม่มีความคลาดเคลื่อนสำหรับเวลาหยุดทำงานของโรงงาน — นี่ไม่ใช่คำขวัญ แต่เป็นมาตรฐานวิศวกรรมที่ลูกค้าทุกรายยึดถือกับเรา”",
-    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
+    "intro": "ผู้ก่อตั้ง Shekhar Sharma ทำงานกับกังหันไอน้ำโดยตรงมาตั้งแต่ปี 1988 สั่งสมประสบการณ์ในหลายบริษัท ก่อนก่อตั้งห้างหุ้นส่วนบำรุงรักษากังหันอิสระในปี 2016 Keshav Enterprises ก่อตั้งอย่างเป็นทางการในเดือนมิถุนายน 2020 และปัจจุบันเป็นพันธมิตรด้านวิศวกรรมที่เชื่อถือได้ของโรงไฟฟ้า โรงงานน้ำตาล โรงกลั่น และอุตสาหกรรมกระบวนการทั่วอินเดียและทั่วโลก โดยสืบทอดความเชี่ยวชาญระดับอดีตวิศวกร OEM จาก Triveni, Siemens, BHEL, Man Turbo, KKK และ ABB",
     "tags": [
       "วิศวกรอดีต OEM",
       "การสแกนเลเซอร์ 3 มิติ",
@@ -71,7 +71,7 @@
     "eyebrow": "เราคือใคร",
     "heading": "พันธมิตรวิศวกรรมสำหรับกระดูกสันหลังอุตสาหกรรมของอินเดีย",
     "paragraphs": [
-      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
+      "Keshav Enterprises เป็นบริษัทวิศวกรรมอุตสาหกรรมความแม่นยำที่มีสำนักงานใหญ่ในเมืองชัมลี รัฐอุตตรประเทศ ผู้ก่อตั้ง Shekhar Sharma ทำงานกับกังหันไอน้ำโดยตรงมาตั้งแต่ปี 1988 ประสบการณ์นั้นพัฒนาเป็นห้างหุ้นส่วนอิสระในปี 2016 และ Keshav Enterprises ก่อตั้งอย่างเป็นทางการในเดือนมิถุนายน 2020 เราให้บริการบำรุงรักษากังหันเฉพาะทาง วิศวกรรมย้อนกลับ และอะไหล่ที่เข้ากันได้กับ OEM แก่ลูกค้าทั่วอินเดียและทั่วโลก รวมถึงการส่งออกไปยังเนปาลและยูกันดา",
       "ทีมวิศวกรรมของเรารวมถึงผู้เชี่ยวชาญอดีต OEM จาก Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK และ ABB — มอบความเชี่ยวชาญทางเทคนิคระดับเดียวกับผู้ผลิตอุปกรณ์ดั้งเดิมให้กับลูกค้า ในเวลาและต้นทุนเพียงเสี้ยวหนึ่ง",
       "เราครอบคลุมกังหันไอน้ำตั้งแต่ 5 กิโลวัตต์ถึง 60 เมกะวัตต์ — แบบแรงดันย้อนกลับและ condensing แนวนอนและแนวตั้ง แบบเดี่ยวและหลายชั้น โรงงานของเราติดตั้งเครื่องสแกนเลเซอร์ 3 มิติ เครื่องวัดพิกัด CMM เครื่องถ่วงสมดุลแบบไดนามิก (50–2,000 กก.) และเครื่องกลึง CNC ความแม่นยำสูง"
     ],
@@ -144,28 +144,28 @@
     "items": [
       {
         "year": "1988",
-        "title": "Engineering Roots",
-        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
+        "title": "รากฐานด้านวิศวกรรม",
+        "desc": "ผู้ก่อตั้ง Shekhar Sharma เริ่มทำงานกับกังหันไอน้ำโดยตรงในฐานะวิศวกร และสั่งสมประสบการณ์ในหลายบริษัทตลอดหลายทศวรรษต่อมา"
       },
       {
         "year": "2016",
-        "title": "Partnership Formed",
-        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
+        "title": "จัดตั้งห้างหุ้นส่วน",
+        "desc": "Shekhar Sharma เริ่มห้างหุ้นส่วนบำรุงรักษากังหันอิสระที่เมืองชัมลี รัฐอุตตรประเทศ ให้บริการโรงงานน้ำตาลในท้องถิ่นด้วยความเชี่ยวชาญงานโอเวอร์ฮอลภาคปฏิบัติ"
       },
       {
-        "year": "June 2020",
-        "title": "Keshav Enterprises Founded",
-        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
+        "year": "มิถุนายน 2020",
+        "title": "ก่อตั้ง Keshav Enterprises",
+        "desc": "ห้างหุ้นส่วนจดทะเบียนอย่างเป็นทางการเป็น Keshav Enterprises เมืองชัมลี รัฐอุตตรประเทศ"
       },
       {
         "year": "2021",
-        "title": "Capability & Product Line Expansion",
-        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
+        "title": "ขยายขีดความสามารถและสายผลิตภัณฑ์",
+        "desc": "ลงทุนในการสแกนเลเซอร์ 3 มิติ เครื่องมือวัด CMM และเครื่องถ่วงสมดุลไดนามิกตามมาตรฐาน ISO 1940 / API 670 (50–2,000 กก.) พร้อมเปิดตัวสายผลิตภัณฑ์อุตสาหกรรมครบวงจร ครอบคลุมระบบกรอง ไส้กรองอากาศ HVAC ข้อต่อขยายตัว สเตรนเนอร์ ผลิตภัณฑ์ยาง และชุดท่อยืดหยุ่น"
       },
       {
-        "year": "Today",
-        "title": "Export Ready",
-        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
+        "year": "ปัจจุบัน",
+        "title": "พร้อมส่งออก",
+        "desc": "ขึ้นทะเบียน IEC กับ DGFT: ชิ้นส่วนกังหัน ผลิตภัณฑ์กรอง และอะไหล่อุตสาหกรรมผลิตตามมาตรฐาน ISO/API/ASME และจำแนกพิกัด HSN เพื่อการส่งออก พร้อมการสนับสนุนเอกสารสำหรับผู้ซื้อต่างประเทศ การให้บริการทั่วอินเดียยังคงดำเนินต่อไปพร้อมการสนับสนุนด้านวิศวกรรมฉุกเฉินตลอด 24 ชั่วโมงทุกวัน"
       }
     ]
   },
@@ -213,7 +213,7 @@
     "headingLine1": "สร้างขึ้นเพื่อให้",
     "headingSpan": "ผู้ซื้อส่งออกตรวจสอบได้ง่าย",
     "paragraphs": [
-      "Keshav Enterprises ถือรหัสผู้นำเข้า-ส่งออก (IEC) ที่ยังใช้งานอยู่ ออกโดย DGFT ซึ่งเป็นเอกสารรับรองทางกฎหมายที่จำเป็นสำหรับการจัดส่งอะไหล่วิศวกรรมกังหัน ผลิตภัณฑ์กรองอุตสาหกรรม และชิ้นส่วนที่เข้ากันได้กับ OEM ออกนอกประเทศอินเดีย",
+      "Keshav Enterprises ถือรหัสผู้นำเข้า-ส่งออก (IEC) ที่ยังใช้งานอยู่ ออกโดย DGFT ซึ่งเป็นเอกสารรับรองทางกฎหมายที่จำเป็นสำหรับการจัดส่งอะไหล่วิศวกรรมกังหัน ผลิตภัณฑ์กรองอุตสาหกรรม และชิ้นส่วนที่เข้ากันได้กับ OEM ออกนอกประเทศอินเดีย เราได้ส่งออกสเตรนเนอร์แบบตะกร้าไปยังเนปาล และไส้กรองน้ำมันหล่อลื่นกับเดือยเฉือนไปยังยูกันดาแล้ว",
       "ผลิตภัณฑ์ที่ผลิตด้วยความแม่นยำของเราผลิตตามมาตรฐานสากล รวมถึง ISO 16889, API 614 และ ASME Sec. VIII และจัดประเภทภายใต้รหัสส่งออก HSN มาตรฐาน เพื่อให้ผู้ซื้อต่างประเทศสามารถตรวจสอบการปฏิบัติตามข้อกำหนดก่อนสั่งซื้อ"
     ],
     "standards": [
@@ -239,6 +239,7 @@
     "checklistTitle": "รายการตรวจสอบความพร้อมส่งออก",
     "checklistItems": [
       "IEC ที่ใช้งานอยู่ออกโดย DGFT — ได้รับอนุญาตทางกฎหมายให้ส่งออก",
+      "สินค้าส่งมอบไปยังเนปาลและยูกันดาแล้ว",
       "ผลิตภัณฑ์จัดประเภทภายใต้รหัสส่งออก HSN มาตรฐาน",
       "ผลิตตามมาตรฐานสากล ISO, API และ ASME",
       "เอกสารข้อมูลภาษาอังกฤษ ใบรับรองการทดสอบ และเอกสาร QC",
@@ -249,6 +250,51 @@
       "gst": "GST",
       "msme": "MSME/Udyam",
       "iec": "IEC"
+    },
+    "tradeTerms": {
+      "heading": "เงื่อนไขการค้าส่งออก",
+      "subheading": "สิ่งที่ผู้ซื้อต่างประเทศคาดหวังได้เมื่อสั่งซื้อจาก Keshav Enterprises",
+      "items": [
+        {
+          "label": "Incoterms",
+          "value": "FOB Nhava Sheva / Delhi ICD, มี CIF ตามคำขอ"
+        },
+        {
+          "label": "เงื่อนไขการชำระเงิน",
+          "value": "ชำระล่วงหน้า 30% (T/T) พร้อมคำสั่งซื้อ และ 70% เมื่อแสดงสำเนา B/L; รับเลตเตอร์ออฟเครดิต (L/C at sight) สำหรับคำสั่งซื้อเกิน 2,000 ดอลลาร์สหรัฐ"
+        },
+        {
+          "label": "ระยะเวลาส่งมอบโดยทั่วไป",
+          "value": "4–6 สัปดาห์ ณ โรงงาน (ex-works) นับจากยืนยันคำสั่งซื้อ ขึ้นอยู่กับขอบเขตงาน"
+        },
+        {
+          "label": "บรรจุภัณฑ์",
+          "value": "บรรจุภัณฑ์เกรดส่งออกที่เหมาะกับการขนส่งทางเรือ/อากาศ สำหรับอะไหล่กังหันและผลิตภัณฑ์กรอง"
+        },
+        {
+          "label": "เอกสารที่จัดให้",
+          "value": "ใบกำกับสินค้า ใบรายการบรรจุ ใบรับรองถิ่นกำเนิด ใบรับรองการทดสอบ/ตรวจสอบ และ MSDS ตามความเหมาะสม"
+        }
+      ],
+      "note": "เงื่อนไขที่แน่นอนจะยืนยันเป็นรายคำสั่งซื้อ ตามผลิตภัณฑ์ ปริมาณ และประเทศปลายทาง"
+    },
+    "trackRecord": {
+      "heading": "ประวัติการส่งออก",
+      "subheading": "สินค้าที่ส่งไปต่างประเทศแล้ว",
+      "shipments": [
+        {
+          "product": "สเตรนเนอร์แบบตะกร้า",
+          "country": "เนปาล"
+        },
+        {
+          "product": "ไส้กรองน้ำมันหล่อลื่น",
+          "country": "ยูกันดา"
+        },
+        {
+          "product": "เดือยเฉือน",
+          "country": "ยูกันดา"
+        }
+      ]
     }
   },
   "finalCta": {

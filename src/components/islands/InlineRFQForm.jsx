@@ -5,7 +5,14 @@
 // by default (it's the primary on-page conversion action).
 import { useCallback, useState } from "react";
 import { Mail, CheckCircle2, AlertTriangle } from "lucide-react";
-import { checkFormRateLimit, sanitiseField, postWeb3Forms } from "../../lib/formHelpers";
+import {
+  checkFormRateLimit,
+  sanitiseField,
+  postWeb3Forms,
+  isValidEmail,
+  validatePhone,
+} from "../../lib/formHelpers";
+import { COUNTRY_CODES, DEFAULT_COUNTRY_DIAL } from "../../data/countryCodes";
 import TurnstileWidget from "./TurnstileWidget.jsx";
 
 const WEB3FORMS_KEY = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? "";
@@ -24,6 +31,7 @@ export default function InlineRFQForm({ productTitle, contactHref = "/contact" }
   const [company, setCompany] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
+  const [countryDial, setCountryDial] = useState(DEFAULT_COUNTRY_DIAL);
   const [qty, setQty] = useState("");
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState("idle");
@@ -51,13 +59,19 @@ export default function InlineRFQForm({ productTitle, contactHref = "/contact" }
   };
 
   const handleSubmit = useCallback(async () => {
-    const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
+    const emailOk = isValidEmail(email);
     if (!name.trim()) {
       setErrMsg("Name is required.");
       return;
     }
     if (!emailOk) {
       setErrMsg("Please enter a valid email address.");
+      return;
+    }
+    // Phone is optional here, but if given it must be a real number.
+    const phoneCheck = phone.trim() ? validatePhone(countryDial, phone) : null;
+    if (phoneCheck && !phoneCheck.ok) {
+      setErrMsg(phoneCheck.message);
       return;
     }
     const fileInput = document.getElementById("rfq-files");
@@ -93,7 +107,8 @@ export default function InlineRFQForm({ productTitle, contactHref = "/contact" }
       fd.append("Name", sanitiseField(name));
       fd.append("Company", sanitiseField(company));
       fd.append("Email", sanitiseField(email));
-      fd.append("Phone", sanitiseField(phone));
+      fd.append("replyto", email.trim().toLowerCase());
+      fd.append("Phone", phoneCheck ? phoneCheck.e164 : "Not provided");
       fd.append("Quantity", sanitiseField(qty));
       fd.append("Message", sanitiseField(message, 1000));
       const fileInput = document.getElementById("rfq-files");
@@ -104,7 +119,7 @@ export default function InlineRFQForm({ productTitle, contactHref = "/contact" }
       setErrMsg(err.message || "Something went wrong. Please try again.");
       setStatus("error");
     }
-  }, [name, company, email, phone, qty, message, productTitle, turnstileToken]);
+  }, [name, company, email, phone, countryDial, qty, message, productTitle, turnstileToken]);
 
   return (
     <div className="mt-5 border-2 border-blue-100 rounded-2xl overflow-hidden bg-blue-50/40">
@@ -227,19 +242,39 @@ export default function InlineRFQForm({ productTitle, contactHref = "/contact" }
                 <label htmlFor="rfq-phone" className={labelCls}>
                   Phone
                 </label>
-                <input
-                  id="rfq-phone"
-                  type="tel"
-                  inputMode="tel"
-                  autoComplete="tel"
-                  value={phone}
-                  onChange={(e) => {
-                    setPhone(e.target.value);
-                    clearErr();
-                  }}
-                  placeholder="Country code + number, e.g. +91 98000 00000"
-                  className={inputCls}
-                />
+                <div className="flex gap-2">
+                  <select
+                    id="rfq-phone-country"
+                    aria-label="Country code"
+                    value={countryDial}
+                    onChange={(e) => {
+                      setCountryDial(e.target.value);
+                      clearErr();
+                    }}
+                    className={`${inputCls} shrink-0 px-2`}
+                    style={{ width: "6.5rem", flex: "0 0 auto" }}
+                  >
+                    {COUNTRY_CODES.map(({ name: cn, iso, dial }) => (
+                      <option key={iso} value={dial} title={cn}>
+                        {dial} {iso}
+                      </option>
+                    ))}
+                  </select>
+                  <input
+                    id="rfq-phone"
+                    type="tel"
+                    inputMode="tel"
+                    autoComplete="tel-national"
+                    value={phone}
+                    onChange={(e) => {
+                      setPhone(e.target.value);
+                      clearErr();
+                    }}
+                    placeholder="Mobile number"
+                    className={`${inputCls} min-w-0`}
+                    style={{ flex: "1 1 0%" }}
+                  />
+                </div>
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="rfq-qty" className={labelCls}>

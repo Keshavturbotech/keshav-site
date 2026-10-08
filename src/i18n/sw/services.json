@@ -153,5 +153,24 @@
       "ABB"
     ],
     "slug": "troubleshooting-service"
+  },
+  "srv_8": {
+    "id": "srv_8",
+    "image": "service-sand-blasting.webp",
+    "title": "Usafishaji kwa Mchanga na Maandalizi ya Uso",
+    "desc": "Usafishaji unaodhibitiwa kwa vifaa vya kukwangua kwa rota, ganda na vipengele vya turbine, ukiondoa kutu, magamba na rangi za zamani kabla ya ukaguzi, uhandisi wa kinyume au upakaji upya bila kuharibu nyuso muhimu zilizotengenezwa kwa usahihi.",
+    "details": [
+      "Usafishaji wa nyuso za rota, ganda, bledi na diaphragm kabla ya ukaguzi au upimaji usioharibu (NDT)",
+      "Uchaguzi wa kifaa cha kukwangua (garnet, aluminium oxide, glass bead) kulingana na msingi na umaliziaji wa uso",
+      "Kufunika na kulinda jarida, sehemu za kuziba na nyuso zenye nyuzi zilizotengenezwa kwa usahihi",
+      "Maandalizi ya uso kwa viwango vya SSPC/NACE kabla ya kupaka rangi au kupaka upya",
+      "Kuondoa kutu, magamba na mabaki ya kaboni kwenye vipengele vya njia ya mvuke",
+      "Chumba cha usafishaji kisichotoa vumbi na vifaa vya kubebeka vya usafishaji wa eneo la kazi",
+      "Uthibitisho wa wasifu (anchor pattern) kwa ajili ya ushikamano wa upakaji"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "sand-blasting-and-surface-preparation"
   }
 }

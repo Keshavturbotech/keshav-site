@@ -26,5 +26,9 @@
   "srv_7": {
     "scope": "Diagnose vor Ort",
     "turnaround": "Bericht am selben Tag"
+  },
+  "srv_8": {
+    "scope": "Werkstatt & vor Ort",
+    "turnaround": "1–3 Tage"
   }
 }

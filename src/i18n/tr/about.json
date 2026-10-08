@@ -10,7 +10,7 @@
     "h1Line1": "{years}+ Yıllık",
     "h1Span": "Hassas Mühendislik",
     "quote": "“Tesis duruşuna sıfır tolerans — bu bir slogan değil. Her müşterinin bizden beklediği mühendislik standardı.”",
-    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
+    "intro": "Kurucu Shekhar Sharma 1988'den beri buhar türbinleriyle doğrudan çalışmakta; 2016'da bağımsız bir türbin bakım ortaklığı kurmadan önce birçok şirkette deneyim kazanmıştır. Keshav Enterprises, Haziran 2020'de resmen kurulmuş olup bugün Hindistan'da ve dünya genelinde enerji santralleri, şeker fabrikaları, rafineriler ve proses endüstrileri için güvenilir bir mühendislik ortağıdır; Triveni, Siemens, BHEL, Man Turbo, KKK ve ABB kökenli aynı eski OEM uzmanlığını taşımaktadır.",
     "tags": [
       "OEM Kökenli Mühendisler",
       "3D Lazer Tarama",
@@ -71,7 +71,7 @@
     "eyebrow": "Biz Kimiz",
     "heading": "Hindistan'ın Endüstriyel Omurgası için Mühendislik Ortakları",
     "paragraphs": [
-      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
+      "Keshav Enterprises, merkezi Uttar Pradesh'in Shamli kentinde bulunan bir hassas endüstriyel mühendislik şirketidir. Kurucu Shekhar Sharma 1988'den beri buhar türbinleriyle doğrudan çalışmaktadır; bu deneyim 2016'da bağımsız bir ortaklığa dönüşmüş, Keshav Enterprises ise Haziran 2020'de resmen kurulmuştur. Nepal ve Uganda'ya yapılan ihracat dahil, Hindistan genelinde ve dünya çapında müşterilere uzman türbin bakımı, tersine mühendislik ve OEM uyumlu yedek parça sağlıyoruz.",
       "Mühendislik ekibimiz Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK ve ABB'den OEM kökenli uzmanları içerir — müşterilere orijinal ekipman üreticileriyle aynı düzeyde teknik uzmanlığı, teslim süresi ve maliyetin çok küçük bir kısmıyla sunar.",
       "5 kW'dan 60 MW'a kadar buhar türbinlerini kapsıyoruz — karşı basınçlı ve kondansasyonlu, yatay ve dikey, tek ve çok kademeli. Atölyemiz 3D lazer tarayıcılar, CMM koordinat ölçüm makineleri, dinamik balans makineleri (50–2.000 kg) ve hassas CNC tornalarla donatılmıştır."
     ],
@@ -144,28 +144,28 @@
     "items": [
       {
         "year": "1988",
-        "title": "Engineering Roots",
-        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
+        "title": "Mühendislik Kökleri",
+        "desc": "Kurucu Shekhar Sharma, mühendis olarak buhar türbinleriyle doğrudan çalışmaya başlar ve sonraki on yıllar boyunca birçok şirkette deneyim kazanır."
       },
       {
         "year": "2016",
-        "title": "Partnership Formed",
-        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
+        "title": "Ortaklığın Kurulması",
+        "desc": "Shekhar Sharma, Shamli (UP) şehrinde bağımsız bir türbin bakım ortaklığı kurar ve yerel şeker fabrikalarına uygulamalı revizyon uzmanlığıyla hizmet verir."
       },
       {
-        "year": "June 2020",
-        "title": "Keshav Enterprises Founded",
-        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
+        "year": "Haziran 2020",
+        "title": "Keshav Enterprises Kuruldu",
+        "desc": "Ortaklık, Shamli, Uttar Pradesh merkezli Keshav Enterprises olarak resmen tescil edilir."
       },
       {
         "year": "2021",
-        "title": "Capability & Product Line Expansion",
-        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
+        "title": "Yetkinlik ve Ürün Hattı Genişlemesi",
+        "desc": "3B lazer tarama, koordinat ölçüm makineleri (CMM) ve ISO 1940 / API 670 dinamik balans makinelerine (50–2.000 kg) yatırım yapıldı; filtrasyon, HVAC hava filtreleri, genleşme derzleri, süzgeçler, kauçuk ürünler ve esnek hortum montajlarını kapsayan kapsamlı bir endüstriyel ürün hattı devreye alındı."
       },
       {
-        "year": "Today",
-        "title": "Export Ready",
-        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
+        "year": "Bugün",
+        "title": "İhracata Hazır",
+        "desc": "DGFT nezdinde IEC kayıtlı: türbin bileşenleri, filtrasyon ürünleri ve endüstriyel yedek parçalar ISO/API/ASME standartlarına göre üretilir ve ihracat için HSN sınıflandırmasıyla yurt dışı alıcılara belge desteği sunulur. Hindistan genelindeki hizmet ağı 7/24 acil mühendislik desteğiyle sürmektedir."
       }
     ]
   },
@@ -213,7 +213,7 @@
     "headingLine1": "İhracat Alıcılarının",
     "headingSpan": "Kolayca İnceleyebilmesi İçin İnşa Edildi",
     "paragraphs": [
-      "Keshav Enterprises, türbin mühendisliği yedek parçalarını, endüstriyel filtrasyon ürünlerini ve OEM uyumlu bileşenleri Hindistan dışına sevk etmek için gerekli yasal kimlik bilgisi olan, DGFT tarafından verilen aktif bir İthalatçı-İhracatçı Kodu (IEC) tutmaktadır.",
+      "Keshav Enterprises, türbin mühendisliği yedek parçalarını, endüstriyel filtrasyon ürünlerini ve OEM uyumlu bileşenleri Hindistan dışına sevk etmek için gerekli yasal kimlik bilgisi olan, DGFT tarafından verilen aktif bir İthalatçı-İhracatçı Kodu (IEC) tutmaktadır. Nepal'e sepet filtreler, Uganda'ya ise yağlama yağı filtreleri ve kesme pimleri ihraç ettik.",
       "Hassas imal edilmiş ürünlerimiz ISO 16889, API 614 ve ASME Sec. VIII dahil uluslararası standartlara göre üretilmekte ve standart HSN ihracat kodları altında sınıflandırılmaktadır, böylece yurt dışı alıcılar sipariş vermeden önce uyumluluğu doğrulayabilir."
     ],
     "standards": [
@@ -239,6 +239,7 @@
     "checklistTitle": "İhracata Hazırlık Kontrol Listesi",
     "checklistItems": [
       "DGFT tarafından verilen aktif IEC — yasal olarak ihracata uygun",
+      "Nepal ve Uganda'ya daha önce sevk edilen ürünler",
       "Ürünler standart HSN ihracat kodları altında sınıflandırılmıştır",
       "ISO, API ve ASME uluslararası standartlarına göre imal edilmiştir",
       "İngilizce veri sayfaları, test sertifikaları ve KK dokümantasyonu",
@@ -249,6 +250,51 @@
       "gst": "GST",
       "msme": "MSME/Udyam",
       "iec": "IEC"
+    },
+    "tradeTerms": {
+      "heading": "İhracat Ticaret Koşulları",
+      "subheading": "Yurt dışı alıcıların Keshav Enterprises'a sipariş verirken bekleyebilecekleri koşullar",
+      "items": [
+        {
+          "label": "Incoterms",
+          "value": "FOB Nhava Sheva / Delhi ICD, talep üzerine CIF"
+        },
+        {
+          "label": "Ödeme Koşulları",
+          "value": "Siparişle birlikte %30 peşinat (T/T), %70 B/L kopyası karşılığında; 2.000 USD üzeri siparişlerde akreditif (görüldüğünde ödenir L/C) kabul edilir"
+        },
+        {
+          "label": "Tipik Teslim Süresi",
+          "value": "Sipariş onayından itibaren fabrika teslim 4–6 hafta, kapsama bağlı olarak"
+        },
+        {
+          "label": "Ambalaj",
+          "value": "Türbin yedek parçaları ve filtrasyon ürünleri için deniz/hava taşımacılığına uygun ihracat sınıfı ambalaj"
+        },
+        {
+          "label": "Sağlanan Belgeler",
+          "value": "Ticari fatura, çeki listesi, menşe belgesi, test/muayene sertifikaları, gerektiğinde MSDS"
+        }
+      ],
+      "note": "Kesin koşullar, ürüne, miktara ve varış ülkesine göre her sipariş için teyit edilir."
+    },
+    "trackRecord": {
+      "heading": "İhracat Referansları",
+      "subheading": "Hindistan dışına daha önce sevk edilen ürünler",
+      "shipments": [
+        {
+          "product": "Sepet Filtreler",
+          "country": "Nepal"
+        },
+        {
+          "product": "Yağlama Yağı Filtreleri",
+          "country": "Uganda"
+        },
+        {
+          "product": "Kesme Pimleri",
+          "country": "Uganda"
+        }
+      ]
     }
   },
   "finalCta": {

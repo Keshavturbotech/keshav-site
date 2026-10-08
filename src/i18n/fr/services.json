@@ -153,5 +153,24 @@
       "ABB"
     ],
     "slug": "troubleshooting-service"
+  },
+  "srv_8": {
+    "id": "srv_8",
+    "image": "service-sand-blasting.webp",
+    "title": "Sablage et préparation de surface",
+    "desc": "Sablage abrasif maîtrisé des rotors, carters et composants de turbines pour éliminer rouille, calamine et anciens revêtements avant inspection, rétro-ingénierie ou nouveau revêtement, sans endommager les surfaces usinées critiques.",
+    "details": [
+      "Nettoyage des surfaces de rotors, carters, aubes et diaphragmes avant inspection ou contrôle non destructif (CND)",
+      "Choix du média (grenat, oxyde d'aluminium, microbilles de verre) adapté au support et à l'état de surface",
+      "Masquage et protection des portées, des portées d'étanchéité et des surfaces filetées usinées",
+      "Préparation de surface selon les normes SSPC/NACE avant peinture ou nouveau revêtement",
+      "Élimination de la rouille, de la calamine et des dépôts de carbone sur les composants du circuit vapeur",
+      "Cabine de sablage avec confinement des poussières et matériel de sablage portable pour interventions sur site",
+      "Vérification du profil (rugosité d'ancrage) pour l'adhérence du revêtement"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "sand-blasting-and-surface-preparation"
   }
 }

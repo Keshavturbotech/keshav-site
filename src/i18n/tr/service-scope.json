@@ -26,5 +26,9 @@
   "srv_7": {
     "scope": "Sahada arıza teşhisi",
     "turnaround": "Aynı gün rapor"
+  },
+  "srv_8": {
+    "scope": "Atölye ve sahada",
+    "turnaround": "1–3 gün"
   }
 }

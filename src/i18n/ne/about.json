@@ -10,7 +10,7 @@
     "h1Line1": "{years}+ वर्षको",
     "h1Span": "शुद्ध इन्जिनियरिङ",
     "quote": "“प्लान्ट डाउनटाइमका लागि शून्य सहनशीलता — यो नारा मात्र होइन। यो त्यो इन्जिनियरिङ मापदण्ड हो जसका लागि हरेक ग्राहकले हामीलाई जिम्मेवार ठान्छन्।”",
-    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
+    "intro": "संस्थापक शेखर शर्माले सन् 1988 देखि बाफ टर्बाइनमा प्रत्यक्ष काम गर्न थाले र सन् 2016 मा स्वतन्त्र टर्बाइन मर्मत साझेदारी सुरु गर्नुअघि धेरै कम्पनीहरूमा अनुभव आर्जन गरे। Keshav Enterprises को औपचारिक स्थापना जुन 2020 मा भयो र आज यो सम्पूर्ण भारत र विश्वभरका विद्युत प्लान्ट, चिनी मिल, रिफाइनरी र प्रशोधन उद्योगहरूका लागि भरपर्दो इन्जिनियरिङ साझेदार हो, जसले Triveni, Siemens, BHEL, Man Turbo, KKK र ABB को त्यही पूर्व-OEM विशेषज्ञता अगाडि बढाइरहेको छ।",
     "tags": [
       "पूर्व-OEM इन्जिनियरहरू",
       "3D लेजर स्क्यानिङ",
@@ -71,7 +71,7 @@
     "eyebrow": "हामी को हौं",
     "heading": "भारतको औद्योगिक मेरुदण्डका लागि इन्जिनियरिङ साझेदार",
     "paragraphs": [
-      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
+      "Keshav Enterprises शामली, उत्तर प्रदेशमा मुख्यालय रहेको सटीक औद्योगिक इन्जिनियरिङ कम्पनी हो। संस्थापक शेखर शर्मा सन् 1988 देखि बाफ टर्बाइनमा प्रत्यक्ष काम गर्दै आएका छन्; त्यो अनुभव सन् 2016 मा स्वतन्त्र साझेदारी बन्यो र Keshav Enterprises को औपचारिक स्थापना जुन 2020 मा भयो। हामी नेपाल र युगान्डामा निर्यात सहित सम्पूर्ण भारत र विश्वभरका ग्राहकहरूलाई विशेषज्ञ टर्बाइन मर्मत, रिभर्स इन्जिनियरिङ र OEM-अनुकूल स्पेयर पार्ट्स उपलब्ध गराउँछौं।",
       "हाम्रो इन्जिनियरिङ टोलीमा Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, र ABB का पूर्व-OEM विशेषज्ञहरू समावेश छन् — जसले ग्राहकहरूलाई मूल उपकरण निर्माताहरूकै स्तरको प्राविधिक विशेषज्ञता, कम समय र लागतमा प्रदान गर्छन्।",
       "हामी 5 kW देखि 60 MW सम्मका स्टिम टर्बाइनहरू समेट्छौं — ब्याक-प्रेसर र कन्डेन्सिङ, हरिजोन्टल र भर्टिकल, सिंगल र मल्टी-स्टेज। हाम्रो कार्यशाला 3D लेजर स्क्यानर, CMM कोअर्डिनेट मापन मेसिन, डायनामिक ब्यालेन्सिङ मेसिन (50–2,000 kg), र प्रिसिजन CNC लेथले सुसज्जित छ।"
     ],
@@ -144,28 +144,28 @@
     "items": [
       {
         "year": "1988",
-        "title": "Engineering Roots",
-        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
+        "title": "इन्जिनियरिङका जरा",
+        "desc": "संस्थापक शेखर शर्माले इन्जिनियरका रूपमा बाफ टर्बाइनमा प्रत्यक्ष काम सुरु गर्छन् र त्यसपछिका दशकहरूमा धेरै कम्पनीहरूमा अनुभव आर्जन गर्छन्।"
       },
       {
         "year": "2016",
-        "title": "Partnership Formed",
-        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
+        "title": "साझेदारीको गठन",
+        "desc": "शेखर शर्माले शामली, यूपीमा स्वतन्त्र टर्बाइन मर्मत साझेदारी सुरु गर्छन्, जसले ओभरहलिङको प्रत्यक्ष विशेषज्ञताका साथ स्थानीय चिनी मिलहरूलाई सेवा दिन्छ।"
       },
       {
-        "year": "June 2020",
-        "title": "Keshav Enterprises Founded",
-        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
+        "year": "जुन 2020",
+        "title": "Keshav Enterprises को स्थापना",
+        "desc": "साझेदारी औपचारिक रूपमा Keshav Enterprises, शामली, उत्तर प्रदेशका रूपमा दर्ता गरिन्छ।"
       },
       {
         "year": "2021",
-        "title": "Capability & Product Line Expansion",
-        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
+        "title": "क्षमता र उत्पादन शृङ्खलाको विस्तार",
+        "desc": "3D लेजर स्क्यानिङ, CMM उपकरण र ISO 1940 / API 670 डाइनामिक ब्यालेन्सिङ मेसिनहरू (50–2,000 केजी) मा लगानी गरियो, र फिल्ट्रेसन, HVAC एयर फिल्टर, एक्सपान्सन जोइन्ट, स्ट्रेनर, रबर उत्पादन र फ्लेक्सिबल होज असेम्ब्ली समेटेको व्यापक औद्योगिक उत्पादन शृङ्खला सुरु गरियो।"
       },
       {
-        "year": "Today",
-        "title": "Export Ready",
-        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
+        "year": "आज",
+        "title": "निर्यातका लागि तयार",
+        "desc": "DGFT सँग IEC दर्ता: टर्बाइन कम्पोनेन्ट, फिल्ट्रेसन उत्पादन र औद्योगिक स्पेयर पार्ट्स ISO/API/ASME मापदण्डअनुसार निर्माण गरिन्छन् र निर्यातका लागि HSN-वर्गीकृत छन्, विदेशी खरिदकर्ताका लागि कागजात सहयोगसहित। सम्पूर्ण भारतमा सेवा जारी छ, साथमा 24×7 आपत्कालीन इन्जिनियरिङ सहयोग।"
       }
     ]
   },
@@ -213,7 +213,7 @@
     "headingLine1": "एक्सपोर्टका लागि निर्मित",
     "headingSpan": "खरिदकर्ताहरूले सजिलै प्रमाणित गर्न सक्ने",
     "paragraphs": [
-      "Keshav Enterprises सँग DGFT द्वारा जारी सक्रिय आयातक-निर्यातक कोड (IEC) छ, जुन टर्बाइन इन्जिनियरिङ स्पेयर, औद्योगिक फिल्ट्रेसन उत्पादन, र OEM-अनुकूल कम्पोनेन्टहरू भारत बाहिर पठाउनका लागि आवश्यक कानूनी प्रमाणपत्र हो।",
+      "Keshav Enterprises सँग DGFT द्वारा जारी सक्रिय आयातक-निर्यातक कोड (IEC) छ, जुन टर्बाइन इन्जिनियरिङ स्पेयर, औद्योगिक फिल्ट्रेसन उत्पादन, र OEM-अनुकूल कम्पोनेन्टहरू भारत बाहिर पठाउनका लागि आवश्यक कानूनी प्रमाणपत्र हो। हामीले नेपालमा बास्केट स्ट्रेनर र युगान्डामा लुब ओयल फिल्टर तथा सियर पिन पहिल्यै निर्यात गरिसकेका छौं।",
       "हाम्रा शुद्ध-निर्मित उत्पादनहरू ISO 16889, API 614, र ASME Sec. VIII सहितका अन्तर्राष्ट्रिय मापदण्ड अनुसार उत्पादन गरिन्छन्, र मानक HSN निर्यात कोड अन्तर्गत वर्गीकृत गरिन्छन्, ताकि विदेशी खरिदकर्ताहरूले अर्डर गर्नुअघि अनुपालन प्रमाणित गर्न सकून्।"
     ],
     "standards": [
@@ -239,6 +239,7 @@
     "checklistTitle": "एक्सपोर्ट तयारी चेकलिस्ट",
     "checklistItems": [
       "DGFT द्वारा जारी सक्रिय IEC — कानूनी रूपमा निर्यातका लागि स्वीकृत",
+      "उत्पादनहरू पहिल्यै नेपाल र युगान्डा पठाइसकिएका छन्",
       "मानक HSN निर्यात कोड अन्तर्गत वर्गीकृत उत्पादनहरू",
       "ISO, API, र ASME अन्तर्राष्ट्रिय मापदण्ड अनुसार निर्मित",
       "अंग्रेजी-भाषाका डेटासिट, परीक्षण प्रमाणपत्र, र QC कागजात",
@@ -249,6 +250,51 @@
       "gst": "GST",
       "msme": "MSME/Udyam",
       "iec": "IEC"
+    },
+    "tradeTerms": {
+      "heading": "निर्यात व्यापार सर्तहरू",
+      "subheading": "Keshav Enterprises बाट अर्डर गर्दा विदेशी खरिदकर्ताले के अपेक्षा गर्न सक्छन्",
+      "items": [
+        {
+          "label": "इन्कोटर्म्स",
+          "value": "FOB न्हावा शेवा / दिल्ली ICD, अनुरोधमा CIF उपलब्ध"
+        },
+        {
+          "label": "भुक्तानी सर्तहरू",
+          "value": "अर्डरसँगै 30% अग्रिम (T/T), बाँकी 70% B/L को प्रतिलिपिविरुद्ध; USD 2,000 भन्दा बढीको अर्डरमा लेटर अफ क्रेडिट (L/C एट साइट) स्वीकार्य"
+        },
+        {
+          "label": "सामान्य लिड टाइम",
+          "value": "अर्डर पुष्टिदेखि 4–6 हप्ता एक्स-वर्क्स, कार्यक्षेत्रअनुसार"
+        },
+        {
+          "label": "प्याकेजिङ",
+          "value": "टर्बाइन स्पेयर र फिल्ट्रेसन उत्पादनका लागि समुद्री/हवाई ढुवानीयोग्य एक्सपोर्ट-ग्रेड प्याकेजिङ"
+        },
+        {
+          "label": "उपलब्ध गराइने कागजात",
+          "value": "कमर्सियल इनभ्वाइस, प्याकिङ लिस्ट, उत्पत्ति प्रमाणपत्र, परीक्षण/निरीक्षण प्रमाणपत्र, लागू हुँदा MSDS"
+        }
+      ],
+      "note": "सटीक सर्तहरू उत्पादन, मात्रा र गन्तव्य देशका आधारमा प्रत्येक अर्डरका लागि पुष्टि गरिन्छ।"
+    },
+    "trackRecord": {
+      "heading": "निर्यात अभिलेख",
+      "subheading": "भारत बाहिर पहिल्यै पठाइसकिएका उत्पादनहरू",
+      "shipments": [
+        {
+          "product": "बास्केट स्ट्रेनर",
+          "country": "नेपाल"
+        },
+        {
+          "product": "लुब ओयल फिल्टर",
+          "country": "युगान्डा"
+        },
+        {
+          "product": "सियर पिन",
+          "country": "युगान्डा"
+        }
+      ]
     }
   },
   "finalCta": {

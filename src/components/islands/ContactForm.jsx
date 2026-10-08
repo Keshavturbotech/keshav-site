@@ -14,6 +14,8 @@ import {
   sanitiseField,
   sanitiseForWhatsApp,
   postWeb3Forms,
+  isValidEmail,
+  validatePhone,
   waMsg,
 } from "../../lib/formHelpers";
 import { isOfficeHoursNow } from "../../lib/officeHours";
@@ -119,10 +121,8 @@ export default function ContactForm({ content }) {
     const e = {};
     if (!contactName.trim()) e.contactName = content.errors.yourName;
     if (!name.trim()) e.name = content.errors.companyName;
-    if (!email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
-      e.email = content.errors.email;
-    if (!phone.trim() || phone.replace(/\D/g, "").length < 10)
-      e.phone = content.errors.phone;
+    if (!isValidEmail(email)) e.email = content.errors.email;
+    if (!validatePhone(countryDial, phone).ok) e.phone = content.errors.phone;
     if (!iType) e.iType = content.errors.inquiryType;
     if (!details.trim() || details.length < 20)
       e.details = content.errors.details;
@@ -194,7 +194,8 @@ export default function ContactForm({ content }) {
       fd.append("Contact Name", sanitiseField(contactName));
       fd.append("Company", sanitiseField(name));
       fd.append("Email", sanitiseField(email));
-      fd.append("Phone", sanitiseField(`${countryDial} ${phone}`.trim()));
+      fd.append("Phone", sanitiseField(validatePhone(countryDial, phone).display || `${countryDial} ${phone}`.trim()));
+      fd.append("replyto", email.trim().toLowerCase());
       fd.append("Inquiry", sanitiseField(iType));
       fd.append("Details", sanitiseField(details, 2000));
       if (turbineMake.trim()) fd.append("Turbine Make / Model", sanitiseField(turbineMake));

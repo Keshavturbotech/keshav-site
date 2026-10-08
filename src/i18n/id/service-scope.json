@@ -26,5 +26,9 @@
   "srv_7": {
     "scope": "Diagnostik di lokasi",
     "turnaround": "Laporan hari yang sama"
+  },
+  "srv_8": {
+    "scope": "Bengkel & di lokasi",
+    "turnaround": "1–3 hari"
   }
 }

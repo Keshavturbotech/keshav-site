@@ -10,7 +10,7 @@
     "h1Line1": "{years}+ Năm",
     "h1Span": "Kỹ thuật Chính xác",
     "quote": "“Không dung sai cho việc ngừng hoạt động nhà máy — đó không phải là khẩu hiệu. Đó là tiêu chuẩn kỹ thuật mà mọi khách hàng đều yêu cầu ở chúng tôi.”",
-    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
+    "intro": "Nhà sáng lập Shekhar Sharma đã trực tiếp làm việc với tua bin hơi từ năm 1988, tích lũy kinh nghiệm qua nhiều công ty trước khi thành lập một liên danh bảo trì tua bin độc lập vào năm 2016. Keshav Enterprises chính thức được thành lập vào tháng 6 năm 2020, nay là đối tác kỹ thuật đáng tin cậy của các nhà máy điện, nhà máy đường, nhà máy lọc dầu và ngành công nghiệp chế biến trên khắp Ấn Độ và thế giới, tiếp nối cùng chuyên môn từ các chuyên gia xuất thân OEM của Triveni, Siemens, BHEL, Man Turbo, KKK và ABB.",
     "tags": [
       "Kỹ sư Từng làm việc tại OEM",
       "Quét Laser 3D",
@@ -71,7 +71,7 @@
     "eyebrow": "Chúng tôi là Ai",
     "heading": "Đối tác Kỹ thuật cho Trụ cột Công nghiệp Ấn Độ",
     "paragraphs": [
-      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
+      "Keshav Enterprises là công ty kỹ thuật công nghiệp chính xác có trụ sở tại Shamli, Uttar Pradesh. Nhà sáng lập Shekhar Sharma đã trực tiếp làm việc với tua bin hơi từ năm 1988; kinh nghiệm đó trở thành một liên danh độc lập vào năm 2016, và Keshav Enterprises chính thức được thành lập vào tháng 6 năm 2020. Chúng tôi cung cấp dịch vụ bảo trì tua bin chuyên sâu, thiết kế ngược và phụ tùng tương thích OEM cho khách hàng trên khắp Ấn Độ và thế giới, bao gồm xuất khẩu sang Nepal và Uganda.",
       "Đội ngũ kỹ thuật của chúng tôi bao gồm các chuyên gia từng làm việc tại OEM Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, và ABB — mang đến cho khách hàng cùng mức độ chuyên môn kỹ thuật như các nhà sản xuất thiết bị gốc, với chi phí và thời gian chờ chỉ bằng một phần nhỏ.",
       "Chúng tôi bao phủ tua-bin hơi nước từ 5 kW đến 60 MW — đối áp và ngưng hơi, nằm ngang và thẳng đứng, đơn và đa cấp. Xưởng của chúng tôi được trang bị máy quét laser 3D, máy đo tọa độ CMM, máy cân bằng động (50–2.000 kg), và máy tiện CNC chính xác."
     ],
@@ -144,28 +144,28 @@
     "items": [
       {
         "year": "1988",
-        "title": "Engineering Roots",
-        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
+        "title": "Nền tảng Kỹ thuật",
+        "desc": "Nhà sáng lập Shekhar Sharma bắt đầu trực tiếp làm việc với tua bin hơi với tư cách kỹ sư, tích lũy kinh nghiệm qua nhiều công ty trong những thập kỷ tiếp theo."
       },
       {
         "year": "2016",
-        "title": "Partnership Formed",
-        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
+        "title": "Thành lập Liên danh",
+        "desc": "Shekhar Sharma thành lập liên danh bảo trì tua bin độc lập tại Shamli, UP, phục vụ các nhà máy đường địa phương bằng chuyên môn đại tu thực tế."
       },
       {
-        "year": "June 2020",
-        "title": "Keshav Enterprises Founded",
-        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
+        "year": "Tháng 6/2020",
+        "title": "Thành lập Keshav Enterprises",
+        "desc": "Liên danh chính thức được thành lập thành Keshav Enterprises, Shamli, Uttar Pradesh."
       },
       {
         "year": "2021",
-        "title": "Capability & Product Line Expansion",
-        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
+        "title": "Mở rộng Năng lực & Dòng Sản phẩm",
+        "desc": "Đầu tư vào quét laser 3D, thiết bị đo CMM và máy cân bằng động theo ISO 1940 / API 670 (50–2.000 kg), đồng thời ra mắt dòng sản phẩm công nghiệp toàn diện gồm lọc, lọc khí HVAC, khớp nối giãn nở, bộ lọc rổ, sản phẩm cao su và cụm ống mềm."
       },
       {
-        "year": "Today",
-        "title": "Export Ready",
-        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
+        "year": "Hiện nay",
+        "title": "Sẵn sàng Xuất khẩu",
+        "desc": "Đăng ký IEC với DGFT: linh kiện tua bin, sản phẩm lọc và phụ tùng công nghiệp được sản xuất theo tiêu chuẩn ISO/API/ASME và phân loại mã HSN để xuất khẩu, kèm hỗ trợ chứng từ cho người mua nước ngoài. Phạm vi phục vụ toàn Ấn Độ tiếp tục với hỗ trợ kỹ thuật khẩn cấp 24×7."
       }
     ]
   },
@@ -213,7 +213,7 @@
     "headingLine1": "Được Xây dựng Để",
     "headingSpan": "Người mua Xuất khẩu Dễ dàng Xác minh",
     "paragraphs": [
-      "Keshav Enterprises giữ Mã số Xuất Nhập khẩu (IEC) đang hoạt động do DGFT cấp, chứng thư pháp lý cần thiết để vận chuyển phụ tùng kỹ thuật tua-bin, sản phẩm lọc công nghiệp, và linh kiện tương thích OEM ra khỏi Ấn Độ.",
+      "Keshav Enterprises giữ Mã số Xuất Nhập khẩu (IEC) đang hoạt động do DGFT cấp, chứng thư pháp lý cần thiết để vận chuyển phụ tùng kỹ thuật tua-bin, sản phẩm lọc công nghiệp, và linh kiện tương thích OEM ra khỏi Ấn Độ. Chúng tôi đã xuất khẩu bộ lọc rổ sang Nepal và bộ lọc dầu bôi trơn cùng chốt cắt sang Uganda.",
       "Các sản phẩm được chế tạo chính xác của chúng tôi được sản xuất theo tiêu chuẩn quốc tế bao gồm ISO 16889, API 614, và ASME Sec. VIII, và được phân loại theo mã xuất khẩu HSN tiêu chuẩn, để người mua nước ngoài có thể xác minh sự tuân thủ trước khi đặt hàng."
     ],
     "standards": [
@@ -239,6 +239,7 @@
     "checklistTitle": "Danh mục Sẵn sàng Xuất khẩu",
     "checklistItems": [
       "IEC đang hoạt động do DGFT cấp — được phép xuất khẩu hợp pháp",
+      "Sản phẩm đã giao đến Nepal và Uganda",
       "Sản phẩm được phân loại theo mã xuất khẩu HSN tiêu chuẩn",
       "Được chế tạo theo tiêu chuẩn quốc tế ISO, API & ASME",
       "Bảng thông số tiếng Anh, chứng chỉ thử nghiệm & tài liệu QC",
@@ -249,6 +250,51 @@
       "gst": "GST",
       "msme": "MSME/Udyam",
       "iec": "IEC"
+    },
+    "tradeTerms": {
+      "heading": "Điều khoản Thương mại Xuất khẩu",
+      "subheading": "Những điều người mua nước ngoài có thể mong đợi khi đặt hàng từ Keshav Enterprises",
+      "items": [
+        {
+          "label": "Incoterms",
+          "value": "FOB Nhava Sheva / Delhi ICD, có CIF theo yêu cầu"
+        },
+        {
+          "label": "Điều khoản Thanh toán",
+          "value": "Đặt cọc 30% (T/T) khi đặt hàng, 70% đối chiếu bản sao B/L; chấp nhận thư tín dụng (L/C trả ngay) cho đơn hàng trên 2.000 USD"
+        },
+        {
+          "label": "Thời gian Giao hàng Thông thường",
+          "value": "4–6 tuần giao tại xưởng kể từ khi xác nhận đơn hàng, tùy phạm vi"
+        },
+        {
+          "label": "Đóng gói",
+          "value": "Bao bì đạt chuẩn xuất khẩu, phù hợp vận chuyển đường biển/hàng không, cho phụ tùng tua bin và sản phẩm lọc"
+        },
+        {
+          "label": "Chứng từ Cung cấp",
+          "value": "Hóa đơn thương mại, phiếu đóng gói, giấy chứng nhận xuất xứ, chứng chỉ thử nghiệm/kiểm tra, MSDS khi áp dụng"
+        }
+      ],
+      "note": "Điều khoản chính xác được xác nhận theo từng đơn hàng dựa trên sản phẩm, số lượng và nước đến."
+    },
+    "trackRecord": {
+      "heading": "Thành tích Xuất khẩu",
+      "subheading": "Sản phẩm đã giao ra ngoài Ấn Độ",
+      "shipments": [
+        {
+          "product": "Bộ lọc rổ",
+          "country": "Nepal"
+        },
+        {
+          "product": "Bộ lọc dầu bôi trơn",
+          "country": "Uganda"
+        },
+        {
+          "product": "Chốt cắt",
+          "country": "Uganda"
+        }
+      ]
     }
   },
   "finalCta": {

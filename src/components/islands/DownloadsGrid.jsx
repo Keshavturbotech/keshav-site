@@ -3,7 +3,24 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Search, X, FileText, Download, CheckCircle2, AlertTriangle } from "lucide-react";
 import { DOWNLOADS, DOWNLOAD_CATEGORIES } from "../../data/downloads";
-import { checkFormRateLimit, sanitiseField, postWeb3Forms } from "../../lib/formHelpers";
+import {
+  checkFormRateLimit,
+  sanitiseField,
+  postWeb3Forms,
+  isValidEmail,
+  suggestEmail,
+  validatePhone,
+} from "../../lib/formHelpers";
+import { COUNTRY_CODES, DEFAULT_COUNTRY_DIAL } from "../../data/countryCodes";
+
+const INTEREST_OPTIONS = [
+  "Turbine overhauling & maintenance",
+  "Spare parts",
+  "Filters & strainers",
+  "Hoses, joints & rubber products",
+  "Valves, gaskets & hydraulics",
+  "Something else",
+];
 import { useFocusTrap } from "../../lib/useFocusTrap";
 
 const WEB3FORMS_KEY = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? "";
@@ -33,6 +50,11 @@ function GateModal({ item, onClose, onSuccess }) {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [city, setCity] = useState("");
+  const [countryDial, setCountryDial] = useState(DEFAULT_COUNTRY_DIAL);
+  const [interest, setInterest] = useState("");
+  const [consent, setConsent] = useState(false);
+  const [hp, setHp] = useState(""); // honeypot: real visitors never see or fill it
+  const [emailHint, setEmailHint] = useState("");
   const [status, setStatus] = useState("idle");
   const [errors, setErrors] = useState({});
   const [submitError, setSubmitError] = useState("");
@@ -73,12 +95,12 @@ function GateModal({ item, onClose, onSuccess }) {
     const e = {};
     if (!name.trim()) e.name = "Your name is required";
     if (!company.trim()) e.company = "Company name is required";
-    if (!email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
-      e.email = "Valid email address required";
-    if (phone.trim() && phone.replace(/\D/g, "").length < 10)
-      e.phone = "Enter a valid phone number, or leave it blank";
+    if (!isValidEmail(email)) e.email = "Enter a valid email address, for example name@company.com";
+    const ph = validatePhone(countryDial, phone);
+    if (!ph.ok) e.phone = ph.message;
+    if (!consent) e.consent = "Please tick this box to continue";
     return e;
-  }, [name, company, email, phone]);
+  }, [name, company, email, phone, countryDial, consent]);
 
   const handleSubmit = useCallback(async () => {
     const e = validate();
@@ -104,6 +126,13 @@ function GateModal({ item, onClose, onSuccess }) {
     const fileWindow = window.open("", "_blank");
     if (fileWindow) fileWindow.opener = null;
 
+    // Honeypot tripped: pretend success, send nothing, give the bot no file.
+    if (hp.trim()) {
+      fileWindow?.close();
+      setStatus("success");
+      return;
+    }
+
     if (!checkFormRateLimit("ke_dl_ts", 10, 3_600_000)) {
       fileWindow?.close();
       setSubmitError("Too many submissions. Please wait before trying again.");
@@ -122,12 +151,26 @@ function GateModal({ item, onClose, onSuccess }) {
       fd.append("botcheck", "");
       fd.append("subject", `New Download — ${sanitiseField(item.title)}`);
       fd.append("from_name", "Keshav Enterprises Website");
+      const cleanEmail = email.trim().toLowerCase();
+      const ph = validatePhone(countryDial, phone);
+      fd.append("replyto", cleanEmail); // so "Reply" in your inbox goes to the lead
       fd.append("Name", sanitiseField(name));
       fd.append("Company", sanitiseField(company));
-      fd.append("Email", sanitiseField(email));
-      fd.append("Phone", sanitiseField(phone) || "Not provided");
+      fd.append("Email", sanitiseField(cleanEmail));
+      fd.append("Mobile", ph.e164);
       if (city.trim()) fd.append("City", sanitiseField(city));
+      if (interest) fd.append("Interested in", sanitiseField(interest));
       fd.append("File", `${sanitiseField(item.title)} (${item.fileType})`);
+      // Auto-captured context (no extra typing for the visitor)
+      fd.append("Page", window.location.href.slice(0, 300));
+      fd.append("Language", document.documentElement.lang || "en");
+      if (document.referrer) fd.append("Referrer", document.referrer.slice(0, 300));
+      const q = new URLSearchParams(window.location.search);
+      const campaign = ["utm_source", "utm_medium", "utm_campaign"]
+        .filter((k) => q.get(k))
+        .map((k) => `${k.slice(4)}=${q.get(k)}`)
+        .join(", ");
+      if (campaign) fd.append("Campaign", campaign.slice(0, 200));
       await postWeb3Forms(fd);
       markSessionGated(item.id);
       setStatus("success");
@@ -137,7 +180,7 @@ function GateModal({ item, onClose, onSuccess }) {
       setSubmitError(err?.message || "Submission failed. Please try again.");
       setStatus("error");
     }
-  }, [name, company, email, phone, city, item, onSuccess, validate]);
+  }, [name, company, email, phone, city, countryDial, interest, hp, item, onSuccess, validate]);
 
   const isLoading = status === "loading";
   const isSuccess = status === "success";
@@ -269,12 +312,18 @@ function GateModal({ item, onClose, onSuccess }) {
                 <input
                   id="dl-email"
                   type="email"
+                  inputMode="email"
                   autoComplete="email"
+                  autoCapitalize="none"
+                  autoCorrect="off"
+                  spellCheck={false}
                   value={email}
                   onChange={(e) => {
                     setEmail(e.target.value);
+                    setEmailHint("");
                     clearErr("email");
                   }}
+                  onBlur={() => setEmailHint(suggestEmail(email))}
                   aria-invalid={errors.email ? "true" : undefined}
                   aria-describedby={errors.email ? "dl-email-error" : undefined}
                   className={inputCls}
@@ -284,16 +333,50 @@ function GateModal({ item, onClose, onSuccess }) {
                     {errors.email}
                   </p>
                 )}
+                {emailHint && !errors.email && (
+                  <p className="mt-1 text-xs text-slate-600">
+                    Did you mean{" "}
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setEmail(emailHint);
+                        setEmailHint("");
+                      }}
+                      className="font-bold text-blue-700 underline"
+                    >
+                      {emailHint}
+                    </button>
+                    ?
+                  </p>
+                )}
               </div>
-              <div className="grid grid-cols-2 gap-3">
-                <div>
-                  <label htmlFor="dl-phone" className={labelCls}>
-                    Phone
-                  </label>
+              <div>
+                <label htmlFor="dl-phone" className={labelCls}>
+                  Mobile number *
+                </label>
+                <div className="flex gap-2">
+                  <select
+                    id="dl-phone-country"
+                    aria-label="Country code"
+                    value={countryDial}
+                    onChange={(e) => {
+                      setCountryDial(e.target.value);
+                      clearErr("phone");
+                    }}
+                    className={`${inputCls} shrink-0 px-2`}
+                    style={{ width: "6.5rem", flex: "0 0 auto" }}
+                  >
+                    {COUNTRY_CODES.map(({ name: cn, iso, dial }) => (
+                      <option key={iso} value={dial} title={cn}>
+                        {dial} {iso}
+                      </option>
+                    ))}
+                  </select>
                   <input
                     id="dl-phone"
                     type="tel"
-                    autoComplete="tel"
+                    inputMode="tel"
+                    autoComplete="tel-national"
                     value={phone}
                     onChange={(e) => {
                       setPhone(e.target.value);
@@ -301,14 +384,17 @@ function GateModal({ item, onClose, onSuccess }) {
                     }}
                     aria-invalid={errors.phone ? "true" : undefined}
                     aria-describedby={errors.phone ? "dl-phone-error" : undefined}
-                    className={inputCls}
+                    className={`${inputCls} min-w-0`}
+                    style={{ flex: "1 1 0%" }}
                   />
-                  {errors.phone && (
-                    <p id="dl-phone-error" className="mt-1 text-xs font-bold text-red-700">
-                      {errors.phone}
-                    </p>
-                  )}
                 </div>
+                {errors.phone && (
+                  <p id="dl-phone-error" className="mt-1 text-xs font-bold text-red-700">
+                    {errors.phone}
+                  </p>
+                )}
+              </div>
+              <div className="grid grid-cols-2 gap-3">
                 <div>
                   <label htmlFor="dl-city" className={labelCls}>
                     City
@@ -322,6 +408,59 @@ function GateModal({ item, onClose, onSuccess }) {
                     className={inputCls}
                   />
                 </div>
+                <div>
+                  <label htmlFor="dl-interest" className={labelCls}>
+                    Looking for
+                  </label>
+                  <select
+                    id="dl-interest"
+                    value={interest}
+                    onChange={(e) => setInterest(e.target.value)}
+                    className={inputCls}
+                  >
+                    <option value="">Select (optional)</option>
+                    {INTEREST_OPTIONS.map((o) => (
+                      <option key={o} value={o}>
+                        {o}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+              <input
+                type="text"
+                name="website"
+                value={hp}
+                onChange={(e) => setHp(e.target.value)}
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden="true"
+                style={{ position: "absolute", left: "-9999px", width: 1, height: 1, opacity: 0 }}
+              />
+              <div>
+                <label className="flex items-start gap-2.5 text-xs text-slate-600 leading-snug cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={consent}
+                    onChange={(e) => {
+                      setConsent(e.target.checked);
+                      clearErr("consent");
+                    }}
+                    aria-invalid={errors.consent ? "true" : undefined}
+                    className="mt-0.5 h-4 w-4 shrink-0 rounded border-slate-300"
+                  />
+                  <span>
+                    I agree that Keshav Enterprises may contact me by phone, WhatsApp or email about
+                    this request, and I accept the{" "}
+                    <a href="/privacy-policy" className="underline">
+                      Privacy Policy
+                    </a>
+                    . *
+                  </span>
+                </label>
+                {errors.consent && (
+                  <p className="mt-1 text-xs font-bold text-red-700">{errors.consent}</p>
+                )}
               </div>
               <button
                 type="button"
@@ -338,10 +477,7 @@ function GateModal({ item, onClose, onSuccess }) {
                 )}
               </button>
               <p className="text-center text-[11px] text-slate-500">
-                No spam. Unsubscribe anytime.{" "}
-                <a href="/privacy-policy" className="underline">
-                  Privacy Policy
-                </a>
+                We only use your details to follow up on your request. No newsletters.
               </p>
             </div>
           </div>

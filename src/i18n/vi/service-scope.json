@@ -26,5 +26,9 @@
   "srv_7": {
     "scope": "Chẩn đoán tại hiện trường",
     "turnaround": "Báo cáo trong ngày"
+  },
+  "srv_8": {
+    "scope": "Xưởng & tại hiện trường",
+    "turnaround": "1–3 ngày"
   }
 }

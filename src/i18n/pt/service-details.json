@@ -1070,5 +1070,116 @@
         "action": "Inspeção por boroscópio, substituição de tira de selo, inspeção e limpeza de bocal"
       }
     ]
+  },
+  "srv_8": {
+    "tagline": "Jateamento abrasivo de precisão: metal limpo sem comprometer tolerâncias críticas",
+    "accentColor": "#ea580c",
+    "keyStats": [
+      {
+        "value": "4 tipos de abrasivo",
+        "label": "Adequados ao substrato"
+      },
+      {
+        "value": "SSPC/NACE",
+        "label": "Normas de preparação de superfície"
+      },
+      {
+        "value": "100%",
+        "label": "Superfícies críticas mascaradas"
+      },
+      {
+        "value": "Oficina/Campo",
+        "label": "Atuação flexível"
+      }
+    ],
+    "whyUs": "Um jateamento agressivo ou com abrasivo inadequado pode arredondar arestas, tornar rugosas as faces de vedação e destruir as tolerâncias exatas com que seu rotor foi usinado. Mascaramos todas as superfícies críticas antes de iniciar o jateamento e ajustamos o tipo de abrasivo ao substrato, para que você receba uma superfície limpa e pronta para pintura sem tocar em nenhuma dimensão usinada.",
+    "overview": "Antes que um rotor, carcaça ou componente de turbina possa ser inspecionado com precisão, submetido a engenharia reversa, ensaiado por END ou revestido, sua superfície precisa estar livre de ferrugem, carepa, tinta antiga e depósitos de carbono, e esse preparo deve ser feito sem danificar a geometria usinada subjacente. A Keshav Enterprises realiza jateamento abrasivo controlado de componentes de turbinas com abrasivos escolhidos conforme o substrato e o acabamento exigido: abrasivos mais grossos para aço estrutural e carcaças, e microesferas de vidro finas ou casca de noz para superfícies usinadas delicadas. Cada munhão, sede de vedação, rosca e elemento de precisão é mascarado e protegido antes de o jateamento começar. O resultado é uma superfície limpa e de perfil uniforme (verificada segundo as normas de preparação de superfície SSPC/NACE), pronta para medição precisa, END ou novo revestimento.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Avaliação do componente e mascaramento",
+        "iconName": "Search",
+        "desc": "Inspeção do componente para identificar todas as superfícies usinadas críticas (munhões, sedes de vedação, roscas, faces de junta) que devem ser protegidas do abrasivo. Todas essas áreas são mascaradas com coberturas sob medida, fita ou bujões ajustados antes de qualquer jateamento."
+      },
+      {
+        "step": "02",
+        "title": "Seleção do abrasivo",
+        "iconName": "Layers",
+        "desc": "O abrasivo é escolhido conforme a dureza do substrato e o perfil de superfície exigido: óxido de alumínio ou granada para aço estrutural e carcaças, microesferas de vidro finas para superfícies delicadas de rotor e peças de parede fina, casca de noz para a limpeza mais suave de peças de precisão."
+      },
+      {
+        "step": "03",
+        "title": "Remoção de ferrugem, carepa e revestimentos",
+        "iconName": "Wrench",
+        "desc": "O jateamento controlado, com pressão e distância adequadas ao componente, remove ferrugem, carepa de laminação, tinta antiga e depósitos de carbono até deixar uma superfície uniforme e livre de contaminantes, sem causar corrosão por pites, empenamento ou alteração dimensional."
+      },
+      {
+        "step": "04",
+        "title": "Verificação do perfil de superfície",
+        "iconName": "Activity",
+        "desc": "O padrão de ancoragem (perfil de superfície) é medido com comparador de perfil ou fita réplica para confirmar que a superfície atende à norma SSPC-SP ou NACE exigida para o revestimento ou a inspeção seguinte."
+      },
+      {
+        "step": "05",
+        "title": "Controle de poeira e resíduos",
+        "iconName": "Shield",
+        "desc": "O jateamento é realizado em cabine fechada na nossa oficina ou com equipamento enclausurado com recuperação a vácuo no local, para controlar a poeira e proteger a planta e as pessoas ao redor."
+      },
+      {
+        "step": "06",
+        "title": "Inspeção final e entrega",
+        "iconName": "CheckCircle2",
+        "desc": "Os mascaramentos são removidos, todas as superfícies protegidas são reverificadas em relação às dimensões originais e o componente é inspecionado visualmente quanto à uniformidade do jateamento antes da entrega para medição, END, revestimento ou remontagem."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Unidade portátil de jateamento abrasivo",
+        "detail": "Tipo panela de pressão, utilizável no local",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Linha de abrasivos",
+        "detail": "Granada, óxido de alumínio, microesferas de vidro, casca de noz",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Cabine de jateamento fechada",
+        "detail": "Jateamento em oficina com controle de poeira",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Comparador de perfil de superfície",
+        "detail": "Verificação do padrão de ancoragem SSPC/NACE",
+        "iconName": "Search"
+      },
+      {
+        "name": "Enclausuramento com recuperação a vácuo",
+        "detail": "Jateamento no local com contenção de poeira",
+        "iconName": "Filter"
+      }
+    ],
+    "standards": [
+      {
+        "code": "SSPC-SP 6/10",
+        "desc": "Limpeza por jateamento comercial e ao metal quase branco",
+        "body": "SSPC"
+      },
+      {
+        "code": "NACE No.3/2",
+        "desc": "Normas de preparação de superfície para revestimento",
+        "body": "NACE"
+      },
+      {
+        "code": "ISO 8501-1",
+        "desc": "Avaliação visual da limpeza da superfície",
+        "body": "ISO"
+      },
+      {
+        "code": "Especificação OEM",
+        "desc": "Mascaramento e limites de abrasivo conforme exigência de revestimento do OEM",
+        "body": "OEM"
+      }
+    ]
   }
 }

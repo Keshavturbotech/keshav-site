@@ -26,5 +26,9 @@
   "srv_7": {
     "scope": "现场诊断",
     "turnaround": "当日出具报告"
+  },
+  "srv_8": {
+    "scope": "车间及现场",
+    "turnaround": "1–3天"
   }
 }

@@ -1070,5 +1070,116 @@
         "action": "Kiểm tra ống soi, thay dải phớt, kiểm tra và làm sạch vòi phun"
       }
     ]
+  },
+  "srv_8": {
+    "tagline": "Phun mài mòn chính xác: Kim loại sạch mà không ảnh hưởng đến dung sai quan trọng",
+    "accentColor": "#ea580c",
+    "keyStats": [
+      {
+        "value": "4 Loại vật liệu mài",
+        "label": "Phù hợp vật liệu nền"
+      },
+      {
+        "value": "SSPC/NACE",
+        "label": "Tiêu chuẩn chuẩn bị bề mặt"
+      },
+      {
+        "value": "100%",
+        "label": "Bề mặt quan trọng được che chắn"
+      },
+      {
+        "value": "Xưởng/Hiện trường",
+        "label": "Triển khai linh hoạt"
+      }
+    ],
+    "whyUs": "Phun quá mạnh hoặc dùng sai vật liệu mài có thể làm tròn cạnh, làm nhám mặt làm kín và phá hỏng đúng những dung sai mà rô-to của bạn được gia công. Chúng tôi che chắn mọi bề mặt quan trọng trước khi phun và chọn cấp vật liệu mài phù hợp với vật liệu nền, nhờ đó bạn có bề mặt sạch, sẵn sàng sơn mà không chạm vào bất kỳ kích thước gia công nào.",
+    "overview": "Trước khi rô-to, vỏ hoặc linh kiện tua bin có thể được kiểm tra chính xác, thiết kế ngược, thử NDT hoặc phủ lại, bề mặt phải sạch gỉ sét, vảy oxy hóa, sơn cũ và cặn carbon, và việc chuẩn bị này phải được thực hiện mà không làm hỏng hình học gia công bên dưới. Keshav Enterprises cung cấp dịch vụ phun mài mòn có kiểm soát cho linh kiện tua bin với vật liệu mài được chọn phù hợp với vật liệu nền và độ hoàn thiện yêu cầu: vật liệu thô hơn cho thép kết cấu và vỏ, hạt thủy tinh mịn hoặc vỏ óc chó cho các bề mặt gia công tinh xảo. Mọi cổ trục, mặt làm kín, ren và chi tiết chính xác đều được che chắn và bảo vệ trước khi phun. Kết quả là bề mặt sạch, có biên dạng đồng đều (được kiểm tra theo tiêu chuẩn chuẩn bị bề mặt SSPC/NACE), sẵn sàng cho đo đạc chính xác, NDT hoặc phủ lại.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Đánh giá Chi tiết & Che chắn",
+        "iconName": "Search",
+        "desc": "Kiểm tra chi tiết để xác định mọi bề mặt gia công quan trọng (cổ trục, mặt làm kín, ren, mặt gioăng) cần bảo vệ khỏi vật liệu mài. Tất cả các vùng này được che bằng nắp chuyên dụng, băng keo hoặc nút bịt vừa khít trước khi bắt đầu phun."
+      },
+      {
+        "step": "02",
+        "title": "Chọn Vật liệu mài",
+        "iconName": "Layers",
+        "desc": "Vật liệu mài được chọn theo độ cứng vật liệu nền và biên dạng bề mặt yêu cầu: nhôm oxit hoặc garnet cho thép kết cấu và vỏ, hạt thủy tinh mịn cho bề mặt rô-to tinh xảo và chi tiết thành mỏng, vỏ óc chó cho việc làm sạch nhẹ nhàng nhất đối với chi tiết chính xác."
+      },
+      {
+        "step": "03",
+        "title": "Loại bỏ Gỉ sét, Vảy oxy hóa & Lớp phủ",
+        "iconName": "Wrench",
+        "desc": "Phun có kiểm soát với áp suất và khoảng cách phù hợp từng chi tiết sẽ loại bỏ gỉ sét, vảy cán, sơn cũ và cặn carbon, cho bề mặt đồng đều, không nhiễm bẩn, không gây rỗ, cong vênh hay thay đổi kích thước."
+      },
+      {
+        "step": "04",
+        "title": "Kiểm tra Biên dạng Bề mặt",
+        "iconName": "Activity",
+        "desc": "Độ nhám neo bám (biên dạng bề mặt) được đo bằng dụng cụ so sánh biên dạng hoặc băng sao chép để xác nhận bề mặt đạt tiêu chuẩn SSPC-SP hoặc NACE theo yêu cầu của công đoạn phủ hoặc kiểm tra tiếp theo."
+      },
+      {
+        "step": "05",
+        "title": "Kiểm soát Bụi & Mảnh vụn",
+        "iconName": "Shield",
+        "desc": "Việc phun được thực hiện trong buồng kín tại xưởng của chúng tôi, hoặc dùng thiết bị có chụp kín và hút thu hồi chân không tại hiện trường, để kiểm soát bụi và bảo vệ nhà máy cũng như nhân sự xung quanh."
+      },
+      {
+        "step": "06",
+        "title": "Kiểm tra Cuối & Bàn giao",
+        "iconName": "CheckCircle2",
+        "desc": "Tháo bỏ lớp che chắn, kiểm tra lại mọi bề mặt được bảo vệ so với kích thước gốc, và kiểm tra bằng mắt độ đồng đều của lớp phun trước khi bàn giao để đo đạc, NDT, phủ hoặc lắp ráp lại."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Thiết bị Phun mài mòn Di động",
+        "detail": "Loại bình áp lực, triển khai tại hiện trường",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Dải Vật liệu mài",
+        "detail": "Garnet, nhôm oxit, hạt thủy tinh, vỏ óc chó",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Buồng Phun kín",
+        "detail": "Phun trong tủ tại xưởng có kiểm soát bụi",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Dụng cụ So sánh Biên dạng Bề mặt",
+        "detail": "Kiểm tra độ nhám neo bám theo SSPC/NACE",
+        "iconName": "Search"
+      },
+      {
+        "name": "Chụp Hút thu hồi Chân không",
+        "detail": "Phun tại hiện trường có kiểm soát bụi",
+        "iconName": "Filter"
+      }
+    ],
+    "standards": [
+      {
+        "code": "SSPC-SP 6/10",
+        "desc": "Làm sạch bằng phun kim loại mức thương mại & gần trắng",
+        "body": "SSPC"
+      },
+      {
+        "code": "NACE No.3/2",
+        "desc": "Tiêu chuẩn chuẩn bị bề mặt cho lớp phủ",
+        "body": "NACE"
+      },
+      {
+        "code": "ISO 8501-1",
+        "desc": "Đánh giá bằng mắt độ sạch bề mặt",
+        "body": "ISO"
+      },
+      {
+        "code": "Thông số OEM",
+        "desc": "Giới hạn che chắn & vật liệu mài theo yêu cầu lớp phủ của OEM",
+        "body": "OEM"
+      }
+    ]
   }
 }

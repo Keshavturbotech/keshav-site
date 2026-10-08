@@ -153,5 +153,24 @@
       "ABB"
     ],
     "slug": "troubleshooting-service"
+  },
+  "srv_8": {
+    "id": "srv_8",
+    "image": "service-sand-blasting.webp",
+    "title": "Sandstrahlen & Oberflächenvorbereitung",
+    "desc": "Kontrolliertes Strahlen mit Strahlmitteln für Turbinenrotoren, Gehäuse und Bauteile: Rost, Zunder und alte Beschichtungen werden vor Inspektion, Reverse Engineering oder Neubeschichtung entfernt, ohne kritische bearbeitete Flächen zu beschädigen.",
+    "details": [
+      "Reinigung von Rotor-, Gehäuse-, Schaufel- und Diaphragmenoberflächen vor Inspektion oder zerstörungsfreier Prüfung (NDT)",
+      "Auswahl des Strahlmittels (Granat, Aluminiumoxid, Glasperlen) passend zu Grundwerkstoff und Oberflächengüte",
+      "Abdecken und Schützen von bearbeiteten Lagerzapfen, Dichtflächen und Gewindeflächen",
+      "Oberflächenvorbereitung nach SSPC/NACE-Normen vor dem Lackieren oder Neubeschichten",
+      "Entfernung von Rost, Zunder und Kohlenstoffablagerungen an Bauteilen des Dampfpfads",
+      "Staubgekapselte Strahlkabine und mobile Strahlausrüstung für den Einsatz vor Ort",
+      "Prüfung des Oberflächenprofils (Ankerprofil) für die Haftung der Beschichtung"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "sand-blasting-and-surface-preparation"
   }
 }

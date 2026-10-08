@@ -1070,5 +1070,116 @@
         "action": "Inspeksi borescope, penggantian strip seal, inspeksi dan pembersihan nozzle"
       }
     ]
+  },
+  "srv_8": {
+    "tagline": "Abrasive Blasting Presisi: Logam Bersih Tanpa Mengorbankan Toleransi Kritis",
+    "accentColor": "#ea580c",
+    "keyStats": [
+      {
+        "value": "4 Jenis Media",
+        "label": "Disesuaikan dengan Substrat"
+      },
+      {
+        "value": "SSPC/NACE",
+        "label": "Standar Persiapan Permukaan"
+      },
+      {
+        "value": "100%",
+        "label": "Permukaan Kritis Ditutup"
+      },
+      {
+        "value": "Bengkel/Lokasi",
+        "label": "Penempatan Fleksibel"
+      }
+    ],
+    "whyUs": "Blasting yang agresif atau dengan media yang salah dapat membulatkan tepi, mengkasarkan permukaan seal, dan merusak toleransi tepat tempat rotor Anda dimesin. Kami menutup setiap permukaan kritis sebelum blasting dimulai dan menyesuaikan tingkat media dengan substrat, sehingga Anda mendapatkan permukaan bersih siap cat tanpa menyentuh satu pun dimensi hasil permesinan.",
+    "overview": "Sebelum rotor, casing, atau komponen turbin dapat diinspeksi dengan akurat, direkayasa balik, diuji NDT, atau dilapis ulang, permukaannya harus bebas dari karat, kerak, cat lama, dan endapan karbon, dan persiapan itu harus dilakukan tanpa merusak geometri hasil permesinan di bawahnya. Keshav Enterprises menyediakan abrasive blasting terkendali untuk komponen turbin dengan media yang dipilih sesuai substrat dan hasil akhir yang dibutuhkan: media lebih kasar untuk baja struktural dan casing, serta glass bead halus atau cangkang kenari untuk permukaan mesin yang halus. Setiap jurnal, seal land, ulir, dan fitur presisi ditutup dan dilindungi sebelum blasting dimulai. Hasilnya adalah permukaan yang bersih dan berprofil seragam (diverifikasi sesuai standar persiapan permukaan SSPC/NACE), siap untuk pengukuran akurat, NDT, atau pelapisan ulang.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Penilaian Komponen & Penutupan",
+        "iconName": "Search",
+        "desc": "Inspeksi komponen untuk mengidentifikasi semua permukaan permesinan kritis (jurnal, seal land, ulir, permukaan gasket) yang harus dilindungi dari media blasting. Semua area tersebut ditutup dengan penutup khusus, selotip, atau sumbat yang pas sebelum blasting dimulai."
+      },
+      {
+        "step": "02",
+        "title": "Pemilihan Media",
+        "iconName": "Layers",
+        "desc": "Media blasting dipilih sesuai kekerasan substrat dan profil permukaan yang dibutuhkan: aluminium oksida atau garnet untuk baja struktural dan casing, glass bead halus untuk permukaan rotor yang halus dan komponen berdinding tipis, cangkang kenari untuk pembersihan paling lembut pada komponen presisi."
+      },
+      {
+        "step": "03",
+        "title": "Penghilangan Karat, Kerak & Pelapis",
+        "iconName": "Wrench",
+        "desc": "Blasting terkendali pada tekanan dan jarak yang disesuaikan dengan komponen menghilangkan karat, mill scale, cat lama, dan endapan karbon hingga permukaan seragam dan bebas kontaminan, tanpa menimbulkan pitting, distorsi, atau perubahan dimensi."
+      },
+      {
+        "step": "04",
+        "title": "Verifikasi Profil Permukaan",
+        "iconName": "Activity",
+        "desc": "Anchor pattern (profil permukaan) diukur menggunakan profile comparator atau replica tape untuk memastikan permukaan memenuhi standar SSPC-SP atau NACE yang dibutuhkan untuk proses pelapisan atau inspeksi berikutnya."
+      },
+      {
+        "step": "05",
+        "title": "Pengendalian Debu & Serpihan",
+        "iconName": "Shield",
+        "desc": "Blasting dilakukan di ruang tertutup di bengkel kami, atau menggunakan peralatan berselubung dengan penyedot vakum di lokasi, untuk mengendalikan debu dan melindungi pabrik dan personel di sekitarnya."
+      },
+      {
+        "step": "06",
+        "title": "Inspeksi Akhir & Serah Terima",
+        "iconName": "CheckCircle2",
+        "desc": "Penutup dilepas, semua permukaan yang dilindungi diperiksa ulang terhadap dimensi asli, dan komponen diinspeksi secara visual untuk memastikan cakupan blasting yang merata sebelum diserahkan untuk pengukuran, NDT, pelapisan, atau perakitan ulang."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Unit Abrasive Blasting Portabel",
+        "detail": "Tipe pressure-pot, dapat dipasang di lokasi",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Rangkaian Media Blasting",
+        "detail": "Garnet, aluminium oksida, glass bead, cangkang kenari",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Ruang Blasting Tertutup",
+        "detail": "Blasting kabinet bengkel dengan kendali debu",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Surface Profile Comparator",
+        "detail": "Verifikasi anchor pattern SSPC/NACE",
+        "iconName": "Search"
+      },
+      {
+        "name": "Selubung Penyedot Vakum",
+        "detail": "Blasting di lokasi dengan debu terkendali",
+        "iconName": "Filter"
+      }
+    ],
+    "standards": [
+      {
+        "code": "SSPC-SP 6/10",
+        "desc": "Pembersihan blasting logam komersial & mendekati putih",
+        "body": "SSPC"
+      },
+      {
+        "code": "NACE No.3/2",
+        "desc": "Standar persiapan permukaan untuk pelapisan",
+        "body": "NACE"
+      },
+      {
+        "code": "ISO 8501-1",
+        "desc": "Penilaian visual kebersihan permukaan",
+        "body": "ISO"
+      },
+      {
+        "code": "Spesifikasi OEM",
+        "desc": "Batas penutupan & media sesuai persyaratan pelapisan OEM",
+        "body": "OEM"
+      }
+    ]
   }
 }

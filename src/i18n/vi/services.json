@@ -153,5 +153,24 @@
       "ABB"
     ],
     "slug": "troubleshooting-service"
+  },
+  "srv_8": {
+    "id": "srv_8",
+    "image": "service-sand-blasting.webp",
+    "title": "Phun cát & Chuẩn bị Bề mặt",
+    "desc": "Phun mài mòn có kiểm soát cho rô-to, vỏ và linh kiện tua bin, loại bỏ gỉ sét, vảy oxy hóa và lớp phủ cũ trước khi kiểm tra, thiết kế ngược hoặc phủ lại mà không làm hỏng các bề mặt gia công quan trọng.",
+    "details": [
+      "Làm sạch bề mặt rô-to, vỏ, cánh & màng ngăn trước khi kiểm tra hoặc thử nghiệm không phá hủy (NDT)",
+      "Chọn vật liệu mài (garnet, nhôm oxit, hạt thủy tinh) phù hợp với vật liệu nền & độ hoàn thiện bề mặt",
+      "Che chắn và bảo vệ cổ trục, mặt làm kín & bề mặt ren đã gia công",
+      "Chuẩn bị bề mặt theo tiêu chuẩn SSPC/NACE trước khi sơn hoặc phủ lại",
+      "Loại bỏ gỉ sét, vảy oxy hóa & cặn carbon khỏi các chi tiết đường hơi",
+      "Buồng phun kín chống bụi & thiết bị phun di động tại hiện trường",
+      "Kiểm tra biên dạng (độ nhám neo bám) để đảm bảo độ bám dính của lớp phủ"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "sand-blasting-and-surface-preparation"
   }
 }

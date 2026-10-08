@@ -10,7 +10,7 @@
     "h1Line1": "Miaka {years}+ ya",
     "h1Span": "Uhandisi Sahihi",
     "quote": "“Hakuna uvumilivu kwa kusimama kwa kiwanda — hii si kauli mbiu. Ni kiwango cha uhandisi ambacho kila mteja anatutegemea nacho.”",
-    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
+    "intro": "Mwanzilishi Shekhar Sharma ameanza kufanya kazi moja kwa moja na turbine za mvuke mwaka 1988, akipata uzoefu katika kampuni kadhaa kabla ya kuanzisha ushirikiano huru wa matengenezo ya turbine mwaka 2016. Keshav Enterprises ilianzishwa rasmi Juni 2020, na sasa ni mshirika wa kuaminika wa uhandisi kwa vituo vya umeme, viwanda vya sukari, visafishaji na viwanda vya michakato kote India na duniani, ikiendeleza utaalamu ule ule wa wataalamu wa zamani wa OEM kutoka Triveni, Siemens, BHEL, Man Turbo, KKK na ABB.",
     "tags": [
       "Wahandisi Wenye Uzoefu wa OEM",
       "Usomaji wa Leza wa 3D",
@@ -71,7 +71,7 @@
     "eyebrow": "Sisi ni Nani",
     "heading": "Washirika wa Uhandisi kwa Uti wa Mgongo wa Viwanda vya India",
     "paragraphs": [
-      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
+      "Keshav Enterprises ni kampuni ya uhandisi wa viwanda wa usahihi yenye makao makuu Shamli, Uttar Pradesh. Mwanzilishi Shekhar Sharma amefanya kazi moja kwa moja na turbine za mvuke tangu 1988; uzoefu huo ukawa ushirikiano huru mwaka 2016, na Keshav Enterprises ikaanzishwa rasmi Juni 2020. Tunatoa matengenezo maalum ya turbine, uhandisi wa kinyume na vipuri vinavyooana na OEM kwa wateja kote India na duniani, ikiwemo mauzo ya nje kwenda Nepal na Uganda.",
       "Timu yetu ya uhandisi inajumuisha wataalamu wenye uzoefu wa zamani wa OEM kutoka Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, na ABB — wakitoa wateja kiwango sawa cha utaalamu wa kiufundi kama watengenezaji wa vifaa asili, kwa sehemu ndogo ya muda na gharama.",
       "Tunashughulikia turbine za mvuke kutoka 5 kW hadi 60 MW — shinikizo la nyuma na condensing, mlalo na wima, hatua moja na nyingi. Karakhana yetu imewekwa vifaa vya kisomaji cha leza cha 3D, mashine za kupima kuratibu za CMM, mashine za uwiano wa mzunguko (kilo 50–2,000), na mashine za kunoa za CNC sahihi."
     ],
@@ -144,28 +144,28 @@
     "items": [
       {
         "year": "1988",
-        "title": "Engineering Roots",
-        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
+        "title": "Mizizi ya Uhandisi",
+        "desc": "Mwanzilishi Shekhar Sharma anaanza kufanya kazi moja kwa moja na turbine za mvuke kama mhandisi, akipata uzoefu katika kampuni kadhaa kwa miongo iliyofuata."
       },
       {
         "year": "2016",
-        "title": "Partnership Formed",
-        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
+        "title": "Ushirikiano Waundwa",
+        "desc": "Shekhar Sharma anaanzisha ushirikiano huru wa matengenezo ya turbine huko Shamli, UP, akihudumia viwanda vya sukari vya eneo hilo kwa utaalamu wa vitendo wa ukarabati mkubwa."
       },
       {
-        "year": "June 2020",
-        "title": "Keshav Enterprises Founded",
-        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
+        "year": "Juni 2020",
+        "title": "Keshav Enterprises Yaanzishwa",
+        "desc": "Ushirikiano unasajiliwa rasmi kama Keshav Enterprises, Shamli, Uttar Pradesh."
       },
       {
         "year": "2021",
-        "title": "Capability & Product Line Expansion",
-        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
+        "title": "Upanuzi wa Uwezo na Mstari wa Bidhaa",
+        "desc": "Uwekezaji katika skanning ya leza ya 3D, vifaa vya CMM na mashine za kusawazisha zenye mwendo za ISO 1940 / API 670 (kg 50–2,000), na kuzindua mstari kamili wa bidhaa za viwandani unaojumuisha uchujaji, vichujio vya hewa vya HVAC, viungio vya upanuzi, vichujio vya strainer, bidhaa za mpira na mikusanyiko ya hosi zinazobadilika."
       },
       {
-        "year": "Today",
-        "title": "Export Ready",
-        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
+        "year": "Leo",
+        "title": "Tayari kwa Mauzo ya Nje",
+        "desc": "Imesajiliwa IEC na DGFT: vipengele vya turbine, bidhaa za uchujaji na vipuri vya viwandani vinatengenezwa kwa viwango vya ISO/API/ASME na kuainishwa kwa HSN kwa mauzo ya nje, kukiwa na msaada wa nyaraka kwa wanunuzi wa ng'ambo. Huduma kote India inaendelea kwa msaada wa dharura wa uhandisi saa 24 kwa siku, siku 7 kwa wiki."
       }
     ]
   },
@@ -213,7 +213,7 @@
     "headingLine1": "Imejengwa kwa Ajili ya",
     "headingSpan": "Wanunuzi wa Kusafirisha Kuthibitisha kwa Urahisi",
     "paragraphs": [
-      "Keshav Enterprises inashikilia Msimbo wa Muagizaji-Muuzaji Nje (IEC) unaotumika uliotolewa na DGFT, kitambulisho cha kisheria kinachohitajika kusafirisha vipuri vya uhandisi wa turbine, bidhaa za uchujaji wa viwandani, na vipengele vinavyoendana na OEM nje ya India.",
+      "Keshav Enterprises inashikilia Msimbo wa Muagizaji-Muuzaji Nje (IEC) unaotumika uliotolewa na DGFT, kitambulisho cha kisheria kinachohitajika kusafirisha vipuri vya uhandisi wa turbine, bidhaa za uchujaji wa viwandani, na vipengele vinavyoendana na OEM nje ya India. Tayari tumesafirisha vichujio vya kapu (basket strainers) hadi Nepal na vichujio vya mafuta ya kulainisha na pini za kukata (shear pins) hadi Uganda.",
       "Bidhaa zetu zilizotengenezwa kwa usahihi zinazalishwa kulingana na viwango vya kimataifa ikiwa ni pamoja na ISO 16889, API 614, na ASME Sec. VIII, na kuainishwa chini ya misimbo ya kawaida ya usafirishaji ya HSN, ili wanunuzi wa nje ya nchi waweze kuthibitisha uzingatiaji kabla ya kuweka agizo."
     ],
     "standards": [
@@ -239,6 +239,7 @@
     "checklistTitle": "Orodha ya Ukaguzi wa Utayari wa Kusafirisha",
     "checklistItems": [
       "IEC inayotumika iliyotolewa na DGFT — imeruhusiwa kisheria kusafirisha",
+      "Bidhaa tayari zimesafirishwa hadi Nepal na Uganda",
       "Bidhaa zimeainishwa chini ya misimbo ya kawaida ya usafirishaji ya HSN",
       "Zimetengenezwa kulingana na viwango vya kimataifa vya ISO, API na ASME",
       "Karatasi za data za Kiingereza, vyeti vya upimaji na nyaraka za QC",
@@ -249,6 +250,51 @@
       "gst": "GST",
       "msme": "MSME/Udyam",
       "iec": "IEC"
+    },
+    "tradeTerms": {
+      "heading": "Masharti ya Biashara ya Mauzo ya Nje",
+      "subheading": "Kile ambacho wanunuzi wa ng'ambo wanaweza kutarajia wanapoagiza kutoka Keshav Enterprises",
+      "items": [
+        {
+          "label": "Incoterms",
+          "value": "FOB Nhava Sheva / Delhi ICD, CIF inapatikana kwa ombi"
+        },
+        {
+          "label": "Masharti ya Malipo",
+          "value": "Malipo ya awali 30% (T/T) pamoja na agizo, 70% dhidi ya nakala ya B/L; Barua ya Mkopo (L/C at sight) inakubaliwa kwa maagizo yanayozidi USD 2,000"
+        },
+        {
+          "label": "Muda wa Kawaida wa Kuwasilisha",
+          "value": "Wiki 4–6 ex-works tangu uthibitisho wa agizo, kulingana na wigo wa kazi"
+        },
+        {
+          "label": "Ufungashaji",
+          "value": "Ufungashaji wa daraja la mauzo ya nje unaofaa usafiri wa baharini/angani kwa vipuri vya turbine na bidhaa za uchujaji"
+        },
+        {
+          "label": "Nyaraka Zinazotolewa",
+          "value": "Ankara ya kibiashara, orodha ya ufungashaji, cheti cha asili, vyeti vya majaribio/ukaguzi, MSDS inapohitajika"
+        }
+      ],
+      "note": "Masharti kamili huthibitishwa kwa kila agizo kulingana na bidhaa, kiasi na nchi ya kuelekea."
+    },
+    "trackRecord": {
+      "heading": "Rekodi ya Mauzo ya Nje",
+      "subheading": "Bidhaa zilizokwisha safirishwa nje ya India",
+      "shipments": [
+        {
+          "product": "Vichujio vya Kapu",
+          "country": "Nepal"
+        },
+        {
+          "product": "Vichujio vya Mafuta ya Kulainisha",
+          "country": "Uganda"
+        },
+        {
+          "product": "Pini za Kukata",
+          "country": "Uganda"
+        }
+      ]
     }
   },
   "finalCta": {

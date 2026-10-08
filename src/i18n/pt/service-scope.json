@@ -26,5 +26,9 @@
   "srv_7": {
     "scope": "Diagnóstico no local",
     "turnaround": "Relatório no mesmo dia"
+  },
+  "srv_8": {
+    "scope": "Oficina e no local",
+    "turnaround": "1 a 3 dias"
   }
 }

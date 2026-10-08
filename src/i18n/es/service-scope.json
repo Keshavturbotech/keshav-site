@@ -26,5 +26,9 @@
   "srv_7": {
     "scope": "Diagnóstico in situ",
     "turnaround": "Informe el mismo día"
+  },
+  "srv_8": {
+    "scope": "Taller e in situ",
+    "turnaround": "1–3 días"
   }
 }

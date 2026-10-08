@@ -1070,5 +1070,116 @@
         "action": "Boreskop incelemesi, conta şeridi değişimi, nozul incelemesi ve temizliği"
       }
     ]
+  },
+  "srv_8": {
+    "tagline": "Hassas Aşındırıcı Kumlama: Kritik Toleranslardan Ödün Vermeden Temiz Metal",
+    "accentColor": "#ea580c",
+    "keyStats": [
+      {
+        "value": "4 Aşındırıcı Türü",
+        "label": "Alt Malzemeye Uygun"
+      },
+      {
+        "value": "SSPC/NACE",
+        "label": "Yüzey Hazırlık Standartları"
+      },
+      {
+        "value": "100%",
+        "label": "Kritik Yüzeyler Maskelenir"
+      },
+      {
+        "value": "Atölye/Saha",
+        "label": "Esnek Uygulama"
+      }
+    ],
+    "whyUs": "Agresif veya yanlış aşındırıcıyla yapılan kumlama kenarları yuvarlayabilir, sızdırmazlık yüzeylerini pürüzlendirebilir ve rotorunuzun işlendiği tam toleransları bozabilir. Kumlamaya başlamadan önce her kritik yüzeyi maskeler, aşındırıcı kalitesini alt malzemeye göre seçeriz; böylece tek bir işlenmiş ölçüye dokunmadan temiz ve boyaya hazır bir yüzey elde edersiniz.",
+    "overview": "Bir türbin rotoru, gövdesi veya bileşeni doğru biçimde muayene edilmeden, tersine mühendislikle ölçülmeden, NDT ile test edilmeden veya yeniden kaplanmadan önce yüzeyi pas, kabuk, eski boya ve karbon birikintilerinden arınmış olmalı; bu hazırlık da alttaki işlenmiş geometriye zarar vermeden yapılmalıdır. Keshav Enterprises, türbin bileşenleri için alt malzemeye ve istenen yüzey kalitesine göre seçilen aşındırıcılarla kontrollü aşındırıcı kumlama yapar: yapısal çelik ve gövdeler için daha iri, hassas işlenmiş yüzeyler için ince cam boncuk veya ceviz kabuğu. Her muylu, sızdırmazlık yüzeyi, diş ve hassas işlenmiş detay, kumlama başlamadan önce maskelenir ve korunur. Sonuç, hassas ölçüme, NDT'ye veya yeniden kaplamaya hazır, temiz ve düzgün profilli (SSPC/NACE yüzey hazırlık standartlarına göre doğrulanmış) bir yüzeydir.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Bileşen Değerlendirmesi ve Maskeleme",
+        "iconName": "Search",
+        "desc": "Aşındırıcıdan korunması gereken tüm kritik işlenmiş yüzeylerin (muylular, sızdırmazlık yüzeyleri, dişler, conta yüzeyleri) belirlenmesi için bileşenin muayenesi. Bu bölgelerin tümü, kumlamaya başlamadan önce özel yapım kapaklar, bant veya uygun tapalarla maskelenir."
+      },
+      {
+        "step": "02",
+        "title": "Aşındırıcı Seçimi",
+        "iconName": "Layers",
+        "desc": "Aşındırıcı, alt malzemenin sertliğine ve istenen yüzey profiline göre seçilir: yapısal çelik ve gövdeler için alüminyum oksit veya garnet, hassas rotor yüzeyleri ve ince cidarlı bileşenler için ince cam boncuk, hassas parçaların en nazik temizliği için ceviz kabuğu."
+      },
+      {
+        "step": "03",
+        "title": "Pas, Kabuk ve Kaplama Giderme",
+        "iconName": "Wrench",
+        "desc": "Bileşene göre ayarlanmış basınç ve mesafede kontrollü kumlama; pas, haddeleme kabuğu, eski boya ve karbon birikintilerini çukurlaşma, çarpılma veya boyutsal değişim oluşturmadan düzgün ve kirletici içermeyen bir yüzeye kadar giderir."
+      },
+      {
+        "step": "04",
+        "title": "Yüzey Profili Doğrulaması",
+        "iconName": "Activity",
+        "desc": "Ankraj izi (yüzey profili), yüzeyin sonraki kaplama veya muayene işlemi için gereken SSPC-SP ya da NACE standardını karşıladığını doğrulamak amacıyla profil komparatörü veya replika bant ile ölçülür."
+      },
+      {
+        "step": "05",
+        "title": "Toz ve Atık Kontrolü",
+        "iconName": "Shield",
+        "desc": "Toz kontrolü sağlamak ve çevredeki tesisi ve personeli korumak için kumlama atölyemizdeki kapalı kabinde veya sahada vakumla geri kazanımlı kapaklı ekipmanla yapılır."
+      },
+      {
+        "step": "06",
+        "title": "Nihai Muayene ve Teslim",
+        "iconName": "CheckCircle2",
+        "desc": "Maskeler sökülür, korunan tüm yüzeyler orijinal ölçülere göre yeniden kontrol edilir ve bileşen; ölçüm, NDT, kaplama veya yeniden montaj için teslim edilmeden önce kumlama kapsamının düzgünlüğü açısından gözle muayene edilir."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Taşınabilir Aşındırıcı Kumlama Ünitesi",
+        "detail": "Basınçlı tank tipi, sahada kullanılabilir",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Aşındırıcı Çeşitleri",
+        "detail": "Garnet, alüminyum oksit, cam boncuk, ceviz kabuğu",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Kapalı Kumlama Kabini",
+        "detail": "Atölyede toz kontrollü kabin kumlama",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Yüzey Profili Komparatörü",
+        "detail": "SSPC/NACE ankraj izi doğrulaması",
+        "iconName": "Search"
+      },
+      {
+        "name": "Vakumlu Geri Kazanım Kapağı",
+        "detail": "Sahada tozu hapseden kumlama",
+        "iconName": "Filter"
+      }
+    ],
+    "standards": [
+      {
+        "code": "SSPC-SP 6/10",
+        "desc": "Ticari ve beyaza yakın metal kumlama temizliği",
+        "body": "SSPC"
+      },
+      {
+        "code": "NACE No.3/2",
+        "desc": "Kaplama için yüzey hazırlık standartları",
+        "body": "NACE"
+      },
+      {
+        "code": "ISO 8501-1",
+        "desc": "Yüzey temizliğinin görsel değerlendirmesi",
+        "body": "ISO"
+      },
+      {
+        "code": "OEM Spesifikasyonu",
+        "desc": "OEM kaplama gereksinimine göre maskeleme ve aşındırıcı sınırları",
+        "body": "OEM"
+      }
+    ]
   }
 }

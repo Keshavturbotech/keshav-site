@@ -10,7 +10,7 @@
     "h1Line1": "{years}+年的",
     "h1Span": "精密工程",
     "quote": "「工厂零停机容忍——这不是一句口号，而是每位客户都要求我们坚守的工程标准。」",
-    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
+    "intro": "创始人Shekhar Sharma自1988年起便直接从事汽轮机工作，在多家公司积累经验后，于2016年创立了独立的汽轮机维护合伙企业。Keshav Enterprises于2020年6月正式成立，如今已成为印度及全球发电厂、糖厂、炼油厂和流程工业值得信赖的工程合作伙伴，延续来自Triveni、Siemens、BHEL、Man Turbo、KKK和ABB的原厂背景专业能力。",
     "tags": [
       "原厂背景工程师",
       "3D激光扫描",
@@ -71,7 +71,7 @@
     "eyebrow": "我们是谁",
     "heading": "印度工业支柱的工程伙伴",
     "paragraphs": [
-      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
+      "Keshav Enterprises是一家总部位于北方邦沙姆利的精密工业工程公司。创始人Shekhar Sharma自1988年起便直接从事汽轮机工作；这些经验在2016年发展为独立合伙企业，Keshav Enterprises则于2020年6月正式成立。我们为印度各地及全球客户提供专业的汽轮机维护、逆向工程和兼容原厂的备件，包括出口至尼泊尔和乌干达。",
       "我们的工程团队包括来自Triveni、Siemens、BHEL、Belliss & Morcom、Man Turbo、KKK及ABB的原厂背景专家——以远低于原厂交期与成本的方式，为客户提供同等水平的技术专业能力。",
       "我们服务范围涵盖5千瓦至60兆瓦的汽轮机——背压式与凝汽式，卧式与立式，单级与多级。我们的车间配备3D激光扫描仪、三坐标测量机、动平衡机（50–2,000公斤）及精密数控车床。"
     ],
@@ -144,28 +144,28 @@
     "items": [
       {
         "year": "1988",
-        "title": "Engineering Roots",
-        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
+        "title": "工程渊源",
+        "desc": "创始人Shekhar Sharma以工程师身份开始直接从事汽轮机工作，并在随后的几十年里于多家公司积累经验。"
       },
       {
         "year": "2016",
-        "title": "Partnership Formed",
-        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
+        "title": "合伙企业成立",
+        "desc": "Shekhar Sharma在北方邦沙姆利创立独立的汽轮机维护合伙企业，凭借实操大修经验服务当地糖厂。"
       },
       {
-        "year": "June 2020",
-        "title": "Keshav Enterprises Founded",
-        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
+        "year": "2020年6月",
+        "title": "Keshav Enterprises成立",
+        "desc": "该合伙企业正式注册为Keshav Enterprises，位于北方邦沙姆利。"
       },
       {
         "year": "2021",
-        "title": "Capability & Product Line Expansion",
-        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
+        "title": "能力与产品线扩展",
+        "desc": "投资3D激光扫描、三坐标测量设备及符合ISO 1940 / API 670标准的动平衡机（50–2,000公斤），并推出涵盖过滤、HVAC空气滤清器、膨胀节、过滤器、橡胶制品及软管总成的全面工业产品线。"
       },
       {
-        "year": "Today",
-        "title": "Export Ready",
-        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
+        "year": "至今",
+        "title": "出口就绪",
+        "desc": "已在DGFT完成IEC注册：汽轮机部件、过滤产品及工业备件按ISO/API/ASME标准制造，并按HSN编码分类以供出口，为海外买家提供文件支持。全印度范围的服务持续进行，并提供全天候（24×7）紧急工程支持。"
       }
     ]
   },
@@ -213,7 +213,7 @@
     "headingLine1": "专为",
     "headingSpan": "海外买家便捷核实而打造",
     "paragraphs": [
-      "Keshav Enterprises持有DGFT签发的有效进出口代码（IEC），这是向印度境外出运汽轮机工程备件、工业过滤产品及OEM兼容组件所需的法定资质。",
+      "Keshav Enterprises持有DGFT签发的有效进出口代码（IEC），这是向印度境外出运汽轮机工程备件、工业过滤产品及OEM兼容组件所需的法定资质。我们已向尼泊尔出口篮式过滤器，并向乌干达出口润滑油过滤器和剪切销。",
       "我们精密制造的产品均按照ISO 16889、API 614及ASME第八卷等国际标准生产，并按标准HSN出口编码分类，海外买家可在下单前核实合规性。"
     ],
     "standards": [
@@ -239,6 +239,7 @@
     "checklistTitle": "出口就绪核查清单",
     "checklistItems": [
       "DGFT签发的有效IEC——依法获准出口",
+      "产品已发往尼泊尔和乌干达",
       "产品按标准HSN出口编码分类",
       "按ISO、API及ASME国际标准制造",
       "提供英文技术资料表、检测证书及质量控制文档",
@@ -249,6 +250,51 @@
       "gst": "GST税号",
       "msme": "MSME/Udyam",
       "iec": "IEC"
+    },
+    "tradeTerms": {
+      "heading": "出口贸易条款",
+      "subheading": "海外买家向Keshav Enterprises下单时可以期待的条件",
+      "items": [
+        {
+          "label": "国际贸易术语",
+          "value": "FOB 纳瓦谢瓦港 / 德里内陆集装箱仓库（ICD），可应要求提供CIF"
+        },
+        {
+          "label": "付款条款",
+          "value": "订单确认时预付30%（T/T），余款70%凭提单（B/L）副本支付；2,000美元以上订单接受即期信用证（L/C at sight）"
+        },
+        {
+          "label": "典型交货期",
+          "value": "自订单确认起工厂交货（EXW）4–6周，视范围而定"
+        },
+        {
+          "label": "包装",
+          "value": "适合海运/空运的出口级包装，适用于汽轮机备件和过滤产品"
+        },
+        {
+          "label": "提供的单据",
+          "value": "商业发票、装箱单、原产地证书、测试/检验证书，必要时提供MSDS"
+        }
+      ],
+      "note": "具体条款将根据产品、数量和目的国按单确认。"
+    },
+    "trackRecord": {
+      "heading": "出口业绩",
+      "subheading": "已发往印度境外的产品",
+      "shipments": [
+        {
+          "product": "篮式过滤器",
+          "country": "尼泊尔"
+        },
+        {
+          "product": "润滑油过滤器",
+          "country": "乌干达"
+        },
+        {
+          "product": "剪切销",
+          "country": "乌干达"
+        }
+      ]
     }
   },
   "finalCta": {

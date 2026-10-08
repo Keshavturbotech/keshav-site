@@ -153,5 +153,24 @@
       "ABB"
     ],
     "slug": "troubleshooting-service"
+  },
+  "srv_8": {
+    "id": "srv_8",
+    "image": "service-sand-blasting.webp",
+    "title": "Jateamento de areia e preparação de superfícies",
+    "desc": "Jateamento abrasivo controlado de rotores, carcaças e componentes de turbinas, removendo ferrugem, carepa e revestimentos antigos antes de inspeção, engenharia reversa ou novo revestimento, sem danificar superfícies usinadas críticas.",
+    "details": [
+      "Limpeza de superfícies de rotores, carcaças, palhetas e diafragmas antes de inspeção ou ensaios não destrutivos (END)",
+      "Seleção do abrasivo (granada, óxido de alumínio, microesferas de vidro) conforme o substrato e o acabamento superficial",
+      "Mascaramento e proteção de munhões, sedes de vedação e superfícies roscadas usinadas",
+      "Preparação de superfície conforme as normas SSPC/NACE antes de pintura ou novo revestimento",
+      "Remoção de ferrugem, carepa e depósitos de carbono de componentes do caminho do vapor",
+      "Cabine de jateamento com contenção de poeira e equipamento de jateamento portátil para uso no local",
+      "Verificação do perfil (padrão de ancoragem) para aderência do revestimento"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "sand-blasting-and-surface-preparation"
   }
 }

@@ -153,5 +153,24 @@
       "ABB"
     ],
     "slug": "troubleshooting-service"
+  },
+  "srv_8": {
+    "id": "srv_8",
+    "image": "service-sand-blasting.webp",
+    "title": "Kumlama ve Yüzey Hazırlığı",
+    "desc": "Türbin rotorları, gövdeleri ve bileşenleri için kontrollü aşındırıcı kumlama: kritik işlenmiş yüzeylere zarar vermeden, muayene, tersine mühendislik veya yeniden kaplama öncesinde pas, kabuk ve eski kaplamaları giderir.",
+    "details": [
+      "Muayene veya tahribatsız muayene (NDT) öncesinde rotor, gövde, kanat ve diyafram yüzeylerinin temizlenmesi",
+      "Alt malzemeye ve yüzey pürüzlülüğüne uygun aşındırıcı seçimi (garnet, alüminyum oksit, cam boncuk)",
+      "İşlenmiş muylu, sızdırmazlık yüzeyi ve dişli yüzeylerin maskelenmesi ve korunması",
+      "Boyama veya yeniden kaplama öncesinde SSPC/NACE standartlarına uygun yüzey hazırlığı",
+      "Buhar yolu bileşenlerinden pas, kabuk ve karbon birikintilerinin giderilmesi",
+      "Toz tutmalı kumlama kabini ve sahada kullanılabilen taşınabilir kumlama ekipmanı",
+      "Kaplama yapışması için profil (ankraj izi) doğrulaması"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "sand-blasting-and-surface-preparation"
   }
 }

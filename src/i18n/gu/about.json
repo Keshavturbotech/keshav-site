@@ -10,7 +10,7 @@
     "h1Line1": "{years}+ વર્ષની",
     "h1Span": "ચોકસાઇ એન્જિનિયરિંગ",
     "quote": "“પ્લાન્ટ ડાઉનટાઇમ માટે શૂન્ય સહનશીલતા — આ કોઈ સૂત્ર નથી. આ તે એન્જિનિયરિંગ ધોરણ છે જેના માટે દરેક ક્લાયન્ટ અમને જવાબદાર ગણે છે.”",
-    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
+    "intro": "સ્થાપક શેખર શર્માએ 1988માં વરાળ ટર્બાઇન પર સીધું કામ શરૂ કર્યું અને 2016માં સ્વતંત્ર ટર્બાઇન મેન્ટેનન્સ ભાગીદારી શરૂ કરતા પહેલાં ઘણી કંપનીઓમાં અનુભવ મેળવ્યો. Keshav Enterprisesની ઔપચારિક સ્થાપના જૂન 2020માં થઈ અને આજે તે સમગ્ર ભારત અને વિશ્વભરના પાવર પ્લાન્ટ, ખાંડ મિલો, રિફાઇનરીઓ અને પ્રોસેસ ઉદ્યોગો માટે વિશ્વસનીય એન્જિનિયરિંગ ભાગીદાર છે, જે Triveni, Siemens, BHEL, Man Turbo, KKK અને ABBની એ જ પૂર્વ-OEM નિપુણતા આગળ ધપાવે છે.",
     "tags": [
       "ભૂતપૂર્વ-OEM એન્જિનિયર્સ",
       "3D લેસર સ્કેનિંગ",
@@ -71,7 +71,7 @@
     "eyebrow": "અમે કોણ છીએ",
     "heading": "ભારતની ઔદ્યોગિક કરોડરજ્જુ માટે એન્જિનિયરિંગ ભાગીદારો",
     "paragraphs": [
-      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
+      "Keshav Enterprises એ શામલી, ઉત્તર પ્રદેશમાં મુખ્યાલય ધરાવતી ચોકસાઈપૂર્ણ ઔદ્યોગિક એન્જિનિયરિંગ કંપની છે. સ્થાપક શેખર શર્મા 1988થી વરાળ ટર્બાઇન પર સીધું કામ કરે છે; તે અનુભવ 2016માં સ્વતંત્ર ભાગીદારી બન્યો, અને Keshav Enterprisesની ઔપચારિક સ્થાપના જૂન 2020માં થઈ. અમે નેપાળ અને યુગાંડાની નિકાસ સહિત સમગ્ર ભારત અને વિશ્વભરના ગ્રાહકોને નિષ્ણાત ટર્બાઇન મેન્ટેનન્સ, રિવર્સ એન્જિનિયરિંગ અને OEM-સુસંગત સ્પેર પાર્ટ્સ પૂરા પાડીએ છીએ.",
       "અમારી એન્જિનિયરિંગ ટીમમાં Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK અને ABB ના ભૂતપૂર્વ-OEM નિષ્ણાતોનો સમાવેશ થાય છે — જે ક્લાયન્ટ્સને મૂળ સાધનસામગ્રી ઉત્પાદકો જેટલી જ ટેકનિકલ નિપુણતા, ઓછા સમય અને ખર્ચમાં પૂરી પાડે છે.",
       "અમે 5 kW થી 60 MW સુધીના સ્ટીમ ટર્બાઇન આવરી લઈએ છીએ — બેક-પ્રેશર અને કન્ડેન્સિંગ, હોરિઝોન્ટલ અને વર્ટિકલ, સિંગલ અને મલ્ટી-સ્ટેજ. અમારી વર્કશોપ 3D લેસર સ્કેનર્સ, CMM કોઓર્ડિનેટ મેઝરિંગ મશીનો, ડાયનેમિક બેલેન્સિંગ મશીનો (50–2,000 kg), અને પ્રિસિઝન CNC લેથથી સજ્જ છે."
     ],
@@ -144,28 +144,28 @@
     "items": [
       {
         "year": "1988",
-        "title": "Engineering Roots",
-        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
+        "title": "એન્જિનિયરિંગના મૂળ",
+        "desc": "સ્થાપક શેખર શર્મા એન્જિનિયર તરીકે વરાળ ટર્બાઇન પર સીધું કામ શરૂ કરે છે અને પછીના દાયકાઓમાં ઘણી કંપનીઓમાં અનુભવ મેળવે છે."
       },
       {
         "year": "2016",
-        "title": "Partnership Formed",
-        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
+        "title": "ભાગીદારીની રચના",
+        "desc": "શેખર શર્મા શામલી, યુપીમાં સ્વતંત્ર ટર્બાઇન મેન્ટેનન્સ ભાગીદારી શરૂ કરે છે, જે સ્થાનિક ખાંડ મિલોને ઓવરહોલિંગની પ્રત્યક્ષ નિપુણતા સાથે સેવા આપે છે."
       },
       {
-        "year": "June 2020",
-        "title": "Keshav Enterprises Founded",
-        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
+        "year": "જૂન 2020",
+        "title": "Keshav Enterprisesની સ્થાપના",
+        "desc": "ભાગીદારી ઔપચારિક રીતે Keshav Enterprises, શામલી, ઉત્તર પ્રદેશ તરીકે નોંધાય છે."
       },
       {
         "year": "2021",
-        "title": "Capability & Product Line Expansion",
-        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
+        "title": "ક્ષમતા અને ઉત્પાદન શ્રેણીનું વિસ્તરણ",
+        "desc": "3D લેસર સ્કેનિંગ, CMM સાધનો અને ISO 1940 / API 670 ડાયનેમિક બેલેન્સિંગ મશીનો (50–2,000 કિગ્રા)માં રોકાણ કર્યું, અને ફિલ્ટ્રેશન, HVAC એર ફિલ્ટર, એક્સપેન્શન જૉઇન્ટ, સ્ટ્રેનર, રબર ઉત્પાદનો અને ફ્લેક્સિબલ હોઝ એસેમ્બલીને આવરી લેતી વ્યાપક ઔદ્યોગિક ઉત્પાદન શ્રેણી શરૂ કરી."
       },
       {
-        "year": "Today",
-        "title": "Export Ready",
-        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
+        "year": "આજે",
+        "title": "નિકાસ માટે તૈયાર",
+        "desc": "DGFT સાથે IEC નોંધાયેલ: ટર્બાઇન કમ્પોનન્ટ્સ, ફિલ્ટ્રેશન ઉત્પાદનો અને ઔદ્યોગિક સ્પેર પાર્ટ્સ ISO/API/ASME ધોરણો મુજબ બનાવાય છે અને નિકાસ માટે HSN-વર્ગીકૃત છે, વિદેશી ખરીદદારો માટે દસ્તાવેજ સહાય સાથે. સમગ્ર ભારતમાં સેવા ચાલુ છે, સાથે 24×7 ઇમરજન્સી એન્જિનિયરિંગ સહાય."
       }
     ]
   },
@@ -213,7 +213,7 @@
     "headingLine1": "એક્સપોર્ટ માટે બનેલ",
     "headingSpan": "ખરીદદારો માટે સરળતાથી ચકાસી શકાય તેવું",
     "paragraphs": [
-      "Keshav Enterprises પાસે DGFT દ્વારા જારી કરાયેલ સક્રિય ઇમ્પોર્ટર-એક્સપોર્ટર કોડ (IEC) છે, જે ટર્બાઇન એન્જિનિયરિંગ સ્પેર્સ, ઔદ્યોગિક ફિલ્ટ્રેશન ઉત્પાદનો અને OEM-સુસંગત ઘટકોને ભારતની બહાર મોકલવા માટે જરૂરી કાનૂની પ્રમાણપત્ર છે.",
+      "Keshav Enterprises પાસે DGFT દ્વારા જારી કરાયેલ સક્રિય ઇમ્પોર્ટર-એક્સપોર્ટર કોડ (IEC) છે, જે ટર્બાઇન એન્જિનિયરિંગ સ્પેર્સ, ઔદ્યોગિક ફિલ્ટ્રેશન ઉત્પાદનો અને OEM-સુસંગત ઘટકોને ભારતની બહાર મોકલવા માટે જરૂરી કાનૂની પ્રમાણપત્ર છે. અમે નેપાળમાં બાસ્કેટ સ્ટ્રેનર અને યુગાંડામાં લુબ ઓઇલ ફિલ્ટર તથા શિયર પિન પહેલેથી નિકાસ કરી ચૂક્યા છીએ.",
       "અમારા ચોકસાઇ-ઉત્પાદિત ઉત્પાદનો ISO 16889, API 614 અને ASME Sec. VIII સહિત આંતરરાષ્ટ્રીય ધોરણો મુજબ ઉત્પાદિત થાય છે, અને પ્રમાણભૂત HSN એક્સપોર્ટ કોડ હેઠળ વર્ગીકૃત થાય છે, જેથી વિદેશી ખરીદદારો ઓર્ડર આપતા પહેલા અનુપાલન ચકાસી શકે."
     ],
     "standards": [
@@ -239,6 +239,7 @@
     "checklistTitle": "એક્સપોર્ટ રેડિનેસ ચેકલિસ્ટ",
     "checklistItems": [
       "DGFT દ્વારા જારી કરાયેલ સક્રિય IEC — કાયદેસર રીતે નિકાસ માટે મંજૂર",
+      "ઉત્પાદનો પહેલેથી નેપાળ અને યુગાંડા મોકલાઈ ચૂક્યા છે",
       "પ્રમાણભૂત HSN એક્સપોર્ટ કોડ હેઠળ વર્ગીકૃત ઉત્પાદનો",
       "ISO, API અને ASME આંતરરાષ્ટ્રીય ધોરણો મુજબ ઉત્પાદિત",
       "અંગ્રેજી-ભાષાની ડેટાશીટ્સ, ટેસ્ટ સર્ટિફિકેટ્સ અને QC દસ્તાવેજીકરણ",
@@ -249,6 +250,51 @@
       "gst": "GST",
       "msme": "MSME/Udyam",
       "iec": "IEC"
+    },
+    "tradeTerms": {
+      "heading": "નિકાસ વેપાર શરતો",
+      "subheading": "Keshav Enterprises પાસેથી ઓર્ડર કરતી વખતે વિદેશી ખરીદદારો શું અપેક્ષા રાખી શકે",
+      "items": [
+        {
+          "label": "ઇન્કોટર્મ્સ",
+          "value": "FOB ન્હાવા શેવા / દિલ્હી ICD, વિનંતી પર CIF ઉપલબ્ધ"
+        },
+        {
+          "label": "ચુકવણી શરતો",
+          "value": "ઓર્ડર સાથે 30% એડવાન્સ (T/T), બાકીના 70% B/L ની નકલ સામે; USD 2,000 થી વધુના ઓર્ડર માટે લેટર ઑફ ક્રેડિટ (L/C એટ સાઇટ) સ્વીકાર્ય"
+        },
+        {
+          "label": "સામાન્ય લીડ ટાઇમ",
+          "value": "ઓર્ડર પુષ્ટિથી 4–6 અઠવાડિયા એક્સ-વર્ક્સ, કાર્યક્ષેત્ર મુજબ"
+        },
+        {
+          "label": "પેકેજિંગ",
+          "value": "ટર્બાઇન સ્પેર અને ફિલ્ટ્રેશન ઉત્પાદનો માટે દરિયાઈ/હવાઈ પરિવહન યોગ્ય એક્સપોર્ટ-ગ્રેડ પેકેજિંગ"
+        },
+        {
+          "label": "પૂરા પાડવામાં આવતા દસ્તાવેજો",
+          "value": "કમર્શિયલ ઇન્વૉઇસ, પેકિંગ લિસ્ટ, ઉત્પત્તિ પ્રમાણપત્ર, પરીક્ષણ/નિરીક્ષણ પ્રમાણપત્રો, લાગુ પડે ત્યારે MSDS"
+        }
+      ],
+      "note": "ચોક્કસ શરતો ઉત્પાદન, જથ્થો અને ગંતવ્ય દેશના આધારે દરેક ઓર્ડર માટે પુષ્ટિ કરવામાં આવે છે."
+    },
+    "trackRecord": {
+      "heading": "નિકાસ રેકોર્ડ",
+      "subheading": "ભારતની બહાર પહેલેથી મોકલાઈ ચૂકેલા ઉત્પાદનો",
+      "shipments": [
+        {
+          "product": "બાસ્કેટ સ્ટ્રેનર",
+          "country": "નેપાળ"
+        },
+        {
+          "product": "લુબ ઓઇલ ફિલ્ટર",
+          "country": "યુગાંડા"
+        },
+        {
+          "product": "શિયર પિન",
+          "country": "યુગાંડા"
+        }
+      ]
     }
   },
   "finalCta": {

@@ -26,5 +26,9 @@
   "srv_7": {
     "scope": "Uchunguzi eneo la kazi",
     "turnaround": "Ripoti siku hiyo hiyo"
+  },
+  "srv_8": {
+    "scope": "Karakana na eneo la kazi",
+    "turnaround": "Siku 1–3"
   }
 }

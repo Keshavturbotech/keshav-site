@@ -10,7 +10,7 @@
     "h1Line1": "{years}+ Anos de",
     "h1Span": "Engenharia de Precisão",
     "quote": "“Tolerância zero para paradas de planta — isso não é slogan. É o padrão de engenharia que todo cliente exige de nós.”",
-    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
+    "intro": "O fundador Shekhar Sharma trabalha diretamente com turbinas a vapor desde 1988 e acumulou experiência em várias empresas antes de criar, em 2016, uma parceria independente de manutenção de turbinas. A Keshav Enterprises foi formalmente estabelecida em junho de 2020 e é hoje um parceiro de engenharia de confiança para usinas de energia, usinas de açúcar, refinarias e indústrias de processo em toda a Índia e no mundo, com a mesma experiência ex-OEM da Triveni, Siemens, BHEL, Man Turbo, KKK e ABB.",
     "tags": [
       "Engenheiros Ex-OEM",
       "Escaneamento a Laser 3D",
@@ -71,7 +71,7 @@
     "eyebrow": "Quem Somos",
     "heading": "Parceiros de Engenharia para a Espinha Dorsal Industrial da Índia",
     "paragraphs": [
-      "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
+      "A Keshav Enterprises é uma empresa de engenharia industrial de precisão com sede em Shamli, Uttar Pradesh. O fundador Shekhar Sharma trabalha diretamente com turbinas a vapor desde 1988; essa experiência se transformou em uma parceria independente em 2016, e a Keshav Enterprises foi formalmente estabelecida em junho de 2020. Oferecemos manutenção especializada de turbinas, engenharia reversa e peças de reposição compatíveis com OEM a clientes em toda a Índia e no mundo, incluindo exportações para o Nepal e Uganda.",
       "Nossa equipe de engenharia inclui especialistas ex-OEM da Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK e ABB — proporcionando aos clientes o mesmo nível de expertise técnica dos fabricantes de equipamento original, a uma fração do prazo e custo.",
       "Cobrimos turbinas a vapor de 5 kW a 60 MW — contrapressão e condensação, horizontais e verticais, de estágio único ou múltiplo. Nossa oficina é equipada com scanners a laser 3D, máquinas de medição por coordenadas MMC, máquinas de balanceamento dinâmico (50–2.000 kg) e tornos CNC de precisão."
     ],
@@ -144,28 +144,28 @@
     "items": [
       {
         "year": "1988",
-        "title": "Engineering Roots",
-        "desc": "Founder Shekhar Sharma begins working hands-on with steam turbines as an engineer, building experience across multiple companies over the following decades."
+        "title": "Raízes na engenharia",
+        "desc": "O fundador Shekhar Sharma começa a trabalhar diretamente com turbinas a vapor como engenheiro e acumula experiência em várias empresas ao longo das décadas seguintes."
       },
       {
         "year": "2016",
-        "title": "Partnership Formed",
-        "desc": "Shekhar Sharma starts an independent turbine maintenance partnership in Shamli, UP, serving local sugar mills with hands-on overhauling expertise."
+        "title": "Criação da parceria",
+        "desc": "Shekhar Sharma cria em Shamli, UP, uma parceria independente de manutenção de turbinas, atendendo usinas de açúcar locais com experiência prática em revisões gerais."
       },
       {
-        "year": "June 2020",
-        "title": "Keshav Enterprises Founded",
-        "desc": "The partnership is formally incorporated as Keshav Enterprises, Shamli, Uttar Pradesh."
+        "year": "Junho de 2020",
+        "title": "Fundação da Keshav Enterprises",
+        "desc": "A parceria é formalmente constituída como Keshav Enterprises, Shamli, Uttar Pradesh."
       },
       {
         "year": "2021",
-        "title": "Capability & Product Line Expansion",
-        "desc": "Invested in 3D laser scanning, CMM equipment, and ISO 1940 / API 670 dynamic balancing machines (50–2,000 kg), and launched a comprehensive industrial product line covering filtration, HVAC air filters, expansion joints, strainers, rubber products, and flexible hose assemblies."
+        "title": "Ampliação de capacidades e da linha de produtos",
+        "desc": "Investimento em escaneamento a laser 3D, equipamentos de medição por coordenadas (MMC) e máquinas de balanceamento dinâmico ISO 1940 / API 670 (50–2.000 kg), e lançamento de uma linha abrangente de produtos industriais que inclui filtração, filtros de ar HVAC, juntas de expansão, filtros tipo cesto, produtos de borracha e conjuntos de mangueiras flexíveis."
       },
       {
-        "year": "Today",
-        "title": "Export Ready",
-        "desc": "IEC registered with DGFT: turbine components, filtration products, and industrial spares manufactured to ISO/API/ASME standards and HSN-classified for export, with documentation support for overseas buyers. Pan-India domestic reach continues with 24×7 emergency engineering support."
+        "year": "Hoje",
+        "title": "Pronta para exportação",
+        "desc": "Registrada no IEC junto à DGFT: componentes de turbinas, produtos de filtração e peças industriais fabricados segundo as normas ISO/API/ASME e classificados com código HSN para exportação, com apoio documental a compradores do exterior. O alcance em toda a Índia continua com suporte de engenharia de emergência 24×7."
       }
     ]
   },
@@ -213,7 +213,7 @@
     "headingLine1": "Construído Para que",
     "headingSpan": "Compradores de Exportação Verifiquem Facilmente",
     "paragraphs": [
-      "A Keshav Enterprises possui um Código de Importador-Exportador (IEC) ativo, emitido pelo DGFT, a credencial legal exigida para enviar peças de engenharia de turbinas, produtos de filtração industrial e componentes compatíveis com OEM para fora da Índia.",
+      "A Keshav Enterprises possui um Código de Importador-Exportador (IEC) ativo, emitido pelo DGFT, a credencial legal exigida para enviar peças de engenharia de turbinas, produtos de filtração industrial e componentes compatíveis com OEM para fora da Índia. Já exportamos filtros tipo cesto para o Nepal e filtros de óleo lubrificante e pinos de cisalhamento para Uganda.",
       "Nossos produtos fabricados com precisão são produzidos conforme padrões internacionais, incluindo ISO 16889, API 614 e ASME Sec. VIII, e classificados sob códigos de exportação HSN padrão, para que compradores estrangeiros possam verificar a conformidade antes de fazer um pedido."
     ],
     "standards": [
@@ -239,6 +239,7 @@
     "checklistTitle": "Checklist de Prontidão para Exportação",
     "checklistItems": [
       "IEC ativo emitido pelo DGFT — legalmente autorizado a exportar",
+      "Produtos já enviados ao Nepal e a Uganda",
       "Produtos classificados sob códigos de exportação HSN padrão",
       "Fabricado conforme normas internacionais ISO, API e ASME",
       "Fichas técnicas, certificados de teste e documentação de controle de qualidade em inglês",
@@ -249,6 +250,51 @@
       "gst": "GST",
       "msme": "MSME/Udyam",
       "iec": "IEC"
+    },
+    "tradeTerms": {
+      "heading": "Condições comerciais de exportação",
+      "subheading": "O que compradores estrangeiros podem esperar ao fazer um pedido à Keshav Enterprises",
+      "items": [
+        {
+          "label": "Incoterms",
+          "value": "FOB Nhava Sheva / Delhi ICD, CIF disponível sob consulta"
+        },
+        {
+          "label": "Condições de pagamento",
+          "value": "30% de adiantamento (T/T) com o pedido, 70% contra cópia do B/L; carta de crédito (L/C à vista) aceita em pedidos acima de USD 2.000"
+        },
+        {
+          "label": "Prazo de entrega típico",
+          "value": "4–6 semanas ex-works a partir da confirmação do pedido, conforme o escopo"
+        },
+        {
+          "label": "Embalagem",
+          "value": "Embalagem de padrão exportação, adequada a transporte marítimo e aéreo, para peças de turbinas e produtos de filtração"
+        },
+        {
+          "label": "Documentação fornecida",
+          "value": "Fatura comercial, lista de embalagem, certificado de origem, certificados de ensaio/inspeção e MSDS quando aplicável"
+        }
+      ],
+      "note": "As condições exatas são confirmadas por pedido, conforme o produto, a quantidade e o país de destino."
+    },
+    "trackRecord": {
+      "heading": "Histórico de exportação",
+      "subheading": "Produtos já enviados para fora da Índia",
+      "shipments": [
+        {
+          "product": "Filtros tipo cesto",
+          "country": "Nepal"
+        },
+        {
+          "product": "Filtros de óleo lubrificante",
+          "country": "Uganda"
+        },
+        {
+          "product": "Pinos de cisalhamento",
+          "country": "Uganda"
+        }
+      ]
     }
   },
   "finalCta": {

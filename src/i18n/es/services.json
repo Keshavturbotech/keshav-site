@@ -153,5 +153,24 @@
       "ABB"
     ],
     "slug": "troubleshooting-service"
+  },
+  "srv_8": {
+    "id": "srv_8",
+    "image": "service-sand-blasting.webp",
+    "title": "Chorreado con arena y preparación de superficies",
+    "desc": "Chorreado abrasivo controlado de rotores, carcasas y componentes de turbina para eliminar óxido, cascarilla y recubrimientos antiguos antes de la inspección, la ingeniería inversa o un nuevo recubrimiento, sin dañar las superficies mecanizadas críticas.",
+    "details": [
+      "Limpieza de superficies de rotores, carcasas, álabes y diafragmas antes de la inspección o de ensayos no destructivos (END)",
+      "Selección del abrasivo (granate, óxido de aluminio, microesferas de vidrio) según el sustrato y el acabado superficial",
+      "Enmascarado y protección de muñones, asientos de sellado y superficies roscadas mecanizadas",
+      "Preparación de superficies según normas SSPC/NACE antes de pintar o recubrir",
+      "Eliminación de óxido, cascarilla y depósitos de carbón en componentes de la vía de vapor",
+      "Cabina de chorreado con contención de polvo y equipo de chorreado portátil para trabajos in situ",
+      "Verificación del perfil (patrón de anclaje) para la adherencia del recubrimiento"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "sand-blasting-and-surface-preparation"
   }
 }

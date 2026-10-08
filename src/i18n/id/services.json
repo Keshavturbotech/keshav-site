@@ -153,5 +153,24 @@
       "ABB"
     ],
     "slug": "troubleshooting-service"
+  },
+  "srv_8": {
+    "id": "srv_8",
+    "image": "service-sand-blasting.webp",
+    "title": "Sand Blasting & Persiapan Permukaan",
+    "desc": "Blasting abrasif terkendali untuk rotor, casing, dan komponen turbin, menghilangkan karat, kerak, dan lapisan lama sebelum inspeksi, rekayasa balik, atau pelapisan ulang tanpa merusak permukaan hasil permesinan yang kritis.",
+    "details": [
+      "Pembersihan permukaan rotor, casing, sudu & diafragma sebelum inspeksi atau uji tak merusak (NDT)",
+      "Pemilihan media (garnet, aluminium oksida, glass bead) sesuai substrat & hasil akhir permukaan",
+      "Penutupan dan perlindungan jurnal, seal land & permukaan berulir hasil permesinan",
+      "Persiapan permukaan sesuai standar SSPC/NACE sebelum pengecatan atau pelapisan ulang",
+      "Penghilangan karat, kerak & endapan karbon dari komponen jalur uap",
+      "Ruang blasting tertutup anti debu & peralatan blasting portabel di lokasi",
+      "Verifikasi profil (anchor pattern) untuk daya rekat pelapis"
+    ],
+    "oems": [
+      "All Makes"
+    ],
+    "slug": "sand-blasting-and-surface-preparation"
   }
 }

@@ -1070,5 +1070,116 @@
         "action": "Ukaguzi wa borescope, kubadilisha strip ya seal, ukaguzi na kusafisha nozzle"
       }
     ]
+  },
+  "srv_8": {
+    "tagline": "Usafishaji wa Usahihi kwa Vifaa vya Kukwangua: Chuma Safi Bila Kuathiri Vipimo Muhimu",
+    "accentColor": "#ea580c",
+    "keyStats": [
+      {
+        "value": "Aina 4 za Vifaa",
+        "label": "Vinaendana na Msingi"
+      },
+      {
+        "value": "SSPC/NACE",
+        "label": "Viwango vya Maandalizi ya Uso"
+      },
+      {
+        "value": "100%",
+        "label": "Nyuso Muhimu Zimefunikwa"
+      },
+      {
+        "value": "Karakana/Eneo la Kazi",
+        "label": "Utumiaji Unaobadilika"
+      }
+    ],
+    "whyUs": "Usafishaji mkali au kwa kifaa kisichofaa unaweza kuzungusha kingo, kukwaruza nyuso za kuziba na kuharibu vipimo sahihi ambavyo rota yako ilitengenezwa kwavyo. Tunafunika kila uso muhimu kabla ya kuanza na kuchagua daraja la kifaa kulingana na msingi, ili upate uso safi, tayari kwa rangi bila kugusa kipimo chochote kilichotengenezwa.",
+    "overview": "Kabla rota, ganda au kipengele chochote cha turbine kukaguliwa kwa usahihi, kufanyiwa uhandisi wa kinyume, kupimwa kwa NDT au kupakwa upya, uso wake lazima usiwe na kutu, magamba, rangi ya zamani na mabaki ya kaboni, na maandalizi hayo lazima yafanyike bila kuharibu umbo lililotengenezwa chini yake. Keshav Enterprises hutoa usafishaji unaodhibitiwa kwa vipengele vya turbine kwa kutumia vifaa vilivyochaguliwa kulingana na msingi na umaliziaji unaohitajika: vifaa vikubwa zaidi kwa chuma cha miundo na ganda, na glass bead laini au maganda ya jozi kwa nyuso maridadi zilizotengenezwa. Kila jarida, sehemu ya kuziba, uzi na kipengele cha usahihi hufunikwa na kulindwa kabla ya kuanza. Matokeo ni uso safi wenye wasifu sawa (uliothibitishwa kwa viwango vya maandalizi ya uso vya SSPC/NACE), tayari kwa kipimo sahihi, NDT au upakaji upya.",
+    "procedures": [
+      {
+        "step": "01",
+        "title": "Tathmini ya Kipengele na Kufunika",
+        "iconName": "Search",
+        "desc": "Ukaguzi wa kipengele ili kutambua nyuso zote muhimu zilizotengenezwa (jarida, sehemu za kuziba, nyuzi, nyuso za gasket) zinazopaswa kulindwa dhidi ya vifaa vya kukwangua. Maeneo yote hayo hufunikwa kwa vifuniko maalum, tepe au vizibo vinavyofaa kabla ya kuanza."
+      },
+      {
+        "step": "02",
+        "title": "Uchaguzi wa Kifaa",
+        "iconName": "Layers",
+        "desc": "Kifaa huchaguliwa kulingana na ugumu wa msingi na wasifu wa uso unaohitajika: aluminium oxide au garnet kwa chuma cha miundo na ganda, glass bead laini kwa nyuso maridadi za rota na vipengele vyenye ukuta mwembamba, maganda ya jozi kwa usafishaji laini kabisa wa sehemu za usahihi."
+      },
+      {
+        "step": "03",
+        "title": "Kuondoa Kutu, Magamba na Upakaji",
+        "iconName": "Wrench",
+        "desc": "Usafishaji unaodhibitiwa kwa shinikizo na umbali unaolingana na kipengele huondoa kutu, magamba ya kuviringisha, rangi ya zamani na mabaki ya kaboni hadi uso ulio sawa usio na uchafu, bila kusababisha mashimo, kupinda au mabadiliko ya vipimo."
+      },
+      {
+        "step": "04",
+        "title": "Uthibitisho wa Wasifu wa Uso",
+        "iconName": "Activity",
+        "desc": "Anchor pattern (wasifu wa uso) hupimwa kwa profile comparator au replica tape ili kuthibitisha kuwa uso unakidhi kiwango cha SSPC-SP au NACE kinachohitajika kwa hatua inayofuata ya upakaji au ukaguzi."
+      },
+      {
+        "step": "05",
+        "title": "Udhibiti wa Vumbi na Taka",
+        "iconName": "Shield",
+        "desc": "Usafishaji hufanyika katika chumba kilichofungwa katika karakana yetu, au kwa vifaa vyenye kifuniko na ufyonzaji wa utupu eneo la kazi, ili kudhibiti vumbi na kulinda kiwanda na wafanyakazi wanaozunguka."
+      },
+      {
+        "step": "06",
+        "title": "Ukaguzi wa Mwisho na Makabidhiano",
+        "iconName": "CheckCircle2",
+        "desc": "Vifuniko huondolewa, nyuso zote zilizolindwa hukaguliwa upya dhidi ya vipimo vya awali, na kipengele hukaguliwa kwa macho ili kuhakikisha usafishaji ulio sawa kabla ya kukabidhiwa kwa kipimo, NDT, upakaji au kuunganishwa upya."
+      }
+    ],
+    "tools": [
+      {
+        "name": "Kifaa cha Kubebeka cha Usafishaji",
+        "detail": "Aina ya pressure-pot, kinaweza kutumika eneo la kazi",
+        "iconName": "Wrench"
+      },
+      {
+        "name": "Aina za Vifaa vya Kukwangua",
+        "detail": "Garnet, aluminium oxide, glass bead, maganda ya jozi",
+        "iconName": "Layers"
+      },
+      {
+        "name": "Chumba Kilichofungwa cha Usafishaji",
+        "detail": "Usafishaji wa karakana wenye udhibiti wa vumbi",
+        "iconName": "Shield"
+      },
+      {
+        "name": "Surface Profile Comparator",
+        "detail": "Uthibitisho wa anchor pattern wa SSPC/NACE",
+        "iconName": "Search"
+      },
+      {
+        "name": "Kifuniko cha Ufyonzaji wa Utupu",
+        "detail": "Usafishaji wa eneo la kazi bila vumbi kutoka",
+        "iconName": "Filter"
+      }
+    ],
+    "standards": [
+      {
+        "code": "SSPC-SP 6/10",
+        "desc": "Usafishaji wa chuma kwa kukwangua wa kibiashara na karibu-nyeupe",
+        "body": "SSPC"
+      },
+      {
+        "code": "NACE No.3/2",
+        "desc": "Viwango vya maandalizi ya uso kwa upakaji",
+        "body": "NACE"
+      },
+      {
+        "code": "ISO 8501-1",
+        "desc": "Tathmini ya kuonekana ya usafi wa uso",
+        "body": "ISO"
+      },
+      {
+        "code": "Vipimo vya OEM",
+        "desc": "Mipaka ya kufunika na vifaa kulingana na mahitaji ya upakaji ya OEM",
+        "body": "OEM"
+      }
+    ]
   }
 }
