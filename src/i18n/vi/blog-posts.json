@@ -577,5 +577,166 @@
         "text": "Chúng tôi cung cấp túi lọc pulse-jet bằng polyester, aramid, PPS, sợi thủy tinh, và cấp màng PTFE, cùng với các phần tử hộp xếp nếp, cho baghouse xi măng, điện, dược phẩm, và xử lý ngũ cốc trên khắp Ấn Độ. Gửi cho chúng tôi kích thước túi và chi tiết ứng dụng của bạn qua WhatsApp để được báo giá trong ngày."
       }
     ]
+  },
+  "post_8": {
+    "id": "post_8",
+    "slug": "vibration-probe-sensor-selection-guide-turbines-gearboxes-motors",
+    "title": "Hướng dẫn chọn đầu dò và cảm biến rung động cho tuabin, hộp số và động cơ",
+    "excerpt": "Cách chọn giữa đầu dò tiệm cận, bộ truyền 4-20 mA, cảm biến vận tốc và gia tốc kế cho tuabin hơi, máy phát điện, hộp số và động cơ.",
+    "date": "2026-10-09",
+    "author": "Nhóm kỹ thuật Keshav Enterprises",
+    "readTime": "Đọc trong 7 phút",
+    "tags": [
+      "Giám sát rung động",
+      "Đầu dò tiệm cận",
+      "Tuabin hơi",
+      "Giám sát tình trạng",
+      "Shinkawa",
+      "Bently Nevada"
+    ],
+    "coverImage": "blog-vibration-sensor-selection.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Vì sao chọn đúng cảm biến lại quan trọng"
+      },
+      {
+        "type": "p",
+        "text": "Đầu dò và cảm biến rung động là tuyến bảo vệ đầu tiên của một tổ tuabin hơi. Cảm biến sai hoặc không đồng bộ không chỉ cho số đọc xấu: nó có thể làm dừng một máy đang khỏe hoặc tệ hơn là bỏ sót một hư hỏng đang phát triển. Lựa chọn phụ thuộc vào đại lượng cần đo, bộ giám sát hoặc hệ điều khiển nhận tín hiệu và môi trường làm việc tại ổ trục."
+      },
+      {
+        "type": "h2",
+        "text": "Bước 1: Xác định cần đo gì"
+      },
+      {
+        "type": "p",
+        "text": "Có hai loại phép đo rung động khác nhau, và hầu hết tổ tuabin dùng cả hai."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Rung động và vị trí trục (so với ổ trục): đầu dò tiệm cận dòng điện xoáy, dùng cho rung động hướng kính, vị trí lực đẩy dọc trục, độ lệch tâm, tốc độ và tín hiệu Keyphasor mỗi vòng quay.",
+          "Rung động vỏ máy hoặc vỏ ổ trục (tuyệt đối): cảm biến vận tốc và gia tốc kế, dùng nơi không lắp được đầu dò, trên động cơ, bơm và quạt, và cho tín hiệu ăn khớp bánh răng và ổ lăn tần số cao."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Bước 2: Chọn đồng bộ cả hệ thống, không chỉ đầu dò"
+      },
+      {
+        "type": "p",
+        "text": "Một hệ tiệm cận có ba phần: đầu dò, cáp nối dài và bộ điều khiển (còn gọi là proximitor hoặc bộ chuyển đổi tín hiệu). Chúng được hiệu chuẩn cùng nhau và chiều dài cáp là một phần của hiệu chuẩn. Chẳng hạn Shinkawa nêu rằng cảm biến 5 m chỉ hoạt động trong hệ 5 m. Hãy luôn đặt ba phần thành một bộ."
+      },
+      {
+        "type": "p",
+        "text": "Hệ thống của các hãng khác nhau không thể thay thế tự do cho nhau. Hệ Shinkawa FK và Bently Nevada 3300 XL 8 mm có cùng hệ số 7.87 V/mm (200 mV/mil). Cảm biến Emerson EPRO hoạt động khác: PR6424 16 mm cho 4 V/mm và cần bộ chuyển đổi CON011 riêng. Hệ Meggitt vibro-meter dùng đầu đo TQ, cáp nối dài EA và bộ điều hòa tín hiệu IQS450 riêng. Hãy gửi nhãn thiết bị đang lắp, chúng tôi sẽ xác nhận sản phẩm thay thế đúng trước khi báo giá."
+      },
+      {
+        "type": "h2",
+        "text": "Bước 3: Điểm đo thường gặp theo từng máy"
+      },
+      {
+        "type": "h3",
+        "text": "Tuabin hơi"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Đầu dò tiệm cận hướng kính XY tại mỗi ổ đỡ",
+          "Hai hoặc ba đầu dò dọc trục tại vòng chặn để đo vị trí lực đẩy",
+          "Một đầu dò Keyphasor trên then hoặc rãnh của rôto",
+          "Đầu dò lệch tâm tại ổ trước, và đầu dò tầm xa nơi giám sát giãn nở chênh lệch",
+          "Cảm biến vận tốc vỏ máy trên bệ ổ trục để dự phòng"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Hộp số"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Đầu dò hướng kính XY tại ổ trục bánh răng chủ động tốc độ cao và bánh bị động tốc độ thấp",
+          "Một đầu dò dọc trục trên trục bánh răng chủ động để đo lực đẩy",
+          "Gia tốc kế trên vỏ để đo tần số ăn khớp bánh răng"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Máy phát điện"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Đầu dò hướng kính XY tại ổ phía truyền động và phía đối diện",
+          "Tham chiếu tốc độ và pha từ trục",
+          "Cảm biến vận tốc vỏ máy hoặc gia tốc kế trên cả hai vỏ ổ trục"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Động cơ, bơm và quạt"
+      },
+      {
+        "type": "p",
+        "text": "Hầu hết động cơ được giám sát trên vỏ ổ trục chứ không phải trên trục. Cảm biến vận tốc hoặc gia tốc kế IEPE lắp phía truyền động và phía đối diện theo phương ngang, đứng và dọc trục cho cảnh báo sớm về mất cân bằng, lệch tâm trục và mòn ổ trục. Đầu dò trục thường dành cho động cơ lớn dùng ổ trượt."
+      },
+      {
+        "type": "h2",
+        "text": "Bước 4: Chọn đầu ra cần thiết"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Đầu ra bộ điều khiển tiệm cận -24 V DC: dùng với bộ giám sát rung động giá rack hoặc tủ bảng, như Shinkawa dòng VM hay Bently Nevada 3500, cung cấp dữ liệu cảnh báo, ngắt và chẩn đoán.",
+          "Bộ truyền 2 dây 4-20 mA: dòng Shinkawa WK / WKN chuyển tín hiệu đầu dò thành vòng 4-20 mA nối trực tiếp vào DCS hoặc PLC mà không cần bộ giám sát. Phù hợp cho tuabin phụ, bơm cấp nước lò hơi, hộp số và máy nhỏ hơn.",
+          "Cảm biến vỏ máy đầu ra IEPE hoặc điện áp: dùng với bộ thu dữ liệu, bộ giám sát trực tuyến và thẻ đầu vào PLC tùy loại cảm biến."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Bước 5: Kiểm tra môi trường"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Nhiệt độ: đầu dò Shinkawa FK và Bently 3300 XL 8 mm chịu đến khoảng 177 độ C. Cảm biến vận tốc chịu nhiệt cao Shinkawa CV-87 chịu đến 375 độ C.",
+          "Dầu: nơi dầu có thể tới cáp, hãy dùng cáp đầu dò có giáp phủ nhựa fluor và giữ đầu nối giữa đầu dò và cáp nối dài tránh dầu, vì dầu làm thay đổi điện dung cáp và độ nhạy.",
+          "Khu vực nguy hiểm: bộ điều khiển an toàn nội tại cần rào chắn an toàn và mã chứng nhận phù hợp. Bộ truyền không gây cháy có phân loại khác. Hãy nêu phân loại khu vực của bạn khi hỏi giá.",
+          "Vật liệu mục tiêu: hệ tiệm cận thường được hiệu chuẩn trên thép loại 4140. Vật liệu trục khác làm thay đổi hệ số."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Các lỗi thường gặp cần tránh"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Trộn lẫn đầu dò, cáp hoặc bộ điều khiển khác chiều dài hệ hoặc khác hãng",
+          "Đặt khe đầu dò ngoài dải tuyến tính, làm tín hiệu bị phẳng hoặc méo",
+          "Để đầu nối cáp nối dài tiếp xúc với dầu, hoặc quấn băng vinyl thường trên vỏ máy nóng",
+          "Đo megohm kế cáp đang nối mà chưa xả điện trước, có thể làm hỏng bộ điều khiển",
+          "Dùng cảm biến vỏ máy ở nơi cần đầu dò trục để bảo vệ, hoặc ngược lại"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Cần gửi gì cho chúng tôi để báo giá"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Loại máy, hãng và mẫu (tuabin hơi, hộp số, máy phát điện hoặc động cơ)",
+          "Hãng và mẫu của đầu dò, cáp, bộ điều khiển và bộ giám sát hiện có, hoặc ảnh chụp nhãn",
+          "Chiều dài hệ, kích thước và ren đầu dò, và vật liệu trục",
+          "Đầu ra yêu cầu (-24 V, 4-20 mA, IEPE) và phân loại khu vực nguy hiểm nếu có"
+        ]
+      },
+      {
+        "type": "cta",
+        "text": "Chúng tôi cung cấp đầu dò, bộ truyền và cảm biến vỏ máy chính hãng Shinkawa, Bently Nevada, EPRO, vibro-meter, Hansford và SKF cho tuabin hơi, máy phát điện, hộp số và động cơ. Hãy gửi nhãn thiết bị qua WhatsApp để nhận báo giá phù hợp."
+      }
+    ]
   }
 }

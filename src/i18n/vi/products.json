@@ -5793,31 +5793,6 @@
     "sku": "KTB-EE-001",
     "category": "Electronic Equipments",
     "title": "Đầu dò giám sát rung động (tương thích Shinkawa)",
-    "desc": "Cảm biến dịch chuyển dòng điện xoáy (eddy current) không tiếp xúc, độ chính xác cao để giám sát liên tục rung động trục tua-bin và vị trí dọc trục. Tuân thủ tiêu chuẩn API 670.",
-    "usage": "Giám sát liên tục rung động hướng kính của trục, vị trí lực đẩy, và dịch chuyển dọc trục trong tua-bin hơi tốc độ cao, máy nén và máy móc quay.",
-    "features": [
-      "Nguyên lý đo dòng điện xoáy không tiếp xúc — không tiếp xúc vật lý với trục",
-      "Đo biên độ rung động hướng kính của trục và dịch chuyển dọc trục",
-      "Tuân thủ Tiêu chuẩn API 670 cho hệ thống bảo vệ máy móc",
-      "Đáp ứng tần số: băng thông đo từ DC đến 10 kHz",
-      "Tín hiệu đầu ra: 4-20 mA (4 dây) hoặc điện áp -24V DC tùy driver",
-      "Dải đo đầu dò: 0,25-2,5 mm (hiệu chuẩn danh nghĩa tại 1,0 mm)",
-      "Nhiệt độ: Đầu dò -50 đến +175°C; điện tử driver -40 đến +85°C",
-      "Độ nhạy: hiệu chuẩn tiêu chuẩn 8 mV trên µm",
-      "Cáp tích hợp: thép không gỉ bọc giáp cho môi trường công nghiệp khắc nghiệt"
-    ],
-    "specs": {
-      "Measurement Principle": "Dịch chuyển dòng điện xoáy không tiếp xúc",
-      "Standard Compliance": "API 670 — Hệ thống Bảo vệ Máy móc",
-      "Frequency Response": "Băng thông từ DC đến 10 kHz",
-      "Signal Output": "4-20 mA hoặc -24V DC (tùy driver)",
-      "Sensitivity": "8 mV/µm (hiệu chuẩn tiêu chuẩn)",
-      "Probe Gap Range": "0,25-2,5 mm (hiệu chuẩn danh nghĩa 1,0 mm)",
-      "Probe Temperature Rating": "-50 đến +175°C",
-      "Cable Type": "Thép không gỉ bọc giáp",
-      "Certifications": "Bản thân đầu dò là 'thiết bị đơn giản' bị động, không có chứng nhận riêng; sự phù hợp với khu vực nguy hiểm phụ thuộc vào bộ điều hòa tín hiệu tương ứng, không phải đầu dò. Bộ truyền 2 dây tương thích Shinkawa có sẵn với chứng nhận khu vực nguy hiểm CSA, ATEX và TIIS (Nhật Bản) — vui lòng xác nhận chứng nhận của bộ điều hòa tương ứng cho phân loại khu vực của bạn.",
-      "HSN Code": "9026"
-    },
     "images": [
       "vibration-probe-shinkawa-1.webp",
       "vibration-probe-shinkawa-2.webp",
@@ -5835,15 +5810,207 @@
     "slug": "vibration-monitoring-probes-shinkawa-compatible",
     "categorySlug": "electronic-equipments",
     "priceRange": {
-      "min": 3500,
-      "max": 22000,
-      "unit": "per piece",
-      "note": "Cảm biến tốc độ / công tắc proximity; cảm ứng/hall-effect"
+      "min": 25000,
+      "max": 100000,
+      "unit": "per piece"
     },
     "availability": {
       "label": "Theo yêu cầu",
       "color": "amber",
       "leadTime": "1–4 weeks"
+    },
+    "desc": "Đầu dò tiệm cận dòng điện xoáy Shinkawa FK / VK chính hãng, cáp nối dài và bộ điều khiển (driver) để giám sát rung động và lực đẩy dọc trục của tuabin hơi, hộp số và máy phát điện xoay chiều. Có sẵn hàng tại Shamli, UP.",
+    "usage": "Đo không tiếp xúc rung động hướng kính của trục, vị trí dọc trục (lực đẩy), độ lệch tâm, tốc độ quay và tham chiếu pha (Keyphasor) trên tuabin hơi, tổ máy phát tuabin, hộp số, máy nén, bơm cấp nước lò hơi và quạt lớn. Cấp tín hiệu cho bộ giám sát Shinkawa VM-5 / VM-7 / VM-25, các giá giám sát kiểu API 670 khác và đầu vào DCS hoặc PLC.",
+    "features": [
+      "Hệ thống đầu đo Shinkawa chính hãng gồm ba phần đồng bộ: cảm biến FL (đầu dò), cáp nối dài FW và bộ điều khiển FK. Ba phần được hiệu chuẩn cùng nhau như một vòng đo, nên khi thay một phần cần thay cả cảm biến, cáp và bộ điều khiển thành một bộ",
+      "Có dòng FK (dòng hiện hành) và dòng VK (lắp đặt cũ). Bộ điều khiển FK đi kèm tấm lắp để thay trực tiếp bộ điều khiển VK; đo giãn nở chênh lệch vẫn dùng dòng VK",
+      "Cảm biến FL (đầu dò): FL-202F05 có đầu 5 mm và cáp 2.7 mm; FL-202F08 có đầu 8 mm và cáp 3.6 mm; đầu dò 8 mm cũng có loại lắp ngược (FL-202F08R)",
+      "Kiểu cảm biến: L không giáp, A có giáp thép không gỉ mềm, T có giáp và lớp phủ nhựa fluor cho môi trường có dầu. Cáp liền cảm biến dài khoảng 0.5 m hoặc 1.0 m tùy mẫu; thân ren inch (UNF) như 3/8-24 UNF được ghi theo inch",
+      "Cáp nối dài FW (FW-202F): kiểu L (không giáp), A (có giáp) và T (có giáp phủ nhựa fluor); thường 4.5 m cho hệ 5 m và 8.5 m cho hệ 9 m khi dùng cáp cảm biến 0.5 m",
+      "Cáp nối dài đường kính 3.6 mm, chịu từ -40 đến +177 °C (FK-202F); có tùy chọn cáp giảm rò dầu cho nơi dầu có thể chảy dọc theo cáp",
+      "Đầu nối giữa cảm biến và cáp có đường kính khoảng 7.1 mm. Hãy cách điện bằng ống co nhiệt kèm theo hoặc băng nhựa fluor (không dùng băng vinyl trên 80 °C) và giữ đầu nối tránh dầu, vì dầu vào cáp làm thay đổi điện dung cáp và độ nhạy",
+      "Chiều dài cáp là một phần của hiệu chuẩn: cảm biến 5 m chỉ hoạt động trong hệ 5 m và không dùng được trong hệ 9 m",
+      "Bộ điều khiển FK (bộ truyền tín hiệu / proximitor): chuyển khe hở đầu dò thành tín hiệu tỉ lệ -24 V DC cho bộ giám sát. FK-202F: hệ số 7.87 V/mm, DC đến 10 kHz (-3 dB), trở kháng ra 50 ohm, nguồn -24 V DC +/-10% tối đa 15 mA, nhiệt độ bộ điều khiển -40 đến +80 °C, khoảng 200 g",
+      "Khi cảm biến hở mạch hoặc ngắn mạch, đầu ra bộ điều khiển giảm còn khoảng -0.6 V để bộ giám sát hiển thị tình trạng lỗi cảm biến",
+      "Mã mẫu bộ điều khiển FK-202F[length]-[mounting]-[terminal]: chiều dài 1 = 5 m, 2 = 9 m; lắp đặt 1 = ray DIN 35 mm, 2 = lắp vít 50.8 x 50.8 mm, 3 = lắp vít 92 x 31 mm (thay VK), 4 = nhiều bước; đầu nối 1 = vít M4, 2 = lò xo. Ví dụ: FK-202F2-2-2 là bộ điều khiển 9 m trên tấm 50.8 mm với đầu nối lò xo",
+      "Phiên bản an toàn nội tại dùng hậu tố /EX cho chứng nhận DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS hoặc TR-CU; nên dùng rào chắn an toàn (Shinkawa nêu MTL 7796-) và rào này làm giảm dải tuyến tính còn khoảng 95%",
+      "Các mẫu FK khác: FK-452F (dải 4.5 mm), FK-302F (3 mm), FK-602F (6 mm, đầu 18 mm, cáp nối dài -40 đến +125 °C), FK-143F, FK-263F và hệ cáp dài FK-152R",
+      "Cần đầu ra 4-20 mA thay vì tín hiệu -24 V? Bộ truyền 2 dây Shinkawa WK / WKN cho rung động và lực đẩy nối trực tiếp với DCS hoặc PLC mà không cần bộ giám sát (xem mục bộ truyền 4-20 mA)",
+      "Hiệu chuẩn trên thép JIS SCM440 (loại 4140); vật liệu trục khác làm thay đổi hệ số. Nối lớp chống nhiễu của cáp tín hiệu vào đầu COM của bộ điều khiển và xả điện cáp trước khi đo bằng megohm kế để bảo vệ bộ điều khiển",
+      "Với đo tốc độ hoặc Keyphasor, Shinkawa khuyến nghị khe đặt 1.0 đến 1.5 mm và chiều rộng, chiều sâu tối thiểu của mục tiêu; hãy gửi kích thước bánh răng hoặc then, chúng tôi sẽ xác nhận đầu dò phù hợp",
+      "Hỗ trợ cải tạo: gửi nhãn cũ (VK-202A1, VK-202A2, FK-202F, v.v.) kèm chiều dài cảm biến, chúng tôi sẽ chọn đúng sản phẩm thay thế",
+      "Hệ thống thiết kế theo API 670 để bảo vệ máy; dòng FK tuân thủ RoHS",
+      "Tên thương hiệu và mẫu mã là nhãn hiệu của chủ sở hữu tương ứng và chỉ dùng để nhận diện. Keshav Enterprises là nhà cung cấp độc lập."
+    ],
+    "specs": {
+      "Brand": "Shinkawa Electric (chính hãng)",
+      "Series": "FK (hiện hành) và VK (cũ). Bộ truyền 2 dây WK/WKN và cảm biến vỏ máy CV/CA nằm ở các mục riêng",
+      "Measurement Principle": "Đo dịch chuyển dòng điện xoáy không tiếp xúc",
+      "System": "Cảm biến FL + cáp nối dài FW + bộ điều khiển FK (bộ đồng bộ)",
+      "Sensor (FL-202F)": "FL-202F05: đầu 5 mm, cáp 2.7 mm; FL-202F08: đầu 8 mm, cáp 3.6 mm; FL-202F08R: 8 mm lắp ngược. Kiểu L / A / T (không giáp / có giáp / có giáp phủ nhựa fluor)",
+      "Extension Cable (FW-202F)": "Kiểu L / A / T; khoảng 4.5 m (hệ 5 m) hoặc 8.5 m (hệ 9 m); -40 đến +177 °C",
+      "Connector": "Đường kính khoảng 7.1 mm; giữ tránh dầu; cách điện bằng ống co nhiệt hoặc băng nhựa fluor",
+      "System Cable Length": "5 m hoặc 9 m (cảm biến 5 m chỉ dùng trong hệ 5 m)",
+      "Driver (FK-202F)": "-24 V DC +/-10%, tối đa 15 mA; trở kháng ra 50 ohm; khoảng -0.6 V khi lỗi cảm biến; khoảng 200 g",
+      "Driver Mounting Options": "Ray DIN 35 mm; lắp vít 50.8 x 50.8 mm; lắp vít 92 x 31 mm (thay VK); nhiều bước",
+      "Driver Terminals": "Cầu đấu vít M4 hoặc đầu nối lò xo",
+      "Reference Model (FK-202F)": "Dải 0.25 đến 2.25 mm tính từ đầu cảm biến, hệ số 7.87 V/mm, DC đến 10 kHz (-3 dB)",
+      "Temperature": "Cảm biến và cáp nối dài -40 đến +177 °C; bộ điều khiển -40 đến +80 °C",
+      "Calibration Target": "Thép tấm JIS SCM440 (loại 4140); vật liệu khác theo yêu cầu",
+      "Hazardous Area Options": "Biến thể FK an toàn nội tại: DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (theo mã mẫu)",
+      "2-Wire Transmitter Option": "Bộ truyền Shinkawa WK / WKN 4-20 mA, xem mục riêng",
+      "Typical Steam Turbine Use": "Đầu dò hướng kính XY tại mỗi ổ đỡ, 2 đến 3 đầu dò dọc trục tại vòng đệm chặn, 1 đầu dò Keyphasor, đầu dò lệch tâm tại ổ trước",
+      "Typical Gearbox Use": "Đầu dò hướng kính XY tại ổ trục bánh răng chủ động tốc độ cao và bánh bị động tốc độ thấp, đầu dò dọc trục cho lực đẩy bánh răng chủ động",
+      "Typical Alternator Use": "Đầu dò hướng kính XY tại ổ phía truyền động và phía đối diện, tham chiếu tốc độ và pha",
+      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, các hệ thống khác nhận bộ điều khiển tiệm cận -24 V DC, DCS/PLC qua bộ điều hòa tín hiệu"
+    }
+  },
+  "prod_ee7": {
+    "id": "prod_ee7",
+    "sku": "KTB-EE-007",
+    "category": "Electronic Equipments",
+    "title": "Hệ thống đầu dò tiệm cận Bently Nevada 3300 XL",
+    "desc": "Đầu dò tiệm cận Bently Nevada 3300 XL chính hãng, cáp nối dài 330130 và Proximitor để giám sát rung động và lực đẩy tuabin, hộp số, máy phát điện. Báo giá theo mã hàng.",
+    "usage": "Rung động hướng kính, vị trí dọc trục, độ lệch tâm, giãn nở chênh lệch và tham chiếu tốc độ/pha trên máy tuabin có hệ thống giám sát Bently Nevada 3500 hoặc 3300. Đầu dò 5 mm và 8 mm đáp ứng các phép đo ổ trượt và lực đẩy thông thường; các hệ lớn hơn 11, 16, 25 và 50 mm dùng cho phép đo tầm xa và giãn nở.",
+    "features": [
+      "Hệ thống Bently Nevada 3300 XL chính hãng: đầu dò, cáp nối dài 330130 và cảm biến Proximitor 330180, các thành phần hoàn toàn thay thế lẫn nhau nên không cần ghép cặp trên bàn thử",
+      "3300 XL 8 mm: dải tuyến tính 0.25 đến 2.3 mm (10 đến 90 mil), hệ số 7.87 V/mm (200 mV/mil) +/-5%, khe khuyến nghị 1.27 mm ở khoảng -9 V DC, đầu dò -51 đến +177 °C",
+      "Đáp ứng API 670 (ấn bản 4) cho hệ chuẩn 8 mm dài 5 m: cấu hình cơ khí, dải tuyến tính, độ chính xác và độ ổn định nhiệt độ",
+      "Linh kiện 3300 XL 8 mm có thể thay thế lẫn nhau về điện và cơ với linh kiện 3300 không XL loại 5 mm và 8 mm, nên phụ tùng XL có thể thay cho phụ tùng 3300 cũ",
+      "Đầu đầu dò bằng polyphenylene sulfide (PPS), vỏ thép không gỉ 303/304, cáp FEP, vòng đệm Viton và đầu nối ClickLoc mạ vàng",
+      "Cáp nối dài loại tiêu chuẩn hoặc FluidLoc (chịu chất lỏng) có chứng nhận CSA, ATEX và IECEx",
+      "Tùy chọn tầm xa cho tuabin hơi: hệ 3300 XL 25 mm và 50 mm cho giãn nở chênh lệch; hệ 50 mm có tầm đo khoảng 27.9 mm (1,100 mil)",
+      "Yêu cầu báo giá kèm mã hàng đầy đủ (ví dụ 330103-xx-xx-xx-xx-xx cùng 330130-xxx-xx-xx và 330180-xx-xx) hoặc gửi nhãn cũ",
+      "Tên thương hiệu và mẫu mã là nhãn hiệu của chủ sở hữu tương ứng và chỉ dùng để nhận diện. Keshav Enterprises là nhà cung cấp độc lập."
+    ],
+    "specs": {
+      "Brand": "Bently Nevada (Baker Hughes), chính hãng",
+      "System Components": "Đầu dò 3300 XL + cáp nối dài 330130 + cảm biến Proximitor 330180",
+      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (dòng 3300 XL)",
+      "8 mm Linear Range / Scale Factor": "0.25 đến 2.3 mm; 7.87 V/mm (200 mV/mil) +/-5%",
+      "8 mm Probe Temperature": "-51 đến +177 °C",
+      "50 mm System Range": "Khoảng 27.9 mm (1,100 mil) cho giãn nở chênh lệch",
+      "Standard": "API 670 (ấn bản 4) cho hệ chuẩn 8 mm dài 5 m",
+      "Compatible Monitors": "Dòng Bently Nevada 3500 và 3300",
+      "Typical Steam Turbine Use": "Đầu dò hướng kính XY tại mỗi ổ trục, đầu dò vị trí lực đẩy, Keyphasor, giãn nở chênh lệch bằng đầu dò 25 mm hoặc 50 mm",
+      "Typical Gearbox Use": "Đầu dò hướng kính tại ổ trục bánh răng chủ động và bị động, đầu dò dọc trục cho lực đẩy và ăn khớp",
+      "Typical Alternator Use": "Đầu dò hướng kính XY tại cả hai ổ trục, tham chiếu Keyphasor/tốc độ"
+    }
+  },
+  "prod_ee8": {
+    "id": "prod_ee8",
+    "sku": "KTB-EE-008",
+    "category": "Electronic Equipments",
+    "title": "Cảm biến dòng điện xoáy EPRO PR6423 / PR6424 và CON011",
+    "desc": "Cảm biến dòng điện xoáy Emerson EPRO PR6422 đến PR6426 chính hãng và bộ chuyển đổi tín hiệu CON011 để đo rung động và vị trí trục trên tuabin, hộp số và máy phát điện.",
+    "usage": "Đo dịch chuyển hướng kính và dọc trục của trục, vị trí, độ lệch tâm và tốc độ/then trên tuabin hơi, khí và thủy lực, máy nén, hộp số, bơm và quạt, với bộ giám sát Emerson / EPRO MMS hoặc bất kỳ hệ thống nào nhận đầu ra bộ chuyển đổi.",
+    "features": [
+      "Cảm biến Emerson EPRO chính hãng: PR6422, PR6423 (8 mm, bản M10x1), PR6424 (16 mm), PR6425 (16 mm chịu nhiệt cao), PR6426 (32 mm)",
+      "Bộ chuyển đổi tín hiệu dòng điện xoáy CON011: 0 đến 20 kHz (-3 dB), thời gian tăng dưới 15 micro giây, -30 đến +100 °C, nguồn -23 đến -32 V DC, nhận cảm biến PR6422 đến PR6426",
+      "PR6424 16 mm: 4 V/mm, -35 đến +150 °C, cho trục đường kính từ 80 mm, sai số nhiệt độ phù hợp API 670",
+      "PR6425 16 mm: 4 V/mm, hoạt động từ 0 đến 380 °C cho vỏ máy nóng và khu vực cửa hơi vào",
+      "PR6426 32 mm: 2 V/mm, -35 đến +175 °C, cho trục đường kính từ 200 mm",
+      "Có biến thể CON011 dải mở rộng cho tầm đo lớn hơn (ví dụ 3, 4, 6, 8, 10 mm); PR6425 cần bộ chuyển đổi dải mở rộng",
+      "Cảm biến và bộ chuyển đổi là hệ thống đồng bộ: cảm biến, chiều dài cáp và mẫu bộ chuyển đổi phải tương ứng. Gửi nhãn hoặc mã hàng cũ, chúng tôi sẽ xác nhận sự tương ứng",
+      "Tên thương hiệu và mẫu mã là nhãn hiệu của chủ sở hữu tương ứng và chỉ dùng để nhận diện. Keshav Enterprises là nhà cung cấp độc lập."
+    ],
+    "specs": {
+      "Brand": "Emerson (EPRO), chính hãng",
+      "Converter": "Bộ chuyển đổi tín hiệu dòng điện xoáy CON011 (dải tiêu chuẩn và mở rộng)",
+      "Measures": "Dịch chuyển hướng kính và dọc trục của trục, vị trí, độ lệch tâm, tốc độ/then",
+      "Typical Machines": "Tuabin hơi, khí và thủy lực, máy nén, hộp số, bơm, quạt"
+    }
+  },
+  "prod_ee9": {
+    "id": "prod_ee9",
+    "sku": "KTB-EE-009",
+    "category": "Electronic Equipments",
+    "title": "Đầu dò tiệm cận Vibro-Meter TQ402 / TQ442 và IQS450",
+    "desc": "Đầu dò tiệm cận Meggitt vibro-meter TQ4xx chính hãng, cáp EA40x và bộ điều hòa tín hiệu IQS450 để giám sát rung động và vị trí trục tuabin.",
+    "usage": "Đo rung động trục không tiếp xúc và vị trí dọc trục trên tuabin hơi, khí và thủy lực cùng các máy quan trọng khác có hệ thống giám sát vibro-meter. Đầu ra điện áp hoặc dòng điện có bảo vệ ngắn mạch phù hợp cả với bộ giám sát giá rack lẫn kết nối trực tiếp DCS.",
+    "features": [
+      "Hệ thống vibro-meter chính hãng: đầu đo tiệm cận TQ4xx + cáp nối dài EA4xx + bộ điều hòa tín hiệu IQS450 (hoặc IQS900) tạo thành chuỗi đo đã hiệu chuẩn",
+      "Có các dòng đầu đo TQ401 / TQ402 / TQ403 / TQ412 / TQ422 / TQ423 / TQ432 / TQ442",
+      "Hệ TQ442 / EA402 / IQS450: tầm đo 2 mm hoặc 4 mm, DC đến 20 kHz (-3 dB), -40 đến +180 °C, hệ 1 m, 5 m và 10 m, có bù nhiệt độ",
+      "Đầu ra điện áp hoặc dòng điện 2 dây có bảo vệ ngắn mạch; có phiên bản chứng nhận cho môi trường dễ nổ",
+      "Thay thế hoặc phụ tùng cho chuỗi vibro-meter hiện có: gửi số mẫu của đầu đo, cáp và bộ điều hòa; chiều dài điện phải khớp nhau",
+      "Tên thương hiệu và mẫu mã là nhãn hiệu của chủ sở hữu tương ứng và chỉ dùng để nhận diện. Keshav Enterprises là nhà cung cấp độc lập."
+    ],
+    "specs": {
+      "Brand": "Meggitt vibro-meter, chính hãng",
+      "Extension Cables": "EA401, EA402, EA403",
+      "TQ442 System Range": "2 mm hoặc 4 mm",
+      "Frequency Response": "DC đến 20 kHz (-3 dB)",
+      "Temperature": "-40 đến +180 °C (TQ442)",
+      "System Lengths": "1 m, 5 m, 10 m (tùy mẫu)",
+      "Output": "Điện áp hoặc dòng điện (2 dây), bảo vệ ngắn mạch"
+    }
+  },
+  "prod_ee10": {
+    "id": "prod_ee10",
+    "sku": "KTB-EE-010",
+    "category": "Electronic Equipments",
+    "title": "Bộ truyền rung động 2 dây 4-20 mA (Shinkawa WK/WKN)",
+    "desc": "Bộ truyền rung động và lực đẩy 2 dây 4-20 mA Shinkawa WK / WKN chính hãng cho tuabin hơi, máy phát điện, hộp số, bơm và máy nén. Nối trực tiếp DCS hoặc PLC, không cần giá rack giám sát.",
+    "usage": "Giám sát liên tục rung động trục hoặc vị trí lực đẩy trên máy cỡ nhỏ và vừa mà bộ giám sát giá rack đầy đủ là không cần thiết: tuabin hơi phụ, bơm cấp nước lò hơi, hộp số, máy nén, quạt và máy phát điện. Tín hiệu vòng 4-20 mA đi thẳng vào DCS, PLC hoặc đồng hồ chỉ thị.",
+    "features": [
+      "Đầu đo dòng điện xoáy có tích hợp chuyển đổi rung động hoặc lực đẩy: đầu ra 4-20 mA, không cần bộ giám sát rung động hay bộ chuyển đổi riêng",
+      "Vòng dòng điện 2 dây truyền cả nguồn lẫn tín hiệu nên có thể dùng lại tuyến cáp dài và cáp đo lường hiện có. Nguồn 12 đến 35 V DC; tải vòng tối đa 43.5 x (điện áp nguồn - 12) ohm",
+      "Bộ truyền rung động WK-142K / WKN-142K: dải đầu ra 0 đến 100, 125, 200, 250 hoặc 400 micron đỉnh-đỉnh, chọn theo mã mẫu; độ chính xác chuyển đổi +/-1.5% toàn thang",
+      "Bộ truyền lực đẩy WK-142T / WKN-142T: dải đầu ra khoảng -0.6 đến 0 đến +0.6 mm hoặc -0.635 đến 0 đến +0.635 mm (-25 đến +25 mil)",
+      "Dải tuyến tính 1.4 mm (khe 0.3 đến 1.7 mm), hệ số 7.87 mV/micron, đáp ứng tần số 5 Hz đến 6,000 Hz (-3 dB)",
+      "Đầu ra lỗi: dòng giảm xuống 3.6 mA hoặc thấp hơn khi cảm biến hở mạch hoặc ngắn mạch hay khe nằm ngoài dải tuyến tính, giúp DCS phát hiện vòng đo hỏng",
+      "Hệ thống hoàn chỉnh: cảm biến WL-142K, cáp nối dài WW-142K và bộ truyền, chiều dài hệ 5 m, 7 m hoặc 9 m; cảm biến và cáp được cung cấp cùng nhau vì hệ được hiệu chuẩn như một vòng đo",
+      "Vỏ bộ truyền khoảng 100 x 74 x 50 mm kèm kẹp lắp DIN tùy chọn; tùy chọn không gây cháy (CSA Class I Div 2 Groups A-D, ATEX Ex nA)",
+      "Chỉ hiệu chuẩn trên thép JIS SCM440 (tương đương AISI 4140). Cách điện đầu nối giữa cáp cảm biến và cáp nối dài bằng ống kèm theo hoặc băng nhựa fluor",
+      "Cũng có sẵn: hệ tiệm cận Meggitt vibro-meter với đầu ra dòng điện 2 dây (xem mục vibro-meter)",
+      "Tên thương hiệu và mẫu mã là nhãn hiệu của chủ sở hữu tương ứng và chỉ dùng để nhận diện. Keshav Enterprises là nhà cung cấp độc lập."
+    ],
+    "specs": {
+      "Brand": "Shinkawa Electric, chính hãng",
+      "Models": "WK-142K, WK-142T, WKN-142K, WKN-142T (biến thể hệ 1, 2 và 5)",
+      "Output": "4-20 mA, vòng dòng điện 2 dây",
+      "Vibration Output Ranges": "0 đến 100, 125, 200, 250, 400 micron đỉnh-đỉnh (theo mã mẫu)",
+      "Thrust Output Range": "Khoảng -0.6 đến +0.6 mm hoặc -0.635 đến +0.635 mm",
+      "Accuracy": "+/-1.5% toàn thang (chuyển đổi)",
+      "Power Supply": "12 đến 35 V DC; tải tối đa 43.5 x (Vps - 12) ohm",
+      "Linear Range / Scale Factor": "1.4 mm (khe 0.3 đến 1.7 mm); 7.87 mV/micron",
+      "Frequency Response": "5 Hz đến 6,000 Hz (-3 dB)",
+      "Fault Output": "3.6 mA hoặc thấp hơn khi cảm biến hở/ngắn mạch hoặc ngoài dải",
+      "System Components": "Cảm biến WL-142K + cáp nối dài WW-142K + bộ truyền WK/WKN",
+      "Transmitter Size": "Khoảng 100 x 74 x 50 mm; kẹp DIN tùy chọn",
+      "Hazardous Area": "Tùy chọn không gây cháy (CSA Class I Div 2, ATEX Ex nA)",
+      "Calibration Target": "Thép JIS SCM440 (tương đương AISI 4140)",
+      "Typical Machines": "Tuabin hơi phụ, BFP, hộp số, máy nén, máy phát điện, quạt"
+    }
+  },
+  "prod_ee11": {
+    "id": "prod_ee11",
+    "sku": "KTB-EE-011",
+    "category": "Electronic Equipments",
+    "title": "Cảm biến rung vỏ máy: Velomitor, CV-86 và gia tốc kế",
+    "desc": "Cảm biến chính hãng Bently Velomitor, Shinkawa CV-86, Hansford và SKF để đo rung ổ trục trên tuabin, hộp số, máy phát điện và động cơ. Báo giá theo mẫu.",
+    "usage": "Rung động tuyệt đối (địa chấn) trên bệ ổ trục, vỏ hộp số, khung máy phát và nắp động cơ, nơi không lắp được đầu dò trục hoặc nơi rung vỏ máy là tín hiệu cảnh báo hay ngắt. Dùng cùng đầu dò tiệm cận trục trong tổ tuabin-hộp số-máy phát, và dùng riêng trên động cơ, quạt và bơm.",
+    "features": [
+      "Cảm biến vận tốc áp điện Bently Nevada 330500 Velomitor: 3.94 mV/mm/s (100 mV/in/s) +/-5%, 4.5 Hz đến 5 kHz (+/-3 dB), đến 1,270 mm/s đỉnh, -55 đến +121 °C, thép không gỉ 316L, MIL-C-5015 2 chân, lắp ở mọi góc",
+      "Bently Nevada 330525 Velomitor XA: bản chịu thời tiết, IP65 / NEMA 4X, không cần hộp bảo vệ",
+      "Gia tốc kế Bently Nevada 330400 / 330425: 100 mV/g dải 50 g, hoặc 25 mV/g dải 75 g, nguồn -24 V DC, -55 đến +121 °C, thiết kế để giám sát ăn khớp bánh răng theo API 670",
+      "Đầu đo vận tốc áp điện Shinkawa CV-86: 3.94 mV/mm/s, 2.5 Hz đến 3,500 Hz +/-10%, IP67, có bộ tích phân tích hợp",
+      "Đầu đo vận tốc chịu nhiệt cao Shinkawa CV-87: 5.90 mV/mm/s, 30 đến 1,000 Hz, -54 đến +375 °C, không cần nguồn cấp, phù hợp vỏ ổ trục nóng của tuabin khí và tuabin hơi",
+      "Gia tốc kế công nghiệp Hansford dòng HS-100 (IEPE): tùy chọn 10 đến 500 mV/g, 100 mV/g dải +/-80 g, thép không gỉ, bản IP67, -55 đến +140 °C, nguồn 18 đến 30 V DC, cho động cơ, quạt, bơm, hộp số và máy nén",
+      "Gia tốc kế đa dụng SKF CMSS 2100 / 2200: 100 mV/g, 80 g đỉnh, nguồn dòng không đổi 2 đến 10 mA (khuyến nghị 4 mA), cho động cơ, bơm và quạt",
+      "Cho chúng tôi biết máy, loại ổ trục, tốc độ dự kiến, cấp khu vực nguy hiểm và đầu vào của bộ giám sát hoặc bộ thu dữ liệu (IEPE, -24 V hoặc thụ động), chúng tôi sẽ chọn đúng cảm biến",
+      "Tên thương hiệu và mẫu mã là nhãn hiệu của chủ sở hữu tương ứng và chỉ dùng để nhận diện. Keshav Enterprises là nhà cung cấp độc lập."
+    ],
+    "specs": {
+      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (đều chính hãng)",
+      "Velocity Sensors": "Bently Nevada 330500 / 330525 Velomitor; Shinkawa CV-86, CV-87",
+      "Accelerometers": "Bently Nevada 330400 / 330425; Hansford dòng HS-100; SKF CMSS 2100 / 2200",
+      "Accelerometer Sensitivities": "25, 100 mV/g (Bently); 10 đến 500 mV/g (Hansford); 100 mV/g (SKF)",
+      "Typical Steam Turbine Use": "Rung bệ ổ trục, phương ngang và phương đứng tại mỗi ổ",
+      "Typical Gearbox Use": "Vỏ gần ổ trục bánh răng chủ động tốc độ cao; gia tốc kế cho tần số ăn khớp",
+      "Typical Alternator Use": "Vỏ ổ trục phía truyền động và phía đối diện",
+      "Typical Motor Use": "Vỏ ổ trục, phía truyền động và phía đối diện, phương ngang / đứng / dọc trục"
     }
   },
   "prod_ee2": {
@@ -5907,8 +6074,7 @@
     "priceRange": {
       "min": 5500,
       "max": 45000,
-      "unit": "per piece",
-      "note": "Cảm biến rung động / thiết bị giám sát"
+      "unit": "per piece"
     },
     "availability": {
       "label": "Theo yêu cầu",

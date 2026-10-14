@@ -577,5 +577,166 @@
         "text": "Hindistan genelindeki çimento, enerji, farmasötik ve tahıl işleme baghouse'ları için polyester, aramid, PPS, cam elyaf ve PTFE membran sınıflarında pulse-jet filtre torbaları, kıvrımlı kartuş elemanlarıyla birlikte tedarik ediyoruz. Aynı gün teklif için torba boyutlarınızı ve uygulama detaylarınızı WhatsApp üzerinden bize gönderin."
       }
     ]
+  },
+  "post_8": {
+    "id": "post_8",
+    "slug": "vibration-probe-sensor-selection-guide-turbines-gearboxes-motors",
+    "title": "Türbin, Dişli Kutusu ve Motorlar için Titreşim Probu ve Sensör Seçim Rehberi",
+    "excerpt": "Buhar türbinleri, alternatörler, dişli kutuları ve motorlar için yakınlık probları, 4-20 mA vericiler, hız sensörleri ve ivmeölçerler arasında nasıl seçim yapılır.",
+    "date": "2026-10-09",
+    "author": "Keshav Enterprises Mühendislik Ekibi",
+    "readTime": "7 dk okuma",
+    "tags": [
+      "Titreşim İzleme",
+      "Yakınlık Probları",
+      "Buhar Türbini",
+      "Durum İzleme",
+      "Shinkawa",
+      "Bently Nevada"
+    ],
+    "coverImage": "blog-vibration-sensor-selection.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Doğru Sensör Neden Önemli"
+      },
+      {
+        "type": "p",
+        "text": "Titreşim probları ve sensörleri, bir buhar türbini hattının ilk koruma çizgisidir. Yanlış veya uyumsuz bir sensör yalnızca kötü bir ölçüm vermez: sağlıklı bir makineyi trip ettirebilir veya daha kötüsü, gelişmekte olan bir arızayı gözden kaçırabilir. Seçim, neyin ölçüleceğine, sinyali hangi monitör veya kontrol sisteminin alacağına ve yatağın çalışma ortamına bağlıdır."
+      },
+      {
+        "type": "h2",
+        "text": "Adım 1: Neyin Ölçüleceğine Karar Verin"
+      },
+      {
+        "type": "p",
+        "text": "İki farklı titreşim ölçümü türü vardır ve çoğu türbin hattı ikisini de kullanır."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Şaft titreşimi ve konumu (yatağa göre): girdap akımlı yakınlık probları; radyal titreşim, eksenel itme konumu, eksantriklik, hız ve devir başına bir kez gelen Keyphasor sinyali için kullanılır.",
+          "Gövde veya yatak gövdesi titreşimi (mutlak): hız sensörleri ve ivmeölçerler; prob takılamayan yerlerde, motor, pompa ve fanlarda ve yüksek frekanslı dişli kavrama ile yuvarlanmalı yatak sinyalleri için kullanılır."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Adım 2: Yalnızca Probu Değil, Tüm Sistemi Eşleştirin"
+      },
+      {
+        "type": "p",
+        "text": "Bir yakınlık sistemi üç parçadan oluşur: prob, uzatma kablosu ve sürücü (proximitor veya sinyal dönüştürücü de denir). Birlikte kalibre edilirler ve kablo uzunluğu bu kalibrasyonun parçasıdır. Örneğin Shinkawa, 5 m'lik bir sensörün yalnızca 5 m'lik sistemde çalıştığını belirtir. Üç parçayı her zaman takım olarak sipariş edin."
+      },
+      {
+        "type": "p",
+        "text": "Farklı üreticilerin sistemleri serbestçe değiştirilemez. Shinkawa FK ve Bently Nevada 3300 XL 8 mm sistemleri aynı 7.87 V/mm (200 mV/mil) ölçek faktörünü paylaşır. Emerson EPRO sensörleri farklı çalışır: PR6424 16 mm sensör 4 V/mm verir ve ayrı bir CON011 dönüştürücü gerektirir. Meggitt vibro-meter sistemleri kendi TQ dönüştürücülerini, EA uzatma kablolarını ve IQS450 sinyal koşullandırıcılarını kullanır. Kurulu olanın etiketini bize gönderin, teklif vermeden önce doğru yedeği teyit edelim."
+      },
+      {
+        "type": "h2",
+        "text": "Adım 3: Makineye Göre Tipik Ölçüm Noktaları"
+      },
+      {
+        "type": "h3",
+        "text": "Buhar türbini"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Her yatakta XY radyal yakınlık probları",
+          "İtme konumu için itme bileziğinde iki veya üç eksenel prob",
+          "Rotor kamasında veya çentiğinde bir Keyphasor probu",
+          "Ön yatakta eksantriklik probu ve diferansiyel genleşmenin izlendiği yerlerde uzun menzilli problar",
+          "Yedek olarak yatak ayaklarında gövde hız sensörleri"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Dişli kutusu"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Yüksek hızlı pinyon ve düşük hızlı dişli yataklarında XY radyal problar",
+          "İtme için pinyon şaftında bir eksenel prob",
+          "Dişli kavrama frekansları için gövdede ivmeölçerler"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Alternatör"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Tahrik ve tahrik olmayan taraf yataklarında XY radyal problar",
+          "Şafttan hız ve faz referansı",
+          "Her iki yatak gövdesinde gövde hız sensörleri veya ivmeölçerler"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Motorlar, pompalar ve fanlar"
+      },
+      {
+        "type": "p",
+        "text": "Çoğu motor şaftta değil, yatak gövdesinde izlenir. Tahrik ve tahrik olmayan tarafta yatay, dikey ve eksenel yönde takılan bir hız sensörü veya IEPE ivmeölçer, dengesizlik, hizalama hatası ve yatak aşınması için erken uyarı verir. Şaft probları genellikle büyük kaymalı yataklı motorlara ayrılır."
+      },
+      {
+        "type": "h2",
+        "text": "Adım 4: İhtiyaç Duyulan Çıkışı Seçin"
+      },
+      {
+        "type": "list",
+        "items": [
+          "-24 V DC yakınlık sürücü çıkışı: alarm, trip ve teşhis verisi sağlayan Shinkawa VM serisi veya Bently Nevada 3500 gibi raf veya pano tipi titreşim monitörüyle kullanılır.",
+          "2 telli 4-20 mA verici: Shinkawa WK / WKN serisi prob sinyalini monitör olmadan doğrudan DCS veya PLC'ye bağlanan 4-20 mA döngüye dönüştürür. Yardımcı türbinler, kazan besleme pompaları, dişli kutuları ve daha küçük makineler için uygundur.",
+          "IEPE veya gerilim çıkışlı gövde sensörleri: sensör tipine göre veri toplayıcılar, çevrimiçi monitörler ve PLC giriş kartlarıyla kullanılır."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Adım 5: Ortamı Kontrol Edin"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Sıcaklık: Shinkawa FK ve Bently 3300 XL 8 mm probları yaklaşık 177 derece C'ye kadar dayanıklıdır. Shinkawa CV-87 yüksek sıcaklık hız sensörü 375 derece C'ye kadar çıkar.",
+          "Yağ: Yağın kabloya ulaşabildiği yerlerde florlu reçine kaplamalı zırhlı prob kablosu kullanın ve prob ile uzatma kablosu arasındaki konnektörü yağdan uzak tutun; çünkü yağ kablo kapasitansını ve hassasiyeti değiştirir.",
+          "Tehlikeli alanlar: Kendinden emniyetli sürücüler emniyet bariyeri ve uygun onay koduna ihtiyaç duyar. Tutuşturmayan vericilerin sınıflandırması farklıdır. Sorgu yaparken alan sınıflandırmanızı belirtin.",
+          "Hedef malzeme: Yakınlık sistemleri normalde 4140 tipi çelik üzerinde kalibre edilir. Farklı bir şaft malzemesi ölçek faktörünü değiştirir."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Kaçınılması Gereken Yaygın Hatalar"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Farklı sistem uzunluklarına veya farklı üreticilere ait prob, kablo veya sürücüyü karıştırmak",
+          "Prob aralığını doğrusal aralığın dışına ayarlamak; bu, düz veya bozuk bir sinyal verir",
+          "Uzatma kablosu konnektörünü yağa açık bırakmak veya sıcak gövdede sıradan vinil bantla sarmak",
+          "Bağlı bir kabloyu önce boşaltmadan megger testine tabi tutmak; bu sürücüye zarar verebilir",
+          "Koruma için şaft probunun gerektiği yerde gövde sensörü kullanmak veya tersini yapmak"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Teklif İçin Bize Ne Göndermelisiniz"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Makine tipi, markası ve modeli (buhar türbini, dişli kutusu, alternatör veya motor)",
+          "Mevcut prob, kablo, sürücü ve monitörün markası ve modeli veya etiket fotoğrafları",
+          "Sistem uzunluğu, prob boyutu ve dişi ile şaft malzemesi",
+          "Gereken çıkış (-24 V, 4-20 mA, IEPE) ve varsa tehlikeli alan sınıflandırması"
+        ]
+      },
+      {
+        "type": "cta",
+        "text": "Buhar türbinleri, alternatörler, dişli kutuları ve motorlar için orijinal Shinkawa, Bently Nevada, EPRO, vibro-meter, Hansford ve SKF problarını, vericilerini ve gövde sensörlerini tedarik ediyoruz. Uygun bir teklif için etiketinizi WhatsApp'tan bize gönderin."
+      }
+    ]
   }
 }

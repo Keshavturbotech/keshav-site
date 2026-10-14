@@ -85,9 +85,21 @@ const isRTL = RTL_LOCALES.has(currentLocale);
 
 // Self-referential canonical: each locale canonicals to ITS OWN URL, never
 // back to English (Phase 3, item 3).
+// trailingSlash is "never" and pages build as flat files (astro.config.mjs
+// build.format "file"), so every URL we emit must have no trailing slash
+// except the root. getRelativeLocaleUrl() returns "/hi/" for a locale home;
+// normalise it here so canonical, hreflang and og:url all match the sitemap
+// and the URL the page is actually served at.
+const noTrailingSlash = (u: string): string => {
+  const url = new URL(u, SITE_URL);
+  if (url.pathname.length > 1 && url.pathname.endsWith("/")) {
+    url.pathname = url.pathname.slice(0, -1);
+  }
+  return url.toString();
+};
 const canonicalURL = canonicalPath
-  ? new URL(getRelativeLocaleUrl(currentLocale, canonicalPath), SITE_URL).toString()
-  : new URL(Astro.url.pathname, SITE_URL).toString();
+  ? noTrailingSlash(new URL(getRelativeLocaleUrl(currentLocale, canonicalPath), SITE_URL).toString())
+  : noTrailingSlash(new URL(Astro.url.pathname, SITE_URL).toString());
 
 // hreflang alternates: every Tier-1 locale (including x-default -> English)
 // gets an entry, generated programmatically via getRelativeLocaleUrl rather
@@ -98,11 +110,11 @@ const hreflangAlternates: { hreflang: string; href: string }[] = canonicalPath
   ? [
       ...LOCALES.map((loc) => ({
         hreflang: loc as string,
-        href: new URL(getRelativeLocaleUrl(loc, canonicalPath), SITE_URL).toString(),
+        href: noTrailingSlash(new URL(getRelativeLocaleUrl(loc, canonicalPath), SITE_URL).toString()),
       })),
       {
         hreflang: "x-default",
-        href: new URL(getRelativeLocaleUrl(DEFAULT_LOCALE, canonicalPath), SITE_URL).toString(),
+        href: noTrailingSlash(new URL(getRelativeLocaleUrl(DEFAULT_LOCALE, canonicalPath), SITE_URL).toString()),
       },
     ]
   : [];

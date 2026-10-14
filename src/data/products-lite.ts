@@ -326,6 +326,31 @@ export const PRODUCTS_LITE: ProductLite[] = [
     "title": "Vibration Monitoring Probes (Shinkawa-compatible)"
   },
   {
+    "id": "prod_ee7",
+    "category": "Electronic Equipments",
+    "title": "Bently Nevada 3300 XL Proximity Probe Systems"
+  },
+  {
+    "id": "prod_ee8",
+    "category": "Electronic Equipments",
+    "title": "EPRO PR6423 / PR6424 Eddy Current Sensors & CON011"
+  },
+  {
+    "id": "prod_ee9",
+    "category": "Electronic Equipments",
+    "title": "Vibro-Meter TQ402 / TQ442 Proximity Probes & IQS450"
+  },
+  {
+    "id": "prod_ee10",
+    "category": "Electronic Equipments",
+    "title": "2-Wire 4-20 mA Vibration Transmitters (Shinkawa WK/WKN)"
+  },
+  {
+    "id": "prod_ee11",
+    "category": "Electronic Equipments",
+    "title": "Casing Vibration Sensors: Velomitor, CV-86 & Accelerometers"
+  },
+  {
     "id": "prod_ee2",
     "category": "Electronic Equipments",
     "title": "Magnetic Pickup Sensor (Woodward)"

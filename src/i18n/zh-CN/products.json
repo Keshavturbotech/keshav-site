@@ -3362,31 +3362,6 @@
     "sku": "KTB-EE-001",
     "category": "电子设备",
     "title": "振动监测探头(兼容新川Shinkawa)",
-    "desc": "高精度非接触式电涡流位移传感器,用于连续监测汽轮机轴振动及轴向位置。符合API 670标准。",
-    "usage": "适用于高速汽轮机、压缩机及旋转机械的轴径向振动、推力位置及轴向位移连续监测。",
-    "features": [
-      "非接触式电涡流测量原理——无需与轴physical接触",
-      "测量轴径向振动幅值及轴向位移",
-      "符合机械保护系统API 670标准",
-      "频率响应:直流至10千赫兹测量带宽",
-      "信号输出:4-20 mA(四线制)或按驱动器提供–24V直流电压",
-      "探头测量范围:0.25-2.5毫米(标定于1.0毫米名义值)",
-      "温度:探头–50至+175°C;驱动电子部件–40至+85°C",
-      "灵敏度:8毫伏/微米标准标定",
-      "整体电缆:铠装不锈钢,适用于恶劣工业环境"
-    ],
-    "specs": {
-      "Measurement Principle": "非接触式电涡流位移测量",
-      "Standard Compliance": "API 670——机械保护系统",
-      "Frequency Response": "直流至10千赫兹带宽",
-      "Signal Output": "4-20 mA或–24V直流(视驱动器而定)",
-      "Sensitivity": "8毫伏/微米(标准标定)",
-      "Probe Gap Range": "0.25-2.5毫米(标定于1.0毫米名义值)",
-      "Probe Temperature Rating": "–50至+175°C",
-      "Cable Type": "铠装不锈钢",
-      "Certifications": "探头本身是无独立认证的被动式\"简单设备\";危险区域适用性取决于配套的信号调节器,而非探头本身。兼容Shinkawa的双线制变送器提供CSA、ATEX及TIIS(日本)危险区域认证——请确认配套调节器针对您所在区域分类的认证情况。",
-      "HSN Code": "9026"
-    },
     "images": [
       "vibration-probe-shinkawa-1.webp",
       "vibration-probe-shinkawa-2.webp",
@@ -3404,15 +3379,207 @@
     "slug": "vibration-monitoring-probes-shinkawa-compatible",
     "categorySlug": "electronic-equipments",
     "priceRange": {
-      "min": 3500,
-      "max": 22000,
-      "unit": "每件",
-      "note": "转速传感器/接近开关;感应式/霍尔效应式"
+      "min": 25000,
+      "max": 100000,
+      "unit": "每件"
     },
     "availability": {
       "label": "询价定制",
       "color": "amber",
       "leadTime": "1–4周"
+    },
+    "desc": "原装 Shinkawa FK / VK 电涡流接近式探头、延长电缆和前置器，用于汽轮机、齿轮箱和发电机的振动及轴向位移监测。现货位于北方邦沙姆利。",
+    "usage": "非接触式测量汽轮机、汽轮发电机、齿轮箱、压缩机、锅炉给水泵和大型风机的轴径向振动、轴向（推力）位置、偏心、转速和相位参考（键相 Keyphasor）。可向 Shinkawa VM-5 / VM-7 / VM-25 监测仪、其他 API 670 风格监测机架以及 DCS 或 PLC 输入提供信号。",
+    "features": [
+      "原装 Shinkawa 传感系统由三个匹配部件组成：FL 传感器（探头）、FW 延长电缆和 FK 前置器。三者作为一个回路一起标定，因此更换其中任何一个部件时，应将传感器、电缆和前置器作为一套更换",
+      "提供 FK 系列（当前产品线）和 VK 系列（旧装置）。FK 前置器带安装板，可直接替换 VK 前置器；差胀测量仍使用 VK 系列",
+      "FL 传感器（探头）：FL-202F05 探头直径 5 mm、电缆 2.7 mm；FL-202F08 探头直径 8 mm、电缆 3.6 mm；8 mm 探头也有反向安装型（FL-202F08R）",
+      "传感器型式：L 无铠装，A 带柔性不锈钢铠装，T 带铠装和氟树脂涂层，适用于有油环境。传感器一体电缆长度依型号约为 0.5 m 或 1.0 m；英制螺纹（UNF）壳体，例如 3/8-24 UNF，按英寸规格标注",
+      "FW 延长电缆（FW-202F）：型式 L（无铠装）、A（铠装）和 T（带氟树脂涂层的铠装）；配 0.5 m 传感器电缆时，5 m 系统通常为 4.5 m，9 m 系统为 8.5 m",
+      "延长电缆直径 3.6 mm，工作温度 -40 至 +177 °C（FK-202F）；对于油可能沿电缆爬行的场合，可选减少漏油的电缆",
+      "传感器与电缆之间的接头直径约 7.1 mm。请用随附的热缩套管或氟树脂胶带绝缘（80 °C 以上不要使用乙烯基胶带），并使接头远离油，因为电缆中进油会改变电缆电容和灵敏度",
+      "电缆长度是标定的一部分：5 m 传感器只能用于 5 m 系统，不能用于 9 m 系统",
+      "FK 前置器（信号变送器 / Proximitor）：把探头间隙转换为供监测仪使用的 -24 V DC 比例信号。FK-202F：灵敏度 7.87 V/mm，DC 至 10 kHz（-3 dB），输出阻抗 50 ohm，供电 -24 V DC +/-10%，最大 15 mA，前置器温度 -40 至 +80 °C，约 200 g",
+      "传感器开路或短路时，前置器输出降至约 -0.6 V，监测仪可据此显示传感器故障",
+      "前置器型号编码 FK-202F[length]-[mounting]-[terminal]：长度 1 = 5 m，2 = 9 m；安装 1 = 35 mm DIN 导轨，2 = 螺钉安装 50.8 x 50.8 mm，3 = 螺钉安装 92 x 31 mm（VK 替换），4 = 多节距；端子 1 = M4 螺钉，2 = 弹簧端子。示例：FK-202F2-2-2 为 9 m 前置器，50.8 mm 安装板，弹簧端子",
+      "本质安全型使用 /EX 后缀，对应 DEKRA/IECEx、CSA、ATEX、China Ex、KCs、TS 或 TR-CU 认证；建议配安全栅（Shinkawa 列出 MTL 7796-），安全栅会使线性范围降至约 95%",
+      "其他 FK 型号：FK-452F（量程 4.5 mm）、FK-302F（3 mm）、FK-602F（6 mm，探头 18 mm，延长电缆 -40 至 +125 °C）、FK-143F、FK-263F 以及长电缆系统 FK-152R",
+      "需要 4-20 mA 输出而不是 -24 V 信号？Shinkawa WK / WKN 两线制振动和轴位移变送器无需监测仪即可直接连接 DCS 或 PLC（见 4-20 mA 变送器产品）",
+      "在 JIS SCM440 钢（4140 型）上标定；其他轴材料会改变灵敏度。将信号电缆屏蔽层接到前置器的 COM 端子，并在使用兆欧表测试前先给电缆放电，以保护前置器",
+      "用于转速或键相时，Shinkawa 建议设定间隙 1.0 至 1.5 mm，并要求目标具有最小宽度和深度；请提供您的齿轮或键槽尺寸，我们为您确认合适的探头",
+      "改造协助：请发送旧铭牌（VK-202A1、VK-202A2、FK-202F 等）和传感器长度，我们为您匹配正确的替换件",
+      "按 API 670 设计的机械保护系统；FK 系列符合 RoHS",
+      "品牌和型号名称为其各自所有者的商标，仅用于识别。Keshav Enterprises 为独立供应商。"
+    ],
+    "specs": {
+      "Brand": "Shinkawa Electric（原装）",
+      "Series": "FK（现行）和 VK（旧型）。两线制 WK/WKN 变送器和 CV/CA 壳体传感器见单独产品",
+      "Measurement Principle": "非接触电涡流位移测量",
+      "System": "FL 传感器 + FW 延长电缆 + FK 前置器（匹配成套）",
+      "Sensor (FL-202F)": "FL-202F05：探头 5 mm，电缆 2.7 mm；FL-202F08：探头 8 mm，电缆 3.6 mm；FL-202F08R：8 mm 反向安装。型式 L / A / T（无铠装 / 铠装 / 带氟树脂的铠装）",
+      "Extension Cable (FW-202F)": "型式 L / A / T；约 4.5 m（5 m 系统）或 8.5 m（9 m 系统）；-40 至 +177 °C",
+      "Connector": "直径约 7.1 mm；远离油；用热缩套管或氟树脂胶带绝缘",
+      "System Cable Length": "5 m 或 9 m（5 m 传感器仅用于 5 m 系统）",
+      "Driver (FK-202F)": "-24 V DC +/-10%，最大 15 mA；输出阻抗 50 ohm；传感器故障时约 -0.6 V；约 200 g",
+      "Driver Mounting Options": "35 mm DIN 导轨；螺钉安装 50.8 x 50.8 mm；螺钉安装 92 x 31 mm（VK 替换）；多节距",
+      "Driver Terminals": "M4 螺钉端子排或弹簧端子",
+      "Reference Model (FK-202F)": "自传感器端面起量程 0.25 至 2.25 mm，灵敏度 7.87 V/mm，DC 至 10 kHz（-3 dB）",
+      "Temperature": "传感器和延长电缆 -40 至 +177 °C；前置器 -40 至 +80 °C",
+      "Calibration Target": "JIS SCM440（4140 型）平板钢；其他材料可按需提供",
+      "Hazardous Area Options": "本质安全型 FK：DEKRA/IECEx、CSA、ATEX、China Ex、KCs、TS、TR-CU（依型号编码）",
+      "2-Wire Transmitter Option": "Shinkawa WK / WKN 4-20 mA 变送器，见单独产品",
+      "Typical Steam Turbine Use": "每个径向轴承处设 XY 径向探头，推力盘处设 2 至 3 个轴向探头，1 个键相探头，前轴承处设偏心探头",
+      "Typical Gearbox Use": "高速小齿轮和低速大齿轮轴承处设 XY 径向探头，小齿轮推力用轴向探头",
+      "Typical Alternator Use": "驱动端和非驱动端轴承处设 XY 径向探头，转速和相位参考",
+      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21，其他接受 -24 V DC 接近式前置器的系统，经信号调理器接入 DCS/PLC"
+    }
+  },
+  "prod_ee7": {
+    "id": "prod_ee7",
+    "sku": "KTB-EE-007",
+    "category": "电子设备",
+    "title": "Bently Nevada 3300 XL 接近式探头系统",
+    "desc": "原装 Bently Nevada 3300 XL 接近式探头、330130 延长电缆和 Proximitor 前置器，用于汽轮机、齿轮箱和发电机的振动及轴位移监测。按料号报价。",
+    "usage": "配备 Bently Nevada 3500 或 3300 监测系统的透平机械上的径向振动、轴向位置、偏心、差胀以及转速/相位参考。5 mm 和 8 mm 探头覆盖常规轴承和推力测量；更大的 11、16、25 和 50 mm 系统覆盖大量程和膨胀测量。",
+    "features": [
+      "原装 Bently Nevada 3300 XL 系统：探头、330130 延长电缆和 330180 Proximitor 前置器，各部件完全可互换，无需台架配对",
+      "3300 XL 8 mm：线性范围 0.25 至 2.3 mm（10 至 90 mil），灵敏度 7.87 V/mm（200 mV/mil）+/-5%，推荐间隙 1.27 mm（约 -9 V DC），探头 -51 至 +177 °C",
+      "标准 5 m 8 mm 系统满足 API 670（第 4 版）：机械配置、线性范围、精度和温度稳定性",
+      "3300 XL 8 mm 部件与非 XL 的 3300 5 mm 和 8 mm 部件在电气和机械上可互换，因此 XL 部件可以替换旧的 3300 备件",
+      "探头端面为聚苯硫醚（PPS），外壳为 303/304 不锈钢，FEP 电缆，Viton O 形圈和镀金 ClickLoc 接头",
+      "延长电缆有标准型和 FluidLoc（耐液体）型，具有 CSA、ATEX 和 IECEx 认证",
+      "汽轮机大量程选项：用于差胀的 3300 XL 25 mm 和 50 mm 系统；50 mm 系统测量范围约 27.9 mm（1,100 mil）",
+      "请提供完整料号报价（例如 330103-xx-xx-xx-xx-xx 配 330130-xxx-xx-xx 和 330180-xx-xx），或发送旧铭牌",
+      "品牌和型号名称为其各自所有者的商标，仅用于识别。Keshav Enterprises 为独立供应商。"
+    ],
+    "specs": {
+      "Brand": "Bently Nevada（Baker Hughes），原装",
+      "System Components": "3300 XL 探头 + 330130 延长电缆 + 330180 Proximitor 前置器",
+      "Probe Sizes": "5 mm、8 mm、11 mm、16 mm、25 mm、50 mm（3300 XL 系列）",
+      "8 mm Linear Range / Scale Factor": "0.25 至 2.3 mm；7.87 V/mm（200 mV/mil）+/-5%",
+      "8 mm Probe Temperature": "-51 至 +177 °C",
+      "50 mm System Range": "约 27.9 mm（1,100 mil），用于差胀",
+      "Standard": "标准 5 m 8 mm 系统符合 API 670（第 4 版）",
+      "Compatible Monitors": "Bently Nevada 3500 和 3300 系列",
+      "Typical Steam Turbine Use": "每个轴承处设 XY 径向探头，推力位置探头，键相，用 25 mm 或 50 mm 探头测差胀",
+      "Typical Gearbox Use": "小齿轮和大齿轮轴承处设径向探头，小齿轮推力和啮合用轴向探头",
+      "Typical Alternator Use": "两端轴承处设 XY 径向探头，键相/转速参考"
+    }
+  },
+  "prod_ee8": {
+    "id": "prod_ee8",
+    "sku": "KTB-EE-008",
+    "category": "电子设备",
+    "title": "EPRO PR6423 / PR6424 电涡流传感器及 CON011",
+    "desc": "原装 Emerson EPRO PR6422 至 PR6426 电涡流传感器和 CON011 信号转换器，用于汽轮机、齿轮箱和发电机的轴振动及位置测量。",
+    "usage": "配合 Emerson / EPRO MMS 监测仪或任何接受转换器输出的系统，测量汽轮机、燃气轮机、水轮机、压缩机、齿轮箱、泵和风机的轴径向与轴向位移、位置、偏心以及转速/键相。",
+    "features": [
+      "原装 Emerson EPRO 传感器：PR6422、PR6423（8 mm，M10x1 型）、PR6424（16 mm）、PR6425（16 mm 高温型）、PR6426（32 mm）",
+      "CON011 电涡流信号转换器：0 至 20 kHz（-3 dB），上升时间小于 15 微秒，-30 至 +100 °C，供电 -23 至 -32 V DC，可接 PR6422 至 PR6426 传感器",
+      "PR6424 16 mm：4 V/mm，-35 至 +150 °C，适用于直径 80 mm 及以上的轴，温度误差符合 API 670",
+      "PR6425 16 mm：4 V/mm，工作温度 0 至 380 °C，适用于热机壳和蒸汽入口区域",
+      "PR6426 32 mm：2 V/mm，-35 至 +175 °C，适用于直径 200 mm 及以上的轴",
+      "CON011 有扩展量程型，适用于更大测量范围（例如 3、4、6、8、10 mm）；PR6425 需要扩展量程转换器",
+      "传感器与转换器是匹配系统：传感器、电缆长度和转换器型号必须对应。请发送铭牌或旧料号，我们为您确认匹配",
+      "品牌和型号名称为其各自所有者的商标，仅用于识别。Keshav Enterprises 为独立供应商。"
+    ],
+    "specs": {
+      "Brand": "Emerson（EPRO），原装",
+      "Converter": "CON011 电涡流信号转换器（标准和扩展量程）",
+      "Measures": "轴径向和轴向位移、位置、偏心、转速/键相",
+      "Typical Machines": "汽轮机、燃气轮机和水轮机、压缩机、齿轮箱、泵、风机"
+    }
+  },
+  "prod_ee9": {
+    "id": "prod_ee9",
+    "sku": "KTB-EE-009",
+    "category": "电子设备",
+    "title": "Vibro-Meter TQ402 / TQ442 接近式探头及 IQS450",
+    "desc": "原装 Meggitt vibro-meter TQ4xx 接近式探头、EA40x 电缆和 IQS450 信号调理器，用于汽轮机轴振动和位置监测。",
+    "usage": "用于配备 vibro-meter 监测系统的汽轮机、燃气轮机、水轮机及其他关键设备，进行非接触轴振动和轴向位置测量。带短路保护的电压或电流输出既适合机架式监测仪，也适合直接连接 DCS。",
+    "features": [
+      "原装 vibro-meter 系统：TQ4xx 接近式传感器 + EA4xx 延长电缆 + IQS450（或 IQS900）信号调理器构成经过标定的测量链",
+      "提供 TQ401 / TQ402 / TQ403 / TQ412 / TQ422 / TQ423 / TQ432 / TQ442 传感器系列",
+      "TQ442 / EA402 / IQS450 系统：测量范围 2 mm 或 4 mm，DC 至 20 kHz（-3 dB），-40 至 +180 °C，1 m、5 m 和 10 m 系统，带温度补偿",
+      "电压或两线制电流输出，带短路保护；有适用于潜在爆炸性环境的认证型号",
+      "现有 vibro-meter 测量链的替换或备件：请提供传感器、电缆和调理器的型号；电气长度必须一致",
+      "品牌和型号名称为其各自所有者的商标，仅用于识别。Keshav Enterprises 为独立供应商。"
+    ],
+    "specs": {
+      "Brand": "Meggitt vibro-meter，原装",
+      "Extension Cables": "EA401、EA402、EA403",
+      "TQ442 System Range": "2 mm 或 4 mm",
+      "Frequency Response": "DC 至 20 kHz（-3 dB）",
+      "Temperature": "-40 至 +180 °C（TQ442）",
+      "System Lengths": "1 m、5 m、10 m（依型号而异）",
+      "Output": "电压或电流（两线制），带短路保护"
+    }
+  },
+  "prod_ee10": {
+    "id": "prod_ee10",
+    "sku": "KTB-EE-010",
+    "category": "电子设备",
+    "title": "两线制 4-20 mA 振动变送器（Shinkawa WK/WKN）",
+    "desc": "原装 Shinkawa WK / WKN 两线制 4-20 mA 振动和轴位移变送器，用于汽轮机、发电机、齿轮箱、泵和压缩机。直接连接 DCS 或 PLC，无需监测仪机架。",
+    "usage": "用于不值得配置完整机架监测仪的中小型设备的连续轴振动或推力位置监测：辅助汽轮机、锅炉给水泵、齿轮箱、压缩机、风机和发电机。4-20 mA 回路信号直接送至 DCS、PLC 或指示表。",
+    "features": [
+      "内置振动或轴位移转换的电涡流传感器：输出 4-20 mA，无需单独的振动监测仪或转换器",
+      "两线制电流回路同时传输电源和信号，因此可以沿用长电缆线路和现有仪表电缆。供电 12 至 35 V DC；最大回路负载 43.5 x（供电电压 - 12）ohm",
+      "振动变送器 WK-142K / WKN-142K：输出范围 0 至 100、125、200、250 或 400 微米峰峰值，由型号编码选择；转换精度满量程的 +/-1.5%",
+      "轴位移变送器 WK-142T / WKN-142T：输出范围约 -0.6 至 0 至 +0.6 mm 或 -0.635 至 0 至 +0.635 mm（-25 至 +25 mil）",
+      "线性范围 1.4 mm（间隙 0.3 至 1.7 mm），灵敏度 7.87 mV/micron，频率响应 5 Hz 至 6,000 Hz（-3 dB）",
+      "故障输出：传感器开路或短路，或间隙超出线性范围时，电流降至 3.6 mA 或更低，DCS 可据此识别回路故障",
+      "完整系统：WL-142K 传感器、WW-142K 延长电缆和变送器，系统长度 5 m、7 m 或 9 m；传感器和电缆成套供货，因为系统是作为一个回路标定的",
+      "变送器外壳约 100 x 74 x 50 mm，可选 DIN 安装卡扣；非本安防爆选项（CSA Class I Div 2 Groups A-D，ATEX Ex nA）",
+      "仅在 JIS SCM440 钢（相当于 AISI 4140）上标定。用随附套管或氟树脂胶带绝缘传感器电缆与延长电缆之间的接头",
+      "另有带两线制电流输出的 Meggitt vibro-meter 接近式系统（见 vibro-meter 产品）",
+      "品牌和型号名称为其各自所有者的商标，仅用于识别。Keshav Enterprises 为独立供应商。"
+    ],
+    "specs": {
+      "Brand": "Shinkawa Electric，原装",
+      "Models": "WK-142K、WK-142T、WKN-142K、WKN-142T（1、2 和 5 系统型）",
+      "Output": "4-20 mA，两线制电流回路",
+      "Vibration Output Ranges": "0 至 100、125、200、250、400 微米峰峰值（依型号编码）",
+      "Thrust Output Range": "约 -0.6 至 +0.6 mm 或 -0.635 至 +0.635 mm",
+      "Accuracy": "满量程的 +/-1.5%（转换）",
+      "Power Supply": "12 至 35 V DC；最大负载 43.5 x (Vps - 12) ohm",
+      "Linear Range / Scale Factor": "1.4 mm（间隙 0.3 至 1.7 mm）；7.87 mV/micron",
+      "Frequency Response": "5 Hz 至 6,000 Hz（-3 dB）",
+      "Fault Output": "传感器开路/短路或超出量程时为 3.6 mA 或更低",
+      "System Components": "WL-142K 传感器 + WW-142K 延长电缆 + WK/WKN 变送器",
+      "Transmitter Size": "约 100 x 74 x 50 mm；DIN 卡扣可选",
+      "Hazardous Area": "非本安防爆选项（CSA Class I Div 2，ATEX Ex nA）",
+      "Calibration Target": "JIS SCM440 钢（相当于 AISI 4140）",
+      "Typical Machines": "辅助汽轮机、BFP、齿轮箱、压缩机、发电机、风机"
+    }
+  },
+  "prod_ee11": {
+    "id": "prod_ee11",
+    "sku": "KTB-EE-011",
+    "category": "电子设备",
+    "title": "壳体振动传感器：Velomitor、CV-86 及加速度计",
+    "desc": "原装 Bently Velomitor、Shinkawa CV-86、Hansford 和 SKF 传感器，用于汽轮机、齿轮箱、发电机和电机的轴承振动。按型号报价。",
+    "usage": "用于轴承座、齿轮箱壳体、发电机机架和电机端盖的绝对（地震式）振动，适用于无法安装轴探头的场合，或壳体振动作为报警或跳闸输入的场合。在汽轮机-齿轮箱-发电机机组中与轴接近式探头配合使用，在电机、风机和泵上可单独使用。",
+    "features": [
+      "Bently Nevada 330500 Velomitor 压电速度传感器：3.94 mV/mm/s（100 mV/in/s）+/-5%，4.5 Hz 至 5 kHz（+/-3 dB），最高 1,270 mm/s 峰值，-55 至 +121 °C，316L 不锈钢，2 针 MIL-C-5015，可任意角度安装",
+      "Bently Nevada 330525 Velomitor XA：防候型，IP65 / NEMA 4X，无需外壳",
+      "Bently Nevada 330400 / 330425 加速度计：100 mV/g（量程 50 g）或 25 mV/g（量程 75 g），供电 -24 V DC，-55 至 +121 °C，专为 API 670 齿轮啮合监测设计",
+      "Shinkawa CV-86 压电速度传感器：3.94 mV/mm/s，2.5 Hz 至 3,500 Hz +/-10%，IP67，内置积分器",
+      "Shinkawa CV-87 高温速度传感器：5.90 mV/mm/s，30 至 1,000 Hz，-54 至 +375 °C，无需供电，适用于高温燃气轮机和汽轮机轴承座",
+      "Hansford HS-100 系列工业加速度计（IEPE）：10 至 500 mV/g 可选，100 mV/g（量程 +/-80 g），不锈钢，IP67 型，-55 至 +140 °C，供电 18 至 30 V DC，适用于电机、风机、泵、齿轮箱和压缩机",
+      "SKF CMSS 2100 / 2200 通用加速度计：100 mV/g，80 g 峰值，2 至 10 mA 恒流供电（推荐 4 mA），适用于电机、泵和风机",
+      "请告知机器、轴承类型、预期转速、危险区域等级以及您的监测仪或数据采集器输入（IEPE、-24 V 或无源），我们为您匹配合适的传感器",
+      "品牌和型号名称为其各自所有者的商标，仅用于识别。Keshav Enterprises 为独立供应商。"
+    ],
+    "specs": {
+      "Brands": "Bently Nevada、Shinkawa、Hansford Sensors、SKF（均为原装）",
+      "Velocity Sensors": "Bently Nevada 330500 / 330525 Velomitor；Shinkawa CV-86、CV-87",
+      "Accelerometers": "Bently Nevada 330400 / 330425；Hansford HS-100 系列；SKF CMSS 2100 / 2200",
+      "Accelerometer Sensitivities": "25、100 mV/g（Bently）；10 至 500 mV/g（Hansford）；100 mV/g（SKF）",
+      "Typical Steam Turbine Use": "轴承座振动，每个轴承处的水平和垂直方向",
+      "Typical Gearbox Use": "靠近高速小齿轮轴承的壳体；用加速度计测齿轮啮合频率",
+      "Typical Alternator Use": "驱动端和非驱动端的轴承座",
+      "Typical Motor Use": "轴承座，驱动端和非驱动端，水平 / 垂直 / 轴向"
     }
   },
   "prod_ee2": {
@@ -3476,8 +3643,7 @@
     "priceRange": {
       "min": 5500,
       "max": 45000,
-      "unit": "每件",
-      "note": "振动传感器/监测仪表"
+      "unit": "每件"
     },
     "availability": {
       "label": "询价定制",

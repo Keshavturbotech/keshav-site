@@ -577,5 +577,166 @@
         "text": "We supply pulse-jet filter bags in polyester, aramid, PPS, glass fibre, and PTFE membrane grades, along with pleated cartridge elements, for cement, power, pharmaceutical, and grain handling baghouses across India. Send us your bag dimensions and application details on WhatsApp for a same-day quotation."
       }
     ]
+  },
+  "post_8": {
+    "id": "post_8",
+    "slug": "vibration-probe-sensor-selection-guide-turbines-gearboxes-motors",
+    "title": "Vibration Probe & Sensor Selection Guide for Turbines, Gearboxes and Motors",
+    "excerpt": "How to choose proximity probes, 4-20 mA transmitters, velocity sensors and accelerometers for steam turbines, alternators, gearboxes and motors.",
+    "date": "2026-10-09",
+    "author": "Keshav Enterprises Engineering Team",
+    "readTime": "7 min read",
+    "tags": [
+      "Vibration Monitoring",
+      "Proximity Probes",
+      "Steam Turbine",
+      "Condition Monitoring",
+      "Shinkawa",
+      "Bently Nevada"
+    ],
+    "coverImage": "blog-vibration-sensor-selection.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Why the Right Sensor Matters"
+      },
+      {
+        "type": "p",
+        "text": "Vibration probes and sensors are the first line of protection on a steam turbine train. A wrong or mismatched sensor does not just give a poor reading: it can trip a healthy machine or, worse, miss a developing fault. The choice depends on what you need to measure, which monitor or control system receives the signal, and the operating environment at the bearing."
+      },
+      {
+        "type": "h2",
+        "text": "Step 1: Decide What You Need to Measure"
+      },
+      {
+        "type": "p",
+        "text": "There are two different kinds of vibration measurement, and most turbine trains use both."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Shaft vibration and position (relative to the bearing): eddy-current proximity probes, used for radial vibration, axial thrust position, eccentricity, speed and the once-per-turn Keyphasor signal.",
+          "Casing or bearing-housing vibration (absolute): velocity sensors and accelerometers, used where a probe cannot be fitted, on motors, pumps and fans, and for high-frequency gear-mesh and rolling-bearing signals."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Step 2: Match the Whole System, Not Just the Probe"
+      },
+      {
+        "type": "p",
+        "text": "A proximity system has three parts: the probe, the extension cable and the driver (also called the proximitor or signal converter). They are calibrated together, and the cable length is part of that calibration. Shinkawa, for example, states that a 5 m sensor works only in a 5 m system. Always order the three parts as a set."
+      },
+      {
+        "type": "p",
+        "text": "Different makes are not freely interchangeable. Shinkawa FK and Bently Nevada 3300 XL 8 mm systems share the same 7.87 V/mm (200 mV/mil) scale factor. Emerson EPRO sensors work differently: a PR6424 16 mm sensor is 4 V/mm and needs the separate CON011 converter. Meggitt vibro-meter systems use their own TQ transducers, EA extension cables and IQS450 signal conditioners. Send us the nameplate of what is installed and we confirm the correct replacement before quoting."
+      },
+      {
+        "type": "h2",
+        "text": "Step 3: Typical Measurement Points by Machine"
+      },
+      {
+        "type": "h3",
+        "text": "Steam turbine"
+      },
+      {
+        "type": "list",
+        "items": [
+          "XY radial proximity probes at each journal bearing",
+          "Two or three axial probes at the thrust collar for thrust position",
+          "One Keyphasor probe on a rotor key or notch",
+          "Eccentricity probe at the front bearing, and long-range probes where differential expansion is monitored",
+          "Casing velocity sensors on the bearing pedestals as a back-up"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Gearbox"
+      },
+      {
+        "type": "list",
+        "items": [
+          "XY radial probes on the high-speed pinion and low-speed gear bearings",
+          "An axial probe on the pinion shaft for thrust",
+          "Accelerometers on the casing for gear-mesh frequencies"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Alternator"
+      },
+      {
+        "type": "list",
+        "items": [
+          "XY radial probes at the drive-end and non-drive-end bearings",
+          "Speed and phase reference from the shaft",
+          "Casing velocity sensors or accelerometers at both bearing housings"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Motors, pumps and fans"
+      },
+      {
+        "type": "p",
+        "text": "Most motors are monitored on the bearing housing rather than the shaft. A velocity sensor or an IEPE accelerometer, fitted at the drive end and non-drive end in horizontal, vertical and axial directions, gives early warning of unbalance, misalignment and bearing wear. Shaft probes are normally reserved for large sleeve-bearing motors."
+      },
+      {
+        "type": "h2",
+        "text": "Step 4: Choose the Output You Need"
+      },
+      {
+        "type": "list",
+        "items": [
+          "-24 V DC proximity driver output: used with a rack or panel vibration monitor, such as Shinkawa VM-series or Bently Nevada 3500, that provides alarm, trip and diagnostic data.",
+          "2-wire 4-20 mA transmitter: the Shinkawa WK / WKN series converts the probe signal to a 4-20 mA loop that connects directly to a DCS or PLC without a monitor. Suited to auxiliary turbines, boiler feed pumps, gearboxes and smaller machines.",
+          "IEPE or voltage-output casing sensors: used with data collectors, online monitors and PLC input cards, depending on the sensor type."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Step 5: Check the Environment"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Temperature: Shinkawa FK and Bently 3300 XL 8 mm probes are rated to about 177 degrees C. The Shinkawa CV-87 high-temperature velocity sensor goes to 375 degrees C.",
+          "Oil: use armoured, fluoro-resin coated probe cable where oil can reach the cable, and keep the probe-to-extension-cable connector out of oil, because oil changes the cable capacitance and the sensitivity.",
+          "Hazardous areas: intrinsically safe drivers need a safety barrier and the matching approval code. Non-incendive transmitters have a different rating. State your area classification when you enquire.",
+          "Target material: proximity systems are normally calibrated on 4140 type steel. A different shaft material changes the scale factor."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Common Mistakes to Avoid"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Mixing a probe, cable or driver from different system lengths or different makes",
+          "Setting the probe gap outside the linear range, which gives a flat or distorted signal",
+          "Leaving the extension cable connector exposed to oil, or taping it with ordinary vinyl tape on a hot casing",
+          "Megger testing a connected cable without discharging it first, which can damage the driver",
+          "Using a casing sensor where a shaft probe is needed for protection, or the reverse"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What to Send Us for a Quote"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Machine type, make and model (steam turbine, gearbox, alternator or motor)",
+          "Make and model of the existing probe, cable, driver and monitor, or a photo of the nameplates",
+          "System length, probe size and thread, and shaft material",
+          "Required output (-24 V, 4-20 mA, IEPE) and the hazardous-area classification, if any"
+        ]
+      },
+      {
+        "type": "cta",
+        "text": "We supply genuine Shinkawa, Bently Nevada, EPRO, vibro-meter, Hansford and SKF probes, transmitters and casing sensors for steam turbines, alternators, gearboxes and motors. Send us your nameplate on WhatsApp for a matched quotation."
+      }
+    ]
   }
 }

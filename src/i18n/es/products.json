@@ -6016,41 +6016,208 @@
     "categorySlug": "electronic-equipments",
     "category": "Equipos Electrónicos",
     "title": "Sondas de Monitoreo de Vibración (Compatibles con Shinkawa)",
-    "desc": "Sensores de desplazamiento por corrientes de Foucault sin contacto de alta precisión para monitoreo continuo de vibración del eje de turbina y posición axial. Conforme con la norma API 670.",
-    "usage": "Monitoreo continuo de vibración radial del eje, posición de empuje, y desplazamiento axial en turbinas de vapor de alta velocidad, compresores, y maquinaria rotativa.",
-    "features": [
-      "Principio de medición sin contacto por corrientes de Foucault — sin contacto físico con el eje",
-      "Mide la amplitud de vibración radial del eje y el desplazamiento axial",
-      "Conforme con la norma API 670 para sistemas de protección de maquinaria",
-      "Respuesta de frecuencia: ancho de banda de medición de CC a 10 kHz",
-      "Salida de señal: 4-20 mA (4 hilos) o voltaje CC -24V según el driver",
-      "Rango de medición de la sonda: 0,25-2,5 mm (calibrado nominalmente a 1,0 mm)",
-      "Temperatura: sonda -50 a +175 °C; electrónica del driver -40 a +85 °C",
-      "Sensibilidad: 8 mV por µm calibración estándar",
-      "Cable integral: acero inoxidable blindado para entornos industriales severos"
-    ],
-    "specs": {
-      "Measurement Principle": "Desplazamiento sin contacto por corrientes de Foucault",
-      "Standard Compliance": "API 670 — Sistemas de Protección de Maquinaria",
-      "Frequency Response": "Ancho de banda de CC a 10 kHz",
-      "Signal Output": "4-20 mA o -24V CC (dependiente del driver)",
-      "Sensitivity": "8 mV/µm (calibración estándar)",
-      "Probe Gap Range": "0,25-2,5 mm (calibrado a 1,0 mm nominal)",
-      "Probe Temperature Rating": "-50 a +175 °C",
-      "Cable Type": "Acero inoxidable blindado",
-      "Certifications": "El propio sensor es un 'aparato simple' pasivo sin certificación independiente; la idoneidad para área clasificada depende del acondicionador de señal correspondiente, no del sensor en sí. Los transmisores de 2 hilos compatibles con Shinkawa están disponibles con aprobaciones para áreas peligrosas CSA, ATEX y TIIS (Japón) — confirme la certificación del acondicionador emparejado para su clasificación de área.",
-      "HSN Code": "9026"
-    },
     "priceRange": {
-      "min": 3500,
-      "max": 22000,
-      "unit": "por pieza",
-      "note": "Sensor de velocidad / interruptor de proximidad; inductivo/efecto Hall"
+      "min": 25000,
+      "max": 100000,
+      "unit": "por pieza"
     },
     "availability": {
       "label": "En Stock",
       "color": "amber",
       "leadTime": "De stock a 1 semana"
+    },
+    "desc": "Sondas de proximidad de corrientes de Foucault Shinkawa FK / VK originales, cables de extensión y drivers para la monitorización de vibración y empuje en turbinas de vapor, cajas de engranajes y alternadores. En stock en Shamli, UP.",
+    "usage": "Medición sin contacto de la vibración radial del eje, la posición axial (empuje), la excentricidad, la velocidad de giro y la referencia de fase (Keyphasor) en turbinas de vapor, turboalternadores, cajas de engranajes, compresores, bombas de alimentación de caldera y ventiladores grandes. Alimenta monitores Shinkawa VM-5 / VM-7 / VM-25, otros bastidores de monitorización al estilo API 670 y entradas de DCS o PLC.",
+    "features": [
+      "Sistema transductor Shinkawa original en tres partes que se corresponden: sensor FL (sonda), cable de extensión FW y driver FK. Las tres se calibran juntas como un lazo, por lo que si se sustituye una parte deben sustituirse el sensor, el cable y el driver como conjunto",
+      "Disponibles la serie FK (gama actual) y la serie VK (instalaciones antiguas). Los drivers FK incluyen una placa de montaje para sustituir directamente los drivers VK; la medición de expansión diferencial sigue usando la serie VK",
+      "Sensor FL (sonda): el FL-202F05 tiene punta de 5 mm y cable de 2.7 mm; el FL-202F08 tiene punta de 8 mm y cable de 3.6 mm; la sonda de 8 mm también se fabrica con montaje inverso (FL-202F08R)",
+      "Estilos de sensor: L sin armadura, A con armadura flexible de acero inoxidable, T con armadura y recubrimiento de resina fluorada para entornos con aceite. El cable integral del sensor es de aprox. 0.5 m o 1.0 m según el modelo; los cuerpos con rosca en pulgadas (UNF), como 3/8-24 UNF, se especifican en pulgadas",
+      "Cable de extensión FW (FW-202F): estilos L (sin armadura), A (armado) y T (armado con recubrimiento de resina fluorada); normalmente 4.5 m para un sistema de 5 m y 8.5 m para uno de 9 m con un cable de sensor de 0.5 m",
+      "El cable de extensión tiene un diámetro de 3.6 mm y soporta de -40 a +177 °C (FK-202F); hay una opción de cable que reduce la fuga de aceite para instalaciones donde el aceite puede avanzar por el cable",
+      "El conector entre sensor y cable tiene un diámetro de aprox. 7.1 mm. Aíslelo con el manguito termorretráctil suministrado o con cinta de resina fluorada (no cinta de vinilo por encima de 80 °C) y mantenga el conector fuera del aceite, porque el aceite en el cable cambia la capacitancia del cable y la sensibilidad",
+      "La longitud del cable forma parte de la calibración: un sensor de 5 m funciona solo en un sistema de 5 m y no puede usarse en uno de 9 m",
+      "Driver FK (transmisor de señal / proximitor): convierte la distancia de la sonda en una señal proporcional de -24 V DC para el monitor. FK-202F: factor de escala 7.87 V/mm, de DC a 10 kHz (-3 dB), impedancia de salida 50 ohm, alimentación -24 V DC +/-10% a un máximo de 15 mA, temperatura del driver de -40 a +80 °C, unos 200 g",
+      "La salida del driver baja a unos -0.6 V cuando el sensor está abierto o en cortocircuito, de modo que el monitor puede indicar una condición de fallo del sensor",
+      "Código de modelo del driver FK-202F[length]-[mounting]-[terminal]: longitud 1 = 5 m, 2 = 9 m; montaje 1 = carril DIN de 35 mm, 2 = montaje con tornillos 50.8 x 50.8 mm, 3 = montaje con tornillos 92 x 31 mm (sustitución de VK), 4 = multipaso; terminal 1 = tornillo M4, 2 = resorte. Ejemplo: el FK-202F2-2-2 es un driver de 9 m sobre placa de 50.8 mm con terminales de resorte",
+      "Las versiones de seguridad intrínseca usan el sufijo /EX para homologaciones DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS o TR-CU; se recomienda una barrera de seguridad (Shinkawa indica MTL 7796-) y reduce el rango lineal a aprox. el 95%",
+      "Otros modelos FK: FK-452F (rango 4.5 mm), FK-302F (3 mm), FK-602F (6 mm, punta de 18 mm, cable de extensión de -40 a +125 °C), FK-143F, FK-263F y el sistema de cable largo FK-152R",
+      "¿Necesita una salida de 4-20 mA en lugar de una señal de -24 V? Los transmisores de 2 hilos Shinkawa WK / WKN de vibración y empuje se conectan directamente a un DCS o PLC sin monitor (vea el listado de transmisores de 4-20 mA)",
+      "Calibrado sobre acero JIS SCM440 (tipo 4140); otros materiales de eje cambian el factor de escala. Conecte el blindaje del cable de señal al terminal COM del driver y descargue el cable antes de una prueba con megóhmetro para proteger el driver",
+      "Para uso de velocidad o Keyphasor, Shinkawa recomienda una distancia de ajuste de 1.0 a 1.5 mm y un ancho y profundidad mínimos del objetivo; envíe las dimensiones de su engranaje o chaveta y confirmaremos la sonda",
+      "Ayuda para modernizaciones: envíe la placa de características antigua (VK-202A1, VK-202A2, FK-202F, etc.) con la longitud del sensor y haremos coincidir el repuesto correcto",
+      "Sistema diseñado según API 670 para protección de maquinaria; serie FK conforme a RoHS",
+      "Los nombres de marcas y modelos son marcas comerciales de sus respectivos propietarios y se usan solo para identificación. Keshav Enterprises es un proveedor independiente."
+    ],
+    "specs": {
+      "Brand": "Shinkawa Electric (original)",
+      "Series": "FK (actual) y VK (anterior). Los transmisores de 2 hilos WK/WKN y los sensores de carcasa CV/CA están en listados aparte",
+      "Measurement Principle": "Desplazamiento por corrientes de Foucault sin contacto",
+      "System": "Sensor FL + cable de extensión FW + driver FK (conjunto a juego)",
+      "Sensor (FL-202F)": "FL-202F05: punta 5 mm, cable 2.7 mm; FL-202F08: punta 8 mm, cable 3.6 mm; FL-202F08R: 8 mm con montaje inverso. Estilos L / A / T (sin armadura / armado / armado con resina fluorada)",
+      "Extension Cable (FW-202F)": "Estilos L / A / T; aprox. 4.5 m (sistema 5 m) u 8.5 m (sistema 9 m); de -40 a +177 °C",
+      "Connector": "Diámetro aprox. 7.1 mm; mantener fuera del aceite; aislar con manguito termorretráctil o cinta de resina fluorada",
+      "System Cable Length": "5 m o 9 m (los sensores de 5 m funcionan solo en sistemas de 5 m)",
+      "Driver (FK-202F)": "-24 V DC +/-10%, máx. 15 mA; impedancia de salida 50 ohm; aprox. -0.6 V con fallo del sensor; unos 200 g",
+      "Driver Mounting Options": "Carril DIN 35 mm; montaje con tornillos 50.8 x 50.8 mm; montaje con tornillos 92 x 31 mm (sustitución de VK); multipaso",
+      "Driver Terminals": "Bloque de terminales con tornillo M4 o terminal de resorte",
+      "Reference Model (FK-202F)": "Rango de 0.25 a 2.25 mm desde la punta del sensor, factor de escala 7.87 V/mm, de DC a 10 kHz (-3 dB)",
+      "Temperature": "Sensor y cable de extensión de -40 a +177 °C; driver de -40 a +80 °C",
+      "Calibration Target": "Acero plano JIS SCM440 (tipo 4140); otros materiales bajo pedido",
+      "Hazardous Area Options": "Variantes FK de seguridad intrínseca: DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (según código de modelo)",
+      "2-Wire Transmitter Option": "Transmisores Shinkawa WK / WKN de 4-20 mA, vea el listado aparte",
+      "Typical Steam Turbine Use": "Sondas radiales XY en cada cojinete de apoyo, 2 a 3 sondas axiales en el collar de empuje, 1 sonda Keyphasor, sonda de excentricidad en el cojinete delantero",
+      "Typical Gearbox Use": "Sondas radiales XY en los cojinetes del piñón de alta velocidad y de la rueda de baja velocidad, sonda axial para el empuje del piñón",
+      "Typical Alternator Use": "Sondas radiales XY en los cojinetes del lado de accionamiento y del lado opuesto, referencia de velocidad y de fase",
+      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, otros sistemas que acepten un driver de proximidad de -24 V DC, DCS/PLC mediante acondicionador de señal"
+    }
+  },
+  "prod_ee7": {
+    "id": "prod_ee7",
+    "sku": "KTB-EE-007",
+    "category": "Equipos Electrónicos",
+    "title": "Sistemas de sondas de proximidad Bently Nevada 3300 XL",
+    "desc": "Sondas de proximidad Bently Nevada 3300 XL originales, cables 330130 y Proximitor para la monitorización de vibración y empuje en turbinas, cajas de engranajes y alternadores. Cotización por número de pieza.",
+    "usage": "Vibración radial, posición axial, excentricidad, expansión diferencial y referencia de velocidad/fase en maquinaria turbo equipada con sistemas de monitorización Bently Nevada 3500 o 3300. Las sondas de 5 mm y 8 mm cubren las mediciones habituales de cojinetes y empuje; los sistemas mayores de 11, 16, 25 y 50 mm cubren mediciones de largo alcance y de expansión.",
+    "features": [
+      "Sistema Bently Nevada 3300 XL original: sonda, cable de extensión 330130 y sensor Proximitor 330180, con total intercambiabilidad entre componentes, por lo que no hace falta emparejarlos en banco",
+      "3300 XL de 8 mm: rango lineal de 0.25 a 2.3 mm (10 a 90 mil), factor de escala 7.87 V/mm (200 mV/mil) +/-5%, separación recomendada 1.27 mm a unos -9 V DC, sonda de -51 a +177 °C",
+      "Cumple API 670 (4.ª edición) en el sistema estándar de 8 mm y 5 m: configuración mecánica, rango lineal, exactitud y estabilidad con la temperatura",
+      "Los componentes 3300 XL de 8 mm son intercambiables eléctrica y físicamente con los componentes 3300 no XL de 5 mm y 8 mm, por lo que las piezas XL pueden sustituir a repuestos 3300 antiguos",
+      "Punta de sonda de sulfuro de polifenileno (PPS), caja de acero inoxidable 303/304, cable FEP, junta tórica Viton y conector ClickLoc chapado en oro",
+      "Cable de extensión en versión estándar o FluidLoc (resistente a fluidos) con homologaciones CSA, ATEX e IECEx",
+      "Opciones de largo alcance para turbinas de vapor: sistemas 3300 XL de 25 mm y 50 mm para expansión diferencial; el sistema de 50 mm tiene un rango de medición de aprox. 27.9 mm (1,100 mil)",
+      "Pida cotización con el número de pieza completo (por ejemplo 330103-xx-xx-xx-xx-xx junto con 330130-xxx-xx-xx y 330180-xx-xx) o envíe la placa de características antigua",
+      "Los nombres de marcas y modelos son marcas comerciales de sus respectivos propietarios y se usan solo para identificación. Keshav Enterprises es un proveedor independiente."
+    ],
+    "specs": {
+      "Brand": "Bently Nevada (Baker Hughes), original",
+      "System Components": "Sonda 3300 XL + cable de extensión 330130 + sensor Proximitor 330180",
+      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (gama 3300 XL)",
+      "8 mm Linear Range / Scale Factor": "De 0.25 a 2.3 mm; 7.87 V/mm (200 mV/mil) +/-5%",
+      "8 mm Probe Temperature": "De -51 a +177 °C",
+      "50 mm System Range": "Aprox. 27.9 mm (1,100 mil) para expansión diferencial",
+      "Standard": "API 670 (4.ª edición) para el sistema estándar de 8 mm y 5 m",
+      "Compatible Monitors": "Series Bently Nevada 3500 y 3300",
+      "Typical Steam Turbine Use": "Sondas radiales XY en cada cojinete, sondas de posición de empuje, Keyphasor, expansión diferencial con sondas de 25 mm o 50 mm",
+      "Typical Gearbox Use": "Sondas radiales en los cojinetes del piñón y de la rueda, sonda axial para el empuje del piñón y el engrane",
+      "Typical Alternator Use": "Sondas radiales XY en ambos cojinetes, referencia Keyphasor/velocidad"
+    }
+  },
+  "prod_ee8": {
+    "id": "prod_ee8",
+    "sku": "KTB-EE-008",
+    "category": "Equipos Electrónicos",
+    "title": "Sensores de corrientes de Foucault EPRO PR6423 / PR6424 y CON011",
+    "desc": "Sensores de corrientes de Foucault Emerson EPRO PR6422 a PR6426 originales y convertidores de señal CON011 para medir vibración y posición del eje en turbinas, cajas de engranajes y generadores.",
+    "usage": "Medición del desplazamiento radial y axial del eje, la posición, la excentricidad y la velocidad/chaveta en turbinas de vapor, de gas e hidráulicas, compresores, cajas de engranajes, bombas y ventiladores, con monitores Emerson / EPRO MMS o cualquier sistema que acepte la salida del convertidor.",
+    "features": [
+      "Sensores Emerson EPRO originales: PR6422, PR6423 (8 mm, versiones M10x1), PR6424 (16 mm), PR6425 (16 mm de alta temperatura), PR6426 (32 mm)",
+      "Convertidor de señal de corrientes de Foucault CON011: de 0 a 20 kHz (-3 dB), tiempo de subida inferior a 15 microsegundos, de -30 a +100 °C, alimentación de -23 a -32 V DC, acepta sensores PR6422 a PR6426",
+      "PR6424 de 16 mm: 4 V/mm, de -35 a +150 °C, para ejes de 80 mm de diámetro o más, error de temperatura conforme a API 670",
+      "PR6425 de 16 mm: 4 V/mm, funcionamiento de 0 a 380 °C para carcasas calientes y zonas de entrada de vapor",
+      "PR6426 de 32 mm: 2 V/mm, de -35 a +175 °C, para ejes de 200 mm o más",
+      "Hay variantes de rango ampliado del CON011 para mayores rangos de medición (por ejemplo 3, 4, 6, 8, 10 mm); el PR6425 requiere el convertidor de rango ampliado",
+      "El sensor y el convertidor forman un sistema a juego: el sensor, la longitud del cable y el modelo del convertidor deben corresponderse. Envíe la placa de características o el número de pieza antiguo y confirmaremos la coincidencia",
+      "Los nombres de marcas y modelos son marcas comerciales de sus respectivos propietarios y se usan solo para identificación. Keshav Enterprises es un proveedor independiente."
+    ],
+    "specs": {
+      "Brand": "Emerson (EPRO), original",
+      "Converter": "Convertidor de señal de corrientes de Foucault CON011 (rango estándar y ampliado)",
+      "Measures": "Desplazamiento radial y axial del eje, posición, excentricidad, velocidad/chaveta",
+      "Typical Machines": "Turbinas de vapor, de gas e hidráulicas, compresores, cajas de engranajes, bombas, ventiladores"
+    }
+  },
+  "prod_ee9": {
+    "id": "prod_ee9",
+    "sku": "KTB-EE-009",
+    "category": "Equipos Electrónicos",
+    "title": "Sondas de proximidad Vibro-Meter TQ402 / TQ442 e IQS450",
+    "desc": "Sondas de proximidad Meggitt vibro-meter TQ4xx originales, cables EA40x y acondicionadores IQS450 para monitorizar vibración y posición del eje en turbinas.",
+    "usage": "Vibración sin contacto del eje y posición axial en turbinas de vapor, de gas e hidráulicas y otras máquinas críticas con sistemas de monitorización vibro-meter. La salida de tensión o de corriente con protección contra cortocircuito sirve tanto para monitores de bastidor como para la conexión directa a un DCS.",
+    "features": [
+      "Sistema vibro-meter original: transductor de proximidad TQ4xx + cable de extensión EA4xx + acondicionador de señal IQS450 (o IQS900) forman una cadena de medida calibrada",
+      "Disponibles las familias de transductores TQ401 / TQ402 / TQ403 / TQ412 / TQ422 / TQ423 / TQ432 / TQ442",
+      "Sistema TQ442 / EA402 / IQS450: rango de medida de 2 mm o 4 mm, de DC a 20 kHz (-3 dB), de -40 a +180 °C, sistemas de 1 m, 5 m y 10 m, con compensación de temperatura",
+      "Salida de tensión o de corriente de 2 hilos con protección contra cortocircuito; versiones certificadas para atmósferas potencialmente explosivas",
+      "Sustitución o repuestos para cadenas vibro-meter existentes: envíe los números de modelo del transductor, el cable y el acondicionador; las longitudes eléctricas deben coincidir",
+      "Los nombres de marcas y modelos son marcas comerciales de sus respectivos propietarios y se usan solo para identificación. Keshav Enterprises es un proveedor independiente."
+    ],
+    "specs": {
+      "Brand": "Meggitt vibro-meter, original",
+      "Extension Cables": "EA401, EA402, EA403",
+      "TQ442 System Range": "2 mm o 4 mm",
+      "Frequency Response": "De DC a 20 kHz (-3 dB)",
+      "Temperature": "De -40 a +180 °C (TQ442)",
+      "System Lengths": "1 m, 5 m, 10 m (varía según el modelo)",
+      "Output": "Tensión o corriente (2 hilos), protegida contra cortocircuito"
+    }
+  },
+  "prod_ee10": {
+    "id": "prod_ee10",
+    "sku": "KTB-EE-010",
+    "category": "Equipos Electrónicos",
+    "title": "Transmisores de vibración de 2 hilos 4-20 mA (Shinkawa WK/WKN)",
+    "desc": "Transmisores de vibración y empuje de 2 hilos 4-20 mA Shinkawa WK / WKN originales para turbinas de vapor, alternadores, cajas de engranajes, bombas y compresores. Conexión directa a DCS o PLC, sin bastidor de monitor.",
+    "usage": "Monitorización continua de la vibración del eje o de la posición de empuje en máquinas pequeñas y medianas donde no se justifica un monitor de bastidor completo: turbinas de vapor auxiliares, bombas de alimentación de caldera, cajas de engranajes, compresores, ventiladores y alternadores. La señal del lazo de 4-20 mA va directamente a un DCS, PLC o indicador.",
+    "features": [
+      "Transductor de corrientes de Foucault con conversión de vibración o de empuje integrada: salida de 4-20 mA sin necesidad de monitor de vibración ni convertidor aparte",
+      "El lazo de corriente de 2 hilos lleva la alimentación y la señal, por lo que pueden reutilizarse tendidos largos y el cable de instrumentación existente. Alimentación de 12 a 35 V DC; carga máxima del lazo 43.5 x (tensión de alimentación - 12) ohm",
+      "Transmisores de vibración WK-142K / WKN-142K: rangos de salida de 0 a 100, 125, 200, 250 o 400 micras pico a pico, según el código de modelo; exactitud de conversión +/-1.5% del fondo de escala",
+      "Transmisores de empuje WK-142T / WKN-142T: rango de salida de aprox. -0.6 a 0 a +0.6 mm o -0.635 a 0 a +0.635 mm (-25 a +25 mil)",
+      "Rango lineal 1.4 mm (separación de 0.3 a 1.7 mm), factor de escala 7.87 mV/micron, respuesta en frecuencia de 5 Hz a 6,000 Hz (-3 dB)",
+      "Salida de fallo del transmisor: la corriente baja a 3.6 mA o menos cuando el sensor está abierto o en cortocircuito o la separación queda fuera del rango lineal, de modo que el DCS puede detectar un lazo averiado",
+      "Sistema completo: sensor WL-142K, cable de extensión WW-142K y transmisor, en longitudes de sistema de 5 m, 7 m o 9 m; sensor y cable se suministran juntos porque el sistema está calibrado como un lazo",
+      "Caja del transmisor de aprox. 100 x 74 x 50 mm con pinzas de montaje DIN opcionales; opción no incendiaria (CSA Class I Div 2 Groups A-D, ATEX Ex nA)",
+      "Calibrado solo sobre acero JIS SCM440 (equivalente a AISI 4140). Aísle el conector entre el cable del sensor y el cable de extensión con el manguito suministrado o con cinta de resina fluorada",
+      "También disponible: sistemas de proximidad Meggitt vibro-meter con salida de corriente de 2 hilos (vea el listado de vibro-meter)",
+      "Los nombres de marcas y modelos son marcas comerciales de sus respectivos propietarios y se usan solo para identificación. Keshav Enterprises es un proveedor independiente."
+    ],
+    "specs": {
+      "Brand": "Shinkawa Electric, original",
+      "Models": "WK-142K, WK-142T, WKN-142K, WKN-142T (variantes de sistema 1, 2 y 5)",
+      "Output": "4-20 mA, lazo de corriente de 2 hilos",
+      "Vibration Output Ranges": "0 a 100, 125, 200, 250, 400 micras pico a pico (según código de modelo)",
+      "Thrust Output Range": "Aprox. -0.6 a +0.6 mm o -0.635 a +0.635 mm",
+      "Accuracy": "+/-1.5% del fondo de escala (conversión)",
+      "Power Supply": "De 12 a 35 V DC; carga máx. 43.5 x (Vps - 12) ohm",
+      "Linear Range / Scale Factor": "1.4 mm (separación de 0.3 a 1.7 mm); 7.87 mV/micron",
+      "Frequency Response": "De 5 Hz a 6,000 Hz (-3 dB)",
+      "Fault Output": "3.6 mA o menos con sensor abierto/en cortocircuito o fuera de rango",
+      "System Components": "Sensor WL-142K + cable de extensión WW-142K + transmisor WK/WKN",
+      "Transmitter Size": "Aprox. 100 x 74 x 50 mm; pinzas DIN opcionales",
+      "Hazardous Area": "Opción no incendiaria (CSA Class I Div 2, ATEX Ex nA)",
+      "Calibration Target": "Acero JIS SCM440 (equivalente a AISI 4140)",
+      "Typical Machines": "Turbinas de vapor auxiliares, BFP, cajas de engranajes, compresores, alternadores, ventiladores"
+    }
+  },
+  "prod_ee11": {
+    "id": "prod_ee11",
+    "sku": "KTB-EE-011",
+    "category": "Equipos Electrónicos",
+    "title": "Sensores de vibración de carcasa: Velomitor, CV-86 y acelerómetros",
+    "desc": "Sensores originales Bently Velomitor, Shinkawa CV-86, Hansford y SKF para la vibración de cojinetes en turbinas, cajas de engranajes, alternadores y motores. Cotización por modelo.",
+    "usage": "Vibración absoluta (sísmica) en pedestales de cojinete, carcasas de cajas de engranajes, bastidores de alternadores y tapas de motores, donde no puede instalarse una sonda de eje o donde la vibración de carcasa es una entrada de alarma o disparo. Se usa junto con las sondas de proximidad de eje en trenes turbina-caja de engranajes-alternador, y por sí solo en motores, ventiladores y bombas.",
+    "features": [
+      "Sensor piezoeléctrico de velocidad Bently Nevada 330500 Velomitor: 3.94 mV/mm/s (100 mV/in/s) +/-5%, de 4.5 Hz a 5 kHz (+/-3 dB), hasta 1,270 mm/s pico, de -55 a +121 °C, acero inoxidable 316L, MIL-C-5015 de 2 pines, cualquier ángulo de montaje",
+      "Bently Nevada 330525 Velomitor XA: versión a prueba de intemperie, IP65 / NEMA 4X, sin necesidad de caja",
+      "Acelerómetros Bently Nevada 330400 / 330425: 100 mV/g con rango de 50 g, o 25 mV/g con rango de 75 g, alimentación de -24 V DC, de -55 a +121 °C, diseñados para la monitorización del engrane según API 670",
+      "Transductor piezoeléctrico de velocidad Shinkawa CV-86: 3.94 mV/mm/s, de 2.5 Hz a 3,500 Hz +/-10%, IP67, integrador incorporado",
+      "Transductor de velocidad de alta temperatura Shinkawa CV-87: 5.90 mV/mm/s, de 30 a 1,000 Hz, de -54 a +375 °C, no necesita alimentación, adecuado para cojinetes calientes de turbinas de gas y de vapor",
+      "Acelerómetros industriales Hansford serie HS-100 (IEPE): opciones de 10 a 500 mV/g, 100 mV/g con rango de +/-80 g, acero inoxidable, versiones IP67, de -55 a +140 °C, alimentación de 18 a 30 V DC, para motores, ventiladores, bombas, cajas de engranajes y compresores",
+      "Acelerómetros de uso general SKF CMSS 2100 / 2200: 100 mV/g, 80 g pico, alimentación de corriente constante de 2 a 10 mA (se recomiendan 4 mA), para motores, bombas y ventiladores",
+      "Indíquenos la máquina, el tipo de cojinete, la velocidad prevista, la clase de zona peligrosa y la entrada de su monitor o recolector de datos (IEPE, -24 V o pasivo) y le haremos coincidir el sensor correcto",
+      "Los nombres de marcas y modelos son marcas comerciales de sus respectivos propietarios y se usan solo para identificación. Keshav Enterprises es un proveedor independiente."
+    ],
+    "specs": {
+      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (todas originales)",
+      "Velocity Sensors": "Bently Nevada 330500 / 330525 Velomitor; Shinkawa CV-86, CV-87",
+      "Accelerometers": "Bently Nevada 330400 / 330425; Hansford serie HS-100; SKF CMSS 2100 / 2200",
+      "Accelerometer Sensitivities": "25, 100 mV/g (Bently); 10 a 500 mV/g (Hansford); 100 mV/g (SKF)",
+      "Typical Steam Turbine Use": "Vibración del pedestal de cojinete, horizontal y vertical en cada cojinete",
+      "Typical Gearbox Use": "Carcasa cerca del cojinete del piñón de alta velocidad; acelerómetro para las frecuencias de engrane",
+      "Typical Alternator Use": "Carcasa del cojinete en el lado de accionamiento y en el lado opuesto",
+      "Typical Motor Use": "Carcasa del cojinete, lado de accionamiento y lado opuesto, horizontal / vertical / axial"
     }
   },
   "prod_ee2": {
@@ -6114,8 +6281,7 @@
     "priceRange": {
       "min": 5500,
       "max": 45000,
-      "unit": "por pieza",
-      "note": "Sensor de vibración / instrumento de monitoreo"
+      "unit": "por pieza"
     },
     "availability": {
       "label": "En Stock",

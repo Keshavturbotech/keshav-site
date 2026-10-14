@@ -31,7 +31,7 @@ Keshav Enterprises serves steam turbines from 5 kW to 60 MW (both back-pressure 
 - [Agro & Food Processing](https://keshavturbotech.com/industries/agro-and-food-processing): Agro-industrial facilities including rice mills, cotton gins, and food processing plants rely on back-pressure steam turbines for power and process steam. We provide cost-effective overhauling, spares, and fitration products.
 - [Cement & Steel Plants](https://keshavturbotech.com/industries/cement-and-steel-plants): Cement and steel plants operate large multi-stage steam turbines and require high-reliability maintenance with minimum production disruption. We provide planned and emergency overhauling services.
 
-## Product Catalogue (120 products in 10 categories)
+## Product Catalogue (125 products in 10 categories)
 
 Full catalogue: https://keshavturbotech.com/products
 
@@ -163,8 +163,13 @@ Full catalogue: https://keshavturbotech.com/products
 - [Steam Hose: High Temperature Service](https://keshavturbotech.com/products/steam-hose-high-temperature-service)
 - [FDA-Compliant Food-Grade Flexible Hose (PTFE/SS316L)](https://keshavturbotech.com/products/flexible-food-grade-hose)
 
-### Electronic Equipments (6)
+### Electronic Equipments (11)
 - [Vibration Monitoring Probes (Shinkawa-compatible)](https://keshavturbotech.com/products/vibration-monitoring-probes-shinkawa-compatible)
+- [Bently Nevada 3300 XL Proximity Probe Systems](https://keshavturbotech.com/products/bently-nevada-3300-xl-proximity-probe-systems)
+- [EPRO PR6423 / PR6424 Eddy Current Sensors & CON011](https://keshavturbotech.com/products/epro-pr6423-pr6424-eddy-current-sensors-and-con011)
+- [Vibro-Meter TQ402 / TQ442 Proximity Probes & IQS450](https://keshavturbotech.com/products/vibro-meter-tq402-tq442-proximity-probes-and-iqs450)
+- [2-Wire 4-20 mA Vibration Transmitters (Shinkawa WK/WKN)](https://keshavturbotech.com/products/2-wire-4-20-ma-vibration-transmitters-shinkawa-wk-wkn)
+- [Casing Vibration Sensors: Velomitor, CV-86 & Accelerometers](https://keshavturbotech.com/products/casing-vibration-sensors-velomitor-cv-86-and-accelerometers)
 - [Magnetic Pickup Sensor (Woodward)](https://keshavturbotech.com/products/magnetic-pickup-sensor-woodward)
 - [ASCO 8210 Series Explosion-Proof Solenoid Valve](https://keshavturbotech.com/products/asco-8210-series-explosion-proof-solenoid-valve)
 - [Beacon Industrial Analog Tachometer Gauge](https://keshavturbotech.com/products/beacon-industrial-analog-tachometer-gauge)
@@ -188,7 +193,7 @@ Full list: https://keshavturbotech.com/projects
 - [Belliss & Morcom Turbine — Emergency Babbitt Bearing Failure During Crushing Season](https://keshavturbotech.com/projects/cs_07)
 - [BHEL 3 MW Turbine — High Vibration Root-Cause Investigation & Correction](https://keshavturbotech.com/projects/cs_08)
 
-## Engineering Blog (7)
+## Engineering Blog (8)
 
 Full list: https://keshavturbotech.com/blog
 
@@ -199,6 +204,7 @@ Full list: https://keshavturbotech.com/blog
 - [How to Read an ISO 4406 Lube Oil Cleanliness Report — A Guide for Maintenance Engineers](https://keshavturbotech.com/blog/iso-4406-lube-oil-cleanliness-guide)
 - [HVAC Air Filter Selection Guide for Industrial Facilities — F5 to F9 and Everything In Between](https://keshavturbotech.com/blog/hvac-air-filter-selection-guide-industrial)
 - [How to Select the Right Pulse-Jet Dust Collector Filter Bag — Media, Finish & Anti-Static Guide for Indian Plants](https://keshavturbotech.com/blog/pulse-jet-dust-collector-filter-bag-selection)
+- [Vibration Probe & Sensor Selection Guide for Turbines, Gearboxes and Motors](https://keshavturbotech.com/blog/vibration-probe-sensor-selection-guide-turbines-gearboxes-motors)
 
 ## Languages & Sitemap
 

@@ -5793,31 +5793,6 @@
     "sku": "KTB-EE-001",
     "category": "Electronic Equipments",
     "title": "Probe Pemantau Getaran (Kompatibel Shinkawa)",
-    "desc": "Sensor perpindahan eddy current non-kontak presisi tinggi untuk pemantauan getaran poros turbin dan posisi aksial secara berkelanjutan. Sesuai standar API 670.",
-    "usage": "Pemantauan berkelanjutan getaran radial poros, posisi thrust, dan perpindahan aksial pada turbin uap berkecepatan tinggi, kompresor, dan mesin berputar.",
-    "features": [
-      "Prinsip pengukuran eddy current non-kontak — tanpa kontak fisik dengan poros",
-      "Mengukur amplitudo getaran radial poros dan perpindahan aksial",
-      "Sesuai Standar API 670 untuk sistem proteksi mesin",
-      "Respons frekuensi: bandwidth pengukuran DC hingga 10 kHz",
-      "Output sinyal: 4-20 mA (4-wire) atau tegangan -24V DC sesuai driver",
-      "Rentang pengukuran probe: 0,25-2,5 mm (dikalibrasi nominal pada 1,0 mm)",
-      "Suhu: Probe -50 hingga +175°C; elektronik driver -40 hingga +85°C",
-      "Sensitivitas: kalibrasi standar 8 mV per µm",
-      "Kabel integral: baja tahan karat berlapis baja untuk lingkungan industri berat"
-    ],
-    "specs": {
-      "Measurement Principle": "Perpindahan eddy current non-kontak",
-      "Standard Compliance": "API 670 — Sistem Proteksi Mesin",
-      "Frequency Response": "Bandwidth DC hingga 10 kHz",
-      "Signal Output": "4-20 mA atau -24V DC (tergantung driver)",
-      "Sensitivity": "8 mV/µm (kalibrasi standar)",
-      "Probe Gap Range": "0,25-2,5 mm (dikalibrasi nominal 1,0 mm)",
-      "Probe Temperature Rating": "-50 hingga +175°C",
-      "Cable Type": "Baja tahan karat berlapis baja",
-      "Certifications": "Probe itu sendiri adalah 'peralatan sederhana' pasif tanpa sertifikasi independen; kesesuaian area berbahaya berasal dari pengondisi sinyal yang dipasangkan, bukan dari probe itu sendiri. Transmitter 2-kawat yang kompatibel dengan Shinkawa tersedia dengan persetujuan area berbahaya CSA, ATEX, dan TIIS (Jepang) — konfirmasi sertifikasi pengondisi yang dipasangkan untuk klasifikasi area Anda.",
-      "HSN Code": "9026"
-    },
     "images": [
       "vibration-probe-shinkawa-1.webp",
       "vibration-probe-shinkawa-2.webp",
@@ -5835,15 +5810,207 @@
     "slug": "vibration-monitoring-probes-shinkawa-compatible",
     "categorySlug": "electronic-equipments",
     "priceRange": {
-      "min": 3500,
-      "max": 22000,
-      "unit": "per piece",
-      "note": "Sensor kecepatan / saklar proximity; induktif/hall-effect"
+      "min": 25000,
+      "max": 100000,
+      "unit": "per piece"
     },
     "availability": {
       "label": "Atas Permintaan",
       "color": "amber",
       "leadTime": "1–4 weeks"
+    },
+    "desc": "Probe kedekatan arus eddy Shinkawa FK / VK asli, kabel ekstensi, dan driver untuk pemantauan getaran dan dorongan aksial pada turbin uap, gearbox, dan alternator. Tersedia di Shamli, UP.",
+    "usage": "Pengukuran tanpa kontak untuk getaran radial poros, posisi aksial (dorongan), eksentrisitas, kecepatan putar, dan referensi fasa (Keyphasor) pada turbin uap, turbo-alternator, gearbox, kompresor, pompa air umpan boiler, dan kipas besar. Memberi sinyal ke monitor Shinkawa VM-5 / VM-7 / VM-25, rak pemantauan bergaya API 670 lainnya, serta input DCS atau PLC.",
+    "features": [
+      "Sistem transduser Shinkawa asli dalam tiga bagian yang serasi: sensor FL (probe), kabel ekstensi FW, dan driver FK. Ketiganya dikalibrasi bersama sebagai satu rangkaian, sehingga bila satu bagian diganti, sensor, kabel, dan driver sebaiknya diganti sebagai satu set",
+      "Tersedia seri FK (lini terkini) dan seri VK (instalasi lama). Driver FK dilengkapi pelat pemasangan untuk menggantikan driver VK secara langsung; pengukuran ekspansi diferensial masih memakai seri VK",
+      "Sensor FL (probe): FL-202F05 berujung 5 mm dengan kabel 2.7 mm; FL-202F08 berujung 8 mm dengan kabel 3.6 mm; probe 8 mm juga dibuat dengan pemasangan terbalik (FL-202F08R)",
+      "Gaya sensor: L tanpa pelindung, A dengan pelindung baja tahan karat fleksibel, T dengan pelindung dan lapisan resin fluor untuk lingkungan berminyak. Kabel sensor terpadu sekitar 0.5 m atau 1.0 m tergantung model; bodi berulir inci (UNF) seperti 3/8-24 UNF dinyatakan dalam inci",
+      "Kabel ekstensi FW (FW-202F): gaya L (tanpa pelindung), A (berpelindung), dan T (berpelindung dengan lapisan resin fluor); biasanya 4.5 m untuk sistem 5 m dan 8.5 m untuk sistem 9 m dengan kabel sensor 0.5 m",
+      "Kabel ekstensi berdiameter 3.6 mm, tahan -40 hingga +177 °C (FK-202F); tersedia opsi kabel pengurang kebocoran oli untuk instalasi tempat oli dapat merambat sepanjang kabel",
+      "Konektor antara sensor dan kabel berdiameter sekitar 7.1 mm. Isolasi dengan selongsong susut panas yang disertakan atau pita resin fluor (jangan pita vinil di atas 80 °C) dan jauhkan konektor dari oli, karena oli dalam kabel mengubah kapasitansi kabel dan sensitivitas",
+      "Panjang kabel adalah bagian dari kalibrasi: sensor 5 m hanya berfungsi pada sistem 5 m dan tidak dapat dipakai pada sistem 9 m",
+      "Driver FK (pemancar sinyal / proximitor): mengubah celah probe menjadi sinyal proporsional -24 V DC untuk monitor. FK-202F: faktor skala 7.87 V/mm, DC hingga 10 kHz (-3 dB), impedansi keluaran 50 ohm, catu -24 V DC +/-10% maksimum 15 mA, suhu driver -40 hingga +80 °C, sekitar 200 g",
+      "Saat sensor terbuka atau korslet, keluaran driver turun ke sekitar -0.6 V sehingga monitor dapat menampilkan kondisi kegagalan sensor",
+      "Kode model driver FK-202F[length]-[mounting]-[terminal]: panjang 1 = 5 m, 2 = 9 m; pemasangan 1 = rel DIN 35 mm, 2 = pemasangan sekrup 50.8 x 50.8 mm, 3 = pemasangan sekrup 92 x 31 mm (pengganti VK), 4 = multi-pitch; terminal 1 = sekrup M4, 2 = pegas. Contoh: FK-202F2-2-2 adalah driver 9 m pada pelat 50.8 mm dengan terminal pegas",
+      "Versi aman intrinsik memakai akhiran /EX untuk sertifikasi DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, atau TR-CU; barrier pengaman disarankan (Shinkawa menyebut MTL 7796-) dan mengurangi rentang linier menjadi sekitar 95%",
+      "Model FK lain: FK-452F (rentang 4.5 mm), FK-302F (3 mm), FK-602F (6 mm, ujung 18 mm, kabel ekstensi -40 hingga +125 °C), FK-143F, FK-263F, dan sistem kabel panjang FK-152R",
+      "Butuh keluaran 4-20 mA, bukan sinyal -24 V? Transmiter 2 kawat Shinkawa WK / WKN untuk getaran dan dorongan terhubung langsung ke DCS atau PLC tanpa monitor (lihat daftar transmiter 4-20 mA)",
+      "Dikalibrasi pada baja JIS SCM440 (tipe 4140); bahan poros lain mengubah faktor skala. Hubungkan pelindung kabel sinyal ke terminal COM driver, dan buang muatan kabel sebelum uji megger untuk melindungi driver",
+      "Untuk penggunaan kecepatan atau Keyphasor, Shinkawa menyarankan celah setel 1.0 hingga 1.5 mm serta lebar dan kedalaman minimum target; kirim dimensi roda gigi atau pasak Anda dan kami akan memastikan probe yang sesuai",
+      "Bantuan retrofit: kirim pelat nama lama (VK-202A1, VK-202A2, FK-202F, dll.) beserta panjang sensor dan kami akan mencocokkan penggantinya",
+      "Sistem dirancang menurut API 670 untuk proteksi mesin; seri FK sesuai RoHS",
+      "Nama merek dan model adalah merek dagang dari pemiliknya masing-masing dan digunakan hanya untuk identifikasi. Keshav Enterprises adalah pemasok independen."
+    ],
+    "specs": {
+      "Brand": "Shinkawa Electric (asli)",
+      "Series": "FK (terkini) dan VK (lama). Transmiter 2 kawat WK/WKN dan sensor casing CV/CA ada di daftar terpisah",
+      "Measurement Principle": "Pengukuran perpindahan arus eddy tanpa kontak",
+      "System": "Sensor FL + kabel ekstensi FW + driver FK (set serasi)",
+      "Sensor (FL-202F)": "FL-202F05: ujung 5 mm, kabel 2.7 mm; FL-202F08: ujung 8 mm, kabel 3.6 mm; FL-202F08R: 8 mm pemasangan terbalik. Gaya L / A / T (tanpa pelindung / berpelindung / berpelindung dengan resin fluor)",
+      "Extension Cable (FW-202F)": "Gaya L / A / T; sekitar 4.5 m (sistem 5 m) atau 8.5 m (sistem 9 m); -40 hingga +177 °C",
+      "Connector": "Diameter sekitar 7.1 mm; jauhkan dari oli; isolasi dengan selongsong susut panas atau pita resin fluor",
+      "System Cable Length": "5 m atau 9 m (sensor 5 m hanya untuk sistem 5 m)",
+      "Driver (FK-202F)": "-24 V DC +/-10%, maks. 15 mA; impedansi keluaran 50 ohm; sekitar -0.6 V saat sensor gagal; sekitar 200 g",
+      "Driver Mounting Options": "Rel DIN 35 mm; pemasangan sekrup 50.8 x 50.8 mm; pemasangan sekrup 92 x 31 mm (pengganti VK); multi-pitch",
+      "Driver Terminals": "Blok terminal sekrup M4 atau terminal pegas",
+      "Reference Model (FK-202F)": "Rentang 0.25 hingga 2.25 mm dari ujung sensor, faktor skala 7.87 V/mm, DC hingga 10 kHz (-3 dB)",
+      "Temperature": "Sensor dan kabel ekstensi -40 hingga +177 °C; driver -40 hingga +80 °C",
+      "Calibration Target": "Baja pelat JIS SCM440 (tipe 4140); bahan lain sesuai permintaan",
+      "Hazardous Area Options": "Varian FK aman intrinsik: DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (sesuai kode model)",
+      "2-Wire Transmitter Option": "Transmiter Shinkawa WK / WKN 4-20 mA, lihat daftar terpisah",
+      "Typical Steam Turbine Use": "Probe radial XY pada setiap bantalan, 2 hingga 3 probe aksial pada kerah dorong, 1 probe Keyphasor, probe eksentrisitas pada bantalan depan",
+      "Typical Gearbox Use": "Probe radial XY pada bantalan pinion kecepatan tinggi dan roda gigi kecepatan rendah, probe aksial untuk dorongan pinion",
+      "Typical Alternator Use": "Probe radial XY pada bantalan sisi penggerak dan sisi berlawanan, referensi kecepatan dan fasa",
+      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, sistem lain yang menerima driver kedekatan -24 V DC, DCS/PLC melalui pengondisi sinyal"
+    }
+  },
+  "prod_ee7": {
+    "id": "prod_ee7",
+    "sku": "KTB-EE-007",
+    "category": "Electronic Equipments",
+    "title": "Sistem Probe Kedekatan Bently Nevada 3300 XL",
+    "desc": "Probe kedekatan Bently Nevada 3300 XL asli, kabel ekstensi 330130, dan Proximitor untuk pemantauan getaran dan dorongan aksial turbin, gearbox, dan alternator. Penawaran sesuai nomor suku cadang.",
+    "usage": "Getaran radial, posisi aksial, eksentrisitas, ekspansi diferensial, serta referensi kecepatan/fasa pada mesin turbo dengan sistem pemantauan Bently Nevada 3500 atau 3300. Probe 5 mm dan 8 mm mencakup pengukuran bantalan luncur dan dorongan yang umum; sistem lebih besar 11, 16, 25, dan 50 mm mencakup pengukuran jangkauan jauh dan ekspansi.",
+    "features": [
+      "Sistem Bently Nevada 3300 XL asli: probe, kabel ekstensi 330130, dan sensor Proximitor 330180, dengan komponen yang sepenuhnya dapat dipertukarkan sehingga tidak perlu pencocokan di meja uji",
+      "3300 XL 8 mm: rentang linier 0.25 hingga 2.3 mm (10 hingga 90 mil), faktor skala 7.87 V/mm (200 mV/mil) +/-5%, celah yang disarankan 1.27 mm pada sekitar -9 V DC, probe -51 hingga +177 °C",
+      "Memenuhi API 670 (edisi ke-4) untuk sistem standar 8 mm sepanjang 5 m: konfigurasi mekanis, rentang linier, akurasi, dan stabilitas suhu",
+      "Komponen 3300 XL 8 mm dapat dipertukarkan secara elektris dan fisik dengan komponen 3300 non-XL 5 mm dan 8 mm, sehingga suku cadang XL dapat menggantikan suku cadang 3300 lama",
+      "Ujung probe dari polifenilena sulfida (PPS), casing baja tahan karat 303/304, kabel FEP, O-ring Viton, dan konektor ClickLoc berlapis emas",
+      "Kabel ekstensi dalam versi standar atau FluidLoc (tahan cairan) dengan sertifikasi CSA, ATEX, dan IECEx",
+      "Opsi jangkauan jauh untuk turbin uap: sistem 3300 XL 25 mm dan 50 mm untuk ekspansi diferensial; sistem 50 mm memiliki rentang penginderaan sekitar 27.9 mm (1,100 mil)",
+      "Minta penawaran dengan nomor suku cadang lengkap (misalnya 330103-xx-xx-xx-xx-xx bersama 330130-xxx-xx-xx dan 330180-xx-xx) atau kirim pelat nama lama",
+      "Nama merek dan model adalah merek dagang dari pemiliknya masing-masing dan digunakan hanya untuk identifikasi. Keshav Enterprises adalah pemasok independen."
+    ],
+    "specs": {
+      "Brand": "Bently Nevada (Baker Hughes), asli",
+      "System Components": "Probe 3300 XL + kabel ekstensi 330130 + sensor Proximitor 330180",
+      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (lini 3300 XL)",
+      "8 mm Linear Range / Scale Factor": "0.25 hingga 2.3 mm; 7.87 V/mm (200 mV/mil) +/-5%",
+      "8 mm Probe Temperature": "-51 hingga +177 °C",
+      "50 mm System Range": "Sekitar 27.9 mm (1,100 mil) untuk ekspansi diferensial",
+      "Standard": "API 670 (edisi ke-4) untuk sistem standar 8 mm sepanjang 5 m",
+      "Compatible Monitors": "Seri Bently Nevada 3500 dan 3300",
+      "Typical Steam Turbine Use": "Probe radial XY pada setiap bantalan, probe posisi dorong, Keyphasor, ekspansi diferensial dengan probe 25 mm atau 50 mm",
+      "Typical Gearbox Use": "Probe radial pada bantalan pinion dan roda gigi, probe aksial untuk dorongan pinion dan perkaitan roda gigi",
+      "Typical Alternator Use": "Probe radial XY pada kedua bantalan, referensi Keyphasor/kecepatan"
+    }
+  },
+  "prod_ee8": {
+    "id": "prod_ee8",
+    "sku": "KTB-EE-008",
+    "category": "Electronic Equipments",
+    "title": "Sensor Arus Eddy EPRO PR6423 / PR6424 dan CON011",
+    "desc": "Sensor arus eddy Emerson EPRO PR6422 hingga PR6426 asli dan konverter sinyal CON011 untuk mengukur getaran dan posisi poros pada turbin, gearbox, dan generator.",
+    "usage": "Pengukuran perpindahan radial dan aksial poros, posisi, eksentrisitas, dan kecepatan/pasak pada turbin uap, gas, dan hidro, kompresor, gearbox, pompa, dan kipas, dengan monitor Emerson / EPRO MMS atau sistem apa pun yang menerima keluaran konverter.",
+    "features": [
+      "Sensor Emerson EPRO asli: PR6422, PR6423 (8 mm, versi M10x1), PR6424 (16 mm), PR6425 (16 mm suhu tinggi), PR6426 (32 mm)",
+      "Konverter sinyal arus eddy CON011: 0 hingga 20 kHz (-3 dB), waktu naik kurang dari 15 mikrodetik, -30 hingga +100 °C, catu -23 hingga -32 V DC, menerima sensor PR6422 hingga PR6426",
+      "PR6424 16 mm: 4 V/mm, -35 hingga +150 °C, untuk poros berdiameter 80 mm ke atas, galat suhu sesuai API 670",
+      "PR6425 16 mm: 4 V/mm, beroperasi 0 hingga 380 °C untuk casing panas dan area masuk uap",
+      "PR6426 32 mm: 2 V/mm, -35 hingga +175 °C, untuk poros 200 mm ke atas",
+      "Tersedia varian CON011 rentang diperluas untuk rentang pengukuran lebih besar (misalnya 3, 4, 6, 8, 10 mm); PR6425 memerlukan konverter rentang diperluas",
+      "Sensor dan konverter adalah sistem yang serasi: sensor, panjang kabel, dan model konverter harus sesuai. Kirim pelat nama atau nomor suku cadang lama dan kami akan memastikan kecocokannya",
+      "Nama merek dan model adalah merek dagang dari pemiliknya masing-masing dan digunakan hanya untuk identifikasi. Keshav Enterprises adalah pemasok independen."
+    ],
+    "specs": {
+      "Brand": "Emerson (EPRO), asli",
+      "Converter": "Konverter sinyal arus eddy CON011 (rentang standar dan diperluas)",
+      "Measures": "Perpindahan radial dan aksial poros, posisi, eksentrisitas, kecepatan/pasak",
+      "Typical Machines": "Turbin uap, gas, dan hidro, kompresor, gearbox, pompa, kipas"
+    }
+  },
+  "prod_ee9": {
+    "id": "prod_ee9",
+    "sku": "KTB-EE-009",
+    "category": "Electronic Equipments",
+    "title": "Probe Kedekatan Vibro-Meter TQ402 / TQ442 dan IQS450",
+    "desc": "Probe kedekatan Meggitt vibro-meter TQ4xx asli, kabel EA40x, dan pengondisi sinyal IQS450 untuk memantau getaran dan posisi poros turbin.",
+    "usage": "Getaran poros tanpa kontak dan posisi aksial pada turbin uap, gas, dan hidrolik serta mesin kritis lain yang memakai sistem pemantauan vibro-meter. Keluaran tegangan atau arus dengan proteksi korsleting cocok untuk monitor rak maupun sambungan langsung ke DCS.",
+    "features": [
+      "Sistem vibro-meter asli: transduser kedekatan TQ4xx + kabel ekstensi EA4xx + pengondisi sinyal IQS450 (atau IQS900) membentuk rantai pengukuran yang terkalibrasi",
+      "Tersedia keluarga transduser TQ401 / TQ402 / TQ403 / TQ412 / TQ422 / TQ423 / TQ432 / TQ442",
+      "Sistem TQ442 / EA402 / IQS450: rentang ukur 2 mm atau 4 mm, DC hingga 20 kHz (-3 dB), -40 hingga +180 °C, sistem 1 m, 5 m, dan 10 m, terkompensasi suhu",
+      "Keluaran tegangan atau arus 2 kawat dengan proteksi korsleting; tersedia versi bersertifikat untuk atmosfer yang berpotensi meledak",
+      "Pengganti atau suku cadang untuk rantai vibro-meter yang ada: kirim nomor model transduser, kabel, dan pengondisi; panjang elektris harus sama",
+      "Nama merek dan model adalah merek dagang dari pemiliknya masing-masing dan digunakan hanya untuk identifikasi. Keshav Enterprises adalah pemasok independen."
+    ],
+    "specs": {
+      "Brand": "Meggitt vibro-meter, asli",
+      "Extension Cables": "EA401, EA402, EA403",
+      "TQ442 System Range": "2 mm atau 4 mm",
+      "Frequency Response": "DC hingga 20 kHz (-3 dB)",
+      "Temperature": "-40 hingga +180 °C (TQ442)",
+      "System Lengths": "1 m, 5 m, 10 m (bervariasi menurut model)",
+      "Output": "Tegangan atau arus (2 kawat), terlindung dari korsleting"
+    }
+  },
+  "prod_ee10": {
+    "id": "prod_ee10",
+    "sku": "KTB-EE-010",
+    "category": "Electronic Equipments",
+    "title": "Transmiter Getaran 2 Kawat 4-20 mA (Shinkawa WK/WKN)",
+    "desc": "Transmiter getaran dan dorongan 2 kawat 4-20 mA Shinkawa WK / WKN asli untuk turbin uap, alternator, gearbox, pompa, dan kompresor. Terhubung langsung ke DCS atau PLC, tanpa rak monitor.",
+    "usage": "Pemantauan berkelanjutan getaran poros atau posisi dorong pada mesin kecil dan menengah yang tidak membutuhkan monitor rak lengkap: turbin uap bantu, pompa air umpan boiler, gearbox, kompresor, kipas, dan alternator. Sinyal loop 4-20 mA langsung menuju DCS, PLC, atau indikator.",
+    "features": [
+      "Transduser arus eddy dengan konversi getaran atau dorongan terpadu: keluaran 4-20 mA tanpa monitor getaran atau konverter terpisah",
+      "Loop arus 2 kawat membawa daya dan sinyal, sehingga jalur kabel panjang dan kabel instrumentasi yang ada dapat dipakai ulang. Catu daya 12 hingga 35 V DC; beban loop maksimum 43.5 x (tegangan catu - 12) ohm",
+      "Transmiter getaran WK-142K / WKN-142K: rentang keluaran 0 hingga 100, 125, 200, 250, atau 400 mikron puncak-ke-puncak, dipilih lewat kode model; akurasi konversi +/-1.5% dari skala penuh",
+      "Transmiter dorongan WK-142T / WKN-142T: rentang keluaran sekitar -0.6 hingga 0 hingga +0.6 mm atau -0.635 hingga 0 hingga +0.635 mm (-25 hingga +25 mil)",
+      "Rentang linier 1.4 mm (celah 0.3 hingga 1.7 mm), faktor skala 7.87 mV/micron, respons frekuensi 5 Hz hingga 6,000 Hz (-3 dB)",
+      "Keluaran gangguan: arus turun menjadi 3.6 mA atau kurang saat sensor terbuka atau korslet atau celah di luar rentang linier, sehingga DCS dapat mendeteksi loop yang rusak",
+      "Sistem lengkap: sensor WL-142K, kabel ekstensi WW-142K, dan transmiter, dengan panjang sistem 5 m, 7 m, atau 9 m; sensor dan kabel dipasok bersama karena sistem dikalibrasi sebagai satu loop",
+      "Rumah transmiter sekitar 100 x 74 x 50 mm dengan klip pemasangan DIN opsional; opsi tidak menimbulkan nyala (CSA Class I Div 2 Groups A-D, ATEX Ex nA)",
+      "Dikalibrasi hanya pada baja JIS SCM440 (setara AISI 4140). Isolasi konektor antara kabel sensor dan kabel ekstensi dengan selongsong yang disertakan atau pita resin fluor",
+      "Tersedia juga: sistem kedekatan Meggitt vibro-meter dengan keluaran arus 2 kawat (lihat daftar vibro-meter)",
+      "Nama merek dan model adalah merek dagang dari pemiliknya masing-masing dan digunakan hanya untuk identifikasi. Keshav Enterprises adalah pemasok independen."
+    ],
+    "specs": {
+      "Brand": "Shinkawa Electric, asli",
+      "Models": "WK-142K, WK-142T, WKN-142K, WKN-142T (varian sistem 1, 2, dan 5)",
+      "Output": "4-20 mA, loop arus 2 kawat",
+      "Vibration Output Ranges": "0 hingga 100, 125, 200, 250, 400 mikron puncak-ke-puncak (sesuai kode model)",
+      "Thrust Output Range": "Sekitar -0.6 hingga +0.6 mm atau -0.635 hingga +0.635 mm",
+      "Accuracy": "+/-1.5% dari skala penuh (konversi)",
+      "Power Supply": "12 hingga 35 V DC; beban maks. 43.5 x (Vps - 12) ohm",
+      "Linear Range / Scale Factor": "1.4 mm (celah 0.3 hingga 1.7 mm); 7.87 mV/micron",
+      "Frequency Response": "5 Hz hingga 6,000 Hz (-3 dB)",
+      "Fault Output": "3.6 mA atau kurang saat sensor terbuka/korslet atau di luar rentang",
+      "System Components": "Sensor WL-142K + kabel ekstensi WW-142K + transmiter WK/WKN",
+      "Transmitter Size": "Sekitar 100 x 74 x 50 mm; klip DIN opsional",
+      "Hazardous Area": "Opsi tidak menimbulkan nyala (CSA Class I Div 2, ATEX Ex nA)",
+      "Calibration Target": "Baja JIS SCM440 (setara AISI 4140)",
+      "Typical Machines": "Turbin uap bantu, BFP, gearbox, kompresor, alternator, kipas"
+    }
+  },
+  "prod_ee11": {
+    "id": "prod_ee11",
+    "sku": "KTB-EE-011",
+    "category": "Electronic Equipments",
+    "title": "Sensor Getaran Casing: Velomitor, CV-86, dan Akselerometer",
+    "desc": "Sensor asli Bently Velomitor, Shinkawa CV-86, Hansford, dan SKF untuk getaran bantalan pada turbin, gearbox, alternator, dan motor. Penawaran sesuai model.",
+    "usage": "Getaran absolut (seismik) pada dudukan bantalan, casing gearbox, rangka alternator, dan tutup motor, di tempat probe poros tidak dapat dipasang atau saat getaran casing menjadi input alarm atau trip. Dipakai bersama probe kedekatan poros pada rangkaian turbin-gearbox-alternator, dan dipakai sendiri pada motor, kipas, dan pompa.",
+    "features": [
+      "Sensor kecepatan piezo Bently Nevada 330500 Velomitor: 3.94 mV/mm/s (100 mV/in/s) +/-5%, 4.5 Hz hingga 5 kHz (+/-3 dB), hingga 1,270 mm/s puncak, -55 hingga +121 °C, baja tahan karat 316L, MIL-C-5015 2 pin, sudut pemasangan bebas",
+      "Bently Nevada 330525 Velomitor XA: versi tahan cuaca, IP65 / NEMA 4X, tanpa perlu enklosur",
+      "Akselerometer Bently Nevada 330400 / 330425: 100 mV/g dengan rentang 50 g, atau 25 mV/g dengan rentang 75 g, catu -24 V DC, -55 hingga +121 °C, dirancang untuk pemantauan perkaitan roda gigi sesuai API 670",
+      "Transduser kecepatan piezoelektrik Shinkawa CV-86: 3.94 mV/mm/s, 2.5 Hz hingga 3,500 Hz +/-10%, IP67, dengan integrator bawaan",
+      "Transduser kecepatan suhu tinggi Shinkawa CV-87: 5.90 mV/mm/s, 30 hingga 1,000 Hz, -54 hingga +375 °C, tidak memerlukan catu daya, cocok untuk rumah bantalan panas pada turbin gas dan uap",
+      "Akselerometer industri Hansford seri HS-100 (IEPE): pilihan 10 hingga 500 mV/g, 100 mV/g dengan rentang +/-80 g, baja tahan karat, versi IP67, -55 hingga +140 °C, catu 18 hingga 30 V DC, untuk motor, kipas, pompa, gearbox, dan kompresor",
+      "Akselerometer serbaguna SKF CMSS 2100 / 2200: 100 mV/g, puncak 80 g, catu arus konstan 2 hingga 10 mA (disarankan 4 mA), untuk motor, pompa, dan kipas",
+      "Beri tahu kami mesin, jenis bantalan, kecepatan yang diharapkan, kelas area berbahaya, dan input monitor atau pengumpul data Anda (IEPE, -24 V, atau pasif), dan kami akan mencocokkan sensor yang tepat",
+      "Nama merek dan model adalah merek dagang dari pemiliknya masing-masing dan digunakan hanya untuk identifikasi. Keshav Enterprises adalah pemasok independen."
+    ],
+    "specs": {
+      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (semuanya asli)",
+      "Velocity Sensors": "Bently Nevada 330500 / 330525 Velomitor; Shinkawa CV-86, CV-87",
+      "Accelerometers": "Bently Nevada 330400 / 330425; Hansford seri HS-100; SKF CMSS 2100 / 2200",
+      "Accelerometer Sensitivities": "25, 100 mV/g (Bently); 10 hingga 500 mV/g (Hansford); 100 mV/g (SKF)",
+      "Typical Steam Turbine Use": "Getaran dudukan bantalan, horizontal dan vertikal pada setiap bantalan",
+      "Typical Gearbox Use": "Casing dekat bantalan pinion kecepatan tinggi; akselerometer untuk frekuensi perkaitan roda gigi",
+      "Typical Alternator Use": "Rumah bantalan pada sisi penggerak dan sisi berlawanan",
+      "Typical Motor Use": "Rumah bantalan, sisi penggerak dan sisi berlawanan, horizontal / vertikal / aksial"
     }
   },
   "prod_ee2": {
@@ -5907,8 +6074,7 @@
     "priceRange": {
       "min": 5500,
       "max": 45000,
-      "unit": "per piece",
-      "note": "Sensor getaran / instrumen pemantauan"
+      "unit": "per piece"
     },
     "availability": {
       "label": "Atas Permintaan",

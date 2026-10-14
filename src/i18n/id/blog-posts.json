@@ -577,5 +577,166 @@
         "text": "Kami memasok kantong filter pulse-jet dalam grade poliester, aramid, PPS, serat kaca, dan membran PTFE, bersama elemen kartrid berlipat, untuk baghouse semen, listrik, farmasi, dan penanganan biji-bijian di seluruh India. Kirimkan dimensi kantong dan detail aplikasi Anda via WhatsApp untuk penawaran hari yang sama."
       }
     ]
+  },
+  "post_8": {
+    "id": "post_8",
+    "slug": "vibration-probe-sensor-selection-guide-turbines-gearboxes-motors",
+    "title": "Panduan Memilih Probe dan Sensor Getaran untuk Turbin, Gearbox, dan Motor",
+    "excerpt": "Cara memilih antara probe kedekatan, transmiter 4-20 mA, sensor kecepatan, dan akselerometer untuk turbin uap, alternator, gearbox, dan motor.",
+    "date": "2026-10-09",
+    "author": "Tim Teknik Keshav Enterprises",
+    "readTime": "Waktu baca 7 menit",
+    "tags": [
+      "Pemantauan Getaran",
+      "Probe Kedekatan",
+      "Turbin Uap",
+      "Pemantauan Kondisi",
+      "Shinkawa",
+      "Bently Nevada"
+    ],
+    "coverImage": "blog-vibration-sensor-selection.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Mengapa Sensor yang Tepat Itu Penting"
+      },
+      {
+        "type": "p",
+        "text": "Probe dan sensor getaran adalah garis pertahanan pertama pada rangkaian turbin uap. Sensor yang salah atau tidak serasi bukan hanya memberi pembacaan yang buruk: ia dapat men-trip mesin yang sehat atau, lebih buruk lagi, melewatkan kerusakan yang sedang berkembang. Pilihannya bergantung pada apa yang perlu diukur, monitor atau sistem kontrol yang menerima sinyal, dan lingkungan kerja di bantalan."
+      },
+      {
+        "type": "h2",
+        "text": "Langkah 1: Tentukan Apa yang Perlu Diukur"
+      },
+      {
+        "type": "p",
+        "text": "Ada dua jenis pengukuran getaran yang berbeda, dan sebagian besar rangkaian turbin memakai keduanya."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Getaran dan posisi poros (relatif terhadap bantalan): probe kedekatan arus eddy, dipakai untuk getaran radial, posisi dorong aksial, eksentrisitas, kecepatan, dan sinyal Keyphasor sekali per putaran.",
+          "Getaran casing atau rumah bantalan (absolut): sensor kecepatan dan akselerometer, dipakai di tempat probe tidak dapat dipasang, pada motor, pompa, dan kipas, serta untuk sinyal frekuensi tinggi perkaitan roda gigi dan bantalan gelinding."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Langkah 2: Cocokkan Seluruh Sistem, Bukan Hanya Probe"
+      },
+      {
+        "type": "p",
+        "text": "Sistem kedekatan memiliki tiga bagian: probe, kabel ekstensi, dan driver (disebut juga proximitor atau konverter sinyal). Ketiganya dikalibrasi bersama, dan panjang kabel adalah bagian dari kalibrasi itu. Misalnya, Shinkawa menyatakan sensor 5 m hanya berfungsi pada sistem 5 m. Selalu pesan ketiga bagian sebagai satu set."
+      },
+      {
+        "type": "p",
+        "text": "Sistem dari merek berbeda tidak dapat saling menggantikan begitu saja. Sistem Shinkawa FK dan Bently Nevada 3300 XL 8 mm memiliki faktor skala yang sama, 7.87 V/mm (200 mV/mil). Sensor Emerson EPRO bekerja berbeda: PR6424 16 mm menghasilkan 4 V/mm dan memerlukan konverter CON011 terpisah. Sistem Meggitt vibro-meter memakai transduser TQ, kabel ekstensi EA, dan pengondisi sinyal IQS450 mereka sendiri. Kirimkan pelat nama perangkat yang terpasang dan kami akan memastikan penggantinya sebelum memberi penawaran."
+      },
+      {
+        "type": "h2",
+        "text": "Langkah 3: Titik Pengukuran Umum menurut Mesin"
+      },
+      {
+        "type": "h3",
+        "text": "Turbin uap"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Probe kedekatan radial XY pada setiap bantalan penumpu",
+          "Dua atau tiga probe aksial pada kerah dorong untuk posisi dorong",
+          "Satu probe Keyphasor pada pasak atau takik rotor",
+          "Probe eksentrisitas pada bantalan depan, dan probe jangkauan jauh di tempat ekspansi diferensial dipantau",
+          "Sensor kecepatan casing pada dudukan bantalan sebagai cadangan"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Gearbox"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Probe radial XY pada bantalan pinion kecepatan tinggi dan roda gigi kecepatan rendah",
+          "Satu probe aksial pada poros pinion untuk dorongan",
+          "Akselerometer pada casing untuk frekuensi perkaitan roda gigi"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Alternator"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Probe radial XY pada bantalan sisi penggerak dan sisi berlawanan",
+          "Referensi kecepatan dan fasa dari poros",
+          "Sensor kecepatan casing atau akselerometer pada kedua rumah bantalan"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Motor, pompa, dan kipas"
+      },
+      {
+        "type": "p",
+        "text": "Sebagian besar motor dipantau pada rumah bantalan, bukan pada poros. Sensor kecepatan atau akselerometer IEPE yang dipasang di sisi penggerak dan sisi berlawanan pada arah horizontal, vertikal, dan aksial memberi peringatan dini ketidakseimbangan, ketidaklurusan, dan keausan bantalan. Probe poros biasanya dicadangkan untuk motor besar dengan bantalan luncur."
+      },
+      {
+        "type": "h2",
+        "text": "Langkah 4: Pilih Keluaran yang Dibutuhkan"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Keluaran driver kedekatan -24 V DC: dipakai dengan monitor getaran rak atau panel, seperti Shinkawa seri VM atau Bently Nevada 3500, yang menyediakan data alarm, trip, dan diagnostik.",
+          "Transmiter 2 kawat 4-20 mA: seri Shinkawa WK / WKN mengubah sinyal probe menjadi loop 4-20 mA yang terhubung langsung ke DCS atau PLC tanpa monitor. Cocok untuk turbin bantu, pompa air umpan boiler, gearbox, dan mesin yang lebih kecil.",
+          "Sensor casing berkeluaran IEPE atau tegangan: dipakai dengan pengumpul data, monitor daring, dan kartu input PLC tergantung jenis sensornya."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Langkah 5: Periksa Lingkungan"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Suhu: probe Shinkawa FK dan Bently 3300 XL 8 mm dinilai hingga sekitar 177 derajat C. Sensor kecepatan suhu tinggi Shinkawa CV-87 mencapai 375 derajat C.",
+          "Oli: di tempat oli dapat mencapai kabel, gunakan kabel probe berpelindung berlapis resin fluor dan jauhkan konektor antara probe dan kabel ekstensi dari oli, karena oli mengubah kapasitansi kabel dan sensitivitas.",
+          "Area berbahaya: driver aman intrinsik memerlukan barrier pengaman dan kode sertifikasi yang sesuai. Transmiter yang tidak menimbulkan nyala memiliki klasifikasi berbeda. Sebutkan klasifikasi area Anda saat bertanya.",
+          "Bahan target: sistem kedekatan biasanya dikalibrasi pada baja tipe 4140. Bahan poros yang berbeda mengubah faktor skala."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Kesalahan Umum yang Perlu Dihindari"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Mencampur probe, kabel, atau driver dari panjang sistem atau merek yang berbeda",
+          "Mengatur celah probe di luar rentang linier, yang menghasilkan sinyal datar atau terdistorsi",
+          "Membiarkan konektor kabel ekstensi terkena oli, atau membalutnya dengan pita vinil biasa pada casing panas",
+          "Melakukan uji megger pada kabel yang masih terhubung tanpa membuang muatannya terlebih dahulu, yang dapat merusak driver",
+          "Memakai sensor casing di tempat yang membutuhkan probe poros untuk proteksi, atau sebaliknya"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Apa yang Perlu Dikirim untuk Penawaran"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Jenis, merek, dan model mesin (turbin uap, gearbox, alternator, atau motor)",
+          "Merek dan model probe, kabel, driver, dan monitor yang ada, atau foto pelat nama",
+          "Panjang sistem, ukuran dan ulir probe, serta bahan poros",
+          "Keluaran yang dibutuhkan (-24 V, 4-20 mA, IEPE) dan klasifikasi area berbahaya, jika ada"
+        ]
+      },
+      {
+        "type": "cta",
+        "text": "Kami memasok probe, transmiter, dan sensor casing asli Shinkawa, Bently Nevada, EPRO, vibro-meter, Hansford, dan SKF untuk turbin uap, alternator, gearbox, dan motor. Kirim pelat nama Anda lewat WhatsApp untuk mendapat penawaran yang sesuai."
+      }
+    ]
   }
 }

@@ -577,5 +577,166 @@
         "text": "Suministramos mangas filtrantes de chorro pulsante en grados de poliéster, aramida, PPS, fibra de vidrio y membrana de PTFE, junto con elementos de cartucho plisado, para casas de mangas de cemento, energía, farmacéutica y manejo de granos en toda la India. Envíenos las dimensiones de su manga y los detalles de la aplicación por WhatsApp para una cotización el mismo día."
       }
     ]
+  },
+  "post_8": {
+    "id": "post_8",
+    "slug": "vibration-probe-sensor-selection-guide-turbines-gearboxes-motors",
+    "title": "Guía de selección de sondas y sensores de vibración para turbinas, cajas de engranajes y motores",
+    "excerpt": "Cómo elegir entre sondas de proximidad, transmisores de 4-20 mA, sensores de velocidad y acelerómetros para turbinas de vapor, alternadores, cajas de engranajes y motores.",
+    "date": "2026-10-09",
+    "author": "Equipo de Ingeniería de Keshav Enterprises",
+    "readTime": "7 min de lectura",
+    "tags": [
+      "Monitorización de vibración",
+      "Sondas de proximidad",
+      "Turbina de vapor",
+      "Monitorización de condición",
+      "Shinkawa",
+      "Bently Nevada"
+    ],
+    "coverImage": "blog-vibration-sensor-selection.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Por qué importa el sensor adecuado"
+      },
+      {
+        "type": "p",
+        "text": "Las sondas y los sensores de vibración son la primera línea de protección de un tren de turbina de vapor. Un sensor equivocado o que no corresponde no solo da una mala lectura: puede disparar una máquina sana o, peor, pasar por alto una falla en desarrollo. La elección depende de lo que se necesita medir, del monitor o sistema de control que recibe la señal y del entorno de trabajo en el cojinete."
+      },
+      {
+        "type": "h2",
+        "text": "Paso 1: decida qué necesita medir"
+      },
+      {
+        "type": "p",
+        "text": "Hay dos tipos distintos de medición de vibración, y la mayoría de los trenes de turbina usan ambos."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Vibración y posición del eje (relativas al cojinete): sondas de proximidad de corrientes de Foucault, usadas para la vibración radial, la posición axial de empuje, la excentricidad, la velocidad y la señal Keyphasor de una vez por vuelta.",
+          "Vibración de la carcasa o del alojamiento del cojinete (absoluta): sensores de velocidad y acelerómetros, usados donde no puede instalarse una sonda, en motores, bombas y ventiladores, y para las señales de alta frecuencia del engrane y de los rodamientos."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Paso 2: haga coincidir todo el sistema, no solo la sonda"
+      },
+      {
+        "type": "p",
+        "text": "Un sistema de proximidad tiene tres partes: la sonda, el cable de extensión y el driver (también llamado proximitor o convertidor de señal). Se calibran juntos y la longitud del cable forma parte de esa calibración. Shinkawa, por ejemplo, indica que un sensor de 5 m funciona solo en un sistema de 5 m. Pida siempre las tres partes como un conjunto."
+      },
+      {
+        "type": "p",
+        "text": "Los sistemas de distintas marcas no son intercambiables libremente. Los sistemas Shinkawa FK y Bently Nevada 3300 XL de 8 mm comparten el mismo factor de escala de 7.87 V/mm (200 mV/mil). Los sensores Emerson EPRO funcionan de otro modo: un PR6424 de 16 mm da 4 V/mm y necesita el convertidor CON011 aparte. Los sistemas Meggitt vibro-meter usan sus propios transductores TQ, cables de extensión EA y acondicionadores de señal IQS450. Envíenos la placa de características de lo instalado y confirmaremos el repuesto correcto antes de cotizar."
+      },
+      {
+        "type": "h2",
+        "text": "Paso 3: puntos de medición habituales por máquina"
+      },
+      {
+        "type": "h3",
+        "text": "Turbina de vapor"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Sondas de proximidad radiales XY en cada cojinete de apoyo",
+          "Dos o tres sondas axiales en el collar de empuje para la posición de empuje",
+          "Una sonda Keyphasor en una chaveta o muesca del rotor",
+          "Sonda de excentricidad en el cojinete delantero, y sondas de largo alcance donde se monitoriza la expansión diferencial",
+          "Sensores de velocidad de carcasa en los pedestales de cojinete como respaldo"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Caja de engranajes"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Sondas radiales XY en los cojinetes del piñón de alta velocidad y de la rueda de baja velocidad",
+          "Una sonda axial en el eje del piñón para el empuje",
+          "Acelerómetros en la carcasa para las frecuencias de engrane"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Alternador"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Sondas radiales XY en los cojinetes del lado de accionamiento y del lado opuesto",
+          "Referencia de velocidad y de fase desde el eje",
+          "Sensores de velocidad de carcasa o acelerómetros en ambos alojamientos de cojinete"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Motores, bombas y ventiladores"
+      },
+      {
+        "type": "p",
+        "text": "La mayoría de los motores se monitorizan en el alojamiento del cojinete y no en el eje. Un sensor de velocidad o un acelerómetro IEPE, instalado en el lado de accionamiento y en el lado opuesto en dirección horizontal, vertical y axial, avisa con antelación de desequilibrio, desalineación y desgaste de cojinetes. Las sondas de eje se reservan normalmente para motores grandes con cojinetes de deslizamiento."
+      },
+      {
+        "type": "h2",
+        "text": "Paso 4: elija la salida que necesita"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Salida de driver de proximidad de -24 V DC: se usa con un monitor de vibración de bastidor o de panel, como Shinkawa serie VM o Bently Nevada 3500, que ofrece datos de alarma, disparo y diagnóstico.",
+          "Transmisor de 2 hilos de 4-20 mA: la serie Shinkawa WK / WKN convierte la señal de la sonda en un lazo de 4-20 mA que se conecta directamente a un DCS o PLC sin monitor. Adecuado para turbinas auxiliares, bombas de alimentación de caldera, cajas de engranajes y máquinas más pequeñas.",
+          "Sensores de carcasa con salida IEPE o de tensión: se usan con recolectores de datos, monitores en línea y tarjetas de entrada de PLC, según el tipo de sensor."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Paso 5: compruebe el entorno"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Temperatura: las sondas Shinkawa FK y Bently 3300 XL de 8 mm soportan hasta unos 177 grados C. El sensor de velocidad de alta temperatura Shinkawa CV-87 llega a 375 grados C.",
+          "Aceite: use cable de sonda armado con recubrimiento de resina fluorada donde el aceite pueda llegar al cable, y mantenga el conector entre sonda y cable de extensión fuera del aceite, porque el aceite cambia la capacitancia del cable y la sensibilidad.",
+          "Zonas peligrosas: los drivers de seguridad intrínseca necesitan una barrera de seguridad y el código de homologación correspondiente. Los transmisores no incendiarios tienen una clasificación distinta. Indique la clasificación de su área al consultar.",
+          "Material del objetivo: los sistemas de proximidad se calibran normalmente sobre acero tipo 4140. Un material de eje distinto cambia el factor de escala."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Errores comunes que debe evitar"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Mezclar una sonda, un cable o un driver de distinta longitud de sistema o de distinta marca",
+          "Ajustar la separación de la sonda fuera del rango lineal, lo que da una señal plana o distorsionada",
+          "Dejar el conector del cable de extensión expuesto al aceite, o cubrirlo con cinta de vinilo común sobre una carcasa caliente",
+          "Hacer una prueba con megóhmetro en un cable conectado sin descargarlo antes, lo que puede dañar el driver",
+          "Usar un sensor de carcasa donde se necesita una sonda de eje para protección, o al revés"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Qué enviarnos para una cotización"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Tipo, marca y modelo de la máquina (turbina de vapor, caja de engranajes, alternador o motor)",
+          "Marca y modelo de la sonda, el cable, el driver y el monitor existentes, o una foto de las placas de características",
+          "Longitud del sistema, tamaño y rosca de la sonda, y material del eje",
+          "Salida requerida (-24 V, 4-20 mA, IEPE) y la clasificación de zona peligrosa, si la hay"
+        ]
+      },
+      {
+        "type": "cta",
+        "text": "Suministramos sondas, transmisores y sensores de carcasa originales Shinkawa, Bently Nevada, EPRO, vibro-meter, Hansford y SKF para turbinas de vapor, alternadores, cajas de engranajes y motores. Envíenos la placa de características por WhatsApp para recibir una cotización a medida."
+      }
+    ]
   }
 }

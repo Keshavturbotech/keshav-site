@@ -3493,29 +3493,50 @@
     "sku": "KTB-EE-001",
     "category": "Electronic Equipments",
     "title": "Vibration Monitoring Probes (Shinkawa-compatible)",
-    "desc": "High-precision non-contact eddy current displacement sensors for continuous turbine shaft vibration and axial position monitoring. API 670 standard compliant.",
-    "usage": "Continuous monitoring of shaft radial vibration, thrust position, and axial displacement in high-speed steam turbines, compressors, and rotating machinery.",
+    "desc": "Genuine Shinkawa FK / VK eddy-current probes, extension cables and drivers for steam turbine, gearbox and alternator vibration and thrust monitoring. In stock in Shamli, UP.",
+    "usage": "Non-contact measurement of shaft radial vibration, axial (thrust) position, eccentricity, rotational speed and phase reference (Keyphasor) on steam turbines, turbo-alternators, gearboxes, compressors, boiler feed pumps and large fans. Feeds Shinkawa VM-5 / VM-7 / VM-25 monitors, other API 670 style monitoring racks, and DCS or PLC inputs.",
     "features": [
-      "Non-contact eddy current measurement principle: no physical shaft contact",
-      "Measures shaft radial vibration amplitude and axial displacement",
-      "API 670 Standard compliant for machinery protection systems",
-      "Frequency response: DC to 10 kHz measurement bandwidth",
-      "Signal output: 4-20 mA (4-wire) or -24V DC voltage per driver",
-      "Probe measurement range: 0.25-2.5 mm (calibrated at 1.0 mm nominally)",
-      "Temperature: Probe -50 to +175°C; driver electronics -40 to +85°C",
-      "Sensitivity: 8 mV per µm standard calibration",
-      "Integral cable: Armoured stainless steel for harsh industrial environments"
+      "Genuine Shinkawa transducer system in three matched parts: FL sensor (probe), FW extension cable and FK driver. The three are calibrated together as a loop, so if one part is replaced the sensor, cable and driver should be replaced as a set",
+      "FK series (current range) and VK series (older installations) available. FK drivers come with a mounting plate for direct replacement of VK drivers; differential expansion measurement still uses the VK series",
+      "FL sensor (probe): FL-202F05 has a 5 mm tip with 2.7 mm cable; FL-202F08 has an 8 mm tip with 3.6 mm cable; the 8 mm probe is also made as a reverse-mount type (FL-202F08R)",
+      "Sensor styles: L without armor, A with flexible stainless armor, T with armor and fluoro-resin coating for oily service. Integral sensor cable is about 0.5 m or 1.0 m depending on the model; inch (UNF) threaded bodies such as 3/8-24 UNF are specified in inches",
+      "FW extension cable (FW-202F): styles L (no armor), A (armored) and T (armored with fluoro-resin coating); typically 4.5 m for a 5 m system and 8.5 m for a 9 m system when used with a 0.5 m sensor cable",
+      "Extension cable 3.6 mm diameter, rated -40 to +177 °C (FK-202F); an oil-leakage-reduction cable option is available for installations where oil can creep along the cable",
+      "Sensor-to-cable connector is about 7.1 mm diameter. Insulate it with the supplied shrink sleeve or fluoro-resin tape (not vinyl tape above 80 °C) and keep the connector out of oil, because oil in the cable changes the cable capacitance and the sensitivity",
+      "Cable length is part of the calibration: a 5 m sensor works in a 5 m system only and cannot be used in a 9 m system",
+      "FK driver (the signal transmitter / proximitor): converts the probe gap to a -24 V DC proportional signal for the monitor. FK-202F: scale factor 7.87 V/mm, DC to 10 kHz (-3 dB), output impedance 50 ohm, supply -24 V DC +/-10% at max 15 mA, driver temperature -40 to +80 °C, about 200 g",
+      "Driver output goes to about -0.6 V when the sensor is open or shorted, so a monitor can show a sensor-fault condition",
+      "Driver model code FK-202F[length]-[mounting]-[terminal]: length 1 = 5 m, 2 = 9 m; mounting 1 = 35 mm DIN rail, 2 = screw mount 50.8 x 50.8 mm, 3 = screw mount 92 x 31 mm (VK replacement), 4 = multi-pitch; terminal 1 = M4 screw, 2 = spring lock. Example: FK-202F2-2-2 is a 9 m driver on a 50.8 mm plate with spring-lock terminals",
+      "Intrinsically safe versions use an /EX suffix code for DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS or TR-CU; a safety barrier is recommended (Shinkawa lists MTL 7796-) and reduces the linear range to about 95%",
+      "Other FK models: FK-452F (4.5 mm range), FK-302F (3 mm), FK-602F (6 mm, 18 mm tip, extension cable rated -40 to +125 °C), FK-143F, FK-263F, FK-152R long-cable system",
+      "Need a 4-20 mA output instead of a -24 V signal? Shinkawa WK / WKN 2-wire vibration and thrust transmitters connect directly to a DCS or PLC without a monitor (see the 4-20 mA transmitter listing)",
+      "Calibrated on JIS SCM440 (4140 type) steel; other shaft materials change the scale factor. Connect the signal cable shield to the driver COM terminal, and discharge the cable before a megger test to protect the driver",
+      "For speed or Keyphasor use, Shinkawa recommends a set gap of 1.0 to 1.5 mm and a minimum target width and depth; send your gear or key dimensions and we confirm the probe",
+      "Retrofit help: send the old nameplate (VK-202A1, VK-202A2, FK-202F etc.) with the sensor length and we match the correct replacement",
+      "API 670 designed system for machinery protection; RoHS compliant FK series",
+      "Brand and model names are trademarks of their respective owners and are used for identification only. Keshav Enterprises is an independent supplier."
     ],
     "specs": {
-      "Measurement Principle": "Non-contact eddy current displacement",
-      "Standard Compliance": "API 670: Machinery Protection Systems",
-      "Frequency Response": "DC to 10 kHz bandwidth",
-      "Signal Output": "4-20 mA or -24V DC (driver-dependent)",
-      "Sensitivity": "8 mV/µm (standard calibration)",
-      "Probe Gap Range": "0.25-2.5 mm (calibrated at 1.0 mm nominal)",
-      "Probe Temperature Rating": "-50 to +175°C",
-      "Cable Type": "Armoured stainless steel",
-      "Certifications": "Probe element is a passive, uncertified 'simple apparatus' with no independent hazardous-area rating; classified-area suitability comes from the matched signal conditioner, not the probe itself. Shinkawa-compatible 2-wire transmitters are available with CSA, ATEX, and TIIS (Japan) hazardous-area approvals: confirm the paired conditioner's certification for your specific area classification.",
+      "Brand": "Shinkawa Electric (genuine)",
+      "Series": "FK (current) and VK (legacy). 2-wire WK/WKN transmitters and CV/CA casing sensors are on separate listings",
+      "Measurement Principle": "Non-contact eddy-current displacement",
+      "System": "FL sensor + FW extension cable + FK driver (matched set)",
+      "Sensor (FL-202F)": "FL-202F05: 5 mm tip, 2.7 mm cable; FL-202F08: 8 mm tip, 3.6 mm cable; FL-202F08R: 8 mm reverse mount. Styles L / A / T (no armor / armored / armored with fluoro-resin)",
+      "Extension Cable (FW-202F)": "Styles L / A / T; about 4.5 m (5 m system) or 8.5 m (9 m system); -40 to +177 °C",
+      "Connector": "About 7.1 mm diameter; keep out of oil; insulate with shrink sleeve or fluoro-resin tape",
+      "System Cable Length": "5 m or 9 m (5 m sensors work in 5 m systems only)",
+      "Driver (FK-202F)": "-24 V DC +/-10%, max 15 mA; output impedance 50 ohm; about -0.6 V on sensor fault; about 200 g",
+      "Driver Mounting Options": "DIN rail 35 mm; screw mount 50.8 x 50.8 mm; screw mount 92 x 31 mm (VK replacement); multi-pitch",
+      "Driver Terminals": "M4 screw terminal block or spring-lock terminal",
+      "Reference Model (FK-202F)": "Range 0.25 to 2.25 mm from sensor tip, scale factor 7.87 V/mm, DC to 10 kHz (-3 dB)",
+      "Temperature": "Sensor and extension cable -40 to +177 °C; driver -40 to +80 °C",
+      "Calibration Target": "JIS SCM440 (4140 type) flat steel; other materials on request",
+      "Hazardous Area Options": "Intrinsically safe FK variants: DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (by model code)",
+      "2-Wire Transmitter Option": "Shinkawa WK / WKN 4-20 mA transmitters, see separate listing",
+      "Typical Steam Turbine Use": "XY radial probes at every journal bearing, 2 to 3 axial probes at the thrust collar, 1 Keyphasor probe, eccentricity probe at the front bearing",
+      "Typical Gearbox Use": "XY radial probes on high-speed pinion and low-speed gear bearings, axial probe for pinion thrust",
+      "Typical Alternator Use": "XY radial probes at drive-end and non-drive-end bearings, speed and phase reference",
+      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, other systems that accept a -24 V DC proximity driver, DCS/PLC via signal conditioner",
       "HSN Code": "9026"
     },
     "images": [
@@ -3535,10 +3556,10 @@
     "slug": "vibration-monitoring-probes-shinkawa-compatible",
     "categorySlug": "electronic-equipments",
     "priceRange": {
-      "min": 3500,
-      "max": 22000,
+      "min": 25000,
+      "max": 100000,
       "unit": "per piece",
-      "note": "Speed sensor / proximity switch; inductive/hall-effect"
+      "note": "Drivers from about ₹25,000; complete sensor, extension cable and driver systems cost more. Firm quote by part number."
     },
     "availability": {
       "label": "On Request",
@@ -3549,6 +3570,315 @@
       "API 670",
       "ATEX"
     ]
+  },
+  "prod_ee7": {
+    "id": "prod_ee7",
+    "sku": "KTB-EE-007",
+    "category": "Electronic Equipments",
+    "title": "Bently Nevada 3300 XL Proximity Probe Systems",
+    "desc": "Genuine Bently Nevada 3300 XL proximity probes, 330130 cables and Proximitors for turbine, gearbox and alternator vibration and thrust monitoring. Quote by part number.",
+    "usage": "Radial vibration, axial position, eccentricity, differential expansion and speed/phase reference on turbo-machinery fitted with Bently Nevada 3500 or 3300 monitoring systems. The 5 mm and 8 mm probes cover standard journal-bearing and thrust measurements; the larger 11, 16, 25 and 50 mm systems cover long-range and expansion measurements.",
+    "features": [
+      "Genuine Bently Nevada 3300 XL system: probe, 330130 extension cable and 330180 Proximitor sensor, with full interchangeability between components so no bench matching is needed",
+      "3300 XL 8 mm: 0.25 to 2.3 mm (10 to 90 mil) linear range, 7.87 V/mm (200 mV/mil) +/-5%, recommended gap 1.27 mm at about -9 V DC, probe -51 to +177 °C",
+      "Meets API 670 (4th edition) for the standard 5 m 8 mm system: mechanical configuration, linear range, accuracy and temperature stability",
+      "3300 XL 8 mm components are electrically and physically interchangeable with non-XL 3300 5 mm and 8 mm components, so XL parts can replace older 3300 spares",
+      "Probe tip in polyphenylene sulfide (PPS), 303/304 stainless steel case, FEP cable, Viton O-ring and gold-plated ClickLoc connector",
+      "Extension cable in standard or FluidLoc versions (fluid-resistant) with CSA, ATEX and IECEx approvals",
+      "Long-range options for steam turbines: 3300 XL 25 mm and 50 mm systems for differential expansion; the 50 mm system has about 27.9 mm (1,100 mil) sensing range",
+      "Quote with the full part number (for example 330103-xx-xx-xx-xx-xx plus 330130-xxx-xx-xx and 330180-xx-xx) or send us the old nameplate",
+      "Brand and model names are trademarks of their respective owners and are used for identification only. Keshav Enterprises is an independent supplier."
+    ],
+    "specs": {
+      "Brand": "Bently Nevada (Baker Hughes), genuine",
+      "System Components": "3300 XL probe + 330130 extension cable + 330180 Proximitor sensor",
+      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (3300 XL range)",
+      "8 mm Linear Range / Scale Factor": "0.25 to 2.3 mm; 7.87 V/mm (200 mV/mil) +/-5%",
+      "8 mm Probe Temperature": "-51 to +177 °C",
+      "50 mm System Range": "approx. 27.9 mm (1,100 mil) for differential expansion",
+      "Standard": "API 670 (4th edition) for the standard 5 m 8 mm system",
+      "Compatible Monitors": "Bently Nevada 3500 and 3300 series",
+      "Typical Steam Turbine Use": "XY radial probes at each bearing, thrust position probes, Keyphasor, differential expansion with 25 mm or 50 mm probes",
+      "Typical Gearbox Use": "Radial probes at pinion and gear bearings, axial probe for pinion thrust and gear mesh",
+      "Typical Alternator Use": "XY radial probes at both bearings, Keyphasor/speed reference",
+      "HSN Code": "9026"
+    },
+    "images": [
+      "bently-nevada-3300xl-1.webp",
+      "bently-nevada-3300xl-2.webp",
+      "bently-nevada-3300xl-3.webp",
+      "bently-nevada-3300xl-4.webp",
+      "bently-nevada-3300xl-5.webp",
+      "bently-nevada-3300xl-6.webp",
+      "bently-nevada-3300xl-7.webp",
+      "bently-nevada-3300xl-8.webp",
+      "bently-nevada-3300xl-9.webp",
+      "bently-nevada-3300xl-10.webp",
+      "bently-nevada-3300xl-11.webp",
+      "bently-nevada-3300xl-12.webp"
+    ],
+    "slug": "bently-nevada-3300-xl-proximity-probe-systems",
+    "categorySlug": "electronic-equipments",
+    "priceRange": {
+      "min": 30000,
+      "max": 150000,
+      "unit": "per piece",
+      "note": "8 mm probes from about ₹36,000; cables, Proximitors and full systems priced by part number."
+    },
+    "availability": {
+      "label": "On Request",
+      "color": "amber",
+      "leadTime": "1–4 weeks"
+    },
+    "certifications": [
+      "API 670"
+    ]
+  },
+  "prod_ee8": {
+    "id": "prod_ee8",
+    "sku": "KTB-EE-008",
+    "category": "Electronic Equipments",
+    "title": "EPRO PR6423 / PR6424 Eddy Current Sensors & CON011",
+    "desc": "Genuine Emerson EPRO PR6422-PR6426 eddy-current sensors and CON011 converters for turbine, gearbox and generator shaft vibration and position.",
+    "usage": "Radial and axial shaft displacement, position, eccentricity and speed/key measurement on steam, gas and hydro turbines, compressors, gearboxes, pumps and fans, with Emerson / EPRO MMS monitors or any system accepting the converter output.",
+    "features": [
+      "Genuine Emerson EPRO sensors: PR6422, PR6423 (8 mm, M10x1 versions), PR6424 (16 mm), PR6425 (16 mm high temperature), PR6426 (32 mm)",
+      "CON011 eddy-current signal converter: 0 to 20 kHz (-3 dB), rise time under 15 microseconds, -30 to +100 °C, supply -23 to -32 V DC, accepts PR6422 to PR6426 sensors",
+      "PR6424 16 mm: 4 V/mm, -35 to +150 °C, for shafts 80 mm diameter and above, API 670 compliant temperature error",
+      "PR6425 16 mm: 4 V/mm, operating 0 to 380 °C for hot casings and steam inlet areas",
+      "PR6426 32 mm: 2 V/mm, -35 to +175 °C, for shafts 200 mm and above",
+      "Extended-range CON011 variants available for larger measuring ranges (for example 3, 4, 6, 8, 10 mm); the PR6425 needs the extended-range converter",
+      "Sensors and converters are a matched system: sensor, cable length and converter model must correspond. Send the nameplate or old part number and we confirm the match",
+      "Brand and model names are trademarks of their respective owners and are used for identification only. Keshav Enterprises is an independent supplier."
+    ],
+    "specs": {
+      "Brand": "Emerson (EPRO), genuine",
+      "Sensors": "PR6422, PR6423, PR6424, PR6425, PR6426",
+      "Converter": "CON011 eddy-current signal converter (standard and extended range)",
+      "Converter Frequency Range": "0 to 20 kHz (-3 dB)",
+      "Converter Supply": "-23 to -32 V DC",
+      "PR6424 (16 mm)": "4 V/mm, -35 to +150 °C",
+      "PR6425 (16 mm HT)": "4 V/mm, 0 to 380 °C",
+      "PR6426 (32 mm)": "2 V/mm, -35 to +175 °C",
+      "Measures": "Radial and axial shaft displacement, position, eccentricity, speed/key",
+      "Typical Machines": "Steam turbines, gas and hydro turbines, compressors, gearboxes, pumps, fans",
+      "HSN Code": "9026"
+    },
+    "images": [
+      "epro-pr6424-1.webp",
+      "epro-pr6424-2.webp",
+      "epro-pr6424-3.webp",
+      "epro-pr6424-4.webp",
+      "epro-pr6424-5.webp",
+      "epro-pr6424-6.webp",
+      "epro-pr6424-7.webp",
+      "epro-pr6424-8.webp",
+      "epro-pr6424-9.webp",
+      "epro-pr6424-10.webp",
+      "epro-pr6424-11.webp",
+      "epro-pr6424-12.webp"
+    ],
+    "slug": "epro-pr6423-pr6424-eddy-current-sensors-and-con011",
+    "categorySlug": "electronic-equipments",
+    "priceRange": {
+      "min": 50000,
+      "max": 175000,
+      "unit": "per piece",
+      "note": "Sensors and CON011 converters priced by model. Firm quote by part number."
+    },
+    "availability": {
+      "label": "On Request",
+      "color": "amber",
+      "leadTime": "1–4 weeks"
+    },
+    "certifications": [
+      "API 670"
+    ]
+  },
+  "prod_ee9": {
+    "id": "prod_ee9",
+    "sku": "KTB-EE-009",
+    "category": "Electronic Equipments",
+    "title": "Vibro-Meter TQ402 / TQ442 Proximity Probes & IQS450",
+    "desc": "Genuine Meggitt vibro-meter TQ4xx proximity probes, EA40x cables and IQS450 conditioners for turbine shaft vibration and position monitoring.",
+    "usage": "Non-contact shaft vibration and axial position on steam, gas and hydraulic turbines and other critical machines using vibro-meter monitoring systems. Voltage or current output with short-circuit protection suits both rack monitors and direct DCS connection.",
+    "features": [
+      "Genuine vibro-meter system: TQ4xx proximity transducer + EA4xx extension cable + IQS450 (or IQS900) signal conditioner form a calibrated measuring chain",
+      "TQ401 / TQ402 / TQ403 / TQ412 / TQ422 / TQ423 / TQ432 / TQ442 transducer families available",
+      "TQ442 / EA402 / IQS450 system: 2 mm or 4 mm measuring range, DC to 20 kHz (-3 dB), -40 to +180 °C, 1 m, 5 m and 10 m systems, temperature compensated",
+      "Voltage or 2-wire current output with short-circuit protection; certified versions for potentially explosive atmospheres",
+      "Replacement or spares for existing vibro-meter chains: send transducer, cable and conditioner model numbers; the electrical lengths must match",
+      "Brand and model names are trademarks of their respective owners and are used for identification only. Keshav Enterprises is an independent supplier."
+    ],
+    "specs": {
+      "Brand": "Meggitt vibro-meter, genuine",
+      "Transducers": "TQ401, TQ402, TQ403, TQ412, TQ422, TQ423, TQ432, TQ442",
+      "Extension Cables": "EA401, EA402, EA403",
+      "Signal Conditioners": "IQS450, IQS900",
+      "TQ442 System Range": "2 mm or 4 mm",
+      "Frequency Response": "DC to 20 kHz (-3 dB)",
+      "Temperature": "-40 to +180 °C (TQ442)",
+      "System Lengths": "1 m, 5 m, 10 m (varies by model)",
+      "Output": "Voltage or current (2-wire), short-circuit protected",
+      "HSN Code": "9026"
+    },
+    "images": [
+      "vibrometer-tq4xx-1.webp",
+      "vibrometer-tq4xx-2.webp",
+      "vibrometer-tq4xx-3.webp",
+      "vibrometer-tq4xx-4.webp",
+      "vibrometer-tq4xx-5.webp",
+      "vibrometer-tq4xx-6.webp",
+      "vibrometer-tq4xx-7.webp",
+      "vibrometer-tq4xx-8.webp",
+      "vibrometer-tq4xx-9.webp",
+      "vibrometer-tq4xx-10.webp",
+      "vibrometer-tq4xx-11.webp",
+      "vibrometer-tq4xx-12.webp"
+    ],
+    "slug": "vibro-meter-tq402-tq442-proximity-probes-and-iqs450",
+    "categorySlug": "electronic-equipments",
+    "priceRange": {
+      "min": 30000,
+      "max": 150000,
+      "unit": "per piece",
+      "note": "Indicative, based on comparable proximity systems. Firm quote by part number."
+    },
+    "availability": {
+      "label": "On Request",
+      "color": "amber",
+      "leadTime": "1–4 weeks"
+    },
+    "certifications": []
+  },
+  "prod_ee10": {
+    "id": "prod_ee10",
+    "sku": "KTB-EE-010",
+    "category": "Electronic Equipments",
+    "title": "2-Wire 4-20 mA Vibration Transmitters (Shinkawa WK/WKN)",
+    "desc": "Genuine Shinkawa WK / WKN 2-wire 4-20 mA vibration and thrust transmitters for steam turbines, alternators, gearboxes, pumps and compressors. Direct DCS or PLC connection, no monitor rack.",
+    "usage": "Continuous shaft vibration or thrust position monitoring on small and medium machines where a full rack monitor is not justified: auxiliary steam turbines, boiler feed pumps, gearboxes, compressors, fans and alternators. The 4-20 mA loop signal goes straight to a DCS, PLC or indicator.",
+    "features": [
+      "Eddy-current transducer with built-in vibration or thrust conversion: 4-20 mA output with no separate vibration monitor or converter",
+      "2-wire current loop carries power and signal, so long cable runs and existing instrument cable can be reused. Power supply 12 to 35 V DC; maximum loop load 43.5 x (supply voltage - 12) ohm",
+      "Vibration transmitters WK-142K / WKN-142K: output ranges 0 to 100, 125, 200, 250 or 400 microns peak-to-peak, selected by model code; conversion accuracy +/-1.5% of full scale",
+      "Thrust transmitters WK-142T / WKN-142T: output range about -0.6 to 0 to +0.6 mm or -0.635 to 0 to +0.635 mm (-25 to +25 mil)",
+      "Linear range 1.4 mm (gap 0.3 to 1.7 mm), scale factor 7.87 mV/micron, frequency response 5 Hz to 6,000 Hz (-3 dB)",
+      "Transmitter fault output: the current falls to 3.6 mA or less when the sensor is open or shorted or the gap is outside the linear range, so the DCS can detect a failed loop",
+      "Complete system: WL-142K sensor, WW-142K extension cable and the transmitter, in 5 m, 7 m or 9 m system lengths; sensor and cable are supplied together because the system is calibrated as a loop",
+      "Transmitter housing about 100 x 74 x 50 mm with optional DIN mounting clips; non-incendive option (CSA Class I Div 2 Groups A-D, ATEX Ex nA)",
+      "Calibrated on JIS SCM440 (AISI 4140 equivalent) steel only. Insulate the sensor-cable-to-extension-cable connector with the supplied sleeve or fluoro-resin tape",
+      "Also available: Meggitt vibro-meter proximity systems with 2-wire current output (see the vibro-meter listing)",
+      "Brand and model names are trademarks of their respective owners and are used for identification only. Keshav Enterprises is an independent supplier."
+    ],
+    "specs": {
+      "Brand": "Shinkawa Electric, genuine",
+      "Models": "WK-142K, WK-142T, WKN-142K, WKN-142T (1, 2 and 5 system variants)",
+      "Output": "4-20 mA, 2-wire current loop",
+      "Vibration Output Ranges": "0 to 100, 125, 200, 250, 400 micron pk-pk (by model code)",
+      "Thrust Output Range": "Approx. -0.6 to +0.6 mm or -0.635 to +0.635 mm",
+      "Accuracy": "+/-1.5% of full scale (conversion)",
+      "Power Supply": "12 to 35 V DC; max load 43.5 x (Vps - 12) ohm",
+      "Linear Range / Scale Factor": "1.4 mm (gap 0.3 to 1.7 mm); 7.87 mV/micron",
+      "Frequency Response": "5 Hz to 6,000 Hz (-3 dB)",
+      "Fault Output": "3.6 mA or less on sensor open/short or out of range",
+      "System Components": "WL-142K sensor + WW-142K extension cable + WK/WKN transmitter",
+      "System Lengths": "5 m, 7 m, 9 m",
+      "Transmitter Size": "About 100 x 74 x 50 mm; DIN clips optional",
+      "Hazardous Area": "Non-incendive option (CSA Class I Div 2, ATEX Ex nA)",
+      "Calibration Target": "JIS SCM440 (AISI 4140 equivalent) steel",
+      "Typical Machines": "Auxiliary steam turbines, BFPs, gearboxes, compressors, alternators, fans",
+      "HSN Code": "9026"
+    },
+    "images": [
+      "wk-transmitter-1.webp",
+      "wk-transmitter-2.webp",
+      "wk-transmitter-3.webp",
+      "wk-transmitter-4.webp",
+      "wk-transmitter-5.webp",
+      "wk-transmitter-6.webp",
+      "wk-transmitter-7.webp",
+      "wk-transmitter-8.webp",
+      "wk-transmitter-9.webp",
+      "wk-transmitter-10.webp",
+      "wk-transmitter-11.webp",
+      "wk-transmitter-12.webp"
+    ],
+    "slug": "2-wire-4-20-ma-vibration-transmitters-shinkawa-wk-wkn",
+    "categorySlug": "electronic-equipments",
+    "priceRange": {
+      "min": 40000,
+      "max": 150000,
+      "unit": "per piece",
+      "note": "Price varies with measuring range and system length. Firm quote on request."
+    },
+    "availability": {
+      "label": "On Request",
+      "color": "amber",
+      "leadTime": "1–4 weeks"
+    },
+    "certifications": []
+  },
+  "prod_ee11": {
+    "id": "prod_ee11",
+    "sku": "KTB-EE-011",
+    "category": "Electronic Equipments",
+    "title": "Casing Vibration Sensors: Velomitor, CV-86 & Accelerometers",
+    "desc": "Genuine Bently Velomitor, Shinkawa CV-86, Hansford and SKF sensors for turbine, gearbox, alternator and motor bearing vibration. Quote by model.",
+    "usage": "Absolute (seismic) vibration on bearing pedestals, gearbox casings, alternator frames and motor end shields, where a shaft probe cannot be fitted or where casing vibration is an alarm or trip input. Used together with shaft proximity probes on turbine-gearbox-alternator trains, and alone for motors, fans and pumps.",
+    "features": [
+      "Bently Nevada 330500 Velomitor piezo-velocity sensor: 3.94 mV/mm/s (100 mV/in/s) +/-5%, 4.5 Hz to 5 kHz (+/-3 dB), up to 1,270 mm/s peak, -55 to +121 °C, 316L stainless steel, 2-pin MIL-C-5015, any mounting angle",
+      "Bently Nevada 330525 Velomitor XA: weatherproof version, IP65 / NEMA 4X, no enclosure needed",
+      "Bently Nevada 330400 / 330425 accelerometers: 100 mV/g with 50 g range, or 25 mV/g with 75 g range, -24 V DC supply, -55 to +121 °C, designed for API 670 gear-mesh monitoring",
+      "Shinkawa CV-86 piezoelectric velocity transducer: 3.94 mV/mm/s, 2.5 Hz to 3,500 Hz +/-10%, IP67, built-in integrator",
+      "Shinkawa CV-87 high-temperature velocity transducer: 5.90 mV/mm/s, 30 to 1,000 Hz, -54 to +375 °C, needs no power supply, suited to hot gas and steam turbine bearing housings",
+      "Hansford HS-100 series industrial accelerometers (IEPE): 10 to 500 mV/g options, 100 mV/g with +/-80 g range, stainless steel, IP67 versions, -55 to +140 °C, 18 to 30 V DC supply, for motors, fans, pumps, gearboxes and compressors",
+      "SKF CMSS 2100 / 2200 general-purpose accelerometers: 100 mV/g, 80 g peak, 2 to 10 mA constant-current supply (4 mA recommended) for motors, pumps and fans",
+      "Tell us the machine, bearing type, expected speed, hazardous-area class and your monitor or data collector input (IEPE, -24 V, or passive) and we match the correct sensor",
+      "Brand and model names are trademarks of their respective owners and are used for identification only. Keshav Enterprises is an independent supplier."
+    ],
+    "specs": {
+      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (all genuine)",
+      "Velocity Sensors": "Bently Nevada 330500 / 330525 Velomitor; Shinkawa CV-86, CV-87",
+      "Accelerometers": "Bently Nevada 330400 / 330425; Hansford HS-100 series; SKF CMSS 2100 / 2200",
+      "Velomitor Sensitivity": "3.94 mV/mm/s (100 mV/in/s) +/-5%",
+      "CV-86 Frequency Range": "2.5 to 3,500 Hz +/-10%",
+      "CV-87 Temperature": "-54 to +375 °C",
+      "Accelerometer Sensitivities": "25, 100 mV/g (Bently); 10 to 500 mV/g (Hansford); 100 mV/g (SKF)",
+      "Typical Steam Turbine Use": "Bearing pedestal vibration, horizontal and vertical at each bearing",
+      "Typical Gearbox Use": "Casing near the high-speed pinion bearing; accelerometer for gear-mesh frequencies",
+      "Typical Alternator Use": "Bearing housings at drive end and non-drive end",
+      "Typical Motor Use": "Bearing housing, drive end and non-drive end, horizontal / vertical / axial",
+      "HSN Code": "9031"
+    },
+    "images": [
+      "casing-vibration-sensors-1.webp",
+      "casing-vibration-sensors-2.webp",
+      "casing-vibration-sensors-3.webp",
+      "casing-vibration-sensors-4.webp",
+      "casing-vibration-sensors-5.webp",
+      "casing-vibration-sensors-6.webp",
+      "casing-vibration-sensors-7.webp",
+      "casing-vibration-sensors-8.webp",
+      "casing-vibration-sensors-9.webp",
+      "casing-vibration-sensors-10.webp",
+      "casing-vibration-sensors-11.webp",
+      "casing-vibration-sensors-12.webp"
+    ],
+    "slug": "casing-vibration-sensors-velomitor-cv-86-and-accelerometers",
+    "categorySlug": "electronic-equipments",
+    "priceRange": {
+      "min": 20000,
+      "max": 100000,
+      "unit": "per piece",
+      "note": "Price varies widely by make and model. Firm quote by model."
+    },
+    "availability": {
+      "label": "On Request",
+      "color": "amber",
+      "leadTime": "1–4 weeks"
+    },
+    "certifications": []
   },
   "prod_ee2": {
     "id": "prod_ee2",
@@ -3613,7 +3943,7 @@
       "min": 5500,
       "max": 45000,
       "unit": "per piece",
-      "note": "Vibration sensor / monitoring instrument"
+      "note": "Speed sensor / magnetic pickup"
     },
     "availability": {
       "label": "On Request",

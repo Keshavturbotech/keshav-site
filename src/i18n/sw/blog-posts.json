@@ -577,5 +577,166 @@
         "text": "Tunatoa mifuko ya kichujio ya pulse-jet katika madaraja ya polyester, aramid, PPS, nyuzi za kioo, na utando wa PTFE, pamoja na vipengele vya katriji iliyokunjwa, kwa baghouse za saruji, umeme, dawa, na kushughulikia nafaka kote India. Tutumie vipimo vya mfuko wako na maelezo ya matumizi kupitia WhatsApp kwa bei ya siku hiyo hiyo."
       }
     ]
+  },
+  "post_8": {
+    "id": "post_8",
+    "slug": "vibration-probe-sensor-selection-guide-turbines-gearboxes-motors",
+    "title": "Mwongozo wa Kuchagua Probe na Vitambuzi vya Mtetemo kwa Turbine, Masanduku ya Gia na Mota",
+    "excerpt": "Jinsi ya kuchagua kati ya probe za ukaribu, visambaza vya 4-20 mA, vitambuzi vya kasi na accelerometer kwa turbine za mvuke, alternator, masanduku ya gia na mota.",
+    "date": "2026-10-09",
+    "author": "Timu ya Uhandisi ya Keshav Enterprises",
+    "readTime": "Dakika 7 za kusoma",
+    "tags": [
+      "Ufuatiliaji wa Mtetemo",
+      "Probe za Ukaribu",
+      "Turbine ya Mvuke",
+      "Ufuatiliaji wa Hali",
+      "Shinkawa",
+      "Bently Nevada"
+    ],
+    "coverImage": "blog-vibration-sensor-selection.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Kwa Nini Kitambuzi Sahihi ni Muhimu"
+      },
+      {
+        "type": "p",
+        "text": "Probe na vitambuzi vya mtetemo ni safu ya kwanza ya ulinzi wa mfululizo wa turbine ya mvuke. Kitambuzi kisicho sahihi au kisicholingana hakitoi usomaji mbaya tu: kinaweza kuzima mashine nzima isiyo na tatizo au, vibaya zaidi, kukosa hitilafu inayoendelea kukua. Uchaguzi hutegemea kinachohitaji kupimwa, kifuatiliaji au mfumo wa udhibiti unaopokea ishara, na mazingira ya kazi kwenye bearing."
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 1: Amua Unachohitaji Kupima"
+      },
+      {
+        "type": "p",
+        "text": "Kuna aina mbili tofauti za kupima mtetemo, na mifululizo mingi ya turbine hutumia zote mbili."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Mtetemo na nafasi ya shaft (kulingana na bearing): probe za ukaribu za mkondo wa eddy, zinazotumika kwa mtetemo wa radial, nafasi ya msukumo wa axial, eccentricity, kasi na ishara ya Keyphasor mara moja kwa kila mzunguko.",
+          "Mtetemo wa kasha au nyumba ya bearing (kamili): vitambuzi vya kasi na accelerometer, vinavyotumika mahali ambapo probe haiwezi kuwekwa, kwenye mota, pampu na feni, na kwa ishara za masafa ya juu za uchezaji wa gia na bearing za kuviringika."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 2: Linganisha Mfumo Mzima, Si Probe Pekee"
+      },
+      {
+        "type": "p",
+        "text": "Mfumo wa ukaribu una sehemu tatu: probe, kebo ya nyongeza na driver (inayoitwa pia proximitor au kibadilishaji ishara). Hupimwa pamoja, na urefu wa kebo ni sehemu ya upimaji huo. Kwa mfano, Shinkawa inasema kitambuzi cha 5 m hufanya kazi katika mfumo wa 5 m pekee. Agiza sehemu zote tatu kama seti kila wakati."
+      },
+      {
+        "type": "p",
+        "text": "Mifumo ya chapa tofauti haibadilishani kwa uhuru. Mifumo ya Shinkawa FK na Bently Nevada 3300 XL 8 mm ina kigezo kimoja cha kipimo cha 7.87 V/mm (200 mV/mil). Vitambuzi vya Emerson EPRO hufanya kazi tofauti: PR6424 16 mm hutoa 4 V/mm na inahitaji kibadilishaji CON011 tofauti. Mifumo ya Meggitt vibro-meter hutumia transducer zake za TQ, nyaya za nyongeza za EA na virekebishaji ishara vya IQS450. Tutumie bamba la jina la kilichowekwa nasi tutathibitisha mbadala sahihi kabla ya kutoa bei."
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 3: Sehemu za Kawaida za Kupima kwa Kila Mashine"
+      },
+      {
+        "type": "h3",
+        "text": "Turbine ya mvuke"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Probe za ukaribu za radial XY kwenye kila bearing ya kubeba",
+          "Probe mbili au tatu za axial kwenye kola ya msukumo kwa nafasi ya msukumo",
+          "Probe moja ya Keyphasor kwenye kota au mkato wa rota",
+          "Probe ya eccentricity kwenye bearing ya mbele, na probe za masafa marefu mahali upanuzi tofauti unapofuatiliwa",
+          "Vitambuzi vya kasi vya kasha kwenye misingi ya bearing kama akiba"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Sanduku la gia"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Probe za radial XY kwenye bearing za pinion ya kasi ya juu na gia ya kasi ya chini",
+          "Probe moja ya axial kwenye shaft ya pinion kwa msukumo",
+          "Accelerometer kwenye kasha kwa masafa ya uchezaji wa gia"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Alternator"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Probe za radial XY kwenye bearing za upande wa kuendesha na upande wa pili",
+          "Rejeo la kasi na fasi kutoka kwenye shaft",
+          "Vitambuzi vya kasi vya kasha au accelerometer kwenye nyumba zote mbili za bearing"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Mota, pampu na feni"
+      },
+      {
+        "type": "p",
+        "text": "Mota nyingi hufuatiliwa kwenye nyumba ya bearing badala ya kwenye shaft. Kitambuzi cha kasi au accelerometer ya IEPE iliyowekwa upande wa kuendesha na upande wa pili kwa mielekeo ya mlalo, wima na axial hutoa onyo la mapema la kutosawazika, kutopangiliwa na uchakavu wa bearing. Probe za shaft kwa kawaida huhifadhiwa kwa mota kubwa zenye bearing za kuteleza."
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 4: Chagua Pato Unalohitaji"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Pato la driver ya ukaribu ya -24 V DC: hutumika na kifuatiliaji cha mtetemo cha raki au paneli, kama Shinkawa mfululizo wa VM au Bently Nevada 3500, kinachotoa data ya kengele, kuzima na uchunguzi.",
+          "Kisambaza cha waya 2 cha 4-20 mA: mfululizo wa Shinkawa WK / WKN hubadilisha ishara ya probe kuwa mzunguko wa 4-20 mA unaounganishwa moja kwa moja na DCS au PLC bila kifuatiliaji. Inafaa kwa turbine za usaidizi, pampu za maji ya boiler, masanduku ya gia na mashine ndogo zaidi.",
+          "Vitambuzi vya kasha vyenye pato la IEPE au volteji: hutumika na vikusanya data, vifuatiliaji vya mtandaoni na kadi za pembejeo za PLC kulingana na aina ya kitambuzi."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Hatua ya 5: Kagua Mazingira"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Joto: probe za Shinkawa FK na Bently 3300 XL 8 mm zimekadiriwa hadi takriban nyuzi 177 C. Kitambuzi cha kasi cha joto la juu cha Shinkawa CV-87 hufikia nyuzi 375 C.",
+          "Mafuta: mahali mafuta yanaweza kufika kwenye kebo, tumia kebo ya probe yenye ngao na mipako ya resini ya fluorini na uweke kiunganishi kati ya probe na kebo ya nyongeza mbali na mafuta, kwa sababu mafuta hubadilisha uwezo wa umeme wa kebo na unyeti.",
+          "Maeneo hatari: driver salama kiasili zinahitaji kizuizi cha usalama na msimbo wa cheti unaolingana. Visambaza visivyosababisha moto vina uainishaji tofauti. Taja uainishaji wa eneo lako unapouliza.",
+          "Nyenzo ya lengo: mifumo ya ukaribu kwa kawaida hupimwa kwa chuma cha aina ya 4140. Nyenzo tofauti ya shaft hubadilisha kigezo cha kipimo."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Makosa ya Kawaida ya Kuepuka"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Kuchanganya probe, kebo au driver za urefu tofauti wa mfumo au chapa tofauti",
+          "Kuweka pengo la probe nje ya masafa ya mstari, jambo linalosababisha ishara bapa au iliyopotoshwa",
+          "Kuacha kiunganishi cha kebo ya nyongeza kikiwa kwenye mafuta, au kukifunga kwa utepe wa kawaida wa vinyl kwenye kasha moto",
+          "Kufanya jaribio la megger kwenye kebo iliyounganishwa bila kuitoa chaji kwanza, jambo linaloweza kuharibu driver",
+          "Kutumia kitambuzi cha kasha mahali panapohitaji probe ya shaft kwa ulinzi, au kinyume chake"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Cha Kututumia ili Kupata Bei"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Aina, chapa na modeli ya mashine (turbine ya mvuke, sanduku la gia, alternator au mota)",
+          "Chapa na modeli ya probe, kebo, driver na kifuatiliaji vilivyopo, au picha ya mabamba ya majina",
+          "Urefu wa mfumo, ukubwa na nyuzi za probe, na nyenzo ya shaft",
+          "Pato linalohitajika (-24 V, 4-20 mA, IEPE) na uainishaji wa eneo hatari, ikiwa upo"
+        ]
+      },
+      {
+        "type": "cta",
+        "text": "Tunasambaza probe, visambaza na vitambuzi vya kasha asili vya Shinkawa, Bently Nevada, EPRO, vibro-meter, Hansford na SKF kwa turbine za mvuke, alternator, masanduku ya gia na mota. Tuma bamba lako la jina kupitia WhatsApp ili upate bei inayolingana."
+      }
+    ]
   }
 }

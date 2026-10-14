@@ -3362,31 +3362,6 @@
     "sku": "KTB-EE-001",
     "category": "Elektronische Geräte",
     "title": "Schwingungsüberwachungssonden (Shinkawa-kompatibel)",
-    "desc": "Hochpräzise berührungslose Wirbelstrom-Wegaufnehmer zur kontinuierlichen Überwachung der Turbinenwellenschwingung und Axialposition. Konform mit API 670.",
-    "usage": "Kontinuierliche Überwachung der radialen Wellenschwingung, Axiallagerposition und axialen Verschiebung bei Hochgeschwindigkeits-Dampfturbinen, Verdichtern und rotierenden Maschinen.",
-    "features": [
-      "Berührungsloses Wirbelstrom-Messprinzip – kein physischer Wellenkontakt",
-      "Misst radiale Wellenschwingungsamplitude und axiale Verschiebung",
-      "Konform mit API 670 für Maschinenschutzsysteme",
-      "Frequenzgang: DC bis 10 kHz Messbandbreite",
-      "Signalausgang: 4–20 mA (4-Draht) oder –24 V DC je nach Treiber",
-      "Sondenmessbereich: 0,25–2,5 mm (kalibriert bei nominal 1,0 mm)",
-      "Temperatur: Sonde –50 bis +175 °C; Treiberelektronik –40 bis +85 °C",
-      "Empfindlichkeit: 8 mV pro µm Standardkalibrierung",
-      "Integriertes Kabel: gepanzerter Edelstahl für raue Industrieumgebungen"
-    ],
-    "specs": {
-      "Measurement Principle": "Berührungslose Wirbelstrom-Wegmessung",
-      "Standard Compliance": "API 670 – Maschinenschutzsysteme",
-      "Frequency Response": "DC bis 10 kHz Bandbreite",
-      "Signal Output": "4–20 mA oder –24 V DC (treiberabhängig)",
-      "Sensitivity": "8 mV/µm (Standardkalibrierung)",
-      "Probe Gap Range": "0,25–2,5 mm (kalibriert bei nominal 1,0 mm)",
-      "Probe Temperature Rating": "–50 bis +175 °C",
-      "Cable Type": "Gepanzerter Edelstahl",
-      "Certifications": "Der Sensor selbst ist ein passives, nicht zertifiziertes 'einfaches Betriebsmittel'; die Eignung für den Ex-Bereich ergibt sich aus dem passenden Signalwandler, nicht aus dem Sensor selbst. Shinkawa-kompatible 2-Draht-Messumformer sind mit CSA-, ATEX- und TIIS-Zulassung (Japan) für explosionsgefährdete Bereiche erhältlich — bitte die Zertifizierung des zugehörigen Messumformers für Ihre Zonen-Klassifizierung prüfen.",
-      "HSN Code": "9026"
-    },
     "images": [
       "vibration-probe-shinkawa-1.webp",
       "vibration-probe-shinkawa-2.webp",
@@ -3404,15 +3379,207 @@
     "slug": "vibration-monitoring-probes-shinkawa-compatible",
     "categorySlug": "electronic-equipments",
     "priceRange": {
-      "min": 3500,
-      "max": 22000,
-      "unit": "pro Stück",
-      "note": "Drehzahlsensor / Näherungsschalter; induktiv/Halleffekt"
+      "min": 25000,
+      "max": 100000,
+      "unit": "pro Stück"
     },
     "availability": {
       "label": "Auf Anfrage",
       "color": "amber",
       "leadTime": "1–4 Wochen"
+    },
+    "desc": "Original Shinkawa FK- / VK-Wirbelstrom-Näherungssonden, Verlängerungskabel und Treiber zur Schwingungs- und Axialschubüberwachung an Dampfturbinen, Getrieben und Generatoren. Ab Lager in Shamli, UP.",
+    "usage": "Berührungslose Messung von radialer Wellenschwingung, axialer Position (Axialschub), Exzentrizität, Drehzahl und Phasenreferenz (Keyphasor) an Dampfturbinen, Turbogeneratoren, Getrieben, Verdichtern, Kesselspeisepumpen und großen Lüftern. Speist Shinkawa-Monitore VM-5 / VM-7 / VM-25, andere Überwachungssysteme nach API 670 sowie DCS- oder SPS-Eingänge.",
+    "features": [
+      "Original Shinkawa-Aufnehmersystem aus drei abgestimmten Teilen: FL-Sensor (Sonde), FW-Verlängerungskabel und FK-Treiber. Alle drei werden gemeinsam als Messkette kalibriert; wird ein Teil ersetzt, sollten Sensor, Kabel und Treiber als Satz getauscht werden",
+      "FK-Serie (aktuelle Baureihe) und VK-Serie (ältere Anlagen) lieferbar. FK-Treiber haben eine Montageplatte für den direkten Ersatz von VK-Treibern; die Messung der Differenzausdehnung nutzt weiterhin die VK-Serie",
+      "FL-Sensor (Sonde): FL-202F05 mit 5-mm-Spitze und 2.7-mm-Kabel; FL-202F08 mit 8-mm-Spitze und 3.6-mm-Kabel; die 8-mm-Sonde gibt es auch in Rückwärtsmontage (FL-202F08R)",
+      "Sensorausführungen: L ohne Armierung, A mit flexibler Edelstahlarmierung, T mit Armierung und Fluorharzbeschichtung für ölige Umgebungen. Das fest angeschlossene Sensorkabel ist je nach Modell ca. 0.5 m oder 1.0 m lang; Gehäuse mit Zollgewinde (UNF), z. B. 3/8-24 UNF, werden in Zoll angegeben",
+      "FW-Verlängerungskabel (FW-202F): Ausführungen L (ohne Armierung), A (armiert) und T (armiert mit Fluorharzbeschichtung); typischerweise 4.5 m für ein 5-m-System und 8.5 m für ein 9-m-System bei 0.5 m Sensorkabel",
+      "Das Verlängerungskabel hat 3.6 mm Durchmesser und ist für -40 bis +177 °C ausgelegt (FK-202F); eine Kabeloption zur Verringerung von Ölwanderung steht für Anlagen bereit, in denen Öl am Kabel entlang kriechen kann",
+      "Der Steckverbinder zwischen Sensor und Kabel hat ca. 7.1 mm Durchmesser. Mit dem mitgelieferten Schrumpfschlauch oder Fluorharzband isolieren (oberhalb 80 °C kein Vinylband) und aus dem Öl heraushalten, da Öl im Kabel die Kabelkapazität und die Empfindlichkeit verändert",
+      "Die Kabellänge gehört zur Kalibrierung: Ein 5-m-Sensor arbeitet nur in einem 5-m-System und kann nicht in einem 9-m-System eingesetzt werden",
+      "FK-Treiber (Signalumformer / Proximitor): wandelt den Sondenabstand in ein proportionales Signal von -24 V DC für den Monitor um. FK-202F: Skalierungsfaktor 7.87 V/mm, DC bis 10 kHz (-3 dB), Ausgangsimpedanz 50 ohm, Versorgung -24 V DC +/-10% bei max. 15 mA, Treibertemperatur -40 bis +80 °C, ca. 200 g",
+      "Bei offenem oder kurzgeschlossenem Sensor fällt der Treiberausgang auf ca. -0.6 V, sodass der Monitor einen Sensorfehler anzeigen kann",
+      "Treiber-Modellschlüssel FK-202F[length]-[mounting]-[terminal]: Länge 1 = 5 m, 2 = 9 m; Montage 1 = 35-mm-DIN-Schiene, 2 = Schraubmontage 50.8 x 50.8 mm, 3 = Schraubmontage 92 x 31 mm (VK-Ersatz), 4 = Mehrfach-Raster; Klemme 1 = M4-Schraube, 2 = Federkraftklemme. Beispiel: FK-202F2-2-2 ist ein 9-m-Treiber auf 50.8-mm-Platte mit Federkraftklemmen",
+      "Eigensichere Versionen tragen das Suffix /EX für Zulassungen nach DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS oder TR-CU; eine Sicherheitsbarriere wird empfohlen (Shinkawa nennt MTL 7796-) und verringert den linearen Bereich auf ca. 95%",
+      "Weitere FK-Modelle: FK-452F (4.5 mm Bereich), FK-302F (3 mm), FK-602F (6 mm, 18-mm-Spitze, Verlängerungskabel -40 bis +125 °C), FK-143F, FK-263F und das Langkabelsystem FK-152R",
+      "Sie brauchen einen 4-20-mA-Ausgang statt eines -24-V-Signals? Die 2-Leiter-Messumformer Shinkawa WK / WKN für Schwingung und Axialschub schließen direkt an DCS oder SPS an, ganz ohne Monitor (siehe Angebot 4-20-mA-Messumformer)",
+      "Kalibriert auf JIS-SCM440-Stahl (Typ 4140); andere Wellenwerkstoffe verändern den Skalierungsfaktor. Den Schirm des Signalkabels an die COM-Klemme des Treibers anschließen und das Kabel vor einer Isolationsprüfung entladen, um den Treiber zu schützen",
+      "Für Drehzahl- oder Keyphasor-Anwendungen empfiehlt Shinkawa einen Einstellabstand von 1.0 bis 1.5 mm sowie eine Mindestbreite und -tiefe des Messobjekts; senden Sie uns die Abmessungen Ihres Zahnrads oder Keils, wir bestätigen die passende Sonde",
+      "Hilfe bei Nachrüstungen: Senden Sie das alte Typenschild (VK-202A1, VK-202A2, FK-202F usw.) mit der Sensorlänge, wir ermitteln den passenden Ersatz",
+      "Nach API 670 ausgelegtes System für den Maschinenschutz; FK-Serie RoHS-konform",
+      "Marken- und Modellnamen sind Marken der jeweiligen Inhaber und dienen nur der Identifikation. Keshav Enterprises ist ein unabhängiger Lieferant."
+    ],
+    "specs": {
+      "Brand": "Shinkawa Electric (Original)",
+      "Series": "FK (aktuell) und VK (Altbestand). 2-Leiter-Messumformer WK/WKN und Gehäusesensoren CV/CA in separaten Angeboten",
+      "Measurement Principle": "Berührungslose Wirbelstrom-Wegmessung",
+      "System": "FL-Sensor + FW-Verlängerungskabel + FK-Treiber (abgestimmter Satz)",
+      "Sensor (FL-202F)": "FL-202F05: 5-mm-Spitze, 2.7-mm-Kabel; FL-202F08: 8-mm-Spitze, 3.6-mm-Kabel; FL-202F08R: 8 mm Rückwärtsmontage. Ausführungen L / A / T (ohne Armierung / armiert / armiert mit Fluorharz)",
+      "Extension Cable (FW-202F)": "Ausführungen L / A / T; ca. 4.5 m (5-m-System) oder 8.5 m (9-m-System); -40 bis +177 °C",
+      "Connector": "Durchmesser ca. 7.1 mm; aus dem Öl heraushalten; mit Schrumpfschlauch oder Fluorharzband isolieren",
+      "System Cable Length": "5 m oder 9 m (5-m-Sensoren arbeiten nur in 5-m-Systemen)",
+      "Driver (FK-202F)": "-24 V DC +/-10%, max. 15 mA; Ausgangsimpedanz 50 ohm; ca. -0.6 V bei Sensorfehler; ca. 200 g",
+      "Driver Mounting Options": "DIN-Schiene 35 mm; Schraubmontage 50.8 x 50.8 mm; Schraubmontage 92 x 31 mm (VK-Ersatz); Mehrfach-Raster",
+      "Driver Terminals": "M4-Schraubklemmenblock oder Federkraftklemme",
+      "Reference Model (FK-202F)": "Bereich 0.25 bis 2.25 mm ab Sensorspitze, Skalierungsfaktor 7.87 V/mm, DC bis 10 kHz (-3 dB)",
+      "Temperature": "Sensor und Verlängerungskabel -40 bis +177 °C; Treiber -40 bis +80 °C",
+      "Calibration Target": "Flachstahl JIS SCM440 (Typ 4140); andere Werkstoffe auf Anfrage",
+      "Hazardous Area Options": "Eigensichere FK-Varianten: DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (je nach Modellschlüssel)",
+      "2-Wire Transmitter Option": "Shinkawa WK / WKN 4-20-mA-Messumformer, siehe separates Angebot",
+      "Typical Steam Turbine Use": "Radiale XY-Sonden an jedem Traglager, 2 bis 3 Axialsonden am Spurlagerbund, 1 Keyphasor-Sonde, Exzentrizitätssonde am vorderen Lager",
+      "Typical Gearbox Use": "Radiale XY-Sonden an den Lagern von schnelllaufendem Ritzel und langsamlaufendem Rad, Axialsonde für den Ritzelschub",
+      "Typical Alternator Use": "Radiale XY-Sonden an Antriebs- und Nichtantriebsseite, Drehzahl- und Phasenreferenz",
+      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, andere Systeme mit -24-V-DC-Näherungstreiber-Eingang, DCS/SPS über Signalwandler"
+    }
+  },
+  "prod_ee7": {
+    "id": "prod_ee7",
+    "sku": "KTB-EE-007",
+    "category": "Elektronische Geräte",
+    "title": "Bently Nevada 3300 XL Näherungssonden-Systeme",
+    "desc": "Original Bently Nevada 3300 XL Näherungssonden, 330130-Verlängerungskabel und Proximitor-Sensoren zur Schwingungs- und Axialschubüberwachung an Turbinen, Getrieben und Generatoren. Angebot nach Teilenummer.",
+    "usage": "Radiale Schwingung, axiale Position, Exzentrizität, Differenzausdehnung sowie Drehzahl-/Phasenreferenz an Turbomaschinen mit Überwachungssystemen Bently Nevada 3500 oder 3300. Die 5-mm- und 8-mm-Sonden decken die üblichen Messungen an Gleitlagern und am Axialschub ab; die größeren Systeme mit 11, 16, 25 und 50 mm decken Messungen mit großem Bereich und Ausdehnungsmessungen ab.",
+    "features": [
+      "Original Bently Nevada 3300 XL System: Sonde, 330130-Verlängerungskabel und 330180-Proximitor-Sensor, mit voller Austauschbarkeit der Komponenten, sodass kein Abgleich am Prüfstand nötig ist",
+      "3300 XL 8 mm: linearer Bereich 0.25 bis 2.3 mm (10 bis 90 mil), Skalierungsfaktor 7.87 V/mm (200 mV/mil) +/-5%, empfohlener Abstand 1.27 mm bei ca. -9 V DC, Sonde -51 bis +177 °C",
+      "Erfüllt API 670 (4. Ausgabe) für das Standardsystem 8 mm / 5 m: mechanische Konfiguration, linearer Bereich, Genauigkeit und Temperaturstabilität",
+      "3300 XL 8-mm-Komponenten sind elektrisch und mechanisch mit Nicht-XL-3300-Komponenten (5 mm und 8 mm) austauschbar, sodass XL-Teile ältere 3300-Ersatzteile ersetzen können",
+      "Sondenspitze aus Polyphenylensulfid (PPS), Gehäuse aus Edelstahl 303/304, FEP-Kabel, Viton-O-Ring und vergoldeter ClickLoc-Steckverbinder",
+      "Verlängerungskabel in Standard- oder FluidLoc-Ausführung (flüssigkeitsbeständig) mit Zulassungen nach CSA, ATEX und IECEx",
+      "Optionen mit großem Messbereich für Dampfturbinen: 3300 XL Systeme mit 25 mm und 50 mm für Differenzausdehnung; das 50-mm-System hat einen Messbereich von ca. 27.9 mm (1,100 mil)",
+      "Angebot mit vollständiger Teilenummer anfordern (zum Beispiel 330103-xx-xx-xx-xx-xx mit 330130-xxx-xx-xx und 330180-xx-xx) oder altes Typenschild senden",
+      "Marken- und Modellnamen sind Marken der jeweiligen Inhaber und dienen nur der Identifikation. Keshav Enterprises ist ein unabhängiger Lieferant."
+    ],
+    "specs": {
+      "Brand": "Bently Nevada (Baker Hughes), Original",
+      "System Components": "3300 XL Sonde + 330130 Verlängerungskabel + 330180 Proximitor-Sensor",
+      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (3300 XL Baureihe)",
+      "8 mm Linear Range / Scale Factor": "0.25 bis 2.3 mm; 7.87 V/mm (200 mV/mil) +/-5%",
+      "8 mm Probe Temperature": "-51 bis +177 °C",
+      "50 mm System Range": "ca. 27.9 mm (1,100 mil) für Differenzausdehnung",
+      "Standard": "API 670 (4. Ausgabe) für das Standardsystem 8 mm / 5 m",
+      "Compatible Monitors": "Bently Nevada Serien 3500 und 3300",
+      "Typical Steam Turbine Use": "Radiale XY-Sonden an jedem Lager, Axialpositionssonden, Keyphasor, Differenzausdehnung mit 25-mm- oder 50-mm-Sonden",
+      "Typical Gearbox Use": "Radialsonden an Ritzel- und Radlagern, Axialsonde für Ritzelschub und Zahneingriff",
+      "Typical Alternator Use": "Radiale XY-Sonden an beiden Lagern, Keyphasor-/Drehzahlreferenz"
+    }
+  },
+  "prod_ee8": {
+    "id": "prod_ee8",
+    "sku": "KTB-EE-008",
+    "category": "Elektronische Geräte",
+    "title": "EPRO PR6423 / PR6424 Wirbelstromsensoren und CON011",
+    "desc": "Original Emerson EPRO Wirbelstromsensoren PR6422 bis PR6426 und CON011-Signalwandler zur Messung von Wellenschwingung und -position an Turbinen, Getrieben und Generatoren.",
+    "usage": "Messung von radialer und axialer Wellenverlagerung, Position, Exzentrizität und Drehzahl/Keil an Dampf-, Gas- und Wasserturbinen, Verdichtern, Getrieben, Pumpen und Lüftern, mit Emerson-/EPRO-MMS-Monitoren oder jedem System, das den Wandlerausgang akzeptiert.",
+    "features": [
+      "Original Emerson EPRO Sensoren: PR6422, PR6423 (8 mm, Ausführungen M10x1), PR6424 (16 mm), PR6425 (16 mm Hochtemperatur), PR6426 (32 mm)",
+      "Wirbelstrom-Signalwandler CON011: 0 bis 20 kHz (-3 dB), Anstiegszeit unter 15 Mikrosekunden, -30 bis +100 °C, Versorgung -23 bis -32 V DC, akzeptiert Sensoren PR6422 bis PR6426",
+      "PR6424 16 mm: 4 V/mm, -35 bis +150 °C, für Wellen ab 80 mm Durchmesser, Temperaturfehler nach API 670",
+      "PR6425 16 mm: 4 V/mm, Betrieb 0 bis 380 °C für heiße Gehäuse und Dampfeintrittsbereiche",
+      "PR6426 32 mm: 2 V/mm, -35 bis +175 °C, für Wellen ab 200 mm",
+      "Varianten des CON011 mit erweitertem Bereich für größere Messbereiche (zum Beispiel 3, 4, 6, 8, 10 mm); der PR6425 benötigt den Wandler mit erweitertem Bereich",
+      "Sensor und Wandler bilden ein abgestimmtes System: Sensor, Kabellänge und Wandlermodell müssen zueinander passen. Senden Sie das Typenschild oder die alte Teilenummer, wir bestätigen die Zuordnung",
+      "Marken- und Modellnamen sind Marken der jeweiligen Inhaber und dienen nur der Identifikation. Keshav Enterprises ist ein unabhängiger Lieferant."
+    ],
+    "specs": {
+      "Brand": "Emerson (EPRO), Original",
+      "Converter": "CON011 Wirbelstrom-Signalwandler (Standard- und erweiterter Bereich)",
+      "Measures": "Radiale und axiale Wellenverlagerung, Position, Exzentrizität, Drehzahl/Keil",
+      "Typical Machines": "Dampf-, Gas- und Wasserturbinen, Verdichter, Getriebe, Pumpen, Lüfter"
+    }
+  },
+  "prod_ee9": {
+    "id": "prod_ee9",
+    "sku": "KTB-EE-009",
+    "category": "Elektronische Geräte",
+    "title": "Vibro-Meter TQ402 / TQ442 Näherungssonden und IQS450",
+    "desc": "Original Meggitt vibro-meter TQ4xx Näherungssonden, EA40x-Kabel und IQS450-Signalaufbereiter zur Überwachung von Wellenschwingung und -position an Turbinen.",
+    "usage": "Berührungslose Wellenschwingung und axiale Position an Dampf-, Gas- und Wasserturbinen sowie anderen kritischen Maschinen mit vibro-meter-Überwachungssystemen. Der kurzschlussgeschützte Spannungs- oder Stromausgang eignet sich sowohl für Rackmonitore als auch für den direkten Anschluss an ein DCS.",
+    "features": [
+      "Original vibro-meter System: TQ4xx Näherungsaufnehmer + EA4xx Verlängerungskabel + IQS450 (oder IQS900) Signalaufbereiter bilden zusammen eine kalibrierte Messkette",
+      "Aufnehmerfamilien TQ401 / TQ402 / TQ403 / TQ412 / TQ422 / TQ423 / TQ432 / TQ442 lieferbar",
+      "System TQ442 / EA402 / IQS450: Messbereich 2 mm oder 4 mm, DC bis 20 kHz (-3 dB), -40 bis +180 °C, Systeme mit 1 m, 5 m und 10 m, temperaturkompensiert",
+      "Spannungs- oder 2-Leiter-Stromausgang mit Kurzschlussschutz; zertifizierte Versionen für explosionsgefährdete Bereiche",
+      "Ersatz oder Ersatzteile für bestehende vibro-meter-Messketten: Senden Sie die Modellnummern von Aufnehmer, Kabel und Aufbereiter; die elektrischen Längen müssen übereinstimmen",
+      "Marken- und Modellnamen sind Marken der jeweiligen Inhaber und dienen nur der Identifikation. Keshav Enterprises ist ein unabhängiger Lieferant."
+    ],
+    "specs": {
+      "Brand": "Meggitt vibro-meter, Original",
+      "Extension Cables": "EA401, EA402, EA403",
+      "TQ442 System Range": "2 mm oder 4 mm",
+      "Frequency Response": "DC bis 20 kHz (-3 dB)",
+      "Temperature": "-40 bis +180 °C (TQ442)",
+      "System Lengths": "1 m, 5 m, 10 m (je nach Modell)",
+      "Output": "Spannung oder Strom (2-Leiter), kurzschlussfest"
+    }
+  },
+  "prod_ee10": {
+    "id": "prod_ee10",
+    "sku": "KTB-EE-010",
+    "category": "Elektronische Geräte",
+    "title": "2-Leiter-Schwingungsmessumformer 4-20 mA (Shinkawa WK/WKN)",
+    "desc": "Original Shinkawa WK / WKN 2-Leiter-Messumformer 4-20 mA für Schwingung und Axialschub an Dampfturbinen, Generatoren, Getrieben, Pumpen und Verdichtern. Direkter DCS- oder SPS-Anschluss, kein Monitor-Rack nötig.",
+    "usage": "Dauerhafte Überwachung von Wellenschwingung oder Axialposition an kleinen und mittleren Maschinen, bei denen ein vollständiger Rackmonitor nicht gerechtfertigt ist: Hilfsdampfturbinen, Kesselspeisepumpen, Getriebe, Verdichter, Lüfter und Generatoren. Das 4-20-mA-Schleifensignal geht direkt an ein DCS, eine SPS oder eine Anzeige.",
+    "features": [
+      "Wirbelstromaufnehmer mit integrierter Schwingungs- oder Axialschubumformung: 4-20-mA-Ausgang ohne separaten Schwingungsmonitor oder Wandler",
+      "Die 2-Leiter-Stromschleife überträgt Energie und Signal, sodass lange Kabelwege und vorhandene Instrumentenkabel weiterverwendet werden können. Versorgung 12 bis 35 V DC; maximale Schleifenlast 43.5 x (Versorgungsspannung - 12) ohm",
+      "Schwingungsmessumformer WK-142K / WKN-142K: Ausgangsbereiche 0 bis 100, 125, 200, 250 oder 400 Mikrometer Spitze-Spitze, per Modellschlüssel wählbar; Umformgenauigkeit +/-1.5% vom Endwert",
+      "Axialschubmessumformer WK-142T / WKN-142T: Ausgangsbereich ca. -0.6 bis 0 bis +0.6 mm oder -0.635 bis 0 bis +0.635 mm (-25 bis +25 mil)",
+      "Linearer Bereich 1.4 mm (Abstand 0.3 bis 1.7 mm), Skalierungsfaktor 7.87 mV/micron, Frequenzgang 5 Hz bis 6,000 Hz (-3 dB)",
+      "Fehlerausgang: Bei offenem oder kurzgeschlossenem Sensor oder bei Abstand außerhalb des linearen Bereichs fällt der Strom auf 3.6 mA oder weniger, sodass das DCS eine defekte Schleife erkennt",
+      "Komplettes System: WL-142K-Sensor, WW-142K-Verlängerungskabel und Messumformer in Systemlängen von 5 m, 7 m oder 9 m; Sensor und Kabel werden zusammen geliefert, weil das System als Messkette kalibriert ist",
+      "Messumformergehäuse ca. 100 x 74 x 50 mm mit optionalen DIN-Montageklammern; nicht zündfähige Option (CSA Class I Div 2 Groups A-D, ATEX Ex nA)",
+      "Nur auf JIS-SCM440-Stahl (entspricht AISI 4140) kalibriert. Den Steckverbinder zwischen Sensorkabel und Verlängerungskabel mit dem mitgelieferten Schlauch oder Fluorharzband isolieren",
+      "Ebenfalls lieferbar: Meggitt vibro-meter Näherungssysteme mit 2-Leiter-Stromausgang (siehe Angebot vibro-meter)",
+      "Marken- und Modellnamen sind Marken der jeweiligen Inhaber und dienen nur der Identifikation. Keshav Enterprises ist ein unabhängiger Lieferant."
+    ],
+    "specs": {
+      "Brand": "Shinkawa Electric, Original",
+      "Models": "WK-142K, WK-142T, WKN-142K, WKN-142T (Systemvarianten 1, 2 und 5)",
+      "Output": "4-20 mA, 2-Leiter-Stromschleife",
+      "Vibration Output Ranges": "0 bis 100, 125, 200, 250, 400 Mikrometer Spitze-Spitze (je nach Modellschlüssel)",
+      "Thrust Output Range": "ca. -0.6 bis +0.6 mm oder -0.635 bis +0.635 mm",
+      "Accuracy": "+/-1.5% vom Endwert (Umformung)",
+      "Power Supply": "12 bis 35 V DC; max. Last 43.5 x (Vps - 12) ohm",
+      "Linear Range / Scale Factor": "1.4 mm (Abstand 0.3 bis 1.7 mm); 7.87 mV/micron",
+      "Frequency Response": "5 Hz bis 6,000 Hz (-3 dB)",
+      "Fault Output": "3.6 mA oder weniger bei offenem/kurzgeschlossenem Sensor oder außerhalb des Bereichs",
+      "System Components": "WL-142K Sensor + WW-142K Verlängerungskabel + WK/WKN Messumformer",
+      "Transmitter Size": "ca. 100 x 74 x 50 mm; DIN-Klammern optional",
+      "Hazardous Area": "Nicht zündfähige Option (CSA Class I Div 2, ATEX Ex nA)",
+      "Calibration Target": "JIS-SCM440-Stahl (entspricht AISI 4140)",
+      "Typical Machines": "Hilfsdampfturbinen, BFP, Getriebe, Verdichter, Generatoren, Lüfter"
+    }
+  },
+  "prod_ee11": {
+    "id": "prod_ee11",
+    "sku": "KTB-EE-011",
+    "category": "Elektronische Geräte",
+    "title": "Gehäuse-Schwingungssensoren: Velomitor, CV-86 und Beschleunigungsaufnehmer",
+    "desc": "Original Bently Velomitor, Shinkawa CV-86, Hansford und SKF Sensoren für die Lagerschwingung an Turbinen, Getrieben, Generatoren und Motoren. Angebot nach Modell.",
+    "usage": "Absolute (seismische) Schwingung an Lagerböcken, Getriebegehäusen, Generatorrahmen und Motorlagerschilden, wo keine Wellensonde montiert werden kann oder wo die Gehäuseschwingung ein Alarm- oder Abschalteingang ist. Wird zusammen mit Wellen-Näherungssonden an Turbine-Getriebe-Generator-Strängen und allein an Motoren, Lüftern und Pumpen eingesetzt.",
+    "features": [
+      "Bently Nevada 330500 Velomitor Piezo-Geschwindigkeitssensor: 3.94 mV/mm/s (100 mV/in/s) +/-5%, 4.5 Hz bis 5 kHz (+/-3 dB), bis 1,270 mm/s Spitze, -55 bis +121 °C, Edelstahl 316L, 2-poliger MIL-C-5015, beliebige Einbaulage",
+      "Bently Nevada 330525 Velomitor XA: wetterfeste Version, IP65 / NEMA 4X, kein Gehäuse erforderlich",
+      "Bently Nevada 330400 / 330425 Beschleunigungsaufnehmer: 100 mV/g mit 50-g-Bereich oder 25 mV/g mit 75-g-Bereich, Versorgung -24 V DC, -55 bis +121 °C, für die Zahneingriffsüberwachung nach API 670 ausgelegt",
+      "Shinkawa CV-86 piezoelektrischer Geschwindigkeitsaufnehmer: 3.94 mV/mm/s, 2.5 Hz bis 3,500 Hz +/-10%, IP67, integrierter Integrator",
+      "Shinkawa CV-87 Hochtemperatur-Geschwindigkeitsaufnehmer: 5.90 mV/mm/s, 30 bis 1,000 Hz, -54 bis +375 °C, keine Versorgungsspannung nötig, geeignet für heiße Lagergehäuse an Gas- und Dampfturbinen",
+      "Hansford HS-100 Serie Industrie-Beschleunigungsaufnehmer (IEPE): Optionen von 10 bis 500 mV/g, 100 mV/g mit +/-80-g-Bereich, Edelstahl, IP67-Versionen, -55 bis +140 °C, Versorgung 18 bis 30 V DC, für Motoren, Lüfter, Pumpen, Getriebe und Verdichter",
+      "SKF CMSS 2100 / 2200 Universal-Beschleunigungsaufnehmer: 100 mV/g, 80 g Spitze, Konstantstromversorgung 2 bis 10 mA (4 mA empfohlen), für Motoren, Pumpen und Lüfter",
+      "Nennen Sie uns Maschine, Lagerart, erwartete Drehzahl, Ex-Zonen-Klasse und den Eingang Ihres Monitors oder Datensammlers (IEPE, -24 V oder passiv), wir wählen den passenden Sensor aus",
+      "Marken- und Modellnamen sind Marken der jeweiligen Inhaber und dienen nur der Identifikation. Keshav Enterprises ist ein unabhängiger Lieferant."
+    ],
+    "specs": {
+      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (alle Original)",
+      "Velocity Sensors": "Bently Nevada 330500 / 330525 Velomitor; Shinkawa CV-86, CV-87",
+      "Accelerometers": "Bently Nevada 330400 / 330425; Hansford Serie HS-100; SKF CMSS 2100 / 2200",
+      "Accelerometer Sensitivities": "25, 100 mV/g (Bently); 10 bis 500 mV/g (Hansford); 100 mV/g (SKF)",
+      "Typical Steam Turbine Use": "Lagerbockschwingung, horizontal und vertikal an jedem Lager",
+      "Typical Gearbox Use": "Gehäuse nahe dem Lager des schnelllaufenden Ritzels; Beschleunigungsaufnehmer für Zahneingriffsfrequenzen",
+      "Typical Alternator Use": "Lagergehäuse an Antriebs- und Nichtantriebsseite",
+      "Typical Motor Use": "Lagergehäuse, Antriebs- und Nichtantriebsseite, horizontal / vertikal / axial"
     }
   },
   "prod_ee2": {
@@ -3476,8 +3643,7 @@
     "priceRange": {
       "min": 5500,
       "max": 45000,
-      "unit": "pro Stück",
-      "note": "Schwingungssensor / Überwachungsinstrument"
+      "unit": "pro Stück"
     },
     "availability": {
       "label": "Auf Anfrage",

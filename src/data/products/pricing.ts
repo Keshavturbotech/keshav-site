@@ -784,16 +784,46 @@ export const PRODUCT_PRICE_MAP: Record<string, PriceRange> = {
 
   // ── ELECTRONIC EQUIPMENTS ──
   prod_ee1: {
-    min: 3500,
-    max: 22000,
+    min: 25000,
+    max: 100000,
     unit: "per piece",
-    note: "Speed sensor / proximity switch; inductive/hall-effect",
+    note: "Drivers from about ₹25,000; complete sensor, extension cable and driver systems cost more. Firm quote by part number.",
+  },
+  prod_ee7: {
+    min: 30000,
+    max: 150000,
+    unit: "per piece",
+    note: "8 mm probes from about ₹36,000; cables, Proximitors and full systems priced by part number.",
+  },
+  prod_ee8: {
+    min: 50000,
+    max: 175000,
+    unit: "per piece",
+    note: "Sensors and CON011 converters priced by model. Firm quote by part number.",
+  },
+  prod_ee9: {
+    min: 30000,
+    max: 150000,
+    unit: "per piece",
+    note: "Indicative, based on comparable proximity systems. Firm quote by part number.",
+  },
+  prod_ee10: {
+    min: 40000,
+    max: 150000,
+    unit: "per piece",
+    note: "Price varies with measuring range and system length. Firm quote on request.",
+  },
+  prod_ee11: {
+    min: 20000,
+    max: 100000,
+    unit: "per piece",
+    note: "Price varies widely by make and model. Firm quote by model.",
   },
   prod_ee2: {
     min: 5500,
     max: 45000,
     unit: "per piece",
-    note: "Vibration sensor / monitoring instrument",
+    note: "Speed sensor / magnetic pickup",
   },
   prod_ee3: {
     min: 8000,

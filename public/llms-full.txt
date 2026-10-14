@@ -4,7 +4,7 @@ This file contains the complete text content of keshavturbotech.com for AI/LLM c
 
 Company: Keshav Enterprises, Dayanand Nagar Gali No.2, Near Subash Ki Chakki, Shamli – 247776, U.P., India
 History: Founder Shekhar Sharma has worked hands-on with steam turbines since 1988 (38+ years of engineering experience); he started an independent turbine maintenance partnership in 2016, and Keshav Enterprises was formally established in June 2020.
-Scale: 8 services, 7 industries, 120 products in 10 categories, 8 case studies, 7 blog articles, more than 500 overhauls completed
+Scale: 8 services, 7 industries, 125 products in 10 categories, 8 case studies, 8 blog articles, more than 500 overhauls completed
 Turbine range: 5 kW to 60 MW
 GST: 09BOSPS3115K1ZC | MSME/Udyam: UDYAM-UP-47-0071234 | IEC: BOSPS3115K
 Phone: +91 9149229448, +91 6397363268
@@ -415,7 +415,7 @@ Key challenges addressed:
 
 
 
-## PRODUCT CATALOGUE (120 products in 10 categories)
+## PRODUCT CATALOGUE (125 products in 10 categories)
 
 ### Industrial Filtration (30 products)
 
@@ -553,9 +553,14 @@ Key challenges addressed:
 - **Steam Hose: High Temperature Service** (https://keshavturbotech.com/products/steam-hose-high-temperature-service) [SKU KTB-FH-008]: Purpose-built high-temperature steam hose rated for continuous saturated and superheated steam service. SS316L corrugated core with braid reinforcement handles thermal cycling, condensate, and steam pressures in industrial boiler and heat exchanger applications. Availability: In Stock, lead time 1–3 weeks.
 - **FDA-Compliant Food-Grade Flexible Hose (PTFE/SS316L)** (https://keshavturbotech.com/products/flexible-food-grade-hose) [SKU KTB-FH-009]: FDA-compliant food-grade flexible hose for hygienic fluid and gas transfer in food processing, beverage, dairy, and pharmaceutical plants. Smooth polished bore, CIP/SIP compatible construction with sanitary end fittings. Availability: In Stock, lead time 1–3 weeks.
 
-### Electronic Equipments (6 products)
+### Electronic Equipments (11 products)
 
-- **Vibration Monitoring Probes (Shinkawa-compatible)** (https://keshavturbotech.com/products/vibration-monitoring-probes-shinkawa-compatible) [SKU KTB-EE-001]: High-precision non-contact eddy current displacement sensors for continuous turbine shaft vibration and axial position monitoring. API 670 standard compliant. Availability: On Request, lead time 1–4 weeks.
+- **Vibration Monitoring Probes (Shinkawa-compatible)** (https://keshavturbotech.com/products/vibration-monitoring-probes-shinkawa-compatible) [SKU KTB-EE-001]: Genuine Shinkawa FK / VK eddy-current probes, extension cables and drivers for steam turbine, gearbox and alternator vibration and thrust monitoring. In stock in Shamli, UP. Availability: On Request, lead time 1–4 weeks.
+- **Bently Nevada 3300 XL Proximity Probe Systems** (https://keshavturbotech.com/products/bently-nevada-3300-xl-proximity-probe-systems) [SKU KTB-EE-007]: Genuine Bently Nevada 3300 XL proximity probes, 330130 cables and Proximitors for turbine, gearbox and alternator vibration and thrust monitoring. Quote by part number. Availability: On Request, lead time 1–4 weeks.
+- **EPRO PR6423 / PR6424 Eddy Current Sensors & CON011** (https://keshavturbotech.com/products/epro-pr6423-pr6424-eddy-current-sensors-and-con011) [SKU KTB-EE-008]: Genuine Emerson EPRO PR6422-PR6426 eddy-current sensors and CON011 converters for turbine, gearbox and generator shaft vibration and position. Availability: On Request, lead time 1–4 weeks.
+- **Vibro-Meter TQ402 / TQ442 Proximity Probes & IQS450** (https://keshavturbotech.com/products/vibro-meter-tq402-tq442-proximity-probes-and-iqs450) [SKU KTB-EE-009]: Genuine Meggitt vibro-meter TQ4xx proximity probes, EA40x cables and IQS450 conditioners for turbine shaft vibration and position monitoring. Availability: On Request, lead time 1–4 weeks.
+- **2-Wire 4-20 mA Vibration Transmitters (Shinkawa WK/WKN)** (https://keshavturbotech.com/products/2-wire-4-20-ma-vibration-transmitters-shinkawa-wk-wkn) [SKU KTB-EE-010]: Genuine Shinkawa WK / WKN 2-wire 4-20 mA vibration and thrust transmitters for steam turbines, alternators, gearboxes, pumps and compressors. Direct DCS or PLC connection, no monitor rack. Availability: On Request, lead time 1–4 weeks.
+- **Casing Vibration Sensors: Velomitor, CV-86 & Accelerometers** (https://keshavturbotech.com/products/casing-vibration-sensors-velomitor-cv-86-and-accelerometers) [SKU KTB-EE-011]: Genuine Bently Velomitor, Shinkawa CV-86, Hansford and SKF sensors for turbine, gearbox, alternator and motor bearing vibration. Quote by model. Availability: On Request, lead time 1–4 weeks.
 - **Magnetic Pickup Sensor (Woodward)** (https://keshavturbotech.com/products/magnetic-pickup-sensor-woodward) [SKU KTB-EE-002]: Genuine Woodward variable reluctance magnetic speed pickup (MPU) (long-body 5/8-18 UNF variant cross-referenced to Woodward part number 5430-933, manufacturer marking MSC 401029-20) for precise shaft speed feedback to Woodward governors and digital turbine control systems. Passive, self-powered, zero-maintenance design for continuous duty on steam turbines running at 3000–3600 RPM; MSC 401029-20 is the most commonly ordered variant on Indian steam turbine governor retrofits and overhauls. Availability: On Request, lead time 1–4 weeks.
 - **ASCO 8210 Series Explosion-Proof Solenoid Valve** (https://keshavturbotech.com/products/asco-8210-series-explosion-proof-solenoid-valve) [SKU KTB-EE-003]: ASCO 8210 series general purpose explosion-proof solenoid valves for turbine trip, lube oil, steam seal, and process control applications. ATEX/IECEx and NEMA 7/9 rated for hazardous area installation. Availability: On Request, lead time 1–4 weeks.
 - **Beacon Industrial Analog Tachometer Gauge** (https://keshavturbotech.com/products/beacon-industrial-analog-tachometer-gauge) [SKU KTB-EE-004]: Robust industrial analog panel tachometer for direct shaft speed indication in turbine control panels. Robust movement with IP54 sealed case for steam turbine house environments. Availability: On Request, lead time 1–4 weeks.
@@ -701,7 +706,7 @@ Measured outcomes:
 
 
 
-## ENGINEERING BLOG (7)
+## ENGINEERING BLOG (8)
 
 ### The Complete Steam Turbine Overhauling Checklist for Plant Engineers
 URL: https://keshavturbotech.com/blog/steam-turbine-overhauling-checklist
@@ -886,3 +891,53 @@ For dust collector applications handling electrically resistive dust that can ac
 #### Matching Bag Dimensions to Your Cage
 Replacement filter bags must match the existing cage diameter and length exactly — even 5 mm diameter difference prevents proper sealing at the top snap ring. Before ordering, measure: outer diameter of the bag mouth (snap band OD), bag length from snap ring face to closed bottom, and the end cap type (snap ring, snap band, or flange). If the original OEM bag label is still readable, note the part number — this identifies the exact cage geometry. If labels are gone, pull one cage from the housing, measure it, and supply these dimensions with your order.
 > We supply pulse-jet filter bags in polyester, aramid, PPS, glass fibre, and PTFE membrane grades, along with pleated cartridge elements, for cement, power, pharmaceutical, and grain handling baghouses across India. Send us your bag dimensions and application details on WhatsApp for a same-day quotation.
+
+### Vibration Probe & Sensor Selection Guide for Turbines, Gearboxes and Motors
+URL: https://keshavturbotech.com/blog/vibration-probe-sensor-selection-guide-turbines-gearboxes-motors
+Published: 2026-10-09 | Read time: 7 min read | Tags: Vibration Monitoring, Proximity Probes, Steam Turbine, Condition Monitoring, Shinkawa, Bently Nevada
+
+How to choose proximity probes, 4-20 mA transmitters, velocity sensors and accelerometers for steam turbines, alternators, gearboxes and motors.
+
+#### Why the Right Sensor Matters
+Vibration probes and sensors are the first line of protection on a steam turbine train. A wrong or mismatched sensor does not just give a poor reading: it can trip a healthy machine or, worse, miss a developing fault. The choice depends on what you need to measure, which monitor or control system receives the signal, and the operating environment at the bearing.
+#### Step 1: Decide What You Need to Measure
+There are two different kinds of vibration measurement, and most turbine trains use both.
+- Shaft vibration and position (relative to the bearing): eddy-current proximity probes, used for radial vibration, axial thrust position, eccentricity, speed and the once-per-turn Keyphasor signal.
+- Casing or bearing-housing vibration (absolute): velocity sensors and accelerometers, used where a probe cannot be fitted, on motors, pumps and fans, and for high-frequency gear-mesh and rolling-bearing signals.
+#### Step 2: Match the Whole System, Not Just the Probe
+A proximity system has three parts: the probe, the extension cable and the driver (also called the proximitor or signal converter). They are calibrated together, and the cable length is part of that calibration. Shinkawa, for example, states that a 5 m sensor works only in a 5 m system. Always order the three parts as a set.
+Different makes are not freely interchangeable. Shinkawa FK and Bently Nevada 3300 XL 8 mm systems share the same 7.87 V/mm (200 mV/mil) scale factor. Emerson EPRO sensors work differently: a PR6424 16 mm sensor is 4 V/mm and needs the separate CON011 converter. Meggitt vibro-meter systems use their own TQ transducers, EA extension cables and IQS450 signal conditioners. Send us the nameplate of what is installed and we confirm the correct replacement before quoting.
+#### Step 3: Typical Measurement Points by Machine
+- XY radial proximity probes at each journal bearing
+- Two or three axial probes at the thrust collar for thrust position
+- One Keyphasor probe on a rotor key or notch
+- Eccentricity probe at the front bearing, and long-range probes where differential expansion is monitored
+- Casing velocity sensors on the bearing pedestals as a back-up
+- XY radial probes on the high-speed pinion and low-speed gear bearings
+- An axial probe on the pinion shaft for thrust
+- Accelerometers on the casing for gear-mesh frequencies
+- XY radial probes at the drive-end and non-drive-end bearings
+- Speed and phase reference from the shaft
+- Casing velocity sensors or accelerometers at both bearing housings
+Most motors are monitored on the bearing housing rather than the shaft. A velocity sensor or an IEPE accelerometer, fitted at the drive end and non-drive end in horizontal, vertical and axial directions, gives early warning of unbalance, misalignment and bearing wear. Shaft probes are normally reserved for large sleeve-bearing motors.
+#### Step 4: Choose the Output You Need
+- -24 V DC proximity driver output: used with a rack or panel vibration monitor, such as Shinkawa VM-series or Bently Nevada 3500, that provides alarm, trip and diagnostic data.
+- 2-wire 4-20 mA transmitter: the Shinkawa WK / WKN series converts the probe signal to a 4-20 mA loop that connects directly to a DCS or PLC without a monitor. Suited to auxiliary turbines, boiler feed pumps, gearboxes and smaller machines.
+- IEPE or voltage-output casing sensors: used with data collectors, online monitors and PLC input cards, depending on the sensor type.
+#### Step 5: Check the Environment
+- Temperature: Shinkawa FK and Bently 3300 XL 8 mm probes are rated to about 177 degrees C. The Shinkawa CV-87 high-temperature velocity sensor goes to 375 degrees C.
+- Oil: use armoured, fluoro-resin coated probe cable where oil can reach the cable, and keep the probe-to-extension-cable connector out of oil, because oil changes the cable capacitance and the sensitivity.
+- Hazardous areas: intrinsically safe drivers need a safety barrier and the matching approval code. Non-incendive transmitters have a different rating. State your area classification when you enquire.
+- Target material: proximity systems are normally calibrated on 4140 type steel. A different shaft material changes the scale factor.
+#### Common Mistakes to Avoid
+- Mixing a probe, cable or driver from different system lengths or different makes
+- Setting the probe gap outside the linear range, which gives a flat or distorted signal
+- Leaving the extension cable connector exposed to oil, or taping it with ordinary vinyl tape on a hot casing
+- Megger testing a connected cable without discharging it first, which can damage the driver
+- Using a casing sensor where a shaft probe is needed for protection, or the reverse
+#### What to Send Us for a Quote
+- Machine type, make and model (steam turbine, gearbox, alternator or motor)
+- Make and model of the existing probe, cable, driver and monitor, or a photo of the nameplates
+- System length, probe size and thread, and shaft material
+- Required output (-24 V, 4-20 mA, IEPE) and the hazardous-area classification, if any
+> We supply genuine Shinkawa, Bently Nevada, EPRO, vibro-meter, Hansford and SKF probes, transmitters and casing sensors for steam turbines, alternators, gearboxes and motors. Send us your nameplate on WhatsApp for a matched quotation.

@@ -577,5 +577,166 @@
         "text": "Wir liefern Pulse-Jet-Filterschläuche in Polyester-, Aramid-, PPS-, Glasfaser- und PTFE-Membranqualitäten sowie gefaltete Kartuschenelemente für Zement-, Energie-, Pharma- und Getreideumschlag-Schlauchfilter in ganz Indien. Senden Sie uns Ihre Schlauchabmessungen und Anwendungsdetails per WhatsApp für ein Angebot am selben Tag."
       }
     ]
+  },
+  "post_8": {
+    "id": "post_8",
+    "slug": "vibration-probe-sensor-selection-guide-turbines-gearboxes-motors",
+    "title": "Auswahlhilfe für Schwingungssonden und -sensoren an Turbinen, Getrieben und Motoren",
+    "excerpt": "So wählen Sie zwischen Näherungssonden, 4-20-mA-Messumformern, Geschwindigkeitssensoren und Beschleunigungsaufnehmern für Dampfturbinen, Generatoren, Getriebe und Motoren.",
+    "date": "2026-10-09",
+    "author": "Keshav Enterprises Engineering-Team",
+    "readTime": "7 Min. Lesezeit",
+    "tags": [
+      "Schwingungsüberwachung",
+      "Näherungssonden",
+      "Dampfturbine",
+      "Zustandsüberwachung",
+      "Shinkawa",
+      "Bently Nevada"
+    ],
+    "coverImage": "blog-vibration-sensor-selection.webp",
+    "content": [
+      {
+        "type": "h2",
+        "text": "Warum der richtige Sensor wichtig ist"
+      },
+      {
+        "type": "p",
+        "text": "Schwingungssonden und -sensoren sind die erste Schutzlinie eines Dampfturbinenstrangs. Ein falscher oder nicht passender Sensor liefert nicht nur einen schlechten Messwert: Er kann eine gesunde Maschine abschalten oder, schlimmer, einen sich entwickelnden Schaden übersehen. Die Wahl hängt davon ab, was gemessen werden soll, welcher Monitor oder welches Leitsystem das Signal erhält und wie die Umgebung am Lager aussieht."
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 1: Festlegen, was gemessen werden soll"
+      },
+      {
+        "type": "p",
+        "text": "Es gibt zwei verschiedene Arten der Schwingungsmessung, und die meisten Turbinenstränge nutzen beide."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Wellenschwingung und -position (relativ zum Lager): Wirbelstrom-Näherungssonden, eingesetzt für radiale Schwingung, axiale Schubposition, Exzentrizität, Drehzahl und das Keyphasor-Signal einmal pro Umdrehung.",
+          "Gehäuse- oder Lagergehäuseschwingung (absolut): Geschwindigkeitssensoren und Beschleunigungsaufnehmer, eingesetzt wo keine Sonde montiert werden kann, an Motoren, Pumpen und Lüftern sowie für hochfrequente Zahneingriffs- und Wälzlagersignale."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 2: Das ganze System abstimmen, nicht nur die Sonde"
+      },
+      {
+        "type": "p",
+        "text": "Ein Näherungssystem besteht aus drei Teilen: Sonde, Verlängerungskabel und Treiber (auch Proximitor oder Signalwandler genannt). Sie werden gemeinsam kalibriert, und die Kabellänge ist Teil dieser Kalibrierung. Shinkawa nennt zum Beispiel, dass ein 5-m-Sensor nur in einem 5-m-System arbeitet. Bestellen Sie die drei Teile immer als Satz."
+      },
+      {
+        "type": "p",
+        "text": "Systeme verschiedener Hersteller sind nicht frei austauschbar. Shinkawa FK und Bently Nevada 3300 XL 8 mm teilen denselben Skalierungsfaktor von 7.87 V/mm (200 mV/mil). Emerson-EPRO-Sensoren arbeiten anders: Ein PR6424 mit 16 mm liefert 4 V/mm und braucht den separaten Wandler CON011. Meggitt vibro-meter Systeme verwenden eigene TQ-Aufnehmer, EA-Verlängerungskabel und IQS450-Signalaufbereiter. Senden Sie uns das Typenschild des installierten Systems, wir bestätigen den richtigen Ersatz vor dem Angebot."
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 3: Typische Messstellen je Maschine"
+      },
+      {
+        "type": "h3",
+        "text": "Dampfturbine"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Radiale XY-Näherungssonden an jedem Traglager",
+          "Zwei oder drei Axialsonden am Spurlagerbund für die Axialschubposition",
+          "Eine Keyphasor-Sonde an einem Keil oder einer Nut des Rotors",
+          "Exzentrizitätssonde am vorderen Lager und Sonden mit großem Bereich, wo die Differenzausdehnung überwacht wird",
+          "Gehäuse-Geschwindigkeitssensoren an den Lagerböcken als Rückfallebene"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Getriebe"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Radiale XY-Sonden an den Lagern von schnelllaufendem Ritzel und langsamlaufendem Rad",
+          "Eine Axialsonde an der Ritzelwelle für den Axialschub",
+          "Beschleunigungsaufnehmer am Gehäuse für die Zahneingriffsfrequenzen"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Generator"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Radiale XY-Sonden an Antriebs- und Nichtantriebsseite",
+          "Drehzahl- und Phasenreferenz von der Welle",
+          "Gehäuse-Geschwindigkeitssensoren oder Beschleunigungsaufnehmer an beiden Lagergehäusen"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Motoren, Pumpen und Lüfter"
+      },
+      {
+        "type": "p",
+        "text": "Die meisten Motoren werden am Lagergehäuse statt an der Welle überwacht. Ein Geschwindigkeitssensor oder ein IEPE-Beschleunigungsaufnehmer, an Antriebs- und Nichtantriebsseite in horizontaler, vertikaler und axialer Richtung montiert, gibt frühe Warnung vor Unwucht, Fluchtungsfehlern und Lagerverschleiß. Wellensonden sind normalerweise großen Motoren mit Gleitlagern vorbehalten."
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 4: Den benötigten Ausgang wählen"
+      },
+      {
+        "type": "list",
+        "items": [
+          "-24-V-DC-Näherungstreiberausgang: wird mit einem Rack- oder Schalttafel-Schwingungsmonitor genutzt, etwa Shinkawa VM-Serie oder Bently Nevada 3500, der Alarm-, Abschalt- und Diagnosedaten liefert.",
+          "2-Leiter-Messumformer 4-20 mA: Die Shinkawa-Serie WK / WKN wandelt das Sondensignal in eine 4-20-mA-Schleife, die ohne Monitor direkt an DCS oder SPS geht. Geeignet für Hilfsturbinen, Kesselspeisepumpen, Getriebe und kleinere Maschinen.",
+          "Gehäusesensoren mit IEPE- oder Spannungsausgang: je nach Sensortyp mit Datensammlern, Online-Monitoren und SPS-Eingangskarten genutzt."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Schritt 5: Umgebung prüfen"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Temperatur: Shinkawa FK und Bently 3300 XL 8-mm-Sonden sind bis ca. 177 Grad C ausgelegt. Der Hochtemperatur-Geschwindigkeitssensor Shinkawa CV-87 reicht bis 375 Grad C.",
+          "Öl: Wo Öl an das Kabel gelangen kann, armiertes Sondenkabel mit Fluorharzbeschichtung verwenden und den Steckverbinder zwischen Sonde und Verlängerungskabel aus dem Öl heraushalten, da Öl Kabelkapazität und Empfindlichkeit verändert.",
+          "Explosionsgefährdete Bereiche: Eigensichere Treiber benötigen eine Sicherheitsbarriere und den passenden Zulassungscode. Nicht zündfähige Messumformer haben eine andere Einstufung. Nennen Sie bei der Anfrage die Klassifizierung Ihres Bereichs.",
+          "Zielwerkstoff: Näherungssysteme werden normalerweise auf Stahl vom Typ 4140 kalibriert. Ein anderer Wellenwerkstoff verändert den Skalierungsfaktor."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fehler, die Sie vermeiden sollten"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Sonde, Kabel oder Treiber unterschiedlicher Systemlängen oder verschiedener Hersteller mischen",
+          "Den Sondenabstand außerhalb des linearen Bereichs einstellen, was ein flaches oder verzerrtes Signal ergibt",
+          "Den Steckverbinder des Verlängerungskabels dem Öl aussetzen oder auf einem heißen Gehäuse mit gewöhnlichem Vinylband umwickeln",
+          "Ein angeschlossenes Kabel ohne vorheriges Entladen mit dem Isolationsprüfer prüfen, was den Treiber beschädigen kann",
+          "Einen Gehäusesensor einsetzen, wo für den Schutz eine Wellensonde nötig ist, oder umgekehrt"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Was Sie uns für ein Angebot senden sollten"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Maschinentyp, Hersteller und Modell (Dampfturbine, Getriebe, Generator oder Motor)",
+          "Hersteller und Modell von vorhandener Sonde, Kabel, Treiber und Monitor oder ein Foto der Typenschilder",
+          "Systemlänge, Sondengröße und Gewinde sowie Wellenwerkstoff",
+          "Benötigter Ausgang (-24 V, 4-20 mA, IEPE) und gegebenenfalls die Klassifizierung des explosionsgefährdeten Bereichs"
+        ]
+      },
+      {
+        "type": "cta",
+        "text": "Wir liefern Original-Sonden, Messumformer und Gehäusesensoren von Shinkawa, Bently Nevada, EPRO, vibro-meter, Hansford und SKF für Dampfturbinen, Generatoren, Getriebe und Motoren. Senden Sie uns Ihr Typenschild per WhatsApp für ein passendes Angebot."
+      }
+    ]
   }
 }

@@ -156,6 +156,13 @@ export default defineConfig({
     remotePatterns: [{ protocol: "https" }],
   },
   build: {
+    // Output pages as flat files (products/slug.html) instead of folders
+    // (products/slug/index.html). With trailingSlash: "never" the canonical and
+    // sitemap URLs have no trailing slash; Cloudflare Pages serves a folder
+    // index at the SLASH URL and redirects the no-slash URL to it, which Google
+    // reports as "Page with redirect" plus "Alternate page with proper canonical
+    // tag". Flat files are served directly at the no-slash URL with no redirect.
+    format: "file",
     // Inline small CSS to cut render-blocking requests; assets get content hashes for long-cache headers
     inlineStylesheets: "auto",
   },
