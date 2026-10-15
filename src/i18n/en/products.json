@@ -925,7 +925,7 @@
     "category": "Industrial Strainers",
     "title": "SS 304/316 Basket Strainer Replacement Elements",
     "desc": "Replacement and custom-fabricated basket strainer elements for simplex and duplex basket strainer housings. Constructed from SS 304/316 perforated plate with optional wire mesh overlay, wedge wire, or all-welded wire mesh construction. Supplied as exact OEM interchangeable replacements or dimensionally matched to any existing housing: including Eaton, Parker, HYDAC, and fabricated units. Mesh / perforation sizes from 37 µm to 6 mm cover light-debris screening through fine-particle retention.",
-    "usage": "Direct replacement elements for installed simplex and duplex basket strainer housings across turbine lube oil systems, governor and control oil circuits, process pipelines, fuel oil systems, cooling water lines, and chemical process streams. Supplied to match existing housing ID, element height, and top plate configuration: specify housing make, size, and current mesh for exact interchange. Compatible with Keshav Enterprises-supplied simplex basket strainers (prod_st1) and duplex basket strainers (prod_st2), as well as OEM and third-party housings.",
+    "usage": "Direct replacement elements for installed simplex and duplex basket strainer housings across turbine lube oil systems, governor and control oil circuits, process pipelines, fuel oil systems, cooling water lines, and chemical process streams. Supplied to match existing housing ID, element height, and top plate configuration: specify housing make, size, and current mesh for exact interchange. Compatible with Keshav Enterprises-supplied simplex basket strainers and duplex basket strainers, as well as OEM and third-party housings.",
     "features": [
       "Construction types: Perforated plate (standard), Perforated plate + wire mesh overlay, All-welded wire mesh cylinder, Wedge wire basket, specify per application",
       "Perforation sizes: 0.5, 1, 1.5, 2, 3, 4, 6 mm standard perforated plate",
@@ -988,8 +988,8 @@
     "sku": "KTB-EJ-001",
     "category": "Expansion Joints",
     "title": "Stainless Steel Metallic Bellows Expansion Joint",
-    "desc": "Multi-ply SS metallic bellows absorbing thermal expansion in piping systems. Available DN 15 to DN 12,000. Fatigue, yield, and rupture tested per EJMA/ASME standards. Choose this (prod_e1) over the standard axial joint (prod_e1b) when your application requires multi-ply high-cycle fatigue life, exotic alloy material (Incoloy, Inconel, Hastelloy, Titanium), very high pressure above 16 bar, or PED/AD2000 third-party certification documentation.",
-    "usage": "High-pressure steam exhaust systems, chemical process pipes, heat exchanger connections, and piping requiring thermal movement compensation. Best choice for high-cycle fatigue duty, exotic materials, pressures above 16 bar, or where PED/AD2000 certification is required. For standard steam and water pipelines at moderate pressure, the axial expansion joint (prod_e1b) is more cost-effective.",
+    "desc": "Multi-ply SS metallic bellows absorbing thermal expansion in piping systems. Available DN 15 to DN 12,000. Fatigue, yield, and rupture tested per EJMA/ASME standards. Choose this over the standard axial joint when your application requires multi-ply high-cycle fatigue life, exotic alloy material (Incoloy, Inconel, Hastelloy, Titanium), very high pressure above 16 bar, or PED/AD2000 third-party certification documentation.",
+    "usage": "High-pressure steam exhaust systems, chemical process pipes, heat exchanger connections, and piping requiring thermal movement compensation. Best choice for high-cycle fatigue duty, exotic materials, pressures above 16 bar, or where PED/AD2000 certification is required. For standard steam and water pipelines at moderate pressure, the axial expansion joint is more cost-effective.",
     "features": [
       "Material: SS 304/316L, Duplex, Incoloy 825/925, Inconel 625, Titanium, Hastelloy",
       "Dimension range: DN 15 to DN 12,000",
@@ -1051,8 +1051,8 @@
     "sku": "KTB-EJ-002",
     "category": "Expansion Joints",
     "title": "SS/Alloy Axial Expansion Joint (DN15–DN12,000)",
-    "desc": "Single-bellows axial expansion joint absorbing thermal expansion and contraction along the longitudinal pipe axis. The most widely used expansion joint type in steam, process gas, and hot water pipelines. Choose this over the multi-ply SS metallic bellows (prod_e1) for standard duty applications at moderate pressure (up to 16 bar) where cost-effectiveness matters. When exotic alloys, very high pressure (>16 bar), PED certification, or ultra-high cycle fatigue life are required, specify prod_e1 instead.",
-    "usage": "Steam pipelines, pump connections, heat exchanger inlet/outlet connections, hot water systems in power plants, sugar mills, paper mills, and refineries. Standard first choice for axial movement compensation up to 150 bar G: upgrade to multi-ply metallic bellows (prod_e1) only when exotic alloy, high-cycle fatigue, or strict code certification is mandated.",
+    "desc": "Single-bellows axial expansion joint absorbing thermal expansion and contraction along the longitudinal pipe axis. The most widely used expansion joint type in steam, process gas, and hot water pipelines. Choose this over the multi-ply SS metallic bellows for standard duty applications at moderate pressure (up to 16 bar) where cost-effectiveness matters. When exotic alloys, very high pressure (>16 bar), PED certification, or ultra-high cycle fatigue life are required, specify Stainless Steel Metallic Bellows Expansion Joint instead.",
+    "usage": "Steam pipelines, pump connections, heat exchanger inlet/outlet connections, hot water systems in power plants, sugar mills, paper mills, and refineries. Standard first choice for axial movement compensation up to 150 bar G: upgrade to multi-ply metallic bellows only when exotic alloy, high-cycle fatigue, or strict code certification is mandated.",
     "features": [
       "Absorbs axial compression and extension from thermal cycling",
       "Single-bellow design: compact and cost-effective",
@@ -1172,8 +1172,8 @@
     "sku": "KTB-EJ-004",
     "category": "Expansion Joints",
     "title": "Single Arch Rubber Expansion Joint",
-    "desc": "Standard single arch rubber expansion joint absorbing thermal movements and mechanical vibrations. Cost-effective first choice for HVAC, water piping, and light industrial fluid lines. Choose this over the wide arch variant (prod_e3b) for standard applications with moderate movement and normal vibration levels: it is more compact and lower cost. Upgrade to the wide arch (prod_e3b) when the system has high vibration amplitude, large thermal movements, or significant pump/motor-induced shock loads.",
-    "usage": "HVAC systems, water piping, light industrial fluid lines, pump discharge and suction connections. Standard first choice for most rubber expansion joint applications: choose the wide arch variant (prod_e3b) only when large movement capacity or high-vibration/shock isolation is specifically required.",
+    "desc": "Standard single arch rubber expansion joint absorbing thermal movements and mechanical vibrations. Cost-effective first choice for HVAC, water piping, and light industrial fluid lines. Choose this over the wide arch variant for standard applications with moderate movement and normal vibration levels: it is more compact and lower cost. Upgrade to the wide arch when the system has high vibration amplitude, large thermal movements, or significant pump/motor-induced shock loads.",
+    "usage": "HVAC systems, water piping, light industrial fluid lines, pump discharge and suction connections. Standard first choice for most rubber expansion joint applications: choose the wide arch variant only when large movement capacity or high-vibration/shock isolation is specifically required.",
     "features": [
       "Single arch convolution rubber construction",
       "Absorbs thermal expansion and contraction",
@@ -1225,8 +1225,8 @@
     "sku": "KTB-EJ-005",
     "category": "Expansion Joints",
     "title": "Wide Arch Rubber Expansion Bellow",
-    "desc": "Wide arch rubber bellow providing maximum movement absorption and superior vibration isolation. Specifically recommended with a tie rod assembly for internal pressure control. Ideal for high-vibration pump and motor connections. Choose this over the standard single arch (prod_e3) when your system has high vibration amplitude, large thermal movement cycles, significant pump/motor shock loads, or where maximum flexibility and noise attenuation are the primary requirements. For standard HVAC and water piping, the single arch (prod_e3) is more compact and cost-effective.",
-    "usage": "High-vibration pump and motor connections, heavy-duty industrial piping with significant thermal movement, applications requiring maximum flexibility and shock isolation. Specify over single arch (prod_e3) when vibration or movement is the dominant design concern.",
+    "desc": "Wide arch rubber bellow providing maximum movement absorption and superior vibration isolation. Specifically recommended with a tie rod assembly for internal pressure control. Ideal for high-vibration pump and motor connections. Choose this over the standard single arch when your system has high vibration amplitude, large thermal movement cycles, significant pump/motor shock loads, or where maximum flexibility and noise attenuation are the primary requirements. For standard HVAC and water piping, the single arch is more compact and cost-effective.",
+    "usage": "High-vibration pump and motor connections, heavy-duty industrial piping with significant thermal movement, applications requiring maximum flexibility and shock isolation. Specify over single arch when vibration or movement is the dominant design concern.",
     "features": [
       "Maximum axial, lateral, and angular movement absorption",
       "Superior vibration, noise, and shock isolation vs. single/double arch",
@@ -2572,7 +2572,7 @@
       "Manufactured from reverse-engineered OEM drawings with PMI material verification",
       "Material: Alloy steel (CrMoV, 12% Cr) / 21CrMoV5-7 per DIN 17240 rotor forging steel, per steam conditions",
       "Precision machined: rough machining > pre-final > final",
-      "Dynamic balancing 50-2,000 kg to ISO 1940 / API 670",
+      "Dynamic balancing 50-2,000 kg to ISO 21940-11 / ISO 1940",
       "Complete balancing report with mechanical and electrical run-out data",
       "Blade attachment options: Finger-tree, T-root, or dove-tail",
       "Material upgrades available for life extension programs",
@@ -2580,7 +2580,7 @@
     ],
     "specs": {
       "Rotor Material": "Alloy Steel (CrMoV, 12% Cr) / 21CrMoV5-7 per DIN 17240, per steam conditions",
-      "Dynamic Balancing": "ISO 1940 / API 670 (capacity: 50-2,000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (capacity: 50-2,000 kg)",
       "Machining Stages": "Rough machining > Pre-final > Final machining",
       "Blade Root Options": "Finger-tree, T-root, Dove-tail",
       "Documentation": "Full inspection certificate + balancing report",
@@ -4475,7 +4475,7 @@
     "category": "Turbine Spares",
     "title": "Leaf Springs for Steam Turbine Governors",
     "desc": "Precision-manufactured flat leaf springs for turbine mechanical centrifugal governors, trip mechanisms, and valve actuating linkages. Manufactured from spring steel to exact OEM temper, thickness, and width specifications.",
-    "usage": "Speeder spring assemblies in mechanical centrifugal governors, governor fly-weight return springs, trip reset mechanisms, and valve-closing spring packs on Triveni, BHEL, Belliss, and Maxwatt steam turbines.",
+    "usage": "Speeder spring assemblies in mechanical centrifugal governors, governor fly-weight return springs, trip reset mechanisms, and valve-closing spring packs on Triveni, BHEL, Belliss & Morcom, and Maxwatt steam turbines.",
     "features": [
       "Material: EN45A / 55SiCr7 spring steel, hardened and tempered to HRC 44–48",
       "Manufactured to exact OEM thickness (±0.01 mm) and width (±0.1 mm) dimensions",
@@ -4496,7 +4496,7 @@
       "Operating Temperature": "-20 to +120°C",
       "Material Certificate": "EN 10204 Type 3.1 mill certificate",
       "Applications": "Governor speeder springs, trip springs, valve return springs",
-      "OEM Compatibility": "Triveni, BHEL, Belliss, Maxwatt, Siemens turbines",
+      "OEM Compatibility": "Triveni, BHEL, Belliss & Morcom, Maxwatt, Siemens turbines",
       "HSN Code": "8406"
     },
     "images": [
@@ -4546,7 +4546,7 @@
       "Can be performed with rotor in-situ (without full disassembly) in most turbine configurations",
       "Workshop journal grinding on lathes available for more severe damage cases",
       "Polishing report: before/after surface finish (Ra), roundness, and taper measurements",
-      "Compatible with all turbine makes: Triveni, BHEL, Siemens, KKK, Man Turbo, Belliss",
+      "Compatible with all turbine makes: Triveni, BHEL, Siemens, KKK, Man Turbo, Belliss & Morcom",
       "Emergency breakdown polishing service available 24x7"
     ],
     "specs": {
@@ -4555,7 +4555,7 @@
       "Material Removal": "0.005–0.025 mm per pass (minimum undersizing)",
       "Measurement": "Roundness + taper + Ra before/after verification",
       "Availability": "24x7 emergency breakdown response",
-      "OEM Compatibility": "All turbine makes: Triveni, BHEL, Siemens, KKK, Man Turbo, Belliss",
+      "OEM Compatibility": "All turbine makes: Triveni, BHEL, Siemens, KKK, Man Turbo, Belliss & Morcom",
       "Documentation": "Full polishing report with before/after measurements",
       "Typical Turnaround": "1–3 days (in-situ) / 5–10 days (workshop)",
       "How to Order": "Provide OEM name, journal diameter & length, surface condition / failure description",
@@ -5897,7 +5897,7 @@
       "Stellite hard-facing on LP last-stage leading edges: erosion protection from wet steam droplets",
       "Dimensional verification: profile gauge check + CMM inspection report for each blade batch",
       "PMI material verification before machining: chemical composition certificate supplied",
-      "Dynamic balancing of complete blade set on rotor disc: ISO 1940 / API 670 compliance",
+      "Dynamic balancing of complete blade set on rotor disc: ISO 21940-11 / ISO 1940 compliance",
       "Moving (rotor) and stationary (nozzle/diaphragm) blades supplied separately or as a stage set",
       "Suitable for life extension programs: blade material upgrade available"
     ],
@@ -5910,7 +5910,7 @@
       "Erosion Protection": "Stellite hard-facing on LP last-stage leading edge",
       "Verification": "Profile gauge + CMM inspection report per batch",
       "PMI Certificate": "Chemical composition certificate supplied",
-      "Balancing Standard": "ISO 1940 / API 670 (on rotor disc)",
+      "Balancing Standard": "ISO 21940-11 / ISO 1940 (on rotor disc)",
       "HSN Code": "8406"
     },
     "images": [
@@ -7292,7 +7292,7 @@
     "category": "Turbine Spares",
     "title": "Steam Turbine Lube Oil DP & Temperature Switches",
     "desc": "Differential pressure (DP) switches and temperature switches for condition monitoring of turbine lube oil filter housings, duplex filter changeover panels, heat exchangers, and process pipelines. DP switches signal filter element blockage by detecting the rising pressure differential across a clogged element: enabling planned maintenance before element bypass occurs and unfiltered oil reaches turbine bearings. Temperature switches provide high/low alarm and trip outputs for lube oil temperature, bearing metal temperature, and process stream temperature monitoring.",
-    "usage": "Direct fit or retrofit on existing Keshav Enterprises duplex filter housings (prod_f1, prod_f2 series) and simplex basket strainers: wired to plant DCS, PLC, or local alarm panel for filter condition monitoring. Also used on third-party filter housings, heat exchanger inlet/outlet temperature monitoring, turbine lube oil cooler outlet temperature control, and steam turbine bearing temperature alarm/trip circuits. DP switch output triggers filter changeover alarm (duplex) or maintenance alarm (simplex/basket) before bypass valve lifts and unfiltered oil circulates to bearings.",
+    "usage": "Direct fit or retrofit on existing Keshav Enterprises duplex filter housings (Triveni Replacement Turbine Lube Oil Filter Elements, Siemens Replacement Turbine Lube Oil Filter Elements series) and simplex basket strainers: wired to plant DCS, PLC, or local alarm panel for filter condition monitoring. Also used on third-party filter housings, heat exchanger inlet/outlet temperature monitoring, turbine lube oil cooler outlet temperature control, and steam turbine bearing temperature alarm/trip circuits. DP switch output triggers filter changeover alarm (duplex) or maintenance alarm (simplex/basket) before bypass valve lifts and unfiltered oil circulates to bearings.",
     "features": [
       "DP switch types: Piston type (simple, robust), Diaphragm type (low DP ranges, viscous fluids), Bourdon tube differential type (high-accuracy)",
       "DP switch setpoint range: 0.3 to 10 bar, covers standard filter bypass settings of 3.5 bar and 6 bar",
@@ -7356,7 +7356,7 @@
     "category": "Turbine Spares",
     "title": "Leaf Springs for Steam Turbine Labyrinth Gland Seals",
     "desc": "Precision leaf springs that preload spring-back (retractable) labyrinth gland seal segments against the turbine shaft, maintaining minimum sealing clearance during normal running while allowing the segment to retract radially during rotor excursions: reducing rub damage and outage time compared to fixed, caulked-in labyrinth packings. Supplied in spring steel for standard gland temperatures and Inconel X-750 for high-temperature stages where steel springs relax and lose preload over time.",
-    "usage": "Fitted behind segmented labyrinth packing rings in steam turbine shaft glands (HP/IP gland boxes, LP end glands, and interstage diaphragm glands) on Triveni, BHEL, Siemens, Belliss & Morcom, KKK, and Man Turbo turbines. Supplied as a direct replacement set when overhauling spring-back type labyrinth glands, or as part of a complete gland sealing system overhaul alongside labyrinth shaft sealing packings (see prod_ts2).",
+    "usage": "Fitted behind segmented labyrinth packing rings in steam turbine shaft glands (HP/IP gland boxes, LP end glands, and interstage diaphragm glands) on Triveni, BHEL, Siemens, Belliss & Morcom, KKK, and Man Turbo turbines. Supplied as a direct replacement set when overhauling spring-back type labyrinth glands, or as part of a complete gland sealing system overhaul alongside labyrinth shaft sealing packings (see Steam Turbine Labyrinth Shaft Sealing Packings).",
     "features": [
       "Two material grades: spring steel (EN45A / AISI 302 stainless) for gland temperatures up to approx. 230°C; Inconel X-750 (AMS 5699 spring temper) for high-temperature stages up to approx. 650°C where steel springs relax and lose preload",
       "Radial preload maintains minimum labyrinth-to-shaft clearance during normal running while permitting the segment to retract radially during rotor rubs or thermal transients",

@@ -69,7 +69,7 @@
     "tools": [
       {
         "name": "Laser-Wellenausrichtung",
-        "detail": "Pruftechnik-Rotalign-Pro- / SKF-TKSA-Serie",
+        "detail": "PRÜFTECHNIK-Rotalign-Pro- / SKF-TKSA-Serie",
         "iconName": "Target"
       },
       {
@@ -432,7 +432,7 @@
       }
     ],
     "whyUs": "Ein Rotor bei 3.000 U/min erzeugt 100-mal mehr Unwuchtkraft als bei 300 U/min. Dieselbe Restunwucht, die bei niedriger Drehzahl unsichtbar ist, wird bei voller Drehzahl ein Lager zerstören. Wir wuchten nach ISO-1940-Güteklasse G1.0 aus, wo erforderlich — nicht nur 'gut genug'.",
-    "overview": "Rotorunwucht ist eine der häufigsten und am besten vermeidbaren Ursachen für Turbinenlagerausfall, Dichtungsschäden und verkürzte Rotorlebensdauer. Keshav Enterprises führt präzise Wellenzapfenbearbeitung und dynamisches Auswuchten nach ISO 1940 / API 670 für Rotoren von 50 kg bis 2.000 kg in unserer eigenen Werkstattanlage durch. Der Rotor wird zunächst bearbeitet, um die geometrische Integrität wiederherzustellen — runde Wellenzapfen, konzentrische Labyrinthbereiche, korrekte Oberflächengüte — bevor er ausgewuchtet wird. Diese Reihenfolge ist wichtig: Das Auswuchten eines geometrisch verzogenen Rotors verdeckt das Problem lediglich. Unsere Auswuchtberichte dokumentieren Anfangsunwucht, Korrekturebenen, Massenkorrekturen, Restunwucht und die erreichte ISO-Auswuchtgüte und bieten volle Rückverfolgbarkeit für Ihre Wartungsunterlagen.",
+    "overview": "Rotorunwucht ist eine der häufigsten und am besten vermeidbaren Ursachen für Turbinenlagerausfall, Dichtungsschäden und verkürzte Rotorlebensdauer. Keshav Enterprises führt präzise Wellenzapfenbearbeitung und dynamisches Auswuchten nach ISO 21940-11 / ISO 1940 für Rotoren von 50 kg bis 2.000 kg in unserer eigenen Werkstattanlage durch. Der Rotor wird zunächst bearbeitet, um die geometrische Integrität wiederherzustellen — runde Wellenzapfen, konzentrische Labyrinthbereiche, korrekte Oberflächengüte — bevor er ausgewuchtet wird. Diese Reihenfolge ist wichtig: Das Auswuchten eines geometrisch verzogenen Rotors verdeckt das Problem lediglich. Unsere Auswuchtberichte dokumentieren Anfangsunwucht, Korrekturebenen, Massenkorrekturen, Restunwucht und die erreichte ISO-Auswuchtgüte und bieten volle Rückverfolgbarkeit für Ihre Wartungsunterlagen.",
     "procedures": [
       {
         "step": "01",
@@ -706,7 +706,7 @@
       }
     ],
     "whyUs": "Ein Fluchtungsfehler von nur 0,05 mm an der Kupplung kann die Lagerlebensdauer um 80 % verkürzen und Kräfte erzeugen, die sich durch Dichtungen, Kupplungen und den gesamten Antriebsstrang fortpflanzen. Laserausrichtung dauert Stunden — ein Lagerausfall dauert Wochen und kostet weit mehr. Wir richten heiß aus, nicht nur kalt.",
-    "overview": "Wellenfluchtungsfehler sind für bis zu 50 % aller Lagerausfälle bei rotierenden Anlagen in der indischen Industrie verantwortlich. Selbst mit bloßem Auge unsichtbare Fluchtungsfehler erzeugen bei Betriebsdrehzahl enorme zyklische Kräfte auf Lager, Dichtungen und Kupplungen. Keshav Enterprises führt präzise Laser-Wellenausrichtung mit Pruftechnik- und SKF-Systemen für Turbinen, Getriebe, Pumpen, Ventilatoren, Generatoren und Asynchrongeneratoren jeder Rahmengröße durch. Entscheidend ist, dass wir Warmausrichtungsversätze berechnen und anwenden — die Kaltausrichtung wird bewusst so eingestellt, dass sie das thermische Wachstum berücksichtigt, sodass die Maschine bei Betriebstemperatur gerade läuft. Unsere Ausrichtungsberichte zeigen Vorher-/Nachher-Messwerte, Passstückhistorie und Endwerte gegen OEM-Toleranz.",
+    "overview": "Wellenfluchtungsfehler sind für bis zu 50 % aller Lagerausfälle bei rotierenden Anlagen in der indischen Industrie verantwortlich. Selbst mit bloßem Auge unsichtbare Fluchtungsfehler erzeugen bei Betriebsdrehzahl enorme zyklische Kräfte auf Lager, Dichtungen und Kupplungen. Keshav Enterprises führt präzise Laser-Wellenausrichtung mit PRÜFTECHNIK- und SKF-Systemen für Turbinen, Getriebe, Pumpen, Ventilatoren, Generatoren und Asynchrongeneratoren jeder Rahmengröße durch. Entscheidend ist, dass wir Warmausrichtungsversätze berechnen und anwenden — die Kaltausrichtung wird bewusst so eingestellt, dass sie das thermische Wachstum berücksichtigt, sodass die Maschine bei Betriebstemperatur gerade läuft. Unsere Ausrichtungsberichte zeigen Vorher-/Nachher-Messwerte, Passstückhistorie und Endwerte gegen OEM-Toleranz.",
     "procedures": [
       {
         "step": "01",
@@ -753,7 +753,7 @@
     ],
     "tools": [
       {
-        "name": "Pruftechnik Rotalign Pro",
+        "name": "PRÜFTECHNIK Rotalign Pro",
         "detail": "OPTALIGN-Serie — drahtlose Laserausrichtung",
         "iconName": "Target"
       },

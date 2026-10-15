@@ -79,7 +79,7 @@
     "coreCapabilitiesList": [
       "Pemasangan turbin, komisioning, dan overhaul turnkey",
       "Rekayasa balik presisi menggunakan pemindaian laser 3D & CMM",
-      "Penyeimbangan dinamis sesuai ISO 1940 / API 670 (50–2.000 kg)",
+      "Penyeimbangan dinamis sesuai ISO 21940-11 / ISO 1940 (50–2.000 kg)",
       "Pembersihan oli pelumas sesuai klasifikasi kebersihan ISO 4406:99",
       "Penyelarasan mesin menggunakan teknologi penyelarasan laser terbaru",
       "Manufaktur: elemen filter, filter udara HVAC, sambungan ekspansi, saringan",
@@ -160,7 +160,7 @@
       {
         "year": "2021",
         "title": "Perluasan Kemampuan & Lini Produk",
-        "desc": "Berinvestasi pada pemindaian laser 3D, peralatan CMM, dan mesin balancing dinamis ISO 1940 / API 670 (50–2.000 kg), serta meluncurkan lini produk industri yang komprehensif meliputi filtrasi, filter udara HVAC, expansion joint, strainer, produk karet, dan rakitan selang fleksibel."
+        "desc": "Berinvestasi pada pemindaian laser 3D, peralatan CMM, dan mesin balancing dinamis ISO 21940-11 / ISO 1940 (50–2.000 kg), serta meluncurkan lini produk industri yang komprehensif meliputi filtrasi, filter udara HVAC, expansion joint, strainer, produk karet, dan rakitan selang fleksibel."
       },
       {
         "year": "Hari Ini",
@@ -190,7 +190,7 @@
       },
       "vp": {
         "name": "Spesialis Penyeimbangan",
-        "spec": "Penyeimbangan dinamis ISO 1940 / API 670 · Rotor 50–2.000 kg"
+        "spec": "Penyeimbangan dinamis ISO 21940-11 / ISO 1940 · Rotor 50–2.000 kg"
       },
       "mt": {
         "name": "Kepala Bengkel — Pemesinan",

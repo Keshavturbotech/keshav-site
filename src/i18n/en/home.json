@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Keshav Enterprises — Steam Turbine Overhauling & Spares, Shamli UP India",
-    "description": "Ex-OEM steam turbine engineers from Triveni, Siemens, BHEL. Overhauling, reverse engineering, dynamic balancing, lube oil flushing & OEM-compatible spares for 5 kW–60 MW turbines. Based in Shamli, UP — serving pan-India and clients worldwide. 24×7 emergency support.",
+    "title": "Keshav Enterprises: Steam Turbine Overhauling & Spares",
+    "description": "Ex-OEM steam turbine engineers in Shamli, UP: overhauling, reverse engineering, balancing, lube oil flushing and OEM-compatible spares. 24x7 support.",
     "keywords": "turbine maintenance India, steam turbine overhauling, turbine reverse engineering, industrial turbine spares, lube oil filter elements, expansion joints India, Triveni turbine service, BHEL turbine spares, turbine erection Uttar Pradesh, Shamli engineering"
   },
   "hero": {
@@ -31,7 +31,7 @@
       },
       {
         "label": "When Minutes Matter",
-        "title": "24×7 Emergency",
+        "title": "24x7 Emergency",
         "sub": "Engineers at multiple locations across India. Call us at 2 AM. Someone answers."
       }
     ]
@@ -156,7 +156,7 @@
     "plannedSendBtn": "Send Us Your Requirements",
     "plannedEmailBtn": "Email Our Engineering Team",
     "emergencyTitle": "Emergency Breakdown: Right Now",
-    "emergencyDesc": "Turbine tripped? High vibration? Unexpected shutdown? Our engineers are reachable 24×7, no matter what time zone you're calling from. Call or WhatsApp immediately, since every hour offline has a cost.",
+    "emergencyDesc": "Turbine tripped? High vibration? Unexpected shutdown? Our engineers are reachable 24x7, no matter what time zone you're calling from. Call or WhatsApp immediately, since every hour offline has a cost.",
     "emergencyCallPrefix": "Call Now —",
     "emergencyWhatsappBtn": "WhatsApp Emergency",
     "riskReversal": [

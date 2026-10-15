@@ -69,7 +69,7 @@
     "tools": [
       {
         "name": "Căn chỉnh Trục Laser",
-        "detail": "Pruftechnik Rotalign Pro / dòng SKF TKSA",
+        "detail": "PRÜFTECHNIK Rotalign Pro / dòng SKF TKSA",
         "iconName": "Target"
       },
       {
@@ -432,7 +432,7 @@
       }
     ],
     "whyUs": "Rotor ở 3.000 vòng/phút tạo ra lực mất cân bằng lớn hơn 100 lần so với ở 300 vòng/phút. Cùng một mất cân bằng dư mà không thể nhìn thấy ở tốc độ chậm sẽ phá hủy ổ trục ở tốc độ đầy đủ. Chúng tôi cân bằng đến ISO 1940 Cấp G1.0 khi được yêu cầu — không chỉ là 'đủ tốt'.",
-    "overview": "Mất cân bằng rotor là một trong những nguyên nhân phổ biến nhất và có thể phòng ngừa nhiều nhất gây hỏng ổ trục tua-bin, hư hỏng phớt, và giảm tuổi thọ rotor. Keshav Enterprises thực hiện gia công ngõng trục chính xác và cân bằng động theo ISO 1940 / API 670 cho rotor từ 50 kg đến 2.000 kg tại cơ sở xưởng chuyên dụng của chúng tôi. Rotor trước tiên được gia công để khôi phục tính toàn vẹn hình học — ngõng trục tròn, mê cung đồng tâm, hoàn thiện bề mặt đúng — trước khi cân bằng. Trình tự này quan trọng: cân bằng một rotor bị biến dạng hình học chỉ che giấu vấn đề. Báo cáo cân bằng của chúng tôi ghi lại mất cân bằng ban đầu, mặt phẳng hiệu chỉnh, hiệu chỉnh khối lượng, mất cân bằng dư, và cấp cân bằng ISO đạt được, cung cấp khả năng truy xuất nguồn gốc đầy đủ cho hồ sơ bảo trì của bạn.",
+    "overview": "Mất cân bằng rotor là một trong những nguyên nhân phổ biến nhất và có thể phòng ngừa nhiều nhất gây hỏng ổ trục tua-bin, hư hỏng phớt, và giảm tuổi thọ rotor. Keshav Enterprises thực hiện gia công ngõng trục chính xác và cân bằng động theo ISO 21940-11 / ISO 1940 cho rotor từ 50 kg đến 2.000 kg tại cơ sở xưởng chuyên dụng của chúng tôi. Rotor trước tiên được gia công để khôi phục tính toàn vẹn hình học — ngõng trục tròn, mê cung đồng tâm, hoàn thiện bề mặt đúng — trước khi cân bằng. Trình tự này quan trọng: cân bằng một rotor bị biến dạng hình học chỉ che giấu vấn đề. Báo cáo cân bằng của chúng tôi ghi lại mất cân bằng ban đầu, mặt phẳng hiệu chỉnh, hiệu chỉnh khối lượng, mất cân bằng dư, và cấp cân bằng ISO đạt được, cung cấp khả năng truy xuất nguồn gốc đầy đủ cho hồ sơ bảo trì của bạn.",
     "procedures": [
       {
         "step": "01",
@@ -462,7 +462,7 @@
         "step": "05",
         "title": "Cân bằng Động — Hiệu chỉnh Hai Mặt phẳng",
         "iconName": "Target",
-        "desc": "Rotor được lắp trên máy cân bằng động loại hard-bearing. Mất cân bằng ban đầu được đo đồng thời trên hai mặt phẳng hiệu chỉnh (đầu khớp nối và đầu bộ điều tốc/cánh bơm). Khối lượng thử được áp dụng và loại bỏ. Các lần lặp cân bằng được lặp lại cho đến khi mất cân bằng dư trên mỗi mặt phẳng đáp ứng cấp ISO 1940 / API 670 quy định cho dịch vụ rotor này."
+        "desc": "Rotor được lắp trên máy cân bằng động loại hard-bearing. Mất cân bằng ban đầu được đo đồng thời trên hai mặt phẳng hiệu chỉnh (đầu khớp nối và đầu bộ điều tốc/cánh bơm). Khối lượng thử được áp dụng và loại bỏ. Các lần lặp cân bằng được lặp lại cho đến khi mất cân bằng dư trên mỗi mặt phẳng đáp ứng cấp ISO 21940-11 / ISO 1940 quy định cho dịch vụ rotor này."
       },
       {
         "step": "06",
@@ -706,7 +706,7 @@
       }
     ],
     "whyUs": "Độ lệch trục nhỏ đến 0,05 mm ở khớp nối có thể giảm tuổi thọ ổ trục đến 80% và tạo ra lực lan truyền qua phớt, khớp nối, và toàn bộ hệ truyền động. Căn chỉnh laser chỉ mất vài giờ — hỏng ổ trục mất nhiều tuần và tốn kém hơn nhiều. Chúng tôi căn chỉnh ở điều kiện nóng, không chỉ nguội.",
-    "overview": "Lệch trục chịu trách nhiệm cho đến 50% tất cả các hỏng ổ trục thiết bị quay trong công nghiệp Ấn Độ. Ngay cả lệch trục không thể nhìn thấy bằng mắt thường cũng tạo ra lực chu kỳ lớn lên ổ trục, phớt, và khớp nối ở tốc độ vận hành. Keshav Enterprises thực hiện căn chỉnh trục laser chính xác sử dụng hệ thống Pruftechnik và SKF cho tua-bin, hộp số, bơm, quạt, máy phát điện xoay chiều, và máy phát cảm ứng ở mọi kích cỡ khung. Quan trọng là, chúng tôi tính toán và áp dụng độ lệch căn chỉnh nóng — căn chỉnh nguội được cố ý đặt lệch để tính đến sự giãn nở nhiệt, để máy chạy thẳng ở nhiệt độ vận hành. Báo cáo căn chỉnh của chúng tôi hiển thị số đọc trước/sau, lịch sử shim, và giá trị cuối cùng so với dung sai OEM.",
+    "overview": "Lệch trục chịu trách nhiệm cho đến 50% tất cả các hỏng ổ trục thiết bị quay trong công nghiệp Ấn Độ. Ngay cả lệch trục không thể nhìn thấy bằng mắt thường cũng tạo ra lực chu kỳ lớn lên ổ trục, phớt, và khớp nối ở tốc độ vận hành. Keshav Enterprises thực hiện căn chỉnh trục laser chính xác sử dụng hệ thống PRÜFTECHNIK và SKF cho tua-bin, hộp số, bơm, quạt, máy phát điện xoay chiều, và máy phát cảm ứng ở mọi kích cỡ khung. Quan trọng là, chúng tôi tính toán và áp dụng độ lệch căn chỉnh nóng — căn chỉnh nguội được cố ý đặt lệch để tính đến sự giãn nở nhiệt, để máy chạy thẳng ở nhiệt độ vận hành. Báo cáo căn chỉnh của chúng tôi hiển thị số đọc trước/sau, lịch sử shim, và giá trị cuối cùng so với dung sai OEM.",
     "procedures": [
       {
         "step": "01",
@@ -753,7 +753,7 @@
     ],
     "tools": [
       {
-        "name": "Pruftechnik Rotalign Pro",
+        "name": "PRÜFTECHNIK Rotalign Pro",
         "detail": "Dòng OPTALIGN — căn chỉnh laser không dây",
         "iconName": "Target"
       },

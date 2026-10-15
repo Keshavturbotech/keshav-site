@@ -69,7 +69,7 @@
     "tools": [
       {
         "name": "Alinhamento a Laser de Eixo",
-        "detail": "Série Pruftechnik Rotalign Pro / SKF TKSA",
+        "detail": "Série PRÜFTECHNIK Rotalign Pro / SKF TKSA",
         "iconName": "Target"
       },
       {
@@ -432,7 +432,7 @@
       }
     ],
     "whyUs": "Um rotor a 3.000 RPM gera 100× mais força de desbalanceamento do que a 300 RPM. O mesmo desbalanceamento residual que é invisível em baixa velocidade destruirá um mancal em velocidade plena. Balanceamos conforme o Grau G1.0 da ISO 1940 quando necessário — não apenas 'suficientemente bom'.",
-    "overview": "O desbalanceamento do rotor é uma das causas mais comuns e mais evitáveis de falha de mancal de turbina, dano de selo e vida útil reduzida do rotor. A Keshav Enterprises realiza usinagem de precisão de munhões e balanceamento dinâmico ISO 1940 / API 670 para rotores de 50 kg a 2.000 kg em nossa instalação de oficina dedicada. O rotor é primeiro usinado para restaurar a integridade geométrica — munhões redondos, superfícies labirinto concêntricas, acabamento superficial correto — antes do balanceamento. Essa sequência importa: balancear um rotor geometricamente distorcido apenas mascara o problema. Nossos relatórios de balanceamento documentam o desbalanceamento inicial, planos de correção, correções de massa, desbalanceamento residual e o grau de balanceamento ISO alcançado, fornecendo rastreabilidade completa para seus registros de manutenção.",
+    "overview": "O desbalanceamento do rotor é uma das causas mais comuns e mais evitáveis de falha de mancal de turbina, dano de selo e vida útil reduzida do rotor. A Keshav Enterprises realiza usinagem de precisão de munhões e balanceamento dinâmico ISO 21940-11 / ISO 1940 para rotores de 50 kg a 2.000 kg em nossa instalação de oficina dedicada. O rotor é primeiro usinado para restaurar a integridade geométrica — munhões redondos, superfícies labirinto concêntricas, acabamento superficial correto — antes do balanceamento. Essa sequência importa: balancear um rotor geometricamente distorcido apenas mascara o problema. Nossos relatórios de balanceamento documentam o desbalanceamento inicial, planos de correção, correções de massa, desbalanceamento residual e o grau de balanceamento ISO alcançado, fornecendo rastreabilidade completa para seus registros de manutenção.",
     "procedures": [
       {
         "step": "01",
@@ -462,7 +462,7 @@
         "step": "05",
         "title": "Balanceamento Dinâmico — Correção em Dois Planos",
         "iconName": "Target",
-        "desc": "Rotor montado em máquina de balanceamento dinâmico de mancal rígido. Desbalanceamento inicial medido simultaneamente em dois planos de correção (extremidade de acoplamento e extremidade de regulador/impulsor). Massas de teste aplicadas e removidas. Iterações de balanceamento repetidas até que o desbalanceamento residual em cada plano atenda ao grau ISO 1940 / API 670 especificado para este serviço de rotor."
+        "desc": "Rotor montado em máquina de balanceamento dinâmico de mancal rígido. Desbalanceamento inicial medido simultaneamente em dois planos de correção (extremidade de acoplamento e extremidade de regulador/impulsor). Massas de teste aplicadas e removidas. Iterações de balanceamento repetidas até que o desbalanceamento residual em cada plano atenda ao grau ISO 21940-11 / ISO 1940 especificado para este serviço de rotor."
       },
       {
         "step": "06",
@@ -706,7 +706,7 @@
       }
     ],
     "whyUs": "Um desalinhamento de apenas 0,05 mm no acoplamento pode reduzir a vida do mancal em 80% e gerar forças que se propagam através de selos, acoplamentos e todo o trem de acionamento. O alinhamento a laser leva horas — uma falha de mancal leva semanas e custa muito mais. Nós alinhamos a quente, não apenas a frio.",
-    "overview": "O desalinhamento de eixo é responsável por até 50% de todas as falhas de mancal de equipamentos rotativos na indústria indiana. Mesmo desalinhamentos invisíveis a olho nu geram enormes forças cíclicas em mancais, selos e acoplamentos em velocidade operacional. A Keshav Enterprises realiza alinhamento a laser de precisão de eixo usando sistemas Pruftechnik e SKF para turbinas, caixas de engrenagens, bombas, ventiladores, alternadores e geradores de indução de qualquer tamanho de estrutura. Fundamentalmente, calculamos e aplicamos desvios de alinhamento a quente — o alinhamento a frio é deliberadamente ajustado para considerar o crescimento térmico, para que a máquina funcione reta na temperatura operacional. Nossos relatórios de alinhamento mostram leituras antes/depois, histórico de calços e valores finais conforme tolerância OEM.",
+    "overview": "O desalinhamento de eixo é responsável por até 50% de todas as falhas de mancal de equipamentos rotativos na indústria indiana. Mesmo desalinhamentos invisíveis a olho nu geram enormes forças cíclicas em mancais, selos e acoplamentos em velocidade operacional. A Keshav Enterprises realiza alinhamento a laser de precisão de eixo usando sistemas PRÜFTECHNIK e SKF para turbinas, caixas de engrenagens, bombas, ventiladores, alternadores e geradores de indução de qualquer tamanho de estrutura. Fundamentalmente, calculamos e aplicamos desvios de alinhamento a quente — o alinhamento a frio é deliberadamente ajustado para considerar o crescimento térmico, para que a máquina funcione reta na temperatura operacional. Nossos relatórios de alinhamento mostram leituras antes/depois, histórico de calços e valores finais conforme tolerância OEM.",
     "procedures": [
       {
         "step": "01",
@@ -753,7 +753,7 @@
     ],
     "tools": [
       {
-        "name": "Pruftechnik Rotalign Pro",
+        "name": "PRÜFTECHNIK Rotalign Pro",
         "detail": "Série OPTALIGN — alinhamento a laser sem fio",
         "iconName": "Target"
       },

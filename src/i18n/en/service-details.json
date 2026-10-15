@@ -16,12 +16,12 @@
         "label": "OEM-Spec Documentation"
       },
       {
-        "value": "24×7",
+        "value": "24x7",
         "label": "Site Support Available"
       }
     ],
     "whyUs": "A single clearance set wrong during erection can destroy a bearing within hours of first steam. Our ex-OEM field engineers have personally commissioned the same machine types you're installing, and they know exactly what the OEM specification means in practice, not just on paper.",
-    "overview": "Turbine erection and commissioning is the most critical phase of any power plant or industrial project. Errors during erection (incorrect alignment, improper clearances, wrong torques) compound into expensive failures within the first year of operation. Keshav Enterprises brings ex-OEM field engineers who have commissioned Triveni, Siemens, BHEL, Belliss, and Maxwatt turbines across power plants, sugar mills, paper mills, and process industries. Every hold point is witnessed, every clearance is recorded, and every safety system is proof-tested before steam is admitted. Our documentation package meets client, insurer, and OEM handover requirements.",
+    "overview": "Turbine erection and commissioning is the most critical phase of any power plant or industrial project. Errors during erection (incorrect alignment, improper clearances, wrong torques) compound into expensive failures within the first year of operation. Keshav Enterprises brings ex-OEM field engineers who have commissioned Triveni, Siemens, BHEL, Belliss & Morcom, and Maxwatt turbines across power plants, sugar mills, paper mills, and process industries. Every hold point is witnessed, every clearance is recorded, and every safety system is proof-tested before steam is admitted. Our documentation package meets client, insurer, and OEM handover requirements.",
     "procedures": [
       {
         "step": "01",
@@ -69,7 +69,7 @@
     "tools": [
       {
         "name": "Laser Shaft Alignment",
-        "detail": "Pruftechnik Rotalign Pro / SKF TKSA series",
+        "detail": "PRÜFTECHNIK Rotalign Pro / SKF TKSA series",
         "iconName": "Target"
       },
       {
@@ -131,7 +131,7 @@
       },
       {
         "code": "OEM Manuals",
-        "desc": "Triveni, Siemens, BHEL, Belliss, Maxwatt erection procedures",
+        "desc": "Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt erection procedures",
         "body": "OEM"
       }
     ],
@@ -191,12 +191,12 @@
         "label": "Clearance Resolution"
       },
       {
-        "value": "24×7",
+        "value": "24x7",
         "label": "Emergency Response"
       }
     ],
     "whyUs": "A poorly executed overhaul is worse than no overhaul: it introduces new clearance errors, contamination, and re-assembly faults. Our engineers were trained by the OEMs. They know what tolerances actually mean at operating temperature and speed, not just what they say in the manual.",
-    "overview": "Turbine overhauling is not a maintenance activity: it is a precision engineering intervention. Keshav Enterprises deploys ex-OEM engineers from Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK, and ABB to execute turnkey overhauls with the same discipline and documentation standards as the original manufacturer. Every overhaul begins 4–6 weeks before shutdown with scope finalisation, spares pre-inspection, and manpower mobilisation planning. Every component is measured before disassembly, during strip-down, and after reassembly. A written condition report, clearance register, and photographic record is produced for every overhaul, creating a baseline for the next outage.",
+    "overview": "Turbine overhauling is not a maintenance activity: it is a precision engineering intervention. Keshav Enterprises deploys ex-OEM engineers from Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, KKK, and ABB to execute turnkey overhauls with the same discipline and documentation standards as the original manufacturer. Every overhaul begins 4–6 weeks before shutdown with scope finalisation, spares pre-inspection, and manpower mobilisation planning. Every component is measured before disassembly, during strip-down, and after reassembly. A written condition report, clearance register, and photographic record is produced for every overhaul, creating a baseline for the next outage.",
     "procedures": [
       {
         "step": "01",
@@ -306,7 +306,7 @@
       },
       {
         "code": "OEM Manuals",
-        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB",
+        "desc": "Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, ABB",
         "body": "OEM"
       }
     ],
@@ -371,7 +371,7 @@
       }
     ],
     "whyUs": "When an OEM stops supporting a machine, a simple worn rotor or broken diaphragm can force a plant shutdown for months. Our reverse engineering process recreates the exact material, geometry, and heat treatment specification, with full manufacturing drawings, so any competent machine shop can manufacture the part.",
-    "overview": "When OEM drawings are unavailable, the OEM is no longer active, or lead times are measured in years, Keshav Enterprises can reverse-engineer any turbine component from 5 kW to 60 MW to a full production-ready drawing set. Our process uses 3D laser scanners, CMM coordinate measuring machines, and XRF PMI material identification (the same tools used by major OEM engineering teams) to generate complete manufacturing drawings with all tolerances, surface finishes, heat treatment sequences, and material specifications. We have successfully reverse-engineered rotors, diaphragms, nozzle blocks, labyrinth seals, bearings, governors, and steam path components for Triveni, Siemens, BHEL, DLF-Skoda, Belliss, and Maxwatt turbines.",
+    "overview": "When OEM drawings are unavailable, the OEM is no longer active, or lead times are measured in years, Keshav Enterprises can reverse-engineer any turbine component from 5 kW to 60 MW to a full production-ready drawing set. Our process uses 3D laser scanners, CMM coordinate measuring machines, and XRF PMI material identification (the same tools used by major OEM engineering teams) to generate complete manufacturing drawings with all tolerances, surface finishes, heat treatment sequences, and material specifications. We have successfully reverse-engineered rotors, diaphragms, nozzle blocks, labyrinth seals, bearings, governors, and steam path components for Triveni, Siemens, BHEL, DLF-Skoda, Belliss & Morcom, and Maxwatt turbines.",
     "procedures": [
       {
         "step": "01",
@@ -546,7 +546,7 @@
       }
     ],
     "whyUs": "A rotor at 3,000 RPM generates 100× more imbalance force than at 300 RPM. The same residual imbalance that is invisible at slow speed will destroy a bearing at full speed. We balance to ISO 1940 Grade G1.0 where required, not just 'good enough'.",
-    "overview": "Rotor imbalance is one of the most common and most preventable causes of turbine bearing failure, seal damage, and shortened rotor life. Keshav Enterprises performs precision journal machining and ISO 1940 / API 670 dynamic balancing for rotors from 50 kg to 2,000 kg at our dedicated workshop facility. The rotor is first machined to restore geometric integrity (round journals, concentric labyrinth lands, correct surface finish) before balancing. This sequence matters: balancing a geometrically distorted rotor merely masks the problem. Our balancing reports document initial unbalance, correction planes, mass corrections, residual unbalance, and the ISO balance grade achieved, providing full traceability for your maintenance records.",
+    "overview": "Rotor imbalance is one of the most common and most preventable causes of turbine bearing failure, seal damage, and shortened rotor life. Keshav Enterprises performs precision journal machining and ISO 21940-11 / ISO 1940 dynamic balancing for rotors from 50 kg to 2,000 kg at our dedicated workshop facility. The rotor is first machined to restore geometric integrity (round journals, concentric labyrinth lands, correct surface finish) before balancing. This sequence matters: balancing a geometrically distorted rotor merely masks the problem. Our balancing reports document initial unbalance, correction planes, mass corrections, residual unbalance, and the ISO balance grade achieved, providing full traceability for your maintenance records.",
     "procedures": [
       {
         "step": "01",
@@ -576,7 +576,7 @@
         "step": "05",
         "title": "Dynamic Balancing: Two-Plane Correction",
         "iconName": "Target",
-        "desc": "Rotor mounted in hard-bearing dynamic balancing machine. Initial unbalance measured simultaneously in two correction planes (coupling end and governor/impeller end). Trial masses applied and removed. Balancing iterations repeated until residual unbalance in each plane meets ISO 1940 / API 670 grade specified for this rotor service."
+        "desc": "Rotor mounted in hard-bearing dynamic balancing machine. Initial unbalance measured simultaneously in two correction planes (coupling end and governor/impeller end). Trial masses applied and removed. Balancing iterations repeated until residual unbalance in each plane meets ISO 21940-11 / ISO 1940 grade specified for this rotor service."
       },
       {
         "step": "06",
@@ -896,7 +896,7 @@
       }
     ],
     "whyUs": "Misalignment as small as 0.05 mm at the coupling can reduce bearing life by 80% and generate forces that propagate through seals, couplings, and the entire drivetrain. Laser alignment takes hours. A bearing failure takes weeks and costs far more. We align hot, not just cold.",
-    "overview": "Shaft misalignment is responsible for up to 50% of all rotating equipment bearing failures in Indian industry. Even misalignments invisible to the naked eye generate enormous cyclic forces on bearings, seals, and couplings at operating speed. Keshav Enterprises performs precision laser shaft alignment using Pruftechnik and SKF systems for turbines, gearboxes, pumps, fans, alternators, and induction generators of any frame size. Critically, we calculate and apply hot alignment offsets: the cold alignment is deliberately set to account for thermal growth, so the machine runs straight at operating temperature. Our alignment reports show before/after readings, shim history, and final values against OEM tolerance.",
+    "overview": "Shaft misalignment is responsible for up to 50% of all rotating equipment bearing failures in Indian industry. Even misalignments invisible to the naked eye generate enormous cyclic forces on bearings, seals, and couplings at operating speed. Keshav Enterprises performs precision laser shaft alignment using PRÜFTECHNIK and SKF systems for turbines, gearboxes, pumps, fans, alternators, and induction generators of any frame size. Critically, we calculate and apply hot alignment offsets: the cold alignment is deliberately set to account for thermal growth, so the machine runs straight at operating temperature. Our alignment reports show before/after readings, shim history, and final values against OEM tolerance.",
     "procedures": [
       {
         "step": "01",
@@ -943,7 +943,7 @@
     ],
     "tools": [
       {
-        "name": "Pruftechnik Rotalign Pro",
+        "name": "PRÜFTECHNIK Rotalign Pro",
         "detail": "OPTALIGN series: wireless laser alignment",
         "iconName": "Target"
       },
@@ -1006,7 +1006,7 @@
       },
       {
         "code": "OEM Tolerance",
-        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK alignment specs",
+        "desc": "Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK alignment specs",
         "body": "OEM"
       }
     ],
@@ -1054,7 +1054,7 @@
     "accentColor": "#dc2626",
     "keyStats": [
       {
-        "value": "24×7",
+        "value": "24x7",
         "label": "Emergency Deployment"
       },
       {
@@ -1077,7 +1077,7 @@
         "step": "01",
         "title": "Emergency Mobilisation & Site Data Collection",
         "iconName": "Zap",
-        "desc": "24×7 response deployment to site with full diagnostic kit. Collection of all available operational data: vibration history, DCS trip logs, oil analysis reports, bearing temperature trends, steam condition logs, and maintenance records. Interview of operations and maintenance personnel who witnessed the fault event."
+        "desc": "24x7 response deployment to site with full diagnostic kit. Collection of all available operational data: vibration history, DCS trip logs, oil analysis reports, bearing temperature trends, steam condition logs, and maintenance records. Interview of operations and maintenance personnel who witnessed the fault event."
       },
       {
         "step": "02",
@@ -1201,7 +1201,7 @@
       },
       {
         "code": "OEM Manuals",
-        "desc": "Triveni, Siemens, BHEL, Belliss, Man Turbo, KKK, ABB",
+        "desc": "Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, ABB",
         "body": "OEM"
       }
     ],

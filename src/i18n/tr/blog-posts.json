@@ -251,7 +251,7 @@
       },
       {
         "type": "p",
-        "text": "İşleme üç aşamada gerçekleştirilir: nihai boyutlara yakın kaba işleme, gerekiyorsa ısıl işlem (gerilim giderme, su verme ve temperleme, nitrürleme) ve son hassas işleme. Her aşama mühendislik çizimine göre denetlenir. Rotorlar sevkiyattan önce ISO 1940 / API 670 standartlarına göre dinamik olarak balanslanır."
+        "text": "İşleme üç aşamada gerçekleştirilir: nihai boyutlara yakın kaba işleme, gerekiyorsa ısıl işlem (gerilim giderme, su verme ve temperleme, nitrürleme) ve son hassas işleme. Her aşama mühendislik çizimine göre denetlenir. Rotorlar sevkiyattan önce ISO 21940-11 / ISO 1940 standartlarına göre dinamik olarak balanslanır."
       },
       {
         "type": "h2",

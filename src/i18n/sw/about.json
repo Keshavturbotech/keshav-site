@@ -79,7 +79,7 @@
     "coreCapabilitiesList": [
       "Uwekaji wa turbine, uanzishaji, na ukarabati wa huduma kamili",
       "Uhandisi wa kinyume sahihi ukitumia usomaji wa leza wa 3D na CMM",
-      "Uwiano wa mzunguko kulingana na ISO 1940 / API 670 (kilo 50–2,000)",
+      "Uwiano wa mzunguko kulingana na ISO 21940-11 / ISO 1940 (kilo 50–2,000)",
       "Usafishaji wa mafuta ya kulainisha kulingana na uainishaji wa usafi wa ISO 4406:99",
       "Upatanishi wa mitambo ukitumia teknolojia ya kisasa zaidi ya upatanishi wa leza",
       "Utengenezaji: vichujio, vichujio vya hewa vya HVAC, viungo vya upanuzi, vichujio",
@@ -160,7 +160,7 @@
       {
         "year": "2021",
         "title": "Upanuzi wa Uwezo na Mstari wa Bidhaa",
-        "desc": "Uwekezaji katika skanning ya leza ya 3D, vifaa vya CMM na mashine za kusawazisha zenye mwendo za ISO 1940 / API 670 (kg 50–2,000), na kuzindua mstari kamili wa bidhaa za viwandani unaojumuisha uchujaji, vichujio vya hewa vya HVAC, viungio vya upanuzi, vichujio vya strainer, bidhaa za mpira na mikusanyiko ya hosi zinazobadilika."
+        "desc": "Uwekezaji katika skanning ya leza ya 3D, vifaa vya CMM na mashine za kusawazisha zenye mwendo za ISO 21940-11 / ISO 1940 (kg 50–2,000), na kuzindua mstari kamili wa bidhaa za viwandani unaojumuisha uchujaji, vichujio vya hewa vya HVAC, viungio vya upanuzi, vichujio vya strainer, bidhaa za mpira na mikusanyiko ya hosi zinazobadilika."
       },
       {
         "year": "Leo",
@@ -190,7 +190,7 @@
       },
       "vp": {
         "name": "Mtaalamu wa Uwiano",
-        "spec": "Uwiano wa mzunguko ISO 1940 / API 670 · Rota za kilo 50–2,000"
+        "spec": "Uwiano wa mzunguko ISO 21940-11 / ISO 1940 · Rota za kilo 50–2,000"
       },
       "mt": {
         "name": "Kiongozi wa Karakhana — Ukataji",

@@ -251,7 +251,7 @@
       },
       {
         "type": "p",
-        "text": "Gia công được thực hiện trong ba giai đoạn: gia công thô đến gần kích thước cuối cùng, xử lý nhiệt nếu cần (giảm ứng suất, tôi và ram, thấm nitơ), và gia công chính xác cuối cùng. Mỗi giai đoạn được kiểm tra theo bản vẽ kỹ thuật. Rotor được cân bằng động theo tiêu chuẩn ISO 1940 / API 670 trước khi vận chuyển."
+        "text": "Gia công được thực hiện trong ba giai đoạn: gia công thô đến gần kích thước cuối cùng, xử lý nhiệt nếu cần (giảm ứng suất, tôi và ram, thấm nitơ), và gia công chính xác cuối cùng. Mỗi giai đoạn được kiểm tra theo bản vẽ kỹ thuật. Rotor được cân bằng động theo tiêu chuẩn ISO 21940-11 / ISO 1940 trước khi vận chuyển."
       },
       {
         "type": "h2",

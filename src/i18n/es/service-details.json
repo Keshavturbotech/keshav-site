@@ -158,7 +158,7 @@
       }
     ],
     "whyUs": "Un rotor a 3.000 RPM genera 100 veces más fuerza de desequilibrio que a 300 RPM. El mismo desequilibrio residual que es invisible a baja velocidad destruirá un cojinete a plena velocidad. Equilibramos según el Grado G1.0 de ISO 1940 cuando se requiere — no solo «suficientemente bien».",
-    "overview": "El desequilibrio del rotor es una de las causas más comunes y más prevenibles de fallo de cojinete de turbina, daño de sello y vida útil reducida del rotor. Keshav Enterprises realiza mecanizado de precisión de muñones y equilibrado dinámico ISO 1940 / API 670 para rotores de 50 kg a 2.000 kg en nuestra instalación de taller dedicada. El rotor se mecaniza primero para restaurar la integridad geométrica — muñones redondos, superficies laberínticas concéntricas, acabado superficial correcto — antes del equilibrado. Esta secuencia es importante: equilibrar un rotor geométricamente distorsionado simplemente enmascara el problema. Nuestros informes de equilibrado documentan el desequilibrio inicial, los planos de corrección, las correcciones de masa, el desequilibrio residual y el grado de equilibrado ISO alcanzado, proporcionando trazabilidad completa para sus registros de mantenimiento.",
+    "overview": "El desequilibrio del rotor es una de las causas más comunes y más prevenibles de fallo de cojinete de turbina, daño de sello y vida útil reducida del rotor. Keshav Enterprises realiza mecanizado de precisión de muñones y equilibrado dinámico ISO 21940-11 / ISO 1940 para rotores de 50 kg a 2.000 kg en nuestra instalación de taller dedicada. El rotor se mecaniza primero para restaurar la integridad geométrica — muñones redondos, superficies laberínticas concéntricas, acabado superficial correcto — antes del equilibrado. Esta secuencia es importante: equilibrar un rotor geométricamente distorsionado simplemente enmascara el problema. Nuestros informes de equilibrado documentan el desequilibrio inicial, los planos de corrección, las correcciones de masa, el desequilibrio residual y el grado de equilibrado ISO alcanzado, proporcionando trazabilidad completa para sus registros de mantenimiento.",
     "procedures": [
       {
         "step": "01",
@@ -188,7 +188,7 @@
         "step": "05",
         "title": "Equilibrado Dinámico — Corrección en Dos Planos",
         "iconName": "Target",
-        "desc": "Rotor montado en máquina de equilibrado dinámico de cojinete rígido. Desequilibrio inicial medido simultáneamente en dos planos de corrección (extremo de acoplamiento y extremo de regulador/impulsor). Masas de prueba aplicadas y retiradas. Iteraciones de equilibrado repetidas hasta que el desequilibrio residual en cada plano cumpla el grado ISO 1940 / API 670 especificado para este servicio de rotor."
+        "desc": "Rotor montado en máquina de equilibrado dinámico de cojinete rígido. Desequilibrio inicial medido simultáneamente en dos planos de corrección (extremo de acoplamiento y extremo de regulador/impulsor). Masas de prueba aplicadas y retiradas. Iteraciones de equilibrado repetidas hasta que el desequilibrio residual en cada plano cumpla el grado ISO 21940-11 / ISO 1940 especificado para este servicio de rotor."
       },
       {
         "step": "06",
@@ -432,7 +432,7 @@
       }
     ],
     "whyUs": "Una desalineación de apenas 0,05 mm en el acoplamiento puede reducir la vida del cojinete en un 80% y generar fuerzas que se propagan a través de sellos, acoplamientos y todo el tren de transmisión. La alineación láser toma horas — un fallo de cojinete toma semanas y cuesta mucho más. Alineamos en caliente, no solo en frío.",
-    "overview": "La desalineación de eje es responsable de hasta el 50% de todos los fallos de cojinetes de equipo rotativo en la industria india. Incluso las desalineaciones invisibles a simple vista generan fuerzas cíclicas enormes en cojinetes, sellos y acoplamientos a velocidad de operación. Keshav Enterprises realiza alineación láser de precisión de eje usando sistemas Pruftechnik y SKF para turbinas, cajas de engranajes, bombas, ventiladores, alternadores y generadores de inducción de cualquier tamaño de bastidor. Fundamentalmente, calculamos y aplicamos desplazamientos de alineación en caliente — la alineación en frío se ajusta deliberadamente para tener en cuenta el crecimiento térmico, de modo que la máquina funcione recta a temperatura de operación. Nuestros informes de alineación muestran lecturas antes/después, historial de calzos y valores finales frente a la tolerancia OEM.",
+    "overview": "La desalineación de eje es responsable de hasta el 50% de todos los fallos de cojinetes de equipo rotativo en la industria india. Incluso las desalineaciones invisibles a simple vista generan fuerzas cíclicas enormes en cojinetes, sellos y acoplamientos a velocidad de operación. Keshav Enterprises realiza alineación láser de precisión de eje usando sistemas PRÜFTECHNIK y SKF para turbinas, cajas de engranajes, bombas, ventiladores, alternadores y generadores de inducción de cualquier tamaño de bastidor. Fundamentalmente, calculamos y aplicamos desplazamientos de alineación en caliente — la alineación en frío se ajusta deliberadamente para tener en cuenta el crecimiento térmico, de modo que la máquina funcione recta a temperatura de operación. Nuestros informes de alineación muestran lecturas antes/después, historial de calzos y valores finales frente a la tolerancia OEM.",
     "procedures": [
       {
         "step": "01",
@@ -479,7 +479,7 @@
     ],
     "tools": [
       {
-        "name": "Pruftechnik Rotalign Pro",
+        "name": "PRÜFTECHNIK Rotalign Pro",
         "detail": "Serie OPTALIGN — alineación láser inalámbrica",
         "iconName": "Target"
       },
@@ -867,7 +867,7 @@
     "tools": [
       {
         "name": "Alineación Láser de Eje",
-        "detail": "Serie Pruftechnik Rotalign Pro / SKF TKSA",
+        "detail": "Serie PRÜFTECHNIK Rotalign Pro / SKF TKSA",
         "iconName": "Target"
       },
       {

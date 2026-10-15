@@ -1593,8 +1593,8 @@
     "sku": "KTB-EJ-001",
     "category": "Expansion Joints",
     "title": "Sambungan Ekspansi Bellow Logam Baja Tahan Karat",
-    "desc": "Bellow logam SS multi-lapis yang menyerap pemuaian termal pada sistem perpipaan. Tersedia DN 15 hingga DN 12.000. Diuji kelelahan, luluh, dan pecah sesuai standar EJMA/ASME. Pilih produk ini (prod_e1) dibandingkan sambungan aksial standar (prod_e1b) jika aplikasi Anda memerlukan umur kelelahan siklus tinggi multi-lapis, material paduan eksotis (Incoloy, Inconel, Hastelloy, Titanium), tekanan sangat tinggi di atas 16 bar, atau dokumentasi sertifikasi pihak ketiga PED/AD2000.",
-    "usage": "Sistem pembuangan uap bertekanan tinggi, pipa proses kimia, sambungan penukar panas, dan perpipaan yang memerlukan kompensasi gerakan termal. Pilihan terbaik untuk tugas kelelahan siklus tinggi, material eksotis, tekanan di atas 16 bar, atau bila sertifikasi PED/AD2000 diperlukan. Untuk perpipaan uap dan air standar pada tekanan sedang, sambungan ekspansi aksial (prod_e1b) lebih ekonomis.",
+    "desc": "Bellow logam SS multi-lapis yang menyerap pemuaian termal pada sistem perpipaan. Tersedia DN 15 hingga DN 12.000. Diuji kelelahan, luluh, dan pecah sesuai standar EJMA/ASME. Pilih produk ini dibandingkan sambungan aksial standar jika aplikasi Anda memerlukan umur kelelahan siklus tinggi multi-lapis, material paduan eksotis (Incoloy, Inconel, Hastelloy, Titanium), tekanan sangat tinggi di atas 16 bar, atau dokumentasi sertifikasi pihak ketiga PED/AD2000.",
+    "usage": "Sistem pembuangan uap bertekanan tinggi, pipa proses kimia, sambungan penukar panas, dan perpipaan yang memerlukan kompensasi gerakan termal. Pilihan terbaik untuk tugas kelelahan siklus tinggi, material eksotis, tekanan di atas 16 bar, atau bila sertifikasi PED/AD2000 diperlukan. Untuk perpipaan uap dan air standar pada tekanan sedang, sambungan ekspansi aksial lebih ekonomis.",
     "features": [
       "Material: SS 304/316L, Duplex, Incoloy 825/925, Inconel 625, Titanium, Hastelloy",
       "Rentang dimensi: DN 15 hingga DN 12.000",
@@ -1648,8 +1648,8 @@
     "sku": "KTB-EJ-002",
     "category": "Expansion Joints",
     "title": "Sambungan Ekspansi Aksial SS/Paduan (DN15–DN12.000)",
-    "desc": "Sambungan ekspansi aksial bellow tunggal yang menyerap pemuaian dan penyusutan termal di sepanjang sumbu memanjang pipa. Jenis sambungan ekspansi yang paling banyak digunakan pada perpipaan uap, gas proses, dan air panas. Pilih produk ini dibandingkan bellow logam SS multi-lapis (prod_e1) untuk aplikasi tugas standar pada tekanan sedang (hingga 16 bar) di mana efisiensi biaya menjadi prioritas. Bila diperlukan paduan eksotis, tekanan sangat tinggi (>16 bar), sertifikasi PED, atau umur kelelahan siklus sangat tinggi, gunakan prod_e1 sebagai gantinya.",
-    "usage": "Perpipaan uap, sambungan pompa, sambungan inlet/outlet penukar panas, sistem air panas di pembangkit listrik, pabrik gula, pabrik kertas, dan kilang. Pilihan pertama standar untuk kompensasi gerakan aksial hingga 150 bar G — tingkatkan ke bellow logam multi-lapis (prod_e1) hanya jika paduan eksotis, kelelahan siklus tinggi, atau sertifikasi kode ketat diwajibkan.",
+    "desc": "Sambungan ekspansi aksial bellow tunggal yang menyerap pemuaian dan penyusutan termal di sepanjang sumbu memanjang pipa. Jenis sambungan ekspansi yang paling banyak digunakan pada perpipaan uap, gas proses, dan air panas. Pilih produk ini dibandingkan bellow logam SS multi-lapis untuk aplikasi tugas standar pada tekanan sedang (hingga 16 bar) di mana efisiensi biaya menjadi prioritas. Bila diperlukan paduan eksotis, tekanan sangat tinggi (>16 bar), sertifikasi PED, atau umur kelelahan siklus sangat tinggi, gunakan Sambungan Ekspansi Bellow Logam Baja Tahan Karat sebagai gantinya.",
+    "usage": "Perpipaan uap, sambungan pompa, sambungan inlet/outlet penukar panas, sistem air panas di pembangkit listrik, pabrik gula, pabrik kertas, dan kilang. Pilihan pertama standar untuk kompensasi gerakan aksial hingga 150 bar G — tingkatkan ke bellow logam multi-lapis hanya jika paduan eksotis, kelelahan siklus tinggi, atau sertifikasi kode ketat diwajibkan.",
     "features": [
       "Menyerap kompresi dan ekstensi aksial akibat siklus termal",
       "Desain bellow tunggal — kompak dan ekonomis",
@@ -1763,8 +1763,8 @@
     "sku": "KTB-EJ-004",
     "category": "Expansion Joints",
     "title": "Sambungan Ekspansi Karet Single Arch",
-    "desc": "Sambungan ekspansi karet single arch standar yang menyerap gerakan termal dan getaran mekanis. Pilihan pertama yang ekonomis untuk HVAC, perpipaan air, dan saluran fluida industri ringan. Pilih produk ini dibandingkan varian wide arch (prod_e3b) untuk aplikasi standar dengan gerakan sedang dan tingkat getaran normal — lebih kompak dan lebih murah. Tingkatkan ke wide arch (prod_e3b) bila sistem memiliki amplitudo getaran tinggi, gerakan termal besar, atau beban kejut akibat pompa/motor yang signifikan.",
-    "usage": "Sistem HVAC, perpipaan air, saluran fluida industri ringan, sambungan discharge dan suction pompa. Pilihan pertama standar untuk sebagian besar aplikasi sambungan ekspansi karet — pilih varian wide arch (prod_e3b) hanya bila kapasitas gerakan besar atau isolasi getaran/kejut tinggi secara khusus diperlukan.",
+    "desc": "Sambungan ekspansi karet single arch standar yang menyerap gerakan termal dan getaran mekanis. Pilihan pertama yang ekonomis untuk HVAC, perpipaan air, dan saluran fluida industri ringan. Pilih produk ini dibandingkan varian wide arch untuk aplikasi standar dengan gerakan sedang dan tingkat getaran normal — lebih kompak dan lebih murah. Tingkatkan ke wide arch bila sistem memiliki amplitudo getaran tinggi, gerakan termal besar, atau beban kejut akibat pompa/motor yang signifikan.",
+    "usage": "Sistem HVAC, perpipaan air, saluran fluida industri ringan, sambungan discharge dan suction pompa. Pilihan pertama standar untuk sebagian besar aplikasi sambungan ekspansi karet — pilih varian wide arch hanya bila kapasitas gerakan besar atau isolasi getaran/kejut tinggi secara khusus diperlukan.",
     "features": [
       "Konstruksi karet lengkung tunggal (single arch)",
       "Menyerap pemuaian dan penyusutan termal",
@@ -1815,8 +1815,8 @@
     "sku": "KTB-EJ-005",
     "category": "Expansion Joints",
     "title": "Bellow Ekspansi Karet Wide Arch",
-    "desc": "Bellow karet wide arch (lengkung lebar) yang memberikan penyerapan gerakan maksimum dan isolasi getaran superior. Secara khusus disarankan dengan rangkaian tie rod untuk kontrol tekanan internal. Ideal untuk sambungan pompa dan motor dengan getaran tinggi. Pilih produk ini dibandingkan single arch standar (prod_e3) bila sistem Anda memiliki amplitudo getaran tinggi, siklus gerakan termal besar, beban kejut pompa/motor yang signifikan, atau bila fleksibilitas maksimum dan peredaman kebisingan menjadi kebutuhan utama. Untuk HVAC dan perpipaan air standar, single arch (prod_e3) lebih kompak dan ekonomis.",
-    "usage": "Sambungan pompa dan motor dengan getaran tinggi, perpipaan industri berat dengan gerakan termal signifikan, aplikasi yang memerlukan fleksibilitas maksimum dan isolasi kejut. Gunakan dibandingkan single arch (prod_e3) bila getaran atau gerakan menjadi perhatian desain utama.",
+    "desc": "Bellow karet wide arch (lengkung lebar) yang memberikan penyerapan gerakan maksimum dan isolasi getaran superior. Secara khusus disarankan dengan rangkaian tie rod untuk kontrol tekanan internal. Ideal untuk sambungan pompa dan motor dengan getaran tinggi. Pilih produk ini dibandingkan single arch standar bila sistem Anda memiliki amplitudo getaran tinggi, siklus gerakan termal besar, beban kejut pompa/motor yang signifikan, atau bila fleksibilitas maksimum dan peredaman kebisingan menjadi kebutuhan utama. Untuk HVAC dan perpipaan air standar, single arch lebih kompak dan ekonomis.",
+    "usage": "Sambungan pompa dan motor dengan getaran tinggi, perpipaan industri berat dengan gerakan termal signifikan, aplikasi yang memerlukan fleksibilitas maksimum dan isolasi kejut. Gunakan dibandingkan single arch bila getaran atau gerakan menjadi perhatian desain utama.",
     "features": [
       "Penyerapan gerakan aksial, lateral, dan angular maksimum",
       "Isolasi getaran, kebisingan, dan kejut superior dibanding single/double arch",
@@ -3112,7 +3112,7 @@
       "Diproduksi dari gambar OEM hasil reverse engineering dengan verifikasi material PMI",
       "Material: baja paduan (CrMoV, 12% Cr) sesuai kondisi uap",
       "Pemesinan presisi: pemesinan kasar > pre-final > final",
-      "Penyeimbangan dinamis 50–2.000 kg sesuai ISO 1940 / API 670",
+      "Penyeimbangan dinamis 50–2.000 kg sesuai ISO 21940-11 / ISO 1940",
       "Laporan penyeimbangan lengkap dengan data run-out mekanis dan elektrik",
       "Opsi pemasangan blade: finger-tree, T-root, atau dove-tail",
       "Upgrade material tersedia untuk program perpanjangan umur",
@@ -3120,7 +3120,7 @@
     ],
     "specs": {
       "Rotor Material": "Baja paduan (CrMoV, 12% Cr) sesuai kondisi uap",
-      "Dynamic Balancing": "ISO 1940 / API 670 (kapasitas: 50–2.000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (kapasitas: 50–2.000 kg)",
       "Machining Stages": "Pemesinan kasar > pre-final > pemesinan final",
       "Blade Root Options": "Finger-tree, T-root, dove-tail",
       "Documentation": "Sertifikat inspeksi lengkap + laporan penyeimbangan",
@@ -4096,7 +4096,7 @@
       "Hard-facing Stellite pada leading edge tahap akhir LP — proteksi erosi dari tetesan uap basah",
       "Verifikasi dimensi: pemeriksaan profile gauge + laporan inspeksi CMM untuk setiap batch blade",
       "Verifikasi material PMI sebelum pemesinan — sertifikat komposisi kimia disediakan",
-      "Penyeimbangan dinamis set blade lengkap pada disc rotor — sesuai ISO 1940 / API 670",
+      "Penyeimbangan dinamis set blade lengkap pada disc rotor — sesuai ISO 21940-11 / ISO 1940",
       "Blade bergerak (rotor) dan stasioner (nozzle/diafragma) disuplai terpisah atau sebagai set tahap",
       "Cocok untuk program perpanjangan umur — upgrade material blade tersedia"
     ],
@@ -4109,7 +4109,7 @@
       "Erosion Protection": "Hard-facing Stellite pada leading edge tahap akhir LP",
       "Verification": "Profile gauge + laporan inspeksi CMM per batch",
       "PMI Certificate": "Sertifikat komposisi kimia disediakan",
-      "Balancing Standard": "ISO 1940 / API 670 (pada disc rotor)",
+      "Balancing Standard": "ISO 21940-11 / ISO 1940 (pada disc rotor)",
       "HSN Code": "8406"
     },
     "images": [
@@ -4874,7 +4874,7 @@
     "category": "Turbine Spares",
     "title": "Saklar Tekanan Diferensial dan Suhu Oli Pelumas Turbin Uap",
     "desc": "Switch tekanan diferensial (DP) dan switch suhu untuk pemantauan kondisi housing filter oli pelumas turbin, panel changeover filter duplex, heat exchanger, dan perpipaan proses. Switch DP memberi sinyal penyumbatan elemen filter dengan mendeteksi tekanan diferensial yang meningkat pada elemen yang tersumbat — memungkinkan perawatan terencana sebelum bypass elemen terjadi dan oli tidak tersaring mencapai bearing turbin. Switch suhu memberikan output alarm dan trip tinggi/rendah untuk suhu oli pelumas, suhu logam bearing, dan pemantauan suhu aliran proses.",
-    "usage": "Pemasangan langsung atau retrofit pada housing filter duplex Keshav Enterprises yang ada (seri prod_f1, prod_f2) dan basket strainer simplex — disambungkan ke DCS pabrik, PLC, atau panel alarm lokal untuk pemantauan kondisi filter. Juga digunakan pada housing filter pihak ketiga, pemantauan suhu inlet/outlet heat exchanger, kontrol suhu outlet pendingin oli pelumas turbin, dan sirkuit alarm/trip suhu bearing turbin uap. Output switch DP memicu alarm changeover filter (duplex) atau alarm perawatan (simplex/basket) sebelum katup bypass terangkat dan oli tidak tersaring bersirkulasi ke bearing.",
+    "usage": "Pemasangan langsung atau retrofit pada housing filter duplex Keshav Enterprises yang ada (seri Elemen Filter Oli Pelumas Turbin Pengganti Triveni, Elemen Filter Oli Pelumas Turbin Pengganti Siemens) dan basket strainer simplex — disambungkan ke DCS pabrik, PLC, atau panel alarm lokal untuk pemantauan kondisi filter. Juga digunakan pada housing filter pihak ketiga, pemantauan suhu inlet/outlet heat exchanger, kontrol suhu outlet pendingin oli pelumas turbin, dan sirkuit alarm/trip suhu bearing turbin uap. Output switch DP memicu alarm changeover filter (duplex) atau alarm perawatan (simplex/basket) sebelum katup bypass terangkat dan oli tidak tersaring bersirkulasi ke bearing.",
     "features": [
       "Tipe switch DP: Tipe piston (sederhana, kokoh), Tipe diafragma (rentang DP rendah, fluida kental), Tipe diferensial bourdon tube (akurasi tinggi)",
       "Rentang setpoint switch DP: 0,3 hingga 10 bar — mencakup pengaturan bypass filter standar 3,5 bar dan 6 bar",
@@ -5225,7 +5225,7 @@
     "category": "Industrial Strainers",
     "title": "Elemen Pengganti Saringan Keranjang SS 304/316",
     "desc": "Elemen saringan keranjang pengganti dan fabrikasi custom untuk housing saringan keranjang simplex dan duplex. Dibuat dari pelat berlubang SS 304/316 dengan lapisan mesh kawat opsional, wedge wire, atau konstruksi mesh kawat las penuh. Disuplai sebagai pengganti interchangeable OEM yang sesuai persis atau disesuaikan secara dimensi dengan housing yang ada — termasuk Eaton, Parker, HYDAC, dan unit fabrikasi. Ukuran mesh/perforasi dari 37 µm hingga 6 mm mencakup penyaringan puing ringan hingga retensi partikel halus.",
-    "usage": "Elemen pengganti langsung untuk housing saringan keranjang simplex dan duplex yang terpasang di sistem oli pelumas turbin, sirkuit oli governor dan kontrol, pipa proses, sistem minyak bahan bakar, saluran air pendingin, dan aliran proses kimia. Disuplai untuk menyesuaikan ID housing, tinggi elemen, dan konfigurasi pelat atas yang ada — sebutkan merek, ukuran, dan mesh housing saat ini untuk pertukaran yang tepat. Kompatibel dengan saringan keranjang simplex (prod_st1) dan saringan keranjang duplex (prod_st2) yang disuplai Keshav Enterprises, serta housing OEM dan pihak ketiga.",
+    "usage": "Elemen pengganti langsung untuk housing saringan keranjang simplex dan duplex yang terpasang di sistem oli pelumas turbin, sirkuit oli governor dan kontrol, pipa proses, sistem minyak bahan bakar, saluran air pendingin, dan aliran proses kimia. Disuplai untuk menyesuaikan ID housing, tinggi elemen, dan konfigurasi pelat atas yang ada — sebutkan merek, ukuran, dan mesh housing saat ini untuk pertukaran yang tepat. Kompatibel dengan saringan keranjang simplex dan saringan keranjang duplex yang disuplai Keshav Enterprises, serta housing OEM dan pihak ketiga.",
     "features": [
       "Jenis konstruksi: Pelat berlubang (standar), Pelat berlubang + lapisan mesh kawat, Silinder mesh kawat las penuh, Keranjang wedge wire — sebutkan sesuai aplikasi",
       "Ukuran perforasi: 0,5, 1, 1,5, 2, 3, 4, 6 mm pelat berlubang standar",
@@ -6943,7 +6943,7 @@
     "category": "Turbine Spares",
     "title": "Pegas Daun untuk Seal Labirin Turbin Uap",
     "desc": "Pegas daun presisi yang memberi pra-beban pada segmen segel gland labirin jenis tarik-kembali (dapat ditarik) terhadap poros turbin, menjaga celah penyegelan minimum selama operasi normal sekaligus memungkinkan segmen menarik kembali secara radial saat terjadi eksursi rotor — mengurangi kerusakan akibat gesekan dan waktu henti dibandingkan dengan paking labirin tetap yang dikalafat. Disediakan dalam baja pegas untuk suhu gland standar dan Inconel X-750 untuk tahap suhu tinggi di mana pegas baja mengendur dan kehilangan pra-beban seiring waktu.",
-    "usage": "Dipasang di belakang cincin paking labirin bersegmen pada gland poros turbin uap — kotak gland HP/IP, gland ujung LP, dan gland diafragma antar-tahap — pada turbin Triveni, BHEL, Siemens, Belliss & Morcom, KKK, dan Man Turbo. Disediakan sebagai set pengganti langsung saat overhaul gland labirin jenis tarik-kembali, atau sebagai bagian dari overhaul sistem penyegelan gland lengkap bersama paking penyegel poros labirin (lihat prod_ts2).",
+    "usage": "Dipasang di belakang cincin paking labirin bersegmen pada gland poros turbin uap — kotak gland HP/IP, gland ujung LP, dan gland diafragma antar-tahap — pada turbin Triveni, BHEL, Siemens, Belliss & Morcom, KKK, dan Man Turbo. Disediakan sebagai set pengganti langsung saat overhaul gland labirin jenis tarik-kembali, atau sebagai bagian dari overhaul sistem penyegelan gland lengkap bersama paking penyegel poros labirin (lihat Paking Labirin Poros untuk Turbin Uap).",
     "features": [
       "Dua grade material: baja pegas (EN45A / AISI 302 stainless) untuk suhu gland hingga sekitar 230°C; Inconel X-750 (temper pegas AMS 5699) untuk tahap suhu tinggi hingga sekitar 650°C di mana pegas baja mengendur dan kehilangan pra-beban",
       "Pra-beban radial menjaga celah minimum labirin-ke-poros selama operasi normal sekaligus memungkinkan segmen menarik kembali secara radial saat terjadi gesekan rotor atau transien termal",

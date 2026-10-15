@@ -12,9 +12,9 @@ export const EXPANSION_JOINTS_PRODUCTS = [
       sku: "KTB-EJ-001",
       category: "Expansion Joints",
       title: "Stainless Steel Metallic Bellows Expansion Joint",
-      desc: "Multi-ply SS metallic bellows absorbing thermal expansion in piping systems. Available DN 15 to DN 12,000. Fatigue, yield, and rupture tested per EJMA/ASME standards. Choose this (prod_e1) over the standard axial joint (prod_e1b) when your application requires multi-ply high-cycle fatigue life, exotic alloy material (Incoloy, Inconel, Hastelloy, Titanium), very high pressure above 16 bar, or PED/AD2000 third-party certification documentation.",
+      desc: "Multi-ply SS metallic bellows absorbing thermal expansion in piping systems. Available DN 15 to DN 12,000. Fatigue, yield, and rupture tested per EJMA/ASME standards. Choose this over the standard axial joint when your application requires multi-ply high-cycle fatigue life, exotic alloy material (Incoloy, Inconel, Hastelloy, Titanium), very high pressure above 16 bar, or PED/AD2000 third-party certification documentation.",
       usage:
-        "High-pressure steam exhaust systems, chemical process pipes, heat exchanger connections, and piping requiring thermal movement compensation. Best choice for high-cycle fatigue duty, exotic materials, pressures above 16 bar, or where PED/AD2000 certification is required. For standard steam and water pipelines at moderate pressure, the axial expansion joint (prod_e1b) is more cost-effective.",
+        "High-pressure steam exhaust systems, chemical process pipes, heat exchanger connections, and piping requiring thermal movement compensation. Best choice for high-cycle fatigue duty, exotic materials, pressures above 16 bar, or where PED/AD2000 certification is required. For standard steam and water pipelines at moderate pressure, the axial expansion joint is more cost-effective.",
       features: [
         "Material: SS 304/316L, Duplex, Incoloy 825/925, Inconel 625, Titanium, Hastelloy",
         "Dimension range: DN 15 to DN 12,000",
@@ -55,9 +55,9 @@ export const EXPANSION_JOINTS_PRODUCTS = [
       sku: "KTB-EJ-002",
       category: "Expansion Joints",
       title: "Axial Expansion Joint",
-      desc: "Single-bellows axial expansion joint absorbing thermal expansion and contraction along the longitudinal pipe axis. The most widely used expansion joint type in steam, process gas, and hot water pipelines. Choose this over the multi-ply SS metallic bellows (prod_e1) for standard duty applications at moderate pressure (up to 16 bar) where cost-effectiveness matters. When exotic alloys, very high pressure (>16 bar), PED certification, or ultra-high cycle fatigue life are required, specify prod_e1 instead.",
+      desc: "Single-bellows axial expansion joint absorbing thermal expansion and contraction along the longitudinal pipe axis. The most widely used expansion joint type in steam, process gas, and hot water pipelines. Choose this over the multi-ply SS metallic bellows for standard duty applications at moderate pressure (up to 16 bar) where cost-effectiveness matters. When exotic alloys, very high pressure (>16 bar), PED certification, or ultra-high cycle fatigue life are required, specify Stainless Steel Metallic Bellows Expansion Joint instead.",
       usage:
-        "Steam pipelines, pump connections, heat exchanger inlet/outlet connections, hot water systems in power plants, sugar mills, paper mills, and refineries. Standard first choice for axial movement compensation up to 150 bar G: upgrade to multi-ply metallic bellows (prod_e1) only when exotic alloy, high-cycle fatigue, or strict code certification is mandated.",
+        "Steam pipelines, pump connections, heat exchanger inlet/outlet connections, hot water systems in power plants, sugar mills, paper mills, and refineries. Standard first choice for axial movement compensation up to 150 bar G: upgrade to multi-ply metallic bellows only when exotic alloy, high-cycle fatigue, or strict code certification is mandated.",
       features: [
         "Absorbs axial compression and extension from thermal cycling",
         "Single-bellow design: compact and cost-effective",
@@ -146,9 +146,9 @@ export const EXPANSION_JOINTS_PRODUCTS = [
       sku: "KTB-EJ-004",
       category: "Expansion Joints",
       title: "Single Arch Rubber Expansion Joint",
-      desc: "Standard single arch rubber expansion joint absorbing thermal movements and mechanical vibrations. Cost-effective first choice for HVAC, water piping, and light industrial fluid lines. Choose this over the wide arch variant (prod_e3b) for standard applications with moderate movement and normal vibration levels: it is more compact and lower cost. Upgrade to the wide arch (prod_e3b) when the system has high vibration amplitude, large thermal movements, or significant pump/motor-induced shock loads.",
+      desc: "Standard single arch rubber expansion joint absorbing thermal movements and mechanical vibrations. Cost-effective first choice for HVAC, water piping, and light industrial fluid lines. Choose this over the wide arch variant for standard applications with moderate movement and normal vibration levels: it is more compact and lower cost. Upgrade to the wide arch when the system has high vibration amplitude, large thermal movements, or significant pump/motor-induced shock loads.",
       usage:
-        "HVAC systems, water piping, light industrial fluid lines, pump discharge and suction connections. Standard first choice for most rubber expansion joint applications: choose the wide arch variant (prod_e3b) only when large movement capacity or high-vibration/shock isolation is specifically required.",
+        "HVAC systems, water piping, light industrial fluid lines, pump discharge and suction connections. Standard first choice for most rubber expansion joint applications: choose the wide arch variant only when large movement capacity or high-vibration/shock isolation is specifically required.",
       features: [
         "Single arch convolution rubber construction",
         "Absorbs thermal expansion and contraction",
@@ -186,9 +186,9 @@ export const EXPANSION_JOINTS_PRODUCTS = [
       sku: "KTB-EJ-005",
       category: "Expansion Joints",
       title: "Wide Arch Rubber Expansion Bellow",
-      desc: "Wide arch rubber bellow providing maximum movement absorption and superior vibration isolation. Specifically recommended with a tie rod assembly for internal pressure control. Ideal for high-vibration pump and motor connections. Choose this over the standard single arch (prod_e3) when your system has high vibration amplitude, large thermal movement cycles, significant pump/motor shock loads, or where maximum flexibility and noise attenuation are the primary requirements. For standard HVAC and water piping, the single arch (prod_e3) is more compact and cost-effective.",
+      desc: "Wide arch rubber bellow providing maximum movement absorption and superior vibration isolation. Specifically recommended with a tie rod assembly for internal pressure control. Ideal for high-vibration pump and motor connections. Choose this over the standard single arch when your system has high vibration amplitude, large thermal movement cycles, significant pump/motor shock loads, or where maximum flexibility and noise attenuation are the primary requirements. For standard HVAC and water piping, the single arch is more compact and cost-effective.",
       usage:
-        "High-vibration pump and motor connections, heavy-duty industrial piping with significant thermal movement, applications requiring maximum flexibility and shock isolation. Specify over single arch (prod_e3) when vibration or movement is the dominant design concern.",
+        "High-vibration pump and motor connections, heavy-duty industrial piping with significant thermal movement, applications requiring maximum flexibility and shock isolation. Specify over single arch when vibration or movement is the dominant design concern.",
       features: [
         "Maximum axial, lateral, and angular movement absorption",
         "Superior vibration, noise, and shock isolation vs. single/double arch",

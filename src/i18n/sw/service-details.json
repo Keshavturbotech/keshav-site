@@ -69,7 +69,7 @@
     "tools": [
       {
         "name": "Upatanishi wa Mhimili wa Leza",
-        "detail": "Pruftechnik Rotalign Pro / mfululizo wa SKF TKSA",
+        "detail": "PRÜFTECHNIK Rotalign Pro / mfululizo wa SKF TKSA",
         "iconName": "Target"
       },
       {
@@ -432,7 +432,7 @@
       }
     ],
     "whyUs": "Rota kwa RPM 3,000 huzalisha nguvu za kutokuwiana mara 100 zaidi kuliko kwa RPM 300. Kutokuwiana kule kule kwa mabaki ambako hakuonekani kwa kasi ndogo kutaharibu bearing kwa kasi kamili. Tunasawazisha hadi ISO 1940 Daraja G1.0 inapohitajika — si tu 'nzuri ya kutosha'.",
-    "overview": "Kutokuwiana kwa rota ni mojawapo ya sababu za kawaida na zinazoweza kuzuiwa zaidi za kushindwa kwa bearing ya turbine, uharibifu wa seal, na kupunguzwa kwa maisha ya rota. Keshav Enterprises hufanya ukataji sahihi wa journal na uwiano wa mzunguko wa ISO 1940 / API 670 kwa rota kutoka kilo 50 hadi 2,000 katika karakhana yetu maalum. Rota kwanza hukatwa kurejesha uadilifu wa kijiometri — journal za mviringo, labyrinth zinazolingana katikati, umaliziaji sahihi wa uso — kabla ya uwiano. Mfuatano huu ni muhimu: kusawazisha rota iliyopotoshwa kijiometri kunaficha tu tatizo. Ripoti zetu za uwiano zinaandika kutokuwiana kwa awali, ndege za urekebishaji, urekebishaji wa uzito, kutokuwiana kwa mabaki, na daraja la uwiano la ISO lililofikiwa, likitoa ufuatiliaji kamili kwa rekodi zako za matengenezo.",
+    "overview": "Kutokuwiana kwa rota ni mojawapo ya sababu za kawaida na zinazoweza kuzuiwa zaidi za kushindwa kwa bearing ya turbine, uharibifu wa seal, na kupunguzwa kwa maisha ya rota. Keshav Enterprises hufanya ukataji sahihi wa journal na uwiano wa mzunguko wa ISO 21940-11 / ISO 1940 kwa rota kutoka kilo 50 hadi 2,000 katika karakhana yetu maalum. Rota kwanza hukatwa kurejesha uadilifu wa kijiometri — journal za mviringo, labyrinth zinazolingana katikati, umaliziaji sahihi wa uso — kabla ya uwiano. Mfuatano huu ni muhimu: kusawazisha rota iliyopotoshwa kijiometri kunaficha tu tatizo. Ripoti zetu za uwiano zinaandika kutokuwiana kwa awali, ndege za urekebishaji, urekebishaji wa uzito, kutokuwiana kwa mabaki, na daraja la uwiano la ISO lililofikiwa, likitoa ufuatiliaji kamili kwa rekodi zako za matengenezo.",
     "procedures": [
       {
         "step": "01",
@@ -462,7 +462,7 @@
         "step": "05",
         "title": "Uwiano wa Mzunguko — Urekebishaji wa Ndege Mbili",
         "iconName": "Target",
-        "desc": "Rota inawekwa kwenye mashine ya uwiano wa mzunguko wa hard-bearing. Kutokuwiana kwa awali hupimwa kwa wakati mmoja kwenye ndege mbili za urekebishaji (ncha ya coupling na ncha ya governor/impeller). Uzito wa jaribio unatumika na kuondolewa. Marudio ya uwiano yanarudiwa hadi kutokuwiana kwa mabaki kwenye kila ndege kunakidhi daraja la ISO 1940 / API 670 lililobainishwa kwa huduma hii ya rota."
+        "desc": "Rota inawekwa kwenye mashine ya uwiano wa mzunguko wa hard-bearing. Kutokuwiana kwa awali hupimwa kwa wakati mmoja kwenye ndege mbili za urekebishaji (ncha ya coupling na ncha ya governor/impeller). Uzito wa jaribio unatumika na kuondolewa. Marudio ya uwiano yanarudiwa hadi kutokuwiana kwa mabaki kwenye kila ndege kunakidhi daraja la ISO 21940-11 / ISO 1940 lililobainishwa kwa huduma hii ya rota."
       },
       {
         "step": "06",
@@ -706,7 +706,7 @@
       }
     ],
     "whyUs": "Upatanishaji mbaya mdogo kama 0.05 mm kwenye coupling unaweza kupunguza maisha ya bearing kwa 80% na kuzalisha nguvu zinazoenea kupitia seal, coupling, na mfumo mzima wa upitishaji. Upatanishi wa leza unachukua masaa machache tu — kushindwa kwa bearing kunachukua wiki na gharama zaidi sana. Tunapatanisha katika hali ya joto, si baridi tu.",
-    "overview": "Upatanishaji mbaya wa mhimili unahusika na hadi 50% ya kushindwa kwote kwa bearing ya vifaa vinavyozunguka katika viwanda vya India. Hata upatanishaji mbaya usioweza kuonekana kwa jicho la kawaida huzalisha nguvu kubwa za mzunguko kwenye bearing, seal, na coupling kwa kasi ya uendeshaji. Keshav Enterprises hufanya upatanishi sahihi wa mhimili wa leza ukitumia mifumo ya Pruftechnik na SKF kwa turbine, gearbox, pampu, feni, alternator, na jenereta za induction za ukubwa wowote wa fremu. Muhimu zaidi, tunahesabu na kutumia offset ya upatanishi wa joto — upatanishi baridi unawekwa kwa makusudi offset kuzingatia ukuaji wa joto, ili mtambo ufanye kazi moja kwa moja kwa joto la uendeshaji. Ripoti zetu za upatanishi zinaonyesha usomaji wa kabla/baada, historia ya shim, na thamani za mwisho dhidi ya mipaka ya OEM.",
+    "overview": "Upatanishaji mbaya wa mhimili unahusika na hadi 50% ya kushindwa kwote kwa bearing ya vifaa vinavyozunguka katika viwanda vya India. Hata upatanishaji mbaya usioweza kuonekana kwa jicho la kawaida huzalisha nguvu kubwa za mzunguko kwenye bearing, seal, na coupling kwa kasi ya uendeshaji. Keshav Enterprises hufanya upatanishi sahihi wa mhimili wa leza ukitumia mifumo ya PRÜFTECHNIK na SKF kwa turbine, gearbox, pampu, feni, alternator, na jenereta za induction za ukubwa wowote wa fremu. Muhimu zaidi, tunahesabu na kutumia offset ya upatanishi wa joto — upatanishi baridi unawekwa kwa makusudi offset kuzingatia ukuaji wa joto, ili mtambo ufanye kazi moja kwa moja kwa joto la uendeshaji. Ripoti zetu za upatanishi zinaonyesha usomaji wa kabla/baada, historia ya shim, na thamani za mwisho dhidi ya mipaka ya OEM.",
     "procedures": [
       {
         "step": "01",
@@ -753,7 +753,7 @@
     ],
     "tools": [
       {
-        "name": "Pruftechnik Rotalign Pro",
+        "name": "PRÜFTECHNIK Rotalign Pro",
         "detail": "Mfululizo wa OPTALIGN — upatanishi wa leza usiotumia waya",
         "iconName": "Target"
       },

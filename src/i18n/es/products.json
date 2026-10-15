@@ -903,7 +903,7 @@
     "category": "Coladores Industriales",
     "title": "Elementos de Repuesto para Colador de Cesta SS 304/316",
     "desc": "Elementos de colador de cesta de reemplazo y fabricados a medida para carcasas de colador de cesta simplex y dúplex. Construidos en placa perforada SS 304/316 con revestimiento opcional de malla de alambre, alambre de cuña o construcción totalmente soldada de malla de alambre. Suministrados como reemplazos exactamente intercambiables con OEM o ajustados dimensionalmente a cualquier carcasa existente — incluidas unidades Eaton, Parker, HYDAC y fabricadas. Los tamaños de malla/perforación de 37 µm a 6 mm cubren desde el cribado de residuos ligeros hasta la retención de partículas finas.",
-    "usage": "Elementos de reemplazo directo para carcasas de colador de cesta simplex y dúplex instaladas en sistemas de aceite lubricante de turbina, circuitos de aceite de regulador y control, tuberías de proceso, sistemas de fuel oil, líneas de agua de refrigeración y corrientes de proceso químico. Suministrado para coincidir con el diámetro interior de la carcasa existente, la altura del elemento y la configuración de la placa superior — especifique la marca, el tamaño y la malla actual de la carcasa para un intercambio exacto. Compatible con coladores de cesta simplex (prod_st1) y coladores de cesta dúplex (prod_st2) suministrados por Keshav Enterprises, así como con carcasas OEM y de terceros.",
+    "usage": "Elementos de reemplazo directo para carcasas de colador de cesta simplex y dúplex instaladas en sistemas de aceite lubricante de turbina, circuitos de aceite de regulador y control, tuberías de proceso, sistemas de fuel oil, líneas de agua de refrigeración y corrientes de proceso químico. Suministrado para coincidir con el diámetro interior de la carcasa existente, la altura del elemento y la configuración de la placa superior — especifique la marca, el tamaño y la malla actual de la carcasa para un intercambio exacto. Compatible con coladores de cesta simplex y coladores de cesta dúplex suministrados por Keshav Enterprises, así como con carcasas OEM y de terceros.",
     "features": [
       "Tipos de construcción: placa perforada (estándar), placa perforada + revestimiento de malla de alambre, cilindro de malla de alambre totalmente soldado, cesta de alambre de cuña — especificar según aplicación",
       "Tamaños de perforación: 0,5, 1, 1,5, 2, 3, 4, 6 mm placa perforada estándar",
@@ -965,8 +965,8 @@
     "categorySlug": "expansion-joints",
     "category": "Juntas de Expansión",
     "title": "Junta de Expansión de Fuelle Metálico de Acero Inoxidable",
-    "desc": "Fuelle metálico SS de múltiples capas que absorbe la expansión térmica en sistemas de tuberías. Disponible de DN 15 a DN 12.000. Probado a fatiga, fluencia y rotura según normas EJMA/ASME. Elija esta opción (prod_e1) sobre la junta axial estándar (prod_e1b) cuando su aplicación requiera vida a fatiga de alto ciclo de múltiples capas, material de aleación exótica (Incoloy, Inconel, Hastelloy, Titanio), presión muy alta por encima de 16 bar, o documentación de certificación de terceros PED/AD2000.",
-    "usage": "Sistemas de escape de vapor de alta presión, tuberías de proceso químico, conexiones de intercambiador de calor y tuberías que requieren compensación de movimiento térmico. La mejor opción para servicio de fatiga de alto ciclo, materiales exóticos, presiones superiores a 16 bar, o donde se requiera certificación PED/AD2000. Para tuberías estándar de vapor y agua a presión moderada, la junta de expansión axial (prod_e1b) es más rentable.",
+    "desc": "Fuelle metálico SS de múltiples capas que absorbe la expansión térmica en sistemas de tuberías. Disponible de DN 15 a DN 12.000. Probado a fatiga, fluencia y rotura según normas EJMA/ASME. Elija esta opción sobre la junta axial estándar cuando su aplicación requiera vida a fatiga de alto ciclo de múltiples capas, material de aleación exótica (Incoloy, Inconel, Hastelloy, Titanio), presión muy alta por encima de 16 bar, o documentación de certificación de terceros PED/AD2000.",
+    "usage": "Sistemas de escape de vapor de alta presión, tuberías de proceso químico, conexiones de intercambiador de calor y tuberías que requieren compensación de movimiento térmico. La mejor opción para servicio de fatiga de alto ciclo, materiales exóticos, presiones superiores a 16 bar, o donde se requiera certificación PED/AD2000. Para tuberías estándar de vapor y agua a presión moderada, la junta de expansión axial es más rentable.",
     "features": [
       "Material: SS 304/316L, Dúplex, Incoloy 825/925, Inconel 625, Titanio, Hastelloy",
       "Rango de dimensiones: DN 15 a DN 12.000",
@@ -1020,8 +1020,8 @@
     "categorySlug": "expansion-joints",
     "category": "Juntas de Expansión",
     "title": "Junta de Expansión Axial SS/Aleación (DN15–DN12.000)",
-    "desc": "Junta de expansión axial de fuelle único que absorbe la expansión y contracción térmica a lo largo del eje longitudinal de la tubería. El tipo de junta de expansión más utilizado en tuberías de vapor, gas de proceso y agua caliente. Elija esta opción sobre el fuelle metálico SS de múltiples capas (prod_e1) para aplicaciones de servicio estándar a presión moderada (hasta 16 bar) donde la rentabilidad importa. Cuando se requieran aleaciones exóticas, presión muy alta (>16 bar), certificación PED, o vida a fatiga de ciclo ultra alto, especifique prod_e1 en su lugar.",
-    "usage": "Tuberías de vapor, conexiones de bombas, conexiones de entrada/salida de intercambiadores de calor, sistemas de agua caliente en centrales eléctricas, ingenios azucareros, fábricas de papel y refinerías. Primera opción estándar para compensación de movimiento axial hasta 150 bar G — actualice al fuelle metálico de múltiples capas (prod_e1) solo cuando se requiera aleación exótica, fatiga de alto ciclo, o certificación estricta de código.",
+    "desc": "Junta de expansión axial de fuelle único que absorbe la expansión y contracción térmica a lo largo del eje longitudinal de la tubería. El tipo de junta de expansión más utilizado en tuberías de vapor, gas de proceso y agua caliente. Elija esta opción sobre el fuelle metálico SS de múltiples capas para aplicaciones de servicio estándar a presión moderada (hasta 16 bar) donde la rentabilidad importa. Cuando se requieran aleaciones exóticas, presión muy alta (>16 bar), certificación PED, o vida a fatiga de ciclo ultra alto, especifique Junta de Expansión de Fuelle Metálico de Acero Inoxidable en su lugar.",
+    "usage": "Tuberías de vapor, conexiones de bombas, conexiones de entrada/salida de intercambiadores de calor, sistemas de agua caliente en centrales eléctricas, ingenios azucareros, fábricas de papel y refinerías. Primera opción estándar para compensación de movimiento axial hasta 150 bar G — actualice al fuelle metálico de múltiples capas solo cuando se requiera aleación exótica, fatiga de alto ciclo, o certificación estricta de código.",
     "features": [
       "Absorbe la compresión y extensión axial por ciclado térmico",
       "Diseño de fuelle único — compacto y rentable",
@@ -1135,8 +1135,8 @@
     "categorySlug": "expansion-joints",
     "category": "Juntas de Expansión",
     "title": "Junta de Expansión de Caucho de Arco Simple",
-    "desc": "Junta de expansión de caucho de arco simple estándar que absorbe movimientos térmicos y vibraciones mecánicas. Primera opción rentable para HVAC, tuberías de agua y líneas de fluido industrial ligero. Elija esta opción sobre la variante de arco ancho (prod_e3b) para aplicaciones estándar con movimiento moderado y niveles de vibración normales — es más compacta y de menor costo. Actualice al arco ancho (prod_e3b) cuando el sistema tenga alta amplitud de vibración, grandes movimientos térmicos, o cargas de choque significativas inducidas por bomba/motor.",
-    "usage": "Sistemas HVAC, tuberías de agua, líneas de fluido industrial ligero, conexiones de descarga y succión de bombas. Primera opción estándar para la mayoría de las aplicaciones de junta de expansión de caucho — elija la variante de arco ancho (prod_e3b) solo cuando se requiera específicamente mayor capacidad de movimiento o aislamiento de alta vibración/choque.",
+    "desc": "Junta de expansión de caucho de arco simple estándar que absorbe movimientos térmicos y vibraciones mecánicas. Primera opción rentable para HVAC, tuberías de agua y líneas de fluido industrial ligero. Elija esta opción sobre la variante de arco ancho para aplicaciones estándar con movimiento moderado y niveles de vibración normales — es más compacta y de menor costo. Actualice al arco ancho cuando el sistema tenga alta amplitud de vibración, grandes movimientos térmicos, o cargas de choque significativas inducidas por bomba/motor.",
+    "usage": "Sistemas HVAC, tuberías de agua, líneas de fluido industrial ligero, conexiones de descarga y succión de bombas. Primera opción estándar para la mayoría de las aplicaciones de junta de expansión de caucho — elija la variante de arco ancho solo cuando se requiera específicamente mayor capacidad de movimiento o aislamiento de alta vibración/choque.",
     "features": [
       "Construcción de caucho de convolución de arco simple",
       "Absorbe la expansión y contracción térmica",
@@ -1187,8 +1187,8 @@
     "categorySlug": "expansion-joints",
     "category": "Juntas de Expansión",
     "title": "Fuelle de Caucho de Arco Ancho",
-    "desc": "Fuelle de caucho de arco ancho que proporciona la máxima absorción de movimiento y un aislamiento de vibración superior. Específicamente recomendado con un conjunto de tirantes para el control de presión interna. Ideal para conexiones de bombas y motores de alta vibración. Elija esta opción sobre el arco simple estándar (prod_e3) cuando su sistema tenga alta amplitud de vibración, grandes ciclos de movimiento térmico, cargas de choque significativas de bomba/motor, o donde la máxima flexibilidad y atenuación de ruido sean los requisitos principales.",
-    "usage": "Conexiones de bombas y motores de alta vibración, tuberías industriales de servicio pesado con movimiento térmico significativo, aplicaciones que requieren máxima flexibilidad y aislamiento de choque. Especifique sobre el arco simple (prod_e3) cuando la vibración o el movimiento sea la preocupación de diseño dominante.",
+    "desc": "Fuelle de caucho de arco ancho que proporciona la máxima absorción de movimiento y un aislamiento de vibración superior. Específicamente recomendado con un conjunto de tirantes para el control de presión interna. Ideal para conexiones de bombas y motores de alta vibración. Elija esta opción sobre el arco simple estándar cuando su sistema tenga alta amplitud de vibración, grandes ciclos de movimiento térmico, cargas de choque significativas de bomba/motor, o donde la máxima flexibilidad y atenuación de ruido sean los requisitos principales.",
+    "usage": "Conexiones de bombas y motores de alta vibración, tuberías industriales de servicio pesado con movimiento térmico significativo, aplicaciones que requieren máxima flexibilidad y aislamiento de choque. Especifique sobre el arco simple cuando la vibración o el movimiento sea la preocupación de diseño dominante.",
     "features": [
       "Máxima absorción de movimiento axial, lateral y angular",
       "Aislamiento de vibración, ruido y choque superior frente a arco simple/doble",
@@ -2484,7 +2484,7 @@
       "Fabricado a partir de planos OEM de ingeniería inversa con verificación de material PMI",
       "Material: acero aleado (CrMoV, 12% Cr) según condiciones de vapor",
       "Mecanizado de precisión: desbaste > preacabado > acabado final",
-      "Equilibrado dinámico de 50–2.000 kg según ISO 1940 / API 670",
+      "Equilibrado dinámico de 50–2.000 kg según ISO 21940-11 / ISO 1940",
       "Informe de equilibrado completo con datos de excentricidad mecánica y eléctrica",
       "Opciones de fijación de álabe: árbol de dedos, raíz en T, o cola de milano",
       "Actualizaciones de material disponibles para programas de extensión de vida útil",
@@ -2492,7 +2492,7 @@
     ],
     "specs": {
       "Rotor Material": "Acero aleado (CrMoV, 12% Cr) según condiciones de vapor",
-      "Dynamic Balancing": "ISO 1940 / API 670 (capacidad: 50–2.000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (capacidad: 50–2.000 kg)",
       "Machining Stages": "Desbaste > preacabado > acabado final",
       "Blade Root Options": "Árbol de dedos, raíz en T, cola de milano",
       "Documentation": "Certificado de inspección completo + informe de equilibrado",
@@ -3468,7 +3468,7 @@
       "Recubrimiento duro Stellite en bordes de ataque de última etapa BP — protección contra erosión de gotas de vapor húmedo",
       "Verificación dimensional: control de galga de perfil + informe de inspección MMC para cada lote de álabes",
       "Verificación de material PMI antes del mecanizado — se suministra certificado de composición química",
-      "Equilibrado dinámico del juego completo de álabes en el disco del rotor — cumplimiento ISO 1940 / API 670",
+      "Equilibrado dinámico del juego completo de álabes en el disco del rotor — cumplimiento ISO 21940-11 / ISO 1940",
       "Álabes móviles (rotor) y estacionarios (tobera/diafragma) suministrados por separado o como juego de etapa",
       "Adecuado para programas de extensión de vida útil — actualización de material de álabe disponible"
     ],
@@ -3481,7 +3481,7 @@
       "Erosion Protection": "Recubrimiento duro Stellite en borde de ataque de última etapa BP",
       "Verification": "Galga de perfil + informe de inspección MMC por lote",
       "PMI Certificate": "Certificado de composición química suministrado",
-      "Balancing Standard": "ISO 1940 / API 670 (en disco de rotor)",
+      "Balancing Standard": "ISO 21940-11 / ISO 1940 (en disco de rotor)",
       "HSN Code": "8406"
     },
     "priceRange": {
@@ -4246,7 +4246,7 @@
     "category": "Repuestos para Turbinas",
     "title": "Interruptores de Presión Diferencial y Temperatura de Aceite Lubricante para Turbinas de Vapor",
     "desc": "Interruptores de presión diferencial (DP) e interruptores de temperatura para monitoreo de condición de carcasas de filtro de aceite lubricante de turbina, paneles de cambio de filtro dúplex, intercambiadores de calor, y tuberías de proceso. Los interruptores DP señalan la obstrucción del elemento filtrante detectando el aumento de la presión diferencial a través de un elemento obstruido — permitiendo el mantenimiento planificado antes de que ocurra la derivación del elemento y el aceite sin filtrar llegue a los cojinetes de la turbina. Los interruptores de temperatura proporcionan salidas de alarma y disparo alto/bajo para monitoreo de temperatura de aceite lubricante, temperatura de metal de cojinete, y temperatura de corriente de proceso.",
-    "usage": "Ajuste directo o retroadaptación en carcasas de filtro dúplex existentes de Keshav Enterprises (series prod_f1, prod_f2) y coladores de cesta simplex — cableados al DCS, PLC, o panel de alarma local de la planta para monitoreo de condición de filtro. También usado en carcasas de filtro de terceros, monitoreo de temperatura de entrada/salida de intercambiador de calor, control de temperatura de salida de enfriador de aceite lubricante de turbina, y circuitos de alarma/disparo de temperatura de cojinete de turbina de vapor. La salida del interruptor DP activa la alarma de cambio de filtro (dúplex) o alarma de mantenimiento (simplex/cesta) antes de que la válvula de derivación se levante y el aceite sin filtrar circule a los cojinetes.",
+    "usage": "Ajuste directo o retroadaptación en carcasas de filtro dúplex existentes de Keshav Enterprises (series Elementos Filtrantes de Aceite Lubricante de Reemplazo para Turbina Triveni, Elementos Filtrantes de Aceite Lubricante de Reemplazo para Turbina Siemens) y coladores de cesta simplex — cableados al DCS, PLC, o panel de alarma local de la planta para monitoreo de condición de filtro. También usado en carcasas de filtro de terceros, monitoreo de temperatura de entrada/salida de intercambiador de calor, control de temperatura de salida de enfriador de aceite lubricante de turbina, y circuitos de alarma/disparo de temperatura de cojinete de turbina de vapor. La salida del interruptor DP activa la alarma de cambio de filtro (dúplex) o alarma de mantenimiento (simplex/cesta) antes de que la válvula de derivación se levante y el aceite sin filtrar circule a los cojinetes.",
     "features": [
       "Tipos de interruptor DP: tipo pistón (simple, robusto), tipo diafragma (rangos DP bajos, fluidos viscosos), tipo diferencial de tubo Bourdon (alta precisión)",
       "Rango de punto de ajuste DP: 0,3 a 10 bar — cubre configuraciones estándar de derivación de filtro de 3,5 bar y 6 bar",
@@ -6894,7 +6894,7 @@
     "category": "Repuestos para Turbinas",
     "title": "Resortes de Lámina para Sellos Laberínticos de Turbinas de Vapor",
     "desc": "Muelles de lámina de precisión que precargan los segmentos del sello de laberinto retráctil contra el eje de la turbina, manteniendo la holgura mínima de sellado durante el funcionamiento normal mientras permiten que el segmento se retraiga radialmente durante las excursiones del rotor — reduciendo el daño por roce y el tiempo de parada comparado con empaquetaduras de laberinto fijas y calafateadas. Se suministran en acero para muelles para temperaturas estándar del prensaestopas e Inconel X-750 para etapas de alta temperatura donde los muelles de acero se relajan y pierden precarga con el tiempo.",
-    "usage": "Se instalan detrás de los anillos de empaquetadura de laberinto segmentados en los prensaestopas del eje de turbinas de vapor — cajas de prensaestopas de AP/PI, prensaestopas del extremo de BP, y prensaestopas de diafragma entre etapas — en turbinas Triveni, BHEL, Siemens, Belliss & Morcom, KKK y Man Turbo. Se suministran como juego de repuesto directo al revisar prensaestopas de laberinto retráctil, o como parte de una revisión completa del sistema de sellado del prensaestopas junto con empaquetaduras de sellado de laberinto del eje (ver prod_ts2).",
+    "usage": "Se instalan detrás de los anillos de empaquetadura de laberinto segmentados en los prensaestopas del eje de turbinas de vapor — cajas de prensaestopas de AP/PI, prensaestopas del extremo de BP, y prensaestopas de diafragma entre etapas — en turbinas Triveni, BHEL, Siemens, Belliss & Morcom, KKK y Man Turbo. Se suministran como juego de repuesto directo al revisar prensaestopas de laberinto retráctil, o como parte de una revisión completa del sistema de sellado del prensaestopas junto con empaquetaduras de sellado de laberinto del eje (ver Empaquetaduras Laberínticas de Eje para Turbinas de Vapor).",
     "features": [
       "Dos grados de material: acero para muelles (EN45A / AISI 302 inoxidable) para temperaturas de prensaestopas hasta aprox. 230°C; Inconel X-750 (temple de muelle AMS 5699) para etapas de alta temperatura hasta aprox. 650°C donde los muelles de acero se relajan y pierden precarga",
       "La precarga radial mantiene la holgura mínima laberinto-eje durante el funcionamiento normal, permitiendo que el segmento se retraiga radialmente durante roces del rotor o transitorios térmicos",

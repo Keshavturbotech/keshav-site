@@ -79,7 +79,7 @@
     "coreCapabilitiesList": [
       "Lắp đặt tua-bin, chạy thử, và đại tu trọn gói",
       "Kỹ thuật đảo ngược chính xác sử dụng quét laser 3D & CMM",
-      "Cân bằng động theo ISO 1940 / API 670 (50–2.000 kg)",
+      "Cân bằng động theo ISO 21940-11 / ISO 1940 (50–2.000 kg)",
       "Súc rửa dầu bôi trơn theo phân loại độ sạch ISO 4406:99",
       "Căn chỉnh máy móc sử dụng công nghệ căn chỉnh laser mới nhất",
       "Chế tạo: lõi lọc, bộ lọc khí HVAC, khớp nối giãn nở, bộ lọc rác",
@@ -160,7 +160,7 @@
       {
         "year": "2021",
         "title": "Mở rộng Năng lực & Dòng Sản phẩm",
-        "desc": "Đầu tư vào quét laser 3D, thiết bị đo CMM và máy cân bằng động theo ISO 1940 / API 670 (50–2.000 kg), đồng thời ra mắt dòng sản phẩm công nghiệp toàn diện gồm lọc, lọc khí HVAC, khớp nối giãn nở, bộ lọc rổ, sản phẩm cao su và cụm ống mềm."
+        "desc": "Đầu tư vào quét laser 3D, thiết bị đo CMM và máy cân bằng động theo ISO 21940-11 / ISO 1940 (50–2.000 kg), đồng thời ra mắt dòng sản phẩm công nghiệp toàn diện gồm lọc, lọc khí HVAC, khớp nối giãn nở, bộ lọc rổ, sản phẩm cao su và cụm ống mềm."
       },
       {
         "year": "Hiện nay",
@@ -190,7 +190,7 @@
       },
       "vp": {
         "name": "Chuyên gia Cân bằng",
-        "spec": "Cân bằng động ISO 1940 / API 670 · Rotor 50–2.000 kg"
+        "spec": "Cân bằng động ISO 21940-11 / ISO 1940 · Rotor 50–2.000 kg"
       },
       "mt": {
         "name": "Trưởng nhóm Xưởng — Gia công",

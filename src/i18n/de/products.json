@@ -887,7 +887,7 @@
     "category": "Industrieschmutzfänger",
     "title": "SS 304/316 Korbfilter-Ersatzeinsätze",
     "desc": "Ersatz- und sonderangefertigte Korbfilterelemente für Simplex- und Duplex-Korbfiltergehäuse. Konstruiert aus SS-304/316-Lochblech mit optionaler Drahtgewebeauflage, Spaltdraht oder vollständig geschweißter Drahtgewebekonstruktion. Lieferung als exakte OEM-Austauschelemente oder maßlich abgestimmt auf jedes bestehende Gehäuse – einschließlich Eaton, Parker, HYDAC und Fertigungseinheiten. Gewebe-/Lochgrößen von 37 µm bis 6 mm decken die Siebung von leichtem Schmutz bis zur Feinstpartikelrückhaltung ab.",
-    "usage": "Direkte Ersatzelemente für installierte Simplex- und Duplex-Korbfiltergehäuse in Turbinenschmierölsystemen, Regler- und Steuerölkreisläufen, Prozessrohrleitungen, Heizölsystemen, Kühlwasserleitungen und chemischen Prozessströmen. Lieferung passend zu bestehendem Gehäuse-ID, Elementhöhe und Kopfplattenkonfiguration – Gehäusehersteller, Größe und aktuelles Gewebe für exakten Austausch angeben. Kompatibel mit von Keshav Enterprises gelieferten Simplex-Korbfiltern (prod_st1) und Duplex-Korbfiltern (prod_st2) sowie OEM- und Fremdgehäusen.",
+    "usage": "Direkte Ersatzelemente für installierte Simplex- und Duplex-Korbfiltergehäuse in Turbinenschmierölsystemen, Regler- und Steuerölkreisläufen, Prozessrohrleitungen, Heizölsystemen, Kühlwasserleitungen und chemischen Prozessströmen. Lieferung passend zu bestehendem Gehäuse-ID, Elementhöhe und Kopfplattenkonfiguration – Gehäusehersteller, Größe und aktuelles Gewebe für exakten Austausch angeben. Kompatibel mit von Keshav Enterprises gelieferten Simplex-Korbfiltern und Duplex-Korbfiltern sowie OEM- und Fremdgehäusen.",
     "features": [
       "Konstruktionsarten: Lochblech (Standard), Lochblech + Drahtgewebeauflage, vollständig geschweißter Drahtgewebezylinder, Spaltdrahtkorb – je nach Anwendung angeben",
       "Lochgrößen: 0,5, 1, 1,5, 2, 3, 4, 6 mm Standard-Lochblech",
@@ -949,8 +949,8 @@
     "sku": "KTB-EJ-001",
     "category": "Kompensatoren",
     "title": "Edelstahl-Metallbalgkompensator",
-    "desc": "Mehrlagiger SS-Metallbalg zur Aufnahme der Wärmedehnung in Rohrleitungssystemen. Erhältlich von DN 15 bis DN 12.000. Ermüdungs-, Streckgrenzen- und Berstgeprüft nach EJMA-/ASME-Normen. Diesen (prod_e1) gegenüber dem Standard-Axialkompensator (prod_e1b) wählen, wenn Ihre Anwendung mehrlagige Hochzyklus-Ermüdungslebensdauer, Sonderlegierungen (Incoloy, Inconel, Hastelloy, Titan), sehr hohen Druck über 16 bar oder PED-/AD2000-Fremdzertifizierungsdokumentation erfordert.",
-    "usage": "Hochdruck-Dampfabgasanlagen, chemische Prozessleitungen, Wärmetauscheranschlüsse und Rohrleitungen, die einen Ausgleich der Wärmebewegung erfordern. Beste Wahl für Hochzyklus-Ermüdungsbetrieb, Sonderlegierungen, Drücke über 16 bar oder wo eine PED-/AD2000-Zertifizierung erforderlich ist. Für Standard-Dampf- und Wasserleitungen bei moderatem Druck ist der Axialkompensator (prod_e1b) kostengünstiger.",
+    "desc": "Mehrlagiger SS-Metallbalg zur Aufnahme der Wärmedehnung in Rohrleitungssystemen. Erhältlich von DN 15 bis DN 12.000. Ermüdungs-, Streckgrenzen- und Berstgeprüft nach EJMA-/ASME-Normen. Diesen gegenüber dem Standard-Axialkompensator wählen, wenn Ihre Anwendung mehrlagige Hochzyklus-Ermüdungslebensdauer, Sonderlegierungen (Incoloy, Inconel, Hastelloy, Titan), sehr hohen Druck über 16 bar oder PED-/AD2000-Fremdzertifizierungsdokumentation erfordert.",
+    "usage": "Hochdruck-Dampfabgasanlagen, chemische Prozessleitungen, Wärmetauscheranschlüsse und Rohrleitungen, die einen Ausgleich der Wärmebewegung erfordern. Beste Wahl für Hochzyklus-Ermüdungsbetrieb, Sonderlegierungen, Drücke über 16 bar oder wo eine PED-/AD2000-Zertifizierung erforderlich ist. Für Standard-Dampf- und Wasserleitungen bei moderatem Druck ist der Axialkompensator kostengünstiger.",
     "features": [
       "Werkstoff: SS 304/316L, Duplex, Incoloy 825/925, Inconel 625, Titan, Hastelloy",
       "Abmessungsbereich: DN 15 bis DN 12.000",
@@ -1004,8 +1004,8 @@
     "sku": "KTB-EJ-002",
     "category": "Kompensatoren",
     "title": "SS/Legierung Axial-Kompensator (DN15–DN12.000)",
-    "desc": "Einzelbalg-Axialkompensator zur Aufnahme von Wärmedehnung und -kontraktion entlang der Rohrlängsachse. Der am häufigsten verwendete Kompensatortyp in Dampf-, Prozessgas- und Heißwasserleitungen. Diesen gegenüber dem mehrlagigen SS-Metallbalg (prod_e1) für Standardanwendungen bei moderatem Druck (bis 16 bar) wählen, wo Kosteneffizienz wichtig ist. Bei Sonderlegierungen, sehr hohem Druck (>16 bar), PED-Zertifizierung oder ultrahoher Zyklusermüdungslebensdauer stattdessen prod_e1 angeben.",
-    "usage": "Dampfleitungen, Pumpenanschlüsse, Wärmetauscher-Ein-/Auslassanschlüsse, Heißwassersysteme in Kraftwerken, Zuckerfabriken, Papierfabriken und Raffinerien. Standard-Erstwahl für axialen Bewegungsausgleich bis 150 bar G – Upgrade auf mehrlagigen Metallbalg (prod_e1) nur, wenn Sonderlegierung, Hochzyklus-Ermüdung oder strenge Normzertifizierung vorgeschrieben sind.",
+    "desc": "Einzelbalg-Axialkompensator zur Aufnahme von Wärmedehnung und -kontraktion entlang der Rohrlängsachse. Der am häufigsten verwendete Kompensatortyp in Dampf-, Prozessgas- und Heißwasserleitungen. Diesen gegenüber dem mehrlagigen SS-Metallbalg für Standardanwendungen bei moderatem Druck (bis 16 bar) wählen, wo Kosteneffizienz wichtig ist. Bei Sonderlegierungen, sehr hohem Druck (>16 bar), PED-Zertifizierung oder ultrahoher Zyklusermüdungslebensdauer stattdessen Edelstahl-Metallbalgkompensator angeben.",
+    "usage": "Dampfleitungen, Pumpenanschlüsse, Wärmetauscher-Ein-/Auslassanschlüsse, Heißwassersysteme in Kraftwerken, Zuckerfabriken, Papierfabriken und Raffinerien. Standard-Erstwahl für axialen Bewegungsausgleich bis 150 bar G – Upgrade auf mehrlagigen Metallbalg nur, wenn Sonderlegierung, Hochzyklus-Ermüdung oder strenge Normzertifizierung vorgeschrieben sind.",
     "features": [
       "Nimmt axiale Kompression und Dehnung aus thermischer Zyklierung auf",
       "Einzelbalg-Konstruktion – kompakt und kostengünstig",
@@ -1119,8 +1119,8 @@
     "sku": "KTB-EJ-004",
     "category": "Kompensatoren",
     "title": "Einzelbogen-Gummikompensator",
-    "desc": "Standard-Einzelbogen-Gummikompensator zur Aufnahme von thermischen Bewegungen und mechanischen Vibrationen. Kostengünstige Erstwahl für HLK-Anlagen, Wasserleitungen und leichte industrielle Flüssigkeitsleitungen. Diesen gegenüber der Weitbogen-Variante (prod_e3b) für Standardanwendungen mit moderater Bewegung und normalen Vibrationswerten wählen – er ist kompakter und kostengünstiger. Upgrade auf den Weitbogen (prod_e3b), wenn das System hohe Vibrationsamplituden, große thermische Bewegungen oder erhebliche pumpen-/motorbedingte Stoßlasten aufweist.",
-    "usage": "HLK-Anlagen, Wasserleitungen, leichte industrielle Flüssigkeitsleitungen, Pumpendruck- und -saugleitungsanschlüsse. Standard-Erstwahl für die meisten Gummikompensatoranwendungen – die Weitbogen-Variante (prod_e3b) nur wählen, wenn eine große Bewegungskapazität oder Hochvibrations-/Stoßisolierung spezifisch erforderlich ist.",
+    "desc": "Standard-Einzelbogen-Gummikompensator zur Aufnahme von thermischen Bewegungen und mechanischen Vibrationen. Kostengünstige Erstwahl für HLK-Anlagen, Wasserleitungen und leichte industrielle Flüssigkeitsleitungen. Diesen gegenüber der Weitbogen-Variante für Standardanwendungen mit moderater Bewegung und normalen Vibrationswerten wählen – er ist kompakter und kostengünstiger. Upgrade auf den Weitbogen, wenn das System hohe Vibrationsamplituden, große thermische Bewegungen oder erhebliche pumpen-/motorbedingte Stoßlasten aufweist.",
+    "usage": "HLK-Anlagen, Wasserleitungen, leichte industrielle Flüssigkeitsleitungen, Pumpendruck- und -saugleitungsanschlüsse. Standard-Erstwahl für die meisten Gummikompensatoranwendungen – die Weitbogen-Variante nur wählen, wenn eine große Bewegungskapazität oder Hochvibrations-/Stoßisolierung spezifisch erforderlich ist.",
     "features": [
       "Einzelbogen-Wellungskonstruktion aus Gummi",
       "Nimmt thermische Dehnung und Kontraktion auf",
@@ -1171,8 +1171,8 @@
     "sku": "KTB-EJ-005",
     "category": "Kompensatoren",
     "title": "Weitbogen-Gummikompensator",
-    "desc": "Weitbogen-Gummikompensator mit maximaler Bewegungsaufnahme und überlegener Vibrationsisolierung. Speziell mit Zugstangenbaugruppe zur Kontrolle des Innendrucks empfohlen. Ideal für Anschlüsse mit hoher Pumpen- und Motorvibration. Diesen gegenüber dem Standard-Einzelbogen (prod_e3) wählen, wenn Ihr System hohe Vibrationsamplituden, große thermische Bewegungszyklen, erhebliche Pumpen-/Motorstoßlasten aufweist oder wenn maximale Flexibilität und Geräuschdämpfung die Hauptanforderung sind. Für Standard-HLK- und Wasserleitungen ist der Einzelbogen (prod_e3) kompakter und kostengünstiger.",
-    "usage": "Anschlüsse mit hoher Pumpen- und Motorvibration, robuste industrielle Rohrleitungen mit erheblicher thermischer Bewegung, Anwendungen, die maximale Flexibilität und Stoßisolierung erfordern. Gegenüber dem Einzelbogen (prod_e3) angeben, wenn Vibration oder Bewegung das dominierende Konstruktionsmerkmal ist.",
+    "desc": "Weitbogen-Gummikompensator mit maximaler Bewegungsaufnahme und überlegener Vibrationsisolierung. Speziell mit Zugstangenbaugruppe zur Kontrolle des Innendrucks empfohlen. Ideal für Anschlüsse mit hoher Pumpen- und Motorvibration. Diesen gegenüber dem Standard-Einzelbogen wählen, wenn Ihr System hohe Vibrationsamplituden, große thermische Bewegungszyklen, erhebliche Pumpen-/Motorstoßlasten aufweist oder wenn maximale Flexibilität und Geräuschdämpfung die Hauptanforderung sind. Für Standard-HLK- und Wasserleitungen ist der Einzelbogen kompakter und kostengünstiger.",
+    "usage": "Anschlüsse mit hoher Pumpen- und Motorvibration, robuste industrielle Rohrleitungen mit erheblicher thermischer Bewegung, Anwendungen, die maximale Flexibilität und Stoßisolierung erfordern. Gegenüber dem Einzelbogen angeben, wenn Vibration oder Bewegung das dominierende Konstruktionsmerkmal ist.",
     "features": [
       "Maximale Aufnahme von axialer, lateraler und angularer Bewegung",
       "Überlegene Vibrations-, Geräusch- und Stoßisolierung gegenüber Einzel-/Doppelbogen",
@@ -2468,7 +2468,7 @@
       "Gefertigt aus reverse-engineerten OEM-Zeichnungen mit PMI-Werkstoffverifizierung",
       "Werkstoff: Legierungsstahl (CrMoV, 12 % Cr) je nach Dampfbedingungen",
       "Präzisionsbearbeitung: Grobbearbeitung > Vorfertigbearbeitung > Fertigbearbeitung",
-      "Dynamisches Auswuchten 50–2.000 kg nach ISO 1940 / API 670",
+      "Dynamisches Auswuchten 50–2.000 kg nach ISO 21940-11 / ISO 1940",
       "Vollständiger Auswuchtbericht mit mechanischen und elektrischen Rundlaufdaten",
       "Schaufelbefestigungsoptionen: Tannenbaum-, T-Fuß- oder Schwalbenschwanzverbindung",
       "Werkstoffaufwertungen für Lebensdauerverlängerungsprogramme erhältlich",
@@ -2476,7 +2476,7 @@
     ],
     "specs": {
       "Rotor Material": "Legierungsstahl (CrMoV, 12 % Cr) je nach Dampfbedingungen",
-      "Dynamic Balancing": "ISO 1940 / API 670 (Kapazität: 50–2.000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (Kapazität: 50–2.000 kg)",
       "Machining Stages": "Grobbearbeitung > Vorfertigbearbeitung > Fertigbearbeitung",
       "Blade Root Options": "Tannenbaum, T-Fuß, Schwalbenschwanz",
       "Documentation": "Vollständiges Prüfzertifikat + Auswuchtbericht",
@@ -5549,7 +5549,7 @@
       "Erosion Protection": "Stellite-Hartauftrag an ND-Endstufen-Eintrittskante",
       "Verification": "Profillehre + KMG-Prüfbericht pro Charge",
       "PMI Certificate": "Chemisches Zusammensetzungszertifikat mitgeliefert",
-      "Balancing Standard": "ISO 1940 / API 670 (auf Rotorscheibe)",
+      "Balancing Standard": "ISO 21940-11 / ISO 1940 (auf Rotorscheibe)",
       "HSN Code": "8406"
     },
     "images": [
@@ -6880,7 +6880,7 @@
     "category": "Turbinenersatzteile",
     "title": "Dampfturbinen-Schmieröl-DP- & Temperaturschalter",
     "desc": "Differenzdruckschalter (DP) und Temperaturschalter zur Zustandsüberwachung von Turbinenschmierölfiltergehäusen, Duplex-Filterumschaltpaneelen, Wärmetauschern und Prozessrohrleitungen. DP-Schalter signalisieren eine Filterelementverstopfung durch Erkennung des ansteigenden Differenzdrucks über einem verstopften Element – ermöglicht geplante Wartung, bevor ein Element-Bypass auftritt und ungefiltertes Öl die Turbinenlager erreicht. Temperaturschalter liefern Hoch-/Niedrigalarm- und Auslöseausgänge zur Überwachung von Schmieröltemperatur, Lagermetalltemperatur und Prozessstromtemperatur.",
-    "usage": "Direkteinbau oder Nachrüstung an bestehenden Duplex-Filtergehäusen von Keshav Enterprises (Baureihe prod_f1, prod_f2) und Simplex-Korbfiltern – verdrahtet mit Anlagen-DCS, SPS oder lokalem Alarmpaneel zur Filterzustandsüberwachung. Auch eingesetzt an Fremdfiltergehäusen, Wärmetauscher-Ein-/Auslasstemperaturüberwachung, Turbinenschmierölkühler-Auslasstemperaturregelung sowie Dampfturbinen-Lagertemperatur-Alarm-/Auslösekreisläufen. Der DP-Schalterausgang löst einen Filterumschaltalarm (Duplex) oder Wartungsalarm (Simplex/Korb) aus, bevor das Bypassventil öffnet und ungefiltertes Öl zu den Lagern zirkuliert.",
+    "usage": "Direkteinbau oder Nachrüstung an bestehenden Duplex-Filtergehäusen von Keshav Enterprises (Baureihe Triveni Ersatz-Turbinen-Schmierölfilterelemente, Siemens Ersatz-Turbinen-Schmierölfilterelemente) und Simplex-Korbfiltern – verdrahtet mit Anlagen-DCS, SPS oder lokalem Alarmpaneel zur Filterzustandsüberwachung. Auch eingesetzt an Fremdfiltergehäusen, Wärmetauscher-Ein-/Auslasstemperaturüberwachung, Turbinenschmierölkühler-Auslasstemperaturregelung sowie Dampfturbinen-Lagertemperatur-Alarm-/Auslösekreisläufen. Der DP-Schalterausgang löst einen Filterumschaltalarm (Duplex) oder Wartungsalarm (Simplex/Korb) aus, bevor das Bypassventil öffnet und ungefiltertes Öl zu den Lagern zirkuliert.",
     "features": [
       "DP-Schaltertypen: Kolbentyp (einfach, robust), Membrantyp (niedrige DP-Bereiche, viskose Flüssigkeiten), Bourdonrohr-Differenztyp (hohe Genauigkeit)",
       "DP-Schaltersollwertbereich: 0,3 bis 10 bar – deckt Standard-Filterbypass-Einstellungen von 3,5 bar und 6 bar ab",
@@ -6943,7 +6943,7 @@
     "category": "Turbinenersatzteile",
     "title": "Blattfedern für Dampfturbinen-Labyrinth-Wellendichtungen",
     "desc": "Präzisions-Blattfedern, die federnd zurückweichende (einziehbare) Labyrinth-Dichtungssegmente gegen die Turbinenwelle vorspannen und so während des normalen Betriebs den minimalen Dichtspalt aufrechterhalten, während sich das Segment bei Rotorauslenkungen radial zurückziehen kann — dies reduziert Reibschäden und Stillstandszeiten gegenüber fest eingestemmten Labyrinthpackungen. Lieferung in Federstahl für Standard-Dichtungstemperaturen und Inconel X-750 für Hochtemperaturstufen, in denen Stahlfedern mit der Zeit erschlaffen und ihre Vorspannung verlieren.",
-    "usage": "Wird hinter segmentierten Labyrinth-Packungsringen in Dampfturbinen-Wellendichtungen eingebaut — HP/IP-Dichtungsgehäuse, ND-Enddichtungen und Zwischenstufen-Diaphragma-Dichtungen — bei Turbinen von Triveni, BHEL, Siemens, Belliss & Morcom, KKK und Man Turbo. Wird als direkter Ersatzsatz bei der Überholung federnd zurückweichender Labyrinthdichtungen geliefert, oder als Teil einer kompletten Überholung des Dichtungssystems zusammen mit Labyrinth-Wellendichtpackungen (siehe prod_ts2).",
+    "usage": "Wird hinter segmentierten Labyrinth-Packungsringen in Dampfturbinen-Wellendichtungen eingebaut — HP/IP-Dichtungsgehäuse, ND-Enddichtungen und Zwischenstufen-Diaphragma-Dichtungen — bei Turbinen von Triveni, BHEL, Siemens, Belliss & Morcom, KKK und Man Turbo. Wird als direkter Ersatzsatz bei der Überholung federnd zurückweichender Labyrinthdichtungen geliefert, oder als Teil einer kompletten Überholung des Dichtungssystems zusammen mit Labyrinth-Wellendichtpackungen (siehe Dampfturbinen-Labyrinth-Wellendichtungen).",
     "features": [
       "Zwei Werkstoffgüten: Federstahl (EN45A / AISI 302 Edelstahl) für Dichtungstemperaturen bis ca. 230°C; Inconel X-750 (AMS 5699 Federvergütung) für Hochtemperaturstufen bis ca. 650°C, wo Stahlfedern erschlaffen und ihre Vorspannung verlieren",
       "Radiale Vorspannung hält den minimalen Labyrinth-Welle-Spalt im Normalbetrieb aufrecht und erlaubt gleichzeitig das radiale Zurückweichen des Segments bei Rotorreibung oder thermischen Übergängen",

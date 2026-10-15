@@ -14,7 +14,7 @@ const SVC_FAQ_ITEMS = [
   },
   {
     q: "How fast can you respond to a breakdown emergency?",
-    a: "Our engineers are stationed at multiple locations across India. For North India (UP, Haryana, Punjab, Rajasthan), typical site arrival is 4–12 hours from your call. We operate 24×7 with no answering service — you speak to a qualified engineer.",
+    a: "Our engineers are stationed at multiple locations across India. For North India (UP, Haryana, Punjab, Rajasthan), typical site arrival is 4–12 hours from your call. We operate 24x7 with no answering service — you speak to a qualified engineer.",
   },
   {
     q: "What is your process for reverse-engineering an obsolete part?",

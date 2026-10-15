@@ -91,7 +91,7 @@ const RAW_INDUSTRIES: Omit<Industry, "slug">[] = [
       "PTFE-lined hose assemblies for chemical transfer",
       "High-pressure hydraulic rubber hose assemblies",
       "Babbitt bearing manufacturing for compressor trains",
-      "Dynamic balancing per ISO 1940/API 670",
+      "Dynamic balancing per ISO 21940-11 / ISO 1940",
     ],
     turbines: "Siemens, Man Turbo, KKK, ABB",
   },

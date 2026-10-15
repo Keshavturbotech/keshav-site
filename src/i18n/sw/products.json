@@ -1593,8 +1593,8 @@
     "sku": "KTB-EJ-001",
     "category": "Expansion Joints",
     "title": "Kiungo cha Upanuzi cha Bellow ya Chuma cha Stainless Steel",
-    "desc": "Bellow ya chuma ya SS yenye tabaka nyingi inayofyonza upanuzi wa joto katika mifumo ya mabomba. Inapatikana kutoka DN 15 hadi DN 12,000. Imepimwa uchovu (fatigue), mavuno (yield), na kupasuka kulingana na viwango vya EJMA/ASME. Chagua bidhaa hii (prod_e1) badala ya kiungo cha axial cha kawaida (prod_e1b) wakati programu yako inahitaji maisha ya uchovu ya mizunguko mingi ya tabaka nyingi, nyenzo za aloi maalum (Incoloy, Inconel, Hastelloy, Titanium), shinikizo kubwa sana zaidi ya bar 16, au hati za uthibitisho wa mtu wa tatu za PED/AD2000.",
-    "usage": "Mifumo ya kutolea mvuke ya shinikizo kubwa, mabomba ya mchakato wa kemikali, viunganisho vya kibadilishaji joto (heat exchanger), na mabomba yanayohitaji fidia ya mzunguko wa joto. Chaguo bora kwa kazi za uchovu wa mizunguko mingi, nyenzo maalum, shinikizo zaidi ya bar 16, au ambapo uthibitisho wa PED/AD2000 unahitajika. Kwa mabomba ya kawaida ya mvuke na maji kwenye shinikizo la wastani, kiungo cha upanuzi cha axial (prod_e1b) ni cha gharama nafuu zaidi.",
+    "desc": "Bellow ya chuma ya SS yenye tabaka nyingi inayofyonza upanuzi wa joto katika mifumo ya mabomba. Inapatikana kutoka DN 15 hadi DN 12,000. Imepimwa uchovu (fatigue), mavuno (yield), na kupasuka kulingana na viwango vya EJMA/ASME. Chagua bidhaa hii badala ya kiungo cha axial cha kawaida wakati programu yako inahitaji maisha ya uchovu ya mizunguko mingi ya tabaka nyingi, nyenzo za aloi maalum (Incoloy, Inconel, Hastelloy, Titanium), shinikizo kubwa sana zaidi ya bar 16, au hati za uthibitisho wa mtu wa tatu za PED/AD2000.",
+    "usage": "Mifumo ya kutolea mvuke ya shinikizo kubwa, mabomba ya mchakato wa kemikali, viunganisho vya kibadilishaji joto (heat exchanger), na mabomba yanayohitaji fidia ya mzunguko wa joto. Chaguo bora kwa kazi za uchovu wa mizunguko mingi, nyenzo maalum, shinikizo zaidi ya bar 16, au ambapo uthibitisho wa PED/AD2000 unahitajika. Kwa mabomba ya kawaida ya mvuke na maji kwenye shinikizo la wastani, kiungo cha upanuzi cha axial ni cha gharama nafuu zaidi.",
     "features": [
       "Nyenzo: SS 304/316L, Duplex, Incoloy 825/925, Inconel 625, Titanium, Hastelloy",
       "Wigo wa vipimo: DN 15 hadi DN 12,000",
@@ -1648,8 +1648,8 @@
     "sku": "KTB-EJ-002",
     "category": "Expansion Joints",
     "title": "Kiungo cha Upanuzi wa Mhimili SS/Aloi (DN15–DN12,000)",
-    "desc": "Kiungo cha upanuzi cha axial chenye bellow moja kinachofyonza upanuzi na kubana kwa joto kando ya mhimili wa urefu wa bomba. Aina ya kiungo cha upanuzi inayotumika zaidi katika mabomba ya mvuke, gesi ya mchakato, na maji moto. Chagua hii badala ya bellow ya chuma ya SS yenye tabaka nyingi (prod_e1) kwa matumizi ya kawaida kwenye shinikizo la wastani (hadi bar 16) ambapo gharama nafuu ni muhimu. Wakati aloi maalum, shinikizo kubwa sana (>bar 16), uthibitisho wa PED, au maisha ya uchovu ya mizunguko mikubwa sana yanahitajika, chagua prod_e1 badala yake.",
-    "usage": "Mabomba ya mvuke, viunganisho vya pampu, viunganisho vya kuingia/kutoka vya heat exchanger, mifumo ya maji moto katika mitambo ya umeme, viwanda vya sukari, viwanda vya karatasi, na viwanda vya kusafisha mafuta. Chaguo la kwanza la kawaida kwa fidia ya mzunguko wa axial hadi bar 150 G — boresha hadi bellow ya chuma yenye tabaka nyingi (prod_e1) tu wakati aloi maalum, uchovu wa mizunguko mingi, au uthibitisho mkali wa kanuni unahitajika.",
+    "desc": "Kiungo cha upanuzi cha axial chenye bellow moja kinachofyonza upanuzi na kubana kwa joto kando ya mhimili wa urefu wa bomba. Aina ya kiungo cha upanuzi inayotumika zaidi katika mabomba ya mvuke, gesi ya mchakato, na maji moto. Chagua hii badala ya bellow ya chuma ya SS yenye tabaka nyingi kwa matumizi ya kawaida kwenye shinikizo la wastani (hadi bar 16) ambapo gharama nafuu ni muhimu. Wakati aloi maalum, shinikizo kubwa sana (>bar 16), uthibitisho wa PED, au maisha ya uchovu ya mizunguko mikubwa sana yanahitajika, chagua Kiungo cha Upanuzi cha Bellow ya Chuma cha Stainless Steel badala yake.",
+    "usage": "Mabomba ya mvuke, viunganisho vya pampu, viunganisho vya kuingia/kutoka vya heat exchanger, mifumo ya maji moto katika mitambo ya umeme, viwanda vya sukari, viwanda vya karatasi, na viwanda vya kusafisha mafuta. Chaguo la kwanza la kawaida kwa fidia ya mzunguko wa axial hadi bar 150 G — boresha hadi bellow ya chuma yenye tabaka nyingi tu wakati aloi maalum, uchovu wa mizunguko mingi, au uthibitisho mkali wa kanuni unahitajika.",
     "features": [
       "Hufyonza mgandamizo na upanuzi wa axial kutoka mzunguko wa joto",
       "Muundo wa bellow moja — mdogo na wa gharama nafuu",
@@ -1763,8 +1763,8 @@
     "sku": "KTB-EJ-004",
     "category": "Expansion Joints",
     "title": "Kiungo cha Upanuzi cha Mpira wa Single Arch",
-    "desc": "Kiungo cha upanuzi cha mpira cha single arch cha kawaida kinachofyonza mizunguko ya joto na mtetemo wa kimitambo. Chaguo la kwanza la gharama nafuu kwa HVAC, mabomba ya maji, na mistari ya viowevu vya viwanda vidogo. Chagua hii badala ya aina ya wide arch (prod_e3b) kwa matumizi ya kawaida yenye mzunguko wa wastani na viwango vya kawaida vya mtetemo — ni ndogo zaidi na nafuu zaidi. Boresha hadi wide arch (prod_e3b) wakati mfumo una mtetemo mkubwa, mizunguko mikubwa ya joto, au mizigo mikubwa ya mshtuko kutoka kwa pampu/motor.",
-    "usage": "Mifumo ya HVAC, mabomba ya maji, mistari ya viowevu vya viwanda vidogo, viunganisho vya discharge na suction vya pampu. Chaguo la kwanza la kawaida kwa matumizi mengi ya kiungo cha upanuzi wa mpira — chagua aina ya wide arch (prod_e3b) tu wakati uwezo mkubwa wa mzunguko au ulinzi wa mtetemo/mshtuko mkubwa unahitajika hasa.",
+    "desc": "Kiungo cha upanuzi cha mpira cha single arch cha kawaida kinachofyonza mizunguko ya joto na mtetemo wa kimitambo. Chaguo la kwanza la gharama nafuu kwa HVAC, mabomba ya maji, na mistari ya viowevu vya viwanda vidogo. Chagua hii badala ya aina ya wide arch kwa matumizi ya kawaida yenye mzunguko wa wastani na viwango vya kawaida vya mtetemo — ni ndogo zaidi na nafuu zaidi. Boresha hadi wide arch wakati mfumo una mtetemo mkubwa, mizunguko mikubwa ya joto, au mizigo mikubwa ya mshtuko kutoka kwa pampu/motor.",
+    "usage": "Mifumo ya HVAC, mabomba ya maji, mistari ya viowevu vya viwanda vidogo, viunganisho vya discharge na suction vya pampu. Chaguo la kwanza la kawaida kwa matumizi mengi ya kiungo cha upanuzi wa mpira — chagua aina ya wide arch tu wakati uwezo mkubwa wa mzunguko au ulinzi wa mtetemo/mshtuko mkubwa unahitajika hasa.",
     "features": [
       "Muundo wa mpira wa tao moja (single arch)",
       "Hufyonza upanuzi na kubana kwa joto",
@@ -1815,8 +1815,8 @@
     "sku": "KTB-EJ-005",
     "category": "Expansion Joints",
     "title": "Bellow ya Upanuzi ya Mpira wa Wide Arch",
-    "desc": "Bellow ya mpira ya wide arch (tao pana) inayotoa ufyonzaji wa mzunguko wa juu zaidi na ulinzi bora wa mtetemo. Inapendekezwa hasa pamoja na mkusanyiko wa tie rod kwa udhibiti wa shinikizo la ndani. Bora kwa viunganisho vya pampu na motor vyenye mtetemo mkubwa. Chagua hii badala ya single arch ya kawaida (prod_e3) wakati mfumo wako una mtetemo mkubwa, mizunguko mikubwa ya joto, mizigo mikubwa ya mshtuko wa pampu/motor, au pale ambapo unyumbufu wa juu zaidi na kupunguza kelele ndiyo mahitaji makuu. Kwa HVAC ya kawaida na mabomba ya maji, single arch (prod_e3) ni ndogo na nafuu zaidi.",
-    "usage": "Viunganisho vya pampu na motor vyenye mtetemo mkubwa, mabomba ya viwanda vizito vyenye mzunguko mkubwa wa joto, matumizi yanayohitaji unyumbufu wa juu zaidi na ulinzi wa mshtuko. Chagua badala ya single arch (prod_e3) wakati mtetemo au mzunguko ndiyo suala kuu la usanifu.",
+    "desc": "Bellow ya mpira ya wide arch (tao pana) inayotoa ufyonzaji wa mzunguko wa juu zaidi na ulinzi bora wa mtetemo. Inapendekezwa hasa pamoja na mkusanyiko wa tie rod kwa udhibiti wa shinikizo la ndani. Bora kwa viunganisho vya pampu na motor vyenye mtetemo mkubwa. Chagua hii badala ya single arch ya kawaida wakati mfumo wako una mtetemo mkubwa, mizunguko mikubwa ya joto, mizigo mikubwa ya mshtuko wa pampu/motor, au pale ambapo unyumbufu wa juu zaidi na kupunguza kelele ndiyo mahitaji makuu. Kwa HVAC ya kawaida na mabomba ya maji, single arch ni ndogo na nafuu zaidi.",
+    "usage": "Viunganisho vya pampu na motor vyenye mtetemo mkubwa, mabomba ya viwanda vizito vyenye mzunguko mkubwa wa joto, matumizi yanayohitaji unyumbufu wa juu zaidi na ulinzi wa mshtuko. Chagua badala ya single arch wakati mtetemo au mzunguko ndiyo suala kuu la usanifu.",
     "features": [
       "Ufyonzaji wa juu zaidi wa mzunguko wa axial, lateral, na angular",
       "Ulinzi bora wa mtetemo, kelele, na mshtuko ikilinganishwa na single/double arch",
@@ -3112,7 +3112,7 @@
       "Zinatengenezwa kutoka michoro ya OEM iliyopatikana kwa uhandisi wa kinyume na uthibitisho wa nyenzo wa PMI",
       "Nyenzo: chuma cha aloi (CrMoV, 12% Cr) kulingana na hali za mvuke",
       "Usanifu wa usahihi: rough machining > pre-final > final",
-      "Uwiano wa mzunguko wa kilo 50–2,000 kulingana na ISO 1940 / API 670",
+      "Uwiano wa mzunguko wa kilo 50–2,000 kulingana na ISO 21940-11 / ISO 1940",
       "Ripoti kamili ya uwiano wa mzunguko yenye data ya run-out ya mechanical na electrical",
       "Chaguo za kuunganisha blade: finger-tree, T-root, au dove-tail",
       "Uboreshaji wa nyenzo unapatikana kwa mipango ya kuongeza maisha",
@@ -3120,7 +3120,7 @@
     ],
     "specs": {
       "Rotor Material": "Chuma cha aloi (CrMoV, 12% Cr) kulingana na hali za mvuke",
-      "Dynamic Balancing": "ISO 1940 / API 670 (uwezo: kilo 50–2,000)",
+      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (uwezo: kilo 50–2,000)",
       "Machining Stages": "Rough machining > pre-final > final machining",
       "Blade Root Options": "Finger-tree, T-root, Dove-tail",
       "Documentation": "Cheti kamili cha ukaguzi + ripoti ya uwiano wa mzunguko",
@@ -4096,7 +4096,7 @@
       "Hard-facing ya Stellite kwenye ukingo wa mbele wa hatua ya mwisho ya LP — ulinzi wa mmomonyoko kutoka matone ya mvuke wenye unyevu",
       "Uthibitisho wa vipimo: ukaguzi wa profile gauge + ripoti ya ukaguzi wa CMM kwa kila batch ya blade",
       "Uthibitisho wa nyenzo wa PMI kabla ya usanifu — cheti cha muundo wa kikemikali kinatolewa",
-      "Uwiano wa mzunguko wa seti kamili ya blade kwenye disc ya rotor — kulingana na ISO 1940 / API 670",
+      "Uwiano wa mzunguko wa seti kamili ya blade kwenye disc ya rotor — kulingana na ISO 21940-11 / ISO 1940",
       "Blade zinazosogea (rotor) na zisizosogea (nozzle/diaphragm) hutolewa tofauti au kama seti ya hatua",
       "Zinafaa kwa mipango ya kuongeza maisha — uboreshaji wa nyenzo za blade unapatikana"
     ],
@@ -4109,7 +4109,7 @@
       "Erosion Protection": "Hard-facing ya Stellite kwenye ukingo wa mbele wa hatua ya mwisho ya LP",
       "Verification": "Profile gauge + ripoti ya ukaguzi wa CMM kwa kila batch",
       "PMI Certificate": "Cheti cha muundo wa kikemikali kinatolewa",
-      "Balancing Standard": "ISO 1940 / API 670 (kwenye disc ya rotor)",
+      "Balancing Standard": "ISO 21940-11 / ISO 1940 (kwenye disc ya rotor)",
       "HSN Code": "8406"
     },
     "images": [
@@ -4874,7 +4874,7 @@
     "category": "Turbine Spares",
     "title": "Swichi za Tofauti ya Shinikizo na Joto la Mafuta ya Kulainisha kwa Turbine za Mvuke",
     "desc": "Switch za shinikizo tofauti (DP) na switch za joto kwa ufuatiliaji wa hali ya housing za filta za mafuta ya kulainisha za turbine, paneli za changeover za filta za duplex, heat exchanger, na mabomba ya mchakato. Switch za DP huashiria uzuiaji wa kipengele cha filta kwa kugundua shinikizo tofauti linaloongezeka kwenye kipengele kilichoziba — kuwezesha matengenezo yaliyopangwa kabla ya bypass ya kipengele kutokea na mafuta yasiyochujwa kufika kwenye bearing za turbine. Switch za joto hutoa matokeo ya tahadhari na trip ya juu/chini kwa joto la mafuta ya kulainisha, joto la metali ya bearing, na ufuatiliaji wa joto la mtiririko wa mchakato.",
-    "usage": "Ufungaji wa moja kwa moja au retrofit kwenye housing za filta za duplex zilizopo za Keshav Enterprises (mfululizo wa prod_f1, prod_f2) na basket strainer za simplex — zimeunganishwa kwa waya kwenye DCS ya mtambo, PLC, au paneli ya tahadhari ya karibu kwa ufuatiliaji wa hali ya filta. Pia hutumika kwenye housing za filta za wahusika wengine, ufuatiliaji wa joto la inlet/outlet la heat exchanger, udhibiti wa joto la outlet la kipoza cha mafuta ya kulainisha ya turbine, na mizunguko ya tahadhari/trip ya joto la bearing ya turbine ya mvuke. Matokeo ya switch ya DP huanzisha tahadhari ya changeover ya filta (duplex) au tahadhari ya matengenezo (simplex/basket) kabla ya valvu ya bypass kuinuka na mafuta yasiyochujwa kuzunguka hadi bearing.",
+    "usage": "Ufungaji wa moja kwa moja au retrofit kwenye housing za filta za duplex zilizopo za Keshav Enterprises (mfululizo wa Vipengele vya Kichujio cha Kubadilisha cha Mafuta ya Kulainisha ya Turbine ya Triveni, Vipengele vya Kichujio cha Kubadilisha cha Mafuta ya Kulainisha ya Turbine ya Siemens) na basket strainer za simplex — zimeunganishwa kwa waya kwenye DCS ya mtambo, PLC, au paneli ya tahadhari ya karibu kwa ufuatiliaji wa hali ya filta. Pia hutumika kwenye housing za filta za wahusika wengine, ufuatiliaji wa joto la inlet/outlet la heat exchanger, udhibiti wa joto la outlet la kipoza cha mafuta ya kulainisha ya turbine, na mizunguko ya tahadhari/trip ya joto la bearing ya turbine ya mvuke. Matokeo ya switch ya DP huanzisha tahadhari ya changeover ya filta (duplex) au tahadhari ya matengenezo (simplex/basket) kabla ya valvu ya bypass kuinuka na mafuta yasiyochujwa kuzunguka hadi bearing.",
     "features": [
       "Aina za switch za DP: Aina ya piston (rahisi, imara), Aina ya diaphragm (viwango vidogo vya DP, vimiminika vizito), Aina ya bourdon tube tofauti (usahihi mkubwa)",
       "Kiwango cha switch za DP: bar 0.3 hadi 10 — inashughulikia mipangilio ya kawaida ya bypass ya filta ya bar 3.5 na bar 6",
@@ -5225,7 +5225,7 @@
     "category": "Industrial Strainers",
     "title": "Vipuri vya Kubadilisha vya Kichujio cha Kikapu SS 304/316",
     "desc": "Vipengele vya kikapu cha kichujio vya kubadilisha na vilivyotengenezwa maalum kwa nyumba za vichujio vya kikapu vya simplex na duplex. Vimetengenezwa kwa bamba lenye matundu la SS 304/316 na safu ya hiari ya mesh ya waya, wedge wire, au muundo wa mesh ya waya iliyolehemwa kabisa. Hutolewa kama vibadala sahihi vya OEM vinavyoendana au vilivyolinganishwa kwa vipimo na nyumba yoyote iliyopo — ikiwemo Eaton, Parker, HYDAC, na vitengo vilivyoundwa. Ukubwa wa matundu/mesh kutoka 37 µm hadi 6 mm hushughulikia uchunguzi wa uchafu mwepesi hadi kuhifadhi chembe laini.",
-    "usage": "Vipengele vya kubadilisha moja kwa moja kwa nyumba za vichujio vya kikapu vya simplex na duplex vilivyowekwa katika mifumo ya mafuta ya kulainisha ya turbine, mizunguko ya mafuta ya governor na udhibiti, mabomba ya mchakato, mifumo ya mafuta ya nishati, njia za maji ya kupoza, na mikondo ya mchakato wa kemikali. Hutolewa kulingana na ID ya nyumba, urefu wa kipengele, na mpangilio wa bamba la juu lililopo — taja chapa ya nyumba, ukubwa, na mesh ya sasa kwa ubadilishaji sahihi. Vinaendana na vichujio vya kikapu vya simplex (prod_st1) na vichujio vya kikapu vya duplex (prod_st2) vinavyotolewa na Keshav Enterprises, pamoja na nyumba za OEM na za wahusika wengine.",
+    "usage": "Vipengele vya kubadilisha moja kwa moja kwa nyumba za vichujio vya kikapu vya simplex na duplex vilivyowekwa katika mifumo ya mafuta ya kulainisha ya turbine, mizunguko ya mafuta ya governor na udhibiti, mabomba ya mchakato, mifumo ya mafuta ya nishati, njia za maji ya kupoza, na mikondo ya mchakato wa kemikali. Hutolewa kulingana na ID ya nyumba, urefu wa kipengele, na mpangilio wa bamba la juu lililopo — taja chapa ya nyumba, ukubwa, na mesh ya sasa kwa ubadilishaji sahihi. Vinaendana na vichujio vya kikapu vya simplex na vichujio vya kikapu vya duplex vinavyotolewa na Keshav Enterprises, pamoja na nyumba za OEM na za wahusika wengine.",
     "features": [
       "Aina za muundo: Bamba lenye matundu (kiwango), Bamba lenye matundu + safu ya mesh ya waya, Silinda ya mesh ya waya iliyolehemwa kabisa, Kikapu cha wedge wire — taja kulingana na matumizi",
       "Ukubwa wa matundu: 0.5, 1, 1.5, 2, 3, 4, 6 mm bamba lenye matundu la kiwango",
@@ -6943,7 +6943,7 @@
     "category": "Turbine Spares",
     "title": "Springi za Jani kwa Muhuri wa Labyrinth wa Turbine za Mvuke",
     "desc": "Springi za jani zenye usahihi ambazo huweka mzigo wa awali kwenye vipande vya muhuri wa labyrinth vinavyoweza kurudi nyuma (spring-back) dhidi ya mhimili wa turbine, kudumisha nafasi ndogo ya kufunga wakati wa uendeshaji wa kawaida huku ikiruhusu kipande kurudi nyuma kwa mwelekeo wa radial wakati wa mienendo ya rota — kupunguza uharibifu wa msuguano na muda wa kusimama ikilinganishwa na vifungashio vya labyrinth vilivyowekwa kudumu. Hutolewa kwa chuma cha springi kwa joto la kawaida la gland na Inconel X-750 kwa hatua za joto la juu ambapo springi za chuma hulegea na kupoteza mzigo wa awali kwa muda.",
-    "usage": "Hufungwa nyuma ya pete za vifungashio vya labyrinth vilivyogawanywa katika gland za mhimili wa turbine za mvuke — masanduku ya gland ya HP/IP, gland za mwisho za LP, na gland za diaphragm kati ya hatua — kwenye turbine za Triveni, BHEL, Siemens, Belliss & Morcom, KKK, na Man Turbo. Hutolewa kama seti mbadala ya moja kwa moja wakati wa kukarabati gland za aina ya spring-back, au kama sehemu ya ukarabati kamili wa mfumo wa kufunga gland pamoja na vifungashio vya kufunga mhimili wa labyrinth (tazama prod_ts2).",
+    "usage": "Hufungwa nyuma ya pete za vifungashio vya labyrinth vilivyogawanywa katika gland za mhimili wa turbine za mvuke — masanduku ya gland ya HP/IP, gland za mwisho za LP, na gland za diaphragm kati ya hatua — kwenye turbine za Triveni, BHEL, Siemens, Belliss & Morcom, KKK, na Man Turbo. Hutolewa kama seti mbadala ya moja kwa moja wakati wa kukarabati gland za aina ya spring-back, au kama sehemu ya ukarabati kamili wa mfumo wa kufunga gland pamoja na vifungashio vya kufunga mhimili wa labyrinth (tazama Muhuri wa Labyrinth wa Fito kwa Turbine za Mvuke).",
     "features": [
       "Aina mbili za nyenzo: chuma cha springi (EN45A / AISI 302 isiyoshika kutu) kwa joto la gland hadi karibu 230°C; Inconel X-750 (matibabu ya springi AMS 5699) kwa hatua za joto la juu hadi karibu 650°C ambapo springi za chuma hulegea na kupoteza mzigo wa awali",
       "Mzigo wa awali wa radial hudumisha nafasi ndogo kabisa kati ya labyrinth na mhimili wakati wa uendeshaji wa kawaida huku ukiruhusu kipande kurudi nyuma kwa radial wakati wa msuguano wa rota au mabadiliko ya joto ya ghafla",

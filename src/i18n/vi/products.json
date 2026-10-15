@@ -1593,8 +1593,8 @@
     "sku": "KTB-EJ-001",
     "category": "Expansion Joints",
     "title": "Khớp Nối Giãn Nở Ống Xếp Kim Loại Thép Không Gỉ",
-    "desc": "Ống xếp kim loại SS nhiều lớp hấp thụ giãn nở nhiệt trong hệ thống đường ống. Có sẵn từ DN 15 đến DN 12.000. Được kiểm tra mỏi, chảy dẻo và phá vỡ theo tiêu chuẩn EJMA/ASME. Chọn sản phẩm này (prod_e1) thay vì khớp nối trục tiêu chuẩn (prod_e1b) khi ứng dụng của bạn cần tuổi thọ mỏi chu kỳ cao nhiều lớp, vật liệu hợp kim đặc biệt (Incoloy, Inconel, Hastelloy, Titan), áp suất rất cao trên 16 bar, hoặc tài liệu chứng nhận bên thứ ba PED/AD2000.",
-    "usage": "Hệ thống xả hơi áp suất cao, ống dẫn quy trình hóa chất, kết nối bộ trao đổi nhiệt, và đường ống cần bù chuyển động nhiệt. Lựa chọn tốt nhất cho nhiệm vụ mỏi chu kỳ cao, vật liệu đặc biệt, áp suất trên 16 bar, hoặc khi cần chứng nhận PED/AD2000. Đối với đường ống hơi và nước tiêu chuẩn ở áp suất vừa phải, khớp nối giãn nở trục (prod_e1b) tiết kiệm chi phí hơn.",
+    "desc": "Ống xếp kim loại SS nhiều lớp hấp thụ giãn nở nhiệt trong hệ thống đường ống. Có sẵn từ DN 15 đến DN 12.000. Được kiểm tra mỏi, chảy dẻo và phá vỡ theo tiêu chuẩn EJMA/ASME. Chọn sản phẩm này thay vì khớp nối trục tiêu chuẩn khi ứng dụng của bạn cần tuổi thọ mỏi chu kỳ cao nhiều lớp, vật liệu hợp kim đặc biệt (Incoloy, Inconel, Hastelloy, Titan), áp suất rất cao trên 16 bar, hoặc tài liệu chứng nhận bên thứ ba PED/AD2000.",
+    "usage": "Hệ thống xả hơi áp suất cao, ống dẫn quy trình hóa chất, kết nối bộ trao đổi nhiệt, và đường ống cần bù chuyển động nhiệt. Lựa chọn tốt nhất cho nhiệm vụ mỏi chu kỳ cao, vật liệu đặc biệt, áp suất trên 16 bar, hoặc khi cần chứng nhận PED/AD2000. Đối với đường ống hơi và nước tiêu chuẩn ở áp suất vừa phải, khớp nối giãn nở trục tiết kiệm chi phí hơn.",
     "features": [
       "Vật liệu: SS 304/316L, Duplex, Incoloy 825/925, Inconel 625, Titan, Hastelloy",
       "Phạm vi kích thước: DN 15 đến DN 12.000",
@@ -1648,8 +1648,8 @@
     "sku": "KTB-EJ-002",
     "category": "Expansion Joints",
     "title": "Khớp Giãn Nở Trục SS/Hợp Kim (DN15–DN12.000)",
-    "desc": "Khớp nối giãn nở trục ống xếp đơn hấp thụ giãn nở và co rút nhiệt dọc theo trục dọc của ống. Loại khớp nối giãn nở được sử dụng rộng rãi nhất trong đường ống hơi, khí quy trình và nước nóng. Chọn sản phẩm này thay vì ống xếp kim loại SS nhiều lớp (prod_e1) cho các ứng dụng tiêu chuẩn ở áp suất vừa phải (đến 16 bar) khi hiệu quả chi phí là yếu tố quan trọng. Khi cần hợp kim đặc biệt, áp suất rất cao (>16 bar), chứng nhận PED, hoặc tuổi thọ mỏi chu kỳ siêu cao, hãy chỉ định prod_e1 thay thế.",
-    "usage": "Đường ống hơi, kết nối bơm, kết nối vào/ra bộ trao đổi nhiệt, hệ thống nước nóng trong nhà máy điện, nhà máy đường, nhà máy giấy và nhà máy lọc dầu. Lựa chọn tiêu chuẩn hàng đầu để bù chuyển động trục lên đến 150 bar G — chỉ nâng cấp lên ống xếp kim loại nhiều lớp (prod_e1) khi bắt buộc dùng hợp kim đặc biệt, mỏi chu kỳ cao, hoặc chứng nhận tiêu chuẩn nghiêm ngặt.",
+    "desc": "Khớp nối giãn nở trục ống xếp đơn hấp thụ giãn nở và co rút nhiệt dọc theo trục dọc của ống. Loại khớp nối giãn nở được sử dụng rộng rãi nhất trong đường ống hơi, khí quy trình và nước nóng. Chọn sản phẩm này thay vì ống xếp kim loại SS nhiều lớp cho các ứng dụng tiêu chuẩn ở áp suất vừa phải (đến 16 bar) khi hiệu quả chi phí là yếu tố quan trọng. Khi cần hợp kim đặc biệt, áp suất rất cao (>16 bar), chứng nhận PED, hoặc tuổi thọ mỏi chu kỳ siêu cao, hãy chỉ định Khớp Nối Giãn Nở Ống Xếp Kim Loại Thép Không Gỉ thay thế.",
+    "usage": "Đường ống hơi, kết nối bơm, kết nối vào/ra bộ trao đổi nhiệt, hệ thống nước nóng trong nhà máy điện, nhà máy đường, nhà máy giấy và nhà máy lọc dầu. Lựa chọn tiêu chuẩn hàng đầu để bù chuyển động trục lên đến 150 bar G — chỉ nâng cấp lên ống xếp kim loại nhiều lớp khi bắt buộc dùng hợp kim đặc biệt, mỏi chu kỳ cao, hoặc chứng nhận tiêu chuẩn nghiêm ngặt.",
     "features": [
       "Hấp thụ nén và giãn trục từ chu trình nhiệt",
       "Thiết kế ống xếp đơn — gọn nhẹ và tiết kiệm chi phí",
@@ -1763,8 +1763,8 @@
     "sku": "KTB-EJ-004",
     "category": "Expansion Joints",
     "title": "Khớp Nối Giãn Nở Cao Su Single Arch",
-    "desc": "Khớp nối giãn nở cao su single arch (vòm đơn) tiêu chuẩn hấp thụ chuyển động nhiệt và rung động cơ học. Lựa chọn đầu tiên tiết kiệm chi phí cho HVAC, đường ống nước, và đường chất lỏng công nghiệp nhẹ. Chọn sản phẩm này thay vì biến thể wide arch (prod_e3b) cho các ứng dụng tiêu chuẩn có chuyển động vừa phải và mức rung động bình thường — gọn nhẹ hơn và chi phí thấp hơn. Nâng cấp lên wide arch (prod_e3b) khi hệ thống có biên độ rung lớn, chuyển động nhiệt lớn, hoặc tải trọng sốc đáng kể do bơm/động cơ gây ra.",
-    "usage": "Hệ thống HVAC, đường ống nước, đường chất lỏng công nghiệp nhẹ, kết nối xả và hút của bơm. Lựa chọn tiêu chuẩn hàng đầu cho hầu hết các ứng dụng khớp nối giãn nở cao su — chỉ chọn biến thể wide arch (prod_e3b) khi cần khả năng chuyển động lớn hoặc cách ly rung động/sốc cao cụ thể.",
+    "desc": "Khớp nối giãn nở cao su single arch (vòm đơn) tiêu chuẩn hấp thụ chuyển động nhiệt và rung động cơ học. Lựa chọn đầu tiên tiết kiệm chi phí cho HVAC, đường ống nước, và đường chất lỏng công nghiệp nhẹ. Chọn sản phẩm này thay vì biến thể wide arch cho các ứng dụng tiêu chuẩn có chuyển động vừa phải và mức rung động bình thường — gọn nhẹ hơn và chi phí thấp hơn. Nâng cấp lên wide arch khi hệ thống có biên độ rung lớn, chuyển động nhiệt lớn, hoặc tải trọng sốc đáng kể do bơm/động cơ gây ra.",
+    "usage": "Hệ thống HVAC, đường ống nước, đường chất lỏng công nghiệp nhẹ, kết nối xả và hút của bơm. Lựa chọn tiêu chuẩn hàng đầu cho hầu hết các ứng dụng khớp nối giãn nở cao su — chỉ chọn biến thể wide arch khi cần khả năng chuyển động lớn hoặc cách ly rung động/sốc cao cụ thể.",
     "features": [
       "Cấu trúc cao su vòm đơn (single arch)",
       "Hấp thụ giãn nở và co rút nhiệt",
@@ -1815,8 +1815,8 @@
     "sku": "KTB-EJ-005",
     "category": "Expansion Joints",
     "title": "Ống Xếp Giãn Nở Cao Su Wide Arch",
-    "desc": "Ống xếp cao su wide arch (vòm rộng) cung cấp khả năng hấp thụ chuyển động tối đa và cách ly rung động vượt trội. Đặc biệt khuyến nghị sử dụng cùng cụm thanh giằng để kiểm soát áp suất bên trong. Lý tưởng cho kết nối bơm và động cơ có độ rung cao. Chọn sản phẩm này thay vì single arch tiêu chuẩn (prod_e3) khi hệ thống của bạn có biên độ rung cao, chu kỳ chuyển động nhiệt lớn, tải trọng sốc bơm/động cơ đáng kể, hoặc khi tính linh hoạt tối đa và giảm tiếng ồn là yêu cầu chính. Đối với HVAC và đường ống nước tiêu chuẩn, single arch (prod_e3) gọn nhẹ và tiết kiệm chi phí hơn.",
-    "usage": "Kết nối bơm và động cơ có độ rung cao, đường ống công nghiệp hạng nặng có chuyển động nhiệt đáng kể, ứng dụng cần tính linh hoạt tối đa và cách ly sốc. Chỉ định thay vì single arch (prod_e3) khi rung động hoặc chuyển động là mối quan tâm thiết kế chính.",
+    "desc": "Ống xếp cao su wide arch (vòm rộng) cung cấp khả năng hấp thụ chuyển động tối đa và cách ly rung động vượt trội. Đặc biệt khuyến nghị sử dụng cùng cụm thanh giằng để kiểm soát áp suất bên trong. Lý tưởng cho kết nối bơm và động cơ có độ rung cao. Chọn sản phẩm này thay vì single arch tiêu chuẩn khi hệ thống của bạn có biên độ rung cao, chu kỳ chuyển động nhiệt lớn, tải trọng sốc bơm/động cơ đáng kể, hoặc khi tính linh hoạt tối đa và giảm tiếng ồn là yêu cầu chính. Đối với HVAC và đường ống nước tiêu chuẩn, single arch gọn nhẹ và tiết kiệm chi phí hơn.",
+    "usage": "Kết nối bơm và động cơ có độ rung cao, đường ống công nghiệp hạng nặng có chuyển động nhiệt đáng kể, ứng dụng cần tính linh hoạt tối đa và cách ly sốc. Chỉ định thay vì single arch khi rung động hoặc chuyển động là mối quan tâm thiết kế chính.",
     "features": [
       "Hấp thụ chuyển động trục, ngang, và góc tối đa",
       "Cách ly rung động, tiếng ồn và sốc vượt trội so với single/double arch",
@@ -3112,7 +3112,7 @@
       "Sản xuất từ bản vẽ OEM qua kỹ thuật đảo ngược với xác minh vật liệu PMI",
       "Vật liệu: thép hợp kim (CrMoV, 12% Cr) theo điều kiện hơi nước",
       "Gia công chính xác: gia công thô > gần hoàn thiện > hoàn thiện cuối",
-      "Cân bằng động 50–2.000 kg theo ISO 1940 / API 670",
+      "Cân bằng động 50–2.000 kg theo ISO 21940-11 / ISO 1940",
       "Báo cáo cân bằng đầy đủ với dữ liệu độ đảo cơ khí và điện",
       "Tùy chọn gắn cánh: finger-tree, T-root hoặc dove-tail",
       "Có sẵn nâng cấp vật liệu cho chương trình kéo dài tuổi thọ",
@@ -3120,7 +3120,7 @@
     ],
     "specs": {
       "Rotor Material": "Thép hợp kim (CrMoV, 12% Cr) theo điều kiện hơi nước",
-      "Dynamic Balancing": "ISO 1940 / API 670 (công suất: 50–2.000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (công suất: 50–2.000 kg)",
       "Machining Stages": "Gia công thô > gần hoàn thiện > gia công hoàn thiện",
       "Blade Root Options": "Finger-tree, T-root, Dove-tail",
       "Documentation": "Chứng chỉ kiểm tra đầy đủ + báo cáo cân bằng",
@@ -4096,7 +4096,7 @@
       "Bọc cứng Stellite trên mép trước cấp cuối LP — bảo vệ chống xói mòn từ giọt hơi ướt",
       "Xác minh kích thước: kiểm tra dưỡng biên dạng + báo cáo kiểm tra CMM cho mỗi lô cánh",
       "Xác minh vật liệu PMI trước khi gia công — cung cấp chứng chỉ thành phần hóa học",
-      "Cân bằng động toàn bộ bộ cánh trên đĩa rotor — tuân thủ ISO 1940 / API 670",
+      "Cân bằng động toàn bộ bộ cánh trên đĩa rotor — tuân thủ ISO 21940-11 / ISO 1940",
       "Cánh động (rotor) và cánh tĩnh (vòi phun/màng ngăn) cung cấp riêng lẻ hoặc theo bộ cấp",
       "Phù hợp cho chương trình kéo dài tuổi thọ — có nâng cấp vật liệu cánh"
     ],
@@ -4109,7 +4109,7 @@
       "Erosion Protection": "Bọc cứng Stellite trên mép trước cấp cuối LP",
       "Verification": "Dưỡng biên dạng + báo cáo kiểm tra CMM mỗi lô",
       "PMI Certificate": "Cung cấp chứng chỉ thành phần hóa học",
-      "Balancing Standard": "ISO 1940 / API 670 (trên đĩa rotor)",
+      "Balancing Standard": "ISO 21940-11 / ISO 1940 (trên đĩa rotor)",
       "HSN Code": "8406"
     },
     "images": [
@@ -4874,7 +4874,7 @@
     "category": "Turbine Spares",
     "title": "Công Tắc Áp Suất Chênh Lệch và Nhiệt Độ Dầu Bôi Trơn cho Tua-bin Hơi Nước",
     "desc": "Công tắc áp suất chênh lệch (DP) và công tắc nhiệt độ để giám sát tình trạng vỏ bộ lọc dầu bôi trơn tua-bin, bảng chuyển đổi bộ lọc kép, bộ trao đổi nhiệt và đường ống quy trình. Công tắc DP báo hiệu tắc nghẽn phần tử lọc bằng cách phát hiện áp suất chênh lệch tăng trên phần tử bị tắc — cho phép bảo trì theo kế hoạch trước khi xảy ra bypass phần tử và dầu chưa lọc đến ổ trục tua-bin. Công tắc nhiệt độ cung cấp đầu ra cảnh báo và ngắt cao/thấp cho nhiệt độ dầu bôi trơn, nhiệt độ kim loại ổ trục và giám sát nhiệt độ dòng quy trình.",
-    "usage": "Lắp trực tiếp hoặc cải tạo trên vỏ bộ lọc kép hiện có của Keshav Enterprises (dòng prod_f1, prod_f2) và lưới lọc giỏ đơn — nối dây với DCS nhà máy, PLC, hoặc bảng cảnh báo cục bộ để giám sát tình trạng bộ lọc. Cũng được sử dụng trên vỏ bộ lọc của bên thứ ba, giám sát nhiệt độ đầu vào/ra bộ trao đổi nhiệt, kiểm soát nhiệt độ đầu ra bộ làm mát dầu bôi trơn tua-bin, và mạch cảnh báo/ngắt nhiệt độ ổ trục tua-bin hơi nước. Đầu ra công tắc DP kích hoạt cảnh báo chuyển đổi bộ lọc (kép) hoặc cảnh báo bảo trì (đơn/giỏ) trước khi van bypass mở và dầu chưa lọc lưu thông đến ổ trục.",
+    "usage": "Lắp trực tiếp hoặc cải tạo trên vỏ bộ lọc kép hiện có của Keshav Enterprises (dòng Lõi Lọc Dầu Bôi trơn Tua-bin Thay thế Triveni, Lõi Lọc Dầu Bôi trơn Tua-bin Thay thế Siemens) và lưới lọc giỏ đơn — nối dây với DCS nhà máy, PLC, hoặc bảng cảnh báo cục bộ để giám sát tình trạng bộ lọc. Cũng được sử dụng trên vỏ bộ lọc của bên thứ ba, giám sát nhiệt độ đầu vào/ra bộ trao đổi nhiệt, kiểm soát nhiệt độ đầu ra bộ làm mát dầu bôi trơn tua-bin, và mạch cảnh báo/ngắt nhiệt độ ổ trục tua-bin hơi nước. Đầu ra công tắc DP kích hoạt cảnh báo chuyển đổi bộ lọc (kép) hoặc cảnh báo bảo trì (đơn/giỏ) trước khi van bypass mở và dầu chưa lọc lưu thông đến ổ trục.",
     "features": [
       "Loại công tắc DP: Loại piston (đơn giản, chắc chắn), Loại màng (dải DP thấp, chất lỏng nhớt), Loại chênh lệch ống Bourdon (độ chính xác cao)",
       "Phạm vi điểm đặt công tắc DP: 0,3 đến 10 bar — bao phủ các cài đặt bypass bộ lọc tiêu chuẩn 3,5 bar và 6 bar",
@@ -5225,7 +5225,7 @@
     "category": "Industrial Strainers",
     "title": "Lõi Lọc Thay Thế cho Lọc Rổ SS 304/316",
     "desc": "Phần tử giỏ lọc thay thế và chế tạo tùy chỉnh cho vỏ giỏ lọc simplex và duplex. Được chế tạo từ tấm đục lỗ SS 304/316 với lớp lưới thép tùy chọn, wedge wire, hoặc kết cấu lưới thép hàn toàn bộ. Cung cấp dưới dạng thay thế tương thích OEM chính xác hoặc được điều chỉnh kích thước phù hợp với bất kỳ vỏ hiện có nào — bao gồm Eaton, Parker, HYDAC và các đơn vị chế tạo. Kích thước lưới/lỗ đục từ 37 µm đến 6 mm bao phủ từ sàng lọc mảnh vụn nhẹ đến giữ lại hạt mịn.",
-    "usage": "Phần tử thay thế trực tiếp cho vỏ giỏ lọc simplex và duplex đã lắp đặt trong hệ thống dầu bôi trơn tua-bin, mạch dầu governor và điều khiển, đường ống quy trình, hệ thống dầu nhiên liệu, đường nước làm mát và dòng quy trình hóa chất. Cung cấp phù hợp với ID vỏ, chiều cao phần tử và cấu hình tấm trên hiện có — ghi rõ hãng, kích thước và lưới hiện tại của vỏ để trao đổi chính xác. Tương thích với giỏ lọc simplex (prod_st1) và giỏ lọc duplex (prod_st2) do Keshav Enterprises cung cấp, cũng như vỏ OEM và bên thứ ba.",
+    "usage": "Phần tử thay thế trực tiếp cho vỏ giỏ lọc simplex và duplex đã lắp đặt trong hệ thống dầu bôi trơn tua-bin, mạch dầu governor và điều khiển, đường ống quy trình, hệ thống dầu nhiên liệu, đường nước làm mát và dòng quy trình hóa chất. Cung cấp phù hợp với ID vỏ, chiều cao phần tử và cấu hình tấm trên hiện có — ghi rõ hãng, kích thước và lưới hiện tại của vỏ để trao đổi chính xác. Tương thích với giỏ lọc simplex và giỏ lọc duplex do Keshav Enterprises cung cấp, cũng như vỏ OEM và bên thứ ba.",
     "features": [
       "Loại kết cấu: Tấm đục lỗ (tiêu chuẩn), Tấm đục lỗ + lớp lưới thép, Ống lưới thép hàn toàn bộ, Giỏ wedge wire — chỉ định theo ứng dụng",
       "Kích thước lỗ đục: 0,5, 1, 1,5, 2, 3, 4, 6 mm tấm đục lỗ tiêu chuẩn",
@@ -6943,7 +6943,7 @@
     "category": "Turbine Spares",
     "title": "Lò Xo Lá cho Đệm Kín Mê Cung Tua-bin Hơi Nước",
     "desc": "Lò xo lá chính xác tạo lực nén trước cho các phân đoạn phớt làm kín labyrinth loại co hồi (có thể thu vào) áp vào trục turbine, duy trì khe hở làm kín tối thiểu trong quá trình vận hành bình thường trong khi cho phép phân đoạn thu vào theo hướng kính khi rotor lệch — giảm hư hỏng do ma sát và thời gian ngừng máy so với phớt labyrinth cố định được chèn kín cứng. Được cung cấp bằng thép lò xo cho nhiệt độ phớt tiêu chuẩn và Inconel X-750 cho các cấp nhiệt độ cao nơi lò xo thép giãn ra và mất lực nén trước theo thời gian.",
-    "usage": "Được lắp phía sau các vòng đệm labyrinth phân đoạn trong phớt trục turbine hơi — hộp phớt HP/IP, phớt đầu LP, và phớt vách ngăn giữa các cấp — trên các turbine Triveni, BHEL, Siemens, Belliss & Morcom, KKK và Man Turbo. Được cung cấp dưới dạng bộ thay thế trực tiếp khi đại tu phớt labyrinth loại co hồi, hoặc là một phần của việc đại tu toàn bộ hệ thống làm kín phớt cùng với đệm làm kín trục labyrinth (xem prod_ts2).",
+    "usage": "Được lắp phía sau các vòng đệm labyrinth phân đoạn trong phớt trục turbine hơi — hộp phớt HP/IP, phớt đầu LP, và phớt vách ngăn giữa các cấp — trên các turbine Triveni, BHEL, Siemens, Belliss & Morcom, KKK và Man Turbo. Được cung cấp dưới dạng bộ thay thế trực tiếp khi đại tu phớt labyrinth loại co hồi, hoặc là một phần của việc đại tu toàn bộ hệ thống làm kín phớt cùng với đệm làm kín trục labyrinth (xem Đệm Kín Mê Cung Trục cho Tua-bin Hơi Nước).",
     "features": [
       "Hai cấp vật liệu: thép lò xo (EN45A / AISI 302 không gỉ) cho nhiệt độ phớt lên đến khoảng 230°C; Inconel X-750 (ram lò xo AMS 5699) cho các cấp nhiệt độ cao lên đến khoảng 650°C nơi lò xo thép giãn ra và mất lực nén trước",
       "Lực nén trước theo hướng kính duy trì khe hở tối thiểu giữa labyrinth và trục trong quá trình vận hành bình thường, đồng thời cho phép phân đoạn thu vào theo hướng kính khi rotor ma sát hoặc có biến động nhiệt",

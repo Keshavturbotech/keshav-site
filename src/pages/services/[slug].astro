@@ -64,6 +64,7 @@ const sidebarMatchCat = SVC_CATEGORY_MAP[service.id];
 const relatedCaseStudies = sidebarMatchCat
   ? CASE_STUDIES.filter((c) => c.categorySlug === sidebarMatchCat).slice(0, 2)
   : CASE_STUDIES.slice(0, 2);
+const troubleshootingService = SERVICES.find((s) => s.id === "srv_7");
 const serviceIndex = SERVICES.findIndex((s) => s.id === service.id);
 const prevService = serviceIndex > 0 ? SERVICES[serviceIndex - 1] : null;
 const nextService = serviceIndex < SERVICES.length - 1 ? SERVICES[serviceIndex + 1] : null;
@@ -243,7 +244,7 @@ const waHref = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent
     <ScrollReveal client:visible className="mb-14">
       <div class="bg-blue-50 border-l-4 border-blue-600 rounded-r-2xl p-7">
         <p class="text-blue-700 font-black text-xs uppercase tracking-widest mb-3">
-          Why Our Engineers
+          Why It Matters
         </p>
         <p class="text-slate-700 font-medium text-lg leading-relaxed">{detail.whyUs}</p>
       </div>
@@ -304,12 +305,12 @@ const waHref = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent
         <div class="mb-16">
           <h2 class="text-2xl font-black text-slate-900 tracking-tight mb-8">Gallery</h2>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {detail.images.map((img) => (
+            {detail.images.map((img, imgIdx) => (
               <figure class="group rounded-2xl overflow-hidden border border-slate-200 shadow-sm bg-slate-100">
                 <div class="aspect-video overflow-hidden">
                   <img
                     src={`/${img.file}`}
-                    alt={img.caption ?? service.title}
+                    alt={img.caption ?? `${service.title} – project photo ${imgIdx + 1} of ${detail.images?.length ?? 0}`}
                     loading="lazy"
                     decoding="async"
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -356,6 +357,22 @@ const waHref = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent
               </span>
             ))}
           </div>
+        </div>
+      )
+    }
+
+    {
+      service.id !== "srv_7" && troubleshootingService && (
+        <div class="mb-16 bg-slate-50 border border-slate-200 rounded-2xl p-6 flex flex-col sm:flex-row sm:items-center gap-4 justify-between">
+          <p class="text-slate-700 font-medium">
+            Machine already faulty or tripping? Our engineers diagnose root cause before anything is dismantled.
+          </p>
+          <a
+            href={localizedPath(locale, `/services/${troubleshootingService.slug}`)}
+            class="shrink-0 inline-flex items-center gap-2 font-black text-blue-700 hover:text-blue-800"
+          >
+            {troubleshootingService.title} &rarr;
+          </a>
         </div>
       )
     }

@@ -251,7 +251,7 @@
       },
       {
         "type": "p",
-        "text": "A usinagem é realizada em três estágios: usinagem grosseira até dimensões quase finais, tratamento térmico se necessário (alívio de tensões, têmpera e revenimento, nitretação) e usinagem de precisão final. Cada estágio é inspecionado em relação ao desenho de engenharia. Rotores são balanceados dinamicamente conforme normas ISO 1940 / API 670 antes do envio."
+        "text": "A usinagem é realizada em três estágios: usinagem grosseira até dimensões quase finais, tratamento térmico se necessário (alívio de tensões, têmpera e revenimento, nitretação) e usinagem de precisão final. Cada estágio é inspecionado em relação ao desenho de engenharia. Rotores são balanceados dinamicamente conforme normas ISO 21940-11 / ISO 1940 antes do envio."
       },
       {
         "type": "h2",

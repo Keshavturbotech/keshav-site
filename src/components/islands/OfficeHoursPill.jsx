@@ -10,7 +10,7 @@ import { useCallback, useEffect, useState } from "react";
 import { isOfficeHoursNow } from "../../lib/officeHours";
 
 const EMERALD_LABEL = "Engineers online now — reply within 2 hrs";
-const AMBER_LABEL = "Emergency line active 24×7 — planned RFQs answered by 9 AM IST";
+const AMBER_LABEL = "Emergency line active 24x7 — planned RFQs answered by 9 AM IST";
 
 function getStatus() {
   const inHours = isOfficeHoursNow();

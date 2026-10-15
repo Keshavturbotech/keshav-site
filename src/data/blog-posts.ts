@@ -77,7 +77,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "4. Workshop Repairs & Replacements" },
       {
         type: "p",
-        text: "Send the rotor for journal grinding and dynamic balancing if run-out or vibration readings were outside tolerance. Replace carbon and graphite gland rings, labyrinth packings, and babbitt bearings as per condition report. All rotor balancing should be performed to ISO 1940 or API 670 standards.",
+        text: "Send the rotor for journal grinding and dynamic balancing if run-out or vibration readings were outside tolerance. Replace carbon and graphite gland rings, labyrinth packings, and babbitt bearings as per condition report. All rotor balancing should be performed to ISO 21940-11 (ISO 1940) standards.",
       },
       { type: "h2", text: "5. Reassembly & Alignment" },
       {
@@ -212,7 +212,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "Step 5: Machining & Quality Control" },
       {
         type: "p",
-        text: "Machining is performed in three stages: rough machining to near-final dimensions, heat treatment if required (stress relieving, quench and temper, nitriding), and final precision machining. Each stage is inspected against the engineering drawing. Rotors are dynamically balanced to ISO 1940 / API 670 standards before dispatch.",
+        text: "Machining is performed in three stages: rough machining to near-final dimensions, heat treatment if required (stress relieving, quench and temper, nitriding), and final precision machining. Each stage is inspected against the engineering drawing. Rotors are dynamically balanced to ISO 21940-11 / ISO 1940 standards before dispatch.",
       },
       { type: "h2", text: "Turbines We Cover" },
       {

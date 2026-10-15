@@ -24,11 +24,11 @@ Scope: Turnkey | Typical turnaround: Project-based timeline
 
 Expert erection and commissioning for steam turbines, pumps, compressors, fans, condensers, EOT cranes, and steam/water/air pipeline work. Includes complete OEM coordination and documentation.
 
-Overview: Turbine erection and commissioning is the most critical phase of any power plant or industrial project. Errors during erection (incorrect alignment, improper clearances, wrong torques) compound into expensive failures within the first year of operation. Keshav Enterprises brings ex-OEM field engineers who have commissioned Triveni, Siemens, BHEL, Belliss, and Maxwatt turbines across power plants, sugar mills, paper mills, and process industries. Every hold point is witnessed, every clearance is recorded, and every safety system is proof-tested before steam is admitted. Our documentation package meets client, insurer, and OEM handover requirements.
+Overview: Turbine erection and commissioning is the most critical phase of any power plant or industrial project. Errors during erection (incorrect alignment, improper clearances, wrong torques) compound into expensive failures within the first year of operation. Keshav Enterprises brings ex-OEM field engineers who have commissioned Triveni, Siemens, BHEL, Belliss & Morcom, and Maxwatt turbines across power plants, sugar mills, paper mills, and process industries. Every hold point is witnessed, every clearance is recorded, and every safety system is proof-tested before steam is admitted. Our documentation package meets client, insurer, and OEM handover requirements.
 
 Why our engineers: A single clearance set wrong during erection can destroy a bearing within hours of first steam. Our ex-OEM field engineers have personally commissioned the same machine types you're installing, and they know exactly what the OEM specification means in practice, not just on paper.
 
-Key figures: 10+ OEM Makes Commissioned; 5kW–60MW Power Range Handled; 100% OEM-Spec Documentation; 24×7 Site Support Available
+Key figures: 10+ OEM Makes Commissioned; 5kW–60MW Power Range Handled; 100% OEM-Spec Documentation; 24x7 Site Support Available
 
 What we deliver:
 - Steam turbines, pumps, compressors, fans, condensers
@@ -39,31 +39,31 @@ What we deliver:
 - Development & execution of pre-commissioning procedures
 - Assist with start-up and fine tuning to operational needs
 
-OEM expertise: Triveni, Siemens, BHEL, Belliss India, Maxwatt
+OEM expertise: Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt
 
 ### Turnkey Overhauling & Maintenance
 URL: https://keshavturbotech.com/services/turnkey-overhauling-and-maintenance
 Tagline: Turnkey Shutdown Planning to Zero-Defect Restart
 Scope: Turnkey on-site | Typical turnaround: 3–21 days typical
 
-Executed by ex-OEM engineers from Triveni, Siemens, BHEL, Belliss, and more. Includes pre-shutdown planning, on-site condition reporting, comprehensive spares management, and 24x7 emergency troubleshooting.
+Executed by ex-OEM engineers from Triveni, Siemens, BHEL, Belliss & Morcom, and more. Includes pre-shutdown planning, on-site condition reporting, comprehensive spares management, and 24x7 emergency troubleshooting.
 
-Overview: Turbine overhauling is not a maintenance activity: it is a precision engineering intervention. Keshav Enterprises deploys ex-OEM engineers from Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK, and ABB to execute turnkey overhauls with the same discipline and documentation standards as the original manufacturer. Every overhaul begins 4–6 weeks before shutdown with scope finalisation, spares pre-inspection, and manpower mobilisation planning. Every component is measured before disassembly, during strip-down, and after reassembly. A written condition report, clearance register, and photographic record is produced for every overhaul, creating a baseline for the next outage.
+Overview: Turbine overhauling is not a maintenance activity: it is a precision engineering intervention. Keshav Enterprises deploys ex-OEM engineers from Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, KKK, and ABB to execute turnkey overhauls with the same discipline and documentation standards as the original manufacturer. Every overhaul begins 4–6 weeks before shutdown with scope finalisation, spares pre-inspection, and manpower mobilisation planning. Every component is measured before disassembly, during strip-down, and after reassembly. A written condition report, clearance register, and photographic record is produced for every overhaul, creating a baseline for the next outage.
 
 Why our engineers: A poorly executed overhaul is worse than no overhaul: it introduces new clearance errors, contamination, and re-assembly faults. Our engineers were trained by the OEMs. They know what tolerances actually mean at operating temperature and speed, not just what they say in the manual.
 
-Key figures: 8+ OEM Makes Overhauled; 38+ Years Field Experience; 0.001mm Clearance Resolution; 24×7 Emergency Response
+Key figures: 8+ OEM Makes Overhauled; 38+ Years Field Experience; 0.001mm Clearance Resolution; 24x7 Emergency Response
 
 What we deliver:
 - Pre-shutdown planning with detailed scope of rotating equipment
 - Onsite inspection of stocked spare parts with shortfall reports
-- Ex-OEM engineers: Triveni, Belliss, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB
+- Ex-OEM engineers: Triveni, Belliss & Morcom, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB
 - All clearances, gaps and sizes measured and recorded
 - Condition report with recommendations for each component
 - Turnkey basis: tools, tackles, consumables & manpower provided
 - 24x7 emergency response with engineers at multiple locations
 
-OEM expertise: Triveni, Belliss India, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB
+OEM expertise: Triveni, Belliss & Morcom, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB
 
 ### Precision Reverse Engineering
 URL: https://keshavturbotech.com/services/precision-reverse-engineering
@@ -72,17 +72,17 @@ Scope: Workshop & on-site | Typical turnaround: 7–30 days
 
 PMI-verified reverse engineering using 3D laser scanners, CMM, and copying lathes for turbines from 5 kW to 60 MW. Generate full manufacturing drawings with tolerances, concentricity, pre/post heat treatment specs.
 
-Overview: When OEM drawings are unavailable, the OEM is no longer active, or lead times are measured in years, Keshav Enterprises can reverse-engineer any turbine component from 5 kW to 60 MW to a full production-ready drawing set. Our process uses 3D laser scanners, CMM coordinate measuring machines, and XRF PMI material identification (the same tools used by major OEM engineering teams) to generate complete manufacturing drawings with all tolerances, surface finishes, heat treatment sequences, and material specifications. We have successfully reverse-engineered rotors, diaphragms, nozzle blocks, labyrinth seals, bearings, governors, and steam path components for Triveni, Siemens, BHEL, DLF-Skoda, Belliss, and Maxwatt turbines.
+Overview: When OEM drawings are unavailable, the OEM is no longer active, or lead times are measured in years, Keshav Enterprises can reverse-engineer any turbine component from 5 kW to 60 MW to a full production-ready drawing set. Our process uses 3D laser scanners, CMM coordinate measuring machines, and XRF PMI material identification (the same tools used by major OEM engineering teams) to generate complete manufacturing drawings with all tolerances, surface finishes, heat treatment sequences, and material specifications. We have successfully reverse-engineered rotors, diaphragms, nozzle blocks, labyrinth seals, bearings, governors, and steam path components for Triveni, Siemens, BHEL, DLF-Skoda, Belliss & Morcom, and Maxwatt turbines.
 
 Why our engineers: When an OEM stops supporting a machine, a simple worn rotor or broken diaphragm can force a plant shutdown for months. Our reverse engineering process recreates the exact material, geometry, and heat treatment specification, with full manufacturing drawings, so any competent machine shop can manufacture the part.
 
 Key figures: 5kW–60MW Turbine Range Covered; 0.001mm CMM Measurement Resolution; 100% PMI Material Verified; GD&T Full Tolerance Drawings
 
 What we deliver:
-- 3D Laser Scanner, CMM & Coordinate Measuring Machine at site/workshop
+- 3D Laser Scanner, CMM (Coordinate Measuring Machine) at site/workshop
 - PMI testing for exact identification of material composition
 - Copying lathe for precision dimensional replication
-- Engineering drawings with tolerances, finish, parallelity, concentricity
+- Engineering drawings with tolerances, finish, parallelism, concentricity
 - Pre/post heat treatment specifications included
 - Rough machining, pre-final and final machining drawings
 - Covers turbines from 5 kW to 60 MW (Back Pressure or Condensing)
@@ -97,7 +97,7 @@ Scope: Workshop | Typical turnaround: 48–72 hrs standard
 
 Precision rotor machining (grinding, polishing, journal undersizing) at our workshop lathes, plus ISO/API standard dynamic balancing from 50 to 2000 kg with full compliance reporting.
 
-Overview: Rotor imbalance is one of the most common and most preventable causes of turbine bearing failure, seal damage, and shortened rotor life. Keshav Enterprises performs precision journal machining and ISO 1940 / API 670 dynamic balancing for rotors from 50 kg to 2,000 kg at our dedicated workshop facility. The rotor is first machined to restore geometric integrity (round journals, concentric labyrinth lands, correct surface finish) before balancing. This sequence matters: balancing a geometrically distorted rotor merely masks the problem. Our balancing reports document initial unbalance, correction planes, mass corrections, residual unbalance, and the ISO balance grade achieved, providing full traceability for your maintenance records.
+Overview: Rotor imbalance is one of the most common and most preventable causes of turbine bearing failure, seal damage, and shortened rotor life. Keshav Enterprises performs precision journal machining and ISO 21940-11 / ISO 1940 dynamic balancing for rotors from 50 kg to 2,000 kg at our dedicated workshop facility. The rotor is first machined to restore geometric integrity (round journals, concentric labyrinth lands, correct surface finish) before balancing. This sequence matters: balancing a geometrically distorted rotor merely masks the problem. Our balancing reports document initial unbalance, correction planes, mass corrections, residual unbalance, and the ISO balance grade achieved, providing full traceability for your maintenance records.
 
 Why our engineers: A rotor at 3,000 RPM generates 100× more imbalance force than at 300 RPM. The same residual imbalance that is invisible at slow speed will destroy a bearing at full speed. We balance to ISO 1940 Grade G1.0 where required, not just 'good enough'.
 
@@ -134,7 +134,7 @@ What we deliver:
 - Effective for post-construction and scheduled maintenance
 - Superior de-watering and contamination removal
 - Solid particle removal from 4 to 25 microns
-- System flow rates handled up to 6,000 l/min
+- System flow rates handled up to 6,000 L/min
 
 OEM expertise: All Systems
 
@@ -145,7 +145,7 @@ Scope: On-site precision | Typical turnaround: 1–3 days
 
 Expert machine alignment using latest technology to eliminate misalignment, one of the primary causes of equipment failure. Covers turbines, gearboxes, pumps, fans, alternators, and induction generators.
 
-Overview: Shaft misalignment is responsible for up to 50% of all rotating equipment bearing failures in Indian industry. Even misalignments invisible to the naked eye generate enormous cyclic forces on bearings, seals, and couplings at operating speed. Keshav Enterprises performs precision laser shaft alignment using Pruftechnik and SKF systems for turbines, gearboxes, pumps, fans, alternators, and induction generators of any frame size. Critically, we calculate and apply hot alignment offsets: the cold alignment is deliberately set to account for thermal growth, so the machine runs straight at operating temperature. Our alignment reports show before/after readings, shim history, and final values against OEM tolerance.
+Overview: Shaft misalignment is responsible for up to 50% of all rotating equipment bearing failures in Indian industry. Even misalignments invisible to the naked eye generate enormous cyclic forces on bearings, seals, and couplings at operating speed. Keshav Enterprises performs precision laser shaft alignment using PRÜFTECHNIK and SKF systems for turbines, gearboxes, pumps, fans, alternators, and induction generators of any frame size. Critically, we calculate and apply hot alignment offsets: the cold alignment is deliberately set to account for thermal growth, so the machine runs straight at operating temperature. Our alignment reports show before/after readings, shim history, and final values against OEM tolerance.
 
 Why our engineers: Misalignment as small as 0.05 mm at the coupling can reduce bearing life by 80% and generate forces that propagate through seals, couplings, and the entire drivetrain. Laser alignment takes hours. A bearing failure takes weeks and costs far more. We align hot, not just cold.
 
@@ -155,7 +155,7 @@ What we deliver:
 - Turbine to gearbox & gearbox to mill gearbox alignment
 - Fan, pump, alternator, induction generator alignment
 - Machine levelling & pipe strain measurements on any frame size
-- Fiberizor, shredder alignment
+- Fibrizer, shredder alignment
 - Latest alignment technology for highest standards
 - Detailed alignment reporting with exact results
 - Covers any size machine frame in any location
@@ -173,7 +173,7 @@ Overview: Unplanned turbine trips and unexplained performance degradation cost i
 
 Why our engineers: A misdiagnosed fault repaired without finding its root cause will fail again, often sooner than the first time. We do not guess. We measure, analyse the spectrum, strip only what the data tells us to strip, confirm the root cause physically, and fix it with the same team that found it.
 
-Key figures: 24×7 Emergency Deployment; 10+ OEM Makes Diagnosed; FFT+Thermal Dual Diagnostic Method; 48hr Post-Repair Trend Monitoring
+Key figures: 24x7 Emergency Deployment; 10+ OEM Makes Diagnosed; FFT+Thermal Dual Diagnostic Method; 48hr Post-Repair Trend Monitoring
 
 What we deliver:
 - High vibration: imbalance, misalignment, bearing wear, rub diagnosis
@@ -184,7 +184,7 @@ What we deliver:
 - Unexpected trip investigation: oil pressure, temperature & control system faults
 - 24x7 emergency deployment across India with all diagnostic equipment
 
-OEM expertise: Triveni, Siemens, BHEL, Belliss India, Maxwatt, Man Turbo, KKK, ABB
+OEM expertise: Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, KKK, ABB
 
 ### Sand Blasting & Surface Preparation
 URL: https://keshavturbotech.com/services/sand-blasting-and-surface-preparation
@@ -236,7 +236,7 @@ Key facts:
 - 38+ years OEM-trained engineering experience
 - API 614 & ISO 4406:99 compliant products
 - HVAC filter supply for control rooms and turbine halls
-- 24×7 emergency breakdown support
+- 24x7 emergency breakdown support
 
 Key challenges addressed:
 - Continuous High-Load Operation: Steam turbines in power plants run at 3000–3600 RPM under sustained full-load conditions, placing extreme stress on bearings, seals, and rotating assemblies.
@@ -250,7 +250,7 @@ Turbine coverage: Triveni, Belliss & Morcom, Maxwatt
 
 Serving India's sugar industry with specialized back-pressure steam turbine services. Scheduled overhauling during off-season and emergency breakdown support during crushing season.
 
-India's sugar industry runs intensive 150–180 day crushing seasons where turbine availability is directly tied to cane crushing throughput. Keshav Enterprises specialises in inter-season overhauling for back-pressure turbines (the workhorses of sugar co-generation) and provides 24×7 emergency spares support during the crushing season when shutdowns are most costly.
+India's sugar industry runs intensive 150–180 day crushing seasons where turbine availability is directly tied to cane crushing throughput. Keshav Enterprises specialises in inter-season overhauling for back-pressure turbines (the workhorses of sugar co-generation) and provides 24x7 emergency spares support during the crushing season when shutdowns are most costly.
 
 Key applications:
 - Back-pressure turbine overhauling (inter-season)
@@ -262,7 +262,7 @@ Key applications:
 
 Key facts:
 - Triveni & Belliss turbine specialist services
-- 24×7 emergency season support
+- 24x7 emergency season support
 - All carbon/graphite grades machined in-house
 - Inter-season overhauls completed within window
 
@@ -314,7 +314,7 @@ Key applications:
 - PTFE-lined hose assemblies for chemical transfer
 - High-pressure hydraulic rubber hose assemblies
 - Babbitt bearing manufacturing for compressor trains
-- Dynamic balancing per ISO 1940/API 670
+- Dynamic balancing per ISO 21940-11 / ISO 1940
 
 Key facts:
 - API 614 & IS27 compliant products
@@ -462,11 +462,11 @@ Key challenges addressed:
 
 ### Expansion Joints (19 products)
 
-- **Stainless Steel Metallic Bellows Expansion Joint** (https://keshavturbotech.com/products/stainless-steel-metallic-bellows-expansion-joint) [SKU KTB-EJ-001]: Multi-ply SS metallic bellows absorbing thermal expansion in piping systems. Available DN 15 to DN 12,000. Fatigue, yield, and rupture tested per EJMA/ASME standards. Choose this (prod_e1) over the standard axial joint (prod_e1b) when your application requires multi-ply high-cycle fatigue life, exotic alloy material (Incoloy, Inconel, Hastelloy, Titanium), very high pressure above 16 bar, or PED/AD2000 third-party certification documentation. Availability: In Stock, lead time 1–2 weeks.
-- **SS/Alloy Axial Expansion Joint (DN15–DN12,000)** (https://keshavturbotech.com/products/axial-expansion-joint) [SKU KTB-EJ-002]: Single-bellows axial expansion joint absorbing thermal expansion and contraction along the longitudinal pipe axis. The most widely used expansion joint type in steam, process gas, and hot water pipelines. Choose this over the multi-ply SS metallic bellows (prod_e1) for standard duty applications at moderate pressure (up to 16 bar) where cost-effectiveness matters. When exotic alloys, very high pressure (>16 bar), PED certification, or ultra-high cycle fatigue life are required, specify prod_e1 instead. Availability: In Stock, lead time 1–2 weeks.
+- **Stainless Steel Metallic Bellows Expansion Joint** (https://keshavturbotech.com/products/stainless-steel-metallic-bellows-expansion-joint) [SKU KTB-EJ-001]: Multi-ply SS metallic bellows absorbing thermal expansion in piping systems. Available DN 15 to DN 12,000. Fatigue, yield, and rupture tested per EJMA/ASME standards. Choose this over the standard axial joint when your application requires multi-ply high-cycle fatigue life, exotic alloy material (Incoloy, Inconel, Hastelloy, Titanium), very high pressure above 16 bar, or PED/AD2000 third-party certification documentation. Availability: In Stock, lead time 1–2 weeks.
+- **SS/Alloy Axial Expansion Joint (DN15–DN12,000)** (https://keshavturbotech.com/products/axial-expansion-joint) [SKU KTB-EJ-002]: Single-bellows axial expansion joint absorbing thermal expansion and contraction along the longitudinal pipe axis. The most widely used expansion joint type in steam, process gas, and hot water pipelines. Choose this over the multi-ply SS metallic bellows for standard duty applications at moderate pressure (up to 16 bar) where cost-effectiveness matters. When exotic alloys, very high pressure (>16 bar), PED certification, or ultra-high cycle fatigue life are required, specify Stainless Steel Metallic Bellows Expansion Joint instead. Availability: In Stock, lead time 1–2 weeks.
 - **Double Arch Rubber Expansion Joint** (https://keshavturbotech.com/products/double-arch-rubber-expansion-joint) [SKU KTB-EJ-003]: Heavy-duty double arch rubber joint with approx. 2x the movement capacity of single arch. Absorbs multi-directional movements, reduces noise, compensates misalignment. Availability: In Stock, lead time 1–2 weeks.
-- **Single Arch Rubber Expansion Joint** (https://keshavturbotech.com/products/single-arch-rubber-expansion-joint) [SKU KTB-EJ-004]: Standard single arch rubber expansion joint absorbing thermal movements and mechanical vibrations. Cost-effective first choice for HVAC, water piping, and light industrial fluid lines. Choose this over the wide arch variant (prod_e3b) for standard applications with moderate movement and normal vibration levels: it is more compact and lower cost. Upgrade to the wide arch (prod_e3b) when the system has high vibration amplitude, large thermal movements, or significant pump/motor-induced shock loads. Availability: In Stock, lead time 1–2 weeks.
-- **Wide Arch Rubber Expansion Bellow** (https://keshavturbotech.com/products/wide-arch-rubber-expansion-bellow) [SKU KTB-EJ-005]: Wide arch rubber bellow providing maximum movement absorption and superior vibration isolation. Specifically recommended with a tie rod assembly for internal pressure control. Ideal for high-vibration pump and motor connections. Choose this over the standard single arch (prod_e3) when your system has high vibration amplitude, large thermal movement cycles, significant pump/motor shock loads, or where maximum flexibility and noise attenuation are the primary requirements. For standard HVAC and water piping, the single arch (prod_e3) is more compact and cost-effective. Availability: In Stock, lead time 1–2 weeks.
+- **Single Arch Rubber Expansion Joint** (https://keshavturbotech.com/products/single-arch-rubber-expansion-joint) [SKU KTB-EJ-004]: Standard single arch rubber expansion joint absorbing thermal movements and mechanical vibrations. Cost-effective first choice for HVAC, water piping, and light industrial fluid lines. Choose this over the wide arch variant for standard applications with moderate movement and normal vibration levels: it is more compact and lower cost. Upgrade to the wide arch when the system has high vibration amplitude, large thermal movements, or significant pump/motor-induced shock loads. Availability: In Stock, lead time 1–2 weeks.
+- **Wide Arch Rubber Expansion Bellow** (https://keshavturbotech.com/products/wide-arch-rubber-expansion-bellow) [SKU KTB-EJ-005]: Wide arch rubber bellow providing maximum movement absorption and superior vibration isolation. Specifically recommended with a tie rod assembly for internal pressure control. Ideal for high-vibration pump and motor connections. Choose this over the standard single arch when your system has high vibration amplitude, large thermal movement cycles, significant pump/motor shock loads, or where maximum flexibility and noise attenuation are the primary requirements. For standard HVAC and water piping, the single arch is more compact and cost-effective. Availability: In Stock, lead time 1–2 weeks.
 - **Industrial Heat Exchanger Bellows** (https://keshavturbotech.com/products/industrial-heat-exchanger-bellows) [SKU KTB-EJ-006]: Metallic bellows designed for fixed tube-sheet heat exchangers to relieve differential thermal expansion between the shell and tube bundle. Supplied to ASME VIII Div.1 with full documentation for shell-and-tube heat exchanger applications. Availability: In Stock, lead time 1–2 weeks.
 - **Universal Metallic Expansion Joint** (https://keshavturbotech.com/products/universal-metallic-expansion-joint) [SKU KTB-EJ-007]: Twin-bellows metallic joint with intermediate pipe absorbing any combination of axial, lateral, and angular movement. Availability: In Stock, lead time 1–2 weeks.
 - **Non-Metallic Fabric Expansion Joint** (https://keshavturbotech.com/products/non-metallic-fabric-expansion-joint) [SKU KTB-EJ-008]: Multi-layer fabric/PTFE/rubber composite joints with 5-layer construction. Internal abrasion liner, insulation, PTFE foil, outer cover, reinforcement. Handles up to 1200°C. Availability: In Stock, lead time 1–2 weeks.
@@ -733,7 +733,7 @@ Record all clearances, gaps, and fits before removing components — these are e
 - Nozzle and diaphragm condition and throat dimensions
 - ESV seat and disc condition
 #### 4. Workshop Repairs & Replacements
-Send the rotor for journal grinding and dynamic balancing if run-out or vibration readings were outside tolerance. Replace carbon and graphite gland rings, labyrinth packings, and babbitt bearings as per condition report. All rotor balancing should be performed to ISO 1940 or API 670 standards.
+Send the rotor for journal grinding and dynamic balancing if run-out or vibration readings were outside tolerance. Replace carbon and graphite gland rings, labyrinth packings, and babbitt bearings as per condition report. All rotor balancing should be performed to ISO 21940-11 (ISO 1940) standards.
 #### 5. Reassembly & Alignment
 Reassemble in reverse order with new gaskets and fastener torque per OEM specifications. Perform final rotor alignment using laser alignment equipment — turbine to gearbox and gearbox to generator. Record all clearances post-assembly and confirm they are within OEM tolerance.
 #### 6. Lube Oil Flushing
@@ -787,7 +787,7 @@ Positive Material Identification (PMI) using portable X-ray fluorescence (XRF) o
 #### Step 4: Engineering Drawing Generation
 From the scan data, CMM measurements, and material test results, our engineers generate a complete manufacturing drawing. This includes all dimensions with tolerances, surface finish specifications, pre- and post-heat treatment procedures, material specification, and inspection requirements.
 #### Step 5: Machining & Quality Control
-Machining is performed in three stages: rough machining to near-final dimensions, heat treatment if required (stress relieving, quench and temper, nitriding), and final precision machining. Each stage is inspected against the engineering drawing. Rotors are dynamically balanced to ISO 1940 / API 670 standards before dispatch.
+Machining is performed in three stages: rough machining to near-final dimensions, heat treatment if required (stress relieving, quench and temper, nitriding), and final precision machining. Each stage is inspected against the engineering drawing. Rotors are dynamically balanced to ISO 21940-11 / ISO 1940 standards before dispatch.
 #### Turbines We Cover
 We have reverse-engineered components for steam turbines from 5 kW to 60 MW across all major makes: Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, Chola Turbo, DLF-Skoda, KKK, and ABB. Both back-pressure and condensing turbines, horizontal and vertical, single and multi-stage.
 > Have an obsolete spare you need reverse-engineered? Send us a photo and your turbine details on WhatsApp — we will assess feasibility within 24 hours.

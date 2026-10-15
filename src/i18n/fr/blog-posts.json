@@ -251,7 +251,7 @@
       },
       {
         "type": "p",
-        "text": "L'usinage est réalisé en trois étapes : ébauche jusqu'à des dimensions proches des dimensions finales, traitement thermique si nécessaire (détente des contraintes, trempe et revenu, nitruration), et usinage de précision final. Chaque étape est inspectée par rapport au plan d'ingénierie. Les rotors sont équilibrés dynamiquement selon les normes ISO 1940 / API 670 avant expédition."
+        "text": "L'usinage est réalisé en trois étapes : ébauche jusqu'à des dimensions proches des dimensions finales, traitement thermique si nécessaire (détente des contraintes, trempe et revenu, nitruration), et usinage de précision final. Chaque étape est inspectée par rapport au plan d'ingénierie. Les rotors sont équilibrés dynamiquement selon les normes ISO 21940-11 / ISO 1940 avant expédition."
       },
       {
         "type": "h2",

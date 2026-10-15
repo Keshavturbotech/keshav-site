@@ -903,7 +903,7 @@
     "category": "Coadores Industriais",
     "title": "Elementos de Reposição para Filtro de Cesto SS 304/316",
     "desc": "Elementos de coador cesto de reposição e fabricados sob medida para carcaças de coador cesto simplex e duplex. Construídos em chapa perfurada SS 304/316 com revestimento opcional de tela de arame, arame em cunha ou construção totalmente soldada de tela de arame. Fornecidos como reposições exatamente intercambiáveis com OEM ou ajustados dimensionalmente a qualquer carcaça existente — incluindo unidades Eaton, Parker, HYDAC e fabricadas. Tamanhos de malha/perfuração de 37 µm a 6 mm cobrem desde a triagem de detritos leves até a retenção de partículas finas.",
-    "usage": "Elementos de substituição direta para carcaças de coador cesto simplex e duplex instaladas em sistemas de óleo lubrificante de turbina, circuitos de óleo de regulador e controle, tubulação de processo, sistemas de óleo combustível, linhas de água de resfriamento e correntes de processo químico. Fornecido para corresponder ao diâmetro interno da carcaça existente, altura do elemento e configuração da placa superior — especifique a marca, tamanho e malha atual da carcaça para troca exata. Compatível com coadores de cesto simplex (prod_st1) e coadores de cesto duplex (prod_st2) fornecidos pela Keshav Enterprises, bem como carcaças OEM e de terceiros.",
+    "usage": "Elementos de substituição direta para carcaças de coador cesto simplex e duplex instaladas em sistemas de óleo lubrificante de turbina, circuitos de óleo de regulador e controle, tubulação de processo, sistemas de óleo combustível, linhas de água de resfriamento e correntes de processo químico. Fornecido para corresponder ao diâmetro interno da carcaça existente, altura do elemento e configuração da placa superior — especifique a marca, tamanho e malha atual da carcaça para troca exata. Compatível com coadores de cesto simplex e coadores de cesto duplex fornecidos pela Keshav Enterprises, bem como carcaças OEM e de terceiros.",
     "features": [
       "Tipos de construção: chapa perfurada (padrão), chapa perfurada + revestimento de tela de arame, cilindro de tela de arame totalmente soldado, cesto de arame em cunha — especificar conforme aplicação",
       "Tamanhos de perfuração: 0,5, 1, 1,5, 2, 3, 4, 6 mm chapa perfurada padrão",
@@ -965,8 +965,8 @@
     "categorySlug": "expansion-joints",
     "category": "Juntas de Expansão",
     "title": "Junta de Expansão de Fole Metálico de Aço Inoxidável",
-    "desc": "Fole metálico SS multicamada que absorve a expansão térmica em sistemas de tubulação. Disponível de DN 15 a DN 12.000. Testado quanto a fadiga, fluência e ruptura conforme normas EJMA/ASME. Escolha esta opção (prod_e1) em vez da junta axial padrão (prod_e1b) quando sua aplicação exigir vida à fadiga de alto ciclo multicamada, material de liga exótica (Incoloy, Inconel, Hastelloy, Titânio), pressão muito alta acima de 16 bar, ou documentação de certificação de terceiros PED/AD2000.",
-    "usage": "Sistemas de exaustão de vapor de alta pressão, tubulação de processo químico, conexões de trocador de calor e tubulação que exigem compensação de movimento térmico. A melhor escolha para serviço de fadiga de alto ciclo, materiais exóticos, pressões acima de 16 bar, ou onde é necessária certificação PED/AD2000. Para tubulação padrão de vapor e água em pressão moderada, a junta de expansão axial (prod_e1b) é mais econômica.",
+    "desc": "Fole metálico SS multicamada que absorve a expansão térmica em sistemas de tubulação. Disponível de DN 15 a DN 12.000. Testado quanto a fadiga, fluência e ruptura conforme normas EJMA/ASME. Escolha esta opção em vez da junta axial padrão quando sua aplicação exigir vida à fadiga de alto ciclo multicamada, material de liga exótica (Incoloy, Inconel, Hastelloy, Titânio), pressão muito alta acima de 16 bar, ou documentação de certificação de terceiros PED/AD2000.",
+    "usage": "Sistemas de exaustão de vapor de alta pressão, tubulação de processo químico, conexões de trocador de calor e tubulação que exigem compensação de movimento térmico. A melhor escolha para serviço de fadiga de alto ciclo, materiais exóticos, pressões acima de 16 bar, ou onde é necessária certificação PED/AD2000. Para tubulação padrão de vapor e água em pressão moderada, a junta de expansão axial é mais econômica.",
     "features": [
       "Material: SS 304/316L, Dúplex, Incoloy 825/925, Inconel 625, Titânio, Hastelloy",
       "Faixa dimensional: DN 15 a DN 12.000",
@@ -1020,8 +1020,8 @@
     "categorySlug": "expansion-joints",
     "category": "Juntas de Expansão",
     "title": "Junta de Expansão Axial SS/Liga (DN15–DN12.000)",
-    "desc": "Junta de expansão axial de fole único que absorve a expansão e contração térmica ao longo do eixo longitudinal da tubulação. O tipo de junta de expansão mais usado em tubulações de vapor, gás de processo e água quente. Escolha esta opção em vez do fole metálico SS multicamada (prod_e1) para aplicações de serviço padrão em pressão moderada (até 16 bar) onde a economia importa. Quando forem necessárias ligas exóticas, pressão muito alta (>16 bar), certificação PED, ou vida à fadiga de ciclo ultra-alto, especifique prod_e1.",
-    "usage": "Tubulação de vapor, conexões de bombas, conexões de entrada/saída de trocadores de calor, sistemas de água quente em usinas de energia, usinas de açúcar, fábricas de papel e refinarias. Primeira escolha padrão para compensação de movimento axial até 150 bar G — atualize para o fole metálico multicamada (prod_e1) apenas quando forem necessárias ligas exóticas, fadiga de alto ciclo, ou certificação rigorosa de código.",
+    "desc": "Junta de expansão axial de fole único que absorve a expansão e contração térmica ao longo do eixo longitudinal da tubulação. O tipo de junta de expansão mais usado em tubulações de vapor, gás de processo e água quente. Escolha esta opção em vez do fole metálico SS multicamada para aplicações de serviço padrão em pressão moderada (até 16 bar) onde a economia importa. Quando forem necessárias ligas exóticas, pressão muito alta (>16 bar), certificação PED, ou vida à fadiga de ciclo ultra-alto, especifique Junta de Expansão de Fole Metálico de Aço Inoxidável.",
+    "usage": "Tubulação de vapor, conexões de bombas, conexões de entrada/saída de trocadores de calor, sistemas de água quente em usinas de energia, usinas de açúcar, fábricas de papel e refinarias. Primeira escolha padrão para compensação de movimento axial até 150 bar G — atualize para o fole metálico multicamada apenas quando forem necessárias ligas exóticas, fadiga de alto ciclo, ou certificação rigorosa de código.",
     "features": [
       "Absorve compressão e extensão axial por ciclagem térmica",
       "Design de fole único — compacto e econômico",
@@ -1135,8 +1135,8 @@
     "categorySlug": "expansion-joints",
     "category": "Juntas de Expansão",
     "title": "Junta de Expansão de Borracha de Arco Simples",
-    "desc": "Junta de expansão de borracha de arco simples padrão que absorve movimentos térmicos e vibrações mecânicas. Primeira escolha econômica para HVAC, tubulação de água e linhas de fluido industrial leve. Escolha esta opção em vez da variante de arco largo (prod_e3b) para aplicações padrão com movimento moderado e níveis normais de vibração — é mais compacta e de menor custo. Atualize para o arco largo (prod_e3b) quando o sistema tiver alta amplitude de vibração, grandes movimentos térmicos, ou cargas de choque significativas induzidas por bomba/motor.",
-    "usage": "Sistemas HVAC, tubulação de água, linhas de fluido industrial leve, conexões de descarga e sucção de bombas. Primeira escolha padrão para a maioria das aplicações de junta de expansão de borracha — escolha a variante de arco largo (prod_e3b) apenas quando especificamente exigir maior capacidade de movimento ou isolamento de alta vibração/choque.",
+    "desc": "Junta de expansão de borracha de arco simples padrão que absorve movimentos térmicos e vibrações mecânicas. Primeira escolha econômica para HVAC, tubulação de água e linhas de fluido industrial leve. Escolha esta opção em vez da variante de arco largo para aplicações padrão com movimento moderado e níveis normais de vibração — é mais compacta e de menor custo. Atualize para o arco largo quando o sistema tiver alta amplitude de vibração, grandes movimentos térmicos, ou cargas de choque significativas induzidas por bomba/motor.",
+    "usage": "Sistemas HVAC, tubulação de água, linhas de fluido industrial leve, conexões de descarga e sucção de bombas. Primeira escolha padrão para a maioria das aplicações de junta de expansão de borracha — escolha a variante de arco largo apenas quando especificamente exigir maior capacidade de movimento ou isolamento de alta vibração/choque.",
     "features": [
       "Construção de borracha de convolução de arco simples",
       "Absorve expansão e contração térmica",
@@ -1187,8 +1187,8 @@
     "categorySlug": "expansion-joints",
     "category": "Juntas de Expansão",
     "title": "Fole de Borracha de Arco Largo",
-    "desc": "Fole de borracha de arco largo que proporciona máxima absorção de movimento e isolamento de vibração superior. Especificamente recomendado com conjunto de tirantes para controle de pressão interna. Ideal para conexões de bombas e motores de alta vibração. Escolha esta opção em vez do arco simples padrão (prod_e3) quando seu sistema tiver alta amplitude de vibração, grandes ciclos de movimento térmico, cargas de choque significativas de bomba/motor, ou onde a máxima flexibilidade e atenuação de ruído forem os requisitos principais.",
-    "usage": "Conexões de bombas e motores de alta vibração, tubulação industrial de serviço pesado com movimento térmico significativo, aplicações que exigem máxima flexibilidade e isolamento de choque. Especifique em vez do arco simples (prod_e3) quando a vibração ou o movimento for a preocupação dominante de projeto.",
+    "desc": "Fole de borracha de arco largo que proporciona máxima absorção de movimento e isolamento de vibração superior. Especificamente recomendado com conjunto de tirantes para controle de pressão interna. Ideal para conexões de bombas e motores de alta vibração. Escolha esta opção em vez do arco simples padrão quando seu sistema tiver alta amplitude de vibração, grandes ciclos de movimento térmico, cargas de choque significativas de bomba/motor, ou onde a máxima flexibilidade e atenuação de ruído forem os requisitos principais.",
+    "usage": "Conexões de bombas e motores de alta vibração, tubulação industrial de serviço pesado com movimento térmico significativo, aplicações que exigem máxima flexibilidade e isolamento de choque. Especifique em vez do arco simples quando a vibração ou o movimento for a preocupação dominante de projeto.",
     "features": [
       "Máxima absorção de movimento axial, lateral e angular",
       "Isolamento de vibração, ruído e choque superior em relação ao arco simples/duplo",
@@ -3539,7 +3539,7 @@
       "Fabricado a partir de desenhos OEM obtidos por engenharia reversa, com verificação de material PMI",
       "Material: aço-liga (CrMoV, 12% Cr) conforme as condições de vapor",
       "Usinagem de precisão: usinagem grosseira > pré-final > final",
-      "Balanceamento dinâmico de 50 a 2.000 kg conforme ISO 1940 / API 670",
+      "Balanceamento dinâmico de 50 a 2.000 kg conforme ISO 21940-11 / ISO 1940",
       "Relatório completo de balanceamento com dados de excentricidade mecânica e elétrica",
       "Opções de fixação de palheta: raiz em árvore (finger-tree), raiz em T ou rabo de andorinha",
       "Atualizações de material disponíveis para programas de extensão de vida útil",
@@ -3547,7 +3547,7 @@
     ],
     "specs": {
       "Rotor Material": "Aço-liga (CrMoV, 12% Cr) conforme as condições de vapor",
-      "Dynamic Balancing": "ISO 1940 / API 670 (capacidade: 50–2.000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (capacidade: 50–2.000 kg)",
       "Machining Stages": "Usinagem grosseira > pré-final > usinagem final",
       "Blade Root Options": "Árvore (finger-tree), raiz em T, rabo de andorinha",
       "Documentation": "Certificado de inspeção completo + relatório de balanceamento",
@@ -4523,7 +4523,7 @@
       "Revestimento duro em Stellite nos bordos de ataque do último estágio de BP — proteção contra erosão de gotículas de vapor úmido",
       "Verificação dimensional: verificação com gabarito de perfil + relatório de inspeção CMM para cada lote de palhetas",
       "Verificação de material PMI antes da usinagem — certificado de composição química fornecido",
-      "Balanceamento dinâmico do conjunto completo de palhetas no disco do rotor — conformidade com ISO 1940/API 670",
+      "Balanceamento dinâmico do conjunto completo de palhetas no disco do rotor — conformidade com ISO 21940-11 / ISO 1940",
       "Palhetas móveis (rotor) e fixas (bocal/diafragma) fornecidas separadamente ou como conjunto de estágio",
       "Adequadas para programas de extensão de vida útil — atualização de material de palheta disponível"
     ],
@@ -4536,7 +4536,7 @@
       "Erosion Protection": "Revestimento duro em Stellite no bordo de ataque do último estágio de BP",
       "Verification": "Gabarito de perfil + relatório de inspeção CMM por lote",
       "PMI Certificate": "Certificado de composição química fornecido",
-      "Balancing Standard": "ISO 1940/API 670 (no disco do rotor)",
+      "Balancing Standard": "ISO 21940-11 / ISO 1940 (no disco do rotor)",
       "HSN Code": "8406"
     },
     "priceRange": {
@@ -5301,7 +5301,7 @@
     "category": "Peças de Reposição para Turbina",
     "title": "Pressostatos Diferenciais e Termostatos de Óleo Lubrificante para Turbinas a Vapor",
     "desc": "Chaves de pressão diferencial (DP) e chaves de temperatura para monitoramento de condição de carcaças de filtro de óleo lubrificante de turbina, painéis de comutação de filtro duplex, trocadores de calor e tubulações de processo. As chaves de DP sinalizam a obstrução do elemento filtrante detectando o aumento da pressão diferencial em um elemento entupido — permitindo manutenção planejada antes que ocorra o desvio do elemento e óleo não filtrado chegue aos mancais da turbina. As chaves de temperatura fornecem saídas de alarme e disparo de alta/baixa para monitoramento da temperatura do óleo lubrificante, temperatura do metal do mancal e temperatura de fluxo de processo.",
-    "usage": "Instalação direta ou retrofit em carcaças de filtro duplex existentes da Keshav Enterprises (série prod_f1, prod_f2) e coadores tipo cesto simplex — conectados ao DCS, PLC ou painel de alarme local da planta para monitoramento da condição do filtro. Também utilizadas em carcaças de filtro de terceiros, monitoramento de temperatura de entrada/saída de trocador de calor, controle de temperatura de saída do resfriador de óleo lubrificante de turbina e circuitos de alarme/disparo de temperatura de mancal de turbina a vapor. A saída da chave de DP aciona o alarme de comutação de filtro (duplex) ou o alarme de manutenção (simplex/cesto) antes que a válvula de alívio se abra e óleo não filtrado circule para os mancais.",
+    "usage": "Instalação direta ou retrofit em carcaças de filtro duplex existentes da Keshav Enterprises (série Elementos Filtrantes de Óleo Lubrificante de Reposição para Turbina Triveni, Elementos Filtrantes de Óleo Lubrificante de Reposição para Turbina Siemens) e coadores tipo cesto simplex — conectados ao DCS, PLC ou painel de alarme local da planta para monitoramento da condição do filtro. Também utilizadas em carcaças de filtro de terceiros, monitoramento de temperatura de entrada/saída de trocador de calor, controle de temperatura de saída do resfriador de óleo lubrificante de turbina e circuitos de alarme/disparo de temperatura de mancal de turbina a vapor. A saída da chave de DP aciona o alarme de comutação de filtro (duplex) ou o alarme de manutenção (simplex/cesto) antes que a válvula de alívio se abra e óleo não filtrado circule para os mancais.",
     "features": [
       "Tipos de chave de DP: tipo pistão (simples, robusta), tipo diafragma (faixas de DP baixas, fluidos viscosos), tipo diferencial de tubo Bourdon (alta precisão)",
       "Faixa de ponto de ajuste de DP: 0,3 a 10 bar — abrange os ajustes de alívio de filtro padrão de 3,5 bar e 6 bar",
@@ -6937,7 +6937,7 @@
     "category": "Peças de Reposição para Turbina",
     "title": "Molas de Lâmina para Vedações Labirinto de Turbinas a Vapor",
     "desc": "Molas de lâmina de precisão que pré-carregam os segmentos do selo de labirinto retrátil contra o eixo da turbina, mantendo a folga mínima de vedação durante o funcionamento normal enquanto permitem que o segmento se retraia radialmente durante excursões do rotor — reduzindo danos por atrito e tempo de parada em comparação com empanques de labirinto fixos e calafetados. Fornecidas em aço para molas para temperaturas padrão de glândula e Inconel X-750 para estágios de alta temperatura onde as molas de aço relaxam e perdem a pré-carga ao longo do tempo.",
-    "usage": "Instaladas por trás de anéis de empanque de labirinto segmentados em glândulas de eixo de turbinas a vapor — caixas de glândula de AP/PI, glândulas de extremidade de BP, e glândulas de diafragma entre estágios — em turbinas Triveni, BHEL, Siemens, Belliss & Morcom, KKK e Man Turbo. Fornecidas como conjunto de substituição direta ao revisar glândulas de labirinto do tipo retrátil, ou como parte de uma revisão completa do sistema de vedação de glândula junto com empanques de vedação de labirinto do eixo (ver prod_ts2).",
+    "usage": "Instaladas por trás de anéis de empanque de labirinto segmentados em glândulas de eixo de turbinas a vapor — caixas de glândula de AP/PI, glândulas de extremidade de BP, e glândulas de diafragma entre estágios — em turbinas Triveni, BHEL, Siemens, Belliss & Morcom, KKK e Man Turbo. Fornecidas como conjunto de substituição direta ao revisar glândulas de labirinto do tipo retrátil, ou como parte de uma revisão completa do sistema de vedação de glândula junto com empanques de vedação de labirinto do eixo (ver Gaxetas Labirinto de Eixo para Turbinas a Vapor).",
     "features": [
       "Dois graus de material: aço para molas (EN45A / AISI 302 inoxidável) para temperaturas de glândula até aprox. 230°C; Inconel X-750 (temper de mola AMS 5699) para estágios de alta temperatura até aprox. 650°C onde as molas de aço relaxam e perdem a pré-carga",
       "A pré-carga radial mantém a folga mínima labirinto-eixo durante o funcionamento normal, permitindo que o segmento se retraia radialmente durante atritos do rotor ou transitórios térmicos",

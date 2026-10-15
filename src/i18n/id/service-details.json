@@ -69,7 +69,7 @@
     "tools": [
       {
         "name": "Penyelarasan Poros Laser",
-        "detail": "Pruftechnik Rotalign Pro / seri SKF TKSA",
+        "detail": "PRÜFTECHNIK Rotalign Pro / seri SKF TKSA",
         "iconName": "Target"
       },
       {
@@ -432,7 +432,7 @@
       }
     ],
     "whyUs": "Rotor pada 3.000 RPM menghasilkan gaya ketidakseimbangan 100× lebih besar dibanding pada 300 RPM. Ketidakseimbangan sisa yang sama yang tak terlihat pada kecepatan lambat akan merusak bearing pada kecepatan penuh. Kami menyeimbangkan hingga ISO 1940 Grade G1.0 bila diperlukan — bukan sekadar 'cukup baik'.",
-    "overview": "Ketidakseimbangan rotor adalah salah satu penyebab paling umum dan paling dapat dicegah dari kegagalan bearing turbin, kerusakan seal, dan pemendekan umur rotor. Keshav Enterprises melakukan pemesinan journal presisi dan penyeimbangan dinamis ISO 1940 / API 670 untuk rotor dari 50 kg hingga 2.000 kg di fasilitas bengkel khusus kami. Rotor pertama-tama dikerjakan untuk memulihkan integritas geometris — journal bulat, labirin konsentris, finishing permukaan yang benar — sebelum penyeimbangan. Urutan ini penting: menyeimbangkan rotor yang secara geometris terdistorsi hanya menutupi masalah. Laporan penyeimbangan kami mendokumentasikan ketidakseimbangan awal, bidang koreksi, koreksi massa, ketidakseimbangan sisa, dan grade keseimbangan ISO yang dicapai, memberikan ketertelusuran penuh untuk catatan perawatan Anda.",
+    "overview": "Ketidakseimbangan rotor adalah salah satu penyebab paling umum dan paling dapat dicegah dari kegagalan bearing turbin, kerusakan seal, dan pemendekan umur rotor. Keshav Enterprises melakukan pemesinan journal presisi dan penyeimbangan dinamis ISO 21940-11 / ISO 1940 untuk rotor dari 50 kg hingga 2.000 kg di fasilitas bengkel khusus kami. Rotor pertama-tama dikerjakan untuk memulihkan integritas geometris — journal bulat, labirin konsentris, finishing permukaan yang benar — sebelum penyeimbangan. Urutan ini penting: menyeimbangkan rotor yang secara geometris terdistorsi hanya menutupi masalah. Laporan penyeimbangan kami mendokumentasikan ketidakseimbangan awal, bidang koreksi, koreksi massa, ketidakseimbangan sisa, dan grade keseimbangan ISO yang dicapai, memberikan ketertelusuran penuh untuk catatan perawatan Anda.",
     "procedures": [
       {
         "step": "01",
@@ -462,7 +462,7 @@
         "step": "05",
         "title": "Penyeimbangan Dinamis — Koreksi Dua Bidang",
         "iconName": "Target",
-        "desc": "Rotor dipasang pada mesin penyeimbang dinamis hard-bearing. Ketidakseimbangan awal diukur secara simultan pada dua bidang koreksi (ujung kopling dan ujung governor/impeller). Massa uji coba diterapkan dan dilepas. Iterasi penyeimbangan diulang hingga ketidakseimbangan sisa pada setiap bidang memenuhi grade ISO 1940 / API 670 yang ditentukan untuk layanan rotor ini."
+        "desc": "Rotor dipasang pada mesin penyeimbang dinamis hard-bearing. Ketidakseimbangan awal diukur secara simultan pada dua bidang koreksi (ujung kopling dan ujung governor/impeller). Massa uji coba diterapkan dan dilepas. Iterasi penyeimbangan diulang hingga ketidakseimbangan sisa pada setiap bidang memenuhi grade ISO 21940-11 / ISO 1940 yang ditentukan untuk layanan rotor ini."
       },
       {
         "step": "06",
@@ -706,7 +706,7 @@
       }
     ],
     "whyUs": "Ketidaksejajaran sekecil 0,05 mm pada kopling dapat mengurangi umur bearing hingga 80% dan menghasilkan gaya yang merambat melalui seal, kopling, dan seluruh drivetrain. Penyelarasan laser hanya butuh beberapa jam — kegagalan bearing butuh berminggu-minggu dan biaya jauh lebih besar. Kami menyelaraskan dalam kondisi panas, bukan hanya dingin.",
-    "overview": "Ketidaksejajaran poros bertanggung jawab atas hingga 50% dari semua kegagalan bearing peralatan berputar di industri India. Bahkan ketidaksejajaran yang tak terlihat mata telanjang menghasilkan gaya siklik besar pada bearing, seal, dan kopling pada kecepatan operasi. Keshav Enterprises melakukan penyelarasan poros laser presisi menggunakan sistem Pruftechnik dan SKF untuk turbin, gearbox, pompa, kipas, alternator, dan generator induksi dari ukuran frame apa pun. Yang krusial, kami menghitung dan menerapkan offset penyelarasan panas — penyelarasan dingin sengaja diset untuk memperhitungkan pertumbuhan termal, sehingga mesin berjalan lurus pada suhu operasi. Laporan penyelarasan kami menampilkan pembacaan sebelum/sesudah, riwayat shim, dan nilai akhir terhadap toleransi OEM.",
+    "overview": "Ketidaksejajaran poros bertanggung jawab atas hingga 50% dari semua kegagalan bearing peralatan berputar di industri India. Bahkan ketidaksejajaran yang tak terlihat mata telanjang menghasilkan gaya siklik besar pada bearing, seal, dan kopling pada kecepatan operasi. Keshav Enterprises melakukan penyelarasan poros laser presisi menggunakan sistem PRÜFTECHNIK dan SKF untuk turbin, gearbox, pompa, kipas, alternator, dan generator induksi dari ukuran frame apa pun. Yang krusial, kami menghitung dan menerapkan offset penyelarasan panas — penyelarasan dingin sengaja diset untuk memperhitungkan pertumbuhan termal, sehingga mesin berjalan lurus pada suhu operasi. Laporan penyelarasan kami menampilkan pembacaan sebelum/sesudah, riwayat shim, dan nilai akhir terhadap toleransi OEM.",
     "procedures": [
       {
         "step": "01",
@@ -753,7 +753,7 @@
     ],
     "tools": [
       {
-        "name": "Pruftechnik Rotalign Pro",
+        "name": "PRÜFTECHNIK Rotalign Pro",
         "detail": "Seri OPTALIGN — penyelarasan laser nirkabel",
         "iconName": "Target"
       },

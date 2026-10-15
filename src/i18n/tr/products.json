@@ -1593,8 +1593,8 @@
     "sku": "KTB-EJ-001",
     "category": "Expansion Joints",
     "title": "Paslanmaz Çelik Metalik Körük Genleşme Contası",
-    "desc": "Boru sistemlerinde termal genleşmeyi emen çok katmanlı SS metalik körük. DN 15'ten DN 12.000'e kadar mevcuttur. EJMA/ASME standartlarına göre yorulma, akma ve kopma testine tabi tutulmuştur. Uygulamanız çok katmanlı yüksek çevrimli yorulma ömrü, egzotik alaşım malzeme (Incoloy, Inconel, Hastelloy, Titanyum), 16 bar üzerinde çok yüksek basınç veya PED/AD2000 üçüncü taraf sertifikasyon belgesi gerektirdiğinde bu ürünü (prod_e1) standart eksenel conta (prod_e1b) yerine tercih edin.",
-    "usage": "Yüksek basınçlı buhar egzoz sistemleri, kimyasal proses boruları, ısı eşanjörü bağlantıları ve termal hareket telafisi gerektiren borular. Yüksek çevrimli yorulma görevi, egzotik malzemeler, 16 bar üzerindeki basınçlar veya PED/AD2000 sertifikasyonunun gerektiği durumlar için en iyi seçimdir. Orta basınçtaki standart buhar ve su hatları için eksenel genleşme contası (prod_e1b) daha ekonomiktir.",
+    "desc": "Boru sistemlerinde termal genleşmeyi emen çok katmanlı SS metalik körük. DN 15'ten DN 12.000'e kadar mevcuttur. EJMA/ASME standartlarına göre yorulma, akma ve kopma testine tabi tutulmuştur. Uygulamanız çok katmanlı yüksek çevrimli yorulma ömrü, egzotik alaşım malzeme (Incoloy, Inconel, Hastelloy, Titanyum), 16 bar üzerinde çok yüksek basınç veya PED/AD2000 üçüncü taraf sertifikasyon belgesi gerektirdiğinde bu ürünü standart eksenel conta yerine tercih edin.",
+    "usage": "Yüksek basınçlı buhar egzoz sistemleri, kimyasal proses boruları, ısı eşanjörü bağlantıları ve termal hareket telafisi gerektiren borular. Yüksek çevrimli yorulma görevi, egzotik malzemeler, 16 bar üzerindeki basınçlar veya PED/AD2000 sertifikasyonunun gerektiği durumlar için en iyi seçimdir. Orta basınçtaki standart buhar ve su hatları için eksenel genleşme contası daha ekonomiktir.",
     "features": [
       "Malzeme: SS 304/316L, Duplex, Incoloy 825/925, Inconel 625, Titanyum, Hastelloy",
       "Boyut aralığı: DN 15'ten DN 12.000'e kadar",
@@ -1648,8 +1648,8 @@
     "sku": "KTB-EJ-002",
     "category": "Expansion Joints",
     "title": "SS/Alaşım Eksenel Genleşme Contası (DN15–DN12.000)",
-    "desc": "Boru boyuna ekseni boyunca termal genleşme ve büzülmeyi emen tek körüklü eksenel genleşme contası. Buhar, proses gazı ve sıcak su borularında en yaygın kullanılan genleşme contası türüdür. Maliyet etkinliğinin önemli olduğu orta basınçta (16 bar'a kadar) standart görev uygulamaları için bunu çok katmanlı SS metalik körük (prod_e1) yerine tercih edin. Egzotik alaşımlar, çok yüksek basınç (>16 bar), PED sertifikasyonu veya ultra yüksek çevrimli yorulma ömrü gerektiğinde bunun yerine prod_e1 belirtin.",
-    "usage": "Buhar boruları, pompa bağlantıları, ısı eşanjörü giriş/çıkış bağlantıları, elektrik santralleri, şeker fabrikaları, kağıt fabrikaları ve rafinerilerde sıcak su sistemleri. 150 bar G'ye kadar eksenel hareket telafisi için standart ilk tercih — yalnızca egzotik alaşım, yüksek çevrimli yorulma veya sıkı kod sertifikasyonu zorunlu olduğunda çok katmanlı metalik körüğe (prod_e1) yükseltin.",
+    "desc": "Boru boyuna ekseni boyunca termal genleşme ve büzülmeyi emen tek körüklü eksenel genleşme contası. Buhar, proses gazı ve sıcak su borularında en yaygın kullanılan genleşme contası türüdür. Maliyet etkinliğinin önemli olduğu orta basınçta (16 bar'a kadar) standart görev uygulamaları için bunu çok katmanlı SS metalik körük yerine tercih edin. Egzotik alaşımlar, çok yüksek basınç (>16 bar), PED sertifikasyonu veya ultra yüksek çevrimli yorulma ömrü gerektiğinde bunun yerine Paslanmaz Çelik Metalik Körük Genleşme Contası belirtin.",
+    "usage": "Buhar boruları, pompa bağlantıları, ısı eşanjörü giriş/çıkış bağlantıları, elektrik santralleri, şeker fabrikaları, kağıt fabrikaları ve rafinerilerde sıcak su sistemleri. 150 bar G'ye kadar eksenel hareket telafisi için standart ilk tercih — yalnızca egzotik alaşım, yüksek çevrimli yorulma veya sıkı kod sertifikasyonu zorunlu olduğunda çok katmanlı metalik körüğe yükseltin.",
     "features": [
       "Termal döngüden kaynaklanan eksenel sıkışma ve uzamayı emer",
       "Tek körük tasarımı — kompakt ve ekonomik",
@@ -1763,8 +1763,8 @@
     "sku": "KTB-EJ-004",
     "category": "Expansion Joints",
     "title": "Tek Kubbe (Single Arch) Kauçuk Genleşme Contası",
-    "desc": "Termal hareketleri ve mekanik titreşimleri emen standart tek kubbe kauçuk genleşme contası. HVAC, su boruları ve hafif endüstriyel akışkan hatları için ekonomik ilk tercih. Orta düzeyde hareket ve normal titreşim seviyelerine sahip standart uygulamalar için bunu geniş kubbe (prod_e3b) varyantı yerine tercih edin — daha kompakt ve daha düşük maliyetlidir. Sistemde yüksek titreşim genliği, büyük termal hareketler veya önemli pompa/motor kaynaklı şok yükleri olduğunda geniş kubbeye (prod_e3b) yükseltin.",
-    "usage": "HVAC sistemleri, su boruları, hafif endüstriyel akışkan hatları, pompa basma ve emme bağlantıları. Çoğu kauçuk genleşme contası uygulaması için standart ilk tercih — geniş kubbe varyantını (prod_e3b) yalnızca büyük hareket kapasitesi veya yüksek titreşim/şok izolasyonu özellikle gerektiğinde seçin.",
+    "desc": "Termal hareketleri ve mekanik titreşimleri emen standart tek kubbe kauçuk genleşme contası. HVAC, su boruları ve hafif endüstriyel akışkan hatları için ekonomik ilk tercih. Orta düzeyde hareket ve normal titreşim seviyelerine sahip standart uygulamalar için bunu geniş kubbe varyantı yerine tercih edin — daha kompakt ve daha düşük maliyetlidir. Sistemde yüksek titreşim genliği, büyük termal hareketler veya önemli pompa/motor kaynaklı şok yükleri olduğunda geniş kubbeye yükseltin.",
+    "usage": "HVAC sistemleri, su boruları, hafif endüstriyel akışkan hatları, pompa basma ve emme bağlantıları. Çoğu kauçuk genleşme contası uygulaması için standart ilk tercih — geniş kubbe varyantını yalnızca büyük hareket kapasitesi veya yüksek titreşim/şok izolasyonu özellikle gerektiğinde seçin.",
     "features": [
       "Tek kubbe konvolüsyonlu kauçuk yapı",
       "Termal genleşme ve büzülmeyi emer",
@@ -1815,8 +1815,8 @@
     "sku": "KTB-EJ-005",
     "category": "Expansion Joints",
     "title": "Geniş Kubbe (Wide Arch) Kauçuk Genleşme Körüğü",
-    "desc": "Maksimum hareket emilimi ve üstün titreşim izolasyonu sağlayan geniş kubbe kauçuk körük. İç basınç kontrolü için özellikle gergi çubuğu tertibatı ile önerilir. Yüksek titreşimli pompa ve motor bağlantıları için idealdir. Sisteminizde yüksek titreşim genliği, büyük termal hareket döngüleri, önemli pompa/motor şok yükleri varsa veya maksimum esneklik ve gürültü azaltma birincil gereksinim ise bunu standart tek kubbe (prod_e3) yerine tercih edin. Standart HVAC ve su boruları için tek kubbe (prod_e3) daha kompakt ve ekonomiktir.",
-    "usage": "Yüksek titreşimli pompa ve motor bağlantıları, önemli termal harekete sahip ağır hizmet endüstriyel borular, maksimum esneklik ve şok izolasyonu gerektiren uygulamalar. Titreşim veya hareket baskın tasarım endişesi olduğunda tek kubbe (prod_e3) yerine belirtin.",
+    "desc": "Maksimum hareket emilimi ve üstün titreşim izolasyonu sağlayan geniş kubbe kauçuk körük. İç basınç kontrolü için özellikle gergi çubuğu tertibatı ile önerilir. Yüksek titreşimli pompa ve motor bağlantıları için idealdir. Sisteminizde yüksek titreşim genliği, büyük termal hareket döngüleri, önemli pompa/motor şok yükleri varsa veya maksimum esneklik ve gürültü azaltma birincil gereksinim ise bunu standart tek kubbe yerine tercih edin. Standart HVAC ve su boruları için tek kubbe daha kompakt ve ekonomiktir.",
+    "usage": "Yüksek titreşimli pompa ve motor bağlantıları, önemli termal harekete sahip ağır hizmet endüstriyel borular, maksimum esneklik ve şok izolasyonu gerektiren uygulamalar. Titreşim veya hareket baskın tasarım endişesi olduğunda tek kubbe yerine belirtin.",
     "features": [
       "Maksimum eksenel, yanal ve açısal hareket emilimi",
       "Tek/çift kubbeye göre üstün titreşim, gürültü ve şok izolasyonu",
@@ -3112,7 +3112,7 @@
       "PMI malzeme doğrulamasıyla tersine mühendislik uygulanan OEM çizimlerinden üretilir",
       "Malzeme: buhar koşullarına göre alaşımlı çelik (CrMoV, %12 Cr)",
       "Hassas işleme: kaba işleme > ön nihai > nihai işleme",
-      "ISO 1940 / API 670'e göre 50-2.000 kg dinamik dengeleme",
+      "ISO 21940-11 / ISO 1940'e göre 50-2.000 kg dinamik dengeleme",
       "Mekanik ve elektriksel salgı verileriyle tam dengeleme raporu",
       "Kanat bağlantı seçenekleri: Finger-tree, T-kök veya kırlangıç kuyruğu (dove-tail)",
       "Ömür uzatma programları için malzeme yükseltmeleri mevcuttur",
@@ -3120,7 +3120,7 @@
     ],
     "specs": {
       "Rotor Material": "Buhar koşullarına göre alaşımlı çelik (CrMoV, %12 Cr)",
-      "Dynamic Balancing": "ISO 1940 / API 670 (kapasite: 50-2.000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (kapasite: 50-2.000 kg)",
       "Machining Stages": "Kaba işleme > ön nihai > nihai işleme",
       "Blade Root Options": "Finger-tree, T-kök, kırlangıç kuyruğu (Dove-tail)",
       "Documentation": "Tam muayene sertifikası + dengeleme raporu",
@@ -4096,7 +4096,7 @@
       "LP son kademe hücum kenarlarında Stellite sert yüzey — ıslak buhar damlacıklarından erozyon koruması",
       "Boyutsal doğrulama: her kanat partisi için profil mastarı kontrolü + CMM muayene raporu",
       "İşlemeden önce PMI malzeme doğrulaması — kimyasal bileşim sertifikası sağlanır",
-      "Rotor diski üzerinde tam kanat setinin dinamik dengelenmesi — ISO 1940 / API 670 uyumluluğu",
+      "Rotor diski üzerinde tam kanat setinin dinamik dengelenmesi — ISO 21940-11 / ISO 1940 uyumluluğu",
       "Hareketli (rotor) ve sabit (nozul/diyafram) kanatlar ayrı ayrı veya kademe seti olarak sağlanır",
       "Ömür uzatma programları için uygundur — kanat malzemesi yükseltmesi mevcuttur"
     ],
@@ -4109,7 +4109,7 @@
       "Erosion Protection": "LP son kademe hücum kenarında Stellite sert yüzey",
       "Verification": "Parti başına profil mastarı + CMM muayene raporu",
       "PMI Certificate": "Kimyasal bileşim sertifikası sağlanır",
-      "Balancing Standard": "ISO 1940 / API 670 (rotor diskinde)",
+      "Balancing Standard": "ISO 21940-11 / ISO 1940 (rotor diskinde)",
       "HSN Code": "8406"
     },
     "images": [
@@ -4874,7 +4874,7 @@
     "category": "Turbine Spares",
     "title": "Buhar Türbini Yağlama Yağı Diferansiyel Basınç ve Sıcaklık Şalterleri",
     "desc": "Türbin yağlama yağı filtre muhafazaları, ikili filtre değiştirme panelleri, ısı eşanjörleri ve proses boru hatlarının durum izlemesi için diferansiyel basınç (DP) şalterleri ve sıcaklık şalterleri. DP şalterleri, tıkanmış bir eleman üzerindeki artan basınç farkını algılayarak filtre elemanı tıkanmasını sinyaller — eleman baypası oluşmadan ve filtrelenmemiş yağ türbin yataklarına ulaşmadan önce planlı bakıma olanak tanır. Sıcaklık şalterleri, yağlama yağı sıcaklığı, yatak metali sıcaklığı ve proses akışı sıcaklık izlemesi için yüksek/düşük alarm ve tetikleme çıkışları sağlar.",
-    "usage": "Mevcut Keshav Enterprises ikili filtre muhafazalarına (prod_f1, prod_f2 serisi) ve tekli sepet süzgeçlerine doğrudan takılır veya retrofit edilir — filtre durumu izlemesi için tesis DCS'sine, PLC'sine veya yerel alarm paneline bağlanır. Ayrıca üçüncü taraf filtre muhafazalarında, ısı eşanjörü giriş/çıkış sıcaklık izlemesinde, türbin yağlama yağı soğutucusu çıkış sıcaklık kontrolünde ve buhar türbini yatak sıcaklığı alarm/tetikleme devrelerinde kullanılır. DP şalter çıkışı, baypas valfi açılıp filtrelenmemiş yağ yataklara sirküle olmadan önce filtre değiştirme alarmını (ikili) veya bakım alarmını (tekli/sepet) tetikler.",
+    "usage": "Mevcut Keshav Enterprises ikili filtre muhafazalarına (Triveni Türbin Yağlama Yağı Değişim Filtre Elemanları, Siemens Türbin Yağlama Yağı Değişim Filtre Elemanları serisi) ve tekli sepet süzgeçlerine doğrudan takılır veya retrofit edilir — filtre durumu izlemesi için tesis DCS'sine, PLC'sine veya yerel alarm paneline bağlanır. Ayrıca üçüncü taraf filtre muhafazalarında, ısı eşanjörü giriş/çıkış sıcaklık izlemesinde, türbin yağlama yağı soğutucusu çıkış sıcaklık kontrolünde ve buhar türbini yatak sıcaklığı alarm/tetikleme devrelerinde kullanılır. DP şalter çıkışı, baypas valfi açılıp filtrelenmemiş yağ yataklara sirküle olmadan önce filtre değiştirme alarmını (ikili) veya bakım alarmını (tekli/sepet) tetikler.",
     "features": [
       "DP şalter tipleri: Piston tipi (basit, sağlam), Diyafram tipi (düşük DP aralıkları, viskoz sıvılar), Bourdon tüp diferansiyel tipi (yüksek doğruluk)",
       "DP şalter ayar noktası aralığı: 0,3 ile 10 bar — standart filtre baypas ayarları olan 3,5 bar ve 6 bar'ı kapsar",
@@ -5225,7 +5225,7 @@
     "category": "Industrial Strainers",
     "title": "SS 304/316 Sepet Filtre Yedek Elemanları",
     "desc": "Simpleks ve dupleks sepet süzgeç gövdeleri için yedek ve özel imalat sepet süzgeç elemanları. SS 304/316 delikli plakadan, opsiyonel tel örgü kaplama, kama telli veya tam kaynaklı tel örgü yapısıyla üretilir. Tam OEM değiştirilebilir yedek parça olarak veya mevcut herhangi bir gövdeyle (Eaton, Parker, HYDAC ve imal üniteler dahil) boyutsal olarak eşleştirilmiş şekilde tedarik edilir. 37 µm ile 6 mm arasındaki mesh/delik boyutları, hafif kalıntı taramasından ince parçacık tutmaya kadar geniş bir yelpazeyi kapsar.",
-    "usage": "Türbin yağlama yağı sistemleri, governor ve kontrol yağı devreleri, proses boru hatları, yakıt yağı sistemleri, soğutma suyu hatları ve kimyasal proses akışlarında kurulu simpleks ve dupleks sepet süzgeç gövdeleri için doğrudan yedek elemanlar. Mevcut gövde iç çapı, eleman yüksekliği ve üst plaka konfigürasyonuyla eşleşecek şekilde tedarik edilir — tam değişim için gövde markasını, boyutunu ve mevcut meshi belirtin. Keshav Enterprises tarafından tedarik edilen simpleks sepet süzgeçler (prod_st1) ve dupleks sepet süzgeçler (prod_st2) ile OEM ve üçüncü taraf gövdelerle uyumludur.",
+    "usage": "Türbin yağlama yağı sistemleri, governor ve kontrol yağı devreleri, proses boru hatları, yakıt yağı sistemleri, soğutma suyu hatları ve kimyasal proses akışlarında kurulu simpleks ve dupleks sepet süzgeç gövdeleri için doğrudan yedek elemanlar. Mevcut gövde iç çapı, eleman yüksekliği ve üst plaka konfigürasyonuyla eşleşecek şekilde tedarik edilir — tam değişim için gövde markasını, boyutunu ve mevcut meshi belirtin. Keshav Enterprises tarafından tedarik edilen simpleks sepet süzgeçler ve dupleks sepet süzgeçler ile OEM ve üçüncü taraf gövdelerle uyumludur.",
     "features": [
       "Yapı türleri: Delikli plaka (standart), Delikli plaka + tel örgü kaplama, Tam kaynaklı tel örgü silindir, Kama telli sepet — uygulamaya göre belirtin",
       "Delik boyutları: 0,5, 1, 1,5, 2, 3, 4, 6 mm standart delikli plaka",
@@ -6943,7 +6943,7 @@
     "category": "Turbine Spares",
     "title": "Buhar Türbini Labirent Salmastraları için Yaprak Yaylar",
     "desc": "Türbin şaftına karşı geri yaylanan (geri çekilebilir) labirent salmastra conta segmentlerine ön yük bindiren hassas yaprak yaylar; normal çalışma sırasında minimum sızdırmazlık boşluğunu korurken rotor sapmaları sırasında segmentin radyal olarak geri çekilmesine izin verir — sabit, kalafatlanmış labirent contalarına kıyasla sürtünme hasarını ve durma süresini azaltır. Standart salmastra sıcaklıkları için yay çeliğinden, çelik yayların zamanla gevşeyip ön yükünü kaybettiği yüksek sıcaklık kademeleri için ise Inconel X-750'den tedarik edilir.",
-    "usage": "Buhar türbini şaft salmastralarındaki segmentli labirent conta halkalarının arkasına — HP/IP salmastra kutuları, LP uç salmastraları ve kademeler arası diyafram salmastraları — Triveni, BHEL, Siemens, Belliss & Morcom, KKK ve Man Turbo türbinlerinde monte edilir. Geri yaylanan tip labirent salmastraların revizyonunda doğrudan yedek set olarak veya labirent şaft sızdırmazlık contalarıyla (bkz. prod_ts2) birlikte komple salmastra sızdırmazlık sistemi revizyonunun bir parçası olarak tedarik edilir.",
+    "usage": "Buhar türbini şaft salmastralarındaki segmentli labirent conta halkalarının arkasına — HP/IP salmastra kutuları, LP uç salmastraları ve kademeler arası diyafram salmastraları — Triveni, BHEL, Siemens, Belliss & Morcom, KKK ve Man Turbo türbinlerinde monte edilir. Geri yaylanan tip labirent salmastraların revizyonunda doğrudan yedek set olarak veya labirent şaft sızdırmazlık contalarıyla (bkz. Buhar Türbini Labirent Mil Salmastraları) birlikte komple salmastra sızdırmazlık sistemi revizyonunun bir parçası olarak tedarik edilir.",
     "features": [
       "İki malzeme sınıfı: yaklaşık 230°C'ye kadar salmastra sıcaklıkları için yay çeliği (EN45A / AISI 302 paslanmaz); çelik yayların gevşeyip ön yükünü kaybettiği yaklaşık 650°C'ye kadar yüksek sıcaklık kademeleri için Inconel X-750 (AMS 5699 yay temperlemesi)",
       "Radyal ön yük, normal çalışma sırasında minimum labirent-şaft boşluğunu korurken rotor sürtünmesi veya termal geçişler sırasında segmentin radyal olarak geri çekilmesine izin verir",

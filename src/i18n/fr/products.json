@@ -887,7 +887,7 @@
     "category": "Industrial Strainers",
     "title": "Éléments de Rechange pour Filtre à Panier SS 304/316",
     "desc": "Éléments de crépine à panier de remplacement et fabriqués sur mesure pour boîtiers de crépine à panier simplex et duplex. Fabriqués en tôle perforée SS 304/316 avec revêtement optionnel en toile métallique, fil profilé triangulaire ou construction entièrement soudée en toile métallique. Fournis en remplacements exactement interchangeables OEM ou dimensionnellement adaptés à tout boîtier existant — y compris les unités Eaton, Parker, HYDAC et fabriquées. Les tailles de maille/perforation de 37 µm à 6 mm couvrent le tamisage de débris légers jusqu'à la rétention de particules fines.",
-    "usage": "Éléments de remplacement directs pour les boîtiers de crépine à panier simplex et duplex installés dans les systèmes d'huile de lubrification de turbine, les circuits d'huile de régulation et de contrôle, les pipelines de process, les systèmes de fioul, les lignes d'eau de refroidissement et les flux de process chimiques. Fournis pour correspondre au diamètre intérieur, à la hauteur d'élément et à la configuration de plaque supérieure du boîtier existant — préciser la marque, la taille et la maille actuelle du boîtier pour un échange exact. Compatibles avec les crépines à panier simplex fournies par Keshav Enterprises (prod_st1) et les crépines à panier duplex (prod_st2), ainsi qu'avec les boîtiers OEM et tiers.",
+    "usage": "Éléments de remplacement directs pour les boîtiers de crépine à panier simplex et duplex installés dans les systèmes d'huile de lubrification de turbine, les circuits d'huile de régulation et de contrôle, les pipelines de process, les systèmes de fioul, les lignes d'eau de refroidissement et les flux de process chimiques. Fournis pour correspondre au diamètre intérieur, à la hauteur d'élément et à la configuration de plaque supérieure du boîtier existant — préciser la marque, la taille et la maille actuelle du boîtier pour un échange exact. Compatibles avec les crépines à panier simplex fournies par Keshav Enterprises et les crépines à panier duplex, ainsi qu'avec les boîtiers OEM et tiers.",
     "features": [
       "Types de construction : tôle perforée (standard), tôle perforée + revêtement en toile métallique, cylindre entièrement soudé en toile métallique, panier à fil profilé triangulaire — à préciser selon l'application",
       "Tailles de perforation : 0,5, 1, 1,5, 2, 3, 4, 6 mm tôle perforée standard",
@@ -949,8 +949,8 @@
     "sku": "KTB-EJ-001",
     "category": "Expansion Joints",
     "title": "Joint de dilatation à soufflet métallique en acier inoxydable",
-    "desc": "Soufflet métallique SS multiplis absorbant la dilatation thermique dans les systèmes de tuyauterie. Disponible de DN 15 à DN 12 000. Testé en fatigue, limite d'élasticité et rupture selon les normes EJMA/ASME. Choisissez ce produit (prod_e1) plutôt que le joint axial standard (prod_e1b) lorsque votre application nécessite une durée de vie en fatigue à cycles élevés multiplis, un matériau en alliage exotique (Incoloy, Inconel, Hastelloy, Titane), une très haute pression supérieure à 16 bar, ou une documentation de certification tierce PED/AD2000.",
-    "usage": "Systèmes d'échappement de vapeur à haute pression, tuyauteries de process chimique, raccordements d'échangeurs de chaleur et tuyauteries nécessitant une compensation du mouvement thermique. Meilleur choix pour un service en fatigue à cycles élevés, des matériaux exotiques, des pressions supérieures à 16 bar, ou lorsqu'une certification PED/AD2000 est requise. Pour les pipelines de vapeur et d'eau standard à pression modérée, le joint de dilatation axial (prod_e1b) est plus économique.",
+    "desc": "Soufflet métallique SS multiplis absorbant la dilatation thermique dans les systèmes de tuyauterie. Disponible de DN 15 à DN 12 000. Testé en fatigue, limite d'élasticité et rupture selon les normes EJMA/ASME. Choisissez ce produit plutôt que le joint axial standard lorsque votre application nécessite une durée de vie en fatigue à cycles élevés multiplis, un matériau en alliage exotique (Incoloy, Inconel, Hastelloy, Titane), une très haute pression supérieure à 16 bar, ou une documentation de certification tierce PED/AD2000.",
+    "usage": "Systèmes d'échappement de vapeur à haute pression, tuyauteries de process chimique, raccordements d'échangeurs de chaleur et tuyauteries nécessitant une compensation du mouvement thermique. Meilleur choix pour un service en fatigue à cycles élevés, des matériaux exotiques, des pressions supérieures à 16 bar, ou lorsqu'une certification PED/AD2000 est requise. Pour les pipelines de vapeur et d'eau standard à pression modérée, le joint de dilatation axial est plus économique.",
     "features": [
       "Matériau : SS 304/316L, Duplex, Incoloy 825/925, Inconel 625, Titane, Hastelloy",
       "Plage de dimensions : DN 15 à DN 12 000",
@@ -1004,8 +1004,8 @@
     "sku": "KTB-EJ-002",
     "category": "Expansion Joints",
     "title": "Joint de Dilatation Axial SS/Alliage (DN15–DN12 000)",
-    "desc": "Joint de dilatation axial à soufflet unique absorbant la dilatation et la contraction thermiques le long de l'axe longitudinal de la tuyauterie. Type de joint de dilatation le plus utilisé dans les pipelines de vapeur, gaz de process et eau chaude. Choisissez ce produit plutôt que le soufflet métallique SS multiplis (prod_e1) pour les applications standard à pression modérée (jusqu'à 16 bar) où l'économie compte. Lorsque des alliages exotiques, une très haute pression (>16 bar), une certification PED, ou une durée de vie en fatigue à cycles ultra-élevés sont requis, spécifiez plutôt prod_e1.",
-    "usage": "Pipelines de vapeur, raccordements de pompes, raccordements d'entrée/sortie d'échangeurs de chaleur, systèmes d'eau chaude dans les centrales électriques, sucreries, papeteries et raffineries. Premier choix standard pour la compensation du mouvement axial jusqu'à 150 bar G — passez au soufflet métallique multiplis (prod_e1) uniquement lorsqu'un alliage exotique, une fatigue à cycles élevés, ou une certification stricte selon un code est exigée.",
+    "desc": "Joint de dilatation axial à soufflet unique absorbant la dilatation et la contraction thermiques le long de l'axe longitudinal de la tuyauterie. Type de joint de dilatation le plus utilisé dans les pipelines de vapeur, gaz de process et eau chaude. Choisissez ce produit plutôt que le soufflet métallique SS multiplis pour les applications standard à pression modérée (jusqu'à 16 bar) où l'économie compte. Lorsque des alliages exotiques, une très haute pression (>16 bar), une certification PED, ou une durée de vie en fatigue à cycles ultra-élevés sont requis, spécifiez plutôt Joint de dilatation à soufflet métallique en acier inoxydable.",
+    "usage": "Pipelines de vapeur, raccordements de pompes, raccordements d'entrée/sortie d'échangeurs de chaleur, systèmes d'eau chaude dans les centrales électriques, sucreries, papeteries et raffineries. Premier choix standard pour la compensation du mouvement axial jusqu'à 150 bar G — passez au soufflet métallique multiplis uniquement lorsqu'un alliage exotique, une fatigue à cycles élevés, ou une certification stricte selon un code est exigée.",
     "features": [
       "Absorbe la compression et l'extension axiales dues au cyclage thermique",
       "Conception à soufflet unique — compacte et économique",
@@ -1119,8 +1119,8 @@
     "sku": "KTB-EJ-004",
     "category": "Expansion Joints",
     "title": "Joint de dilatation en caoutchouc à arche simple",
-    "desc": "Joint de dilatation en caoutchouc à arche simple standard absorbant les mouvements thermiques et les vibrations mécaniques. Premier choix économique pour le CVC, la tuyauterie d'eau et les lignes de fluides industriels légers. Choisissez ce produit plutôt que la variante à large arche (prod_e3b) pour les applications standard avec mouvement modéré et niveaux de vibration normaux — il est plus compact et moins coûteux. Passez à la large arche (prod_e3b) lorsque le système présente une amplitude de vibration élevée, des mouvements thermiques importants, ou des charges de choc significatives induites par pompe/moteur.",
-    "usage": "Systèmes CVC, tuyauterie d'eau, lignes de fluides industriels légers, raccordements de refoulement et d'aspiration de pompes. Premier choix standard pour la plupart des applications de joints de dilatation en caoutchouc — choisissez la variante à large arche (prod_e3b) uniquement lorsqu'une capacité de mouvement importante ou une isolation contre les vibrations/chocs élevés est spécifiquement requise.",
+    "desc": "Joint de dilatation en caoutchouc à arche simple standard absorbant les mouvements thermiques et les vibrations mécaniques. Premier choix économique pour le CVC, la tuyauterie d'eau et les lignes de fluides industriels légers. Choisissez ce produit plutôt que la variante à large arche pour les applications standard avec mouvement modéré et niveaux de vibration normaux — il est plus compact et moins coûteux. Passez à la large arche lorsque le système présente une amplitude de vibration élevée, des mouvements thermiques importants, ou des charges de choc significatives induites par pompe/moteur.",
+    "usage": "Systèmes CVC, tuyauterie d'eau, lignes de fluides industriels légers, raccordements de refoulement et d'aspiration de pompes. Premier choix standard pour la plupart des applications de joints de dilatation en caoutchouc — choisissez la variante à large arche uniquement lorsqu'une capacité de mouvement importante ou une isolation contre les vibrations/chocs élevés est spécifiquement requise.",
     "features": [
       "Construction en caoutchouc à convolution d'arche simple",
       "Absorbe la dilatation et la contraction thermiques",
@@ -1171,8 +1171,8 @@
     "sku": "KTB-EJ-005",
     "category": "Expansion Joints",
     "title": "Soufflet de dilatation en caoutchouc à large arche",
-    "desc": "Soufflet en caoutchouc à large arche offrant une absorption de mouvement maximale et une isolation vibratoire supérieure. Spécifiquement recommandé avec un ensemble de tirants pour le contrôle de la pression interne. Idéal pour les raccordements de pompes et moteurs à forte vibration. Choisissez ce produit plutôt que l'arche simple standard (prod_e3) lorsque votre système présente une amplitude de vibration élevée, des cycles de mouvement thermique importants, des charges de choc pompe/moteur significatives, ou lorsque la flexibilité et l'atténuation du bruit maximales sont les exigences principales. Pour le CVC et la tuyauterie d'eau standard, l'arche simple (prod_e3) est plus compacte et économique.",
-    "usage": "Raccordements de pompes et moteurs à forte vibration, tuyauterie industrielle robuste avec mouvement thermique important, applications nécessitant une flexibilité et une isolation contre les chocs maximales. À spécifier plutôt que l'arche simple (prod_e3) lorsque la vibration ou le mouvement est la préoccupation de conception dominante.",
+    "desc": "Soufflet en caoutchouc à large arche offrant une absorption de mouvement maximale et une isolation vibratoire supérieure. Spécifiquement recommandé avec un ensemble de tirants pour le contrôle de la pression interne. Idéal pour les raccordements de pompes et moteurs à forte vibration. Choisissez ce produit plutôt que l'arche simple standard lorsque votre système présente une amplitude de vibration élevée, des cycles de mouvement thermique importants, des charges de choc pompe/moteur significatives, ou lorsque la flexibilité et l'atténuation du bruit maximales sont les exigences principales. Pour le CVC et la tuyauterie d'eau standard, l'arche simple est plus compacte et économique.",
+    "usage": "Raccordements de pompes et moteurs à forte vibration, tuyauterie industrielle robuste avec mouvement thermique important, applications nécessitant une flexibilité et une isolation contre les chocs maximales. À spécifier plutôt que l'arche simple lorsque la vibration ou le mouvement est la préoccupation de conception dominante.",
     "features": [
       "Absorption maximale des mouvements axiaux, latéraux et angulaires",
       "Isolation supérieure contre les vibrations, le bruit et les chocs par rapport à l'arche simple/double",
@@ -2468,7 +2468,7 @@
       "Fabriqué à partir de plans OEM en ingénierie inverse avec vérification des matériaux par PMI",
       "Matériau : acier allié (CrMoV, 12 % Cr) selon les conditions de vapeur",
       "Usinage de précision : ébauche > pré-finition > finition",
-      "Équilibrage dynamique 50-2 000 kg selon ISO 1940 / API 670",
+      "Équilibrage dynamique 50-2 000 kg selon ISO 21940-11 / ISO 1940",
       "Rapport d'équilibrage complet avec données de faux-rond mécanique et électrique",
       "Options de fixation des aubes : arbre en éventail, pied en T, ou queue d'aronde",
       "Améliorations de matériaux disponibles pour les programmes de prolongation de vie",
@@ -2476,7 +2476,7 @@
     ],
     "specs": {
       "Rotor Material": "Acier allié (CrMoV, 12 % Cr) selon conditions de vapeur",
-      "Dynamic Balancing": "ISO 1940 / API 670 (capacité : 50-2 000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (capacité : 50-2 000 kg)",
       "Machining Stages": "Usinage d'ébauche > pré-finition > usinage final",
       "Blade Root Options": "Arbre en éventail, pied en T, queue d'aronde",
       "Documentation": "Certificat d'inspection complet + rapport d'équilibrage",
@@ -3452,7 +3452,7 @@
       "Rechargement Stellite sur les bords d'attaque du dernier étage BP — protection contre l'érosion par les gouttelettes de vapeur humide",
       "Vérification dimensionnelle : contrôle par gabarit de profil + rapport d'inspection MMT pour chaque lot d'aubes",
       "Vérification des matériaux par PMI avant usinage — certificat de composition chimique fourni",
-      "Équilibrage dynamique du jeu complet d'aubes sur le disque de rotor — conformité ISO 1940 / API 670",
+      "Équilibrage dynamique du jeu complet d'aubes sur le disque de rotor — conformité ISO 21940-11 / ISO 1940",
       "Aubes mobiles (rotor) et fixes (tuyère/diaphragme) fournies séparément ou en jeu d'étage",
       "Adaptées aux programmes de prolongation de vie — amélioration de matériau d'aube disponible"
     ],
@@ -3465,7 +3465,7 @@
       "Erosion Protection": "Rechargement Stellite sur bord d'attaque du dernier étage BP",
       "Verification": "Gabarit de profil + rapport d'inspection MMT par lot",
       "PMI Certificate": "Certificat de composition chimique fourni",
-      "Balancing Standard": "ISO 1940 / API 670 (sur disque de rotor)",
+      "Balancing Standard": "ISO 21940-11 / ISO 1940 (sur disque de rotor)",
       "HSN Code": "8406"
     },
     "images": [
@@ -4230,7 +4230,7 @@
     "category": "Turbine Spares",
     "title": "Pressostats Différentiels et Thermostats d'Huile de Lubrification pour Turbines à Vapeur",
     "desc": "Pressostats différentiels (DP) et thermostats pour la surveillance d'état des boîtiers de filtre d'huile de lubrification de turbine, panneaux de changement de filtre duplex, échangeurs de chaleur, et pipelines de process. Les pressostats DP signalent le colmatage de l'élément filtrant en détectant la pression différentielle croissante à travers un élément encrassé — permettant une maintenance planifiée avant que le contournement d'élément ne se produise et que l'huile non filtrée n'atteigne les paliers de turbine. Les thermostats fournissent des sorties d'alarme et de déclenchement haute/basse pour la surveillance de la température d'huile de lubrification, de la température de métal de palier, et de la température de flux de process.",
-    "usage": "Montage direct ou rénovation sur les boîtiers de filtre duplex Keshav Enterprises existants (série prod_f1, prod_f2) et crépines à panier simplex — câblés vers le DCS, PLC, ou panneau d'alarme local de l'usine pour la surveillance de l'état du filtre. Également utilisés sur les boîtiers de filtre tiers, la surveillance de température d'entrée/sortie d'échangeur de chaleur, le contrôle de température de sortie de refroidisseur d'huile de lubrification de turbine, et les circuits d'alarme/déclenchement de température de palier de turbine à vapeur. La sortie du pressostat DP déclenche l'alarme de changement de filtre (duplex) ou l'alarme de maintenance (simplex/panier) avant que la vanne de dérivation ne s'ouvre et que l'huile non filtrée ne circule vers les paliers.",
+    "usage": "Montage direct ou rénovation sur les boîtiers de filtre duplex Keshav Enterprises existants (série Éléments filtrants de remplacement d'huile de lubrification pour turbines Triveni, Éléments filtrants de remplacement d'huile de lubrification pour turbines Siemens) et crépines à panier simplex — câblés vers le DCS, PLC, ou panneau d'alarme local de l'usine pour la surveillance de l'état du filtre. Également utilisés sur les boîtiers de filtre tiers, la surveillance de température d'entrée/sortie d'échangeur de chaleur, le contrôle de température de sortie de refroidisseur d'huile de lubrification de turbine, et les circuits d'alarme/déclenchement de température de palier de turbine à vapeur. La sortie du pressostat DP déclenche l'alarme de changement de filtre (duplex) ou l'alarme de maintenance (simplex/panier) avant que la vanne de dérivation ne s'ouvre et que l'huile non filtrée ne circule vers les paliers.",
     "features": [
       "Types de pressostat DP : à piston (simple, robuste), à diaphragme (faibles plages de DP, fluides visqueux), à tube de Bourdon différentiel (haute précision)",
       "Plage de point de consigne du pressostat DP : 0,3 à 10 bar — couvre les réglages de dérivation de filtre standard de 3,5 bar et 6 bar",
@@ -6943,7 +6943,7 @@
     "category": "Turbine Spares",
     "title": "Ressorts à Lames pour Garnitures Labyrinthe de Turbines à Vapeur",
     "desc": "Ressorts à lame de précision qui précontraignent les segments d'étanchéité labyrinthe rétractables contre l'arbre de la turbine, maintenant un jeu d'étanchéité minimal pendant le fonctionnement normal tout en permettant au segment de se retirer radialement lors des excursions du rotor — réduisant les dommages par frottement et le temps d'arrêt par rapport aux garnitures labyrinthe fixes calfeutrées. Fournis en acier à ressort pour les températures standard du presse-garniture et en Inconel X-750 pour les étages à haute température où les ressorts en acier se détendent et perdent leur précontrainte avec le temps.",
-    "usage": "Montés derrière les anneaux de garniture labyrinthe segmentés dans les presse-garnitures d'arbre de turbines à vapeur — boîtes de presse-garniture HP/IP, presse-garnitures d'extrémité BP, et presse-garnitures de diaphragme entre étages — sur les turbines Triveni, BHEL, Siemens, Belliss & Morcom, KKK et Man Turbo. Fournis comme jeu de remplacement direct lors de la révision de presse-garnitures labyrinthe rétractables, ou dans le cadre d'une révision complète du système d'étanchéité avec les garnitures d'étanchéité labyrinthe d'arbre (voir prod_ts2).",
+    "usage": "Montés derrière les anneaux de garniture labyrinthe segmentés dans les presse-garnitures d'arbre de turbines à vapeur — boîtes de presse-garniture HP/IP, presse-garnitures d'extrémité BP, et presse-garnitures de diaphragme entre étages — sur les turbines Triveni, BHEL, Siemens, Belliss & Morcom, KKK et Man Turbo. Fournis comme jeu de remplacement direct lors de la révision de presse-garnitures labyrinthe rétractables, ou dans le cadre d'une révision complète du système d'étanchéité avec les garnitures d'étanchéité labyrinthe d'arbre (voir Garnitures d'Étanchéité Labyrinthe d'Arbre pour Turbines à Vapeur).",
     "features": [
       "Deux qualités de matériau : acier à ressort (EN45A / AISI 302 inoxydable) pour des températures de presse-garniture jusqu'à environ 230°C ; Inconel X-750 (trempe ressort AMS 5699) pour les étages à haute température jusqu'à environ 650°C où les ressorts en acier se détendent et perdent leur précontrainte",
       "La précontrainte radiale maintient le jeu minimal labyrinthe-arbre pendant le fonctionnement normal tout en permettant au segment de se retirer radialement lors de frottements du rotor ou de transitoires thermiques",

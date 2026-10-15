@@ -274,7 +274,7 @@ const SERVICE_RATINGS = [
   { id: "sv_docs", label: "Documentation & compliance reporting" },
   { id: "sv_timeliness", label: "Project completion on time" },
   { id: "sv_aftersales", label: "After-sales & follow-up support" },
-  { id: "sv_emergency", label: "24×7 emergency support availability" },
+  { id: "sv_emergency", label: "24x7 emergency support availability" },
   { id: "sv_value", label: "Value for money (services)" },
   { id: "sv_recommend", label: "Likelihood to recommend our services" },
 ];
@@ -2938,7 +2938,7 @@ export default function ReviewForm({
               },
               {
                 key: "emergency",
-                label: "Did you use our 24×7 emergency support?",
+                label: "Did you use our 24x7 emergency support?",
                 type: "select",
                 opts: [
                   "Select…",

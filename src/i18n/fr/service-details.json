@@ -69,7 +69,7 @@
     "tools": [
       {
         "name": "Alignement laser d'arbre",
-        "detail": "Pruftechnik Rotalign Pro / série SKF TKSA",
+        "detail": "PRÜFTECHNIK Rotalign Pro / série SKF TKSA",
         "iconName": "Target"
       },
       {
@@ -432,7 +432,7 @@
       }
     ],
     "whyUs": "À 3 000 tr/min, un rotor génère une force de balourd 100 fois supérieure à celle à 300 tr/min. Le même balourd résiduel, invisible à basse vitesse, détruira le palier à pleine vitesse. Là où nécessaire, nous équilibrons jusqu'au grade ISO 1940 G1.0 — pas seulement « suffisamment bon ».",
-    "overview": "Le balourd du rotor est la cause la plus courante et la plus évitable de défaillance de palier de turbine, de dommage de joint et de réduction de la durée de vie du rotor. Keshav Enterprises effectue l'usinage de précision de tourillons et l'équilibrage dynamique ISO 1940 / API 670 pour des rotors de 50 kg à 2 000 kg dans notre atelier dédié. Avant l'équilibrage, le rotor est d'abord usiné pour restaurer l'intégrité géométrique — tourillons ronds, portées de labyrinthe concentriques, état de surface correct. Cette séquence est importante : équilibrer un rotor géométriquement déformé ne fait que masquer le problème. Nos rapports d'équilibrage documentent le balourd initial, les plans de correction, la correction de masse, le balourd résiduel et le grade d'équilibrage ISO atteint, offrant une traçabilité complète pour vos registres de maintenance.",
+    "overview": "Le balourd du rotor est la cause la plus courante et la plus évitable de défaillance de palier de turbine, de dommage de joint et de réduction de la durée de vie du rotor. Keshav Enterprises effectue l'usinage de précision de tourillons et l'équilibrage dynamique ISO 21940-11 / ISO 1940 pour des rotors de 50 kg à 2 000 kg dans notre atelier dédié. Avant l'équilibrage, le rotor est d'abord usiné pour restaurer l'intégrité géométrique — tourillons ronds, portées de labyrinthe concentriques, état de surface correct. Cette séquence est importante : équilibrer un rotor géométriquement déformé ne fait que masquer le problème. Nos rapports d'équilibrage documentent le balourd initial, les plans de correction, la correction de masse, le balourd résiduel et le grade d'équilibrage ISO atteint, offrant une traçabilité complète pour vos registres de maintenance.",
     "procedures": [
       {
         "step": "01",
@@ -462,7 +462,7 @@
         "step": "05",
         "title": "Équilibrage dynamique — correction à deux plans",
         "iconName": "Target",
-        "desc": "Rotor monté dans une équilibreuse dynamique à paliers durs. Balourd initial mesuré simultanément dans deux plans de correction (côté accouplement et côté régulateur/roue). Masses d'essai appliquées et retirées. Équilibrage répété jusqu'à ce que le balourd résiduel dans chaque plan satisfasse le grade ISO 1940 / API 670 spécifié pour cette application de rotor."
+        "desc": "Rotor monté dans une équilibreuse dynamique à paliers durs. Balourd initial mesuré simultanément dans deux plans de correction (côté accouplement et côté régulateur/roue). Masses d'essai appliquées et retirées. Équilibrage répété jusqu'à ce que le balourd résiduel dans chaque plan satisfasse le grade ISO 21940-11 / ISO 1940 spécifié pour cette application de rotor."
       },
       {
         "step": "06",
@@ -706,7 +706,7 @@
       }
     ],
     "whyUs": "Un désalignement aussi faible que 0,05 mm sur un accouplement peut réduire la durée de vie du palier de 80 % et génère des forces qui se propagent dans les joints, les accouplements et toute la chaîne de transmission. L'alignement laser prend des heures — une défaillance de palier prend des semaines et coûte bien plus cher. Nous alignons à chaud, pas seulement à froid.",
-    "overview": "Le désalignement d'arbre est responsable de jusqu'à 50 % de toutes les défaillances de palier d'équipements tournants dans l'industrie indienne. Même un désalignement invisible à l'œil nu génère d'énormes forces cycliques sur les paliers, joints et accouplements à la vitesse de fonctionnement. Keshav Enterprises effectue l'alignement laser de précision d'arbres pour turbines, réducteurs, pompes, ventilateurs, alternateurs et générateurs à induction de toute taille de bâti à l'aide de systèmes Pruftechnik et SKF. Fait important, nous calculons et appliquons les décalages d'alignement à chaud — l'alignement à froid est délibérément réglé pour tenir compte de la dilatation thermique, afin que la machine tourne droit à la température de fonctionnement. Nos rapports d'alignement montrent les relevés avant/après, l'historique des cales et les valeurs finales par rapport à la tolérance OEM.",
+    "overview": "Le désalignement d'arbre est responsable de jusqu'à 50 % de toutes les défaillances de palier d'équipements tournants dans l'industrie indienne. Même un désalignement invisible à l'œil nu génère d'énormes forces cycliques sur les paliers, joints et accouplements à la vitesse de fonctionnement. Keshav Enterprises effectue l'alignement laser de précision d'arbres pour turbines, réducteurs, pompes, ventilateurs, alternateurs et générateurs à induction de toute taille de bâti à l'aide de systèmes PRÜFTECHNIK et SKF. Fait important, nous calculons et appliquons les décalages d'alignement à chaud — l'alignement à froid est délibérément réglé pour tenir compte de la dilatation thermique, afin que la machine tourne droit à la température de fonctionnement. Nos rapports d'alignement montrent les relevés avant/après, l'historique des cales et les valeurs finales par rapport à la tolérance OEM.",
     "procedures": [
       {
         "step": "01",
@@ -753,7 +753,7 @@
     ],
     "tools": [
       {
-        "name": "Pruftechnik Rotalign Pro",
+        "name": "PRÜFTECHNIK Rotalign Pro",
         "detail": "Série OPTALIGN — alignement laser sans fil",
         "iconName": "Target"
       },

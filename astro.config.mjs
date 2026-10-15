@@ -116,6 +116,18 @@ export default defineConfig({
       // building a new array (no .push) makes this safe against that
       // shared-reference caching regardless of call order.
       serialize(item) {
+        // Relative importance by URL depth (path with locale prefix stripped).
+        const path = new URL(item.url).pathname
+          .replace(/^\/(hi|mr|gu|ar|fr|ne|es|pt|ru|de|zh-cn|id|th|vi|tr|sw)(?=\/|$)/, "")
+          .replace(/\/$/, "");
+        const depth = path === "" ? 0 : path.split("/").length - 1;
+        const isDefaultLocale = !/^\/(hi|mr|gu|ar|fr|ne|es|pt|ru|de|zh-cn|id|th|vi|tr|sw)(\/|$)/.test(new URL(item.url).pathname);
+        let priority = depth === 0 ? (path === "" ? 1.0 : 0.8) : 0.6;
+        if (path.startsWith("/contact")) priority = 0.9;
+        if (path.startsWith("/services") || path.startsWith("/products")) priority = Math.max(priority, depth === 0 ? 0.9 : 0.7);
+        if (!isDefaultLocale) priority = Math.max(0.3, +(priority - 0.2).toFixed(1));
+        item.priority = priority;
+        item.changefreq = path.startsWith("/blog") ? "monthly" : "weekly";
         if (item.links?.length && !item.links.some((l) => l.lang === "x-default")) {
           const en = item.links.find((link) => link.lang === "en");
           if (en) item.links = [...item.links, { url: en.url, lang: "x-default" }];

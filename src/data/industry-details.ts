@@ -120,12 +120,12 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
       `${YEARS_IN_BUSINESS}+ years OEM-trained engineering experience`,
       "API 614 & ISO 4406:99 compliant products",
       "HVAC filter supply for control rooms and turbine halls",
-      "24×7 emergency breakdown support",
+      "24x7 emergency breakdown support",
     ],
   },
   ind_2: {
     heroSub: "Back-pressure & extraction-condensing turbines in sugar & distillery co-gen",
-    overview: `India's sugar industry runs intensive 150–180 day crushing seasons where turbine availability is directly tied to cane crushing throughput. Keshav Enterprises specialises in inter-season overhauling for back-pressure turbines (the workhorses of sugar co-generation) and provides 24×7 emergency spares support during the crushing season when shutdowns are most costly.`,
+    overview: `India's sugar industry runs intensive 150–180 day crushing seasons where turbine availability is directly tied to cane crushing throughput. Keshav Enterprises specialises in inter-season overhauling for back-pressure turbines (the workhorses of sugar co-generation) and provides 24x7 emergency spares support during the crushing season when shutdowns are most costly.`,
     challenges: [
       {
         title: "Short Inter-Season Overhaul Window",
@@ -208,7 +208,7 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
     ],
     keyFacts: [
       "Triveni & Belliss turbine specialist services",
-      "24×7 emergency season support",
+      "24x7 emergency season support",
       "All carbon/graphite grades machined in-house",
       "Inter-season overhauls completed within window",
     ],

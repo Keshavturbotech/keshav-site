@@ -26,6 +26,23 @@ const DEFAULT_TITLE_BUDGET = 60;
 const DEFAULT_DESCRIPTION_BUDGET = 155;
 const CJK_LOCALES = new Set(["zh-CN"]);
 
+
+// Dangling connectors left at the cut point read as broken text in a SERP
+// snippet ("...for steam", "...Industrial &"). Strip trailing punctuation and
+// English function words so a truncated string always ends on a content word.
+const DANGLING_WORDS = new Set([
+  "and", "or", "for", "the", "of", "to", "in", "with", "on", "at", "by", "from", "a", "an", "&", "as", "per",
+]);
+function trimDanglingTail(text: string): string {
+  let out = text.trim().replace(/[\s,;:\-\u2013\u2014|/&(]+$/u, "");
+  for (;;) {
+    const m = out.match(/^(.*\s)([^\s]+)$/su);
+    if (!m || !DANGLING_WORDS.has(m[2].toLowerCase())) break;
+    out = m[1].trim().replace(/[\s,;:\-\u2013\u2014|/&(]+$/u, "");
+  }
+  return out;
+}
+
 function budgetFor(base: number, locale: string): number {
   return CJK_LOCALES.has(locale) ? Math.round(base / 1.8) : base;
 }
@@ -45,7 +62,7 @@ function truncateAtWordBoundary(text: string, maxLen: number): string {
   const slice = trimmed.slice(0, maxLen);
   const lastSpace = slice.lastIndexOf(" ");
   if (lastSpace > maxLen * 0.4) {
-    return slice.slice(0, lastSpace).trim();
+    return trimDanglingTail(slice.slice(0, lastSpace));
   }
   return slice.trim();
 }
@@ -86,5 +103,12 @@ export function buildSeoDescription(text: string, locale = "en"): string {
   if (sentenceEnd > maxLen * 0.4) {
     return trimmed.slice(0, sentenceEnd + 1).trim();
   }
-  return truncateAtWordBoundary(trimmed, maxLen);
+  // No usable sentence end: prefer the last clause boundary, else the last
+  // word boundary, and mark the cut with an ellipsis (one char, inside budget).
+  const clauseEnd = Math.max(slice.lastIndexOf(", "), slice.lastIndexOf("; "), slice.lastIndexOf(" \u2014 "));
+  const cut =
+    clauseEnd > maxLen * 0.5 && clauseEnd <= maxLen - 1
+      ? trimDanglingTail(trimmed.slice(0, clauseEnd))
+      : truncateAtWordBoundary(trimmed, maxLen - 1);
+  return /[.!?]$/.test(cut) ? cut : `${cut}\u2026`;
 }

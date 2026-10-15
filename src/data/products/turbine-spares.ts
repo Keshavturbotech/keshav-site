@@ -294,7 +294,7 @@ export const TURBINE_SPARES_PRODUCTS = [
         "Manufactured from reverse-engineered OEM drawings with PMI material verification",
         "Material: Alloy steel (CrMoV, 12% Cr) per steam conditions",
         "Precision machined: rough machining > pre-final > final",
-        "Dynamic balancing 50-2,000 kg to ISO 1940 / API 670",
+        "Dynamic balancing 50-2,000 kg to ISO 21940-11 / ISO 1940",
         "Complete balancing report with mechanical and electrical run-out data",
         "Blade attachment options: Finger-tree, T-root, or dove-tail",
         "Material upgrades available for life extension programs",
@@ -302,7 +302,7 @@ export const TURBINE_SPARES_PRODUCTS = [
       ],
       specs: {
         "Rotor Material": "Alloy Steel (CrMoV, 12% Cr) per steam conditions",
-        "Dynamic Balancing": "ISO 1940 / API 670 (capacity: 50-2,000 kg)",
+        "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (capacity: 50-2,000 kg)",
         "Machining Stages": "Rough machining > Pre-final > Final machining",
         "Blade Root Options": "Finger-tree, T-root, Dove-tail",
         Documentation: "Full inspection certificate + balancing report",
@@ -687,7 +687,7 @@ export const TURBINE_SPARES_PRODUCTS = [
       title: "Leaf Springs for Turbine Governors",
       desc: "Precision-manufactured flat leaf springs for turbine mechanical centrifugal governors, trip mechanisms, and valve actuating linkages. Manufactured from spring steel to exact OEM temper, thickness, and width specifications.",
       usage:
-        "Speeder spring assemblies in mechanical centrifugal governors, governor fly-weight return springs, trip reset mechanisms, and valve-closing spring packs on Triveni, BHEL, Belliss, and Maxwatt steam turbines.",
+        "Speeder spring assemblies in mechanical centrifugal governors, governor fly-weight return springs, trip reset mechanisms, and valve-closing spring packs on Triveni, BHEL, Belliss & Morcom, and Maxwatt steam turbines.",
       features: [
         "Material: EN45A / 55SiCr7 spring steel, hardened and tempered to HRC 44–48",
         "Manufactured to exact OEM thickness (±0.01 mm) and width (±0.1 mm) dimensions",
@@ -708,7 +708,7 @@ export const TURBINE_SPARES_PRODUCTS = [
         "Operating Temperature": "-20 to +120°C",
         "Material Certificate": "EN 10204 Type 3.1 mill certificate",
         Applications: "Governor speeder springs, trip springs, valve return springs",
-        "OEM Compatibility": "Triveni, BHEL, Belliss, Maxwatt, Siemens turbines",
+        "OEM Compatibility": "Triveni, BHEL, Belliss & Morcom, Maxwatt, Siemens turbines",
         "HSN Code": "8406",
       },
       images: [
@@ -743,7 +743,7 @@ export const TURBINE_SPARES_PRODUCTS = [
         "Can be performed with rotor in-situ (without full disassembly) in most turbine configurations",
         "Workshop journal grinding on lathes available for more severe damage cases",
         "Polishing report: before/after surface finish (Ra), roundness, and taper measurements",
-        "Compatible with all turbine makes: Triveni, BHEL, Siemens, KKK, Man Turbo, Belliss",
+        "Compatible with all turbine makes: Triveni, BHEL, Siemens, KKK, Man Turbo, Belliss & Morcom",
         "Emergency breakdown polishing service available 24x7",
       ],
       specs: {
@@ -752,7 +752,7 @@ export const TURBINE_SPARES_PRODUCTS = [
         "Material Removal": "0.005–0.025 mm per pass (minimum undersizing)",
         Measurement: "Roundness + taper + Ra before/after verification",
         Availability: "24x7 emergency breakdown response",
-        "OEM Compatibility": "All turbine makes: Triveni, BHEL, Siemens, KKK, Man Turbo, Belliss",
+        "OEM Compatibility": "All turbine makes: Triveni, BHEL, Siemens, KKK, Man Turbo, Belliss & Morcom",
         Documentation: "Full polishing report with before/after measurements",
         "Typical Turnaround": "1–3 days (in-situ) / 5–10 days (workshop)",
         "How to Order":
@@ -1075,7 +1075,7 @@ export const TURBINE_SPARES_PRODUCTS = [
         "Stellite hard-facing on LP last-stage leading edges: erosion protection from wet steam droplets",
         "Dimensional verification: profile gauge check + CMM inspection report for each blade batch",
         "PMI material verification before machining: chemical composition certificate supplied",
-        "Dynamic balancing of complete blade set on rotor disc: ISO 1940 / API 670 compliance",
+        "Dynamic balancing of complete blade set on rotor disc: ISO 21940-11 / ISO 1940 compliance",
         "Moving (rotor) and stationary (nozzle/diaphragm) blades supplied separately or as a stage set",
         "Suitable for life extension programs: blade material upgrade available",
       ],
@@ -1088,7 +1088,7 @@ export const TURBINE_SPARES_PRODUCTS = [
         "Erosion Protection": "Stellite hard-facing on LP last-stage leading edge",
         Verification: "Profile gauge + CMM inspection report per batch",
         "PMI Certificate": "Chemical composition certificate supplied",
-        "Balancing Standard": "ISO 1940 / API 670 (on rotor disc)",
+        "Balancing Standard": "ISO 21940-11 / ISO 1940 (on rotor disc)",
         "HSN Code": "8406",
       },
       images: [
@@ -1701,7 +1701,7 @@ export const TURBINE_SPARES_PRODUCTS = [
       title: "DP & Temperature Switches: Turbine Lube Oil Monitoring",
       desc: "Differential pressure (DP) switches and temperature switches for condition monitoring of turbine lube oil filter housings, duplex filter changeover panels, heat exchangers, and process pipelines. DP switches signal filter element blockage by detecting the rising pressure differential across a clogged element: enabling planned maintenance before element bypass occurs and unfiltered oil reaches turbine bearings. Temperature switches provide high/low alarm and trip outputs for lube oil temperature, bearing metal temperature, and process stream temperature monitoring.",
       usage:
-        "Direct fit or retrofit on existing Keshav Enterprises duplex filter housings (prod_f1, prod_f2 series) and simplex basket strainers: wired to plant DCS, PLC, or local alarm panel for filter condition monitoring. Also used on third-party filter housings, heat exchanger inlet/outlet temperature monitoring, turbine lube oil cooler outlet temperature control, and steam turbine bearing temperature alarm/trip circuits. DP switch output triggers filter changeover alarm (duplex) or maintenance alarm (simplex/basket) before bypass valve lifts and unfiltered oil circulates to bearings.",
+        "Direct fit or retrofit on existing Keshav Enterprises duplex filter housings (Triveni Replacement Turbine Lube Oil Filter Elements, Siemens Replacement Turbine Lube Oil Filter Elements series) and simplex basket strainers: wired to plant DCS, PLC, or local alarm panel for filter condition monitoring. Also used on third-party filter housings, heat exchanger inlet/outlet temperature monitoring, turbine lube oil cooler outlet temperature control, and steam turbine bearing temperature alarm/trip circuits. DP switch output triggers filter changeover alarm (duplex) or maintenance alarm (simplex/basket) before bypass valve lifts and unfiltered oil circulates to bearings.",
       features: [
         "DP switch types: Piston type (simple, robust), Diaphragm type (low DP ranges, viscous fluids), Bourdon tube differential type (high-accuracy)",
         "DP switch setpoint range: 0.3 to 10 bar, covers standard filter bypass settings of 3.5 bar and 6 bar",
@@ -1752,7 +1752,7 @@ export const TURBINE_SPARES_PRODUCTS = [
       title: "Leaf Springs for Turbine Labyrinth Gland Seals",
       desc: "Precision leaf springs that preload spring-back (retractable) labyrinth gland seal segments against the turbine shaft, maintaining minimum sealing clearance during normal running while allowing the segment to retract radially during rotor excursions: reducing rub damage and outage time compared to fixed, caulked-in labyrinth packings. Supplied in spring steel for standard gland temperatures and Inconel X-750 for high-temperature stages where steel springs relax and lose preload over time.",
       usage:
-        "Fitted behind segmented labyrinth packing rings in steam turbine shaft glands (HP/IP gland boxes, LP end glands, and interstage diaphragm glands) on Triveni, BHEL, Siemens, Belliss & Morcom, KKK, and Man Turbo turbines. Supplied as a direct replacement set when overhauling spring-back type labyrinth glands, or as part of a complete gland sealing system overhaul alongside labyrinth shaft sealing packings (see prod_ts2).",
+        "Fitted behind segmented labyrinth packing rings in steam turbine shaft glands (HP/IP gland boxes, LP end glands, and interstage diaphragm glands) on Triveni, BHEL, Siemens, Belliss & Morcom, KKK, and Man Turbo turbines. Supplied as a direct replacement set when overhauling spring-back type labyrinth glands, or as part of a complete gland sealing system overhaul alongside labyrinth shaft sealing packings (see Steam Turbine Labyrinth Shaft Sealing Packings).",
       features: [
         "Two material grades: spring steel (EN45A / AISI 302 stainless) for gland temperatures up to approx. 230°C; Inconel X-750 (AMS 5699 spring temper) for high-temperature stages up to approx. 650°C where steel springs relax and lose preload",
         "Radial preload maintains minimum labyrinth-to-shaft clearance during normal running while permitting the segment to retract radially during rotor rubs or thermal transients",

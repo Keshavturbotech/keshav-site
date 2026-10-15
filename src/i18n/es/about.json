@@ -79,7 +79,7 @@
     "coreCapabilitiesList": [
       "Montaje, puesta en marcha y revisión general llave en mano de turbinas",
       "Ingeniería inversa de precisión mediante escaneo láser 3D y MMC",
-      "Equilibrado dinámico según ISO 1940 / API 670 (50–2.000 kg)",
+      "Equilibrado dinámico según ISO 21940-11 / ISO 1940 (50–2.000 kg)",
       "Lavado de aceite lubricante según clasificación de limpieza ISO 4406:99",
       "Alineación de máquinas con la última tecnología de alineación láser",
       "Fabricación: elementos filtrantes, filtros de aire HVAC, juntas de expansión, coladores",
@@ -160,7 +160,7 @@
       {
         "year": "2021",
         "title": "Ampliación de capacidades y de la línea de productos",
-        "desc": "Inversión en escaneo láser 3D, equipos de medición por coordenadas (MMC) y máquinas de equilibrado dinámico ISO 1940 / API 670 (50–2.000 kg), y lanzamiento de una amplia línea de productos industriales que abarca filtración, filtros de aire HVAC, juntas de expansión, filtros tipo colador, productos de caucho y conjuntos de mangueras flexibles."
+        "desc": "Inversión en escaneo láser 3D, equipos de medición por coordenadas (MMC) y máquinas de equilibrado dinámico ISO 21940-11 / ISO 1940 (50–2.000 kg), y lanzamiento de una amplia línea de productos industriales que abarca filtración, filtros de aire HVAC, juntas de expansión, filtros tipo colador, productos de caucho y conjuntos de mangueras flexibles."
       },
       {
         "year": "Hoy",
@@ -190,7 +190,7 @@
       },
       "vp": {
         "name": "Especialista en Equilibrado",
-        "spec": "Equilibrado dinámico ISO 1940 / API 670 · Rotores de 50–2.000 kg"
+        "spec": "Equilibrado dinámico ISO 21940-11 / ISO 1940 · Rotores de 50–2.000 kg"
       },
       "mt": {
         "name": "Jefe de Taller — Mecanizado",

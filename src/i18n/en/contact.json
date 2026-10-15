@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Contact Engineering Team — Request a Technical Quote",
-    "description": "Contact Keshav Enterprises for turbine engineering RFQs, reverse engineering quotes, and 24x7 emergency breakdown support — serving pan-India and clients worldwide. Phone: +91 9149229448.",
+    "description": "Contact Keshav Enterprises for turbine engineering RFQs, reverse engineering quotes and 24x7 emergency breakdown support across India and worldwide.",
     "schemaName": "Contact Keshav Enterprises"
   },
   "hero": {
@@ -17,7 +17,7 @@
     "directLines": {
       "title": "Direct Lines",
       "salesLabel": "Sales & RFQ",
-      "emergencyLabel": "24×7 Emergency Breakdown",
+      "emergencyLabel": "24x7 Emergency Breakdown",
       "whatsappCta": "WhatsApp this line",
       "whatsappPrefillMessage": "Hi, I need emergency breakdown support for my turbine."
     },
@@ -107,7 +107,7 @@
     ],
     "officeStatus": {
       "online": "Engineers online now — reply within 2 hrs",
-      "offline": "Emergency line active 24×7 — planned RFQs answered by 9 AM IST"
+      "offline": "Emergency line active 24x7 — planned RFQs answered by 9 AM IST"
     },
     "labels": {
       "yourName": "Your Name",

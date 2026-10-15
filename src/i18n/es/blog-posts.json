@@ -251,7 +251,7 @@
       },
       {
         "type": "p",
-        "text": "El mecanizado se realiza en tres etapas: mecanizado en desbaste hasta dimensiones casi finales, tratamiento térmico si es necesario (alivio de tensiones, temple y revenido, nitruración) y mecanizado final de precisión. Cada etapa se inspecciona con respecto al plano de ingeniería. Los rotores se equilibran dinámicamente según las normas ISO 1940 / API 670 antes del envío."
+        "text": "El mecanizado se realiza en tres etapas: mecanizado en desbaste hasta dimensiones casi finales, tratamiento térmico si es necesario (alivio de tensiones, temple y revenido, nitruración) y mecanizado final de precisión. Cada etapa se inspecciona con respecto al plano de ingeniería. Los rotores se equilibran dinámicamente según las normas ISO 21940-11 / ISO 1940 antes del envío."
       },
       {
         "type": "h2",
