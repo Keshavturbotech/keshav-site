@@ -11,7 +11,7 @@
     "useCases": [
       "Große und kleine Überholung von Dampfturbinen",
       "Turbinenmontage und Inbetriebnahme",
-      "Spülung des Schmierölsystems nach ISO 4406:99",
+      "Spülung des Schmierölsystems nach ISO 4406",
       "Dynamisches Auswuchten und Rotorausrichtung",
       "Fertigung von Schnellschlussventilen",
       "Lieferung von Filterelementen und Schmutzfängern",
@@ -35,7 +35,7 @@
       "Lieferung von Kohle- und Graphit-Dichtringen",
       "Fertigung von Labyrinthdichtungen",
       "Lieferung von Schmierölfiltrationsprodukten",
-      "24x7-Notfalleinsatz bei Störungen"
+      "24×7-Notfalleinsatz bei Störungen"
     ],
     "turbines": "Triveni, Belliss & Morcom, Maxwatt",
     "slug": "sugar-mills-and-distilleries"
@@ -75,7 +75,7 @@
       "PTFE-ausgekleidete Schlauchbaugruppen für Chemietransfer",
       "Hydraulik-Gummischlauchbaugruppen für Hochdruck",
       "Fertigung von Weißmetalllagern für Verdichterstränge",
-      "Dynamisches Auswuchten nach ISO 21940-11 / ISO 1940"
+      "Dynamisches Auswuchten nach ISO 21940-11 (formerly ISO 1940)"
     ],
     "turbines": "Siemens, Man Turbo, KKK, ABB",
     "slug": "oil-and-gas-industries"

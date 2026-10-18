@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Keshav Enterprises: Steam Turbine Overhauling & Spares",
-    "description": "Ex-OEM steam turbine engineers in Shamli, UP: overhauling, reverse engineering, balancing, lube oil flushing and OEM-compatible spares. 24x7 support.",
+    "description": "Ex-OEM steam turbine engineers in Shamli, UP: overhauling, reverse engineering, balancing, lube oil flushing and OEM-compatible spares. 24×7 support.",
     "keywords": "turbine maintenance India, steam turbine overhauling, turbine reverse engineering, industrial turbine spares, lube oil filter elements, expansion joints India, Triveni turbine service, BHEL turbine spares, turbine erection Uttar Pradesh, Shamli engineering"
   },
   "hero": {
-    "badgeMakeInIndia": "Make In India",
+    "badgeMakeInIndia": "Make in India",
     "badgeVocalForLocal": "Vocal For Local",
     "badgeIndiaMartLabel": "IndiaMART Verified",
     "badgeIndiaMartRatingSuffix": "RATING",
@@ -17,7 +17,7 @@
     "ctaEmergency": "Emergency Breakdown",
     "trustYearsOverhauls": "{years}+ years · 500+ overhauls",
     "trustPmi": "PMI-certified spares",
-    "trustResponse": "Avg response: 2 hrs",
+    "trustResponse": "Reply within 1 business day",
     "proofCards": [
       {
         "label": "No Learning Curve",
@@ -31,7 +31,7 @@
       },
       {
         "label": "When Minutes Matter",
-        "title": "24x7 Emergency",
+        "title": "24×7 Emergency",
         "sub": "Engineers at multiple locations across India. Call us at 2 AM. Someone answers."
       }
     ]
@@ -54,7 +54,7 @@
     },
     "emergency": {
       "label": "Emergency Response",
-      "sub": "Engineers at multiple locations, avg. dispatch under 4 hrs"
+      "sub": "Engineers at multiple locations, dispatched on your call"
     }
   },
   "featuredProducts": {
@@ -115,11 +115,11 @@
         "detail": "Belliss & Morcom · Obsolete Spares"
       },
       {
-        "quote": "After Keshav dynamically balanced our 3 MW BHEL turbine rotor, residual vibration dropped from 9.2 mm/s to 0.8 mm/s — well inside ISO G1.0. The rotor had been causing bearing wear every 8 months. We are now at 26 months with no bearing change. The balancing report satisfied our insurance auditors.",
+        "quote": "After Keshav dynamically balanced our 3 MW BHEL turbine rotor, residual vibration dropped from 9.2 mm/s to 0.8 mm/s — well inside ISO G1.0. The rotor had been causing bearing wear every 8 months. We are now past 24 months with no bearing change. The balancing report satisfied our insurance auditors.",
         "name": "P. Reddy",
         "role": "Instrumentation & Maintenance Engineer",
-        "company": "Captive Power Plant",
-        "location": "Telangana",
+        "company": "Paper Mill",
+        "location": "Punjab",
         "service": "Dynamic Balancing",
         "detail": "3 MW BHEL · ISO G1.0 Compliance"
       }
@@ -133,7 +133,7 @@
       { "iconName": "Activity", "text": "ISO/API dynamic balancing 50–2,000 kg capacity" },
       { "iconName": "Wind", "text": "Custom expansion bellows DN 15–12,000, up to 150 barg" },
       { "iconName": "Droplets", "text": "Filter elements per ISO 16889, API 614, ASME & EN standards" },
-      { "iconName": "Cpu", "text": "Lube oil systems per ISO 4406:99 cleanliness classification" }
+      { "iconName": "Cpu", "text": "Lube oil systems per ISO 4406 cleanliness classification" }
     ]
   },
   "projectsTeaser": {
@@ -150,20 +150,20 @@
   },
   "finalCta": {
     "heading": "Get a Technical Quote. Every Hour Offline Has a Cost.",
-    "subheading": "Our engineers respond with a technical answer within 24 hours for planned work, and within the hour for breakdowns, because your plant's availability is your bottom line.",
+    "subheading": "Our engineers reply to planned enquiries within 1 business day, and the emergency line is answered 24×7, because your plant's availability is your bottom line.",
     "plannedTitle": "Planned Overhaul or RFQ",
     "plannedDesc": "Scheduled maintenance, spare procurement, expansion joint supply, or filter element orders. Share your requirements and get a detailed technical quote.",
     "plannedSendBtn": "Send Us Your Requirements",
     "plannedEmailBtn": "Email Our Engineering Team",
     "emergencyTitle": "Emergency Breakdown: Right Now",
-    "emergencyDesc": "Turbine tripped? High vibration? Unexpected shutdown? Our engineers are reachable 24x7, no matter what time zone you're calling from. Call or WhatsApp immediately, since every hour offline has a cost.",
+    "emergencyDesc": "Turbine tripped? High vibration? Unexpected shutdown? Our engineers are reachable 24×7, no matter what time zone you're calling from. Call or WhatsApp immediately, since every hour offline has a cost.",
     "emergencyCallPrefix": "Call Now —",
     "emergencyWhatsappBtn": "WhatsApp Emergency",
     "riskReversal": [
       "No obligation: we send a technical answer, you decide what's next",
       "Confidential RFQ: your plant details never reach OEM reps",
       "Engineer responds, not a call centre",
-      "24-hour planned · 1-hour emergency response"
+      "Planned: 1 business day · Emergency: 24×7"
     ]
   },
   "whatsappEmergencyMessage": "Hi KESHAV ENTERPRISES, we have an emergency breakdown. Please assist immediately."

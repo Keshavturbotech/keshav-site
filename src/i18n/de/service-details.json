@@ -432,7 +432,7 @@
       }
     ],
     "whyUs": "Ein Rotor bei 3.000 U/min erzeugt 100-mal mehr Unwuchtkraft als bei 300 U/min. Dieselbe Restunwucht, die bei niedriger Drehzahl unsichtbar ist, wird bei voller Drehzahl ein Lager zerstören. Wir wuchten nach ISO-1940-Güteklasse G1.0 aus, wo erforderlich — nicht nur 'gut genug'.",
-    "overview": "Rotorunwucht ist eine der häufigsten und am besten vermeidbaren Ursachen für Turbinenlagerausfall, Dichtungsschäden und verkürzte Rotorlebensdauer. Keshav Enterprises führt präzise Wellenzapfenbearbeitung und dynamisches Auswuchten nach ISO 21940-11 / ISO 1940 für Rotoren von 50 kg bis 2.000 kg in unserer eigenen Werkstattanlage durch. Der Rotor wird zunächst bearbeitet, um die geometrische Integrität wiederherzustellen — runde Wellenzapfen, konzentrische Labyrinthbereiche, korrekte Oberflächengüte — bevor er ausgewuchtet wird. Diese Reihenfolge ist wichtig: Das Auswuchten eines geometrisch verzogenen Rotors verdeckt das Problem lediglich. Unsere Auswuchtberichte dokumentieren Anfangsunwucht, Korrekturebenen, Massenkorrekturen, Restunwucht und die erreichte ISO-Auswuchtgüte und bieten volle Rückverfolgbarkeit für Ihre Wartungsunterlagen.",
+    "overview": "Rotorunwucht ist eine der häufigsten und am besten vermeidbaren Ursachen für Turbinenlagerausfall, Dichtungsschäden und verkürzte Rotorlebensdauer. Keshav Enterprises führt präzise Wellenzapfenbearbeitung und dynamisches Auswuchten nach ISO 21940-11 (formerly ISO 1940) für Rotoren von 50 kg bis 2.000 kg in unserer eigenen Werkstattanlage durch. Der Rotor wird zunächst bearbeitet, um die geometrische Integrität wiederherzustellen — runde Wellenzapfen, konzentrische Labyrinthbereiche, korrekte Oberflächengüte — bevor er ausgewuchtet wird. Diese Reihenfolge ist wichtig: Das Auswuchten eines geometrisch verzogenen Rotors verdeckt das Problem lediglich. Unsere Auswuchtberichte dokumentieren Anfangsunwucht, Korrekturebenen, Massenkorrekturen, Restunwucht und die erreichte ISO-Auswuchtgüte und bieten volle Rückverfolgbarkeit für Ihre Wartungsunterlagen.",
     "procedures": [
       {
         "step": "01",
@@ -653,7 +653,7 @@
     ],
     "standards": [
       {
-        "code": "ISO 4406:99",
+        "code": "ISO 4406",
         "desc": "Hydraulikflüssigkeits-Sauberkeitsklassifizierung — Ziel 16/14/11",
         "body": "ISO"
       },
@@ -957,7 +957,7 @@
         "body": "API"
       },
       {
-        "code": "ISO 4406:99",
+        "code": "ISO 4406",
         "desc": "Schmierölsauberkeitsklassifizierung",
         "body": "ISO"
       },

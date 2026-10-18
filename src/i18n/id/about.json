@@ -19,7 +19,7 @@
       "Terdaftar IEC",
       "Siap Ekspor",
       "IndiaMART TrustSeal",
-      "Make In India",
+      "Make in India",
       "Terdaftar MSME"
     ],
     "ctaServices": "Layanan Kami",
@@ -79,8 +79,8 @@
     "coreCapabilitiesList": [
       "Pemasangan turbin, komisioning, dan overhaul turnkey",
       "Rekayasa balik presisi menggunakan pemindaian laser 3D & CMM",
-      "Penyeimbangan dinamis sesuai ISO 21940-11 / ISO 1940 (50–2.000 kg)",
-      "Pembersihan oli pelumas sesuai klasifikasi kebersihan ISO 4406:99",
+      "Penyeimbangan dinamis sesuai ISO 21940-11 (formerly ISO 1940) (50–2.000 kg)",
+      "Pembersihan oli pelumas sesuai klasifikasi kebersihan ISO 4406",
       "Penyelarasan mesin menggunakan teknologi penyelarasan laser terbaru",
       "Manufaktur: elemen filter, filter udara HVAC, sambungan ekspansi, saringan",
       "Suku cadang turbin: bearing, seal, rotor, governor, katup",
@@ -93,7 +93,7 @@
     "eyebrow": "Dibangun untuk Uptime Industri",
     "headingLine1": "Jika Turbin Anda Membutuhkannya,",
     "headingLine2": "Kami Membuatnya.",
-    "subheadingTemplate": "{productCount}+ komponen hasil rekayasa presisi di 9 kategori — dari elemen filter yang sesuai OEM dan filter udara HVAC hingga suku cadang turbin yang dikirim minggu yang sama saat pabrik Anda menelepon.",
+    "subheadingTemplate": "{productCount}+ komponen hasil rekayasa presisi di {categoryCount} kategori — dari elemen filter yang sesuai OEM dan filter udara HVAC hingga suku cadang turbin yang dikirim minggu yang sama saat pabrik Anda menelepon.",
     "cards": {
       "workshopFloor": {
         "caption": "Area Bengkel",
@@ -160,7 +160,7 @@
       {
         "year": "2021",
         "title": "Perluasan Kemampuan & Lini Produk",
-        "desc": "Berinvestasi pada pemindaian laser 3D, peralatan CMM, dan mesin balancing dinamis ISO 21940-11 / ISO 1940 (50–2.000 kg), serta meluncurkan lini produk industri yang komprehensif meliputi filtrasi, filter udara HVAC, expansion joint, strainer, produk karet, dan rakitan selang fleksibel."
+        "desc": "Berinvestasi pada pemindaian laser 3D, peralatan CMM, dan mesin balancing dinamis ISO 21940-11 (formerly ISO 1940) (50–2.000 kg), serta meluncurkan lini produk industri yang komprehensif meliputi filtrasi, filter udara HVAC, expansion joint, strainer, produk karet, dan rakitan selang fleksibel."
       },
       {
         "year": "Hari Ini",
@@ -190,7 +190,7 @@
       },
       "vp": {
         "name": "Spesialis Penyeimbangan",
-        "spec": "Penyeimbangan dinamis ISO 21940-11 / ISO 1940 · Rotor 50–2.000 kg"
+        "spec": "Penyeimbangan dinamis ISO 21940-11 (formerly ISO 1940) · Rotor 50–2.000 kg"
       },
       "mt": {
         "name": "Kepala Bengkel — Pemesinan",

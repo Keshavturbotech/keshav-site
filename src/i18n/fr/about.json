@@ -79,8 +79,8 @@
     "coreCapabilitiesList": [
       "Montage, mise en service et révision générale clé en main de turbines",
       "Rétro-ingénierie de précision par scanner laser 3D et CMM",
-      "Équilibrage dynamique selon ISO 21940-11 / ISO 1940 (50–2 000 kg)",
-      "Rinçage d'huile de lubrification selon la classification de propreté ISO 4406:99",
+      "Équilibrage dynamique selon ISO 21940-11 (formerly ISO 1940) (50–2 000 kg)",
+      "Rinçage d'huile de lubrification selon la classification de propreté ISO 4406",
       "Alignement de machines avec la technologie d'alignement laser la plus récente",
       "Fabrication : éléments filtrants, filtres à air CVC, joints de dilatation, crépines",
       "Pièces de rechange pour turbines : roulements, joints, rotors, régulateurs, vannes",
@@ -93,7 +93,7 @@
     "eyebrow": "Conçu pour la disponibilité industrielle",
     "headingLine1": "Si votre turbine en a besoin,",
     "headingLine2": "nous le fabriquons.",
-    "subheadingTemplate": "Plus de {productCount} composants conçus avec précision répartis en 9 catégories — des éléments filtrants compatibles OEM et filtres à air CVC aux pièces de rechange pour turbines expédiées la semaine même où votre usine nous contacte.",
+    "subheadingTemplate": "Plus de {productCount} composants conçus avec précision répartis en {categoryCount} catégories — des éléments filtrants compatibles OEM et filtres à air CVC aux pièces de rechange pour turbines expédiées la semaine même où votre usine nous contacte.",
     "cards": {
       "workshopFloor": {
         "caption": "Atelier",
@@ -160,7 +160,7 @@
       {
         "year": "2021",
         "title": "Extension des capacités et de la gamme de produits",
-        "desc": "Investissement dans le scan laser 3D, des équipements de mesure tridimensionnelle (MMT) et des machines d'équilibrage dynamique ISO 21940-11 / ISO 1940 (50–2 000 kg), et lancement d'une gamme complète de produits industriels couvrant la filtration, les filtres à air CVC, les joints de dilatation, les filtres à tamis, les produits en caoutchouc et les flexibles assemblés."
+        "desc": "Investissement dans le scan laser 3D, des équipements de mesure tridimensionnelle (MMT) et des machines d'équilibrage dynamique ISO 21940-11 (formerly ISO 1940) (50–2 000 kg), et lancement d'une gamme complète de produits industriels couvrant la filtration, les filtres à air CVC, les joints de dilatation, les filtres à tamis, les produits en caoutchouc et les flexibles assemblés."
       },
       {
         "year": "Aujourd'hui",
@@ -190,7 +190,7 @@
       },
       "vp": {
         "name": "Spécialiste équilibrage",
-        "spec": "Équilibrage dynamique ISO 21940-11 / ISO 1940 · Rotors 50–2 000 kg"
+        "spec": "Équilibrage dynamique ISO 21940-11 (formerly ISO 1940) · Rotors 50–2 000 kg"
       },
       "mt": {
         "name": "Responsable atelier — Usinage",

@@ -72,7 +72,7 @@
       },
       {
         "type": "p",
-        "text": "Peleka rota kwa kusaga journal na uwiano wa mzunguko ikiwa usomaji wa runout au mtetemo uko nje ya uwiano. Badilisha pete za gland za kaboni na grafiti, upakiaji wa labyrinth, na bearing za babbitt kulingana na ripoti ya hali. Uwiano wote wa rota unapaswa kufanywa kulingana na viwango vya ISO 1940 au API 670."
+        "text": "Peleka rota kwa kusaga journal na uwiano wa mzunguko ikiwa usomaji wa runout au mtetemo uko nje ya uwiano. Badilisha pete za gland za kaboni na grafiti, upakiaji wa labyrinth, na bearing za babbitt kulingana na ripoti ya hali. Uwiano wote wa rota unapaswa kufanywa kulingana na viwango vya ISO 21940-11 (formerly ISO 1940)."
       },
       {
         "type": "h2",
@@ -88,7 +88,7 @@
       },
       {
         "type": "p",
-        "text": "Kabla ya uanzishaji, safisha mfumo wa mafuta ya kulainisha na mfumo wa kichujio cha sentrifiuji kinachotembea kinacholenga daraja la usafi la ISO 4406:99 16/14/11 au bora zaidi. Chukua sampuli za mafuta kabla na baada ya usafishaji na hifadhi ripoti. Usiwahi kuanzisha turbine bila kukamilisha usafishaji wa mafuta — kushindwa kwa bearing kutokana na mafuta yaliyochafuliwa kunachangia sehemu kubwa ya kushindwa baada ya ukarabati."
+        "text": "Kabla ya uanzishaji, safisha mfumo wa mafuta ya kulainisha na mfumo wa kichujio cha sentrifiuji kinachotembea kinacholenga daraja la usafi la ISO 4406 16/14/11 au bora zaidi. Chukua sampuli za mafuta kabla na baada ya usafishaji na hifadhi ripoti. Usiwahi kuanzisha turbine bila kukamilisha usafishaji wa mafuta — kushindwa kwa bearing kutokana na mafuta yaliyochafuliwa kunachangia sehemu kubwa ya kushindwa baada ya ukarabati."
       },
       {
         "type": "h2",
@@ -138,7 +138,7 @@
       },
       {
         "type": "p",
-        "text": "Suluhisho: Weka vichujio vya mafuta ya kulainisha vyenye ufanisi wa juu (ISO 16889, uwiano wa beta ≥200 kwa mikroni 10) katika nyumba kuu ya kichujio. Tumia vichujio vya breather ya tangi (nyuzi za kioo 3 VL) kuzuia kuingia kwa chembe za angani. Lengo la usafi wa mfumo: ISO 4406:99 Daraja 16/14/11 au bora zaidi kwa bearing za turbine."
+        "text": "Suluhisho: Weka vichujio vya mafuta ya kulainisha vyenye ufanisi wa juu (ISO 16889, uwiano wa beta ≥200 kwa mikroni 10) katika nyumba kuu ya kichujio. Tumia vichujio vya breather ya tangi (nyuzi za kioo 3 VL) kuzuia kuingia kwa chembe za angani. Lengo la usafi wa mfumo: ISO 4406 Daraja 16/14/11 au bora zaidi kwa bearing za turbine."
       },
       {
         "type": "h2",
@@ -251,7 +251,7 @@
       },
       {
         "type": "p",
-        "text": "Ukataji unafanywa katika hatua tatu: ukataji ghafi karibu na vipimo vya mwisho, matibabu ya joto ikiwa inahitajika (kupunguza msongo, quench and temper, nitriding), na ukataji sahihi wa mwisho. Kila hatua inakaguliwa dhidi ya mchoro wa uhandisi. Rota husawazishwa kwa mzunguko kulingana na viwango vya ISO 21940-11 / ISO 1940 kabla ya usafirishaji."
+        "text": "Ukataji unafanywa katika hatua tatu: ukataji ghafi karibu na vipimo vya mwisho, matibabu ya joto ikiwa inahitajika (kupunguza msongo, quench and temper, nitriding), na ukataji sahihi wa mwisho. Kila hatua inakaguliwa dhidi ya mchoro wa uhandisi. Rota husawazishwa kwa mzunguko kulingana na viwango vya ISO 21940-11 (formerly ISO 1940) kabla ya usafirishaji."
       },
       {
         "type": "h2",
@@ -372,7 +372,7 @@
       },
       {
         "type": "p",
-        "text": "Msimbo wa usafi wa ISO 4406:99 una nambari tatu, kwa mfano 18/16/13. Kila nambari ni \"msimbo wa wigo\" unaowakilisha idadi ya chembe kwa mililita ya mafuta katika ukubwa tatu tofauti wa chembe: 4 µm(c), 6 µm(c), na 14 µm(c). Kiambatisho \"(c)\" kinamaanisha hesabu inatumia usawazishaji wa kihesabu cha chembe za macho kulingana na ISO 11171 — usilinganishe na ripoti za zamani zinazotumia mbinu zisizosawazishwa."
+        "text": "Msimbo wa usafi wa ISO 4406 una nambari tatu, kwa mfano 18/16/13. Kila nambari ni \"msimbo wa wigo\" unaowakilisha idadi ya chembe kwa mililita ya mafuta katika ukubwa tatu tofauti wa chembe: 4 µm(c), 6 µm(c), na 14 µm(c). Kiambatisho \"(c)\" kinamaanisha hesabu inatumia usawazishaji wa kihesabu cha chembe za macho kulingana na ISO 11171 — usilinganishe na ripoti za zamani zinazotumia mbinu zisizosawazishwa."
       },
       {
         "type": "list",
@@ -390,7 +390,7 @@
       },
       {
         "type": "p",
-        "text": "Kwa mifumo ya journal bearing na mafuta ya kulainisha ya turbine za mvuke, lengo kwa kawaida ni ISO 4406:99 Daraja 16/14/11 — hii ni mahitaji ya chini katika API 614. OEM nyingi ikiwa ni pamoja na Triveni na Siemens zinabainisha 15/13/10 kwa turbine zenye mifumo ya udhibiti wa hydraulic. Baada ya ukarabati mkubwa au usafishaji wa mafuta ya kulainisha, mfumo unapaswa kufikia 16/14/11 kabla mafuta hayajamwagwa kuzuia uharibifu wa uchafuzi wa bearing wakati wa kuongeza kasi."
+        "text": "Kwa mifumo ya journal bearing na mafuta ya kulainisha ya turbine za mvuke, lengo kwa kawaida ni ISO 4406 Daraja 16/14/11 — hii ni mahitaji ya chini katika API 614. OEM nyingi ikiwa ni pamoja na Triveni na Siemens zinabainisha 15/13/10 kwa turbine zenye mifumo ya udhibiti wa hydraulic. Baada ya ukarabati mkubwa au usafishaji wa mafuta ya kulainisha, mfumo unapaswa kufikia 16/14/11 kabla mafuta hayajamwagwa kuzuia uharibifu wa uchafuzi wa bearing wakati wa kuongeza kasi."
       },
       {
         "type": "h2",

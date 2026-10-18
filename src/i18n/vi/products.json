@@ -211,7 +211,7 @@
       "Khả năng chứa bụi bẩn cao cho khoảng thời gian bảo trì dài hơn",
       "Làm kín Viton (V) để chống hóa chất",
       "Cấp lọc: 3 VL micron cho nhiễm bẩn không khí mịn",
-      "Bảo vệ độ sạch hệ thống theo ISO 4406:99",
+      "Bảo vệ độ sạch hệ thống theo ISO 4406",
       "Thiết kế lắp trên bể với bảo trì dễ dàng bằng một tay"
     ],
     "specs": {
@@ -220,7 +220,7 @@
       "Filtration Grade": "3 VL",
       "Sealing": "Viton (V)",
       "Installation": "Lắp trên bộ thở bể chứa",
-      "Standards": "Tương thích ISO 16889, ISO 4406:99",
+      "Standards": "Tương thích ISO 16889, ISO 4406",
       "HSN Code": "8421"
     },
     "images": [
@@ -426,7 +426,7 @@
       "MOC: Vỏ Thép Carbon hoặc Thép Không gỉ",
       "Tham chiếu chéo OEM: dòng Eaton 01.E; Parker; dòng HYDAC RFM/RFD; lõi đường hồi lưu Internormen",
       "Ngăn dầu nhiễm bẩn quay lại bể chứa chính",
-      "Duy trì độ sạch hệ thống theo tiêu chuẩn ISO 4406:99",
+      "Duy trì độ sạch hệ thống theo tiêu chuẩn ISO 4406",
       "Tương thích với dầu khoáng, nhũ tương, và chất lỏng tổng hợp",
       "Có sẵn nhiều kích thước lưu lượng và định mức micron — 4, 6, 10, 16, 25 µm tiêu chuẩn",
       "Tùy chọn van bypass để bảo vệ khởi động lạnh",
@@ -441,7 +441,7 @@
       "MOC": "Thép Carbon / Thép Không gỉ",
       "OEM Cross-References": "Dòng Eaton 01.E; Parker; HYDAC RFM/RFD; Internormen",
       "Bypass": "Có van bypass để bảo vệ khởi động lạnh",
-      "Standards": "Tuân thủ độ sạch ISO 4406:99",
+      "Standards": "Tuân thủ độ sạch ISO 4406",
       "HSN Code": "8421"
     },
     "images": [
@@ -3112,7 +3112,7 @@
       "Sản xuất từ bản vẽ OEM qua kỹ thuật đảo ngược với xác minh vật liệu PMI",
       "Vật liệu: thép hợp kim (CrMoV, 12% Cr) theo điều kiện hơi nước",
       "Gia công chính xác: gia công thô > gần hoàn thiện > hoàn thiện cuối",
-      "Cân bằng động 50–2.000 kg theo ISO 21940-11 / ISO 1940",
+      "Cân bằng động 50–2.000 kg theo ISO 21940-11 (formerly ISO 1940)",
       "Báo cáo cân bằng đầy đủ với dữ liệu độ đảo cơ khí và điện",
       "Tùy chọn gắn cánh: finger-tree, T-root hoặc dove-tail",
       "Có sẵn nâng cấp vật liệu cho chương trình kéo dài tuổi thọ",
@@ -3120,7 +3120,7 @@
     ],
     "specs": {
       "Rotor Material": "Thép hợp kim (CrMoV, 12% Cr) theo điều kiện hơi nước",
-      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (công suất: 50–2.000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 (formerly ISO 1940) (công suất: 50–2.000 kg)",
       "Machining Stages": "Gia công thô > gần hoàn thiện > gia công hoàn thiện",
       "Blade Root Options": "Finger-tree, T-root, Dove-tail",
       "Documentation": "Chứng chỉ kiểm tra đầy đủ + báo cáo cân bằng",
@@ -4096,7 +4096,7 @@
       "Bọc cứng Stellite trên mép trước cấp cuối LP — bảo vệ chống xói mòn từ giọt hơi ướt",
       "Xác minh kích thước: kiểm tra dưỡng biên dạng + báo cáo kiểm tra CMM cho mỗi lô cánh",
       "Xác minh vật liệu PMI trước khi gia công — cung cấp chứng chỉ thành phần hóa học",
-      "Cân bằng động toàn bộ bộ cánh trên đĩa rotor — tuân thủ ISO 21940-11 / ISO 1940",
+      "Cân bằng động toàn bộ bộ cánh trên đĩa rotor — tuân thủ ISO 21940-11 (formerly ISO 1940)",
       "Cánh động (rotor) và cánh tĩnh (vòi phun/màng ngăn) cung cấp riêng lẻ hoặc theo bộ cấp",
       "Phù hợp cho chương trình kéo dài tuổi thọ — có nâng cấp vật liệu cánh"
     ],
@@ -4109,7 +4109,7 @@
       "Erosion Protection": "Bọc cứng Stellite trên mép trước cấp cuối LP",
       "Verification": "Dưỡng biên dạng + báo cáo kiểm tra CMM mỗi lô",
       "PMI Certificate": "Cung cấp chứng chỉ thành phần hóa học",
-      "Balancing Standard": "ISO 21940-11 / ISO 1940 (trên đĩa rotor)",
+      "Balancing Standard": "ISO 21940-11 (formerly ISO 1940) (trên đĩa rotor)",
       "HSN Code": "8406"
     },
     "images": [
@@ -5791,7 +5791,7 @@
   "prod_ee1": {
     "id": "prod_ee1",
     "sku": "KTB-EE-001",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Đầu dò giám sát rung động (tương thích Shinkawa)",
     "images": [
       "vibration-probe-shinkawa-1.webp",
@@ -5807,7 +5807,7 @@
       "vibration-probe-shinkawa-11.webp",
       "vibration-probe-shinkawa-12.webp"
     ],
-    "slug": "vibration-monitoring-probes-shinkawa-compatible",
+    "slug": "vibration-monitoring-probes-genuine-shinkawa",
     "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 25000,
@@ -5868,7 +5868,7 @@
   "prod_ee7": {
     "id": "prod_ee7",
     "sku": "KTB-EE-007",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Hệ thống đầu dò tiệm cận Bently Nevada 3300 XL",
     "desc": "Đầu dò tiệm cận Bently Nevada 3300 XL chính hãng, cáp nối dài 330130 và Proximitor để giám sát rung động và lực đẩy tuabin, hộp số, máy phát điện. Báo giá theo mã hàng.",
     "usage": "Rung động hướng kính, vị trí dọc trục, độ lệch tâm, giãn nở chênh lệch và tham chiếu tốc độ/pha trên máy tuabin có hệ thống giám sát Bently Nevada 3500 hoặc 3300. Đầu dò 5 mm và 8 mm đáp ứng các phép đo ổ trượt và lực đẩy thông thường; các hệ lớn hơn 11, 16, 25 và 50 mm dùng cho phép đo tầm xa và giãn nở.",
@@ -5900,7 +5900,7 @@
   "prod_ee8": {
     "id": "prod_ee8",
     "sku": "KTB-EE-008",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Cảm biến dòng điện xoáy EPRO PR6423 / PR6424 và CON011",
     "desc": "Cảm biến dòng điện xoáy Emerson EPRO PR6422 đến PR6426 chính hãng và bộ chuyển đổi tín hiệu CON011 để đo rung động và vị trí trục trên tuabin, hộp số và máy phát điện.",
     "usage": "Đo dịch chuyển hướng kính và dọc trục của trục, vị trí, độ lệch tâm và tốc độ/then trên tuabin hơi, khí và thủy lực, máy nén, hộp số, bơm và quạt, với bộ giám sát Emerson / EPRO MMS hoặc bất kỳ hệ thống nào nhận đầu ra bộ chuyển đổi.",
@@ -5924,7 +5924,7 @@
   "prod_ee9": {
     "id": "prod_ee9",
     "sku": "KTB-EE-009",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Đầu dò tiệm cận Vibro-Meter TQ402 / TQ442 và IQS450",
     "desc": "Đầu dò tiệm cận Meggitt vibro-meter TQ4xx chính hãng, cáp EA40x và bộ điều hòa tín hiệu IQS450 để giám sát rung động và vị trí trục tuabin.",
     "usage": "Đo rung động trục không tiếp xúc và vị trí dọc trục trên tuabin hơi, khí và thủy lực cùng các máy quan trọng khác có hệ thống giám sát vibro-meter. Đầu ra điện áp hoặc dòng điện có bảo vệ ngắn mạch phù hợp cả với bộ giám sát giá rack lẫn kết nối trực tiếp DCS.",
@@ -5949,7 +5949,7 @@
   "prod_ee10": {
     "id": "prod_ee10",
     "sku": "KTB-EE-010",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Bộ truyền rung động 2 dây 4-20 mA (Shinkawa WK/WKN)",
     "desc": "Bộ truyền rung động và lực đẩy 2 dây 4-20 mA Shinkawa WK / WKN chính hãng cho tuabin hơi, máy phát điện, hộp số, bơm và máy nén. Nối trực tiếp DCS hoặc PLC, không cần giá rack giám sát.",
     "usage": "Giám sát liên tục rung động trục hoặc vị trí lực đẩy trên máy cỡ nhỏ và vừa mà bộ giám sát giá rack đầy đủ là không cần thiết: tuabin hơi phụ, bơm cấp nước lò hơi, hộp số, máy nén, quạt và máy phát điện. Tín hiệu vòng 4-20 mA đi thẳng vào DCS, PLC hoặc đồng hồ chỉ thị.",
@@ -5987,7 +5987,7 @@
   "prod_ee11": {
     "id": "prod_ee11",
     "sku": "KTB-EE-011",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Cảm biến rung vỏ máy: Velomitor, CV-86 và gia tốc kế",
     "desc": "Cảm biến chính hãng Bently Velomitor, Shinkawa CV-86, Hansford và SKF để đo rung ổ trục trên tuabin, hộp số, máy phát điện và động cơ. Báo giá theo mẫu.",
     "usage": "Rung động tuyệt đối (địa chấn) trên bệ ổ trục, vỏ hộp số, khung máy phát và nắp động cơ, nơi không lắp được đầu dò trục hoặc nơi rung vỏ máy là tín hiệu cảnh báo hay ngắt. Dùng cùng đầu dò tiệm cận trục trong tổ tuabin-hộp số-máy phát, và dùng riêng trên động cơ, quạt và bơm.",
@@ -6016,7 +6016,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Cảm biến Magnetic Pickup (Woodward)",
     "desc": "Cảm biến tốc độ từ tính điện trở từ thay đổi (MPU) chính hãng Woodward để phản hồi tốc độ trục chính xác cho governor Woodward và hệ thống điều khiển tua-bin số. Thiết kế thụ động, tự cấp nguồn, không cần bảo trì cho nhiệm vụ liên tục trên tua-bin hơi chạy ở 3000–3600 RPM.",
     "usage": "Đầu vào cảm biến tốc độ chính cho governor số Woodward 505/505D/505E, bộ khuếch đại governor 2301 và 7206, và hệ thống ngắt vượt tốc độc lập trên tua-bin hơi Triveni, BHEL, Siemens, KKK và Maxwatt. Giám sát tốc độ rotor tua-bin qua bánh răng governor (bánh răng/bánh đà) để cung cấp điều chỉnh tốc độ vòng kín, điều khiển tải, và bảo vệ vượt tốc trong suốt khởi động, đồng bộ hóa và vận hành đầy tải.",
@@ -6085,7 +6085,7 @@
   "prod_ee3": {
     "id": "prod_ee3",
     "sku": "KTB-EE-003",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Van điện từ chống nổ ASCO dòng 8210",
     "desc": "Van điện từ chống nổ đa dụng ASCO dòng 8210 cho ứng dụng ngắt tua-bin, dầu bôi trơn, phớt hơi, và điều khiển quy trình. Đạt chuẩn ATEX/IECEx và NEMA 7/9 cho lắp đặt khu vực nguy hiểm.",
     "usage": "Xả dầu ngắt khẩn cấp tua-bin, solenoid nạp/ngắt hơi, điều khiển hệ thống dầu bôi trơn, cách ly môi chất quy trình, và van kích hoạt hệ thống công cụ an toàn (SIS) trong khu vực nguy hiểm Zone 1/Zone 2.",
@@ -6146,7 +6146,7 @@
   "prod_ee4": {
     "id": "prod_ee4",
     "sku": "KTB-EE-004",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Đồng hồ đo tốc độ analog công nghiệp Beacon",
     "desc": "Đồng hồ đo tốc độ bảng điều khiển analog công nghiệp chắc chắn để hiển thị trực tiếp tốc độ trục trên bảng điều khiển tua-bin. Cơ cấu chắc chắn với vỏ kín IP54 cho môi trường nhà tua-bin hơi.",
     "usage": "Chỉ báo tốc độ tua-bin tại chỗ trên bảng điều khiển tua-bin, bảng điều khiển vận hành viên, và tủ thiết bị tại chỗ trong nhà máy đường, nhà máy điện và nhà máy giấy.",
@@ -6206,7 +6206,7 @@
   "prod_ee5": {
     "id": "prod_ee5",
     "sku": "KTB-EE-005",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "RTD & Cảm biến cho Nhà máy điện & Tua-bin hơi",
     "desc": "Dòng sản phẩm đầy đủ Đầu dò nhiệt độ điện trở (RTD), cặp nhiệt điện, và cảm biến quy trình cho nhiệt độ ổ trục tua-bin, nhiệt độ dầu bôi trơn, nhiệt độ hơi, và giám sát khí xả.",
     "usage": "Giám sát nhiệt độ kim loại ổ trục (babbitt), nhiệt độ dầu bôi trơn vào/ra, nhiệt độ steam chest, nhiệt độ khí xả, và nhiệt độ nước làm mát trong tua-bin hơi và thiết bị phụ trợ nhà máy điện.",
@@ -6264,7 +6264,7 @@
   "prod_ee6": {
     "id": "prod_ee6",
     "sku": "KTB-EE-006",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Diode chỉnh lưu SEMIKRON SKN240/16",
     "desc": "Diode chỉnh lưu công suất kiểu gắn trụ SEMIKRON SKN240/16 cho mạch kích từ AVR máy phát điện xoay chiều và cầu chỉnh lưu tua-bin-máy phát. Dòng thuận trung bình 240 A, điện áp ngược đỉnh 1600 V. Có sẵn dải điện áp VRRM đầy đủ (800 V đến 2200 V) — chỉ định cấp điện áp khi đặt hàng.",
     "usage": "Cầu diode quay trong máy phát điện không chổi than, bảng kích từ AVR tĩnh, mạch điều khiển máy phát dẫn động bởi tua-bin, và chỉnh lưu công suất công nghiệp trong máy phát điện nhà máy đường và nhà máy điện.",

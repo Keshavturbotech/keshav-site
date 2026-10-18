@@ -56,7 +56,7 @@ export const CATEGORY_PRICE_BANDS: Record<string, PriceRange> = {
     unit: "per piece",
     note: "Gaskets, mounts, bellows; hardness/compound-dependent",
   },
-  "Electronic Equipments": {
+  "Electronic Equipment": {
     min: 3500,
     max: 120000,
     unit: "per unit",
@@ -75,12 +75,12 @@ export const CATEGORY_AVAILABILITY: Record<string, Availability> = {
   "Industrial Filtration": {
     label: "Ex-Stock",
     color: "green",
-    leadTime: "Ex-stock to 1 week",
+    leadTime: "Ex-Stock to 1 week",
   },
   "Industrial Strainers": {
     label: "Ex-Stock",
     color: "green",
-    leadTime: "Ex-stock to 1 week",
+    leadTime: "Ex-Stock to 1 week",
   },
   "Expansion Joints": {
     label: "In Stock",
@@ -95,7 +95,7 @@ export const CATEGORY_AVAILABILITY: Record<string, Availability> = {
   "HVAC, Ducting & Air Filtration": {
     label: "Ex-Stock",
     color: "green",
-    leadTime: "Ex-stock to 1 week",
+    leadTime: "Ex-Stock to 1 week",
   },
   "Valves, Gaskets & Steam System Products": {
     label: "Made to Order",
@@ -112,7 +112,7 @@ export const CATEGORY_AVAILABILITY: Record<string, Availability> = {
     color: "green",
     leadTime: "1–3 weeks",
   },
-  "Electronic Equipments": {
+  "Electronic Equipment": {
     label: "On Request",
     color: "amber",
     leadTime: "1–4 weeks",
@@ -131,13 +131,13 @@ export const PRODUCT_PRICE_MAP: Record<string, PriceRange> = {
     min: 1500,
     max: 8500,
     unit: "per element",
-    note: "Triveni 8–120 GPM; microfelt / SS wire mesh media",
+    note: "Triveni 4–140 GPM; glass fibre / SS / polyester media",
   },
   prod_f2: {
     min: 2500,
     max: 12000,
     unit: "per element",
-    note: "Siemens control & lube oil types; 850–1800 LPM",
+    note: "Siemens lube oil elements; 850 LPM duplex rating",
   },
   prod_f3: {
     min: 900,
@@ -351,7 +351,7 @@ export const PRODUCT_PRICE_MAP: Record<string, PriceRange> = {
     min: 1500,
     max: 28000,
     unit: "per piece",
-    note: "SS bellows NB 25–300; PN10–PN40; EJMA standard",
+    note: "SS bellows, typical NB 25–300 shown (DN 15 to DN 12,000 available); PN10–PN40; EJMA",
   },
   prod_e1b: {
     min: 2000,
@@ -685,7 +685,7 @@ export const PRODUCT_PRICE_MAP: Record<string, PriceRange> = {
     min: 1200,
     max: 8500,
     unit: "per filter",
-    note: "Multi-pocket bag G3–F9; synthetic / polyester media",
+    note: "Multi-pocket bag F5–F9; synthetic / micro-glass media",
   },
   prod_af2: {
     min: 2500,

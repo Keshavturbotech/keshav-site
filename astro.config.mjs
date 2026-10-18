@@ -3,6 +3,24 @@ import { defineConfig } from "astro/config";
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
+import { readFileSync } from "node:fs";
+
+// Locale URL segments (zh-cn is lower-case in URLs).
+const LOCALE_PREFIX_RE = /^\/(hi|mr|gu|ar|fr|ne|es|pt|ru|de|zh-cn|id|th|vi|tr|sw)(?=\/|$)/;
+
+// slug -> ISO date, read from the blog data so sitemap lastmod stays accurate.
+const BLOG_DATES = {};
+try {
+  const src = readFileSync(new URL("./src/data/blog-posts.ts", import.meta.url), "utf8");
+  for (const m of src.matchAll(/slug:\s*"([^"]+)"((?:(?!\bslug:)[\s\S])*)/g)) {
+    const date = m[2].match(/\bdate:\s*"(\d{4}-\d{2}-\d{2})"/)?.[1];
+    const updated = m[2].match(/\bupdated:\s*"(\d{4}-\d{2}-\d{2})"/)?.[1];
+    if (date) BLOG_DATES[m[1]] = updated || date;
+  }
+} catch {
+  /* sitemap still builds without lastmod */
+}
+const BLOG_LATEST = Object.values(BLOG_DATES).sort().pop();
 
 // ── CHANGE THIS to your final root domain (no trailing slash on path) ──
 const SITE_URL = "https://keshavturbotech.com";
@@ -62,8 +80,6 @@ export default defineConfig({
         !page.includes("/thank-you") &&
         !page.includes("/404") &&
         !/\/(privacy-policy|terms-of-service)\/?$/.test(page),
-      changefreq: "weekly",
-      priority: 0.7,
       // Part 3, step 3: emit per-URL <xhtml:link rel="alternate" hreflang>
       // entries. The plugin's own `i18n` option (not a custom `serialize`
       // callback — this build's @astrojs/sitemap 3.7.3 already supports
@@ -116,18 +132,29 @@ export default defineConfig({
       // building a new array (no .push) makes this safe against that
       // shared-reference caching regardless of call order.
       serialize(item) {
-        // Relative importance by URL depth (path with locale prefix stripped).
-        const path = new URL(item.url).pathname
-          .replace(/^\/(hi|mr|gu|ar|fr|ne|es|pt|ru|de|zh-cn|id|th|vi|tr|sw)(?=\/|$)/, "")
-          .replace(/\/$/, "");
-        const depth = path === "" ? 0 : path.split("/").length - 1;
-        const isDefaultLocale = !/^\/(hi|mr|gu|ar|fr|ne|es|pt|ru|de|zh-cn|id|th|vi|tr|sw)(\/|$)/.test(new URL(item.url).pathname);
-        let priority = depth === 0 ? (path === "" ? 1.0 : 0.8) : 0.6;
-        if (path.startsWith("/contact")) priority = 0.9;
-        if (path.startsWith("/services") || path.startsWith("/products")) priority = Math.max(priority, depth === 0 ? 0.9 : 0.7);
-        if (!isDefaultLocale) priority = Math.max(0.3, +(priority - 0.2).toFixed(1));
+        // Priority tiers by page type (locale prefix stripped). Non-default
+        // locales sit 0.1 below the English page. Legal pages are noindex and
+        // filtered out above, so they never appear here.
+        const urlPath = new URL(item.url).pathname;
+        const path = urlPath.replace(LOCALE_PREFIX_RE, "").replace(/\/$/, "");
+        const top = path.split("/")[1] ?? "";
+        let priority = 0.5;
+        if (path === "") priority = 1.0;
+        else if (path === "/contact") priority = 0.9;
+        else if (path === "/services" || path === "/products") priority = 0.9;
+        else if (["/about", "/industries", "/projects", "/blog", "/downloads"].includes(path)) priority = 0.8;
+        else if (top === "services" || top === "products") priority = 0.7;
+        else if (top === "blog" || top === "projects" || top === "industries") priority = 0.6;
+        if (LOCALE_PREFIX_RE.test(urlPath)) priority = Math.max(0.3, +(priority - 0.1).toFixed(1));
         item.priority = priority;
-        item.changefreq = path.startsWith("/blog") ? "monthly" : "weekly";
+        item.changefreq = top === "blog" ? "monthly" : "weekly";
+        // lastmod only where the source has a real date (blog posts); a
+        // build-date lastmod on every URL would be inaccurate and ignored.
+        if (top === "blog" && path !== "/blog" && BLOG_DATES[path.split("/")[2]]) {
+          item.lastmod = new Date(BLOG_DATES[path.split("/")[2]]).toISOString();
+        } else if (path === "/blog" && BLOG_LATEST) {
+          item.lastmod = new Date(BLOG_LATEST).toISOString();
+        }
         if (item.links?.length && !item.links.some((l) => l.lang === "x-default")) {
           const en = item.links.find((link) => link.lang === "en");
           if (en) item.links = [...item.links, { url: en.url, lang: "x-default" }];

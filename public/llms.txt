@@ -13,7 +13,7 @@ Keshav Enterprises serves steam turbines from 5 kW to 60 MW (both back-pressure 
 ## Services (8)
 
 - [Turbine Erection & Commissioning](https://keshavturbotech.com/services/turbine-erection-and-commissioning): Expert erection and commissioning for steam turbines, pumps, compressors, fans, condensers, EOT cranes, and steam/water/air pipeline work. Includes complete OEM coordination and documentation.
-- [Turnkey Overhauling & Maintenance](https://keshavturbotech.com/services/turnkey-overhauling-and-maintenance): Executed by ex-OEM engineers from Triveni, Siemens, BHEL, Belliss & Morcom, and more. Includes pre-shutdown planning, on-site condition reporting, comprehensive spares management, and 24x7 emergency troubleshooting.
+- [Turnkey Overhauling & Maintenance](https://keshavturbotech.com/services/turnkey-overhauling-and-maintenance): Executed by ex-OEM engineers from Triveni, Siemens, BHEL, Belliss & Morcom, and more. Includes pre-shutdown planning, on-site condition reporting, comprehensive spares management, and 24×7 emergency troubleshooting.
 - [Precision Reverse Engineering](https://keshavturbotech.com/services/precision-reverse-engineering): PMI-verified reverse engineering using 3D laser scanners, CMM, and copying lathes for turbines from 5 kW to 60 MW. Generate full manufacturing drawings with tolerances, concentricity, pre/post heat treatment specs.
 - [Dynamic Balancing & Rotor Machining](https://keshavturbotech.com/services/dynamic-balancing-and-rotor-machining): Precision rotor machining (grinding, polishing, journal undersizing) at our workshop lathes, plus ISO/API standard dynamic balancing from 50 to 2000 kg with full compliance reporting.
 - [Lube Oil Flushing](https://keshavturbotech.com/services/lube-oil-flushing): ISO-compliant flushing using purpose-built mobile centrifuge filter systems. Achieves maximum cleanliness and de-watering following construction or during scheduled maintenance.
@@ -163,8 +163,8 @@ Full catalogue: https://keshavturbotech.com/products
 - [Steam Hose: High Temperature Service](https://keshavturbotech.com/products/steam-hose-high-temperature-service)
 - [FDA-Compliant Food-Grade Flexible Hose (PTFE/SS316L)](https://keshavturbotech.com/products/flexible-food-grade-hose)
 
-### Electronic Equipments (11)
-- [Vibration Monitoring Probes (Shinkawa-compatible)](https://keshavturbotech.com/products/vibration-monitoring-probes-shinkawa-compatible)
+### Electronic Equipment (11)
+- [Vibration Monitoring Probes (Genuine Shinkawa)](https://keshavturbotech.com/products/vibration-monitoring-probes-genuine-shinkawa)
 - [Bently Nevada 3300 XL Proximity Probe Systems](https://keshavturbotech.com/products/bently-nevada-3300-xl-proximity-probe-systems)
 - [EPRO PR6423 / PR6424 Eddy Current Sensors & CON011](https://keshavturbotech.com/products/epro-pr6423-pr6424-eddy-current-sensors-and-con011)
 - [Vibro-Meter TQ402 / TQ442 Proximity Probes & IQS450](https://keshavturbotech.com/products/vibro-meter-tq402-tq442-proximity-probes-and-iqs450)

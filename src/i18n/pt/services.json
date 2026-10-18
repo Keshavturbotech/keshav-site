@@ -26,7 +26,7 @@
     "id": "srv_2",
     "image": "service-overhauling.webp",
     "title": "Revisão Geral e Manutenção Chave na Mão",
-    "desc": "Executado por engenheiros ex-OEM da Triveni, Siemens, BHEL, Belliss e mais. Inclui planejamento pré-parada, relatório de condição no local, gestão abrangente de peças e resolução de emergências 24x7.",
+    "desc": "Executado por engenheiros ex-OEM da Triveni, Siemens, BHEL, Belliss e mais. Inclui planejamento pré-parada, relatório de condição no local, gestão abrangente de peças e resolução de emergências 24×7.",
     "details": [
       "Planejamento pré-parada com escopo detalhado do equipamento rotativo",
       "Inspeção no local de peças em estoque com relatórios de faltas",
@@ -34,7 +34,7 @@
       "Todas as folgas, vãos e medidas registrados",
       "Relatório de condição com recomendações para cada componente",
       "Sistema chave na mão: ferramentas, aparelhos, consumíveis e mão de obra inclusos",
-      "Resposta de emergência 24x7 com engenheiros em múltiplos locais"
+      "Resposta de emergência 24×7 com engenheiros em múltiplos locais"
     ],
     "oems": [
       "Triveni",
@@ -97,7 +97,7 @@
     "desc": "Lavagem conforme ISO utilizando sistemas móveis de filtragem por centrífuga sob medida. Alcança máxima limpeza e desumidificação após a construção ou durante manutenção programada.",
     "details": [
       "Sistema móvel de filtragem por centrífuga sob medida",
-      "Limpeza do sistema conforme normas ISO 4406:99",
+      "Limpeza do sistema conforme normas ISO 4406",
       "Amostragem e relatório de óleo realizados conforme normas ISO",
       "Eficaz após a construção e em manutenção programada",
       "Desumidificação e remoção de contaminação superiores",
@@ -140,7 +140,7 @@
       "Vazamento de gaxeta de vapor — problemas de selo labirinto, gaxeta e pressão de vapor de selagem",
       "Análise de incrustação de pás, erosão e perda de eficiência do caminho de vapor",
       "Investigação de disparo inesperado — falhas de pressão de óleo, temperatura e sistema de controle",
-      "Mobilização de emergência 24x7 em toda a Índia com todo o equipamento de diagnóstico"
+      "Mobilização de emergência 24×7 em toda a Índia com todo o equipamento de diagnóstico"
     ],
     "oems": [
       "Triveni",

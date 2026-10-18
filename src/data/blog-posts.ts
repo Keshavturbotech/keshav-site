@@ -14,6 +14,8 @@ export interface BlogPost {
   title: string;
   excerpt: string;
   date: string;
+  /** ISO date (YYYY-MM-DD) of the last substantive edit. Optional: defaults to `date`. */
+  updated?: string;
   author: string;
   readTime: string;
   tags: string[];
@@ -71,13 +73,13 @@ export const BLOG_POSTS: BlogPost[] = [
           "Coupling alignment offset and angularity",
           "Carbon ring face condition and spring tension",
           "Nozzle and diaphragm condition and throat dimensions",
-          "ESV seat and disc condition",
+          "ESV (emergency stop valve) seat and disc condition",
         ],
       },
       { type: "h2", text: "4. Workshop Repairs & Replacements" },
       {
         type: "p",
-        text: "Send the rotor for journal grinding and dynamic balancing if run-out or vibration readings were outside tolerance. Replace carbon and graphite gland rings, labyrinth packings, and babbitt bearings as per condition report. All rotor balancing should be performed to ISO 21940-11 (ISO 1940) standards.",
+        text: "Send the rotor for journal grinding and dynamic balancing if run-out or vibration readings were outside tolerance. Replace carbon and graphite gland rings, labyrinth packings, and babbitt bearings as per condition report. All rotor balancing should be performed to ISO 21940-11 (formerly ISO 1940) standards.",
       },
       { type: "h2", text: "5. Reassembly & Alignment" },
       {
@@ -87,7 +89,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "6. Lube Oil Flushing" },
       {
         type: "p",
-        text: "Before commissioning, flush the lube oil system with a mobile centrifuge filter system targeting ISO 4406:99 cleanliness class 16/14/11 or better. Take oil samples before and after flushing and retain reports. Never commission a turbine without completing an oil flush: bearing failures from contaminated oil account for a significant portion of post-overhaul failures.",
+        text: "Before commissioning, flush the lube oil system with a mobile centrifuge filter system targeting ISO 4406 cleanliness class 16/14/11 or better. Take oil samples before and after flushing and retain reports. Never commission a turbine without completing an oil flush: bearing failures from contaminated oil account for a significant portion of post-overhaul failures.",
       },
       { type: "h2", text: "7. Commissioning & First Run" },
       {
@@ -124,7 +126,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Solution: Install high-efficiency lube oil filter elements (ISO 16889, beta-ratio ≥200 at 10 microns) in the main filter housing. Use tank breather filter elements (3 VL glass fibre) to prevent ingestion of airborne particulates. Target system cleanliness: ISO 4406:99 Class 16/14/11 or better for turbine bearings.",
+        text: "Solution: Install high-efficiency lube oil filter elements (ISO 16889, beta-ratio ≥200 at 10 microns) in the main filter housing. Use tank breather filter elements (3 VL glass fibre) to prevent ingestion of airborne particulates. Target system cleanliness: ISO 4406 Class 16/14/11 or better for turbine bearings.",
       },
       { type: "h2", text: "Contamination Type 2: Water Ingress" },
       {
@@ -156,7 +158,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         type: "cta",
-        text: "We supply ISO 16889-compliant lube oil filter elements compatible with Triveni, Siemens, BHEL, and all major turbine makes. Request a quote via WhatsApp.",
+        text: "We supply lube oil filter elements rated to the ISO 16889 multi-pass test, compatible with Triveni, Siemens, BHEL, and all major turbine makes. Request a quote via WhatsApp.",
       },
     ],
   },
@@ -212,7 +214,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "Step 5: Machining & Quality Control" },
       {
         type: "p",
-        text: "Machining is performed in three stages: rough machining to near-final dimensions, heat treatment if required (stress relieving, quench and temper, nitriding), and final precision machining. Each stage is inspected against the engineering drawing. Rotors are dynamically balanced to ISO 21940-11 / ISO 1940 standards before dispatch.",
+        text: "Machining is performed in three stages: rough machining to near-final dimensions, heat treatment if required (stress relieving, quench and temper, nitriding), and final precision machining. Each stage is inspected against the engineering drawing. Rotors are dynamically balanced to ISO 21940-11 (formerly ISO 1940) standards before dispatch.",
       },
       { type: "h2", text: "Turbines We Cover" },
       {
@@ -221,7 +223,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         type: "cta",
-        text: "Have an obsolete spare you need reverse-engineered? Send us a photo and your turbine details on WhatsApp, and we will assess feasibility within 24 hours.",
+        text: "Have an obsolete spare you need reverse-engineered? Send us a photo and your turbine details on WhatsApp, and we will assess feasibility within 1 business day.",
       },
     ],
   },
@@ -239,7 +241,7 @@ export const BLOG_POSTS: BlogPost[] = [
     content: [
       {
         type: "p",
-        text: "Belliss & Morcom (now Howden) turbines are found in hundreds of Indian sugar mills, co-generation plants, and industrial facilities. Our engineers have worked on Belliss units for over 20 years across UP, Punjab, Maharashtra, and Karnataka. Here are the faults we encounter most frequently, and the correct way to diagnose and resolve each one.",
+        text: "Belliss & Morcom (now Howden) turbines are found in hundreds of Indian sugar mills, co-generation plants, and industrial facilities. Our engineers have worked on Belliss units for 38+ years across UP, Punjab, Maharashtra, and Karnataka. Here are the faults we encounter most frequently, and the correct way to diagnose and resolve each one.",
       },
       { type: "h2", text: "Fault 1: High Vibration at Operating Speed" },
       {
@@ -287,7 +289,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         type: "cta",
-        text: "Need our ex-Belliss & Morcom engineers for an overhaul, vibration analysis, or emergency fault diagnosis? Contact us on WhatsApp for a same-day response.",
+        text: "Need our ex-Belliss & Morcom engineers for an overhaul, vibration analysis, or emergency fault diagnosis? Contact us on WhatsApp for a prompt response.",
       },
     ],
   },
@@ -311,7 +313,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "What Does an ISO 4406 Code Mean?" },
       {
         type: "p",
-        text: 'An ISO 4406:99 cleanliness code has three numbers, for example 18/16/13. Each number is a "range code" representing a particle count per millilitre of oil at three different particle sizes: 4 µm(c), 6 µm(c), and 14 µm(c). The "(c)" suffix means the count uses the optical particle counter calibration per ISO 11171: do not compare with older reports that used the uncalibrated method.',
+        text: 'An ISO 4406 cleanliness code has three numbers, for example 18/16/13. Each number is a "range code" representing a particle count per millilitre of oil at three different particle sizes: 4 µm(c), 6 µm(c), and 14 µm(c). The "(c)" suffix means the count uses the optical particle counter calibration per ISO 11171: do not compare with older reports that used the uncalibrated method.',
       },
       {
         type: "list",
@@ -326,7 +328,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "What Cleanliness Target Do You Need?" },
       {
         type: "p",
-        text: "For steam turbine journal bearing and lube oil systems, the target is typically ISO 4406:99 Class 16/14/11: this is the minimum requirement in API 614. Many OEMs including Triveni and Siemens specify 15/13/10 for turbines with hydraulic control systems. After a major overhaul or lube oil flush, the system should achieve 16/14/11 before oil-in to prevent bearing contamination damage during run-up.",
+        text: "For steam turbine journal bearing and lube oil systems, the target is typically ISO 4406 Class 16/14/11: this is the minimum requirement in API 614. Many OEMs including Triveni and Siemens specify 15/13/10 for turbines with hydraulic control systems. After a major overhaul or lube oil flush, the system should achieve 16/14/11 before oil-in to prevent bearing contamination damage during run-up.",
       },
       { type: "h2", text: "When Should You Act?" },
       {
@@ -336,11 +338,11 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "The Cost of Ignoring a Deteriorating Code" },
       {
         type: "p",
-        text: "Particles in the 4–10 µm range are the most damaging: they are exactly the right size to enter the hydrodynamic oil film between a rotating journal and Babbitt bearing surface and cause three-body abrasion. A turbine running with ISO cleanliness code 20/18/15 instead of 16/14/11 has approximately 100× more damaging particles than target. Bearing surfaces degrade progressively and the failure is gradual until it is not, then it is a 48-hour emergency and a Babbitt re-pour.",
+        text: "Particles in the 4–10 µm range are the most damaging: they are exactly the right size to enter the hydrodynamic oil film between a rotating journal and Babbitt bearing surface and cause three-body abrasion. A turbine running with ISO cleanliness code 20/18/15 instead of 16/14/11 has roughly 16× more particles than target (each step in an ISO 4406 code doubles the count, and every code here is four steps higher). Bearing surfaces degrade progressively and the failure is gradual until it is not, then it is a 48-hour emergency and a Babbitt re-pour.",
       },
       {
         type: "cta",
-        text: "We supply ISO 16889-compliant filter elements for all major turbine makes and can advise on lube oil flushing to achieve the correct cleanliness class before your next startup. Contact us on WhatsApp.",
+        text: "We supply filter elements rated to the ISO 16889 multi-pass test for all major turbine makes and can advise on lube oil flushing to achieve the correct cleanliness class before your next startup. Contact us on WhatsApp.",
       },
     ],
   },
@@ -381,7 +383,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         type: "h2",
-        text: "Step 1: Start with a Metallic Mesh Pre-Filter (G1–G3)",
+        text: "Step 1: Start with a Metallic Mesh Pre-Filter (G1–G4)",
       },
       {
         type: "p",
@@ -393,7 +395,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Both pocket bag filters and pleated panel filters are available from G4 to F9, but they suit different AHU configurations. Pocket bag filters (multi-pocket) have a larger media area and longer service life in high-dust environments: the pockets extend into the airstream, maximising contact area. They are the standard choice for large industrial AHUs, commercial buildings, and hospitals. Pleated panel filters are more compact (25–96 mm deep vs 600 mm pocket length) and rigid, making them the preferred choice for fan coil units (FCUs), split-AC units, and vertical-airflow AHUs where space is limited.",
+        text: "Both pocket bag filters and pleated panel filters are available from G4 to F9, but they suit different AHU configurations. Pocket bag filters (multi-pocket) have a larger media area and longer service life in high-dust environments: the pockets extend into the airstream, maximising contact area. They are the standard choice for large industrial AHUs, commercial buildings, and hospitals. Pleated panel filters are more compact (25–292 mm deep vs 600 mm pocket length) and rigid, making them the preferred choice for fan coil units (FCUs), split-AC units, and vertical-airflow AHUs where space is limited.",
       },
       {
         type: "list",
@@ -472,7 +474,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         type: "p",
-        text: "For dust collector applications handling electrically resistive dust that can accumulate static charge (coal, grain, flour, pharmaceutical powders, polymer powder), standard polyester bags are a fire and explosion hazard. The dust cake on a plain polyester bag can develop a static discharge (spark) energetic enough to ignite a dust cloud in the outlet plenum. Anti-static bags use one of two approaches: (1) carbon fibre blended into the polyester media, with the conductive fibres dissipating charge continuously; (2) stainless steel fibre woven into the needlefelt at 1–3% by weight, providing both static dissipation and improved strength. Always specify anti-static (conductive) bags for coal dust, grain dust, flour, and any powder with a Kst value above zero.",
+        text: "For dust collector applications handling electrically resistive dust that can accumulate static charge (coal, grain, flour, pharmaceutical powders, polymer powder), standard polyester bags are a fire and explosion hazard. The dust cake on a plain polyester bag can develop a static discharge (spark) energetic enough to ignite a dust cloud in the outlet plenum. Anti-static bags use one of two approaches: (1) carbon fibre blended into the polyester media, with the conductive fibres dissipating charge continuously; (2) stainless steel fibre woven into the needlefelt at 1–3% by weight, providing both static dissipation and improved strength. Always specify anti-static (conductive) bags for coal dust, grain dust, flour, and any powder with a Kst value above zero. Kst is the dust explosion severity constant (bar·m/s) measured in standardized dust explosion tests. Anti-static bags only reduce ignition from static discharge; they are not explosion protection on their own. The collector, hoppers and ducting also need all metal parts earthed and bonded and, for explosible dusts, explosion venting or suppression designed to a recognised standard such as NFPA 68, NFPA 69 or EN 14491.",
       },
       { type: "h2", text: "Matching Bag Dimensions to Your Cage" },
       {
@@ -481,7 +483,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         type: "cta",
-        text: "We supply pulse-jet filter bags in polyester, aramid, PPS, glass fibre, and PTFE membrane grades, along with pleated cartridge elements, for cement, power, pharmaceutical, and grain handling baghouses across India. Send us your bag dimensions and application details on WhatsApp for a same-day quotation.",
+        text: "We supply pulse-jet filter bags in polyester, aramid, PPS, glass fibre, and PTFE membrane grades, along with pleated cartridge elements, for cement, power, pharmaceutical, and grain handling baghouses across India. Send us your bag dimensions and application details on WhatsApp for a prompt quotation.",
       },
     ],
   },
@@ -530,7 +532,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Different makes are not freely interchangeable. Shinkawa FK and Bently Nevada 3300 XL 8 mm systems share the same 7.87 V/mm (200 mV/mil) scale factor. Emerson EPRO sensors work differently: a PR6424 16 mm sensor is 4 V/mm and needs the separate CON011 converter. Meggitt vibro-meter systems use their own TQ transducers, EA extension cables and IQS450 signal conditioners. Send us the nameplate of what is installed and we confirm the correct replacement before quoting.",
+        text: "Different makes are not freely interchangeable. Shinkawa FK and Bently Nevada 3300 XL 8 mm systems share the same 7.87 V/mm (200 mV/mil) scale factor. Emerson EPRO sensors work differently: a PR6424 16 mm sensor is 4 V/mm and needs the separate CON011 converter. Parker Meggitt vibro-meter systems use their own TQ transducers, EA extension cables and IQS450 signal conditioners. For machinery protection systems built around these probes, see API 670; to judge vibration severity against limits, see ISO 20816, which replaced ISO 10816 and ISO 7919. Send us the nameplate of what is installed and we confirm the correct replacement before quoting.",
       },
       {
         type: "h2",

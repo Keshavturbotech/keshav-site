@@ -227,7 +227,7 @@
       "Alta capacidad de retención de suciedad para intervalos de servicio prolongados",
       "Sellado Viton (V) para resistencia química",
       "Grado de filtración: 3 VL micras para contaminación fina transportada por el aire",
-      "Protege la limpieza del sistema según ISO 4406:99",
+      "Protege la limpieza del sistema según ISO 4406",
       "Diseño de montaje en tanque con servicio fácil con una mano"
     ],
     "specs": {
@@ -236,7 +236,7 @@
       "Filtration Grade": "3 VL",
       "Sealing": "Viton (V)",
       "Installation": "Montaje de respiradero de tanque",
-      "Standards": "Compatible con ISO 16889, ISO 4406:99",
+      "Standards": "Compatible con ISO 16889, ISO 4406",
       "HSN Code": "8421"
     },
     "priceRange": {
@@ -442,7 +442,7 @@
       "MOC: carcasa de acero al carbono o acero inoxidable",
       "Referencias cruzadas OEM: serie Eaton 01.E; Parker; serie HYDAC RFM/RFD; elementos de línea de retorno Internormen",
       "Evita que el aceite contaminado retorne al depósito principal",
-      "Mantiene la limpieza del sistema según las normas ISO 4406:99",
+      "Mantiene la limpieza del sistema según las normas ISO 4406",
       "Compatible con aceites minerales, emulsiones y fluidos sintéticos",
       "Disponible en múltiples tamaños de caudal y grados de micras — 4, 6, 10, 16, 25 µm estándar",
       "Opción de válvula de derivación para protección de arranque en frío",
@@ -457,7 +457,7 @@
       "MOC": "Acero al carbono / acero inoxidable",
       "OEM Cross-References": "Serie Eaton 01.E; Parker; HYDAC RFM/RFD; Internormen",
       "Bypass": "Válvula de derivación disponible para protección de arranque en frío",
-      "Standards": "Cumplimiento de limpieza ISO 4406:99",
+      "Standards": "Cumplimiento de limpieza ISO 4406",
       "HSN Code": "8421"
     },
     "priceRange": {
@@ -2484,7 +2484,7 @@
       "Fabricado a partir de planos OEM de ingeniería inversa con verificación de material PMI",
       "Material: acero aleado (CrMoV, 12% Cr) según condiciones de vapor",
       "Mecanizado de precisión: desbaste > preacabado > acabado final",
-      "Equilibrado dinámico de 50–2.000 kg según ISO 21940-11 / ISO 1940",
+      "Equilibrado dinámico de 50–2.000 kg según ISO 21940-11 (formerly ISO 1940)",
       "Informe de equilibrado completo con datos de excentricidad mecánica y eléctrica",
       "Opciones de fijación de álabe: árbol de dedos, raíz en T, o cola de milano",
       "Actualizaciones de material disponibles para programas de extensión de vida útil",
@@ -2492,7 +2492,7 @@
     ],
     "specs": {
       "Rotor Material": "Acero aleado (CrMoV, 12% Cr) según condiciones de vapor",
-      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (capacidad: 50–2.000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 (formerly ISO 1940) (capacidad: 50–2.000 kg)",
       "Machining Stages": "Desbaste > preacabado > acabado final",
       "Blade Root Options": "Árbol de dedos, raíz en T, cola de milano",
       "Documentation": "Certificado de inspección completo + informe de equilibrado",
@@ -3468,7 +3468,7 @@
       "Recubrimiento duro Stellite en bordes de ataque de última etapa BP — protección contra erosión de gotas de vapor húmedo",
       "Verificación dimensional: control de galga de perfil + informe de inspección MMC para cada lote de álabes",
       "Verificación de material PMI antes del mecanizado — se suministra certificado de composición química",
-      "Equilibrado dinámico del juego completo de álabes en el disco del rotor — cumplimiento ISO 21940-11 / ISO 1940",
+      "Equilibrado dinámico del juego completo de álabes en el disco del rotor — cumplimiento ISO 21940-11 (formerly ISO 1940)",
       "Álabes móviles (rotor) y estacionarios (tobera/diafragma) suministrados por separado o como juego de etapa",
       "Adecuado para programas de extensión de vida útil — actualización de material de álabe disponible"
     ],
@@ -3481,7 +3481,7 @@
       "Erosion Protection": "Recubrimiento duro Stellite en borde de ataque de última etapa BP",
       "Verification": "Galga de perfil + informe de inspección MMC por lote",
       "PMI Certificate": "Certificado de composición química suministrado",
-      "Balancing Standard": "ISO 21940-11 / ISO 1940 (en disco de rotor)",
+      "Balancing Standard": "ISO 21940-11 (formerly ISO 1940) (en disco de rotor)",
       "HSN Code": "8406"
     },
     "priceRange": {
@@ -6012,7 +6012,7 @@
       "vibration-probe-shinkawa-11.webp",
       "vibration-probe-shinkawa-12.webp"
     ],
-    "slug": "vibration-monitoring-probes-shinkawa-compatible",
+    "slug": "vibration-monitoring-probes-genuine-shinkawa",
     "categorySlug": "electronic-equipments",
     "category": "Equipos Electrónicos",
     "title": "Sondas de Monitoreo de Vibración (Compatibles con Shinkawa)",

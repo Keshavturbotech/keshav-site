@@ -5,6 +5,7 @@
 // island) since it's inherently interactive — see that file for why it's one
 // island rather than split further.
 import Layout from "../../layouts/Layout.astro";
+import { getCatalogStats } from "../../lib/catalogStats";
 import { localizedPath } from "../../lib/localeMeta";
 import ProductsGrid from "../../components/islands/ProductsGrid.jsx";
 import CurrencyDropdown from "../../components/islands/CurrencyDropdown.jsx";
@@ -31,18 +32,28 @@ const categories = Object.entries(categoriesData).map(([slug, c]) => ({ slug, la
 // title/h1/subheading were hardcoded English literals even on translated
 // locale pages). subheading is a template with {count}/{categories} tokens
 // substituted here, same numbers the original hardcoded string computed.
+const CATALOG_STATS = getCatalogStats(products);
 const pageHeaders = getLocalizedData<
-  Record<string, { metaTitle: string; metaDescription: string; h1: string; subheading: string }>
+  Record<string, { metaTitle: string; metaDescription: string; h1: string; subheading: string; indexHeading?: string }>
 >("page-headers", locale).products;
 const subheading = pageHeaders.subheading
-  .replace("{count}", String(products.length))
-  .replace("{categories}", String(categories.length - 1));
+  .replace("{count}", String(CATALOG_STATS.productCount))
+  .replace("{categories}", String(CATALOG_STATS.categoryCount));
 const description = subheading;
 
 // ProductsGrid is a client-only island that renders every product, so it
 // needs an optimized-URL entry for every image referenced anywhere in the
 // catalog. Filenames not yet migrated into src/assets/products/ are simply
 // absent from the map — RichProductCard falls back to today's /public path.
+// Crawlable, server-rendered index of every product grouped by category. The
+// interactive grid above is a client island (filters/pagination), so this list
+// is what guarantees each product page is reachable through plain HTML links.
+const productsByCategory = new Map<string, typeof products>();
+for (const p of products) {
+  const list = productsByCategory.get(p.category) ?? [];
+  list.push(p);
+  productsByCategory.set(p.category, list);
+}
 const imageMap = await buildProductImageMap(products.flatMap((p) => p.images));
 ---
 
@@ -144,6 +155,34 @@ const imageMap = await buildProductImageMap(products.flatMap((p) => p.images));
     <h2 class="sr-only">Product catalog</h2>
     <ProductsGrid client:load products={products} categories={categories} imageMap={imageMap} locale={locale} />
   </div>
+
+  <!-- ══ CRAWLABLE PRODUCT INDEX ══ -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16" aria-labelledby="product-index-heading">
+    <h2 id="product-index-heading" class="text-2xl font-black text-slate-900 tracking-tight mb-6">
+      {pageHeaders.indexHeading ?? "Browse all products"}
+    </h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
+      {
+        [...productsByCategory.entries()].map(([category, list]) => (
+          <div>
+            <h3 class="text-sm font-black uppercase tracking-widest text-blue-700 mb-3">{category}</h3>
+            <ul class="space-y-1.5 text-sm">
+              {list.map((p) => (
+                <li>
+                  <a
+                    href={localizedPath(locale, `/products/${p.slug}`)}
+                    class="text-slate-700 hover:text-blue-700 hover:underline"
+                  >
+                    {p.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+  </section>
 
   <!-- ══ CROSS-LINK CTA ══ -->
   <div class="bg-[#0A192F] border-t-4 border-blue-600 mt-16">

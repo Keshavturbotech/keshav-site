@@ -26,7 +26,7 @@
     "id": "srv_2",
     "image": "service-overhauling.webp",
     "title": "Turnkey Overhauling & Maintenance",
-    "desc": "Executed by ex-OEM engineers from Triveni, Siemens, BHEL, Belliss & Morcom, and more. Includes pre-shutdown planning, on-site condition reporting, comprehensive spares management, and 24x7 emergency troubleshooting.",
+    "desc": "Executed by ex-OEM engineers from Triveni, Siemens, BHEL, Belliss & Morcom, and more. Includes pre-shutdown planning, on-site condition reporting, comprehensive spares management, and 24×7 emergency troubleshooting.",
     "details": [
       "Pre-shutdown planning with detailed scope of rotating equipment",
       "Onsite inspection of stocked spare parts with shortfall reports",
@@ -34,7 +34,7 @@
       "All clearances, gaps and sizes measured and recorded",
       "Condition report with recommendations for each component",
       "Turnkey basis: tools, tackles, consumables & manpower provided",
-      "24x7 emergency response with engineers at multiple locations"
+      "24×7 emergency response with engineers at multiple locations"
     ],
     "oems": [
       "Triveni",
@@ -97,7 +97,7 @@
     "desc": "ISO-compliant flushing using purpose-built mobile centrifuge filter systems. Achieves maximum cleanliness and de-watering following construction or during scheduled maintenance.",
     "details": [
       "Purpose-built mobile centrifuge filter system",
-      "Targets system cleanliness per ISO 4406:99 standards",
+      "Targets system cleanliness per ISO 4406 standards",
       "Oil sampling and reporting undertaken per ISO standards",
       "Effective for post-construction and scheduled maintenance",
       "Superior de-watering and contamination removal",
@@ -118,10 +118,10 @@
       "Turbine to gearbox & gearbox to mill gearbox alignment",
       "Fan, pump, alternator, induction generator alignment",
       "Machine levelling & pipe strain measurements on any frame size",
-      "Fibrizer, shredder alignment",
+      "Fiberizor, shredder alignment",
       "Latest alignment technology for highest standards",
       "Detailed alignment reporting with exact results",
-      "Covers any size machine frame in any location"
+      "Covers machine frames of any size, on site at your plant"
     ],
     "oems": [
       "All Makes"
@@ -140,7 +140,7 @@
       "Steam gland leakage: labyrinth seal, packing & gland steam pressure issues",
       "Blade fouling, erosion & steam path efficiency loss analysis",
       "Unexpected trip investigation: oil pressure, temperature & control system faults",
-      "24x7 emergency deployment across India with all diagnostic equipment"
+      "24×7 emergency deployment across India with all diagnostic equipment"
     ],
     "oems": [
       "Triveni",

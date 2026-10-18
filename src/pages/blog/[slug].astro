@@ -44,6 +44,7 @@ const blogSchema = {
       headline: post.title,
       description: post.excerpt,
       datePublished: post.date,
+      dateModified: post.updated ?? post.date,
       url: `${SITE_URL}/blog/${post.slug}`,
       inLanguage: "en-IN",
       keywords: post.tags?.join(", ") || "steam turbine, industrial engineering, Shamli",
@@ -86,6 +87,9 @@ const waHref = (text: string) =>
     ? [...post.tags, "Keshav Enterprises", "turbine engineering India"].join(", ")
     : undefined}
   jsonLd={blogSchema}
+  ogType="article"
+  articlePublishedTime={post.date}
+  articleModifiedTime={post.updated ?? post.date}
 >
   <ReadingProgressBar client:load />
 
@@ -196,6 +200,15 @@ const waHref = (text: string) =>
               day: "numeric",
             })
           }
+          <span class="text-slate-400 normal-case font-medium">
+            · Updated {
+              new Date(post.updated ?? post.date).toLocaleDateString("en-IN", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })
+            }
+          </span>
         </span>
         <span class="flex items-center gap-2">
           <svg

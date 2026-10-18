@@ -67,12 +67,12 @@
       "min": 1500,
       "max": 8500,
       "unit": "per element",
-      "note": "Triveni 8–120 GPM; microfelt / SS wire mesh media"
+      "note": "Triveni 4–140 GPM; glass fibre / SS / polyester media"
     },
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ISO 16889",
@@ -131,12 +131,12 @@
       "min": 2500,
       "max": 12000,
       "unit": "per element",
-      "note": "Siemens control & lube oil types; 850–1800 LPM"
+      "note": "Siemens lube oil elements; 850 LPM duplex rating"
     },
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "EN13445",
@@ -204,7 +204,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -222,7 +222,7 @@
       "High dirt-holding capacity for extended service intervals",
       "Viton (V) sealing for chemical resistance",
       "Filtration grade: 3 VL micron for fine airborne contamination",
-      "Protects system cleanliness per ISO 4406:99",
+      "Protects system cleanliness per ISO 4406",
       "Tank-mount design with easy one-hand servicing"
     ],
     "specs": {
@@ -231,7 +231,7 @@
       "Filtration Grade": "3 VL",
       "Sealing": "Viton (V)",
       "Installation": "Tank breather mount",
-      "Standards": "ISO 16889, ISO 4406:99 compatible",
+      "Standards": "ISO 16889, ISO 4406 compatible",
       "HSN Code": "8421"
     },
     "images": [
@@ -259,7 +259,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ISO 16889",
@@ -316,7 +316,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -372,7 +372,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -425,7 +425,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -444,7 +444,7 @@
       "MOC: Carbon Steel or Stainless Steel housing",
       "OEM cross-references: Eaton 01.E series; Parker; HYDAC RFM/RFD series; Internormen return-line elements",
       "Prevents contaminated oil from returning to main reservoir",
-      "Maintains system cleanliness per ISO 4406:99 standards",
+      "Maintains system cleanliness per ISO 4406 standards",
       "Compatible with mineral oils, emulsions, and synthetic fluids",
       "Available in multiple flow sizes and micron ratings: 4, 6, 10, 16, 25 µm standard",
       "Bypass valve option for cold-start protection",
@@ -459,7 +459,7 @@
       "MOC": "Carbon Steel / Stainless Steel",
       "OEM Cross-References": "Eaton 01.E series; Parker; HYDAC RFM/RFD; Internormen",
       "Bypass": "Bypass valve available for cold-start protection",
-      "Standards": "ISO 4406:99 cleanliness compliance",
+      "Standards": "ISO 4406 cleanliness compliance",
       "HSN Code": "8421"
     },
     "images": [
@@ -487,7 +487,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ISO 4406"
@@ -552,7 +552,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ASME Sec. VIII Div.1"
@@ -614,7 +614,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -675,7 +675,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ASME VIII Div.1",
@@ -688,7 +688,7 @@
     "category": "Industrial Strainers",
     "title": "SS/CS Duplex Basket Strainer: Continuous Service",
     "desc": "Continuous-service duplex strainer enabling basket cleaning without process shutdown. Three-way changeover valve diverts flow while dirty basket is serviced.",
-    "usage": "Continuous flow systems requiring zero-downtime operation; critical process lines where shutdown is unacceptable.",
+    "usage": "Continuous flow systems requiring continuous operation; critical process lines where shutdown is unacceptable.",
     "features": [
       "Continuous service: no shutdown or flow interruption required",
       "Three-way changeover valve for fast chamber switching",
@@ -733,7 +733,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ASME VIII Div.1",
@@ -798,7 +798,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -856,7 +856,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -913,7 +913,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ASME VIII Div.1"
@@ -979,7 +979,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -1030,7 +1030,7 @@
       "min": 1500,
       "max": 28000,
       "unit": "per piece",
-      "note": "SS bellows NB 25–300; PN10–PN40; EJMA standard"
+      "note": "SS bellows, typical NB 25–300 shown (DN 15 to DN 12,000 available); PN10–PN40; EJMA"
     },
     "availability": {
       "label": "In Stock",
@@ -2572,7 +2572,7 @@
       "Manufactured from reverse-engineered OEM drawings with PMI material verification",
       "Material: Alloy steel (CrMoV, 12% Cr) / 21CrMoV5-7 per DIN 17240 rotor forging steel, per steam conditions",
       "Precision machined: rough machining > pre-final > final",
-      "Dynamic balancing 50-2,000 kg to ISO 21940-11 / ISO 1940",
+      "Dynamic balancing 50-2,000 kg to ISO 21940-11 (formerly ISO 1940)",
       "Complete balancing report with mechanical and electrical run-out data",
       "Blade attachment options: Finger-tree, T-root, or dove-tail",
       "Material upgrades available for life extension programs",
@@ -2580,7 +2580,7 @@
     ],
     "specs": {
       "Rotor Material": "Alloy Steel (CrMoV, 12% Cr) / 21CrMoV5-7 per DIN 17240, per steam conditions",
-      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (capacity: 50-2,000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 (formerly ISO 1940) (capacity: 50-2,000 kg)",
       "Machining Stages": "Rough machining > Pre-final > Final machining",
       "Blade Root Options": "Finger-tree, T-root, Dove-tail",
       "Documentation": "Full inspection certificate + balancing report",
@@ -3368,7 +3368,7 @@
     "category": "Flexible Hoses & Assemblies",
     "title": "FDA-Compliant Food-Grade Flexible Hose (PTFE/SS316L)",
     "desc": "FDA-compliant food-grade flexible hose for hygienic fluid and gas transfer in food processing, beverage, dairy, and pharmaceutical plants. Smooth polished bore, CIP/SIP compatible construction with sanitary end fittings.",
-    "usage": "Food-grade liquid and gas transfer in dairy plants, breweries, beverage production, edible oil processing, pharmaceutical fluid handling, and any application requiring hygienic piping with FDA-approved materials.",
+    "usage": "Food-grade liquid and gas transfer in dairy plants, breweries, beverage production, edible oil processing, pharmaceutical fluid handling, and any application requiring hygienic piping with FDA-compliant materials.",
     "features": [
       "Food-grade materials: FDA 21 CFR compliant inner tube and seals",
       "Smooth polished bore: minimises retention and microbial growth risk",
@@ -3484,17 +3484,17 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
   "prod_ee1": {
     "id": "prod_ee1",
     "sku": "KTB-EE-001",
-    "category": "Electronic Equipments",
-    "title": "Vibration Monitoring Probes (Shinkawa-compatible)",
-    "desc": "Genuine Shinkawa FK / VK eddy-current probes, extension cables and drivers for steam turbine, gearbox and alternator vibration and thrust monitoring. In stock in Shamli, UP.",
-    "usage": "Non-contact measurement of shaft radial vibration, axial (thrust) position, eccentricity, rotational speed and phase reference (Keyphasor) on steam turbines, turbo-alternators, gearboxes, compressors, boiler feed pumps and large fans. Feeds Shinkawa VM-5 / VM-7 / VM-25 monitors, other API 670 style monitoring racks, and DCS or PLC inputs.",
+    "category": "Electronic Equipment",
+    "title": "Vibration Monitoring Probes (Genuine Shinkawa)",
+    "desc": "Genuine Shinkawa FK / VK eddy-current probes, extension cables and drivers for steam turbine, gearbox and alternator vibration and thrust monitoring. Stocked in Shamli, UP; lead time confirmed per model.",
+    "usage": "Non-contact measurement of shaft radial vibration, axial (thrust) position, eccentricity, rotational speed and phase reference (Keyphasor) on steam turbines, turbo-alternators, gearboxes, compressors, boiler feed pumps and large fans. Feeds Shinkawa VM-5 / VM-7 / VM-25 monitors, other monitoring racks that accept a -24 V DC proximity signal, and DCS or PLC inputs.",
     "features": [
       "Genuine Shinkawa transducer system in three matched parts: FL sensor (probe), FW extension cable and FK driver. The three are calibrated together as a loop, so if one part is replaced the sensor, cable and driver should be replaced as a set",
       "FK series (current range) and VK series (older installations) available. FK drivers come with a mounting plate for direct replacement of VK drivers; differential expansion measurement still uses the VK series",
@@ -3553,7 +3553,7 @@
       "vibration-probe-shinkawa-11.webp",
       "vibration-probe-shinkawa-12.webp"
     ],
-    "slug": "vibration-monitoring-probes-shinkawa-compatible",
+    "slug": "vibration-monitoring-probes-genuine-shinkawa",
     "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 25000,
@@ -3574,7 +3574,7 @@
   "prod_ee7": {
     "id": "prod_ee7",
     "sku": "KTB-EE-007",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Bently Nevada 3300 XL Proximity Probe Systems",
     "desc": "Genuine Bently Nevada 3300 XL proximity probes, 330130 cables and Proximitors for turbine, gearbox and alternator vibration and thrust monitoring. Quote by part number.",
     "usage": "Radial vibration, axial position, eccentricity, differential expansion and speed/phase reference on turbo-machinery fitted with Bently Nevada 3500 or 3300 monitoring systems. The 5 mm and 8 mm probes cover standard journal-bearing and thrust measurements; the larger 11, 16, 25 and 50 mm systems cover long-range and expansion measurements.",
@@ -3637,7 +3637,7 @@
   "prod_ee8": {
     "id": "prod_ee8",
     "sku": "KTB-EE-008",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "EPRO PR6423 / PR6424 Eddy Current Sensors & CON011",
     "desc": "Genuine Emerson EPRO PR6422-PR6426 eddy-current sensors and CON011 converters for turbine, gearbox and generator shaft vibration and position.",
     "usage": "Radial and axial shaft displacement, position, eccentricity and speed/key measurement on steam, gas and hydro turbines, compressors, gearboxes, pumps and fans, with Emerson / EPRO MMS monitors or any system accepting the converter output.",
@@ -3698,9 +3698,9 @@
   "prod_ee9": {
     "id": "prod_ee9",
     "sku": "KTB-EE-009",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Vibro-Meter TQ402 / TQ442 Proximity Probes & IQS450",
-    "desc": "Genuine Meggitt vibro-meter TQ4xx proximity probes, EA40x cables and IQS450 conditioners for turbine shaft vibration and position monitoring.",
+    "desc": "Genuine Parker Meggitt vibro-meter TQ4xx proximity probes, EA40x cables and IQS450 conditioners for turbine shaft vibration and position monitoring.",
     "usage": "Non-contact shaft vibration and axial position on steam, gas and hydraulic turbines and other critical machines using vibro-meter monitoring systems. Voltage or current output with short-circuit protection suits both rack monitors and direct DCS connection.",
     "features": [
       "Genuine vibro-meter system: TQ4xx proximity transducer + EA4xx extension cable + IQS450 (or IQS900) signal conditioner form a calibrated measuring chain",
@@ -3711,7 +3711,7 @@
       "Brand and model names are trademarks of their respective owners and are used for identification only. Keshav Enterprises is an independent supplier."
     ],
     "specs": {
-      "Brand": "Meggitt vibro-meter, genuine",
+      "Brand": "Parker Meggitt vibro-meter, genuine",
       "Transducers": "TQ401, TQ402, TQ403, TQ412, TQ422, TQ423, TQ432, TQ442",
       "Extension Cables": "EA401, EA402, EA403",
       "Signal Conditioners": "IQS450, IQS900",
@@ -3754,7 +3754,7 @@
   "prod_ee10": {
     "id": "prod_ee10",
     "sku": "KTB-EE-010",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "2-Wire 4-20 mA Vibration Transmitters (Shinkawa WK/WKN)",
     "desc": "Genuine Shinkawa WK / WKN 2-wire 4-20 mA vibration and thrust transmitters for steam turbines, alternators, gearboxes, pumps and compressors. Direct DCS or PLC connection, no monitor rack.",
     "usage": "Continuous shaft vibration or thrust position monitoring on small and medium machines where a full rack monitor is not justified: auxiliary steam turbines, boiler feed pumps, gearboxes, compressors, fans and alternators. The 4-20 mA loop signal goes straight to a DCS, PLC or indicator.",
@@ -3768,7 +3768,7 @@
       "Complete system: WL-142K sensor, WW-142K extension cable and the transmitter, in 5 m, 7 m or 9 m system lengths; sensor and cable are supplied together because the system is calibrated as a loop",
       "Transmitter housing about 100 x 74 x 50 mm with optional DIN mounting clips; non-incendive option (CSA Class I Div 2 Groups A-D, ATEX Ex nA)",
       "Calibrated on JIS SCM440 (AISI 4140 equivalent) steel only. Insulate the sensor-cable-to-extension-cable connector with the supplied sleeve or fluoro-resin tape",
-      "Also available: Meggitt vibro-meter proximity systems with 2-wire current output (see the vibro-meter listing)",
+      "Also available: Parker Meggitt vibro-meter proximity systems with 2-wire current output (see the vibro-meter listing)",
       "Brand and model names are trademarks of their respective owners and are used for identification only. Keshav Enterprises is an independent supplier."
     ],
     "specs": {
@@ -3822,7 +3822,7 @@
   "prod_ee11": {
     "id": "prod_ee11",
     "sku": "KTB-EE-011",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Casing Vibration Sensors: Velomitor, CV-86 & Accelerometers",
     "desc": "Genuine Bently Velomitor, Shinkawa CV-86, Hansford and SKF sensors for turbine, gearbox, alternator and motor bearing vibration. Quote by model.",
     "usage": "Absolute (seismic) vibration on bearing pedestals, gearbox casings, alternator frames and motor end shields, where a shaft probe cannot be fitted or where casing vibration is an alarm or trip input. Used together with shaft proximity probes on turbine-gearbox-alternator trains, and alone for motors, fans and pumps.",
@@ -3883,7 +3883,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Magnetic Pickup Sensor (Woodward)",
     "desc": "Genuine Woodward variable reluctance magnetic speed pickup (MPU) (long-body 5/8-18 UNF variant cross-referenced to Woodward part number 5430-933, manufacturer marking MSC 401029-20) for precise shaft speed feedback to Woodward governors and digital turbine control systems. Passive, self-powered, zero-maintenance design for continuous duty on steam turbines running at 3000–3600 RPM; MSC 401029-20 is the most commonly ordered variant on Indian steam turbine governor retrofits and overhauls.",
     "usage": "Primary speed sensing input for Woodward 505/505D/505E digital governors, 2301 and 7206 governor amplifiers, and standalone overspeed trip systems on Triveni, BHEL, Siemens, KKK, and Maxwatt steam turbines. The MSC 401029-20 / Woodward 5430-933 variant is the long-body, 5/8-18 UNF version most frequently specified on Indian steam turbine governor retrofits. Monitors turbine rotor speed via the governor gear wheel (tooth gear / flywheel) to provide closed-loop speed regulation, load control, and overspeed protection throughout startup, synchronisation, and full-load operation.",
@@ -4022,7 +4022,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ISO 16889",
@@ -4099,7 +4099,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ISO 16889",
@@ -4289,7 +4289,7 @@
   "prod_ee3": {
     "id": "prod_ee3",
     "sku": "KTB-EE-003",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "ASCO 8210 Series Explosion-Proof Solenoid Valve",
     "desc": "ASCO 8210 series general purpose explosion-proof solenoid valves for turbine trip, lube oil, steam seal, and process control applications. ATEX/IECEx and NEMA 7/9 rated for hazardous area installation.",
     "usage": "Turbine emergency trip oil drain, steam admission/trip solenoids, lube oil system control, process media isolation, and safety instrumented system (SIS) actuating valves in Zone 1/Zone 2 hazardous areas.",
@@ -4409,7 +4409,7 @@
   "prod_ee4": {
     "id": "prod_ee4",
     "sku": "KTB-EE-004",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Beacon Industrial Analog Tachometer Gauge",
     "desc": "Robust industrial analog panel tachometer for direct shaft speed indication in turbine control panels. Robust movement with IP54 sealed case for steam turbine house environments.",
     "usage": "Local turbine speed indication on turbine control panels, operator consoles, and local instrument enclosures in sugar mills, power plants, and paper mills.",
@@ -4536,7 +4536,7 @@
     "category": "Turbine Spares",
     "title": "Steam Turbine Rotor Journal Polishing Service",
     "desc": "In-situ or workshop precision journal polishing service for turbine and alternator rotors. Restores bearing surface finish to Ra 0.4 µm or better without removal of the rotor from the machine: minimizing outage duration. HOW TO ORDER: Share (1) OEM name and turbine model, (2) journal diameter and length, (3) current surface condition or failure description, (4) site or workshop preference. Typical turnaround: 1–3 days for in-situ; 5–10 days for workshop. Often combined with Dynamic Balancing service (see Services page) when rotor is removed.",
-    "usage": "Restoration of turbine rotor journal surfaces after bearing failure, contaminated oil damage, or corrosion; alternator rotor slip ring and journal polishing during planned maintenance. To enquire, send OEM name, rotor dimensions, and a description or photo of the surface condition via WhatsApp or email: we will confirm scope and turnaround within 24 hours.",
+    "usage": "Restoration of turbine rotor journal surfaces after bearing failure, contaminated oil damage, or corrosion; alternator rotor slip ring and journal polishing during planned maintenance. To enquire, send OEM name, rotor dimensions, and a description or photo of the surface condition via WhatsApp or email: we will confirm scope and turnaround within 1 business day.",
     "features": [
       "In-situ polishing using purpose-built on-site grinding and polishing equipment",
       "Achieves surface finish Ra ≤ 0.4 µm (N5): OEM bearing seating specification",
@@ -4547,14 +4547,14 @@
       "Workshop journal grinding on lathes available for more severe damage cases",
       "Polishing report: before/after surface finish (Ra), roundness, and taper measurements",
       "Compatible with all turbine makes: Triveni, BHEL, Siemens, KKK, Man Turbo, Belliss & Morcom",
-      "Emergency breakdown polishing service available 24x7"
+      "Emergency breakdown polishing service available 24×7"
     ],
     "specs": {
       "Process": "In-situ or workshop journal grinding and polishing",
       "Surface Finish Achieved": "Ra ≤ 0.4 µm (N5): OEM specification",
       "Material Removal": "0.005–0.025 mm per pass (minimum undersizing)",
       "Measurement": "Roundness + taper + Ra before/after verification",
-      "Availability": "24x7 emergency breakdown response",
+      "Availability": "24×7 emergency breakdown response",
       "OEM Compatibility": "All turbine makes: Triveni, BHEL, Siemens, KKK, Man Turbo, Belliss & Morcom",
       "Documentation": "Full polishing report with before/after measurements",
       "Typical Turnaround": "1–3 days (in-situ) / 5–10 days (workshop)",
@@ -4594,7 +4594,7 @@
   "prod_ee5": {
     "id": "prod_ee5",
     "sku": "KTB-EE-005",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "RTD & Sensors for Power Plants & Steam Turbines",
     "desc": "Complete range of Resistance Temperature Detectors (RTDs), thermocouples, and process sensors for turbine bearing temperature, lube oil temperature, steam temperature, and exhaust gas monitoring.",
     "usage": "Bearing metal temperature (babbitt), lube oil inlet/outlet temperature, steam chest temperature, exhaust temperature, and cooling water temperature monitoring in steam turbines and power plant auxiliaries.",
@@ -4653,7 +4653,7 @@
   "prod_ee6": {
     "id": "prod_ee6",
     "sku": "KTB-EE-006",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "SEMIKRON SKN240/16 Rectifier Diode",
     "desc": "SEMIKRON SKN240/16 stud-mount power rectifier diode for alternator AVR excitation circuits and turbine-generator rectifier bridges. 240 A average forward current, 1600 V peak reverse voltage. Full VRRM voltage range (800 V to 2200 V) available: specify voltage class at order.",
     "usage": "Rotating diode bridge rectifiers in brushless alternators, static AVR excitation panels, turbine-driven generator control circuits, and industrial power rectification in sugar mill and power plant alternators.",
@@ -5010,7 +5010,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -5071,7 +5071,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -5132,7 +5132,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -5193,7 +5193,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -5254,7 +5254,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -5318,7 +5318,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -5380,7 +5380,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ISO 16889",
@@ -5447,7 +5447,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ISO 16889",
@@ -5513,7 +5513,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -5574,7 +5574,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -5820,7 +5820,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ISO 16889",
@@ -5878,7 +5878,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -5897,7 +5897,7 @@
       "Stellite hard-facing on LP last-stage leading edges: erosion protection from wet steam droplets",
       "Dimensional verification: profile gauge check + CMM inspection report for each blade batch",
       "PMI material verification before machining: chemical composition certificate supplied",
-      "Dynamic balancing of complete blade set on rotor disc: ISO 21940-11 / ISO 1940 compliance",
+      "Dynamic balancing of complete blade set on rotor disc: ISO 21940-11 (formerly ISO 1940) compliance",
       "Moving (rotor) and stationary (nozzle/diaphragm) blades supplied separately or as a stage set",
       "Suitable for life extension programs: blade material upgrade available"
     ],
@@ -5910,7 +5910,7 @@
       "Erosion Protection": "Stellite hard-facing on LP last-stage leading edge",
       "Verification": "Profile gauge + CMM inspection report per batch",
       "PMI Certificate": "Chemical composition certificate supplied",
-      "Balancing Standard": "ISO 21940-11 / ISO 1940 (on rotor disc)",
+      "Balancing Standard": "ISO 21940-11 (formerly ISO 1940) (on rotor disc)",
       "HSN Code": "8406"
     },
     "images": [
@@ -6309,7 +6309,7 @@
     "sku": "KTB-HC-002",
     "category": "Hydraulic Components",
     "title": "Hydraulic Accumulators: Bladder & Piston Type",
-    "desc": "Hydraulic accumulators in bladder and piston configurations for energy storage, pressure pulsation dampening, emergency actuation, and thermal expansion compensation in turbine hydraulic trip circuits, ESV actuator systems, and industrial hydraulic power units. Bladder type: nitrogen-precharged elastomeric bladder inside a seamless steel shell, compact, fast-response, 0.5 to 200 litres, up to 350 bar. Piston type: floating piston separating gas and fluid chambers in a heavy-wall cylinder, higher pressure ratios, larger volumes, suitable for high-temperature oil service. Compatible with HYDAC, Bosch Rexroth, Parker, and EPE accumulator system hardware.",
+    "desc": "Hydraulic accumulators in bladder and piston configurations for energy storage, pressure pulsation dampening, emergency actuation, and thermal expansion compensation in turbine hydraulic trip circuits, emergency stop valve (ESV) actuator systems, and industrial hydraulic power units. Bladder type: nitrogen-precharged elastomeric bladder inside a seamless steel shell, compact, fast-response, 0.5 to 200 litres, up to 350 bar. Piston type: floating piston separating gas and fluid chambers in a heavy-wall cylinder, higher pressure ratios, larger volumes, suitable for high-temperature oil service. Compatible with HYDAC, Bosch Rexroth, Parker, and EPE accumulator system hardware.",
     "usage": "Critical hydraulic component in steam turbine control and trip systems: ESV (Emergency Stop Valve) hydraulic actuator energy storage, provides closing force for 3–5 full ESV strokes on loss of hydraulic supply; governor hydraulic actuator supply pressure maintenance during pump switchover; turbine trip oil header pressure hold during transients. Also used across industrial HPUs for: shock and pulsation absorption on pump outlet lines; energy storage for intermittent high-flow demand (press, clamp, die-casting); thermal compensation in blocked-in hydraulic circuits; emergency lowering and clamping circuits on loss of pump power.",
     "features": [
       "Types: Bladder accumulator (standard, fast response, compact) and Piston accumulator (large volume, high pressure ratio, high-temperature oil compatible)",
@@ -6703,7 +6703,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -6766,7 +6766,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -6955,12 +6955,12 @@
       "min": 1200,
       "max": 8500,
       "unit": "per filter",
-      "note": "Multi-pocket bag G3–F9; synthetic / polyester media"
+      "note": "Multi-pocket bag F5–F9; synthetic / micro-glass media"
     },
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "EN 779",
@@ -7024,7 +7024,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -7086,7 +7086,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -7150,7 +7150,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "EN 779",
@@ -7218,7 +7218,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -7282,7 +7282,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": []
   },
@@ -7477,7 +7477,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ISO 16889",
@@ -7553,7 +7553,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ISO 16889",
@@ -7635,7 +7635,7 @@
     "availability": {
       "label": "Ex-Stock",
       "color": "green",
-      "leadTime": "Ex-stock to 1 week"
+      "leadTime": "Ex-Stock to 1 week"
     },
     "certifications": [
       "ISO 16889",

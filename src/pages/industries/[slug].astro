@@ -124,6 +124,14 @@ const industryDetailsEn = getLocalizedData<Record<string, IndustryDetail>>(
 );
 const enProductsForIndustry: IndustryDetailProduct[] = industryDetailsEn[ind.id]?.products ?? [];
 
+// Cards that are really services (not catalogue products) link to the real
+// service page instead of the generic /products catalogue. Keyed by the
+// English card name, same convention as INDUSTRY_PRODUCT_IDS.
+const INDUSTRY_SERVICE_SLUGS: Record<string, string> = {
+  "Rotor Balancing Service": "dynamic-balancing-and-rotor-machining",
+  "Steam Turbine Maintenance (Triveni, Maxwatt)": "turnkey-overhauling-and-maintenance",
+};
+
 const productsWithLinks = (detail.products ?? []).map(
   (prod: IndustryDetailProduct, i: number) => {
     // Fall back to the localized name if the English array is somehow
@@ -132,12 +140,16 @@ const productsWithLinks = (detail.products ?? []).map(
     const enName = enProductsForIndustry[i]?.name ?? prod.name;
     const prodId = INDUSTRY_PRODUCT_IDS[industryProductKey(enName)];
     const linkedProduct = prodId ? products.find((p) => p.id === prodId) : null;
+    const serviceSlug = INDUSTRY_SERVICE_SLUGS[enName];
     return {
       ...prod,
       href: linkedProduct
         ? localizedPath(locale, `/products/${linkedProduct.slug}`)
-        : localizedPath(locale, "/products"),
-      hasDirectLink: Boolean(linkedProduct),
+        : serviceSlug
+          ? localizedPath(locale, `/services/${serviceSlug}`)
+          : localizedPath(locale, "/products"),
+      hasDirectLink: Boolean(linkedProduct) || Boolean(serviceSlug),
+      isService: Boolean(serviceSlug) && !linkedProduct,
       // First real product photo, when this card is linked to an actual
       // catalog entry — same source RichProductCard/products pages use.
       // Cards with no linked product (generic "View in Catalog" fallback)
@@ -159,7 +171,7 @@ const industryProductImageMap = await buildProductImageMap(
 ---
 
 <Layout
-  title={`${ind.title} | Industrial Solutions — Keshav Enterprises`}
+  title={`${ind.title} Solutions | Keshav Enterprises`}
   description={`${ind.desc} — Keshav Enterprises, Shamli, UP.`}
   canonicalPath={`/industries/${ind.slug}`}
   ogImage={ind.image ? `/${ind.image}` : undefined}
@@ -387,7 +399,7 @@ const industryProductImageMap = await buildProductImageMap(
                 <span
                   class={`mt-auto text-xs font-black uppercase tracking-widest ${ind.accent} flex items-center gap-1`}
                 >
-                  {prod.hasDirectLink ? "View Product" : "View in Catalog"}
+                  {prod.isService ? "View Service" : prod.hasDirectLink ? "View Product" : "View in Catalog"}
                   <svg
                     class="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform"
                     viewBox="0 0 24 24"

@@ -16,6 +16,7 @@ import ExitIntentReviewPopup from "../components/islands/ExitIntentReviewPopup.j
 import AnalyticsLoader from "../components/islands/AnalyticsLoader.jsx";
 import { getLocalizedData, getLocalizedList, LOCALES, DEFAULT_LOCALE } from "../lib/i18n";
 import { buildSeoTitle, buildSeoDescription } from "../lib/seo";
+import { SEO_OVERRIDES } from "../data/seo-overrides";
 import { buildProductImageMap } from "../lib/productImages";
 import { CONTACT_INFO, OFFICE_OPEN_HOUR, OFFICE_CLOSE_HOUR } from "../data/site-config";
 import { getRelativeLocaleUrl } from "astro:i18n";
@@ -59,6 +60,10 @@ interface Props {
   canonicalPath?: string; // e.g. "/about" — defaults to current URL
   jsonLd?: object | object[]; // page-specific structured data (Service, Product, FAQPage, etc.)
   noindex?: boolean;
+  ogType?: "website" | "article";
+  footerVariant?: "full" | "compact"; // "compact" drops turbine-only footer blocks
+  articlePublishedTime?: string; // ISO date, article pages only
+  articleModifiedTime?: string; // ISO date, article pages only
 }
 
 const {
@@ -69,6 +74,10 @@ const {
   canonicalPath,
   jsonLd,
   noindex = false,
+  ogType = "website",
+  footerVariant = "full",
+  articlePublishedTime,
+  articleModifiedTime,
 } = Astro.props;
 
 const SITE_URL = "https://keshavturbotech.com";
@@ -124,9 +133,13 @@ const hreflangAlternates: { hreflang: string; href: string }[] = canonicalPath
 // `title`/`description` themselves are left untouched: pages may reuse
 // those same prop values as visible on-page copy or in JSON-LD, where the
 // full, untruncated text is exactly what should render.
-const titleAlreadyBranded = title.includes("Keshav Enterprises");
-const fullTitle = buildSeoTitle(title, titleAlreadyBranded ? [] : ["Keshav Enterprises"], currentLocale);
-const metaDescription = buildSeoDescription(description, currentLocale);
+// English-only hand-written overrides for headlines/intros too long for a SERP snippet.
+const seoOverride = currentLocale === "en" ? SEO_OVERRIDES[localeAgnosticPath.replace(/\/$/, "")] : undefined;
+const effectiveTitle = seoOverride?.title ?? title;
+const effectiveDescription = seoOverride?.description ?? description;
+const titleAlreadyBranded = effectiveTitle.includes("Keshav Enterprises");
+const fullTitle = buildSeoTitle(effectiveTitle, titleAlreadyBranded ? [] : ["Keshav Enterprises"], currentLocale);
+const metaDescription = buildSeoDescription(effectiveDescription, currentLocale);
 
 // Ported from App.jsx POPUP_EXCLUDED_PATHS — suppress exit-intent on pages
 // where a form/review flow is already present or the popup would feel intrusive.
@@ -314,7 +327,17 @@ const jsonLdBlocks = [
     }
 
     <!-- Open Graph -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
+    {
+      ogType === "article" && articlePublishedTime && (
+        <meta property="article:published_time" content={articlePublishedTime} />
+      )
+    }
+    {
+      ogType === "article" && (articleModifiedTime ?? articlePublishedTime) && (
+        <meta property="article:modified_time" content={articleModifiedTime ?? articlePublishedTime} />
+      )
+    }
     <meta property="og:site_name" content="Keshav Enterprises" />
     <meta property="og:locale" content={currentLocale === "en" ? "en_IN" : currentLocale.replace("-", "_")} />
     <meta property="og:title" content={fullTitle} />
@@ -518,7 +541,7 @@ const jsonLdBlocks = [
     </main>
 
     <DigitalProfilesStrip />
-    <Footer />
+    <Footer variant={footerVariant} />
 
     <CookieConsentBanner client:idle />
     <AnalyticsLoader client:idle />

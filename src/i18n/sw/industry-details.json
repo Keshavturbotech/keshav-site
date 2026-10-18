@@ -9,7 +9,7 @@
       },
       {
         "title": "Uchafuzi wa Mafuta ya Kulainisha",
-        "desc": "Kuingia kwa chembe na maji kwenye mfumo wa mafuta ya kulainisha kunaweza kuharibu haraka nyuso za bearing. Malengo ya usafi ya ISO 4406:99 lazima yadumishwe kila mara."
+        "desc": "Kuingia kwa chembe na maji kwenye mfumo wa mafuta ya kulainisha kunaweza kuharibu haraka nyuso za bearing. Malengo ya usafi ya ISO 4406 lazima yadumishwe kila mara."
       },
       {
         "title": "Upanuzi wa Joto katika Mistari ya Mvuke",
@@ -23,7 +23,7 @@
     "products": [
       {
         "name": "Vichujio vya Mafuta ya Kulainisha (180 GPM)",
-        "purpose": "Hudumisha usafi wa ISO 4406:99 katika mifumo ya mafuta ya kulainisha ya turbine, ikilinda journal bearing na thrust bearing kutokana na uchakavu wa kukwaruza.",
+        "purpose": "Hudumisha usafi wa ISO 4406 katika mifumo ya mafuta ya kulainisha ya turbine, ikilinda journal bearing na thrust bearing kutokana na uchakavu wa kukwaruza.",
         "features": [
           "Media ya VG ya nyuzi za kioo, ukamilifu wa mikroni 6–25",
           "Kipimo cha kuzuia umeme tuli IS27 kwa mafuta ya sintetiki",
@@ -89,7 +89,7 @@
     "keyFacts": [
       "Uwezo wa juu wa turbine wa 60 MW unaoshughulikiwa",
       "Miaka {years}+ ya uzoefu wa uhandisi uliofunzwa na OEM",
-      "Bidhaa zinazokidhi API 614 na ISO 4406:99",
+      "Bidhaa zinazokidhi API 614 na ISO 4406",
       "Utoaji wa vichujio vya HVAC kwa vyumba vya udhibiti na majengo ya turbine",
       "Msaada wa dharura wa kusimama wa saa 24×7"
     ]

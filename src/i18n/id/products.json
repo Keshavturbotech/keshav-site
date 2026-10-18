@@ -211,7 +211,7 @@
       "Kapasitas penahan kotoran tinggi untuk interval servis yang lebih panjang",
       "Penyegelan Viton (V) untuk ketahanan kimia",
       "Grade filtrasi: 3 VL mikron untuk kontaminasi udara halus",
-      "Melindungi kebersihan sistem sesuai ISO 4406:99",
+      "Melindungi kebersihan sistem sesuai ISO 4406",
       "Desain pemasangan tangki dengan servis mudah satu tangan"
     ],
     "specs": {
@@ -220,7 +220,7 @@
       "Filtration Grade": "3 VL",
       "Sealing": "Viton (V)",
       "Installation": "Pemasangan breather tangki",
-      "Standards": "Kompatibel ISO 16889, ISO 4406:99",
+      "Standards": "Kompatibel ISO 16889, ISO 4406",
       "HSN Code": "8421"
     },
     "images": [
@@ -426,7 +426,7 @@
       "MOC: Rumah Baja Karbon atau Baja Tahan Karat",
       "Referensi silang OEM: seri Eaton 01.E; Parker; seri HYDAC RFM/RFD; elemen return-line Internormen",
       "Mencegah oli terkontaminasi kembali ke reservoir utama",
-      "Menjaga kebersihan sistem sesuai standar ISO 4406:99",
+      "Menjaga kebersihan sistem sesuai standar ISO 4406",
       "Kompatibel dengan oli mineral, emulsi, dan fluida sintetis",
       "Tersedia dalam berbagai ukuran aliran dan rating mikron — 4, 6, 10, 16, 25 µm standar",
       "Opsi katup bypass untuk perlindungan cold-start",
@@ -441,7 +441,7 @@
       "MOC": "Baja Karbon / Baja Tahan Karat",
       "OEM Cross-References": "Seri Eaton 01.E; Parker; HYDAC RFM/RFD; Internormen",
       "Bypass": "Katup bypass tersedia untuk perlindungan cold-start",
-      "Standards": "Kepatuhan kebersihan ISO 4406:99",
+      "Standards": "Kepatuhan kebersihan ISO 4406",
       "HSN Code": "8421"
     },
     "images": [
@@ -3112,7 +3112,7 @@
       "Diproduksi dari gambar OEM hasil reverse engineering dengan verifikasi material PMI",
       "Material: baja paduan (CrMoV, 12% Cr) sesuai kondisi uap",
       "Pemesinan presisi: pemesinan kasar > pre-final > final",
-      "Penyeimbangan dinamis 50–2.000 kg sesuai ISO 21940-11 / ISO 1940",
+      "Penyeimbangan dinamis 50–2.000 kg sesuai ISO 21940-11 (formerly ISO 1940)",
       "Laporan penyeimbangan lengkap dengan data run-out mekanis dan elektrik",
       "Opsi pemasangan blade: finger-tree, T-root, atau dove-tail",
       "Upgrade material tersedia untuk program perpanjangan umur",
@@ -3120,7 +3120,7 @@
     ],
     "specs": {
       "Rotor Material": "Baja paduan (CrMoV, 12% Cr) sesuai kondisi uap",
-      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (kapasitas: 50–2.000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 (formerly ISO 1940) (kapasitas: 50–2.000 kg)",
       "Machining Stages": "Pemesinan kasar > pre-final > pemesinan final",
       "Blade Root Options": "Finger-tree, T-root, dove-tail",
       "Documentation": "Sertifikat inspeksi lengkap + laporan penyeimbangan",
@@ -3682,14 +3682,14 @@
       "Grinding journal di bengkel dengan mesin bubut tersedia untuk kasus kerusakan yang lebih parah",
       "Laporan pemolesan: pengukuran hasil akhir permukaan (Ra), kebulatan, dan ketirusan sebelum/sesudah",
       "Kompatibel dengan semua merek turbin: Triveni, BHEL, Siemens, KKK, Man Turbo, Belliss",
-      "Layanan pemolesan darurat tersedia 24x7"
+      "Layanan pemolesan darurat tersedia 24×7"
     ],
     "specs": {
       "Process": "Grinding dan pemolesan journal in-situ atau di bengkel",
       "Surface Finish Achieved": "Ra ≤ 0,4 µm (N5) — spesifikasi OEM",
       "Material Removal": "0,005–0,025 mm per pass (undersizing minimum)",
       "Measurement": "Verifikasi kebulatan + ketirusan + Ra sebelum/sesudah",
-      "Availability": "Respons darurat 24x7",
+      "Availability": "Respons darurat 24×7",
       "OEM Compatibility": "Semua merek turbin — Triveni, BHEL, Siemens, KKK, Man Turbo, Belliss",
       "Documentation": "Laporan pemolesan lengkap dengan pengukuran sebelum/sesudah",
       "Typical Turnaround": "1–3 hari (in-situ) / 5–10 hari (bengkel)",
@@ -4096,7 +4096,7 @@
       "Hard-facing Stellite pada leading edge tahap akhir LP — proteksi erosi dari tetesan uap basah",
       "Verifikasi dimensi: pemeriksaan profile gauge + laporan inspeksi CMM untuk setiap batch blade",
       "Verifikasi material PMI sebelum pemesinan — sertifikat komposisi kimia disediakan",
-      "Penyeimbangan dinamis set blade lengkap pada disc rotor — sesuai ISO 21940-11 / ISO 1940",
+      "Penyeimbangan dinamis set blade lengkap pada disc rotor — sesuai ISO 21940-11 (formerly ISO 1940)",
       "Blade bergerak (rotor) dan stasioner (nozzle/diafragma) disuplai terpisah atau sebagai set tahap",
       "Cocok untuk program perpanjangan umur — upgrade material blade tersedia"
     ],
@@ -4109,7 +4109,7 @@
       "Erosion Protection": "Hard-facing Stellite pada leading edge tahap akhir LP",
       "Verification": "Profile gauge + laporan inspeksi CMM per batch",
       "PMI Certificate": "Sertifikat komposisi kimia disediakan",
-      "Balancing Standard": "ISO 21940-11 / ISO 1940 (pada disc rotor)",
+      "Balancing Standard": "ISO 21940-11 (formerly ISO 1940) (pada disc rotor)",
       "HSN Code": "8406"
     },
     "images": [
@@ -5791,7 +5791,7 @@
   "prod_ee1": {
     "id": "prod_ee1",
     "sku": "KTB-EE-001",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Probe Pemantau Getaran (Kompatibel Shinkawa)",
     "images": [
       "vibration-probe-shinkawa-1.webp",
@@ -5807,7 +5807,7 @@
       "vibration-probe-shinkawa-11.webp",
       "vibration-probe-shinkawa-12.webp"
     ],
-    "slug": "vibration-monitoring-probes-shinkawa-compatible",
+    "slug": "vibration-monitoring-probes-genuine-shinkawa",
     "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 25000,
@@ -5868,7 +5868,7 @@
   "prod_ee7": {
     "id": "prod_ee7",
     "sku": "KTB-EE-007",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Sistem Probe Kedekatan Bently Nevada 3300 XL",
     "desc": "Probe kedekatan Bently Nevada 3300 XL asli, kabel ekstensi 330130, dan Proximitor untuk pemantauan getaran dan dorongan aksial turbin, gearbox, dan alternator. Penawaran sesuai nomor suku cadang.",
     "usage": "Getaran radial, posisi aksial, eksentrisitas, ekspansi diferensial, serta referensi kecepatan/fasa pada mesin turbo dengan sistem pemantauan Bently Nevada 3500 atau 3300. Probe 5 mm dan 8 mm mencakup pengukuran bantalan luncur dan dorongan yang umum; sistem lebih besar 11, 16, 25, dan 50 mm mencakup pengukuran jangkauan jauh dan ekspansi.",
@@ -5900,7 +5900,7 @@
   "prod_ee8": {
     "id": "prod_ee8",
     "sku": "KTB-EE-008",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Sensor Arus Eddy EPRO PR6423 / PR6424 dan CON011",
     "desc": "Sensor arus eddy Emerson EPRO PR6422 hingga PR6426 asli dan konverter sinyal CON011 untuk mengukur getaran dan posisi poros pada turbin, gearbox, dan generator.",
     "usage": "Pengukuran perpindahan radial dan aksial poros, posisi, eksentrisitas, dan kecepatan/pasak pada turbin uap, gas, dan hidro, kompresor, gearbox, pompa, dan kipas, dengan monitor Emerson / EPRO MMS atau sistem apa pun yang menerima keluaran konverter.",
@@ -5924,7 +5924,7 @@
   "prod_ee9": {
     "id": "prod_ee9",
     "sku": "KTB-EE-009",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Probe Kedekatan Vibro-Meter TQ402 / TQ442 dan IQS450",
     "desc": "Probe kedekatan Meggitt vibro-meter TQ4xx asli, kabel EA40x, dan pengondisi sinyal IQS450 untuk memantau getaran dan posisi poros turbin.",
     "usage": "Getaran poros tanpa kontak dan posisi aksial pada turbin uap, gas, dan hidrolik serta mesin kritis lain yang memakai sistem pemantauan vibro-meter. Keluaran tegangan atau arus dengan proteksi korsleting cocok untuk monitor rak maupun sambungan langsung ke DCS.",
@@ -5949,7 +5949,7 @@
   "prod_ee10": {
     "id": "prod_ee10",
     "sku": "KTB-EE-010",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Transmiter Getaran 2 Kawat 4-20 mA (Shinkawa WK/WKN)",
     "desc": "Transmiter getaran dan dorongan 2 kawat 4-20 mA Shinkawa WK / WKN asli untuk turbin uap, alternator, gearbox, pompa, dan kompresor. Terhubung langsung ke DCS atau PLC, tanpa rak monitor.",
     "usage": "Pemantauan berkelanjutan getaran poros atau posisi dorong pada mesin kecil dan menengah yang tidak membutuhkan monitor rak lengkap: turbin uap bantu, pompa air umpan boiler, gearbox, kompresor, kipas, dan alternator. Sinyal loop 4-20 mA langsung menuju DCS, PLC, atau indikator.",
@@ -5987,7 +5987,7 @@
   "prod_ee11": {
     "id": "prod_ee11",
     "sku": "KTB-EE-011",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Sensor Getaran Casing: Velomitor, CV-86, dan Akselerometer",
     "desc": "Sensor asli Bently Velomitor, Shinkawa CV-86, Hansford, dan SKF untuk getaran bantalan pada turbin, gearbox, alternator, dan motor. Penawaran sesuai model.",
     "usage": "Getaran absolut (seismik) pada dudukan bantalan, casing gearbox, rangka alternator, dan tutup motor, di tempat probe poros tidak dapat dipasang atau saat getaran casing menjadi input alarm atau trip. Dipakai bersama probe kedekatan poros pada rangkaian turbin-gearbox-alternator, dan dipakai sendiri pada motor, kipas, dan pompa.",
@@ -6016,7 +6016,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Sensor Magnetic Pickup (Woodward)",
     "desc": "Magnetic speed pickup (MPU) reluktansi variabel asli Woodward untuk umpan balik kecepatan poros presisi ke governor Woodward dan sistem kontrol turbin digital. Desain pasif, self-powered, tanpa perawatan untuk tugas berkelanjutan pada turbin uap yang berjalan pada 3000–3600 RPM.",
     "usage": "Input penginderaan kecepatan utama untuk governor digital Woodward 505/505D/505E, amplifier governor 2301 dan 7206, serta sistem trip overspeed standalone pada turbin uap Triveni, BHEL, Siemens, KKK, dan Maxwatt. Memantau kecepatan rotor turbin melalui roda gigi governor (gigi/roda gila) untuk memberikan regulasi kecepatan loop tertutup, kontrol beban, dan proteksi overspeed selama startup, sinkronisasi, dan operasi beban penuh.",
@@ -6085,7 +6085,7 @@
   "prod_ee3": {
     "id": "prod_ee3",
     "sku": "KTB-EE-003",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Katup Solenoid Tahan Ledakan ASCO Seri 8210",
     "desc": "Katup solenoid tahan ledakan serba guna ASCO seri 8210 untuk aplikasi trip turbin, oli pelumas, seal uap, dan kontrol proses. Dirating ATEX/IECEx dan NEMA 7/9 untuk instalasi area berbahaya.",
     "usage": "Pembuangan oli trip darurat turbin, solenoid admission/trip uap, kontrol sistem oli pelumas, isolasi media proses, dan katup aktuasi sistem instrumentasi keselamatan (SIS) di area berbahaya Zone 1/Zone 2.",
@@ -6146,7 +6146,7 @@
   "prod_ee4": {
     "id": "prod_ee4",
     "sku": "KTB-EE-004",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Tachometer Analog Industri Beacon",
     "desc": "Tachometer panel analog industri yang kokoh untuk indikasi kecepatan poros langsung di panel kontrol turbin. Mekanisme kokoh dengan casing tersegel IP54 untuk lingkungan rumah turbin uap.",
     "usage": "Indikasi kecepatan turbin lokal pada panel kontrol turbin, konsol operator, dan enclosure instrumen lokal di pabrik gula, pembangkit listrik, dan pabrik kertas.",
@@ -6206,7 +6206,7 @@
   "prod_ee5": {
     "id": "prod_ee5",
     "sku": "KTB-EE-005",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "RTD & Sensor untuk Pembangkit Listrik & Turbin Uap",
     "desc": "Rangkaian lengkap Resistance Temperature Detector (RTD), termokopel, dan sensor proses untuk suhu bearing turbin, suhu oli pelumas, suhu uap, dan pemantauan gas buang.",
     "usage": "Pemantauan suhu logam bearing (babbitt), suhu masuk/keluar oli pelumas, suhu steam chest, suhu buang, dan suhu air pendingin pada turbin uap dan peralatan bantu pembangkit listrik.",
@@ -6264,7 +6264,7 @@
   "prod_ee6": {
     "id": "prod_ee6",
     "sku": "KTB-EE-006",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Dioda Penyearah SEMIKRON SKN240/16",
     "desc": "Dioda penyearah daya mount-stud SEMIKRON SKN240/16 untuk sirkuit eksitasi AVR alternator dan jembatan penyearah turbin-generator. Arus maju rata-rata 240 A, tegangan balik puncak 1600 V. Rentang tegangan VRRM penuh (800 V hingga 2200 V) tersedia — sebutkan kelas tegangan saat pemesanan.",
     "usage": "Penyearah jembatan dioda berputar pada alternator brushless, panel eksitasi AVR statis, sirkuit kontrol generator berpenggerak turbin, dan rektifikasi daya industri pada alternator pabrik gula dan pembangkit listrik.",

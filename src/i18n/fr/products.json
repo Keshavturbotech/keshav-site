@@ -211,7 +211,7 @@
       "Capacité de rétention de saleté élevée pour des intervalles de service prolongés",
       "Étanchéité Viton (V) pour la résistance chimique",
       "Indice de filtration : 3 VL microns pour une contamination fine en suspension dans l'air",
-      "Protège la propreté du système selon ISO 4406:99",
+      "Protège la propreté du système selon ISO 4406",
       "Conception à montage sur réservoir avec entretien facile à une main"
     ],
     "specs": {
@@ -220,7 +220,7 @@
       "Filtration Grade": "3 VL",
       "Sealing": "Viton (V)",
       "Installation": "Montage sur reniflard de réservoir",
-      "Standards": "Compatible ISO 16889, ISO 4406:99",
+      "Standards": "Compatible ISO 16889, ISO 4406",
       "HSN Code": "8421"
     },
     "images": [
@@ -426,7 +426,7 @@
       "MOC : boîtier en acier au carbone ou en acier inoxydable",
       "Références croisées OEM : série Eaton 01.E ; Parker ; série HYDAC RFM/RFD ; éléments de ligne de retour Internormen",
       "Empêche l'huile contaminée de retourner dans le réservoir principal",
-      "Maintient la propreté du système selon les normes ISO 4406:99",
+      "Maintient la propreté du système selon les normes ISO 4406",
       "Compatible avec les huiles minérales, les émulsions et les fluides synthétiques",
       "Disponible en plusieurs tailles de débit et indices en microns — 4, 6, 10, 16, 25 µm standard",
       "Option de vanne de dérivation pour la protection au démarrage à froid",
@@ -441,7 +441,7 @@
       "MOC": "Acier au carbone / Acier inoxydable",
       "OEM Cross-References": "Série Eaton 01.E ; Parker ; HYDAC RFM/RFD ; Internormen",
       "Bypass": "Vanne de dérivation disponible pour la protection au démarrage à froid",
-      "Standards": "Conformité à la propreté ISO 4406:99",
+      "Standards": "Conformité à la propreté ISO 4406",
       "HSN Code": "8421"
     },
     "images": [
@@ -2468,7 +2468,7 @@
       "Fabriqué à partir de plans OEM en ingénierie inverse avec vérification des matériaux par PMI",
       "Matériau : acier allié (CrMoV, 12 % Cr) selon les conditions de vapeur",
       "Usinage de précision : ébauche > pré-finition > finition",
-      "Équilibrage dynamique 50-2 000 kg selon ISO 21940-11 / ISO 1940",
+      "Équilibrage dynamique 50-2 000 kg selon ISO 21940-11 (formerly ISO 1940)",
       "Rapport d'équilibrage complet avec données de faux-rond mécanique et électrique",
       "Options de fixation des aubes : arbre en éventail, pied en T, ou queue d'aronde",
       "Améliorations de matériaux disponibles pour les programmes de prolongation de vie",
@@ -2476,7 +2476,7 @@
     ],
     "specs": {
       "Rotor Material": "Acier allié (CrMoV, 12 % Cr) selon conditions de vapeur",
-      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (capacité : 50-2 000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 (formerly ISO 1940) (capacité : 50-2 000 kg)",
       "Machining Stages": "Usinage d'ébauche > pré-finition > usinage final",
       "Blade Root Options": "Arbre en éventail, pied en T, queue d'aronde",
       "Documentation": "Certificat d'inspection complet + rapport d'équilibrage",
@@ -3452,7 +3452,7 @@
       "Rechargement Stellite sur les bords d'attaque du dernier étage BP — protection contre l'érosion par les gouttelettes de vapeur humide",
       "Vérification dimensionnelle : contrôle par gabarit de profil + rapport d'inspection MMT pour chaque lot d'aubes",
       "Vérification des matériaux par PMI avant usinage — certificat de composition chimique fourni",
-      "Équilibrage dynamique du jeu complet d'aubes sur le disque de rotor — conformité ISO 21940-11 / ISO 1940",
+      "Équilibrage dynamique du jeu complet d'aubes sur le disque de rotor — conformité ISO 21940-11 (formerly ISO 1940)",
       "Aubes mobiles (rotor) et fixes (tuyère/diaphragme) fournies séparément ou en jeu d'étage",
       "Adaptées aux programmes de prolongation de vie — amélioration de matériau d'aube disponible"
     ],
@@ -3465,7 +3465,7 @@
       "Erosion Protection": "Rechargement Stellite sur bord d'attaque du dernier étage BP",
       "Verification": "Gabarit de profil + rapport d'inspection MMT par lot",
       "PMI Certificate": "Certificat de composition chimique fourni",
-      "Balancing Standard": "ISO 21940-11 / ISO 1940 (sur disque de rotor)",
+      "Balancing Standard": "ISO 21940-11 (formerly ISO 1940) (sur disque de rotor)",
       "HSN Code": "8406"
     },
     "images": [
@@ -4850,7 +4850,7 @@
   "prod_ee1": {
     "id": "prod_ee1",
     "sku": "KTB-EE-001",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Sondes de surveillance de vibration (compatibles Shinkawa)",
     "images": [
       "vibration-probe-shinkawa-1.webp",
@@ -4866,7 +4866,7 @@
       "vibration-probe-shinkawa-11.webp",
       "vibration-probe-shinkawa-12.webp"
     ],
-    "slug": "vibration-monitoring-probes-shinkawa-compatible",
+    "slug": "vibration-monitoring-probes-genuine-shinkawa",
     "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 25000,
@@ -4927,7 +4927,7 @@
   "prod_ee7": {
     "id": "prod_ee7",
     "sku": "KTB-EE-007",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Systèmes de sondes de proximité Bently Nevada 3300 XL",
     "desc": "Sondes de proximité Bently Nevada 3300 XL d'origine, câbles 330130 et Proximitor pour la surveillance des vibrations et de la poussée sur turbines, réducteurs et alternateurs. Devis selon la référence.",
     "usage": "Vibration radiale, position axiale, excentricité, dilatation différentielle et référence de vitesse/phase sur les turbomachines équipées de systèmes de surveillance Bently Nevada 3500 ou 3300. Les sondes de 5 mm et 8 mm couvrent les mesures courantes de paliers lisses et de poussée ; les systèmes plus grands de 11, 16, 25 et 50 mm couvrent les mesures à grande plage et de dilatation.",
@@ -4959,7 +4959,7 @@
   "prod_ee8": {
     "id": "prod_ee8",
     "sku": "KTB-EE-008",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Capteurs à courants de Foucault EPRO PR6423 / PR6424 et CON011",
     "desc": "Capteurs à courants de Foucault Emerson EPRO PR6422 à PR6426 d'origine et convertisseurs de signal CON011 pour mesurer la vibration et la position d'arbre sur turbines, réducteurs et générateurs.",
     "usage": "Mesure du déplacement radial et axial de l'arbre, de la position, de l'excentricité et de la vitesse/clavette sur turbines à vapeur, à gaz et hydrauliques, compresseurs, réducteurs, pompes et ventilateurs, avec les moniteurs Emerson / EPRO MMS ou tout système acceptant la sortie du convertisseur.",
@@ -4983,7 +4983,7 @@
   "prod_ee9": {
     "id": "prod_ee9",
     "sku": "KTB-EE-009",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Sondes de proximité Vibro-Meter TQ402 / TQ442 et IQS450",
     "desc": "Sondes de proximité Meggitt vibro-meter TQ4xx d'origine, câbles EA40x et conditionneurs IQS450 pour surveiller la vibration et la position d'arbre de turbines.",
     "usage": "Vibration d'arbre sans contact et position axiale sur turbines à vapeur, à gaz et hydrauliques et autres machines critiques équipées de systèmes de surveillance vibro-meter. La sortie en tension ou en courant protégée contre les courts-circuits convient aux moniteurs en baie comme au raccordement direct à un DCS.",
@@ -5008,7 +5008,7 @@
   "prod_ee10": {
     "id": "prod_ee10",
     "sku": "KTB-EE-010",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Transmetteurs de vibration 2 fils 4-20 mA (Shinkawa WK/WKN)",
     "desc": "Transmetteurs de vibration et de poussée 2 fils 4-20 mA Shinkawa WK / WKN d'origine pour turbines à vapeur, alternateurs, réducteurs, pompes et compresseurs. Raccordement direct au DCS ou à l'automate, sans baie de moniteur.",
     "usage": "Surveillance continue de la vibration d'arbre ou de la position de poussée sur petites et moyennes machines pour lesquelles un moniteur en baie complet n'est pas justifié : turbines à vapeur auxiliaires, pompes d'alimentation de chaudière, réducteurs, compresseurs, ventilateurs et alternateurs. Le signal de boucle 4-20 mA va directement à un DCS, un automate ou un indicateur.",
@@ -5046,7 +5046,7 @@
   "prod_ee11": {
     "id": "prod_ee11",
     "sku": "KTB-EE-011",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Capteurs de vibration de carter : Velomitor, CV-86 et accéléromètres",
     "desc": "Capteurs d'origine Bently Velomitor, Shinkawa CV-86, Hansford et SKF pour la vibration des paliers sur turbines, réducteurs, alternateurs et moteurs. Devis selon le modèle.",
     "usage": "Vibration absolue (sismique) sur supports de palier, carters de réducteur, bâtis d'alternateur et flasques de moteur, là où une sonde d'arbre ne peut pas être installée ou lorsque la vibration de carter est une entrée d'alarme ou de déclenchement. Utilisés avec les sondes de proximité d'arbre sur les lignes turbine-réducteur-alternateur, et seuls sur les moteurs, ventilateurs et pompes.",
@@ -5075,7 +5075,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Capteur magnétique (Woodward)",
     "desc": "Capteur de vitesse magnétique à réluctance variable Woodward authentique (MPU) pour la rétroaction précise de vitesse d'arbre vers les régulateurs Woodward et systèmes de contrôle de turbine numériques. Conception passive, autoalimentée, sans entretien pour un service continu sur turbines à vapeur fonctionnant à 3000–3600 tr/min.",
     "usage": "Entrée de détection de vitesse primaire pour les régulateurs numériques Woodward 505/505D/505E, amplificateurs de régulateur 2301 et 7206, et systèmes de déclenchement de survitesse autonomes sur les turbines à vapeur Triveni, BHEL, Siemens, KKK et Maxwatt. Surveille la vitesse du rotor de turbine via la roue dentée du régulateur (engrenage/volant) pour fournir une régulation de vitesse en boucle fermée, un contrôle de charge, et une protection contre la survitesse tout au long du démarrage, de la synchronisation, et du fonctionnement à pleine charge.",
@@ -5144,7 +5144,7 @@
   "prod_ee3": {
     "id": "prod_ee3",
     "sku": "KTB-EE-003",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Électrovanne antidéflagrante série ASCO 8210",
     "desc": "Électrovannes antidéflagrantes série ASCO 8210 pour applications de déclenchement de turbine, huile de lubrification, joint vapeur, et contrôle de process. Classées ATEX/IECEx et NEMA 7/9 pour installation en zone dangereuse.",
     "usage": "Vidange d'huile de déclenchement d'urgence de turbine, électrovannes d'admission/déclenchement vapeur, contrôle de système d'huile de lubrification, isolement de média de process, et vannes d'actionnement de système instrumenté de sécurité (SIS) en zones dangereuses 1/2.",
@@ -5205,7 +5205,7 @@
   "prod_ee4": {
     "id": "prod_ee4",
     "sku": "KTB-EE-004",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Tachymètre analogique industriel Beacon",
     "desc": "Tachymètre analogique de panneau industriel robuste pour l'indication directe de vitesse d'arbre dans les panneaux de contrôle de turbine. Mouvement robuste avec boîtier scellé IP54 pour les environnements de salle de turbine à vapeur.",
     "usage": "Indication locale de vitesse de turbine sur les panneaux de contrôle de turbine, consoles d'opérateur, et enceintes d'instrument locales dans les sucreries, centrales électriques, et papeteries.",
@@ -5265,7 +5265,7 @@
   "prod_ee5": {
     "id": "prod_ee5",
     "sku": "KTB-EE-005",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "RTD et capteurs pour centrales électriques et turbines à vapeur",
     "desc": "Gamme complète de détecteurs de température à résistance (RTD), thermocouples, et capteurs de process pour la température de palier de turbine, la température d'huile de lubrification, la température de vapeur, et la surveillance des gaz d'échappement.",
     "usage": "Surveillance de la température de métal de palier (babbitt), de la température d'entrée/sortie d'huile de lubrification, de la température de la boîte à vapeur, de la température d'échappement, et de la température d'eau de refroidissement dans les turbines à vapeur et auxiliaires de centrale électrique.",
@@ -5323,7 +5323,7 @@
   "prod_ee6": {
     "id": "prod_ee6",
     "sku": "KTB-EE-006",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Diode redresseuse SEMIKRON SKN240/16",
     "desc": "Diode redresseuse de puissance à montage sur goujon SEMIKRON SKN240/16 pour circuits d'excitation AVR d'alternateur et ponts redresseurs de générateur de turbine. Courant direct moyen de 240 A, tension inverse de crête de 1600 V. Plage complète de tension VRRM (800 V à 2200 V) disponible — préciser la classe de tension à la commande.",
     "usage": "Ponts redresseurs à diodes tournantes dans les alternateurs sans balais, panneaux d'excitation AVR statiques, circuits de contrôle de générateur entraîné par turbine, et redressement de puissance industrielle dans les alternateurs de sucrerie et de centrale électrique.",

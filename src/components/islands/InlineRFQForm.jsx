@@ -139,6 +139,7 @@ export default function InlineRFQForm({ productTitle, contactHref = "/contact" }
             Request a Quote by Email
           </span>
           <span className="hidden sm:inline text-xs text-slate-500 font-medium">
+            {" "}
             — no WhatsApp needed
           </span>
         </span>

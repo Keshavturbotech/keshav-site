@@ -9,7 +9,7 @@
       },
       {
         "title": "Contaminación del Aceite Lubricante",
-        "desc": "La entrada de partículas y agua en el sistema de aceite lubricante puede degradar rápidamente las superficies de los cojinetes. Los objetivos de limpieza ISO 4406:99 deben mantenerse de forma continua."
+        "desc": "La entrada de partículas y agua en el sistema de aceite lubricante puede degradar rápidamente las superficies de los cojinetes. Los objetivos de limpieza ISO 4406 deben mantenerse de forma continua."
       },
       {
         "title": "Expansión Térmica en Líneas de Vapor",
@@ -23,7 +23,7 @@
     "products": [
       {
         "name": "Elementos Filtrantes de Aceite Lubricante (180 GPM)",
-        "purpose": "Mantiene la limpieza ISO 4406:99 en los sistemas de aceite lubricante de turbinas, protegiendo los cojinetes de muñón y de empuje del desgaste abrasivo.",
+        "purpose": "Mantiene la limpieza ISO 4406 en los sistemas de aceite lubricante de turbinas, protegiendo los cojinetes de muñón y de empuje del desgaste abrasivo.",
         "features": [
           "Medio VG de fieltro de fibra de vidrio, finura 6–25 µm",
           "Especificación antiestática IS27 para aceites sintéticos",
@@ -89,7 +89,7 @@
     "keyFacts": [
       "Capacidad máxima de turbina atendida: 60 MW",
       "{years}+ años de experiencia en ingeniería formada en OEM",
-      "Productos conformes a API 614 e ISO 4406:99",
+      "Productos conformes a API 614 e ISO 4406",
       "Suministro de filtros HVAC para salas de control y naves de turbinas",
       "Soporte de averías de emergencia 24×7"
     ]

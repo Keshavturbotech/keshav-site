@@ -1,5 +1,5 @@
 // src/data/products/misc.ts
-// Extracted verbatim from src/data/products.ts RAW_PRODUCTS — "Electronic Equipments", "HVAC, Ducting & Air Filtration", "Industrial Rubber Products", "Hydraulic Components" categories.
+// Extracted verbatim from src/data/products.ts RAW_PRODUCTS — "Electronic Equipment", "HVAC, Ducting & Air Filtration", "Industrial Rubber Products", "Hydraulic Components" categories.
 // Staged copy only (Part 1c of the products.ts split) — no functional changes yet.
 // Preserves EXACT original relative order within each category group.
 //
@@ -52,11 +52,11 @@ export const MISC_PRODUCTS = [
   {
       id: "prod_ee1",
       sku: "KTB-EE-001",
-      category: "Electronic Equipments",
-      title: "Vibration Monitoring Probes (Shinkawa-compatible)",
-      desc: "Genuine Shinkawa FK / VK eddy-current probes, extension cables and drivers for steam turbine, gearbox and alternator vibration and thrust monitoring. In stock in Shamli, UP.",
+      category: "Electronic Equipment",
+      title: "Vibration Monitoring Probes (Genuine Shinkawa)",
+      desc: "Genuine Shinkawa FK / VK eddy-current probes, extension cables and drivers for steam turbine, gearbox and alternator vibration and thrust monitoring. Stocked in Shamli, UP; lead time confirmed per model.",
       usage:
-        "Non-contact measurement of shaft radial vibration, axial (thrust) position, eccentricity, rotational speed and phase reference (Keyphasor) on steam turbines, turbo-alternators, gearboxes, compressors, boiler feed pumps and large fans. Feeds Shinkawa VM-5 / VM-7 / VM-25 monitors, other API 670 style monitoring racks, and DCS or PLC inputs.",
+        "Non-contact measurement of shaft radial vibration, axial (thrust) position, eccentricity, rotational speed and phase reference (Keyphasor) on steam turbines, turbo-alternators, gearboxes, compressors, boiler feed pumps and large fans. Feeds Shinkawa VM-5 / VM-7 / VM-25 monitors, other monitoring racks that accept a -24 V DC proximity signal, and DCS or PLC inputs.",
       features: [
         "Genuine Shinkawa transducer system in three matched parts: FL sensor (probe), FW extension cable and FK driver. The three are calibrated together as a loop, so if one part is replaced the sensor, cable and driver should be replaced as a set",
         "FK series (current range) and VK series (older installations) available. FK drivers come with a mounting plate for direct replacement of VK drivers; differential expansion measurement still uses the VK series",
@@ -119,7 +119,7 @@ export const MISC_PRODUCTS = [
   {
       id: "prod_ee2",
       sku: "KTB-EE-002",
-      category: "Electronic Equipments",
+      category: "Electronic Equipment",
       title: "Magnetic Pickup Sensor (Woodward)",
       desc: "Genuine Woodward variable reluctance magnetic speed pickup (MPU) (long-body 5/8-18 UNF variant cross-referenced to Woodward part number 5430-933, manufacturer marking MSC 401029-20) for precise shaft speed feedback to Woodward governors and digital turbine control systems. Passive, self-powered, zero-maintenance design for continuous duty on steam turbines running at 3000–3600 RPM; MSC 401029-20 is the most commonly ordered variant on Indian steam turbine governor retrofits and overhauls.",
       usage:
@@ -180,7 +180,7 @@ export const MISC_PRODUCTS = [
   {
       id: "prod_ee3",
       sku: "KTB-EE-003",
-      category: "Electronic Equipments",
+      category: "Electronic Equipment",
       title: "ASCO 8210 Series Explosion-Proof Solenoid Valve",
       desc: "ASCO 8210 series general purpose explosion-proof solenoid valves for turbine trip, lube oil, steam seal, and process control applications. ATEX/IECEx and NEMA 7/9 rated for hazardous area installation.",
       usage:
@@ -229,7 +229,7 @@ export const MISC_PRODUCTS = [
   {
       id: "prod_ee4",
       sku: "KTB-EE-004",
-      category: "Electronic Equipments",
+      category: "Electronic Equipment",
       title: "Beacon Industrial Analog Tachometer Gauge",
       desc: "Robust industrial analog panel tachometer for direct shaft speed indication in turbine control panels. Robust movement with IP54 sealed case for steam turbine house environments.",
       usage:
@@ -278,7 +278,7 @@ export const MISC_PRODUCTS = [
   {
       id: "prod_ee5",
       sku: "KTB-EE-005",
-      category: "Electronic Equipments",
+      category: "Electronic Equipment",
       title: "RTD & Sensors for Power Plants & Steam Turbines",
       desc: "Complete range of Resistance Temperature Detectors (RTDs), thermocouples, and process sensors for turbine bearing temperature, lube oil temperature, steam temperature, and exhaust gas monitoring.",
       usage:
@@ -324,7 +324,7 @@ export const MISC_PRODUCTS = [
   {
       id: "prod_ee6",
       sku: "KTB-EE-006",
-      category: "Electronic Equipments",
+      category: "Electronic Equipment",
       title: "SEMIKRON SKN240/16 Rectifier Diode",
       desc: "SEMIKRON SKN240/16 stud-mount power rectifier diode for alternator AVR excitation circuits and turbine-generator rectifier bridges. 240 A average forward current, 1600 V peak reverse voltage. Full VRRM voltage range (800 V to 2200 V) available: specify voltage class at order.",
       usage:
@@ -424,7 +424,7 @@ export const MISC_PRODUCTS = [
       sku: "KTB-HC-002",
       category: "Hydraulic Components",
       title: "Hydraulic Accumulators: Bladder & Piston Type",
-      desc: "Hydraulic accumulators in bladder and piston configurations for energy storage, pressure pulsation dampening, emergency actuation, and thermal expansion compensation in turbine hydraulic trip circuits, ESV actuator systems, and industrial hydraulic power units. Bladder type: nitrogen-precharged elastomeric bladder inside a seamless steel shell, compact, fast-response, 0.5 to 200 litres, up to 350 bar. Piston type: floating piston separating gas and fluid chambers in a heavy-wall cylinder, higher pressure ratios, larger volumes, suitable for high-temperature oil service. Compatible with HYDAC, Bosch Rexroth, Parker, and EPE accumulator system hardware.",
+      desc: "Hydraulic accumulators in bladder and piston configurations for energy storage, pressure pulsation dampening, emergency actuation, and thermal expansion compensation in turbine hydraulic trip circuits, emergency stop valve (ESV) actuator systems, and industrial hydraulic power units. Bladder type: nitrogen-precharged elastomeric bladder inside a seamless steel shell, compact, fast-response, 0.5 to 200 litres, up to 350 bar. Piston type: floating piston separating gas and fluid chambers in a heavy-wall cylinder, higher pressure ratios, larger volumes, suitable for high-temperature oil service. Compatible with HYDAC, Bosch Rexroth, Parker, and EPE accumulator system hardware.",
       usage:
         "Critical hydraulic component in steam turbine control and trip systems: ESV (Emergency Stop Valve) hydraulic actuator energy storage, provides closing force for 3–5 full ESV strokes on loss of hydraulic supply; governor hydraulic actuator supply pressure maintenance during pump switchover; turbine trip oil header pressure hold during transients. Also used across industrial HPUs for: shock and pulsation absorption on pump outlet lines; energy storage for intermittent high-flow demand (press, clamp, die-casting); thermal compensation in blocked-in hydraulic circuits; emergency lowering and clamping circuits on loss of pump power.",
       features: [
@@ -792,7 +792,7 @@ export const MISC_PRODUCTS = [
   {
       id: "prod_ee7",
       sku: "KTB-EE-007",
-      category: "Electronic Equipments",
+      category: "Electronic Equipment",
       title: "Bently Nevada 3300 XL Proximity Probe Systems",
       desc: "Genuine Bently Nevada 3300 XL proximity probes, 330130 cables and Proximitors for turbine, gearbox and alternator vibration and thrust monitoring. Quote by part number.",
       usage:
@@ -829,7 +829,7 @@ export const MISC_PRODUCTS = [
   {
       id: "prod_ee8",
       sku: "KTB-EE-008",
-      category: "Electronic Equipments",
+      category: "Electronic Equipment",
       title: "EPRO PR6423 / PR6424 Eddy Current Sensors & CON011",
       desc: "Genuine Emerson EPRO PR6422-PR6426 eddy-current sensors and CON011 converters for turbine, gearbox and generator shaft vibration and position.",
       usage:
@@ -864,9 +864,9 @@ export const MISC_PRODUCTS = [
   {
       id: "prod_ee9",
       sku: "KTB-EE-009",
-      category: "Electronic Equipments",
+      category: "Electronic Equipment",
       title: "Vibro-Meter TQ402 / TQ442 Proximity Probes & IQS450",
-      desc: "Genuine Meggitt vibro-meter TQ4xx proximity probes, EA40x cables and IQS450 conditioners for turbine shaft vibration and position monitoring.",
+      desc: "Genuine Parker Meggitt vibro-meter TQ4xx proximity probes, EA40x cables and IQS450 conditioners for turbine shaft vibration and position monitoring.",
       usage:
         "Non-contact shaft vibration and axial position on steam, gas and hydraulic turbines and other critical machines using vibro-meter monitoring systems. Voltage or current output with short-circuit protection suits both rack monitors and direct DCS connection.",
       features: [
@@ -878,7 +878,7 @@ export const MISC_PRODUCTS = [
         "Brand and model names are trademarks of their respective owners and are used for identification only. Keshav Enterprises is an independent supplier.",
       ],
       specs: {
-        Brand: "Meggitt vibro-meter, genuine",
+        Brand: "Parker Meggitt vibro-meter, genuine",
         Transducers: "TQ401, TQ402, TQ403, TQ412, TQ422, TQ423, TQ432, TQ442",
         "Extension Cables": "EA401, EA402, EA403",
         "Signal Conditioners": "IQS450, IQS900",
@@ -896,7 +896,7 @@ export const MISC_PRODUCTS = [
   {
       id: "prod_ee10",
       sku: "KTB-EE-010",
-      category: "Electronic Equipments",
+      category: "Electronic Equipment",
       title: "2-Wire 4-20 mA Vibration Transmitters (Shinkawa WK/WKN)",
       desc: "Genuine Shinkawa WK / WKN 2-wire 4-20 mA vibration and thrust transmitters for steam turbines, alternators, gearboxes, pumps and compressors. Direct DCS or PLC connection, no monitor rack.",
       usage:
@@ -911,7 +911,7 @@ export const MISC_PRODUCTS = [
         "Complete system: WL-142K sensor, WW-142K extension cable and the transmitter, in 5 m, 7 m or 9 m system lengths; sensor and cable are supplied together because the system is calibrated as a loop",
         "Transmitter housing about 100 x 74 x 50 mm with optional DIN mounting clips; non-incendive option (CSA Class I Div 2 Groups A-D, ATEX Ex nA)",
         "Calibrated on JIS SCM440 (AISI 4140 equivalent) steel only. Insulate the sensor-cable-to-extension-cable connector with the supplied sleeve or fluoro-resin tape",
-        "Also available: Meggitt vibro-meter proximity systems with 2-wire current output (see the vibro-meter listing)",
+        "Also available: Parker Meggitt vibro-meter proximity systems with 2-wire current output (see the vibro-meter listing)",
         "Brand and model names are trademarks of their respective owners and are used for identification only. Keshav Enterprises is an independent supplier.",
       ],
       specs: {
@@ -940,7 +940,7 @@ export const MISC_PRODUCTS = [
   {
       id: "prod_ee11",
       sku: "KTB-EE-011",
-      category: "Electronic Equipments",
+      category: "Electronic Equipment",
       title: "Casing Vibration Sensors: Velomitor, CV-86 & Accelerometers",
       desc: "Genuine Bently Velomitor, Shinkawa CV-86, Hansford and SKF sensors for turbine, gearbox, alternator and motor bearing vibration. Quote by model.",
       usage:

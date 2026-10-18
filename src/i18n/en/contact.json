@@ -1,23 +1,23 @@
 {
   "meta": {
     "title": "Contact Engineering Team — Request a Technical Quote",
-    "description": "Contact Keshav Enterprises for turbine engineering RFQs, reverse engineering quotes and 24x7 emergency breakdown support across India and worldwide.",
+    "description": "Contact Keshav Enterprises for turbine engineering RFQs, reverse engineering quotes and 24×7 emergency breakdown support across India and worldwide.",
     "schemaName": "Contact Keshav Enterprises"
   },
   "hero": {
     "title": "Talk to an Engineer",
-    "subtitle": "Share your requirements and our ex-OEM engineering team will respond with a technical answer within 24 hours.",
+    "subtitle": "Share your requirements and our ex-OEM engineering team will reply to planned enquiries within 1 business day.",
     "trustSignals": [
       "Confidential RFQ — never shared with OEM reps",
       "No obligation — you decide what's next",
-      "24-hour planned · 1-hour emergency"
+      "Planned: 1 business day · Emergency: 24×7"
     ]
   },
   "cards": {
     "directLines": {
       "title": "Direct Lines",
       "salesLabel": "Sales & RFQ",
-      "emergencyLabel": "24x7 Emergency Breakdown",
+      "emergencyLabel": "24×7 Emergency Breakdown",
       "whatsappCta": "WhatsApp this line",
       "whatsappPrefillMessage": "Hi, I need emergency breakdown support for my turbine."
     },
@@ -106,8 +106,8 @@
       "General Inquiry"
     ],
     "officeStatus": {
-      "online": "Engineers online now — reply within 2 hrs",
-      "offline": "Emergency line active 24x7 — planned RFQs answered by 9 AM IST"
+      "online": "Engineers online now: call or WhatsApp",
+      "offline": "Emergency line active 24×7, planned enquiries answered within 1 business day"
     },
     "labels": {
       "yourName": "Your Name",
@@ -165,11 +165,11 @@
     },
     "success": {
       "heading": "Inquiry sent to our engineers.",
-      "bodyPrefix": "Expect a technical response within",
-      "bodyMid": "for planned inquiries, or",
-      "bodySuffix": "for emergency breakdowns — from an engineer, not a call centre.",
-      "hours24": "24 hours",
-      "hour1": "1 hour",
+      "bodyPrefix": "Expect a reply to planned enquiries within",
+      "bodyMid": "and, for emergency breakdowns, the line is",
+      "bodySuffix": "— from an engineer, not a call centre.",
+      "hours24": "1 business day",
+      "hour1": "answered 24×7",
       "resendCta": "Send another inquiry",
       "whileYouWaitLabel": "While you wait —",
       "whileYouWaitText": "browse our documented case studies and field results.",

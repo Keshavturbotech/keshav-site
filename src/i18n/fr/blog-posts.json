@@ -72,7 +72,7 @@
       },
       {
         "type": "p",
-        "text": "Envoyez le rotor pour rectification du tourillon et équilibrage dynamique si les relevés de faux-rond ou de vibration dépassaient la tolérance. Remplacez les bagues de presse-étoupe en carbone et graphite, les garnitures labyrinthes, et les paliers en régule selon le rapport d'état. Tout équilibrage de rotor doit être effectué selon les normes ISO 1940 ou API 670."
+        "text": "Envoyez le rotor pour rectification du tourillon et équilibrage dynamique si les relevés de faux-rond ou de vibration dépassaient la tolérance. Remplacez les bagues de presse-étoupe en carbone et graphite, les garnitures labyrinthes, et les paliers en régule selon le rapport d'état. Tout équilibrage de rotor doit être effectué selon les normes ISO 21940-11 (formerly ISO 1940)."
       },
       {
         "type": "h2",
@@ -88,7 +88,7 @@
       },
       {
         "type": "p",
-        "text": "Avant la mise en service, rincez le système d'huile de lubrification avec un système de filtration à centrifugeuse mobile en visant une classe de propreté ISO 4406:99 de 16/14/11 ou mieux. Prélevez des échantillons d'huile avant et après le rinçage et conservez les rapports. Ne mettez jamais une turbine en service sans avoir terminé un rinçage d'huile — les défaillances de paliers dues à une huile contaminée représentent une part importante des pannes post-révision."
+        "text": "Avant la mise en service, rincez le système d'huile de lubrification avec un système de filtration à centrifugeuse mobile en visant une classe de propreté ISO 4406 de 16/14/11 ou mieux. Prélevez des échantillons d'huile avant et après le rinçage et conservez les rapports. Ne mettez jamais une turbine en service sans avoir terminé un rinçage d'huile — les défaillances de paliers dues à une huile contaminée représentent une part importante des pannes post-révision."
       },
       {
         "type": "h2",
@@ -138,7 +138,7 @@
       },
       {
         "type": "p",
-        "text": "Solution : installez des éléments filtrants d'huile de lubrification à haute efficacité (ISO 16889, ratio bêta ≥200 à 10 microns) dans le boîtier de filtre principal. Utilisez des éléments filtrants de reniflard de réservoir (fibre de verre 3 VL) pour empêcher l'ingestion de particules en suspension dans l'air. Propreté cible du système : classe ISO 4406:99 16/14/11 ou mieux pour les paliers de turbine."
+        "text": "Solution : installez des éléments filtrants d'huile de lubrification à haute efficacité (ISO 16889, ratio bêta ≥200 à 10 microns) dans le boîtier de filtre principal. Utilisez des éléments filtrants de reniflard de réservoir (fibre de verre 3 VL) pour empêcher l'ingestion de particules en suspension dans l'air. Propreté cible du système : classe ISO 4406 16/14/11 ou mieux pour les paliers de turbine."
       },
       {
         "type": "h2",
@@ -251,7 +251,7 @@
       },
       {
         "type": "p",
-        "text": "L'usinage est réalisé en trois étapes : ébauche jusqu'à des dimensions proches des dimensions finales, traitement thermique si nécessaire (détente des contraintes, trempe et revenu, nitruration), et usinage de précision final. Chaque étape est inspectée par rapport au plan d'ingénierie. Les rotors sont équilibrés dynamiquement selon les normes ISO 21940-11 / ISO 1940 avant expédition."
+        "text": "L'usinage est réalisé en trois étapes : ébauche jusqu'à des dimensions proches des dimensions finales, traitement thermique si nécessaire (détente des contraintes, trempe et revenu, nitruration), et usinage de précision final. Chaque étape est inspectée par rapport au plan d'ingénierie. Les rotors sont équilibrés dynamiquement selon les normes ISO 21940-11 (formerly ISO 1940) avant expédition."
       },
       {
         "type": "h2",
@@ -372,7 +372,7 @@
       },
       {
         "type": "p",
-        "text": "Un code de propreté ISO 4406:99 comporte trois chiffres, par exemple 18/16/13. Chaque chiffre est un « code de plage » représentant un comptage de particules par millilitre d'huile à trois tailles de particules différentes : 4 µm(c), 6 µm(c), et 14 µm(c). Le suffixe « (c) » signifie que le comptage utilise l'étalonnage du compteur optique de particules selon ISO 11171 — ne le comparez pas avec d'anciens rapports utilisant la méthode non étalonnée."
+        "text": "Un code de propreté ISO 4406 comporte trois chiffres, par exemple 18/16/13. Chaque chiffre est un « code de plage » représentant un comptage de particules par millilitre d'huile à trois tailles de particules différentes : 4 µm(c), 6 µm(c), et 14 µm(c). Le suffixe « (c) » signifie que le comptage utilise l'étalonnage du compteur optique de particules selon ISO 11171 — ne le comparez pas avec d'anciens rapports utilisant la méthode non étalonnée."
       },
       {
         "type": "list",
@@ -390,7 +390,7 @@
       },
       {
         "type": "p",
-        "text": "Pour les systèmes de palier de tourillon et d'huile de lubrification de turbine à vapeur, l'objectif est généralement une classe ISO 4406:99 de 16/14/11 — c'est l'exigence minimale de la norme API 614. De nombreux OEM, dont Triveni et Siemens, spécifient 15/13/10 pour les turbines dotées de systèmes de commande hydraulique. Après une révision majeure ou un rinçage d'huile de lubrification, le système doit atteindre 16/14/11 avant l'introduction de l'huile pour éviter des dommages de contamination des paliers pendant la montée en régime."
+        "text": "Pour les systèmes de palier de tourillon et d'huile de lubrification de turbine à vapeur, l'objectif est généralement une classe ISO 4406 de 16/14/11 — c'est l'exigence minimale de la norme API 614. De nombreux OEM, dont Triveni et Siemens, spécifient 15/13/10 pour les turbines dotées de systèmes de commande hydraulique. Après une révision majeure ou un rinçage d'huile de lubrification, le système doit atteindre 16/14/11 avant l'introduction de l'huile pour éviter des dommages de contamination des paliers pendant la montée en régime."
       },
       {
         "type": "h2",

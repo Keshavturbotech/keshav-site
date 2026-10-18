@@ -19,7 +19,7 @@
       "IEC-registriert",
       "Exportbereit",
       "IndiaMART TrustSeal",
-      "Make In India",
+      "Make in India",
       "MSME-registriert"
     ],
     "ctaServices": "Unsere Leistungen",
@@ -79,7 +79,7 @@
     "coreCapabilitiesList": [
       "Turbinenmontage, Inbetriebnahme und schlüsselfertige Überholung",
       "Präzises Reverse Engineering mittels 3D-Laserscanning & KMG",
-      "Dynamisches Auswuchten nach ISO 21940-11 / ISO 1940 (50–2.000 kg)",
+      "Dynamisches Auswuchten nach ISO 21940-11 (formerly ISO 1940) (50–2.000 kg)",
       "Schmierölspülung nach ISO-4406:99-Reinheitsklassifizierung",
       "Maschinenausrichtung mit modernster Laserausrichtungstechnologie",
       "Fertigung: Filterelemente, HVAC-Luftfilter, Kompensatoren, Schmutzfänger",
@@ -93,7 +93,7 @@
     "eyebrow": "Gebaut für industrielle Verfügbarkeit",
     "headingLine1": "Wenn Ihre Turbine es braucht,",
     "headingLine2": "stellen wir es her.",
-    "subheadingTemplate": "{productCount}+ präzisionsgefertigte Komponenten in 9 Kategorien — von OEM-passenden Filterelementen und HVAC-Luftfiltern bis hin zu Turbinenersatzteilen, die in derselben Woche versandt werden, in der Ihre Anlage anruft.",
+    "subheadingTemplate": "{productCount}+ präzisionsgefertigte Komponenten in {categoryCount} Kategorien — von OEM-passenden Filterelementen und HVAC-Luftfiltern bis hin zu Turbinenersatzteilen, die in derselben Woche versandt werden, in der Ihre Anlage anruft.",
     "cards": {
       "workshopFloor": {
         "caption": "Werkstattboden",
@@ -160,7 +160,7 @@
       {
         "year": "2021",
         "title": "Erweiterung von Kompetenzen und Produktpalette",
-        "desc": "Investition in 3D-Laserscanning, Koordinatenmessgeräte (KMG) und dynamische Auswuchtmaschinen nach ISO 21940-11 / ISO 1940 (50–2.000 kg) sowie Einführung einer umfassenden Industrieproduktlinie mit Filtration, HVAC-Luftfiltern, Kompensatoren, Schmutzfängern, Gummiprodukten und flexiblen Schlauchleitungen."
+        "desc": "Investition in 3D-Laserscanning, Koordinatenmessgeräte (KMG) und dynamische Auswuchtmaschinen nach ISO 21940-11 (formerly ISO 1940) (50–2.000 kg) sowie Einführung einer umfassenden Industrieproduktlinie mit Filtration, HVAC-Luftfiltern, Kompensatoren, Schmutzfängern, Gummiprodukten und flexiblen Schlauchleitungen."
       },
       {
         "year": "Heute",
@@ -190,7 +190,7 @@
       },
       "vp": {
         "name": "Auswuchtspezialist",
-        "spec": "Dynamisches Auswuchten ISO 21940-11 / ISO 1940 · Rotoren 50–2.000 kg"
+        "spec": "Dynamisches Auswuchten ISO 21940-11 (formerly ISO 1940) · Rotoren 50–2.000 kg"
       },
       "mt": {
         "name": "Werkstattleiter — Zerspanung",

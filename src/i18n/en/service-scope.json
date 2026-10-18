@@ -25,7 +25,7 @@
   },
   "srv_7": {
     "scope": "On-site diagnostic",
-    "turnaround": "Same day report"
+    "turnaround": "Report on completion"
   },
   "srv_8": {
     "scope": "Workshop & on-site",

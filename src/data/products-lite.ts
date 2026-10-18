@@ -322,37 +322,37 @@ export const PRODUCTS_LITE: ProductLite[] = [
   },
   {
     "id": "prod_ee1",
-    "category": "Electronic Equipments",
-    "title": "Vibration Monitoring Probes (Shinkawa-compatible)"
+    "category": "Electronic Equipment",
+    "title": "Vibration Monitoring Probes (Genuine Shinkawa)"
   },
   {
     "id": "prod_ee7",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Bently Nevada 3300 XL Proximity Probe Systems"
   },
   {
     "id": "prod_ee8",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "EPRO PR6423 / PR6424 Eddy Current Sensors & CON011"
   },
   {
     "id": "prod_ee9",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Vibro-Meter TQ402 / TQ442 Proximity Probes & IQS450"
   },
   {
     "id": "prod_ee10",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "2-Wire 4-20 mA Vibration Transmitters (Shinkawa WK/WKN)"
   },
   {
     "id": "prod_ee11",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Casing Vibration Sensors: Velomitor, CV-86 & Accelerometers"
   },
   {
     "id": "prod_ee2",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Magnetic Pickup Sensor (Woodward)"
   },
   {
@@ -382,7 +382,7 @@ export const PRODUCTS_LITE: ProductLite[] = [
   },
   {
     "id": "prod_ee3",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "ASCO 8210 Series Explosion-Proof Solenoid Valve"
   },
   {
@@ -392,7 +392,7 @@ export const PRODUCTS_LITE: ProductLite[] = [
   },
   {
     "id": "prod_ee4",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Beacon Industrial Analog Tachometer Gauge"
   },
   {
@@ -407,12 +407,12 @@ export const PRODUCTS_LITE: ProductLite[] = [
   },
   {
     "id": "prod_ee5",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "RTD & Sensors for Power Plants & Steam Turbines"
   },
   {
     "id": "prod_ee6",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "SEMIKRON SKN240/16 Rectifier Diode"
   },
   {

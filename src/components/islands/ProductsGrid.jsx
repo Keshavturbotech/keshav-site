@@ -500,7 +500,7 @@ export default function ProductsGrid({ products: PRODUCTS, categories: PRODUCT_C
             Prices shown are indicative estimates only
           </p>
           <p className="text-xs text-amber-700 leading-relaxed">
-            Actual pricing depends on turbine model, OEM spec, material grade, surface treatment,
+            Actual pricing depends on product specification, material grade, surface treatment,
             and order quantity. Figures are indicative and may not reflect current market rates.{" "}
             <a
               href="/contact"

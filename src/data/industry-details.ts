@@ -31,7 +31,7 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
       },
       {
         title: "Lube Oil Contamination",
-        desc: "Particulate and water ingression into the lube oil system can rapidly degrade bearing surfaces. ISO 4406:99 cleanliness targets must be maintained continuously.",
+        desc: "Particulate and water ingression into the lube oil system can rapidly degrade bearing surfaces. ISO 4406 cleanliness targets must be maintained continuously.",
       },
       {
         title: "Thermal Expansion in Steam Lines",
@@ -46,10 +46,10 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
       {
         name: "Lube Oil Filter Elements (180 GPM)",
         purpose:
-          "Maintains ISO 4406:99 cleanliness in turbine lube oil systems, protecting journal bearings and thrust bearings from abrasive wear.",
+          "Maintains ISO 4406 cleanliness in turbine lube oil systems, protecting journal bearings and thrust bearings from abrasive wear.",
         features: [
           "Glass fiber fleece VG media, 6–25 µm fineness",
-          "IS27 anti-static spec for synthetic oils",
+          "IS27 anti-static spec (oils below 300 pS/m)",
           "Triveni, Siemens, BHEL OEM compatible",
         ],
       },
@@ -70,7 +70,7 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
         features: [
           "White metal (Babbitt) poured & precision-machined",
           "All turbine makes: Triveni, Siemens, BHEL, KKK",
-          "Interference fit verified on CMM",
+          "Bearing dimensions verified on CMM",
         ],
       },
       {
@@ -84,11 +84,11 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
         ],
       },
       {
-        name: "Vibration Monitoring Probes (Shinkawa-compatible)",
+        name: "Vibration Monitoring Probes (Genuine Shinkawa)",
         purpose:
           "Proximity probes for continuous rotor vibration monitoring per API 670, enabling predictive maintenance before bearing failure occurs.",
         features: [
-          "Shinkawa, Bently Nevada compatible",
+          "Genuine Shinkawa and Bently Nevada",
           "Eddy-current non-contact sensing",
           "Alert and danger setpoints per API 670",
         ],
@@ -118,14 +118,14 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
     keyFacts: [
       "60 MW maximum turbine capacity handled",
       `${YEARS_IN_BUSINESS}+ years OEM-trained engineering experience`,
-      "API 614 & ISO 4406:99 compliant products",
+      "API 614 & ISO 4406 compliant products",
       "HVAC filter supply for control rooms and turbine halls",
-      "24x7 emergency breakdown support",
+      "24×7 emergency breakdown support",
     ],
   },
   ind_2: {
     heroSub: "Back-pressure & extraction-condensing turbines in sugar & distillery co-gen",
-    overview: `India's sugar industry runs intensive 150–180 day crushing seasons where turbine availability is directly tied to cane crushing throughput. Keshav Enterprises specialises in inter-season overhauling for back-pressure turbines (the workhorses of sugar co-generation) and provides 24x7 emergency spares support during the crushing season when shutdowns are most costly.`,
+    overview: `India's sugar industry runs intensive 150–180 day crushing seasons where turbine availability is directly tied to cane crushing throughput. Keshav Enterprises specialises in inter-season overhauling for back-pressure turbines (the workhorses of sugar co-generation) and provides 24×7 emergency spares support during the crushing season when shutdowns are most costly.`,
     challenges: [
       {
         title: "Short Inter-Season Overhaul Window",
@@ -192,7 +192,7 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
         features: [
           "SS mesh baskets, cleanable and reusable",
           "ANSI flanged or screwed ends",
-          "Duplex for zero-downtime strainer cleaning",
+          "Duplex for strainer cleaning without stopping flow",
         ],
       },
       {
@@ -208,7 +208,7 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
     ],
     keyFacts: [
       "Triveni & Belliss turbine specialist services",
-      "24x7 emergency season support",
+      "24×7 emergency season support",
       "All carbon/graphite grades machined in-house",
       "Inter-season overhauls completed within window",
     ],
@@ -299,7 +299,7 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
     keyFacts: [
       "350+ days per year continuous operation supported",
       "SS316L products for corrosive media",
-      "Zero-downtime duplex strainer solutions",
+      "Duplex strainer solutions for continuous flow",
       "Complete overhaul kits planned and supplied",
     ],
   },
@@ -327,13 +327,13 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
     ],
     products: [
       {
-        name: "Control Oil Filter Elements (IS27 Anti-Static)",
+        name: "Anti-Static Filter Elements (IS27, Siemens)",
         purpose:
-          "For turbine electro-hydraulic control (EHC) systems using synthetic phosphate-ester or ester-based control oils with conductivity below 300 pS/m.",
+          "For turbine oil systems running synthetic oils with conductivity below 300 pS/m, where IS27 elements prevent electrostatic discharge across the filter media.",
         features: [
-          "IS27 anti-static certification",
+          "IS27 anti-static specification (oils below 300 pS/m)",
           "Microglass VG media, 3–25 µm",
-          "Siemens, Man Turbo, KKK compatible",
+          "Siemens SST / SGT compatible",
         ],
       },
       {
@@ -352,7 +352,7 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
           "Chemical and instrumentation hose for aggressive fluid transfer in oil and gas processing: resistant to crude oil, H2S, methanol, and inhibitors.",
         features: [
           "PTFE core, SS316 braid or stainless overbraid",
-          "Pressure rated to 420 bar (selected assemblies)",
+          "Working pressure up to 40 bar (size-dependent)",
           "BS EN ISO 10380 compliant assemblies available",
         ],
       },
@@ -362,7 +362,7 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
           "High-pressure hydraulic hose for control actuators, BOP systems, and hydraulic power units on drilling and processing equipment.",
         features: [
           "4-wire and 6-wire spiral construction",
-          "Working pressure up to 400 bar",
+          "Working pressure up to 420 bar (size-dependent)",
           "Parker, Gates, Manuli-compatible fittings",
         ],
       },
@@ -381,14 +381,14 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
         purpose:
           "Proximity probes and monitoring systems compatible with API 670 turbomachinery protection systems for compressor and turbine trains.",
         features: [
-          "Bently Nevada, Shinkawa-compatible",
+          "Genuine Shinkawa, Bently Nevada",
           "IP67 rated probe housing",
           "Alert and danger relay outputs",
         ],
       },
     ],
     keyFacts: [
-      "API 614 & IS27 compliant products",
+      "API 614-aligned, IS27 anti-static specified products",
       "Babbitt bearings for all major OEMs",
       "Same-day emergency dispatch available",
       "ASME code-stamped pressure vessels",
@@ -433,7 +433,7 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
           "Standard process line bellows for absorbing thermal expansion in crude oil, product, and steam piping throughout the refinery complex.",
         features: [
           "DN15 to DN12,000 manufacturing range",
-          "SS316L, Inconel, Hastelloy, Duplex SS grades",
+          "SS316L for general hydrocarbon duty; Inconel, Hastelloy or Duplex SS for H2S, HF and hydrogen service",
           "ASME Sec. VIII Div. 1 design code",
         ],
       },
@@ -473,7 +473,7 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
           "Eliminates pressure thrust forces on sensitive equipment nozzles in high-pressure refinery service, protecting compressor and pump flanges.",
         features: [
           "Tie-rod eliminated pressure thrust design",
-          "Reduces nozzle loads to near zero",
+          "Reduces nozzle loads on connected equipment",
           "Available in tied and untied configurations",
         ],
       },
@@ -491,14 +491,14 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
     challenges: [
       {
         title: "Food-Grade Material Requirements",
-        desc: "Hose, seals, and filtration in food contact areas must use FDA-approved materials: PTFE, food-grade EPDM, and stainless steel with polished surfaces.",
+        desc: "Hose, seals, and filtration in food contact areas must use FDA-compliant materials: PTFE, food-grade EPDM, and stainless steel with polished surfaces.",
       },
       {
         title: "Seasonal Load Variation",
         desc: "Agro co-gen turbines see wide load variation with crop seasons. This leads to faster blade erosion and thermal cycling fatigue than in constant-load power plants.",
       },
       {
-        title: "Tank Breathing Contamination",
+        title: "Tank Breather Contamination",
         desc: "Edible oil storage tanks must be protected from airborne dust and moisture through the breather path: contamination affects product quality and shelf life.",
       },
       {
@@ -514,7 +514,7 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
         features: [
           "PTFE inner core, FDA 21 CFR 177.1550 compliant",
           "Electro-polished SS316 end fittings",
-          "Tri-clover (sanitary) end connections available",
+          "Tri-Clover (sanitary) end connections available",
         ],
       },
       {
@@ -627,7 +627,7 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
           "Installed on kiln cooling water systems, compressor water cooling, and raw meal slurry pipelines to protect pumps, heat exchangers, and instrumentation from scale and debris.",
         features: [
           "SS mesh baskets, 100–1000 µm mesh options",
-          "Duplex design: zero-downtime basket cleaning",
+          "Duplex design: basket cleaning without stopping flow",
           "ANSI 150 to ANSI 600 flange ratings",
           "SS316 for corrosive cooling water service",
         ],
@@ -736,8 +736,8 @@ export const IND_TESTIMONIALS: Record<
 > = {
   ind_1: {
     quote:
-      "3 MW BHEL rotor vibration dropped from 9.2 to 0.8 mm/s after dynamic balancing. 26 months — zero bearing changes.",
-    credit: "Captive Power Plant, Telangana",
+      "3 MW BHEL rotor vibration dropped from 9.2 to 0.8 mm/s after dynamic balancing. 24+ months — zero bearing changes.",
+    credit: "Paper Mill, Punjab",
     link: null,
   },
   ind_2: {
@@ -783,7 +783,7 @@ const RAW_INDUSTRY_PRODUCT_IDS: Record<string, string | null> = {
   "Steam Crossover Bellows": "prod_e13",
   "Babbitt Journal & Thrust Bearings": "prod_ts3",
   "Emergency Stop Valves": "prod_ts4",
-  "Vibration Monitoring Probes (Shinkawa-compatible)": "prod_ee1",
+  "Vibration Monitoring Probes (Genuine Shinkawa)": "prod_ee1",
   "Turbine Oil Pumps (Main & Aux)": "prod_ts5",
   "Carbon & Graphite Gland Sealing Rings": "prod_ts1",
   "Labyrinth Sealing Packings": "prod_ts2",
@@ -797,7 +797,7 @@ const RAW_INDUSTRY_PRODUCT_IDS: Record<string, string | null> = {
   "PTFE-Lined Hose Assemblies": "prod_h2",
   "Custom Extruded Rubber Profiles & Seals": "prod_r1",
   "Turbine Spares (Siemens, BHEL, Triveni)": null,
-  "Control Oil Filter Elements (IS27 Anti-Static)": "prod_f2",
+  "Anti-Static Filter Elements (IS27, Siemens)": "prod_f2",
   "Babbitt Bearing Manufacturing": "prod_ts3",
   "Hydraulic Rubber Hose Assemblies": "prod_h3",
   "Duplex Fabricated Filter Housings": "prod_f10",

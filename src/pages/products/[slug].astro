@@ -141,16 +141,24 @@ const productSchema = {
   ],
 };
 
+// Turbine-only footer blocks (OEM compatibility list, 5 kW–60 MW capability)
+// are shown only for categories that serve turbines directly.
+const TURBINE_RELATED_CATEGORIES = new Set(["Turbine Spares", "Electronic Equipment", "Industrial Filtration"]);
 const pageTitle = buildSeoTitle(product.title, [product.category], locale);
+// Append the brand/location tail only when the whole thing fits the snippet
+// budget; otherwise keep the product's own (complete-sentence) description.
+const descTail = " — Keshav Enterprises, Shamli, UP.";
+const productDescription = product.desc.length + descTail.length <= 155 ? `${product.desc}${descTail}` : product.desc;
 ---
 
 <Layout
   title={pageTitle}
-  description={`${product.desc} — Keshav Enterprises, Shamli, UP.`}
+  description={productDescription}
   canonicalPath={`/products/${product.slug}`}
   ogImage={firstImage && hasLocalImage(firstImage) ? `/${firstImage}` : undefined}
   keywords={[product.title, product.category, "Keshav Enterprises", "Shamli India"].filter(Boolean).join(", ")}
   jsonLd={productSchema}
+  footerVariant={TURBINE_RELATED_CATEGORIES.has(product.category) ? "full" : "compact"}
 >
   <div class="pt-24 pb-20 bg-slate-50 min-h-screen">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

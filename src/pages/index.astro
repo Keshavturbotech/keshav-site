@@ -66,8 +66,8 @@ const CURATED_FEATURED_IDS = [
   "prod_h3", // High-Pressure Hydraulic Rubber Hose Assemblies
   // Industrial Rubber Products
   "prod_r1", // Custom Extruded Rubber Profiles & Seals
-  // Electronic Equipments
-  "prod_ee1", // Vibration Monitoring Probes (Shinkawa-compatible)
+  // Electronic Equipment
+  "prod_ee1", // Vibration Monitoring Probes (Genuine Shinkawa)
   // Hydraulic Components
   "prod_hv1", // Directional Control Valves (All Major Makes)
   // HVAC, Ducting & Air Filtration
@@ -140,7 +140,7 @@ const HOME_STATS = [
     iconPath:
       "M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m9-5.13a4 4 0 11-8 0 4 4 0 018 0z",
     end: null,
-    suffix: "24x7",
+    suffix: "24×7",
     label: home.stats.emergency.label,
     sub: home.stats.emergency.sub,
   },
@@ -217,7 +217,7 @@ const waEmergency = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComp
         <div class="flex flex-col flex-1">
           <!--
             FIX (UX audit — hero badge hierarchy): the IndiaMART rating badge
-            previously sat here at the SAME size/weight as Make In India,
+            previously sat here at the SAME size/weight as Make in India,
             directly competing with the H1 for first-glance attention.
             Only one badge remains at this weight; the IndiaMART rating is
             now a compact pill in the trust strip below the CTAs, where it
@@ -228,7 +228,7 @@ const waEmergency = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComp
             <div
               class="inline-flex items-center space-x-3 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-md border border-white/20 shadow-xl"
               role="img"
-              aria-label="Make In India — Vocal For Local"
+              aria-label="Make in India — Vocal For Local"
             >
               <img
                 src="/make-in-india.png"
@@ -313,7 +313,7 @@ const waEmergency = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComp
                 <!--
                   DESIGN AUDIT NOTE: currently styled as the secondary/glass
                   CTA (translucent bg-white/8), matching WhatsApp fallback
-                  styling elsewhere. However, HOME_STATS below treats 24x7
+                  styling elsewhere. However, HOME_STATS below treats 24×7
                   emergency response as one of exactly four headline
                   differentiators, co-equal with years-in-business and
                   overhaul count — meaning it may be a genuine core value
@@ -861,7 +861,7 @@ const waEmergency = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComp
                   target="_blank"
                   rel="noopener noreferrer"
                   class="shrink-0 flex items-center gap-1 text-[9px] font-bold text-blue-700 bg-blue-50 border border-blue-200 rounded-full px-2 py-0.5 hover:bg-blue-100 transition-colors focus:outline-none focus-visible:ring-1 focus-visible:ring-blue-600"
-                  title="Review verified on Google Business"
+                  title="Google Business profile"
                 >
                   <svg width="8" height="8" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path

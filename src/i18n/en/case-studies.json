@@ -36,7 +36,7 @@
     "duration": "21 days",
     "scope": "3D laser scan of damaged impulse disc, PMI material verification, full manufacturing drawing set, and supply of replacement disc machined to drawing.",
     "challenge": "The OEM quoted a 14-week lead time and €18,000 for a replacement impulse disc. The mill could not afford a 14-week outage with the season approaching.",
-    "solution": "Our team 3D scanned the damaged disc on-site, performed PMI to confirm the alloy (AISI 422 stainless), generated complete manufacturing drawings with all tolerances and heat treatment specs, and had the disc rough-machined, heat-treated, finish-machined, and dynamically balanced in 19 working days.",
+    "solution": "Our team 3D scanned the damaged disc on-site, performed PMI to confirm the alloy (AISI 422 stainless), generated complete manufacturing drawings with all tolerances and heat treatment specs, and had the disc rough-machined, heat-treated, finish-machined, and dynamically balanced within 21 days.",
     "outcomes": [
       "Lead time cut from 14 weeks (OEM) to 21 days",
       "Cost saving of approximately ₹12 lakh vs. OEM price",
@@ -139,7 +139,7 @@
     "year": "2023",
     "duration": "4 days",
     "scope": "Workshop dynamic balancing of a 680 kg ID fan rotor to ISO 21940-11 G2.5 quality grade, plus journal grinding and polishing on both drive-end and non-drive-end journals.",
-    "challenge": "Rotor arrived with severe cement build-up, journal scoring from collapsed bearing, and a residual imbalance of ~420 g·mm from the field — well outside ISO G2.5 limits for operating speed.",
+    "challenge": "Rotor arrived with severe cement build-up, journal scoring from collapsed bearing, and a residual imbalance of ~420 g·mm measured in the field.",
     "solution": "Cement deposits cleaned by grit blasting. Both journals ground undersized by 0.10 mm and polished to Ra 0.4 µm. Rotor then balanced in our two-plane dynamic balancing machine (capacity 2000 kg, speed to 1500 RPM). Final residual imbalance: 6 g·mm per plane (ISO G1.0 achieved).",
     "outcomes": [
       "Residual imbalance: 6 g·mm/plane — better than G1.0",
@@ -165,12 +165,12 @@
     "year": "2024",
     "duration": "14 hours downtime",
     "scope": "Emergency site response, root-cause diagnosis, replacement babbitt bearing manufacture and fit, rotor inspection, and recommissioning within a 14-hour window.",
-    "challenge": "The turbine tripped at 02:00 during peak crushing season due to a babbitt bearing collapse on the non-drive end. The mill was processing 8,000 TCD — every hour offline cost approximately ₹4 lakh in cane losses.",
+    "challenge": "The turbine tripped at 02:00 during peak crushing season due to a babbitt bearing collapse on the non-drive end. The mill was processing 8,000 TCD (tonnes crushed per day) — every hour offline cost approximately ₹4 lakh in cane losses.",
     "solution": "Our engineer was dispatched within 90 minutes of the call and reached site by 05:30. Root cause identified: oil starvation from a blocked oil way. Replacement bearing was sourced from workshop stock, rebabbitted and hand-scraped to fit on-site. Rotor journal inspected — no damage. Turbine back on line by 16:00.",
     "outcomes": [
       "Total downtime: 14 hours from trip to first steam",
       "Root cause identified and oil way cleaned — no repeat trip",
-      "Estimated cane loss value prevented: approximately ₹56 lakh",
+      "Estimated cane loss during the 14-hour outage: approximately ₹56 lakh",
       "No damage to rotor journals — saved shaft replacement cost"
     ],
     "tags": [

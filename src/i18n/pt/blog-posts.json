@@ -72,7 +72,7 @@
       },
       {
         "type": "p",
-        "text": "Envie o rotor para retífica de munhão e balanceamento dinâmico se as leituras de desvio ou vibração estiverem fora da tolerância. Substitua anéis de gaxeta de carbono e grafite, gaxetas labirinto e mancais babbitt conforme o relatório de condição. Todo balanceamento de rotor deve ser realizado conforme as normas ISO 1940 ou API 670."
+        "text": "Envie o rotor para retífica de munhão e balanceamento dinâmico se as leituras de desvio ou vibração estiverem fora da tolerância. Substitua anéis de gaxeta de carbono e grafite, gaxetas labirinto e mancais babbitt conforme o relatório de condição. Todo balanceamento de rotor deve ser realizado conforme as normas ISO 21940-11 (formerly ISO 1940)."
       },
       {
         "type": "h2",
@@ -88,7 +88,7 @@
       },
       {
         "type": "p",
-        "text": "Antes do comissionamento, lave o sistema de óleo lubrificante com um sistema de filtro centrífugo móvel visando a classe de limpeza ISO 4406:99 16/14/11 ou melhor. Colete amostras de óleo antes e depois da lavagem e retenha os relatórios. Nunca comissione uma turbina sem concluir uma lavagem de óleo — falhas de mancais por óleo contaminado representam uma parcela significativa das falhas pós-revisão geral."
+        "text": "Antes do comissionamento, lave o sistema de óleo lubrificante com um sistema de filtro centrífugo móvel visando a classe de limpeza ISO 4406 16/14/11 ou melhor. Colete amostras de óleo antes e depois da lavagem e retenha os relatórios. Nunca comissione uma turbina sem concluir uma lavagem de óleo — falhas de mancais por óleo contaminado representam uma parcela significativa das falhas pós-revisão geral."
       },
       {
         "type": "h2",
@@ -138,7 +138,7 @@
       },
       {
         "type": "p",
-        "text": "Solução: instale elementos filtrantes de óleo lubrificante de alta eficiência (ISO 16889, razão beta ≥200 a 10 mícrons) na carcaça do filtro principal. Use elementos filtrantes de respiro do tanque (fibra de vidro 3 VL) para evitar a ingestão de partículas transportadas pelo ar. Limpeza-alvo do sistema: ISO 4406:99 Classe 16/14/11 ou melhor para mancais de turbina."
+        "text": "Solução: instale elementos filtrantes de óleo lubrificante de alta eficiência (ISO 16889, razão beta ≥200 a 10 mícrons) na carcaça do filtro principal. Use elementos filtrantes de respiro do tanque (fibra de vidro 3 VL) para evitar a ingestão de partículas transportadas pelo ar. Limpeza-alvo do sistema: ISO 4406 Classe 16/14/11 ou melhor para mancais de turbina."
       },
       {
         "type": "h2",
@@ -251,7 +251,7 @@
       },
       {
         "type": "p",
-        "text": "A usinagem é realizada em três estágios: usinagem grosseira até dimensões quase finais, tratamento térmico se necessário (alívio de tensões, têmpera e revenimento, nitretação) e usinagem de precisão final. Cada estágio é inspecionado em relação ao desenho de engenharia. Rotores são balanceados dinamicamente conforme normas ISO 21940-11 / ISO 1940 antes do envio."
+        "text": "A usinagem é realizada em três estágios: usinagem grosseira até dimensões quase finais, tratamento térmico se necessário (alívio de tensões, têmpera e revenimento, nitretação) e usinagem de precisão final. Cada estágio é inspecionado em relação ao desenho de engenharia. Rotores são balanceados dinamicamente conforme normas ISO 21940-11 (formerly ISO 1940) antes do envio."
       },
       {
         "type": "h2",
@@ -372,7 +372,7 @@
       },
       {
         "type": "p",
-        "text": "Um código de limpeza ISO 4406:99 tem três números, por exemplo 18/16/13. Cada número é um \"código de faixa\" representando uma contagem de partículas por mililitro de óleo em três tamanhos de partícula diferentes: 4 µm(c), 6 µm(c) e 14 µm(c). O sufixo \"(c)\" significa que a contagem usa a calibração de contador óptico de partículas conforme ISO 11171 — não compare com relatórios antigos que usavam o método não calibrado."
+        "text": "Um código de limpeza ISO 4406 tem três números, por exemplo 18/16/13. Cada número é um \"código de faixa\" representando uma contagem de partículas por mililitro de óleo em três tamanhos de partícula diferentes: 4 µm(c), 6 µm(c) e 14 µm(c). O sufixo \"(c)\" significa que a contagem usa a calibração de contador óptico de partículas conforme ISO 11171 — não compare com relatórios antigos que usavam o método não calibrado."
       },
       {
         "type": "list",
@@ -390,7 +390,7 @@
       },
       {
         "type": "p",
-        "text": "Para sistemas de mancal de munhão e óleo lubrificante de turbinas a vapor, a meta é tipicamente ISO 4406:99 Classe 16/14/11 — este é o requisito mínimo na API 614. Muitos OEMs, incluindo Triveni e Siemens, especificam 15/13/10 para turbinas com sistemas de controle hidráulico. Após uma revisão geral maior ou lavagem de óleo lubrificante, o sistema deve atingir 16/14/11 antes da carga de óleo para evitar danos por contaminação de mancais durante a partida."
+        "text": "Para sistemas de mancal de munhão e óleo lubrificante de turbinas a vapor, a meta é tipicamente ISO 4406 Classe 16/14/11 — este é o requisito mínimo na API 614. Muitos OEMs, incluindo Triveni e Siemens, especificam 15/13/10 para turbinas com sistemas de controle hidráulico. Após uma revisão geral maior ou lavagem de óleo lubrificante, o sistema deve atingir 16/14/11 antes da carga de óleo para evitar danos por contaminação de mancais durante a partida."
       },
       {
         "type": "h2",

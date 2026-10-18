@@ -70,7 +70,7 @@ export const STRAINERS_PRODUCTS = [
       title: "Duplex Basket Strainer",
       desc: "Continuous-service duplex strainer enabling basket cleaning without process shutdown. Three-way changeover valve diverts flow while dirty basket is serviced.",
       usage:
-        "Continuous flow systems requiring zero-downtime operation; critical process lines where shutdown is unacceptable.",
+        "Continuous flow systems requiring continuous operation; critical process lines where shutdown is unacceptable.",
       features: [
         "Continuous service: no shutdown or flow interruption required",
         "Three-way changeover valve for fast chamber switching",

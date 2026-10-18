@@ -11,7 +11,7 @@
     "useCases": [
       "Revisão geral maior e menor de turbinas a vapor",
       "Montagem e comissionamento de turbinas",
-      "Lavagem do sistema de óleo lubrificante conforme ISO 4406:99",
+      "Lavagem do sistema de óleo lubrificante conforme ISO 4406",
       "Balanceamento dinâmico e alinhamento do rotor",
       "Fabricação de válvulas de parada de emergência",
       "Fornecimento de elementos filtrantes e coadores",
@@ -35,7 +35,7 @@
       "Fornecimento de anéis de gaxeta de carbono e grafite",
       "Fabricação de gaxeta labirinto",
       "Fornecimento de produtos de filtração de óleo lubrificante",
-      "Suporte de emergência 24x7 para paradas não programadas"
+      "Suporte de emergência 24×7 para paradas não programadas"
     ],
     "turbines": "Triveni, Belliss & Morcom, Maxwatt",
     "slug": "sugar-mills-and-distilleries"
@@ -75,7 +75,7 @@
       "Conjuntos de mangueira revestidos de PTFE para transferência química",
       "Conjuntos de mangueira hidráulica de borracha de alta pressão",
       "Fabricação de mancais babbitt para trens de compressores",
-      "Balanceamento dinâmico conforme ISO 21940-11 / ISO 1940"
+      "Balanceamento dinâmico conforme ISO 21940-11 (formerly ISO 1940)"
     ],
     "turbines": "Siemens, Man Turbo, KKK, ABB",
     "slug": "oil-and-gas-industries"

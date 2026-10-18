@@ -450,7 +450,7 @@ export function leadTimeForCategory(category: string): string {
       return "1–3 weeks (standard); custom 3–6 weeks";
     case "Industrial Rubber Products":
       return "1–3 weeks";
-    case "Electronic Equipments":
+    case "Electronic Equipment":
       return "1–4 weeks (subject to availability)";
     case "Industrial Filtration":
       return "Stocked items: ex-stock to 1 week; custom: 2–4 weeks";

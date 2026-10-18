@@ -72,7 +72,7 @@
       },
       {
         "type": "p",
-        "text": "Gửi rotor để mài ngõng trục và cân bằng động nếu số đọc độ đảo hoặc rung động nằm ngoài dung sai. Thay vòng gland carbon và graphite, đệm mê cung, và ổ trục babbitt theo báo cáo tình trạng. Tất cả việc cân bằng rotor nên được thực hiện theo tiêu chuẩn ISO 1940 hoặc API 670."
+        "text": "Gửi rotor để mài ngõng trục và cân bằng động nếu số đọc độ đảo hoặc rung động nằm ngoài dung sai. Thay vòng gland carbon và graphite, đệm mê cung, và ổ trục babbitt theo báo cáo tình trạng. Tất cả việc cân bằng rotor nên được thực hiện theo tiêu chuẩn ISO 21940-11 (formerly ISO 1940)."
       },
       {
         "type": "h2",
@@ -88,7 +88,7 @@
       },
       {
         "type": "p",
-        "text": "Trước khi chạy thử, súc rửa hệ thống dầu bôi trơn bằng hệ thống lọc ly tâm di động nhắm đến cấp độ sạch ISO 4406:99 16/14/11 hoặc tốt hơn. Lấy mẫu dầu trước và sau khi súc rửa và lưu giữ báo cáo. Không bao giờ chạy thử tua-bin mà không hoàn thành việc súc rửa dầu — hỏng ổ trục do dầu nhiễm bẩn chiếm một phần đáng kể trong các hỏng hóc sau đại tu."
+        "text": "Trước khi chạy thử, súc rửa hệ thống dầu bôi trơn bằng hệ thống lọc ly tâm di động nhắm đến cấp độ sạch ISO 4406 16/14/11 hoặc tốt hơn. Lấy mẫu dầu trước và sau khi súc rửa và lưu giữ báo cáo. Không bao giờ chạy thử tua-bin mà không hoàn thành việc súc rửa dầu — hỏng ổ trục do dầu nhiễm bẩn chiếm một phần đáng kể trong các hỏng hóc sau đại tu."
       },
       {
         "type": "h2",
@@ -138,7 +138,7 @@
       },
       {
         "type": "p",
-        "text": "Giải pháp: Lắp lõi lọc dầu bôi trơn hiệu suất cao (ISO 16889, tỷ số beta ≥200 tại 10 micron) trong vỏ lọc chính. Sử dụng lõi lọc thở bể chứa (sợi thủy tinh 3 VL) để ngăn hít vào các hạt trong không khí. Mục tiêu độ sạch hệ thống: ISO 4406:99 Cấp 16/14/11 hoặc tốt hơn cho ổ trục tua-bin."
+        "text": "Giải pháp: Lắp lõi lọc dầu bôi trơn hiệu suất cao (ISO 16889, tỷ số beta ≥200 tại 10 micron) trong vỏ lọc chính. Sử dụng lõi lọc thở bể chứa (sợi thủy tinh 3 VL) để ngăn hít vào các hạt trong không khí. Mục tiêu độ sạch hệ thống: ISO 4406 Cấp 16/14/11 hoặc tốt hơn cho ổ trục tua-bin."
       },
       {
         "type": "h2",
@@ -251,7 +251,7 @@
       },
       {
         "type": "p",
-        "text": "Gia công được thực hiện trong ba giai đoạn: gia công thô đến gần kích thước cuối cùng, xử lý nhiệt nếu cần (giảm ứng suất, tôi và ram, thấm nitơ), và gia công chính xác cuối cùng. Mỗi giai đoạn được kiểm tra theo bản vẽ kỹ thuật. Rotor được cân bằng động theo tiêu chuẩn ISO 21940-11 / ISO 1940 trước khi vận chuyển."
+        "text": "Gia công được thực hiện trong ba giai đoạn: gia công thô đến gần kích thước cuối cùng, xử lý nhiệt nếu cần (giảm ứng suất, tôi và ram, thấm nitơ), và gia công chính xác cuối cùng. Mỗi giai đoạn được kiểm tra theo bản vẽ kỹ thuật. Rotor được cân bằng động theo tiêu chuẩn ISO 21940-11 (formerly ISO 1940) trước khi vận chuyển."
       },
       {
         "type": "h2",
@@ -372,7 +372,7 @@
       },
       {
         "type": "p",
-        "text": "Mã độ sạch ISO 4406:99 có ba con số, ví dụ 18/16/13. Mỗi con số là một \"mã dải\" đại diện cho số lượng hạt trên mỗi mililit dầu ở ba kích thước hạt khác nhau: 4 µm(c), 6 µm(c), và 14 µm(c). Hậu tố \"(c)\" có nghĩa là số đếm sử dụng hiệu chuẩn máy đếm hạt quang học theo ISO 11171 — không so sánh với các báo cáo cũ hơn sử dụng phương pháp chưa hiệu chuẩn."
+        "text": "Mã độ sạch ISO 4406 có ba con số, ví dụ 18/16/13. Mỗi con số là một \"mã dải\" đại diện cho số lượng hạt trên mỗi mililit dầu ở ba kích thước hạt khác nhau: 4 µm(c), 6 µm(c), và 14 µm(c). Hậu tố \"(c)\" có nghĩa là số đếm sử dụng hiệu chuẩn máy đếm hạt quang học theo ISO 11171 — không so sánh với các báo cáo cũ hơn sử dụng phương pháp chưa hiệu chuẩn."
       },
       {
         "type": "list",
@@ -390,7 +390,7 @@
       },
       {
         "type": "p",
-        "text": "Đối với hệ thống ổ trục ngõng và dầu bôi trơn tua-bin hơi nước, mục tiêu thường là ISO 4406:99 Cấp 16/14/11 — đây là yêu cầu tối thiểu trong API 614. Nhiều OEM bao gồm Triveni và Siemens quy định 15/13/10 cho tua-bin có hệ thống điều khiển thủy lực. Sau đại tu lớn hoặc súc rửa dầu bôi trơn, hệ thống nên đạt 16/14/11 trước khi đổ dầu để ngăn ngừa hư hỏng nhiễm bẩn ổ trục trong quá trình tăng tốc."
+        "text": "Đối với hệ thống ổ trục ngõng và dầu bôi trơn tua-bin hơi nước, mục tiêu thường là ISO 4406 Cấp 16/14/11 — đây là yêu cầu tối thiểu trong API 614. Nhiều OEM bao gồm Triveni và Siemens quy định 15/13/10 cho tua-bin có hệ thống điều khiển thủy lực. Sau đại tu lớn hoặc súc rửa dầu bôi trơn, hệ thống nên đạt 16/14/11 trước khi đổ dầu để ngăn ngừa hư hỏng nhiễm bẩn ổ trục trong quá trình tăng tốc."
       },
       {
         "type": "h2",

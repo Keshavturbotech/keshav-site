@@ -432,7 +432,7 @@
       }
     ],
     "whyUs": "À 3 000 tr/min, un rotor génère une force de balourd 100 fois supérieure à celle à 300 tr/min. Le même balourd résiduel, invisible à basse vitesse, détruira le palier à pleine vitesse. Là où nécessaire, nous équilibrons jusqu'au grade ISO 1940 G1.0 — pas seulement « suffisamment bon ».",
-    "overview": "Le balourd du rotor est la cause la plus courante et la plus évitable de défaillance de palier de turbine, de dommage de joint et de réduction de la durée de vie du rotor. Keshav Enterprises effectue l'usinage de précision de tourillons et l'équilibrage dynamique ISO 21940-11 / ISO 1940 pour des rotors de 50 kg à 2 000 kg dans notre atelier dédié. Avant l'équilibrage, le rotor est d'abord usiné pour restaurer l'intégrité géométrique — tourillons ronds, portées de labyrinthe concentriques, état de surface correct. Cette séquence est importante : équilibrer un rotor géométriquement déformé ne fait que masquer le problème. Nos rapports d'équilibrage documentent le balourd initial, les plans de correction, la correction de masse, le balourd résiduel et le grade d'équilibrage ISO atteint, offrant une traçabilité complète pour vos registres de maintenance.",
+    "overview": "Le balourd du rotor est la cause la plus courante et la plus évitable de défaillance de palier de turbine, de dommage de joint et de réduction de la durée de vie du rotor. Keshav Enterprises effectue l'usinage de précision de tourillons et l'équilibrage dynamique ISO 21940-11 (formerly ISO 1940) pour des rotors de 50 kg à 2 000 kg dans notre atelier dédié. Avant l'équilibrage, le rotor est d'abord usiné pour restaurer l'intégrité géométrique — tourillons ronds, portées de labyrinthe concentriques, état de surface correct. Cette séquence est importante : équilibrer un rotor géométriquement déformé ne fait que masquer le problème. Nos rapports d'équilibrage documentent le balourd initial, les plans de correction, la correction de masse, le balourd résiduel et le grade d'équilibrage ISO atteint, offrant une traçabilité complète pour vos registres de maintenance.",
     "procedures": [
       {
         "step": "01",
@@ -462,7 +462,7 @@
         "step": "05",
         "title": "Équilibrage dynamique — correction à deux plans",
         "iconName": "Target",
-        "desc": "Rotor monté dans une équilibreuse dynamique à paliers durs. Balourd initial mesuré simultanément dans deux plans de correction (côté accouplement et côté régulateur/roue). Masses d'essai appliquées et retirées. Équilibrage répété jusqu'à ce que le balourd résiduel dans chaque plan satisfasse le grade ISO 21940-11 / ISO 1940 spécifié pour cette application de rotor."
+        "desc": "Rotor monté dans une équilibreuse dynamique à paliers durs. Balourd initial mesuré simultanément dans deux plans de correction (côté accouplement et côté régulateur/roue). Masses d'essai appliquées et retirées. Équilibrage répété jusqu'à ce que le balourd résiduel dans chaque plan satisfasse le grade ISO 21940-11 (formerly ISO 1940) spécifié pour cette application de rotor."
       },
       {
         "step": "06",
@@ -569,7 +569,7 @@
       }
     ],
     "whyUs": "Les turbines neuves et récemment révisées sont détruites par des débris de construction — laitier de soudure, calamine, sable et copeaux métalliques — en quelques heures après le premier démarrage. Le rinçage à l'huile n'est pas optionnel : c'est l'assurance la plus rentable contre une défaillance catastrophique de palier sur une révision neuve.",
-    "overview": "La contamination du système d'huile de lubrification est la cause première des défaillances de palier sur les turbines neuves et récemment révisées. Les débris de construction entrant dans le système d'huile de lubrification pendant le montage ou la révision peuvent détruire les surfaces de palier et de tourillon en quelques heures de fonctionnement. Keshav Enterprises effectue un rinçage professionnel d'huile de lubrification à l'aide de systèmes de filtration centrifuge mobiles spécialement conçus pour atteindre la classe de propreté ISO 4406:99 16/14/11 — norme minimale pour la lubrification des paliers de turbine à vapeur. Notre processus est entièrement documenté : résultats d'échantillons d'huile à chaque étape, registre de mise à niveau progressive des filtres, et un certificat final de comptage de particules certifié laboratoire fourni avant remise du système en état de remise en huile.",
+    "overview": "La contamination du système d'huile de lubrification est la cause première des défaillances de palier sur les turbines neuves et récemment révisées. Les débris de construction entrant dans le système d'huile de lubrification pendant le montage ou la révision peuvent détruire les surfaces de palier et de tourillon en quelques heures de fonctionnement. Keshav Enterprises effectue un rinçage professionnel d'huile de lubrification à l'aide de systèmes de filtration centrifuge mobiles spécialement conçus pour atteindre la classe de propreté ISO 4406 16/14/11 — norme minimale pour la lubrification des paliers de turbine à vapeur. Notre processus est entièrement documenté : résultats d'échantillons d'huile à chaque étape, registre de mise à niveau progressive des filtres, et un certificat final de comptage de particules certifié laboratoire fourni avant remise du système en état de remise en huile.",
     "procedures": [
       {
         "step": "01",
@@ -653,7 +653,7 @@
     ],
     "standards": [
       {
-        "code": "ISO 4406:99",
+        "code": "ISO 4406",
         "desc": "Classification de propreté des fluides hydrauliques — cible 16/14/11",
         "body": "ISO"
       },
@@ -957,7 +957,7 @@
         "body": "API"
       },
       {
-        "code": "ISO 4406:99",
+        "code": "ISO 4406",
         "desc": "Classification de propreté de l'huile de lubrification",
         "body": "ISO"
       },

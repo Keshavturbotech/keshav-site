@@ -9,7 +9,7 @@
       },
       {
         "title": "Contaminação do Óleo Lubrificante",
-        "desc": "A entrada de partículas e água no sistema de óleo lubrificante pode degradar rapidamente as superfícies dos mancais. As metas de limpeza ISO 4406:99 devem ser mantidas continuamente."
+        "desc": "A entrada de partículas e água no sistema de óleo lubrificante pode degradar rapidamente as superfícies dos mancais. As metas de limpeza ISO 4406 devem ser mantidas continuamente."
       },
       {
         "title": "Expansão Térmica em Linhas de Vapor",
@@ -23,7 +23,7 @@
     "products": [
       {
         "name": "Elementos Filtrantes de Óleo Lubrificante (180 GPM)",
-        "purpose": "Mantém a limpeza ISO 4406:99 em sistemas de óleo lubrificante de turbinas, protegendo mancais de munhão e de escora contra desgaste abrasivo.",
+        "purpose": "Mantém a limpeza ISO 4406 em sistemas de óleo lubrificante de turbinas, protegendo mancais de munhão e de escora contra desgaste abrasivo.",
         "features": [
           "Mídia VG de feltro de fibra de vidro, finura 6–25 µm",
           "Especificação antiestática IS27 para óleos sintéticos",
@@ -89,7 +89,7 @@
     "keyFacts": [
       "Capacidade máxima de turbina atendida: 60 MW",
       "{years}+ anos de experiência em engenharia formada em OEM",
-      "Produtos conforme API 614 e ISO 4406:99",
+      "Produtos conforme API 614 e ISO 4406",
       "Fornecimento de filtros HVAC para salas de controle e casas de turbinas",
       "Suporte de emergência 24×7"
     ]

@@ -3,6 +3,7 @@
 // Full port of AboutPage from App.jsx (line ~16691).
 // All navigate() calls → real <a href> links. Static Astro page — no React island needed.
 import Layout from "../layouts/Layout.astro";
+import { getCatalogStats } from "../lib/catalogStats";
 import { localizedPath } from "../lib/localeMeta";
 import {
   OEMS,
@@ -23,7 +24,10 @@ const PRODUCTS = getLocalizedList<Product>("products", locale);
 // Category count and names come from the live catalogue + the localized
 // product-categories labels, so the About copy can never go stale when a
 // category is added (it said "9 categories" while the catalogue had 10).
-const CATEGORY_COUNT = new Set(PRODUCTS.map((p) => p.category)).size;
+// Company formally established June 2020 (the 1988/2016 founder history is in the hero intro).
+const COMPANY_ESTABLISHED_YEAR = "2020";
+const CATALOG_STATS = getCatalogStats(PRODUCTS);
+const CATEGORY_COUNT = CATALOG_STATS.categoryCount;
 const CATEGORY_LABELS = Object.entries(
   getLocalizedData<Record<string, { label: string }>>("product-categories", locale),
 )
@@ -204,7 +208,7 @@ const galleryCards = [
               `${YEARS_IN_BUSINESS}+`,
               "10+",
               "60 MW",
-              "24x7",
+              COMPANY_ESTABLISHED_YEAR,
             ].map((stat, i) => {
               const { label, sub, subTemplate } = about.hero.statCards[i];
               return (
@@ -274,7 +278,7 @@ const galleryCards = [
             `${YEARS_IN_BUSINESS}+`,
             "10+",
             "60 MW",
-            "24x7",
+            COMPANY_ESTABLISHED_YEAR,
           ].map((stat, i) => {
             const { label, sub, subTemplate } = about.statsBar[i];
             return (
@@ -372,7 +376,9 @@ const galleryCards = [
         </h2>
         <div class="w-16 h-1 bg-blue-600 mx-auto mt-4 rounded-full" aria-hidden="true"></div>
         <p class="text-slate-600 text-base max-w-2xl mx-auto mt-5 leading-relaxed">
-          {about.gallery.subheadingTemplate.replace("{productCount}", String(PRODUCTS.length))}
+          {about.gallery.subheadingTemplate
+            .replace("{productCount}", String(PRODUCTS.length))
+            .replace("{categoryCount}", String(CATEGORY_COUNT))}
         </p>
       </div>
       <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">

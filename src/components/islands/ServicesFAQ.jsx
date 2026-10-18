@@ -14,7 +14,7 @@ const SVC_FAQ_ITEMS = [
   },
   {
     q: "How fast can you respond to a breakdown emergency?",
-    a: "Our engineers are stationed at multiple locations across India. For North India (UP, Haryana, Punjab, Rajasthan), typical site arrival is 4–12 hours from your call. We operate 24x7 with no answering service — you speak to a qualified engineer.",
+    a: "Our engineers are stationed at multiple locations across India. For North India (UP, Haryana, Punjab, Rajasthan), site arrival time is confirmed when you call. We operate 24×7 with no answering service — you speak to a qualified engineer.",
   },
   {
     q: "What is your process for reverse-engineering an obsolete part?",
@@ -22,7 +22,7 @@ const SVC_FAQ_ITEMS = [
   },
   {
     q: "Can you provide a typical project timeline and pricing estimate?",
-    a: "A planned annual overhaul on a 5–15 MW turbine typically takes 7–14 days on-site with a team of 4–6 engineers. Pricing depends on turbine make, scope of work, and parts required — contact us for a detailed quotation. Emergency breakdown support starts with a 24-hour site assessment.",
+    a: "A planned annual overhaul on a 5–15 MW turbine typically takes 7–14 days on-site with a team of 4–6 engineers. Pricing depends on turbine make, scope of work, and parts required — contact us for a detailed quotation. Emergency breakdown support starts with a call or WhatsApp message, answered 24×7.",
   },
   {
     q: "Do you provide documentation I can submit to my management or insurer?",
@@ -67,16 +67,17 @@ export default function ServicesFAQ() {
                   aria-hidden="true"
                 />
               </button>
-              {open === i && (
-                <div
-                  id={`svc-faq-panel-${i}`}
-                  role="region"
-                  aria-labelledby={`svc-faq-button-${i}`}
-                  className="px-6 pb-5 pt-1 bg-slate-50 border-t border-slate-100"
-                >
-                  <p className="text-slate-600 font-medium text-sm leading-relaxed">{item.a}</p>
-                </div>
-              )}
+              {/* Always in the HTML (crawlers and no-JS readers see every answer);
+                  closed panels are hidden with the `hidden` attribute. */}
+              <div
+                id={`svc-faq-panel-${i}`}
+                role="region"
+                aria-labelledby={`svc-faq-button-${i}`}
+                hidden={open !== i}
+                className="px-6 pb-5 pt-1 bg-slate-50 border-t border-slate-100"
+              >
+                <p className="text-slate-600 font-medium text-sm leading-relaxed">{item.a}</p>
+              </div>
             </div>
           ))}
         </div>

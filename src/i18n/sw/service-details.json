@@ -432,7 +432,7 @@
       }
     ],
     "whyUs": "Rota kwa RPM 3,000 huzalisha nguvu za kutokuwiana mara 100 zaidi kuliko kwa RPM 300. Kutokuwiana kule kule kwa mabaki ambako hakuonekani kwa kasi ndogo kutaharibu bearing kwa kasi kamili. Tunasawazisha hadi ISO 1940 Daraja G1.0 inapohitajika — si tu 'nzuri ya kutosha'.",
-    "overview": "Kutokuwiana kwa rota ni mojawapo ya sababu za kawaida na zinazoweza kuzuiwa zaidi za kushindwa kwa bearing ya turbine, uharibifu wa seal, na kupunguzwa kwa maisha ya rota. Keshav Enterprises hufanya ukataji sahihi wa journal na uwiano wa mzunguko wa ISO 21940-11 / ISO 1940 kwa rota kutoka kilo 50 hadi 2,000 katika karakhana yetu maalum. Rota kwanza hukatwa kurejesha uadilifu wa kijiometri — journal za mviringo, labyrinth zinazolingana katikati, umaliziaji sahihi wa uso — kabla ya uwiano. Mfuatano huu ni muhimu: kusawazisha rota iliyopotoshwa kijiometri kunaficha tu tatizo. Ripoti zetu za uwiano zinaandika kutokuwiana kwa awali, ndege za urekebishaji, urekebishaji wa uzito, kutokuwiana kwa mabaki, na daraja la uwiano la ISO lililofikiwa, likitoa ufuatiliaji kamili kwa rekodi zako za matengenezo.",
+    "overview": "Kutokuwiana kwa rota ni mojawapo ya sababu za kawaida na zinazoweza kuzuiwa zaidi za kushindwa kwa bearing ya turbine, uharibifu wa seal, na kupunguzwa kwa maisha ya rota. Keshav Enterprises hufanya ukataji sahihi wa journal na uwiano wa mzunguko wa ISO 21940-11 (formerly ISO 1940) kwa rota kutoka kilo 50 hadi 2,000 katika karakhana yetu maalum. Rota kwanza hukatwa kurejesha uadilifu wa kijiometri — journal za mviringo, labyrinth zinazolingana katikati, umaliziaji sahihi wa uso — kabla ya uwiano. Mfuatano huu ni muhimu: kusawazisha rota iliyopotoshwa kijiometri kunaficha tu tatizo. Ripoti zetu za uwiano zinaandika kutokuwiana kwa awali, ndege za urekebishaji, urekebishaji wa uzito, kutokuwiana kwa mabaki, na daraja la uwiano la ISO lililofikiwa, likitoa ufuatiliaji kamili kwa rekodi zako za matengenezo.",
     "procedures": [
       {
         "step": "01",
@@ -462,7 +462,7 @@
         "step": "05",
         "title": "Uwiano wa Mzunguko — Urekebishaji wa Ndege Mbili",
         "iconName": "Target",
-        "desc": "Rota inawekwa kwenye mashine ya uwiano wa mzunguko wa hard-bearing. Kutokuwiana kwa awali hupimwa kwa wakati mmoja kwenye ndege mbili za urekebishaji (ncha ya coupling na ncha ya governor/impeller). Uzito wa jaribio unatumika na kuondolewa. Marudio ya uwiano yanarudiwa hadi kutokuwiana kwa mabaki kwenye kila ndege kunakidhi daraja la ISO 21940-11 / ISO 1940 lililobainishwa kwa huduma hii ya rota."
+        "desc": "Rota inawekwa kwenye mashine ya uwiano wa mzunguko wa hard-bearing. Kutokuwiana kwa awali hupimwa kwa wakati mmoja kwenye ndege mbili za urekebishaji (ncha ya coupling na ncha ya governor/impeller). Uzito wa jaribio unatumika na kuondolewa. Marudio ya uwiano yanarudiwa hadi kutokuwiana kwa mabaki kwenye kila ndege kunakidhi daraja la ISO 21940-11 (formerly ISO 1940) lililobainishwa kwa huduma hii ya rota."
       },
       {
         "step": "06",
@@ -569,7 +569,7 @@
       }
     ],
     "whyUs": "Turbine mpya na zilizokarabatiwa hivi karibuni zinaharibiwa na mabaki ya ujenzi — makombo ya kulehemu, kutu ya bomba, mchanga, na vipande vya metali — ndani ya masaa kutoka mwendo wa kwanza. Usafishaji wa mafuta si hiari: ni bima yenye gharama nafuu zaidi dhidi ya kushindwa kubwa kwa bearing kwenye ukarabati mpya.",
-    "overview": "Uchafuzi wa mfumo wa mafuta ya kulainisha ni sababu kuu ya kushindwa kwa bearing katika turbine mpya na zilizokarabatiwa hivi karibuni. Mabaki ya ujenzi yanayoingia kwenye mfumo wa mafuta ya kulainisha wakati wa uwekaji au ukarabati yanaweza kuharibu bearing na nyuso za journal ndani ya masaa kutoka mwendo. Keshav Enterprises hufanya usafishaji wa kitaalamu wa mafuta ya kulainisha ukitumia mifumo maalum ya kichujio cha sentrifiuji kinachotembea kufikia daraja la usafi la ISO 4406:99 16/14/11 — kiwango cha chini kwa ulainishaji wa bearing ya turbine ya mvuke. Mchakato wetu unaandikwa kikamilifu: matokeo ya sampuli za mafuta katika kila hatua, rekodi za kuboresha kichujio hatua kwa hatua, na cheti cha mwisho cha hesabu ya chembe kilichoidhinishwa na maabara kinatolewa kabla ya mfumo kurudishwa kwa ajili ya kumwaga mafuta.",
+    "overview": "Uchafuzi wa mfumo wa mafuta ya kulainisha ni sababu kuu ya kushindwa kwa bearing katika turbine mpya na zilizokarabatiwa hivi karibuni. Mabaki ya ujenzi yanayoingia kwenye mfumo wa mafuta ya kulainisha wakati wa uwekaji au ukarabati yanaweza kuharibu bearing na nyuso za journal ndani ya masaa kutoka mwendo. Keshav Enterprises hufanya usafishaji wa kitaalamu wa mafuta ya kulainisha ukitumia mifumo maalum ya kichujio cha sentrifiuji kinachotembea kufikia daraja la usafi la ISO 4406 16/14/11 — kiwango cha chini kwa ulainishaji wa bearing ya turbine ya mvuke. Mchakato wetu unaandikwa kikamilifu: matokeo ya sampuli za mafuta katika kila hatua, rekodi za kuboresha kichujio hatua kwa hatua, na cheti cha mwisho cha hesabu ya chembe kilichoidhinishwa na maabara kinatolewa kabla ya mfumo kurudishwa kwa ajili ya kumwaga mafuta.",
     "procedures": [
       {
         "step": "01",
@@ -653,7 +653,7 @@
     ],
     "standards": [
       {
-        "code": "ISO 4406:99",
+        "code": "ISO 4406",
         "desc": "Uainishaji wa usafi wa maji ya hydraulic — lengo la 16/14/11",
         "body": "ISO"
       },
@@ -957,7 +957,7 @@
         "body": "API"
       },
       {
-        "code": "ISO 4406:99",
+        "code": "ISO 4406",
         "desc": "Uainishaji wa usafi wa mafuta ya kulainisha",
         "body": "ISO"
       },

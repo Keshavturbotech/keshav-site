@@ -211,7 +211,7 @@
       "Uzatılmış servis aralıkları için yüksek kir tutma kapasitesi",
       "Kimyasal direnç için Viton (V) sızdırmazlık",
       "Filtrasyon derecesi: ince havadaki kontaminasyon için 3 VL mikron",
-      "ISO 4406:99'a göre sistem temizliğini korur",
+      "ISO 4406'a göre sistem temizliğini korur",
       "Tek elle kolay servis ile tank montaj tasarımı"
     ],
     "specs": {
@@ -220,7 +220,7 @@
       "Filtration Grade": "3 VL",
       "Sealing": "Viton (V)",
       "Installation": "Tank nefes alma montajı",
-      "Standards": "ISO 16889, ISO 4406:99 uyumlu",
+      "Standards": "ISO 16889, ISO 4406 uyumlu",
       "HSN Code": "8421"
     },
     "images": [
@@ -426,7 +426,7 @@
       "MOC: Karbon Çelik veya Paslanmaz Çelik gövde",
       "OEM çapraz referansları: Eaton 01.E serisi; Parker; HYDAC RFM/RFD serisi; Internormen dönüş hattı elemanları",
       "Kontamine yağın ana rezervuara dönmesini önler",
-      "ISO 4406:99 standartlarına göre sistem temizliğini korur",
+      "ISO 4406 standartlarına göre sistem temizliğini korur",
       "Mineral yağlar, emülsiyonlar ve sentetik sıvılarla uyumlu",
       "Birden fazla debi boyutunda ve mikron derecesinde mevcut — 4, 6, 10, 16, 25 µm standart",
       "Soğuk başlatma koruması için baypas valfi seçeneği",
@@ -441,7 +441,7 @@
       "MOC": "Karbon Çelik / Paslanmaz Çelik",
       "OEM Cross-References": "Eaton 01.E serisi; Parker; HYDAC RFM/RFD; Internormen",
       "Bypass": "Soğuk başlatma koruması için baypas valfi mevcuttur",
-      "Standards": "ISO 4406:99 temizlik uyumluluğu",
+      "Standards": "ISO 4406 temizlik uyumluluğu",
       "HSN Code": "8421"
     },
     "images": [
@@ -3112,7 +3112,7 @@
       "PMI malzeme doğrulamasıyla tersine mühendislik uygulanan OEM çizimlerinden üretilir",
       "Malzeme: buhar koşullarına göre alaşımlı çelik (CrMoV, %12 Cr)",
       "Hassas işleme: kaba işleme > ön nihai > nihai işleme",
-      "ISO 21940-11 / ISO 1940'e göre 50-2.000 kg dinamik dengeleme",
+      "ISO 21940-11 (formerly ISO 1940)'e göre 50-2.000 kg dinamik dengeleme",
       "Mekanik ve elektriksel salgı verileriyle tam dengeleme raporu",
       "Kanat bağlantı seçenekleri: Finger-tree, T-kök veya kırlangıç kuyruğu (dove-tail)",
       "Ömür uzatma programları için malzeme yükseltmeleri mevcuttur",
@@ -3120,7 +3120,7 @@
     ],
     "specs": {
       "Rotor Material": "Buhar koşullarına göre alaşımlı çelik (CrMoV, %12 Cr)",
-      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (kapasite: 50-2.000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 (formerly ISO 1940) (kapasite: 50-2.000 kg)",
       "Machining Stages": "Kaba işleme > ön nihai > nihai işleme",
       "Blade Root Options": "Finger-tree, T-kök, kırlangıç kuyruğu (Dove-tail)",
       "Documentation": "Tam muayene sertifikası + dengeleme raporu",
@@ -4096,7 +4096,7 @@
       "LP son kademe hücum kenarlarında Stellite sert yüzey — ıslak buhar damlacıklarından erozyon koruması",
       "Boyutsal doğrulama: her kanat partisi için profil mastarı kontrolü + CMM muayene raporu",
       "İşlemeden önce PMI malzeme doğrulaması — kimyasal bileşim sertifikası sağlanır",
-      "Rotor diski üzerinde tam kanat setinin dinamik dengelenmesi — ISO 21940-11 / ISO 1940 uyumluluğu",
+      "Rotor diski üzerinde tam kanat setinin dinamik dengelenmesi — ISO 21940-11 (formerly ISO 1940) uyumluluğu",
       "Hareketli (rotor) ve sabit (nozul/diyafram) kanatlar ayrı ayrı veya kademe seti olarak sağlanır",
       "Ömür uzatma programları için uygundur — kanat malzemesi yükseltmesi mevcuttur"
     ],
@@ -4109,7 +4109,7 @@
       "Erosion Protection": "LP son kademe hücum kenarında Stellite sert yüzey",
       "Verification": "Parti başına profil mastarı + CMM muayene raporu",
       "PMI Certificate": "Kimyasal bileşim sertifikası sağlanır",
-      "Balancing Standard": "ISO 21940-11 / ISO 1940 (rotor diskinde)",
+      "Balancing Standard": "ISO 21940-11 (formerly ISO 1940) (rotor diskinde)",
       "HSN Code": "8406"
     },
     "images": [
@@ -5791,7 +5791,7 @@
   "prod_ee1": {
     "id": "prod_ee1",
     "sku": "KTB-EE-001",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Titreşim İzleme Probları (Shinkawa Uyumlu)",
     "images": [
       "vibration-probe-shinkawa-1.webp",
@@ -5807,7 +5807,7 @@
       "vibration-probe-shinkawa-11.webp",
       "vibration-probe-shinkawa-12.webp"
     ],
-    "slug": "vibration-monitoring-probes-shinkawa-compatible",
+    "slug": "vibration-monitoring-probes-genuine-shinkawa",
     "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 25000,
@@ -5868,7 +5868,7 @@
   "prod_ee7": {
     "id": "prod_ee7",
     "sku": "KTB-EE-007",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Bently Nevada 3300 XL Yakınlık Probu Sistemleri",
     "desc": "Türbin, dişli kutusu ve alternatörlerde titreşim ve eksenel itme izleme için orijinal Bently Nevada 3300 XL yakınlık probları, 330130 uzatma kabloları ve Proximitor sensörleri. Parça numarasına göre teklif.",
     "usage": "Bently Nevada 3500 veya 3300 izleme sistemli turbo makinelerde radyal titreşim, eksenel konum, eksantriklik, diferansiyel genleşme ile hız/faz referansı. 5 mm ve 8 mm problar olağan kaymalı yatak ve itme ölçümlerini kapsar; daha büyük 11, 16, 25 ve 50 mm sistemler uzun menzilli ve genleşme ölçümlerini kapsar.",
@@ -5900,7 +5900,7 @@
   "prod_ee8": {
     "id": "prod_ee8",
     "sku": "KTB-EE-008",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "EPRO PR6423 / PR6424 Girdap Akımlı Sensörler ve CON011",
     "desc": "Türbin, dişli kutusu ve jeneratörlerde şaft titreşimi ve konum ölçümü için orijinal Emerson EPRO PR6422 ile PR6426 girdap akımlı sensörler ve CON011 sinyal dönüştürücüler.",
     "usage": "Buhar, gaz ve hidro türbinler, kompresörler, dişli kutuları, pompalar ve fanlarda Emerson / EPRO MMS monitörleri veya dönüştürücü çıkışını kabul eden herhangi bir sistemle şaftın radyal ve eksenel yer değiştirmesi, konumu, eksantrikliği ve hızı/kamasının ölçümü.",
@@ -5924,7 +5924,7 @@
   "prod_ee9": {
     "id": "prod_ee9",
     "sku": "KTB-EE-009",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Vibro-Meter TQ402 / TQ442 Yakınlık Probları ve IQS450",
     "desc": "Türbin şaft titreşimi ve konum izleme için orijinal Meggitt vibro-meter TQ4xx yakınlık probları, EA40x kabloları ve IQS450 sinyal koşullandırıcılar.",
     "usage": "vibro-meter izleme sistemli buhar, gaz ve hidrolik türbinlerde ve diğer kritik makinelerde temassız şaft titreşimi ve eksenel konum. Kısa devre korumalı gerilim veya akım çıkışı hem raf monitörleri hem de doğrudan DCS bağlantısı için uygundur.",
@@ -5949,7 +5949,7 @@
   "prod_ee10": {
     "id": "prod_ee10",
     "sku": "KTB-EE-010",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "2 Telli 4-20 mA Titreşim Vericileri (Shinkawa WK/WKN)",
     "desc": "Buhar türbinleri, alternatörler, dişli kutuları, pompalar ve kompresörler için orijinal Shinkawa WK / WKN 2 telli 4-20 mA titreşim ve itme vericileri. Doğrudan DCS veya PLC bağlantısı, monitör rafı gerekmez.",
     "usage": "Tam raf monitörünün gerekçelendirilemediği küçük ve orta ölçekli makinelerde sürekli şaft titreşimi veya itme konumu izleme: yardımcı buhar türbinleri, kazan besleme pompaları, dişli kutuları, kompresörler, fanlar ve alternatörler. 4-20 mA döngü sinyali doğrudan DCS, PLC veya göstergeye gider.",
@@ -5987,7 +5987,7 @@
   "prod_ee11": {
     "id": "prod_ee11",
     "sku": "KTB-EE-011",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Gövde Titreşim Sensörleri: Velomitor, CV-86 ve İvmeölçerler",
     "desc": "Türbin, dişli kutusu, alternatör ve motorlarda yatak titreşimi için orijinal Bently Velomitor, Shinkawa CV-86, Hansford ve SKF sensörleri. Modele göre teklif.",
     "usage": "Şaft probunun takılamadığı veya gövde titreşiminin alarm ya da trip girişi olduğu yerlerde yatak ayakları, dişli kutusu gövdeleri, alternatör şasileri ve motor kapaklarında mutlak (sismik) titreşim. Türbin-dişli kutusu-alternatör hatlarında şaft yakınlık probları ile birlikte, motor, fan ve pompalarda tek başına kullanılır.",
@@ -6016,7 +6016,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Manyetik Pickup Sensörü (Woodward)",
     "desc": "Woodward regülatörlerine ve dijital türbin kontrol sistemlerine hassas mil hızı geri beslemesi için orijinal Woodward değişken relüktanslı manyetik hız pickup'ı (MPU). 3000–3600 RPM'de çalışan buhar türbinlerinde sürekli görev için pasif, kendinden beslemeli, bakım gerektirmeyen tasarım.",
     "usage": "Woodward 505/505D/505E dijital regülatörleri, 2301 ve 7206 regülatör amplifikatörleri ve Triveni, BHEL, Siemens, KKK ve Maxwatt buhar türbinlerinde bağımsız aşırı hız tripi sistemleri için birincil hız algılama girişi. Kapalı döngü hız regülasyonu, yük kontrolü ve başlatma, senkronizasyon ve tam yük çalışması boyunca aşırı hız korumasını sağlamak için türbin rotor hızını regülatör dişli çarkı (diş dişlisi / volan) üzerinden izler.",
@@ -6085,7 +6085,7 @@
   "prod_ee3": {
     "id": "prod_ee3",
     "sku": "KTB-EE-003",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "ASCO 8210 Serisi Patlamaya Dayanıklı Solenoid Vana",
     "desc": "Türbin tripi, yağlama yağı, buhar contası ve proses kontrolü uygulamaları için ASCO 8210 serisi genel amaçlı patlamaya dayanıklı solenoid valfler. Tehlikeli alan kurulumu için ATEX/IECEx ve NEMA 7/9 dereceli.",
     "usage": "Türbin acil durum tripi yağ tahliyesi, buhar giriş/trip solenoidleri, yağlama yağı sistemi kontrolü, proses ortamı izolasyonu, ve Zone 1/Zone 2 tehlikeli alanlarda güvenlik enstrümanlı sistem (SIS) aktüatör valfleri.",
@@ -6146,7 +6146,7 @@
   "prod_ee4": {
     "id": "prod_ee4",
     "sku": "KTB-EE-004",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Beacon Endüstriyel Analog Takometre Göstergesi",
     "desc": "Türbin kontrol panellerinde doğrudan mil hızı göstergesi için sağlam endüstriyel analog panel takometresi. Buhar türbini binası ortamları için IP54 sızdırmaz kasalı sağlam mekanizma.",
     "usage": "Şeker fabrikalarında, elektrik santrallerinde ve kağıt fabrikalarında türbin kontrol panellerinde, operatör konsollarında ve yerel enstrüman muhafazalarında yerel türbin hızı göstergesi.",
@@ -6206,7 +6206,7 @@
   "prod_ee5": {
     "id": "prod_ee5",
     "sku": "KTB-EE-005",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Elektrik Santralleri ve Buhar Türbinleri için RTD ve Sensörler",
     "desc": "Türbin yatak sıcaklığı, yağlama yağı sıcaklığı, buhar sıcaklığı ve egzoz gazı izlemesi için eksiksiz Direnç Sıcaklık Detektörü (RTD), termokupl ve proses sensörleri yelpazesi.",
     "usage": "Buhar türbinlerinde ve elektrik santrali yardımcı ekipmanlarında yatak metal sıcaklığı (babbitt), yağlama yağı giriş/çıkış sıcaklığı, buhar sandığı sıcaklığı, egzoz sıcaklığı ve soğutma suyu sıcaklığı izlenmesi.",
@@ -6264,7 +6264,7 @@
   "prod_ee6": {
     "id": "prod_ee6",
     "sku": "KTB-EE-006",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "SEMIKRON SKN240/16 Redresör Diyot",
     "desc": "Alternatör AVR uyarma devreleri ve türbin-jeneratör redresör köprüleri için SEMIKRON SKN240/16 saplama montajlı güç redresör diyodu. 240 A ortalama ileri akım, 1600 V tepe ters gerilim. Tam VRRM gerilim aralığı (800 V – 2200 V) mevcuttur — siparişte gerilim sınıfını belirtin.",
     "usage": "Fırçasız alternatörlerde döner diyot köprü redresörleri, statik AVR uyarma panelleri, türbin tahrikli jeneratör kontrol devreleri, ve şeker fabrikası ve elektrik santrali alternatörlerinde endüstriyel güç doğrultma.",

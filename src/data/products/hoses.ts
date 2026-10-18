@@ -366,7 +366,7 @@ export const HOSES_PRODUCTS = [
       title: "Flexible Food Grade Hose",
       desc: "FDA-compliant food-grade flexible hose for hygienic fluid and gas transfer in food processing, beverage, dairy, and pharmaceutical plants. Smooth polished bore, CIP/SIP compatible construction with sanitary end fittings.",
       usage:
-        "Food-grade liquid and gas transfer in dairy plants, breweries, beverage production, edible oil processing, pharmaceutical fluid handling, and any application requiring hygienic piping with FDA-approved materials.",
+        "Food-grade liquid and gas transfer in dairy plants, breweries, beverage production, edible oil processing, pharmaceutical fluid handling, and any application requiring hygienic piping with FDA-compliant materials.",
       features: [
         "Food-grade materials: FDA 21 CFR compliant inner tube and seals",
         "Smooth polished bore: minimises retention and microbial growth risk",

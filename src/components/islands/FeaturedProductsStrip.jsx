@@ -49,7 +49,7 @@ const CATEGORY_ICONS = {
   "HVAC, Ducting & Air Filtration": Wind,
   "Flexible Hoses & Assemblies": Activity,
   "Industrial Rubber Products": Hexagon,
-  "Electronic Equipments": Cpu,
+  "Electronic Equipment": Cpu,
   "Hydraulic Components": Wrench,
   "Valves, Gaskets & Steam System Products": Settings,
 };

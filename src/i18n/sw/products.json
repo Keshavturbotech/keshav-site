@@ -211,7 +211,7 @@
       "Uwezo wa juu wa kushikilia uchafu kwa vipindi virefu vya huduma",
       "Kuziba kwa Viton (V) kwa upinzani wa kemikali",
       "Daraja la uchujaji: mikroni 3 VL kwa uchafuzi mwembamba wa angani",
-      "Inalinda usafi wa mfumo kulingana na ISO 4406:99",
+      "Inalinda usafi wa mfumo kulingana na ISO 4406",
       "Muundo wa kuwekwa kwenye tangi na huduma rahisi ya mkono mmoja"
     ],
     "specs": {
@@ -220,7 +220,7 @@
       "Filtration Grade": "3 VL",
       "Sealing": "Viton (V)",
       "Installation": "Uwekaji wa kupumua kwa tangi",
-      "Standards": "Inaendana na ISO 16889, ISO 4406:99",
+      "Standards": "Inaendana na ISO 16889, ISO 4406",
       "HSN Code": "8421"
     },
     "images": [
@@ -426,7 +426,7 @@
       "MOC: Nyumba ya Chuma cha Kaboni au Chuma cha Pua",
       "Rejea mtambuka za OEM: mfululizo wa Eaton 01.E; Parker; mfululizo wa HYDAC RFM/RFD; vipengele vya return-line vya Internormen",
       "Inazuia mafuta yaliyochafuliwa kurudi kwenye hifadhi kuu",
-      "Inadumisha usafi wa mfumo kulingana na viwango vya ISO 4406:99",
+      "Inadumisha usafi wa mfumo kulingana na viwango vya ISO 4406",
       "Inaendana na mafuta ya madini, emulsions, na vimiminika vya sintetiki",
       "Inapatikana katika ukubwa mbalimbali wa mtiririko na viwango vya mikroni — mikroni 4, 6, 10, 16, 25 za kawaida",
       "Chaguo la valvu ya bypass kwa ulinzi wa cold-start",
@@ -441,7 +441,7 @@
       "MOC": "Chuma cha Kaboni / Chuma cha Pua",
       "OEM Cross-References": "Mfululizo wa Eaton 01.E; Parker; HYDAC RFM/RFD; Internormen",
       "Bypass": "Valvu ya bypass inapatikana kwa ulinzi wa cold-start",
-      "Standards": "Uzingatiaji wa usafi wa ISO 4406:99",
+      "Standards": "Uzingatiaji wa usafi wa ISO 4406",
       "HSN Code": "8421"
     },
     "images": [
@@ -3112,7 +3112,7 @@
       "Zinatengenezwa kutoka michoro ya OEM iliyopatikana kwa uhandisi wa kinyume na uthibitisho wa nyenzo wa PMI",
       "Nyenzo: chuma cha aloi (CrMoV, 12% Cr) kulingana na hali za mvuke",
       "Usanifu wa usahihi: rough machining > pre-final > final",
-      "Uwiano wa mzunguko wa kilo 50–2,000 kulingana na ISO 21940-11 / ISO 1940",
+      "Uwiano wa mzunguko wa kilo 50–2,000 kulingana na ISO 21940-11 (formerly ISO 1940)",
       "Ripoti kamili ya uwiano wa mzunguko yenye data ya run-out ya mechanical na electrical",
       "Chaguo za kuunganisha blade: finger-tree, T-root, au dove-tail",
       "Uboreshaji wa nyenzo unapatikana kwa mipango ya kuongeza maisha",
@@ -3120,7 +3120,7 @@
     ],
     "specs": {
       "Rotor Material": "Chuma cha aloi (CrMoV, 12% Cr) kulingana na hali za mvuke",
-      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (uwezo: kilo 50–2,000)",
+      "Dynamic Balancing": "ISO 21940-11 (formerly ISO 1940) (uwezo: kilo 50–2,000)",
       "Machining Stages": "Rough machining > pre-final > final machining",
       "Blade Root Options": "Finger-tree, T-root, Dove-tail",
       "Documentation": "Cheti kamili cha ukaguzi + ripoti ya uwiano wa mzunguko",
@@ -4096,7 +4096,7 @@
       "Hard-facing ya Stellite kwenye ukingo wa mbele wa hatua ya mwisho ya LP — ulinzi wa mmomonyoko kutoka matone ya mvuke wenye unyevu",
       "Uthibitisho wa vipimo: ukaguzi wa profile gauge + ripoti ya ukaguzi wa CMM kwa kila batch ya blade",
       "Uthibitisho wa nyenzo wa PMI kabla ya usanifu — cheti cha muundo wa kikemikali kinatolewa",
-      "Uwiano wa mzunguko wa seti kamili ya blade kwenye disc ya rotor — kulingana na ISO 21940-11 / ISO 1940",
+      "Uwiano wa mzunguko wa seti kamili ya blade kwenye disc ya rotor — kulingana na ISO 21940-11 (formerly ISO 1940)",
       "Blade zinazosogea (rotor) na zisizosogea (nozzle/diaphragm) hutolewa tofauti au kama seti ya hatua",
       "Zinafaa kwa mipango ya kuongeza maisha — uboreshaji wa nyenzo za blade unapatikana"
     ],
@@ -4109,7 +4109,7 @@
       "Erosion Protection": "Hard-facing ya Stellite kwenye ukingo wa mbele wa hatua ya mwisho ya LP",
       "Verification": "Profile gauge + ripoti ya ukaguzi wa CMM kwa kila batch",
       "PMI Certificate": "Cheti cha muundo wa kikemikali kinatolewa",
-      "Balancing Standard": "ISO 21940-11 / ISO 1940 (kwenye disc ya rotor)",
+      "Balancing Standard": "ISO 21940-11 (formerly ISO 1940) (kwenye disc ya rotor)",
       "HSN Code": "8406"
     },
     "images": [
@@ -5791,7 +5791,7 @@
   "prod_ee1": {
     "id": "prod_ee1",
     "sku": "KTB-EE-001",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Probu za Ufuatiliaji wa Mtetemo (Zinazoendana na Shinkawa)",
     "images": [
       "vibration-probe-shinkawa-1.webp",
@@ -5807,7 +5807,7 @@
       "vibration-probe-shinkawa-11.webp",
       "vibration-probe-shinkawa-12.webp"
     ],
-    "slug": "vibration-monitoring-probes-shinkawa-compatible",
+    "slug": "vibration-monitoring-probes-genuine-shinkawa",
     "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 25000,
@@ -5868,7 +5868,7 @@
   "prod_ee7": {
     "id": "prod_ee7",
     "sku": "KTB-EE-007",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Mifumo ya Probe za Ukaribu za Bently Nevada 3300 XL",
     "desc": "Probe asili za ukaribu za Bently Nevada 3300 XL, nyaya za nyongeza 330130 na Proximitor kwa ufuatiliaji wa mtetemo na msukumo wa turbine, masanduku ya gia na alternator. Bei kulingana na nambari ya sehemu.",
     "usage": "Mtetemo wa radial, nafasi ya axial, eccentricity, upanuzi tofauti na rejeo la kasi/fasi kwenye mashine za turbo zenye mifumo ya ufuatiliaji ya Bently Nevada 3500 au 3300. Probe za 5 mm na 8 mm hushughulikia vipimo vya kawaida vya bearing na msukumo; mifumo mikubwa zaidi ya 11, 16, 25 na 50 mm hushughulikia vipimo vya masafa marefu na vya upanuzi.",
@@ -5900,7 +5900,7 @@
   "prod_ee8": {
     "id": "prod_ee8",
     "sku": "KTB-EE-008",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Vitambuzi vya Mkondo wa Eddy vya EPRO PR6423 / PR6424 na CON011",
     "desc": "Vitambuzi asili vya mkondo wa eddy vya Emerson EPRO PR6422 hadi PR6426 na vibadilishaji ishara vya CON011 kwa kupima mtetemo na nafasi ya shaft kwenye turbine, masanduku ya gia na jenereta.",
     "usage": "Kipimo cha uhamishaji wa radial na axial wa shaft, nafasi, eccentricity na kasi/kota kwenye turbine za mvuke, gesi na maji, kompresa, masanduku ya gia, pampu na feni, pamoja na vifuatiliaji vya Emerson / EPRO MMS au mfumo wowote unaokubali pato la kibadilishaji.",
@@ -5924,7 +5924,7 @@
   "prod_ee9": {
     "id": "prod_ee9",
     "sku": "KTB-EE-009",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Probe za Ukaribu za Vibro-Meter TQ402 / TQ442 na IQS450",
     "desc": "Probe asili za ukaribu za Meggitt vibro-meter TQ4xx, nyaya za EA40x na virekebishaji ishara vya IQS450 kwa kufuatilia mtetemo na nafasi ya shaft ya turbine.",
     "usage": "Mtetemo wa shaft usiogusa na nafasi ya axial kwenye turbine za mvuke, gesi na haidroliki na mashine nyingine muhimu zenye mifumo ya ufuatiliaji ya vibro-meter. Pato la volteji au mkondo lenye ulinzi wa mzunguko mfupi linafaa vifuatiliaji vya raki na muunganisho wa moja kwa moja na DCS.",
@@ -5949,7 +5949,7 @@
   "prod_ee10": {
     "id": "prod_ee10",
     "sku": "KTB-EE-010",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Visambaza Mtetemo vya Waya 2 vya 4-20 mA (Shinkawa WK/WKN)",
     "desc": "Visambaza asili vya mtetemo na msukumo vya waya 2 vya 4-20 mA vya Shinkawa WK / WKN kwa turbine za mvuke, alternator, masanduku ya gia, pampu na kompresa. Muunganisho wa moja kwa moja na DCS au PLC, hakuna raki ya kifuatiliaji.",
     "usage": "Ufuatiliaji endelevu wa mtetemo wa shaft au nafasi ya msukumo kwenye mashine ndogo na za kati ambapo kifuatiliaji kamili cha raki hakihitajiki: turbine za mvuke za usaidizi, pampu za maji ya boiler, masanduku ya gia, kompresa, feni na alternator. Ishara ya mzunguko wa 4-20 mA huenda moja kwa moja kwenye DCS, PLC au kionyeshi.",
@@ -5987,7 +5987,7 @@
   "prod_ee11": {
     "id": "prod_ee11",
     "sku": "KTB-EE-011",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Vitambuzi vya Mtetemo wa Kasha: Velomitor, CV-86 na Accelerometer",
     "desc": "Vitambuzi asili vya Bently Velomitor, Shinkawa CV-86, Hansford na SKF kwa mtetemo wa bearing kwenye turbine, masanduku ya gia, alternator na mota. Bei kulingana na modeli.",
     "usage": "Mtetemo kamili (wa seismic) kwenye misingi ya bearing, kasha za masanduku ya gia, fremu za alternator na vifuniko vya mota, ambapo probe ya shaft haiwezi kuwekwa au ambapo mtetemo wa kasha ni pembejeo ya kengele au kuzima. Hutumika pamoja na probe za ukaribu za shaft katika mfululizo wa turbine-sanduku la gia-alternator, na peke yake kwenye mota, feni na pampu.",
@@ -6016,7 +6016,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Sensa ya Magnetic Pickup (Woodward)",
     "desc": "Sensa halisi ya Woodward ya variable reluctance magnetic speed pickup (MPU) kwa mrejesho sahihi wa kasi ya shimoni kwenda kwa governors za Woodward na mifumo ya udhibiti wa turbine za kidijitali. Muundo tulivu, unaojiendesha kwa nguvu yake, usiohitaji matengenezo kwa kazi endelevu kwenye turbine za mvuke zinazoendesha kwa RPM 3000–3600.",
     "usage": "Ingizo kuu la utambuzi wa kasi kwa governors za kidijitali za Woodward 505/505D/505E, viongeza sauti vya governor 2301 na 7206, na mifumo huru ya trip ya overspeed kwenye turbine za mvuke za Triveni, BHEL, Siemens, KKK, na Maxwatt. Hufuatilia kasi ya rota ya turbine kupitia gurudumu la gia la governor (gia ya jino / flywheel) kutoa udhibiti wa kasi wa closed-loop, udhibiti wa mzigo, na ulinzi wa overspeed katika uanzishaji wote, usawazishaji, na uendeshaji wa mzigo kamili.",
@@ -6085,7 +6085,7 @@
   "prod_ee3": {
     "id": "prod_ee3",
     "sku": "KTB-EE-003",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Valvu ya Solenoid Isiyolipuka ya ASCO Mfululizo wa 8210",
     "desc": "Valvu za solenoid za kuzuia mlipuko za madhumuni ya jumla za ASCO mfululizo wa 8210 kwa matumizi ya trip ya turbine, mafuta ya kulainisha, muhuri wa mvuke, na udhibiti wa mchakato. Zimekadiriwa ATEX/IECEx na NEMA 7/9 kwa usakinishaji wa maeneo hatarishi.",
     "usage": "Utoaji wa mafuta ya trip ya dharura ya turbine, solenoid za kuruhusu/kusimamisha mvuke, udhibiti wa mfumo wa mafuta ya kulainisha, utengaji wa vitu vya mchakato, na valvu za kuendesha mfumo wa vyombo vya usalama (SIS) katika maeneo hatarishi ya Zone 1/Zone 2.",
@@ -6146,7 +6146,7 @@
   "prod_ee4": {
     "id": "prod_ee4",
     "sku": "KTB-EE-004",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Kipimo cha Tachometer ya Analog ya Viwandani ya Beacon",
     "desc": "Kipimo cha tachometer ya analog ya paneli ya kiwandani imara kwa uonyeshaji wa moja kwa moja wa kasi ya shimoni kwenye paneli za udhibiti wa turbine. Mwendo imara wenye kasha lililofungwa la IP54 kwa mazingira ya nyumba ya turbine za mvuke.",
     "usage": "Uonyeshaji wa kasi ya turbine wa eneo la kazi kwenye paneli za udhibiti wa turbine, console za waendeshaji, na kasha za vyombo za eneo la kazi katika viwanda vya sukari, mitambo ya umeme, na viwanda vya karatasi.",
@@ -6206,7 +6206,7 @@
   "prod_ee5": {
     "id": "prod_ee5",
     "sku": "KTB-EE-005",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "RTD na Sensa za Mitambo ya Umeme na Turbine za Mvuke",
     "desc": "Wigo kamili wa Resistance Temperature Detector (RTD), thermocouple, na sensa za mchakato kwa joto la bearing la turbine, joto la mafuta ya kulainisha, joto la mvuke, na ufuatiliaji wa gesi ya moshi.",
     "usage": "Ufuatiliaji wa joto la chuma cha bearing (babbitt), joto la mlango/mtoko wa mafuta ya kulainisha, joto la steam chest, joto la moshi, na joto la maji ya kupoza katika turbine za mvuke na vifaa vya ziada vya mitambo ya umeme.",
@@ -6264,7 +6264,7 @@
   "prod_ee6": {
     "id": "prod_ee6",
     "sku": "KTB-EE-006",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Diode ya Rectifier ya SEMIKRON SKN240/16",
     "desc": "Diode ya rectifier ya nguvu ya stud-mount ya SEMIKRON SKN240/16 kwa mizunguko ya excitation ya AVR ya alternator na madaraja ya rectifier ya turbine-jenereta. Mkondo wa mbele wa wastani wa 240 A, voltage ya nyuma ya kilele ya 1600 V. Wigo kamili wa voltage ya VRRM (800 V hadi 2200 V) unapatikana — taja daraja la voltage wakati wa kuagiza.",
     "usage": "Madaraja ya diode yanayozunguka katika alternator zisizo na brashi, paneli tuli za excitation za AVR, mizunguko ya udhibiti wa jenereta inayoendeshwa na turbine, na urekebishaji wa nguvu za viwandani katika alternator za viwanda vya sukari na mitambo ya umeme.",

@@ -185,7 +185,7 @@ export const FILTRATION_PRODUCTS = [
         "High dirt-holding capacity for extended service intervals",
         "Viton (V) sealing for chemical resistance",
         "Filtration grade: 3 VL micron for fine airborne contamination",
-        "Protects system cleanliness per ISO 4406:99",
+        "Protects system cleanliness per ISO 4406",
         "Tank-mount design with easy one-hand servicing",
       ],
       specs: {
@@ -194,7 +194,7 @@ export const FILTRATION_PRODUCTS = [
         "Filtration Grade": "3 VL",
         Sealing: "Viton (V)",
         Installation: "Tank breather mount",
-        Standards: "ISO 16889, ISO 4406:99 compatible",
+        Standards: "ISO 16889, ISO 4406 compatible",
         "HSN Code": "8421",
       },
       images: [
@@ -352,7 +352,7 @@ export const FILTRATION_PRODUCTS = [
         "MOC: Carbon Steel or Stainless Steel housing",
         "OEM cross-references: Eaton 01.E series; Parker; HYDAC RFM/RFD series; Internormen return-line elements",
         "Prevents contaminated oil from returning to main reservoir",
-        "Maintains system cleanliness per ISO 4406:99 standards",
+        "Maintains system cleanliness per ISO 4406 standards",
         "Compatible with mineral oils, emulsions, and synthetic fluids",
         "Available in multiple flow sizes and micron ratings: 4, 6, 10, 16, 25 µm standard",
         "Bypass valve option for cold-start protection",
@@ -367,7 +367,7 @@ export const FILTRATION_PRODUCTS = [
         MOC: "Carbon Steel / Stainless Steel",
         "OEM Cross-References": "Eaton 01.E series; Parker; HYDAC RFM/RFD; Internormen",
         Bypass: "Bypass valve available for cold-start protection",
-        Standards: "ISO 4406:99 cleanliness compliance",
+        Standards: "ISO 4406 cleanliness compliance",
         "HSN Code": "8421",
       },
       images: [

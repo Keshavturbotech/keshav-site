@@ -211,7 +211,7 @@
       "高纳污容量,延长维护周期",
       "氟橡胶(V)密封,具备化学耐受性",
       "过滤等级:3 VL微米,用于精细空气污染过滤",
-      "符合ISO 4406:99标准的系统清洁度保护",
+      "符合ISO 4406标准的系统清洁度保护",
       "油箱安装设计,单手即可轻松维护"
     ],
     "specs": {
@@ -220,7 +220,7 @@
       "Filtration Grade": "3 VL",
       "Sealing": "氟橡胶(V)",
       "Installation": "油箱呼吸器安装",
-      "Standards": "兼容ISO 16889、ISO 4406:99",
+      "Standards": "兼容ISO 16889、ISO 4406",
       "HSN Code": "8421"
     },
     "images": [
@@ -426,7 +426,7 @@
       "材质:碳钢或不锈钢壳体",
       "原厂对照型号:伊顿01.E系列;Parker;HYDAC RFM/RFD系列;Internormen回油滤芯",
       "防止受污染油液返回主油箱",
-      "符合ISO 4406:99标准的系统清洁度保持",
+      "符合ISO 4406标准的系统清洁度保持",
       "兼容矿物油、乳化液及合成流体",
       "提供多种流量规格及过滤精度——标准10、25、40 µm之外还有4、6、16 µm等",
       "可选旁通阀,用于冷启动保护",
@@ -441,7 +441,7 @@
       "MOC": "碳钢/不锈钢",
       "OEM Cross-References": "伊顿01.E系列;Parker;HYDAC RFM/RFD;Internormen",
       "Bypass": "可提供旁通阀,用于冷启动保护",
-      "Standards": "符合ISO 4406:99清洁度标准",
+      "Standards": "符合ISO 4406清洁度标准",
       "HSN Code": "8421"
     },
     "images": [
@@ -2468,7 +2468,7 @@
       "根据逆向工程原厂图纸制造,并进行PMI材质验证",
       "材质:按蒸汽工况提供合金钢(CrMoV、12%铬)",
       "精密加工:粗加工>预精加工>精加工",
-      "动平衡50–2,000公斤,符合ISO 21940-11 / ISO 1940标准",
+      "动平衡50–2,000公斤,符合ISO 21940-11 (formerly ISO 1940)标准",
       "提供完整动平衡报告及机械/电气跳动数据",
       "叶片连接方式:指状树形、T形根部或燕尾形",
       "可提供材质升级方案,用于寿命延长计划",
@@ -2476,7 +2476,7 @@
     ],
     "specs": {
       "Rotor Material": "按蒸汽工况提供合金钢(CrMoV、12%铬)",
-      "Dynamic Balancing": "ISO 21940-11 / ISO 1940(容量:50–2,000公斤)",
+      "Dynamic Balancing": "ISO 21940-11 (formerly ISO 1940)(容量:50–2,000公斤)",
       "Machining Stages": "粗加工>预精加工>精加工",
       "Blade Root Options": "指状树形、T形根部、燕尾形",
       "Documentation": "完整检验证书+动平衡报告",
@@ -3376,7 +3376,7 @@
       "vibration-probe-shinkawa-11.webp",
       "vibration-probe-shinkawa-12.webp"
     ],
-    "slug": "vibration-monitoring-probes-shinkawa-compatible",
+    "slug": "vibration-monitoring-probes-genuine-shinkawa",
     "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 25000,
@@ -5536,7 +5536,7 @@
       "低压末级前缘采用司太立合金硬面处理——防止湿蒸汽液滴侵蚀",
       "尺寸验证:每批叶片均进行型线规检测+三坐标测量检测报告",
       "加工前进行PMI材质验证——提供化学成分证书",
-      "转子盘上整套叶片的动平衡——符合ISO 21940-11 / ISO 1940标准",
+      "转子盘上整套叶片的动平衡——符合ISO 21940-11 (formerly ISO 1940)标准",
       "动叶片(转子)及静叶片(喷嘴/隔板)可单独供货或按级成套供货",
       "适用于寿命延长计划——可提供叶片材质升级方案"
     ],
@@ -5549,7 +5549,7 @@
       "Erosion Protection": "低压末级前缘司太立合金硬面处理",
       "Verification": "每批型线规检测+三坐标测量检测报告",
       "PMI Certificate": "提供化学成分证书",
-      "Balancing Standard": "ISO 21940-11 / ISO 1940(转子盘上)",
+      "Balancing Standard": "ISO 21940-11 (formerly ISO 1940)(转子盘上)",
       "HSN Code": "8406"
     },
     "images": [

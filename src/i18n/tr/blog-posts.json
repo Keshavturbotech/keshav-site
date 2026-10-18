@@ -72,7 +72,7 @@
       },
       {
         "type": "p",
-        "text": "Salgı veya titreşim okumaları tolerans dışındaysa rotoru mil taşlama ve dinamik balans için gönderin. Durum raporuna göre karbon ve grafit gland halkalarını, labirent dolguları ve babbitt yatakları değiştirin. Tüm rotor balansı ISO 1940 veya API 670 standartlarına göre yapılmalıdır."
+        "text": "Salgı veya titreşim okumaları tolerans dışındaysa rotoru mil taşlama ve dinamik balans için gönderin. Durum raporuna göre karbon ve grafit gland halkalarını, labirent dolguları ve babbitt yatakları değiştirin. Tüm rotor balansı ISO 21940-11 (formerly ISO 1940) standartlarına göre yapılmalıdır."
       },
       {
         "type": "h2",
@@ -88,7 +88,7 @@
       },
       {
         "type": "p",
-        "text": "Devreye almadan önce, yağlama yağı sistemini ISO 4406:99 16/14/11 veya daha iyi temizlik sınıfını hedefleyen mobil santrifüj filtre sistemiyle yıkayın. Yıkama öncesi ve sonrası yağ numunesi alın ve raporları saklayın. Yağ yıkamasını tamamlamadan asla türbini devreye almayın — kontamine yağdan kaynaklanan yatak arızası, revizyon sonrası arızaların önemli bir bölümünü oluşturur."
+        "text": "Devreye almadan önce, yağlama yağı sistemini ISO 4406 16/14/11 veya daha iyi temizlik sınıfını hedefleyen mobil santrifüj filtre sistemiyle yıkayın. Yıkama öncesi ve sonrası yağ numunesi alın ve raporları saklayın. Yağ yıkamasını tamamlamadan asla türbini devreye almayın — kontamine yağdan kaynaklanan yatak arızası, revizyon sonrası arızaların önemli bir bölümünü oluşturur."
       },
       {
         "type": "h2",
@@ -138,7 +138,7 @@
       },
       {
         "type": "p",
-        "text": "Çözüm: Ana filtre muhafazasına yüksek verimli yağlama yağı filtre elemanları (ISO 16889, 10 mikronda ≥200 beta oranı) takın. Havadaki parçacıkların girişini önlemek için tank nefes alma filtre elemanları (3 VL cam elyaf) kullanın. Sistem temizlik hedefi: türbin yatakları için ISO 4406:99 Sınıf 16/14/11 veya daha iyi."
+        "text": "Çözüm: Ana filtre muhafazasına yüksek verimli yağlama yağı filtre elemanları (ISO 16889, 10 mikronda ≥200 beta oranı) takın. Havadaki parçacıkların girişini önlemek için tank nefes alma filtre elemanları (3 VL cam elyaf) kullanın. Sistem temizlik hedefi: türbin yatakları için ISO 4406 Sınıf 16/14/11 veya daha iyi."
       },
       {
         "type": "h2",
@@ -251,7 +251,7 @@
       },
       {
         "type": "p",
-        "text": "İşleme üç aşamada gerçekleştirilir: nihai boyutlara yakın kaba işleme, gerekiyorsa ısıl işlem (gerilim giderme, su verme ve temperleme, nitrürleme) ve son hassas işleme. Her aşama mühendislik çizimine göre denetlenir. Rotorlar sevkiyattan önce ISO 21940-11 / ISO 1940 standartlarına göre dinamik olarak balanslanır."
+        "text": "İşleme üç aşamada gerçekleştirilir: nihai boyutlara yakın kaba işleme, gerekiyorsa ısıl işlem (gerilim giderme, su verme ve temperleme, nitrürleme) ve son hassas işleme. Her aşama mühendislik çizimine göre denetlenir. Rotorlar sevkiyattan önce ISO 21940-11 (formerly ISO 1940) standartlarına göre dinamik olarak balanslanır."
       },
       {
         "type": "h2",
@@ -372,7 +372,7 @@
       },
       {
         "type": "p",
-        "text": "ISO 4406:99 temizlik kodunun üç sayısı vardır, örneğin 18/16/13. Her sayı, üç farklı parçacık boyutunda mililitre yağ başına parçacık sayısını temsil eden bir \"aralık kodu\"dur: 4 µm(c), 6 µm(c) ve 14 µm(c). \"(c)\" son eki, sayımın ISO 11171'e göre optik parçacık sayacı kalibrasyonu kullandığı anlamına gelir — kalibre edilmemiş yöntemler kullanan eski raporlarla karşılaştırmayın."
+        "text": "ISO 4406 temizlik kodunun üç sayısı vardır, örneğin 18/16/13. Her sayı, üç farklı parçacık boyutunda mililitre yağ başına parçacık sayısını temsil eden bir \"aralık kodu\"dur: 4 µm(c), 6 µm(c) ve 14 µm(c). \"(c)\" son eki, sayımın ISO 11171'e göre optik parçacık sayacı kalibrasyonu kullandığı anlamına gelir — kalibre edilmemiş yöntemler kullanan eski raporlarla karşılaştırmayın."
       },
       {
         "type": "list",
@@ -390,7 +390,7 @@
       },
       {
         "type": "p",
-        "text": "Buhar türbini mil yatağı ve yağlama yağı sistemleri için, hedef genellikle ISO 4406:99 Sınıf 16/14/11'dir — bu API 614'teki minimum gerekliliktir. Triveni ve Siemens dahil birçok OEM, hidrolik kontrol sistemli türbinler için 15/13/10 belirtir. Büyük revizyon veya yağlama yağı yıkamasından sonra, hız artırma sırasında yatak kontaminasyon hasarını önlemek için yağ doldurulmadan önce sistem 16/14/11'e ulaşmalıdır."
+        "text": "Buhar türbini mil yatağı ve yağlama yağı sistemleri için, hedef genellikle ISO 4406 Sınıf 16/14/11'dir — bu API 614'teki minimum gerekliliktir. Triveni ve Siemens dahil birçok OEM, hidrolik kontrol sistemli türbinler için 15/13/10 belirtir. Büyük revizyon veya yağlama yağı yıkamasından sonra, hız artırma sırasında yatak kontaminasyon hasarını önlemek için yağ doldurulmadan önce sistem 16/14/11'e ulaşmalıdır."
       },
       {
         "type": "h2",

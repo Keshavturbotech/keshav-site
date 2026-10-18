@@ -211,7 +211,7 @@
       "Hohe Schmutzaufnahmekapazität für längere Wartungsintervalle",
       "Viton-(V)-Dichtung für Chemikalienbeständigkeit",
       "Filtrationsgrad: 3 VL Mikron für feine Luftverunreinigungen",
-      "Erhält die Systemsauberkeit gemäß ISO 4406:99",
+      "Erhält die Systemsauberkeit gemäß ISO 4406",
       "Tankmontierte Bauform mit einfacher Einhandwartung"
     ],
     "specs": {
@@ -220,7 +220,7 @@
       "Filtration Grade": "3 VL",
       "Sealing": "Viton (V)",
       "Installation": "Tankentlüftungsmontage",
-      "Standards": "Kompatibel mit ISO 16889, ISO 4406:99",
+      "Standards": "Kompatibel mit ISO 16889, ISO 4406",
       "HSN Code": "8421"
     },
     "images": [
@@ -2468,7 +2468,7 @@
       "Gefertigt aus reverse-engineerten OEM-Zeichnungen mit PMI-Werkstoffverifizierung",
       "Werkstoff: Legierungsstahl (CrMoV, 12 % Cr) je nach Dampfbedingungen",
       "Präzisionsbearbeitung: Grobbearbeitung > Vorfertigbearbeitung > Fertigbearbeitung",
-      "Dynamisches Auswuchten 50–2.000 kg nach ISO 21940-11 / ISO 1940",
+      "Dynamisches Auswuchten 50–2.000 kg nach ISO 21940-11 (formerly ISO 1940)",
       "Vollständiger Auswuchtbericht mit mechanischen und elektrischen Rundlaufdaten",
       "Schaufelbefestigungsoptionen: Tannenbaum-, T-Fuß- oder Schwalbenschwanzverbindung",
       "Werkstoffaufwertungen für Lebensdauerverlängerungsprogramme erhältlich",
@@ -2476,7 +2476,7 @@
     ],
     "specs": {
       "Rotor Material": "Legierungsstahl (CrMoV, 12 % Cr) je nach Dampfbedingungen",
-      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (Kapazität: 50–2.000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 (formerly ISO 1940) (Kapazität: 50–2.000 kg)",
       "Machining Stages": "Grobbearbeitung > Vorfertigbearbeitung > Fertigbearbeitung",
       "Blade Root Options": "Tannenbaum, T-Fuß, Schwalbenschwanz",
       "Documentation": "Vollständiges Prüfzertifikat + Auswuchtbericht",
@@ -3376,7 +3376,7 @@
       "vibration-probe-shinkawa-11.webp",
       "vibration-probe-shinkawa-12.webp"
     ],
-    "slug": "vibration-monitoring-probes-shinkawa-compatible",
+    "slug": "vibration-monitoring-probes-genuine-shinkawa",
     "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 25000,
@@ -5549,7 +5549,7 @@
       "Erosion Protection": "Stellite-Hartauftrag an ND-Endstufen-Eintrittskante",
       "Verification": "Profillehre + KMG-Prüfbericht pro Charge",
       "PMI Certificate": "Chemisches Zusammensetzungszertifikat mitgeliefert",
-      "Balancing Standard": "ISO 21940-11 / ISO 1940 (auf Rotorscheibe)",
+      "Balancing Standard": "ISO 21940-11 (formerly ISO 1940) (auf Rotorscheibe)",
       "HSN Code": "8406"
     },
     "images": [

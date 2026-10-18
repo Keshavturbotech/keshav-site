@@ -5,6 +5,7 @@
 // time-of-day awareness. IST calculation lives in lib/officeHours.ts,
 // shared with OfficeHoursPill.jsx and ContactForm.jsx.
 import { useCallback, useEffect, useState } from "react";
+import { RESPONSE_PROMISES } from "../../data/site-config";
 import { isOfficeHoursNow } from "../../lib/officeHours";
 
 export default function ContactOfficeStatus() {
@@ -25,7 +26,7 @@ export default function ContactOfficeStatus() {
   return (
     <p className="text-[11px] text-slate-500 mt-3 font-medium">
       {isOfficeHours
-        ? "● We're online now — expect reply within 2 hours"
+        ? `● ${RESPONSE_PROMISES.onlineNow}`
         : "● Currently outside office hours — emergency line still active"}
     </p>
   );

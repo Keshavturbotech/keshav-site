@@ -26,7 +26,7 @@
     "id": "srv_2",
     "image": "service-overhauling.webp",
     "title": "Overhaul & Perawatan Turnkey",
-    "desc": "Dikerjakan oleh insinyur eks-OEM dari Triveni, Siemens, BHEL, Belliss, dan lainnya. Termasuk perencanaan pra-shutdown, pelaporan kondisi di lokasi, manajemen suku cadang komprehensif, dan penanganan darurat 24x7.",
+    "desc": "Dikerjakan oleh insinyur eks-OEM dari Triveni, Siemens, BHEL, Belliss, dan lainnya. Termasuk perencanaan pra-shutdown, pelaporan kondisi di lokasi, manajemen suku cadang komprehensif, dan penanganan darurat 24×7.",
     "details": [
       "Perencanaan pra-shutdown dengan lingkup detail peralatan berputar",
       "Inspeksi di lokasi terhadap stok suku cadang dengan laporan kekurangan",
@@ -34,7 +34,7 @@
       "Semua celah, jarak dan ukuran diukur dan dicatat",
       "Laporan kondisi dengan rekomendasi untuk setiap komponen",
       "Basis turnkey: alat, perkakas, consumable & tenaga kerja disediakan",
-      "Respons darurat 24x7 dengan insinyur di berbagai lokasi"
+      "Respons darurat 24×7 dengan insinyur di berbagai lokasi"
     ],
     "oems": [
       "Triveni",
@@ -97,7 +97,7 @@
     "desc": "Pembersihan sesuai ISO menggunakan sistem filter sentrifugal mobile khusus. Mencapai kebersihan maksimal dan de-watering setelah konstruksi atau selama perawatan terjadwal.",
     "details": [
       "Sistem filter sentrifugal mobile khusus",
-      "Menargetkan kebersihan sistem sesuai standar ISO 4406:99",
+      "Menargetkan kebersihan sistem sesuai standar ISO 4406",
       "Pengambilan sampel dan pelaporan oli dilakukan sesuai standar ISO",
       "Efektif untuk pasca-konstruksi dan perawatan terjadwal",
       "De-watering superior dan penghilangan kontaminasi",
@@ -140,7 +140,7 @@
       "Kebocoran gland uap — masalah seal labirin, packing & tekanan uap gland",
       "Analisis fouling bilah, erosi & hilangnya efisiensi jalur uap",
       "Investigasi trip tak terduga — kesalahan tekanan oli, suhu & sistem kontrol",
-      "Penempatan darurat 24x7 di seluruh India dengan semua peralatan diagnostik"
+      "Penempatan darurat 24×7 di seluruh India dengan semua peralatan diagnostik"
     ],
     "oems": [
       "Triveni",

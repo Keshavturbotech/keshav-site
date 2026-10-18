@@ -9,7 +9,7 @@
       },
       {
         "title": "Contamination de l'huile de lubrification",
-        "desc": "L'entrée de particules et d'eau dans le système d'huile de lubrification peut dégrader rapidement les surfaces de paliers. Les objectifs de propreté ISO 4406:99 doivent être maintenus en permanence."
+        "desc": "L'entrée de particules et d'eau dans le système d'huile de lubrification peut dégrader rapidement les surfaces de paliers. Les objectifs de propreté ISO 4406 doivent être maintenus en permanence."
       },
       {
         "title": "Dilatation thermique des lignes de vapeur",
@@ -23,7 +23,7 @@
     "products": [
       {
         "name": "Élément filtrant d'huile de lubrification (180 GPM)",
-        "purpose": "Maintient la propreté ISO 4406:99 dans le système d'huile de lubrification de la turbine, protège les paliers de tourillon et de butée contre l'usure abrasive.",
+        "purpose": "Maintient la propreté ISO 4406 dans le système d'huile de lubrification de la turbine, protège les paliers de tourillon et de butée contre l'usure abrasive.",
         "features": [
           "Média VG fibre de verre, finesse 6–25 µm",
           "Spécification antistatique IS27 pour huiles synthétiques",
@@ -89,7 +89,7 @@
     "keyFacts": [
       "Capacité de turbine maximale traitée : 60 MW",
       "Plus de {years} ans d'expérience d'ingénierie formée par les OEM",
-      "Produits conformes API 614 et ISO 4406:99",
+      "Produits conformes API 614 et ISO 4406",
       "Fourniture de filtres HVAC pour salles de contrôle et halls de turbines",
       "Assistance d'urgence 24h/24 et 7j/7"
     ]

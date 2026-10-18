@@ -138,7 +138,7 @@
       },
       {
         "type": "p",
-        "text": "Lösung: Installieren Sie hocheffiziente Schmierölfilterelemente (ISO 16889, Beta-Verhältnis ≥200 bei 10 Mikron) im Hauptfiltergehäuse. Verwenden Sie Tankentlüfter-Filterelemente (3-VL-Glasfaser), um das Eindringen von Luftpartikeln zu verhindern. Sauberkeitsziel des Systems: ISO 4406:99 Klasse 16/14/11 oder besser für Turbinenlager."
+        "text": "Lösung: Installieren Sie hocheffiziente Schmierölfilterelemente (ISO 16889, Beta-Verhältnis ≥200 bei 10 Mikron) im Hauptfiltergehäuse. Verwenden Sie Tankentlüfter-Filterelemente (3-VL-Glasfaser), um das Eindringen von Luftpartikeln zu verhindern. Sauberkeitsziel des Systems: ISO 4406 Klasse 16/14/11 oder besser für Turbinenlager."
       },
       {
         "type": "h2",
@@ -390,7 +390,7 @@
       },
       {
         "type": "p",
-        "text": "Für Dampfturbinen-Wellenzapfenlager und Schmierölsysteme liegt das Ziel typischerweise bei ISO 4406:99 Klasse 16/14/11 — dies ist die Mindestanforderung nach API 614. Viele OEMs, darunter Triveni und Siemens, schreiben für Turbinen mit hydraulischen Regelsystemen 15/13/10 vor. Nach einer größeren Überholung oder Schmierölspülung sollte das System vor dem Öleinfüllen 16/14/11 erreichen, um Lagerschäden durch Verunreinigung während des Hochlaufs zu vermeiden."
+        "text": "Für Dampfturbinen-Wellenzapfenlager und Schmierölsysteme liegt das Ziel typischerweise bei ISO 4406 Klasse 16/14/11 — dies ist die Mindestanforderung nach API 614. Viele OEMs, darunter Triveni und Siemens, schreiben für Turbinen mit hydraulischen Regelsystemen 15/13/10 vor. Nach einer größeren Überholung oder Schmierölspülung sollte das System vor dem Öleinfüllen 16/14/11 erreichen, um Lagerschäden durch Verunreinigung während des Hochlaufs zu vermeiden."
       },
       {
         "type": "h2",

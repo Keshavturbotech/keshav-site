@@ -432,7 +432,7 @@
       }
     ],
     "whyUs": "3.000 RPM'deki bir rotor, 300 RPM'dekinden 100 kat daha büyük dengesizlik kuvveti üretir. Düşük hızda gözle görülmeyen aynı kalan dengesizlik, tam hızda yatağı mahveder. Gerektiğinde ISO 1940 G1.0 Sınıfına kadar balanslıyoruz — sadece 'yeterince iyi' değil.",
-    "overview": "Rotor dengesizliği, Hindistan endüstrisinde türbin yatağı arızalarının, conta hasarının ve rotor ömrü kısalmasının en yaygın ve en önlenebilir nedenlerinden biridir. Keshav Enterprises, özel atölye tesisimizde 50 kg ile 2.000 kg arasındaki rotorlar için hassas mil işleme ve ISO 21940-11 / ISO 1940 dinamik balans gerçekleştirir. Rotorlar önce geometrik bütünlüğü geri kazanmak için işlenir — yuvarlak miller, konsantrik labirentler, doğru yüzey işleme — balanstan önce. Bu sıra önemlidir: geometrik olarak bozulmuş bir rotoru balanslamak sadece sorunu maskeler. Balans raporlarımız başlangıç dengesizliğini, düzeltme düzlemlerini, kütle düzeltmesini, kalan dengesizliği ve ulaşılan ISO balans sınıfını belgeler, bakım kayıtlarınız için tam izlenebilirlik sağlar.",
+    "overview": "Rotor dengesizliği, Hindistan endüstrisinde türbin yatağı arızalarının, conta hasarının ve rotor ömrü kısalmasının en yaygın ve en önlenebilir nedenlerinden biridir. Keshav Enterprises, özel atölye tesisimizde 50 kg ile 2.000 kg arasındaki rotorlar için hassas mil işleme ve ISO 21940-11 (formerly ISO 1940) dinamik balans gerçekleştirir. Rotorlar önce geometrik bütünlüğü geri kazanmak için işlenir — yuvarlak miller, konsantrik labirentler, doğru yüzey işleme — balanstan önce. Bu sıra önemlidir: geometrik olarak bozulmuş bir rotoru balanslamak sadece sorunu maskeler. Balans raporlarımız başlangıç dengesizliğini, düzeltme düzlemlerini, kütle düzeltmesini, kalan dengesizliği ve ulaşılan ISO balans sınıfını belgeler, bakım kayıtlarınız için tam izlenebilirlik sağlar.",
     "procedures": [
       {
         "step": "01",
@@ -462,7 +462,7 @@
         "step": "05",
         "title": "Dinamik Balans — İki Düzlemli Düzeltme",
         "iconName": "Target",
-        "desc": "Rotor sert yataklı dinamik balans makinesine monte edilir. Başlangıç dengesizliği eş zamanlı olarak iki düzeltme düzleminde (kaplin ucu ve gövernör/pervane ucu) ölçülür. Deneme kütleleri uygulanır ve çıkarılır. Balans yinelemeleri, her düzlemdeki kalan dengesizlik bu rotor servisi için belirtilen ISO 21940-11 / ISO 1940 sınıfını karşılayana kadar tekrarlanır."
+        "desc": "Rotor sert yataklı dinamik balans makinesine monte edilir. Başlangıç dengesizliği eş zamanlı olarak iki düzeltme düzleminde (kaplin ucu ve gövernör/pervane ucu) ölçülür. Deneme kütleleri uygulanır ve çıkarılır. Balans yinelemeleri, her düzlemdeki kalan dengesizlik bu rotor servisi için belirtilen ISO 21940-11 (formerly ISO 1940) sınıfını karşılayana kadar tekrarlanır."
       },
       {
         "step": "06",
@@ -569,7 +569,7 @@
       }
     ],
     "whyUs": "Yeni ve yeni revize edilmiş türbinler, kaynak cürufu, boru pası, kum ve metal talaşları gibi inşaat döküntüleri tarafından ilk çalıştırmadan itibaren saatler içinde mahvedilir. Yağ yıkama isteğe bağlı değildir: yeni bir revizyonda katastrofik yatak arızasına karşı en uygun maliyetli sigortadır.",
-    "overview": "Yağlama yağı sistemi kontaminasyonu, yeni ve yeni revize edilmiş türbinlerde yatak arızalarının önde gelen nedenidir. Montaj veya revizyon sırasında yağlama yağı sistemine giren inşaat döküntüleri, ilk çalıştırmadan itibaren saatler içinde yatakları ve mil yüzeylerini mahvedebilir. Keshav Enterprises, buhar türbini yatak yağlaması için minimum standart olan ISO 4406:99 16/14/11 temizlik sınıfına ulaşmak için özel yapım mobil santrifüj filtre sistemleri kullanarak profesyonel yağlama yağı yıkaması gerçekleştirir. Sürecimiz eksiksiz belgelenir: her aşamada yağ numunesi sonuçları, kademeli filtre yükseltme kayıtları ve sistem yağ doldurma için iade edilmeden önce sağlanan final laboratuvar sertifikalı parçacık sayım sertifikası.",
+    "overview": "Yağlama yağı sistemi kontaminasyonu, yeni ve yeni revize edilmiş türbinlerde yatak arızalarının önde gelen nedenidir. Montaj veya revizyon sırasında yağlama yağı sistemine giren inşaat döküntüleri, ilk çalıştırmadan itibaren saatler içinde yatakları ve mil yüzeylerini mahvedebilir. Keshav Enterprises, buhar türbini yatak yağlaması için minimum standart olan ISO 4406 16/14/11 temizlik sınıfına ulaşmak için özel yapım mobil santrifüj filtre sistemleri kullanarak profesyonel yağlama yağı yıkaması gerçekleştirir. Sürecimiz eksiksiz belgelenir: her aşamada yağ numunesi sonuçları, kademeli filtre yükseltme kayıtları ve sistem yağ doldurma için iade edilmeden önce sağlanan final laboratuvar sertifikalı parçacık sayım sertifikası.",
     "procedures": [
       {
         "step": "01",
@@ -653,7 +653,7 @@
     ],
     "standards": [
       {
-        "code": "ISO 4406:99",
+        "code": "ISO 4406",
         "desc": "Hidrolik akışkan temizlik sınıflandırması — 16/14/11 hedefi",
         "body": "ISO"
       },
@@ -957,7 +957,7 @@
         "body": "API"
       },
       {
-        "code": "ISO 4406:99",
+        "code": "ISO 4406",
         "desc": "Yağlama yağı temizlik sınıflandırması",
         "body": "ISO"
       },

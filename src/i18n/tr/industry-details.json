@@ -9,7 +9,7 @@
       },
       {
         "title": "Yağlama Yağı Kontaminasyonu",
-        "desc": "Yağlama yağı sistemine partikül ve su girişi yatak yüzeylerini hızla bozabilir. ISO 4406:99 temizlik hedefleri sürekli olarak korunmalıdır."
+        "desc": "Yağlama yağı sistemine partikül ve su girişi yatak yüzeylerini hızla bozabilir. ISO 4406 temizlik hedefleri sürekli olarak korunmalıdır."
       },
       {
         "title": "Buhar Hatlarında Termal Genleşme",
@@ -23,7 +23,7 @@
     "products": [
       {
         "name": "Yağlama Yağı Filtre Elemanları (180 GPM)",
-        "purpose": "Türbin yağlama yağı sistemlerinde ISO 4406:99 temizliğini korur, mil yatakları ve itme yataklarını aşındırıcı aşınmadan korur.",
+        "purpose": "Türbin yağlama yağı sistemlerinde ISO 4406 temizliğini korur, mil yatakları ve itme yataklarını aşındırıcı aşınmadan korur.",
         "features": [
           "Cam elyaf VG medyası, 6–25 µm inceliği",
           "Sentetik yağlar için IS27 anti-statik spesifikasyonu",
@@ -89,7 +89,7 @@
     "keyFacts": [
       "İşlenen maksimum 60 MW türbin kapasitesi",
       "{years}+ yıllık OEM eğitimli mühendislik deneyimi",
-      "API 614 ve ISO 4406:99 uyumlu ürünler",
+      "API 614 ve ISO 4406 uyumlu ürünler",
       "Kontrol odaları ve türbin salonları için HVAC filtre tedariki",
       "7/24 acil arıza desteği"
     ]
@@ -458,7 +458,7 @@
         "features": [
           "PTFE iç çekirdek, FDA 21 CFR 177.1550 uyumlu",
           "Elektro-cilalı SS316 uç bağlantı parçaları",
-          "Tri-clover (sıhhi) uç bağlantıları mevcuttur"
+          "Tri-Clover (sıhhi) uç bağlantıları mevcuttur"
         ]
       },
       {

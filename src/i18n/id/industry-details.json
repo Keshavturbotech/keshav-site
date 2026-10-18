@@ -9,7 +9,7 @@
       },
       {
         "title": "Kontaminasi Oli Pelumas",
-        "desc": "Masuknya partikel dan air ke sistem oli pelumas dapat dengan cepat menurunkan kualitas permukaan bearing. Target kebersihan ISO 4406:99 harus dipertahankan secara terus-menerus."
+        "desc": "Masuknya partikel dan air ke sistem oli pelumas dapat dengan cepat menurunkan kualitas permukaan bearing. Target kebersihan ISO 4406 harus dipertahankan secara terus-menerus."
       },
       {
         "title": "Ekspansi Termal pada Jalur Uap",
@@ -23,7 +23,7 @@
     "products": [
       {
         "name": "Elemen Filter Oli Pelumas (180 GPM)",
-        "purpose": "Menjaga kebersihan ISO 4406:99 dalam sistem oli pelumas turbin, melindungi bearing journal dan bearing thrust dari keausan abrasif.",
+        "purpose": "Menjaga kebersihan ISO 4406 dalam sistem oli pelumas turbin, melindungi bearing journal dan bearing thrust dari keausan abrasif.",
         "features": [
           "Media VG serat kaca, kehalusan 6–25 µm",
           "Spesifikasi anti-statis IS27 untuk oli sintetis",
@@ -89,7 +89,7 @@
     "keyFacts": [
       "Kapasitas turbin maksimum 60 MW yang ditangani",
       "{years}+ tahun pengalaman rekayasa terlatih OEM",
-      "Produk sesuai API 614 & ISO 4406:99",
+      "Produk sesuai API 614 & ISO 4406",
       "Pasokan filter HVAC untuk ruang kontrol dan aula turbin",
       "Dukungan gangguan darurat 24×7"
     ]

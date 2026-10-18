@@ -37,7 +37,7 @@ export interface Product {
    * Format: KTB-<CATEGORY_CODE>-<SEQUENCE>, e.g. "KTB-TS-014".
    * Category codes: TS=Turbine Spares, ST=Industrial Strainers, EJ=Expansion Joints,
    * FH=Flexible Hoses & Assemblies, IF=Industrial Filtration, RP=Industrial Rubber Products,
-   * EE=Electronic Equipments, HC=Hydraulic Components, AF=HVAC, Ducting & Air Filtration,
+   * EE=Electronic Equipment, HC=Hydraulic Components, AF=HVAC, Ducting & Air Filtration,
    * VG=Valves, Gaskets & Steam System Products. */
   sku: string;
   slug: string;

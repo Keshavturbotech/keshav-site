@@ -60,11 +60,23 @@ function truncateAtWordBoundary(text: string, maxLen: number): string {
   const trimmed = text.trim();
   if (trimmed.length <= maxLen) return trimmed;
   const slice = trimmed.slice(0, maxLen);
+  // Prefer a natural segment boundary (" — ", " | ", ": ", " – ") over a bare
+  // word cut, so a title keeps whole phrases ("Disco de Etapa ... — Ingeniería
+  // Inversa" becomes "Disco de Etapa ..." instead of ending on a half phrase).
+  const seg = Math.max(
+    slice.lastIndexOf(" \u2014 "),
+    slice.lastIndexOf(" | "),
+    slice.lastIndexOf(" \u2013 "),
+    slice.lastIndexOf(": "),
+  );
+  if (seg > maxLen * 0.45) return trimDanglingTail(slice.slice(0, seg));
   const lastSpace = slice.lastIndexOf(" ");
-  if (lastSpace > maxLen * 0.4) {
-    return trimDanglingTail(slice.slice(0, lastSpace));
-  }
-  return slice.trim();
+  let cut = lastSpace > maxLen * 0.4 ? slice.slice(0, lastSpace) : slice;
+  // Never leave an unclosed bracket ("... (OEM Multi") in the output.
+  const open = Math.max(cut.lastIndexOf("("), cut.lastIndexOf("\uff08"));
+  const close = Math.max(cut.lastIndexOf(")"), cut.lastIndexOf("\uff09"));
+  if (open > close && open > maxLen * 0.3) cut = cut.slice(0, open);
+  return lastSpace > maxLen * 0.4 || cut !== slice ? trimDanglingTail(cut) : cut.trim();
 }
 
 /**
@@ -99,7 +111,10 @@ export function buildSeoDescription(text: string, locale = "en"): string {
   const trimmed = text.trim();
   if (trimmed.length <= maxLen) return trimmed;
   const slice = trimmed.slice(0, maxLen + 1); // +1: catch a sentence end landing exactly on maxLen
-  const sentenceEnd = Math.max(slice.lastIndexOf(". "), slice.lastIndexOf("! "), slice.lastIndexOf("? "));
+  // A real sentence end is . ! ? followed by whitespace and then NOT a digit or
+  // lowercase letter, so "1., 2., 3." lists, "e.g. foo" and "No. 5" never count.
+  let sentenceEnd = -1;
+  for (const m of slice.matchAll(/[.!?](?=\s+[^\s\d\p{Ll}])/gu)) sentenceEnd = m.index ?? sentenceEnd;
   if (sentenceEnd > maxLen * 0.4) {
     return trimmed.slice(0, sentenceEnd + 1).trim();
   }

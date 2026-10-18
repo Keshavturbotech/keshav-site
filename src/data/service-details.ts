@@ -71,15 +71,15 @@ export const SERVICE_DETAIL_DATA: Record<string, ServiceDetail> = {
     { file: "turbine-erection-and-commissioning-gallery-12.webp" },
   ],
     keyStats: [
-      { value: "10+", label: "OEM Makes Commissioned" },
+      { value: "6+", label: "OEM Makes Commissioned" },
       { value: "5kW–60MW", label: "Power Range Handled" },
-      { value: "100%", label: "OEM-Spec Documentation" },
-      { value: "24x7", label: "Site Support Available" },
+      { value: "Full", label: "OEM-Spec Documentation" },
+      { value: "24×7", label: "Site Support Available" },
     ],
     whyUs:
       "A single clearance set wrong during erection can destroy a bearing within hours of first steam. Our ex-OEM field engineers have personally commissioned the same machine types you're installing, and they know exactly what the OEM specification means in practice, not just on paper.",
     overview:
-      "Turbine erection and commissioning is the most critical phase of any power plant or industrial project. Errors during erection (incorrect alignment, improper clearances, wrong torques) compound into expensive failures within the first year of operation. Keshav Enterprises brings ex-OEM field engineers who have commissioned Triveni, Siemens, BHEL, Belliss & Morcom, and Maxwatt turbines across power plants, sugar mills, paper mills, and process industries. Every hold point is witnessed, every clearance is recorded, and every safety system is proof-tested before steam is admitted. Our documentation package meets client, insurer, and OEM handover requirements.",
+      "Turbine erection and commissioning is the most critical phase of any power plant or industrial project. Errors during erection (incorrect alignment, improper clearances, wrong torques) compound into expensive failures within the first year of operation. Keshav Enterprises brings ex-OEM field engineers who have commissioned Triveni, Siemens, BHEL, Belliss & Morcom, and Maxwatt turbines across power plants, sugar mills, paper mills, and process industries. Hold points are witnessed with the client, clearances are recorded, and safety systems are proof-tested before steam is admitted. Our documentation package meets client, insurer, and OEM handover requirements.",
     procedures: [
       {
         step: "01",
@@ -213,10 +213,10 @@ export const SERVICE_DETAIL_DATA: Record<string, ServiceDetail> = {
     { file: "turnkey-overhauling-and-maintenance-gallery-12.webp" },
   ],
     keyStats: [
-      { value: "8+", label: "OEM Makes Overhauled" },
+      { value: "6+", label: "OEM Makes Overhauled" },
       { value: `${YEARS_IN_BUSINESS}+`, label: "Years Field Experience" },
       { value: "0.001mm", label: "Clearance Resolution" },
-      { value: "24x7", label: "Emergency Response" },
+      { value: "24×7", label: "Emergency Response" },
     ],
     whyUs:
       "A poorly executed overhaul is worse than no overhaul: it introduces new clearance errors, contamination, and re-assembly faults. Our engineers were trained by the OEMs. They know what tolerances actually mean at operating temperature and speed, not just what they say in the manual.",
@@ -356,7 +356,7 @@ export const SERVICE_DETAIL_DATA: Record<string, ServiceDetail> = {
     keyStats: [
       { value: "5kW–60MW", label: "Turbine Range Covered" },
       { value: "0.001mm", label: "CMM Measurement Resolution" },
-      { value: "100%", label: "PMI Material Verified" },
+      { value: "PMI", label: "PMI Material Verified" },
       { value: "GD&T", label: "Full Tolerance Drawings" },
     ],
     whyUs:
@@ -498,12 +498,12 @@ export const SERVICE_DETAIL_DATA: Record<string, ServiceDetail> = {
       { value: "50–2000kg", label: "Rotor Capacity" },
       { value: "G1.0", label: "Balance Grade Achievable" },
       { value: "0.001mm", label: "Dial Gauge Resolution" },
-      { value: "ISO/API", label: "Certified Standards" },
+      { value: "ISO/API", label: "Standards Followed" },
     ],
     whyUs:
       "A rotor at 3,000 RPM generates 100× more imbalance force than at 300 RPM. The same residual imbalance that is invisible at slow speed will destroy a bearing at full speed. We balance to ISO 1940 Grade G1.0 where required, not just 'good enough'.",
     overview:
-      "Rotor imbalance is one of the most common and most preventable causes of turbine bearing failure, seal damage, and shortened rotor life. Keshav Enterprises performs precision journal machining and ISO 21940-11 / ISO 1940 dynamic balancing for rotors from 50 kg to 2,000 kg at our dedicated workshop facility. The rotor is first machined to restore geometric integrity (round journals, concentric labyrinth lands, correct surface finish) before balancing. This sequence matters: balancing a geometrically distorted rotor merely masks the problem. Our balancing reports document initial unbalance, correction planes, mass corrections, residual unbalance, and the ISO balance grade achieved, providing full traceability for your maintenance records.",
+      "Rotor imbalance is one of the most common and most preventable causes of turbine bearing failure, seal damage, and shortened rotor life. Keshav Enterprises performs precision journal machining and ISO 21940-11 (formerly ISO 1940) dynamic balancing for rotors from 50 kg to 2,000 kg at our dedicated workshop facility. The rotor is first machined to restore geometric integrity (round journals, concentric labyrinth lands, correct surface finish) before balancing. This sequence matters: balancing a geometrically distorted rotor merely masks the problem. Our balancing reports document initial unbalance, correction planes, mass corrections, residual unbalance, and the ISO balance grade achieved, providing full traceability for your maintenance records.",
     procedures: [
       {
         step: "01",
@@ -533,7 +533,7 @@ export const SERVICE_DETAIL_DATA: Record<string, ServiceDetail> = {
         step: "05",
         title: "Dynamic Balancing: Two-Plane Correction",
         iconName: "Target",
-        desc: "Rotor mounted in hard-bearing dynamic balancing machine. Initial unbalance measured simultaneously in two correction planes (coupling end and governor/impeller end). Trial masses applied and removed. Balancing iterations repeated until residual unbalance in each plane meets ISO 21940-11 / ISO 1940 grade specified for this rotor service.",
+        desc: "Rotor mounted in hard-bearing dynamic balancing machine. Initial unbalance measured simultaneously in two correction planes (coupling end and governor/impeller end). Trial masses applied and removed. Balancing iterations repeated until residual unbalance in each plane meets ISO 21940-11 (formerly ISO 1940) grade specified for this rotor service.",
       },
       {
         step: "06",
@@ -639,12 +639,12 @@ export const SERVICE_DETAIL_DATA: Record<string, ServiceDetail> = {
       { value: "16/14/11", label: "ISO 4406 Target Class" },
       { value: "6,000 L/min", label: "Max System Flow Rate" },
       { value: "3μm", label: "Final Filtration Rating" },
-      { value: "100%", label: "Lab-Certified Particle Count" },
+      { value: "Lab", label: "Lab-Certified Particle Count" },
     ],
     whyUs:
       "New and recently overhauled turbines are destroyed by construction debris (weld slag, pipe scale, sand, and metal swarf) within hours of first startup. Oil flushing is not optional: it is the single most cost-effective insurance against a catastrophic bearing failure on a brand-new overhaul.",
     overview:
-      "Lube oil system contamination is the primary cause of bearing failures in new and recently overhauled turbines. Construction debris entering the lube oil system during installation or overhaul can destroy bearings and journal surfaces within hours of startup. Keshav Enterprises performs professional lube oil flushing using purpose-built mobile centrifuge filter systems to achieve ISO 4406:99 cleanliness class 16/14/11 (the minimum standard for steam turbine bearing lubrication). Our process is fully documented: oil sample results at every stage, progressive filter upgrade records, and a final laboratory-certified particle count certificate are provided before the system is handed back for oil-in.",
+      "Lube oil system contamination is the primary cause of bearing failures in new and recently overhauled turbines. Construction debris entering the lube oil system during installation or overhaul can destroy bearings and journal surfaces within hours of startup. Keshav Enterprises performs professional lube oil flushing using purpose-built mobile centrifuge filter systems to achieve ISO 4406 cleanliness class 16/14/11 (the minimum standard for steam turbine bearing lubrication). Our process is fully documented: oil sample results at every stage, progressive filter upgrade records, and a final laboratory-certified particle count certificate are provided before the system is handed back for oil-in.",
     procedures: [
       {
         step: "01",
@@ -728,7 +728,7 @@ export const SERVICE_DETAIL_DATA: Record<string, ServiceDetail> = {
     ],
     standards: [
       {
-        code: "ISO 4406:99",
+        code: "ISO 4406",
         desc: "Hydraulic fluid cleanliness classification: target 16/14/11",
         body: "ISO",
       },
@@ -821,7 +821,7 @@ export const SERVICE_DETAIL_DATA: Record<string, ServiceDetail> = {
         step: "06",
         title: "Final Measurement & Tolerance Verification",
         iconName: "CheckCircle2",
-        desc: "Final laser measurement confirms alignment within OEM tolerance, typically: angular misalignment 0.05 mrad max, offset 0.05 mm max at coupling. All four feet re-checked for soft foot 0.05 mm or less. Coupling bolts torqued to OEM specification using calibrated digital torque wrench.",
+        desc: "Final laser measurement confirms alignment within the OEM tolerance for that machine, and the report records achieved values next to the OEM limit (for example, angular 0.008 mm/100 mm achieved against a 0.02 mm/100 mm limit). Offset at the coupling and soft foot on all four feet are held to 0.05 mm or less. Coupling bolts torqued to OEM specification using calibrated digital torque wrench.",
       },
       {
         step: "07",
@@ -918,8 +918,8 @@ export const SERVICE_DETAIL_DATA: Record<string, ServiceDetail> = {
     { file: "troubleshooting-service-gallery-12.webp" },
   ],
     keyStats: [
-      { value: "24x7", label: "Emergency Deployment" },
-      { value: "10+", label: "OEM Makes Diagnosed" },
+      { value: "24×7", label: "Emergency Deployment" },
+      { value: "6+", label: "OEM Makes Diagnosed" },
       { value: "FFT+Thermal", label: "Dual Diagnostic Method" },
       { value: "48hr", label: "Post-Repair Trend Monitoring" },
     ],
@@ -932,7 +932,7 @@ export const SERVICE_DETAIL_DATA: Record<string, ServiceDetail> = {
         step: "01",
         title: "Emergency Mobilisation & Site Data Collection",
         iconName: "Zap",
-        desc: "24x7 response deployment to site with full diagnostic kit. Collection of all available operational data: vibration history, DCS trip logs, oil analysis reports, bearing temperature trends, steam condition logs, and maintenance records. Interview of operations and maintenance personnel who witnessed the fault event.",
+        desc: "24×7 response deployment to site with full diagnostic kit. Collection of all available operational data: vibration history, DCS trip logs, oil analysis reports, bearing temperature trends, steam condition logs, and maintenance records. Interview of operations and maintenance personnel who witnessed the fault event.",
       },
       {
         step: "02",
@@ -1040,7 +1040,7 @@ export const SERVICE_DETAIL_DATA: Record<string, ServiceDetail> = {
         body: "API",
       },
       {
-        code: "ISO 4406:99",
+        code: "ISO 4406",
         desc: "Lube oil cleanliness classification",
         body: "ISO",
       },
@@ -1178,7 +1178,7 @@ export const SERVICE_DETAIL_DATA: Record<string, ServiceDetail> = {
     keyStats: [
       { value: "4 Media Types", label: "Matched to Substrate" },
       { value: "SSPC/NACE", label: "Surface Prep Standards" },
-      { value: "100%", label: "Critical Surfaces Masked" },
+      { value: "All", label: "Critical Surfaces Masked" },
       { value: "Workshop/Site", label: "Flexible Deployment" },
     ],
     whyUs:
@@ -1202,7 +1202,7 @@ export const SERVICE_DETAIL_DATA: Record<string, ServiceDetail> = {
         step: "03",
         title: "Rust, Scale & Coating Removal",
         iconName: "Wrench",
-        desc: "Controlled blasting at a pressure and standoff distance matched to the component removes rust, mill scale, old paint, and carbon deposits down to a uniform, contaminant-free surface, without introducing pitting, warping, or dimensional change.",
+        desc: "Controlled blasting at a pressure and standoff distance matched to the component removes rust, mill scale, old paint, and carbon deposits down to a uniform, contaminant-free surface, while controlling abrasive and pressure to avoid pitting, warping, or dimensional change.",
       },
       {
         step: "04",
@@ -1282,7 +1282,7 @@ export const SVC_SCOPE_MAP: Record<string, { scope: string; turnaround: string }
   srv_4: { scope: "Workshop", turnaround: "48–72 hrs standard" },
   srv_5: { scope: "On-site flushing", turnaround: "2–7 days" },
   srv_6: { scope: "On-site precision", turnaround: "1–3 days" },
-  srv_7: { scope: "On-site diagnostic", turnaround: "Same day report" },
+  srv_7: { scope: "On-site diagnostic", turnaround: "Report on completion" },
   srv_8: { scope: "Workshop & on-site", turnaround: "1–3 days" },
 };
 

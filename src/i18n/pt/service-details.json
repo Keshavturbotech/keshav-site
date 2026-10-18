@@ -432,7 +432,7 @@
       }
     ],
     "whyUs": "Um rotor a 3.000 RPM gera 100× mais força de desbalanceamento do que a 300 RPM. O mesmo desbalanceamento residual que é invisível em baixa velocidade destruirá um mancal em velocidade plena. Balanceamos conforme o Grau G1.0 da ISO 1940 quando necessário — não apenas 'suficientemente bom'.",
-    "overview": "O desbalanceamento do rotor é uma das causas mais comuns e mais evitáveis de falha de mancal de turbina, dano de selo e vida útil reduzida do rotor. A Keshav Enterprises realiza usinagem de precisão de munhões e balanceamento dinâmico ISO 21940-11 / ISO 1940 para rotores de 50 kg a 2.000 kg em nossa instalação de oficina dedicada. O rotor é primeiro usinado para restaurar a integridade geométrica — munhões redondos, superfícies labirinto concêntricas, acabamento superficial correto — antes do balanceamento. Essa sequência importa: balancear um rotor geometricamente distorcido apenas mascara o problema. Nossos relatórios de balanceamento documentam o desbalanceamento inicial, planos de correção, correções de massa, desbalanceamento residual e o grau de balanceamento ISO alcançado, fornecendo rastreabilidade completa para seus registros de manutenção.",
+    "overview": "O desbalanceamento do rotor é uma das causas mais comuns e mais evitáveis de falha de mancal de turbina, dano de selo e vida útil reduzida do rotor. A Keshav Enterprises realiza usinagem de precisão de munhões e balanceamento dinâmico ISO 21940-11 (formerly ISO 1940) para rotores de 50 kg a 2.000 kg em nossa instalação de oficina dedicada. O rotor é primeiro usinado para restaurar a integridade geométrica — munhões redondos, superfícies labirinto concêntricas, acabamento superficial correto — antes do balanceamento. Essa sequência importa: balancear um rotor geometricamente distorcido apenas mascara o problema. Nossos relatórios de balanceamento documentam o desbalanceamento inicial, planos de correção, correções de massa, desbalanceamento residual e o grau de balanceamento ISO alcançado, fornecendo rastreabilidade completa para seus registros de manutenção.",
     "procedures": [
       {
         "step": "01",
@@ -462,7 +462,7 @@
         "step": "05",
         "title": "Balanceamento Dinâmico — Correção em Dois Planos",
         "iconName": "Target",
-        "desc": "Rotor montado em máquina de balanceamento dinâmico de mancal rígido. Desbalanceamento inicial medido simultaneamente em dois planos de correção (extremidade de acoplamento e extremidade de regulador/impulsor). Massas de teste aplicadas e removidas. Iterações de balanceamento repetidas até que o desbalanceamento residual em cada plano atenda ao grau ISO 21940-11 / ISO 1940 especificado para este serviço de rotor."
+        "desc": "Rotor montado em máquina de balanceamento dinâmico de mancal rígido. Desbalanceamento inicial medido simultaneamente em dois planos de correção (extremidade de acoplamento e extremidade de regulador/impulsor). Massas de teste aplicadas e removidas. Iterações de balanceamento repetidas até que o desbalanceamento residual em cada plano atenda ao grau ISO 21940-11 (formerly ISO 1940) especificado para este serviço de rotor."
       },
       {
         "step": "06",
@@ -569,7 +569,7 @@
       }
     ],
     "whyUs": "Turbinas novas e recentemente revisadas são destruídas por detritos de construção — escória de solda, carepa de tubo, areia e cavacos metálicos — horas após a primeira partida. A lavagem de óleo não é opcional: é o seguro mais custo-efetivo contra uma falha catastrófica de mancal em uma revisão geral recém-concluída.",
-    "overview": "A contaminação do sistema de óleo lubrificante é a principal causa de falhas de mancal em turbinas novas e recentemente revisadas. Detritos de construção que entram no sistema de óleo lubrificante durante a instalação ou revisão geral podem destruir mancais e superfícies de munhão horas após a partida. A Keshav Enterprises realiza lavagem profissional de óleo lubrificante usando sistemas móveis de filtro centrífugo sob medida para atingir a classe de limpeza ISO 4406:99 16/14/11 — o padrão mínimo para lubrificação de mancais de turbinas a vapor. Nosso processo é totalmente documentado: resultados de amostras de óleo em cada estágio, registros de atualização progressiva de filtros e um certificado final de contagem de partículas certificado em laboratório são fornecidos antes que o sistema seja devolvido para a carga de óleo.",
+    "overview": "A contaminação do sistema de óleo lubrificante é a principal causa de falhas de mancal em turbinas novas e recentemente revisadas. Detritos de construção que entram no sistema de óleo lubrificante durante a instalação ou revisão geral podem destruir mancais e superfícies de munhão horas após a partida. A Keshav Enterprises realiza lavagem profissional de óleo lubrificante usando sistemas móveis de filtro centrífugo sob medida para atingir a classe de limpeza ISO 4406 16/14/11 — o padrão mínimo para lubrificação de mancais de turbinas a vapor. Nosso processo é totalmente documentado: resultados de amostras de óleo em cada estágio, registros de atualização progressiva de filtros e um certificado final de contagem de partículas certificado em laboratório são fornecidos antes que o sistema seja devolvido para a carga de óleo.",
     "procedures": [
       {
         "step": "01",
@@ -653,7 +653,7 @@
     ],
     "standards": [
       {
-        "code": "ISO 4406:99",
+        "code": "ISO 4406",
         "desc": "Classificação de limpeza de fluido hidráulico — alvo 16/14/11",
         "body": "ISO"
       },
@@ -957,7 +957,7 @@
         "body": "API"
       },
       {
-        "code": "ISO 4406:99",
+        "code": "ISO 4406",
         "desc": "Classificação de limpeza de óleo lubrificante",
         "body": "ISO"
       },

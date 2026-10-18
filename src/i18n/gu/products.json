@@ -211,7 +211,7 @@
       "લાંબા સર્વિસ ઇન્ટરવલ માટે હાઈ ડર્ટ-હોલ્ડિંગ ક્ષમતા",
       "કેમિકલ રેઝિસ્ટન્સ માટે Viton (V) સીલિંગ",
       "ફિલ્ટ્રેશન ગ્રેડ: ફાઇન એરબોર્ન કન્ટામિનેશન માટે 3 VL માઇક્રોન",
-      "ISO 4406:99 મુજબ સિસ્ટમ ક્લિનલિનેસ સુરક્ષિત કરે છે",
+      "ISO 4406 મુજબ સિસ્ટમ ક્લિનલિનેસ સુરક્ષિત કરે છે",
       "એક હાથે સરળ સર્વિસિંગ સાથે ટેન્ક-માઉન્ટ ડિઝાઇન"
     ],
     "specs": {
@@ -220,7 +220,7 @@
       "Filtration Grade": "3 VL",
       "Sealing": "Viton (V)",
       "Installation": "Tank breather mount",
-      "Standards": "ISO 16889, ISO 4406:99 compatible",
+      "Standards": "ISO 16889, ISO 4406 compatible",
       "HSN Code": "8421"
     },
     "images": [
@@ -426,7 +426,7 @@
       "MOC: કાર્બન સ્ટીલ અથવા સ્ટેનલેસ સ્ટીલ હાઉસિંગ",
       "OEM ક્રોસ-રેફરન્સ: Eaton 01.E સીરીઝ; Parker; HYDAC RFM/RFD સીરીઝ; Internormen રિટર્ન-લાઇન એલિમેન્ટ્સ",
       "દૂષિત ઓઇલને મુખ્ય રિઝર્વોયરમાં પાછું જતું અટકાવે છે",
-      "ISO 4406:99 સ્ટાન્ડર્ડ મુજબ સિસ્ટમ ક્લિનલિનેસ જાળવે છે",
+      "ISO 4406 સ્ટાન્ડર્ડ મુજબ સિસ્ટમ ક્લિનલિનેસ જાળવે છે",
       "મિનરલ ઓઇલ, ઇમલ્શન, અને સિન્થેટિક પ્રવાહી સાથે સુસંગત",
       "બહુવિધ ફ્લો સાઈઝ અને માઇક્રોન રેટિંગમાં ઉપલબ્ધ — સ્ટાન્ડર્ડ 4, 6, 10, 16, 25 µm",
       "કોલ્ડ-સ્ટાર્ટ સુરક્ષા માટે બાયપાસ વાલ્વ વિકલ્પ",
@@ -441,7 +441,7 @@
       "MOC": "Carbon Steel / Stainless Steel",
       "OEM Cross-References": "Eaton 01.E series; Parker; HYDAC RFM/RFD; Internormen",
       "Bypass": "Bypass valve available for cold-start protection",
-      "Standards": "ISO 4406:99 cleanliness compliance",
+      "Standards": "ISO 4406 cleanliness compliance",
       "HSN Code": "8421"
     },
     "images": [
@@ -2468,7 +2468,7 @@
       "PMI મટીરિયલ વેરિફિકેશન સાથે રિવર્સ-એન્જિનિયર્ડ OEM ડ્રોઈંગમાંથી ઉત્પાદિત",
       "મટીરિયલ: સ્ટીમ સ્થિતિ મુજબ એલોય સ્ટીલ (CrMoV, 12% Cr)",
       "પ્રિસિઝન મશીન્ડ: રફ મશીનિંગ > પ્રી-ફાઈનલ > ફાઈનલ",
-      "ISO 21940-11 / ISO 1940 મુજબ 50-2,000 kg સુધીનું ડાયનેમિક બેલેન્સિંગ",
+      "ISO 21940-11 (formerly ISO 1940) મુજબ 50-2,000 kg સુધીનું ડાયનેમિક બેલેન્સિંગ",
       "મિકેનિકલ અને ઇલેક્ટ્રિકલ રન-આઉટ ડેટા સાથે સંપૂર્ણ બેલેન્સિંગ રિપોર્ટ",
       "બ્લેડ એટેચમેન્ટ વિકલ્પો: ફિંગર-ટ્રી, T-રૂટ, અથવા ડવ-ટેલ",
       "લાઈફ એક્સટેન્શન પ્રોગ્રામ માટે મટીરિયલ અપગ્રેડ ઉપલબ્ધ",
@@ -2476,7 +2476,7 @@
     ],
     "specs": {
       "Rotor Material": "Alloy Steel (CrMoV, 12% Cr) per steam conditions",
-      "Dynamic Balancing": "ISO 21940-11 / ISO 1940 (capacity: 50-2,000 kg)",
+      "Dynamic Balancing": "ISO 21940-11 (formerly ISO 1940) (capacity: 50-2,000 kg)",
       "Machining Stages": "Rough machining > Pre-final > Final machining",
       "Blade Root Options": "Finger-tree, T-root, Dove-tail",
       "Documentation": "Full inspection certificate + balancing report",
@@ -3360,7 +3360,7 @@
   "prod_ee1": {
     "id": "prod_ee1",
     "sku": "KTB-EE-001",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "વાઈબ્રેશન મોનિટરિંગ પ્રોબ (Shinkawa-કમ્પેટિબલ)",
     "images": [
       "vibration-probe-shinkawa-1.webp",
@@ -3376,7 +3376,7 @@
       "vibration-probe-shinkawa-11.webp",
       "vibration-probe-shinkawa-12.webp"
     ],
-    "slug": "vibration-monitoring-probes-shinkawa-compatible",
+    "slug": "vibration-monitoring-probes-genuine-shinkawa",
     "categorySlug": "electronic-equipments",
     "priceRange": {
       "min": 25000,
@@ -3437,7 +3437,7 @@
   "prod_ee7": {
     "id": "prod_ee7",
     "sku": "KTB-EE-007",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Bently Nevada 3300 XL પ્રોક્સિમિટી પ્રોબ સિસ્ટમ",
     "desc": "ટર્બાઇન, ગિયરબોક્સ અને અલ્ટરનેટરના વાઇબ્રેશન તથા થ્રસ્ટ મોનિટરિંગ માટે ઓરિજિનલ Bently Nevada 3300 XL પ્રોક્સિમિટી પ્રોબ, 330130 કેબલ અને Proximitor. પાર્ટ નંબર મુજબ ક્વોટ.",
     "usage": "Bently Nevada 3500 અથવા 3300 મોનિટરિંગ સિસ્ટમ ધરાવતી ટર્બો-મશીનરી પર રેડિયલ વાઇબ્રેશન, એક્ષિયલ પોઝિશન, એક્સેન્ટ્રિસિટી, ડિફરન્શિયલ એક્સપેન્શન અને સ્પીડ/ફેઝ રેફરન્સ. 5 mm અને 8 mm પ્રોબ સામાન્ય જર્નલ-બેરિંગ અને થ્રસ્ટ માપન માટે છે; મોટી 11, 16, 25 અને 50 mm સિસ્ટમ લોંગ-રેન્જ અને એક્સપેન્શન માપન માટે છે.",
@@ -3469,7 +3469,7 @@
   "prod_ee8": {
     "id": "prod_ee8",
     "sku": "KTB-EE-008",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "EPRO PR6423 / PR6424 એડી કરંટ સેન્સર અને CON011",
     "desc": "ટર્બાઇન, ગિયરબોક્સ અને જનરેટરના શાફ્ટ વાઇબ્રેશન તથા પોઝિશન માપન માટે ઓરિજિનલ Emerson EPRO PR6422-PR6426 એડી-કરંટ સેન્સર અને CON011 કન્વર્ટર.",
     "usage": "સ્ટીમ, ગેસ અને હાઇડ્રો ટર્બાઇન, કોમ્પ્રેસર, ગિયરબોક્સ, પંપ અને ફેન પર Emerson / EPRO MMS મોનિટર અથવા કન્વર્ટર આઉટપુટ સ્વીકારતી કોઈપણ સિસ્ટમ સાથે રેડિયલ અને એક્ષિયલ શાફ્ટ ડિસ્પ્લેસમેન્ટ, પોઝિશન, એક્સેન્ટ્રિસિટી અને સ્પીડ/કી માપન.",
@@ -3493,7 +3493,7 @@
   "prod_ee9": {
     "id": "prod_ee9",
     "sku": "KTB-EE-009",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Vibro-Meter TQ402 / TQ442 પ્રોક્સિમિટી પ્રોબ અને IQS450",
     "desc": "ટર્બાઇન શાફ્ટ વાઇબ્રેશન અને પોઝિશન મોનિટરિંગ માટે ઓરિજિનલ Meggitt vibro-meter TQ4xx પ્રોક્સિમિટી પ્રોબ, EA40x કેબલ અને IQS450 કન્ડિશનર.",
     "usage": "vibro-meter મોનિટરિંગ સિસ્ટમ ધરાવતા સ્ટીમ, ગેસ અને હાઇડ્રોલિક ટર્બાઇન તથા અન્ય ક્રિટિકલ મશીનો પર નોન-કોન્ટેક્ટ શાફ્ટ વાઇબ્રેશન અને એક્ષિયલ પોઝિશન. શોર્ટ-સર્કિટ સુરક્ષા સાથેનું વોલ્ટેજ અથવા કરંટ આઉટપુટ રેક મોનિટર અને સીધા DCS કનેક્શન બંને માટે યોગ્ય છે.",
@@ -3518,7 +3518,7 @@
   "prod_ee10": {
     "id": "prod_ee10",
     "sku": "KTB-EE-010",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "2-વાયર 4-20 mA વાઇબ્રેશન ટ્રાન્સમીટર (Shinkawa WK/WKN)",
     "desc": "સ્ટીમ ટર્બાઇન, અલ્ટરનેટર, ગિયરબોક્સ, પંપ અને કોમ્પ્રેસર માટે ઓરિજિનલ Shinkawa WK / WKN 2-વાયર 4-20 mA વાઇબ્રેશન અને થ્રસ્ટ ટ્રાન્સમીટર. સીધું DCS અથવા PLC કનેક્શન, મોનિટર રેકની જરૂર નથી.",
     "usage": "નાની અને મધ્યમ મશીનો પર સતત શાફ્ટ વાઇબ્રેશન અથવા થ્રસ્ટ પોઝિશન મોનિટરિંગ, જ્યાં પૂરો રેક મોનિટર યોગ્ય નથી: ઓક્ઝિલરી સ્ટીમ ટર્બાઇન, બોઇલર ફીડ પંપ, ગિયરબોક્સ, કોમ્પ્રેસર, ફેન અને અલ્ટરનેટર. 4-20 mA લૂપ સિગ્નલ સીધો DCS, PLC અથવા ઇન્ડિકેટરમાં જાય છે.",
@@ -3556,7 +3556,7 @@
   "prod_ee11": {
     "id": "prod_ee11",
     "sku": "KTB-EE-011",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "કેસિંગ વાઇબ્રેશન સેન્સર: Velomitor, CV-86 અને એક્સેલેરોમીટર",
     "desc": "ટર્બાઇન, ગિયરબોક્સ, અલ્ટરનેટર અને મોટરના બેરિંગ વાઇબ્રેશન માટે ઓરિજિનલ Bently Velomitor, Shinkawa CV-86, Hansford અને SKF સેન્સર. મોડેલ મુજબ ક્વોટ.",
     "usage": "બેરિંગ પેડેસ્ટલ, ગિયરબોક્સ કેસિંગ, અલ્ટરનેટર ફ્રેમ અને મોટર એન્ડ શીલ્ડ પર એબ્સોલ્યુટ (સિસ્મિક) વાઇબ્રેશન, જ્યાં શાફ્ટ પ્રોબ ફિટ થઈ શકતો નથી અથવા જ્યાં કેસિંગ વાઇબ્રેશન એલાર્મ અથવા ટ્રિપ ઇનપુટ છે. ટર્બાઇન-ગિયરબોક્સ-અલ્ટરનેટર ટ્રેનમાં શાફ્ટ પ્રોક્સિમિટી પ્રોબ સાથે, અને મોટર, ફેન તથા પંપ પર એકલા વપરાય છે.",
@@ -3585,7 +3585,7 @@
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "મેગ્નેટિક પિકઅપ સેન્સર (Woodward)",
     "desc": "Woodward ગવર્નર અને ડિજિટલ ટર્બાઇન કંટ્રોલ સિસ્ટમને ચોક્કસ શાફ્ટ સ્પીડ ફીડબેક માટે અસલી Woodward વેરિએબલ રિલક્ટન્સ મેગ્નેટિક સ્પીડ પિકઅપ (MPU). 3000–3600 RPM પર ચાલતાં સ્ટીમ ટર્બાઇન પર કન્ટિન્યુઅસ ડ્યુટી માટે પેસિવ, સેલ્ફ-પાવર્ડ, ઝીરો-મેન્ટેનન્સ ડિઝાઇન.",
     "usage": "Woodward 505/505D/505E ડિજિટલ ગવર્નર, 2301 અને 7206 ગવર્નર એમ્પ્લિફાયર, અને Triveni, BHEL, Siemens, KKK, અને Maxwatt સ્ટીમ ટર્બાઇન પર સ્ટેન્ડઅલોન ઓવરસ્પીડ ટ્રિપ સિસ્ટમ માટે પ્રાયમરી સ્પીડ સેન્સિંગ ઇનપુટ. સ્ટાર્ટઅપ, સિન્ક્રોનાઈઝેશન, અને ફુલ-લોડ ઓપરેશન દરમિયાન ક્લોઝ્ડ-લૂપ સ્પીડ રેગ્યુલેશન, લોડ કંટ્રોલ, અને ઓવરસ્પીડ પ્રોટેક્શન પૂરું પાડવા ગવર્નર ગિયર વ્હીલ (દાંતવાળું ગિયર / ફ્લાયવ્હીલ) દ્વારા ટર્બાઇન રોટર સ્પીડ મોનિટર કરે છે.",
@@ -3973,7 +3973,7 @@
   "prod_ee3": {
     "id": "prod_ee3",
     "sku": "KTB-EE-003",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "ASCO 8210 સીરીઝ એક્સપ્લોઝન-પ્રૂફ સોલેનોઈડ વાલ્વ",
     "desc": "ટર્બાઇન ટ્રિપ, લુબ ઓઇલ, સ્ટીમ સીલ, અને પ્રોસેસ કંટ્રોલ એપ્લિકેશન માટે ASCO 8210 સીરીઝ જનરલ પર્પઝ એક્સપ્લોઝન-પ્રૂફ સોલેનોઈડ વાલ્વ. હેઝાર્ડસ એરિયા ઇન્સ્ટોલેશન માટે ATEX/IECEx અને NEMA 7/9 રેટેડ.",
     "usage": "ટર્બાઇન ઇમર્જન્સી ટ્રિપ ઓઇલ ડ્રેન, સ્ટીમ એડમિશન/ટ્રિપ સોલેનોઈડ, લુબ ઓઇલ સિસ્ટમ કંટ્રોલ, પ્રોસેસ મીડિયા આઈસોલેશન, અને Zone 1/Zone 2 હેઝાર્ડસ એરિયામાં સેફ્ટી ઇન્સ્ટ્રુમેન્ટેડ સિસ્ટમ (SIS) એક્ટ્યુએટિંગ વાલ્વ.",
@@ -4091,7 +4091,7 @@
   "prod_ee4": {
     "id": "prod_ee4",
     "sku": "KTB-EE-004",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "Beacon ઔદ્યોગિક એનાલોગ ટેકોમીટર ગેજ",
     "desc": "ટર્બાઇન કંટ્રોલ પેનલમાં ડાયરેક્ટ શાફ્ટ સ્પીડ ઇન્ડિકેશન માટે મજબૂત ઔદ્યોગિક એનાલોગ પેનલ ટેકોમીટર. સ્ટીમ ટર્બાઇન હાઉસ પર્યાવરણ માટે IP54 સીલ્ડ કેસ સાથે મજબૂત મૂવમેન્ટ.",
     "usage": "સુગર મિલ, પાવર પ્લાન્ટ, અને પેપર મિલમાં ટર્બાઇન કંટ્રોલ પેનલ, ઓપરેટર કન્સોલ, અને લોકલ ઇન્સ્ટ્રુમેન્ટ એન્ક્લોઝર પર લોકલ ટર્બાઇન સ્પીડ ઇન્ડિકેશન.",
@@ -4223,14 +4223,14 @@
       "વધુ ગંભીર ડેમેજ કેસ માટે લેથ પર વર્કશોપ જર્નલ ગ્રાઈન્ડિંગ ઉપલબ્ધ",
       "પોલિશિંગ રિપોર્ટ: પહેલાં/પછીની સપાટીની ફિનિશ (Ra), રાઉન્ડનેસ, અને ટેપર માપન",
       "તમામ ટર્બાઇન મેક સાથે સુસંગત: Triveni, BHEL, Siemens, KKK, Man Turbo, Belliss",
-      "ઇમર્જન્સી બ્રેકડાઉન પોલિશિંગ સર્વિસ 24x7 ઉપલબ્ધ"
+      "ઇમર્જન્સી બ્રેકડાઉન પોલિશિંગ સર્વિસ 24×7 ઉપલબ્ધ"
     ],
     "specs": {
       "Process": "In-situ or workshop journal grinding and polishing",
       "Surface Finish Achieved": "Ra ≤ 0.4 µm (N5) — OEM specification",
       "Material Removal": "0.005–0.025 mm per pass (minimum undersizing)",
       "Measurement": "Roundness + taper + Ra before/after verification",
-      "Availability": "24x7 emergency breakdown response",
+      "Availability": "24×7 emergency breakdown response",
       "OEM Compatibility": "All turbine makes — Triveni, BHEL, Siemens, KKK, Man Turbo, Belliss",
       "Documentation": "Full polishing report with before/after measurements",
       "Typical Turnaround": "1–3 days (in-situ) / 5–10 days (workshop)",
@@ -4269,7 +4269,7 @@
   "prod_ee5": {
     "id": "prod_ee5",
     "sku": "KTB-EE-005",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "પાવર પ્લાન્ટ અને સ્ટીમ ટર્બાઇન માટે RTD અને સેન્સર",
     "desc": "ટર્બાઇન બેરિંગ તાપમાન, લુબ ઓઇલ તાપમાન, સ્ટીમ તાપમાન, અને એક્ઝોસ્ટ ગેસ મોનિટરિંગ માટે રેઝિસ્ટન્સ ટેમ્પરેચર ડિટેક્ટર (RTD), થર્મોકપલ, અને પ્રોસેસ સેન્સરની સંપૂર્ણ રેન્જ.",
     "usage": "સ્ટીમ ટર્બાઇન અને પાવર પ્લાન્ટ ઓક્ઝિલિયરીમાં બેરિંગ મેટલ તાપમાન (બેબિટ), લુબ ઓઇલ ઇનલેટ/આઉટલેટ તાપમાન, સ્ટીમ ચેસ્ટ તાપમાન, એક્ઝોસ્ટ તાપમાન, અને કૂલિંગ વોટર તાપમાન મોનિટરિંગ.",
@@ -4327,7 +4327,7 @@
   "prod_ee6": {
     "id": "prod_ee6",
     "sku": "KTB-EE-006",
-    "category": "Electronic Equipments",
+    "category": "Electronic Equipment",
     "title": "SEMIKRON SKN240/16 રેક્ટિફાયર ડાયોડ",
     "desc": "અલ્ટરનેટર AVR એક્સાઈટેશન સર્કિટ અને ટર્બાઇન-જનરેટર રેક્ટિફાયર બ્રિજ માટે SEMIKRON SKN240/16 સ્ટડ-માઉન્ટ પાવર રેક્ટિફાયર ડાયોડ. 240 A એવરેજ ફોરવર્ડ કરંટ, 1600 V પીક રિવર્સ વોલ્ટેજ. સંપૂર્ણ VRRM વોલ્ટેજ રેન્જ (800 V થી 2200 V) ઉપલબ્ધ — ઓર્ડર વખતે વોલ્ટેજ ક્લાસ સ્પષ્ટ કરો.",
     "usage": "બ્રશલેસ અલ્ટરનેટરમાં રોટેટિંગ ડાયોડ બ્રિજ રેક્ટિફાયર, સ્ટેટિક AVR એક્સાઈટેશન પેનલ, ટર્બાઇન-ડ્રિવન જનરેટર કંટ્રોલ સર્કિટ, અને સુગર મિલ અને પાવર પ્લાન્ટ અલ્ટરનેટરમાં ઔદ્યોગિક પાવર રેક્ટિફિકેશન.",
@@ -5536,7 +5536,7 @@
       "LP લાસ્ટ-સ્ટેજ લીડિંગ એજ પર Stellite હાર્ડ-ફેસિંગ — ભીના સ્ટીમ ડ્રોપલેટથી ઇરોઝન સુરક્ષા",
       "ડાયમેન્શનલ વેરિફિકેશન: દરેક બ્લેડ બેચ માટે પ્રોફાઈલ ગેજ ચેક + CMM ઇન્સ્પેક્શન રિપોર્ટ",
       "મશીનિંગ પહેલાં PMI મટીરિયલ વેરિફિકેશન — કેમિકલ કમ્પોઝિશન સર્ટિફિકેટ પૂરું પાડવામાં આવે છે",
-      "રોટર ડિસ્ક પર સંપૂર્ણ બ્લેડ સેટનું ડાયનેમિક બેલેન્સિંગ — ISO 21940-11 / ISO 1940 કમ્પ્લાયન્સ",
+      "રોટર ડિસ્ક પર સંપૂર્ણ બ્લેડ સેટનું ડાયનેમિક બેલેન્સિંગ — ISO 21940-11 (formerly ISO 1940) કમ્પ્લાયન્સ",
       "મૂવિંગ (રોટર) અને સ્ટેશનરી (નોઝલ/ડાયાફ્રામ) બ્લેડ અલગ અલગ અથવા સ્ટેજ સેટ તરીકે પૂરાં પાડવામાં આવે છે",
       "લાઈફ એક્સટેન્શન પ્રોગ્રામ માટે યોગ્ય — બ્લેડ મટીરિયલ અપગ્રેડ ઉપલબ્ધ"
     ],
@@ -5549,7 +5549,7 @@
       "Erosion Protection": "Stellite hard-facing on LP last-stage leading edge",
       "Verification": "Profile gauge + CMM inspection report per batch",
       "PMI Certificate": "Chemical composition certificate supplied",
-      "Balancing Standard": "ISO 21940-11 / ISO 1940 (on rotor disc)",
+      "Balancing Standard": "ISO 21940-11 (formerly ISO 1940) (on rotor disc)",
       "HSN Code": "8406"
     },
     "images": [

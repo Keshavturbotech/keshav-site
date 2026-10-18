@@ -9,7 +9,7 @@
       },
       {
         "title": "Nhiễm bẩn Dầu Bôi trơn",
-        "desc": "Sự xâm nhập của hạt và nước vào hệ thống dầu bôi trơn có thể nhanh chóng làm suy giảm bề mặt ổ trục. Mục tiêu độ sạch ISO 4406:99 phải được duy trì liên tục."
+        "desc": "Sự xâm nhập của hạt và nước vào hệ thống dầu bôi trơn có thể nhanh chóng làm suy giảm bề mặt ổ trục. Mục tiêu độ sạch ISO 4406 phải được duy trì liên tục."
       },
       {
         "title": "Giãn nở Nhiệt trong Đường ống Hơi",
@@ -23,7 +23,7 @@
     "products": [
       {
         "name": "Lõi Lọc Dầu Bôi trơn (180 GPM)",
-        "purpose": "Duy trì độ sạch ISO 4406:99 trong hệ thống dầu bôi trơn tua-bin, bảo vệ ổ trục ngõng và ổ chặn khỏi mài mòn.",
+        "purpose": "Duy trì độ sạch ISO 4406 trong hệ thống dầu bôi trơn tua-bin, bảo vệ ổ trục ngõng và ổ chặn khỏi mài mòn.",
         "features": [
           "Vật liệu sợi thủy tinh VG, độ mịn 6–25 µm",
           "Thông số chống tĩnh điện IS27 cho dầu tổng hợp",
@@ -89,7 +89,7 @@
     "keyFacts": [
       "Xử lý tua-bin công suất tối đa 60 MW",
       "{years}+ năm kinh nghiệm kỹ thuật được đào tạo bởi OEM",
-      "Sản phẩm tuân thủ API 614 & ISO 4406:99",
+      "Sản phẩm tuân thủ API 614 & ISO 4406",
       "Cung cấp bộ lọc HVAC cho phòng điều khiển và nhà tua-bin",
       "Hỗ trợ sự cố khẩn cấp 24×7"
     ]

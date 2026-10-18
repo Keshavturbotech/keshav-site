@@ -51,6 +51,24 @@ const GalleryImage = forwardRef(function GalleryImage(
   );
 });
 
+// Category-appropriate pricing note (the old copy talked about "turbine model"
+// on every product, including HVAC filters, hoses and rubber profiles).
+const PRICE_VARIES_BY = {
+  "Turbine Spares": "Prices vary by turbine make and model, OEM spec, material grade, and order quantity.",
+  "Industrial Filtration": "Prices vary by element size, media, micron rating, and order quantity.",
+  "Expansion Joints": "Prices vary by size, pressure rating, material grade, and movement requirements.",
+  "Flexible Hoses & Assemblies": "Prices vary by size, pressure rating, end fittings, and length.",
+  "Industrial Strainers": "Prices vary by size, pressure rating, material, and mesh.",
+  "HVAC, Ducting & Air Filtration": "Prices vary by filter class, size, media, and order quantity.",
+  "Industrial Rubber Products": "Prices vary by profile, rubber compound, and order quantity.",
+  "Valves, Gaskets & Steam System Products": "Prices vary by size, pressure class, material, and certification.",
+  "Electronic Equipment": "Prices vary by make, model, and specification.",
+  "Hydraulic Components": "Prices vary by size, pressure rating, and order quantity.",
+};
+function priceVariesBy(category) {
+  return PRICE_VARIES_BY[category] ?? "Prices vary by specification, material grade, and order quantity.";
+}
+
 export default function ProductDetailInteractive({ product, imageMap = {}, locale = "en" }) {
   const { code: currencyCode, rates: currencyRates } = useCurrency();
   const validImages = useMemo(() => product.images || [], [product.images]);
@@ -82,7 +100,7 @@ export default function ProductDetailInteractive({ product, imageMap = {}, local
   const [loadedSrcs, setLoadedSrcs] = useState(() => new Set());
   const [activeImg, setActiveImg] = useState(0);
   const [lightbox, setLightbox] = useState(false);
-  const [tab, setTab] = useState("specs");
+  const [tabState, setTab] = useState("specs");
   const [showReport, setShowReport] = useState(false);
   const [copied, setCopied] = useState(false);
   const groupedSpecs = useMemo(
@@ -90,6 +108,8 @@ export default function ProductDetailInteractive({ product, imageMap = {}, local
     [product.specs],
   );
   const specGroupIds = useMemo(() => Object.keys(groupedSpecs), [groupedSpecs]);
+  // Fall back to Key Features when a product has no spec data (empty tabs are hidden).
+  const tab = tabState === "specs" && specGroupIds.length === 0 && product.features?.length ? "features" : tabState;
   const [specSubTab, setSpecSubTab] = useState(() => specGroupIds[0] ?? "general");
   useEffect(() => {
     if (specGroupIds.length && !specGroupIds.includes(specSubTab)) setSpecSubTab(specGroupIds[0]);
@@ -436,7 +456,7 @@ export default function ProductDetailInteractive({ product, imageMap = {}, local
               <p className="mt-3 text-[11px] text-slate-500 leading-relaxed border-t border-blue-100 pt-2">
                 {currencyCode !== "INR"
                   ? "Prices converted from INR at live market rates (open.er-api.com). Actual invoice will be in INR. Rate is indicative — contact us for a firm quotation."
-                  : "Prices vary by turbine model, OEM spec, material grade, and order quantity. The range shown reflects our typical market spread — contact us for a firm quotation."}
+                  : `${priceVariesBy(product.category)} The range shown reflects our typical market spread — contact us for a firm quotation.`}
               </p>
             </div>
           )}
@@ -468,9 +488,11 @@ export default function ProductDetailInteractive({ product, imageMap = {}, local
               className="flex border-b border-slate-200 mb-6 gap-1"
             >
               {[
-                ["specs", "Technical Data"],
-                ["features", "Key Features"],
-              ].map(([k, label]) => (
+                ["specs", "Technical Data", specGroupIds.length > 0],
+                ["features", "Key Features", (product.features?.length ?? 0) > 0],
+              ]
+                .filter(([, , hasContent]) => hasContent)
+                .map(([k, label]) => (
                 <button
                   key={k}
                   type="button"
