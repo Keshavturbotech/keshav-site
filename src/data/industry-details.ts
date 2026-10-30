@@ -589,7 +589,7 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
   },
   ind_7: {
     heroSub:
-      "Lube oil filtration, pulse-jet dust collector bags, HVAC air filters, expansion joints & vibration isolation for cement plant machinery",
+      "Lube oil filtration, pulse-jet dust collector bags, HVAC air filters, expansion joints & vibration isolation for cement plant machinery and steel plant hydraulics, ducting and fume extraction",
     overview: `Cement manufacturing is one of the most abrasive and dust-laden industrial environments on earth. Rotary kilns operating at 200–400°C shell temperature, ball mills running continuously for months, and crusher trains generating massive dust clouds place extreme demands on every lubrication, sealing, and piping component. Keshav Enterprises supplies the precision-grade filtration, pulse-jet dust collector filter bags, HVAC air filters, expansion joints, and anti-vibration solutions that keep cement plants running at 330+ days per year.`,
     challenges: [
       {
@@ -719,6 +719,72 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
           "Replacement supply on service schedule",
         ],
       },
+      {
+        name: "Magnetic Filter / Separator Assemblies (Steel Mill Hydraulics)",
+        purpose:
+          "Captures ferrous wear metal in steel mill hydraulic systems, gearbox lube circuits and turbine oil returns, fitted inline or in a bypass loop before it recirculates and abrades pumps and valves.",
+        features: [
+          "Rare earth neodymium magnets capture sub-micron ferrous particles",
+          "SS 316 housing and rod sleeve, magnetic core fully enclosed",
+          "Inline DN15 to DN200 housings or rod inserts for existing housings",
+          "Flanged (ASME B16.5 Class 150/300) or screwed (BSP/NPT) connections",
+        ],
+      },
+      {
+        name: "Directional Control Valves (Steel Plant Hydraulics)",
+        purpose:
+          "Directional flow control for steel plant hydraulic power units, presses and turbine auxiliary systems, from all major makes with solenoid, manual or pilot actuation.",
+        features: [
+          "4/2, 4/3 and 5/2-way spool valves; 2/2-way poppet valves",
+          "Bosch Rexroth, Parker, Yuken, Vickers (Eaton), Atos, Duplomatic, Wandfluh and equivalents",
+          "CETOP 3, 5 and 7 mounting per ISO 4401",
+          "15 LPM (CETOP 3) up to 350 LPM (CETOP 7)",
+        ],
+      },
+      {
+        name: "Angular Hinged / Gimbal Expansion Joints (Steel Plant Ducting)",
+        purpose:
+          "Angular compensation for high-temperature gas lines and steel plant ducting where controlled rotation is preferred over axial expansion loops.",
+        features: [
+          "Hinged design controls rotation in one plane with pin support",
+          "Gimbal design permits multi-plane angular movement",
+          "Reduces nozzle and anchor loads in complex pipe stress layouts",
+          "Weld ends or flanged ends to match site standards",
+        ],
+      },
+      {
+        name: "Filter Bag & Support Cage Assemblies (Furnace Fume Extraction)",
+        purpose:
+          "Replacement bags and cages for pulse-jet and reverse-air baghouses on steel mill furnace fume extraction, with fabric chosen for process temperature and chemistry.",
+        features: [
+          "Polyester, polypropylene, PTFE, PPS, fibreglass or aramid (Nomex) media",
+          "≥99.9% efficiency at 1–10 µm (media-dependent)",
+          "Up to 150°C (polyester/polypropylene), 260°C (PTFE/PPS), 300°C+ (fibreglass, aramid)",
+          "Support cages in low-carbon steel, galvanised steel, SS304 or SS316L",
+        ],
+      },
+      {
+        name: "Cenlub Replacement Filter Elements (Steel Plant & DRI Lubrication)",
+        purpose:
+          "Replacement elements for Cenlub oil circulation skids and centralised lubrication equipment in steel plants and DRI sponge iron units. Send the code on the old element for an exact cross-reference.",
+        features: [
+          "Covers all four Cenlub skid filter positions: suction strainer, pressure-line duplex, return-line and tank breather",
+          "3 to 100 µm grades; 10 µm absolute (β10(c) ≥ 200, ISO 16889) is the standard API 614 console grade",
+          "Microglass, SS wire mesh (cleanable), cellulose or non-woven polyester media",
+          "Duplex changeover: element swapped on the standby side with the turbine running",
+        ],
+      },
+      {
+        name: "BHEL Replacement Turbine Lube Oil Filter Elements (Captive Power Turbo-Sets)",
+        purpose:
+          "OEM-matched lube oil elements for BHEL turbo-sets in steel plant captive power stations and process industries, fitting BHEL duplex housings without modification.",
+        features: [
+          "OEM-matched for BHEL turbine lube oil systems",
+          "Drop-in replacement for BHEL duplex lube oil filter housings",
+          "10, 25 and 40 µm fineness (ISO 16889 rated); finer on request",
+          "Imported glass fiber, SS wire mesh (reusable) or Hydroclean paper media",
+        ],
+      },
     ],
     keyFacts: [
       "330+ days/year continuous operation supported",
@@ -822,6 +888,12 @@ const RAW_INDUSTRY_PRODUCT_IDS: Record<string, string | null> = {
   "Conical & Y-Type Strainers (Raw Mill & Conveyor Pumps)": "prod_st3",
   "Pulse-Jet Dust Collector Filter Bags & Cartridges": "prod_af5",
   "Pleated Panel Air Filters (Control Room & Electrical Panel HVAC)": "prod_af4",
+  "Magnetic Filter / Separator Assemblies (Steel Mill Hydraulics)": "prod_f_mag1",
+  "Directional Control Valves (Steel Plant Hydraulics)": "prod_hv1",
+  "Angular Hinged / Gimbal Expansion Joints (Steel Plant Ducting)": "prod_e10",
+  "Filter Bag & Support Cage Assemblies (Furnace Fume Extraction)": "prod_f14",
+  "Cenlub Replacement Filter Elements (Steel Plant & DRI Lubrication)": "prod_f_cenlub",
+  "BHEL Replacement Turbine Lube Oil Filter Elements (Captive Power Turbo-Sets)": "prod_f_bhel",
   "HVAC Pocket Bag Filters (Food Plant Air Handling)": "prod_af1",
   "Pleated Panel Air Filters (Control Room & Turbine Hall HVAC)": "prod_af4",
 };

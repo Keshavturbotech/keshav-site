@@ -20,7 +20,7 @@ export const RESPONSE_PROMISES = {
 
 export const CONTACT_INFO = {
   phones: ["+91 9149229448", "+91 6397363268"],
-  email: "ksengg007@gmail.com",
+  email: "sales.ksengg007@gmail.com",
   infoEmail: "info.ksengg007@gmail.com",
   address: "Dayanand Nagar Gali No.2, Near Subash Ki Chakki, Shamli – 247776, U.P., India",
   whatsapp: `${WHATSAPP_COUNTRY_CODE}${WHATSAPP_LOCAL_NUMBER}`,

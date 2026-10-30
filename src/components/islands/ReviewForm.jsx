@@ -2270,8 +2270,8 @@ export default function ReviewForm({
               +91 91492 29448
             </a>{" "}
             or{" "}
-            <a href="mailto:ksengg007@gmail.com" style={{ color: T.brand, fontWeight: 700 }}>
-              ksengg007@gmail.com
+            <a href="mailto:sales.ksengg007@gmail.com" style={{ color: T.brand, fontWeight: 700 }}>
+              sales.ksengg007@gmail.com
             </a>
           </p>
 

@@ -645,6 +645,60 @@
           "Kích thước khung AHU tiêu chuẩn hoặc cắt tùy chỉnh theo kích thước tủ",
           "Cung cấp thay thế theo lịch bảo trì"
         ]
+      },
+      {
+        "name": "Bộ Lọc Từ / Bộ Tách Từ — Dầu Bôi trơn & Thủy lực",
+        "purpose": "Bộ lọc từ trực tuyến và ngoại tuyến sử dụng thanh từ đất hiếm (neodymium) hoặc ferrite cường độ cao để liên tục loại bỏ hạt mòn sắt từ mạch dầu bôi trơn tua-bin, chất lỏng thủy lực, dầu bánh răng, chất làm mát, và dầu cắt.",
+        "features": [
+          "Loại nam châm: Đất hiếm neodymium (mạnh hơn gốm đến 4 lần) — bắt giữ hạt sắt dưới micron bao gồm bụi thép và phôi sắt xuống dưới 1 µm",
+          "Loại vỏ: Vỏ đường ống trực tuyến (mặt bích hoặc ren), chèn thanh từ (cho vỏ bộ lọc rác hoặc lọc hiện có), bộ hộp bypass",
+          "MOC: Vỏ SS 316 và ống bọc thanh tiêu chuẩn — lõi từ hoàn toàn kín, không tiếp xúc gốm-chất lỏng, không có rủi ro nhiễm bẩn từ suy giảm nam châm"
+        ]
+      },
+      {
+        "name": "Van Điều khiển Hướng (Tất cả các Hãng Lớn)",
+        "purpose": "Van điều khiển hướng thủy lực công nghiệp từ tất cả các nhà sản xuất lớn — Bosch Rexroth, Parker, Yuken, Vickers, Atos, và Duplomatic.",
+        "features": [
+          "Các hãng có sẵn: Bosch Rexroth, Parker Hannifin, Yuken, Vickers (Eaton), Atos, Duplomatic, Wandfluh, và tương đương",
+          "Loại van: van con trượt hướng 4/2 chiều, 4/3 chiều, 5/2 chiều; van poppet 2/2 chiều",
+          "Tùy chọn kích hoạt: điều khiển bằng solenoid (24V DC, 110V AC, 220V AC), tay gạt thủ công, điều khiển thí điểm, hoặc kết hợp"
+        ]
+      },
+      {
+        "name": "Khớp Nối Giãn Nở Góc Kiểu Bản Lề / Gimbal",
+        "purpose": "Khớp nối giãn nở góc được cố định bằng chốt (kiểu bản lề hoặc gimbal) để chuyển động quay có kiểm soát trong một hoặc hai mặt phẳng trong khi chống lại tải trọng lực đẩy áp suất.",
+        "features": [
+          "Thiết kế bản lề kiểm soát quay trong một mặt phẳng với hỗ trợ chốt",
+          "Thiết kế gimbal cho phép chuyển động góc đa mặt phẳng với độ ổn định của khung vòng",
+          "Thường được lắp thành cặp hoặc hệ thống đa khớp nối để tăng trưởng nhiệt có kiểm soát"
+        ]
+      },
+      {
+        "name": "Bộ Túi Lọc & Lồng Đỡ",
+        "purpose": "Bộ túi lọc baghouse và lồng đỡ hoàn chỉnh cho hệ thống thu gom bụi công nghiệp.",
+        "features": [
+          "Túi Lọc — tùy chọn vật liệu vải: polyester, polypropylene, PTFE, PPS, sợi thủy tinh, aramid (Nomex) tùy theo nhiệt độ và hóa chất quy trình",
+          "Hiệu suất lọc: ≥99,9% ở kích thước hạt 1–10 µm (tùy thuộc vật liệu)",
+          "Phạm vi nhiệt độ: đến 150°C (polyester/polypropylene); đến 260°C (màng PTFE/PPS); đến 300°C+ (sợi thủy tinh, aramid)"
+        ]
+      },
+      {
+        "name": "Lõi lọc thay thế Cenlub",
+        "purpose": "Lõi lọc thay thế cho hệ thống bôi trơn tập trung Cenlub, cụm skid tuần hoàn dầu và bàn dầu bôi trơn theo API 614 dùng trên tua bin hơi, hộp số và nhà máy hạng nặng.",
+        "features": [
+          "Bao phủ cả bốn vị trí lọc trên skid Cenlub: lọc hút bơm, lọc kép đường áp lực, lọc đường hồi và lọc thở bình dầu",
+          "Cấp lọc: 3, 5, 10, 20, 25, 40, 80, 100 µm — cấp 10 µm tuyệt đối (β10(c) ≥ 200, ISO 16889) là cấp tiêu chuẩn cho bàn dầu bôi trơn API 614",
+          "Lựa chọn vật liệu: microglass nhiều lớp (không rửa được), lưới thép SS 304 / SS 316 (rửa được và tái sử dụng), giấy cellulose (phục vụ súc rửa), polyester không dệt"
+        ]
+      },
+      {
+        "name": "Lõi Lọc Dầu Bôi trơn Tua-bin Thay thế BHEL",
+        "purpose": "Lõi lọc dầu bôi trơn khớp OEM cho tua-bin hơi nước BHEL (cấp 100 MW đến 500 MW, bao gồm các bộ TG được sản xuất tại BHEL Haridwar và BHEL Trichy).",
+        "features": [
+          "Khớp OEM cho hệ thống dầu bôi trơn tua-bin BHEL — bộ TG cấp 100 MW, 200 MW, 210 MW, 250 MW, 500 MW",
+          "Tương thích với vỏ lọc dầu bôi trơn duplex BHEL — thay thế trực tiếp không cần sửa đổi vỏ",
+          "Độ mịn lọc: 10, 25, 40 µm (định mức ISO 16889); mịn hơn theo yêu cầu để bảo vệ hệ thống servo"
+        ]
       }
     ],
     "keyFacts": [

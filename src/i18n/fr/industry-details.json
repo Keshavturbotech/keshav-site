@@ -645,6 +645,60 @@
           "Tailles de cadre CTA standard ou découpe sur mesure selon les dimensions du panneau",
           "Fourniture de remplacement selon calendrier d'entretien"
         ]
+      },
+      {
+        "name": "Ensemble filtre magnétique / séparateur magnétique — huile de lubrification et hydraulique",
+        "purpose": "Ensembles de filtre magnétique en ligne et hors ligne utilisant des barreaux magnétiques en terres rares (néodyme) ou ferrite à haute résistance pour éliminer en continu les particules d'usure ferreuses des circuits d'huile de lubrification de turbine, de flui",
+        "features": [
+          "Type d'aimant : néodyme en terres rares (jusqu'à 4x plus puissant que la céramique) — capture les particules ferreuses submicroniques y compris la poussière d'acier et les limailles de fer jusqu'en dessous de 1 µm",
+          "Types de boîtier : boîtier de pipeline en ligne (à brides ou fileté), insert de barreau magnétique (pour crépine ou boîtier de filtre existant), ensemble de cartouche de dérivation",
+          "MOC : boîtier SS 316 et manchon de barreau standard — noyau magnétique entièrement enfermé, aucun contact céramique-fluide, aucun risque de contamination par dégradation d'aimant"
+        ]
+      },
+      {
+        "name": "Distributeurs hydrauliques (toutes grandes marques)",
+        "purpose": "Distributeurs hydrauliques industriels de tous les grands fabricants — Bosch Rexroth, Parker, Yuken, Vickers, Atos, et Duplomatic.",
+        "features": [
+          "Marques disponibles : Bosch Rexroth, Parker Hannifin, Yuken, Vickers (Eaton), Atos, Duplomatic, Wandfluh, et équivalents",
+          "Types de vanne : tiroirs directionnels 4/2 voies, 4/3 voies, 5/2 voies ; clapets 2/2 voies",
+          "Options d'actionnement : à solénoïde (24 V CC, 110 V CA, 220 V CA), levier manuel, piloté, ou combinaison"
+        ]
+      },
+      {
+        "name": "Joint de dilatation angulaire à charnière / gimbal",
+        "purpose": "Joint de dilatation angulaire retenu par broche (type charnière ou gimbal) pour un mouvement rotatif contrôlé dans un ou deux plans tout en résistant aux charges de poussée de pression.",
+        "features": [
+          "La conception à charnière contrôle la rotation dans un plan avec support par broche",
+          "La conception gimbal permet un mouvement angulaire multiplan avec stabilité par cadre annulaire",
+          "Généralement installé par paires ou en systèmes multi-joints pour une croissance thermique contrôlée"
+        ]
+      },
+      {
+        "name": "Ensemble de manche filtrante et cage de support",
+        "purpose": "Ensemble complet de manche filtrante et cage de support pour systèmes de dépoussiérage industriel.",
+        "features": [
+          "Manche filtrante — options de média tissu : polyester, polypropylène, PTFE, PPS, fibre de verre, aramide (Nomex) selon la température et la chimie du process",
+          "Efficacité de filtration : ≥99,9 % à une taille de particule de 1–10 µm (selon le média)",
+          "Plage de température : jusqu'à 150 °C (polyester/polypropylène) ; jusqu'à 260 °C (membrane PTFE/PPS) ; jusqu'à 300 °C+ (fibre de verre, aramide)"
+        ]
+      },
+      {
+        "name": "Éléments filtrants de rechange Cenlub",
+        "purpose": "Éléments filtrants de rechange pour systèmes de lubrification centralisée Cenlub, skids de circulation d'huile et consoles d'huile de graissage API 614 équipant turbines à vapeur, réducteurs et installations lourdes.",
+        "features": [
+          "Couvre les quatre positions de filtre du skid Cenlub : crépine d'aspiration de pompe, filtre duplex de ligne de pression, filtre de retour et reniflard de réservoir",
+          "Grades de filtration : 3, 5, 10, 20, 25, 40, 80, 100 µm — 10 µm absolu (β10(c) ≥ 200, ISO 16889) est le grade standard des consoles de graissage API 614",
+          "Options de média : microverre multicouche (non nettoyable), toile inox SS 304 / SS 316 (nettoyable et réutilisable), papier cellulose (service de rinçage), polyester non tissé"
+        ]
+      },
+      {
+        "name": "Éléments filtrants de remplacement d'huile de lubrification de turbine BHEL",
+        "purpose": "Éléments filtrants d'huile de lubrification adaptés OEM pour turbines à vapeur BHEL (classe 100 MW à 500 MW, y compris les groupes TG fabriqués chez BHEL Haridwar et BHEL Trichy).",
+        "features": [
+          "Adapté OEM pour systèmes d'huile de lubrification de turbine BHEL — groupes TG classe 100 MW, 200 MW, 210 MW, 250 MW, 500 MW",
+          "Compatible avec les boîtiers de filtre d'huile de lubrification duplex BHEL — remplacement direct sans modification de boîtier",
+          "Finesse de filtration : 10, 25, 40 µm (classé ISO 16889) ; plus fine sur demande pour la protection de servosystème"
+        ]
       }
     ],
     "keyFacts": [

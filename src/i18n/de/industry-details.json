@@ -645,6 +645,60 @@
           "Standard-RLT-Rahmengrößen oder maßgeschneidert nach Schaltschrankmaßen",
           "Ersatzlieferung nach Wartungsplan"
         ]
+      },
+      {
+        "name": "Magnetfilter / Magnetabscheider-Baugruppe — Schmieröl & Hydraulik",
+        "purpose": "Inline- und Offline-Magnetfilterbaugruppen mit hochfesten Seltenerd-(Neodym)- oder Ferrit-Magnetstäben zur kontinuierlichen Entfernung ferromagnetischer Verschleißpartikel aus Turbinenschmieröl, Hydraulikflüssigkeit, Getriebeöl, Kühlmittel und Schneidöl.",
+        "features": [
+          "Magnettyp: Seltenerd-Neodym (bis zu 4× stärker als Keramik) – erfasst subMikrometer-ferromagnetische Partikel einschließlich Stahlstaub und Eisenspäne bis unter 1 µm",
+          "Gehäusetypen: Inline-Rohrleitungsgehäuse (geflanscht oder verschraubt), Magnetstabeinsatz (für bestehendes Schmutzfänger- oder Filtergehäuse), Bypass-Kanister-Baugruppe",
+          "Werkstoff: SS-316-Gehäuse und Stabhülse Standard – Magnetkern vollständig gekapselt, kein Keramik-Flüssigkeitskontakt, kein Kontaminationsrisiko durch Magnetabbau"
+        ]
+      },
+      {
+        "name": "Wegeventile (alle wichtigen Fabrikate)",
+        "purpose": "Industrielle hydraulische Wegeventile von allen führenden Herstellern – Bosch Rexroth, Parker, Yuken, Vickers, Atos und Duplomatic.",
+        "features": [
+          "Erhältliche Fabrikate: Bosch Rexroth, Parker Hannifin, Yuken, Vickers (Eaton), Atos, Duplomatic, Wandfluh und Äquivalente",
+          "Ventiltypen: 4/2-Wege-, 4/3-Wege-, 5/2-Wege-Schieberventile; 2/2-Wege-Sitzventile",
+          "Betätigungsoptionen: magnetbetätigt (24 V DC, 110 V AC, 220 V AC), Handhebel, vorgesteuert oder Kombination"
+        ]
+      },
+      {
+        "name": "Angular-Scharnier-/Gimbal-Kompensator",
+        "purpose": "Bolzengesicherter Angular-Kompensator (Scharnier- oder Gimbal-Typ) für kontrollierte Rotationsbewegung in einer oder zwei Ebenen bei gleichzeitiger Aufnahme der Druckschublasten.",
+        "features": [
+          "Scharnierkonstruktion kontrolliert die Rotation in einer Ebene mit Bolzenlagerung",
+          "Gimbal-Konstruktion ermöglicht mehrebenenangulare Bewegung mit Ringrahmenstabilität",
+          "Typischerweise paarweise oder in Mehrgelenksystemen installiert für kontrolliertes thermisches Wachstum"
+        ]
+      },
+      {
+        "name": "Filterschlauch- & Stützkorb-Baugruppe",
+        "purpose": "Komplette Filterschlauch- und Stützkorb-Baugruppe für industrielle Staubabscheidungsanlagen (Schlauchfilter).",
+        "features": [
+          "Filterschlauch – Gewebeoptionen: Polyester, Polypropylen, PTFE, PPS, Glasfaser, Aramid (Nomex) je nach Prozesstemperatur und -chemie",
+          "Filtrationswirkungsgrad: ≥99,9 % bei 1–10 µm Partikelgröße (medienabhängig)",
+          "Temperaturbereich: bis 150 °C (Polyester/Polypropylen); bis 260 °C (PTFE-Membran/PPS); bis 300 °C+ (Glasfaser, Aramid)"
+        ]
+      },
+      {
+        "name": "Cenlub Ersatz-Filterelemente",
+        "purpose": "Ersatz-Filterelemente für Cenlub Zentralschmieranlagen, Ölumlauf-Skids und API-614-Schmierölkonsolen an Dampfturbinen, Getrieben und Schwermaschinen.",
+        "features": [
+          "Deckt alle vier Filterpositionen des Cenlub-Skids ab: Pumpensaugsieb, Druckleitungs-Duplexfilter, Rücklauffilter und Tankbelüftungsfilter",
+          "Filtrationsgrade: 3, 5, 10, 20, 25, 40, 80, 100 µm — 10 µm absolut (β10(c) ≥ 200, ISO 16889) ist der Standardgrad für API-614-Schmierölkonsolen",
+          "Medienoptionen: mehrlagiges Mikroglas (nicht reinigbar), Drahtgewebe SS 304 / SS 316 (reinigbar und wiederverwendbar), Zellulosepapier (Spülbetrieb), Polyestervlies"
+        ]
+      },
+      {
+        "name": "BHEL Ersatz-Turbinen-Schmierölfilterelemente",
+        "purpose": "OEM-passende Schmierölfilterelemente für BHEL-Dampfturbinen (Klasse 100 MW bis 500 MW, einschließlich TG-Sätzen aus der Fertigung BHEL Haridwar und BHEL Trichy).",
+        "features": [
+          "OEM-passend für BHEL-Turbinenschmierölsysteme – TG-Sätze der Klasse 100 MW, 200 MW, 210 MW, 250 MW, 500 MW",
+          "Kompatibel mit BHEL-Duplex-Schmierölfiltergehäusen – Direktaustausch ohne Gehäuseänderung",
+          "Filtrationsfeinheit: 10, 25, 40 µm (ISO-16889-bewertet); feiner auf Anfrage zum Schutz von Servosystemen"
+        ]
       }
     ],
     "keyFacts": [

@@ -645,6 +645,60 @@
           "Vipimo vya kawaida vya fremu ya AHU au vilivyokatwa maalum kulingana na vipimo vya paneli",
           "Ugavi wa kubadilisha kulingana na ratiba ya huduma"
         ]
+      },
+      {
+        "name": "Mfumo wa Kichujio cha Sumaku / Kitenganishi cha Sumaku — Mafuta ya Kulainisha na Hydraulic",
+        "purpose": "Mifumo ya kichujio cha sumaku ya inline na off-line ikitumia fito za sumaku za rare earth (neodymium) au ferrite zenye nguvu ya juu kuondoa kwa kudumu chembe za uchakavu za chuma kutoka mizunguko ya mafuta ya kulainisha ya turbine, kimiminika cha hydraulic, ma",
+        "features": [
+          "Aina ya sumaku: Rare earth neodymium (hadi mara 4 zaidi ya nguvu kuliko keramik) — hunasa chembe za chuma za chini ya mikroni ikiwa ni pamoja na vumbi la chuma na vipande vya chuma hadi chini ya mikroni 1",
+          "Aina za nyumba: Nyumba ya bomba la inline (flange au iliyopindwa), kichomeleo cha fito ya sumaku (kwa nyumba ya kichujio au strainer iliyopo), mfumo wa canister ya bypass",
+          "MOC: Nyumba ya SS 316 na sleeve ya fito ya kawaida — kiini cha sumaku kimefungwa kikamilifu, hakuna mgusano wa keramik-kimiminika, hakuna hatari ya uchafuzi kutokana na kuharibika kwa sumaku"
+        ]
+      },
+      {
+        "name": "Valvu za Udhibiti wa Mwelekeo (Chapa Zote Kuu)",
+        "purpose": "Valvu za udhibiti wa mwelekeo za hydraulic za viwandani kutoka watengenezaji wote wakuu — Bosch Rexroth, Parker, Yuken, Vickers, Atos, na Duplomatic.",
+        "features": [
+          "Chapa zinazopatikana: Bosch Rexroth, Parker Hannifin, Yuken, Vickers (Eaton), Atos, Duplomatic, Wandfluh, na sawa",
+          "Aina za valvu: valvu za spool za mwelekeo za njia 4/2, njia 4/3, njia 5/2; valvu za poppet za njia 2/2",
+          "Chaguo za uendeshaji: zinazoendeshwa na solenoid (24V DC, 110V AC, 220V AC), lever ya mkono, pilot-operated, au mchanganyiko"
+        ]
+      },
+      {
+        "name": "Kiungo cha Upanuzi cha Angular cha Hinged / Gimbal",
+        "purpose": "Kiungo cha upanuzi cha angular kilichozuiliwa na pini (aina ya hinged au gimbal) kwa mzunguko wa mzunguko unaodhibitiwa katika ndege moja au mbili huku kikipinga mizigo ya msukumo wa shinikizo.",
+        "features": [
+          "Muundo wa hinged hudhibiti mzunguko katika ndege moja kwa msaada wa pini",
+          "Muundo wa gimbal huruhusu mzunguko wa angular wa ndege nyingi na uthabiti wa fremu ya pete",
+          "Kwa kawaida husanikishwa kwa jozi au mifumo ya viungo vingi kwa ukuaji wa joto unaodhibitiwa"
+        ]
+      },
+      {
+        "name": "Mfumo wa Mfuko wa Kichujio na Cage ya Msaada",
+        "purpose": "Mfumo kamili wa mfuko wa kichujio wa baghouse na cage ya msaada kwa mifumo ya ukusanyaji wa vumbi ya viwandani.",
+        "features": [
+          "Mfuko wa Kichujio — chaguo za media ya kitambaa: polyester, polypropylene, PTFE, PPS, nyuzi za kioo, aramid (Nomex) kulingana na joto na kemia ya uchakataji",
+          "Ufanisi wa uchujaji: ≥99.9% kwa ukubwa wa chembe wa mikroni 1–10 (kutegemea media)",
+          "Wigo wa joto: hadi 150°C (polyester/polypropylene); hadi 260°C (utando wa PTFE/PPS); hadi 300°C+ (nyuzi za kioo, aramid)"
+        ]
+      },
+      {
+        "name": "Vipengele vya Kichujio vya Kubadilisha vya Cenlub",
+        "purpose": "Vipengele vya kichujio vya kubadilisha kwa mifumo ya ulainishaji wa kati ya Cenlub, skidi za mzunguko wa mafuta, na konsoli za mafuta ya kulainisha za API 614 zinazotumika kwenye turbine za mvuke, masanduku ya gia, na mitambo mizito.",
+        "features": [
+          "Vinashughulikia nafasi zote nne za vichujio kwenye skidi ya Cenlub: chujio la kunyonya la pampu, kichujio duplex cha mstari wa shinikizo, kichujio cha mstari wa kurudi, na kipumulio cha tangi",
+          "Viwango vya uchujaji: mikroni 3, 5, 10, 20, 25, 40, 80, 100 — mikroni 10 kamili (β10(c) ≥ 200, ISO 16889) ndicho kiwango cha kawaida cha konsoli za ulainishaji za API 614",
+          "Chaguzi za media: microglass ya tabaka nyingi (haisafishwi), wavu wa waya SS 304 / SS 316 (unaosafishwa na kutumika tena), karatasi ya selulosi (kazi ya kusafisha mfumo), polyester isiyofumwa"
+        ]
+      },
+      {
+        "name": "Vipengele vya Kichujio cha Kubadilisha cha Mafuta ya Kulainisha ya Turbine ya BHEL",
+        "purpose": "Vipengele vya kichujio cha mafuta ya kulainisha vinavyolingana na OEM kwa turbine za mvuke za BHEL (daraja la 100 MW hadi 500 MW, ikiwa ni pamoja na seti za TG zinazotengenezwa katika BHEL Haridwar na BHEL Trichy).",
+        "features": [
+          "Zinalingana na OEM kwa mifumo ya mafuta ya kulainisha ya turbine za BHEL — seti za TG za daraja la 100 MW, 200 MW, 210 MW, 250 MW, 500 MW",
+          "Zinaendana na nyumba za kichujio cha mafuta ya kulainisha za duplex za BHEL — kubadilisha kwa drop-in bila marekebisho ya nyumba",
+          "Ukamilifu wa uchujaji: mikroni 10, 25, 40 (kiwango cha ISO 16889); laini zaidi kwa ombi kwa ulinzi wa mfumo wa servo"
+        ]
       }
     ],
     "keyFacts": [

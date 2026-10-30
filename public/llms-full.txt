@@ -8,7 +8,7 @@ Scale: 8 services, 7 industries, 125 products in 10 categories, 8 case studies, 
 Turbine range: 5 kW to 60 MW
 GST: 09BOSPS3115K1ZC | MSME/Udyam: UDYAM-UP-47-0071234 | IEC: BOSPS3115K
 Phone: +91 9149229448, +91 6397363268
-Email: ksengg007@gmail.com, info.ksengg007@gmail.com
+Email: sales.ksengg007@gmail.com, info.ksengg007@gmail.com
 OEM coverage: Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, Chola Turbo, DLF-Skoda, KKK, ABB
 Languages: English (root) plus /hi, /mr, /gu, /ar, /fr, /ne, /es, /pt, /ru, /de, /zh-cn, /id, /th, /vi, /tr, /sw
 Sitemap: https://keshavturbotech.com/sitemap-index.xml
@@ -390,7 +390,7 @@ Turbine coverage: BHEL, Siemens, Man Turbo
 
 Cement and steel plants operate large multi-stage steam turbines and require high-reliability maintenance with minimum production disruption. We provide planned and emergency overhauling services.
 
-Cement manufacturing is one of the most abrasive and dust-laden industrial environments on earth. Rotary kilns operating at 200–400°C shell temperature, ball mills running continuously for months, and crusher trains generating massive dust clouds place extreme demands on every lubrication, sealing, and piping component. Keshav Enterprises supplies the precision-grade filtration, pulse-jet dust collector filter bags, HVAC air filters, expansion joints, and anti-vibration solutions that keep cement plants running at 330+ days per year.
+Cement manufacturing is one of the most abrasive and dust-laden industrial environments on earth. Rotary kilns operating at 200–400°C shell temperature, ball mills running continuously for months, and crusher trains generating massive dust clouds place extreme demands on every lubrication, sealing, and piping component. Keshav Enterprises supplies the precision-grade filtration, pulse-jet dust collector filter bags, HVAC air filters, expansion joints, and anti-vibration solutions that keep cement plants running at 330+ days per year. For steel plants we supply magnetic separators and directional control valves for mill hydraulics, filter bags and cages for furnace fume extraction, gimbal expansion joints for hot gas ducting, and lube oil elements for Cenlub and BHEL systems.
 
 Key applications:
 - Multi-stage steam turbine overhauling
@@ -399,6 +399,8 @@ Key applications:
 - Duplex basket strainers and filter elements supply
 - Lube oil flushing for high-volume reservoirs
 - Machine alignment for large frame turbines
+- Magnetic separators and directional control valves for steel mill hydraulics
+- Filter bags and cages for steel plant furnace fume extraction
 
 Key facts:
 - 330+ days/year continuous operation supported

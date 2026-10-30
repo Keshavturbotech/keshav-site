@@ -645,6 +645,60 @@
           "Standart AHU çerçeve boyutları veya panel boyutlarına özel kesim",
           "Servis programına göre değişim tedariki"
         ]
+      },
+      {
+        "name": "Manyetik Filtre / Manyetik Ayırıcı Grubu — Yağlama Yağı ve Hidrolik",
+        "purpose": "Türbin yağlama yağı, hidrolik sıvı, dişli yağı, soğutucu ve kesme yağı devrelerinden demir aşınma parçacıklarını sürekli olarak gidermek için yüksek mukavemetli nadir toprak (neodimyum) veya ferrit manyetik çubuklar kullanan hat içi ve çevrimdışı manyetik filt",
+        "features": [
+          "Mıknatıs türü: Nadir toprak neodimyum (seramikten 4 kata kadar daha güçlü) — çelik tozu ve demir talaşı dahil 1 µm altına kadar mikron altı demir parçacıkları yakalar",
+          "Gövde türleri: Hat içi boru hattı gövdesi (flanşlı veya vidalı), manyetik çubuk eki (mevcut süzgeç veya filtre gövdesi için), baypas kanister grubu",
+          "MOC: Standart SS 316 gövde ve çubuk kılıfı — manyetik çekirdek tamamen kapalı, seramik-sıvı teması yok, mıknatıs bozulmasından kontaminasyon riski yok"
+        ]
+      },
+      {
+        "name": "Yönlü Kontrol Valfleri (Tüm Büyük Markalar)",
+        "purpose": "Tüm büyük üreticilerden endüstriyel hidrolik yönlü kontrol valfleri — Bosch Rexroth, Parker, Yuken, Vickers, Atos ve Duplomatic.",
+        "features": [
+          "Mevcut markalar: Bosch Rexroth, Parker Hannifin, Yuken, Vickers (Eaton), Atos, Duplomatic, Wandfluh ve eşdeğerleri",
+          "Valf türleri: 4/2 yollu, 4/3 yollu, 5/2 yollu yönlü sürgülü valfler; 2/2 yollu poppet valfler",
+          "Aktivasyon seçenekleri: solenoid kumandalı (24V DC, 110V AC, 220V AC), manuel kol, pilot kumandalı veya kombinasyon"
+        ]
+      },
+      {
+        "name": "Açısal Menteşeli / Gimbal Genleşme Contası",
+        "purpose": "Basınç itme yüklerine direnirken bir veya iki düzlemde kontrollü rotasyonel hareket için pimle sınırlandırılmış açısal genleşme contası (menteşeli veya gimbal tipi).",
+        "features": [
+          "Menteşeli tasarım, pim desteğiyle bir düzlemde rotasyonu kontrol eder",
+          "Gimbal tasarımı, halka çerçeve stabilitesiyle çok düzlemli açısal harekete izin verir",
+          "Kontrollü termal büyüme için tipik olarak çift veya çoklu conta sistemleri halinde monte edilir"
+        ]
+      },
+      {
+        "name": "Filtre Torbası ve Destek Kafesi Grubu",
+        "purpose": "Endüstriyel toz toplama sistemleri için eksiksiz baghouse filtre torbası ve destek kafesi grubu.",
+        "features": [
+          "Filtre Torbası — kumaş medya seçenekleri: proses sıcaklığı ve kimyasına göre polyester, polipropilen, PTFE, PPS, cam elyaf, aramid (Nomex)",
+          "Filtrasyon verimliliği: 1–10 µm parçacık boyutunda ≥%99,9 (medyaya bağlı)",
+          "Sıcaklık aralığı: 150°C'ye kadar (polyester/polipropilen); 260°C'ye kadar (PTFE membran/PPS); 300°C+'ye kadar (cam elyaf, aramid)"
+        ]
+      },
+      {
+        "name": "Cenlub Muadil Filtre Elemanları",
+        "purpose": "Buhar türbinleri, dişli kutuları ve ağır tesislerde kullanılan Cenlub merkezi yağlama sistemleri, yağ sirkülasyon skidleri ve API 614 yağlama yağı konsolları için muadil filtre elemanları.",
+        "features": [
+          "Cenlub skidindeki dört filtre konumunun tamamını kapsar: pompa emiş süzgeci, basınç hattı dubleks filtresi, dönüş hattı filtresi ve tank hava nefesliği",
+          "Filtrasyon dereceleri: 3, 5, 10, 20, 25, 40, 80, 100 µm — 10 µm mutlak (β10(c) ≥ 200, ISO 16889) API 614 yağlama konsolları için standart derecedir",
+          "Medya seçenekleri: çok katmanlı mikrocam (temizlenemez), SS 304 / SS 316 tel örgü (temizlenebilir ve tekrar kullanılabilir), selüloz kâğıt (yıkama hizmeti), dokusuz polyester"
+        ]
+      },
+      {
+        "name": "BHEL Türbin Yağlama Yağı Değişim Filtre Elemanları",
+        "purpose": "BHEL buhar türbinleri için OEM eşleşen yağlama yağı filtre elemanları (BHEL Haridwar ve BHEL Trichy'de üretilen TG setleri dahil 100 MW ile 500 MW sınıfı).",
+        "features": [
+          "BHEL türbin yağlama yağı sistemleri için OEM eşleşen — 100 MW, 200 MW, 210 MW, 250 MW, 500 MW sınıfı TG setleri",
+          "BHEL duplex yağlama yağı filtre gövdeleriyle uyumlu — gövde modifikasyonu olmadan drop-in değişim",
+          "Filtrasyon inceliği: 10, 25, 40 µm (ISO 16889 dereceli); servo sistem koruması için talep üzerine daha ince"
+        ]
       }
     ],
     "keyFacts": [

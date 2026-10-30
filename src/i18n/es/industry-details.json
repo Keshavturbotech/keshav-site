@@ -645,6 +645,60 @@
           "Tamaños de marco de UMA estándar o cortados a medida según dimensiones de panel",
           "Suministro de reemplazo según programa de servicio"
         ]
+      },
+      {
+        "name": "Conjunto de Filtro Magnético / Separador Magnético — Aceite Lubricante e Hidráulico",
+        "purpose": "Conjuntos de filtro magnético en línea y fuera de línea usando barras magnéticas de tierras raras (neodimio) o ferrita de alta resistencia para eliminar continuamente partículas de desgaste ferrosas de circuitos de aceite lubricante de turbina, fluido hidráuli",
+        "features": [
+          "Tipo de imán: neodimio de tierras raras (hasta 4 veces más fuerte que la cerámica) — captura partículas ferrosas submicrónicas incluidos polvo de acero y limaduras de hierro por debajo de 1 µm",
+          "Tipos de carcasa: carcasa de tubería en línea (embridada o roscada), inserto de barra magnética (para carcasa de colador o filtro existente), conjunto de bote de derivación",
+          "MOC: carcasa SS 316 y manguito de barra estándar — núcleo magnético completamente encerrado, sin contacto cerámica-fluido, sin riesgo de contaminación por degradación del imán"
+        ]
+      },
+      {
+        "name": "Válvulas de Control Direccional (Todas las Marcas Principales)",
+        "purpose": "Válvulas de control direccional hidráulico industrial de todos los fabricantes principales — Bosch Rexroth, Parker, Yuken, Vickers, Atos, y Duplomatic.",
+        "features": [
+          "Marcas disponibles: Bosch Rexroth, Parker Hannifin, Yuken, Vickers (Eaton), Atos, Duplomatic, Wandfluh, y equivalentes",
+          "Tipos de válvula: válvulas de carrete direccional de 4/2 vías, 4/3 vías, 5/2 vías; válvulas de asiento de 2/2 vías",
+          "Opciones de accionamiento: operada por solenoide (24V CC, 110V CA, 220V CA), palanca manual, operada por piloto, o combinación"
+        ]
+      },
+      {
+        "name": "Junta de Expansión Angular Articulada / Cardán",
+        "purpose": "Junta de expansión angular restringida por pasador (tipo articulado o cardán) para movimiento rotacional controlado en uno o dos planos mientras resiste las cargas de empuje por presión.",
+        "features": [
+          "El diseño articulado controla la rotación en un plano con soporte de pasador",
+          "El diseño cardán permite movimiento angular multiplano con estabilidad de marco de anillo",
+          "Típicamente instalado en pares o sistemas de múltiples juntas para crecimiento térmico controlado"
+        ]
+      },
+      {
+        "name": "Conjunto de Manga Filtrante y Jaula de Soporte",
+        "purpose": "Conjunto completo de manga filtrante para casa de mangas y jaula de soporte para sistemas industriales de colección de polvo.",
+        "features": [
+          "Manga filtrante — opciones de medio textil: poliéster, polipropileno, PTFE, PPS, fibra de vidrio, aramida (Nomex) según temperatura y química del proceso",
+          "Eficiencia de filtración: ≥99,9% a tamaño de partícula de 1–10 µm (dependiente del medio)",
+          "Rango de temperatura: hasta 150 °C (poliéster/polipropileno); hasta 260 °C (membrana de PTFE/PPS); hasta 300 °C+ (fibra de vidrio, aramida)"
+        ]
+      },
+      {
+        "name": "Elementos filtrantes de repuesto Cenlub",
+        "purpose": "Elementos filtrantes de repuesto para sistemas de lubricación centralizada Cenlub, skids de circulación de aceite y consolas de aceite lubricante API 614 empleados en turbinas de vapor, reductores y plantas pesadas.",
+        "features": [
+          "Cubre las cuatro posiciones de filtro del skid Cenlub: filtro de aspiración de bomba, filtro dúplex de línea de presión, filtro de retorno y respirador de tanque",
+          "Grados de filtración: 3, 5, 10, 20, 25, 40, 80, 100 µm — 10 µm absoluto (β10(c) ≥ 200, ISO 16889) es el grado estándar para consolas de lubricación API 614",
+          "Opciones de medio: microvidrio multicapa (no limpiable), malla de acero SS 304 / SS 316 (limpiable y reutilizable), papel de celulosa (servicio de lavado), poliéster no tejido"
+        ]
+      },
+      {
+        "name": "Elementos Filtrantes de Aceite Lubricante de Reemplazo de Turbina BHEL",
+        "purpose": "Elementos filtrantes de aceite lubricante ajustados a OEM para turbinas de vapor BHEL (clase 100 MW a 500 MW, incluidos conjuntos TG fabricados en BHEL Haridwar y BHEL Trichy).",
+        "features": [
+          "Ajustado a OEM para sistemas de aceite lubricante de turbina BHEL — conjuntos TG clase 100 MW, 200 MW, 210 MW, 250 MW, 500 MW",
+          "Compatible con carcasas de filtro de aceite lubricante dúplex BHEL — reemplazo directo sin modificación de carcasa",
+          "Finura de filtración: 10, 25, 40 µm (clasificado ISO 16889); más fino bajo pedido para protección de sistema servo"
+        ]
       }
     ],
     "keyFacts": [

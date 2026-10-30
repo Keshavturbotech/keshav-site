@@ -645,6 +645,60 @@
           "Tamanhos de estrutura de UTA padrão ou cortados sob medida conforme dimensões de painel",
           "Fornecimento de reposição conforme programa de manutenção"
         ]
+      },
+      {
+        "name": "Filtro Magnético / Conjunto Separador Magnético — Óleo Lubrificante e Hidráulico",
+        "purpose": "Conjuntos de filtro magnético em linha e off-line que utilizam barras magnéticas de terras raras (neodímio) ou ferrite de alta intensidade para remover continuamente partículas ferrosas de desgaste de circuitos de óleo lubrificante de turbina, fluido hidráulic",
+        "features": [
+          "Tipo de ímã: neodímio de terras raras (até 4× mais forte que cerâmica) — captura partículas ferrosas submicrônicas, incluindo poeira de aço e limalha de ferro abaixo de 1 µm",
+          "Tipos de carcaça: carcaça em linha de tubulação (flangeada ou roscada), inserto de barra magnética (para coador ou carcaça de filtro existente), conjunto de cânister de derivação",
+          "MOC: carcaça e luva da barra em SS 316 padrão — núcleo magnético totalmente encapsulado, sem contato de cerâmica com o fluido, sem risco de contaminação por degradação do ímã"
+        ]
+      },
+      {
+        "name": "Válvulas Direcionais de Controle (Todas as Principais Marcas)",
+        "purpose": "Válvulas direcionais de controle hidráulico industrial de todos os principais fabricantes — Bosch Rexroth, Parker, Yuken, Vickers, Atos e Duplomatic.",
+        "features": [
+          "Marcas disponíveis: Bosch Rexroth, Parker Hannifin, Yuken, Vickers (Eaton), Atos, Duplomatic, Wandfluh e equivalentes",
+          "Tipos de válvula: válvulas de carretel direcional 4/2, 4/3, 5/2 vias; válvulas de assento 2/2 vias",
+          "Opções de acionamento: acionada por solenoide (24V CC, 110V CA, 220V CA), alavanca manual, operada por piloto ou combinação"
+        ]
+      },
+      {
+        "name": "Junta de Expansão Angular Articulada/Cardan",
+        "purpose": "Junta de expansão angular restrita por pino (tipo articulada ou cardan) para movimento rotacional controlado em um ou dois planos enquanto resiste às cargas de empuxo por pressão.",
+        "features": [
+          "O design articulado controla a rotação em um plano com suporte de pino",
+          "O design cardan permite movimento angular multiplano com estabilidade de estrutura de anel",
+          "Tipicamente instalado em pares ou sistemas de múltiplas juntas para crescimento térmico controlado"
+        ]
+      },
+      {
+        "name": "Conjunto de Manga Filtrante e Gaiola de Suporte",
+        "purpose": "Conjunto completo de manga filtrante e gaiola de suporte para sistemas industriais de coleta de pó (filtro de mangas).",
+        "features": [
+          "Manga filtrante — opções de meio filtrante: poliéster, polipropileno, PTFE, PPS, fibra de vidro, aramida (Nomex) conforme temperatura e química do processo",
+          "Eficiência de filtração: ≥99,9% em partículas de 1–10 µm (dependente do meio)",
+          "Faixa de temperatura: até 150 °C (poliéster/polipropileno); até 260 °C (membrana de PTFE/PPS); até 300 °C+ (fibra de vidro, aramida)"
+        ]
+      },
+      {
+        "name": "Elementos filtrantes de reposição Cenlub",
+        "purpose": "Elementos filtrantes de reposição para sistemas de lubrificação centralizada Cenlub, skids de circulação de óleo e consoles de óleo lubrificante API 614 usados em turbinas a vapor, redutores e plantas pesadas.",
+        "features": [
+          "Cobre as quatro posições de filtro do skid Cenlub: filtro de sucção da bomba, filtro duplex de linha de pressão, filtro de retorno e respiro do tanque",
+          "Graus de filtração: 3, 5, 10, 20, 25, 40, 80, 100 µm — 10 µm absoluto (β10(c) ≥ 200, ISO 16889) é o grau padrão para consoles de lubrificação API 614",
+          "Opções de meio: microvidro multicamada (não lavável), tela SS 304 / SS 316 (lavável e reutilizável), papel celulose (serviço de flushing), poliéster não tecido"
+        ]
+      },
+      {
+        "name": "Elementos Filtrantes de Óleo Lubrificante de Reposição de Turbina BHEL",
+        "purpose": "Elementos filtrantes de óleo lubrificante compatíveis com OEM para turbinas a vapor BHEL (classe de 100 MW a 500 MW, incluindo turbogeradores fabricados em BHEL Haridwar e BHEL Trichy).",
+        "features": [
+          "Compatível com OEM para sistemas de óleo lubrificante de turbina BHEL — turbogeradores classe 100 MW, 200 MW, 210 MW, 250 MW, 500 MW",
+          "Compatível com carcaças duplex de filtro de óleo lubrificante BHEL — substituição direta sem modificação da carcaça",
+          "Precisão de filtração: 10, 25, 40 µm (classificado ISO 16889); mais fino sob encomenda para proteção de sistema servo"
+        ]
       }
     ],
     "keyFacts": [

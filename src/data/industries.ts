@@ -148,6 +148,8 @@ const RAW_INDUSTRIES: Omit<Industry, "slug">[] = [
       "Duplex basket strainers and filter elements supply",
       "Lube oil flushing for high-volume reservoirs",
       "Machine alignment for large frame turbines",
+      "Magnetic separators and directional control valves for steel mill hydraulics",
+      "Filter bags and cages for steel plant furnace fume extraction",
     ],
     turbines: "BHEL, Siemens, Man Turbo",
   },

@@ -645,6 +645,60 @@
           "Ukuran rangka AHU standar atau dipotong custom sesuai dimensi panel",
           "Pasokan pengganti sesuai jadwal servis"
         ]
+      },
+      {
+        "name": "Rakitan Filter Magnetik / Pemisah Magnetik — Oli Pelumas & Hidraulik",
+        "purpose": "Rakitan filter magnetik inline dan off-line menggunakan batang magnetik rare earth (neodymium) atau ferit berkekuatan tinggi untuk secara terus-menerus menghilangkan partikel keausan besi dari sirkuit oli pelumas turbin, fluida hidraulik, oli gear, pendingin, ",
+        "features": [
+          "Jenis magnet: Rare earth neodymium (hingga 4× lebih kuat dari keramik) — menangkap partikel besi sub-mikron termasuk debu baja dan serutan besi hingga di bawah 1 µm",
+          "Jenis rumah: Rumah pipa inline (berflensa atau berulir), insert batang magnetik (untuk rumah saringan atau filter yang ada), rakitan kanister bypass",
+          "MOC: Rumah SS 316 dan selongsong batang standar — inti magnetik sepenuhnya tertutup, tanpa kontak keramik-ke-fluida, tanpa risiko kontaminasi dari degradasi magnet"
+        ]
+      },
+      {
+        "name": "Katup Kontrol Arah (Semua Merek Utama)",
+        "purpose": "Katup kontrol arah hidraulik industri dari semua produsen utama — Bosch Rexroth, Parker, Yuken, Vickers, Atos, dan Duplomatic.",
+        "features": [
+          "Merek tersedia: Bosch Rexroth, Parker Hannifin, Yuken, Vickers (Eaton), Atos, Duplomatic, Wandfluh, dan setara",
+          "Jenis katup: katup spool arah 4/2-way, 4/3-way, 5/2-way; katup poppet 2/2-way",
+          "Opsi aktuasi: dioperasikan solenoid (24V DC, 110V AC, 220V AC), tuas manual, pilot-operated, atau kombinasi"
+        ]
+      },
+      {
+        "name": "Sambungan Ekspansi Angular Berengsel / Gimbal",
+        "purpose": "Sambungan ekspansi angular tertahan pin (tipe berengsel atau gimbal) untuk gerakan rotasi terkendali dalam satu atau dua bidang sambil menahan beban dorong tekanan.",
+        "features": [
+          "Desain berengsel mengontrol rotasi dalam satu bidang dengan dukungan pin",
+          "Desain gimbal memungkinkan gerakan angular multi-bidang dengan stabilitas rangka cincin",
+          "Biasanya dipasang berpasangan atau sistem multi-sambungan untuk pertumbuhan termal terkendali"
+        ]
+      },
+      {
+        "name": "Rakitan Kantong Filter & Cage Penyangga",
+        "purpose": "Rakitan kantong filter baghouse dan cage penyangga lengkap untuk sistem pengumpul debu industri.",
+        "features": [
+          "Kantong Filter — opsi media kain: poliester, polipropilena, PTFE, PPS, serat kaca, aramid (Nomex) sesuai suhu dan kimia proses",
+          "Efisiensi filtrasi: ≥99,9% pada ukuran partikel 1–10 µm (tergantung media)",
+          "Rentang suhu: hingga 150°C (poliester/polipropilena); hingga 260°C (membran PTFE/PPS); hingga 300°C+ (serat kaca, aramid)"
+        ]
+      },
+      {
+        "name": "Elemen Filter Pengganti Cenlub",
+        "purpose": "Elemen filter pengganti untuk sistem pelumasan terpusat Cenlub, skid sirkulasi oli, dan konsol oli pelumas API 614 yang digunakan pada turbin uap, gearbox, dan pabrik berat.",
+        "features": [
+          "Mencakup keempat posisi filter pada skid Cenlub: saringan isap pompa, filter dupleks jalur tekanan, filter jalur balik, dan breather tangki",
+          "Tingkat penyaringan: 3, 5, 10, 20, 25, 40, 80, 100 µm — 10 µm absolut (β10(c) ≥ 200, ISO 16889) adalah tingkat standar konsol pelumasan API 614",
+          "Pilihan media: microglass multilapis (tidak dapat dibersihkan), kawat jaring SS 304 / SS 316 (dapat dibersihkan dan dipakai ulang), kertas selulosa (tugas flushing), poliester non-woven"
+        ]
+      },
+      {
+        "name": "Elemen Filter Oli Pelumas Turbin Pengganti BHEL",
+        "purpose": "Elemen filter oli pelumas sesuai OEM untuk turbin uap BHEL (kelas 100 MW hingga 500 MW, termasuk unit TG yang diproduksi di BHEL Haridwar dan BHEL Trichy).",
+        "features": [
+          "Sesuai OEM untuk sistem oli pelumas turbin BHEL — unit TG kelas 100 MW, 200 MW, 210 MW, 250 MW, 500 MW",
+          "Kompatibel dengan rumah filter oli pelumas duplex BHEL — pengganti drop-in tanpa modifikasi rumah",
+          "Kehalusan filtrasi: 10, 25, 40 µm (rating ISO 16889); lebih halus atas permintaan untuk perlindungan sistem servo"
+        ]
       }
     ],
     "keyFacts": [
