@@ -11,6 +11,7 @@ import { SUPPORTED_CURRENCIES } from "../../data/currency";
 import { useCurrency } from "../../hooks/useCurrency";
 import { useURLFilters } from "../../hooks/useURLFilters.js";
 import RichProductCard from "./RichProductCard.jsx";
+import { track } from "../../lib/track";
 
 const PAGE_SIZE = 24;
 const VALID_SORTS = ["default", "az", "za", "price_asc", "price_desc"];
@@ -214,6 +215,16 @@ export default function ProductsGrid({ products: PRODUCTS, categories: PRODUCT_C
       list = [...list].sort((a, b) => (b.priceRange?.max || 0) - (a.priceRange?.max || 0));
     return list;
   }, [PRODUCTS, activeCategory, searchQuery, sortBy, pMinN, pMaxN, activeOEM]);
+
+  // Analytics: what people search for, and whether they found anything.
+  // Debounced so we log the finished search, not every keystroke.
+  useEffect(() => {
+    const term = searchQuery.trim();
+    if (term.length < 3) return undefined;
+    const t = setTimeout(() => track("search", { search_term: term.slice(0, 80), results_count: filtered.length }), 1500);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchQuery]);
 
   const counts = useMemo(
     () =>

@@ -21,6 +21,7 @@ import {
 import { CONTACT_INFO } from "../../data/site-config";
 import { formatPrice } from "../../data/currency";
 import { useCurrency } from "../../hooks/useCurrency";
+import { track } from "../../lib/track";
 import CurrencyDropdown from "./CurrencyDropdown.jsx";
 import { groupSpecsByTab, labelOfGroup, leadTimeForCategory } from "../../data/spec-groups";
 import { useFocusTrap } from "../../lib/useFocusTrap.js";
@@ -111,6 +112,16 @@ export default function ProductDetailInteractive({ product, imageMap = {}, local
   // Fall back to Key Features when a product has no spec data (empty tabs are hidden).
   const tab = tabState === "specs" && specGroupIds.length === 0 && product.features?.length ? "features" : tabState;
   const [specSubTab, setSpecSubTab] = useState(() => specGroupIds[0] ?? "general");
+  // Analytics: one view_item per product page view (needs consent; no-op otherwise).
+  // The consent banner can be accepted after load, so retry once on acceptance.
+  useEffect(() => {
+    const payload = { items: [{ item_id: String(product.id || product.slug || product.title), item_name: product.title, item_category: product.category }] };
+    track("view_item", payload);
+    const onConsent = () => track("view_item", payload);
+    window.addEventListener("ke:cookieConsentAccepted", onConsent, { once: true });
+    return () => window.removeEventListener("ke:cookieConsentAccepted", onConsent);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [product.id]);
   useEffect(() => {
     if (specGroupIds.length && !specGroupIds.includes(specSubTab)) setSpecSubTab(specGroupIds[0]);
   }, [specGroupIds, specSubTab]);

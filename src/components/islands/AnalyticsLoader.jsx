@@ -14,7 +14,33 @@ import { useEffect } from "react";
 
 const GA4_ID = import.meta.env.PUBLIC_GA4_ID ?? "";
 const CLARITY_ID = import.meta.env.PUBLIC_CLARITY_ID ?? "";
+const CF_BEACON_TOKEN = import.meta.env.PUBLIC_CF_BEACON_TOKEN ?? "";
 const COOKIE_CONSENT_KEY = "ke_cookie_consent";
+
+// ── Page context sent with every GA4 event ────────────────────────────────
+// page_type  -> content_group (built-in GA4 dimension): home, product, products,
+//               service, industry, blog, project, contact, downloads, other
+// site_language -> the language the visitor is browsing in (custom dimension)
+function getPageContext() {
+  const parts = window.location.pathname.split("/").filter(Boolean);
+  if (parts.length && /^[a-z]{2}(-[a-z]{2,4})?$/i.test(parts[0])) parts.shift(); // strip locale prefix
+  const first = (parts[0] || "").replace(/\.html$/, "");
+  const detail = parts.length > 1;
+  const map = {
+    "": "home",
+    products: detail ? "product" : "products",
+    services: detail ? "service" : "services",
+    industries: detail ? "industry" : "industries",
+    blog: detail ? "blog_post" : "blog",
+    projects: detail ? "project" : "projects",
+    contact: "contact",
+    downloads: "downloads",
+  };
+  return {
+    page_type: map[first] || "other",
+    site_language: document.documentElement.lang || "en",
+  };
+}
 
 function loadGA4() {
   if (!GA4_ID || document.getElementById("ga4-script")) return;
@@ -30,7 +56,7 @@ function loadGA4() {
     `window.dataLayer=window.dataLayer||[];` +
     `function gtag(){dataLayer.push(arguments);}` +
     `gtag('js',new Date());` +
-    `gtag('config','${GA4_ID}');`; // real page loads — GA4's own script handles page_view
+    `gtag('config','${GA4_ID}',${JSON.stringify({ content_group: getPageContext().page_type, site_language: getPageContext().site_language })});`;
   document.head.appendChild(s2);
 }
 
@@ -45,6 +71,62 @@ function loadClarity() {
     `y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);` +
     `})(window,document,"clarity","script","${CLARITY_ID}");`;
   document.head.appendChild(cs);
+  // Filter Clarity recordings by page type / language / lead
+  try {
+    const ctx = getPageContext();
+    window.clarity("set", "page_type", ctx.page_type);
+    window.clarity("set", "site_language", ctx.site_language);
+  } catch {
+    /* clarity not ready — harmless */
+  }
+}
+
+// Cloudflare Web Analytics: cookieless, so it needs no consent. Gives a
+// baseline visitor count even for people who decline analytics cookies.
+function loadCloudflareBeacon() {
+  if (!CF_BEACON_TOKEN || document.getElementById("cf-beacon")) return;
+  const b = document.createElement("script");
+  b.id = "cf-beacon";
+  b.defer = true;
+  b.src = "https://static.cloudflareinsights.com/beacon.min.js";
+  b.setAttribute("data-cf-beacon", JSON.stringify({ token: CF_BEACON_TOKEN }));
+  document.head.appendChild(b);
+}
+
+// ── Event layer ───────────────────────────────────────────────────────────
+let trackingOn = false;
+
+function keTrack(name, params = {}) {
+  if (!trackingOn) return;
+  const payload = { ...getPageContext(), ...params };
+  try {
+    if (typeof window.gtag === "function") window.gtag("event", name, payload);
+    if (typeof window.clarity === "function") window.clarity("event", name);
+  } catch {
+    /* never let analytics break the page */
+  }
+}
+
+// Where on the page a contact link was clicked (nav, footer, sticky bar, ...)
+function linkLocation(el) {
+  if (el.closest("footer")) return "footer";
+  if (el.closest("nav, header")) return "header";
+  if (el.closest("[data-sticky-cta], .sticky, .fixed")) return "floating_button";
+  if (el.closest("main")) return "page_body";
+  return "other";
+}
+
+function onDocumentClick(e) {
+  const a = e.target.closest && e.target.closest("a[href]");
+  if (!a) return;
+  const href = a.getAttribute("href") || "";
+  if (/^tel:/i.test(href)) {
+    keTrack("click_phone", { link_location: linkLocation(a) });
+  } else if (/^mailto:/i.test(href)) {
+    keTrack("click_email", { link_location: linkLocation(a) });
+  } else if (/(^|\/\/)(wa\.me|api\.whatsapp\.com|web\.whatsapp\.com)/i.test(href)) {
+    keTrack("click_whatsapp", { link_location: linkLocation(a) });
+  }
 }
 
 // BUGFIX: the original App.jsx deferred Clarity's injection with
@@ -63,6 +145,9 @@ function loadClarityDeferred() {
 }
 
 function loadAnalytics() {
+  trackingOn = true;
+  window.keTrack = keTrack;
+  document.addEventListener("click", onDocumentClick, { capture: true });
   loadGA4();
   loadClarityDeferred();
 }
@@ -73,6 +158,7 @@ function hasAcceptedConsent() {
 
 export default function AnalyticsLoader() {
   useEffect(() => {
+    loadCloudflareBeacon(); // cookieless — runs regardless of consent
     if (hasAcceptedConsent()) loadAnalytics();
     const onAccept = () => loadAnalytics();
     window.addEventListener("ke:cookieConsentAccepted", onAccept);

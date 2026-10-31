@@ -5,6 +5,7 @@
 // by default (it's the primary on-page conversion action).
 import { useCallback, useState } from "react";
 import { Mail, CheckCircle2, AlertTriangle } from "lucide-react";
+import { track } from "../../lib/track";
 import {
   checkFormRateLimit,
   sanitiseField,
@@ -114,6 +115,7 @@ export default function InlineRFQForm({ productTitle, contactHref = "/contact" }
       const fileInput = document.getElementById("rfq-files");
       if (fileInput?.files?.length > 0) fd.append("attachment", fileInput.files[0]);
       await postWeb3Forms(fd);
+      track("generate_lead", { form_name: "product_rfq", product_name: String(productTitle || "") });
       setStatus("success");
     } catch (err) {
       setErrMsg(err.message || "Something went wrong. Please try again.");

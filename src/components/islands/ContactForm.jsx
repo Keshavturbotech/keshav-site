@@ -8,6 +8,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { CheckCircle2, AlertTriangle, Mail, Shield, User, MessageCircle } from "lucide-react";
 import { CONTACT_INFO } from "../../data/site-config";
+import { track } from "../../lib/track";
 import { COUNTRY_CODES, DEFAULT_COUNTRY_DIAL } from "../../data/countryCodes";
 import {
   checkFormRateLimit,
@@ -218,6 +219,7 @@ export default function ContactForm({ content }) {
         if (waWindow) waWindow.location.href = waMsg(CONTACT_INFO.whatsapp, msg);
         else window.open(waMsg(CONTACT_INFO.whatsapp, msg), "_blank", "noopener");
       }
+      track("generate_lead", { form_name: "contact_rfq", inquiry_type: String(iType || ""), via_whatsapp: Boolean(openWhatsApp) });
       setStatus("success");
     } catch (err) {
       waWindow?.close();

@@ -22,6 +22,7 @@ const INTEREST_OPTIONS = [
   "Something else",
 ];
 import { useFocusTrap } from "../../lib/useFocusTrap";
+import { track } from "../../lib/track";
 
 const WEB3FORMS_KEY = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? "";
 const DL_SESSION_KEY = "ke_dl_gated";
@@ -173,6 +174,7 @@ function GateModal({ item, onClose, onSuccess }) {
       if (campaign) fd.append("Campaign", campaign.slice(0, 200));
       await postWeb3Forms(fd);
       markSessionGated(item.id);
+      track("generate_lead", { form_name: "download_gate", file_name: String(item.title || "") });
       setStatus("success");
       onSuccess(item, fileWindow);
     } catch (err) {
