@@ -12,97 +12,7 @@
       "Buhar Türbini",
       "Bakım"
     ],
-    "coverImage": "blog-turbine-overhaul.webp",
-    "content": [
-      {
-        "type": "h2",
-        "text": "Yapılandırılmış Kontrol Listesi Neden Önemli"
-      },
-      {
-        "type": "p",
-        "text": "Planlanmamış türbin duruşları Hindistan'ın enerji ve şeker tesislerine saatte lakh'larca rupeye mal olur. Yapılandırılmış bir revizyon kontrol listesi, planlı bakım pencerelerinde hiçbir şeyin gözden kaçmamasını sağlar — yeniden devreye almadan sonra erken arıza riskini azaltır ve maliyetli tekrarlanan duruşları önler."
-      },
-      {
-        "type": "h2",
-        "text": "1. Duruş Öncesi Planlama (4–6 Hafta Önceden)"
-      },
-      {
-        "type": "p",
-        "text": "Trendeki tüm döner ekipmanı kapsayan detaylı bir iş kapsamıyla başlayın. Tüm stoklu yedek parçaları kontrol edin ve bir eksiklik raporu oluşturun. Kritik kalemleri — yataklar, contalar, labirent dolgular, karbon halkalar — yeterli teslim süresiyle sipariş edin. Özel ekipmanları düzenleyin: hizalama lazerleri, titreşim analizörleri, komparatörler ve feeler gauge'lar."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Tüm türbin kademeleri için OEM boşluk verilerini onaylayın",
-          "Yağlama yağı yıkama ekipmanını düzenleyin (mobil santrifüj filtre ünitesi)",
-          "Büyük revizyonlar için gerekirse OEM kökenli mühendisleri ayırtın",
-          "Durum izleme temel okumalarını hazırlayın (titreşim, sıcaklık, basınç)"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "2. Duruş ve İzolasyon"
-      },
-      {
-        "type": "p",
-        "text": "OEM tarafından belirtilen duruş prosedürünü izleyin. Herhangi bir flanş açmadan önce yeterli soğuma süresi tanıyın. Buhar, yağlama yağı, yoğuşma ve kontrol havası dahil tüm enerji kaynaklarını kilitleyin/etiketleyin. Sökümden önce yağlama yağı sistemini tamamen boşaltın."
-      },
-      {
-        "type": "h2",
-        "text": "3. Söküm ve İnceleme"
-      },
-      {
-        "type": "p",
-        "text": "Bileşenleri çıkarmadan önce tüm boşlukları, aralıkları ve geçmeleri kaydedin — bunlar OEM spesifikasyonlarıyla karşılaştırma ve aşınma eğilimlerini tespit etmek için gereklidir. Her aşamayı fotoğraflayın. Mil, itme bileziği ve kaplin yüzeylerinde rotor salgısını ölçün."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Yatak boşlukları (radyal ve eksenel)",
-          "Labirent conta çap boşluğu",
-          "Kaplin hizalama ofseti ve açısallığı",
-          "Karbon halka yüz durumu ve yay gerginliği",
-          "Nozul ve diyafram durumu ile boğaz boyutları",
-          "ESV oturma yeri ve disk durumu"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "4. Atölyede Onarım ve Değişim"
-      },
-      {
-        "type": "p",
-        "text": "Salgı veya titreşim okumaları tolerans dışındaysa rotoru mil taşlama ve dinamik balans için gönderin. Durum raporuna göre karbon ve grafit gland halkalarını, labirent dolguları ve babbitt yatakları değiştirin. Tüm rotor balansı ISO 21940-11 (formerly ISO 1940) standartlarına göre yapılmalıdır."
-      },
-      {
-        "type": "h2",
-        "text": "5. Yeniden Montaj ve Hizalama"
-      },
-      {
-        "type": "p",
-        "text": "Yeni contalarla ve OEM spesifikasyonlarına göre bağlantı torkuyla ters sırada yeniden monte edin. Lazer hizalama ekipmanı kullanarak son rotor hizalamasını gerçekleştirin — türbinden dişli kutusuna ve dişli kutusundan jeneratöre. Tüm montaj sonrası boşlukları kaydedin ve OEM toleransları içinde olduğunu onaylayın."
-      },
-      {
-        "type": "h2",
-        "text": "6. Yağlama Yağı Yıkama"
-      },
-      {
-        "type": "p",
-        "text": "Devreye almadan önce, yağlama yağı sistemini ISO 4406 16/14/11 veya daha iyi temizlik sınıfını hedefleyen mobil santrifüj filtre sistemiyle yıkayın. Yıkama öncesi ve sonrası yağ numunesi alın ve raporları saklayın. Yağ yıkamasını tamamlamadan asla türbini devreye almayın — kontamine yağdan kaynaklanan yatak arızası, revizyon sonrası arızaların önemli bir bölümünü oluşturur."
-      },
-      {
-        "type": "h2",
-        "text": "7. Devreye Alma ve İlk Çalıştırma"
-      },
-      {
-        "type": "p",
-        "text": "OEM devreye alma öncesi prosedürünü adım adım izleyin. İlk hız artırma sırasında titreşimi, yatak sıcaklığını ve yağlama yağı basıncını sürekli izleyin. ESV ve gövernör çalışmasını onaylayın. Titreşim seviyeleri artarsa hizalamayı ince ayarlayın. Tesis bakım kayıtları için tüm devreye alma okumalarını belgeleyin."
-      },
-      {
-        "type": "cta",
-        "text": "Bir sonraki planlı duruşunuz için uzman revizyon mühendislerine mi ihtiyacınız var? OEM kökenli ekibimiz Triveni, Siemens, BHEL, Belliss & Morcom ve daha fazlasını kapsıyor."
-      }
-    ]
+    "coverImage": "blog-turbine-overhaul.webp"
   },
   "post_2": {
     "id": "post_2",
@@ -271,7 +181,6 @@
     "id": "post_4",
     "slug": "belliss-morcom-turbine-common-faults-india",
     "title": "Belliss & Morcom Türbin Yaygın Arızaları — Hint Tesisleri için Saha Kılavuzu",
-    "excerpt": "Belliss & Morcom buhar türbinleri, Hint şeker fabrikaları ve kojenerasyon tesislerinde yaygın olarak kullanılmaktadır. OEM kökenli mühendislerimizin karşılaştığı en yaygın arızalar ve bunları nasıl teşhis edip düzelteceğiniz burada.",
     "date": "2026-03-18",
     "author": "Keshav Enterprises Mühendislik Ekibi",
     "readTime": "8 dakika okuma",

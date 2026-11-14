@@ -20,8 +20,6 @@
         "label": "Sahada Destek Mevcut"
       }
     ],
-    "whyUs": "Montaj sırasında yanlış bir boşluk seti, ilk buhardan itibaren saatler içinde yatağı mahvedebilir. OEM kökenli saha mühendislerimiz, montajını yaptığınız aynı makine türlerini kendileri devreye almıştır — OEM spesifikasyonlarının kağıt üzerinde değil, pratikte ne anlama geldiğini tam olarak bilirler.",
-    "overview": "Türbin montajı ve devreye alma, herhangi bir enerji santrali veya endüstriyel proje için en kritik aşamadır. Montaj sırasındaki hatalar — yanlış hizalama, hatalı boşluklar, yanlış tork — işletmenin ilk yılında maliyetli arızalara dönüşür. Keshav Enterprises, enerji santrallerinde, şeker fabrikalarında, kağıt fabrikalarında ve proses endüstrilerinde Triveni, Siemens, BHEL, Belliss ve Maxwatt türbinlerini devreye almış OEM kökenli saha mühendisleri konuşlandırır. Her tutma noktası tanıklanır, her boşluk kaydedilir ve her güvenlik sistemi buhar verilmeden önce test edilir. Dokümantasyon paketimiz müşteri, sigorta ve OEM devir teslim gereksinimlerini karşılar.",
     "procedures": [
       {
         "step": "01",
@@ -139,26 +137,7 @@
   "srv_2": {
     "tagline": "Anahtar Teslim Duruş Planlamasından Sıfır Hatalı Yeniden Başlatmaya",
     "accentColor": "#0891b2",
-    "keyStats": [
-      {
-        "value": "8+",
-        "label": "Revize Edilen OEM Markası"
-      },
-      {
-        "value": "{years}+",
-        "label": "Yıllık Saha Deneyimi"
-      },
-      {
-        "value": "0.001mm",
-        "label": "Boşluk Çözünürlüğü"
-      },
-      {
-        "value": "24×7",
-        "label": "Acil Müdahale"
-      }
-    ],
     "whyUs": "Kötü yapılmış bir revizyon, hiç revizyon yapılmamasından daha kötüdür — yeni boşluk hataları, kontaminasyon ve yeniden montaj kusurları getirir. Mühendislerimiz OEM tarafından eğitildi. Toleransların işletme sıcaklığı ve hızında gerçekte ne anlama geldiğini bilirler, sadece kılavuzda yazanı değil.",
-    "overview": "Türbin revizyonu sıradan bir bakım faaliyeti değildir — hassas bir mühendislik müdahalesidir. Keshav Enterprises, orijinal üreticiyle aynı disiplin ve dokümantasyon standardıyla anahtar teslim revizyonlar gerçekleştirmek için Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK ve ABB'den OEM kökenli mühendisler konuşlandırır. Her revizyon, duruştan 4-6 hafta önce kapsam sonlandırması, yedek parça ön incelemesi ve işgücü seferberliği planlamasıyla başlar. Her bileşen sökümden önce, sökme sırasında ve yeniden montajdan sonra ölçülür. Yazılı durum raporları, boşluk kayıt defterleri ve fotoğraflı kayıtlar her revizyon için oluşturulur — bir sonraki duruş için bir temel oluşturur.",
     "procedures": [
       {
         "step": "01",
@@ -843,7 +822,6 @@
       }
     ],
     "whyUs": "Kök nedeni bulunmadan yanlış teşhis edilip onarılan bir arıza tekrar başarısız olur — genellikle ilkinden daha hızlı. Tahmin etmiyoruz. Ölçüyoruz, spektrumları analiz ediyoruz, sadece verinin gerektirdiğini söktük, kök nedeni fiziksel olarak doğruluyoruz ve sorunu bulan aynı ekiple onarıyoruz.",
-    "overview": "Planlanmamış türbin tripleri ve açıklanamayan performans bozulmaları, endüstriyel tesislere her yıl kayıp üretimde milyonlarca maliyete mal olur. Keshav Enterprises, yüksek titreşim ve yatak arızasından gövernör kararsızlığına, yağ kontaminasyonuna ve buhar kaçaklarına kadar herhangi bir buhar türbini arızasının kesin kök nedenini tanımlamak, belgelemek ve düzeltmek için tam teşhis enstrümantasyonuyla OEM kökenli arıza giderme mühendisleri konuşlandırır. Hindistan'ın proses ve enerji endüstrisi spektrumu genelinde 5 kW'dan 60 MW'a kadar tüm türbin markalarını kapsıyoruz. Metodolojimiz sistematiktir: önce çevrimiçi ölçüm, veri tarafından hedeflenen fiziksel inceleme, yazılı olarak onaylanan kök neden ve arızayı teşhis eden aynı ekip tarafından uygulanan düzeltici eylem.",
     "procedures": [
       {
         "step": "01",

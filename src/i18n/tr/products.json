@@ -5792,7 +5792,6 @@
     "id": "prod_ee1",
     "sku": "KTB-EE-001",
     "category": "Electronic Equipment",
-    "title": "Titreşim İzleme Probları (Shinkawa Uyumlu)",
     "images": [
       "vibration-probe-shinkawa-1.webp",
       "vibration-probe-shinkawa-2.webp",
@@ -5819,8 +5818,31 @@
       "color": "amber",
       "leadTime": "1–4 weeks"
     },
-    "desc": "Buhar türbinleri, dişli kutuları ve alternatörlerde titreşim ve eksenel itme izleme için orijinal Shinkawa FK / VK girdap akımlı yakınlık probları, uzatma kabloları ve sürücüler. Shamli, UP'de stokta.",
     "usage": "Buhar türbinleri, turbo alternatörler, dişli kutuları, kompresörler, kazan besleme pompaları ve büyük fanlarda şaft radyal titreşiminin, eksenel (itme) konumunun, eksantrikliğin, dönüş hızının ve faz referansının (Keyphasor) temassız ölçümü. Shinkawa VM-5 / VM-7 / VM-25 monitörlerini, diğer API 670 tarzı izleme raflarını ve DCS veya PLC girişlerini besler.",
+    "specs": {
+      "Series": "FK (güncel) ve VK (eski). 2 telli WK/WKN vericiler ve CV/CA gövde sensörleri ayrı ilanlardadır",
+      "Measurement Principle": "Temassız girdap akımlı yer değiştirme ölçümü",
+      "System": "FL sensörü + FW uzatma kablosu + FK sürücü (uyumlu takım)",
+      "Sensor (FL-202F)": "FL-202F05: 5 mm uç, 2.7 mm kablo; FL-202F08: 8 mm uç, 3.6 mm kablo; FL-202F08R: 8 mm ters montaj. Stiller L / A / T (zırhsız / zırhlı / florlu reçineli zırhlı)",
+      "Extension Cable (FW-202F)": "Stiller L / A / T; yaklaşık 4.5 m (5 m sistem) veya 8.5 m (9 m sistem); -40 ile +177 °C",
+      "Connector": "Çap yaklaşık 7.1 mm; yağdan uzak tutun; büzüşme makarası veya florlu reçine bantla yalıtın",
+      "System Cable Length": "5 m veya 9 m (5 m sensörler yalnızca 5 m sistemlerde çalışır)",
+      "Driver (FK-202F)": "-24 V DC +/-10%, en fazla 15 mA; çıkış empedansı 50 ohm; sensör arızasında yaklaşık -0.6 V; yaklaşık 200 g",
+      "Driver Mounting Options": "DIN ray 35 mm; vidalı montaj 50.8 x 50.8 mm; vidalı montaj 92 x 31 mm (VK değişimi); çok adımlı",
+      "Driver Terminals": "M4 vidalı klemens veya yaylı terminal",
+      "Reference Model (FK-202F)": "Sensör ucundan 0.25 ile 2.25 mm aralık, ölçek faktörü 7.87 V/mm, DC ile 10 kHz (-3 dB)",
+      "Temperature": "Sensör ve uzatma kablosu -40 ile +177 °C; sürücü -40 ile +80 °C",
+      "Calibration Target": "JIS SCM440 (4140 tipi) yassı çelik; diğer malzemeler talep üzerine",
+      "Hazardous Area Options": "Kendinden emniyetli FK varyantları: DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (model koduna göre)",
+      "2-Wire Transmitter Option": "Shinkawa WK / WKN 4-20 mA vericiler, ayrı ilana bakın",
+      "Typical Steam Turbine Use": "Her yatakta XY radyal problar, itme bileziğinde 2 ile 3 eksenel prob, 1 Keyphasor probu, ön yatakta eksantriklik probu",
+      "Typical Gearbox Use": "Yüksek hızlı pinyon ve düşük hızlı dişli yataklarında XY radyal problar, pinyon itmesi için eksenel prob",
+      "Typical Alternator Use": "Tahrik ve tahrik olmayan taraf yataklarında XY radyal problar, hız ve faz referansı",
+      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, -24 V DC yakınlık sürücüsü kabul eden diğer sistemler, sinyal koşullandırıcı ile DCS/PLC",
+      "Brand": "Shinkawa Electric (orijinal)"
+    },
+    "title": "Titreşim İzleme Probları (Shinkawa Uyumlu)",
+    "desc": "Buhar türbinleri, dişli kutuları ve alternatörlerde titreşim ve eksenel itme izleme için orijinal Shinkawa FK / VK girdap akımlı yakınlık probları, uzatma kabloları ve sürücüler. Shamli, UP'de stokta.",
     "features": [
       "Üç uyumlu parçadan oluşan orijinal Shinkawa dönüştürücü sistemi: FL sensörü (prob), FW uzatma kablosu ve FK sürücü. Üçü tek bir döngü olarak birlikte kalibre edilir; bir parça değiştirilirse sensör, kablo ve sürücü takım olarak değiştirilmelidir",
       "FK serisi (güncel ürün grubu) ve VK serisi (eski tesisler) mevcuttur. FK sürücüler, VK sürücülerin doğrudan yerine geçmek için montaj plakasıyla gelir; diferansiyel genleşme ölçümü hâlâ VK serisini kullanır",
@@ -5841,37 +5863,28 @@
       "Yenileme desteği: eski etiketi (VK-202A1, VK-202A2, FK-202F vb.) ve sensör uzunluğunu gönderin, doğru yedeği eşleştirelim",
       "Makine koruma için API 670'e göre tasarlanmış sistem; FK serisi RoHS uyumludur",
       "Marka ve model adları ilgili sahiplerinin ticari markalarıdır ve yalnızca tanımlama amacıyla kullanılmıştır. Keshav Enterprises bağımsız bir tedarikçidir."
-    ],
-    "specs": {
-      "Brand": "Shinkawa Electric (orijinal)",
-      "Series": "FK (güncel) ve VK (eski). 2 telli WK/WKN vericiler ve CV/CA gövde sensörleri ayrı ilanlardadır",
-      "Measurement Principle": "Temassız girdap akımlı yer değiştirme ölçümü",
-      "System": "FL sensörü + FW uzatma kablosu + FK sürücü (uyumlu takım)",
-      "Sensor (FL-202F)": "FL-202F05: 5 mm uç, 2.7 mm kablo; FL-202F08: 8 mm uç, 3.6 mm kablo; FL-202F08R: 8 mm ters montaj. Stiller L / A / T (zırhsız / zırhlı / florlu reçineli zırhlı)",
-      "Extension Cable (FW-202F)": "Stiller L / A / T; yaklaşık 4.5 m (5 m sistem) veya 8.5 m (9 m sistem); -40 ile +177 °C",
-      "Connector": "Çap yaklaşık 7.1 mm; yağdan uzak tutun; büzüşme makarası veya florlu reçine bantla yalıtın",
-      "System Cable Length": "5 m veya 9 m (5 m sensörler yalnızca 5 m sistemlerde çalışır)",
-      "Driver (FK-202F)": "-24 V DC +/-10%, en fazla 15 mA; çıkış empedansı 50 ohm; sensör arızasında yaklaşık -0.6 V; yaklaşık 200 g",
-      "Driver Mounting Options": "DIN ray 35 mm; vidalı montaj 50.8 x 50.8 mm; vidalı montaj 92 x 31 mm (VK değişimi); çok adımlı",
-      "Driver Terminals": "M4 vidalı klemens veya yaylı terminal",
-      "Reference Model (FK-202F)": "Sensör ucundan 0.25 ile 2.25 mm aralık, ölçek faktörü 7.87 V/mm, DC ile 10 kHz (-3 dB)",
-      "Temperature": "Sensör ve uzatma kablosu -40 ile +177 °C; sürücü -40 ile +80 °C",
-      "Calibration Target": "JIS SCM440 (4140 tipi) yassı çelik; diğer malzemeler talep üzerine",
-      "Hazardous Area Options": "Kendinden emniyetli FK varyantları: DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (model koduna göre)",
-      "2-Wire Transmitter Option": "Shinkawa WK / WKN 4-20 mA vericiler, ayrı ilana bakın",
-      "Typical Steam Turbine Use": "Her yatakta XY radyal problar, itme bileziğinde 2 ile 3 eksenel prob, 1 Keyphasor probu, ön yatakta eksantriklik probu",
-      "Typical Gearbox Use": "Yüksek hızlı pinyon ve düşük hızlı dişli yataklarında XY radyal problar, pinyon itmesi için eksenel prob",
-      "Typical Alternator Use": "Tahrik ve tahrik olmayan taraf yataklarında XY radyal problar, hız ve faz referansı",
-      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, -24 V DC yakınlık sürücüsü kabul eden diğer sistemler, sinyal koşullandırıcı ile DCS/PLC"
-    }
+    ]
   },
   "prod_ee7": {
     "id": "prod_ee7",
     "sku": "KTB-EE-007",
     "category": "Electronic Equipment",
     "title": "Bently Nevada 3300 XL Yakınlık Probu Sistemleri",
-    "desc": "Türbin, dişli kutusu ve alternatörlerde titreşim ve eksenel itme izleme için orijinal Bently Nevada 3300 XL yakınlık probları, 330130 uzatma kabloları ve Proximitor sensörleri. Parça numarasına göre teklif.",
     "usage": "Bently Nevada 3500 veya 3300 izleme sistemli turbo makinelerde radyal titreşim, eksenel konum, eksantriklik, diferansiyel genleşme ile hız/faz referansı. 5 mm ve 8 mm problar olağan kaymalı yatak ve itme ölçümlerini kapsar; daha büyük 11, 16, 25 ve 50 mm sistemler uzun menzilli ve genleşme ölçümlerini kapsar.",
+    "specs": {
+      "System Components": "3300 XL prob + 330130 uzatma kablosu + 330180 Proximitor sensörü",
+      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (3300 XL serisi)",
+      "8 mm Linear Range / Scale Factor": "0.25 ile 2.3 mm; 7.87 V/mm (200 mV/mil) +/-%5",
+      "8 mm Probe Temperature": "-51 ile +177 °C",
+      "50 mm System Range": "Diferansiyel genleşme için yaklaşık 27.9 mm (1,100 mil)",
+      "Standard": "Standart 5 m 8 mm sistem için API 670 (4. baskı)",
+      "Compatible Monitors": "Bently Nevada 3500 ve 3300 serileri",
+      "Typical Steam Turbine Use": "Her yatakta XY radyal problar, itme konumu probları, Keyphasor, 25 mm veya 50 mm problarla diferansiyel genleşme",
+      "Typical Gearbox Use": "Pinyon ve dişli yataklarında radyal problar, pinyon itmesi ve dişli kavraması için eksenel prob",
+      "Typical Alternator Use": "Her iki yatakta XY radyal problar, Keyphasor/hız referansı",
+      "Brand": "Bently Nevada (Baker Hughes), orijinal"
+    },
+    "desc": "Türbin, dişli kutusu ve alternatörlerde titreşim ve eksenel itme izleme için orijinal Bently Nevada 3300 XL yakınlık probları, 330130 uzatma kabloları ve Proximitor sensörleri. Parça numarasına göre teklif.",
     "features": [
       "Orijinal Bently Nevada 3300 XL sistemi: prob, 330130 uzatma kablosu ve 330180 Proximitor sensörü; bileşenler tam değiştirilebilir olduğundan tezgâhta eşleştirme gerekmez",
       "3300 XL 8 mm: 0.25 ile 2.3 mm (10 ile 90 mil) doğrusal aralık, ölçek faktörü 7.87 V/mm (200 mV/mil) +/-%5, önerilen aralık yaklaşık -9 V DC'de 1.27 mm, prob -51 ile +177 °C",
@@ -5882,28 +5895,21 @@
       "Buhar türbinleri için uzun menzilli seçenekler: diferansiyel genleşme için 3300 XL 25 mm ve 50 mm sistemler; 50 mm sistemin algılama aralığı yaklaşık 27.9 mm (1,100 mil)",
       "Tam parça numarasıyla teklif isteyin (örneğin 330103-xx-xx-xx-xx-xx ile 330130-xxx-xx-xx ve 330180-xx-xx) veya eski etiketi gönderin",
       "Marka ve model adları ilgili sahiplerinin ticari markalarıdır ve yalnızca tanımlama amacıyla kullanılmıştır. Keshav Enterprises bağımsız bir tedarikçidir."
-    ],
-    "specs": {
-      "Brand": "Bently Nevada (Baker Hughes), orijinal",
-      "System Components": "3300 XL prob + 330130 uzatma kablosu + 330180 Proximitor sensörü",
-      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (3300 XL serisi)",
-      "8 mm Linear Range / Scale Factor": "0.25 ile 2.3 mm; 7.87 V/mm (200 mV/mil) +/-%5",
-      "8 mm Probe Temperature": "-51 ile +177 °C",
-      "50 mm System Range": "Diferansiyel genleşme için yaklaşık 27.9 mm (1,100 mil)",
-      "Standard": "Standart 5 m 8 mm sistem için API 670 (4. baskı)",
-      "Compatible Monitors": "Bently Nevada 3500 ve 3300 serileri",
-      "Typical Steam Turbine Use": "Her yatakta XY radyal problar, itme konumu probları, Keyphasor, 25 mm veya 50 mm problarla diferansiyel genleşme",
-      "Typical Gearbox Use": "Pinyon ve dişli yataklarında radyal problar, pinyon itmesi ve dişli kavraması için eksenel prob",
-      "Typical Alternator Use": "Her iki yatakta XY radyal problar, Keyphasor/hız referansı"
-    }
+    ]
   },
   "prod_ee8": {
     "id": "prod_ee8",
     "sku": "KTB-EE-008",
     "category": "Electronic Equipment",
     "title": "EPRO PR6423 / PR6424 Girdap Akımlı Sensörler ve CON011",
-    "desc": "Türbin, dişli kutusu ve jeneratörlerde şaft titreşimi ve konum ölçümü için orijinal Emerson EPRO PR6422 ile PR6426 girdap akımlı sensörler ve CON011 sinyal dönüştürücüler.",
     "usage": "Buhar, gaz ve hidro türbinler, kompresörler, dişli kutuları, pompalar ve fanlarda Emerson / EPRO MMS monitörleri veya dönüştürücü çıkışını kabul eden herhangi bir sistemle şaftın radyal ve eksenel yer değiştirmesi, konumu, eksantrikliği ve hızı/kamasının ölçümü.",
+    "specs": {
+      "Converter": "CON011 girdap akımlı sinyal dönüştürücü (standart ve genişletilmiş aralık)",
+      "Measures": "Şaftın radyal ve eksenel yer değiştirmesi, konum, eksantriklik, hız/kama",
+      "Typical Machines": "Buhar, gaz ve hidro türbinler, kompresörler, dişli kutuları, pompalar, fanlar",
+      "Brand": "Emerson (EPRO), orijinal"
+    },
+    "desc": "Türbin, dişli kutusu ve jeneratörlerde şaft titreşimi ve konum ölçümü için orijinal Emerson EPRO PR6422 ile PR6426 girdap akımlı sensörler ve CON011 sinyal dönüştürücüler.",
     "features": [
       "Orijinal Emerson EPRO sensörleri: PR6422, PR6423 (8 mm, M10x1 versiyonları), PR6424 (16 mm), PR6425 (16 mm yüksek sıcaklık), PR6426 (32 mm)",
       "CON011 girdap akımlı sinyal dönüştürücü: 0 ile 20 kHz (-3 dB), yükselme süresi 15 mikrosaniyeden az, -30 ile +100 °C, besleme -23 ile -32 V DC, PR6422 ile PR6426 sensörlerini kabul eder",
@@ -5913,21 +5919,24 @@
       "Daha geniş ölçüm aralıkları için genişletilmiş aralıklı CON011 varyantları mevcuttur (örneğin 3, 4, 6, 8, 10 mm); PR6425 genişletilmiş aralıklı dönüştürücü gerektirir",
       "Sensör ve dönüştürücü uyumlu bir sistemdir: sensör, kablo uzunluğu ve dönüştürücü modeli birbiriyle eşleşmelidir. Etiketi veya eski parça numarasını gönderin, eşleşmeyi teyit edelim",
       "Marka ve model adları ilgili sahiplerinin ticari markalarıdır ve yalnızca tanımlama amacıyla kullanılmıştır. Keshav Enterprises bağımsız bir tedarikçidir."
-    ],
-    "specs": {
-      "Brand": "Emerson (EPRO), orijinal",
-      "Converter": "CON011 girdap akımlı sinyal dönüştürücü (standart ve genişletilmiş aralık)",
-      "Measures": "Şaftın radyal ve eksenel yer değiştirmesi, konum, eksantriklik, hız/kama",
-      "Typical Machines": "Buhar, gaz ve hidro türbinler, kompresörler, dişli kutuları, pompalar, fanlar"
-    }
+    ]
   },
   "prod_ee9": {
     "id": "prod_ee9",
     "sku": "KTB-EE-009",
     "category": "Electronic Equipment",
     "title": "Vibro-Meter TQ402 / TQ442 Yakınlık Probları ve IQS450",
-    "desc": "Türbin şaft titreşimi ve konum izleme için orijinal Meggitt vibro-meter TQ4xx yakınlık probları, EA40x kabloları ve IQS450 sinyal koşullandırıcılar.",
     "usage": "vibro-meter izleme sistemli buhar, gaz ve hidrolik türbinlerde ve diğer kritik makinelerde temassız şaft titreşimi ve eksenel konum. Kısa devre korumalı gerilim veya akım çıkışı hem raf monitörleri hem de doğrudan DCS bağlantısı için uygundur.",
+    "specs": {
+      "Extension Cables": "EA401, EA402, EA403",
+      "TQ442 System Range": "2 mm veya 4 mm",
+      "Frequency Response": "DC ile 20 kHz (-3 dB)",
+      "Temperature": "-40 ile +180 °C (TQ442)",
+      "System Lengths": "1 m, 5 m, 10 m (modele göre değişir)",
+      "Output": "Gerilim veya akım (2 telli), kısa devre korumalı",
+      "Brand": "Meggitt vibro-meter, orijinal"
+    },
+    "desc": "Türbin şaft titreşimi ve konum izleme için orijinal Meggitt vibro-meter TQ4xx yakınlık probları, EA40x kabloları ve IQS450 sinyal koşullandırıcılar.",
     "features": [
       "Orijinal vibro-meter sistemi: TQ4xx yakınlık dönüştürücüsü + EA4xx uzatma kablosu + IQS450 (veya IQS900) sinyal koşullandırıcı birlikte kalibre edilmiş bir ölçüm zinciri oluşturur",
       "TQ401 / TQ402 / TQ403 / TQ412 / TQ422 / TQ423 / TQ432 / TQ442 dönüştürücü aileleri mevcuttur",
@@ -5935,23 +5944,13 @@
       "Kısa devre korumalı gerilim veya 2 telli akım çıkışı; patlayıcı ortam potansiyeli olan alanlar için sertifikalı versiyonlar",
       "Mevcut vibro-meter zincirleri için yedek veya yedek parça: dönüştürücü, kablo ve koşullandırıcı model numaralarını gönderin; elektriksel uzunluklar eşleşmelidir",
       "Marka ve model adları ilgili sahiplerinin ticari markalarıdır ve yalnızca tanımlama amacıyla kullanılmıştır. Keshav Enterprises bağımsız bir tedarikçidir."
-    ],
-    "specs": {
-      "Brand": "Meggitt vibro-meter, orijinal",
-      "Extension Cables": "EA401, EA402, EA403",
-      "TQ442 System Range": "2 mm veya 4 mm",
-      "Frequency Response": "DC ile 20 kHz (-3 dB)",
-      "Temperature": "-40 ile +180 °C (TQ442)",
-      "System Lengths": "1 m, 5 m, 10 m (modele göre değişir)",
-      "Output": "Gerilim veya akım (2 telli), kısa devre korumalı"
-    }
+    ]
   },
   "prod_ee10": {
     "id": "prod_ee10",
     "sku": "KTB-EE-010",
     "category": "Electronic Equipment",
     "title": "2 Telli 4-20 mA Titreşim Vericileri (Shinkawa WK/WKN)",
-    "desc": "Buhar türbinleri, alternatörler, dişli kutuları, pompalar ve kompresörler için orijinal Shinkawa WK / WKN 2 telli 4-20 mA titreşim ve itme vericileri. Doğrudan DCS veya PLC bağlantısı, monitör rafı gerekmez.",
     "usage": "Tam raf monitörünün gerekçelendirilemediği küçük ve orta ölçekli makinelerde sürekli şaft titreşimi veya itme konumu izleme: yardımcı buhar türbinleri, kazan besleme pompaları, dişli kutuları, kompresörler, fanlar ve alternatörler. 4-20 mA döngü sinyali doğrudan DCS, PLC veya göstergeye gider.",
     "features": [
       "Dahili titreşim veya itme dönüşümlü girdap akımlı dönüştürücü: ayrı titreşim monitörü veya dönüştürücü gerektirmeyen 4-20 mA çıkış",
@@ -5967,7 +5966,6 @@
       "Marka ve model adları ilgili sahiplerinin ticari markalarıdır ve yalnızca tanımlama amacıyla kullanılmıştır. Keshav Enterprises bağımsız bir tedarikçidir."
     ],
     "specs": {
-      "Brand": "Shinkawa Electric, orijinal",
       "Models": "WK-142K, WK-142T, WKN-142K, WKN-142T (1, 2 ve 5 sistem varyantları)",
       "Output": "4-20 mA, 2 telli akım döngüsü",
       "Vibration Output Ranges": "0 ile 100, 125, 200, 250, 400 mikron tepeden tepeye (model koduna göre)",
@@ -5981,15 +5979,16 @@
       "Transmitter Size": "Yaklaşık 100 x 74 x 50 mm; DIN klipsleri isteğe bağlı",
       "Hazardous Area": "Tutuşturmayan seçenek (CSA Class I Div 2, ATEX Ex nA)",
       "Calibration Target": "JIS SCM440 çelik (AISI 4140 eşdeğeri)",
-      "Typical Machines": "Yardımcı buhar türbinleri, BFP, dişli kutuları, kompresörler, alternatörler, fanlar"
-    }
+      "Typical Machines": "Yardımcı buhar türbinleri, BFP, dişli kutuları, kompresörler, alternatörler, fanlar",
+      "Brand": "Shinkawa Electric, orijinal"
+    },
+    "desc": "Buhar türbinleri, alternatörler, dişli kutuları, pompalar ve kompresörler için orijinal Shinkawa WK / WKN 2 telli 4-20 mA titreşim ve itme vericileri. Doğrudan DCS veya PLC bağlantısı, monitör rafı gerekmez."
   },
   "prod_ee11": {
     "id": "prod_ee11",
     "sku": "KTB-EE-011",
     "category": "Electronic Equipment",
     "title": "Gövde Titreşim Sensörleri: Velomitor, CV-86 ve İvmeölçerler",
-    "desc": "Türbin, dişli kutusu, alternatör ve motorlarda yatak titreşimi için orijinal Bently Velomitor, Shinkawa CV-86, Hansford ve SKF sensörleri. Modele göre teklif.",
     "usage": "Şaft probunun takılamadığı veya gövde titreşiminin alarm ya da trip girişi olduğu yerlerde yatak ayakları, dişli kutusu gövdeleri, alternatör şasileri ve motor kapaklarında mutlak (sismik) titreşim. Türbin-dişli kutusu-alternatör hatlarında şaft yakınlık probları ile birlikte, motor, fan ve pompalarda tek başına kullanılır.",
     "features": [
       "Bently Nevada 330500 Velomitor piezo hız sensörü: 3.94 mV/mm/s (100 mV/in/s) +/-%5, 4.5 Hz ile 5 kHz (+/-3 dB), 1,270 mm/s tepe değerine kadar, -55 ile +121 °C, 316L paslanmaz çelik, 2 pinli MIL-C-5015, herhangi bir montaj açısı",
@@ -6003,22 +6002,22 @@
       "Marka ve model adları ilgili sahiplerinin ticari markalarıdır ve yalnızca tanımlama amacıyla kullanılmıştır. Keshav Enterprises bağımsız bir tedarikçidir."
     ],
     "specs": {
-      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (hepsi orijinal)",
       "Velocity Sensors": "Bently Nevada 330500 / 330525 Velomitor; Shinkawa CV-86, CV-87",
       "Accelerometers": "Bently Nevada 330400 / 330425; Hansford HS-100 serisi; SKF CMSS 2100 / 2200",
       "Accelerometer Sensitivities": "25, 100 mV/g (Bently); 10 ile 500 mV/g (Hansford); 100 mV/g (SKF)",
       "Typical Steam Turbine Use": "Yatak ayağı titreşimi, her yatakta yatay ve dikey",
       "Typical Gearbox Use": "Yüksek hızlı pinyon yatağı yakınında gövde; dişli kavrama frekansları için ivmeölçer",
       "Typical Alternator Use": "Tahrik ve tahrik olmayan tarafta yatak gövdesi",
-      "Typical Motor Use": "Yatak gövdesi, tahrik ve tahrik olmayan taraf, yatay / dikey / eksenel"
-    }
+      "Typical Motor Use": "Yatak gövdesi, tahrik ve tahrik olmayan taraf, yatay / dikey / eksenel",
+      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (hepsi orijinal)"
+    },
+    "desc": "Türbin, dişli kutusu, alternatör ve motorlarda yatak titreşimi için orijinal Bently Velomitor, Shinkawa CV-86, Hansford ve SKF sensörleri. Modele göre teklif."
   },
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
     "category": "Electronic Equipment",
     "title": "Manyetik Pickup Sensörü (Woodward)",
-    "desc": "Woodward regülatörlerine ve dijital türbin kontrol sistemlerine hassas mil hızı geri beslemesi için orijinal Woodward değişken relüktanslı manyetik hız pickup'ı (MPU). 3000–3600 RPM'de çalışan buhar türbinlerinde sürekli görev için pasif, kendinden beslemeli, bakım gerektirmeyen tasarım.",
     "usage": "Woodward 505/505D/505E dijital regülatörleri, 2301 ve 7206 regülatör amplifikatörleri ve Triveni, BHEL, Siemens, KKK ve Maxwatt buhar türbinlerinde bağımsız aşırı hız tripi sistemleri için birincil hız algılama girişi. Kapalı döngü hız regülasyonu, yük kontrolü ve başlatma, senkronizasyon ve tam yük çalışması boyunca aşırı hız korumasını sağlamak için türbin rotor hızını regülatör dişli çarkı (diş dişlisi / volan) üzerinden izler.",
     "features": [
       "Değişken relüktans (pasif) sensör — dişli diş hareketinden kendi AC gerilim sinyalini üretir; harici güç kaynağı gerekmez",
@@ -6080,7 +6079,8 @@
       "label": "Talep Üzerine",
       "color": "amber",
       "leadTime": "1–4 weeks"
-    }
+    },
+    "desc": "Woodward regülatörlerine ve dijital türbin kontrol sistemlerine hassas mil hızı geri beslemesi için orijinal Woodward değişken relüktanslı manyetik hız pickup'ı (MPU). 3000–3600 RPM'de çalışan buhar türbinlerinde sürekli görev için pasif, kendinden beslemeli, bakım gerektirmeyen tasarım."
   },
   "prod_ee3": {
     "id": "prod_ee3",
@@ -6989,6 +6989,72 @@
       "max": 12000,
       "unit": "per segment",
       "note": "Spring steel or Inconel X-750; set of 4–8 per gland"
+    },
+    "availability": {
+      "label": "Made to Order",
+      "color": "amber",
+      "leadTime": "2–6 weeks"
+    }
+  },
+  "prod_ts_silencer": {
+    "id": "prod_ts_silencer",
+    "sku": "KTB-TS-040",
+    "category": "Turbine Spares",
+    "title": "Buhar Türbini Susturucuları: Tahliye, Egzoz ve Emniyet Valfi",
+    "desc": "Buhar türbini tesislerinde atmosfere boşaltılan yüksek basınçlı buharın gürültüsünü azaltan tahliye, egzoz ve emniyet valfi susturucuları: karşı basınçlı türbin egzoz tahliye hatları, devreye alma ve ısıtma tahliyeleri, türbin girişi ve ara buhar çıkışlarındaki emniyet valfi çıkışları ve devreye almada buhar üfleme. Her susturucu müşteri gereksinimine göre tarafımızca tasarlanır ve imal edilir; buhar jetini yavaşlatıp yayan çok delikli bir difüzör kademesini, dolgulu bir emici bölümle birleştirir. Buhar debisine, basınca, sıcaklığa ve referans mesafenizde istenen dB(A) sınırına göre boyutlandırılır. Karbon çelik olarak veya kızgın buhar için alaşımlı çelik girişli paslanmaz çelik olarak tedarik edilir.",
+    "usage": "Şeker ve alkol (distilasyon), kâğıt ve selüloz, çelik, petrokimya ve enerji üretimi tesislerindeki buhar türbini ve kazan sistemlerinde emniyet valflerinin, atmosferik tahliye valflerinin ve tahliye hatlarının çıkışına monte edilir: karşı basınçlı türbinlerde egzoz tahliye hatları, türbin devreye alma ve ısıtma tahliyeleri, türbin girişi ve ara buhar çıkışlarındaki emniyet valfi çıkışları, PRDS istasyonu emniyet valfi çıkışları ve yoğuşmalı türbinlerde ejektör egzoz tahliyeleri. Ayrıca mevcut tahliye hatlarında paslanmış, gürültülü veya arızalı susturucuların yerine, eski ünitenin bağlantı ve montaj ölçülerine göre tasarlanıp imal edilerek ya da çizim bulunmadığında numune veya fotoğraflardan tersine mühendislikle üretilerek, ayrıca türbin montajı ve devreye almada boru temizliği için geçici buhar üfleme susturucusu olarak tedarik edilir.",
+    "features": [
+      "Susturucu tipleri: difüzör ve emici tahliye susturucusu kombinasyonu (standart); düşük frekanslı gürültü baskınsa reaktif genleşme odası kademesi eklenir",
+      "Çok delikli giriş difüzörü, buharın emici bölüme girmeden önce hızını düşürür ve jeti parçalar",
+      "Emici bölüm: elyaf kaybına ve erozyona karşı delikli gömlek ve paslanmaz çelik tel örgü arkasında tutulan yüksek yoğunluklu mineral yün veya seramik elyaf dolgu",
+      "Her uygulama için buhar debisi (kg/h), giriş basıncı ve sıcaklığı, hat çapı ve belirtilen mesafedeki dB(A) hedefine göre tarafımızca tasarlanır ve imal edilir; her ünite siparişe özel üretilir, katalog ürünü değildir",
+      "Debiye, basınca ve tasarıma bağlı olarak tipik 50 ila 80 dB(A) gürültü azaltımı; hedef değer üzerinde anlaşılır ve onaylı veri sayfasına yazılır",
+      "Malzemeler: doymuş buhar ve orta sıcaklık için karbon çelik (IS 2062 / SA 516 Gr 70); yaklaşık 540°C'ye kadar kızgın buhar için SS 304 / 316 veya alaşımlı çelik giriş bölümü",
+      "Bağlantılar: flanşlı (ASME B16.5 / DIN) veya alın kaynaklı giriş, standart 200 NB ila 600 NB, diğer ölçüler müşteri talebine göre",
+      "En alt noktadaki kondensat tahliye bağlantısı, buhar boşaltımından sonra dolgunun suya doymasını önler",
+      "Çıkışta yağmur başlığı; standart olarak tahliye bacası üzerine dikey montaj, talep üzerine yatay",
+      "Taşıma ayakları, taban flanşı ve kaldırma kulakları dahildir; sıcak yüzey yalıtımı veya personel koruma kaplaması isteğe bağlıdır",
+      "Mevcut tahliye hatlarında orijinal susturucunun paslandığı, dolgusunu kaybettiği veya gürültülü hale geldiği durumlar için yedek ve tersine mühendislik ürünleri",
+      "Genel yerleşim çizimi ve veri sayfası ile tedarik edilir; malzeme test sertifikaları talep üzerine"
+    ],
+    "specs": {
+      "Silencer Type": "Difüzör + emici (standart); talep üzerine reaktif kademe",
+      "Service": "Buhar tahliyesi, türbin egzoz tahliyesi, emniyet valfi çıkışı, devreye alma / ısıtma tahliyesi, buhar üfleme",
+      "Inlet Size Range": "200 NB ila 600 NB; diğer ölçüler müşteri talebine göre",
+      "Inlet Connection": "Flanşlı (ASME B16.5 / DIN) veya alın kaynaklı",
+      "Design Basis": "Buhar debisi (kg/h), giriş basıncı, sıcaklık ve istenen dB(A) müşteri tarafından verilir",
+      "Noise Reduction": "Tipik 50–80 dB(A), tasarıma bağlı; hedef veri sayfasında belirtilir",
+      "Temperature Rating": "Yaklaşık 540°C'ye kadar kızgın buhar (alaşımlı çelik giriş bölümü)",
+      "Body Material": "Karbon çelik (IS 2062 / SA 516 Gr 70) veya SS 304 / 316",
+      "Diffuser Material": "Karbon çelik, SS 304 / 316 veya alaşımlı çelik, buhar sıcaklığına göre",
+      "Acoustic Packing": "Yüksek yoğunluklu mineral yün veya seramik elyaf, SS tel örgü ile tutulur",
+      "Orientation": "Dikey baca montajı (standart); talep üzerine yatay",
+      "Drain and Outlet": "En alt noktada kondensat tahliyesi; çıkışta yağmur başlığı",
+      "Finish": "Isıya dayanıklı boya; yalıtım / kaplama isteğe bağlı",
+      "Documents": "Genel yerleşim çizimi ve veri sayfası; malzeme test sertifikaları talep üzerine",
+      "HSN Code": "84069000"
+    },
+    "images": [
+      "steam-turbine-silencer-1.webp",
+      "steam-turbine-silencer-2.webp",
+      "steam-turbine-silencer-3.webp",
+      "steam-turbine-silencer-4.webp",
+      "steam-turbine-silencer-5.webp",
+      "steam-turbine-silencer-6.webp",
+      "steam-turbine-silencer-7.webp",
+      "steam-turbine-silencer-8.webp",
+      "steam-turbine-silencer-9.webp",
+      "steam-turbine-silencer-10.webp",
+      "steam-turbine-silencer-11.webp",
+      "steam-turbine-silencer-12.webp"
+    ],
+    "slug": "steam-turbine-silencers",
+    "categorySlug": "turbine-spares",
+    "priceRange": {
+      "min": 40000,
+      "max": 400000,
+      "unit": "per unit",
+      "note": "Karbon çelikten SS'ye; buhar debisi, basınç ve dB(A) hedefine göre boyutlandırılır"
     },
     "availability": {
       "label": "Made to Order",

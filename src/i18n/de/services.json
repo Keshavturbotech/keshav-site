@@ -26,16 +26,6 @@
     "id": "srv_2",
     "image": "service-overhauling.webp",
     "title": "Schlüsselfertige Überholung & Wartung",
-    "desc": "Durchgeführt von Ex-OEM-Ingenieuren von Triveni, Siemens, BHEL, Belliss und weiteren. Umfasst Planung vor dem Stillstand, Zustandsberichte vor Ort, umfassendes Ersatzteilmanagement und 24×7-Notfallbehebung.",
-    "details": [
-      "Planung vor dem Stillstand mit detailliertem Umfang der rotierenden Anlagen",
-      "Bestandsprüfung der Lagerersatzteile vor Ort mit Fehlmengenberichten",
-      "Ex-OEM-Ingenieure: Triveni, Belliss, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
-      "Alle Spielmaße, Spalte und Maße gemessen und dokumentiert",
-      "Zustandsbericht mit Empfehlungen für jede Komponente",
-      "Schlüsselfertig: Werkzeuge, Hebezeuge, Verbrauchsmaterial & Personal inklusive",
-      "24×7-Notfallreaktion mit Ingenieuren an mehreren Standorten"
-    ],
     "oems": [
       "Triveni",
       "Belliss & Morcom",
@@ -132,7 +122,6 @@
     "id": "srv_7",
     "image": "service-troubleshooting.webp",
     "title": "Störungsbehebungsservice",
-    "desc": "Schnelle Vor-Ort-Fehlerdiagnose bei Dampfturbinen mit Vibration, Lagerausfall, Reglerinstabilität, Dampfleckage, Ölverschmutzung oder unerwarteten Abschaltungen. Ex-OEM-Ingenieure rücken mit vollständiger Diagnoseinstrumentierung zur Ursachenermittlung und Fehlerbehebung aus.",
     "details": [
       "Hohe Vibration — Diagnose von Unwucht, Fluchtungsfehler, Lagerverschleiß, Anstreifen",
       "Untersuchung von Reglerpendeln, Drehzahlinstabilität & Überdrehzahlabschaltung",

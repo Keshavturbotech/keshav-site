@@ -182,7 +182,7 @@ export default function RichProductCard({ product, priority = false, imageMap = 
               as the same promise, not two different policies.
             */}
             <span className="ml-auto text-[10px] text-slate-500 font-medium italic">
-              confirmed after review
+              Indicative price: contact for firm quote
             </span>
           </div>
         ) : (
@@ -196,7 +196,7 @@ export default function RichProductCard({ product, priority = false, imageMap = 
             <TrendingUp className="w-4 h-4 text-slate-400 shrink-0" aria-hidden="true" />
             <span className="text-sm font-semibold text-slate-500">Price on request</span>
             <span className="ml-auto text-[10px] text-slate-500 font-medium italic">
-              confirmed after review
+              Contact for firm quote
             </span>
           </div>
         )}

@@ -631,6 +631,11 @@ export const PRODUCTS_LITE: ProductLite[] = [
     "title": "Leaf Springs for Turbine Labyrinth Gland Seals"
   },
   {
+    "id": "prod_ts_silencer",
+    "category": "Turbine Spares",
+    "title": "Steam Turbine Silencers"
+  },
+  {
     "id": "prod_f_cenlub",
     "category": "Industrial Filtration",
     "title": "Cenlub Replacement Filter Elements"

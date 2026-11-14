@@ -679,6 +679,12 @@ export const PRODUCT_PRICE_MAP: Record<string, PriceRange> = {
     unit: "per segment",
     note: "Spring steel or Inconel X-750; set of 4–8 per gland",
   },
+  prod_ts_silencer: {
+    min: 40000,
+    max: 400000,
+    unit: "per unit",
+    note: "Carbon steel to SS; sized to steam flow, pressure & dB(A) target",
+  },
 
   // ── HVAC & AIR FILTRATION ──
   prod_af1: {

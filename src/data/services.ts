@@ -48,11 +48,11 @@ const RAW_SERVICES: Omit<Service, "slug">[] = [
     id: "srv_2",
     image: "service-overhauling.webp",
     title: "Turnkey Overhauling & Maintenance",
-    desc: "Executed by ex-OEM engineers from Triveni, Siemens, BHEL, Belliss & Morcom, and more. Includes pre-shutdown planning, on-site condition reporting, comprehensive spares management, and 24×7 emergency troubleshooting.",
+    desc: "Executed by engineers with prior OEM experience on Triveni, Siemens, BHEL, Belliss & Morcom, and more. Includes pre-shutdown planning, on-site condition reporting, comprehensive spares management, and 24×7 emergency troubleshooting.",
     details: [
       "Pre-shutdown planning with detailed scope of rotating equipment",
       "Onsite inspection of stocked spare parts with shortfall reports",
-      "Ex-OEM engineers: Triveni, Belliss & Morcom, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
+      "Engineers with prior OEM experience: Triveni, Belliss & Morcom, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
       "All clearances, gaps and sizes measured and recorded",
       "Condition report with recommendations for each component",
       "Turnkey basis: tools, tackles, consumables & manpower provided",
@@ -129,7 +129,7 @@ const RAW_SERVICES: Omit<Service, "slug">[] = [
     id: "srv_7",
     image: "service-troubleshooting.webp",
     title: "Troubleshooting Service",
-    desc: "Rapid on-site fault diagnosis for steam turbines experiencing vibration, bearing failure, governor instability, steam leakage, oil contamination, or unexpected trips. Ex-OEM engineers deploy with full diagnostic instrumentation for root-cause identification and corrective action.",
+    desc: "Rapid on-site fault diagnosis for steam turbines experiencing vibration, bearing failure, governor instability, steam leakage, oil contamination, or unexpected trips. Engineers with prior OEM experience deploy with full diagnostic instrumentation for root-cause identification and corrective action.",
     details: [
       "High vibration: imbalance, misalignment, bearing wear, rub diagnosis",
       "Governor hunting, speed instability & overspeed trip investigation",

@@ -1,12 +1,11 @@
 {
   "meta": {
     "title": "Mühendislik Ekibiyle İletişime Geçin — Teknik Teklif Talep Edin",
-    "description": "Türbin mühendisliği teklif talepleri (RFQ), tersine mühendislik fiyat teklifleri ve 24×7 acil arıza desteği için Keshav Enterprises ile iletişime geçin. Telefon: +91 9149229448.",
+    "description": "Türbin mühendisliği teklif talepleri (RFQ), tersine mühendislik fiyat teklifleri ve 24×7 acil arıza desteği için Keshav Enterprises ile iletişime geçin. Telefon: +91 6397363268.",
     "schemaName": "Keshav Enterprises ile İletişime Geçin"
   },
   "hero": {
     "title": "Satış Ekibiyle Değil, Bir Mühendisle Konuşun",
-    "subtitle": "İhtiyaçlarınızı bizimle paylaşın; çağrı merkezi değil, eski OEM mühendislerinden oluşan ekibimiz 24 saat içinde teknik bir yanıt versin — çünkü ihtiyacınız olan broşür değil, cevaptır.",
     "trustSignals": [
       "Gizli RFQ — asla OEM temsilcileriyle paylaşılmaz",
       "Hiçbir yükümlülük yok — bir sonraki adıma siz karar verirsiniz",
@@ -38,10 +37,8 @@
     },
     "indiamart": {
       "ariaLabel": "Keshav Enterprises'ı IndiaMART'ta görüntüleyin",
-      "title": "IndiaMART Onaylı",
       "ratingSrOnly": "5 üzerinden 4,3 yıldız",
-      "ratingText": "4,3/5 Puan",
-      "trustSeal": "TrustSeal Tedarikçisi"
+      "ratingText": "4,3/5 Puan"
     },
     "connect": {
       "label": "Bizimle İletişime Geçin"
@@ -58,12 +55,8 @@
     "descriptionSuffix": "araması yapın — profilimizi görüntüleyin, yol tarifi alın veya diğer alıcıların bizi bulmasına yardımcı olmak için bir değerlendirme bırakın.",
     "cta": "Google'da Görüntüle"
   },
-  "facilityPhoto": {
-    "caption": "Üretim Tesisimiz, Shamli, Uttar Pradesh",
-    "alt": "Keshav Enterprises üretim tesisi — Shamli, Uttar Pradesh"
-  },
+  "facilityPhoto": {},
   "map": {
-    "heading": "Üretim Tesisimiz — Shamli, Uttar Pradesh",
     "iframeTitle": "Keshav Enterprises konum haritası",
     "googleBusinessCta": "Google İşletme",
     "directionsCta": "Yol Tarifi Alın"

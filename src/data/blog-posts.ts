@@ -51,7 +51,7 @@ export const BLOG_POSTS: BlogPost[] = [
         items: [
           "Confirm OEM clearance data for all turbine stages",
           "Arrange lube oil flushing equipment (mobile centrifuge filter unit)",
-          "Book ex-OEM engineers if required for major overhaul",
+          "Book engineers with prior OEM experience if required for major overhaul",
           "Prepare condition monitoring baseline readings (vibration, temperature, pressure)",
         ],
       },
@@ -98,7 +98,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         type: "cta",
-        text: "Need expert overhauling engineers for your next planned shutdown? Our ex-OEM team covers Triveni, Siemens, BHEL, Belliss & Morcom, and more.",
+        text: "Need expert overhauling engineers for your next planned shutdown? Our team with prior OEM experience covers Triveni, Siemens, BHEL, Belliss & Morcom, and more.",
       },
     ],
   },
@@ -232,7 +232,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "belliss-morcom-turbine-common-faults-india",
     title: "Belliss & Morcom Turbine Common Faults: Field Guide for Indian Plants",
     excerpt:
-      "Belliss & Morcom steam turbines are widely used in Indian sugar mills and co-gen plants. Here are the most common faults our ex-OEM engineers encounter and how to diagnose and fix them.",
+      "Belliss & Morcom steam turbines are widely used in Indian sugar mills and co-gen plants. Here are the most common faults our engineers with prior OEM experience encounter and how to diagnose and fix them.",
     date: "2026-03-18",
     author: "Keshav Enterprises Engineering Team",
     readTime: "8 min read",

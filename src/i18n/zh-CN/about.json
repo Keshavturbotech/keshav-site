@@ -1,80 +1,21 @@
 {
   "meta": {
-    "titleTemplate": "关于Keshav Enterprises——{years}年以上汽轮机工程经验",
-    "descriptionTemplate": "Keshav Enterprises——来自印度北方邦沙姆利，拥有{years}年以上工业汽轮机工程、逆向工程及OEM兼容备件经验。原厂背景工程师来自Triveni、Siemens、BHEL。",
-    "schemaName": "关于Keshav Enterprises",
-    "schemaDescriptionTemplate": "Keshav Enterprises——来自印度北方邦沙姆利，拥有{years}年以上工业汽轮机工程、逆向工程及OEM兼容备件制造经验。"
+    "schemaName": "关于Keshav Enterprises"
   },
   "hero": {
     "eyebrow": "我们的故事",
-    "h1Line1": "{years}+年的",
-    "h1Span": "精密工程",
     "quote": "「工厂零停机容忍——这不是一句口号，而是每位客户都要求我们坚守的工程标准。」",
-    "intro": "创始人Shekhar Sharma自1988年起便直接从事汽轮机工作，在多家公司积累经验后，于2016年创立了独立的汽轮机维护合伙企业。Keshav Enterprises于2020年6月正式成立，如今已成为印度及全球发电厂、糖厂、炼油厂和流程工业值得信赖的工程合作伙伴，延续来自Triveni、Siemens、BHEL、Man Turbo、KKK和ABB的原厂背景专业能力。",
-    "tags": [
-      "原厂背景工程师",
-      "3D激光扫描",
-      "三坐标测量精度",
-      "24×7响应",
-      "IEC注册",
-      "出口就绪",
-      "IndiaMART认证",
-      "印度制造",
-      "MSME注册"
-    ],
     "ctaServices": "我们的服务",
     "ctaContact": "联系工程团队",
-    "statCards": [
-      {
-        "label": "创立年限",
-        "subTemplate": "自{founded}年起"
-      },
-      {
-        "label": "OEM品牌",
-        "sub": "Triveni · Siemens · BHEL"
-      },
-      {
-        "label": "最大汽轮机",
-        "sub": "最高60兆瓦"
-      },
-      {
-        "label": "紧急支持",
-        "sub": "工程师分布多地"
-      }
-    ],
     "trustBadges": {
-      "indiamartTitle": "IndiaMART TrustSeal认证",
       "indiamartSub": "50+条买家评价 · 4.3/5评分",
       "msmeTitle": "MSME注册",
       "msmeSub": "印度政府Udyam认证企业"
     }
   },
-  "statsBar": [
-    {
-      "label": "创立年限",
-      "subTemplate": "自{founded}年起"
-    },
-    {
-      "label": "覆盖OEM品牌",
-      "sub": "Triveni · Siemens · BHEL"
-    },
-    {
-      "label": "服务过的最大汽轮机",
-      "sub": "最高60兆瓦"
-    },
-    {
-      "label": "紧急响应",
-      "sub": "工程师分布多地"
-    }
-  ],
   "overview": {
     "eyebrow": "我们是谁",
     "heading": "印度工业支柱的工程伙伴",
-    "paragraphs": [
-      "Keshav Enterprises是一家总部位于北方邦沙姆利的精密工业工程公司。创始人Shekhar Sharma自1988年起便直接从事汽轮机工作；这些经验在2016年发展为独立合伙企业，Keshav Enterprises则于2020年6月正式成立。我们为印度各地及全球客户提供专业的汽轮机维护、逆向工程和兼容原厂的备件，包括出口至尼泊尔和乌干达。",
-      "我们的工程团队包括来自Triveni、Siemens、BHEL、Belliss & Morcom、Man Turbo、KKK及ABB的原厂背景专家——以远低于原厂交期与成本的方式，为客户提供同等水平的技术专业能力。",
-      "我们服务范围涵盖5千瓦至60兆瓦的汽轮机——背压式与凝汽式，卧式与立式，单级与多级。我们的车间配备3D激光扫描仪、三坐标测量机、动平衡机（50–2,000公斤）及精密数控车床。"
-    ],
     "coreCapabilitiesHeading": "核心能力",
     "coreCapabilitiesList": [
       "汽轮机安装、调试及交钥匙大修",
@@ -110,33 +51,14 @@
         "linkLabel": "浏览产品"
       },
       "rotorInspection": {
-        "caption": "转子检验",
-        "desc": "原厂背景工程师在检验过程中测量并记录每一处间隙、缝隙及尺寸——每项工作均附完整状态报告。"
+        "caption": "转子检验"
       }
     },
     "browseFullCatalog": "浏览完整产品目录"
   },
   "values": {
     "eyebrow": "驱动我们前行的动力",
-    "heading": "我们的核心价值观",
-    "items": [
-      {
-        "label": "工程诚信",
-        "text": "每个部件、每处间隙、每项尺寸均经记录与核实。对安全关键旋转设备绝不走捷径。"
-      },
-      {
-        "label": "OEM级标准",
-        "text": "来自Triveni、Siemens、BHEL及ABB的原厂背景工程师，提供与原厂同等标准的维护服务。"
-      },
-      {
-        "label": "逆向工程创新",
-        "text": "3D扫描与PMI检测让客户无需等待原厂12至18个月的交期即可获取停产备件。"
-      },
-      {
-        "label": "客户运行率优先",
-        "text": "我们以工厂可用率衡量成功。提供24×7紧急响应，因为停机故障不会按工作时间发生。"
-      }
-    ]
+    "heading": "我们的核心价值观"
   },
   "milestones": {
     "eyebrow": "我们的历程",
@@ -171,8 +93,6 @@
   },
   "team": {
     "eyebrow": "工作背后的人才",
-    "heading": "原厂背景工程专业能力",
-    "subheading": "我们的工程师曾在原厂工厂及现场服务团队中接受培训并任职——而不仅仅是接受过原厂设备培训。这一差异体现在每一处记录间隙的质量之中。",
     "expSuffix": "从业经验",
     "namesWithheldNote": "为保护我们的工程师不被竞争对手挖角，姓名暂不公开。如有正式咨询需求，可提供可核实的从业经历。",
     "members": {
@@ -204,9 +124,7 @@
   },
   "oemSection": {
     "eyebrow": "原厂专业能力",
-    "headingLine1": "10余个OEM品牌。",
-    "headingLine2": "唯一的工程合作伙伴。",
-    "sub": "我们的原厂背景工程师对所有主要汽轮机品牌均拥有实操经验，无需磨合期，从第一天起即具备权威技术能力。"
+    "headingLine2": "唯一的工程合作伙伴。"
   },
   "exportSection": {
     "eyebrow": "出口就绪",

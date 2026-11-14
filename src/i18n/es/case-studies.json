@@ -10,7 +10,6 @@
     "duration": "12 días",
     "scope": "Revisión general llave en mano completa: extracción del rotor, sustitución de cojinetes, mecanizado de sellos laberínticos, equilibrado dinámico del rotor (ISO 1940 G2.5), lavado de aceite lubricante y puesta en marcha.",
     "challenge": "La turbina había estado funcionando con vibración elevada (>6 mm/s) durante dos temporadas. Las carcasas de los cojinetes mostraban desgaste por fricción y el rotor tenía una excentricidad persistente de 1× que el mantenimiento anterior no había resuelto.",
-    "solution": "Ingenieros ex-OEM de Triveni desmontaron la unidad y encontraron un muñón agrietado en el extremo motriz. El muñón se mecanizó rebajado, se vertió y rascó nuevo babbitt, los laberintos se mecanizaron en nuestro taller y el rotor se equilibró dinámicamente hasta un desequilibrio residual de <0,5 g·mm. Vibración tras la puesta en marcha: 1,8 mm/s.",
     "outcomes": [
       "Vibración reducida de 6,4 mm/s a 1,8 mm/s",
       "Temperatura del metal del cojinete redujo 14 °C",

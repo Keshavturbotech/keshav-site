@@ -1,27 +1,27 @@
 {
   "meta": {
     "title": "Keshav Enterprises: Steam Turbine Overhauling & Spares",
-    "description": "Ex-OEM steam turbine engineers in Shamli, UP: overhauling, reverse engineering, balancing, lube oil flushing and OEM-compatible spares. 24×7 support.",
+    "description": "Steam turbine engineering in Shamli, UP: overhauling, reverse engineering, balancing, lube oil flushing and OEM-compatible spares. 24×7 support.",
     "keywords": "turbine maintenance India, steam turbine overhauling, turbine reverse engineering, industrial turbine spares, lube oil filter elements, expansion joints India, Triveni turbine service, BHEL turbine spares, turbine erection Uttar Pradesh, Shamli engineering"
   },
   "hero": {
     "badgeMakeInIndia": "Make in India",
     "badgeVocalForLocal": "Vocal For Local",
-    "badgeIndiaMartLabel": "IndiaMART Verified",
+    "badgeIndiaMartLabel": "IndiaMART",
     "badgeIndiaMartRatingSuffix": "RATING",
     "h1Line1": "Precision Engineering for",
     "h1Line2": "Maximum Uptime.",
     "capabilityLine": "Steam turbines from 5 kW to 60 MW — back-pressure and condensing, horizontal and vertical, single and multi-stage. Serving pan-India and clients worldwide.",
-    "introText": "Ex-OEM engineers for Triveni, Siemens, BHEL & 7 more brands. We get your turbine back online faster than OEM sourcing, with full PMI certificates, ISO balancing reports, and a zero-penalty track record since {businessSince}.",
+    "introText": "Engineers with prior OEM experience on Triveni, Siemens, BHEL & other makes. We get your turbine back online faster than OEM sourcing, with full PMI certificates, ISO balancing reports, and a zero-penalty record since our independent partnership began in {businessSince}.",
     "ctaPrimary": "Send Us Your Requirements",
     "ctaEmergency": "Emergency Breakdown",
-    "trustYearsOverhauls": "{years}+ years · 500+ overhauls",
-    "trustPmi": "PMI-certified spares",
+    "trustYearsOverhauls": "{years}+ yrs founder experience · 500+ overhauls",
+    "trustPmi": "PMI testing on spares",
     "trustResponse": "Reply within 1 business day",
     "proofCards": [
       {
         "label": "No Learning Curve",
-        "title": "Ex-OEM Engineers",
+        "title": "Prior OEM Experience",
         "sub": "Our team has worked inside Triveni, Siemens, BHEL & Belliss, and that same expertise now serves your plant."
       },
       {
@@ -46,11 +46,11 @@
     },
     "years": {
       "label": "Engineering Experience",
-      "sub": "Hands-on steam turbine experience since {founded}"
+      "sub": "Founder's hands-on steam turbine experience since {founded}"
     },
     "penaltyClaims": {
       "label": "Penalty Claims",
-      "sub": "Zero in {businessYears} years of operation. Client references available on request"
+      "sub": "Zero in the {businessYears} years since our independent partnership began. Client references available on request"
     },
     "emergency": {
       "label": "Emergency Response",
@@ -69,7 +69,7 @@
   "servicesPreview": {
     "eyebrow": "End-to-End Turbine Lifecycle",
     "heading": "Technical Services",
-    "subheading": "The same ex-OEM engineers handle your overhaul, your spares, and your 2 AM emergency, with no sub-contracting and no handoffs.",
+    "subheading": "The same engineers with prior OEM experience handle your overhaul, your spares, and your 2 AM emergency, with no sub-contracting and no handoffs.",
     "painLines": {
       "srv_2": "Tired of vendors who show up under-equipped and deliver no job report?",
       "srv_3": "OEM quoted months for a spare that's no longer in production?",
@@ -80,12 +80,11 @@
   },
   "testimonials": {
     "eyebrow": "Client Feedback",
-    "heading": "Trusted by Plant Managers Across India",
-    "googleRatingLabel": "+ verified reviews on Google",
-    "disclaimer": "Quotes are drawn from completed project records and abbreviated to initials pending written consent for full attribution. For independently verified ratings, see our Google reviews above.",
+    "heading": "What Plant Teams Tell Us",
+    "googleRatingLabel": "+ reviews on Google",
+    "disclaimer": "Client comments taken from project records and shortened for length. Names are reduced to initials pending written consent. These are not Google reviews; the rating above comes from our Google Business profile.",
     "footerCtaPrefix": "Worked with us?",
     "footerCtaLink": "Leave a Google review — it helps other plant managers find us →",
-    "googleReviewBadge": "Google Review",
     "items": [
       {
         "quote": "Their ex-Triveni engineers handled our 12 MW Triveni turbine overhaul during the annual shutdown — all clearances documented, rotor balanced to ISO G1.0, and back online ahead of schedule. First time in six years we had zero issues at first start-up.",
@@ -94,7 +93,8 @@
         "company": "Sugar & Co-Gen Plant",
         "location": "Uttar Pradesh",
         "service": "Turbine Overhauling",
-        "detail": "12 MW Triveni · Planned Shutdown"
+        "detail": "12 MW Triveni · Planned Shutdown",
+        "consentConfirmed": false
       },
       {
         "quote": "We had a critical babbitt bearing failure on our Belliss & Morcom turbine at 2 AM during peak crushing season. Keshav Enterprises had an engineer at site by morning with the replacement bearing ready. Downtime was under 14 hours — that saved us crores in cane losses.",
@@ -103,7 +103,8 @@
         "company": "Sugar Mill",
         "location": "Haryana",
         "service": "Emergency Breakdown Response",
-        "detail": "Belliss & Morcom · Bearing Failure"
+        "detail": "Belliss & Morcom · Bearing Failure",
+        "consentConfirmed": false
       },
       {
         "quote": "OEM spares for our 28-year-old Belliss & Morcom turbine had 18-month lead times. Keshav reverse-engineered the rotor shaft and labyrinth rings in 6 weeks with full PMI certificates. Quality was indistinguishable from OEM.",
@@ -112,7 +113,8 @@
         "company": "Paper Mill & Power Plant",
         "location": "Punjab",
         "service": "Reverse Engineering",
-        "detail": "Belliss & Morcom · Obsolete Spares"
+        "detail": "Belliss & Morcom · Obsolete Spares",
+        "consentConfirmed": false
       },
       {
         "quote": "After Keshav dynamically balanced our 3 MW BHEL turbine rotor, residual vibration dropped from 9.2 mm/s to 0.8 mm/s — well inside ISO G1.0. The rotor had been causing bearing wear every 8 months. We are now past 24 months with no bearing change. The balancing report satisfied our insurance auditors.",
@@ -121,7 +123,8 @@
         "company": "Paper Mill",
         "location": "Punjab",
         "service": "Dynamic Balancing",
-        "detail": "3 MW BHEL · ISO G1.0 Compliance"
+        "detail": "3 MW BHEL · ISO G1.0 Compliance",
+        "consentConfirmed": false
       }
     ]
   },

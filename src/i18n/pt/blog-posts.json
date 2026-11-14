@@ -12,97 +12,7 @@
       "Turbinas a Vapor",
       "Manutenção"
     ],
-    "coverImage": "blog-turbine-overhaul.webp",
-    "content": [
-      {
-        "type": "h2",
-        "text": "Por Que um Checklist Estruturado Importa"
-      },
-      {
-        "type": "p",
-        "text": "Paradas não programadas de turbinas custam lakhs de rúpias por hora a usinas de energia e açúcar indianas. Um checklist de revisão geral estruturado garante que nada seja esquecido durante as janelas de manutenção programada — reduzindo o risco de falha precoce após o recomissionamento e evitando paradas repetidas custosas."
-      },
-      {
-        "type": "h2",
-        "text": "1. Planejamento Pré-Parada (4–6 Semanas Antes)"
-      },
-      {
-        "type": "p",
-        "text": "Comece com um escopo de trabalho detalhado cobrindo todo o equipamento rotativo do trem. Inspecione todas as peças de reposição em estoque e gere um relatório de faltas. Solicite itens críticos — mancais, selos, gaxetas labirinto, anéis de carbono — com prazo de entrega adequado. Providencie ferramentas especializadas: laser de alinhamento, analisador de vibração, relógios comparadores e calibradores de folga."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Confirmar dados de folga OEM para todos os estágios da turbina",
-          "Providenciar equipamento de lavagem de óleo lubrificante (unidade de filtro centrífugo móvel)",
-          "Reservar engenheiros ex-OEM se necessário para revisão geral maior",
-          "Preparar leituras de referência de monitoramento de condição (vibração, temperatura, pressão)"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "2. Parada e Isolamento"
-      },
-      {
-        "type": "p",
-        "text": "Siga o procedimento de parada especificado pelo OEM. Permita tempo de resfriamento adequado antes de abrir quaisquer flanges. Bloqueie e sinalize todas as fontes de energia, incluindo vapor, óleo lubrificante, condensado e ar de controle. Drene completamente o sistema de óleo lubrificante antes da desmontagem."
-      },
-      {
-        "type": "h2",
-        "text": "3. Desmontagem e Inspeção"
-      },
-      {
-        "type": "p",
-        "text": "Registre todas as folgas, vãos e ajustes antes de remover componentes — são essenciais para comparação com a especificação OEM e para detectar tendências de desgaste. Fotografe cada estágio. Meça o desvio do rotor no munhão, colar de encosto e faces de acoplamento."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Folgas de mancais (radiais e axiais)",
-          "Folgas diametrais do selo labirinto",
-          "Desvio e angularidade do alinhamento do acoplamento",
-          "Condição da face do anel de carbono e tensão da mola",
-          "Condição do bocal e diafragma e dimensões da garganta",
-          "Condição do assento e disco da válvula de parada de emergência"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "4. Reparos e Substituições em Oficina"
-      },
-      {
-        "type": "p",
-        "text": "Envie o rotor para retífica de munhão e balanceamento dinâmico se as leituras de desvio ou vibração estiverem fora da tolerância. Substitua anéis de gaxeta de carbono e grafite, gaxetas labirinto e mancais babbitt conforme o relatório de condição. Todo balanceamento de rotor deve ser realizado conforme as normas ISO 21940-11 (formerly ISO 1940)."
-      },
-      {
-        "type": "h2",
-        "text": "5. Remontagem e Alinhamento"
-      },
-      {
-        "type": "p",
-        "text": "Remonte na ordem inversa com juntas novas e torque de fixadores conforme especificações OEM. Realize o alinhamento final do rotor usando equipamento de alinhamento a laser — turbina para caixa de engrenagens e caixa de engrenagens para gerador. Registre todas as folgas pós-montagem e confirme que estão dentro da tolerância OEM."
-      },
-      {
-        "type": "h2",
-        "text": "6. Lavagem de Óleo Lubrificante"
-      },
-      {
-        "type": "p",
-        "text": "Antes do comissionamento, lave o sistema de óleo lubrificante com um sistema de filtro centrífugo móvel visando a classe de limpeza ISO 4406 16/14/11 ou melhor. Colete amostras de óleo antes e depois da lavagem e retenha os relatórios. Nunca comissione uma turbina sem concluir uma lavagem de óleo — falhas de mancais por óleo contaminado representam uma parcela significativa das falhas pós-revisão geral."
-      },
-      {
-        "type": "h2",
-        "text": "7. Comissionamento e Primeira Operação"
-      },
-      {
-        "type": "p",
-        "text": "Siga o procedimento pré-comissionamento do OEM passo a passo. Monitore continuamente vibração, temperaturas de mancais e pressão de óleo lubrificante durante a primeira partida. Confirme a operação da válvula de parada de emergência e do regulador. Ajuste finamente o alinhamento se os níveis de vibração estiverem elevados. Documente todas as leituras de comissionamento para o registro de manutenção da planta."
-      },
-      {
-        "type": "cta",
-        "text": "Precisa de engenheiros especialistas em revisão geral para sua próxima parada programada? Nossa equipe ex-OEM cobre Triveni, Siemens, BHEL, Belliss & Morcom e mais."
-      }
-    ]
+    "coverImage": "blog-turbine-overhaul.webp"
   },
   "post_2": {
     "id": "post_2",
@@ -271,7 +181,6 @@
     "id": "post_4",
     "slug": "belliss-morcom-turbine-common-faults-india",
     "title": "Falhas Comuns em Turbinas Belliss & Morcom — Guia de Campo para Plantas Indianas",
-    "excerpt": "Turbinas a vapor Belliss & Morcom são amplamente usadas em usinas de açúcar e plantas de cogeração indianas. Aqui estão as falhas mais comuns que nossos engenheiros ex-OEM encontram e como diagnosticá-las e corrigi-las.",
     "date": "2026-03-18",
     "author": "Equipe de Engenharia da Keshav Enterprises",
     "readTime": "8 min de leitura",

@@ -12,97 +12,7 @@
       "Turbin Uap",
       "Perawatan"
     ],
-    "coverImage": "blog-turbine-overhaul.webp",
-    "content": [
-      {
-        "type": "h2",
-        "text": "Mengapa Daftar Periksa Terstruktur Itu Penting"
-      },
-      {
-        "type": "p",
-        "text": "Shutdown turbin tak terencana menelan biaya lakh rupee per jam bagi pabrik listrik dan gula India. Daftar periksa overhaul terstruktur memastikan tidak ada yang terlewat selama jendela perawatan terencana — mengurangi risiko kegagalan dini setelah rekomisioning dan menghindari shutdown berulang yang mahal."
-      },
-      {
-        "type": "h2",
-        "text": "1. Perencanaan Pra-Shutdown (4–6 Minggu Sebelumnya)"
-      },
-      {
-        "type": "p",
-        "text": "Mulai dengan lingkup kerja rinci yang mencakup semua peralatan berputar dalam rangkaian. Periksa semua suku cadang yang disimpan dan buat laporan kekurangan. Pesan item kritis — bearing, seal, packing labirin, cincin karbon — dengan waktu tunggu yang cukup. Atur peralatan khusus: laser penyelarasan, analyzer getaran, dial indicator, dan feeler gauge."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Konfirmasi data celah OEM untuk semua tahap turbin",
-          "Atur peralatan pembersihan oli pelumas (unit filter sentrifugal mobile)",
-          "Pesan insinyur eks-OEM jika diperlukan untuk overhaul besar",
-          "Siapkan pembacaan baseline pemantauan kondisi (getaran, suhu, tekanan)"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "2. Shutdown & Isolasi"
-      },
-      {
-        "type": "p",
-        "text": "Ikuti prosedur shutdown yang ditentukan OEM. Berikan waktu pendinginan yang cukup sebelum membuka flensa apa pun. Lakukan lock out/tag out semua sumber energi termasuk uap, oli pelumas, kondensat, dan udara kontrol. Kuras sistem oli pelumas sepenuhnya sebelum pembongkaran."
-      },
-      {
-        "type": "h2",
-        "text": "3. Pembongkaran & Inspeksi"
-      },
-      {
-        "type": "p",
-        "text": "Catat semua celah, jarak, dan suaian sebelum melepas komponen — ini penting untuk perbandingan dengan spesifikasi OEM dan untuk mendeteksi tren keausan. Foto setiap tahap. Ukur run-out rotor pada journal, thrust collar, dan permukaan kopling."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Celah bearing (radial dan aksial)",
-          "Celah diametral seal labirin",
-          "Offset dan angularitas penyelarasan kopling",
-          "Kondisi permukaan cincin karbon dan tegangan pegas",
-          "Kondisi nozzle dan diafragma serta dimensi throat",
-          "Kondisi dudukan dan disk ESV"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "4. Perbaikan & Penggantian di Bengkel"
-      },
-      {
-        "type": "p",
-        "text": "Kirim rotor untuk grinding journal dan penyeimbangan dinamis jika pembacaan run-out atau getaran berada di luar toleransi. Ganti cincin gland karbon dan grafit, packing labirin, dan bearing babbitt sesuai laporan kondisi. Semua penyeimbangan rotor harus dilakukan sesuai standar ISO 21940-11 (formerly ISO 1940)."
-      },
-      {
-        "type": "h2",
-        "text": "5. Perakitan Ulang & Penyelarasan"
-      },
-      {
-        "type": "p",
-        "text": "Rakit ulang dalam urutan terbalik dengan gasket baru dan torsi pengencang sesuai spesifikasi OEM. Lakukan penyelarasan rotor akhir menggunakan peralatan penyelarasan laser — turbin ke gearbox dan gearbox ke generator. Catat semua celah pasca-perakitan dan konfirmasi berada dalam toleransi OEM."
-      },
-      {
-        "type": "h2",
-        "text": "6. Pembersihan Oli Pelumas"
-      },
-      {
-        "type": "p",
-        "text": "Sebelum komisioning, bersihkan sistem oli pelumas dengan sistem filter sentrifugal mobile yang menargetkan kelas kebersihan ISO 4406 16/14/11 atau lebih baik. Ambil sampel oli sebelum dan sesudah pembersihan dan simpan laporannya. Jangan pernah mengomisioning turbin tanpa menyelesaikan pembersihan oli — kegagalan bearing dari oli terkontaminasi menyumbang sebagian besar kegagalan pasca-overhaul."
-      },
-      {
-        "type": "h2",
-        "text": "7. Komisioning & Run Pertama"
-      },
-      {
-        "type": "p",
-        "text": "Ikuti prosedur pra-komisioning OEM langkah demi langkah. Pantau getaran, suhu bearing, dan tekanan oli pelumas secara terus-menerus selama run-up pertama. Konfirmasi operasi ESV dan governor. Sesuaikan penyelarasan jika level getaran meningkat. Dokumentasikan semua pembacaan komisioning untuk catatan perawatan pabrik."
-      },
-      {
-        "type": "cta",
-        "text": "Butuh insinyur overhaul ahli untuk shutdown terencana Anda berikutnya? Tim eks-OEM kami mencakup Triveni, Siemens, BHEL, Belliss & Morcom, dan lainnya."
-      }
-    ]
+    "coverImage": "blog-turbine-overhaul.webp"
   },
   "post_2": {
     "id": "post_2",
@@ -271,7 +181,6 @@
     "id": "post_4",
     "slug": "belliss-morcom-turbine-common-faults-india",
     "title": "Kesalahan Umum Turbin Belliss & Morcom — Panduan Lapangan untuk Pabrik India",
-    "excerpt": "Turbin uap Belliss & Morcom banyak digunakan di pabrik gula dan pembangkit co-gen India. Berikut kesalahan paling umum yang ditemui insinyur eks-OEM kami dan cara mendiagnosis serta memperbaikinya.",
     "date": "2026-03-18",
     "author": "Tim Rekayasa Keshav Enterprises",
     "readTime": "8 menit membaca",

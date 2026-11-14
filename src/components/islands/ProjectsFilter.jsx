@@ -433,8 +433,8 @@ export default function ProjectsFilter({ caseStudies: CASE_STUDIES = [], locale 
               Talk to Our Engineers Directly
             </h2>
             <p className="text-slate-300 font-medium mb-8 max-w-lg mx-auto text-sm leading-relaxed">
-              Describe your turbine make, site conditions, and shutdown window — our ex-OEM
-              engineers will give you a straight answer on scope and timeline.
+              Describe your turbine make, site conditions, and shutdown window — our engineers with prior OEM
+              experience will give you a straight answer on scope and timeline.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a

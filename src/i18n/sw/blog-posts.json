@@ -12,97 +12,7 @@
       "Turbine ya Mvuke",
       "Matengenezo"
     ],
-    "coverImage": "blog-turbine-overhaul.webp",
-    "content": [
-      {
-        "type": "h2",
-        "text": "Kwa Nini Orodha ya Ukaguzi Iliyopangwa Ina Umuhimu"
-      },
-      {
-        "type": "p",
-        "text": "Kusimama kwa turbine bila kupangwa kunagharimu vituo vya umeme na sukari vya India lakh za rupia kwa saa. Orodha ya ukaguzi ya ukarabati iliyopangwa inahakikisha hakuna kitu kinachokosekana wakati wa vipindi vya matengenezo vilivyopangwa — ikipunguza hatari ya kushindwa mapema baada ya kuanzisha upya na kuepuka kusimama mara kwa mara kwa gharama kubwa."
-      },
-      {
-        "type": "h2",
-        "text": "1. Upangaji Kabla ya Kusimama (Wiki 4-6 Mapema)"
-      },
-      {
-        "type": "p",
-        "text": "Anza na wigo wa kina wa kazi unaojumuisha vifaa vyote vinavyozunguka kwenye mstari. Kagua vipuri vyote vilivyohifadhiwa na tengeneza ripoti ya upungufu. Agiza vitu muhimu — bearing, seal, upakiaji wa labyrinth, pete za kaboni — kwa muda wa kutosha wa kusubiri. Panga vifaa maalum: leza za upatanishi, wachanganuzi wa mtetemo, dial indicator, na feeler gauge."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Thibitisha data ya nafasi za kiufundi za OEM kwa hatua zote za turbine",
-          "Panga vifaa vya usafishaji wa mafuta ya kulainisha (kifaa cha kichujio cha sentrifiuji kinachotembea)",
-          "Weka wahandisi wenye uzoefu wa OEM ikiwa inahitajika kwa ukarabati mkubwa",
-          "Andaa usomaji wa msingi wa ufuatiliaji wa hali (mtetemo, joto, shinikizo)"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "2. Kusimama na Kutenganisha"
-      },
-      {
-        "type": "p",
-        "text": "Fuata utaratibu wa kusimama uliobainishwa na OEM. Ruhusu muda wa kutosha wa kupoa kabla ya kufungua flange yoyote. Fanya lock out/tag out kwa vyanzo vyote vya nishati ikiwa ni pamoja na mvuke, mafuta ya kulainisha, condensate, na hewa ya udhibiti. Toa maji kikamilifu kutoka mfumo wa mafuta ya kulainisha kabla ya kubomolewa."
-      },
-      {
-        "type": "h2",
-        "text": "3. Kubomolewa na Ukaguzi"
-      },
-      {
-        "type": "p",
-        "text": "Rekodi nafasi zote za kiufundi, mapengo, na uwiano kabla ya kuondoa vipengele — hizi ni muhimu kwa kulinganisha na vipimo vya OEM na kutambua mienendo ya uchakavu. Piga picha kila hatua. Pima runout ya rota kwenye journal, thrust collar, na nyuso za coupling."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Nafasi za bearing (radial na axial)",
-          "Nafasi ya kipenyo ya seal ya labyrinth",
-          "Offset na pembe ya upatanishi wa coupling",
-          "Hali ya uso wa pete ya kaboni na mkazo wa spring",
-          "Hali ya nozzle na diaphragm na vipimo vya throat",
-          "Hali ya kiti na disk ya ESV"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "4. Ukarabati na Kubadilisha katika Karakhana"
-      },
-      {
-        "type": "p",
-        "text": "Peleka rota kwa kusaga journal na uwiano wa mzunguko ikiwa usomaji wa runout au mtetemo uko nje ya uwiano. Badilisha pete za gland za kaboni na grafiti, upakiaji wa labyrinth, na bearing za babbitt kulingana na ripoti ya hali. Uwiano wote wa rota unapaswa kufanywa kulingana na viwango vya ISO 21940-11 (formerly ISO 1940)."
-      },
-      {
-        "type": "h2",
-        "text": "5. Kuunganisha Upya na Upatanishi"
-      },
-      {
-        "type": "p",
-        "text": "Unganisha upya kwa mfuatano wa kinyume na gaskets mpya na msokoto wa fastener kulingana na vipimo vya OEM. Fanya upatanishi wa mwisho wa rota ukitumia vifaa vya upatanishi wa leza — turbine kwa gearbox na gearbox kwa jenereta. Rekodi nafasi zote za kiufundi baada ya kuunganisha na thibitisha ziko ndani ya mipaka ya OEM."
-      },
-      {
-        "type": "h2",
-        "text": "6. Usafishaji wa Mafuta ya Kulainisha"
-      },
-      {
-        "type": "p",
-        "text": "Kabla ya uanzishaji, safisha mfumo wa mafuta ya kulainisha na mfumo wa kichujio cha sentrifiuji kinachotembea kinacholenga daraja la usafi la ISO 4406 16/14/11 au bora zaidi. Chukua sampuli za mafuta kabla na baada ya usafishaji na hifadhi ripoti. Usiwahi kuanzisha turbine bila kukamilisha usafishaji wa mafuta — kushindwa kwa bearing kutokana na mafuta yaliyochafuliwa kunachangia sehemu kubwa ya kushindwa baada ya ukarabati."
-      },
-      {
-        "type": "h2",
-        "text": "7. Uanzishaji na Mwendo wa Kwanza"
-      },
-      {
-        "type": "p",
-        "text": "Fuata utaratibu wa kabla ya uanzishaji wa OEM hatua kwa hatua. Fuatilia mtetemo, joto la bearing, na shinikizo la mafuta ya kulainisha kwa kudumu wakati wa kuongeza kasi kwa mara ya kwanza. Thibitisha uendeshaji wa ESV na governor. Rekebisha upatanishi ikiwa viwango vya mtetemo vinaongezeka. Andika usomaji wote wa uanzishaji kwa rekodi za matengenezo za kiwanda."
-      },
-      {
-        "type": "cta",
-        "text": "Unahitaji wahandisi wa ukarabati wenye ujuzi kwa ajili ya kusimama kwako kulikopangwa ijayo? Timu yetu yenye uzoefu wa OEM inashughulikia Triveni, Siemens, BHEL, Belliss & Morcom, na zaidi."
-      }
-    ]
+    "coverImage": "blog-turbine-overhaul.webp"
   },
   "post_2": {
     "id": "post_2",
@@ -271,7 +181,6 @@
     "id": "post_4",
     "slug": "belliss-morcom-turbine-common-faults-india",
     "title": "Hitilafu za Kawaida za Turbine za Belliss & Morcom — Mwongozo wa Uwanjani kwa Viwanda vya India",
-    "excerpt": "Turbine za mvuke za Belliss & Morcom zinatumika sana katika viwanda vya sukari na vituo vya co-gen vya India. Hizi ndizo hitilafu za kawaida zaidi ambazo wahandisi wetu wenye uzoefu wa OEM wamekutana nazo na jinsi ya kuzichunguza na kuzirekebisha.",
     "date": "2026-03-18",
     "author": "Timu ya Uhandisi ya Keshav Enterprises",
     "readTime": "Dakika 8 za kusoma",

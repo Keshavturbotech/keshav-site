@@ -36,3 +36,12 @@
   Cache-Control: public, max-age=3600, must-revalidate
 /llms-full.txt
   Cache-Control: public, max-age=3600, must-revalidate
+
+# Per-language product search index (Navbar search; see
+# src/pages/search-index/[locale].json.ts). Short cache + long
+# stale-while-revalidate: content edits propagate within an hour, repeat
+# visitors never wait on the network. noindex keeps these JSON files out of
+# search results (they are not linked from any page or the sitemap).
+/search-index/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  X-Robots-Tag: noindex

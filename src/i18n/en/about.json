@@ -1,18 +1,18 @@
 {
   "meta": {
-    "titleTemplate": "About Keshav Enterprises — {years}+ Years of Turbine Engineering",
-    "descriptionTemplate": "Keshav Enterprises — {years}+ years of industrial turbine engineering, reverse engineering, and OEM-compatible spare parts from Shamli, UP — serving pan-India and clients worldwide. Ex-OEM engineers from Triveni, Siemens, BHEL.",
+    "titleTemplate": "About Keshav Enterprises: Steam Turbine Engineering, Shamli UP",
+    "descriptionTemplate": "Keshav Enterprises: steam turbine overhauling, reverse engineering and OEM-compatible spares from Shamli, UP. Founder Shekhar Sharma has worked on steam turbines since 1988.",
     "schemaName": "About Keshav Enterprises",
-    "schemaDescriptionTemplate": "Keshav Enterprises — {years}+ years of industrial turbine engineering, reverse engineering, and OEM-compatible spare parts manufacturing from Shamli, UP, serving pan-India and international clients worldwide."
+    "schemaDescriptionTemplate": "Keshav Enterprises: steam turbine overhauling, reverse engineering and OEM-compatible spares from Shamli, UP, serving clients across India and abroad. Founder Shekhar Sharma has worked on steam turbines since 1988."
   },
   "hero": {
     "eyebrow": "Our Story",
-    "h1Line1": "{years}+ Years of",
-    "h1Span": "Precision Engineering",
+    "h1Line1": "Founder-Led",
+    "h1Span": "Turbine Engineering",
     "quote": "\u201cZero tolerance for plant downtime — that's not a slogan. It's the engineering standard every client holds us to.\u201d",
-    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now a trusted engineering partner for power plants, sugar mills, refineries, and process industries across India and worldwide, carrying the same ex-OEM expertise forward from Triveni, Siemens, BHEL, Man Turbo, KKK and ABB.",
+    "intro": "Founder Shekhar Sharma began working hands-on with steam turbines in 1988, building experience across multiple companies before starting an independent turbine maintenance partnership in 2016. Keshav Enterprises was formally established in June 2020, now serving power plants, sugar mills, refineries, and process industries across India and worldwide, with team members who have prior OEM experience on Triveni, Siemens, BHEL, Man Turbo, KKK and ABB machines.",
     "tags": [
-      "Ex-OEM Engineers",
+      "Prior OEM Experience",
       "3D Laser Scanning",
       "CMM Precision",
       "24×7 Response",
@@ -25,21 +25,21 @@
     "ctaServices": "Our Services",
     "ctaContact": "Contact Engineering Team",
     "statCards": [
-      { "label": "Engineering Experience", "subTemplate": "Since {founded}" },
-      { "label": "OEM Brands", "sub": "Triveni · Siemens · BHEL" },
+      { "label": "Founder Experience", "subTemplate": "Since {founded}" },
+      { "label": "Turbine Makes", "sub": "Triveni · Siemens · BHEL" },
       { "label": "Max Turbine", "sub": "Upto 60 M.W." },
       { "label": "Established", "sub": "June 2020" }
     ],
     "trustBadges": {
-      "indiamartTitle": "IndiaMART TrustSeal Verified",
+      "indiamartTitle": "IndiaMART (TrustSeal)",
       "indiamartSub": "50+ buyer reviews · 4.3/5 rating",
       "msmeTitle": "MSME Registered",
       "msmeSub": "Udyam Certified Enterprise · Govt. of India"
     }
   },
   "statsBar": [
-    { "label": "Engineering Experience", "subTemplate": "Since {founded}" },
-    { "label": "OEM Brands", "sub": "Triveni · Siemens · BHEL" },
+    { "label": "Founder Experience", "subTemplate": "Since {founded}" },
+    { "label": "Turbine Makes", "sub": "Triveni · Siemens · BHEL" },
     { "label": "Max Turbine", "sub": "Upto 60 M.W." },
     { "label": "Established", "sub": "June 2020" }
   ],
@@ -48,7 +48,7 @@
     "heading": "Engineering Partners for India's Industrial Backbone",
     "paragraphs": [
       "Keshav Enterprises is a precision industrial engineering company headquartered in Shamli, Uttar Pradesh. Founder Shekhar Sharma has worked hands-on with steam turbines since 1988; that experience became an independent partnership in 2016, and Keshav Enterprises was formally established in June 2020. We provide specialist turbine maintenance, reverse engineering, and OEM-compatible spare parts to clients across India and worldwide, including exports to Nepal and Uganda.",
-      "Our engineering team includes ex-OEM specialists from Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, and ABB, giving clients the same level of technical expertise as the original equipment manufacturers, at a fraction of the lead time and cost.",
+      "Our engineering team includes specialists with prior OEM experience on Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, and ABB, giving clients engineers who already know the machines they run.",
       "We cover steam turbines from 5 kW to 60 MW: back-pressure and condensing, horizontal and vertical, single and multi-stage. Our workshop is equipped with 3D laser scanners, CMM coordinate measuring machines, dynamic balancing machines (50–2,000 kg), and precision CNC lathes."
     ],
     "coreCapabilitiesHeading": "Core Capabilities",
@@ -69,7 +69,7 @@
     "eyebrow": "Built for Industrial Uptime",
     "headingLine1": "If Your Turbine Needs It,",
     "headingLine2": "We Make It.",
-    "subheadingTemplate": "{productCount} precision-engineered components across {categoryCount} categories, from OEM-matched filter elements and HVAC air filters to turbine spares that ship the same week your plant calls.",
+    "subheadingTemplate": "{productCount} precision-engineered components across {categoryCount} categories, from OEM-compatible filter elements and HVAC air filters to turbine spares that ship the same week your plant calls.",
     "cards": {
       "workshopFloor": {
         "caption": "Workshop Floor",
@@ -87,7 +87,7 @@
       },
       "rotorInspection": {
         "caption": "Rotor Inspection",
-        "desc": "Ex-OEM engineers measure and record every clearance, gap, and dimension during inspection, with a full condition report on each job."
+        "desc": "Engineers with prior OEM experience measure and record every clearance, gap, and dimension during inspection, with a full condition report on each job."
       }
     },
     "browseFullCatalog": "Browse Full Product Catalogue"
@@ -102,7 +102,7 @@
       },
       {
         "label": "OEM-Grade Standards",
-        "text": "Ex-OEM engineers from Triveni, Siemens, BHEL, and ABB delivering maintenance at the same standard as the original manufacturer."
+        "text": "Engineers with prior OEM experience on Triveni, Siemens, BHEL and ABB turbines, delivering maintenance to a documented standard."
       },
       {
         "label": "Innovation in Reverse Engineering",
@@ -147,8 +147,8 @@
   },
   "team": {
     "eyebrow": "The People Behind The Work",
-    "heading": "Ex-OEM Engineering Expertise",
-    "subheading": "Our engineers trained and worked inside the OEM factories and field service teams themselves. That's what shows up in the quality of every clearance recorded.",
+    "heading": "Engineers With Prior OEM Experience",
+    "subheading": "Our engineers bring prior experience on OEM turbines. That shows in the care taken over every clearance recorded.",
     "expSuffix": "experience",
     "namesWithheldNote": "Names withheld to protect our engineers from competitor solicitation. Verifiable employment history available to serious enquiries.",
     "members": {
@@ -162,9 +162,9 @@
   },
   "oemSection": {
     "eyebrow": "OEM Expertise",
-    "headingLine1": "10+ OEM Brands.",
+    "headingLine1": "10+ Turbine Makes.",
     "headingLine2": "One Engineering Partner.",
-    "sub": "Our ex-OEM engineers have hands-on experience with all major turbine makes. No learning curve. Authoritative technical expertise from day one."
+    "sub": "Our engineers with prior OEM experience have hands-on experience with all major turbine makes. No learning curve. Authoritative technical expertise from day one."
   },
   "exportSection": {
     "eyebrow": "Export Ready",

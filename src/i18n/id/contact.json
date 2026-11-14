@@ -1,12 +1,11 @@
 {
   "meta": {
     "title": "Hubungi Tim Teknik — Ajukan Permintaan Penawaran Teknis",
-    "description": "Hubungi Keshav Enterprises untuk RFQ rekayasa turbin, penawaran reverse engineering, dan dukungan darurat kerusakan 24×7. Telepon: +91 9149229448.",
+    "description": "Hubungi Keshav Enterprises untuk RFQ rekayasa turbin, penawaran reverse engineering, dan dukungan darurat kerusakan 24×7. Telepon: +91 6397363268.",
     "schemaName": "Hubungi Keshav Enterprises"
   },
   "hero": {
     "title": "Bicara Langsung dengan Insinyur — Bukan Tim Sales",
-    "subtitle": "Sampaikan kebutuhan Anda, dan tim teknik kami — mantan OEM, bukan call center — akan memberikan jawaban teknis dalam 24 jam, karena Anda butuh jawaban, bukan brosur.",
     "trustSignals": [
       "RFQ bersifat rahasia — tidak pernah dibagikan ke perwakilan OEM",
       "Tanpa kewajiban apa pun — Anda yang menentukan langkah selanjutnya",
@@ -38,10 +37,8 @@
     },
     "indiamart": {
       "ariaLabel": "Lihat Keshav Enterprises di IndiaMART",
-      "title": "Terverifikasi IndiaMART",
       "ratingSrOnly": "4,3 dari 5 bintang",
-      "ratingText": "Rating 4,3/5",
-      "trustSeal": "Pemasok TrustSeal"
+      "ratingText": "Rating 4,3/5"
     },
     "connect": {
       "label": "Terhubung dengan Kami"
@@ -58,12 +55,8 @@
     "descriptionSuffix": "di Google Maps — lihat profil kami, dapatkan petunjuk arah, atau tinggalkan ulasan untuk membantu pembeli lain menemukan kami.",
     "cta": "Lihat di Google"
   },
-  "facilityPhoto": {
-    "caption": "Fasilitas Manufaktur Kami, Shamli, Uttar Pradesh",
-    "alt": "Fasilitas manufaktur Keshav Enterprises — Shamli, Uttar Pradesh"
-  },
+  "facilityPhoto": {},
   "map": {
-    "heading": "Fasilitas Manufaktur Kami — Shamli, Uttar Pradesh",
     "iframeTitle": "Peta lokasi Keshav Enterprises",
     "googleBusinessCta": "Google Bisnis",
     "directionsCta": "Dapatkan Petunjuk Arah"

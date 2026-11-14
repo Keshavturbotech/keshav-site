@@ -26,16 +26,6 @@
     "id": "srv_2",
     "image": "service-overhauling.webp",
     "title": "Anahtar Teslim Revizyon ve Bakım",
-    "desc": "Triveni, Siemens, BHEL, Belliss ve daha fazlasından OEM kökenli mühendisler tarafından yürütülür. Duruş öncesi planlama, sahada durum raporlama, kapsamlı yedek parça yönetimi ve 7/24 acil arıza giderme içerir.",
-    "details": [
-      "Döner ekipmanların detaylı kapsamıyla duruş öncesi planlama",
-      "Eksiklik raporlarıyla stoklu yedek parçaların sahada incelenmesi",
-      "OEM kökenli mühendisler: Triveni, Belliss, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
-      "Tüm boşluklar, aralıklar ve ölçüler kaydedilir",
-      "Her bileşen için önerilerle durum raporu",
-      "Anahtar teslim esas: araç, takım, sarf malzemesi ve işgücü sağlanır",
-      "Birden fazla lokasyonda mühendislerle 7/24 acil müdahale"
-    ],
     "oems": [
       "Triveni",
       "Belliss & Morcom",
@@ -132,7 +122,6 @@
     "id": "srv_7",
     "image": "service-troubleshooting.webp",
     "title": "Arıza Giderme Hizmeti",
-    "desc": "Titreşim, yatak arızası, gövernör kararsızlığı, buhar kaçağı, yağ kontaminasyonu veya beklenmedik tripler yaşayan buhar türbinleri için hızlı sahada arıza teşhisi. OEM kökenli mühendisler, kök neden tespiti ve düzeltici eylem için tam teşhis enstrümantasyonuyla sahaya çıkar.",
     "details": [
       "Yüksek titreşim — dengesizlik, hizasızlık, yatak aşınması, sürtünme teşhisi",
       "Gövernör salınımı, hız kararsızlığı ve aşırı hız trip araştırması",

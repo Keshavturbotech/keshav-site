@@ -1,80 +1,21 @@
 {
   "meta": {
-    "titleTemplate": "Kuhusu Keshav Enterprises — Miaka {years}+ ya Uhandisi wa Turbine",
-    "descriptionTemplate": "Keshav Enterprises — miaka {years}+ ya uhandisi wa turbine za viwandani, uhandisi wa kinyume, na vipuri vinavyoendana na OEM kutoka Shamli, UP, India. Wahandisi wenye uzoefu wa OEM kutoka Triveni, Siemens, BHEL.",
-    "schemaName": "Kuhusu Keshav Enterprises",
-    "schemaDescriptionTemplate": "Keshav Enterprises — miaka {years}+ ya uhandisi wa turbine za viwandani, uhandisi wa kinyume, na utengenezaji wa vipuri vinavyoendana na OEM kutoka Shamli, UP, India."
+    "schemaName": "Kuhusu Keshav Enterprises"
   },
   "hero": {
     "eyebrow": "Hadithi Yetu",
-    "h1Line1": "Miaka {years}+ ya",
-    "h1Span": "Uhandisi Sahihi",
     "quote": "“Hakuna uvumilivu kwa kusimama kwa kiwanda — hii si kauli mbiu. Ni kiwango cha uhandisi ambacho kila mteja anatutegemea nacho.”",
-    "intro": "Mwanzilishi Shekhar Sharma ameanza kufanya kazi moja kwa moja na turbine za mvuke mwaka 1988, akipata uzoefu katika kampuni kadhaa kabla ya kuanzisha ushirikiano huru wa matengenezo ya turbine mwaka 2016. Keshav Enterprises ilianzishwa rasmi Juni 2020, na sasa ni mshirika wa kuaminika wa uhandisi kwa vituo vya umeme, viwanda vya sukari, visafishaji na viwanda vya michakato kote India na duniani, ikiendeleza utaalamu ule ule wa wataalamu wa zamani wa OEM kutoka Triveni, Siemens, BHEL, Man Turbo, KKK na ABB.",
-    "tags": [
-      "Wahandisi Wenye Uzoefu wa OEM",
-      "Usomaji wa Leza wa 3D",
-      "Usahihi wa CMM",
-      "Mwitikio wa 24×7",
-      "Imesajiliwa IEC",
-      "Tayari Kusafirisha",
-      "IndiaMART TrustSeal",
-      "Make in India",
-      "Imesajiliwa MSME"
-    ],
     "ctaServices": "Huduma Zetu",
     "ctaContact": "Wasiliana na Timu ya Uhandisi",
-    "statCards": [
-      {
-        "label": "Miaka ya Biashara",
-        "subTemplate": "Tangu {founded}"
-      },
-      {
-        "label": "Chapa za OEM",
-        "sub": "Triveni · Siemens · BHEL"
-      },
-      {
-        "label": "Turbine ya Juu Zaidi",
-        "sub": "Hadi 60 M.W."
-      },
-      {
-        "label": "Msaada wa Dharura",
-        "sub": "Wahandisi wa maeneo mengi"
-      }
-    ],
     "trustBadges": {
-      "indiamartTitle": "Imethibitishwa na IndiaMART TrustSeal",
       "indiamartSub": "Maoni ya wanunuzi 50+ · kiwango cha 4.3/5",
       "msmeTitle": "Imesajiliwa MSME",
       "msmeSub": "Kampuni Iliyoidhinishwa na Udyam · Serikali ya India"
     }
   },
-  "statsBar": [
-    {
-      "label": "Miaka ya Biashara",
-      "subTemplate": "Tangu {founded}"
-    },
-    {
-      "label": "Chapa za OEM Zinazoshughulikiwa",
-      "sub": "Triveni · Siemens · BHEL"
-    },
-    {
-      "label": "Turbine ya Juu Zaidi Iliyoshughulikiwa",
-      "sub": "Hadi 60 M.W."
-    },
-    {
-      "label": "Mwitikio wa Dharura",
-      "sub": "Wahandisi wa maeneo mengi"
-    }
-  ],
   "overview": {
     "eyebrow": "Sisi ni Nani",
     "heading": "Washirika wa Uhandisi kwa Uti wa Mgongo wa Viwanda vya India",
-    "paragraphs": [
-      "Keshav Enterprises ni kampuni ya uhandisi wa viwanda wa usahihi yenye makao makuu Shamli, Uttar Pradesh. Mwanzilishi Shekhar Sharma amefanya kazi moja kwa moja na turbine za mvuke tangu 1988; uzoefu huo ukawa ushirikiano huru mwaka 2016, na Keshav Enterprises ikaanzishwa rasmi Juni 2020. Tunatoa matengenezo maalum ya turbine, uhandisi wa kinyume na vipuri vinavyooana na OEM kwa wateja kote India na duniani, ikiwemo mauzo ya nje kwenda Nepal na Uganda.",
-      "Timu yetu ya uhandisi inajumuisha wataalamu wenye uzoefu wa zamani wa OEM kutoka Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, na ABB — wakitoa wateja kiwango sawa cha utaalamu wa kiufundi kama watengenezaji wa vifaa asili, kwa sehemu ndogo ya muda na gharama.",
-      "Tunashughulikia turbine za mvuke kutoka 5 kW hadi 60 MW — shinikizo la nyuma na condensing, mlalo na wima, hatua moja na nyingi. Karakhana yetu imewekwa vifaa vya kisomaji cha leza cha 3D, mashine za kupima kuratibu za CMM, mashine za uwiano wa mzunguko (kilo 50–2,000), na mashine za kunoa za CNC sahihi."
-    ],
     "coreCapabilitiesHeading": "Uwezo wa Msingi",
     "coreCapabilitiesList": [
       "Uwekaji wa turbine, uanzishaji, na ukarabati wa huduma kamili",
@@ -110,33 +51,14 @@
         "linkLabel": "Vinjari Bidhaa"
       },
       "rotorInspection": {
-        "caption": "Ukaguzi wa Rota",
-        "desc": "Wahandisi wenye uzoefu wa OEM hupima na kurekodi kila nafasi ya kiufundi, pengo, na kipimo wakati wa ukaguzi — ripoti kamili ya hali kwa kila kazi."
+        "caption": "Ukaguzi wa Rota"
       }
     },
     "browseFullCatalog": "Vinjari Katalogi Kamili ya Bidhaa"
   },
   "values": {
     "eyebrow": "Kinachotusukuma",
-    "heading": "Maadili Yetu ya Msingi",
-    "items": [
-      {
-        "label": "Uadilifu wa Uhandisi",
-        "text": "Kila kipengele, kila nafasi ya kiufundi, kila kipimo kimeandikwa na kuthibitishwa. Hakuna njia za mkato kwenye vifaa vinavyozunguka muhimu kwa usalama."
-      },
-      {
-        "label": "Viwango vya Daraja la OEM",
-        "text": "Wahandisi wenye uzoefu wa OEM kutoka Triveni, Siemens, BHEL, na ABB wanatoa matengenezo kwa kiwango sawa na mtengenezaji asili."
-      },
-      {
-        "label": "Uvumbuzi katika Uhandisi wa Kinyume",
-        "text": "Usomaji wa 3D na upimaji wa PMI hutoa wateja ufikiaji wa vipuri visivyozalishwa tena bila muda wa miezi 12-18 wa OEM."
-      },
-      {
-        "label": "Muda wa Uendeshaji wa Mteja Kwanza",
-        "text": "Tunapima mafanikio kwa upatikanaji wa kiwanda. Mwitikio wa dharura wa 24×7 kwa sababu kusimama hakufuati saa za kazi."
-      }
-    ]
+    "heading": "Maadili Yetu ya Msingi"
   },
   "milestones": {
     "eyebrow": "Safari Yetu",
@@ -171,8 +93,6 @@
   },
   "team": {
     "eyebrow": "Watu Nyuma ya Kazi",
-    "heading": "Utaalamu wa Uhandisi wa Zamani wa OEM",
-    "subheading": "Wahandisi wetu walifunzwa na kupelekwa ndani ya viwanda vya OEM na timu za huduma za uwanjani — si tu kufunzwa kwenye vifaa vya OEM. Tofauti hiyo ndiyo inayoonekana katika ubora wa kila nafasi ya kiufundi iliyorekodiwa.",
     "expSuffix": "uzoefu",
     "namesWithheldNote": "Majina yamefichwa ili kulinda wahandisi wetu kutoka kwa ushawishi wa washindani. Historia ya ajira inayoweza kuthibitishwa inapatikana kwa maswali ya kina.",
     "members": {
@@ -204,9 +124,7 @@
   },
   "oemSection": {
     "eyebrow": "Utaalamu wa OEM",
-    "headingLine1": "Chapa za OEM 10+.",
-    "headingLine2": "Mshirika Mmoja wa Uhandisi.",
-    "sub": "Wahandisi wetu wenye uzoefu wa OEM wana uzoefu wa vitendo na chapa zote kuu za turbine. Hakuna kipindi cha kujifunza. Utaalamu wa kiufundi wenye mamlaka tangu siku ya kwanza."
+    "headingLine2": "Mshirika Mmoja wa Uhandisi."
   },
   "exportSection": {
     "eyebrow": "Tayari Kusafirisha",

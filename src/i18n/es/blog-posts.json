@@ -12,97 +12,7 @@
       "Turbinas de Vapor",
       "Mantenimiento"
     ],
-    "coverImage": "blog-turbine-overhaul.webp",
-    "content": [
-      {
-        "type": "h2",
-        "text": "Por Qué Importa una Lista de Verificación Estructurada"
-      },
-      {
-        "type": "p",
-        "text": "Las paradas no planificadas de turbinas cuestan a las plantas de energía y azucareras de la India lakhs de rupias por hora. Una lista de verificación de revisión general estructurada garantiza que no se omita nada durante las ventanas de mantenimiento planificado — reduciendo el riesgo de fallo temprano tras la nueva puesta en marcha y evitando costosas paradas repetidas."
-      },
-      {
-        "type": "h2",
-        "text": "1. Planificación Previa a la Parada (4–6 Semanas Antes)"
-      },
-      {
-        "type": "p",
-        "text": "Comience con un alcance de trabajo detallado que cubra todo el equipo rotativo del tren. Inspeccione todos los repuestos en stock y genere un informe de faltantes. Solicite los elementos críticos — cojinetes, sellos, empaquetaduras laberínticas, anillos de carbono — con suficiente antelación. Disponga de herramientas especializadas: láser de alineación, analizador de vibración, comparadores de reloj y galgas de espesores."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Confirmar los datos de holgura OEM para todas las etapas de la turbina",
-          "Disponer del equipo de lavado de aceite lubricante (unidad de filtro de centrífuga móvil)",
-          "Reservar ingenieros ex-OEM si se requiere para una revisión general mayor",
-          "Preparar lecturas de referencia de monitoreo de condición (vibración, temperatura, presión)"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "2. Parada y Aislamiento"
-      },
-      {
-        "type": "p",
-        "text": "Siga el procedimiento de parada especificado por el OEM. Permita un tiempo de enfriamiento adecuado antes de abrir cualquier brida. Bloquee y etiquete todas las fuentes de energía, incluidos vapor, aceite lubricante, condensado y aire de control. Drene completamente el sistema de aceite lubricante antes del desmontaje."
-      },
-      {
-        "type": "h2",
-        "text": "3. Desmontaje e Inspección"
-      },
-      {
-        "type": "p",
-        "text": "Registre todas las holguras, huelgos y ajustes antes de retirar los componentes — son esenciales para la comparación con la especificación OEM y para detectar tendencias de desgaste. Fotografíe cada etapa. Mida la excentricidad del rotor en el muñón, el collarín de empuje y las caras de acoplamiento."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Holguras de cojinetes (radiales y axiales)",
-          "Holguras diametrales del sello laberíntico",
-          "Desplazamiento y angularidad de la alineación del acoplamiento",
-          "Estado de la cara del anillo de carbono y tensión del resorte",
-          "Estado de la tobera y el diafragma y dimensiones de la garganta",
-          "Estado del asiento y disco de la válvula de parada de emergencia"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "4. Reparaciones y Sustituciones en Taller"
-      },
-      {
-        "type": "p",
-        "text": "Envíe el rotor para rectificado de muñones y equilibrado dinámico si las lecturas de excentricidad o vibración estaban fuera de tolerancia. Sustituya los anillos de empaquetadura de carbono y grafito, las empaquetaduras laberínticas y los cojinetes babbitt según el informe de estado. Todo el equilibrado de rotores debe realizarse según las normas ISO 21940-11 (formerly ISO 1940)."
-      },
-      {
-        "type": "h2",
-        "text": "5. Reensamblaje y Alineación"
-      },
-      {
-        "type": "p",
-        "text": "Reensamble en orden inverso con juntas nuevas y el par de apriete de los elementos de fijación según las especificaciones OEM. Realice la alineación final del rotor utilizando equipo de alineación láser — turbina a caja de engranajes y caja de engranajes a generador. Registre todas las holguras después del ensamblaje y confirme que están dentro de la tolerancia OEM."
-      },
-      {
-        "type": "h2",
-        "text": "6. Lavado de Aceite Lubricante"
-      },
-      {
-        "type": "p",
-        "text": "Antes de la puesta en marcha, lave el sistema de aceite lubricante con un sistema de filtro de centrífuga móvil orientado a la clase de limpieza ISO 4406 16/14/11 o mejor. Tome muestras de aceite antes y después del lavado y conserve los informes. Nunca ponga en marcha una turbina sin completar un lavado de aceite — los fallos de cojinetes por aceite contaminado representan una parte significativa de los fallos posteriores a la revisión general."
-      },
-      {
-        "type": "h2",
-        "text": "7. Puesta en Marcha y Primera Operación"
-      },
-      {
-        "type": "p",
-        "text": "Siga el procedimiento previo a la puesta en marcha del OEM paso a paso. Monitoree continuamente la vibración, las temperaturas de los cojinetes y la presión del aceite lubricante durante el primer arranque. Confirme el funcionamiento de la válvula de parada de emergencia y del regulador. Ajuste la alineación con precisión si los niveles de vibración están elevados. Documente todas las lecturas de puesta en marcha para el registro de mantenimiento de la planta."
-      },
-      {
-        "type": "cta",
-        "text": "¿Necesita ingenieros expertos en revisión general para su próxima parada planificada? Nuestro equipo ex-OEM cubre Triveni, Siemens, BHEL, Belliss & Morcom y más."
-      }
-    ]
+    "coverImage": "blog-turbine-overhaul.webp"
   },
   "post_2": {
     "id": "post_2",
@@ -271,7 +181,6 @@
     "id": "post_4",
     "slug": "belliss-morcom-turbine-common-faults-india",
     "title": "Fallos Comunes de Turbinas Belliss & Morcom — Guía de Campo para Plantas Indias",
-    "excerpt": "Las turbinas de vapor Belliss & Morcom se usan ampliamente en ingenios azucareros y plantas de cogeneración indias. Estos son los fallos más comunes que encuentran nuestros ingenieros ex-OEM y cómo diagnosticarlos y repararlos.",
     "date": "2026-03-18",
     "author": "Equipo de Ingeniería de Keshav Enterprises",
     "readTime": "8 min de lectura",

@@ -9,17 +9,17 @@ import { CONTACT_INFO } from "../data/site-config";
 
 const DIGITAL_PROFILES = [
   {
-    name: "Google Business",
+    name: "Google Business Profile",
     href: CONTACT_INFO.googleBusiness,
-    badge: "Verified",
+    badge: "",
     badgeColor: "#1a56db",
     badgeBg: "#e8f0fe",
     imgSrc: "google-business.webp",
   },
   {
-    name: "IndiaMART",
+    name: "IndiaMART (TrustSeal)",
     href: CONTACT_INFO.indiamart,
-    badge: "4.3★ TrustSeal",
+    badge: "",
     badgeColor: "#b45309",
     badgeBg: "#fef3c7",
     imgSrc: "indiamart.webp",
@@ -27,15 +27,15 @@ const DIGITAL_PROFILES = [
   {
     name: "TradeIndia",
     href: CONTACT_INFO.tradeindia,
-    badge: "Verified Supplier",
+    badge: "",
     badgeColor: "#1e40af",
     badgeBg: "#dbeafe",
     imgSrc: "tradeindia.webp",
   },
   {
-    name: "ExporterIndia",
+    name: "ExportersIndia",
     href: CONTACT_INFO.exportersindia,
-    badge: "Export Ready",
+    badge: "",
     badgeColor: "#166534",
     badgeBg: "#dcfce7",
     imgSrc: "exportersindia.webp",
@@ -43,7 +43,7 @@ const DIGITAL_PROFILES = [
   {
     name: "JustDial",
     href: CONTACT_INFO.justdial,
-    badge: "Local Verified",
+    badge: "",
     badgeColor: "#9a3412",
     badgeBg: "#ffedd5",
     imgSrc: "justdial.webp",
@@ -57,17 +57,16 @@ const DIGITAL_PROFILES = [
 >
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <p class="text-xs font-black text-blue-600 uppercase tracking-[0.25em] mb-3">
-      Find Us Everywhere
+      Find Us Online
     </p>
     <h2
       id="digital-profiles-heading"
       class="text-2xl md:text-3xl font-black text-slate-900 tracking-tight mb-4"
     >
-      Verified Across India's Top Business Directories
+      Find us on
     </h2>
     <p class="text-slate-500 font-medium text-sm max-w-xl mx-auto mb-10">
-      Our business profile is listed and active on major B2B and local search platforms in
-      India.
+      Our business profiles on Google, IndiaMART, TradeIndia, ExportersIndia and JustDial.
     </p>
     <div class="flex flex-wrap justify-center gap-4">
       {
@@ -75,7 +74,7 @@ const DIGITAL_PROFILES = [
           <a
             href={p.href}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener nofollow"
             class="flex items-center gap-3 bg-white border border-slate-200 rounded-xl px-5 py-3.5 hover:border-blue-300 hover:shadow-md transition-all group"
           >
             <div class="w-9 h-9 rounded-lg bg-slate-100 border border-slate-200 flex items-center justify-center shrink-0 overflow-hidden">
@@ -108,9 +107,11 @@ const DIGITAL_PROFILES = [
                   />
                 </svg>
               </p>
-              <p class="text-[11px] font-bold" style={`color:${p.badgeColor}`}>
-                {p.badge}
-              </p>
+              {p.badge && (
+                <p class="text-[11px] font-bold" style={`color:${p.badgeColor}`}>
+                  {p.badge}
+                </p>
+              )}
             </div>
           </a>
         ))

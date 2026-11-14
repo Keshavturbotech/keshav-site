@@ -26,16 +26,6 @@
     "id": "srv_2",
     "image": "service-overhauling.webp",
     "title": "Overhaul & Perawatan Turnkey",
-    "desc": "Dikerjakan oleh insinyur eks-OEM dari Triveni, Siemens, BHEL, Belliss, dan lainnya. Termasuk perencanaan pra-shutdown, pelaporan kondisi di lokasi, manajemen suku cadang komprehensif, dan penanganan darurat 24×7.",
-    "details": [
-      "Perencanaan pra-shutdown dengan lingkup detail peralatan berputar",
-      "Inspeksi di lokasi terhadap stok suku cadang dengan laporan kekurangan",
-      "Insinyur eks-OEM: Triveni, Belliss, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
-      "Semua celah, jarak dan ukuran diukur dan dicatat",
-      "Laporan kondisi dengan rekomendasi untuk setiap komponen",
-      "Basis turnkey: alat, perkakas, consumable & tenaga kerja disediakan",
-      "Respons darurat 24×7 dengan insinyur di berbagai lokasi"
-    ],
     "oems": [
       "Triveni",
       "Belliss & Morcom",
@@ -132,7 +122,6 @@
     "id": "srv_7",
     "image": "service-troubleshooting.webp",
     "title": "Layanan Troubleshooting",
-    "desc": "Diagnosis kesalahan di lokasi yang cepat untuk turbin uap yang mengalami getaran, kegagalan bearing, ketidakstabilan governor, kebocoran uap, kontaminasi oli, atau trip tak terduga. Insinyur eks-OEM turun dengan instrumentasi diagnostik lengkap untuk identifikasi akar masalah dan tindakan korektif.",
     "details": [
       "Getaran tinggi — diagnosis ketidakseimbangan, ketidaksejajaran, keausan bearing, gesekan",
       "Investigasi governor hunting, ketidakstabilan kecepatan & trip overspeed",

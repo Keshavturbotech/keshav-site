@@ -84,14 +84,16 @@
           "Tailles standard de CTA en stock ; dimensions sur mesure sur demande",
           "Préfiltre à maille métallique également disponible pour le premier étage"
         ]
+      },
+      {
+        "name": "Silencieux pour Turbines à Vapeur (Purge et Soupape de Sûreté)",
+        "purpose": "Atténue le bruit des sorties de soupapes de sûreté, des purges de démarrage de turbine et des lignes de décharge d'échappement dans les centrales thermiques, de cogénération et captives, pour rester dans les limites de bruit du site.",
+        "features": [
+          "Diffuseur et absorbant, dimensionnés selon votre débit de vapeur et votre objectif en dB(A)",
+          "Acier au carbone ou SS 304 / 316, jusqu'à env. 540°C",
+          "Unités de remplacement pour silencieux existants corrodés ou bruyants"
+        ]
       }
-    ],
-    "keyFacts": [
-      "Capacité de turbine maximale traitée : 60 MW",
-      "Plus de {years} ans d'expérience d'ingénierie formée par les OEM",
-      "Produits conformes API 614 et ISO 4406",
-      "Fourniture de filtres HVAC pour salles de contrôle et halls de turbines",
-      "Assistance d'urgence 24h/24 et 7j/7"
     ]
   },
   "ind_2": {
@@ -168,6 +170,15 @@
           "Équilibrage dynamique jusqu'à ISO 1940/1 G1.0",
           "Équilibrage à deux plans sur tous types de rotors",
           "Certificat d'équilibrage délivré avec rapport de travail"
+        ]
+      },
+      {
+        "name": "Silencieux pour Turbines à Vapeur (Purge et Soupape de Sûreté)",
+        "purpose": "Monté sur les évents de décharge d'échappement des turbines à contre-pression et sur les sorties de soupapes de sûreté, afin que les rejets de vapeur lors des déclenchements en campagne ou des perturbations du collecteur ne posent pas de problème de bruit.",
+        "features": [
+          "Diffuseur et absorbant, dimensionnés selon votre débit de vapeur et votre objectif en dB(A)",
+          "Acier au carbone ou SS 304 / 316, jusqu'à env. 540°C",
+          "Unités de remplacement pour silencieux existants corrodés ou bruyants"
         ]
       }
     ],
@@ -253,6 +264,15 @@
           "Certificats matériaux fournis",
           "Rapport d'inspection dimensionnelle MMT"
         ]
+      },
+      {
+        "name": "Silencieux pour Turbines à Vapeur (Purge et Soupape de Sûreté)",
+        "purpose": "Atténue le bruit des purges de vapeur des turbines et chaudières sur les réseaux vapeur de l'usine, en réduisant le bruit dans la salle des machines et les zones de process voisines lors des démarrages, déclenchements et levées de soupapes.",
+        "features": [
+          "Diffuseur et absorbant, dimensionnés selon votre débit de vapeur et votre objectif en dB(A)",
+          "Acier au carbone ou SS 304 / 316, jusqu'à env. 540°C",
+          "Unités de remplacement pour silencieux existants corrodés ou bruyants"
+        ]
       }
     ],
     "keyFacts": [
@@ -282,6 +302,12 @@
         "title": "Approvisionnement rapide sur sites éloignés",
         "desc": "Les plateformes offshore et installations amont éloignées nécessitent un approvisionnement rapide en pièces détachées. Les pièces critiques sont stockées et expédiées le jour même sur commande d'urgence."
       }
+    ],
+    "keyFacts": [
+      "Produits conformes API 614 et IS27",
+      "Paliers en régule pour tous les principaux OEM",
+      "Expédition d'urgence le jour même disponible",
+      "Cuves sous pression homologuées code ASME"
     ],
     "products": [
       {
@@ -338,12 +364,6 @@
           "Sorties relais d'alerte et de danger"
         ]
       }
-    ],
-    "keyFacts": [
-      "Produits conformes API 614 et IS27",
-      "Paliers en régule pour tous les principaux OEM",
-      "Expédition d'urgence le jour même disponible",
-      "Cuves sous pression homologuées code ASME"
     ]
   },
   "ind_5": {
@@ -420,6 +440,15 @@
           "Conception de poussée de pression annulée par tirants",
           "Réduit la charge de tuyère à quasi zéro",
           "Disponible en configurations liées et non liées"
+        ]
+      },
+      {
+        "name": "Silencieux pour Turbines à Vapeur (Purge et Soupape de Sûreté)",
+        "purpose": "Atténue le bruit des purges de vapeur et des sorties de soupapes de sûreté sur les unités entraînées par turbine et les réseaux vapeur utilités, en acier au carbone ou SS selon les conditions de vapeur.",
+        "features": [
+          "Diffuseur et absorbant, dimensionnés selon votre débit de vapeur et votre objectif en dB(A)",
+          "Acier au carbone ou SS 304 / 316, jusqu'à env. 540°C",
+          "Unités de remplacement pour silencieux existants corrodés ou bruyants"
         ]
       }
     ],
@@ -698,6 +727,15 @@
           "Adapté OEM pour systèmes d'huile de lubrification de turbine BHEL — groupes TG classe 100 MW, 200 MW, 210 MW, 250 MW, 500 MW",
           "Compatible avec les boîtiers de filtre d'huile de lubrification duplex BHEL — remplacement direct sans modification de boîtier",
           "Finesse de filtration : 10, 25, 40 µm (classé ISO 16889) ; plus fine sur demande pour la protection de servosystème"
+        ]
+      },
+      {
+        "name": "Silencieux pour Turbines à Vapeur (Purge et Soupape de Sûreté)",
+        "purpose": "Atténue le bruit des purges de vapeur et des sorties de soupapes de sûreté sur les groupes turbo-alternateurs captifs et les lignes vapeur des cimenteries et aciéries, en acier au carbone ou SS.",
+        "features": [
+          "Diffuseur et absorbant, dimensionnés selon votre débit de vapeur et votre objectif en dB(A)",
+          "Acier au carbone ou SS 304 / 316, jusqu'à env. 540°C",
+          "Unités de remplacement pour silencieux existants corrodés ou bruyants"
         ]
       }
     ],

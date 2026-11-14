@@ -10,7 +10,6 @@
     "duration": "12 hari",
     "scope": "Overhaul turnkey lengkap: pelepasan rotor, penggantian bearing, pemesinan seal labirin, penyeimbangan dinamis rotor (ISO 1940 G2.5), pembersihan oli pelumas, dan komisioning.",
     "challenge": "Turbin telah beroperasi dengan getaran tinggi (>6 mm/s) selama dua musim. Rumah bearing menunjukkan keausan fretting dan rotor memiliki runout 1× yang persisten yang belum teratasi oleh perawatan sebelumnya.",
-    "solution": "Insinyur eks-OEM Triveni membongkar unit dan menemukan journal retak di sisi drive. Journal dikecilkan ukurannya, babbitt baru dituang dan dikerok, labirin dikerjakan di bengkel kami, dan rotor diseimbangkan secara dinamis hingga <0,5 g·mm ketidakseimbangan sisa. Getaran pasca-komisioning: 1,8 mm/s.",
     "outcomes": [
       "Getaran turun dari 6,4 mm/s menjadi 1,8 mm/s",
       "Suhu logam bearing turun 14 °C",

@@ -84,14 +84,16 @@
           "Standard-RLT-Größen vorrätig; kundenspezifisch auf Anfrage",
           "Metallnetz-Vorfilter für erste Stufe ebenfalls erhältlich"
         ]
+      },
+      {
+        "name": "Dampfturbinen-Schalldämpfer (Abblase- & Sicherheitsventil)",
+        "purpose": "Dämpft Sicherheitsventilauslässe, Anfahr-Entlüftungen und Abdampf-Entlastungsleitungen in Wärme-, KWK- und Eigenstromkraftwerken und hält den Abblaselärm innerhalb der Standortgrenzwerte.",
+        "features": [
+          "Diffusor plus Absorption, ausgelegt auf Ihre Dampfmenge und Ihr dB(A)-Ziel",
+          "Kohlenstoffstahl oder SS 304 / 316, bis ca. 540°C",
+          "Ersatzeinheiten für korrodierte oder laute Bestandsschalldämpfer"
+        ]
       }
-    ],
-    "keyFacts": [
-      "Maximale betreute Turbinenleistung: 60 MW",
-      "{years}+ Jahre OEM-geschulte Ingenieurerfahrung",
-      "Produkte nach API 614 und ISO 4406",
-      "Lieferung von HVAC-Filtern für Leitstände und Turbinenhäuser",
-      "24×7-Notfallunterstützung"
     ]
   },
   "ind_2": {
@@ -168,6 +170,15 @@
           "Dynamisches Auswuchten nach ISO 1940/1 G1.0",
           "Zweiebenen-Auswuchtung für alle Rotortypen",
           "Auswuchtzertifikat mit Servicebericht ausgestellt"
+        ]
+      },
+      {
+        "name": "Dampfturbinen-Schalldämpfer (Abblase- & Sicherheitsventil)",
+        "purpose": "Eingebaut an Abdampf-Entlastungsleitungen von Gegendruckturbinen und an Sicherheitsventilauslässen, damit Dampfabgaben bei Abschaltungen in der Kampagne oder Netzstörungen kein Lärmproblem werden.",
+        "features": [
+          "Diffusor plus Absorption, ausgelegt auf Ihre Dampfmenge und Ihr dB(A)-Ziel",
+          "Kohlenstoffstahl oder SS 304 / 316, bis ca. 540°C",
+          "Ersatzeinheiten für korrodierte oder laute Bestandsschalldämpfer"
         ]
       }
     ],
@@ -253,6 +264,15 @@
           "Materialzertifikate mitgeliefert",
           "Maßprüfbericht per KMG"
         ]
+      },
+      {
+        "name": "Dampfturbinen-Schalldämpfer (Abblase- & Sicherheitsventil)",
+        "purpose": "Dämpft Turbinen- und Kessel-Dampfabblasungen in Werksdampfsystemen und senkt den Lärm im Kraftwerk und in angrenzenden Prozessbereichen bei Anfahren, Abschaltungen und Ansprechen von Sicherheitsventilen.",
+        "features": [
+          "Diffusor plus Absorption, ausgelegt auf Ihre Dampfmenge und Ihr dB(A)-Ziel",
+          "Kohlenstoffstahl oder SS 304 / 316, bis ca. 540°C",
+          "Ersatzeinheiten für korrodierte oder laute Bestandsschalldämpfer"
+        ]
       }
     ],
     "keyFacts": [
@@ -282,6 +302,12 @@
         "title": "Schnelle Belieferung entlegener Standorte",
         "desc": "Offshore-Plattformen und entlegene Upstream-Anlagen benötigen schnelle Ersatzteillieferung. Kritische Teile werden auf Lager gehalten und bei Notfallbestellungen taggleich versandt."
       }
+    ],
+    "keyFacts": [
+      "Produkte nach API 614 und IS27",
+      "Weißmetalllager für alle wichtigen OEMs",
+      "Taggleicher Notfallversand verfügbar",
+      "Druckbehälter mit ASME-Codesiegel"
     ],
     "products": [
       {
@@ -338,12 +364,6 @@
           "Warn- und Gefahren-Relaisausgänge"
         ]
       }
-    ],
-    "keyFacts": [
-      "Produkte nach API 614 und IS27",
-      "Weißmetalllager für alle wichtigen OEMs",
-      "Taggleicher Notfallversand verfügbar",
-      "Druckbehälter mit ASME-Codesiegel"
     ]
   },
   "ind_5": {
@@ -420,6 +440,15 @@
           "Zugstangen-eliminiertes Druckschubdesign",
           "Reduziert Stutzenlasten auf nahezu null",
           "Verfügbar in verspannten und unverspannten Konfigurationen"
+        ]
+      },
+      {
+        "name": "Dampfturbinen-Schalldämpfer (Abblase- & Sicherheitsventil)",
+        "purpose": "Dämpft Dampfabblasungen und Sicherheitsventilauslässe an turbinengetriebenen Anlagen und Hilfsdampfsystemen, lieferbar in Kohlenstoffstahl oder SS passend zu den Dampfbedingungen.",
+        "features": [
+          "Diffusor plus Absorption, ausgelegt auf Ihre Dampfmenge und Ihr dB(A)-Ziel",
+          "Kohlenstoffstahl oder SS 304 / 316, bis ca. 540°C",
+          "Ersatzeinheiten für korrodierte oder laute Bestandsschalldämpfer"
         ]
       }
     ],
@@ -698,6 +727,15 @@
           "OEM-passend für BHEL-Turbinenschmierölsysteme – TG-Sätze der Klasse 100 MW, 200 MW, 210 MW, 250 MW, 500 MW",
           "Kompatibel mit BHEL-Duplex-Schmierölfiltergehäusen – Direktaustausch ohne Gehäuseänderung",
           "Filtrationsfeinheit: 10, 25, 40 µm (ISO-16889-bewertet); feiner auf Anfrage zum Schutz von Servosystemen"
+        ]
+      },
+      {
+        "name": "Dampfturbinen-Schalldämpfer (Abblase- & Sicherheitsventil)",
+        "purpose": "Dämpft Dampfabblasungen und Sicherheitsventilauslässe an Eigenstrom-Turbosätzen und Dampfleitungen in Zement- und Stahlwerken, lieferbar in Kohlenstoffstahl oder SS.",
+        "features": [
+          "Diffusor plus Absorption, ausgelegt auf Ihre Dampfmenge und Ihr dB(A)-Ziel",
+          "Kohlenstoffstahl oder SS 304 / 316, bis ca. 540°C",
+          "Ersatzeinheiten für korrodierte oder laute Bestandsschalldämpfer"
         ]
       }
     ],

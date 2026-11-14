@@ -4,10 +4,10 @@ This file contains the complete text content of keshavturbotech.com for AI/LLM c
 
 Company: Keshav Enterprises, Dayanand Nagar Gali No.2, Near Subash Ki Chakki, Shamli – 247776, U.P., India
 History: Founder Shekhar Sharma has worked hands-on with steam turbines since 1988 (38+ years of engineering experience); he started an independent turbine maintenance partnership in 2016, and Keshav Enterprises was formally established in June 2020.
-Scale: 8 services, 7 industries, 125 products in 10 categories, 8 case studies, 8 blog articles, more than 500 overhauls completed
+Scale: 8 services, 7 industries, 126 products in 10 categories, 8 case studies, 8 blog articles, more than 500 overhauls completed
 Turbine range: 5 kW to 60 MW
 GST: 09BOSPS3115K1ZC | MSME/Udyam: UDYAM-UP-47-0071234 | IEC: BOSPS3115K
-Phone: +91 9149229448, +91 6397363268
+Phone: +91 6397363268
 Email: sales.ksengg007@gmail.com, info.ksengg007@gmail.com
 OEM coverage: Triveni, Siemens, BHEL, Belliss & Morcom, Maxwatt, Man Turbo, Chola Turbo, DLF-Skoda, KKK, ABB
 Languages: English (root) plus /hi, /mr, /gu, /ar, /fr, /ne, /es, /pt, /ru, /de, /zh-cn, /id, /th, /vi, /tr, /sw
@@ -417,7 +417,7 @@ Key challenges addressed:
 
 
 
-## PRODUCT CATALOGUE (125 products in 10 categories)
+## PRODUCT CATALOGUE (126 products in 10 categories)
 
 ### Industrial Filtration (30 products)
 
@@ -503,7 +503,7 @@ Key challenges addressed:
 - **Spiral Wound Gaskets (SWG): ASME B16.20** (https://keshavturbotech.com/products/spiral-wound-gaskets-swg-asme-b16-20) [SKU KTB-VG-001]: Spiral wound metallic gaskets to ASME B16.20 for raised face (RF), tongue & groove (T&G), and male & female flanged joints across all pressure classes. Constructed from alternating layers of pre-formed metal strip (SS 304/316/321 or special alloy) and soft filler material (flexible graphite or PTFE), with carbon steel or SS centering/outer ring and optional solid metal inner ring. Supplied for all NPS sizes from ½" to 60" (DN 15 to DN 1500) across ASME Class 150 to 2500: the industry standard gasket for turbine casing joints, steam inlet flanges, steam piping, heat exchanger nozzles, and pressure vessel joints. Availability: Made to Order, lead time 2–6 weeks.
 - **Ring Joint Gaskets (RTJ), Oval & Octagonal: ASME B16.20** (https://keshavturbotech.com/products/ring-joint-gaskets-rtj-oval-and-octagonal-asme-b16-20) [SKU KTB-VG-002]: Solid metallic ring joint gaskets (RTJ) in oval and octagonal cross-sections to ASME B16.20 for ring type joint (RTJ) flanges in ASME Class 150 to 2500 and API 6A / 6B / 6BX. Precision-machined from solid bar stock (CS, SS 304/316, Duplex, Monel, Inconel, and soft iron/low-carbon steel) to R, RX, and BX ring groove profiles. Essential sealing component for high-pressure steam turbine flanges (Class 600, 900, 1500), high-pressure valve bonnet joints, wellhead equipment, and any application where raised face gaskets are inadequate due to pressure or temperature. Availability: Made to Order, lead time 2–6 weeks.
 
-### Turbine Spares (33 products)
+### Turbine Spares (34 products)
 
 - **Steam Turbine Carbon & Graphite Gland Sealing Rings** (https://keshavturbotech.com/products/carbon-and-graphite-gland-sealing-rings) [SKU KTB-TS-001]: Precision machined carbon and graphite seal rings for steam turbine gland sealing. Self-lubricating material maintains tight clearances at extreme temperatures. Bore size range 25–600 mm; compatible with Triveni, BHEL, Siemens gland sealing systems. Split ring designs available for in-situ fitting without rotor removal. Availability: Made to Order, lead time 2–6 weeks.
 - **Steam Turbine Labyrinth Shaft Sealing Packings** (https://keshavturbotech.com/products/labyrinth-shaft-sealing-packings) [SKU KTB-TS-002]: Custom manufactured labyrinth seal segments and packings for steam turbine shaft sealing. High-temperature alloy with erosion-resistant teeth machined to OEM tight-clearance specifications. Typical diametral clearance 0.2–0.6 mm per OEM; spring-back (retractable) seals reduce outage time versus fixed designs. Compatible with Triveni, BHEL, Siemens, Belliss & Morcom, and KKK turbines. Availability: Made to Order, lead time 2–6 weeks.
@@ -538,6 +538,7 @@ Key challenges addressed:
 - **Steam Turbine Overspeed Trip Device & Speed Switch** (https://keshavturbotech.com/products/overspeed-trip-device-and-speed-switch) [SKU KTB-TS-037]: Overspeed trip devices and speed switches for steam turbine protection against catastrophic runaway. Mechanical overspeed trip assemblies use a centrifugal unbalanced plunger or eccentric pin mounted in the turbine shaft: when shaft speed exceeds the trip threshold (typically 110–112% of rated speed), centrifugal force overcomes the pre-set spring force, the plunger protrudes and strikes a trip lever, dumping the hydraulic trip oil header and closing the Emergency Stop Valve (ESV) instantly. Electronic overspeed trip units use magnetic pickup sensors (MPUs) and a speed monitoring relay to provide independent, SIL-rated trip output. Supplied as OEM-matched replacement assemblies or as upgraded electronic trip units for older mechanically governed turbines. Availability: Made to Order, lead time 2–6 weeks.
 - **Steam Turbine Lube Oil DP & Temperature Switches** (https://keshavturbotech.com/products/dp-and-temperature-switches-turbine-lube-oil-monitoring) [SKU KTB-TS-038]: Differential pressure (DP) switches and temperature switches for condition monitoring of turbine lube oil filter housings, duplex filter changeover panels, heat exchangers, and process pipelines. DP switches signal filter element blockage by detecting the rising pressure differential across a clogged element: enabling planned maintenance before element bypass occurs and unfiltered oil reaches turbine bearings. Temperature switches provide high/low alarm and trip outputs for lube oil temperature, bearing metal temperature, and process stream temperature monitoring. Availability: Made to Order, lead time 2–6 weeks.
 - **Leaf Springs for Steam Turbine Labyrinth Gland Seals** (https://keshavturbotech.com/products/leaf-springs-for-turbine-labyrinth-gland-seals) [SKU KTB-TS-039]: Precision leaf springs that preload spring-back (retractable) labyrinth gland seal segments against the turbine shaft, maintaining minimum sealing clearance during normal running while allowing the segment to retract radially during rotor excursions: reducing rub damage and outage time compared to fixed, caulked-in labyrinth packings. Supplied in spring steel for standard gland temperatures and Inconel X-750 for high-temperature stages where steel springs relax and lose preload over time. Availability: Made to Order, lead time 2–6 weeks.
+- **Steam Turbine Silencers: Vent, Exhaust & Safety Valve** (https://keshavturbotech.com/products/steam-turbine-silencers) [SKU KTB-TS-040]: Steam vent, exhaust and safety valve silencers that cut the noise of high-pressure steam discharging to atmosphere from steam turbine installations: back-pressure turbine exhaust relief vents, start-up and warm-up vents, turbine inlet and extraction safety valve outlets, and steam blowing during commissioning. Each silencer is designed and fabricated by us to the client's requirement, combining a multi-hole diffuser stage that slows and spreads the steam jet with an absorptive packed section, sized to the application's steam flow, pressure, temperature and the dB(A) limit required at your reference distance. Supplied in carbon steel, or in stainless steel with an alloy-steel inlet for superheated steam. Availability: Made to Order, lead time 2–6 weeks.
 
 ### Industrial Rubber Products (1 products)
 

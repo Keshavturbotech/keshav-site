@@ -5792,7 +5792,6 @@
     "id": "prod_ee1",
     "sku": "KTB-EE-001",
     "category": "Electronic Equipment",
-    "title": "Đầu dò giám sát rung động (tương thích Shinkawa)",
     "images": [
       "vibration-probe-shinkawa-1.webp",
       "vibration-probe-shinkawa-2.webp",
@@ -5819,8 +5818,31 @@
       "color": "amber",
       "leadTime": "1–4 weeks"
     },
-    "desc": "Đầu dò tiệm cận dòng điện xoáy Shinkawa FK / VK chính hãng, cáp nối dài và bộ điều khiển (driver) để giám sát rung động và lực đẩy dọc trục của tuabin hơi, hộp số và máy phát điện xoay chiều. Có sẵn hàng tại Shamli, UP.",
     "usage": "Đo không tiếp xúc rung động hướng kính của trục, vị trí dọc trục (lực đẩy), độ lệch tâm, tốc độ quay và tham chiếu pha (Keyphasor) trên tuabin hơi, tổ máy phát tuabin, hộp số, máy nén, bơm cấp nước lò hơi và quạt lớn. Cấp tín hiệu cho bộ giám sát Shinkawa VM-5 / VM-7 / VM-25, các giá giám sát kiểu API 670 khác và đầu vào DCS hoặc PLC.",
+    "specs": {
+      "Series": "FK (hiện hành) và VK (cũ). Bộ truyền 2 dây WK/WKN và cảm biến vỏ máy CV/CA nằm ở các mục riêng",
+      "Measurement Principle": "Đo dịch chuyển dòng điện xoáy không tiếp xúc",
+      "System": "Cảm biến FL + cáp nối dài FW + bộ điều khiển FK (bộ đồng bộ)",
+      "Sensor (FL-202F)": "FL-202F05: đầu 5 mm, cáp 2.7 mm; FL-202F08: đầu 8 mm, cáp 3.6 mm; FL-202F08R: 8 mm lắp ngược. Kiểu L / A / T (không giáp / có giáp / có giáp phủ nhựa fluor)",
+      "Extension Cable (FW-202F)": "Kiểu L / A / T; khoảng 4.5 m (hệ 5 m) hoặc 8.5 m (hệ 9 m); -40 đến +177 °C",
+      "Connector": "Đường kính khoảng 7.1 mm; giữ tránh dầu; cách điện bằng ống co nhiệt hoặc băng nhựa fluor",
+      "System Cable Length": "5 m hoặc 9 m (cảm biến 5 m chỉ dùng trong hệ 5 m)",
+      "Driver (FK-202F)": "-24 V DC +/-10%, tối đa 15 mA; trở kháng ra 50 ohm; khoảng -0.6 V khi lỗi cảm biến; khoảng 200 g",
+      "Driver Mounting Options": "Ray DIN 35 mm; lắp vít 50.8 x 50.8 mm; lắp vít 92 x 31 mm (thay VK); nhiều bước",
+      "Driver Terminals": "Cầu đấu vít M4 hoặc đầu nối lò xo",
+      "Reference Model (FK-202F)": "Dải 0.25 đến 2.25 mm tính từ đầu cảm biến, hệ số 7.87 V/mm, DC đến 10 kHz (-3 dB)",
+      "Temperature": "Cảm biến và cáp nối dài -40 đến +177 °C; bộ điều khiển -40 đến +80 °C",
+      "Calibration Target": "Thép tấm JIS SCM440 (loại 4140); vật liệu khác theo yêu cầu",
+      "Hazardous Area Options": "Biến thể FK an toàn nội tại: DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (theo mã mẫu)",
+      "2-Wire Transmitter Option": "Bộ truyền Shinkawa WK / WKN 4-20 mA, xem mục riêng",
+      "Typical Steam Turbine Use": "Đầu dò hướng kính XY tại mỗi ổ đỡ, 2 đến 3 đầu dò dọc trục tại vòng đệm chặn, 1 đầu dò Keyphasor, đầu dò lệch tâm tại ổ trước",
+      "Typical Gearbox Use": "Đầu dò hướng kính XY tại ổ trục bánh răng chủ động tốc độ cao và bánh bị động tốc độ thấp, đầu dò dọc trục cho lực đẩy bánh răng chủ động",
+      "Typical Alternator Use": "Đầu dò hướng kính XY tại ổ phía truyền động và phía đối diện, tham chiếu tốc độ và pha",
+      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, các hệ thống khác nhận bộ điều khiển tiệm cận -24 V DC, DCS/PLC qua bộ điều hòa tín hiệu",
+      "Brand": "Shinkawa Electric (chính hãng)"
+    },
+    "title": "Đầu dò giám sát rung động (tương thích Shinkawa)",
+    "desc": "Đầu dò tiệm cận dòng điện xoáy Shinkawa FK / VK chính hãng, cáp nối dài và bộ điều khiển (driver) để giám sát rung động và lực đẩy dọc trục của tuabin hơi, hộp số và máy phát điện xoay chiều. Có sẵn hàng tại Shamli, UP.",
     "features": [
       "Hệ thống đầu đo Shinkawa chính hãng gồm ba phần đồng bộ: cảm biến FL (đầu dò), cáp nối dài FW và bộ điều khiển FK. Ba phần được hiệu chuẩn cùng nhau như một vòng đo, nên khi thay một phần cần thay cả cảm biến, cáp và bộ điều khiển thành một bộ",
       "Có dòng FK (dòng hiện hành) và dòng VK (lắp đặt cũ). Bộ điều khiển FK đi kèm tấm lắp để thay trực tiếp bộ điều khiển VK; đo giãn nở chênh lệch vẫn dùng dòng VK",
@@ -5841,37 +5863,28 @@
       "Hỗ trợ cải tạo: gửi nhãn cũ (VK-202A1, VK-202A2, FK-202F, v.v.) kèm chiều dài cảm biến, chúng tôi sẽ chọn đúng sản phẩm thay thế",
       "Hệ thống thiết kế theo API 670 để bảo vệ máy; dòng FK tuân thủ RoHS",
       "Tên thương hiệu và mẫu mã là nhãn hiệu của chủ sở hữu tương ứng và chỉ dùng để nhận diện. Keshav Enterprises là nhà cung cấp độc lập."
-    ],
-    "specs": {
-      "Brand": "Shinkawa Electric (chính hãng)",
-      "Series": "FK (hiện hành) và VK (cũ). Bộ truyền 2 dây WK/WKN và cảm biến vỏ máy CV/CA nằm ở các mục riêng",
-      "Measurement Principle": "Đo dịch chuyển dòng điện xoáy không tiếp xúc",
-      "System": "Cảm biến FL + cáp nối dài FW + bộ điều khiển FK (bộ đồng bộ)",
-      "Sensor (FL-202F)": "FL-202F05: đầu 5 mm, cáp 2.7 mm; FL-202F08: đầu 8 mm, cáp 3.6 mm; FL-202F08R: 8 mm lắp ngược. Kiểu L / A / T (không giáp / có giáp / có giáp phủ nhựa fluor)",
-      "Extension Cable (FW-202F)": "Kiểu L / A / T; khoảng 4.5 m (hệ 5 m) hoặc 8.5 m (hệ 9 m); -40 đến +177 °C",
-      "Connector": "Đường kính khoảng 7.1 mm; giữ tránh dầu; cách điện bằng ống co nhiệt hoặc băng nhựa fluor",
-      "System Cable Length": "5 m hoặc 9 m (cảm biến 5 m chỉ dùng trong hệ 5 m)",
-      "Driver (FK-202F)": "-24 V DC +/-10%, tối đa 15 mA; trở kháng ra 50 ohm; khoảng -0.6 V khi lỗi cảm biến; khoảng 200 g",
-      "Driver Mounting Options": "Ray DIN 35 mm; lắp vít 50.8 x 50.8 mm; lắp vít 92 x 31 mm (thay VK); nhiều bước",
-      "Driver Terminals": "Cầu đấu vít M4 hoặc đầu nối lò xo",
-      "Reference Model (FK-202F)": "Dải 0.25 đến 2.25 mm tính từ đầu cảm biến, hệ số 7.87 V/mm, DC đến 10 kHz (-3 dB)",
-      "Temperature": "Cảm biến và cáp nối dài -40 đến +177 °C; bộ điều khiển -40 đến +80 °C",
-      "Calibration Target": "Thép tấm JIS SCM440 (loại 4140); vật liệu khác theo yêu cầu",
-      "Hazardous Area Options": "Biến thể FK an toàn nội tại: DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (theo mã mẫu)",
-      "2-Wire Transmitter Option": "Bộ truyền Shinkawa WK / WKN 4-20 mA, xem mục riêng",
-      "Typical Steam Turbine Use": "Đầu dò hướng kính XY tại mỗi ổ đỡ, 2 đến 3 đầu dò dọc trục tại vòng đệm chặn, 1 đầu dò Keyphasor, đầu dò lệch tâm tại ổ trước",
-      "Typical Gearbox Use": "Đầu dò hướng kính XY tại ổ trục bánh răng chủ động tốc độ cao và bánh bị động tốc độ thấp, đầu dò dọc trục cho lực đẩy bánh răng chủ động",
-      "Typical Alternator Use": "Đầu dò hướng kính XY tại ổ phía truyền động và phía đối diện, tham chiếu tốc độ và pha",
-      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, các hệ thống khác nhận bộ điều khiển tiệm cận -24 V DC, DCS/PLC qua bộ điều hòa tín hiệu"
-    }
+    ]
   },
   "prod_ee7": {
     "id": "prod_ee7",
     "sku": "KTB-EE-007",
     "category": "Electronic Equipment",
     "title": "Hệ thống đầu dò tiệm cận Bently Nevada 3300 XL",
-    "desc": "Đầu dò tiệm cận Bently Nevada 3300 XL chính hãng, cáp nối dài 330130 và Proximitor để giám sát rung động và lực đẩy tuabin, hộp số, máy phát điện. Báo giá theo mã hàng.",
     "usage": "Rung động hướng kính, vị trí dọc trục, độ lệch tâm, giãn nở chênh lệch và tham chiếu tốc độ/pha trên máy tuabin có hệ thống giám sát Bently Nevada 3500 hoặc 3300. Đầu dò 5 mm và 8 mm đáp ứng các phép đo ổ trượt và lực đẩy thông thường; các hệ lớn hơn 11, 16, 25 và 50 mm dùng cho phép đo tầm xa và giãn nở.",
+    "specs": {
+      "System Components": "Đầu dò 3300 XL + cáp nối dài 330130 + cảm biến Proximitor 330180",
+      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (dòng 3300 XL)",
+      "8 mm Linear Range / Scale Factor": "0.25 đến 2.3 mm; 7.87 V/mm (200 mV/mil) +/-5%",
+      "8 mm Probe Temperature": "-51 đến +177 °C",
+      "50 mm System Range": "Khoảng 27.9 mm (1,100 mil) cho giãn nở chênh lệch",
+      "Standard": "API 670 (ấn bản 4) cho hệ chuẩn 8 mm dài 5 m",
+      "Compatible Monitors": "Dòng Bently Nevada 3500 và 3300",
+      "Typical Steam Turbine Use": "Đầu dò hướng kính XY tại mỗi ổ trục, đầu dò vị trí lực đẩy, Keyphasor, giãn nở chênh lệch bằng đầu dò 25 mm hoặc 50 mm",
+      "Typical Gearbox Use": "Đầu dò hướng kính tại ổ trục bánh răng chủ động và bị động, đầu dò dọc trục cho lực đẩy và ăn khớp",
+      "Typical Alternator Use": "Đầu dò hướng kính XY tại cả hai ổ trục, tham chiếu Keyphasor/tốc độ",
+      "Brand": "Bently Nevada (Baker Hughes), chính hãng"
+    },
+    "desc": "Đầu dò tiệm cận Bently Nevada 3300 XL chính hãng, cáp nối dài 330130 và Proximitor để giám sát rung động và lực đẩy tuabin, hộp số, máy phát điện. Báo giá theo mã hàng.",
     "features": [
       "Hệ thống Bently Nevada 3300 XL chính hãng: đầu dò, cáp nối dài 330130 và cảm biến Proximitor 330180, các thành phần hoàn toàn thay thế lẫn nhau nên không cần ghép cặp trên bàn thử",
       "3300 XL 8 mm: dải tuyến tính 0.25 đến 2.3 mm (10 đến 90 mil), hệ số 7.87 V/mm (200 mV/mil) +/-5%, khe khuyến nghị 1.27 mm ở khoảng -9 V DC, đầu dò -51 đến +177 °C",
@@ -5882,28 +5895,21 @@
       "Tùy chọn tầm xa cho tuabin hơi: hệ 3300 XL 25 mm và 50 mm cho giãn nở chênh lệch; hệ 50 mm có tầm đo khoảng 27.9 mm (1,100 mil)",
       "Yêu cầu báo giá kèm mã hàng đầy đủ (ví dụ 330103-xx-xx-xx-xx-xx cùng 330130-xxx-xx-xx và 330180-xx-xx) hoặc gửi nhãn cũ",
       "Tên thương hiệu và mẫu mã là nhãn hiệu của chủ sở hữu tương ứng và chỉ dùng để nhận diện. Keshav Enterprises là nhà cung cấp độc lập."
-    ],
-    "specs": {
-      "Brand": "Bently Nevada (Baker Hughes), chính hãng",
-      "System Components": "Đầu dò 3300 XL + cáp nối dài 330130 + cảm biến Proximitor 330180",
-      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (dòng 3300 XL)",
-      "8 mm Linear Range / Scale Factor": "0.25 đến 2.3 mm; 7.87 V/mm (200 mV/mil) +/-5%",
-      "8 mm Probe Temperature": "-51 đến +177 °C",
-      "50 mm System Range": "Khoảng 27.9 mm (1,100 mil) cho giãn nở chênh lệch",
-      "Standard": "API 670 (ấn bản 4) cho hệ chuẩn 8 mm dài 5 m",
-      "Compatible Monitors": "Dòng Bently Nevada 3500 và 3300",
-      "Typical Steam Turbine Use": "Đầu dò hướng kính XY tại mỗi ổ trục, đầu dò vị trí lực đẩy, Keyphasor, giãn nở chênh lệch bằng đầu dò 25 mm hoặc 50 mm",
-      "Typical Gearbox Use": "Đầu dò hướng kính tại ổ trục bánh răng chủ động và bị động, đầu dò dọc trục cho lực đẩy và ăn khớp",
-      "Typical Alternator Use": "Đầu dò hướng kính XY tại cả hai ổ trục, tham chiếu Keyphasor/tốc độ"
-    }
+    ]
   },
   "prod_ee8": {
     "id": "prod_ee8",
     "sku": "KTB-EE-008",
     "category": "Electronic Equipment",
     "title": "Cảm biến dòng điện xoáy EPRO PR6423 / PR6424 và CON011",
-    "desc": "Cảm biến dòng điện xoáy Emerson EPRO PR6422 đến PR6426 chính hãng và bộ chuyển đổi tín hiệu CON011 để đo rung động và vị trí trục trên tuabin, hộp số và máy phát điện.",
     "usage": "Đo dịch chuyển hướng kính và dọc trục của trục, vị trí, độ lệch tâm và tốc độ/then trên tuabin hơi, khí và thủy lực, máy nén, hộp số, bơm và quạt, với bộ giám sát Emerson / EPRO MMS hoặc bất kỳ hệ thống nào nhận đầu ra bộ chuyển đổi.",
+    "specs": {
+      "Converter": "Bộ chuyển đổi tín hiệu dòng điện xoáy CON011 (dải tiêu chuẩn và mở rộng)",
+      "Measures": "Dịch chuyển hướng kính và dọc trục của trục, vị trí, độ lệch tâm, tốc độ/then",
+      "Typical Machines": "Tuabin hơi, khí và thủy lực, máy nén, hộp số, bơm, quạt",
+      "Brand": "Emerson (EPRO), chính hãng"
+    },
+    "desc": "Cảm biến dòng điện xoáy Emerson EPRO PR6422 đến PR6426 chính hãng và bộ chuyển đổi tín hiệu CON011 để đo rung động và vị trí trục trên tuabin, hộp số và máy phát điện.",
     "features": [
       "Cảm biến Emerson EPRO chính hãng: PR6422, PR6423 (8 mm, bản M10x1), PR6424 (16 mm), PR6425 (16 mm chịu nhiệt cao), PR6426 (32 mm)",
       "Bộ chuyển đổi tín hiệu dòng điện xoáy CON011: 0 đến 20 kHz (-3 dB), thời gian tăng dưới 15 micro giây, -30 đến +100 °C, nguồn -23 đến -32 V DC, nhận cảm biến PR6422 đến PR6426",
@@ -5913,21 +5919,24 @@
       "Có biến thể CON011 dải mở rộng cho tầm đo lớn hơn (ví dụ 3, 4, 6, 8, 10 mm); PR6425 cần bộ chuyển đổi dải mở rộng",
       "Cảm biến và bộ chuyển đổi là hệ thống đồng bộ: cảm biến, chiều dài cáp và mẫu bộ chuyển đổi phải tương ứng. Gửi nhãn hoặc mã hàng cũ, chúng tôi sẽ xác nhận sự tương ứng",
       "Tên thương hiệu và mẫu mã là nhãn hiệu của chủ sở hữu tương ứng và chỉ dùng để nhận diện. Keshav Enterprises là nhà cung cấp độc lập."
-    ],
-    "specs": {
-      "Brand": "Emerson (EPRO), chính hãng",
-      "Converter": "Bộ chuyển đổi tín hiệu dòng điện xoáy CON011 (dải tiêu chuẩn và mở rộng)",
-      "Measures": "Dịch chuyển hướng kính và dọc trục của trục, vị trí, độ lệch tâm, tốc độ/then",
-      "Typical Machines": "Tuabin hơi, khí và thủy lực, máy nén, hộp số, bơm, quạt"
-    }
+    ]
   },
   "prod_ee9": {
     "id": "prod_ee9",
     "sku": "KTB-EE-009",
     "category": "Electronic Equipment",
     "title": "Đầu dò tiệm cận Vibro-Meter TQ402 / TQ442 và IQS450",
-    "desc": "Đầu dò tiệm cận Meggitt vibro-meter TQ4xx chính hãng, cáp EA40x và bộ điều hòa tín hiệu IQS450 để giám sát rung động và vị trí trục tuabin.",
     "usage": "Đo rung động trục không tiếp xúc và vị trí dọc trục trên tuabin hơi, khí và thủy lực cùng các máy quan trọng khác có hệ thống giám sát vibro-meter. Đầu ra điện áp hoặc dòng điện có bảo vệ ngắn mạch phù hợp cả với bộ giám sát giá rack lẫn kết nối trực tiếp DCS.",
+    "specs": {
+      "Extension Cables": "EA401, EA402, EA403",
+      "TQ442 System Range": "2 mm hoặc 4 mm",
+      "Frequency Response": "DC đến 20 kHz (-3 dB)",
+      "Temperature": "-40 đến +180 °C (TQ442)",
+      "System Lengths": "1 m, 5 m, 10 m (tùy mẫu)",
+      "Output": "Điện áp hoặc dòng điện (2 dây), bảo vệ ngắn mạch",
+      "Brand": "Meggitt vibro-meter, chính hãng"
+    },
+    "desc": "Đầu dò tiệm cận Meggitt vibro-meter TQ4xx chính hãng, cáp EA40x và bộ điều hòa tín hiệu IQS450 để giám sát rung động và vị trí trục tuabin.",
     "features": [
       "Hệ thống vibro-meter chính hãng: đầu đo tiệm cận TQ4xx + cáp nối dài EA4xx + bộ điều hòa tín hiệu IQS450 (hoặc IQS900) tạo thành chuỗi đo đã hiệu chuẩn",
       "Có các dòng đầu đo TQ401 / TQ402 / TQ403 / TQ412 / TQ422 / TQ423 / TQ432 / TQ442",
@@ -5935,23 +5944,13 @@
       "Đầu ra điện áp hoặc dòng điện 2 dây có bảo vệ ngắn mạch; có phiên bản chứng nhận cho môi trường dễ nổ",
       "Thay thế hoặc phụ tùng cho chuỗi vibro-meter hiện có: gửi số mẫu của đầu đo, cáp và bộ điều hòa; chiều dài điện phải khớp nhau",
       "Tên thương hiệu và mẫu mã là nhãn hiệu của chủ sở hữu tương ứng và chỉ dùng để nhận diện. Keshav Enterprises là nhà cung cấp độc lập."
-    ],
-    "specs": {
-      "Brand": "Meggitt vibro-meter, chính hãng",
-      "Extension Cables": "EA401, EA402, EA403",
-      "TQ442 System Range": "2 mm hoặc 4 mm",
-      "Frequency Response": "DC đến 20 kHz (-3 dB)",
-      "Temperature": "-40 đến +180 °C (TQ442)",
-      "System Lengths": "1 m, 5 m, 10 m (tùy mẫu)",
-      "Output": "Điện áp hoặc dòng điện (2 dây), bảo vệ ngắn mạch"
-    }
+    ]
   },
   "prod_ee10": {
     "id": "prod_ee10",
     "sku": "KTB-EE-010",
     "category": "Electronic Equipment",
     "title": "Bộ truyền rung động 2 dây 4-20 mA (Shinkawa WK/WKN)",
-    "desc": "Bộ truyền rung động và lực đẩy 2 dây 4-20 mA Shinkawa WK / WKN chính hãng cho tuabin hơi, máy phát điện, hộp số, bơm và máy nén. Nối trực tiếp DCS hoặc PLC, không cần giá rack giám sát.",
     "usage": "Giám sát liên tục rung động trục hoặc vị trí lực đẩy trên máy cỡ nhỏ và vừa mà bộ giám sát giá rack đầy đủ là không cần thiết: tuabin hơi phụ, bơm cấp nước lò hơi, hộp số, máy nén, quạt và máy phát điện. Tín hiệu vòng 4-20 mA đi thẳng vào DCS, PLC hoặc đồng hồ chỉ thị.",
     "features": [
       "Đầu đo dòng điện xoáy có tích hợp chuyển đổi rung động hoặc lực đẩy: đầu ra 4-20 mA, không cần bộ giám sát rung động hay bộ chuyển đổi riêng",
@@ -5967,7 +5966,6 @@
       "Tên thương hiệu và mẫu mã là nhãn hiệu của chủ sở hữu tương ứng và chỉ dùng để nhận diện. Keshav Enterprises là nhà cung cấp độc lập."
     ],
     "specs": {
-      "Brand": "Shinkawa Electric, chính hãng",
       "Models": "WK-142K, WK-142T, WKN-142K, WKN-142T (biến thể hệ 1, 2 và 5)",
       "Output": "4-20 mA, vòng dòng điện 2 dây",
       "Vibration Output Ranges": "0 đến 100, 125, 200, 250, 400 micron đỉnh-đỉnh (theo mã mẫu)",
@@ -5981,15 +5979,16 @@
       "Transmitter Size": "Khoảng 100 x 74 x 50 mm; kẹp DIN tùy chọn",
       "Hazardous Area": "Tùy chọn không gây cháy (CSA Class I Div 2, ATEX Ex nA)",
       "Calibration Target": "Thép JIS SCM440 (tương đương AISI 4140)",
-      "Typical Machines": "Tuabin hơi phụ, BFP, hộp số, máy nén, máy phát điện, quạt"
-    }
+      "Typical Machines": "Tuabin hơi phụ, BFP, hộp số, máy nén, máy phát điện, quạt",
+      "Brand": "Shinkawa Electric, chính hãng"
+    },
+    "desc": "Bộ truyền rung động và lực đẩy 2 dây 4-20 mA Shinkawa WK / WKN chính hãng cho tuabin hơi, máy phát điện, hộp số, bơm và máy nén. Nối trực tiếp DCS hoặc PLC, không cần giá rack giám sát."
   },
   "prod_ee11": {
     "id": "prod_ee11",
     "sku": "KTB-EE-011",
     "category": "Electronic Equipment",
     "title": "Cảm biến rung vỏ máy: Velomitor, CV-86 và gia tốc kế",
-    "desc": "Cảm biến chính hãng Bently Velomitor, Shinkawa CV-86, Hansford và SKF để đo rung ổ trục trên tuabin, hộp số, máy phát điện và động cơ. Báo giá theo mẫu.",
     "usage": "Rung động tuyệt đối (địa chấn) trên bệ ổ trục, vỏ hộp số, khung máy phát và nắp động cơ, nơi không lắp được đầu dò trục hoặc nơi rung vỏ máy là tín hiệu cảnh báo hay ngắt. Dùng cùng đầu dò tiệm cận trục trong tổ tuabin-hộp số-máy phát, và dùng riêng trên động cơ, quạt và bơm.",
     "features": [
       "Cảm biến vận tốc áp điện Bently Nevada 330500 Velomitor: 3.94 mV/mm/s (100 mV/in/s) +/-5%, 4.5 Hz đến 5 kHz (+/-3 dB), đến 1,270 mm/s đỉnh, -55 đến +121 °C, thép không gỉ 316L, MIL-C-5015 2 chân, lắp ở mọi góc",
@@ -6003,22 +6002,22 @@
       "Tên thương hiệu và mẫu mã là nhãn hiệu của chủ sở hữu tương ứng và chỉ dùng để nhận diện. Keshav Enterprises là nhà cung cấp độc lập."
     ],
     "specs": {
-      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (đều chính hãng)",
       "Velocity Sensors": "Bently Nevada 330500 / 330525 Velomitor; Shinkawa CV-86, CV-87",
       "Accelerometers": "Bently Nevada 330400 / 330425; Hansford dòng HS-100; SKF CMSS 2100 / 2200",
       "Accelerometer Sensitivities": "25, 100 mV/g (Bently); 10 đến 500 mV/g (Hansford); 100 mV/g (SKF)",
       "Typical Steam Turbine Use": "Rung bệ ổ trục, phương ngang và phương đứng tại mỗi ổ",
       "Typical Gearbox Use": "Vỏ gần ổ trục bánh răng chủ động tốc độ cao; gia tốc kế cho tần số ăn khớp",
       "Typical Alternator Use": "Vỏ ổ trục phía truyền động và phía đối diện",
-      "Typical Motor Use": "Vỏ ổ trục, phía truyền động và phía đối diện, phương ngang / đứng / dọc trục"
-    }
+      "Typical Motor Use": "Vỏ ổ trục, phía truyền động và phía đối diện, phương ngang / đứng / dọc trục",
+      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (đều chính hãng)"
+    },
+    "desc": "Cảm biến chính hãng Bently Velomitor, Shinkawa CV-86, Hansford và SKF để đo rung ổ trục trên tuabin, hộp số, máy phát điện và động cơ. Báo giá theo mẫu."
   },
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
     "category": "Electronic Equipment",
     "title": "Cảm biến Magnetic Pickup (Woodward)",
-    "desc": "Cảm biến tốc độ từ tính điện trở từ thay đổi (MPU) chính hãng Woodward để phản hồi tốc độ trục chính xác cho governor Woodward và hệ thống điều khiển tua-bin số. Thiết kế thụ động, tự cấp nguồn, không cần bảo trì cho nhiệm vụ liên tục trên tua-bin hơi chạy ở 3000–3600 RPM.",
     "usage": "Đầu vào cảm biến tốc độ chính cho governor số Woodward 505/505D/505E, bộ khuếch đại governor 2301 và 7206, và hệ thống ngắt vượt tốc độc lập trên tua-bin hơi Triveni, BHEL, Siemens, KKK và Maxwatt. Giám sát tốc độ rotor tua-bin qua bánh răng governor (bánh răng/bánh đà) để cung cấp điều chỉnh tốc độ vòng kín, điều khiển tải, và bảo vệ vượt tốc trong suốt khởi động, đồng bộ hóa và vận hành đầy tải.",
     "features": [
       "Cảm biến điện trở từ thay đổi (thụ động) — tự tạo tín hiệu điện áp AC từ chuyển động răng bánh răng; không cần nguồn điện ngoài",
@@ -6080,7 +6079,8 @@
       "label": "Theo yêu cầu",
       "color": "amber",
       "leadTime": "1–4 weeks"
-    }
+    },
+    "desc": "Cảm biến tốc độ từ tính điện trở từ thay đổi (MPU) chính hãng Woodward để phản hồi tốc độ trục chính xác cho governor Woodward và hệ thống điều khiển tua-bin số. Thiết kế thụ động, tự cấp nguồn, không cần bảo trì cho nhiệm vụ liên tục trên tua-bin hơi chạy ở 3000–3600 RPM."
   },
   "prod_ee3": {
     "id": "prod_ee3",
@@ -6989,6 +6989,72 @@
       "max": 12000,
       "unit": "per segment",
       "note": "Spring steel or Inconel X-750; set of 4–8 per gland"
+    },
+    "availability": {
+      "label": "Made to Order",
+      "color": "amber",
+      "leadTime": "2–6 weeks"
+    }
+  },
+  "prod_ts_silencer": {
+    "id": "prod_ts_silencer",
+    "sku": "KTB-TS-040",
+    "category": "Turbine Spares",
+    "title": "Bộ Giảm Thanh Tuabin Hơi: Xả Hơi, Xả Thải và Van An Toàn",
+    "desc": "Bộ giảm thanh xả hơi, xả thải và van an toàn giúp giảm tiếng ồn của hơi áp suất cao xả ra khí quyển từ các hệ thống tuabin hơi: ống xả giảm áp đầu thải của tuabin đối áp, ống xả khởi động và gia nhiệt, đầu ra van an toàn tại cửa vào và các cửa trích của tuabin, cùng thổi ống bằng hơi khi chạy thử. Mỗi bộ giảm thanh do chúng tôi thiết kế và chế tạo theo yêu cầu của khách hàng, kết hợp tầng khuếch tán nhiều lỗ làm chậm và phân tán tia hơi với phần hấp thụ có lớp vật liệu độn. Kích thước được tính theo lưu lượng hơi, áp suất, nhiệt độ và giới hạn dB(A) yêu cầu tại khoảng cách tham chiếu của quý khách. Cung cấp bằng thép carbon, hoặc thép không gỉ với đoạn đầu vào bằng thép hợp kim cho hơi quá nhiệt.",
+    "usage": "Lắp tại đầu ra của van an toàn, van xả khí quyển và các đường xả hơi trong nhà máy tuabin hơi và lò hơi thuộc các ngành đường và cồn, giấy và bột giấy, thép, hóa dầu và phát điện: ống xả giảm áp đầu thải tuabin đối áp, ống xả khởi động và gia nhiệt tuabin, đầu ra van an toàn tại cửa vào và cửa trích của tuabin, đầu ra van an toàn trạm PRDS và ống xả của bộ phun hơi (ejector) trên tuabin ngưng tụ. Cũng cung cấp để thay thế bộ giảm thanh bị ăn mòn, ồn hoặc hỏng trên các đường xả hiện có, được thiết kế và chế tạo theo kích thước kết nối và lắp đặt của thiết bị cũ hoặc thiết kế ngược từ mẫu hay ảnh chụp khi không có bản vẽ, và làm bộ giảm thanh thổi ống bằng hơi tạm thời để làm sạch đường ống khi lắp đặt và chạy thử tuabin.",
+    "features": [
+      "Loại bộ giảm thanh: kết hợp khuếch tán và hấp thụ (tiêu chuẩn); thêm tầng buồng giãn nở phản xạ khi tiếng ồn tần số thấp chiếm ưu thế",
+      "Bộ khuếch tán đầu vào nhiều lỗ giảm tốc độ hơi và chia nhỏ tia hơi trước khi vào phần hấp thụ",
+      "Phần hấp thụ: lớp độn bông khoáng mật độ cao hoặc sợi gốm được giữ sau lớp lót đục lỗ và lưới thép không gỉ để chống thất thoát sợi và xói mòn",
+      "Do chúng tôi thiết kế và chế tạo cho từng ứng dụng dựa trên lưu lượng hơi (kg/h), áp suất và nhiệt độ đầu vào, cỡ đường ống và mục tiêu dB(A) tại khoảng cách nêu rõ; mỗi bộ được chế tạo theo đơn đặt hàng, không phải hàng catalog",
+      "Mức giảm ồn điển hình từ 50 đến 80 dB(A), tùy lưu lượng, áp suất và thiết kế; giá trị mục tiêu được thống nhất và ghi trong datasheet đã duyệt",
+      "Vật liệu: thép carbon (IS 2062 / SA 516 Gr 70) cho hơi bão hòa và nhiệt độ vừa phải; SS 304 / 316 hoặc đoạn đầu vào thép hợp kim cho hơi quá nhiệt đến khoảng 540°C",
+      "Kết nối: đầu vào lắp bích (ASME B16.5 / DIN) hoặc hàn đối đầu, tiêu chuẩn 200 NB đến 600 NB, kích thước khác theo yêu cầu của khách hàng",
+      "Cổng xả nước ngưng ở điểm thấp nhất giúp lớp độn không bị ngấm nước sau khi xả hơi",
+      "Chụp che mưa tại cửa ra; lắp thẳng đứng trên ống khói xả là tiêu chuẩn, lắp ngang theo yêu cầu",
+      "Kèm chân đỡ, bích đế và tai nâng; có thể chọn thêm bảo ôn bề mặt nóng hoặc vỏ bọc bảo vệ người vận hành",
+      "Thiết bị thay thế và thiết kế ngược cho các đường xả hiện có khi bộ giảm thanh gốc đã ăn mòn, mất lớp độn hoặc trở nên ồn",
+      "Cung cấp kèm bản vẽ bố trí chung và datasheet; chứng chỉ thử nghiệm vật liệu theo yêu cầu"
+    ],
+    "specs": {
+      "Silencer Type": "Khuếch tán + hấp thụ (tiêu chuẩn); tầng phản xạ theo yêu cầu",
+      "Service": "Xả hơi, giảm áp đầu thải tuabin, đầu ra van an toàn, xả khởi động / gia nhiệt, thổi ống bằng hơi",
+      "Inlet Size Range": "200 NB đến 600 NB; kích thước khác theo yêu cầu của khách hàng",
+      "Inlet Connection": "Lắp bích (ASME B16.5 / DIN) hoặc hàn đối đầu",
+      "Design Basis": "Lưu lượng hơi (kg/h), áp suất đầu vào, nhiệt độ và dB(A) yêu cầu do khách hàng cung cấp",
+      "Noise Reduction": "Điển hình 50–80 dB(A), tùy thiết kế; mục tiêu ghi trong datasheet",
+      "Temperature Rating": "Đến khoảng 540°C hơi quá nhiệt (đoạn đầu vào thép hợp kim)",
+      "Body Material": "Thép carbon (IS 2062 / SA 516 Gr 70) hoặc SS 304 / 316",
+      "Diffuser Material": "Thép carbon, SS 304 / 316 hoặc thép hợp kim, tùy nhiệt độ hơi",
+      "Acoustic Packing": "Bông khoáng mật độ cao hoặc sợi gốm, giữ bằng lưới SS",
+      "Orientation": "Thẳng đứng trên ống khói (tiêu chuẩn); nằm ngang theo yêu cầu",
+      "Drain and Outlet": "Xả nước ngưng ở điểm thấp nhất; chụp che mưa tại cửa ra",
+      "Finish": "Sơn chịu nhiệt; bảo ôn / vỏ bọc tùy chọn",
+      "Documents": "Bản vẽ bố trí chung và datasheet; chứng chỉ thử nghiệm vật liệu theo yêu cầu",
+      "HSN Code": "84069000"
+    },
+    "images": [
+      "steam-turbine-silencer-1.webp",
+      "steam-turbine-silencer-2.webp",
+      "steam-turbine-silencer-3.webp",
+      "steam-turbine-silencer-4.webp",
+      "steam-turbine-silencer-5.webp",
+      "steam-turbine-silencer-6.webp",
+      "steam-turbine-silencer-7.webp",
+      "steam-turbine-silencer-8.webp",
+      "steam-turbine-silencer-9.webp",
+      "steam-turbine-silencer-10.webp",
+      "steam-turbine-silencer-11.webp",
+      "steam-turbine-silencer-12.webp"
+    ],
+    "slug": "steam-turbine-silencers",
+    "categorySlug": "turbine-spares",
+    "priceRange": {
+      "min": 40000,
+      "max": 400000,
+      "unit": "per unit",
+      "note": "Từ thép carbon đến SS; tính theo lưu lượng hơi, áp suất và mục tiêu dB(A)"
     },
     "availability": {
       "label": "Made to Order",

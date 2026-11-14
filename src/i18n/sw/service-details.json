@@ -20,8 +20,6 @@
         "label": "Msaada wa Eneo la Kazi Unapatikana"
       }
     ],
-    "whyUs": "Seti moja ya nafasi za kiufundi zilizowekwa vibaya wakati wa uwekaji inaweza kuharibu bearing ndani ya masaa kutoka mvuke wa kwanza. Wahandisi wetu wa uwanjani wenye uzoefu wa zamani wa OEM wamejianzisha wenyewe aina hiyo hiyo ya mitambo unayoweka — wanajua hasa vipimo vya OEM vinamaanisha nini kivitendo, si tu kwenye karatasi.",
-    "overview": "Uwekaji na uanzishaji wa turbine ni hatua muhimu zaidi ya mradi wowote wa kituo cha umeme au wa viwandani. Makosa wakati wa uwekaji — upatanishi usio sahihi, nafasi zisizo sahihi, msokoto usio sahihi — hujilimbikiza kuwa kushindwa kwa gharama kubwa ndani ya mwaka wa kwanza wa uendeshaji. Keshav Enterprises hupeleka wahandisi wa uwanjani wenye uzoefu wa zamani wa OEM ambao wamewahi kuanzisha turbine za Triveni, Siemens, BHEL, Belliss, na Maxwatt katika vituo vya umeme, viwanda vya sukari, viwanda vya karatasi, na viwanda vya uchakataji. Kila nukta ya kusimama inashuhudiwa, kila nafasi ya kiufundi inarekodiwa, na kila mfumo wa usalama unajaribiwa kabla ya mvuke kuingizwa. Kifurushi chetu cha nyaraka kinakidhi mahitaji ya makabidhiano ya mteja, bima, na OEM.",
     "procedures": [
       {
         "step": "01",
@@ -139,26 +137,7 @@
   "srv_2": {
     "tagline": "Upangaji wa Huduma Kamili wa Kusimama hadi Kuanzisha Upya bila Kasoro",
     "accentColor": "#0891b2",
-    "keyStats": [
-      {
-        "value": "8+",
-        "label": "Chapa za OEM Zilizokarabatiwa"
-      },
-      {
-        "value": "{years}+",
-        "label": "Miaka ya Uzoefu wa Uwanjani"
-      },
-      {
-        "value": "0.001mm",
-        "label": "Uwezo wa Nafasi za Kiufundi"
-      },
-      {
-        "value": "24×7",
-        "label": "Mwitikio wa Dharura"
-      }
-    ],
     "whyUs": "Ukarabati uliofanywa vibaya ni mbaya zaidi kuliko kutokarabati kabisa — huleta makosa mapya ya nafasi za kiufundi, uchafuzi, na kasoro za kuunganisha upya. Wahandisi wetu walifunzwa na OEM. Wanajua vipimo vinamaanisha nini kwa kweli kwa joto na kasi ya uendeshaji, si tu kile kilichoandikwa katika mwongozo.",
-    "overview": "Ukarabati wa turbine si shughuli ya kawaida ya matengenezo — ni uingiliaji wa uhandisi sahihi. Keshav Enterprises hupeleka wahandisi wenye uzoefu wa zamani wa OEM kutoka Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK, na ABB kutekeleza ukarabati wa huduma kamili kwa nidhamu na kiwango sawa cha nyaraka kama mtengenezaji asili. Kila ukarabati huanza wiki 4-6 kabla ya kusimama na kukamilika kwa wigo, ukaguzi wa awali wa vipuri, na upangaji wa uhamasishaji wa wafanyakazi. Kila kipengele kinapimwa kabla ya kubomolewa, wakati wa kuvunja, na baada ya kuunganisha upya. Ripoti za hali zilizoandikwa, madaftari ya nafasi za kiufundi, na rekodi za picha huundwa kwa kila ukarabati — kuunda msingi kwa kusimama kwa siku zijazo.",
     "procedures": [
       {
         "step": "01",
@@ -843,7 +822,6 @@
       }
     ],
     "whyUs": "Hitilafu iliyogunduliwa vibaya na kurekebishwa bila kupata chanzo cha tatizo itashindwa tena — mara nyingi haraka zaidi kuliko mara ya kwanza. Hatukisii. Tunapima, tunachambua spectra, tunabomoa tu kile data inachohitaji, tunathibitisha chanzo cha tatizo kimwili, na kukirekebisha na timu ileile iliyokipata.",
-    "overview": "Kusimama kwa turbine bila kupangwa na kupungua kwa utendaji kusikoelezeka kunagharimu viwanda vya kiviwanda mamilioni katika uzalishaji uliopotea kila mwaka. Keshav Enterprises hupeleka wahandisi wa utatuzi wa matatizo wenye uzoefu wa zamani wa OEM na vifaa kamili vya uchunguzi kutambua, kuandika, na kurekebisha kwa usahihi chanzo cha tatizo la hitilafu yoyote ya turbine ya mvuke — kutoka mtetemo wa juu na kushindwa kwa bearing hadi kutokuwa thabiti kwa governor, uchafuzi wa mafuta, na uvujaji wa mvuke. Tunashughulikia chapa zote za turbine kutoka 5 kW hadi 60 MW katika wigo mzima wa viwanda vya uchakataji na nishati vya India. Mbinu yetu ni ya kimfumo: upimaji wa mtandaoni kwanza, ukaguzi wa kimwili unaolengwa na data, chanzo cha tatizo kilichothibitishwa kwa maandishi, na hatua za kurekebisha zinazotekelezwa na timu ileile iliyogundua hitilafu.",
     "procedures": [
       {
         "step": "01",

@@ -6,7 +6,7 @@
   },
   "hero": {
     "title": "Talk to an Engineer",
-    "subtitle": "Share your requirements and our ex-OEM engineering team will reply to planned enquiries within 1 business day.",
+    "subtitle": "Share your requirements and our engineering team with prior OEM experience will reply to planned enquiries within 1 business day.",
     "trustSignals": [
       "Confidential RFQ — never shared with OEM reps",
       "No obligation — you decide what's next",
@@ -38,10 +38,10 @@
     },
     "indiamart": {
       "ariaLabel": "View Keshav Enterprises on IndiaMART",
-      "title": "IndiaMART Verified",
+      "title": "IndiaMART",
       "ratingSrOnly": "4.3 out of 5 stars",
       "ratingText": "4.3/5 Rating",
-      "trustSeal": "TrustSeal Supplier"
+      "trustSeal": "IndiaMART (TrustSeal)"
     },
     "connect": {
       "label": "Connect With Us"
@@ -59,11 +59,11 @@
     "cta": "View on Google"
   },
   "facilityPhoto": {
-    "caption": "Our Manufacturing Facility, Shamli, U.P.",
-    "alt": "Keshav Enterprises manufacturing facility — Shamli, Uttar Pradesh"
+    "caption": "Our Facility, Shamli, U.P.",
+    "alt": "Keshav Enterprises facility — Shamli, Uttar Pradesh"
   },
   "map": {
-    "heading": "Our Manufacturing Facility — Shamli, U.P.",
+    "heading": "Our Facility — Shamli, U.P.",
     "iframeTitle": "Keshav Enterprises location map",
     "googleBusinessCta": "Google Business",
     "directionsCta": "Get Directions"

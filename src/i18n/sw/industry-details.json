@@ -84,14 +84,16 @@
           "Vipimo vya kawaida vya AHU vipo kwenye hifadhi; maalum kwa ombi",
           "Kichujio cha awali cha wavu wa metali pia kinapatikana kwa hatua ya kwanza"
         ]
+      },
+      {
+        "name": "Vizuia Sauti vya Turbine ya Mvuke (Matundu ya Mvuke na Vali za Usalama)",
+        "purpose": "Hupunguza kelele ya matokeo ya vali za usalama, matundu ya kuwasha turbine na mistari ya kupunguza shinikizo la moshi katika mitambo ya joto, uzalishaji pamoja na umeme wa kujitegemea, ikiweka kelele ndani ya vikomo vya eneo.",
+        "features": [
+          "Kisambazaji pamoja na kinyonyaji, ukubwa kulingana na kiwango chako cha mvuke na lengo la dB(A)",
+          "Chuma cha kaboni au SS 304 / 316, hadi takriban 540°C",
+          "Vitengo mbadala kwa vizuia sauti vilivyopo vyenye kutu au kelele"
+        ]
       }
-    ],
-    "keyFacts": [
-      "Uwezo wa juu wa turbine wa 60 MW unaoshughulikiwa",
-      "Miaka {years}+ ya uzoefu wa uhandisi uliofunzwa na OEM",
-      "Bidhaa zinazokidhi API 614 na ISO 4406",
-      "Utoaji wa vichujio vya HVAC kwa vyumba vya udhibiti na majengo ya turbine",
-      "Msaada wa dharura wa kusimama wa saa 24×7"
     ]
   },
   "ind_2": {
@@ -168,6 +170,15 @@
           "Uwiano wa mzunguko kulingana na ISO 1940/1 G1.0",
           "Uwiano wa ndege mbili kwenye aina zote za rota",
           "Cheti cha uwiano hutolewa pamoja na ripoti ya kazi"
+        ]
+      },
+      {
+        "name": "Vizuia Sauti vya Turbine ya Mvuke (Matundu ya Mvuke na Vali za Usalama)",
+        "purpose": "Huwekwa kwenye matundu ya kupunguza shinikizo la moshi wa turbine za shinikizo-nyuma na matokeo ya vali za usalama, ili utoaji wa mvuke wakati wa kuzimika msimu wa kusaga au hitilafu za header usiwe tatizo la kelele.",
+        "features": [
+          "Kisambazaji pamoja na kinyonyaji, ukubwa kulingana na kiwango chako cha mvuke na lengo la dB(A)",
+          "Chuma cha kaboni au SS 304 / 316, hadi takriban 540°C",
+          "Vitengo mbadala kwa vizuia sauti vilivyopo vyenye kutu au kelele"
         ]
       }
     ],
@@ -253,6 +264,15 @@
           "Vyeti vya malighafi vinatolewa",
           "Ripoti ya ukaguzi wa vipimo vya CMM"
         ]
+      },
+      {
+        "name": "Vizuia Sauti vya Turbine ya Mvuke (Matundu ya Mvuke na Vali za Usalama)",
+        "purpose": "Hupunguza kelele ya matundu ya mvuke ya turbine na boiler kwenye mifumo ya mvuke ya kiwanda, ikipunguza kelele katika jengo la nguvu na maeneo jirani ya mchakato wakati wa kuwasha, kuzimika na vali za usalama kufunguka.",
+        "features": [
+          "Kisambazaji pamoja na kinyonyaji, ukubwa kulingana na kiwango chako cha mvuke na lengo la dB(A)",
+          "Chuma cha kaboni au SS 304 / 316, hadi takriban 540°C",
+          "Vitengo mbadala kwa vizuia sauti vilivyopo vyenye kutu au kelele"
+        ]
       }
     ],
     "keyFacts": [
@@ -282,6 +302,12 @@
         "title": "Usambazaji wa Haraka kwa Maeneo ya Mbali",
         "desc": "Majukwaa ya pwani na vituo vya mbali vya uzalishaji vinahitaji ugavi wa haraka wa vipuri. Vipuri muhimu vinahifadhiwa na kusafirishwa siku hiyo hiyo kwa maagizo ya dharura."
       }
+    ],
+    "keyFacts": [
+      "Bidhaa zinazokidhi API 614 na IS27",
+      "Bearing za Babbitt kwa OEM zote kuu",
+      "Usafirishaji wa dharura wa siku hiyo hiyo unapatikana",
+      "Vyombo vya shinikizo vilivyopigwa muhuri wa kanuni ya ASME"
     ],
     "products": [
       {
@@ -338,12 +364,6 @@
           "Matokeo ya relay ya tahadhari na hatari"
         ]
       }
-    ],
-    "keyFacts": [
-      "Bidhaa zinazokidhi API 614 na IS27",
-      "Bearing za Babbitt kwa OEM zote kuu",
-      "Usafirishaji wa dharura wa siku hiyo hiyo unapatikana",
-      "Vyombo vya shinikizo vilivyopigwa muhuri wa kanuni ya ASME"
     ]
   },
   "ind_5": {
@@ -420,6 +440,15 @@
           "Muundo wa kusukuma shinikizo ulioondolewa tie-rod",
           "Hupunguza mizigo ya nozzle karibu na sifuri",
           "Inapatikana katika mipangilio iliyofungwa na isiyofungwa"
+        ]
+      },
+      {
+        "name": "Vizuia Sauti vya Turbine ya Mvuke (Matundu ya Mvuke na Vali za Usalama)",
+        "purpose": "Hupunguza kelele ya matundu ya mvuke na matokeo ya vali za usalama kwenye vitengo vinavyoendeshwa na turbine na mifumo ya mvuke ya huduma, hutolewa kwa chuma cha kaboni au SS kulingana na hali ya mvuke.",
+        "features": [
+          "Kisambazaji pamoja na kinyonyaji, ukubwa kulingana na kiwango chako cha mvuke na lengo la dB(A)",
+          "Chuma cha kaboni au SS 304 / 316, hadi takriban 540°C",
+          "Vitengo mbadala kwa vizuia sauti vilivyopo vyenye kutu au kelele"
         ]
       }
     ],
@@ -698,6 +727,15 @@
           "Zinalingana na OEM kwa mifumo ya mafuta ya kulainisha ya turbine za BHEL — seti za TG za daraja la 100 MW, 200 MW, 210 MW, 250 MW, 500 MW",
           "Zinaendana na nyumba za kichujio cha mafuta ya kulainisha za duplex za BHEL — kubadilisha kwa drop-in bila marekebisho ya nyumba",
           "Ukamilifu wa uchujaji: mikroni 10, 25, 40 (kiwango cha ISO 16889); laini zaidi kwa ombi kwa ulinzi wa mfumo wa servo"
+        ]
+      },
+      {
+        "name": "Vizuia Sauti vya Turbine ya Mvuke (Matundu ya Mvuke na Vali za Usalama)",
+        "purpose": "Hupunguza kelele ya matundu ya mvuke na matokeo ya vali za usalama kwenye seti za turbine za umeme wa kujitegemea na mistari ya mvuke viwandani vya saruji na chuma, hutolewa kwa chuma cha kaboni au SS.",
+        "features": [
+          "Kisambazaji pamoja na kinyonyaji, ukubwa kulingana na kiwango chako cha mvuke na lengo la dB(A)",
+          "Chuma cha kaboni au SS 304 / 316, hadi takriban 540°C",
+          "Vitengo mbadala kwa vizuia sauti vilivyopo vyenye kutu au kelele"
         ]
       }
     ],

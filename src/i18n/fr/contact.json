@@ -1,12 +1,11 @@
 {
   "meta": {
     "title": "Contactez l'équipe d'ingénierie — Demandez un devis technique",
-    "description": "Contactez Keshav Enterprises pour vos demandes de devis en ingénierie de turbines, vos devis de rétro-ingénierie, et un support d'urgence 24h/24 et 7j/7. Téléphone : +91 9149229448.",
+    "description": "Contactez Keshav Enterprises pour vos demandes de devis en ingénierie de turbines, vos devis de rétro-ingénierie, et un support d'urgence 24h/24 et 7j/7. Téléphone : +91 6397363268.",
     "schemaName": "Contacter Keshav Enterprises"
   },
   "hero": {
     "title": "Parlez à un ingénieur — pas à un commercial",
-    "subtitle": "Partagez vos besoins et notre équipe d'ingénieurs — anciens de constructeurs OEM, pas un centre d'appels — vous répondra avec une réponse technique sous 24 heures, parce que vous avez besoin de réponses, pas d'une brochure.",
     "trustSignals": [
       "Demande de devis confidentielle — jamais partagée avec les représentants OEM",
       "Aucune obligation — vous décidez de la suite",
@@ -38,10 +37,8 @@
     },
     "indiamart": {
       "ariaLabel": "Voir Keshav Enterprises sur IndiaMART",
-      "title": "Vérifié sur IndiaMART",
       "ratingSrOnly": "4,3 étoiles sur 5",
-      "ratingText": "Note de 4,3/5",
-      "trustSeal": "Fournisseur TrustSeal"
+      "ratingText": "Note de 4,3/5"
     },
     "connect": {
       "label": "Suivez-nous"
@@ -58,12 +55,8 @@
     "descriptionSuffix": "sur Google Maps — consultez notre profil, obtenez un itinéraire, ou laissez un avis pour aider d'autres acheteurs à nous trouver.",
     "cta": "Voir sur Google"
   },
-  "facilityPhoto": {
-    "caption": "Notre site de production, Shamli, Uttar Pradesh",
-    "alt": "Site de production Keshav Enterprises — Shamli, Uttar Pradesh"
-  },
+  "facilityPhoto": {},
   "map": {
-    "heading": "Notre site de production — Shamli, Uttar Pradesh",
     "iframeTitle": "Carte de localisation de Keshav Enterprises",
     "googleBusinessCta": "Google Business",
     "directionsCta": "Obtenir l'itinéraire"

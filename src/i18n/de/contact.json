@@ -1,12 +1,11 @@
 {
   "meta": {
     "title": "Kontakt zum Engineering-Team — Technisches Angebot anfordern",
-    "description": "Kontaktieren Sie Keshav Enterprises für RFQs im Turbinen-Engineering, Reverse-Engineering-Angebote und 24×7-Notfall-Support bei Ausfällen. Telefon: +91 9149229448.",
+    "description": "Kontaktieren Sie Keshav Enterprises für RFQs im Turbinen-Engineering, Reverse-Engineering-Angebote und 24×7-Notfall-Support bei Ausfällen. Telefon: +91 6397363268.",
     "schemaName": "Kontakt zu Keshav Enterprises"
   },
   "hero": {
     "title": "Sprechen Sie mit einem Ingenieur — nicht mit dem Vertrieb",
-    "subtitle": "Teilen Sie uns Ihre Anforderungen mit, und unser Engineering-Team — ehemalige OEM-Mitarbeiter, kein Callcenter — antwortet innerhalb von 24 Stunden technisch fundiert, denn Sie brauchen Antworten, keine Broschüre.",
     "trustSignals": [
       "Vertrauliches RFQ — wird nie an OEM-Vertreter weitergegeben",
       "Unverbindlich — Sie entscheiden über die nächsten Schritte",
@@ -38,10 +37,8 @@
     },
     "indiamart": {
       "ariaLabel": "Keshav Enterprises auf IndiaMART ansehen",
-      "title": "IndiaMART-verifiziert",
       "ratingSrOnly": "4,3 von 5 Sternen",
-      "ratingText": "4,3/5 Bewertung",
-      "trustSeal": "TrustSeal-Lieferant"
+      "ratingText": "4,3/5 Bewertung"
     },
     "connect": {
       "label": "Mit uns in Kontakt treten"
@@ -58,12 +55,8 @@
     "descriptionSuffix": "auf Google Maps — sehen Sie unser Profil, lassen Sie sich den Weg anzeigen oder hinterlassen Sie eine Bewertung, um anderen Käufern zu helfen, uns zu finden.",
     "cta": "Bei Google ansehen"
   },
-  "facilityPhoto": {
-    "caption": "Unser Werk in Shamli, Uttar Pradesh",
-    "alt": "Produktionswerk von Keshav Enterprises — Shamli, Uttar Pradesh"
-  },
+  "facilityPhoto": {},
   "map": {
-    "heading": "Unser Werk — Shamli, Uttar Pradesh",
     "iframeTitle": "Standortkarte von Keshav Enterprises",
     "googleBusinessCta": "Google Business",
     "directionsCta": "Route anzeigen"

@@ -33,7 +33,7 @@ const RAW_CASE_STUDIES: Omit<CaseStudy, "categorySlug">[] = [
     challenge:
       "The turbine had been running with elevated vibration (>6 mm/s) for two seasons. Bearing housings showed fretting wear and the rotor had a persistent 1× runout that previous maintenance had not resolved.",
     solution:
-      "Ex-Triveni OEM engineers disassembled the unit and found a cracked journal on the drive end. The journal was machined undersized, new Babbitt poured and scraped, labyrinths machined in our workshop, and the rotor dynamically balanced to <0.5 g·mm residual imbalance. Post-commissioning vibration: 1.8 mm/s.",
+      "Our engineers, with prior Triveni experience, disassembled the unit and found a cracked journal on the drive end. The journal was machined undersized, new Babbitt poured and scraped, labyrinths machined in our workshop, and the rotor dynamically balanced to <0.5 g·mm residual imbalance. Post-commissioning vibration: 1.8 mm/s.",
     outcomes: [
       "Vibration reduced from 6.4 mm/s to 1.8 mm/s",
       "Bearing metal temperature dropped by 14 °C",

@@ -10,7 +10,6 @@
     "duration": "12 dias",
     "scope": "Revisão geral chave na mão completa: remoção do rotor, substituição de mancais, usinagem de selos labirinto, balanceamento dinâmico do rotor (ISO 1940 G2.5), lavagem de óleo lubrificante e comissionamento.",
     "challenge": "A turbina vinha operando com vibração elevada (>6 mm/s) por duas safras. As carcaças dos mancais apresentavam desgaste por atrito e o rotor tinha uma excentricidade persistente de 1× que a manutenção anterior não havia resolvido.",
-    "solution": "Engenheiros ex-OEM da Triveni desmontaram a unidade e encontraram um munhão trincado no lado do acionamento. O munhão foi usinado com redução de diâmetro, novo babbitt foi vazado e raspado, os labirintos foram usinados em nossa oficina, e o rotor foi balanceado dinamicamente até um desbalanceamento residual de <0,5 g·mm. Vibração pós-comissionamento: 1,8 mm/s.",
     "outcomes": [
       "Vibração reduzida de 6,4 mm/s para 1,8 mm/s",
       "Temperatura do metal do mancal caiu 14 °C",

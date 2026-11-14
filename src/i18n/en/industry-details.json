@@ -84,11 +84,20 @@
           "Standard AHU sizes stocked; custom on request",
           "Metallic mesh pre-filter also available for first-stage duty"
         ]
+      },
+      {
+        "name": "Steam Turbine Silencers (Vent & Safety Valve)",
+        "purpose": "Quietens safety valve outlets, turbine start-up vents and exhaust relief lines at thermal, co-gen and captive power plants, keeping vent noise within site limits.",
+        "features": [
+          "Diffuser plus absorptive design, sized to your steam flow and dB(A) target",
+          "Carbon steel or SS 304 / 316, up to approx. 540°C",
+          "Replacement units for corroded or noisy existing silencers"
+        ]
       }
     ],
     "keyFacts": [
       "60 MW maximum turbine capacity handled",
-      "{years}+ years OEM-trained engineering experience",
+      "{years}+ years of founder engineering experience",
       "API 614 & ISO 4406 compliant products",
       "HVAC filter supply for control rooms and turbine halls",
       "24×7 emergency breakdown support"
@@ -168,6 +177,15 @@
           "Dynamic balancing to ISO 1940/1 G1.0",
           "Two-plane balancing on all rotor types",
           "Balance certificate issued with job report"
+        ]
+      },
+      {
+        "name": "Steam Turbine Silencers (Vent & Safety Valve)",
+        "purpose": "Fitted on back-pressure turbine exhaust relief vents and safety valve outlets, so steam releases during crushing-season trips or header upsets do not become a noise problem.",
+        "features": [
+          "Diffuser plus absorptive design, sized to your steam flow and dB(A) target",
+          "Carbon steel or SS 304 / 316, up to approx. 540°C",
+          "Replacement units for corroded or noisy existing silencers"
         ]
       }
     ],
@@ -252,6 +270,15 @@
           "Reverse-engineered from OEM drawings",
           "Material certificates supplied",
           "CMM dimensional inspection report"
+        ]
+      },
+      {
+        "name": "Steam Turbine Silencers (Vent & Safety Valve)",
+        "purpose": "Quietens turbine and boiler steam vents on mill steam systems, reducing noise at the powerhouse and nearby process areas during start-ups, trips and safety valve lifts.",
+        "features": [
+          "Diffuser plus absorptive design, sized to your steam flow and dB(A) target",
+          "Carbon steel or SS 304 / 316, up to approx. 540°C",
+          "Replacement units for corroded or noisy existing silencers"
         ]
       }
     ],
@@ -420,6 +447,15 @@
           "Tie-rod eliminated pressure thrust design",
           "Reduces nozzle loads on connected equipment",
           "Available in tied and untied configurations"
+        ]
+      },
+      {
+        "name": "Steam Turbine Silencers (Vent & Safety Valve)",
+        "purpose": "Quietens steam vents and safety valve outlets on turbine-driven units and utility steam systems, supplied in carbon steel or SS to suit the steam conditions.",
+        "features": [
+          "Diffuser plus absorptive design, sized to your steam flow and dB(A) target",
+          "Carbon steel or SS 304 / 316, up to approx. 540°C",
+          "Replacement units for corroded or noisy existing silencers"
         ]
       }
     ],
@@ -698,12 +734,21 @@
       },
       {
         "name": "BHEL Replacement Turbine Lube Oil Filter Elements (Captive Power Turbo-Sets)",
-        "purpose": "OEM-matched lube oil elements for BHEL turbo-sets in steel plant captive power stations and process industries, fitting BHEL duplex housings without modification.",
+        "purpose": "OEM-compatible lube oil elements for BHEL turbo-sets in steel plant captive power stations and process industries, fitting BHEL duplex housings without modification.",
         "features": [
-          "OEM-matched for BHEL turbine lube oil systems",
+          "OEM-compatible for BHEL turbine lube oil systems",
           "Drop-in replacement for BHEL duplex lube oil filter housings",
           "10, 25 and 40 µm fineness (ISO 16889 rated); finer on request",
           "Imported glass fiber, SS wire mesh (reusable) or Hydroclean paper media"
+        ]
+      },
+      {
+        "name": "Steam Turbine Silencers (Vent & Safety Valve)",
+        "purpose": "Quietens steam vents and safety valve outlets on captive power turbo-sets and steam lines at cement and steel plants, supplied in carbon steel or SS.",
+        "features": [
+          "Diffuser plus absorptive design, sized to your steam flow and dB(A) target",
+          "Carbon steel or SS 304 / 316, up to approx. 540°C",
+          "Replacement units for corroded or noisy existing silencers"
         ]
       }
     ],

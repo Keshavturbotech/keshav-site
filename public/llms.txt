@@ -7,7 +7,7 @@ Keshav Enterprises serves steam turbines from 5 kW to 60 MW (both back-pressure 
 ## Company
 
 - [About](https://keshavturbotech.com/about): Company history, timeline, team, OEM expertise, and export credentials (IEC registered, GST 09BOSPS3115K1ZC, MSME UDYAM-UP-47-0071234).
-- [Contact](https://keshavturbotech.com/contact): Phone, email, address, office hours, and RFQ form. Phones: +91 9149229448, +91 6397363268. Email: sales.ksengg007@gmail.com.
+- [Contact](https://keshavturbotech.com/contact): Phone, email, address, office hours, and RFQ form. Phones: +91 6397363268. Email: sales.ksengg007@gmail.com.
 - [Downloads](https://keshavturbotech.com/downloads): Free technical checklists, datasheets, and RFQ templates.
 
 ## Services (8)
@@ -31,7 +31,7 @@ Keshav Enterprises serves steam turbines from 5 kW to 60 MW (both back-pressure 
 - [Agro & Food Processing](https://keshavturbotech.com/industries/agro-and-food-processing): Agro-industrial facilities including rice mills, cotton gins, and food processing plants rely on back-pressure steam turbines for power and process steam. We provide cost-effective overhauling, spares, and fitration products.
 - [Cement & Steel Plants](https://keshavturbotech.com/industries/cement-and-steel-plants): Cement and steel plants operate large multi-stage steam turbines and require high-reliability maintenance with minimum production disruption. We provide planned and emergency overhauling services.
 
-## Product Catalogue (125 products in 10 categories)
+## Product Catalogue (126 products in 10 categories)
 
 Full catalogue: https://keshavturbotech.com/products
 
@@ -114,7 +114,7 @@ Full catalogue: https://keshavturbotech.com/products
 - [Spiral Wound Gaskets (SWG): ASME B16.20](https://keshavturbotech.com/products/spiral-wound-gaskets-swg-asme-b16-20)
 - [Ring Joint Gaskets (RTJ), Oval & Octagonal: ASME B16.20](https://keshavturbotech.com/products/ring-joint-gaskets-rtj-oval-and-octagonal-asme-b16-20)
 
-### Turbine Spares (33)
+### Turbine Spares (34)
 - [Steam Turbine Carbon & Graphite Gland Sealing Rings](https://keshavturbotech.com/products/carbon-and-graphite-gland-sealing-rings)
 - [Steam Turbine Labyrinth Shaft Sealing Packings](https://keshavturbotech.com/products/labyrinth-shaft-sealing-packings)
 - [Steam Turbine Babbitt Journal Bearings & Thrust Pads](https://keshavturbotech.com/products/babbitt-journal-bearings-and-thrust-pads)
@@ -148,6 +148,7 @@ Full catalogue: https://keshavturbotech.com/products
 - [Steam Turbine Overspeed Trip Device & Speed Switch](https://keshavturbotech.com/products/overspeed-trip-device-and-speed-switch)
 - [Steam Turbine Lube Oil DP & Temperature Switches](https://keshavturbotech.com/products/dp-and-temperature-switches-turbine-lube-oil-monitoring)
 - [Leaf Springs for Steam Turbine Labyrinth Gland Seals](https://keshavturbotech.com/products/leaf-springs-for-turbine-labyrinth-gland-seals)
+- [Steam Turbine Silencers: Vent, Exhaust & Safety Valve](https://keshavturbotech.com/products/steam-turbine-silencers)
 
 ### Industrial Rubber Products (1)
 - [Custom Extruded Rubber Profiles & Seals](https://keshavturbotech.com/products/custom-extruded-rubber-profiles-and-seals)

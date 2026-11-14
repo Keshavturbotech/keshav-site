@@ -20,8 +20,6 @@
         "label": "Vor-Ort-Support verfügbar"
       }
     ],
-    "whyUs": "Ein einziges falsch eingestelltes Spielmaß während der Montage kann ein Lager innerhalb von Stunden nach dem ersten Dampf zerstören. Unsere Ex-OEM-Baustellenaingenieure haben persönlich dieselben Maschinentypen in Betrieb genommen, die Sie installieren — sie wissen genau, was die OEM-Spezifikation in der Praxis bedeutet, nicht nur auf dem Papier.",
-    "overview": "Turbinenmontage und Inbetriebnahme ist die kritischste Phase jedes Kraftwerks- oder Industrieprojekts. Fehler während der Montage — falsche Ausrichtung, unsachgemäße Spielmaße, falsche Drehmomente — summieren sich innerhalb des ersten Betriebsjahres zu kostspieligen Ausfällen. Keshav Enterprises bringt Ex-OEM-Baustellenaingenieure ein, die Triveni-, Siemens-, BHEL-, Belliss- und Maxwatt-Turbinen in Kraftwerken, Zuckerfabriken, Papierfabriken und Prozessindustrien in Betrieb genommen haben. Jeder Haltepunkt wird bezeugt, jedes Spielmaß dokumentiert und jedes Sicherheitssystem vor der Dampfzufuhr geprüft. Unser Dokumentationspaket erfüllt die Übergabeanforderungen von Kunde, Versicherer und OEM.",
     "procedures": [
       {
         "step": "01",
@@ -139,26 +137,7 @@
   "srv_2": {
     "tagline": "Von der schlüsselfertigen Stillstandsplanung bis zum fehlerfreien Neustart",
     "accentColor": "#0891b2",
-    "keyStats": [
-      {
-        "value": "8+",
-        "label": "OEM-Fabrikate überholt"
-      },
-      {
-        "value": "{years}+",
-        "label": "Jahre Felderfahrung"
-      },
-      {
-        "value": "0,001mm",
-        "label": "Spielmaßauflösung"
-      },
-      {
-        "value": "24×7",
-        "label": "Notfallreaktion"
-      }
-    ],
     "whyUs": "Eine schlecht ausgeführte Überholung ist schlimmer als keine Überholung — sie führt neue Spielmaßfehler, Verunreinigung und Zusammenbaufehler ein. Unsere Ingenieure wurden von den OEMs geschult. Sie wissen, was Toleranzen bei Betriebstemperatur und -drehzahl tatsächlich bedeuten, nicht nur, was im Handbuch steht.",
-    "overview": "Turbinenüberholung ist keine Wartungstätigkeit — sie ist ein präzisionstechnischer Eingriff. Keshav Enterprises setzt Ex-OEM-Ingenieure von Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK und ABB ein, um schlüsselfertige Überholungen mit derselben Disziplin und denselben Dokumentationsstandards wie der Originalhersteller durchzuführen. Jede Überholung beginnt 4–6 Wochen vor dem Stillstand mit Umfangsfinalisierung, Ersatzteil-Vorprüfung und Personalmobilisierungsplanung. Jedes Bauteil wird vor der Demontage, während der Zerlegung und nach dem Zusammenbau gemessen. Für jede Überholung wird ein schriftlicher Zustandsbericht, ein Spielmaßregister und eine Fotodokumentation erstellt — dies schafft eine Basislinie für den nächsten Stillstand.",
     "procedures": [
       {
         "step": "01",
@@ -843,7 +822,6 @@
       }
     ],
     "whyUs": "Eine falsch diagnostizierte Störung, die ohne Ermittlung der Ursache repariert wird, wird erneut ausfallen — oft schneller als beim ersten Mal. Wir raten nicht. Wir messen, analysieren das Spektrum, zerlegen nur das, was die Daten anzeigen, bestätigen die Ursache physisch und beheben sie mit demselben Team, das sie gefunden hat.",
-    "overview": "Ungeplante Turbinenabschaltungen und unerklärliche Leistungsverschlechterung kosten Industrieanlagen jährlich Millionen an Produktionsausfällen. Keshav Enterprises setzt Ex-OEM-Störungsbehebungsingenieure mit vollständiger Diagnoseinstrumentierung ein, um die genaue Ursache jeder Dampfturbinenstörung zu identifizieren, zu dokumentieren und zu beheben — von hoher Vibration und Lagerausfall bis zu Reglerinstabilität, Ölverunreinigung und Dampfleckage. Wir decken alle Turbinenfabrikate von 5 kW bis 60 MW über das gesamte Spektrum der indischen Prozess- und Energieindustrie ab. Unsere Methodik ist systematisch: zunächst Online-Messung, durch Daten gezielte physische Inspektion, schriftlich bestätigte Ursache und Korrekturmaßnahme durch dasselbe Team ausgeführt, das die Störung diagnostiziert hat.",
     "procedures": [
       {
         "step": "01",

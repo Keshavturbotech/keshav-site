@@ -1,12 +1,11 @@
 {
   "meta": {
     "title": "Wasiliana na Timu ya Uhandisi — Omba Nukuu ya Kiufundi",
-    "description": "Wasiliana na Keshav Enterprises kwa maombi ya nukuu (RFQ) ya uhandisi wa turbine, nukuu za uhandisi wa kinyume (reverse engineering), na msaada wa dharura wa kuvunjika wa saa 24 kila siku. Simu: +91 9149229448.",
+    "description": "Wasiliana na Keshav Enterprises kwa maombi ya nukuu (RFQ) ya uhandisi wa turbine, nukuu za uhandisi wa kinyume (reverse engineering), na msaada wa dharura wa kuvunjika wa saa 24 kila siku. Simu: +91 6397363268.",
     "schemaName": "Wasiliana na Keshav Enterprises"
   },
   "hero": {
     "title": "Zungumza na Mhandisi — Sio Idara ya Mauzo",
-    "subtitle": "Tueleze mahitaji yako, na timu yetu ya uhandisi — wataalamu wa zamani wa OEM, si kituo cha simu — watajibu kwa jibu la kiufundi ndani ya saa 24, kwa sababu unahitaji majibu, sio broshua.",
     "trustSignals": [
       "RFQ ya siri — haitawahi kushirikiwa na wawakilishi wa OEM",
       "Hakuna wajibu wowote — wewe ndiye unayeamua hatua inayofuata",
@@ -38,10 +37,8 @@
     },
     "indiamart": {
       "ariaLabel": "Tazama Keshav Enterprises kwenye IndiaMART",
-      "title": "Imethibitishwa na IndiaMART",
       "ratingSrOnly": "Nyota 4.3 kati ya 5",
-      "ratingText": "Ukadiriaji wa 4.3/5",
-      "trustSeal": "Msambazaji wa TrustSeal"
+      "ratingText": "Ukadiriaji wa 4.3/5"
     },
     "connect": {
       "label": "Wasiliana Nasi"
@@ -58,12 +55,8 @@
     "descriptionSuffix": "kwenye Google Maps — angalia wasifu wetu, pata maelekezo, au acha maoni kusaidia wanunuzi wengine kutupata.",
     "cta": "Angalia kwenye Google"
   },
-  "facilityPhoto": {
-    "caption": "Kiwanda Chetu cha Uzalishaji, Shamli, Uttar Pradesh",
-    "alt": "Kiwanda cha uzalishaji cha Keshav Enterprises — Shamli, Uttar Pradesh"
-  },
+  "facilityPhoto": {},
   "map": {
-    "heading": "Kiwanda Chetu cha Uzalishaji — Shamli, Uttar Pradesh",
     "iframeTitle": "Ramani ya eneo la Keshav Enterprises",
     "googleBusinessCta": "Google Business",
     "directionsCta": "Pata Maelekezo"

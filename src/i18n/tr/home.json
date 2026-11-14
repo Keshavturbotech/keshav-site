@@ -1,40 +1,18 @@
 {
   "meta": {
     "title": "Keshav Enterprises — Buhar Türbini Revizyonu ve Yedek Parçaları, Shamli UP Hindistan",
-    "description": "Triveni, Siemens, BHEL'den OEM kökenli buhar türbini mühendisleri. 5 kW–60 MW türbinler için revizyon, tersine mühendislik, dinamik balans, yağlama yağı yıkama ve OEM uyumlu yedek parçalar. Shamli, UP merkezli. 7/24 acil destek.",
     "keywords": "Hindistan türbin bakımı, buhar türbini revizyonu, türbin tersine mühendisliği, endüstriyel türbin yedek parçaları, yağlama yağı filtre elemanları, Hindistan genleşme contaları, Triveni türbin servisi, BHEL türbin yedek parçaları, Uttar Pradesh türbin montajı, Shamli mühendislik"
   },
   "hero": {
     "badgeMakeInIndia": "Make in India",
     "badgeVocalForLocal": "Vocal For Local",
-    "badgeIndiaMartLabel": "IndiaMART Doğrulanmış",
     "badgeIndiaMartRatingSuffix": "PUAN",
     "h1Line1": "Maksimum Kullanılabilirlik için",
     "h1Line2": "Hassas Mühendislik.",
     "capabilityLine": "5 kW'tan 60 MW'a kadar buhar türbinleri — karşı basınçlı ve yoğuşmalı, yatay ve dikey, tek ve çok kademeli. Hindistan genelinde ve dünya çapında müşterilere hizmet veriyoruz.",
-    "introText": "Triveni, Siemens, BHEL ve 7 marka daha için OEM kökenli mühendisler. Türbininizi OEM'den tedarik etmekten daha hızlı tekrar çalışır hale getiriyoruz — tam PMI sertifikaları, ISO balans raporları ve {businessSince}'den bu yana sıfır ceza geçmişiyle.",
     "ctaPrimary": "İhtiyaçlarınızı Gönderin",
     "ctaEmergency": "Acil Arıza",
-    "trustYearsOverhauls": "{years}+ yıl · 500+ revizyon",
-    "trustPmi": "PMI sertifikalı yedek parçalar",
-    "trustResponse": "Ortalama yanıt süresi: 2 saat",
-    "proofCards": [
-      {
-        "label": "Öğrenme Eğrisi Yok",
-        "title": "OEM Kökenli Mühendisler",
-        "sub": "Ekibimiz Triveni, Siemens, BHEL ve Belliss içinde çalıştı — aynı uzmanlık, tesisinize ulaştırıldı."
-      },
-      {
-        "label": "Her İş Belgelenir",
-        "title": "Teslimde Rapor",
-        "sub": "PMI sertifikaları, balans raporları, hizalama kayıtları, durum raporları — iş tamamlandığında teslim edilir."
-      },
-      {
-        "label": "Her Dakika Önemliyken",
-        "title": "7/24 Acil",
-        "sub": "Hindistan genelinde birden fazla lokasyonda mühendisler. Bizi gece 2'de arayın — biri yanıtlar."
-      }
-    ]
+    "trustResponse": "Ortalama yanıt süresi: 2 saat"
   },
   "oemMarquee": {
     "heading": "OEM Uyumlu ve Sektör Liderlerinin Güvendiği"
@@ -45,12 +23,10 @@
       "sub": "Hindistan genelinde şeker, enerji, kağıt ve çimento tesisleri"
     },
     "years": {
-      "label": "Hizmet Yılı",
-      "sub": "{founded}'den bu yana kesintisiz faaliyet — sahiplik değişikliği yok"
+      "label": "Hizmet Yılı"
     },
     "penaltyClaims": {
-      "label": "Ceza Talepleri",
-      "sub": "{businessYears} yılda sıfır — talep üzerine müşteri referansları mevcut"
+      "label": "Ceza Talepleri"
     },
     "emergency": {
       "label": "Acil Müdahale",
@@ -69,7 +45,6 @@
   "servicesPreview": {
     "eyebrow": "Uçtan Uca Türbin Yaşam Döngüsü",
     "heading": "Teknik Hizmetler",
-    "subheading": "Aynı OEM kökenli mühendisler revizyonunuzu, yedek parçalarınızı ve gece 2'deki acil durumunuzu ele alır — taşeronluk yok, devir teslim yok.",
     "painLines": {
       "srv_2": "Yetersiz donanımla gelip iş raporu vermeyen tedarikçilerden bıktınız mı?",
       "srv_3": "OEM artık üretimde olmayan bir yedek parça için aylarca teslim süresi mi verdi?",
@@ -80,12 +55,8 @@
   },
   "testimonials": {
     "eyebrow": "Müşteri Geri Bildirimi",
-    "heading": "Hindistan Genelinde Tesis Müdürlerinin Güvendiği",
-    "googleRatingLabel": "+ Google'da doğrulanmış yorum",
-    "disclaimer": "Alıntılar tamamlanmış proje kayıtlarından alınmıştır ve tam atıf için yazılı onay bekleyene kadar baş harflerle kısaltılmıştır. Bağımsız olarak doğrulanmış puanlar için yukarıdaki Google yorumlarımıza bakın.",
     "footerCtaPrefix": "Bizimle çalıştınız mı?",
     "footerCtaLink": "Bir Google yorumu bırakın — diğer tesis müdürlerinin bizi bulmasına yardımcı olur →",
-    "googleReviewBadge": "Google Yorumu",
     "items": [
       {
         "quote": "Eski Triveni mühendisleri, yıllık duruşumuz sırasında 12 MW Triveni türbinimizin revizyonunu üstlendi — tüm boşluklar belgelendi, rotor ISO G1.0'a balanslandı ve programın önünde tekrar çalışır hale geldi. Altı yıldır ilk kez ilk çalıştırmada hiç sorun yaşamadık.",

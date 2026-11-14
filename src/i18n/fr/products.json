@@ -4851,7 +4851,6 @@
     "id": "prod_ee1",
     "sku": "KTB-EE-001",
     "category": "Electronic Equipment",
-    "title": "Sondes de surveillance de vibration (compatibles Shinkawa)",
     "images": [
       "vibration-probe-shinkawa-1.webp",
       "vibration-probe-shinkawa-2.webp",
@@ -4878,8 +4877,31 @@
       "color": "amber",
       "leadTime": "1–4 semaines"
     },
-    "desc": "Sondes de proximité à courants de Foucault Shinkawa FK / VK d'origine, câbles d'extension et drivers pour la surveillance des vibrations et de la poussée sur turbines à vapeur, réducteurs et alternateurs. En stock à Shamli, UP.",
     "usage": "Mesure sans contact des vibrations radiales de l'arbre, de la position axiale (poussée), de l'excentricité, de la vitesse de rotation et de la référence de phase (Keyphasor) sur turbines à vapeur, turboalternateurs, réducteurs, compresseurs, pompes d'alimentation de chaudière et grands ventilateurs. Alimente les moniteurs Shinkawa VM-5 / VM-7 / VM-25, d'autres baies de surveillance de style API 670 et les entrées de DCS ou d'automate.",
+    "specs": {
+      "Series": "FK (actuelle) et VK (ancienne). Les transmetteurs 2 fils WK/WKN et les capteurs de carter CV/CA font l'objet d'offres séparées",
+      "Measurement Principle": "Mesure de déplacement sans contact par courants de Foucault",
+      "System": "Capteur FL + câble d'extension FW + driver FK (ensemble assorti)",
+      "Sensor (FL-202F)": "FL-202F05 : pointe 5 mm, câble 2.7 mm ; FL-202F08 : pointe 8 mm, câble 3.6 mm ; FL-202F08R : 8 mm montage inversé. Styles L / A / T (sans armure / armé / armé avec résine fluorée)",
+      "Extension Cable (FW-202F)": "Styles L / A / T ; environ 4.5 m (système 5 m) ou 8.5 m (système 9 m) ; de -40 à +177 °C",
+      "Connector": "Diamètre d'environ 7.1 mm ; à garder hors de l'huile ; isoler avec manchon thermorétractable ou ruban en résine fluorée",
+      "System Cable Length": "5 m ou 9 m (les capteurs de 5 m ne fonctionnent que dans les systèmes de 5 m)",
+      "Driver (FK-202F)": "-24 V DC +/-10%, 15 mA max ; impédance de sortie 50 ohm ; environ -0.6 V en cas de défaut capteur ; environ 200 g",
+      "Driver Mounting Options": "Rail DIN 35 mm ; montage à vis 50.8 x 50.8 mm ; montage à vis 92 x 31 mm (remplacement VK) ; multi-pas",
+      "Driver Terminals": "Bornier à vis M4 ou borne à ressort",
+      "Reference Model (FK-202F)": "Plage de 0.25 à 2.25 mm depuis la pointe du capteur, facteur d'échelle 7.87 V/mm, de DC à 10 kHz (-3 dB)",
+      "Temperature": "Capteur et câble d'extension de -40 à +177 °C ; driver de -40 à +80 °C",
+      "Calibration Target": "Acier plat JIS SCM440 (type 4140) ; autres matériaux sur demande",
+      "Hazardous Area Options": "Variantes FK à sécurité intrinsèque : DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (selon le code de modèle)",
+      "2-Wire Transmitter Option": "Transmetteurs Shinkawa WK / WKN 4-20 mA, voir l'offre séparée",
+      "Typical Steam Turbine Use": "Sondes radiales XY à chaque palier, 2 à 3 sondes axiales sur la butée, 1 sonde Keyphasor, sonde d'excentricité au palier avant",
+      "Typical Gearbox Use": "Sondes radiales XY aux paliers du pignon rapide et de la roue lente, sonde axiale pour la poussée du pignon",
+      "Typical Alternator Use": "Sondes radiales XY aux paliers côté entraînement et côté opposé, référence de vitesse et de phase",
+      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, autres systèmes acceptant un driver de proximité -24 V DC, DCS/automate via conditionneur de signal",
+      "Brand": "Shinkawa Electric (d'origine)"
+    },
+    "title": "Sondes de surveillance de vibration (compatibles Shinkawa)",
+    "desc": "Sondes de proximité à courants de Foucault Shinkawa FK / VK d'origine, câbles d'extension et drivers pour la surveillance des vibrations et de la poussée sur turbines à vapeur, réducteurs et alternateurs. En stock à Shamli, UP.",
     "features": [
       "Système de transducteur Shinkawa d'origine en trois parties assorties : capteur FL (sonde), câble d'extension FW et driver FK. Les trois sont étalonnés ensemble comme une boucle ; si l'un est remplacé, le capteur, le câble et le driver doivent être remplacés comme un ensemble",
       "Séries FK (gamme actuelle) et VK (anciennes installations) disponibles. Les drivers FK sont fournis avec une platine de montage pour remplacer directement les drivers VK ; la mesure de dilatation différentielle utilise toujours la série VK",
@@ -4900,37 +4922,28 @@
       "Aide à la modernisation : envoyez l'ancienne plaque signalétique (VK-202A1, VK-202A2, FK-202F, etc.) avec la longueur du capteur et nous trouverons le bon remplacement",
       "Système conçu selon API 670 pour la protection des machines ; série FK conforme RoHS",
       "Les noms de marques et de modèles sont des marques déposées de leurs propriétaires respectifs et ne servent qu'à l'identification. Keshav Enterprises est un fournisseur indépendant."
-    ],
-    "specs": {
-      "Brand": "Shinkawa Electric (d'origine)",
-      "Series": "FK (actuelle) et VK (ancienne). Les transmetteurs 2 fils WK/WKN et les capteurs de carter CV/CA font l'objet d'offres séparées",
-      "Measurement Principle": "Mesure de déplacement sans contact par courants de Foucault",
-      "System": "Capteur FL + câble d'extension FW + driver FK (ensemble assorti)",
-      "Sensor (FL-202F)": "FL-202F05 : pointe 5 mm, câble 2.7 mm ; FL-202F08 : pointe 8 mm, câble 3.6 mm ; FL-202F08R : 8 mm montage inversé. Styles L / A / T (sans armure / armé / armé avec résine fluorée)",
-      "Extension Cable (FW-202F)": "Styles L / A / T ; environ 4.5 m (système 5 m) ou 8.5 m (système 9 m) ; de -40 à +177 °C",
-      "Connector": "Diamètre d'environ 7.1 mm ; à garder hors de l'huile ; isoler avec manchon thermorétractable ou ruban en résine fluorée",
-      "System Cable Length": "5 m ou 9 m (les capteurs de 5 m ne fonctionnent que dans les systèmes de 5 m)",
-      "Driver (FK-202F)": "-24 V DC +/-10%, 15 mA max ; impédance de sortie 50 ohm ; environ -0.6 V en cas de défaut capteur ; environ 200 g",
-      "Driver Mounting Options": "Rail DIN 35 mm ; montage à vis 50.8 x 50.8 mm ; montage à vis 92 x 31 mm (remplacement VK) ; multi-pas",
-      "Driver Terminals": "Bornier à vis M4 ou borne à ressort",
-      "Reference Model (FK-202F)": "Plage de 0.25 à 2.25 mm depuis la pointe du capteur, facteur d'échelle 7.87 V/mm, de DC à 10 kHz (-3 dB)",
-      "Temperature": "Capteur et câble d'extension de -40 à +177 °C ; driver de -40 à +80 °C",
-      "Calibration Target": "Acier plat JIS SCM440 (type 4140) ; autres matériaux sur demande",
-      "Hazardous Area Options": "Variantes FK à sécurité intrinsèque : DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (selon le code de modèle)",
-      "2-Wire Transmitter Option": "Transmetteurs Shinkawa WK / WKN 4-20 mA, voir l'offre séparée",
-      "Typical Steam Turbine Use": "Sondes radiales XY à chaque palier, 2 à 3 sondes axiales sur la butée, 1 sonde Keyphasor, sonde d'excentricité au palier avant",
-      "Typical Gearbox Use": "Sondes radiales XY aux paliers du pignon rapide et de la roue lente, sonde axiale pour la poussée du pignon",
-      "Typical Alternator Use": "Sondes radiales XY aux paliers côté entraînement et côté opposé, référence de vitesse et de phase",
-      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, autres systèmes acceptant un driver de proximité -24 V DC, DCS/automate via conditionneur de signal"
-    }
+    ]
   },
   "prod_ee7": {
     "id": "prod_ee7",
     "sku": "KTB-EE-007",
     "category": "Electronic Equipment",
     "title": "Systèmes de sondes de proximité Bently Nevada 3300 XL",
-    "desc": "Sondes de proximité Bently Nevada 3300 XL d'origine, câbles 330130 et Proximitor pour la surveillance des vibrations et de la poussée sur turbines, réducteurs et alternateurs. Devis selon la référence.",
     "usage": "Vibration radiale, position axiale, excentricité, dilatation différentielle et référence de vitesse/phase sur les turbomachines équipées de systèmes de surveillance Bently Nevada 3500 ou 3300. Les sondes de 5 mm et 8 mm couvrent les mesures courantes de paliers lisses et de poussée ; les systèmes plus grands de 11, 16, 25 et 50 mm couvrent les mesures à grande plage et de dilatation.",
+    "specs": {
+      "System Components": "Sonde 3300 XL + câble d'extension 330130 + capteur Proximitor 330180",
+      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (gamme 3300 XL)",
+      "8 mm Linear Range / Scale Factor": "0.25 à 2.3 mm ; 7.87 V/mm (200 mV/mil) +/-5%",
+      "8 mm Probe Temperature": "-51 à +177 °C",
+      "50 mm System Range": "Environ 27.9 mm (1,100 mil) pour la dilatation différentielle",
+      "Standard": "API 670 (4e édition) pour le système standard 8 mm de 5 m",
+      "Compatible Monitors": "Séries Bently Nevada 3500 et 3300",
+      "Typical Steam Turbine Use": "Sondes radiales XY à chaque palier, sondes de position de poussée, Keyphasor, dilatation différentielle avec sondes de 25 mm ou 50 mm",
+      "Typical Gearbox Use": "Sondes radiales aux paliers du pignon et de la roue, sonde axiale pour la poussée du pignon et l'engrènement",
+      "Typical Alternator Use": "Sondes radiales XY aux deux paliers, référence Keyphasor/vitesse",
+      "Brand": "Bently Nevada (Baker Hughes), d'origine"
+    },
+    "desc": "Sondes de proximité Bently Nevada 3300 XL d'origine, câbles 330130 et Proximitor pour la surveillance des vibrations et de la poussée sur turbines, réducteurs et alternateurs. Devis selon la référence.",
     "features": [
       "Système Bently Nevada 3300 XL d'origine : sonde, câble d'extension 330130 et capteur Proximitor 330180, avec interchangeabilité totale des composants, sans appairage sur banc",
       "3300 XL 8 mm : plage linéaire de 0.25 à 2.3 mm (10 à 90 mil), facteur d'échelle 7.87 V/mm (200 mV/mil) +/-5%, entrefer recommandé 1.27 mm à environ -9 V DC, sonde de -51 à +177 °C",
@@ -4941,28 +4954,21 @@
       "Options à grande plage pour turbines à vapeur : systèmes 3300 XL de 25 mm et 50 mm pour la dilatation différentielle ; le système de 50 mm a une plage de mesure d'environ 27.9 mm (1,100 mil)",
       "Demandez un devis avec la référence complète (par exemple 330103-xx-xx-xx-xx-xx avec 330130-xxx-xx-xx et 330180-xx-xx) ou envoyez l'ancienne plaque signalétique",
       "Les noms de marques et de modèles sont des marques déposées de leurs propriétaires respectifs et ne servent qu'à l'identification. Keshav Enterprises est un fournisseur indépendant."
-    ],
-    "specs": {
-      "Brand": "Bently Nevada (Baker Hughes), d'origine",
-      "System Components": "Sonde 3300 XL + câble d'extension 330130 + capteur Proximitor 330180",
-      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (gamme 3300 XL)",
-      "8 mm Linear Range / Scale Factor": "0.25 à 2.3 mm ; 7.87 V/mm (200 mV/mil) +/-5%",
-      "8 mm Probe Temperature": "-51 à +177 °C",
-      "50 mm System Range": "Environ 27.9 mm (1,100 mil) pour la dilatation différentielle",
-      "Standard": "API 670 (4e édition) pour le système standard 8 mm de 5 m",
-      "Compatible Monitors": "Séries Bently Nevada 3500 et 3300",
-      "Typical Steam Turbine Use": "Sondes radiales XY à chaque palier, sondes de position de poussée, Keyphasor, dilatation différentielle avec sondes de 25 mm ou 50 mm",
-      "Typical Gearbox Use": "Sondes radiales aux paliers du pignon et de la roue, sonde axiale pour la poussée du pignon et l'engrènement",
-      "Typical Alternator Use": "Sondes radiales XY aux deux paliers, référence Keyphasor/vitesse"
-    }
+    ]
   },
   "prod_ee8": {
     "id": "prod_ee8",
     "sku": "KTB-EE-008",
     "category": "Electronic Equipment",
     "title": "Capteurs à courants de Foucault EPRO PR6423 / PR6424 et CON011",
-    "desc": "Capteurs à courants de Foucault Emerson EPRO PR6422 à PR6426 d'origine et convertisseurs de signal CON011 pour mesurer la vibration et la position d'arbre sur turbines, réducteurs et générateurs.",
     "usage": "Mesure du déplacement radial et axial de l'arbre, de la position, de l'excentricité et de la vitesse/clavette sur turbines à vapeur, à gaz et hydrauliques, compresseurs, réducteurs, pompes et ventilateurs, avec les moniteurs Emerson / EPRO MMS ou tout système acceptant la sortie du convertisseur.",
+    "specs": {
+      "Converter": "Convertisseur de signal à courants de Foucault CON011 (plage standard et étendue)",
+      "Measures": "Déplacement radial et axial de l'arbre, position, excentricité, vitesse/clavette",
+      "Typical Machines": "Turbines à vapeur, à gaz et hydrauliques, compresseurs, réducteurs, pompes, ventilateurs",
+      "Brand": "Emerson (EPRO), d'origine"
+    },
+    "desc": "Capteurs à courants de Foucault Emerson EPRO PR6422 à PR6426 d'origine et convertisseurs de signal CON011 pour mesurer la vibration et la position d'arbre sur turbines, réducteurs et générateurs.",
     "features": [
       "Capteurs Emerson EPRO d'origine : PR6422, PR6423 (8 mm, versions M10x1), PR6424 (16 mm), PR6425 (16 mm haute température), PR6426 (32 mm)",
       "Convertisseur de signal à courants de Foucault CON011 : de 0 à 20 kHz (-3 dB), temps de montée inférieur à 15 microsecondes, de -30 à +100 °C, alimentation de -23 à -32 V DC, accepte les capteurs PR6422 à PR6426",
@@ -4972,21 +4978,24 @@
       "Des variantes à plage étendue du CON011 existent pour de plus grandes plages de mesure (par exemple 3, 4, 6, 8, 10 mm) ; le PR6425 exige le convertisseur à plage étendue",
       "Le capteur et le convertisseur forment un système assorti : le capteur, la longueur de câble et le modèle de convertisseur doivent correspondre. Envoyez la plaque signalétique ou l'ancienne référence et nous confirmerons la correspondance",
       "Les noms de marques et de modèles sont des marques déposées de leurs propriétaires respectifs et ne servent qu'à l'identification. Keshav Enterprises est un fournisseur indépendant."
-    ],
-    "specs": {
-      "Brand": "Emerson (EPRO), d'origine",
-      "Converter": "Convertisseur de signal à courants de Foucault CON011 (plage standard et étendue)",
-      "Measures": "Déplacement radial et axial de l'arbre, position, excentricité, vitesse/clavette",
-      "Typical Machines": "Turbines à vapeur, à gaz et hydrauliques, compresseurs, réducteurs, pompes, ventilateurs"
-    }
+    ]
   },
   "prod_ee9": {
     "id": "prod_ee9",
     "sku": "KTB-EE-009",
     "category": "Electronic Equipment",
     "title": "Sondes de proximité Vibro-Meter TQ402 / TQ442 et IQS450",
-    "desc": "Sondes de proximité Meggitt vibro-meter TQ4xx d'origine, câbles EA40x et conditionneurs IQS450 pour surveiller la vibration et la position d'arbre de turbines.",
     "usage": "Vibration d'arbre sans contact et position axiale sur turbines à vapeur, à gaz et hydrauliques et autres machines critiques équipées de systèmes de surveillance vibro-meter. La sortie en tension ou en courant protégée contre les courts-circuits convient aux moniteurs en baie comme au raccordement direct à un DCS.",
+    "specs": {
+      "Extension Cables": "EA401, EA402, EA403",
+      "TQ442 System Range": "2 mm ou 4 mm",
+      "Frequency Response": "De DC à 20 kHz (-3 dB)",
+      "Temperature": "De -40 à +180 °C (TQ442)",
+      "System Lengths": "1 m, 5 m, 10 m (selon le modèle)",
+      "Output": "Tension ou courant (2 fils), protégé contre les courts-circuits",
+      "Brand": "Meggitt vibro-meter, d'origine"
+    },
+    "desc": "Sondes de proximité Meggitt vibro-meter TQ4xx d'origine, câbles EA40x et conditionneurs IQS450 pour surveiller la vibration et la position d'arbre de turbines.",
     "features": [
       "Système vibro-meter d'origine : transducteur de proximité TQ4xx + câble d'extension EA4xx + conditionneur de signal IQS450 (ou IQS900) forment une chaîne de mesure étalonnée",
       "Familles de transducteurs TQ401 / TQ402 / TQ403 / TQ412 / TQ422 / TQ423 / TQ432 / TQ442 disponibles",
@@ -4994,23 +5003,13 @@
       "Sortie en tension ou en courant 2 fils avec protection contre les courts-circuits ; versions certifiées pour atmosphères explosibles",
       "Remplacement ou pièces de rechange pour chaînes vibro-meter existantes : envoyez les références du transducteur, du câble et du conditionneur ; les longueurs électriques doivent correspondre",
       "Les noms de marques et de modèles sont des marques déposées de leurs propriétaires respectifs et ne servent qu'à l'identification. Keshav Enterprises est un fournisseur indépendant."
-    ],
-    "specs": {
-      "Brand": "Meggitt vibro-meter, d'origine",
-      "Extension Cables": "EA401, EA402, EA403",
-      "TQ442 System Range": "2 mm ou 4 mm",
-      "Frequency Response": "De DC à 20 kHz (-3 dB)",
-      "Temperature": "De -40 à +180 °C (TQ442)",
-      "System Lengths": "1 m, 5 m, 10 m (selon le modèle)",
-      "Output": "Tension ou courant (2 fils), protégé contre les courts-circuits"
-    }
+    ]
   },
   "prod_ee10": {
     "id": "prod_ee10",
     "sku": "KTB-EE-010",
     "category": "Electronic Equipment",
     "title": "Transmetteurs de vibration 2 fils 4-20 mA (Shinkawa WK/WKN)",
-    "desc": "Transmetteurs de vibration et de poussée 2 fils 4-20 mA Shinkawa WK / WKN d'origine pour turbines à vapeur, alternateurs, réducteurs, pompes et compresseurs. Raccordement direct au DCS ou à l'automate, sans baie de moniteur.",
     "usage": "Surveillance continue de la vibration d'arbre ou de la position de poussée sur petites et moyennes machines pour lesquelles un moniteur en baie complet n'est pas justifié : turbines à vapeur auxiliaires, pompes d'alimentation de chaudière, réducteurs, compresseurs, ventilateurs et alternateurs. Le signal de boucle 4-20 mA va directement à un DCS, un automate ou un indicateur.",
     "features": [
       "Transducteur à courants de Foucault avec conversion de vibration ou de poussée intégrée : sortie 4-20 mA sans moniteur de vibration ni convertisseur séparé",
@@ -5026,7 +5025,6 @@
       "Les noms de marques et de modèles sont des marques déposées de leurs propriétaires respectifs et ne servent qu'à l'identification. Keshav Enterprises est un fournisseur indépendant."
     ],
     "specs": {
-      "Brand": "Shinkawa Electric, d'origine",
       "Models": "WK-142K, WK-142T, WKN-142K, WKN-142T (variantes de système 1, 2 et 5)",
       "Output": "4-20 mA, boucle de courant 2 fils",
       "Vibration Output Ranges": "0 à 100, 125, 200, 250, 400 microns crête à crête (selon le code de modèle)",
@@ -5040,15 +5038,16 @@
       "Transmitter Size": "Environ 100 x 74 x 50 mm ; clips DIN en option",
       "Hazardous Area": "Option non incendiaire (CSA Class I Div 2, ATEX Ex nA)",
       "Calibration Target": "Acier JIS SCM440 (équivalent AISI 4140)",
-      "Typical Machines": "Turbines à vapeur auxiliaires, BFP, réducteurs, compresseurs, alternateurs, ventilateurs"
-    }
+      "Typical Machines": "Turbines à vapeur auxiliaires, BFP, réducteurs, compresseurs, alternateurs, ventilateurs",
+      "Brand": "Shinkawa Electric, d'origine"
+    },
+    "desc": "Transmetteurs de vibration et de poussée 2 fils 4-20 mA Shinkawa WK / WKN d'origine pour turbines à vapeur, alternateurs, réducteurs, pompes et compresseurs. Raccordement direct au DCS ou à l'automate, sans baie de moniteur."
   },
   "prod_ee11": {
     "id": "prod_ee11",
     "sku": "KTB-EE-011",
     "category": "Electronic Equipment",
     "title": "Capteurs de vibration de carter : Velomitor, CV-86 et accéléromètres",
-    "desc": "Capteurs d'origine Bently Velomitor, Shinkawa CV-86, Hansford et SKF pour la vibration des paliers sur turbines, réducteurs, alternateurs et moteurs. Devis selon le modèle.",
     "usage": "Vibration absolue (sismique) sur supports de palier, carters de réducteur, bâtis d'alternateur et flasques de moteur, là où une sonde d'arbre ne peut pas être installée ou lorsque la vibration de carter est une entrée d'alarme ou de déclenchement. Utilisés avec les sondes de proximité d'arbre sur les lignes turbine-réducteur-alternateur, et seuls sur les moteurs, ventilateurs et pompes.",
     "features": [
       "Capteur de vitesse piézoélectrique Bently Nevada 330500 Velomitor : 3.94 mV/mm/s (100 mV/in/s) +/-5%, de 4.5 Hz à 5 kHz (+/-3 dB), jusqu'à 1,270 mm/s crête, de -55 à +121 °C, acier inoxydable 316L, MIL-C-5015 2 broches, tout angle de montage",
@@ -5062,22 +5061,22 @@
       "Les noms de marques et de modèles sont des marques déposées de leurs propriétaires respectifs et ne servent qu'à l'identification. Keshav Enterprises est un fournisseur indépendant."
     ],
     "specs": {
-      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (tous d'origine)",
       "Velocity Sensors": "Bently Nevada 330500 / 330525 Velomitor ; Shinkawa CV-86, CV-87",
       "Accelerometers": "Bently Nevada 330400 / 330425 ; Hansford série HS-100 ; SKF CMSS 2100 / 2200",
       "Accelerometer Sensitivities": "25, 100 mV/g (Bently) ; 10 à 500 mV/g (Hansford) ; 100 mV/g (SKF)",
       "Typical Steam Turbine Use": "Vibration du support de palier, horizontale et verticale à chaque palier",
       "Typical Gearbox Use": "Carter près du palier du pignon rapide ; accéléromètre pour les fréquences d'engrènement",
       "Typical Alternator Use": "Carter de palier côté entraînement et côté opposé",
-      "Typical Motor Use": "Carter de palier, côté entraînement et côté opposé, horizontal / vertical / axial"
-    }
+      "Typical Motor Use": "Carter de palier, côté entraînement et côté opposé, horizontal / vertical / axial",
+      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (tous d'origine)"
+    },
+    "desc": "Capteurs d'origine Bently Velomitor, Shinkawa CV-86, Hansford et SKF pour la vibration des paliers sur turbines, réducteurs, alternateurs et moteurs. Devis selon le modèle."
   },
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
     "category": "Electronic Equipment",
     "title": "Capteur magnétique (Woodward)",
-    "desc": "Capteur de vitesse magnétique à réluctance variable Woodward authentique (MPU) pour la rétroaction précise de vitesse d'arbre vers les régulateurs Woodward et systèmes de contrôle de turbine numériques. Conception passive, autoalimentée, sans entretien pour un service continu sur turbines à vapeur fonctionnant à 3000–3600 tr/min.",
     "usage": "Entrée de détection de vitesse primaire pour les régulateurs numériques Woodward 505/505D/505E, amplificateurs de régulateur 2301 et 7206, et systèmes de déclenchement de survitesse autonomes sur les turbines à vapeur Triveni, BHEL, Siemens, KKK et Maxwatt. Surveille la vitesse du rotor de turbine via la roue dentée du régulateur (engrenage/volant) pour fournir une régulation de vitesse en boucle fermée, un contrôle de charge, et une protection contre la survitesse tout au long du démarrage, de la synchronisation, et du fonctionnement à pleine charge.",
     "features": [
       "Capteur à réluctance variable (passif) — génère son propre signal de tension CA à partir du mouvement des dents d'engrenage ; aucune alimentation externe requise",
@@ -5139,7 +5138,8 @@
       "label": "Sur demande",
       "color": "amber",
       "leadTime": "1–4 semaines"
-    }
+    },
+    "desc": "Capteur de vitesse magnétique à réluctance variable Woodward authentique (MPU) pour la rétroaction précise de vitesse d'arbre vers les régulateurs Woodward et systèmes de contrôle de turbine numériques. Conception passive, autoalimentée, sans entretien pour un service continu sur turbines à vapeur fonctionnant à 3000–3600 tr/min."
   },
   "prod_ee3": {
     "id": "prod_ee3",
@@ -6989,6 +6989,72 @@
       "max": 12000,
       "unit": "per segment",
       "note": "Spring steel or Inconel X-750; set of 4–8 per gland"
+    },
+    "availability": {
+      "label": "Made to Order",
+      "color": "amber",
+      "leadTime": "2–6 weeks"
+    }
+  },
+  "prod_ts_silencer": {
+    "id": "prod_ts_silencer",
+    "sku": "KTB-TS-040",
+    "category": "Turbine Spares",
+    "title": "Silencieux pour Turbines à Vapeur : Purge, Échappement et Soupapes de Sûreté",
+    "desc": "Silencieux de purge, d'échappement et de soupapes de sûreté qui réduisent le bruit de la vapeur haute pression rejetée à l'atmosphère par les installations de turbines à vapeur : évents de décharge à l'échappement des turbines à contre-pression, purges de démarrage et de réchauffage, sorties de soupapes de sûreté à l'admission et aux soutirages de la turbine, et soufflage vapeur lors de la mise en service. Chaque silencieux est conçu et fabriqué par nos soins selon l'exigence du client ; il associe un étage diffuseur multi-trous, qui ralentit et disperse le jet de vapeur, à une section absorbante garnie. Il est dimensionné selon le débit de vapeur, la pression, la température et la limite en dB(A) exigée à votre distance de référence. Fourni en acier au carbone, ou en acier inoxydable avec entrée en acier allié pour vapeur surchauffée.",
+    "usage": "Monté à la sortie des soupapes de sûreté, des soupapes de décharge atmosphériques et des lignes de purge dans les installations de turbines à vapeur et de chaudières des sucreries et distilleries, de l'industrie papetière, de la sidérurgie, de la pétrochimie et de la production d'énergie : évents de décharge d'échappement sur turbines à contre-pression, purges de démarrage et de réchauffage, sorties de soupapes de sûreté à l'admission et aux soutirages, sorties de soupapes de sûreté de postes PRDS et évents d'échappement d'éjecteurs sur turbines à condensation. Également fourni en remplacement de silencieux corrodés, bruyants ou défaillants sur des purges existantes, conçu et fabriqué selon les cotes de raccordement et de fixation de l'ancien équipement ou par rétro-ingénierie à partir d'un échantillon ou de photos en l'absence de plans, ainsi que sous forme de silencieux temporaires de soufflage vapeur pour le nettoyage des tuyauteries pendant le montage et la mise en service des turbines.",
+    "features": [
+      "Types de silencieux : combinaison diffuseur et silencieux de purge absorbant (standard) ; étage réactif à chambre d'expansion lorsque le bruit basse fréquence domine",
+      "Le diffuseur d'entrée multi-trous réduit la vitesse de la vapeur et fractionne le jet avant son entrée dans la section absorbante",
+      "Section absorbante : garnissage en laine minérale haute densité ou en fibre céramique maintenu derrière une chemise perforée et un treillis en acier inoxydable pour résister à la perte de fibres et à l'érosion",
+      "Conçu et fabriqué par nos soins pour chaque application à partir du débit de vapeur (kg/h), de la pression et de la température d'entrée, du diamètre de ligne et de l'objectif en dB(A) à une distance donnée ; chaque unité est fabriquée sur commande, ce n'est pas un article de catalogue",
+      "Réduction de bruit typique de 50 à 80 dB(A), selon le débit, la pression et la conception ; la valeur cible est convenue et inscrite sur la fiche technique approuvée",
+      "Matériaux : acier au carbone (IS 2062 / SA 516 Gr 70) pour la vapeur saturée et les températures modérées ; SS 304 / 316 ou tronçon d'entrée en acier allié pour la vapeur surchauffée jusqu'à env. 540°C",
+      "Raccordements : entrée à brides (ASME B16.5 / DIN) ou à souder, 200 NB à 600 NB en standard, autres tailles selon la demande du client",
+      "Le piquage de purge des condensats au point bas évite que le garnissage ne se gorge d'eau après un rejet de vapeur",
+      "Chapeau pare-pluie en sortie ; montage vertical sur cheminée de purge en standard, horizontal sur demande",
+      "Pattes de support, bride de base et anneaux de levage fournis ; calorifuge de surface chaude ou habillage de protection du personnel en option",
+      "Unités de remplacement et de rétro-ingénierie pour purges existantes dont le silencieux d'origine est corrodé, a perdu son garnissage ou est devenu bruyant",
+      "Livré avec plan d'ensemble et fiche technique ; certificats matière sur demande"
+    ],
+    "specs": {
+      "Silencer Type": "Diffuseur + absorbant (standard) ; étage réactif sur demande",
+      "Service": "Purge vapeur, décharge d'échappement de turbine, sortie de soupape de sûreté, purge de démarrage / réchauffage, soufflage vapeur",
+      "Inlet Size Range": "200 NB à 600 NB ; autres tailles selon la demande du client",
+      "Inlet Connection": "À brides (ASME B16.5 / DIN) ou à souder",
+      "Design Basis": "Débit de vapeur (kg/h), pression d'entrée, température et dB(A) requis fournis par le client",
+      "Noise Reduction": "Typiquement 50–80 dB(A), selon la conception ; cible indiquée sur la fiche technique",
+      "Temperature Rating": "Jusqu'à env. 540°C en vapeur surchauffée (tronçon d'entrée en acier allié)",
+      "Body Material": "Acier au carbone (IS 2062 / SA 516 Gr 70) ou SS 304 / 316",
+      "Diffuser Material": "Acier au carbone, SS 304 / 316 ou acier allié, selon la température de la vapeur",
+      "Acoustic Packing": "Laine minérale haute densité ou fibre céramique, maintenue par treillis SS",
+      "Orientation": "Vertical sur cheminée (standard) ; horizontal sur demande",
+      "Drain and Outlet": "Purge des condensats au point bas ; chapeau pare-pluie en sortie",
+      "Finish": "Peinture résistante à la chaleur ; calorifuge / habillage en option",
+      "Documents": "Plan d'ensemble et fiche technique ; certificats matière sur demande",
+      "HSN Code": "84069000"
+    },
+    "images": [
+      "steam-turbine-silencer-1.webp",
+      "steam-turbine-silencer-2.webp",
+      "steam-turbine-silencer-3.webp",
+      "steam-turbine-silencer-4.webp",
+      "steam-turbine-silencer-5.webp",
+      "steam-turbine-silencer-6.webp",
+      "steam-turbine-silencer-7.webp",
+      "steam-turbine-silencer-8.webp",
+      "steam-turbine-silencer-9.webp",
+      "steam-turbine-silencer-10.webp",
+      "steam-turbine-silencer-11.webp",
+      "steam-turbine-silencer-12.webp"
+    ],
+    "slug": "steam-turbine-silencers",
+    "categorySlug": "turbine-spares",
+    "priceRange": {
+      "min": 40000,
+      "max": 400000,
+      "unit": "per unit",
+      "note": "Acier au carbone à SS ; dimensionné selon le débit de vapeur, la pression et l'objectif en dB(A)"
     },
     "availability": {
       "label": "Made to Order",

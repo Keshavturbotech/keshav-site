@@ -26,16 +26,6 @@
     "id": "srv_2",
     "image": "service-overhauling.webp",
     "title": "Révision générale et maintenance clé en main",
-    "desc": "Réalisée par des ingénieurs anciens de Triveni, Siemens, BHEL, Belliss et d'autres équipementiers. Comprend la planification avant arrêt, les rapports d'état sur site, une gestion complète des pièces de rechange et un dépannage d'urgence 24 h/24 et 7 j/7.",
-    "details": [
-      "Planification avant arrêt avec périmètre détaillé des équipements tournants",
-      "Inspection sur site des pièces de rechange en stock avec rapports de manques",
-      "Ingénieurs anciens OEM : Triveni, Belliss, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
-      "Tous les jeux, écarts et dimensions mesurés et consignés",
-      "Rapport d'état avec recommandations pour chaque composant",
-      "Base clé en main : outils, appareillages, consommables et main-d'œuvre fournis",
-      "Intervention d'urgence 24 h/24, 7 j/7 avec ingénieurs sur plusieurs sites"
-    ],
     "oems": [
       "Triveni",
       "Belliss & Morcom",
@@ -132,7 +122,6 @@
     "id": "srv_7",
     "image": "service-troubleshooting.webp",
     "title": "Service de dépannage",
-    "desc": "Diagnostic rapide de pannes sur site pour turbines à vapeur présentant vibrations, défaillance de paliers, instabilité du régulateur, fuite de vapeur, contamination d'huile ou déclenchements inattendus. Nos ingénieurs, anciens d'équipementiers, se déploient avec un instrumentation diagnostique complète pour identifier la cause racine et l'action corrective.",
     "details": [
       "Vibration élevée — diagnostic de balourd, désalignement, usure de palier, frottement",
       "Investigation du pompage du régulateur, instabilité de vitesse et déclenchement survitesse",

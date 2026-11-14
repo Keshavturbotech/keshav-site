@@ -54,15 +54,55 @@ function highlightMatch(text, query) {
 
 const waMsg = (text) => `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent(text)}`;
 
+// Product search index: one small static JSON per language, fetched on demand.
+// The cache lives at module level (shared by the desktop popover and the
+// mobile drawer, which are the same component instance anyway) and stores the
+// in-flight PROMISE, so concurrent triggers (open + focus + hover) never start
+// a second request. A failed fetch is evicted so the next open can retry.
+const searchIndexCache = new Map();
+
+// The endpoint uses short keys to keep the file small; map them back to the
+// field names the filter/render code below already reads.
+const expandSearchRow = (r) => ({
+  id: r.i,
+  slug: r.s,
+  title: r.t,
+  desc: r.d,
+  category: r.c,
+  features: r.f,
+  priceRange: r.p,
+  image: r.m, // already a resolved URL (optimised /_astro/... or /${filename})
+});
+
+function loadSearchIndex(url) {
+  let entry = searchIndexCache.get(url);
+  if (!entry) {
+    entry = fetch(url, { credentials: "same-origin" })
+      .then((res) => {
+        if (!res.ok) throw new Error(`search index ${res.status}`);
+        return res.json();
+      })
+      .then((rows) => {
+        if (!Array.isArray(rows)) throw new Error("search index malformed");
+        return rows.map(expandSearchRow);
+      });
+    searchIndexCache.set(url, entry);
+    // Separate handled branch: evicts on failure without leaving an
+    // unhandled rejection (callers still get the rejection via `entry`).
+    entry.catch(() => searchIndexCache.delete(url));
+  }
+  return entry;
+}
+
 /**
  * @param {object} props
  * @param {string} [props.currentPath]
  * @param {Array<{name: string, path: string}>} [props.navLinks]
  * @param {Array<{id?: string, title?: string, slug?: string}>} [props.services]
- * @param {Array<{id?: string, title?: string, slug?: string, category?: string, desc?: string, features?: string[], images?: string[], priceRange?: unknown}>} [props.products]
+ * @param {string} [props.searchIndexUrl] - URL of this locale's product search index (/search-index/<locale>.json, emitted by src/pages/search-index/[locale].json.ts). Fetched lazily on first search interaction instead of shipping the whole product list in every page's island props.
  * @param {Array<{slug: string, label: string}>} [props.productCategories]
  * @param {Array<{id?: string, slug?: string, title?: string}>} [props.industries]
- * @param {Record<string, {src: string, srcSet: string}>} [props.imageMap] - filename -> resolved optimized image (buildProductImageMap), for search-result thumbnails. Same guess+onError fallback pattern as RichProductCard for filenames not in the map.
+ * @param {Record<string, {src: string, srcSet: string}>} [props.imageMap] - filename -> resolved optimized image (buildProductImageMap), for SERVICE search-result thumbnails (product thumbnails arrive pre-resolved in the search index). Same guess+onError fallback pattern as RichProductCard for filenames not in the map.
  * @param {string} [props.currentLocale] - Astro.currentLocale, resolved server-side (Part 2)
  * @param {Record<string, string>} [props.equivalentLocalePaths] - locale code -> this page's URL in that locale (Part 2)
  */
@@ -70,7 +110,7 @@ export default function Navbar({
   currentPath = "/",
   navLinks = [],
   services = [],
-  products = [],
+  searchIndexUrl = "",
   productCategories = [],
   industries = [],
   imageMap = {},
@@ -125,7 +165,13 @@ export default function Navbar({
   // isActive highlighting) so none of them can drift out of sync with each
   // other.
   const localizedNavLinks = useMemo(
-    () => navLinks.map((link) => ({ ...link, path: localizedPath(currentLocale, link.path) })),
+    () => navLinks.map((link) => ({
+        ...link,
+        // Locale-agnostic path ("/services"): dropdown matching must not depend on
+        // the translated `name`, or non-English locales lose their dropdowns.
+        basePath: link.path,
+        path: localizedPath(currentLocale, link.path),
+      })),
     [navLinks, currentLocale],
   );
 
@@ -140,6 +186,41 @@ export default function Navbar({
   const searchInputRef = useRef(null);
   const mobileSearchInputRef = useRef(null);
   const queryRef = useRef("");
+  // Lazy product search data. `searchLoading` starts true (when there is an
+  // index to load) so a query typed before the file arrives shows the
+  // "Searching…" state instead of flashing "No results".
+  const [searchProducts, setSearchProducts] = useState([]);
+  const [searchLoading, setSearchLoading] = useState(Boolean(searchIndexUrl));
+  const [searchError, setSearchError] = useState(false);
+  const searchFetchRef = useRef("idle"); // idle | loading | done
+
+  const ensureSearchIndex = useCallback(() => {
+    if (!searchIndexUrl || searchFetchRef.current !== "idle") return;
+    searchFetchRef.current = "loading";
+    setSearchLoading(true);
+    setSearchError(false);
+    loadSearchIndex(searchIndexUrl).then(
+      (rows) => {
+        searchFetchRef.current = "done";
+        setSearchProducts(rows);
+        setSearchLoading(false);
+      },
+      () => {
+        // Back to idle so the next open/focus retries; services (props) and
+        // the /products?search= fallback keep working meanwhile.
+        searchFetchRef.current = "idle";
+        setSearchError(true);
+        setSearchLoading(false);
+      },
+    );
+  }, [searchIndexUrl]);
+
+  // Fetch when either search UI opens (the mobile drawer shows its search
+  // field whenever the drawer is open). No idle-time prefetch on purpose:
+  // most visitors never search, and the file is HTTP-cached after first use.
+  useEffect(() => {
+    if (isSearchOpen || isOpen) ensureSearchIndex();
+  }, [isSearchOpen, isOpen, ensureSearchIndex]);
 
   useEffect(() => {
     if (isSearchOpen && window.innerWidth >= 1024) {
@@ -195,7 +276,7 @@ export default function Navbar({
         image: resolveImage(s.image),
         priceRange: null,
       })),
-      ...products.filter(
+      ...searchProducts.filter(
         (p) =>
           p.title?.toLowerCase().includes(deferredQ) ||
           p.desc?.toLowerCase().includes(deferredQ) ||
@@ -208,11 +289,11 @@ export default function Navbar({
         type: "Product",
         category: p.category,
         path: localizedPath(currentLocale, `/products/${p.slug}`),
-        image: resolveImage(p.images?.[0]),
+        image: p.image,
         priceRange: p.priceRange || null,
       })),
     ];
-  }, [deferredQ, services, products, currentLocale, imageMap]);
+  }, [deferredQ, services, searchProducts, currentLocale, imageMap]);
   const searchResults = useMemo(() => searchResultsAll.slice(0, 8), [searchResultsAll]);
   const searchResultsTotal = searchResultsAll.length;
   const hasMoreResults = searchResultsTotal > searchResults.length;
@@ -329,11 +410,11 @@ export default function Navbar({
 
           <div className="hidden lg:flex items-center gap-0.5 xl:gap-1">
             {localizedNavLinks.slice(0, 6).map((link) => {
-              if (link.name === "Services") {
+              if (link.basePath === "/services") {
                 return (
                   <NavDropdown
                     key="Services"
-                    label="Services"
+                    label={link.name}
                     items={navServicesMenu}
                     basePath={localizedPath(currentLocale, "/services")}
                     scrolled={scrolled}
@@ -342,11 +423,11 @@ export default function Navbar({
                   />
                 );
               }
-              if (link.name === "Products") {
+              if (link.basePath === "/products") {
                 return (
                   <NavDropdown
                     key="Products"
-                    label="Products"
+                    label={link.name}
                     items={navProductsMenu}
                     basePath={localizedPath(currentLocale, "/products")}
                     scrolled={scrolled}
@@ -355,11 +436,11 @@ export default function Navbar({
                   />
                 );
               }
-              if (link.name === "Industries") {
+              if (link.basePath === "/industries") {
                 return (
                   <NavDropdown
                     key="Industries"
-                    label="Industries"
+                    label={link.name}
                     items={navIndustriesMenu}
                     basePath={localizedPath(currentLocale, "/industries")}
                     scrolled={scrolled}
@@ -423,6 +504,8 @@ export default function Navbar({
                     return true;
                   })
                 }
+                onPointerEnter={ensureSearchIndex}
+                onFocus={ensureSearchIndex}
                 aria-label={isSearchOpen ? "Close search" : "Search products and services"}
                 aria-expanded={isSearchOpen}
                 aria-controls="desktop-search-popover"
@@ -469,6 +552,7 @@ export default function Navbar({
                       // eslint-disable-next-line jsx-a11y/no-autofocus -- fires on user-opened search popover, not page load
                       autoFocus
                       onChange={(e) => setQuery(e.target.value)}
+                      onFocus={ensureSearchIndex}
                       onKeyDown={handleSearchKeyDown}
                       role="combobox"
                       aria-autocomplete="list"
@@ -495,6 +579,23 @@ export default function Navbar({
                       <p className="text-center text-xs text-slate-500 py-6">
                         Start typing to search products &amp; services
                       </p>
+                    ) : searchResults.length === 0 && searchLoading ? (
+                      <p className="text-center text-xs text-slate-500 py-6" role="status">
+                        Searching&hellip;
+                      </p>
+                    ) : searchResults.length === 0 && searchError ? (
+                      <div className="p-8 text-center" role="status" aria-live="polite">
+                        <p className="text-sm font-semibold text-slate-600 mb-3">
+                          Search is temporarily unavailable.
+                        </p>
+                        <button
+                          type="button"
+                          onClick={() => handleNav(`/products?search=${encodeURIComponent(query)}`)}
+                          className="text-xs font-bold uppercase tracking-wider text-blue-600 hover:bg-blue-50 rounded-xl px-4 py-2.5 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                        >
+                          View all results for &ldquo;{query}&rdquo;
+                        </button>
+                      </div>
                     ) : searchResults.length === 0 ? (
                       <div className="p-8 text-center" role="status" aria-live="polite">
                         <Search
@@ -611,7 +712,12 @@ export default function Navbar({
                             );
                           })}
                         </ul>
-                        {hasMoreResults && (
+                        {searchError && (
+                          <p className="px-4 pt-2 text-center text-xs text-slate-500" role="status">
+                            Product results are temporarily unavailable.
+                          </p>
+                        )}
+                        {(hasMoreResults || searchError) && (
                           <button
                             type="button"
                             onClick={() =>
@@ -630,14 +736,13 @@ export default function Navbar({
             </search>
 
             {/* Get Quote CTA — this was missing entirely, caught via screenshot comparison */}
-            <button
-              type="button"
-              onClick={() => handleNav("/contact")}
+            <a
+              href={localizedPath(currentLocale, "/contact")}
               className={`ml-1 px-4 py-2 rounded-lg font-bold text-[12.5px] tracking-wide whitespace-nowrap transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 flex items-center gap-1.5 ${scrolled ? "bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-600" : "bg-blue-500 text-white hover:bg-blue-400 ring-1 ring-white/20 focus-visible:ring-cyan-300"}`}
             >
               <PhoneCall className="w-3.5 h-3.5" aria-hidden="true" />
               Get Quote
-            </button>
+            </a>
           </div>
 
           {/* ── MOBILE RIGHT SECTION ── */}
@@ -722,6 +827,7 @@ export default function Navbar({
                 placeholder="Search products & services…"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
+                onFocus={ensureSearchIndex}
                 onKeyDown={handleSearchKeyDown}
                 role="combobox"
                 aria-autocomplete="list"
@@ -755,7 +861,24 @@ export default function Navbar({
                   </button>
                 </div>
                 <div className="max-h-[40dvh] overflow-y-auto overscroll-contain bg-white rounded-xl border border-slate-100 shadow-inner">
-                  {searchResults.length === 0 ? (
+                  {searchResults.length === 0 && searchLoading ? (
+                    <p className="p-6 text-center text-xs text-slate-500" role="status">
+                      Searching&hellip;
+                    </p>
+                  ) : searchResults.length === 0 && searchError ? (
+                    <div className="p-6 text-center" role="status" aria-live="polite">
+                      <p className="text-sm font-semibold text-slate-600 mb-3">
+                        Search is temporarily unavailable.
+                      </p>
+                      <button
+                        type="button"
+                        onClick={() => handleNav(`/products?search=${encodeURIComponent(query)}`)}
+                        className="text-xs font-bold uppercase tracking-wider text-blue-600 hover:bg-blue-50 rounded-xl px-4 py-2.5 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                      >
+                        View all results for &ldquo;{query}&rdquo;
+                      </button>
+                    </div>
+                  ) : searchResults.length === 0 ? (
                     <div className="p-6 text-center" role="status" aria-live="polite">
                       <Search className="w-8 h-8 text-slate-300 mx-auto mb-2" aria-hidden="true" />
                       <p className="text-sm font-semibold text-slate-600 mb-1">
@@ -856,7 +979,12 @@ export default function Navbar({
                           );
                         })}
                       </ul>
-                      {hasMoreResults && (
+                      {searchError && (
+                        <p className="px-4 pt-2 text-center text-xs text-slate-500" role="status">
+                          Product results are temporarily unavailable.
+                        </p>
+                      )}
+                      {(hasMoreResults || searchError) && (
                         <button
                           type="button"
                           onClick={() => handleNav(`/products?search=${encodeURIComponent(query)}`)}
@@ -901,11 +1029,11 @@ export default function Navbar({
               <ul className="space-y-1 mb-5">
                 {localizedNavLinks.map((link) => {
                   const subItems =
-                    link.name === "Services"
+                    link.basePath === "/services"
                       ? navServicesMenu
-                      : link.name === "Products"
+                      : link.basePath === "/products"
                         ? navProductsMenu
-                        : link.name === "Industries"
+                        : link.basePath === "/industries"
                           ? navIndustriesMenu
                           : null;
                   const expanded = mobileExpanded === link.name;

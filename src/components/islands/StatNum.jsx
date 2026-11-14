@@ -3,7 +3,9 @@
 import { useEffect, useRef, useState } from "react";
 
 export default function StatNum({ end, suffix }) {
-  const [val, setVal] = useState(0);
+  // SSR/no-JS renders the FINAL value so crawlers and slow connections never
+  // see "0+". After hydration the count-up replays from 0 when scrolled into view.
+  const [val, setVal] = useState(end ?? 0);
   // BUGFIX: `fired` used to be state and lived in this effect's dependency
   // array. The moment the count-up started, setFired(true) re-ran the
   // effect, disconnecting the observer and creating a brand-new one to
@@ -16,6 +18,7 @@ export default function StatNum({ end, suffix }) {
   const ref = useRef(null);
   useEffect(() => {
     if (end === null) return;
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) setVal(0);
     const obs = new IntersectionObserver(
       ([entry]) => {
         if (!entry.isIntersecting || fired.current) return;

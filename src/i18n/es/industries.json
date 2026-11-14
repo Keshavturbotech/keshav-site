@@ -7,7 +7,6 @@
     "border": "border-yellow-500/30",
     "accent": "text-yellow-500",
     "image": "industry-power-generation.webp",
-    "desc": "Suministramos servicios críticos de revisión general y repuestos compatibles con OEM a centrales térmicas que operan turbinas de vapor de 5 MW a 60 MW. Nuestros ingenieros ex-OEM garantizan la máxima disponibilidad de planta.",
     "useCases": [
       "Revisión general mayor y menor de turbinas de vapor",
       "Montaje y puesta en marcha de turbinas",

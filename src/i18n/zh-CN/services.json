@@ -26,16 +26,6 @@
     "id": "srv_2",
     "image": "service-overhauling.webp",
     "title": "交钥匙大修与维护",
-    "desc": "由来自Triveni、Siemens、BHEL、Belliss等品牌的原厂背景工程师执行，包括停机前规划、现场状态报告、全面备件管理及24小时紧急故障处理。",
-    "details": [
-      "对旋转设备进行详细范围界定的停机前规划",
-      "现场备件库存检查并出具短缺报告",
-      "原厂背景工程师：Triveni、Belliss、Maxwatt、Man Turbo、BHEL、Siemens、KKK、ABB",
-      "所有间隙、缝隙及尺寸均测量并记录",
-      "为每个部件出具状态报告及建议",
-      "交钥匙模式：提供工具、吊装设备、耗材及人力",
-      "24小时紧急响应，工程师分布多地"
-    ],
     "oems": [
       "Triveni",
       "Belliss & Morcom",
@@ -132,7 +122,6 @@
     "id": "srv_7",
     "image": "service-troubleshooting.webp",
     "title": "故障诊断服务",
-    "desc": "针对出现振动、轴承故障、调速器失稳、蒸汽泄漏、油液污染或意外跳机的汽轮机，提供快速现场故障诊断。原厂背景工程师携带完整诊断仪器出勤，进行根本原因分析及纠正措施制定。",
     "details": [
       "高振动——不平衡、不对中、轴承磨损、摩擦诊断",
       "调速器摆动、转速失稳及超速跳机调查",

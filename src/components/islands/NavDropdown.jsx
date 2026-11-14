@@ -13,7 +13,6 @@ export default function NavDropdown({
   basePath,
   scrolled,
   isActive,
-  navigate,
   onClose,
 }) {
   const [open, setOpen] = useState(false);
@@ -39,15 +38,6 @@ export default function NavDropdown({
     timerRef.current = setTimeout(() => setOpen(false), 120);
   }, []);
 
-  const handleItemClick = useCallback(
-    (item) => {
-      setOpen(false);
-      onClose?.();
-      navigate(item.href ?? basePath);
-    },
-    [navigate, basePath, onClose],
-  );
-
   const active = isActive(basePath);
 
   return (
@@ -58,16 +48,18 @@ export default function NavDropdown({
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <button
-        type="button"
+      {/* Real <a href> so the parent label is crawlable and works without JS;
+          Enter follows the link natively, Space / ArrowDown toggle the menu. */}
+      <a
+        href={basePath}
         onClick={() => {
-          navigate(basePath);
+          setOpen(false);
           onClose?.();
         }}
         onKeyDown={(e) => {
-          if (e.key === "Enter" || e.key === " ") {
+          if (e.key === " " || e.key === "ArrowDown") {
             e.preventDefault();
-            setOpen((p) => !p);
+            setOpen((p) => (e.key === "ArrowDown" ? true : !p));
           }
         }}
         aria-haspopup="menu"
@@ -92,23 +84,28 @@ export default function NavDropdown({
           className={`absolute bottom-0 left-0 right-0 h-0.5 rounded-full origin-center transition-transform duration-300 ${active ? "scale-x-75 bg-blue-500" : "scale-x-0 group-hover:scale-x-50 bg-blue-400/60"}`}
           aria-hidden="true"
         />
-      </button>
+      </a>
 
-      {open && items?.length > 0 && (
-        // eslint-disable-next-line jsx-a11y/interactive-supports-focus -- hover-reveal wrapper; children are real, focusable <a>/<button> elements
+      {items?.length > 0 && (
+        // Always present in the HTML (display:none via `hidden` when closed) so
+        // dropdown child links exist in the initial server-rendered markup.
+        // eslint-disable-next-line jsx-a11y/interactive-supports-focus -- hover-reveal wrapper; children are real, focusable <a> elements
         <div
           role="menu"
           aria-label={`${label} menu`}
-          className={`absolute top-[calc(100%+10px)] left-0 bg-white rounded-xl shadow-2xl border border-slate-100 overflow-hidden z-200 py-1 ${label === "Industries" ? "min-w-[16rem]" : "min-w-55"}`}
+          className={`${open ? "" : "hidden "}absolute top-[calc(100%+10px)] left-0 bg-white rounded-xl shadow-2xl border border-slate-100 overflow-hidden z-200 py-1 ${basePath.endsWith("/industries") ? "min-w-[16rem]" : "min-w-55"}`}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
           {items.map((item) => (
-            <button
+            <a
               key={item.label}
-              type="button"
+              href={item.href ?? basePath}
               role="menuitem"
-              onClick={() => handleItemClick(item)}
+              onClick={() => {
+                setOpen(false);
+                onClose?.();
+              }}
               className="w-full text-left flex items-center gap-3 px-4 py-2.5 text-sm font-semibold text-slate-700 hover:text-blue-600 hover:bg-blue-50 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-blue-500 group/item"
             >
               <span
@@ -122,14 +119,13 @@ export default function NavDropdown({
                   aria-hidden="true"
                 />
               )}
-            </button>
+            </a>
           ))}
           <div className="border-t border-slate-100 mt-1 pt-1">
-            <button
-              type="button"
+            <a
+              href={basePath}
               role="menuitem"
               onClick={() => {
-                navigate(basePath);
                 setOpen(false);
                 onClose?.();
               }}
@@ -137,7 +133,7 @@ export default function NavDropdown({
             >
               View all {label}
               <ChevronRight className="w-3 h-3" aria-hidden="true" />
-            </button>
+            </a>
           </div>
         </div>
       )}

@@ -12,97 +12,7 @@
       "Tua-bin Hơi nước",
       "Bảo trì"
     ],
-    "coverImage": "blog-turbine-overhaul.webp",
-    "content": [
-      {
-        "type": "h2",
-        "text": "Tại sao Danh mục Kiểm tra Có cấu trúc Quan trọng"
-      },
-      {
-        "type": "p",
-        "text": "Việc dừng tua-bin ngoài kế hoạch khiến các nhà máy điện và đường Ấn Độ tốn hàng lakh rupee mỗi giờ. Danh mục kiểm tra đại tu có cấu trúc đảm bảo không bỏ sót gì trong các khung thời gian bảo trì theo kế hoạch — giảm nguy cơ hỏng sớm sau khi khôi phục vận hành và tránh việc dừng máy lặp lại tốn kém."
-      },
-      {
-        "type": "h2",
-        "text": "1. Lập kế hoạch Trước Dừng máy (4–6 Tuần Trước)"
-      },
-      {
-        "type": "p",
-        "text": "Bắt đầu với phạm vi công việc chi tiết bao gồm tất cả thiết bị quay trong tổ hợp. Kiểm tra tất cả phụ tùng tồn kho và tạo báo cáo thiếu hụt. Đặt hàng các mặt hàng quan trọng — ổ trục, phớt, đệm mê cung, vòng carbon — với thời gian chờ đủ. Sắp xếp dụng cụ chuyên dụng: laser căn chỉnh, máy phân tích rung động, đồng hồ so, và feeler gauge."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Xác nhận dữ liệu khe hở OEM cho tất cả các tầng tua-bin",
-          "Sắp xếp thiết bị súc rửa dầu bôi trơn (thiết bị lọc ly tâm di động)",
-          "Đặt kỹ sư từng làm việc tại OEM nếu cần cho đại tu lớn",
-          "Chuẩn bị số đọc cơ sở giám sát tình trạng (rung động, nhiệt độ, áp suất)"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "2. Dừng máy & Cô lập"
-      },
-      {
-        "type": "p",
-        "text": "Tuân theo quy trình dừng máy do OEM chỉ định. Cho phép thời gian làm mát đủ trước khi mở bất kỳ mặt bích nào. Khóa/gắn thẻ tất cả các nguồn năng lượng bao gồm hơi, dầu bôi trơn, nước ngưng, và khí điều khiển. Xả hoàn toàn hệ thống dầu bôi trơn trước khi tháo dỡ."
-      },
-      {
-        "type": "h2",
-        "text": "3. Tháo dỡ & Kiểm tra"
-      },
-      {
-        "type": "p",
-        "text": "Ghi lại tất cả khe hở, khoảng cách, và độ khít trước khi tháo linh kiện — điều này cần thiết để so sánh với thông số OEM và phát hiện xu hướng mòn. Chụp ảnh mỗi giai đoạn. Đo độ đảo rotor tại ngõng trục, vòng chặn, và mặt khớp nối."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Khe hở ổ trục (hướng kính và dọc trục)",
-          "Khe hở đường kính phớt mê cung",
-          "Độ lệch và độ nghiêng căn chỉnh khớp nối",
-          "Tình trạng mặt vòng carbon và lực căng lò xo",
-          "Tình trạng vòi phun và màng ngăn cùng kích thước họng",
-          "Tình trạng đế và đĩa ESV"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "4. Sửa chữa & Thay thế tại Xưởng"
-      },
-      {
-        "type": "p",
-        "text": "Gửi rotor để mài ngõng trục và cân bằng động nếu số đọc độ đảo hoặc rung động nằm ngoài dung sai. Thay vòng gland carbon và graphite, đệm mê cung, và ổ trục babbitt theo báo cáo tình trạng. Tất cả việc cân bằng rotor nên được thực hiện theo tiêu chuẩn ISO 21940-11 (formerly ISO 1940)."
-      },
-      {
-        "type": "h2",
-        "text": "5. Lắp ráp lại & Căn chỉnh"
-      },
-      {
-        "type": "p",
-        "text": "Lắp ráp lại theo thứ tự ngược lại với gioăng mới và mô-men xiết bu-lông theo thông số OEM. Thực hiện căn chỉnh rotor cuối cùng bằng thiết bị căn chỉnh laser — tua-bin với hộp số và hộp số với máy phát điện. Ghi lại tất cả khe hở sau lắp ráp và xác nhận chúng trong dung sai OEM."
-      },
-      {
-        "type": "h2",
-        "text": "6. Súc rửa Dầu Bôi trơn"
-      },
-      {
-        "type": "p",
-        "text": "Trước khi chạy thử, súc rửa hệ thống dầu bôi trơn bằng hệ thống lọc ly tâm di động nhắm đến cấp độ sạch ISO 4406 16/14/11 hoặc tốt hơn. Lấy mẫu dầu trước và sau khi súc rửa và lưu giữ báo cáo. Không bao giờ chạy thử tua-bin mà không hoàn thành việc súc rửa dầu — hỏng ổ trục do dầu nhiễm bẩn chiếm một phần đáng kể trong các hỏng hóc sau đại tu."
-      },
-      {
-        "type": "h2",
-        "text": "7. Chạy thử & Lần Chạy Đầu tiên"
-      },
-      {
-        "type": "p",
-        "text": "Tuân theo quy trình trước chạy thử của OEM từng bước. Giám sát liên tục rung động, nhiệt độ ổ trục, và áp suất dầu bôi trơn trong quá trình tăng tốc lần đầu. Xác nhận hoạt động của ESV và bộ điều tốc. Tinh chỉnh căn chỉnh nếu mức rung động tăng cao. Ghi lại tất cả số đọc chạy thử cho hồ sơ bảo trì nhà máy."
-      },
-      {
-        "type": "cta",
-        "text": "Cần kỹ sư đại tu chuyên nghiệp cho lần dừng máy theo kế hoạch tiếp theo của bạn? Đội ngũ từng làm việc tại OEM của chúng tôi bao phủ Triveni, Siemens, BHEL, Belliss & Morcom, và nhiều hơn nữa."
-      }
-    ]
+    "coverImage": "blog-turbine-overhaul.webp"
   },
   "post_2": {
     "id": "post_2",
@@ -271,7 +181,6 @@
     "id": "post_4",
     "slug": "belliss-morcom-turbine-common-faults-india",
     "title": "Các Lỗi Thường gặp của Tua-bin Belliss & Morcom — Hướng dẫn Thực địa cho Nhà máy Ấn Độ",
-    "excerpt": "Tua-bin hơi nước Belliss & Morcom được sử dụng rộng rãi trong các nhà máy đường và nhà máy đồng phát Ấn Độ. Đây là những lỗi phổ biến nhất mà kỹ sư từng làm việc tại OEM của chúng tôi gặp phải và cách chẩn đoán, sửa chữa chúng.",
     "date": "2026-03-18",
     "author": "Đội ngũ Kỹ thuật Keshav Enterprises",
     "readTime": "Đọc 8 phút",

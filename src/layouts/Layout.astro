@@ -19,9 +19,8 @@ import { buildSeoTitle, buildSeoDescription } from "../lib/seo";
 import { SEO_OVERRIDES } from "../data/seo-overrides";
 import { buildProductImageMap } from "../lib/productImages";
 import { CONTACT_INFO, OFFICE_OPEN_HOUR, OFFICE_CLOSE_HOUR } from "../data/site-config";
-import { getRelativeLocaleUrl } from "astro:i18n";
+import { getRelativeLocaleUrl, getPathByLocale } from "astro:i18n";
 import type { Service } from "../data/services";
-import type { Product } from "../data/products";
 import "../styles/global.css";
 
 // RTL locales among the 17 Tier-1 codes. Only Arabic today, but kept as a
@@ -168,34 +167,24 @@ const navProductCategories = Object.entries(productCategoriesData).map(([slug, {
   label,
 }));
 const navServicesFull = getLocalizedList<Service>("services", navLocale);
-const navProductsFull = getLocalizedList<Product>("products", navLocale);
 const navIndustries = getLocalizedList("industries", navLocale);
 
-// Navbar.jsx's search only reads title/desc/category/features/slug/first-
-// image/priceRange (confirmed by reading its filter/map logic) but was
-// receiving the full localized list — every product's usage/specs/full-
-// image-gallery/availability included, none of it ever read. That's ~493KB
-// serialized into EVERY page's hydration payload (this component sits in
-// Layout.astro, so it's on all ~2,878 pages, not just product pages) — the
-// single largest contributor to the 3.7GB build-output size flagged in
-// Part 3. Trimming to only what's read cuts it to a few KB per page.
+// Navbar.jsx's search only reads title/desc/slug/image of each service, so
+// only those go into the island props (a few KB per page).
+//
+// The PRODUCT list is deliberately NOT passed as a prop any more: Astro
+// serialises island props into every page's HTML, and the product list
+// (~190 KB en, ~400 KB hi) was duplicated into all ~2,800 pages — about
+// 620 MB of the build output. Navbar now fetches it on demand from the
+// per-language static file emitted by src/pages/search-index/[locale].json.ts.
+// Services stay as props: they are tiny, and keeping them synchronous means
+// service results never depend on the fetch succeeding.
 const navServices = navServicesFull.map((s) => ({
   id: s.id,
   title: s.title,
   desc: s.desc,
   slug: s.slug,
   image: s.image,
-}));
-const navProducts = navProductsFull.map((p) => ({
-  id: p.id,
-  title: p.title,
-  desc: p.desc,
-  category: p.category,
-  categorySlug: p.categorySlug,
-  features: p.features,
-  slug: p.slug,
-  images: p.images?.[0] ? [p.images[0]] : [],
-  priceRange: p.priceRange,
 }));
 
 // BUG FIX: Navbar's search dropdown (both the desktop popover and the
@@ -205,13 +194,14 @@ const navProducts = navProductsFull.map((p) => ({
 // src/assets/products/ and need to go through buildProductImageMap()
 // first — exactly like the product grid/detail pages already do — or the
 // content-hashed /_astro/... path never gets generated and the <img> 404s.
-// Built once here from the same trimmed navServices/navProducts lists
-// (just the service image + each product's first image) so this doesn't
-// reprocess the full catalog on every page.
-const navImageMap = await buildProductImageMap([
-  ...navServices.map((s) => s.image),
-  ...navProducts.map((p) => p.images[0]),
-]);
+// Built here for the service images only; product thumbnails are resolved
+// at build time inside the search-index endpoint (same function, first
+// image only) and arrive as ready-to-use URLs.
+const navImageMap = await buildProductImageMap(navServices.map((s) => s.image));
+
+// URL of this locale's product search index. getPathByLocale gives the URL
+// segment (zh-CN -> "zh-cn"), matching the endpoint's getStaticPaths params.
+const searchIndexUrl = `/search-index/${getPathByLocale(navLocale)}.json`;
 
 // ── Part 2: equivalent-page URLs per locale, for LanguageSwitcher ──────────
 // LanguageSwitcher.jsx is a client island and cannot import astro:i18n
@@ -243,7 +233,7 @@ const localBusinessSchema = {
   alternateName: "Keshav Turbo Services",
   description: businessSchemaText.description,
   url: `${SITE_URL}/`,
-  logo: `${SITE_URL}/keshav-logo-icon.png`,
+  logo: `${SITE_URL}/keshav-logo.png`,
   image: `${SITE_URL}/og-image.webp`,
   telephone: CONTACT_INFO.phones.map((p) => p.replace(/\s/g, "")),
   email: CONTACT_INFO.email,
@@ -272,6 +262,10 @@ const localBusinessSchema = {
     "https://x.com/ksengg007",
     "https://www.facebook.com/ksengg007",
     "https://www.youtube.com/@ksengg007",
+    CONTACT_INFO.tradeindia,
+    CONTACT_INFO.exportersindia,
+    CONTACT_INFO.justdial,
+    CONTACT_INFO.googleBusiness,
   ],
   identifier: [
     { "@type": "PropertyValue", name: "GST", value: CONTACT_INFO.gst },
@@ -305,7 +299,6 @@ const jsonLdBlocks = [
 
     <title>{fullTitle}</title>
     <meta name="description" content={metaDescription} />
-    {keywords && <meta name="keywords" content={keywords} />}
     <meta name="author" content="Keshav Enterprises" />
     <meta
       name="robots"
@@ -499,15 +492,18 @@ const jsonLdBlocks = [
               loadGoogleTranslate();
               return;
             }
-            document.addEventListener(
-              "click",
-              function (e) {
-                if (e.target.closest("[data-language-switcher-trigger]")) {
-                  loadGoogleTranslate();
-                }
-              },
-              { once: true, passive: true },
-            );
+            // NOT { once: true }: that would remove the listener on the FIRST
+            // click anywhere on the page (menu, search, logo...), so opening
+            // the language picker afterwards never loaded element.js and the
+            // Tier-2 languages silently did nothing. Detach only after the
+            // trigger itself has been clicked.
+            function onTriggerClick(e) {
+              if (e.target.closest("[data-language-switcher-trigger]")) {
+                document.removeEventListener("click", onTriggerClick);
+                loadGoogleTranslate();
+              }
+            }
+            document.addEventListener("click", onTriggerClick, { passive: true });
           })();
         </script>
       )
@@ -528,10 +524,10 @@ const jsonLdBlocks = [
       currentPath={Astro.url.pathname}
       navLinks={navLinks}
       services={navServices}
-      products={navProducts}
       productCategories={navProductCategories}
       industries={navIndustries}
       imageMap={navImageMap}
+      searchIndexUrl={searchIndexUrl}
       currentLocale={currentLocale}
       equivalentLocalePaths={equivalentLocalePaths}
     />

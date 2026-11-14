@@ -10,7 +10,6 @@
     "duration": "siku 12",
     "scope": "Ukarabati kamili wa huduma kamili: kuondoa rota, kubadilisha bearing, kukata seal ya labyrinth, uwiano wa mzunguko wa rota (ISO 1940 G2.5), usafishaji wa mafuta ya kulainisha, na uanzishaji.",
     "challenge": "Turbine ilikuwa ikifanya kazi kwa mtetemo wa juu (>6 mm/s) kwa misimu miwili. Nyumba za bearing zilionyesha uchakavu wa fretting na rota ilikuwa na runout ya 1× iliyoendelea ambayo matengenezo ya awali hayakuwa yametatua.",
-    "solution": "Wahandisi wenye uzoefu wa OEM wa Triveni walibomoa kifaa na kupata journal iliyopasuka upande wa drive. Journal ilikatwa kupunguza ukubwa, babbitt mpya ilimwagwa na kukwaruzwa, labyrinths zilikatwa katika karakhana yetu, na rota ilisawazishwa kwa mzunguko hadi kutokuwiana kwa mabaki <0.5 g·mm. Mtetemo baada ya uanzishaji: 1.8 mm/s.",
     "outcomes": [
       "Mtetemo ulishuka kutoka 6.4 mm/s hadi 1.8 mm/s",
       "Joto la metali ya bearing lilishuka kwa 14 °C",

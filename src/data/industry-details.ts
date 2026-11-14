@@ -117,7 +117,7 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
     ],
     keyFacts: [
       "60 MW maximum turbine capacity handled",
-      `${YEARS_IN_BUSINESS}+ years OEM-trained engineering experience`,
+      `${YEARS_IN_BUSINESS}+ years of founder engineering experience`,
       "API 614 & ISO 4406 compliant products",
       "HVAC filter supply for control rooms and turbine halls",
       "24×7 emergency breakdown support",
@@ -777,9 +777,9 @@ export const INDUSTRY_DETAILS: Record<string, IndustryDetail> = {
       {
         name: "BHEL Replacement Turbine Lube Oil Filter Elements (Captive Power Turbo-Sets)",
         purpose:
-          "OEM-matched lube oil elements for BHEL turbo-sets in steel plant captive power stations and process industries, fitting BHEL duplex housings without modification.",
+          "OEM-compatible lube oil elements for BHEL turbo-sets in steel plant captive power stations and process industries, fitting BHEL duplex housings without modification.",
         features: [
-          "OEM-matched for BHEL turbine lube oil systems",
+          "OEM-compatible for BHEL turbine lube oil systems",
           "Drop-in replacement for BHEL duplex lube oil filter housings",
           "10, 25 and 40 µm fineness (ISO 16889 rated); finer on request",
           "Imported glass fiber, SS wire mesh (reusable) or Hydroclean paper media",
@@ -857,6 +857,7 @@ const RAW_INDUSTRY_PRODUCT_IDS: Record<string, string | null> = {
   "Air Breather Filters": "prod_f4",
   "Simplex & Duplex Basket Strainers": "prod_st2",
   "Rotor Balancing Service": null,
+  "Steam Turbine Silencers (Vent & Safety Valve)": "prod_ts_silencer",
   "Duplex Basket Strainers": "prod_st2",
   "SS Metallic Bellows Expansion Joints": "prod_e1",
   "Rubber Expansion Joints (Double-Arch)": "prod_e2",

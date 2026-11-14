@@ -530,13 +530,13 @@ export const MISC_PRODUCTS = [
       sku: "KTB-AF-002",
       category: "HVAC, Ducting & Air Filtration",
       title: "Activated Carbon Vent Filter: Recirculating Air",
-      desc: "Activated carbon charcoal air filters for microwave ovens, range hoods, kitchen exhaust ventilation, and general recirculating air purification. The activated carbon granule or carbon-impregnated foam media adsorbs cooking odours, grease vapour, VOCs, and airborne chemical contaminants. Supplied as direct-fit OEM-matched replacement cartridges or universal panels to fit standard appliance filter housings. For industrial and commercial applications: activated carbon panel and granule-bed vent filters for odour control in HVAC recirculating loops, fume cupboards, and solvent-vapour extraction systems.",
+      desc: "Activated carbon charcoal air filters for microwave ovens, range hoods, kitchen exhaust ventilation, and general recirculating air purification. The activated carbon granule or carbon-impregnated foam media adsorbs cooking odours, grease vapour, VOCs, and airborne chemical contaminants. Supplied as direct-fit OEM-compatible replacement cartridges or universal panels to fit standard appliance filter housings. For industrial and commercial applications: activated carbon panel and granule-bed vent filters for odour control in HVAC recirculating loops, fume cupboards, and solvent-vapour extraction systems.",
       usage:
         "Domestic: Microwave oven recirculating air filter replacement; range hood charcoal filter; kitchen exhaust vent filter where ducting to exterior is not available, recirculating air passes through activated carbon to remove cooking odours and VOCs before return to kitchen. Commercial/Industrial: Activated carbon vent filters for HVAC recirculating systems, fume cupboard odour control, laboratory air purification, solvent storage room ventilation, and printing/painting shop odour management.",
       features: [
         "Activated carbon media: granular activated carbon (GAC) bed or carbon-impregnated polyurethane foam per application",
         "Adsorption targets: cooking odours, grease vapour, smoke, VOCs, formaldehyde, hydrogen sulphide, ammonia, and general household/industrial odours",
-        "Domestic OEM-matched: supplied to fit standard microwave oven and range hood filter slots (common brands and sizes covered; custom cut-to-size on request)",
+        "Domestic OEM-compatible: supplied to fit standard microwave oven and range hood filter slots (common brands and sizes covered; custom cut-to-size on request)",
         "Industrial/commercial grades: activated carbon panel filters (25 mm and 50 mm bed depth), granule tray filters, and carbon-impregnated polyester panel combinations",
         "Carbon bed depth: 12–50 mm (domestic to industrial), deeper bed = greater adsorption capacity and longer service life",
         "Activated carbon type: Coconut shell carbon (highest surface area, best VOC removal), coal-based carbon, or impregnated carbon for specific contaminants (e.g. impregnated with KOH for acid gas removal)",
@@ -549,7 +549,7 @@ export const MISC_PRODUCTS = [
       specs: {
         "Media Type": "Granular Activated Carbon (GAC) / Carbon-impregnated PU foam / Carbon panel",
         "Adsorption Targets": "Cooking odours, VOCs, grease vapour, smoke, H₂S, NH₃, formaldehyde",
-        "Domestic Fit": "OEM-matched microwave and range hood replacement cartridges",
+        "Domestic Fit": "OEM-compatible microwave and range hood replacement cartridges",
         "Industrial Grades":
           "25 mm and 50 mm carbon panel; granule tray; carbon + pre-filter combination",
         "Carbon Type": "Coconut shell GAC / Coal-based / Impregnated (KOH, KMnO₄ per application)",

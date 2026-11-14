@@ -1984,12 +1984,12 @@ export default function ReviewForm({
       const reply = await fetchAIReply(state.question);
       dispatch({
         type: "AI_DONE",
-        reply: reply || "Our team will respond shortly at +91 9149229448.",
+        reply: reply || `Our team will respond shortly at ${CONTACT_INFO.phones[0]}.`,
       });
     } catch {
       dispatch({
         type: "AI_DONE",
-        reply: "Thank you! Our team will respond shortly at +91 9149229448.",
+        reply: `Thank you! Our team will respond shortly at ${CONTACT_INFO.phones[0]}.`,
       });
     }
   };
@@ -2266,8 +2266,11 @@ export default function ReviewForm({
 
           <p style={{ fontSize: 12.5, color: "#94a3b8", marginBottom: 14, fontFamily: T.font }}>
             Need help? Call{" "}
-            <a href="tel:+919149229448" style={{ color: T.brand, fontWeight: 700 }}>
-              +91 91492 29448
+            <a
+              href={`tel:${CONTACT_INFO.phones[0].replace(/\s/g, "")}`}
+              style={{ color: T.brand, fontWeight: 700 }}
+            >
+              {CONTACT_INFO.phones[0]}
             </a>{" "}
             or{" "}
             <a href="mailto:sales.ksengg007@gmail.com" style={{ color: T.brand, fontWeight: 700 }}>

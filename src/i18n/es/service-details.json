@@ -569,7 +569,6 @@
       }
     ],
     "whyUs": "Un fallo mal diagnosticado y reparado sin encontrar su causa raíz volverá a fallar — a menudo antes que la primera vez. No adivinamos. Medimos, analizamos el espectro, desmontamos solo lo que los datos indican, confirmamos la causa raíz físicamente y la reparamos con el mismo equipo que la encontró.",
-    "overview": "Los disparos no planificados de turbinas y la degradación inexplicable del rendimiento cuestan a las plantas industriales millones en producción perdida cada año. Keshav Enterprises despliega ingenieros de resolución de averías ex-OEM con instrumentación de diagnóstico completa para identificar, documentar y rectificar la causa raíz precisa de cualquier fallo de turbina de vapor — desde vibración alta y fallo de cojinete hasta inestabilidad del regulador, contaminación de aceite y fuga de vapor. Cubrimos todas las marcas de turbina de 5 kW a 60 MW en todo el espectro de las industrias de proceso y energía de la India. Nuestra metodología es sistemática: medición en línea primero, inspección física dirigida por los datos, causa raíz confirmada por escrito y acción correctiva ejecutada por el mismo equipo que diagnosticó el fallo.",
     "procedures": [
       {
         "step": "01",
@@ -818,8 +817,6 @@
         "label": "Soporte en Obra Disponible"
       }
     ],
-    "whyUs": "Una sola holgura mal ajustada durante el montaje puede destruir un cojinete en horas desde el primer vapor. Nuestros ingenieros de campo ex-OEM han puesto en marcha personalmente los mismos tipos de máquina que usted está instalando — saben exactamente qué significa la especificación OEM en la práctica, no solo sobre el papel.",
-    "overview": "El montaje y la puesta en marcha de turbinas es la fase más crítica de cualquier proyecto de central eléctrica o industrial. Los errores durante el montaje — alineación incorrecta, holguras inadecuadas, pares de apriete erróneos — se agravan hasta convertirse en fallos costosos dentro del primer año de operación. Keshav Enterprises aporta ingenieros de campo ex-OEM que han puesto en marcha turbinas Triveni, Siemens, BHEL, Belliss y Maxwatt en centrales eléctricas, ingenios azucareros, fábricas de papel e industrias de proceso. Cada punto de espera se presencia, cada holgura se registra y cada sistema de seguridad se prueba antes de admitir vapor. Nuestro paquete de documentación cumple los requisitos de entrega del cliente, la aseguradora y el OEM.",
     "procedures": [
       {
         "step": "01",
@@ -937,26 +934,7 @@
   "srv_2": {
     "tagline": "Planificación de Parada Llave en Mano hasta Reinicio Sin Defectos",
     "accentColor": "#0891b2",
-    "keyStats": [
-      {
-        "value": "8+",
-        "label": "Marcas OEM Revisadas"
-      },
-      {
-        "value": "{years}+",
-        "label": "Años de Experiencia de Campo"
-      },
-      {
-        "value": "0,001mm",
-        "label": "Resolución de Holgura"
-      },
-      {
-        "value": "24×7",
-        "label": "Respuesta de Emergencia"
-      }
-    ],
     "whyUs": "Una revisión general mal ejecutada es peor que ninguna revisión — introduce nuevos errores de holgura, contaminación y fallos de reensamblaje. Nuestros ingenieros fueron formados por los OEM. Saben lo que las tolerancias realmente significan a temperatura y velocidad de operación, no solo lo que dicen en el manual.",
-    "overview": "La revisión general de turbinas no es una actividad de mantenimiento — es una intervención de ingeniería de precisión. Keshav Enterprises despliega ingenieros ex-OEM de Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK y ABB para ejecutar revisiones generales llave en mano con la misma disciplina y estándares de documentación que el fabricante original. Cada revisión general comienza de 4 a 6 semanas antes de la parada con la finalización del alcance, la preinspección de repuestos y la planificación de la movilización de mano de obra. Cada componente se mide antes del desmontaje, durante el despiece y después del reensamblaje. Se produce un informe de estado escrito, un registro de holguras y un registro fotográfico para cada revisión general — creando una línea base para la próxima parada.",
     "procedures": [
       {
         "step": "01",

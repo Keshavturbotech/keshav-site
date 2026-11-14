@@ -1,80 +1,21 @@
 {
   "meta": {
-    "titleTemplate": "Keshav Enterprises Hakkında — {years}+ Yıllık Türbin Mühendisliği",
-    "descriptionTemplate": "Keshav Enterprises — Shamli, UP, Hindistan'dan {years}+ yıllık endüstriyel türbin mühendisliği, tersine mühendislik ve OEM uyumlu yedek parçalar. Triveni, Siemens, BHEL'den OEM kökenli mühendisler.",
-    "schemaName": "Keshav Enterprises Hakkında",
-    "schemaDescriptionTemplate": "Keshav Enterprises — Shamli, UP, Hindistan'dan {years}+ yıllık endüstriyel türbin mühendisliği, tersine mühendislik ve OEM uyumlu yedek parça imalatı."
+    "schemaName": "Keshav Enterprises Hakkında"
   },
   "hero": {
     "eyebrow": "Hikayemiz",
-    "h1Line1": "{years}+ Yıllık",
-    "h1Span": "Hassas Mühendislik",
     "quote": "“Tesis duruşuna sıfır tolerans — bu bir slogan değil. Her müşterinin bizden beklediği mühendislik standardı.”",
-    "intro": "Kurucu Shekhar Sharma 1988'den beri buhar türbinleriyle doğrudan çalışmakta; 2016'da bağımsız bir türbin bakım ortaklığı kurmadan önce birçok şirkette deneyim kazanmıştır. Keshav Enterprises, Haziran 2020'de resmen kurulmuş olup bugün Hindistan'da ve dünya genelinde enerji santralleri, şeker fabrikaları, rafineriler ve proses endüstrileri için güvenilir bir mühendislik ortağıdır; Triveni, Siemens, BHEL, Man Turbo, KKK ve ABB kökenli aynı eski OEM uzmanlığını taşımaktadır.",
-    "tags": [
-      "OEM Kökenli Mühendisler",
-      "3D Lazer Tarama",
-      "CMM Hassasiyeti",
-      "7/24 Yanıt",
-      "IEC Kayıtlı",
-      "İhracata Hazır",
-      "IndiaMART TrustSeal",
-      "Make in India",
-      "MSME Kayıtlı"
-    ],
     "ctaServices": "Hizmetlerimiz",
     "ctaContact": "Mühendislik Ekibiyle İletişime Geçin",
-    "statCards": [
-      {
-        "label": "Faaliyet Yılı",
-        "subTemplate": "{founded}'den beri"
-      },
-      {
-        "label": "OEM Markaları",
-        "sub": "Triveni · Siemens · BHEL"
-      },
-      {
-        "label": "Maksimum Türbin",
-        "sub": "60 M.W.'a kadar"
-      },
-      {
-        "label": "Acil Destek",
-        "sub": "Çok lokasyonlu mühendisler"
-      }
-    ],
     "trustBadges": {
-      "indiamartTitle": "IndiaMART TrustSeal Doğrulandı",
       "indiamartSub": "50+ alıcı yorumu · 4,3/5 puan",
       "msmeTitle": "MSME Kayıtlı",
       "msmeSub": "Udyam Sertifikalı İşletme · Hindistan Hükümeti"
     }
   },
-  "statsBar": [
-    {
-      "label": "Faaliyet Yılı",
-      "subTemplate": "{founded}'den beri"
-    },
-    {
-      "label": "Kapsanan OEM Markaları",
-      "sub": "Triveni · Siemens · BHEL"
-    },
-    {
-      "label": "İşlenen Maksimum Türbin",
-      "sub": "60 M.W.'a kadar"
-    },
-    {
-      "label": "Acil Müdahale",
-      "sub": "Çok lokasyonlu mühendisler"
-    }
-  ],
   "overview": {
     "eyebrow": "Biz Kimiz",
     "heading": "Hindistan'ın Endüstriyel Omurgası için Mühendislik Ortakları",
-    "paragraphs": [
-      "Keshav Enterprises, merkezi Uttar Pradesh'in Shamli kentinde bulunan bir hassas endüstriyel mühendislik şirketidir. Kurucu Shekhar Sharma 1988'den beri buhar türbinleriyle doğrudan çalışmaktadır; bu deneyim 2016'da bağımsız bir ortaklığa dönüşmüş, Keshav Enterprises ise Haziran 2020'de resmen kurulmuştur. Nepal ve Uganda'ya yapılan ihracat dahil, Hindistan genelinde ve dünya çapında müşterilere uzman türbin bakımı, tersine mühendislik ve OEM uyumlu yedek parça sağlıyoruz.",
-      "Mühendislik ekibimiz Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK ve ABB'den OEM kökenli uzmanları içerir — müşterilere orijinal ekipman üreticileriyle aynı düzeyde teknik uzmanlığı, teslim süresi ve maliyetin çok küçük bir kısmıyla sunar.",
-      "5 kW'dan 60 MW'a kadar buhar türbinlerini kapsıyoruz — karşı basınçlı ve kondansasyonlu, yatay ve dikey, tek ve çok kademeli. Atölyemiz 3D lazer tarayıcılar, CMM koordinat ölçüm makineleri, dinamik balans makineleri (50–2.000 kg) ve hassas CNC tornalarla donatılmıştır."
-    ],
     "coreCapabilitiesHeading": "Temel Yetkinlikler",
     "coreCapabilitiesList": [
       "Türbin montajı, devreye alma ve anahtar teslim revizyon",
@@ -110,33 +51,14 @@
         "linkLabel": "Ürünlere Göz At"
       },
       "rotorInspection": {
-        "caption": "Rotor İncelemesi",
-        "desc": "OEM kökenli mühendisler, inceleme sırasında her boşluğu, aralığı ve boyutu ölçer ve kaydeder — her işle birlikte tam durum raporu."
+        "caption": "Rotor İncelemesi"
       }
     },
     "browseFullCatalog": "Tüm Ürün Kataloğuna Göz At"
   },
   "values": {
     "eyebrow": "Bizi Yönlendiren",
-    "heading": "Temel Değerlerimiz",
-    "items": [
-      {
-        "label": "Mühendislik Bütünlüğü",
-        "text": "Her bileşen, her boşluk, her boyut belgelenir ve doğrulanır. Güvenlik açısından kritik döner ekipmanlarda kısayol yoktur."
-      },
-      {
-        "label": "OEM Kalitesinde Standartlar",
-        "text": "Triveni, Siemens, BHEL ve ABB'den OEM kökenli mühendisler, orijinal üreticiyle aynı standartta bakım sağlar."
-      },
-      {
-        "label": "Tersine Mühendislikte İnovasyon",
-        "text": "3D tarama ve PMI testi, müşterilere 12-18 aylık OEM teslim süreleri olmadan üretimi durdurulmuş yedek parçalara erişim sağlar."
-      },
-      {
-        "label": "Müşteri Kullanılabilirliği Önce Gelir",
-        "text": "Başarıyı tesis kullanılabilirliğiyle ölçüyoruz. Duruşlar mesai saatlerine uymadığı için 7/24 acil müdahale."
-      }
-    ]
+    "heading": "Temel Değerlerimiz"
   },
   "milestones": {
     "eyebrow": "Yolculuğumuz",
@@ -171,8 +93,6 @@
   },
   "team": {
     "eyebrow": "İşin Arkasındaki İnsanlar",
-    "heading": "OEM Kökenli Mühendislik Uzmanlığı",
-    "subheading": "Mühendislerimiz OEM fabrikaları ve saha servis ekipleri içinde eğitildi ve görevlendirildi — sadece OEM ekipmanı üzerinde eğitilmediler. Bu fark, kaydedilen her boşluğun kalitesinde kendini gösteriyor.",
     "expSuffix": "deneyim",
     "namesWithheldNote": "Mühendislerimizi rakip teklif tekliflerinden korumak için isimler gizli tutulmuştur. Ciddi talepler için doğrulanabilir istihdam geçmişi mevcuttur.",
     "members": {
@@ -204,9 +124,7 @@
   },
   "oemSection": {
     "eyebrow": "OEM Uzmanlığı",
-    "headingLine1": "10+ OEM Markası.",
-    "headingLine2": "Tek Mühendislik Ortağı.",
-    "sub": "OEM kökenli mühendislerimiz tüm büyük türbin markalarıyla uygulamalı deneyime sahiptir. Öğrenme eğrisi yok. İlk günden itibaren yetkin teknik uzmanlık."
+    "headingLine2": "Tek Mühendislik Ortağı."
   },
   "exportSection": {
     "eyebrow": "İhracata Hazır",

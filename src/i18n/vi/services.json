@@ -26,16 +26,6 @@
     "id": "srv_2",
     "image": "service-overhauling.webp",
     "title": "Đại tu & Bảo trì Trọn gói",
-    "desc": "Thực hiện bởi các kỹ sư từng làm việc tại OEM Triveni, Siemens, BHEL, Belliss và nhiều hãng khác. Bao gồm lập kế hoạch trước dừng máy, báo cáo tình trạng tại hiện trường, quản lý phụ tùng toàn diện và xử lý sự cố khẩn cấp 24/7.",
-    "details": [
-      "Lập kế hoạch trước dừng máy với phạm vi chi tiết thiết bị quay",
-      "Kiểm tra tại hiện trường phụ tùng tồn kho kèm báo cáo thiếu hụt",
-      "Kỹ sư từng làm việc tại OEM: Triveni, Belliss, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
-      "Tất cả khe hở, khoảng cách và kích thước được đo và ghi lại",
-      "Báo cáo tình trạng kèm khuyến nghị cho từng bộ phận",
-      "Cơ sở trọn gói: cung cấp dụng cụ, thiết bị, vật tư tiêu hao & nhân lực",
-      "Ứng phó khẩn cấp 24/7 với kỹ sư tại nhiều địa điểm"
-    ],
     "oems": [
       "Triveni",
       "Belliss & Morcom",
@@ -132,7 +122,6 @@
     "id": "srv_7",
     "image": "service-troubleshooting.webp",
     "title": "Dịch vụ Xử lý Sự cố",
-    "desc": "Chẩn đoán lỗi tại hiện trường nhanh chóng cho tua-bin hơi nước gặp rung động, hỏng ổ trục, mất ổn định bộ điều tốc, rò rỉ hơi, nhiễm bẩn dầu hoặc trip không mong muốn. Kỹ sư từng làm việc tại OEM triển khai với đầy đủ thiết bị chẩn đoán để xác định nguyên nhân gốc và hành động khắc phục.",
     "details": [
       "Rung động cao — chẩn đoán mất cân bằng, lệch trục, mòn ổ trục, cọ xát",
       "Điều tra dao động bộ điều tốc, mất ổn định tốc độ & trip vượt tốc",

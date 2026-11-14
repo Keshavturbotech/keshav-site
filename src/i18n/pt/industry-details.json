@@ -84,14 +84,16 @@
           "Tamanhos de UTA padrão em estoque; personalizados sob encomenda",
           "Pré-filtro de tela metálica também disponível para o primeiro estágio"
         ]
+      },
+      {
+        "name": "Silenciadores para Turbinas a Vapor (Respiro e Válvula de Segurança)",
+        "purpose": "Reduz o ruído das saídas de válvulas de segurança, dos respiros de partida da turbina e das linhas de alívio da exaustão em usinas térmicas, de cogeração e de geração cativa, mantendo o ruído dentro dos limites da planta.",
+        "features": [
+          "Difusor mais absorvente, dimensionado para a sua vazão de vapor e meta de dB(A)",
+          "Aço carbono ou SS 304 / 316, até aprox. 540°C",
+          "Unidades de reposição para silenciadores existentes corroídos ou ruidosos"
+        ]
       }
-    ],
-    "keyFacts": [
-      "Capacidade máxima de turbina atendida: 60 MW",
-      "{years}+ anos de experiência em engenharia formada em OEM",
-      "Produtos conforme API 614 e ISO 4406",
-      "Fornecimento de filtros HVAC para salas de controle e casas de turbinas",
-      "Suporte de emergência 24×7"
     ]
   },
   "ind_2": {
@@ -168,6 +170,15 @@
           "Balanceamento dinâmico conforme ISO 1940/1 G1.0",
           "Balanceamento em dois planos em todos os tipos de rotor",
           "Certificado de balanceamento emitido com relatório de serviço"
+        ]
+      },
+      {
+        "name": "Silenciadores para Turbinas a Vapor (Respiro e Válvula de Segurança)",
+        "purpose": "Instalado nos respiros de alívio da exaustão de turbinas de contrapressão e nas saídas de válvulas de segurança, para que as liberações de vapor em desarmes na safra ou perturbações no coletor não virem problema de ruído.",
+        "features": [
+          "Difusor mais absorvente, dimensionado para a sua vazão de vapor e meta de dB(A)",
+          "Aço carbono ou SS 304 / 316, até aprox. 540°C",
+          "Unidades de reposição para silenciadores existentes corroídos ou ruidosos"
         ]
       }
     ],
@@ -253,6 +264,15 @@
           "Certificados de material fornecidos",
           "Relatório de inspeção dimensional por MMC"
         ]
+      },
+      {
+        "name": "Silenciadores para Turbinas a Vapor (Respiro e Válvula de Segurança)",
+        "purpose": "Reduz o ruído dos respiros de vapor de turbinas e caldeiras nos sistemas de vapor da fábrica, diminuindo o ruído na casa de força e nas áreas de processo vizinhas durante partidas, desarmes e aberturas de válvulas de segurança.",
+        "features": [
+          "Difusor mais absorvente, dimensionado para a sua vazão de vapor e meta de dB(A)",
+          "Aço carbono ou SS 304 / 316, até aprox. 540°C",
+          "Unidades de reposição para silenciadores existentes corroídos ou ruidosos"
+        ]
       }
     ],
     "keyFacts": [
@@ -282,6 +302,12 @@
         "title": "Fornecimento Rápido para Locais Remotos",
         "desc": "Plataformas offshore e instalações upstream remotas precisam de fornecimento rápido de peças. Peças críticas são mantidas em estoque e enviadas no mesmo dia em pedidos de emergência."
       }
+    ],
+    "keyFacts": [
+      "Produtos conforme API 614 e IS27",
+      "Mancais babbitt para todos os principais OEMs",
+      "Despacho de emergência no mesmo dia disponível",
+      "Vasos de pressão com selo de código ASME"
     ],
     "products": [
       {
@@ -338,12 +364,6 @@
           "Saídas de relé de alerta e perigo"
         ]
       }
-    ],
-    "keyFacts": [
-      "Produtos conforme API 614 e IS27",
-      "Mancais babbitt para todos os principais OEMs",
-      "Despacho de emergência no mesmo dia disponível",
-      "Vasos de pressão com selo de código ASME"
     ]
   },
   "ind_5": {
@@ -420,6 +440,15 @@
           "Design de empuxo de pressão eliminado por tirantes",
           "Reduz cargas de bocal a quase zero",
           "Disponível em configurações amarradas e não amarradas"
+        ]
+      },
+      {
+        "name": "Silenciadores para Turbinas a Vapor (Respiro e Válvula de Segurança)",
+        "purpose": "Reduz o ruído dos respiros de vapor e das saídas de válvulas de segurança em unidades acionadas por turbina e sistemas de vapor de utilidades, em aço carbono ou SS conforme as condições do vapor.",
+        "features": [
+          "Difusor mais absorvente, dimensionado para a sua vazão de vapor e meta de dB(A)",
+          "Aço carbono ou SS 304 / 316, até aprox. 540°C",
+          "Unidades de reposição para silenciadores existentes corroídos ou ruidosos"
         ]
       }
     ],
@@ -698,6 +727,15 @@
           "Compatível com OEM para sistemas de óleo lubrificante de turbina BHEL — turbogeradores classe 100 MW, 200 MW, 210 MW, 250 MW, 500 MW",
           "Compatível com carcaças duplex de filtro de óleo lubrificante BHEL — substituição direta sem modificação da carcaça",
           "Precisão de filtração: 10, 25, 40 µm (classificado ISO 16889); mais fino sob encomenda para proteção de sistema servo"
+        ]
+      },
+      {
+        "name": "Silenciadores para Turbinas a Vapor (Respiro e Válvula de Segurança)",
+        "purpose": "Reduz o ruído dos respiros de vapor e das saídas de válvulas de segurança em turbogeradores de geração cativa e linhas de vapor de fábricas de cimento e aço, em aço carbono ou SS.",
+        "features": [
+          "Difusor mais absorvente, dimensionado para a sua vazão de vapor e meta de dB(A)",
+          "Aço carbono ou SS 304 / 316, até aprox. 540°C",
+          "Unidades de reposição para silenciadores existentes corroídos ou ruidosos"
         ]
       }
     ],

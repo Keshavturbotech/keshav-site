@@ -20,8 +20,6 @@
         "label": "Hỗ trợ Hiện trường Có sẵn"
       }
     ],
-    "whyUs": "Một bộ khe hở sai trong quá trình lắp đặt có thể phá hủy ổ trục trong vòng vài giờ kể từ hơi đầu tiên. Kỹ sư hiện trường từng làm việc tại OEM của chúng tôi đã tự mình chạy thử cùng loại máy móc mà bạn đang lắp đặt — họ biết chính xác thông số OEM có nghĩa gì trong thực tế, không chỉ trên giấy.",
-    "overview": "Lắp đặt và chạy thử tua-bin là giai đoạn quan trọng nhất của bất kỳ dự án nhà máy điện hoặc công nghiệp nào. Lỗi trong quá trình lắp đặt — căn chỉnh sai, khe hở không đúng, mô-men xoắn sai — tích lũy thành hỏng hóc tốn kém trong năm vận hành đầu tiên. Keshav Enterprises triển khai các kỹ sư hiện trường từng làm việc tại OEM đã chạy thử tua-bin Triveni, Siemens, BHEL, Belliss, và Maxwatt tại các nhà máy điện, nhà máy đường, nhà máy giấy, và ngành công nghiệp quy trình. Mọi điểm giữ được chứng kiến, mọi khe hở được ghi lại, và mọi hệ thống an toàn được thử nghiệm trước khi đưa hơi vào. Bộ tài liệu của chúng tôi đáp ứng yêu cầu bàn giao của khách hàng, bảo hiểm, và OEM.",
     "procedures": [
       {
         "step": "01",
@@ -139,26 +137,7 @@
   "srv_2": {
     "tagline": "Lập kế hoạch Dừng máy Trọn gói đến Khởi động lại Không Sai sót",
     "accentColor": "#0891b2",
-    "keyStats": [
-      {
-        "value": "8+",
-        "label": "Thương hiệu OEM Đã Đại tu"
-      },
-      {
-        "value": "{years}+",
-        "label": "Năm Kinh nghiệm Hiện trường"
-      },
-      {
-        "value": "0.001mm",
-        "label": "Độ phân giải Khe hở"
-      },
-      {
-        "value": "24×7",
-        "label": "Ứng phó Khẩn cấp"
-      }
-    ],
     "whyUs": "Đại tu thực hiện kém còn tệ hơn không đại tu — nó tạo ra lỗi khe hở mới, nhiễm bẩn, và lỗi lắp ráp lại. Kỹ sư của chúng tôi được OEM đào tạo. Họ biết dung sai thực sự có ý nghĩa gì ở nhiệt độ và tốc độ vận hành, không chỉ những gì được viết trong hướng dẫn sử dụng.",
-    "overview": "Đại tu tua-bin không phải là hoạt động bảo trì thông thường — đó là can thiệp kỹ thuật chính xác. Keshav Enterprises triển khai các kỹ sư từng làm việc tại OEM Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK, và ABB để thực hiện đại tu trọn gói với kỷ luật và tiêu chuẩn tài liệu giống như nhà sản xuất gốc. Mỗi lần đại tu bắt đầu 4-6 tuần trước khi dừng máy với việc hoàn thiện phạm vi, kiểm tra phụ tùng trước, và lập kế hoạch huy động nhân lực. Mọi linh kiện được đo trước khi tháo dỡ, trong quá trình tháo rời, và sau khi lắp ráp lại. Báo cáo tình trạng bằng văn bản, sổ đăng ký khe hở, và hồ sơ ảnh được tạo cho mỗi lần đại tu — tạo ra đường cơ sở cho lần dừng máy tiếp theo.",
     "procedures": [
       {
         "step": "01",
@@ -843,7 +822,6 @@
       }
     ],
     "whyUs": "Một lỗi được chẩn đoán sai và sửa chữa mà không tìm ra nguyên nhân gốc sẽ hỏng lại — thường nhanh hơn lần đầu. Chúng tôi không đoán mò. Chúng tôi đo lường, phân tích phổ, chỉ tháo dỡ những gì dữ liệu yêu cầu, xác nhận nguyên nhân gốc về mặt vật lý, và sửa chữa với cùng đội ngũ đã tìm ra vấn đề.",
-    "overview": "Trip tua-bin ngoài kế hoạch và suy giảm hiệu suất không giải thích được khiến các nhà máy công nghiệp tốn hàng triệu đô la sản xuất bị mất mỗi năm. Keshav Enterprises triển khai các kỹ sư xử lý sự cố từng làm việc tại OEM với đầy đủ thiết bị chẩn đoán để xác định, ghi lại, và sửa chữa chính xác nguyên nhân gốc của bất kỳ lỗi tua-bin hơi nước nào — từ rung động cao và hỏng ổ trục đến mất ổn định bộ điều tốc, nhiễm bẩn dầu, và rò rỉ hơi. Chúng tôi bao phủ tất cả các thương hiệu tua-bin từ 5 kW đến 60 MW trên toàn bộ phổ công nghiệp quy trình và năng lượng của Ấn Độ. Phương pháp của chúng tôi có hệ thống: đo lường trực tuyến trước, kiểm tra vật lý được nhắm mục tiêu bởi dữ liệu, nguyên nhân gốc được xác nhận bằng văn bản, và hành động khắc phục được thực hiện bởi cùng đội ngũ chẩn đoán lỗi.",
     "procedures": [
       {
         "step": "01",

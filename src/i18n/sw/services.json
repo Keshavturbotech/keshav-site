@@ -26,16 +26,6 @@
     "id": "srv_2",
     "image": "service-overhauling.webp",
     "title": "Ukarabati na Matengenezo ya Huduma Kamili",
-    "desc": "Inatekelezwa na wahandisi wenye uzoefu wa zamani wa OEM kutoka Triveni, Siemens, BHEL, Belliss, na wengine. Inajumuisha upangaji kabla ya kusimama, uripoti wa hali eneo la kazi, usimamizi kamili wa vipuri, na utatuzi wa dharura wa saa 24/7.",
-    "details": [
-      "Upangaji kabla ya kusimama na wigo wa kina wa vifaa vinavyozunguka",
-      "Ukaguzi wa eneo la kazi wa vipuri vilivyohifadhiwa na ripoti za upungufu",
-      "Wahandisi wenye uzoefu wa OEM: Triveni, Belliss, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
-      "Nafasi zote za kiufundi, mapengo na vipimo hupimwa na kurekodiwa",
-      "Ripoti ya hali na mapendekezo kwa kila kipengele",
-      "Msingi wa huduma kamili: vifaa, zana, vitu vinavyotumika na wafanyakazi hutolewa",
-      "Mwitikio wa dharura wa saa 24/7 na wahandisi katika maeneo mengi"
-    ],
     "oems": [
       "Triveni",
       "Belliss & Morcom",
@@ -132,7 +122,6 @@
     "id": "srv_7",
     "image": "service-troubleshooting.webp",
     "title": "Huduma ya Utatuzi wa Matatizo",
-    "desc": "Uchunguzi wa haraka wa hitilafu eneo la kazi kwa turbine za mvuke zinazopata mtetemo, kushindwa kwa bearing, kutokuwa thabiti kwa governor, uvujaji wa mvuke, uchafuzi wa mafuta, au kusimama bila kutarajiwa. Wahandisi wenye uzoefu wa OEM huenda eneo la kazi na vifaa kamili vya uchunguzi kwa ajili ya kutambua chanzo cha tatizo na hatua za kurekebisha.",
     "details": [
       "Mtetemo wa juu — utambuzi wa kukosa uwiano, upatanishaji mbaya, uchakavu wa bearing, msuguano",
       "Uchunguzi wa kuyumba kwa governor, kutokuwa thabiti kwa kasi na kusimama kwa kasi kupita kiasi",

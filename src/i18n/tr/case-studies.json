@@ -10,7 +10,6 @@
     "duration": "12 gün",
     "scope": "Eksiksiz anahtar teslim revizyon: rotor sökümü, yatak değişimi, labirent conta işleme, rotor dinamik balansı (ISO 1940 G2.5), yağlama yağı yıkama ve devreye alma.",
     "challenge": "Türbin iki sezon boyunca yüksek titreşimle (>6 mm/s) çalışıyordu. Yatak gövdelerinde fretting aşınması görüldü ve rotorda önceki bakımların çözemediği kalıcı bir 1× salgı vardı.",
-    "solution": "Triveni'den OEM kökenli mühendisler üniteyi söktü ve tahrik ucunda çatlak bir mil buldu. Mil alt boyutlandırıldı, yeni babbitt döküldü ve kazındı, labirentler atölyemizde işlendi ve rotor <0,5 g·mm kalan dengesizliğe kadar dinamik olarak balanslandı. Devreye alma sonrası titreşim: 1,8 mm/s.",
     "outcomes": [
       "Titreşim 6,4 mm/s'den 1,8 mm/s'ye düştü",
       "Yatak metal sıcaklığı 14 °C düştü",

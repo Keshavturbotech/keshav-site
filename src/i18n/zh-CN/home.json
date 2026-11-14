@@ -1,40 +1,18 @@
 {
   "meta": {
     "title": "Keshav Enterprises — 汽轮机大修与备件，印度北方邦沙姆利",
-    "description": "来自Triveni、Siemens、BHEL的原厂背景汽轮机工程师。为5千瓦至60兆瓦汽轮机提供大修、逆向工程、动平衡、润滑油冲洗及OEM兼容备件。总部位于印度北方邦沙姆利，提供24小时全天候紧急支持。",
     "keywords": "印度汽轮机维护, 汽轮机大修, 汽轮机逆向工程, 工业汽轮机备件, 润滑油滤芯, 印度膨胀节, Triveni汽轮机服务, BHEL汽轮机备件, 北方邦汽轮机安装, 沙姆利工程"
   },
   "hero": {
     "badgeMakeInIndia": "印度制造",
     "badgeVocalForLocal": "本地优先",
-    "badgeIndiaMartLabel": "IndiaMART认证",
     "badgeIndiaMartRatingSuffix": "评分",
     "h1Line1": "精密工程，成就",
     "h1Line2": "最大运行率。",
     "capabilityLine": "5 kW 至 60 MW 蒸汽轮机 — 背压式和凝汽式，卧式和立式，单级和多级。服务遍及全印度及全球客户。",
-    "introText": "来自Triveni、Siemens、BHEL及其他7个品牌的原厂背景工程师。我们让您的汽轮机比原厂供货更快恢复运行——提供完整的PMI证书、ISO动平衡报告，自{businessSince}年以来零违约记录。",
     "ctaPrimary": "提交您的需求",
     "ctaEmergency": "紧急故障",
-    "trustYearsOverhauls": "{years}+年 · 500+次大修",
-    "trustPmi": "PMI认证备件",
-    "trustResponse": "平均响应时间：2小时",
-    "proofCards": [
-      {
-        "label": "无需磨合期",
-        "title": "原厂背景工程师",
-        "sub": "我们的团队曾在Triveni、Siemens、BHEL及Belliss工作——同等专业水准，直接服务您的工厂。"
-      },
-      {
-        "label": "每项工作均有文档记录",
-        "title": "交付时附报告",
-        "sub": "PMI证书、动平衡报告、找正记录、状态报告——工作完成时一并交付。"
-      },
-      {
-        "label": "分秒必争时刻",
-        "title": "24小时紧急响应",
-        "sub": "工程师分布印度多地。凌晨2点致电——总有人接听。"
-      }
-    ]
+    "trustResponse": "平均响应时间：2小时"
   },
   "oemMarquee": {
     "heading": "OEM兼容，深受行业领导者信赖"
@@ -45,12 +23,10 @@
       "sub": "遍布印度的糖厂、电厂、造纸厂及水泥厂"
     },
     "years": {
-      "label": "服务年限",
-      "sub": "自{founded}年以来持续运营——从未易主"
+      "label": "服务年限"
     },
     "penaltyClaims": {
-      "label": "违约索赔",
-      "sub": "{businessYears}年零记录——客户参考资料可应要求提供"
+      "label": "违约索赔"
     },
     "emergency": {
       "label": "紧急响应",
@@ -69,7 +45,6 @@
   "servicesPreview": {
     "eyebrow": "汽轮机全生命周期服务",
     "heading": "技术服务",
-    "subheading": "同一批原厂背景工程师负责您的大修、备件及凌晨2点的紧急故障——无分包、无交接。",
     "painLines": {
       "srv_2": "厌倦了准备不足、又不提供工作报告的供应商？",
       "srv_3": "原厂对已停产备件报价需要数月？",
@@ -80,12 +55,8 @@
   },
   "testimonials": {
     "eyebrow": "客户反馈",
-    "heading": "深受印度各地工厂经理信赖",
-    "googleRatingLabel": "+条Google认证评价",
-    "disclaimer": "引述内容摘自已完成的项目记录，在获得书面同意进行完整署名前以姓名缩写呈现。如需独立核实的评分，请见上方Google评价。",
     "footerCtaPrefix": "曾与我们合作？",
     "footerCtaLink": "在Google留下评价——帮助其他工厂经理找到我们 →",
-    "googleReviewBadge": "Google评价",
     "items": [
       {
         "quote": "他们的前Triveni工程师在年度停机检修期间负责我们12兆瓦Triveni汽轮机的大修——所有间隙均有记录，转子按ISO G1.0标准平衡，并提前恢复运行。这是六年来首次首次开车零问题。",

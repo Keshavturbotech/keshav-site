@@ -1,80 +1,21 @@
 {
   "meta": {
-    "titleTemplate": "À propos de Keshav Enterprises — Plus de {years} ans d'ingénierie de turbines",
-    "descriptionTemplate": "Keshav Enterprises — plus de {years} ans d'ingénierie industrielle de turbines, de rétro-ingénierie et de pièces de rechange compatibles OEM depuis Shamli, Uttar Pradesh, Inde. Ingénieurs anciens de Triveni, Siemens, BHEL.",
-    "schemaName": "À propos de Keshav Enterprises",
-    "schemaDescriptionTemplate": "Keshav Enterprises — plus de {years} ans d'ingénierie industrielle de turbines, de rétro-ingénierie et de fabrication de pièces de rechange compatibles OEM depuis Shamli, Uttar Pradesh, Inde."
+    "schemaName": "À propos de Keshav Enterprises"
   },
   "hero": {
     "eyebrow": "Notre histoire",
-    "h1Line1": "{years}+ ans d'",
-    "h1Span": "ingénierie de précision",
     "quote": "“Zéro tolérance pour les arrêts d'usine — ce n'est pas un slogan. C'est la norme d'ingénierie à laquelle chaque client nous tient.”",
-    "intro": "Le fondateur Shekhar Sharma travaille directement sur les turbines à vapeur depuis 1988 et a acquis son expérience dans plusieurs entreprises avant de créer, en 2016, un partenariat indépendant de maintenance de turbines. Keshav Enterprises a été officiellement fondée en juin 2020 et est aujourd'hui un partenaire d'ingénierie de confiance pour les centrales électriques, sucreries, raffineries et industries de process en Inde et dans le monde, avec la même expertise ex-OEM issue de Triveni, Siemens, BHEL, Man Turbo, KKK et ABB.",
-    "tags": [
-      "Ingénieurs anciens OEM",
-      "Numérisation laser 3D",
-      "Précision CMM",
-      "Réponse 24×7",
-      "Enregistré IEC",
-      "Prêt à l'export",
-      "IndiaMART TrustSeal",
-      "Fabriqué en Inde",
-      "Enregistré MSME"
-    ],
     "ctaServices": "Nos services",
     "ctaContact": "Contacter l'équipe d'ingénierie",
-    "statCards": [
-      {
-        "label": "Années d'activité",
-        "subTemplate": "Depuis {founded}"
-      },
-      {
-        "label": "Marques OEM",
-        "sub": "Triveni · Siemens · BHEL"
-      },
-      {
-        "label": "Turbine maximale",
-        "sub": "Jusqu'à 60 MW"
-      },
-      {
-        "label": "Assistance d'urgence",
-        "sub": "Ingénieurs multi-sites"
-      }
-    ],
     "trustBadges": {
-      "indiamartTitle": "Vérifié IndiaMART TrustSeal",
       "indiamartSub": "Plus de 50 avis d'acheteurs · Note de 4,3/5",
       "msmeTitle": "Enregistré MSME",
       "msmeSub": "Entreprise certifiée Udyam · Gouvernement indien"
     }
   },
-  "statsBar": [
-    {
-      "label": "Années d'activité",
-      "subTemplate": "Depuis {founded}"
-    },
-    {
-      "label": "Marques OEM couvertes",
-      "sub": "Triveni · Siemens · BHEL"
-    },
-    {
-      "label": "Turbine maximale traitée",
-      "sub": "Jusqu'à 60 MW"
-    },
-    {
-      "label": "Réponse d'urgence",
-      "sub": "Ingénieurs multi-sites"
-    }
-  ],
   "overview": {
     "eyebrow": "Qui nous sommes",
     "heading": "Partenaires d'ingénierie pour l'épine dorsale industrielle de l'Inde",
-    "paragraphs": [
-      "Keshav Enterprises est une société d'ingénierie industrielle de précision dont le siège est à Shamli, Uttar Pradesh. Le fondateur Shekhar Sharma travaille directement sur les turbines à vapeur depuis 1988 ; cette expérience est devenue un partenariat indépendant en 2016, et Keshav Enterprises a été officiellement fondée en juin 2020. Nous proposons une maintenance spécialisée de turbines, de la rétro-ingénierie et des pièces de rechange compatibles OEM à des clients dans toute l'Inde et dans le monde, y compris des exportations vers le Népal et l'Ouganda.",
-      "Notre équipe d'ingénierie comprend des spécialistes anciens de Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK et ABB — offrant aux clients le même niveau d'expertise technique que les équipementiers d'origine, pour une fraction du délai et du coût.",
-      "Nous couvrons les turbines à vapeur de 5 kW à 60 MW — contre-pression et condensation, horizontales et verticales, simples et multi-étages. Notre atelier est équipé de scanners laser 3D, de machines à mesurer tridimensionnelles CMM, de machines d'équilibrage dynamique (50–2 000 kg) et de tours CNC de précision."
-    ],
     "coreCapabilitiesHeading": "Compétences clés",
     "coreCapabilitiesList": [
       "Montage, mise en service et révision générale clé en main de turbines",
@@ -110,33 +51,14 @@
         "linkLabel": "Parcourir les produits"
       },
       "rotorInspection": {
-        "caption": "Inspection de rotor",
-        "desc": "Nos ingénieurs, anciens d'équipementiers, mesurent et consignent chaque jeu, écart et dimension lors de l'inspection — rapport d'état complet pour chaque intervention."
+        "caption": "Inspection de rotor"
       }
     },
     "browseFullCatalog": "Parcourir le catalogue complet des produits"
   },
   "values": {
     "eyebrow": "Ce qui nous anime",
-    "heading": "Nos valeurs fondamentales",
-    "items": [
-      {
-        "label": "Intégrité de l'ingénierie",
-        "text": "Chaque composant, chaque jeu, chaque dimension documenté et vérifié. Aucun raccourci sur les équipements tournants critiques pour la sécurité."
-      },
-      {
-        "label": "Normes de qualité OEM",
-        "text": "Nos ingénieurs, anciens de Triveni, Siemens, BHEL et ABB, assurent une maintenance au même niveau que le fabricant d'origine."
-      },
-      {
-        "label": "Innovation en rétro-ingénierie",
-        "text": "La numérisation 3D et les tests PMI donnent accès aux clients à des pièces obsolètes sans les délais OEM de 12 à 18 mois."
-      },
-      {
-        "label": "La disponibilité client avant tout",
-        "text": "Nous mesurons le succès par la disponibilité de l'usine. Intervention d'urgence 24 h/24, 7 j/7, car les arrêts ne suivent pas les horaires de bureau."
-      }
-    ]
+    "heading": "Nos valeurs fondamentales"
   },
   "milestones": {
     "eyebrow": "Notre parcours",
@@ -171,8 +93,6 @@
   },
   "team": {
     "eyebrow": "Les personnes derrière le travail",
-    "heading": "Expertise d'ingénierie d'anciens OEM",
-    "subheading": "Nos ingénieurs ont été formés et déployés au sein même des usines et équipes de service terrain des équipementiers — pas seulement formés sur leurs équipements. Cette différence se retrouve dans la qualité de chaque jeu consigné.",
     "expSuffix": "d'expérience",
     "namesWithheldNote": "Les noms sont tenus confidentiels afin de protéger nos ingénieurs du démarchage par la concurrence. Un historique d'emploi vérifiable est disponible pour les demandes sérieuses.",
     "members": {
@@ -204,9 +124,7 @@
   },
   "oemSection": {
     "eyebrow": "Expertise OEM",
-    "headingLine1": "Plus de 10 marques OEM.",
-    "headingLine2": "Un seul partenaire d'ingénierie.",
-    "sub": "Nos ingénieurs, anciens d'équipementiers, ont une expérience pratique de toutes les principales marques de turbines. Aucune courbe d'apprentissage. Expertise technique reconnue dès le premier jour."
+    "headingLine2": "Un seul partenaire d'ingénierie."
   },
   "exportSection": {
     "eyebrow": "Prêt à l'export",

@@ -84,14 +84,16 @@
           "Standart AHU boyutları stokta; talep üzerine özel",
           "İlk kademe görevi için metalik ağ ön filtre de mevcuttur"
         ]
+      },
+      {
+        "name": "Buhar Türbini Susturucuları (Tahliye ve Emniyet Valfi)",
+        "purpose": "Termik, kojenerasyon ve kendi kendine yeten enerji santrallerinde emniyet valfi çıkışlarını, türbin devreye alma tahliyelerini ve egzoz tahliye hatlarını sessizleştirir; tahliye gürültüsünü saha sınırlarında tutar.",
+        "features": [
+          "Difüzör ve emici yapı, buhar debinize ve dB(A) hedefinize göre boyutlandırılır",
+          "Karbon çelik veya SS 304 / 316, yaklaşık 540°C'ye kadar",
+          "Paslanmış veya gürültülü mevcut susturucular için yedek üniteler"
+        ]
       }
-    ],
-    "keyFacts": [
-      "İşlenen maksimum 60 MW türbin kapasitesi",
-      "{years}+ yıllık OEM eğitimli mühendislik deneyimi",
-      "API 614 ve ISO 4406 uyumlu ürünler",
-      "Kontrol odaları ve türbin salonları için HVAC filtre tedariki",
-      "7/24 acil arıza desteği"
     ]
   },
   "ind_2": {
@@ -168,6 +170,15 @@
           "ISO 1940/1 G1.0'a göre dinamik balans",
           "Tüm rotor tiplerinde iki düzlemli balans",
           "İş raporuyla balans sertifikası düzenlenir"
+        ]
+      },
+      {
+        "name": "Buhar Türbini Susturucuları (Tahliye ve Emniyet Valfi)",
+        "purpose": "Karşı basınçlı türbin egzoz tahliye hatlarına ve emniyet valfi çıkışlarına monte edilir; böylece kampanya sezonundaki devre dışı kalmalarda veya header dalgalanmalarında buhar boşalması gürültü sorununa dönüşmez.",
+        "features": [
+          "Difüzör ve emici yapı, buhar debinize ve dB(A) hedefinize göre boyutlandırılır",
+          "Karbon çelik veya SS 304 / 316, yaklaşık 540°C'ye kadar",
+          "Paslanmış veya gürültülü mevcut susturucular için yedek üniteler"
         ]
       }
     ],
@@ -253,6 +264,15 @@
           "Malzeme sertifikaları tedarik edilir",
           "CMM boyutsal inceleme raporu"
         ]
+      },
+      {
+        "name": "Buhar Türbini Susturucuları (Tahliye ve Emniyet Valfi)",
+        "purpose": "Tesis buhar sistemlerindeki türbin ve kazan buhar tahliyelerini sessizleştirir; devreye alma, devre dışı kalma ve emniyet valfi açılmaları sırasında santral binasında ve yakın proses alanlarında gürültüyü azaltır.",
+        "features": [
+          "Difüzör ve emici yapı, buhar debinize ve dB(A) hedefinize göre boyutlandırılır",
+          "Karbon çelik veya SS 304 / 316, yaklaşık 540°C'ye kadar",
+          "Paslanmış veya gürültülü mevcut susturucular için yedek üniteler"
+        ]
       }
     ],
     "keyFacts": [
@@ -282,6 +302,12 @@
         "title": "Uzak Konum Hızlı Tedarik",
         "desc": "Açık deniz platformları ve uzak yukarı akış tesisleri hızlı yedek parça tedariki gerektirir. Kritik yedek parçalar stokta tutulur ve acil siparişlerde aynı gün sevk edilir."
       }
+    ],
+    "keyFacts": [
+      "API 614 ve IS27 uyumlu ürünler",
+      "Tüm büyük OEM'ler için Babbitt yataklar",
+      "Aynı gün acil sevkiyat mevcuttur",
+      "ASME kod damgalı basınçlı kaplar"
     ],
     "products": [
       {
@@ -338,12 +364,6 @@
           "Uyarı ve tehlike röle çıkışları"
         ]
       }
-    ],
-    "keyFacts": [
-      "API 614 ve IS27 uyumlu ürünler",
-      "Tüm büyük OEM'ler için Babbitt yataklar",
-      "Aynı gün acil sevkiyat mevcuttur",
-      "ASME kod damgalı basınçlı kaplar"
     ]
   },
   "ind_5": {
@@ -420,6 +440,15 @@
           "Bağlantı çubuğu ortadan kaldırılmış basınç itme tasarımı",
           "Nozul yüklerini sıfıra yakın azaltır",
           "Bağlı ve bağsız konfigürasyonlarda mevcuttur"
+        ]
+      },
+      {
+        "name": "Buhar Türbini Susturucuları (Tahliye ve Emniyet Valfi)",
+        "purpose": "Türbin tahrikli ünitelerdeki ve yardımcı buhar sistemlerindeki buhar tahliyelerini ve emniyet valfi çıkışlarını sessizleştirir; buhar koşullarına uygun karbon çelik veya SS olarak tedarik edilir.",
+        "features": [
+          "Difüzör ve emici yapı, buhar debinize ve dB(A) hedefinize göre boyutlandırılır",
+          "Karbon çelik veya SS 304 / 316, yaklaşık 540°C'ye kadar",
+          "Paslanmış veya gürültülü mevcut susturucular için yedek üniteler"
         ]
       }
     ],
@@ -698,6 +727,15 @@
           "BHEL türbin yağlama yağı sistemleri için OEM eşleşen — 100 MW, 200 MW, 210 MW, 250 MW, 500 MW sınıfı TG setleri",
           "BHEL duplex yağlama yağı filtre gövdeleriyle uyumlu — gövde modifikasyonu olmadan drop-in değişim",
           "Filtrasyon inceliği: 10, 25, 40 µm (ISO 16889 dereceli); servo sistem koruması için talep üzerine daha ince"
+        ]
+      },
+      {
+        "name": "Buhar Türbini Susturucuları (Tahliye ve Emniyet Valfi)",
+        "purpose": "Çimento ve çelik tesislerindeki kendi enerji türbo setlerinin ve buhar hatlarının buhar tahliyelerini ve emniyet valfi çıkışlarını sessizleştirir; karbon çelik veya SS olarak tedarik edilir.",
+        "features": [
+          "Difüzör ve emici yapı, buhar debinize ve dB(A) hedefinize göre boyutlandırılır",
+          "Karbon çelik veya SS 304 / 316, yaklaşık 540°C'ye kadar",
+          "Paslanmış veya gürültülü mevcut susturucular için yedek üniteler"
         ]
       }
     ],

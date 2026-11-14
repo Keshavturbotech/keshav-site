@@ -1,40 +1,18 @@
 {
   "meta": {
     "title": "Keshav Enterprises — Dampfturbinen-Überholung & Ersatzteile, Shamli UP Indien",
-    "description": "Ex-OEM-Dampfturbineningenieure von Triveni, Siemens, BHEL. Überholung, Reverse Engineering, dynamisches Auswuchten, Schmierölspülung und OEM-kompatible Ersatzteile für Turbinen von 5 kW–60 MW. Sitz in Shamli, UP. 24×7-Notfallunterstützung.",
     "keywords": "Turbinenwartung Indien, Dampfturbinenüberholung, Turbinen-Reverse-Engineering, industrielle Turbinenersatzteile, Schmierölfilterelemente, Kompensatoren Indien, Triveni Turbinenservice, BHEL Turbinenersatzteile, Turbinenmontage Uttar Pradesh, Engineering Shamli"
   },
   "hero": {
     "badgeMakeInIndia": "Make in India",
     "badgeVocalForLocal": "Vocal For Local",
-    "badgeIndiaMartLabel": "IndiaMART-verifiziert",
     "badgeIndiaMartRatingSuffix": "BEWERTUNG",
     "h1Line1": "Präzisionstechnik für",
     "h1Line2": "maximale Verfügbarkeit.",
     "capabilityLine": "Dampfturbinen von 5 kW bis 60 MW — Gegendruck- und Kondensationsturbinen, horizontal und vertikal, ein- und mehrstufig. Wir betreuen Kunden in ganz Indien und weltweit.",
-    "introText": "Ex-OEM-Ingenieure von Triveni, Siemens, BHEL und 7 weiteren Marken. Wir bringen Ihre Turbine schneller zurück in Betrieb als die OEM-Beschaffung — mit vollständigen PMI-Zertifikaten, ISO-Auswuchtberichten und einer straffreien Erfolgsbilanz seit {businessSince}.",
     "ctaPrimary": "Anfrage senden",
     "ctaEmergency": "Notfall-Störung",
-    "trustYearsOverhauls": "{years}+ Jahre · 500+ Überholungen",
-    "trustPmi": "PMI-zertifizierte Ersatzteile",
-    "trustResponse": "Ø Reaktionszeit: 2 Std.",
-    "proofCards": [
-      {
-        "label": "Keine Einarbeitungszeit",
-        "title": "Ex-OEM-Ingenieure",
-        "sub": "Unser Team hat bei Triveni, Siemens, BHEL und Belliss gearbeitet — dieselbe Expertise, geliefert für Ihre Anlage."
-      },
-      {
-        "label": "Jeder Auftrag dokumentiert",
-        "title": "Bericht bei Übergabe",
-        "sub": "PMI-Zertifikate, Auswuchtberichte, Ausrichtungsprotokolle, Zustandsberichte — bei Auftragsabschluss übergeben."
-      },
-      {
-        "label": "Wenn jede Minute zählt",
-        "title": "24×7-Notdienst",
-        "sub": "Ingenieure an mehreren Standorten in ganz Indien. Rufen Sie um 2 Uhr nachts an — jemand antwortet."
-      }
-    ]
+    "trustResponse": "Ø Reaktionszeit: 2 Std."
   },
   "oemMarquee": {
     "heading": "OEM-kompatibel und vertraut von Branchenführern"
@@ -45,12 +23,10 @@
       "sub": "Zucker-, Kraft-, Papier- und Zementwerke in ganz Indien"
     },
     "years": {
-      "label": "Jahre im Dienst",
-      "sub": "Durchgehender Betrieb seit {founded} — kein Eigentümerwechsel"
+      "label": "Jahre im Dienst"
     },
     "penaltyClaims": {
-      "label": "Vertragsstrafen",
-      "sub": "Null in {businessYears} Jahren — Kundenreferenzen auf Anfrage verfügbar"
+      "label": "Vertragsstrafen"
     },
     "emergency": {
       "label": "Notfallreaktion",
@@ -69,7 +45,6 @@
   "servicesPreview": {
     "eyebrow": "Turbinen-Lebenszyklus von A bis Z",
     "heading": "Technische Leistungen",
-    "subheading": "Dieselben Ex-OEM-Ingenieure übernehmen Ihre Überholung, Ihre Ersatzteile und Ihren Notfall um 2 Uhr nachts — ohne Unterauftragnehmer, ohne Übergaben.",
     "painLines": {
       "srv_2": "Genug von Dienstleistern, die schlecht ausgerüstet erscheinen und keinen Auftragsbericht liefern?",
       "srv_3": "Hat der OEM Monate für ein Ersatzteil angeboten, das nicht mehr produziert wird?",
@@ -80,12 +55,8 @@
   },
   "testimonials": {
     "eyebrow": "Kundenfeedback",
-    "heading": "Vertraut von Werksleitern in ganz Indien",
-    "googleRatingLabel": "+ verifizierte Google-Bewertungen",
-    "disclaimer": "Zitate stammen aus abgeschlossenen Projektunterlagen und werden bis zur schriftlichen Zustimmung zur vollständigen Namensnennung auf Initialen gekürzt. Unabhängig verifizierte Bewertungen finden Sie oben in unseren Google-Rezensionen.",
     "footerCtaPrefix": "Mit uns zusammengearbeitet?",
     "footerCtaLink": "Hinterlassen Sie eine Google-Bewertung — sie hilft anderen Werksleitern, uns zu finden →",
-    "googleReviewBadge": "Google-Bewertung",
     "items": [
       {
         "quote": "Ihre Ex-Triveni-Ingenieure führten die Überholung unserer 12-MW-Triveni-Turbine während des Jahresstillstands durch — alle Spielmaße dokumentiert, Rotor nach ISO G1.0 ausgewuchtet und früher als geplant wieder in Betrieb. Zum ersten Mal seit sechs Jahren keine Probleme beim ersten Anfahren.",

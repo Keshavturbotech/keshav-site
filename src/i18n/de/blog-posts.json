@@ -12,97 +12,7 @@
       "Dampfturbinen",
       "Wartung"
     ],
-    "coverImage": "blog-turbine-overhaul.webp",
-    "content": [
-      {
-        "type": "h2",
-        "text": "Warum eine strukturierte Checkliste wichtig ist"
-      },
-      {
-        "type": "p",
-        "text": "Ungeplante Turbinenstillstände kosten indische Kraft- und Zuckerwerke Lakhs von Rupien pro Stunde. Eine strukturierte Überholungs-Checkliste stellt sicher, dass während geplanter Wartungsfenster nichts übersehen wird — sie senkt das Risiko eines frühen Ausfalls nach der Wiederinbetriebnahme und vermeidet kostspielige wiederholte Stillstände."
-      },
-      {
-        "type": "h2",
-        "text": "1. Planung vor dem Stillstand (4–6 Wochen vorher)"
-      },
-      {
-        "type": "p",
-        "text": "Beginnen Sie mit einem detaillierten Arbeitsumfang für alle rotierenden Anlagen des Stranges. Prüfen Sie alle Lagerersatzteile und erstellen Sie einen Fehlmengenbericht. Bestellen Sie kritische Teile — Lager, Dichtungen, Labyrinthpackungen, Kohleringe — mit ausreichender Vorlaufzeit. Beschaffen Sie Spezialwerkzeuge: Ausrichtungslaser, Schwingungsanalysator, Messuhren und Fühlerlehren."
-      },
-      {
-        "type": "list",
-        "items": [
-          "OEM-Spielmaßdaten für alle Turbinenstufen bestätigen",
-          "Schmierölspülgerät bereitstellen (mobile Zentrifugen-Filtereinheit)",
-          "Bei Bedarf für größere Überholung Ex-OEM-Ingenieure buchen",
-          "Basiswerte für Zustandsüberwachung vorbereiten (Vibration, Temperatur, Druck)"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "2. Stillstand & Isolierung"
-      },
-      {
-        "type": "p",
-        "text": "Befolgen Sie das vom OEM vorgegebene Abschaltverfahren. Lassen Sie ausreichend Abkühlzeit vor dem Öffnen von Flanschen. Sperren und kennzeichnen Sie alle Energiequellen einschließlich Dampf, Schmieröl, Kondensat und Steuerluft. Entleeren Sie das Schmierölsystem vollständig vor der Demontage."
-      },
-      {
-        "type": "h2",
-        "text": "3. Demontage & Inspektion"
-      },
-      {
-        "type": "p",
-        "text": "Dokumentieren Sie alle Spielmaße, Spalte und Passungen vor dem Ausbau von Komponenten — sie sind für den Vergleich mit der OEM-Spezifikation und zur Erkennung von Verschleißtrends unerlässlich. Fotografieren Sie jede Stufe. Messen Sie den Rotor-Rundlauf an Wellenzapfen, Druckkragen und Kupplungsflächen."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Lagerspiele (radial und axial)",
-          "Diametrale Spielmaße der Labyrinthdichtung",
-          "Versatz und Winkeligkeit der Kupplungsausrichtung",
-          "Zustand der Kohleringfläche und Federspannung",
-          "Zustand von Düse und Leitrad sowie Halsabmessungen",
-          "Zustand von Sitz und Scheibe des Schnellschlussventils"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "4. Werkstattreparaturen & Austausch"
-      },
-      {
-        "type": "p",
-        "text": "Senden Sie den Rotor zum Wellenzapfenschleifen und dynamischen Auswuchten, falls Rundlauf- oder Vibrationswerte außerhalb der Toleranz lagen. Ersetzen Sie Kohle- und Graphit-Stopfbuchsringe, Labyrinthpackungen und Weißmetalllager gemäß Zustandsbericht. Jedes Rotorauswuchten sollte nach ISO-1940- oder API-670-Normen erfolgen."
-      },
-      {
-        "type": "h2",
-        "text": "5. Zusammenbau & Ausrichtung"
-      },
-      {
-        "type": "p",
-        "text": "Bauen Sie in umgekehrter Reihenfolge mit neuen Dichtungen und Anzugsmomenten nach OEM-Vorgaben wieder zusammen. Führen Sie die abschließende Rotorausrichtung mit Laserausrichtungsgerät durch — Turbine zu Getriebe und Getriebe zu Generator. Dokumentieren Sie alle Spielmaße nach dem Zusammenbau und bestätigen Sie, dass sie innerhalb der OEM-Toleranz liegen."
-      },
-      {
-        "type": "h2",
-        "text": "6. Schmierölspülung"
-      },
-      {
-        "type": "p",
-        "text": "Spülen Sie vor der Inbetriebnahme das Schmierölsystem mit einem mobilen Zentrifugen-Filtersystem auf ISO-4406:99-Sauberkeitsklasse 16/14/11 oder besser. Entnehmen Sie Ölproben vor und nach der Spülung und bewahren Sie die Berichte auf. Nehmen Sie eine Turbine nie ohne abgeschlossene Ölspülung in Betrieb — Lagerausfälle durch verunreinigtes Öl machen einen erheblichen Teil der Ausfälle nach der Überholung aus."
-      },
-      {
-        "type": "h2",
-        "text": "7. Inbetriebnahme & Erstlauf"
-      },
-      {
-        "type": "p",
-        "text": "Befolgen Sie das OEM-Verfahren vor der Inbetriebnahme Schritt für Schritt. Überwachen Sie während des ersten Hochlaufs kontinuierlich Vibration, Lagertemperaturen und Schmieröldruck. Bestätigen Sie die Funktion von Schnellschlussventil und Regler. Feinjustieren Sie die Ausrichtung bei erhöhten Vibrationswerten. Dokumentieren Sie alle Inbetriebnahmewerte für die Wartungsakte der Anlage."
-      },
-      {
-        "type": "cta",
-        "text": "Benötigen Sie erfahrene Überholungsingenieure für Ihren nächsten geplanten Stillstand? Unser Ex-OEM-Team deckt Triveni, Siemens, BHEL, Belliss & Morcom und mehr ab."
-      }
-    ]
+    "coverImage": "blog-turbine-overhaul.webp"
   },
   "post_2": {
     "id": "post_2",
@@ -271,7 +181,6 @@
     "id": "post_4",
     "slug": "belliss-morcom-turbine-common-faults-india",
     "title": "Häufige Störungen bei Belliss & Morcom-Turbinen — Praxisleitfaden für indische Anlagen",
-    "excerpt": "Belliss-&-Morcom-Dampfturbinen sind in indischen Zuckerfabriken und Kraft-Wärme-Kopplungsanlagen weit verbreitet. Hier sind die häufigsten Störungen, auf die unsere Ex-OEM-Ingenieure stoßen, sowie deren Diagnose und Behebung.",
     "date": "2026-03-18",
     "author": "Engineering-Team von Keshav Enterprises",
     "readTime": "8 Min. Lesezeit",

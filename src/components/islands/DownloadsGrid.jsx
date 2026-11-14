@@ -691,7 +691,7 @@ export default function DownloadsGrid() {
                       <FileText className="w-5 h-5 text-blue-600" aria-hidden="true" />
                     </div>
                     <div>
-                      <h3 className="font-black text-slate-900 text-sm leading-snug">{d.title}</h3>
+                      <h2 className="font-black text-slate-900 text-sm leading-snug">{d.title}</h2>
                       <p className="text-[10px] font-bold text-slate-500 uppercase tracking-wider mt-0.5">
                         {d.category} · {d.fileType} · {d.fileSize}
                       </p>

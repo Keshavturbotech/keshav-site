@@ -19,7 +19,7 @@ export const RESPONSE_PROMISES = {
 } as const;
 
 export const CONTACT_INFO = {
-  phones: ["+91 9149229448", "+91 6397363268"],
+  phones: ["+91 6397363268"],
   email: "sales.ksengg007@gmail.com",
   infoEmail: "info.ksengg007@gmail.com",
   address: "Dayanand Nagar Gali No.2, Near Subash Ki Chakki, Shamli – 247776, U.P., India",

@@ -1,80 +1,21 @@
 {
   "meta": {
-    "titleTemplate": "Tentang Keshav Enterprises — {years}+ Tahun Rekayasa Turbin",
-    "descriptionTemplate": "Keshav Enterprises — {years}+ tahun rekayasa turbin industri, rekayasa balik, dan suku cadang kompatibel OEM dari Shamli, UP, India. Insinyur eks-OEM dari Triveni, Siemens, BHEL.",
-    "schemaName": "Tentang Keshav Enterprises",
-    "schemaDescriptionTemplate": "Keshav Enterprises — {years}+ tahun rekayasa turbin industri, rekayasa balik, dan manufaktur suku cadang kompatibel OEM dari Shamli, UP, India."
+    "schemaName": "Tentang Keshav Enterprises"
   },
   "hero": {
     "eyebrow": "Kisah Kami",
-    "h1Line1": "{years}+ Tahun",
-    "h1Span": "Rekayasa Presisi",
     "quote": "“Toleransi nol untuk downtime pabrik — itu bukan slogan. Itu adalah standar rekayasa yang dipegang setiap klien terhadap kami.”",
-    "intro": "Pendiri Shekhar Sharma bekerja langsung dengan turbin uap sejak 1988 dan membangun pengalaman di beberapa perusahaan sebelum mendirikan kemitraan independen perawatan turbin pada 2016. Keshav Enterprises resmi didirikan pada Juni 2020 dan kini menjadi mitra rekayasa tepercaya bagi pembangkit listrik, pabrik gula, kilang, dan industri proses di seluruh India dan dunia, dengan keahlian mantan OEM yang sama dari Triveni, Siemens, BHEL, Man Turbo, KKK, dan ABB.",
-    "tags": [
-      "Insinyur Eks-OEM",
-      "Pemindaian Laser 3D",
-      "Presisi CMM",
-      "Respons 24×7",
-      "Terdaftar IEC",
-      "Siap Ekspor",
-      "IndiaMART TrustSeal",
-      "Make in India",
-      "Terdaftar MSME"
-    ],
     "ctaServices": "Layanan Kami",
     "ctaContact": "Hubungi Tim Rekayasa",
-    "statCards": [
-      {
-        "label": "Tahun Beroperasi",
-        "subTemplate": "Sejak {founded}"
-      },
-      {
-        "label": "Merek OEM",
-        "sub": "Triveni · Siemens · BHEL"
-      },
-      {
-        "label": "Turbin Maksimum",
-        "sub": "Hingga 60 M.W."
-      },
-      {
-        "label": "Dukungan Darurat",
-        "sub": "Insinyur multi-lokasi"
-      }
-    ],
     "trustBadges": {
-      "indiamartTitle": "Terverifikasi IndiaMART TrustSeal",
       "indiamartSub": "50+ ulasan pembeli · rating 4,3/5",
       "msmeTitle": "Terdaftar MSME",
       "msmeSub": "Perusahaan Bersertifikat Udyam · Pemerintah India"
     }
   },
-  "statsBar": [
-    {
-      "label": "Tahun Beroperasi",
-      "subTemplate": "Sejak {founded}"
-    },
-    {
-      "label": "Merek OEM Tercakup",
-      "sub": "Triveni · Siemens · BHEL"
-    },
-    {
-      "label": "Turbin Maksimum Ditangani",
-      "sub": "Hingga 60 M.W."
-    },
-    {
-      "label": "Respons Darurat",
-      "sub": "Insinyur multi-lokasi"
-    }
-  ],
   "overview": {
     "eyebrow": "Siapa Kami",
     "heading": "Mitra Rekayasa untuk Tulang Punggung Industri India",
-    "paragraphs": [
-      "Keshav Enterprises adalah perusahaan rekayasa industri presisi yang berkantor pusat di Shamli, Uttar Pradesh. Pendiri Shekhar Sharma bekerja langsung dengan turbin uap sejak 1988; pengalaman itu menjadi kemitraan independen pada 2016, dan Keshav Enterprises resmi didirikan pada Juni 2020. Kami menyediakan perawatan turbin spesialis, rekayasa balik, dan suku cadang yang kompatibel dengan OEM bagi klien di seluruh India dan dunia, termasuk ekspor ke Nepal dan Uganda.",
-      "Tim rekayasa kami mencakup spesialis eks-OEM dari Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, dan ABB — memberikan klien tingkat keahlian teknis yang sama dengan produsen peralatan asli, dengan sebagian kecil dari waktu tunggu dan biaya.",
-      "Kami mencakup turbin uap dari 5 kW hingga 60 MW — back-pressure dan condensing, horizontal dan vertikal, satu dan multi-tahap. Bengkel kami dilengkapi dengan pemindai laser 3D, mesin pengukur koordinat CMM, mesin penyeimbang dinamis (50–2.000 kg), dan mesin bubut CNC presisi."
-    ],
     "coreCapabilitiesHeading": "Kapabilitas Inti",
     "coreCapabilitiesList": [
       "Pemasangan turbin, komisioning, dan overhaul turnkey",
@@ -110,33 +51,14 @@
         "linkLabel": "Jelajahi Produk"
       },
       "rotorInspection": {
-        "caption": "Inspeksi Rotor",
-        "desc": "Insinyur eks-OEM mengukur dan mencatat setiap celah, jarak, dan dimensi selama inspeksi — laporan kondisi lengkap untuk setiap pekerjaan."
+        "caption": "Inspeksi Rotor"
       }
     },
     "browseFullCatalog": "Jelajahi Katalog Produk Lengkap"
   },
   "values": {
     "eyebrow": "Yang Mendorong Kami",
-    "heading": "Nilai-Nilai Inti Kami",
-    "items": [
-      {
-        "label": "Integritas Rekayasa",
-        "text": "Setiap komponen, setiap celah, setiap dimensi didokumentasikan dan diverifikasi. Tidak ada jalan pintas pada peralatan berputar yang kritis terhadap keselamatan."
-      },
-      {
-        "label": "Standar Setara OEM",
-        "text": "Insinyur eks-OEM dari Triveni, Siemens, BHEL, dan ABB memberikan perawatan dengan standar yang sama seperti produsen asli."
-      },
-      {
-        "label": "Inovasi dalam Rekayasa Balik",
-        "text": "Pemindaian 3D dan pengujian PMI memberi klien akses ke suku cadang usang tanpa waktu tunggu OEM 12–18 bulan."
-      },
-      {
-        "label": "Uptime Pelanggan yang Diutamakan",
-        "text": "Kami mengukur kesuksesan dari ketersediaan pabrik. Respons darurat 24×7 karena shutdown tidak mengikuti jam kerja."
-      }
-    ]
+    "heading": "Nilai-Nilai Inti Kami"
   },
   "milestones": {
     "eyebrow": "Perjalanan Kami",
@@ -171,8 +93,6 @@
   },
   "team": {
     "eyebrow": "Orang-Orang di Balik Pekerjaan",
-    "heading": "Keahlian Rekayasa Eks-OEM",
-    "subheading": "Insinyur kami dilatih dan ditempatkan di dalam pabrik OEM dan tim layanan lapangan — bukan sekadar dilatih pada peralatan OEM. Perbedaan itulah yang terlihat pada kualitas setiap celah yang dicatat.",
     "expSuffix": "pengalaman",
     "namesWithheldNote": "Nama dirahasiakan untuk melindungi insinyur kami dari pendekatan kompetitor. Riwayat kerja yang dapat diverifikasi tersedia untuk pertanyaan serius.",
     "members": {
@@ -204,9 +124,7 @@
   },
   "oemSection": {
     "eyebrow": "Keahlian OEM",
-    "headingLine1": "10+ Merek OEM.",
-    "headingLine2": "Satu Mitra Rekayasa.",
-    "sub": "Insinyur eks-OEM kami memiliki pengalaman langsung dengan semua merek turbin utama. Tanpa kurva belajar. Keahlian teknis otoritatif sejak hari pertama."
+    "headingLine2": "Satu Mitra Rekayasa."
   },
   "exportSection": {
     "eyebrow": "Siap Ekspor",

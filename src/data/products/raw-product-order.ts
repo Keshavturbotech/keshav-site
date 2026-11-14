@@ -132,6 +132,7 @@ export const RAW_PRODUCT_ID_ORDER = [
   "prod_af6",
   "prod_ts_dp_switch",
   "prod_ts_labyrinth_leaf_spring",
+  "prod_ts_silencer",
   "prod_f_cenlub",
   "prod_f_eaton",
   "prod_f_epe",

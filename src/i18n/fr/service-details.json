@@ -20,8 +20,6 @@
         "label": "Assistance sur site disponible"
       }
     ],
-    "whyUs": "Un seul jeu incorrect pendant le montage peut détruire un palier en quelques heures après la première admission de vapeur. Nos ingénieurs de terrain, anciens de chez les constructeurs, ont personnellement mis en service les mêmes types de machines que vous installez — ils savent ce que les spécifications OEM signifient réellement en pratique, pas seulement sur le papier.",
-    "overview": "Le montage et la mise en service des turbines constituent la phase la plus critique de tout projet de centrale électrique ou industriel. Les erreurs commises pendant le montage — mauvais alignement, jeu inadéquat, couple incorrect — se transforment en pannes coûteuses dès la première année d'exploitation. Keshav Enterprises fait appel à des ingénieurs de terrain anciens des constructeurs qui ont mis en service des turbines Triveni, Siemens, BHEL, Belliss et Maxwatt dans des centrales électriques, sucreries, papeteries et industries de process. Chaque point d'arrêt est constaté, chaque jeu est enregistré, et chaque système de sécurité fait l'objet d'un essai de validation avant l'admission de vapeur. Notre dossier documentaire répond aux exigences du client, de l'assureur et de remise OEM.",
     "procedures": [
       {
         "step": "01",
@@ -139,26 +137,7 @@
   "srv_2": {
     "tagline": "De la planification complète de l'arrêt au redémarrage sans défaut",
     "accentColor": "#0891b2",
-    "keyStats": [
-      {
-        "value": "8+",
-        "label": "Marques OEM révisées"
-      },
-      {
-        "value": "{years}+",
-        "label": "Années d'expérience terrain"
-      },
-      {
-        "value": "0.001mm",
-        "label": "Résolution de jeu"
-      },
-      {
-        "value": "24×7",
-        "label": "Intervention d'urgence"
-      }
-    ],
     "whyUs": "Une révision mal réalisée est pire que pas de révision du tout — elle génère de nouvelles erreurs de jeu, des contaminations et des défauts de remontage. Nos ingénieurs sont formés par les OEM. Ils savent ce que les tolérances signifient réellement à la température et à la vitesse de fonctionnement, pas seulement ce qui est écrit dans le manuel.",
-    "overview": "La révision de turbines n'est pas une activité de maintenance — c'est une intervention d'ingénierie de précision. Keshav Enterprises déploie des ingénieurs anciens de chez Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK et ABB pour effectuer des révisions complètes avec la même rigueur et les mêmes normes documentaires que le constructeur d'origine. Chaque révision commence 4 à 6 semaines avant l'arrêt par la finalisation du périmètre, la préinspection des pièces de rechange et la planification de la mobilisation de main-d'œuvre. Chaque composant est mesuré avant démontage, pendant le démontage et après remontage. Un rapport d'état écrit, un registre de jeu et un dossier photographique sont établis pour chaque révision — constituant une référence pour le prochain arrêt.",
     "procedures": [
       {
         "step": "01",
@@ -843,7 +822,6 @@
       }
     ],
     "whyUs": "Un défaut mal diagnostiqué et réparé sans trouver la cause racine échouera à nouveau — souvent plus vite que la première fois. Nous ne devinons pas. Nous mesurons, nous analysons le spectre, nous ne démontons que ce que les données indiquent, nous confirmons physiquement la cause racine, et nous la réparons avec la même équipe qui l'a trouvée.",
-    "overview": "Les déclenchements de turbine non planifiés et la dégradation de performance inexpliquée coûtent chaque année des millions aux usines industrielles en production perdue. Keshav Enterprises déploie des ingénieurs de dépannage anciens des OEM avec une instrumentation de diagnostic complète pour identifier, documenter et corriger la cause racine exacte de toute défaillance de turbine à vapeur — des vibrations élevées et défaillances de palier à l'instabilité de régulateur, la contamination d'huile et les fuites de vapeur. Nous couvrons toutes les marques de turbines de 5 kW à 60 MW dans l'ensemble du spectre des industries de process et de puissance en Inde. Notre méthodologie est systématique : mesures en ligne d'abord, inspection physique ciblée par les données, cause racine confirmée par écrit, et action corrective exécutée par la même équipe qui a diagnostiqué le défaut.",
     "procedures": [
       {
         "step": "01",

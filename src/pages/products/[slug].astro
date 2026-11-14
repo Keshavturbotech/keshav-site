@@ -14,6 +14,30 @@ import { buildProductImageMap, hasLocalImage } from "../../lib/productImages";
 import { getLocalizedList } from "../../lib/i18n";
 import { localizedPath } from "../../lib/localeMeta";
 import { buildSeoTitle } from "../../lib/seo";
+import { PRODUCT_META_DESCRIPTIONS } from "../../data/product-meta-descriptions";
+import { CONTACT_INFO } from "../../data/site-config";
+
+// Extra quote-checklist lines for products whose quote depends on process data
+// beyond the generic make/model/photo/quantity items. Keyed by product id.
+const QUOTE_EXTRAS: Record<string, string[]> = {
+  prod_ts_silencer: [
+    "Where it is fitted: safety valve outlet, turbine exhaust relief, start-up vent or steam blowing",
+    "Steam flow in kg/h (or the safety valve's rated capacity and set pressure)",
+    "Inlet steam pressure and temperature",
+    "Inlet line size and flange rating, and the outlet or stack arrangement",
+    "Noise limit required in dB(A) and the distance it applies at",
+    "Allowable back pressure, if specified",
+  ],
+};
+
+const PRESSURE_TEMP_CATEGORIES = new Set([
+  "industrial-filtration",
+  "expansion-joints",
+  "flexible-hoses-and-assemblies",
+  "industrial-strainers",
+  "valves-gaskets-and-steam-system-products",
+  "hydraulic-components",
+]);
 
 export function getStaticPaths() {
   // Route generation stays keyed off the English (build-time, locale-
@@ -117,17 +141,7 @@ const productSchema = {
             })),
           }
         : {}),
-      offers: product.priceRange
-        ? {
-            "@type": "AggregateOffer",
-            lowPrice: product.priceRange.min,
-            highPrice: product.priceRange.max,
-            priceCurrency: "INR",
-            offerCount: 1,
-            availability: product.availability?.label === "Made to Order" ? "https://schema.org/PreOrder" : "https://schema.org/InStock",
-            seller: { "@type": "Organization", name: "Keshav Enterprises" },
-          }
-        : { "@type": "Offer", availability: "https://schema.org/InStock", seller: { "@type": "Organization", name: "Keshav Enterprises" }, priceCurrency: "INR" },
+      // No `offers`: prices on this site are indicative ranges, not firm offers.
       manufacturer: { "@type": "Organization", name: "Keshav Enterprises", url: SITE_URL },
     },
     {
@@ -148,7 +162,9 @@ const pageTitle = buildSeoTitle(product.title, [product.category], locale);
 // Append the brand/location tail only when the whole thing fits the snippet
 // budget; otherwise keep the product's own (complete-sentence) description.
 const descTail = " — Keshav Enterprises, Shamli, UP.";
-const productDescription = product.desc.length + descTail.length <= 155 ? `${product.desc}${descTail}` : product.desc;
+const productDescription =
+  (locale === "en" ? PRODUCT_META_DESCRIPTIONS[product.slug] : undefined) ??
+  (product.desc.length + descTail.length <= 155 ? `${product.desc}${descTail}` : product.desc);
 ---
 
 <Layout
@@ -194,6 +210,26 @@ const productDescription = product.desc.length + descTail.length <= 155 ? `${pro
         <ProductDetailInteractive client:load product={product} imageMap={imageMap} locale={locale} />
       </div>
 
+      {/* Generic quote checklist. The pressure/temperature line is shown only for
+          product categories where it is always relevant; other categories need
+          owner-written wording (see CONTENT_AUDIT.md). */}
+      <section aria-labelledby="quote-needs-heading" class="bg-slate-50 border border-slate-200 rounded-2xl p-6 md:p-8 mb-10">
+        <h2 id="quote-needs-heading" class="text-xl font-black text-slate-900 mb-3">Technical details we need to quote</h2>
+        <ul class="list-disc pl-5 space-y-1.5 text-sm md:text-base text-slate-700 font-medium">
+          <li>Equipment make and model, or the part number you currently use</li>
+          <li>A drawing or a clear photo of the part or its nameplate</li>
+          <li>Quantity required</li>
+          {PRESSURE_TEMP_CATEGORIES.has(product.categorySlug) && (
+            <li>Operating pressure and temperature</li>
+          )}
+          {(QUOTE_EXTRAS[product.id] ?? []).map((line) => <li>{line}</li>)}
+        </ul>
+        <p class="text-sm text-slate-600 mt-3">
+          Send these on <a href={localizedPath(locale, "/contact")} class="text-blue-700 font-bold underline">the contact form</a> or
+          by <a href={`https://wa.me/${CONTACT_INFO.whatsapp}`} class="text-blue-700 font-bold underline" rel="noopener">WhatsApp</a>.
+        </p>
+      </section>
+
       <!-- FIXED: entirely missing — caught via screenshot comparison -->
       <RecentlyViewedStrip client:visible currentProductId={product.id} products={recentlyViewedProducts} imageMap={imageMap} locale={locale} />
 
@@ -217,13 +253,13 @@ const productDescription = product.desc.length + descTail.length <= 155 ? `${pro
       <div class="flex flex-col md:flex-row items-center justify-between gap-8">
         <div class="text-center md:text-left">
           <p class="text-xs font-black text-blue-400 uppercase tracking-[0.25em] mb-2">Need It Installed or Serviced?</p>
-          <h2 class="text-2xl md:text-3xl font-black text-white leading-tight">Our Engineers Fit &amp; Commission Everything We Supply</h2>
+          <h2 class="text-2xl md:text-3xl font-black text-white leading-tight">Need Fitting or Commissioning Support?</h2>
         </div>
         <div class="flex flex-col sm:flex-row gap-3 shrink-0">
           <a href={localizedPath(locale, "/services")} class="bg-blue-600 text-white px-7 py-4 rounded-xl font-black text-sm hover:bg-blue-700 transition-all shadow-lg flex items-center justify-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300">
             View Our Services
           </a>
-          <a href="/contact" class="border-2 border-slate-600 text-slate-300 px-7 py-4 rounded-xl font-black text-sm hover:border-blue-400 hover:text-white transition-all flex items-center justify-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300">
+          <a href={localizedPath(locale, "/contact")} class="border-2 border-slate-600 text-slate-300 px-7 py-4 rounded-xl font-black text-sm hover:border-blue-400 hover:text-white transition-all flex items-center justify-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300">
             Contact Us
           </a>
         </div>

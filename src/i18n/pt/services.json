@@ -26,16 +26,6 @@
     "id": "srv_2",
     "image": "service-overhauling.webp",
     "title": "Revisão Geral e Manutenção Chave na Mão",
-    "desc": "Executado por engenheiros ex-OEM da Triveni, Siemens, BHEL, Belliss e mais. Inclui planejamento pré-parada, relatório de condição no local, gestão abrangente de peças e resolução de emergências 24×7.",
-    "details": [
-      "Planejamento pré-parada com escopo detalhado do equipamento rotativo",
-      "Inspeção no local de peças em estoque com relatórios de faltas",
-      "Engenheiros ex-OEM: Triveni, Belliss, Maxwatt, Man Turbo, BHEL, Siemens, KKK, ABB",
-      "Todas as folgas, vãos e medidas registrados",
-      "Relatório de condição com recomendações para cada componente",
-      "Sistema chave na mão: ferramentas, aparelhos, consumíveis e mão de obra inclusos",
-      "Resposta de emergência 24×7 com engenheiros em múltiplos locais"
-    ],
     "oems": [
       "Triveni",
       "Belliss & Morcom",
@@ -132,7 +122,6 @@
     "id": "srv_7",
     "image": "service-troubleshooting.webp",
     "title": "Serviço de Diagnóstico de Falhas",
-    "desc": "Diagnóstico rápido de falhas no local para turbinas a vapor com vibração, falha de mancal, instabilidade do regulador, vazamento de vapor, contaminação de óleo ou disparos inesperados. Engenheiros ex-OEM são mobilizados com instrumentação diagnóstica completa para identificação da causa raiz e ação corretiva.",
     "details": [
       "Alta vibração — diagnóstico de desbalanceamento, desalinhamento, desgaste de mancal, atrito",
       "Investigação de caça do regulador, instabilidade de velocidade e disparo por sobrevelocidade",

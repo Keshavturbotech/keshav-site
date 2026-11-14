@@ -1,40 +1,18 @@
 {
   "meta": {
     "title": "Keshav Enterprises — Đại tu & Phụ tùng Tua-bin Hơi nước, Shamli UP Ấn Độ",
-    "description": "Kỹ sư tua-bin hơi nước từng làm việc tại OEM Triveni, Siemens, BHEL. Đại tu, kỹ thuật đảo ngược, cân bằng động, súc rửa dầu bôi trơn & phụ tùng tương thích OEM cho tua-bin 5 kW–60 MW. Đặt tại Shamli, UP. Hỗ trợ khẩn cấp 24×7.",
     "keywords": "bảo trì tua-bin Ấn Độ, đại tu tua-bin hơi nước, kỹ thuật đảo ngược tua-bin, phụ tùng tua-bin công nghiệp, lõi lọc dầu bôi trơn, khớp nối giãn nở Ấn Độ, dịch vụ tua-bin Triveni, phụ tùng tua-bin BHEL, lắp đặt tua-bin Uttar Pradesh, kỹ thuật Shamli"
   },
   "hero": {
     "badgeMakeInIndia": "Make in India",
     "badgeVocalForLocal": "Vocal For Local",
-    "badgeIndiaMartLabel": "Đã xác minh trên IndiaMART",
     "badgeIndiaMartRatingSuffix": "ĐÁNH GIÁ",
     "h1Line1": "Kỹ thuật Chính xác cho",
     "h1Line2": "Thời gian Hoạt động Tối đa.",
     "capabilityLine": "Tua-bin hơi nước từ 5 kW đến 60 MW — đối áp và ngưng hơi, nằm ngang và thẳng đứng, đơn cấp và đa cấp. Phục vụ khách hàng trên khắp Ấn Độ và toàn thế giới.",
-    "introText": "Kỹ sư từng làm việc tại OEM Triveni, Siemens, BHEL & 7 thương hiệu khác. Chúng tôi đưa tua-bin của bạn hoạt động trở lại nhanh hơn so với việc mua từ OEM — với đầy đủ chứng chỉ PMI, báo cáo cân bằng ISO và lịch sử không phạt kể từ {businessSince}.",
     "ctaPrimary": "Gửi Yêu cầu Của Bạn",
     "ctaEmergency": "Sự cố Khẩn cấp",
-    "trustYearsOverhauls": "{years}+ năm · 500+ lần đại tu",
-    "trustPmi": "Phụ tùng chứng nhận PMI",
-    "trustResponse": "Phản hồi trung bình: 2 giờ",
-    "proofCards": [
-      {
-        "label": "Không có Đường cong Học tập",
-        "title": "Kỹ sư Từng làm việc tại OEM",
-        "sub": "Đội ngũ của chúng tôi từng làm việc trong Triveni, Siemens, BHEL & Belliss — cùng chuyên môn, mang đến nhà máy của bạn."
-      },
-      {
-        "label": "Mọi Công việc đều có Tài liệu",
-        "title": "Báo cáo khi Bàn giao",
-        "sub": "Chứng chỉ PMI, báo cáo cân bằng, hồ sơ căn chỉnh, báo cáo tình trạng — được bàn giao khi hoàn thành công việc."
-      },
-      {
-        "label": "Khi Từng Phút đều Quan trọng",
-        "title": "Khẩn cấp 24×7",
-        "sub": "Kỹ sư tại nhiều địa điểm trên khắp Ấn Độ. Gọi cho chúng tôi lúc 2 giờ sáng — sẽ có người trả lời."
-      }
-    ]
+    "trustResponse": "Phản hồi trung bình: 2 giờ"
   },
   "oemMarquee": {
     "heading": "Tương thích OEM & Được các Doanh nghiệp Hàng đầu Tin tưởng"
@@ -45,12 +23,10 @@
       "sub": "Nhà máy đường, điện, giấy & xi măng trên khắp Ấn Độ"
     },
     "years": {
-      "label": "Năm Hoạt động",
-      "sub": "Hoạt động liên tục kể từ {founded} — không thay đổi chủ sở hữu"
+      "label": "Năm Hoạt động"
     },
     "penaltyClaims": {
-      "label": "Yêu cầu Bồi thường Phạt",
-      "sub": "Không có trong {businessYears} năm — có sẵn tài liệu tham khảo khách hàng theo yêu cầu"
+      "label": "Yêu cầu Bồi thường Phạt"
     },
     "emergency": {
       "label": "Phản ứng Khẩn cấp",
@@ -69,7 +45,6 @@
   "servicesPreview": {
     "eyebrow": "Vòng đời Tua-bin Toàn diện",
     "heading": "Dịch vụ Kỹ thuật",
-    "subheading": "Cùng đội ngũ kỹ sư từng làm việc tại OEM xử lý việc đại tu, phụ tùng và sự cố khẩn cấp lúc 2 giờ sáng của bạn — không thầu phụ, không bàn giao trung gian.",
     "painLines": {
       "srv_2": "Mệt mỏi với các nhà thầu đến hiện trường thiếu trang bị và không đưa ra báo cáo công việc?",
       "srv_3": "OEM báo giá thời gian chờ nhiều tháng cho phụ tùng đã ngừng sản xuất?",
@@ -80,12 +55,8 @@
   },
   "testimonials": {
     "eyebrow": "Phản hồi Khách hàng",
-    "heading": "Được Quản lý Nhà máy Trên khắp Ấn Độ Tin tưởng",
-    "googleRatingLabel": "+ đánh giá đã xác minh trên Google",
-    "disclaimer": "Các trích dẫn được lấy từ hồ sơ dự án đã hoàn thành và viết tắt thành chữ cái đầu cho đến khi có sự đồng ý bằng văn bản để ghi đầy đủ danh tính. Để biết các đánh giá được xác minh độc lập, xem đánh giá Google của chúng tôi ở trên.",
     "footerCtaPrefix": "Đã từng làm việc với chúng tôi?",
     "footerCtaLink": "Để lại đánh giá Google — giúp các quản lý nhà máy khác tìm thấy chúng tôi →",
-    "googleReviewBadge": "Đánh giá Google",
     "items": [
       {
         "quote": "Các kỹ sư từng làm việc tại Triveni của họ đã thực hiện đại tu tua-bin Triveni 12 MW của chúng tôi trong đợt dừng máy hàng năm — tất cả khe hở được ghi lại, rotor cân bằng đến ISO G1.0, và hoạt động trở lại trước tiến độ. Lần đầu tiên trong sáu năm chúng tôi không gặp vấn đề nào khi khởi động lần đầu.",

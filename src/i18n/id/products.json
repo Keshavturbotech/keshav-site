@@ -5792,7 +5792,6 @@
     "id": "prod_ee1",
     "sku": "KTB-EE-001",
     "category": "Electronic Equipment",
-    "title": "Probe Pemantau Getaran (Kompatibel Shinkawa)",
     "images": [
       "vibration-probe-shinkawa-1.webp",
       "vibration-probe-shinkawa-2.webp",
@@ -5819,8 +5818,31 @@
       "color": "amber",
       "leadTime": "1–4 weeks"
     },
-    "desc": "Probe kedekatan arus eddy Shinkawa FK / VK asli, kabel ekstensi, dan driver untuk pemantauan getaran dan dorongan aksial pada turbin uap, gearbox, dan alternator. Tersedia di Shamli, UP.",
     "usage": "Pengukuran tanpa kontak untuk getaran radial poros, posisi aksial (dorongan), eksentrisitas, kecepatan putar, dan referensi fasa (Keyphasor) pada turbin uap, turbo-alternator, gearbox, kompresor, pompa air umpan boiler, dan kipas besar. Memberi sinyal ke monitor Shinkawa VM-5 / VM-7 / VM-25, rak pemantauan bergaya API 670 lainnya, serta input DCS atau PLC.",
+    "specs": {
+      "Series": "FK (terkini) dan VK (lama). Transmiter 2 kawat WK/WKN dan sensor casing CV/CA ada di daftar terpisah",
+      "Measurement Principle": "Pengukuran perpindahan arus eddy tanpa kontak",
+      "System": "Sensor FL + kabel ekstensi FW + driver FK (set serasi)",
+      "Sensor (FL-202F)": "FL-202F05: ujung 5 mm, kabel 2.7 mm; FL-202F08: ujung 8 mm, kabel 3.6 mm; FL-202F08R: 8 mm pemasangan terbalik. Gaya L / A / T (tanpa pelindung / berpelindung / berpelindung dengan resin fluor)",
+      "Extension Cable (FW-202F)": "Gaya L / A / T; sekitar 4.5 m (sistem 5 m) atau 8.5 m (sistem 9 m); -40 hingga +177 °C",
+      "Connector": "Diameter sekitar 7.1 mm; jauhkan dari oli; isolasi dengan selongsong susut panas atau pita resin fluor",
+      "System Cable Length": "5 m atau 9 m (sensor 5 m hanya untuk sistem 5 m)",
+      "Driver (FK-202F)": "-24 V DC +/-10%, maks. 15 mA; impedansi keluaran 50 ohm; sekitar -0.6 V saat sensor gagal; sekitar 200 g",
+      "Driver Mounting Options": "Rel DIN 35 mm; pemasangan sekrup 50.8 x 50.8 mm; pemasangan sekrup 92 x 31 mm (pengganti VK); multi-pitch",
+      "Driver Terminals": "Blok terminal sekrup M4 atau terminal pegas",
+      "Reference Model (FK-202F)": "Rentang 0.25 hingga 2.25 mm dari ujung sensor, faktor skala 7.87 V/mm, DC hingga 10 kHz (-3 dB)",
+      "Temperature": "Sensor dan kabel ekstensi -40 hingga +177 °C; driver -40 hingga +80 °C",
+      "Calibration Target": "Baja pelat JIS SCM440 (tipe 4140); bahan lain sesuai permintaan",
+      "Hazardous Area Options": "Varian FK aman intrinsik: DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (sesuai kode model)",
+      "2-Wire Transmitter Option": "Transmiter Shinkawa WK / WKN 4-20 mA, lihat daftar terpisah",
+      "Typical Steam Turbine Use": "Probe radial XY pada setiap bantalan, 2 hingga 3 probe aksial pada kerah dorong, 1 probe Keyphasor, probe eksentrisitas pada bantalan depan",
+      "Typical Gearbox Use": "Probe radial XY pada bantalan pinion kecepatan tinggi dan roda gigi kecepatan rendah, probe aksial untuk dorongan pinion",
+      "Typical Alternator Use": "Probe radial XY pada bantalan sisi penggerak dan sisi berlawanan, referensi kecepatan dan fasa",
+      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, sistem lain yang menerima driver kedekatan -24 V DC, DCS/PLC melalui pengondisi sinyal",
+      "Brand": "Shinkawa Electric (asli)"
+    },
+    "title": "Probe Pemantau Getaran (Kompatibel Shinkawa)",
+    "desc": "Probe kedekatan arus eddy Shinkawa FK / VK asli, kabel ekstensi, dan driver untuk pemantauan getaran dan dorongan aksial pada turbin uap, gearbox, dan alternator. Tersedia di Shamli, UP.",
     "features": [
       "Sistem transduser Shinkawa asli dalam tiga bagian yang serasi: sensor FL (probe), kabel ekstensi FW, dan driver FK. Ketiganya dikalibrasi bersama sebagai satu rangkaian, sehingga bila satu bagian diganti, sensor, kabel, dan driver sebaiknya diganti sebagai satu set",
       "Tersedia seri FK (lini terkini) dan seri VK (instalasi lama). Driver FK dilengkapi pelat pemasangan untuk menggantikan driver VK secara langsung; pengukuran ekspansi diferensial masih memakai seri VK",
@@ -5841,37 +5863,28 @@
       "Bantuan retrofit: kirim pelat nama lama (VK-202A1, VK-202A2, FK-202F, dll.) beserta panjang sensor dan kami akan mencocokkan penggantinya",
       "Sistem dirancang menurut API 670 untuk proteksi mesin; seri FK sesuai RoHS",
       "Nama merek dan model adalah merek dagang dari pemiliknya masing-masing dan digunakan hanya untuk identifikasi. Keshav Enterprises adalah pemasok independen."
-    ],
-    "specs": {
-      "Brand": "Shinkawa Electric (asli)",
-      "Series": "FK (terkini) dan VK (lama). Transmiter 2 kawat WK/WKN dan sensor casing CV/CA ada di daftar terpisah",
-      "Measurement Principle": "Pengukuran perpindahan arus eddy tanpa kontak",
-      "System": "Sensor FL + kabel ekstensi FW + driver FK (set serasi)",
-      "Sensor (FL-202F)": "FL-202F05: ujung 5 mm, kabel 2.7 mm; FL-202F08: ujung 8 mm, kabel 3.6 mm; FL-202F08R: 8 mm pemasangan terbalik. Gaya L / A / T (tanpa pelindung / berpelindung / berpelindung dengan resin fluor)",
-      "Extension Cable (FW-202F)": "Gaya L / A / T; sekitar 4.5 m (sistem 5 m) atau 8.5 m (sistem 9 m); -40 hingga +177 °C",
-      "Connector": "Diameter sekitar 7.1 mm; jauhkan dari oli; isolasi dengan selongsong susut panas atau pita resin fluor",
-      "System Cable Length": "5 m atau 9 m (sensor 5 m hanya untuk sistem 5 m)",
-      "Driver (FK-202F)": "-24 V DC +/-10%, maks. 15 mA; impedansi keluaran 50 ohm; sekitar -0.6 V saat sensor gagal; sekitar 200 g",
-      "Driver Mounting Options": "Rel DIN 35 mm; pemasangan sekrup 50.8 x 50.8 mm; pemasangan sekrup 92 x 31 mm (pengganti VK); multi-pitch",
-      "Driver Terminals": "Blok terminal sekrup M4 atau terminal pegas",
-      "Reference Model (FK-202F)": "Rentang 0.25 hingga 2.25 mm dari ujung sensor, faktor skala 7.87 V/mm, DC hingga 10 kHz (-3 dB)",
-      "Temperature": "Sensor dan kabel ekstensi -40 hingga +177 °C; driver -40 hingga +80 °C",
-      "Calibration Target": "Baja pelat JIS SCM440 (tipe 4140); bahan lain sesuai permintaan",
-      "Hazardous Area Options": "Varian FK aman intrinsik: DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (sesuai kode model)",
-      "2-Wire Transmitter Option": "Transmiter Shinkawa WK / WKN 4-20 mA, lihat daftar terpisah",
-      "Typical Steam Turbine Use": "Probe radial XY pada setiap bantalan, 2 hingga 3 probe aksial pada kerah dorong, 1 probe Keyphasor, probe eksentrisitas pada bantalan depan",
-      "Typical Gearbox Use": "Probe radial XY pada bantalan pinion kecepatan tinggi dan roda gigi kecepatan rendah, probe aksial untuk dorongan pinion",
-      "Typical Alternator Use": "Probe radial XY pada bantalan sisi penggerak dan sisi berlawanan, referensi kecepatan dan fasa",
-      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, sistem lain yang menerima driver kedekatan -24 V DC, DCS/PLC melalui pengondisi sinyal"
-    }
+    ]
   },
   "prod_ee7": {
     "id": "prod_ee7",
     "sku": "KTB-EE-007",
     "category": "Electronic Equipment",
     "title": "Sistem Probe Kedekatan Bently Nevada 3300 XL",
-    "desc": "Probe kedekatan Bently Nevada 3300 XL asli, kabel ekstensi 330130, dan Proximitor untuk pemantauan getaran dan dorongan aksial turbin, gearbox, dan alternator. Penawaran sesuai nomor suku cadang.",
     "usage": "Getaran radial, posisi aksial, eksentrisitas, ekspansi diferensial, serta referensi kecepatan/fasa pada mesin turbo dengan sistem pemantauan Bently Nevada 3500 atau 3300. Probe 5 mm dan 8 mm mencakup pengukuran bantalan luncur dan dorongan yang umum; sistem lebih besar 11, 16, 25, dan 50 mm mencakup pengukuran jangkauan jauh dan ekspansi.",
+    "specs": {
+      "System Components": "Probe 3300 XL + kabel ekstensi 330130 + sensor Proximitor 330180",
+      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (lini 3300 XL)",
+      "8 mm Linear Range / Scale Factor": "0.25 hingga 2.3 mm; 7.87 V/mm (200 mV/mil) +/-5%",
+      "8 mm Probe Temperature": "-51 hingga +177 °C",
+      "50 mm System Range": "Sekitar 27.9 mm (1,100 mil) untuk ekspansi diferensial",
+      "Standard": "API 670 (edisi ke-4) untuk sistem standar 8 mm sepanjang 5 m",
+      "Compatible Monitors": "Seri Bently Nevada 3500 dan 3300",
+      "Typical Steam Turbine Use": "Probe radial XY pada setiap bantalan, probe posisi dorong, Keyphasor, ekspansi diferensial dengan probe 25 mm atau 50 mm",
+      "Typical Gearbox Use": "Probe radial pada bantalan pinion dan roda gigi, probe aksial untuk dorongan pinion dan perkaitan roda gigi",
+      "Typical Alternator Use": "Probe radial XY pada kedua bantalan, referensi Keyphasor/kecepatan",
+      "Brand": "Bently Nevada (Baker Hughes), asli"
+    },
+    "desc": "Probe kedekatan Bently Nevada 3300 XL asli, kabel ekstensi 330130, dan Proximitor untuk pemantauan getaran dan dorongan aksial turbin, gearbox, dan alternator. Penawaran sesuai nomor suku cadang.",
     "features": [
       "Sistem Bently Nevada 3300 XL asli: probe, kabel ekstensi 330130, dan sensor Proximitor 330180, dengan komponen yang sepenuhnya dapat dipertukarkan sehingga tidak perlu pencocokan di meja uji",
       "3300 XL 8 mm: rentang linier 0.25 hingga 2.3 mm (10 hingga 90 mil), faktor skala 7.87 V/mm (200 mV/mil) +/-5%, celah yang disarankan 1.27 mm pada sekitar -9 V DC, probe -51 hingga +177 °C",
@@ -5882,28 +5895,21 @@
       "Opsi jangkauan jauh untuk turbin uap: sistem 3300 XL 25 mm dan 50 mm untuk ekspansi diferensial; sistem 50 mm memiliki rentang penginderaan sekitar 27.9 mm (1,100 mil)",
       "Minta penawaran dengan nomor suku cadang lengkap (misalnya 330103-xx-xx-xx-xx-xx bersama 330130-xxx-xx-xx dan 330180-xx-xx) atau kirim pelat nama lama",
       "Nama merek dan model adalah merek dagang dari pemiliknya masing-masing dan digunakan hanya untuk identifikasi. Keshav Enterprises adalah pemasok independen."
-    ],
-    "specs": {
-      "Brand": "Bently Nevada (Baker Hughes), asli",
-      "System Components": "Probe 3300 XL + kabel ekstensi 330130 + sensor Proximitor 330180",
-      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (lini 3300 XL)",
-      "8 mm Linear Range / Scale Factor": "0.25 hingga 2.3 mm; 7.87 V/mm (200 mV/mil) +/-5%",
-      "8 mm Probe Temperature": "-51 hingga +177 °C",
-      "50 mm System Range": "Sekitar 27.9 mm (1,100 mil) untuk ekspansi diferensial",
-      "Standard": "API 670 (edisi ke-4) untuk sistem standar 8 mm sepanjang 5 m",
-      "Compatible Monitors": "Seri Bently Nevada 3500 dan 3300",
-      "Typical Steam Turbine Use": "Probe radial XY pada setiap bantalan, probe posisi dorong, Keyphasor, ekspansi diferensial dengan probe 25 mm atau 50 mm",
-      "Typical Gearbox Use": "Probe radial pada bantalan pinion dan roda gigi, probe aksial untuk dorongan pinion dan perkaitan roda gigi",
-      "Typical Alternator Use": "Probe radial XY pada kedua bantalan, referensi Keyphasor/kecepatan"
-    }
+    ]
   },
   "prod_ee8": {
     "id": "prod_ee8",
     "sku": "KTB-EE-008",
     "category": "Electronic Equipment",
     "title": "Sensor Arus Eddy EPRO PR6423 / PR6424 dan CON011",
-    "desc": "Sensor arus eddy Emerson EPRO PR6422 hingga PR6426 asli dan konverter sinyal CON011 untuk mengukur getaran dan posisi poros pada turbin, gearbox, dan generator.",
     "usage": "Pengukuran perpindahan radial dan aksial poros, posisi, eksentrisitas, dan kecepatan/pasak pada turbin uap, gas, dan hidro, kompresor, gearbox, pompa, dan kipas, dengan monitor Emerson / EPRO MMS atau sistem apa pun yang menerima keluaran konverter.",
+    "specs": {
+      "Converter": "Konverter sinyal arus eddy CON011 (rentang standar dan diperluas)",
+      "Measures": "Perpindahan radial dan aksial poros, posisi, eksentrisitas, kecepatan/pasak",
+      "Typical Machines": "Turbin uap, gas, dan hidro, kompresor, gearbox, pompa, kipas",
+      "Brand": "Emerson (EPRO), asli"
+    },
+    "desc": "Sensor arus eddy Emerson EPRO PR6422 hingga PR6426 asli dan konverter sinyal CON011 untuk mengukur getaran dan posisi poros pada turbin, gearbox, dan generator.",
     "features": [
       "Sensor Emerson EPRO asli: PR6422, PR6423 (8 mm, versi M10x1), PR6424 (16 mm), PR6425 (16 mm suhu tinggi), PR6426 (32 mm)",
       "Konverter sinyal arus eddy CON011: 0 hingga 20 kHz (-3 dB), waktu naik kurang dari 15 mikrodetik, -30 hingga +100 °C, catu -23 hingga -32 V DC, menerima sensor PR6422 hingga PR6426",
@@ -5913,21 +5919,24 @@
       "Tersedia varian CON011 rentang diperluas untuk rentang pengukuran lebih besar (misalnya 3, 4, 6, 8, 10 mm); PR6425 memerlukan konverter rentang diperluas",
       "Sensor dan konverter adalah sistem yang serasi: sensor, panjang kabel, dan model konverter harus sesuai. Kirim pelat nama atau nomor suku cadang lama dan kami akan memastikan kecocokannya",
       "Nama merek dan model adalah merek dagang dari pemiliknya masing-masing dan digunakan hanya untuk identifikasi. Keshav Enterprises adalah pemasok independen."
-    ],
-    "specs": {
-      "Brand": "Emerson (EPRO), asli",
-      "Converter": "Konverter sinyal arus eddy CON011 (rentang standar dan diperluas)",
-      "Measures": "Perpindahan radial dan aksial poros, posisi, eksentrisitas, kecepatan/pasak",
-      "Typical Machines": "Turbin uap, gas, dan hidro, kompresor, gearbox, pompa, kipas"
-    }
+    ]
   },
   "prod_ee9": {
     "id": "prod_ee9",
     "sku": "KTB-EE-009",
     "category": "Electronic Equipment",
     "title": "Probe Kedekatan Vibro-Meter TQ402 / TQ442 dan IQS450",
-    "desc": "Probe kedekatan Meggitt vibro-meter TQ4xx asli, kabel EA40x, dan pengondisi sinyal IQS450 untuk memantau getaran dan posisi poros turbin.",
     "usage": "Getaran poros tanpa kontak dan posisi aksial pada turbin uap, gas, dan hidrolik serta mesin kritis lain yang memakai sistem pemantauan vibro-meter. Keluaran tegangan atau arus dengan proteksi korsleting cocok untuk monitor rak maupun sambungan langsung ke DCS.",
+    "specs": {
+      "Extension Cables": "EA401, EA402, EA403",
+      "TQ442 System Range": "2 mm atau 4 mm",
+      "Frequency Response": "DC hingga 20 kHz (-3 dB)",
+      "Temperature": "-40 hingga +180 °C (TQ442)",
+      "System Lengths": "1 m, 5 m, 10 m (bervariasi menurut model)",
+      "Output": "Tegangan atau arus (2 kawat), terlindung dari korsleting",
+      "Brand": "Meggitt vibro-meter, asli"
+    },
+    "desc": "Probe kedekatan Meggitt vibro-meter TQ4xx asli, kabel EA40x, dan pengondisi sinyal IQS450 untuk memantau getaran dan posisi poros turbin.",
     "features": [
       "Sistem vibro-meter asli: transduser kedekatan TQ4xx + kabel ekstensi EA4xx + pengondisi sinyal IQS450 (atau IQS900) membentuk rantai pengukuran yang terkalibrasi",
       "Tersedia keluarga transduser TQ401 / TQ402 / TQ403 / TQ412 / TQ422 / TQ423 / TQ432 / TQ442",
@@ -5935,23 +5944,13 @@
       "Keluaran tegangan atau arus 2 kawat dengan proteksi korsleting; tersedia versi bersertifikat untuk atmosfer yang berpotensi meledak",
       "Pengganti atau suku cadang untuk rantai vibro-meter yang ada: kirim nomor model transduser, kabel, dan pengondisi; panjang elektris harus sama",
       "Nama merek dan model adalah merek dagang dari pemiliknya masing-masing dan digunakan hanya untuk identifikasi. Keshav Enterprises adalah pemasok independen."
-    ],
-    "specs": {
-      "Brand": "Meggitt vibro-meter, asli",
-      "Extension Cables": "EA401, EA402, EA403",
-      "TQ442 System Range": "2 mm atau 4 mm",
-      "Frequency Response": "DC hingga 20 kHz (-3 dB)",
-      "Temperature": "-40 hingga +180 °C (TQ442)",
-      "System Lengths": "1 m, 5 m, 10 m (bervariasi menurut model)",
-      "Output": "Tegangan atau arus (2 kawat), terlindung dari korsleting"
-    }
+    ]
   },
   "prod_ee10": {
     "id": "prod_ee10",
     "sku": "KTB-EE-010",
     "category": "Electronic Equipment",
     "title": "Transmiter Getaran 2 Kawat 4-20 mA (Shinkawa WK/WKN)",
-    "desc": "Transmiter getaran dan dorongan 2 kawat 4-20 mA Shinkawa WK / WKN asli untuk turbin uap, alternator, gearbox, pompa, dan kompresor. Terhubung langsung ke DCS atau PLC, tanpa rak monitor.",
     "usage": "Pemantauan berkelanjutan getaran poros atau posisi dorong pada mesin kecil dan menengah yang tidak membutuhkan monitor rak lengkap: turbin uap bantu, pompa air umpan boiler, gearbox, kompresor, kipas, dan alternator. Sinyal loop 4-20 mA langsung menuju DCS, PLC, atau indikator.",
     "features": [
       "Transduser arus eddy dengan konversi getaran atau dorongan terpadu: keluaran 4-20 mA tanpa monitor getaran atau konverter terpisah",
@@ -5967,7 +5966,6 @@
       "Nama merek dan model adalah merek dagang dari pemiliknya masing-masing dan digunakan hanya untuk identifikasi. Keshav Enterprises adalah pemasok independen."
     ],
     "specs": {
-      "Brand": "Shinkawa Electric, asli",
       "Models": "WK-142K, WK-142T, WKN-142K, WKN-142T (varian sistem 1, 2, dan 5)",
       "Output": "4-20 mA, loop arus 2 kawat",
       "Vibration Output Ranges": "0 hingga 100, 125, 200, 250, 400 mikron puncak-ke-puncak (sesuai kode model)",
@@ -5981,15 +5979,16 @@
       "Transmitter Size": "Sekitar 100 x 74 x 50 mm; klip DIN opsional",
       "Hazardous Area": "Opsi tidak menimbulkan nyala (CSA Class I Div 2, ATEX Ex nA)",
       "Calibration Target": "Baja JIS SCM440 (setara AISI 4140)",
-      "Typical Machines": "Turbin uap bantu, BFP, gearbox, kompresor, alternator, kipas"
-    }
+      "Typical Machines": "Turbin uap bantu, BFP, gearbox, kompresor, alternator, kipas",
+      "Brand": "Shinkawa Electric, asli"
+    },
+    "desc": "Transmiter getaran dan dorongan 2 kawat 4-20 mA Shinkawa WK / WKN asli untuk turbin uap, alternator, gearbox, pompa, dan kompresor. Terhubung langsung ke DCS atau PLC, tanpa rak monitor."
   },
   "prod_ee11": {
     "id": "prod_ee11",
     "sku": "KTB-EE-011",
     "category": "Electronic Equipment",
     "title": "Sensor Getaran Casing: Velomitor, CV-86, dan Akselerometer",
-    "desc": "Sensor asli Bently Velomitor, Shinkawa CV-86, Hansford, dan SKF untuk getaran bantalan pada turbin, gearbox, alternator, dan motor. Penawaran sesuai model.",
     "usage": "Getaran absolut (seismik) pada dudukan bantalan, casing gearbox, rangka alternator, dan tutup motor, di tempat probe poros tidak dapat dipasang atau saat getaran casing menjadi input alarm atau trip. Dipakai bersama probe kedekatan poros pada rangkaian turbin-gearbox-alternator, dan dipakai sendiri pada motor, kipas, dan pompa.",
     "features": [
       "Sensor kecepatan piezo Bently Nevada 330500 Velomitor: 3.94 mV/mm/s (100 mV/in/s) +/-5%, 4.5 Hz hingga 5 kHz (+/-3 dB), hingga 1,270 mm/s puncak, -55 hingga +121 °C, baja tahan karat 316L, MIL-C-5015 2 pin, sudut pemasangan bebas",
@@ -6003,22 +6002,22 @@
       "Nama merek dan model adalah merek dagang dari pemiliknya masing-masing dan digunakan hanya untuk identifikasi. Keshav Enterprises adalah pemasok independen."
     ],
     "specs": {
-      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (semuanya asli)",
       "Velocity Sensors": "Bently Nevada 330500 / 330525 Velomitor; Shinkawa CV-86, CV-87",
       "Accelerometers": "Bently Nevada 330400 / 330425; Hansford seri HS-100; SKF CMSS 2100 / 2200",
       "Accelerometer Sensitivities": "25, 100 mV/g (Bently); 10 hingga 500 mV/g (Hansford); 100 mV/g (SKF)",
       "Typical Steam Turbine Use": "Getaran dudukan bantalan, horizontal dan vertikal pada setiap bantalan",
       "Typical Gearbox Use": "Casing dekat bantalan pinion kecepatan tinggi; akselerometer untuk frekuensi perkaitan roda gigi",
       "Typical Alternator Use": "Rumah bantalan pada sisi penggerak dan sisi berlawanan",
-      "Typical Motor Use": "Rumah bantalan, sisi penggerak dan sisi berlawanan, horizontal / vertikal / aksial"
-    }
+      "Typical Motor Use": "Rumah bantalan, sisi penggerak dan sisi berlawanan, horizontal / vertikal / aksial",
+      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (semuanya asli)"
+    },
+    "desc": "Sensor asli Bently Velomitor, Shinkawa CV-86, Hansford, dan SKF untuk getaran bantalan pada turbin, gearbox, alternator, dan motor. Penawaran sesuai model."
   },
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
     "category": "Electronic Equipment",
     "title": "Sensor Magnetic Pickup (Woodward)",
-    "desc": "Magnetic speed pickup (MPU) reluktansi variabel asli Woodward untuk umpan balik kecepatan poros presisi ke governor Woodward dan sistem kontrol turbin digital. Desain pasif, self-powered, tanpa perawatan untuk tugas berkelanjutan pada turbin uap yang berjalan pada 3000–3600 RPM.",
     "usage": "Input penginderaan kecepatan utama untuk governor digital Woodward 505/505D/505E, amplifier governor 2301 dan 7206, serta sistem trip overspeed standalone pada turbin uap Triveni, BHEL, Siemens, KKK, dan Maxwatt. Memantau kecepatan rotor turbin melalui roda gigi governor (gigi/roda gila) untuk memberikan regulasi kecepatan loop tertutup, kontrol beban, dan proteksi overspeed selama startup, sinkronisasi, dan operasi beban penuh.",
     "features": [
       "Sensor reluktansi variabel (pasif) — menghasilkan sinyal tegangan AC sendiri dari gerakan gigi roda gigi; tidak memerlukan catu daya eksternal",
@@ -6080,7 +6079,8 @@
       "label": "Atas Permintaan",
       "color": "amber",
       "leadTime": "1–4 weeks"
-    }
+    },
+    "desc": "Magnetic speed pickup (MPU) reluktansi variabel asli Woodward untuk umpan balik kecepatan poros presisi ke governor Woodward dan sistem kontrol turbin digital. Desain pasif, self-powered, tanpa perawatan untuk tugas berkelanjutan pada turbin uap yang berjalan pada 3000–3600 RPM."
   },
   "prod_ee3": {
     "id": "prod_ee3",
@@ -6989,6 +6989,72 @@
       "max": 12000,
       "unit": "per segment",
       "note": "Spring steel or Inconel X-750; set of 4–8 per gland"
+    },
+    "availability": {
+      "label": "Made to Order",
+      "color": "amber",
+      "leadTime": "2–6 weeks"
+    }
+  },
+  "prod_ts_silencer": {
+    "id": "prod_ts_silencer",
+    "sku": "KTB-TS-040",
+    "category": "Turbine Spares",
+    "title": "Peredam Suara Turbin Uap: Ventilasi, Buang, dan Katup Pengaman",
+    "desc": "Peredam suara ventilasi, buang, dan katup pengaman yang menurunkan kebisingan uap bertekanan tinggi yang dilepas ke atmosfer dari instalasi turbin uap: ventilasi pelepas buangan turbin tekanan balik, ventilasi start-up dan pemanasan, keluaran katup pengaman pada inlet dan ekstraksi turbin, serta peniupan uap saat komisioning. Setiap peredam dirancang dan difabrikasi oleh kami sesuai kebutuhan klien, menggabungkan tahap diffuser berlubang banyak yang memperlambat dan menyebarkan semburan uap dengan bagian penyerap berisi material peredam. Ukurannya disesuaikan dengan laju aliran uap, tekanan, suhu, dan batas dB(A) yang dibutuhkan pada jarak acuan Anda. Tersedia dalam baja karbon, atau baja tahan karat dengan inlet baja paduan untuk uap superheated.",
+    "usage": "Dipasang pada keluaran katup pengaman, katup pelepas atmosferik, dan jalur ventilasi di pabrik turbin uap dan boiler pada industri gula dan destilasi, kertas dan pulp, baja, petrokimia, serta pembangkit listrik: ventilasi pelepas buangan pada turbin tekanan balik, ventilasi start-up dan pemanasan turbin, keluaran katup pengaman inlet dan ekstraksi turbin, keluaran katup pengaman stasiun PRDS, dan ventilasi buangan ejektor pada turbin kondensasi. Juga disediakan sebagai pengganti peredam yang berkarat, bising, atau rusak pada ventilasi yang ada, dirancang dan difabrikasi sesuai dimensi sambungan dan dudukan unit lama atau melalui rekayasa balik dari sampel atau foto bila gambar tidak tersedia, serta sebagai peredam peniupan uap sementara untuk pembersihan pipa selama erection dan komisioning turbin.",
+    "features": [
+      "Tipe peredam: kombinasi diffuser dan peredam ventilasi penyerap (standar); tahap ruang ekspansi reaktif ditambahkan bila kebisingan frekuensi rendah dominan",
+      "Diffuser inlet berlubang banyak menurunkan kecepatan uap dan memecah semburan sebelum masuk ke bagian penyerap",
+      "Bagian penyerap: isian wol mineral berkepadatan tinggi atau serat keramik yang ditahan di balik liner berlubang dan kawat jaring baja tahan karat agar tahan terhadap kehilangan serat dan erosi",
+      "Dirancang dan difabrikasi oleh kami untuk setiap aplikasi berdasarkan laju uap (kg/jam), tekanan dan suhu inlet, ukuran jalur, serta target dB(A) pada jarak tertentu; setiap unit dibuat sesuai pesanan, bukan barang katalog",
+      "Penurunan kebisingan tipikal 50 hingga 80 dB(A), tergantung aliran, tekanan, dan desain; nilai target disepakati dan dicantumkan pada datasheet yang disetujui",
+      "Material: baja karbon (IS 2062 / SA 516 Gr 70) untuk uap jenuh dan suhu sedang; SS 304 / 316 atau bagian inlet baja paduan untuk uap superheated hingga sekitar 540°C",
+      "Sambungan: inlet berflens (ASME B16.5 / DIN) atau butt-weld, standar 200 NB hingga 600 NB, ukuran lain sesuai permintaan pelanggan",
+      "Sambungan drain kondensat di titik terendah mencegah isian terendam air setelah pelepasan uap",
+      "Penutup cuaca atau tutup hujan di outlet; pemasangan vertikal pada cerobong ventilasi sebagai standar, horizontal sesuai permintaan",
+      "Kaki penyangga, flens dasar, dan kuping angkat disertakan; isolasi permukaan panas atau cladding pelindung personel opsional",
+      "Unit pengganti dan hasil rekayasa balik untuk ventilasi yang ada bila peredam asli telah berkarat, kehilangan isian, atau menjadi bising",
+      "Dipasok dengan gambar general arrangement dan datasheet; sertifikat uji material sesuai permintaan"
+    ],
+    "specs": {
+      "Silencer Type": "Diffuser + penyerap (standar); tahap reaktif sesuai permintaan",
+      "Service": "Ventilasi uap, pelepas buangan turbin, keluaran katup pengaman, ventilasi start-up / pemanasan, peniupan uap",
+      "Inlet Size Range": "200 NB hingga 600 NB; ukuran lain sesuai permintaan pelanggan",
+      "Inlet Connection": "Berflens (ASME B16.5 / DIN) atau butt-weld",
+      "Design Basis": "Laju uap (kg/jam), tekanan inlet, suhu, dan dB(A) yang dibutuhkan diberikan pelanggan",
+      "Noise Reduction": "Tipikal 50–80 dB(A), tergantung desain; target tercantum pada datasheet",
+      "Temperature Rating": "Hingga sekitar 540°C uap superheated (bagian inlet baja paduan)",
+      "Body Material": "Baja karbon (IS 2062 / SA 516 Gr 70) atau SS 304 / 316",
+      "Diffuser Material": "Baja karbon, SS 304 / 316, atau baja paduan sesuai suhu uap",
+      "Acoustic Packing": "Wol mineral berkepadatan tinggi atau serat keramik, ditahan kawat jaring SS",
+      "Orientation": "Vertikal pada cerobong (standar); horizontal sesuai permintaan",
+      "Drain and Outlet": "Drain kondensat di titik terendah; penutup cuaca / tutup hujan di outlet",
+      "Finish": "Cat tahan panas; isolasi / cladding opsional",
+      "Documents": "Gambar general arrangement dan datasheet; sertifikat uji material sesuai permintaan",
+      "HSN Code": "84069000"
+    },
+    "images": [
+      "steam-turbine-silencer-1.webp",
+      "steam-turbine-silencer-2.webp",
+      "steam-turbine-silencer-3.webp",
+      "steam-turbine-silencer-4.webp",
+      "steam-turbine-silencer-5.webp",
+      "steam-turbine-silencer-6.webp",
+      "steam-turbine-silencer-7.webp",
+      "steam-turbine-silencer-8.webp",
+      "steam-turbine-silencer-9.webp",
+      "steam-turbine-silencer-10.webp",
+      "steam-turbine-silencer-11.webp",
+      "steam-turbine-silencer-12.webp"
+    ],
+    "slug": "steam-turbine-silencers",
+    "categorySlug": "turbine-spares",
+    "priceRange": {
+      "min": 40000,
+      "max": 400000,
+      "unit": "per unit",
+      "note": "Baja karbon hingga SS; disesuaikan dengan laju uap, tekanan, dan target dB(A)"
     },
     "availability": {
       "label": "Made to Order",

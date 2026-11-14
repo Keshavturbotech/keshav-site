@@ -194,3 +194,10 @@
   mask-image: radial-gradient(ellipse at center, black 0%, transparent 75%);
   -webkit-mask-image: radial-gradient(ellipse at center, black 0%, transparent 75%);
 }
+
+/* Fallback keyboard-focus indicator. :where() keeps specificity at zero so any
+   component-level focus utility (Tailwind focus-visible:ring-*) still wins. */
+:where(a, button, [role="button"], summary, input, select, textarea):focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}

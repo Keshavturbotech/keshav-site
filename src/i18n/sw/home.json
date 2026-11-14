@@ -1,40 +1,18 @@
 {
   "meta": {
     "title": "Keshav Enterprises — Ukarabati na Vipuri vya Turbine za Mvuke, Shamli UP India",
-    "description": "Wahandisi wa turbine za mvuke wenye uzoefu wa OEM kutoka Triveni, Siemens, BHEL. Ukarabati, uhandisi wa kinyume, uwiano wa mzunguko, usafishaji wa mafuta ya kulainisha, na vipuri vinavyoendana na OEM kwa turbine za 5 kW–60 MW. Vinapatikana Shamli, UP. Msaada wa dharura wa saa 24×7.",
     "keywords": "matengenezo ya turbine India, ukarabati wa turbine za mvuke, uhandisi wa kinyume wa turbine, vipuri vya turbine vya viwandani, vichujio vya mafuta ya kulainisha, viungo vya upanuzi India, huduma za turbine za Triveni, vipuri vya turbine vya BHEL, uwekaji wa turbine Uttar Pradesh, uhandisi Shamli"
   },
   "hero": {
     "badgeMakeInIndia": "Make in India",
     "badgeVocalForLocal": "Vocal For Local",
-    "badgeIndiaMartLabel": "Imethibitishwa na IndiaMART",
     "badgeIndiaMartRatingSuffix": "KIWANGO",
     "h1Line1": "Uhandisi Sahihi kwa",
     "h1Line2": "Muda wa Uendeshaji wa Juu.",
     "capabilityLine": "Turbine za mvuke kutoka 5 kW hadi 60 MW — aina ya back-pressure na condensing, mlalo na wima, hatua moja na hatua nyingi. Tunahudumia wateja kote India na duniani kote.",
-    "introText": "Wahandisi wenye uzoefu wa OEM kwa Triveni, Siemens, BHEL na chapa 7 zaidi. Tunarudisha turbine yako kufanya kazi haraka kuliko kununua kutoka OEM — na vyeti kamili vya PMI, ripoti za uwiano za ISO, na historia isiyo na adhabu tangu {businessSince}.",
     "ctaPrimary": "Tuma Mahitaji Yako",
     "ctaEmergency": "Dharura ya Kusimama",
-    "trustYearsOverhauls": "Miaka {years}+ · Ukarabati zaidi ya 500",
-    "trustPmi": "Vipuri vilivyoidhinishwa na PMI",
-    "trustResponse": "Wastani wa mwitikio: masaa 2",
-    "proofCards": [
-      {
-        "label": "Hakuna Kipindi cha Kujifunza",
-        "title": "Wahandisi Wenye Uzoefu wa OEM",
-        "sub": "Timu yetu imefanya kazi ndani ya Triveni, Siemens, BHEL na Belliss — utaalamu uleule, unaotolewa kwa kiwanda chako."
-      },
-      {
-        "label": "Kila Kazi Inaandikwa",
-        "title": "Ripoti wakati wa Kukabidhi",
-        "sub": "Vyeti vya PMI, ripoti za uwiano, rekodi za upatanishi, ripoti za hali — hukabidhiwa mwishoni mwa kazi."
-      },
-      {
-        "label": "Wakati Kila Dakika Ina Maana",
-        "title": "Dharura ya Saa 24×7",
-        "sub": "Wahandisi katika maeneo mengi kote India. Tupigie saa nane usiku — mtu atajibu."
-      }
-    ]
+    "trustResponse": "Wastani wa mwitikio: masaa 2"
   },
   "oemMarquee": {
     "heading": "Inayoendana na OEM na Inayoaminiwa na Viongozi wa Viwanda"
@@ -45,12 +23,10 @@
       "sub": "Viwanda vya sukari, umeme, karatasi na saruji kote India"
     },
     "years": {
-      "label": "Miaka ya Huduma",
-      "sub": "Uendeshaji unaoendelea tangu {founded} — hakuna mabadiliko ya umiliki"
+      "label": "Miaka ya Huduma"
     },
     "penaltyClaims": {
-      "label": "Madai ya Adhabu",
-      "sub": "Sifuri katika miaka {businessYears} — marejeleo ya wateja yanapatikana ukiomba"
+      "label": "Madai ya Adhabu"
     },
     "emergency": {
       "label": "Mwitikio wa Dharura",
@@ -69,7 +45,6 @@
   "servicesPreview": {
     "eyebrow": "Mzunguko Kamili wa Maisha ya Turbine",
     "heading": "Huduma za Kiufundi",
-    "subheading": "Wahandisi walewale wenye uzoefu wa OEM hushughulikia ukarabati wako, vipuri vyako, na dharura yako ya saa nane usiku — hakuna kandarasi ndogo, hakuna makabidhiano.",
     "painLines": {
       "srv_2": "Umechoka na wakandarasi wanaofika bila vifaa vya kutosha na hawatoi ripoti ya kazi?",
       "srv_3": "OEM alitoa muda wa miezi kwa kipuri ambacho hakizalishwi tena?",
@@ -80,12 +55,8 @@
   },
   "testimonials": {
     "eyebrow": "Maoni ya Wateja",
-    "heading": "Inaaminiwa na Wasimamizi wa Viwanda Kote India",
-    "googleRatingLabel": "+ maoni yaliyothibitishwa kwenye Google",
-    "disclaimer": "Nukuu zimetolewa kutoka kwenye rekodi za miradi iliyokamilika na kufupishwa kuwa herufi za mwanzo hadi idhini ya maandishi kwa utambulisho kamili. Kwa viwango vilivyothibitishwa kwa kujitegemea, tazama maoni yetu ya Google hapo juu.",
     "footerCtaPrefix": "Umewahi kufanya kazi nasi?",
     "footerCtaLink": "Acha maoni ya Google — inasaidia wasimamizi wengine wa viwanda kutupata →",
-    "googleReviewBadge": "Maoni ya Google",
     "items": [
       {
         "quote": "Wahandisi wao wenye uzoefu wa Triveni walishughulikia ukarabati wa turbine yetu ya Triveni 12 MW wakati wa kusimama kwa mwaka — nafasi zote za kiufundi ziliandikwa, rota ilisawazishwa hadi ISO G1.0, na ilirudi kufanya kazi kabla ya ratiba. Mara ya kwanza katika miaka sita hatukuwa na matatizo yoyote wakati wa kuanza kwa mara ya kwanza.",

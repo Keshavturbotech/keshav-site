@@ -81,7 +81,7 @@ const contactSchema = {
         </p>
         <div class="flex flex-wrap justify-center gap-x-6 gap-y-2">
           {
-            TRUST_SIGNALS.map(({ iconName, text }) => (
+            TRUST_SIGNALS.map(({ iconName, text }: { iconName: string; text: string }) => (
               <div class="flex items-center gap-2 text-slate-400 text-sm font-semibold">
                 <Icon name={iconName} class="w-4 h-4 text-blue-400 shrink-0" />
                 {text}
@@ -106,26 +106,16 @@ const contactSchema = {
               <Icon name="Phone" class="w-7 h-7 text-blue-600" />
             </div>
             <div class="flex-1 min-w-0">
-              <h3 class="font-black text-slate-900 text-lg mb-2">{t.cards.directLines.title}</h3>
+              <h2 class="font-black text-slate-900 text-lg mb-2">{t.cards.directLines.title}</h2>
               <div class="space-y-4">
-                <div>
-                  <p class="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-1">
-                    {t.cards.directLines.salesLabel}
-                  </p>
-                  <a
-                    href={`tel:${CONTACT_INFO.phones[0].replace(/\s/g, "")}`}
-                    class="block text-slate-600 font-bold text-base hover:text-blue-600 transition-colors"
-                    >{CONTACT_INFO.phones[0]}</a
-                  >
-                </div>
                 <div>
                   <p class="text-[10px] font-black text-slate-500 uppercase tracking-widest mb-1">
                     {t.cards.directLines.emergencyLabel}
                   </p>
                   <a
-                    href={`tel:${CONTACT_INFO.phones[1].replace(/\s/g, "")}`}
+                    href={`tel:${CONTACT_INFO.phones[0].replace(/\s/g, "")}`}
                     class="block text-slate-600 font-bold text-base hover:text-blue-600 transition-colors"
-                    >{CONTACT_INFO.phones[1]}</a
+                    >{CONTACT_INFO.phones[0]}</a
                   >
                   <a
                     href={waHref(t.cards.directLines.whatsappPrefillMessage)}
@@ -159,7 +149,7 @@ const contactSchema = {
               <Icon name="Mail" class="w-7 h-7 text-blue-600" />
             </div>
             <div class="flex-1 min-w-0">
-              <h3 class="font-black text-slate-900 text-lg mb-2">{t.cards.email.title}</h3>
+              <h2 class="font-black text-slate-900 text-lg mb-2">{t.cards.email.title}</h2>
               <div class="space-y-2">
                 {
                   [CONTACT_INFO.email, CONTACT_INFO.infoEmail].map((e) => (
@@ -185,7 +175,7 @@ const contactSchema = {
               <Icon name="MapPin" class="w-7 h-7 text-blue-600" />
             </div>
             <div class="flex-1 min-w-0">
-              <h3 class="font-black text-slate-900 text-lg mb-2">{t.cards.facilityAddress.title}</h3>
+              <h2 class="font-black text-slate-900 text-lg mb-2">{t.cards.facilityAddress.title}</h2>
               <p class="text-slate-600 font-bold text-sm leading-relaxed">{CONTACT_INFO.address}</p>
             </div>
           </div>
@@ -199,7 +189,7 @@ const contactSchema = {
               >
                 <Icon name="Clock" class="w-5 h-5 text-blue-600" />
               </div>
-              <h3 class="font-black text-slate-900 text-base">{t.cards.officeHours.title}</h3>
+              <h2 class="font-black text-slate-900 text-base">{t.cards.officeHours.title}</h2>
             </div>
             <div class="space-y-2 text-sm">
               <div class="flex justify-between items-center">
@@ -218,7 +208,7 @@ const contactSchema = {
             <ContactOfficeStatus client:load />
           </div>
 
-          <!-- IndiaMART Verified card — was missing entirely -->
+          <!-- IndiaMART profile card -->
           <a
             href={CONTACT_INFO.indiamart}
             target="_blank"
@@ -232,11 +222,10 @@ const contactSchema = {
               <Icon name="CheckCircle2" class="w-7 h-7 text-emerald-400" />
             </div>
             <div>
-              <h3 class="font-black text-white text-lg mb-1">{t.cards.indiamart.title}</h3>
+              <h2 class="font-black text-white text-lg mb-1">{t.cards.indiamart.title}</h2>
               <p class="text-yellow-400 font-bold text-sm mb-1.5">
                 <span class="sr-only">{t.cards.indiamart.ratingSrOnly}</span>
-                <span aria-hidden="true">★★★★★</span>
-                <span class="text-slate-300 ml-1">{t.cards.indiamart.ratingText}</span>
+                <span class="text-slate-300">{t.cards.indiamart.ratingText}</span>
               </p>
               <p class="text-blue-400 font-black text-xs uppercase tracking-widest">
                 {t.cards.indiamart.trustSeal}

@@ -20,8 +20,6 @@
         "label": "Dukungan Lokasi Tersedia"
       }
     ],
-    "whyUs": "Satu set celah yang salah selama erection dapat merusak bearing dalam hitungan jam sejak uap pertama. Insinyur lapangan eks-OEM kami telah mengomisioning sendiri jenis mesin yang sama yang sedang Anda pasang — mereka tahu persis arti spesifikasi OEM dalam praktik, bukan hanya di atas kertas.",
-    "overview": "Erection dan komisioning turbin adalah fase paling kritis dari proyek pembangkit listrik atau industri mana pun. Kesalahan selama erection — penyelarasan yang salah, celah yang tidak tepat, torsi yang salah — berakumulasi menjadi kegagalan mahal dalam tahun pertama operasi. Keshav Enterprises menghadirkan insinyur lapangan eks-OEM yang telah mengomisioning turbin Triveni, Siemens, BHEL, Belliss, dan Maxwatt di pembangkit listrik, pabrik gula, pabrik kertas, dan industri proses. Setiap hold point disaksikan, setiap celah dicatat, dan setiap sistem keselamatan diuji sebelum uap dimasukkan. Paket dokumentasi kami memenuhi persyaratan serah terima klien, asuransi, dan OEM.",
     "procedures": [
       {
         "step": "01",
@@ -139,26 +137,7 @@
   "srv_2": {
     "tagline": "Perencanaan Shutdown Turnkey hingga Restart Nol-Cacat",
     "accentColor": "#0891b2",
-    "keyStats": [
-      {
-        "value": "8+",
-        "label": "Merek OEM Dioverhaul"
-      },
-      {
-        "value": "{years}+",
-        "label": "Tahun Pengalaman Lapangan"
-      },
-      {
-        "value": "0.001mm",
-        "label": "Resolusi Celah"
-      },
-      {
-        "value": "24×7",
-        "label": "Respons Darurat"
-      }
-    ],
     "whyUs": "Overhaul yang dikerjakan buruk lebih parah daripada tidak dioverhaul sama sekali — memperkenalkan kesalahan celah baru, kontaminasi, dan cacat perakitan ulang. Insinyur kami dilatih oleh OEM. Mereka tahu apa arti toleransi sesungguhnya pada suhu dan kecepatan operasi, bukan hanya yang tertulis di manual.",
-    "overview": "Overhaul turbin bukanlah aktivitas perawatan biasa — ini adalah intervensi rekayasa presisi. Keshav Enterprises menerjunkan insinyur eks-OEM dari Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK, dan ABB untuk melaksanakan overhaul turnkey dengan disiplin dan standar dokumentasi yang sama seperti produsen asli. Setiap overhaul dimulai 4–6 minggu sebelum shutdown dengan finalisasi lingkup, pra-inspeksi suku cadang, dan perencanaan mobilisasi tenaga kerja. Setiap komponen diukur sebelum pembongkaran, selama strip-down, dan setelah perakitan ulang. Laporan kondisi tertulis, register celah, dan catatan fotografis dibuat untuk setiap overhaul — menciptakan baseline untuk shutdown berikutnya.",
     "procedures": [
       {
         "step": "01",
@@ -843,7 +822,6 @@
       }
     ],
     "whyUs": "Kesalahan yang salah didiagnosis dan diperbaiki tanpa menemukan akar masalahnya akan gagal lagi — sering kali lebih cepat dari yang pertama. Kami tidak menebak. Kami mengukur, menganalisis spektrum, membongkar hanya apa yang diminta data, mengonfirmasi akar masalah secara fisik, dan memperbaikinya dengan tim yang sama yang menemukannya.",
-    "overview": "Trip turbin tak terencana dan degradasi kinerja yang tak terjelaskan menelan biaya jutaan bagi pabrik industri dalam produksi yang hilang setiap tahun. Keshav Enterprises menerjunkan insinyur troubleshooting eks-OEM dengan instrumentasi diagnostik lengkap untuk mengidentifikasi, mendokumentasikan, dan memperbaiki akar masalah tepat dari kesalahan turbin uap apa pun — dari getaran tinggi dan kegagalan bearing hingga ketidakstabilan governor, kontaminasi oli, dan kebocoran uap. Kami mencakup semua merek turbin dari 5 kW hingga 60 MW di seluruh spektrum industri proses dan tenaga India. Metodologi kami sistematis: pengukuran online terlebih dahulu, inspeksi fisik yang ditargetkan oleh data, akar masalah dikonfirmasi secara tertulis, dan tindakan korektif dilaksanakan oleh tim yang sama yang mendiagnosis kesalahan.",
     "procedures": [
       {
         "step": "01",

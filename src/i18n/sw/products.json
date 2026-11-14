@@ -5792,7 +5792,6 @@
     "id": "prod_ee1",
     "sku": "KTB-EE-001",
     "category": "Electronic Equipment",
-    "title": "Probu za Ufuatiliaji wa Mtetemo (Zinazoendana na Shinkawa)",
     "images": [
       "vibration-probe-shinkawa-1.webp",
       "vibration-probe-shinkawa-2.webp",
@@ -5819,8 +5818,31 @@
       "color": "amber",
       "leadTime": "1–4 weeks"
     },
-    "desc": "Probe asili za ukaribu za mkondo wa eddy za Shinkawa FK / VK, nyaya za nyongeza na driver kwa ufuatiliaji wa mtetemo na msukumo wa axial wa turbine za mvuke, masanduku ya gia na alternator. Zinapatikana ghalani Shamli, UP.",
     "usage": "Kipimo kisichogusa cha mtetemo wa radial wa shaft, nafasi ya axial (msukumo), eccentricity, kasi ya mzunguko na rejeo la fasi (Keyphasor) kwenye turbine za mvuke, turbo-alternator, masanduku ya gia, kompresa, pampu za maji ya boiler na feni kubwa. Hulisha vifuatiliaji vya Shinkawa VM-5 / VM-7 / VM-25, raki nyingine za ufuatiliaji za mtindo wa API 670, na pembejeo za DCS au PLC.",
+    "specs": {
+      "Series": "FK (ya sasa) na VK (ya zamani). Visambaza vya waya 2 WK/WKN na vitambuzi vya kasha CV/CA viko kwenye matangazo tofauti",
+      "Measurement Principle": "Kipimo cha uhamishaji cha mkondo wa eddy kisichogusa",
+      "System": "Kitambuzi cha FL + kebo ya nyongeza ya FW + driver ya FK (seti inayolingana)",
+      "Sensor (FL-202F)": "FL-202F05: ncha 5 mm, kebo 2.7 mm; FL-202F08: ncha 8 mm, kebo 3.6 mm; FL-202F08R: 8 mm uwekaji wa kinyume. Mitindo L / A / T (bila ngao / yenye ngao / yenye ngao na resini ya fluorini)",
+      "Extension Cable (FW-202F)": "Mitindo L / A / T; takriban 4.5 m (mfumo wa 5 m) au 8.5 m (mfumo wa 9 m); -40 hadi +177 °C",
+      "Connector": "Kipenyo cha takriban 7.1 mm; weka mbali na mafuta; tenga kwa mkono wa kupunguka kwa joto au utepe wa resini ya fluorini",
+      "System Cable Length": "5 m au 9 m (vitambuzi vya 5 m hufanya kazi katika mifumo ya 5 m pekee)",
+      "Driver (FK-202F)": "-24 V DC +/-10%, upeo 15 mA; kizuizi cha pato 50 ohm; takriban -0.6 V wakati kitambuzi kimeharibika; takriban 200 g",
+      "Driver Mounting Options": "Reli ya DIN 35 mm; uwekaji kwa skrubu 50.8 x 50.8 mm; uwekaji kwa skrubu 92 x 31 mm (mbadala wa VK); hatua nyingi",
+      "Driver Terminals": "Kizuizi cha terminali ya skrubu M4 au terminali ya chemchemi",
+      "Reference Model (FK-202F)": "Masafa 0.25 hadi 2.25 mm kutoka ncha ya kitambuzi, kigezo cha kipimo 7.87 V/mm, DC hadi 10 kHz (-3 dB)",
+      "Temperature": "Kitambuzi na kebo ya nyongeza -40 hadi +177 °C; driver -40 hadi +80 °C",
+      "Calibration Target": "Chuma bapa cha JIS SCM440 (aina ya 4140); vifaa vingine kwa ombi",
+      "Hazardous Area Options": "Matoleo ya FK salama kiasili: DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (kulingana na msimbo wa modeli)",
+      "2-Wire Transmitter Option": "Visambaza vya Shinkawa WK / WKN 4-20 mA, tazama tangazo tofauti",
+      "Typical Steam Turbine Use": "Probe za radial XY kwenye kila bearing, probe 2 hadi 3 za axial kwenye kola ya msukumo, probe 1 ya Keyphasor, probe ya eccentricity kwenye bearing ya mbele",
+      "Typical Gearbox Use": "Probe za radial XY kwenye bearing za pinion ya kasi ya juu na gia ya kasi ya chini, probe ya axial kwa msukumo wa pinion",
+      "Typical Alternator Use": "Probe za radial XY kwenye bearing za upande wa kuendesha na upande wa pili, rejeo la kasi na fasi",
+      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, mifumo mingine inayokubali driver ya ukaribu ya -24 V DC, DCS/PLC kupitia kirekebishaji cha ishara",
+      "Brand": "Shinkawa Electric (asili)"
+    },
+    "title": "Probu za Ufuatiliaji wa Mtetemo (Zinazoendana na Shinkawa)",
+    "desc": "Probe asili za ukaribu za mkondo wa eddy za Shinkawa FK / VK, nyaya za nyongeza na driver kwa ufuatiliaji wa mtetemo na msukumo wa axial wa turbine za mvuke, masanduku ya gia na alternator. Zinapatikana ghalani Shamli, UP.",
     "features": [
       "Mfumo asili wa transducer wa Shinkawa wenye sehemu tatu zinazolingana: kitambuzi cha FL (probe), kebo ya nyongeza ya FW na driver ya FK. Zote tatu hupimwa pamoja kama mzunguko mmoja, kwa hivyo sehemu moja ikibadilishwa, kitambuzi, kebo na driver vinapaswa kubadilishwa kama seti",
       "Mfululizo wa FK (laini ya sasa) na mfululizo wa VK (mitambo ya zamani) vinapatikana. Driver za FK huja na bamba la kuweka la kubadilisha driver za VK moja kwa moja; kipimo cha upanuzi tofauti bado hutumia mfululizo wa VK",
@@ -5841,37 +5863,28 @@
       "Msaada wa kubadilisha mitambo ya zamani: tuma bamba la jina la zamani (VK-202A1, VK-202A2, FK-202F n.k.) pamoja na urefu wa kitambuzi nasi tutalinganisha mbadala sahihi",
       "Mfumo uliobuniwa kwa API 670 kwa ulinzi wa mashine; mfululizo wa FK unazingatia RoHS",
       "Majina ya chapa na modeli ni alama za biashara za wamiliki wake na yametumika kwa utambulisho tu. Keshav Enterprises ni msambazaji huru."
-    ],
-    "specs": {
-      "Brand": "Shinkawa Electric (asili)",
-      "Series": "FK (ya sasa) na VK (ya zamani). Visambaza vya waya 2 WK/WKN na vitambuzi vya kasha CV/CA viko kwenye matangazo tofauti",
-      "Measurement Principle": "Kipimo cha uhamishaji cha mkondo wa eddy kisichogusa",
-      "System": "Kitambuzi cha FL + kebo ya nyongeza ya FW + driver ya FK (seti inayolingana)",
-      "Sensor (FL-202F)": "FL-202F05: ncha 5 mm, kebo 2.7 mm; FL-202F08: ncha 8 mm, kebo 3.6 mm; FL-202F08R: 8 mm uwekaji wa kinyume. Mitindo L / A / T (bila ngao / yenye ngao / yenye ngao na resini ya fluorini)",
-      "Extension Cable (FW-202F)": "Mitindo L / A / T; takriban 4.5 m (mfumo wa 5 m) au 8.5 m (mfumo wa 9 m); -40 hadi +177 °C",
-      "Connector": "Kipenyo cha takriban 7.1 mm; weka mbali na mafuta; tenga kwa mkono wa kupunguka kwa joto au utepe wa resini ya fluorini",
-      "System Cable Length": "5 m au 9 m (vitambuzi vya 5 m hufanya kazi katika mifumo ya 5 m pekee)",
-      "Driver (FK-202F)": "-24 V DC +/-10%, upeo 15 mA; kizuizi cha pato 50 ohm; takriban -0.6 V wakati kitambuzi kimeharibika; takriban 200 g",
-      "Driver Mounting Options": "Reli ya DIN 35 mm; uwekaji kwa skrubu 50.8 x 50.8 mm; uwekaji kwa skrubu 92 x 31 mm (mbadala wa VK); hatua nyingi",
-      "Driver Terminals": "Kizuizi cha terminali ya skrubu M4 au terminali ya chemchemi",
-      "Reference Model (FK-202F)": "Masafa 0.25 hadi 2.25 mm kutoka ncha ya kitambuzi, kigezo cha kipimo 7.87 V/mm, DC hadi 10 kHz (-3 dB)",
-      "Temperature": "Kitambuzi na kebo ya nyongeza -40 hadi +177 °C; driver -40 hadi +80 °C",
-      "Calibration Target": "Chuma bapa cha JIS SCM440 (aina ya 4140); vifaa vingine kwa ombi",
-      "Hazardous Area Options": "Matoleo ya FK salama kiasili: DEKRA/IECEx, CSA, ATEX, China Ex, KCs, TS, TR-CU (kulingana na msimbo wa modeli)",
-      "2-Wire Transmitter Option": "Visambaza vya Shinkawa WK / WKN 4-20 mA, tazama tangazo tofauti",
-      "Typical Steam Turbine Use": "Probe za radial XY kwenye kila bearing, probe 2 hadi 3 za axial kwenye kola ya msukumo, probe 1 ya Keyphasor, probe ya eccentricity kwenye bearing ya mbele",
-      "Typical Gearbox Use": "Probe za radial XY kwenye bearing za pinion ya kasi ya juu na gia ya kasi ya chini, probe ya axial kwa msukumo wa pinion",
-      "Typical Alternator Use": "Probe za radial XY kwenye bearing za upande wa kuendesha na upande wa pili, rejeo la kasi na fasi",
-      "Compatible Monitors": "Shinkawa VM-5 / VM-7 / VM-25 / VM-21, mifumo mingine inayokubali driver ya ukaribu ya -24 V DC, DCS/PLC kupitia kirekebishaji cha ishara"
-    }
+    ]
   },
   "prod_ee7": {
     "id": "prod_ee7",
     "sku": "KTB-EE-007",
     "category": "Electronic Equipment",
     "title": "Mifumo ya Probe za Ukaribu za Bently Nevada 3300 XL",
-    "desc": "Probe asili za ukaribu za Bently Nevada 3300 XL, nyaya za nyongeza 330130 na Proximitor kwa ufuatiliaji wa mtetemo na msukumo wa turbine, masanduku ya gia na alternator. Bei kulingana na nambari ya sehemu.",
     "usage": "Mtetemo wa radial, nafasi ya axial, eccentricity, upanuzi tofauti na rejeo la kasi/fasi kwenye mashine za turbo zenye mifumo ya ufuatiliaji ya Bently Nevada 3500 au 3300. Probe za 5 mm na 8 mm hushughulikia vipimo vya kawaida vya bearing na msukumo; mifumo mikubwa zaidi ya 11, 16, 25 na 50 mm hushughulikia vipimo vya masafa marefu na vya upanuzi.",
+    "specs": {
+      "System Components": "Probe ya 3300 XL + kebo ya nyongeza 330130 + kitambuzi cha Proximitor 330180",
+      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (laini ya 3300 XL)",
+      "8 mm Linear Range / Scale Factor": "0.25 hadi 2.3 mm; 7.87 V/mm (200 mV/mil) +/-5%",
+      "8 mm Probe Temperature": "-51 hadi +177 °C",
+      "50 mm System Range": "Takriban 27.9 mm (1,100 mil) kwa upanuzi tofauti",
+      "Standard": "API 670 (toleo la 4) kwa mfumo wa kawaida wa 8 mm wa 5 m",
+      "Compatible Monitors": "Mfululizo wa Bently Nevada 3500 na 3300",
+      "Typical Steam Turbine Use": "Probe za radial XY kwenye kila bearing, probe za nafasi ya msukumo, Keyphasor, upanuzi tofauti kwa probe za 25 mm au 50 mm",
+      "Typical Gearbox Use": "Probe za radial kwenye bearing za pinion na gia, probe ya axial kwa msukumo wa pinion na uchezaji wa gia",
+      "Typical Alternator Use": "Probe za radial XY kwenye bearing zote mbili, rejeo la Keyphasor/kasi",
+      "Brand": "Bently Nevada (Baker Hughes), asili"
+    },
+    "desc": "Probe asili za ukaribu za Bently Nevada 3300 XL, nyaya za nyongeza 330130 na Proximitor kwa ufuatiliaji wa mtetemo na msukumo wa turbine, masanduku ya gia na alternator. Bei kulingana na nambari ya sehemu.",
     "features": [
       "Mfumo asili wa Bently Nevada 3300 XL: probe, kebo ya nyongeza 330130 na kitambuzi cha Proximitor 330180, vipengele vyote vinabadilishana kikamilifu kwa hivyo hakuna haja ya kuvilinganisha kwenye meza ya majaribio",
       "3300 XL 8 mm: masafa ya mstari 0.25 hadi 2.3 mm (10 hadi 90 mil), kigezo cha kipimo 7.87 V/mm (200 mV/mil) +/-5%, pengo linalopendekezwa 1.27 mm kwa takriban -9 V DC, probe -51 hadi +177 °C",
@@ -5882,28 +5895,21 @@
       "Chaguo za masafa marefu kwa turbine za mvuke: mifumo ya 3300 XL ya 25 mm na 50 mm kwa upanuzi tofauti; mfumo wa 50 mm una masafa ya kutambua ya takriban 27.9 mm (1,100 mil)",
       "Omba bei ukitumia nambari kamili ya sehemu (kwa mfano 330103-xx-xx-xx-xx-xx pamoja na 330130-xxx-xx-xx na 330180-xx-xx) au tuma bamba la jina la zamani",
       "Majina ya chapa na modeli ni alama za biashara za wamiliki wake na yametumika kwa utambulisho tu. Keshav Enterprises ni msambazaji huru."
-    ],
-    "specs": {
-      "Brand": "Bently Nevada (Baker Hughes), asili",
-      "System Components": "Probe ya 3300 XL + kebo ya nyongeza 330130 + kitambuzi cha Proximitor 330180",
-      "Probe Sizes": "5 mm, 8 mm, 11 mm, 16 mm, 25 mm, 50 mm (laini ya 3300 XL)",
-      "8 mm Linear Range / Scale Factor": "0.25 hadi 2.3 mm; 7.87 V/mm (200 mV/mil) +/-5%",
-      "8 mm Probe Temperature": "-51 hadi +177 °C",
-      "50 mm System Range": "Takriban 27.9 mm (1,100 mil) kwa upanuzi tofauti",
-      "Standard": "API 670 (toleo la 4) kwa mfumo wa kawaida wa 8 mm wa 5 m",
-      "Compatible Monitors": "Mfululizo wa Bently Nevada 3500 na 3300",
-      "Typical Steam Turbine Use": "Probe za radial XY kwenye kila bearing, probe za nafasi ya msukumo, Keyphasor, upanuzi tofauti kwa probe za 25 mm au 50 mm",
-      "Typical Gearbox Use": "Probe za radial kwenye bearing za pinion na gia, probe ya axial kwa msukumo wa pinion na uchezaji wa gia",
-      "Typical Alternator Use": "Probe za radial XY kwenye bearing zote mbili, rejeo la Keyphasor/kasi"
-    }
+    ]
   },
   "prod_ee8": {
     "id": "prod_ee8",
     "sku": "KTB-EE-008",
     "category": "Electronic Equipment",
     "title": "Vitambuzi vya Mkondo wa Eddy vya EPRO PR6423 / PR6424 na CON011",
-    "desc": "Vitambuzi asili vya mkondo wa eddy vya Emerson EPRO PR6422 hadi PR6426 na vibadilishaji ishara vya CON011 kwa kupima mtetemo na nafasi ya shaft kwenye turbine, masanduku ya gia na jenereta.",
     "usage": "Kipimo cha uhamishaji wa radial na axial wa shaft, nafasi, eccentricity na kasi/kota kwenye turbine za mvuke, gesi na maji, kompresa, masanduku ya gia, pampu na feni, pamoja na vifuatiliaji vya Emerson / EPRO MMS au mfumo wowote unaokubali pato la kibadilishaji.",
+    "specs": {
+      "Converter": "Kibadilishaji ishara cha mkondo wa eddy CON011 (masafa ya kawaida na yaliyopanuliwa)",
+      "Measures": "Uhamishaji wa radial na axial wa shaft, nafasi, eccentricity, kasi/kota",
+      "Typical Machines": "Turbine za mvuke, gesi na maji, kompresa, masanduku ya gia, pampu, feni",
+      "Brand": "Emerson (EPRO), asili"
+    },
+    "desc": "Vitambuzi asili vya mkondo wa eddy vya Emerson EPRO PR6422 hadi PR6426 na vibadilishaji ishara vya CON011 kwa kupima mtetemo na nafasi ya shaft kwenye turbine, masanduku ya gia na jenereta.",
     "features": [
       "Vitambuzi asili vya Emerson EPRO: PR6422, PR6423 (8 mm, matoleo ya M10x1), PR6424 (16 mm), PR6425 (16 mm ya joto la juu), PR6426 (32 mm)",
       "Kibadilishaji ishara cha mkondo wa eddy CON011: 0 hadi 20 kHz (-3 dB), muda wa kupanda chini ya mikrosekunde 15, -30 hadi +100 °C, usambazaji -23 hadi -32 V DC, hukubali vitambuzi PR6422 hadi PR6426",
@@ -5913,21 +5919,24 @@
       "Matoleo ya CON011 yenye masafa yaliyopanuliwa yanapatikana kwa masafa makubwa ya kupima (kwa mfano 3, 4, 6, 8, 10 mm); PR6425 inahitaji kibadilishaji chenye masafa yaliyopanuliwa",
       "Kitambuzi na kibadilishaji ni mfumo unaolingana: kitambuzi, urefu wa kebo na modeli ya kibadilishaji lazima vilingane. Tuma bamba la jina au nambari ya sehemu ya zamani nasi tutathibitisha ulinganifu",
       "Majina ya chapa na modeli ni alama za biashara za wamiliki wake na yametumika kwa utambulisho tu. Keshav Enterprises ni msambazaji huru."
-    ],
-    "specs": {
-      "Brand": "Emerson (EPRO), asili",
-      "Converter": "Kibadilishaji ishara cha mkondo wa eddy CON011 (masafa ya kawaida na yaliyopanuliwa)",
-      "Measures": "Uhamishaji wa radial na axial wa shaft, nafasi, eccentricity, kasi/kota",
-      "Typical Machines": "Turbine za mvuke, gesi na maji, kompresa, masanduku ya gia, pampu, feni"
-    }
+    ]
   },
   "prod_ee9": {
     "id": "prod_ee9",
     "sku": "KTB-EE-009",
     "category": "Electronic Equipment",
     "title": "Probe za Ukaribu za Vibro-Meter TQ402 / TQ442 na IQS450",
-    "desc": "Probe asili za ukaribu za Meggitt vibro-meter TQ4xx, nyaya za EA40x na virekebishaji ishara vya IQS450 kwa kufuatilia mtetemo na nafasi ya shaft ya turbine.",
     "usage": "Mtetemo wa shaft usiogusa na nafasi ya axial kwenye turbine za mvuke, gesi na haidroliki na mashine nyingine muhimu zenye mifumo ya ufuatiliaji ya vibro-meter. Pato la volteji au mkondo lenye ulinzi wa mzunguko mfupi linafaa vifuatiliaji vya raki na muunganisho wa moja kwa moja na DCS.",
+    "specs": {
+      "Extension Cables": "EA401, EA402, EA403",
+      "TQ442 System Range": "2 mm au 4 mm",
+      "Frequency Response": "DC hadi 20 kHz (-3 dB)",
+      "Temperature": "-40 hadi +180 °C (TQ442)",
+      "System Lengths": "1 m, 5 m, 10 m (hutofautiana kwa modeli)",
+      "Output": "Volteji au mkondo (waya 2), imelindwa dhidi ya mzunguko mfupi",
+      "Brand": "Meggitt vibro-meter, asili"
+    },
+    "desc": "Probe asili za ukaribu za Meggitt vibro-meter TQ4xx, nyaya za EA40x na virekebishaji ishara vya IQS450 kwa kufuatilia mtetemo na nafasi ya shaft ya turbine.",
     "features": [
       "Mfumo asili wa vibro-meter: transducer ya ukaribu TQ4xx + kebo ya nyongeza EA4xx + kirekebishaji ishara IQS450 (au IQS900) huunda mnyororo wa kipimo uliopimwa",
       "Familia za transducer TQ401 / TQ402 / TQ403 / TQ412 / TQ422 / TQ423 / TQ432 / TQ442 zinapatikana",
@@ -5935,23 +5944,13 @@
       "Pato la volteji au mkondo wa waya 2 lenye ulinzi wa mzunguko mfupi; matoleo yaliyoidhinishwa kwa mazingira yanayoweza kulipuka",
       "Mbadala au vipuri kwa minyororo ya vibro-meter iliyopo: tuma nambari za modeli za transducer, kebo na kirekebishaji; urefu wa kielektroniki lazima ulingane",
       "Majina ya chapa na modeli ni alama za biashara za wamiliki wake na yametumika kwa utambulisho tu. Keshav Enterprises ni msambazaji huru."
-    ],
-    "specs": {
-      "Brand": "Meggitt vibro-meter, asili",
-      "Extension Cables": "EA401, EA402, EA403",
-      "TQ442 System Range": "2 mm au 4 mm",
-      "Frequency Response": "DC hadi 20 kHz (-3 dB)",
-      "Temperature": "-40 hadi +180 °C (TQ442)",
-      "System Lengths": "1 m, 5 m, 10 m (hutofautiana kwa modeli)",
-      "Output": "Volteji au mkondo (waya 2), imelindwa dhidi ya mzunguko mfupi"
-    }
+    ]
   },
   "prod_ee10": {
     "id": "prod_ee10",
     "sku": "KTB-EE-010",
     "category": "Electronic Equipment",
     "title": "Visambaza Mtetemo vya Waya 2 vya 4-20 mA (Shinkawa WK/WKN)",
-    "desc": "Visambaza asili vya mtetemo na msukumo vya waya 2 vya 4-20 mA vya Shinkawa WK / WKN kwa turbine za mvuke, alternator, masanduku ya gia, pampu na kompresa. Muunganisho wa moja kwa moja na DCS au PLC, hakuna raki ya kifuatiliaji.",
     "usage": "Ufuatiliaji endelevu wa mtetemo wa shaft au nafasi ya msukumo kwenye mashine ndogo na za kati ambapo kifuatiliaji kamili cha raki hakihitajiki: turbine za mvuke za usaidizi, pampu za maji ya boiler, masanduku ya gia, kompresa, feni na alternator. Ishara ya mzunguko wa 4-20 mA huenda moja kwa moja kwenye DCS, PLC au kionyeshi.",
     "features": [
       "Transducer ya mkondo wa eddy yenye ubadilishaji wa mtetemo au msukumo ndani yake: pato la 4-20 mA bila kifuatiliaji cha mtetemo au kibadilishaji tofauti",
@@ -5967,7 +5966,6 @@
       "Majina ya chapa na modeli ni alama za biashara za wamiliki wake na yametumika kwa utambulisho tu. Keshav Enterprises ni msambazaji huru."
     ],
     "specs": {
-      "Brand": "Shinkawa Electric, asili",
       "Models": "WK-142K, WK-142T, WKN-142K, WKN-142T (aina za mfumo 1, 2 na 5)",
       "Output": "4-20 mA, mzunguko wa mkondo wa waya 2",
       "Vibration Output Ranges": "0 hadi 100, 125, 200, 250, 400 mikroni kilele-hadi-kilele (kulingana na msimbo wa modeli)",
@@ -5981,15 +5979,16 @@
       "Transmitter Size": "Takriban 100 x 74 x 50 mm; klipu za DIN za hiari",
       "Hazardous Area": "Chaguo lisilosababisha moto (CSA Class I Div 2, ATEX Ex nA)",
       "Calibration Target": "Chuma cha JIS SCM440 (sawa na AISI 4140)",
-      "Typical Machines": "Turbine za mvuke za usaidizi, BFP, masanduku ya gia, kompresa, alternator, feni"
-    }
+      "Typical Machines": "Turbine za mvuke za usaidizi, BFP, masanduku ya gia, kompresa, alternator, feni",
+      "Brand": "Shinkawa Electric, asili"
+    },
+    "desc": "Visambaza asili vya mtetemo na msukumo vya waya 2 vya 4-20 mA vya Shinkawa WK / WKN kwa turbine za mvuke, alternator, masanduku ya gia, pampu na kompresa. Muunganisho wa moja kwa moja na DCS au PLC, hakuna raki ya kifuatiliaji."
   },
   "prod_ee11": {
     "id": "prod_ee11",
     "sku": "KTB-EE-011",
     "category": "Electronic Equipment",
     "title": "Vitambuzi vya Mtetemo wa Kasha: Velomitor, CV-86 na Accelerometer",
-    "desc": "Vitambuzi asili vya Bently Velomitor, Shinkawa CV-86, Hansford na SKF kwa mtetemo wa bearing kwenye turbine, masanduku ya gia, alternator na mota. Bei kulingana na modeli.",
     "usage": "Mtetemo kamili (wa seismic) kwenye misingi ya bearing, kasha za masanduku ya gia, fremu za alternator na vifuniko vya mota, ambapo probe ya shaft haiwezi kuwekwa au ambapo mtetemo wa kasha ni pembejeo ya kengele au kuzima. Hutumika pamoja na probe za ukaribu za shaft katika mfululizo wa turbine-sanduku la gia-alternator, na peke yake kwenye mota, feni na pampu.",
     "features": [
       "Kitambuzi cha kasi cha piezo cha Bently Nevada 330500 Velomitor: 3.94 mV/mm/s (100 mV/in/s) +/-5%, 4.5 Hz hadi 5 kHz (+/-3 dB), hadi 1,270 mm/s kilele, -55 hadi +121 °C, chuma cha pua 316L, MIL-C-5015 ya pini 2, pembe yoyote ya kuweka",
@@ -6003,22 +6002,22 @@
       "Majina ya chapa na modeli ni alama za biashara za wamiliki wake na yametumika kwa utambulisho tu. Keshav Enterprises ni msambazaji huru."
     ],
     "specs": {
-      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (zote asili)",
       "Velocity Sensors": "Bently Nevada 330500 / 330525 Velomitor; Shinkawa CV-86, CV-87",
       "Accelerometers": "Bently Nevada 330400 / 330425; Hansford mfululizo wa HS-100; SKF CMSS 2100 / 2200",
       "Accelerometer Sensitivities": "25, 100 mV/g (Bently); 10 hadi 500 mV/g (Hansford); 100 mV/g (SKF)",
       "Typical Steam Turbine Use": "Mtetemo wa msingi wa bearing, mlalo na wima kwenye kila bearing",
       "Typical Gearbox Use": "Kasha karibu na bearing ya pinion ya kasi ya juu; accelerometer kwa masafa ya uchezaji wa gia",
       "Typical Alternator Use": "Nyumba ya bearing upande wa kuendesha na upande wa pili",
-      "Typical Motor Use": "Nyumba ya bearing, upande wa kuendesha na upande wa pili, mlalo / wima / axial"
-    }
+      "Typical Motor Use": "Nyumba ya bearing, upande wa kuendesha na upande wa pili, mlalo / wima / axial",
+      "Brands": "Bently Nevada, Shinkawa, Hansford Sensors, SKF (zote asili)"
+    },
+    "desc": "Vitambuzi asili vya Bently Velomitor, Shinkawa CV-86, Hansford na SKF kwa mtetemo wa bearing kwenye turbine, masanduku ya gia, alternator na mota. Bei kulingana na modeli."
   },
   "prod_ee2": {
     "id": "prod_ee2",
     "sku": "KTB-EE-002",
     "category": "Electronic Equipment",
     "title": "Sensa ya Magnetic Pickup (Woodward)",
-    "desc": "Sensa halisi ya Woodward ya variable reluctance magnetic speed pickup (MPU) kwa mrejesho sahihi wa kasi ya shimoni kwenda kwa governors za Woodward na mifumo ya udhibiti wa turbine za kidijitali. Muundo tulivu, unaojiendesha kwa nguvu yake, usiohitaji matengenezo kwa kazi endelevu kwenye turbine za mvuke zinazoendesha kwa RPM 3000–3600.",
     "usage": "Ingizo kuu la utambuzi wa kasi kwa governors za kidijitali za Woodward 505/505D/505E, viongeza sauti vya governor 2301 na 7206, na mifumo huru ya trip ya overspeed kwenye turbine za mvuke za Triveni, BHEL, Siemens, KKK, na Maxwatt. Hufuatilia kasi ya rota ya turbine kupitia gurudumu la gia la governor (gia ya jino / flywheel) kutoa udhibiti wa kasi wa closed-loop, udhibiti wa mzigo, na ulinzi wa overspeed katika uanzishaji wote, usawazishaji, na uendeshaji wa mzigo kamili.",
     "features": [
       "Sensa ya variable reluctance (tulivu) — hutengeneza ishara yake ya voltage ya AC kutoka kwenye mwendo wa jino la gia; haihitaji chanzo cha nguvu cha nje",
@@ -6080,7 +6079,8 @@
       "label": "Kwa Ombi",
       "color": "amber",
       "leadTime": "1–4 weeks"
-    }
+    },
+    "desc": "Sensa halisi ya Woodward ya variable reluctance magnetic speed pickup (MPU) kwa mrejesho sahihi wa kasi ya shimoni kwenda kwa governors za Woodward na mifumo ya udhibiti wa turbine za kidijitali. Muundo tulivu, unaojiendesha kwa nguvu yake, usiohitaji matengenezo kwa kazi endelevu kwenye turbine za mvuke zinazoendesha kwa RPM 3000–3600."
   },
   "prod_ee3": {
     "id": "prod_ee3",
@@ -6989,6 +6989,72 @@
       "max": 12000,
       "unit": "per segment",
       "note": "Spring steel or Inconel X-750; set of 4–8 per gland"
+    },
+    "availability": {
+      "label": "Made to Order",
+      "color": "amber",
+      "leadTime": "2–6 weeks"
+    }
+  },
+  "prod_ts_silencer": {
+    "id": "prod_ts_silencer",
+    "sku": "KTB-TS-040",
+    "category": "Turbine Spares",
+    "title": "Vizuia Sauti vya Turbine ya Mvuke: Matundu ya Kutoa Mvuke, Moshi na Vali za Usalama",
+    "desc": "Vizuia sauti vya matundu ya kutoa mvuke, moshi wa kutolea nje na vali za usalama vinavyopunguza kelele ya mvuke wa shinikizo la juu unaotolewa kwenye angahewa kutoka mitambo ya turbine ya mvuke: matundu ya kupunguza shinikizo la moshi wa turbine za shinikizo-nyuma, matundu ya kuwasha na kupasha joto, matokeo ya vali za usalama kwenye ingizo na sehemu za kuchukua mvuke za turbine, pamoja na kupuliza mvuke wakati wa majaribio ya kuanzisha mtambo. Kila kizuia sauti kinabuniwa na kutengenezwa na sisi kulingana na mahitaji ya mteja, kikichanganya hatua ya kisambazaji chenye matundu mengi inayopunguza kasi na kusambaza mkondo wa mvuke na sehemu ya kunyonya sauti iliyojazwa. Ukubwa hupangwa kulingana na kiwango cha mvuke, shinikizo, joto na kikomo cha dB(A) kinachohitajika kwa umbali wako wa marejeo. Hutolewa kwa chuma cha kaboni, au chuma cha pua chenye ingizo la chuma mchanganyiko kwa mvuke uliopashwa joto kupita kiasi.",
+    "usage": "Huwekwa kwenye tundu la kutolea la vali za usalama, vali za kupunguza shinikizo za angahewa na mistari ya kutoa mvuke katika mitambo ya turbine za mvuke na boiler ya viwanda vya sukari na pombe, karatasi na massa, chuma, petrokemikali na uzalishaji umeme: matundu ya kupunguza shinikizo la moshi kwenye turbine za shinikizo-nyuma, matundu ya kuwasha na kupasha joto turbine, matokeo ya vali za usalama kwenye ingizo na sehemu za kuchukua mvuke, matokeo ya vali za usalama za vituo vya PRDS, na matundu ya moshi wa ejekta kwenye turbine za kubana mvuke. Pia hutolewa kama mbadala wa vizuia sauti vilivyoharibika kwa kutu, vyenye kelele au vilivyoharibika kwenye matundu yaliyopo, vikibuniwa na kutengenezwa kulingana na vipimo vya viunganishi na uwekaji vya kitengo cha zamani au kwa uhandisi-geuzi kutoka kwenye sampuli au picha pale michoro haipatikani, na kama vizuia sauti vya muda vya kupuliza mvuke kusafisha mabomba wakati wa usimikaji na uanzishaji wa turbine.",
+    "features": [
+      "Aina za vizuia sauti: mchanganyiko wa kisambazaji na kizuia sauti cha kunyonya (kiwango); hatua ya chemba ya upanuzi ya kuakisi huongezwa pale kelele ya masafa ya chini inapotawala",
+      "Kisambazaji cha ingizo chenye matundu mengi hupunguza kasi ya mvuke na kuvunja mkondo kabla ya kuingia sehemu ya kunyonya",
+      "Sehemu ya kunyonya: jazo la pamba ya madini yenye msongamano mkubwa au nyuzi za kauri zinazoshikiliwa nyuma ya ubao uliotobolewa na wavu wa waya wa chuma cha pua kuzuia upotevu wa nyuzi na mmomonyoko",
+      "Kinabuniwa na kutengenezwa na sisi kwa kila matumizi kulingana na kiwango cha mvuke (kg/h), shinikizo na joto la ingizo, ukubwa wa mstari na lengo la dB(A) kwa umbali uliotajwa; kila kitengo hutengenezwa kwa oda, si bidhaa ya katalogi",
+      "Upunguzaji wa kawaida wa kelele wa dB(A) 50 hadi 80, kulingana na mtiririko, shinikizo na muundo; thamani lengwa hukubaliwa na kuandikwa kwenye datasheet iliyoidhinishwa",
+      "Vifaa: chuma cha kaboni (IS 2062 / SA 516 Gr 70) kwa mvuke uliojaa na joto la wastani; SS 304 / 316 au sehemu ya ingizo ya chuma mchanganyiko kwa mvuke uliopashwa joto kupita kiasi hadi takriban 540°C",
+      "Viunganishi: ingizo lenye flanji (ASME B16.5 / DIN) au la kuchomelea ncha-kwa-ncha, 200 NB hadi 600 NB kwa kiwango, ukubwa mwingine kulingana na ombi la mteja",
+      "Kiunganishi cha kutoa maji ya mvuke kwenye sehemu ya chini kabisa huzuia jazo kulowa baada ya kutoa mvuke",
+      "Kifuniko cha hali ya hewa au mvua kwenye tundu la kutolea; uwekaji wima kwenye chimney cha kutolea ni wa kiwango, mlalo kwa ombi",
+      "Miguu ya kusimamisha, flanji ya msingi na masikio ya kunyanyua hutolewa; insulation ya sehemu zenye joto au kifuniko cha kulinda watu ni hiari",
+      "Vitengo mbadala na vya uhandisi-geuzi kwa matundu yaliyopo pale kizuia sauti cha awali kimeharibika kwa kutu, kimepoteza jazo au kimekuwa na kelele",
+      "Hutolewa pamoja na mchoro wa mpangilio wa jumla na datasheet; vyeti vya majaribio ya vifaa kwa ombi"
+    ],
+    "specs": {
+      "Silencer Type": "Kisambazaji + kinyonyaji (kiwango); hatua ya kuakisi kwa ombi",
+      "Service": "Kutoa mvuke, kupunguza shinikizo la moshi wa turbine, tundu la vali ya usalama, matundu ya kuwasha / kupasha joto, kupuliza mvuke",
+      "Inlet Size Range": "200 NB hadi 600 NB; ukubwa mwingine kulingana na ombi la mteja",
+      "Inlet Connection": "Yenye flanji (ASME B16.5 / DIN) au ya kuchomelea ncha-kwa-ncha",
+      "Design Basis": "Kiwango cha mvuke (kg/h), shinikizo la ingizo, joto na dB(A) inayohitajika hutolewa na mteja",
+      "Noise Reduction": "Kwa kawaida dB(A) 50–80, kulingana na muundo; lengo limeandikwa kwenye datasheet",
+      "Temperature Rating": "Hadi takriban 540°C mvuke uliopashwa joto kupita kiasi (sehemu ya ingizo ya chuma mchanganyiko)",
+      "Body Material": "Chuma cha kaboni (IS 2062 / SA 516 Gr 70) au SS 304 / 316",
+      "Diffuser Material": "Chuma cha kaboni, SS 304 / 316 au chuma mchanganyiko, kulingana na joto la mvuke",
+      "Acoustic Packing": "Pamba ya madini yenye msongamano mkubwa au nyuzi za kauri, zinazoshikiliwa na wavu wa SS",
+      "Orientation": "Wima kwenye chimney (kiwango); mlalo kwa ombi",
+      "Drain and Outlet": "Kutoa maji ya mvuke kwenye sehemu ya chini kabisa; kifuniko cha mvua kwenye tundu la kutolea",
+      "Finish": "Rangi sugu kwa joto; insulation / kifuniko ni hiari",
+      "Documents": "Mchoro wa mpangilio wa jumla na datasheet; vyeti vya majaribio ya vifaa kwa ombi",
+      "HSN Code": "84069000"
+    },
+    "images": [
+      "steam-turbine-silencer-1.webp",
+      "steam-turbine-silencer-2.webp",
+      "steam-turbine-silencer-3.webp",
+      "steam-turbine-silencer-4.webp",
+      "steam-turbine-silencer-5.webp",
+      "steam-turbine-silencer-6.webp",
+      "steam-turbine-silencer-7.webp",
+      "steam-turbine-silencer-8.webp",
+      "steam-turbine-silencer-9.webp",
+      "steam-turbine-silencer-10.webp",
+      "steam-turbine-silencer-11.webp",
+      "steam-turbine-silencer-12.webp"
+    ],
+    "slug": "steam-turbine-silencers",
+    "categorySlug": "turbine-spares",
+    "priceRange": {
+      "min": 40000,
+      "max": 400000,
+      "unit": "per unit",
+      "note": "Chuma cha kaboni hadi SS; ukubwa hupangwa kulingana na kiwango cha mvuke, shinikizo na lengo la dB(A)"
     },
     "availability": {
       "label": "Made to Order",

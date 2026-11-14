@@ -59,7 +59,7 @@ export const SEO_OVERRIDES: Record<string, { title?: string; description?: strin
 
   // Products whose own description is one long sentence
   "/products/triveni-replacement-turbine-lube-oil-filter-elements": {
-    description: "OEM-matched lube oil filter elements for Triveni steam turbines, from 4 GPM to 140 GPM, in glass fiber, SS wire mesh and polyester media.",
+    description: "OEM-compatible lube oil filter elements for Triveni steam turbines, from 4 GPM to 140 GPM, in glass fiber, SS wire mesh and polyester media.",
   },
   "/products/tank-breather-filter-elements-nbf-series": {
     description: "Glass fiber breather filter elements, dimensionally compatible with Eaton 01.NBF, blocking airborne contamination and moisture in oil reservoirs.",
@@ -129,6 +129,10 @@ export const SEO_OVERRIDES: Record<string, { title?: string; description?: strin
   },
   "/products/leaf-springs-for-turbine-labyrinth-gland-seals": {
     description: "Precision leaf springs that preload retractable labyrinth gland seal segments, in spring steel or Inconel X-750 for high-temperature stages.",
+  },
+  "/products/steam-turbine-silencers": {
+    title: "Steam Turbine Silencers | Vent & Exhaust Noise Control",
+    description: "Steam vent, exhaust and safety valve silencers for steam turbines, sized to your flow, pressure and dB(A) target. Carbon steel or stainless, made to order.",
   },
   "/products/cenlub-replacement-filter-elements": {
     description: "Replacement filter elements for Cenlub lubrication systems, oil circulation skids and API 614 lube oil consoles, built to original dimensions.",

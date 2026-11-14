@@ -1,80 +1,21 @@
 {
   "meta": {
-    "titleTemplate": "Giới thiệu Keshav Enterprises — {years}+ Năm Kỹ thuật Tua-bin",
-    "descriptionTemplate": "Keshav Enterprises — {years}+ năm kỹ thuật tua-bin công nghiệp, kỹ thuật đảo ngược, và phụ tùng tương thích OEM từ Shamli, UP, Ấn Độ. Kỹ sư từng làm việc tại OEM Triveni, Siemens, BHEL.",
-    "schemaName": "Giới thiệu Keshav Enterprises",
-    "schemaDescriptionTemplate": "Keshav Enterprises — {years}+ năm kỹ thuật tua-bin công nghiệp, kỹ thuật đảo ngược, và chế tạo phụ tùng tương thích OEM từ Shamli, UP, Ấn Độ."
+    "schemaName": "Giới thiệu Keshav Enterprises"
   },
   "hero": {
     "eyebrow": "Câu chuyện của Chúng tôi",
-    "h1Line1": "{years}+ Năm",
-    "h1Span": "Kỹ thuật Chính xác",
     "quote": "“Không dung sai cho việc ngừng hoạt động nhà máy — đó không phải là khẩu hiệu. Đó là tiêu chuẩn kỹ thuật mà mọi khách hàng đều yêu cầu ở chúng tôi.”",
-    "intro": "Nhà sáng lập Shekhar Sharma đã trực tiếp làm việc với tua bin hơi từ năm 1988, tích lũy kinh nghiệm qua nhiều công ty trước khi thành lập một liên danh bảo trì tua bin độc lập vào năm 2016. Keshav Enterprises chính thức được thành lập vào tháng 6 năm 2020, nay là đối tác kỹ thuật đáng tin cậy của các nhà máy điện, nhà máy đường, nhà máy lọc dầu và ngành công nghiệp chế biến trên khắp Ấn Độ và thế giới, tiếp nối cùng chuyên môn từ các chuyên gia xuất thân OEM của Triveni, Siemens, BHEL, Man Turbo, KKK và ABB.",
-    "tags": [
-      "Kỹ sư Từng làm việc tại OEM",
-      "Quét Laser 3D",
-      "Độ chính xác CMM",
-      "Phản hồi 24×7",
-      "Đăng ký IEC",
-      "Sẵn sàng Xuất khẩu",
-      "IndiaMART TrustSeal",
-      "Make in India",
-      "Đăng ký MSME"
-    ],
     "ctaServices": "Dịch vụ của Chúng tôi",
     "ctaContact": "Liên hệ Đội ngũ Kỹ thuật",
-    "statCards": [
-      {
-        "label": "Năm Hoạt động",
-        "subTemplate": "Từ {founded}"
-      },
-      {
-        "label": "Thương hiệu OEM",
-        "sub": "Triveni · Siemens · BHEL"
-      },
-      {
-        "label": "Tua-bin Tối đa",
-        "sub": "Đến 60 M.W."
-      },
-      {
-        "label": "Hỗ trợ Khẩn cấp",
-        "sub": "Kỹ sư đa địa điểm"
-      }
-    ],
     "trustBadges": {
-      "indiamartTitle": "Xác minh IndiaMART TrustSeal",
       "indiamartSub": "50+ đánh giá người mua · xếp hạng 4,3/5",
       "msmeTitle": "Đăng ký MSME",
       "msmeSub": "Doanh nghiệp Chứng nhận Udyam · Chính phủ Ấn Độ"
     }
   },
-  "statsBar": [
-    {
-      "label": "Năm Hoạt động",
-      "subTemplate": "Từ {founded}"
-    },
-    {
-      "label": "Thương hiệu OEM Bao phủ",
-      "sub": "Triveni · Siemens · BHEL"
-    },
-    {
-      "label": "Tua-bin Tối đa Xử lý",
-      "sub": "Đến 60 M.W."
-    },
-    {
-      "label": "Phản ứng Khẩn cấp",
-      "sub": "Kỹ sư đa địa điểm"
-    }
-  ],
   "overview": {
     "eyebrow": "Chúng tôi là Ai",
     "heading": "Đối tác Kỹ thuật cho Trụ cột Công nghiệp Ấn Độ",
-    "paragraphs": [
-      "Keshav Enterprises là công ty kỹ thuật công nghiệp chính xác có trụ sở tại Shamli, Uttar Pradesh. Nhà sáng lập Shekhar Sharma đã trực tiếp làm việc với tua bin hơi từ năm 1988; kinh nghiệm đó trở thành một liên danh độc lập vào năm 2016, và Keshav Enterprises chính thức được thành lập vào tháng 6 năm 2020. Chúng tôi cung cấp dịch vụ bảo trì tua bin chuyên sâu, thiết kế ngược và phụ tùng tương thích OEM cho khách hàng trên khắp Ấn Độ và thế giới, bao gồm xuất khẩu sang Nepal và Uganda.",
-      "Đội ngũ kỹ thuật của chúng tôi bao gồm các chuyên gia từng làm việc tại OEM Triveni, Siemens, BHEL, Belliss & Morcom, Man Turbo, KKK, và ABB — mang đến cho khách hàng cùng mức độ chuyên môn kỹ thuật như các nhà sản xuất thiết bị gốc, với chi phí và thời gian chờ chỉ bằng một phần nhỏ.",
-      "Chúng tôi bao phủ tua-bin hơi nước từ 5 kW đến 60 MW — đối áp và ngưng hơi, nằm ngang và thẳng đứng, đơn và đa cấp. Xưởng của chúng tôi được trang bị máy quét laser 3D, máy đo tọa độ CMM, máy cân bằng động (50–2.000 kg), và máy tiện CNC chính xác."
-    ],
     "coreCapabilitiesHeading": "Năng lực Cốt lõi",
     "coreCapabilitiesList": [
       "Lắp đặt tua-bin, chạy thử, và đại tu trọn gói",
@@ -110,33 +51,14 @@
         "linkLabel": "Xem Sản phẩm"
       },
       "rotorInspection": {
-        "caption": "Kiểm tra Rotor",
-        "desc": "Kỹ sư từng làm việc tại OEM đo và ghi lại mọi khe hở, khoảng cách, và kích thước trong quá trình kiểm tra — báo cáo tình trạng đầy đủ cho mỗi công việc."
+        "caption": "Kiểm tra Rotor"
       }
     },
     "browseFullCatalog": "Xem Toàn bộ Danh mục Sản phẩm"
   },
   "values": {
     "eyebrow": "Điều Thúc đẩy Chúng tôi",
-    "heading": "Giá trị Cốt lõi của Chúng tôi",
-    "items": [
-      {
-        "label": "Liêm chính Kỹ thuật",
-        "text": "Mọi linh kiện, mọi khe hở, mọi kích thước đều được ghi lại và xác minh. Không có đường tắt trên thiết bị quay quan trọng về an toàn."
-      },
-      {
-        "label": "Tiêu chuẩn Cấp độ OEM",
-        "text": "Kỹ sư từng làm việc tại OEM Triveni, Siemens, BHEL, và ABB cung cấp bảo trì theo cùng tiêu chuẩn với nhà sản xuất gốc."
-      },
-      {
-        "label": "Đổi mới trong Kỹ thuật Đảo ngược",
-        "text": "Quét 3D và kiểm tra PMI mang lại cho khách hàng quyền truy cập vào phụ tùng đã ngừng sản xuất mà không cần thời gian chờ OEM 12–18 tháng."
-      },
-      {
-        "label": "Thời gian Hoạt động của Khách hàng là Trên hết",
-        "text": "Chúng tôi đo lường thành công bằng tính sẵn sàng của nhà máy. Ứng phó khẩn cấp 24×7 vì việc ngừng hoạt động không tuân theo giờ làm việc."
-      }
-    ]
+    "heading": "Giá trị Cốt lõi của Chúng tôi"
   },
   "milestones": {
     "eyebrow": "Hành trình của Chúng tôi",
@@ -171,8 +93,6 @@
   },
   "team": {
     "eyebrow": "Con người Đằng sau Công việc",
-    "heading": "Chuyên môn Kỹ thuật Từng làm việc tại OEM",
-    "subheading": "Kỹ sư của chúng tôi được đào tạo và triển khai bên trong các nhà máy OEM và đội ngũ dịch vụ hiện trường — không chỉ đơn thuần được đào tạo trên thiết bị OEM. Sự khác biệt đó thể hiện trong chất lượng của mọi khe hở được ghi lại.",
     "expSuffix": "kinh nghiệm",
     "namesWithheldNote": "Tên được giữ kín để bảo vệ kỹ sư của chúng tôi khỏi sự chèo kéo của đối thủ cạnh tranh. Lịch sử làm việc có thể xác minh có sẵn cho các yêu cầu nghiêm túc.",
     "members": {
@@ -204,9 +124,7 @@
   },
   "oemSection": {
     "eyebrow": "Chuyên môn OEM",
-    "headingLine1": "10+ Thương hiệu OEM.",
-    "headingLine2": "Một Đối tác Kỹ thuật.",
-    "sub": "Kỹ sư từng làm việc tại OEM của chúng tôi có kinh nghiệm thực tế với tất cả các dòng tua-bin chính. Không có đường cong học tập. Chuyên môn kỹ thuật đáng tin cậy ngay từ ngày đầu."
+    "headingLine2": "Một Đối tác Kỹ thuật."
   },
   "exportSection": {
     "eyebrow": "Sẵn sàng Xuất khẩu",

@@ -10,7 +10,6 @@
     "duration": "12 ngày",
     "scope": "Đại tu trọn gói toàn diện: tháo rotor, thay ổ trục, gia công phớt mê cung, cân bằng động rotor (ISO 1940 G2.5), súc rửa dầu bôi trơn và chạy thử.",
     "challenge": "Tua-bin đã hoạt động với độ rung cao (>6 mm/s) trong hai mùa. Vỏ ổ trục cho thấy mòn fretting và rotor có độ đảo 1× dai dẳng mà bảo trì trước đó chưa khắc phục được.",
-    "solution": "Kỹ sư từng làm việc tại OEM Triveni tháo rời thiết bị và phát hiện ngõng trục bị nứt ở đầu dẫn động. Ngõng trục được gia công giảm kích thước, đổ và cạo babbitt mới, gia công mê cung tại xưởng chúng tôi, và cân bằng động rotor xuống <0,5 g·mm mất cân bằng dư. Độ rung sau chạy thử: 1,8 mm/s.",
     "outcomes": [
       "Độ rung giảm từ 6,4 mm/s xuống 1,8 mm/s",
       "Nhiệt độ kim loại ổ trục giảm 14 °C",

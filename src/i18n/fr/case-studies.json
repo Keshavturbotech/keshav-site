@@ -10,7 +10,6 @@
     "duration": "12 jours",
     "scope": "Révision complète clé en main : dépose du rotor, remplacement des paliers, usinage des joints labyrinthes, équilibrage dynamique du rotor (ISO 1940 G2.5), rinçage de l'huile de lubrification et mise en service.",
     "challenge": "La turbine fonctionnait avec des vibrations élevées (>6 mm/s) depuis deux saisons. Les logements de paliers présentaient une usure par fretting et le rotor avait un faux-rond persistant de type 1× que les entretiens précédents n'avaient pas résolu.",
-    "solution": "D'anciens ingénieurs OEM de Triveni ont démonté l'unité et découvert un tourillon fissuré côté entraînement. Le tourillon a été usiné en sous-cote, un nouveau métal antifriction (babbitt) coulé puis grattoir-fini, les labyrinthes usinés dans notre atelier, et le rotor équilibré dynamiquement jusqu'à un déséquilibre résiduel de <0,5 g·mm. Vibrations après mise en service : 1,8 mm/s.",
     "outcomes": [
       "Vibrations réduites de 6,4 mm/s à 1,8 mm/s",
       "Température du métal des paliers réduite de 14 °C",

@@ -5,7 +5,7 @@ import Layout from "../layouts/Layout.astro";
 import EnglishOnlyNotice from "../components/EnglishOnlyNotice.astro";
 import { CONTACT_INFO } from "../data/site-config";
 
-const lastUpdated = "19 June 2026";
+const lastUpdated = "4 November 2026";
 ---
 
 <Layout
@@ -59,6 +59,28 @@ const lastUpdated = "19 June 2026";
             collect what you submit — typically name, company, email, phone number, and the details
             of your enquiry. We do not require account creation and we do not process any payments
             on this site.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">Files you attach</h2>
+          <p>
+            The quote and contact forms let you attach one file (PDF, DWG, DXF, JPG or PNG, up to
+            10 MB), such as a drawing or a photo of a worn part. The file is sent with your enquiry
+            through the same form-processing service and reaches us by email. Please attach only
+            what is needed to quote your requirement, and tell us in your message if a drawing is
+            confidential.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-black text-slate-900 mb-3">WhatsApp</h2>
+          <p>
+            Buttons marked WhatsApp, and the WhatsApp option on the quote form, open WhatsApp (or
+            WhatsApp Web) with a pre-filled message to our number +{CONTACT_INFO.whatsapp}. Nothing
+            is sent until you press send in WhatsApp. Messages you send there are also handled
+            under WhatsApp's own terms and privacy policy, and we use them only to reply to your
+            enquiry.
           </p>
         </section>
 

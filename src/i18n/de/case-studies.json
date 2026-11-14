@@ -10,7 +10,6 @@
     "duration": "12 Tage",
     "scope": "Vollständige schlüsselfertige Überholung: Rotorausbau, Lageraustausch, Bearbeitung der Labyrinthdichtungen, dynamisches Rotorauswuchten (ISO 1940 G2.5), Schmierölspülung und Inbetriebnahme.",
     "challenge": "Die Turbine lief zwei Saisons lang mit erhöhter Vibration (>6 mm/s). Die Lagergehäuse zeigten Reibkorrosion, und der Rotor wies einen anhaltenden 1×-Rundlauffehler auf, den frühere Wartungen nicht behoben hatten.",
-    "solution": "Ex-Triveni-OEM-Ingenieure demontierten die Einheit und fanden einen gerissenen Wellenzapfen auf der Antriebsseite. Der Zapfen wurde untermaßig bearbeitet, neues Weißmetall gegossen und geschabt, die Labyrinthe in unserer Werkstatt bearbeitet und der Rotor auf eine Restunwucht von <0,5 g·mm dynamisch ausgewuchtet. Vibration nach Inbetriebnahme: 1,8 mm/s.",
     "outcomes": [
       "Vibration von 6,4 mm/s auf 1,8 mm/s reduziert",
       "Lagermetalltemperatur um 14 °C gesenkt",

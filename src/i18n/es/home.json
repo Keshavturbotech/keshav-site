@@ -1,40 +1,18 @@
 {
   "meta": {
     "title": "Keshav Enterprises — Revisión General y Repuestos de Turbinas de Vapor, Shamli UP India",
-    "description": "Ingenieros ex-OEM de turbinas de vapor de Triveni, Siemens, BHEL. Revisión general, ingeniería inversa, equilibrado dinámico, lavado de aceite lubricante y repuestos compatibles con OEM para turbinas de 5 kW–60 MW. Con sede en Shamli, UP. Soporte de emergencia 24×7.",
     "keywords": "mantenimiento de turbinas India, revisión general de turbinas de vapor, ingeniería inversa de turbinas, repuestos industriales para turbinas, elementos filtrantes de aceite lubricante, juntas de expansión India, servicio de turbinas Triveni, repuestos de turbinas BHEL, montaje de turbinas Uttar Pradesh, ingeniería Shamli"
   },
   "hero": {
     "badgeMakeInIndia": "Make in India",
     "badgeVocalForLocal": "Vocal For Local",
-    "badgeIndiaMartLabel": "Verificado por IndiaMART",
     "badgeIndiaMartRatingSuffix": "CALIFICACIÓN",
     "h1Line1": "Ingeniería de Precisión para",
     "h1Line2": "el Máximo Tiempo de Actividad.",
     "capabilityLine": "Turbinas de vapor de 5 kW a 60 MW — de contrapresión y de condensación, horizontales y verticales, de una y varias etapas. Servimos a clientes en toda la India y en todo el mundo.",
-    "introText": "Ingenieros ex-OEM de Triveni, Siemens, BHEL y 7 marcas más. Ponemos su turbina de nuevo en marcha más rápido que el abastecimiento OEM, con certificados PMI completos, informes de equilibrado ISO y un historial sin penalizaciones desde {businessSince}.",
     "ctaPrimary": "Envíenos Sus Requisitos",
     "ctaEmergency": "Avería de Emergencia",
-    "trustYearsOverhauls": "{years}+ años · 500+ revisiones generales",
-    "trustPmi": "Repuestos certificados PMI",
-    "trustResponse": "Respuesta media: 2 h",
-    "proofCards": [
-      {
-        "label": "Sin Curva de Aprendizaje",
-        "title": "Ingenieros Ex-OEM",
-        "sub": "Nuestro equipo ha trabajado dentro de Triveni, Siemens, BHEL y Belliss — la misma experiencia, entregada en su planta."
-      },
-      {
-        "label": "Cada Trabajo Documentado",
-        "title": "Informe en la Entrega",
-        "sub": "Certificados PMI, informes de equilibrado, registros de alineación, informes de estado — entregados al finalizar el trabajo."
-      },
-      {
-        "label": "Cuando Cada Minuto Cuenta",
-        "title": "Emergencia 24×7",
-        "sub": "Ingenieros en múltiples ubicaciones por toda la India. Llámenos a las 2 de la madrugada — alguien responde."
-      }
-    ]
+    "trustResponse": "Respuesta media: 2 h"
   },
   "oemMarquee": {
     "heading": "Compatible con OEM y de Confianza para Líderes de la Industria"
@@ -45,12 +23,10 @@
       "sub": "Plantas de azúcar, energía, papel y cemento por toda la India"
     },
     "years": {
-      "label": "Años en Servicio",
-      "sub": "Operación continua desde {founded} — sin cambios de propiedad"
+      "label": "Años en Servicio"
     },
     "penaltyClaims": {
-      "label": "Reclamaciones por Penalización",
-      "sub": "Cero en {businessYears} años — referencias de clientes disponibles a petición"
+      "label": "Reclamaciones por Penalización"
     },
     "emergency": {
       "label": "Respuesta de Emergencia",
@@ -69,7 +45,6 @@
   "servicesPreview": {
     "eyebrow": "Ciclo de Vida Integral de la Turbina",
     "heading": "Servicios Técnicos",
-    "subheading": "Los mismos ingenieros ex-OEM gestionan su revisión general, sus repuestos y su emergencia a las 2 de la madrugada — sin subcontratación, sin traspasos.",
     "painLines": {
       "srv_2": "¿Cansado de proveedores que llegan mal equipados y no entregan ningún informe de trabajo?",
       "srv_3": "¿El OEM cotizó meses para un repuesto que ya no está en producción?",
@@ -80,12 +55,8 @@
   },
   "testimonials": {
     "eyebrow": "Opiniones de Clientes",
-    "heading": "De Confianza para Jefes de Planta en Toda la India",
-    "googleRatingLabel": "+ reseñas verificadas en Google",
-    "disclaimer": "Las citas provienen de registros de proyectos finalizados y se abrevian a iniciales en espera del consentimiento por escrito para atribución completa. Para calificaciones verificadas de forma independiente, consulte nuestras reseñas de Google arriba.",
     "footerCtaPrefix": "¿Trabajó con nosotros?",
     "footerCtaLink": "Deje una reseña en Google — ayuda a otros jefes de planta a encontrarnos →",
-    "googleReviewBadge": "Reseña de Google",
     "items": [
       {
         "quote": "Sus ingenieros ex-Triveni gestionaron la revisión general de nuestra turbina Triveni de 12 MW durante la parada anual — todas las holguras documentadas, rotor equilibrado a ISO G1.0 y de nuevo en marcha antes de lo previsto. Primera vez en seis años sin problemas en el primer arranque.",

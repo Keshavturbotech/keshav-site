@@ -12,97 +12,7 @@
       "Turbines à vapeur",
       "Maintenance"
     ],
-    "coverImage": "blog-turbine-overhaul.webp",
-    "content": [
-      {
-        "type": "h2",
-        "text": "Pourquoi une liste de contrôle structurée est essentielle"
-      },
-      {
-        "type": "p",
-        "text": "Les arrêts non planifiés de turbines coûtent aux usines indiennes d'énergie et de sucre des lakhs de roupies par heure. Une liste de contrôle structurée garantit que rien n'est oublié pendant les fenêtres de maintenance planifiée — réduisant le risque de défaillance précoce après remise en service et évitant des arrêts répétés coûteux."
-      },
-      {
-        "type": "h2",
-        "text": "1. Planification avant arrêt (4 à 6 semaines avant)"
-      },
-      {
-        "type": "p",
-        "text": "Commencez par un cahier des charges détaillé couvrant tous les équipements tournants de la ligne. Inspectez toutes les pièces de rechange en stock et établissez un rapport de manques. Commandez les pièces critiques — paliers, joints, garnitures labyrinthes, bagues de carbone — avec un délai suffisant. Prévoyez les outils spécialisés : laser d'alignement, analyseur de vibrations, comparateurs à cadran, et jauges d'épaisseur."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Confirmer les données de jeu OEM pour tous les étages de la turbine",
-          "Prévoir l'équipement de rinçage d'huile de lubrification (unité de filtration à centrifugeuse mobile)",
-          "Réserver des ingénieurs anciens de l'OEM si nécessaire pour une révision majeure",
-          "Préparer les relevés de référence pour le suivi d'état (vibrations, température, pression)"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "2. Arrêt et consignation"
-      },
-      {
-        "type": "p",
-        "text": "Suivez la procédure d'arrêt spécifiée par l'OEM. Laissez un temps de refroidissement suffisant avant d'ouvrir toute bride. Consignez toutes les sources d'énergie, y compris la vapeur, l'huile de lubrification, les condensats et l'air de commande. Vidangez complètement le système d'huile de lubrification avant le démontage."
-      },
-      {
-        "type": "h2",
-        "text": "3. Démontage et inspection"
-      },
-      {
-        "type": "p",
-        "text": "Enregistrez tous les jeux, écarts et ajustements avant de retirer les composants — ces données sont essentielles pour les comparer à la spécification OEM et détecter les tendances d'usure. Photographiez chaque étape. Mesurez le faux-rond du rotor au niveau du tourillon, du collet de butée et des faces d'accouplement."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Jeux de paliers (radiaux et axiaux)",
-          "Jeux diamétraux des joints labyrinthes",
-          "Décalage et angularité de l'alignement de l'accouplement",
-          "État de la face de la bague de carbone et tension du ressort",
-          "État de la tuyère et du diaphragme, dimensions du col",
-          "État du siège et du disque de la vanne d'arrêt d'urgence (ESV)"
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "4. Réparations et remplacements en atelier"
-      },
-      {
-        "type": "p",
-        "text": "Envoyez le rotor pour rectification du tourillon et équilibrage dynamique si les relevés de faux-rond ou de vibration dépassaient la tolérance. Remplacez les bagues de presse-étoupe en carbone et graphite, les garnitures labyrinthes, et les paliers en régule selon le rapport d'état. Tout équilibrage de rotor doit être effectué selon les normes ISO 21940-11 (formerly ISO 1940)."
-      },
-      {
-        "type": "h2",
-        "text": "5. Remontage et alignement"
-      },
-      {
-        "type": "p",
-        "text": "Remontez dans l'ordre inverse avec des joints neufs et un couple de serrage des fixations conforme aux spécifications OEM. Effectuez l'alignement final du rotor à l'aide d'un équipement d'alignement laser — de la turbine au réducteur et du réducteur au générateur. Enregistrez tous les jeux après montage et confirmez qu'ils sont dans la tolérance OEM."
-      },
-      {
-        "type": "h2",
-        "text": "6. Rinçage d'huile de lubrification"
-      },
-      {
-        "type": "p",
-        "text": "Avant la mise en service, rincez le système d'huile de lubrification avec un système de filtration à centrifugeuse mobile en visant une classe de propreté ISO 4406 de 16/14/11 ou mieux. Prélevez des échantillons d'huile avant et après le rinçage et conservez les rapports. Ne mettez jamais une turbine en service sans avoir terminé un rinçage d'huile — les défaillances de paliers dues à une huile contaminée représentent une part importante des pannes post-révision."
-      },
-      {
-        "type": "h2",
-        "text": "7. Mise en service et premier démarrage"
-      },
-      {
-        "type": "p",
-        "text": "Suivez étape par étape la procédure de pré-mise en service de l'OEM. Surveillez en continu les vibrations, les températures de palier et la pression d'huile de lubrification durant la première montée en régime. Confirmez le fonctionnement de la vanne ESV et du régulateur. Affinez l'alignement si les niveaux de vibration sont élevés. Documentez tous les relevés de mise en service pour le registre de maintenance de l'usine."
-      },
-      {
-        "type": "cta",
-        "text": "Besoin d'ingénieurs experts en révision générale pour votre prochain arrêt planifié ? Notre équipe, ancienne des OEM, couvre Triveni, Siemens, BHEL, Belliss & Morcom, et plus encore."
-      }
-    ]
+    "coverImage": "blog-turbine-overhaul.webp"
   },
   "post_2": {
     "id": "post_2",
@@ -271,7 +181,6 @@
     "id": "post_4",
     "slug": "belliss-morcom-turbine-common-faults-india",
     "title": "Pannes courantes des turbines Belliss & Morcom — Guide de terrain pour les usines indiennes",
-    "excerpt": "Les turbines à vapeur Belliss & Morcom sont largement utilisées dans les sucreries et centrales de cogénération indiennes. Voici les pannes les plus courantes rencontrées par nos ingénieurs, anciens de l'OEM, et comment les diagnostiquer et les réparer.",
     "date": "2026-03-18",
     "author": "Keshav Enterprises Engineering Team",
     "readTime": "8 min de lecture",

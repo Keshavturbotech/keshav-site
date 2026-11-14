@@ -1,12 +1,11 @@
 {
   "meta": {
     "title": "Contacte al equipo de ingeniería — Solicite una cotización técnica",
-    "description": "Contacte a Keshav Enterprises para cotizaciones de ingeniería de turbinas, cotizaciones de ingeniería inversa y soporte de emergencia 24×7. Teléfono: +91 9149229448.",
+    "description": "Contacte a Keshav Enterprises para cotizaciones de ingeniería de turbinas, cotizaciones de ingeniería inversa y soporte de emergencia 24×7. Teléfono: +91 6397363268.",
     "schemaName": "Contactar a Keshav Enterprises"
   },
   "hero": {
     "title": "Hable con un ingeniero — no con un vendedor",
-    "subtitle": "Comparta sus requisitos y nuestro equipo de ingeniería — ex-OEM, no un call center — le responderá con una respuesta técnica dentro de 24 horas, porque usted necesita respuestas, no un folleto.",
     "trustSignals": [
       "Solicitud confidencial — nunca compartida con representantes de OEM",
       "Sin obligación — usted decide qué sigue",
@@ -38,10 +37,8 @@
     },
     "indiamart": {
       "ariaLabel": "Ver Keshav Enterprises en IndiaMART",
-      "title": "Verificado en IndiaMART",
       "ratingSrOnly": "4.3 de 5 estrellas",
-      "ratingText": "Calificación 4.3/5",
-      "trustSeal": "Proveedor TrustSeal"
+      "ratingText": "Calificación 4.3/5"
     },
     "connect": {
       "label": "Síganos"
@@ -58,12 +55,8 @@
     "descriptionSuffix": "en Google Maps — vea nuestro perfil, obtenga direcciones, o deje una reseña para ayudar a otros compradores a encontrarnos.",
     "cta": "Ver en Google"
   },
-  "facilityPhoto": {
-    "caption": "Nuestra planta de fabricación, Shamli, Uttar Pradesh",
-    "alt": "Planta de fabricación de Keshav Enterprises — Shamli, Uttar Pradesh"
-  },
+  "facilityPhoto": {},
   "map": {
-    "heading": "Nuestra planta de fabricación — Shamli, Uttar Pradesh",
     "iframeTitle": "Mapa de ubicación de Keshav Enterprises",
     "googleBusinessCta": "Google Business",
     "directionsCta": "Obtener direcciones"

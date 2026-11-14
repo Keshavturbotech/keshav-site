@@ -1,12 +1,11 @@
 {
   "meta": {
     "title": "Liên Hệ Đội Ngũ Kỹ Thuật — Yêu Cầu Báo Giá Kỹ Thuật",
-    "description": "Liên hệ Keshav Enterprises để gửi RFQ kỹ thuật tua-bin, báo giá reverse engineering, và hỗ trợ khẩn cấp sự cố 24×7. Điện thoại: +91 9149229448.",
+    "description": "Liên hệ Keshav Enterprises để gửi RFQ kỹ thuật tua-bin, báo giá reverse engineering, và hỗ trợ khẩn cấp sự cố 24×7. Điện thoại: +91 6397363268.",
     "schemaName": "Liên hệ Keshav Enterprises"
   },
   "hero": {
     "title": "Trao Đổi Trực Tiếp Với Kỹ Sư — Không Qua Bộ Phận Bán Hàng",
-    "subtitle": "Cho chúng tôi biết yêu cầu của bạn, đội ngũ kỹ thuật của chúng tôi — từng làm việc tại OEM, không phải tổng đài viên — sẽ phản hồi bằng câu trả lời kỹ thuật trong vòng 24 giờ, vì bạn cần câu trả lời, không phải một tờ brochure.",
     "trustSignals": [
       "RFQ được bảo mật tuyệt đối — không bao giờ chia sẻ với đại diện OEM",
       "Không ràng buộc — bạn là người quyết định bước tiếp theo",
@@ -38,10 +37,8 @@
     },
     "indiamart": {
       "ariaLabel": "Xem Keshav Enterprises trên IndiaMART",
-      "title": "Đã Xác Minh Trên IndiaMART",
       "ratingSrOnly": "4,3 trên 5 sao",
-      "ratingText": "Đánh giá 4,3/5",
-      "trustSeal": "Nhà Cung Cấp TrustSeal"
+      "ratingText": "Đánh giá 4,3/5"
     },
     "connect": {
       "label": "Kết Nối Với Chúng Tôi"
@@ -58,12 +55,8 @@
     "descriptionSuffix": "trên Google Maps — xem hồ sơ của chúng tôi, chỉ đường, hoặc để lại đánh giá giúp những khách hàng khác tìm thấy chúng tôi.",
     "cta": "Xem Trên Google"
   },
-  "facilityPhoto": {
-    "caption": "Nhà Máy Sản Xuất Của Chúng Tôi, Shamli, Uttar Pradesh",
-    "alt": "Nhà máy sản xuất Keshav Enterprises — Shamli, Uttar Pradesh"
-  },
+  "facilityPhoto": {},
   "map": {
-    "heading": "Nhà Máy Sản Xuất Của Chúng Tôi — Shamli, Uttar Pradesh",
     "iframeTitle": "Bản đồ vị trí Keshav Enterprises",
     "googleBusinessCta": "Google Doanh Nghiệp",
     "directionsCta": "Chỉ Đường"

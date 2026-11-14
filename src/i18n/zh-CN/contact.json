@@ -1,12 +1,11 @@
 {
   "meta": {
     "title": "联系工程团队 — 索取技术报价",
-    "description": "联系 Keshav Enterprises，获取汽轮机工程 RFQ、逆向工程报价及 24×7 紧急故障支持。电话：+91 9149229448。",
+    "description": "联系 Keshav Enterprises，获取汽轮机工程 RFQ、逆向工程报价及 24×7 紧急故障支持。电话：+91 6397363268。",
     "schemaName": "联系 Keshav Enterprises"
   },
   "hero": {
     "title": "直接对话工程师 — 而非销售人员",
-    "subtitle": "告诉我们您的需求，我们的工程团队——前 OEM 工程师，而非呼叫中心——将在 24 小时内给出技术答复，因为您需要的是答案，而不是一份宣传册。",
     "trustSignals": [
       "RFQ 严格保密 — 绝不透露给 OEM 代表",
       "无任何义务 — 后续如何进行由您决定",
@@ -38,10 +37,8 @@
     },
     "indiamart": {
       "ariaLabel": "在 IndiaMART 上查看 Keshav Enterprises",
-      "title": "IndiaMART 认证",
       "ratingSrOnly": "5 星中的 4.3 星",
-      "ratingText": "评分 4.3/5",
-      "trustSeal": "TrustSeal 认证供应商"
+      "ratingText": "评分 4.3/5"
     },
     "connect": {
       "label": "联系我们"
@@ -58,12 +55,8 @@
     "descriptionSuffix": "——查看我们的主页、获取路线，或留下评价以帮助其他买家找到我们。",
     "cta": "在 Google 上查看"
   },
-  "facilityPhoto": {
-    "caption": "我们位于印度北方邦沙姆利的生产基地",
-    "alt": "Keshav Enterprises 生产基地 — 北方邦沙姆利"
-  },
+  "facilityPhoto": {},
   "map": {
-    "heading": "我们的生产基地 — 北方邦沙姆利",
     "iframeTitle": "Keshav Enterprises 位置地图",
     "googleBusinessCta": "Google 商家信息",
     "directionsCta": "获取路线"

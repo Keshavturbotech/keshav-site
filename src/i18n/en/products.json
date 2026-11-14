@@ -4,7 +4,7 @@
     "sku": "KTB-IF-001",
     "category": "Industrial Filtration",
     "title": "Triveni Replacement Turbine Lube Oil Filter Elements",
-    "desc": "OEM-matched lube oil filter elements for the complete range of Triveni steam turbines: from small 4 GPM packaged units to large 140 GPM power station turbines. Nine standard flow-rated sizes cover every Triveni model including the FR-series and TST-series. Supplied in glass fiber, SS wire mesh (reusable), and polyester media. Duplex housing arrangement enables element change without turbine shutdown.",
+    "desc": "OEM-compatible lube oil filter elements for the complete range of Triveni steam turbines: from small 4 GPM packaged units to large 140 GPM power station turbines. Nine standard flow-rated sizes cover every Triveni model including the FR-series and TST-series. Supplied in glass fiber, SS wire mesh (reusable), and polyester media. Duplex housing arrangement enables element change without turbine shutdown.",
     "usage": "Primary lube oil filtration in Triveni steam turbines across power generation, sugar mills, steel plants, paper mills, cement plants, petrochemical refineries, and agro-industrial co-generation. Compatible with Triveni turbine models FR13, FR13B, FR2, FR2B, FR14A, FR14M, FR14M3HB, FR2S, TST-1030, TST-1030-M, TST-1030-MB, TST-1030-SBM, TST-1060-EB, TST-1060-SB and all other Triveni variants.",
     "features": [
       "Nine standard flow-rated sizes: 4, 8, 15, 25, 35, 45, 90, 120, 140 GPM, custom up to 800 GPM on request",
@@ -84,7 +84,7 @@
     "sku": "KTB-IF-002",
     "category": "Industrial Filtration",
     "title": "Siemens Replacement Turbine Lube Oil Filter Elements",
-    "desc": "OEM-matched lube oil filter elements for Siemens industrial steam turbines (SST series) and gas turbines (SGT series). Microglass deep media with IS27 anti-static specification protects lube oil systems (bearings, journal pads, and gear meshes) from particle contamination. Eaton 01.E series dimensional compatible for drop-in housing fit.",
+    "desc": "OEM-compatible lube oil filter elements for Siemens industrial steam turbines (SST series) and gas turbines (SGT series). Microglass deep media with IS27 anti-static specification protects lube oil systems (bearings, journal pads, and gear meshes) from particle contamination. Eaton 01.E series dimensional compatible for drop-in housing fit.",
     "usage": "Primary lube oil filtration in Siemens SST-200, SST-300, SST-400, SST-600, SST-800, SST-900 steam turbines and SGT-100 to SGT-800 gas turbines. Protects journal bearings, thrust pads, and gear train lubrication circuits. 850 LPM flow rating covers duplex lube oil filter housing applications in turbines up to 250 MW. Critical during commissioning and post-overhaul startup to prevent particle-induced bearing damage.",
     "features": [
       "850 LPM flow rating for duplex turbine lube oil filter applications: covers SST/SGT turbines up to 250 MW",
@@ -4036,7 +4036,7 @@
     "sku": "KTB-IF-014",
     "category": "Industrial Filtration",
     "title": "Triveni Replacement Turbine Control Oil Filters",
-    "desc": "OEM-matched control oil filter elements for Triveni steam turbine electrohydraulic governing systems. Designed to maintain ISO 4406 cleanliness class 16/14/11 protecting high-sensitivity servo valves. Three standard dimensional configurations cover the complete range of Triveni turbine models from FR-series to TST-series. Max working pressure up to 210 bar; max temperature 250°C. Supplied in imported glass fiber (β₂₀₀ to β₁₀₀₀ absolute), Twill Dutch Weave SS wire mesh (reusable), or synthetic paper media.",
+    "desc": "OEM-compatible control oil filter elements for Triveni steam turbine electrohydraulic governing systems. Designed to maintain ISO 4406 cleanliness class 16/14/11 protecting high-sensitivity servo valves. Three standard dimensional configurations cover the complete range of Triveni turbine models from FR-series to TST-series. Max working pressure up to 210 bar; max temperature 250°C. Supplied in imported glass fiber (β₂₀₀ to β₁₀₀₀ absolute), Twill Dutch Weave SS wire mesh (reusable), or synthetic paper media.",
     "usage": "Control oil filtration in Triveni turbine governing systems: particularly critical during commissioning and post-overhaul startup to protect servo valves from particle-induced failure. Compatible with Triveni models FR13, FR13B, FR2, FR2B, FR14A, FR14M, FR14M3HB, FR2S, TST-1030, TST-1030-M, TST-1030-MB, TST-1030-SBM, TST-1060-EB, TST-1060-SB and all other Triveni variants. Protects servo valves with clearances below 5 µm, ISO 4406 Class 16/14/11 required.",
     "features": [
       "Triveni turbine governing system compatible: drop-in element replacement; no housing modification required",
@@ -5770,10 +5770,10 @@
     "sku": "KTB-IF-024",
     "category": "Industrial Filtration",
     "title": "BHEL Replacement Turbine Lube Oil Filter Elements",
-    "desc": "OEM-matched lube oil filter elements for BHEL steam turbines (100 MW to 500 MW class, including TG sets manufactured at BHEL Haridwar and BHEL Trichy). Designed to protect BHEL lube oil systems (journal bearings, thrust pads, and jacking oil systems) from particle contamination.",
+    "desc": "OEM-compatible lube oil filter elements for BHEL steam turbines (100 MW to 500 MW class, including TG sets manufactured at BHEL Haridwar and BHEL Trichy). Designed to protect BHEL lube oil systems (journal bearings, thrust pads, and jacking oil systems) from particle contamination.",
     "usage": "Primary lube oil filtration in BHEL steam turbines used in central public sector thermal power stations (NTPC, APGENCO, WBPDCL, MSPGCL, UPRVUNL, and state utilities). Also suitable for BHEL turbo-sets in captive power plants, steel plants, and process industries. Compatible with BHEL duplex lube oil filter housings and basket strainer internals supplied as part of BHEL turbine lube oil skids.",
     "features": [
-      "OEM-matched for BHEL turbine lube oil systems: 100 MW, 200 MW, 210 MW, 250 MW, 500 MW class TG sets",
+      "OEM-compatible for BHEL turbine lube oil systems: 100 MW, 200 MW, 210 MW, 250 MW, 500 MW class TG sets",
       "Compatible with BHEL duplex lube oil filter housings: drop-in replacement without housing modification",
       "Filtration fineness: 10, 25, 40 µm (ISO 16889 rated); finer on request for servo system protection",
       "Filter media: Imported glass fiber (nominal and absolute), SS wire mesh (reusable), Hydroclean paper",
@@ -5832,10 +5832,10 @@
     "sku": "KTB-IF-025",
     "category": "Industrial Filtration",
     "title": "HTC Replacement Turbine Filter Elements",
-    "desc": "OEM-matched lube oil and control oil filter elements for HTC (Hindustan Turbines Corporation) steam turbines. Drop-in compatible with HTC filter housings for lube oil and governing system filtration.",
+    "desc": "OEM-compatible lube oil and control oil filter elements for HTC (Hindustan Turbines Corporation) steam turbines. Drop-in compatible with HTC filter housings for lube oil and governing system filtration.",
     "usage": "Lube oil and control oil filtration in HTC steam turbines used in sugar mills, paper mills, captive power plants, and process industries across India. Compatible with HTC centrifugal filter housings and standard duplex basket-type lube oil filters supplied as part of HTC turbine lube oil systems.",
     "features": [
-      "OEM-matched for HTC steam turbines: lube oil and control oil filter positions",
+      "OEM-compatible for HTC steam turbines: lube oil and control oil filter positions",
       "Compatible with HTC centrifugal filter housing (CEP type) and standard basket-type duplex housings",
       "Filtration fineness: 10, 25, 40, 80 µm, specify HTC turbine model and filter position",
       "Filter media: SS wire mesh (reusable, CEP type), glass fiber (duplex lube oil housing)",
@@ -6380,7 +6380,7 @@
     "category": "Valves, Gaskets & Steam System Products",
     "title": "Safety Relief Valves (SRV / PSV): Spring-Loaded",
     "desc": "Spring-loaded safety relief valves (SRV/PSV) for overpressure protection of steam boilers, pressure vessels, steam headers, heat exchangers, and process piping. Supplied to API 526 (flanged steel SRVs for process plant), ASME Section I (power boiler safety valves, snap-action), and ASME Section VIII (pressure vessel relief valves). Three types: Conventional spring-loaded (standard), Balanced bellows (variable or high back-pressure service), Pilot-operated (high set-pressure accuracy, minimum blowdown, large orifice). Body materials from carbon steel through SS 316 and exotic alloys. IBR certification available for Indian boiler and steam system applications.",
-    "usage": "Mandatory on every pressure vessel and steam boiler in Indian plants: required under IBR (Indian Boiler Regulations), Factories Act, and IS/ASME codes. Critical applications: steam boiler drum SRVs (ASME Section I / IBR), turbine steam inlet header SRVs, lube oil system relief valves, heat exchanger shell-side relief, hydraulic accumulator safety relief, and thermal relief valves (TRVs) on blocked-in liquid lines. Supplied as direct OEM-matched replacements (specify make, model, set pressure, orifice designation, and inlet/outlet size), or as new installation valves with sizing calculation to API 520.",
+    "usage": "Mandatory on every pressure vessel and steam boiler in Indian plants: required under IBR (Indian Boiler Regulations), Factories Act, and IS/ASME codes. Critical applications: steam boiler drum SRVs (ASME Section I / IBR), turbine steam inlet header SRVs, lube oil system relief valves, heat exchanger shell-side relief, hydraulic accumulator safety relief, and thermal relief valves (TRVs) on blocked-in liquid lines. Supplied as direct OEM-compatible replacements (specify make, model, set pressure, orifice designation, and inlet/outlet size), or as new installation valves with sizing calculation to API 520.",
     "features": [
       "Three designs: Conventional spring-loaded, Balanced bellows (for variable back-pressure service), Pilot-operated (high accuracy, low blowdown, high capacity)",
       "Fluid service: Steam (ASME Section I / VIII), Gas/Vapour, Liquid (proportional relief), Two-phase, specify at enquiry",
@@ -6840,7 +6840,7 @@
     "sku": "KTB-TS-037",
     "category": "Turbine Spares",
     "title": "Steam Turbine Overspeed Trip Device & Speed Switch",
-    "desc": "Overspeed trip devices and speed switches for steam turbine protection against catastrophic runaway. Mechanical overspeed trip assemblies use a centrifugal unbalanced plunger or eccentric pin mounted in the turbine shaft: when shaft speed exceeds the trip threshold (typically 110–112% of rated speed), centrifugal force overcomes the pre-set spring force, the plunger protrudes and strikes a trip lever, dumping the hydraulic trip oil header and closing the Emergency Stop Valve (ESV) instantly. Electronic overspeed trip units use magnetic pickup sensors (MPUs) and a speed monitoring relay to provide independent, SIL-rated trip output. Supplied as OEM-matched replacement assemblies or as upgraded electronic trip units for older mechanically governed turbines.",
+    "desc": "Overspeed trip devices and speed switches for steam turbine protection against catastrophic runaway. Mechanical overspeed trip assemblies use a centrifugal unbalanced plunger or eccentric pin mounted in the turbine shaft: when shaft speed exceeds the trip threshold (typically 110–112% of rated speed), centrifugal force overcomes the pre-set spring force, the plunger protrudes and strikes a trip lever, dumping the hydraulic trip oil header and closing the Emergency Stop Valve (ESV) instantly. Electronic overspeed trip units use magnetic pickup sensors (MPUs) and a speed monitoring relay to provide independent, SIL-rated trip output. Supplied as OEM-compatible replacement assemblies or as upgraded electronic trip units for older mechanically governed turbines.",
     "usage": "Mandatory safety device on every steam turbine: protects against destruction of blades, casing, and coupled driven equipment (generator, compressor, pump) when the speed governor fails to control speed after a load trip. Critical during turbine overhauls: overspeed trip plunger springs, bushings, and adjustment assemblies require inspection, dimensional checking, and replacement at every major overhaul. Also required for operational testing, annual or per-shutdown overspeed trip test by controlled speed raise to trip setpoint. Keshav Enterprises supplies: mechanical trip plunger assemblies (complete with spring, bushing, and adjustment nut), electronic speed relays (Woodward ProTech-compatible), magnetic pickup sensors (MPUs) for speed signal input, and trip oil dump valves for hydraulic trip circuits.",
     "features": [
       "Mechanical trip type: Eccentric pin / unbalanced plunger in turbine shaft, centrifugal actuation; no external power required",
@@ -6972,12 +6972,12 @@
     "sku": "KTB-AF-002",
     "category": "HVAC, Ducting & Air Filtration",
     "title": "Activated Carbon Vent Filter: Recirculating Air",
-    "desc": "Activated carbon charcoal air filters for microwave ovens, range hoods, kitchen exhaust ventilation, and general recirculating air purification. The activated carbon granule or carbon-impregnated foam media adsorbs cooking odours, grease vapour, VOCs, and airborne chemical contaminants. Supplied as direct-fit OEM-matched replacement cartridges or universal panels to fit standard appliance filter housings. For industrial and commercial applications: activated carbon panel and granule-bed vent filters for odour control in HVAC recirculating loops, fume cupboards, and solvent-vapour extraction systems.",
+    "desc": "Activated carbon charcoal air filters for microwave ovens, range hoods, kitchen exhaust ventilation, and general recirculating air purification. The activated carbon granule or carbon-impregnated foam media adsorbs cooking odours, grease vapour, VOCs, and airborne chemical contaminants. Supplied as direct-fit OEM-compatible replacement cartridges or universal panels to fit standard appliance filter housings. For industrial and commercial applications: activated carbon panel and granule-bed vent filters for odour control in HVAC recirculating loops, fume cupboards, and solvent-vapour extraction systems.",
     "usage": "Domestic: Microwave oven recirculating air filter replacement; range hood charcoal filter; kitchen exhaust vent filter where ducting to exterior is not available, recirculating air passes through activated carbon to remove cooking odours and VOCs before return to kitchen. Commercial/Industrial: Activated carbon vent filters for HVAC recirculating systems, fume cupboard odour control, laboratory air purification, solvent storage room ventilation, and printing/painting shop odour management.",
     "features": [
       "Activated carbon media: granular activated carbon (GAC) bed or carbon-impregnated polyurethane foam per application",
       "Adsorption targets: cooking odours, grease vapour, smoke, VOCs, formaldehyde, hydrogen sulphide, ammonia, and general household/industrial odours",
-      "Domestic OEM-matched: supplied to fit standard microwave oven and range hood filter slots (common brands and sizes covered; custom cut-to-size on request)",
+      "Domestic OEM-compatible: supplied to fit standard microwave oven and range hood filter slots (common brands and sizes covered; custom cut-to-size on request)",
       "Industrial/commercial grades: activated carbon panel filters (25 mm and 50 mm bed depth), granule tray filters, and carbon-impregnated polyester panel combinations",
       "Carbon bed depth: 12–50 mm (domestic to industrial), deeper bed = greater adsorption capacity and longer service life",
       "Activated carbon type: Coconut shell carbon (highest surface area, best VOC removal), coal-based carbon, or impregnated carbon for specific contaminants (e.g. impregnated with KOH for acid gas removal)",
@@ -6990,7 +6990,7 @@
     "specs": {
       "Media Type": "Granular Activated Carbon (GAC) / Carbon-impregnated PU foam / Carbon panel",
       "Adsorption Targets": "Cooking odours, VOCs, grease vapour, smoke, H₂S, NH₃, formaldehyde",
-      "Domestic Fit": "OEM-matched microwave and range hood replacement cartridges",
+      "Domestic Fit": "OEM-compatible microwave and range hood replacement cartridges",
       "Industrial Grades": "25 mm and 50 mm carbon panel; granule tray; carbon + pre-filter combination",
       "Carbon Type": "Coconut shell GAC / Coal-based / Impregnated (KOH, KMnO₄ per application)",
       "Carbon Bed Depth": "12–50 mm (domestic to industrial)",
@@ -7411,6 +7411,73 @@
     "certifications": [
       "EN 10204"
     ]
+  },
+  "prod_ts_silencer": {
+    "id": "prod_ts_silencer",
+    "sku": "KTB-TS-040",
+    "category": "Turbine Spares",
+    "title": "Steam Turbine Silencers: Vent, Exhaust & Safety Valve",
+    "desc": "Steam vent, exhaust and safety valve silencers that cut the noise of high-pressure steam discharging to atmosphere from steam turbine installations: back-pressure turbine exhaust relief vents, start-up and warm-up vents, turbine inlet and extraction safety valve outlets, and steam blowing during commissioning. Each silencer is designed and fabricated by us to the client's requirement, combining a multi-hole diffuser stage that slows and spreads the steam jet with an absorptive packed section, sized to the application's steam flow, pressure, temperature and the dB(A) limit required at your reference distance. Supplied in carbon steel, or in stainless steel with an alloy-steel inlet for superheated steam.",
+    "usage": "Fitted at the outlet of safety valves, atmospheric relief valves and vent lines on steam turbine and boiler plants in sugar and distillery, paper and pulp, steel, petrochemical and power generation units: turbine exhaust relief vents on back-pressure turbines, turbine start-up and warm-up vents, turbine inlet and extraction safety valve outlets, PRDS station safety valve outlets, and air ejector exhaust vents on condensing turbines. Also supplied as a replacement for corroded, noisy or failed silencers on existing vents, designed and fabricated to the old unit's connection and mounting dimensions or reverse engineered from a sample or photographs where drawings are unavailable, and as temporary steam-blowing silencers for pipe cleaning during turbine erection and commissioning.",
+    "features": [
+      "Silencer types: combination diffuser plus absorptive vent silencer (standard); reactive expansion-chamber stage added where low-frequency noise is dominant",
+      "Multi-hole inlet diffuser reduces steam velocity and breaks up the jet before it enters the absorptive section",
+      "Absorptive section: high-density mineral wool or ceramic fibre packing held behind a perforated liner and stainless steel wire mesh to resist fibre loss and erosion",
+      "Designed and fabricated by us for each application from steam flow (kg/h), inlet pressure and temperature, line size and the dB(A) target at a stated distance; every unit is made to order, not a catalogue pick",
+      "Typical noise reduction of 50 to 80 dB(A), depending on flow, pressure and design; the target value is agreed and written on the approved datasheet",
+      "Materials: carbon steel (IS 2062 / SA 516 Gr 70) for saturated and moderate-temperature service; SS 304 / 316 or alloy-steel inlet section for superheated steam up to approx. 540°C",
+      "Connections: flanged (ASME B16.5 / DIN) or butt-weld inlet, 200 NB to 600 NB standard, other sizes as per customer request",
+      "Condensate drain connection at the lowest point prevents the packing from waterlogging after a steam release",
+      "Weather hood or rain cap at the outlet; vertical stack mounting as standard, horizontal on request",
+      "Supporting lugs, base flange and lifting lugs provided; hot-face insulation or personnel-protection cladding optional",
+      "Replacement and reverse-engineered units for existing vents where the original silencer has corroded, lost its packing or become noisy",
+      "Supplied with general arrangement drawing and datasheet; material test certificates on request"
+    ],
+    "specs": {
+      "Silencer Type": "Diffuser + absorptive (standard); reactive stage on request",
+      "Service": "Steam vent, turbine exhaust relief, safety valve outlet, start-up / warm-up vent, steam blowing",
+      "Inlet Size Range": "200 NB to 600 NB; other sizes as per customer request",
+      "Inlet Connection": "Flanged (ASME B16.5 / DIN) or butt-weld",
+      "Design Basis": "Steam flow (kg/h), inlet pressure, temperature and required dB(A) supplied by customer",
+      "Noise Reduction": "Typically 50–80 dB(A), design dependent; target stated on datasheet",
+      "Temperature Rating": "Up to approx. 540°C superheated steam (alloy-steel inlet section)",
+      "Body Material": "Carbon steel (IS 2062 / SA 516 Gr 70) or SS 304 / 316",
+      "Diffuser Material": "Carbon steel, SS 304 / 316 or alloy steel, per steam temperature",
+      "Acoustic Packing": "High-density mineral wool or ceramic fibre, SS wire mesh retained",
+      "Orientation": "Vertical stack-mounted (standard); horizontal on request",
+      "Drain and Outlet": "Condensate drain at lowest point; weather hood / rain cap at outlet",
+      "Finish": "Heat-resistant paint; insulation / cladding optional",
+      "Documents": "GA drawing and datasheet; material test certificates on request",
+      "HSN Code": "84069000"
+    },
+    "images": [
+      "steam-turbine-silencer-1.webp",
+      "steam-turbine-silencer-2.webp",
+      "steam-turbine-silencer-3.webp",
+      "steam-turbine-silencer-4.webp",
+      "steam-turbine-silencer-5.webp",
+      "steam-turbine-silencer-6.webp",
+      "steam-turbine-silencer-7.webp",
+      "steam-turbine-silencer-8.webp",
+      "steam-turbine-silencer-9.webp",
+      "steam-turbine-silencer-10.webp",
+      "steam-turbine-silencer-11.webp",
+      "steam-turbine-silencer-12.webp"
+    ],
+    "slug": "steam-turbine-silencers",
+    "categorySlug": "turbine-spares",
+    "priceRange": {
+      "min": 40000,
+      "max": 400000,
+      "unit": "per unit",
+      "note": "Carbon steel to SS; sized to steam flow, pressure & dB(A) target"
+    },
+    "availability": {
+      "label": "Made to Order",
+      "color": "amber",
+      "leadTime": "2–6 weeks"
+    },
+    "certifications": []
   },
   "prod_f_cenlub": {
     "id": "prod_f_cenlub",

@@ -1,40 +1,18 @@
 {
   "meta": {
     "title": "Keshav Enterprises — Overhaul & Suku Cadang Turbin Uap, Shamli UP India",
-    "description": "Insinyur turbin uap eks-OEM dari Triveni, Siemens, BHEL. Overhaul, rekayasa balik, penyeimbangan dinamis, pembersihan oli pelumas & suku cadang kompatibel OEM untuk turbin 5 kW–60 MW. Berbasis di Shamli, UP. Dukungan darurat 24×7.",
     "keywords": "perawatan turbin India, overhaul turbin uap, rekayasa balik turbin, suku cadang turbin industri, elemen filter oli pelumas, sambungan ekspansi India, layanan turbin Triveni, suku cadang turbin BHEL, pemasangan turbin Uttar Pradesh, teknik Shamli"
   },
   "hero": {
     "badgeMakeInIndia": "Make in India",
     "badgeVocalForLocal": "Vocal For Local",
-    "badgeIndiaMartLabel": "IndiaMART Terverifikasi",
     "badgeIndiaMartRatingSuffix": "RATING",
     "h1Line1": "Rekayasa Presisi untuk",
     "h1Line2": "Uptime Maksimal.",
     "capabilityLine": "Turbin uap dari 5 kW hingga 60 MW — back-pressure dan condensing, horizontal dan vertikal, single dan multi-stage. Melayani pelanggan di seluruh India dan dunia.",
-    "introText": "Insinyur eks-OEM untuk Triveni, Siemens, BHEL & 7 merek lainnya. Kami mengembalikan turbin Anda beroperasi lebih cepat daripada pengadaan OEM — dengan sertifikat PMI lengkap, laporan penyeimbangan ISO, dan rekam jejak tanpa penalti sejak {businessSince}.",
     "ctaPrimary": "Kirim Kebutuhan Anda",
     "ctaEmergency": "Gangguan Darurat",
-    "trustYearsOverhauls": "{years}+ tahun · 500+ overhaul",
-    "trustPmi": "Suku cadang bersertifikat PMI",
-    "trustResponse": "Respons rata-rata: 2 jam",
-    "proofCards": [
-      {
-        "label": "Tanpa Kurva Belajar",
-        "title": "Insinyur Eks-OEM",
-        "sub": "Tim kami pernah bekerja di dalam Triveni, Siemens, BHEL & Belliss — keahlian yang sama, disampaikan ke pabrik Anda."
-      },
-      {
-        "label": "Setiap Pekerjaan Terdokumentasi",
-        "title": "Laporan Saat Pengiriman",
-        "sub": "Sertifikat PMI, laporan penyeimbangan, catatan penyelarasan, laporan kondisi — diserahkan saat pekerjaan selesai."
-      },
-      {
-        "label": "Saat Setiap Menit Berarti",
-        "title": "Darurat 24×7",
-        "sub": "Insinyur di berbagai lokasi di seluruh India. Hubungi kami jam 2 pagi — seseorang akan menjawab."
-      }
-    ]
+    "trustResponse": "Respons rata-rata: 2 jam"
   },
   "oemMarquee": {
     "heading": "Kompatibel OEM & Dipercaya oleh Pemimpin Industri"
@@ -45,12 +23,10 @@
       "sub": "Pabrik gula, listrik, kertas & semen di seluruh India"
     },
     "years": {
-      "label": "Tahun Beroperasi",
-      "sub": "Operasi berkelanjutan sejak {founded} — tanpa perubahan kepemilikan"
+      "label": "Tahun Beroperasi"
     },
     "penaltyClaims": {
-      "label": "Klaim Penalti",
-      "sub": "Nol dalam {businessYears} tahun — referensi klien tersedia atas permintaan"
+      "label": "Klaim Penalti"
     },
     "emergency": {
       "label": "Respons Darurat",
@@ -69,7 +45,6 @@
   "servicesPreview": {
     "eyebrow": "Siklus Hidup Turbin End-to-End",
     "heading": "Layanan Teknis",
-    "subheading": "Insinyur eks-OEM yang sama menangani overhaul Anda, suku cadang Anda, dan keadaan darurat jam 2 pagi Anda — tanpa sub-kontrak, tanpa serah terima.",
     "painLines": {
       "srv_2": "Lelah dengan vendor yang datang tanpa peralatan memadai dan tidak memberikan laporan pekerjaan?",
       "srv_3": "OEM menawarkan waktu tunggu berbulan-bulan untuk suku cadang yang sudah tidak diproduksi lagi?",
@@ -80,12 +55,8 @@
   },
   "testimonials": {
     "eyebrow": "Umpan Balik Klien",
-    "heading": "Dipercaya oleh Manajer Pabrik di Seluruh India",
-    "googleRatingLabel": "+ ulasan terverifikasi di Google",
-    "disclaimer": "Kutipan diambil dari catatan proyek yang telah selesai dan disingkat menjadi inisial hingga ada persetujuan tertulis untuk atribusi lengkap. Untuk rating yang diverifikasi secara independen, lihat ulasan Google kami di atas.",
     "footerCtaPrefix": "Pernah bekerja sama dengan kami?",
     "footerCtaLink": "Tinggalkan ulasan Google — ini membantu manajer pabrik lain menemukan kami →",
-    "googleReviewBadge": "Ulasan Google",
     "items": [
       {
         "quote": "Insinyur eks-Triveni mereka menangani overhaul turbin Triveni 12 MW kami selama shutdown tahunan — semua celah terdokumentasi, rotor diseimbangkan ke ISO G1.0, dan kembali beroperasi lebih cepat dari jadwal. Pertama kalinya dalam enam tahun kami tanpa masalah saat start-up pertama.",

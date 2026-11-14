@@ -12,7 +12,7 @@ export const FILTRATION_PRODUCTS = [
       sku: "KTB-IF-001",
       category: "Industrial Filtration",
       title: "Triveni Replacement Turbine Lube Oil Filter Elements",
-      desc: "OEM-matched lube oil filter elements for the complete range of Triveni steam turbines: from small 4 GPM packaged units to large 140 GPM power station turbines. Nine standard flow-rated sizes cover every Triveni model including the FR-series and TST-series. Supplied in glass fiber, SS wire mesh (reusable), and polyester media. Duplex housing arrangement enables element change without turbine shutdown.",
+      desc: "OEM-compatible lube oil filter elements for the complete range of Triveni steam turbines: from small 4 GPM packaged units to large 140 GPM power station turbines. Nine standard flow-rated sizes cover every Triveni model including the FR-series and TST-series. Supplied in glass fiber, SS wire mesh (reusable), and polyester media. Duplex housing arrangement enables element change without turbine shutdown.",
       usage:
         "Primary lube oil filtration in Triveni steam turbines across power generation, sugar mills, steel plants, paper mills, cement plants, petrochemical refineries, and agro-industrial co-generation. Compatible with Triveni turbine models FR13, FR13B, FR2, FR2B, FR14A, FR14M, FR14M3HB, FR2S, TST-1030, TST-1030-M, TST-1030-MB, TST-1030-SBM, TST-1060-EB, TST-1060-SB and all other Triveni variants.",
       features: [
@@ -77,7 +77,7 @@ export const FILTRATION_PRODUCTS = [
       sku: "KTB-IF-002",
       category: "Industrial Filtration",
       title: "Siemens Replacement Turbine Lube Oil Filter Elements",
-      desc: "OEM-matched lube oil filter elements for Siemens industrial steam turbines (SST series) and gas turbines (SGT series). Microglass deep media with IS27 anti-static specification protects lube oil systems (bearings, journal pads, and gear meshes) from particle contamination. Eaton 01.E series dimensional compatible for drop-in housing fit.",
+      desc: "OEM-compatible lube oil filter elements for Siemens industrial steam turbines (SST series) and gas turbines (SGT series). Microglass deep media with IS27 anti-static specification protects lube oil systems (bearings, journal pads, and gear meshes) from particle contamination. Eaton 01.E series dimensional compatible for drop-in housing fit.",
       usage:
         "Primary lube oil filtration in Siemens SST-200, SST-300, SST-400, SST-600, SST-800, SST-900 steam turbines and SGT-100 to SGT-800 gas turbines. Protects journal bearings, thrust pads, and gear train lubrication circuits. 850 LPM flow rating covers duplex lube oil filter housing applications in turbines up to 250 MW. Critical during commissioning and post-overhaul startup to prevent particle-induced bearing damage.",
       features: [
@@ -603,7 +603,7 @@ export const FILTRATION_PRODUCTS = [
       sku: "KTB-IF-014",
       category: "Industrial Filtration",
       title: "Triveni Replacement Turbine Control Oil Filters",
-      desc: "OEM-matched control oil filter elements for Triveni steam turbine electrohydraulic governing systems. Designed to maintain ISO 4406 cleanliness class 16/14/11 protecting high-sensitivity servo valves. Three standard dimensional configurations cover the complete range of Triveni turbine models from FR-series to TST-series. Max working pressure up to 210 bar; max temperature 250°C. Supplied in imported glass fiber (β₂₀₀ to β₁₀₀₀ absolute), Twill Dutch Weave SS wire mesh (reusable), or synthetic paper media.",
+      desc: "OEM-compatible control oil filter elements for Triveni steam turbine electrohydraulic governing systems. Designed to maintain ISO 4406 cleanliness class 16/14/11 protecting high-sensitivity servo valves. Three standard dimensional configurations cover the complete range of Triveni turbine models from FR-series to TST-series. Max working pressure up to 210 bar; max temperature 250°C. Supplied in imported glass fiber (β₂₀₀ to β₁₀₀₀ absolute), Twill Dutch Weave SS wire mesh (reusable), or synthetic paper media.",
       usage:
         "Control oil filtration in Triveni turbine governing systems: particularly critical during commissioning and post-overhaul startup to protect servo valves from particle-induced failure. Compatible with Triveni models FR13, FR13B, FR2, FR2B, FR14A, FR14M, FR14M3HB, FR2S, TST-1030, TST-1030-M, TST-1030-MB, TST-1030-SBM, TST-1060-EB, TST-1060-SB and all other Triveni variants. Protects servo valves with clearances below 5 µm, ISO 4406 Class 16/14/11 required.",
       features: [
@@ -1104,11 +1104,11 @@ export const FILTRATION_PRODUCTS = [
       sku: "KTB-IF-024",
       category: "Industrial Filtration",
       title: "BHEL Replacement Turbine Lube Oil Filter Elements",
-      desc: "OEM-matched lube oil filter elements for BHEL steam turbines (100 MW to 500 MW class, including TG sets manufactured at BHEL Haridwar and BHEL Trichy). Designed to protect BHEL lube oil systems (journal bearings, thrust pads, and jacking oil systems) from particle contamination.",
+      desc: "OEM-compatible lube oil filter elements for BHEL steam turbines (100 MW to 500 MW class, including TG sets manufactured at BHEL Haridwar and BHEL Trichy). Designed to protect BHEL lube oil systems (journal bearings, thrust pads, and jacking oil systems) from particle contamination.",
       usage:
         "Primary lube oil filtration in BHEL steam turbines used in central public sector thermal power stations (NTPC, APGENCO, WBPDCL, MSPGCL, UPRVUNL, and state utilities). Also suitable for BHEL turbo-sets in captive power plants, steel plants, and process industries. Compatible with BHEL duplex lube oil filter housings and basket strainer internals supplied as part of BHEL turbine lube oil skids.",
       features: [
-        "OEM-matched for BHEL turbine lube oil systems: 100 MW, 200 MW, 210 MW, 250 MW, 500 MW class TG sets",
+        "OEM-compatible for BHEL turbine lube oil systems: 100 MW, 200 MW, 210 MW, 250 MW, 500 MW class TG sets",
         "Compatible with BHEL duplex lube oil filter housings: drop-in replacement without housing modification",
         "Filtration fineness: 10, 25, 40 µm (ISO 16889 rated); finer on request for servo system protection",
         "Filter media: Imported glass fiber (nominal and absolute), SS wire mesh (reusable), Hydroclean paper",
@@ -1151,11 +1151,11 @@ export const FILTRATION_PRODUCTS = [
       sku: "KTB-IF-025",
       category: "Industrial Filtration",
       title: "HTC Replacement Turbine Filter Elements",
-      desc: "OEM-matched lube oil and control oil filter elements for HTC (Hindustan Turbines Corporation) steam turbines. Drop-in compatible with HTC filter housings for lube oil and governing system filtration.",
+      desc: "OEM-compatible lube oil and control oil filter elements for HTC (Hindustan Turbines Corporation) steam turbines. Drop-in compatible with HTC filter housings for lube oil and governing system filtration.",
       usage:
         "Lube oil and control oil filtration in HTC steam turbines used in sugar mills, paper mills, captive power plants, and process industries across India. Compatible with HTC centrifugal filter housings and standard duplex basket-type lube oil filters supplied as part of HTC turbine lube oil systems.",
       features: [
-        "OEM-matched for HTC steam turbines: lube oil and control oil filter positions",
+        "OEM-compatible for HTC steam turbines: lube oil and control oil filter positions",
         "Compatible with HTC centrifugal filter housing (CEP type) and standard basket-type duplex housings",
         "Filtration fineness: 10, 25, 40, 80 µm, specify HTC turbine model and filter position",
         "Filter media: SS wire mesh (reusable, CEP type), glass fiber (duplex lube oil housing)",

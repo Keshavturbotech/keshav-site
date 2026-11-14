@@ -20,8 +20,6 @@
         "label": "Suporte no Local Disponível"
       }
     ],
-    "whyUs": "Uma única folga ajustada incorretamente durante a montagem pode destruir um mancal em horas após o primeiro vapor. Nossos engenheiros de campo ex-OEM comissionaram pessoalmente os mesmos tipos de máquina que você está instalando — eles sabem exatamente o que a especificação OEM significa na prática, não apenas no papel.",
-    "overview": "A montagem e comissionamento de turbinas é a fase mais crítica de qualquer projeto de usina de energia ou industrial. Erros durante a montagem — alinhamento incorreto, folgas inadequadas, torques errados — se agravam em falhas custosas dentro do primeiro ano de operação. A Keshav Enterprises traz engenheiros de campo ex-OEM que comissionaram turbinas Triveni, Siemens, BHEL, Belliss e Maxwatt em usinas de energia, usinas de açúcar, fábricas de papel e indústrias de processo. Cada ponto de espera é testemunhado, cada folga é registrada e cada sistema de segurança é testado antes da admissão de vapor. Nosso pacote de documentação atende aos requisitos de entrega do cliente, seguradora e OEM.",
     "procedures": [
       {
         "step": "01",
@@ -139,26 +137,7 @@
   "srv_2": {
     "tagline": "Planejamento de Parada Chave na Mão até Reinício Sem Defeitos",
     "accentColor": "#0891b2",
-    "keyStats": [
-      {
-        "value": "8+",
-        "label": "Marcas OEM Revisadas"
-      },
-      {
-        "value": "{years}+",
-        "label": "Anos de Experiência de Campo"
-      },
-      {
-        "value": "0,001mm",
-        "label": "Resolução de Folga"
-      },
-      {
-        "value": "24×7",
-        "label": "Resposta de Emergência"
-      }
-    ],
     "whyUs": "Uma revisão geral mal executada é pior do que nenhuma revisão — introduz novos erros de folga, contaminação e falhas de remontagem. Nossos engenheiros foram treinados pelos OEMs. Eles sabem o que as tolerâncias realmente significam na temperatura e velocidade de operação, não apenas o que dizem no manual.",
-    "overview": "A revisão geral de turbinas não é uma atividade de manutenção — é uma intervenção de engenharia de precisão. A Keshav Enterprises implanta engenheiros ex-OEM da Triveni, Siemens, BHEL, Belliss, Maxwatt, Man Turbo, KKK e ABB para executar revisões gerais chave na mão com a mesma disciplina e padrões de documentação do fabricante original. Toda revisão geral começa de 4 a 6 semanas antes da parada com finalização do escopo, pré-inspeção de peças e planejamento de mobilização de mão de obra. Cada componente é medido antes da desmontagem, durante o desmonte e após a remontagem. Um relatório de condição escrito, registro de folgas e registro fotográfico são produzidos para cada revisão geral — criando uma linha de base para a próxima parada.",
     "procedures": [
       {
         "step": "01",
@@ -843,7 +822,6 @@
       }
     ],
     "whyUs": "Uma falha mal diagnosticada e reparada sem encontrar sua causa raiz falhará novamente — geralmente mais cedo do que da primeira vez. Nós não adivinhamos. Medimos, analisamos o espectro, desmontamos apenas o que os dados indicam, confirmamos a causa raiz fisicamente e a corrigimos com a mesma equipe que a encontrou.",
-    "overview": "Disparos não planejados de turbinas e degradação inexplicada de desempenho custam às plantas industriais milhões em produção perdida a cada ano. A Keshav Enterprises implanta engenheiros de diagnóstico de falhas ex-OEM com instrumentação diagnóstica completa para identificar, documentar e corrigir a causa raiz precisa de qualquer falha de turbina a vapor — desde vibração alta e falha de mancal até instabilidade de regulador, contaminação de óleo e vazamento de vapor. Cobrimos todas as marcas de turbina de 5 kW a 60 MW em todo o espectro das indústrias de processo e energia da Índia. Nossa metodologia é sistemática: medição online primeiro, inspeção física direcionada pelos dados, causa raiz confirmada por escrito, e ação corretiva executada pela mesma equipe que diagnosticou a falha.",
     "procedures": [
       {
         "step": "01",

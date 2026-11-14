@@ -1,0 +1,47 @@
+// src/data/product-meta-descriptions.ts
+// Hand-written English meta descriptions (140-160 characters, ending on a
+// complete sentence) for products whose own `desc` has a first sentence that is
+// too short for a good SERP snippet. Every fact below is taken from that
+// product's existing desc/specs. Keyed by product slug; English locale only.
+// Used by src/pages/products/[slug].astro; other locales keep their own text.
+export const PRODUCT_META_DESCRIPTIONS: Record<string, string> = {
+  "air-oil-separator-filter": "Borosilicate glass fiber coalescing air-oil separator elements for oil-flooded screw compressors, with residual oil carryover of 1–3 mg/m³ at nominal duty.",
+  "babbitt-journal-bearings-and-thrust-pads": "Precision machined babbitt (white metal) journal and thrust bearings for critical rotating turbine equipment, with ultrasonic bond testing of shell adhesion.",
+  "basket-strainer-elements": "Replacement SS 304/316 basket strainer elements for simplex and duplex housings, OEM interchangeable or matched to any housing, in 37 µm to 6 mm mesh sizes.",
+  "beacon-industrial-analog-tachometer-gauge": "Industrial analog panel tachometer for direct shaft speed indication in turbine control panels, with an IP54 sealed case for steam turbine house environments.",
+  "carbon-and-graphite-gland-sealing-rings": "Precision machined carbon and graphite gland sealing rings for steam turbines, 25–600 mm bore, for Triveni, BHEL and Siemens systems. Split designs available.",
+  "complete-turbine-rotor-assemblies": "Fully manufactured turbine rotor assemblies built to OEM tolerances, covering rough machining through final precision machining and ISO/API dynamic balancing.",
+  "concrete-pump-filter-element": "Heavy-duty hydraulic filter elements for concrete pumps, built for high collapse pressure and ISO 4406 cleanliness to protect proportional valves and pumps.",
+  "conical-strainer": "Welded SS 304/316 conical strainer fitted between flanges to remove weld splatter, rust and debris from pipelines during turbine and pump commissioning.",
+  "double-arch-rubber-expansion-joint": "Heavy-duty double arch rubber expansion joint with approx. 2x the movement capacity of a single arch. Absorbs multi-directional movement and reduces noise.",
+  "duplex-basket-strainer": "Continuous-service duplex basket strainer with a three-way changeover valve, so a dirty basket can be cleaned without shutting down the process.",
+  "duplex-control-oil-filter-assembly": "Duplex control oil filter assemblies for turbine governing systems with live element changeover, DN 25 to DN 150 connections and flow up to 850 LPM.",
+  "duplex-fabricated-filter-housing": "Twin-chamber fabricated duplex filter housings with manual changeover, 50–5,000 LPM flow, 5 µm to 40 µm element grades and DN 25 to DN 300 connections.",
+  "filter-bag-and-support-cage-assembly": "Baghouse filter bag and support cage assemblies for industrial dust collection, supplied as matched bag-and-cage sets or as separate replacement components.",
+  "flexible-disc-pack-metaflex": "Laminated stainless steel flexible disc pack coupling elements for turbine-generator sets, transmitting high torque and absorbing misalignment without lube.",
+  "high-pressure-hydraulic-rubber-hose-assemblies": "Steel wire braid and spiral-reinforced rubber hydraulic hose assemblies for extreme pressure service, with an oil and weather-resistant cover.",
+  "htc-replacement-turbine-filter-elements": "OEM-compatible lube oil and control oil filter elements for HTC (Hindustan Turbines Corporation) steam turbines, drop-in compatible with HTC filter housings.",
+  "labyrinth-shaft-sealing-packings": "Custom labyrinth seal segments and packings for steam turbine shaft sealing, machined to OEM clearances for Triveni, BHEL, Siemens, Belliss & Morcom and KKK.",
+  "mechanical-centrifugal-speed-governors": "Mechanical centrifugal governor assemblies for steam turbines, with fly-weight mechanism, speeder spring and pilot valve, covering 1,000–6,000 RPM.",
+  "metallic-flexible-hose-corrugated-core": "General-purpose corrugated SS304/316L flexible hose for industrial fluid and gas transfer, with optional wire braid, stocked in standard sizes.",
+  "ms-and-ss-industrial-duct-systems": "Custom-fabricated mild steel and stainless steel duct systems for industrial air, gas and fume conveyance, with SS ducts for corrosive and hygienic duties.",
+  "overspeed-trip-device-and-speed-switch": "Mechanical and electronic overspeed trip devices and speed switches that protect steam turbines from runaway, as OEM-compatible or upgrade units.",
+  "pall-replacement-filter-elements": "Drop-in replacement filter elements for Pall housings in microglass or stainless steel media, matched to Pall HC, HH and UE series specifications.",
+  "pleated-dust-collector-filter-cartridge-flange-type": "Flange-mounted pleated dust collector cartridges with a high pleat count and an airtight tubesheet seal that eliminates the bypass leakage of snap-in designs.",
+  "ptfe-braided-corrugated-transfer-hose": "PTFE-core corrugated transfer hose with SS304/316 outer braid, combining chemical resistance with flexibility for high-pressure fluid transfer duty.",
+  "ptfe-hydrophobic-air-and-gas-filter-elements": "Hydrophobic PTFE filter elements for critical compressed air and process gas applications, with moisture-repellent construction that blocks water droplets.",
+  "rotor-journal-polishing-service": "In-situ or workshop journal polishing for turbine and alternator rotors, restoring surface finish to Ra 0.4 µm or better without removing the rotor.",
+  "shear-pins-turbine-coupling": "Calibrated shear pins that act as mechanical fuses in turbine couplings, disconnecting the drive train to protect gearboxes, rotors and driven equipment.",
+  "simplex-basket-strainer": "Simplex basket strainers fabricated to ASME VIII Div.1 and B31.3, DN 15 to DN 600, with SS perforated basket internals and low pressure drop at high velocities.",
+  "single-arch-rubber-expansion-joint": "Standard single arch rubber expansion joint that absorbs thermal movement and vibration, a compact, cost-effective choice for HVAC and water lines.",
+  "spiral-conveyor-screw-turbine-auxiliaries": "Precision fabricated spiral screw conveyors for turbine auxiliary and power plant material handling, made to OEM pitch, diameter and helix angle specifications.",
+  "ss-hose-pre-fitted-assemblies": "Stainless steel corrugated hose assemblies with pre-fitted, tested end fittings and leak-proof sealed connections, ready to bolt on for immediate installation.",
+  "ss-wire-mesh-cep-centrifugal-filter-elements": "Cleanable, reusable stainless steel wire mesh CEP filter elements in single or multi-layer pleated construction for rotating housings and high-temperature duty.",
+  "stainless-steel-metallic-bellows-expansion-joint": "Multi-ply stainless steel metallic bellows expansion joints from DN 15 to DN 12,000, tested to EJMA/ASME standards for high-cycle fatigue life.",
+  "steam-hose-high-temperature-service": "High-temperature steam hose with an SS316L corrugated core and braid reinforcement, rated for continuous saturated and superheated steam service.",
+  "triveni-replacement-turbine-control-oil-filters": "OEM-compatible control oil filter elements for Triveni electrohydraulic governing systems, holding ISO 4406 16/14/11 cleanliness for servo valves to 210 bar.",
+  "turbine-lube-oil-cooler-shell-and-tube-plate-type": "Replacement and new lube oil coolers for steam turbines in shell and tube or plate type, built to TEMA and ASME VIII standards or OEM dimensional specification.",
+  "turbine-lube-oil-pumps-and-mechanical-seals": "OEM-compatible main and auxiliary turbine lube oil pumps with precision mechanical seals, 10–500 LPM at 5–20 bar, for Triveni, BHEL, Belliss & Morcom, Maxwatt.",
+  "turbine-throttle-control-valves": "High-pressure throttle and control valves for precise steam flow regulation into turbine stages, with Stellite-trimmed internals for erosion resistance.",
+  "wide-arch-rubber-expansion-bellow": "Wide arch rubber expansion bellow for maximum movement absorption, vibration isolation and noise attenuation on high-vibration pump and motor connections.",
+};
