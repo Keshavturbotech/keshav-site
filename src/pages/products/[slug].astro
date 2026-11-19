@@ -141,7 +141,23 @@ const productSchema = {
             })),
           }
         : {}),
-      // No `offers`: prices on this site are indicative ranges, not firm offers.
+      // Google's Product snippets rule requires one of offers / review /
+      // aggregateRating (Search Console flagged its absence as a critical
+      // issue). We have no reviews or ratings and must not invent them, so
+      // the price band the page already shows visitors (in INR, see
+      // ProductDetailInteractive) is declared as an AggregateOffer: low and
+      // high price, not a firm single price. Only emitted when both bounds
+      // are real numbers, so the markup always matches visible page content.
+      ...(Number.isFinite(product.priceRange?.min) && Number.isFinite(product.priceRange?.max)
+        ? {
+            offers: {
+              "@type": "AggregateOffer",
+              priceCurrency: "INR",
+              lowPrice: product.priceRange!.min,
+              highPrice: product.priceRange!.max,
+            },
+          }
+        : {}),
       manufacturer: { "@type": "Organization", name: "Keshav Enterprises", url: SITE_URL },
     },
     {

@@ -261,7 +261,11 @@ export default function ProductDetailInteractive({ product, imageMap = {}, local
                   src={resolveImg(activeImage).src}
                   srcSet={resolveImg(activeImage).srcSet}
                   sizes="(min-width: 1024px) 600px, 90vw"
-                  alt=""
+                  // Descriptive alt for image search: this is the page's main
+                  // product photo and was alt="" (the thumbnails already carry
+                  // "<title> view N"). aria-hidden stays, so screen readers
+                  // don't announce it twice alongside the button's own label.
+                  alt={product.title}
                   aria-hidden="true"
                   className={`relative z-[1] max-w-full max-h-full w-auto h-auto object-contain drop-shadow-lg transition-opacity duration-300 ${loadedSrcs.has(activeImage) ? "opacity-100" : "opacity-0"}`}
                   width={600}
